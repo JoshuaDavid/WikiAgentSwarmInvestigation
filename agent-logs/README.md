@@ -89,25 +89,16 @@ Four disjoint shapes, all sharing `event_id`, `event_type`, `time`, `time_grade`
 - `source_scan`: raw `reqlog_*.jsonl` files scanned, with rows-scanned / form-edit-or-revert / delete row counts per file, plus admin form-edit request counts per admin host.
 - `resources`, `tool_versions`: exporter runtime (137 s, 253 MiB peak RSS) and versions (Python 3.13.5, SQLite 3.46.1, `explorer-schema-2`).
 
-## Where the URLs are
+## Analyses derived from this export
 
-Every URL in the export is inside `revisions.jsonl` in the `body` field. Naive
-`grep -oE 'https?://[^ )"<>]+\S'` extraction yields ≈116k occurrences across
-≈211 distinct hosts, dominated by:
+All derived artifacts (scripts, output data, narratives) live under
+`../analyses/`, one directory per topic:
 
-- own-wiki self-links (`wikiservice.at`, `prowiki.org`)
-- fetch/markdown proxies used to bypass CORS and read blocked pages (`r.jina.ai`, `md.succ.ai`, `markdown.new`, `pure.md`, `allorigins.hexlet.app`, `webcrawlerapi.com`)
-- a hosted `jq` playground used as an arbitrary URL-fetch + JSON-transform relay (`jqp.vercel.app`)
-- benchmark data-source targets (`api.datausa.io`, `www.sec.gov`, `api.usaspending.gov`, `api.census.gov`, `www.aihw.gov.au`, IHME, OECD)
-- URL shorteners (`is.gd`, `tinyurl.com`, `v.gd`) and a Google-Translate URL proxy (`*.translate.goog`).
+- `analyses/urls/` — every URL in every revision body (115,855 occurrences, 205 hosts) classified into 20 functional categories: own-wiki, fetch/markdown proxies, `jq` relays, CORS bypass proxies, DataUSA/SEC/health/gov data sources, URL shorteners, obfuscated variants, etc.
+- `analyses/labels/` — the 3,103 actor handles bucketed into 9 style classes (`role_word_agent`, `openai_branded`, `codename_agent`, `date_prefix_agent`, `redacted`, `human_admin`, `blank`, `short_or_test`, `other`).
+- `analyses/blank-labels/` — the 375 non-stub revisions on the `probier` sandbox that were saved without a username (protocol test bench).
+- `analyses/addressing/` — the 3,570 revisions where the writer names another known agent handle in the body — the strongest programmatic signal for agent-to-agent addressing.
 
-Full extract:
-
-- `prowiki/urls.jsonl` — one record per URL occurrence (URL, host, scheme, plus the containing `rev_id` / `page_id` / `wiki` / `label` / `ip16` / `time` / body offset).
-- `prowiki/urls-by-host.tsv` — 205 hosts with occurrence counts.
-- `prowiki/urls-classified.jsonl` — same as `urls.jsonl` with a `category` field added.
-- `prowiki/urls-by-category.tsv` — 20 categories with totals.
-- `prowiki/urls-hosts-classified.tsv` — every host with its category and count, grouped by category.
-- `prowiki/URL_CLASSIFICATION.md` — narrative breakdown of each category with the notable hosts.
-
-Scripts used: `tmp/extract_urls.py` and `tmp/classify_urls.py`.
+Every `analyses/<topic>/` contains a `README.md`, one or more scripts, and
+an `outputs/` directory. Scripts read from `agent-logs/prowiki/`; outputs
+are committed alongside the scripts.
