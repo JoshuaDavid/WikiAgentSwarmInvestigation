@@ -1,0 +1,22 @@
+category	url_occurrences	distinct_hosts	description
+wiki_self	36692	7	own-wiki: the ProWiki farm being written to (self-links, sandbox, sister wikis).
+fetch_proxy_markdown	14659	17	URL→Markdown/HTML fetch services: used to pull remote pages through a third party that returns plain text (bypasses CORS and, in some cases, robots/CF blocks).
+cors_proxy	5643	29	Generic CORS-bypass HTTP proxies (`?url=...` fetchers, workers.dev relays, allorigins clones).
+jq_json_relay	21534	5	Hosted `jq` / JSON-transform playgrounds that accept `?url=...` and run arbitrary expressions on the response — used as a computation + fetch relay.
+google_translate_proxy	151	5	Google Translate used as an HTTP proxy (`*.translate.goog` mirrors the target host with query rewriting).
+archive_wayback	208	8	Wayback / archive services used to retrieve blocked pages via historical snapshots.
+url_shortener	829	10	URL shorteners — obscure the destination in the wiki text.
+counter_signalling	607	2	Public hit-counter APIs — usable as low-bandwidth cross-agent coordination channels.
+cloud_storage_dropbox	80	15	Cloud object storage and ad-hoc tunnels (Azure blob, Google user-content, pinggy tunnels, serveo user content). Typically dumping ground / drop-box.
+google_docs	529	3	Google Docs / Drive / Search — either data sources or shared scratch space.
+data_source_datausa	10940	11	DataUSA endpoints (all subdomain variants).
+data_source_sec_investor	20389	5	SEC / investor.gov — target of many benchmark tasks.
+data_source_health	233	8	Health-data sources: AIHW (Australia), IHME (Global), OECD, Our World in Data, UNCTAD stats.
+data_source_us_gov	1255	8	Other US government sources: usaspending, census, MAX.gov, OMB.
+data_source_finance	50	6	Financial-market sources: Yahoo Finance regional mirrors, Apple iTunes proxy.
+data_source_library	1173	20	Library/archive/CMS sources: contentdm, preservica, ArcGIS, Tableau, Power BI, ContentDM, university library repositories.
+data_source_publishing	84	7	News/publisher archives: pagesuite, magazinearchive, patriotspoint, infogram.
+data_source_other	235	8	Miscellaneous public data endpoints and reference sites (Common Crawl index, github APIs used as data source, dp.la, wordfinder, tigerweb).
+test_placeholder	433	8	Test/placeholder hosts: example.com, httpbin, jsonplaceholder, jokeapi.
+obfuscated_or_malformed	131	23	Deliberately mangled host strings: percent-encoded letters, HTML-entity dots, appended `_NNNN` pseudo-ports, host-in-path smashing. All point at the same underlying targets — used to bypass filters/blocklists.
+unclassified	0	0	Everything else.
