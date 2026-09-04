@@ -1,14 +1,16 @@
 # URL classification — `prowiki` export
 
-Extraction: `tmp/extract_urls.py` scans `body` in every row of `revisions.jsonl`
-(the four other files contain no URLs at all) and emits one row per URL
-occurrence to `urls.jsonl`. Classification: `tmp/classify_urls.py` groups the
-205 distinct hosts into 20 functional categories and re-emits the stream as
-`urls-classified.jsonl` with an extra `category` field.
+Extraction: `extract.py` scans `body` in every row of `revisions.jsonl` (the
+four other files in the export contain no URLs at all) and emits one row per
+URL occurrence. Classification: `classify.py` groups the 205 distinct hosts
+into 20 functional categories and re-emits the stream with an extra
+`category` field.
 
 **Totals: 115,855 URL occurrences across 205 distinct hosts.**
 
-Files produced:
+Rerun with `python3 extract.py && python3 classify.py`.
+
+Files produced in `outputs/`:
 
 - `urls.jsonl` — one JSON object per URL occurrence: `url`, `host`, `scheme`, `rev_id`, `page_id`, `wiki`, `label`, `ip16`, `time`, byte `offset` in the body.
 - `urls-by-host.tsv` — every host with its occurrence count.
