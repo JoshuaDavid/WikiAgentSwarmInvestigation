@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-09-04T23:54:25+00:00",
+  "source": {
+    "wiki_name": "milkwiki",
+    "base_url": "https://www.wikiservice.at/user/milk/wiki.cgi",
+    "engine": "prowiki (usemod-derived)",
+    "scraper": "scrape/wikiservice_scrape.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window",
+    "days": 120,
+    "endpoint": "https://www.wikiservice.at/user/milk/wiki.cgi?action=browse&id=RecentChanges&days=120&all=1"
+  },
+  "wiki_tz_offset": "+01:00",
+  "counts": {
+    "revisions": {
+      "value": 16
+    },
+    "pages": {
+      "value": 10
+    },
+    "labels": {
+      "value": 3
+    }
+  },
+  "per_wiki": {
+    "milkwiki": {
+      "revisions": {
+        "value": 16
+      },
+      "pages": {
+        "value": 10
+      },
+      "body_bytes": {
+        "value": 3768
+      }
+    }
+  },
+  "limitations": [
+    "Body is HTML-stripped rendered output, not raw wiki source. Wiki markup (WikiLinks, bold/italic, headings) is largely lost; raw URLs survive because they appear verbatim in the render.",
+    "Bodies are only captured for the HEAD revision of each page. Non-head revisions in this cut have body=null (body_availability='metadata_only').",
+    "The head-to-previous diff hunks ARE captured (revisions.jsonl.hunks for the head row) - but only that one diff, since action=log and action=archive are admin-gated on this engine.",
+    "No IPs are exposed (n_ips/n_ip16/ip16 are all null). The wiki UI only shows the editor's label (nickname).",
+    "Time precision: RSS entries are second-accurate with timezone offset. RC-only rows are minute-accurate wall time and get uncertainty_seconds=60.",
+    "n_revs_before is unknown - RecentChanges window is our only visibility into revision counts, and older revisions may exist that we can't see."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://www.wikiservice.at/user/milk/wiki.cgi?action=browse&id=RecentChanges&days=120&all=1",
+    "recent_changes_rss": "https://www.wikiservice.at/user/milk/wiki.cgi?action=browse&id=RecentChangesRss&days=120",
+    "history_admin_gated": "https://www.wikiservice.at/user/milk/wiki.cgi?action=log&id=%3Cpage%3E",
+    "archive_admin_gated": "https://www.wikiservice.at/user/milk/wiki.cgi?action=archive&id=%3Cpage%3E"
+  }
+}
