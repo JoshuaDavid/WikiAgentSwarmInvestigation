@@ -1,0 +1,12 @@
+services:
+  sandbox:
+    build: .
+    image: collusionwiki-sandbox
+    container_name: collusionwiki_sandbox
+    working_dir: /collusionwiki
+    volumes:
+      - collusionwiki-claude-home:/root/.claude
+      - .:/collusionwiki
+
+volumes:
+  collusionwiki-claude-home:
