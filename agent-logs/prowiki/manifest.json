@@ -1,0 +1,2221 @@
+{
+  "generated_at": "2026-09-03T03:42:36Z",
+  "db_sha256": "199241bf9e0b38b58764cf1545680de8fec8896db034050bde145e3b6f6ce0bb",
+  "cut": {
+    "field": "revision.write_date",
+    "operator": ">=",
+    "value": "2026-05-01"
+  },
+  "counts": {
+    "revisions": {
+      "value": 14591,
+      "population_id": "held_revisions_write_cut"
+    },
+    "pages": {
+      "value": 4579,
+      "population_id": "held_pages_write_cut"
+    },
+    "labels": {
+      "value": 3103,
+      "population_id": "published_labels"
+    }
+  },
+  "per_wiki": {
+    "dse": {
+      "revisions": {
+        "value": 13403,
+        "population_id": "held_revisions_write_cut"
+      },
+      "pages": {
+        "value": 3908,
+        "population_id": "held_pages_write_cut"
+      },
+      "body_bytes": {
+        "value": 26358586,
+        "population_id": "held_revisions_write_cut"
+      }
+    },
+    "probier": {
+      "revisions": {
+        "value": 1013,
+        "population_id": "held_revisions_write_cut"
+      },
+      "pages": {
+        "value": 601,
+        "population_id": "held_pages_write_cut"
+      },
+      "body_bytes": {
+        "value": 628751,
+        "population_id": "held_revisions_write_cut"
+      }
+    },
+    "fractal": {
+      "revisions": {
+        "value": 169,
+        "population_id": "held_revisions_write_cut"
+      },
+      "pages": {
+        "value": 68,
+        "population_id": "held_pages_write_cut"
+      },
+      "body_bytes": {
+        "value": 195967,
+        "population_id": "held_revisions_write_cut"
+      }
+    },
+    "dorfwiki": {
+      "revisions": {
+        "value": 6,
+        "population_id": "held_revisions_write_cut"
+      },
+      "pages": {
+        "value": 2,
+        "population_id": "held_pages_write_cut"
+      },
+      "body_bytes": {
+        "value": 2754,
+        "population_id": "held_revisions_write_cut"
+      }
+    }
+  },
+  "population_counts": {
+    "save": {
+      "value": 14591,
+      "population_id": "held_revisions_write_cut",
+      "kind": "event_population"
+    },
+    "delete": {
+      "value": 5217,
+      "population_id": "dse_admin_deletions",
+      "kind": "event_population"
+    },
+    "revert": {
+      "value": 4,
+      "population_id": "first_recreation_relations",
+      "kind": "event_population"
+    },
+    "probe": {
+      "value": 101,
+      "population_id": "dse_script_probe_requests",
+      "kind": "event_population"
+    },
+    "first_recreation_relations": {
+      "value": 68,
+      "population_id": "first_recreation_relations",
+      "kind": "relation_count"
+    },
+    "never_sum": "The save, delete, revert and probe row populations overlap in what they describe; events.jsonl happens to contain 19,913 rows, but that physical row total has no incident meaning, and the 68 first-recreation relations are edges rather than rows."
+  },
+  "grade_histograms": {
+    "save": {
+      "values": {
+        "rclog": 103,
+        "reqlog": 14482,
+        "write_date": 6
+      },
+      "population_id": "held_revisions_write_cut"
+    },
+    "delete": {
+      "values": {
+        "rclog": 1,
+        "reqlog": 5216
+      },
+      "population_id": "dse_admin_deletions"
+    },
+    "revert": {
+      "values": {
+        "reqlog": 4
+      },
+      "population_id": "first_recreation_relations"
+    },
+    "first_recreation_relations": {
+      "values": {
+        "reqlog": 68
+      },
+      "population_id": "first_recreation_relations"
+    },
+    "probe": {
+      "values": {
+        "reqlog": 101
+      },
+      "population_id": "dse_script_probe_requests"
+    }
+  },
+  "body_bytes": {
+    "total": {
+      "value": 27186058,
+      "population_id": "held_revisions_write_cut"
+    },
+    "by_wiki": {
+      "dorfwiki": {
+        "value": 2754,
+        "population_id": "held_revisions_write_cut"
+      },
+      "dse": {
+        "value": 26358586,
+        "population_id": "held_revisions_write_cut"
+      },
+      "fractal": {
+        "value": 195967,
+        "population_id": "held_revisions_write_cut"
+      },
+      "probier": {
+        "value": 628751,
+        "population_id": "held_revisions_write_cut"
+      }
+    }
+  },
+  "body_encoding": {
+    "values": {
+      "ascii": 14340,
+      "utf8": 250,
+      "latin1": 1
+    },
+    "population_id": "held_revisions_write_cut"
+  },
+  "page_family_coverage": {
+    "covered": {
+      "value": 3908,
+      "population_id": "held_pages_write_cut"
+    },
+    "uncovered": {
+      "value": 671,
+      "population_id": "held_pages_write_cut"
+    },
+    "source": "corpus/evals/page_family.jsonl"
+  },
+  "facts": {
+    "held_revisions": {
+      "value": 14591,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revisions in the published write-date cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "held_pages": {
+      "value": 4579,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct stored wiki and page-name pairs represented in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_held_revisions": {
+      "value": 13403,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored dse revisions in the published write-date cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_held_pages": {
+      "value": 3908,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct stored dse pages represented in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "probier_held_revisions": {
+      "value": 1013,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored probier revisions in the published write-date cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "probier_held_pages": {
+      "value": 601,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct stored probier pages represented in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "fractal_held_revisions": {
+      "value": 169,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored fractal revisions in the published write-date cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "fractal_held_pages": {
+      "value": 68,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct stored fractal pages represented in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dorfwiki_held_revisions": {
+      "value": 6,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored dorfwiki revisions in the published write-date cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dorfwiki_held_pages": {
+      "value": 2,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct stored dorfwiki pages represented in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "held_revision_body_bytes": {
+      "value": 27186058,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Source bytes in all stored revision bodies in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "pages_beginning_at_seq_1": {
+      "value": 4562,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published pages whose first held revision is logical sequence one.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "pages_with_earlier_unpublished_revisions": {
+      "value": 17,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published pages whose logical sequence proves earlier revisions are outside the cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "blank_label_revisions": {
+      "value": 899,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revisions whose verbatim preference label is blank.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "ascii_revision_bodies": {
+      "value": 14340,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revision bodies containing only ASCII source bytes.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "utf8_revision_bodies": {
+      "value": 250,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revision bodies whose non-ASCII source bytes decode once as strict UTF-8.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "latin1_revision_bodies": {
+      "value": 1,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revision bodies whose non-ASCII source bytes do not decode as strict UTF-8.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "non_ascii_revision_bodies": {
+      "value": 251,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revision bodies containing a non-ASCII source byte.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "save_grade_reqlog": {
+      "value": 14482,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored save revisions whose corroboration grade is reqlog.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "save_grade_rclog": {
+      "value": 103,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored save revisions whose corroboration grade is rclog.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "save_grade_write_date": {
+      "value": 6,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored save revisions whose corroboration grade is write_date.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "published_names_with_slash": {
+      "value": 77,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published logical page names containing a slash.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "published_names_with_tilde": {
+      "value": 0,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published logical page names containing a tilde.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "non_ascii_published_names": {
+      "value": 1,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published logical page names containing a non-ASCII character.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_storage_buckets": {
+      "value": 26,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct physical storage buckets among published DSE pages.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "page_family_covered_pages": {
+      "value": 3908,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published DSE pages covered by the page-family map.",
+      "source_refs": [
+        "corpus/evals/page_family.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "page_family_uncovered_pages": {
+      "value": 671,
+      "population_id": "held_pages_write_cut",
+      "definition": "Published off-store pages assigned the unclassified family.",
+      "source_refs": [
+        "corpus/evals/page_family.jsonl",
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_admin_deletion_events": {
+      "value": 5217,
+      "population_id": "dse_admin_deletions",
+      "definition": "Successful DSE administrator deletion events in the declared window.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:wiki=dse account=[Admin1] summary='Seite gelöscht.' 2026-06-04..2026-07-14"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_admin_deleted_pages": {
+      "value": 5144,
+      "population_id": "dse_admin_deletions",
+      "definition": "Distinct DSE pages named by the administrator deletion events.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:wiki=dse account=[Admin1] summary='Seite gelöscht.' 2026-06-04..2026-07-14"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_admin_deletions_grade_reqlog": {
+      "value": 5216,
+      "population_id": "dse_admin_deletions",
+      "definition": "Administrator deletion events with a unique corroborating request.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:wiki=dse account=[Admin1] summary='Seite gelöscht.' 2026-06-04..2026-07-14"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_admin_deletions_grade_rclog": {
+      "value": 1,
+      "population_id": "dse_admin_deletions",
+      "definition": "Administrator deletion events supported only by the native change log.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:wiki=dse account=[Admin1] summary='Seite gelöscht.' 2026-06-04..2026-07-14"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_admin_deletions_without_held_page": {
+      "value": 1248,
+      "population_id": "dse_admin_deletions",
+      "definition": "Administrator deletion events whose page has no published revision.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:wiki=dse account=[Admin1] summary='Seite gelöscht.' 2026-06-04..2026-07-14"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_admin_deleted_pages_without_held_page": {
+      "value": 1246,
+      "population_id": "dse_admin_deletions",
+      "definition": "Distinct deletion-only DSE pages with no published revision.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:wiki=dse account=[Admin1] summary='Seite gelöscht.' 2026-06-04..2026-07-14"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "first_recreation_relations": {
+      "value": 68,
+      "population_id": "first_recreation_relations",
+      "definition": "First-recreation relation edges from eligible deletions to their first later successful mutation.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:first later non-admin non-deletion edit after eligible deletion",
+        "explorer/spec/CLOCK-AUDIT.md:154-185"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "first_recreation_pages": {
+      "value": 50,
+      "population_id": "first_recreation_relations",
+      "definition": "Distinct pages carrying a first-recreation relation.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:first later non-admin non-deletion edit after eligible deletion",
+        "explorer/spec/CLOCK-AUDIT.md:154-185"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "first_recreation_relations_with_revision_ref": {
+      "value": 64,
+      "population_id": "first_recreation_relations",
+      "definition": "First-recreation edges whose response has a stored revision reference.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:first later non-admin non-deletion edit after eligible deletion",
+        "explorer/spec/CLOCK-AUDIT.md:154-185"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "first_recreation_relations_without_revision_ref": {
+      "value": 4,
+      "population_id": "first_recreation_relations",
+      "definition": "First-recreation edges whose response has no stored revision reference.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:first later non-admin non-deletion edit after eligible deletion",
+        "explorer/spec/CLOCK-AUDIT.md:154-185"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "stored_revisions_with_first_recreation_relation": {
+      "value": 63,
+      "population_id": "first_recreation_relations",
+      "definition": "Distinct stored revisions carrying one or more first-recreation edges.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:first later non-admin non-deletion edit after eligible deletion",
+        "explorer/spec/CLOCK-AUDIT.md:154-185"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "first_recreation_relations_grade_reqlog": {
+      "value": 68,
+      "population_id": "first_recreation_relations",
+      "definition": "First-recreation relation edges corroborated by a unique request.",
+      "source_refs": [
+        "corpus/live/rclog.jsonl:first later non-admin non-deletion edit after eligible deletion",
+        "explorer/spec/CLOCK-AUDIT.md:154-185"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_script_probe_requests": {
+      "value": 101,
+      "population_id": "dse_script_probe_requests",
+      "definition": "DSE requests in the narrow executable script-injection family.",
+      "source_refs": [
+        "corpus/live/attacklog_raw_dse_2605.jsonl",
+        "corpus/live/attacklog_raw_dse_2606.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "dse_script_probe_request_ips": {
+      "value": 68,
+      "population_id": "dse_script_probe_requests",
+      "definition": "Distinct observed IP strings on the script-probe requests.",
+      "source_refs": [
+        "corpus/live/attacklog_raw_dse_2605.jsonl",
+        "corpus/live/attacklog_raw_dse_2606.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "may_script_probe_requests": {
+      "value": 39,
+      "population_id": "dse_script_probe_requests",
+      "definition": "Script-probe requests observed in May 2026.",
+      "source_refs": [
+        "corpus/live/attacklog_raw_dse_2605.jsonl",
+        "corpus/live/attacklog_raw_dse_2606.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "june_script_probe_requests": {
+      "value": 62,
+      "population_id": "dse_script_probe_requests",
+      "definition": "Script-probe requests observed in June 2026.",
+      "source_refs": [
+        "corpus/live/attacklog_raw_dse_2605.jsonl",
+        "corpus/live/attacklog_raw_dse_2606.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "may_script_probe_request_ips": {
+      "value": 37,
+      "population_id": "dse_script_probe_requests",
+      "definition": "Distinct observed IP strings on May 2026 script-probe requests.",
+      "source_refs": [
+        "corpus/live/attacklog_raw_dse_2605.jsonl",
+        "corpus/live/attacklog_raw_dse_2606.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "june_script_probe_request_ips": {
+      "value": 31,
+      "population_id": "dse_script_probe_requests",
+      "definition": "Distinct observed IP strings on June 2026 script-probe requests.",
+      "source_refs": [
+        "corpus/live/attacklog_raw_dse_2605.jsonl",
+        "corpus/live/attacklog_raw_dse_2606.jsonl"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "published_labels": {
+      "value": 3103,
+      "population_id": "published_labels",
+      "definition": "Distinct verbatim preference labels on stored revisions in the published cut.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision GROUP BY actor_pref WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label"
+      ]
+    },
+    "human_handle_labels": {
+      "value": 3,
+      "population_id": "published_labels",
+      "definition": "Published labels allowlisted as pre-existing human handles.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision GROUP BY actor_pref WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label"
+      ]
+    },
+    "human_hosts_tokenised": {
+      "value": 8,
+      "population_id": "published_labels",
+      "definition": "Addresses a human handle acted from, published as [Admin1-hostN] tokens, never as addresses.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision GROUP BY actor_pref WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label"
+      ]
+    },
+    "legacy_pages_withheld": {
+      "value": 17,
+      "population_id": "published_labels",
+      "definition": "Published pages with revisions before the cut; every pre-cut line of theirs is published as the placeholder line, never as text.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision GROUP BY actor_pref WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label"
+      ]
+    },
+    "agent_relent_save_requests": {
+      "value": 798,
+      "population_id": "dse_save_requests_by_label",
+      "definition": "Save-request rows carrying the label AgentRelent.",
+      "source_refs": [
+        "corpus/derived/edit_actors.jsonl:unix_ts >= 1777593600"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "published_labels"
+      ]
+    },
+    "agent_relent_save_request_ips": {
+      "value": 756,
+      "population_id": "dse_save_requests_by_label",
+      "definition": "Distinct save-request IP strings carrying the label AgentRelent.",
+      "source_refs": [
+        "corpus/derived/edit_actors.jsonl:unix_ts >= 1777593600"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "published_labels"
+      ]
+    },
+    "admin1_save_requests": {
+      "value": 3887,
+      "population_id": "dse_save_requests_by_label",
+      "definition": "Save-request rows carrying the label [Admin1].",
+      "source_refs": [
+        "corpus/derived/edit_actors.jsonl:unix_ts >= 1777593600"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "published_labels"
+      ]
+    },
+    "admin1_save_request_ips": {
+      "value": 2,
+      "population_id": "dse_save_requests_by_label",
+      "definition": "Distinct save-request IP strings carrying the label [Admin1].",
+      "source_refs": [
+        "corpus/derived/edit_actors.jsonl:unix_ts >= 1777593600"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "published_labels"
+      ]
+    },
+    "agent_relent_save_request_ip16": {
+      "value": 119,
+      "population_id": "dse_save_requests_by_label",
+      "definition": "Distinct validated IPv4 /16 prefixes on AgentRelent save requests.",
+      "source_refs": [
+        "corpus/derived/edit_actors.jsonl:unix_ts >= 1777593600"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "published_labels"
+      ]
+    },
+    "agent_relent_save_request_pages": {
+      "value": 4,
+      "population_id": "dse_save_requests_by_label",
+      "definition": "Distinct wiki and page-name pairs on AgentRelent save requests.",
+      "source_refs": [
+        "corpus/derived/edit_actors.jsonl:unix_ts >= 1777593600"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "published_labels"
+      ]
+    },
+    "agent_relent_stored_revisions": {
+      "value": 317,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Stored revisions carrying the verbatim AgentRelent label.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "agent_relent_stored_revision_ips": {
+      "value": 308,
+      "population_id": "held_revisions_write_cut",
+      "definition": "Distinct stored revision IP strings carrying the AgentRelent label.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_pages_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    },
+    "agent_relent_stored_revision_pages": {
+      "value": 4,
+      "population_id": "held_pages_write_cut",
+      "definition": "Distinct published pages with a stored AgentRelent revision.",
+      "source_refs": [
+        "corpus/farm_db/farm.sqlite:revision DISTINCT wiki,name WHERE write_date >= '2026-05-01'"
+      ],
+      "never_add_to": [
+        "held_revisions_write_cut",
+        "dse_admin_deletions",
+        "first_recreation_relations",
+        "dse_script_probe_requests",
+        "dse_save_requests_by_label",
+        "published_labels"
+      ]
+    }
+  },
+  "recreation_source": {
+    "population_id": "first_recreation_relations",
+    "method": "derived_from_rclog",
+    "reason": "No row-level 68-event data file is present beside findings/deletion-response/W1-RESURRECTION.md; rows were derived with CLOCK-AUDIT.md section 3's first-later-edit rule.",
+    "cutoff_unix_ts": 1782120004,
+    "revision_link_rule": "Use the same page/label/IP save within two seconds when held; otherwise link the first later stored non-admin save and mark that limitation in clock_note.",
+    "exact_revision_refs": 58,
+    "fallback_revision_refs": 6,
+    "request_action_histogram": {
+      "form_edit": 64,
+      "revert": 4
+    },
+    "null_revision_request_action_histogram": {
+      "form_edit": 4
+    },
+    "native_revert_request_rows": 4,
+    "stored_relation_edges": 64,
+    "stored_relation_revisions": 63
+  },
+  "resources": {
+    "population_id": "export_process_resources",
+    "peak_rss_kib": 253552,
+    "wall_seconds": 137.024
+  },
+  "tool_versions": {
+    "python": "3.13.5",
+    "sqlite": "3.46.1",
+    "exporter": "explorer-schema-2",
+    "diff": "difflib.SequenceMatcher autojunk=False, line-split on \\n"
+  },
+  "source_scan": {
+    "rclog": {
+      "source_rows": 158016,
+      "retained_rows": 42633,
+      "population_id": "native_rclog_source_scan"
+    },
+    "requests": {
+      "sources": {
+        "reqlog_dse_2606.jsonl": {
+          "rows_scanned": 2006384,
+          "form_edit_or_revert_rows": 33311,
+          "delete_rows": 2670
+        },
+        "reqlog_dse_2607.jsonl": {
+          "rows_scanned": 674535,
+          "form_edit_or_revert_rows": 1934,
+          "delete_rows": 2708
+        },
+        "reqlog_probier_2606.jsonl": {
+          "rows_scanned": 12549,
+          "form_edit_or_revert_rows": 2066,
+          "delete_rows": 0
+        },
+        "reqlog_probier_2607.jsonl": {
+          "rows_scanned": 6466,
+          "form_edit_or_revert_rows": 16,
+          "delete_rows": 0
+        },
+        "reqlog_ipset_probier_2606.jsonl": {
+          "rows_scanned": 10002,
+          "form_edit_or_revert_rows": 3248,
+          "delete_rows": 0
+        },
+        "reqlog_ipset_probier_2607.jsonl": {
+          "rows_scanned": 138,
+          "form_edit_or_revert_rows": 16,
+          "delete_rows": 0
+        },
+        "reqlog_fractal_2606.jsonl": {
+          "rows_scanned": 35096,
+          "form_edit_or_revert_rows": 798,
+          "delete_rows": 0
+        },
+        "reqlog_ipset_fractal_2606.jsonl": {
+          "rows_scanned": 3604,
+          "form_edit_or_revert_rows": 797,
+          "delete_rows": 0
+        },
+        "reqlog_ipset_fractal_2607.jsonl": {
+          "rows_scanned": 54,
+          "form_edit_or_revert_rows": 8,
+          "delete_rows": 0
+        }
+      },
+      "admin_form_edit_requests": 3889,
+      "admin_form_edit_requests_by_ip": {
+        "[Admin1-host1]": 1490,
+        "[Admin1-host2]": 2399
+      },
+      "population_id": "request_log_source_scan"
+    },
+    "save_requests": {
+      "source": "corpus/derived/edit_actors.jsonl",
+      "rows": 40596,
+      "rows_at_or_after_cut": 40596,
+      "first": "2026-05-24T06:02:19Z",
+      "last": "2026-08-27T20:23:59Z",
+      "population_id": "dse_save_requests_by_label"
+    },
+    "probes": {
+      "source_rows": {
+        "attacklog_raw_dse_2605.jsonl": 18935,
+        "attacklog_raw_dse_2606.jsonl": 891508
+      },
+      "by_month": {
+        "2605": 39,
+        "2606": 62
+      },
+      "ips_by_month": {
+        "2605": 37,
+        "2606": 31
+      },
+      "distinct_ips": 68,
+      "first": "2026-05-17T05:46:45Z",
+      "last": "2026-06-30T12:10:38Z",
+      "population_id": "dse_script_probe_requests"
+    }
+  },
+  "request_source_note": "The contract's expected probier/fractal grades require the locally held reqlog_ipset companion projections in addition to the six named reqlog files; their exact scanned filenames and row counts are recorded in source_scan.requests.",
+  "checks": [
+    {
+      "name": "published revisions",
+      "expected": 14591,
+      "actual": 14591,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "published pages",
+      "expected": 4579,
+      "actual": 4579,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dse revisions",
+      "expected": 13403,
+      "actual": 13403,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dse pages",
+      "expected": 3908,
+      "actual": 3908,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probier revisions",
+      "expected": 1013,
+      "actual": 1013,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probier pages",
+      "expected": 601,
+      "actual": 601,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "fractal revisions",
+      "expected": 169,
+      "actual": 169,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "fractal pages",
+      "expected": 68,
+      "actual": 68,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dorfwiki revisions",
+      "expected": 6,
+      "actual": 6,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dorfwiki pages",
+      "expected": 2,
+      "actual": 2,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "pages beginning at seq 1",
+      "expected": 4562,
+      "actual": 4562,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "pages with earlier unpublished revisions",
+      "expected": 17,
+      "actual": 17,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "published body bytes",
+      "expected": 27186058,
+      "actual": 27186058,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "blank-label revisions",
+      "expected": 899,
+      "actual": 899,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "distinct labels",
+      "expected": 3103,
+      "actual": 3103,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "human-handle labels",
+      "expected": 3,
+      "actual": 3,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "non-ASCII bodies",
+      "expected": 251,
+      "actual": 251,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "ASCII bodies",
+      "expected": 14340,
+      "actual": 14340,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "UTF-8 byte bodies",
+      "expected": 250,
+      "actual": 250,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "Latin-1 byte bodies",
+      "expected": 1,
+      "actual": 1,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "source body hash failures",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "round-trip revision rows",
+      "expected": 14591,
+      "actual": 14591,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "round-trip body hash failures",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "revision order failures",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "revision hunk regeneration failures",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "revision public identity failures",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "page keys",
+      "expected": 4579,
+      "actual": 4579,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "NFC-normalized page keys",
+      "expected": 4579,
+      "actual": 4579,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "published names containing slash",
+      "expected": 77,
+      "actual": 77,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "published names containing tilde",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "non-ASCII published names",
+      "expected": 1,
+      "actual": 1,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "DSE pages with page family",
+      "expected": 3908,
+      "actual": 3908,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "off-store unclassified pages",
+      "expected": 671,
+      "actual": 671,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "write_time source rows",
+      "expected": 13414,
+      "actual": 13414,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "write_time full grade histogram",
+      "expected": {
+        "rclog": 50,
+        "reqlog": 13359,
+        "unknown": 5
+      },
+      "actual": {
+        "reqlog": 13359,
+        "unknown": 5,
+        "rclog": 50
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dse cut save grades",
+      "expected": {
+        "rclog": 44,
+        "reqlog": 13359
+      },
+      "actual": {
+        "reqlog": 13359,
+        "rclog": 44
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probier save grades",
+      "expected": {
+        "rclog": 22,
+        "reqlog": 991
+      },
+      "actual": {
+        "reqlog": 991,
+        "rclog": 22
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "fractal save grades",
+      "expected": {
+        "rclog": 37,
+        "reqlog": 132
+      },
+      "actual": {
+        "reqlog": 132,
+        "rclog": 37
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dorfwiki save grades",
+      "expected": {
+        "write_date": 6
+      },
+      "actual": {
+        "write_date": 6
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "whole-cut save grades",
+      "expected": {
+        "rclog": 103,
+        "reqlog": 14482,
+        "write_date": 6
+      },
+      "actual": {
+        "rclog": 103,
+        "reqlog": 14482,
+        "write_date": 6
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "unknown save grades",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probier 2026-05 grades",
+      "expected": {
+        "rclog": 22,
+        "reqlog": 5
+      },
+      "actual": {
+        "reqlog": 5,
+        "rclog": 22
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probier 2026-06 grades",
+      "expected": {
+        "reqlog": 977
+      },
+      "actual": {
+        "reqlog": 977
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probier 2026-07 grades",
+      "expected": {
+        "reqlog": 9
+      },
+      "actual": {
+        "reqlog": 9
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "fractal 2026-05 grades",
+      "expected": {
+        "rclog": 37
+      },
+      "actual": {
+        "rclog": 37
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "fractal 2026-06 grades",
+      "expected": {
+        "reqlog": 130
+      },
+      "actual": {
+        "reqlog": 130
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "fractal 2026-07 grades",
+      "expected": {
+        "reqlog": 2
+      },
+      "actual": {
+        "reqlog": 2
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "rclog source rows",
+      "expected": 158016,
+      "actual": 158016,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "dse [Admin1] deletion predicate rows",
+      "expected": 5218,
+      "actual": 5218,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "deletion events",
+      "expected": 5217,
+      "actual": 5217,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "deleted pages",
+      "expected": 5144,
+      "actual": 5144,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "deletion grades",
+      "expected": {
+        "rclog": 1,
+        "reqlog": 5216
+      },
+      "actual": {
+        "rclog": 1,
+        "reqlog": 5216
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "same-second delete requests",
+      "expected": 4746,
+      "actual": 4746,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "one-second-prior delete requests",
+      "expected": 470,
+      "actual": 470,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "ambiguous delete requests",
+      "expected": 1,
+      "actual": 1,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "deletion actor IPs",
+      "expected": {
+        "[Admin1-host1]": 1874,
+        "[Admin1-host2]": 3343
+      },
+      "actual": {
+        "[Admin1-host1]": 1874,
+        "[Admin1-host2]": 3343
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "sole rclog deletion page",
+      "expected": "AgentOfficialDirectQueryAA3",
+      "actual": "AgentOfficialDirectQueryAA3",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "sole rclog deletion has clock note",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "admin form_edit requests",
+      "expected": 3889,
+      "actual": 3889,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "admin form_edit requests by IP",
+      "expected": {
+        "[Admin1-host1]": 1490,
+        "[Admin1-host2]": 2399
+      },
+      "actual": {
+        "[Admin1-host1]": 1490,
+        "[Admin1-host2]": 2399
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "eligible recreation deletions",
+      "expected": 433,
+      "actual": 433,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "first-recreation relations",
+      "expected": 68,
+      "actual": 68,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "recreated pages",
+      "expected": 50,
+      "actual": 50,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "recreation grades",
+      "expected": {
+        "reqlog": 68
+      },
+      "actual": {
+        "reqlog": 68
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "recreations with revision refs",
+      "expected": 64,
+      "actual": 64,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "recreations without revision refs",
+      "expected": 4,
+      "actual": 4,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "stored first-recreation relation edges",
+      "expected": 64,
+      "actual": 64,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "stored revisions carrying recreation relations",
+      "expected": 63,
+      "actual": 63,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "revert events",
+      "expected": 4,
+      "actual": 4,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "revert grades",
+      "expected": {
+        "reqlog": 4
+      },
+      "actual": {
+        "reqlog": 4
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "no-body recovery request actions",
+      "expected": {
+        "form_edit": 4
+      },
+      "actual": {
+        "form_edit": 4
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "native revert request rows",
+      "expected": 4,
+      "actual": 4,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "same-second recreation requests",
+      "expected": 60,
+      "actual": 60,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "one-second-prior recreation requests",
+      "expected": 8,
+      "actual": 8,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "recreator labels",
+      "expected": 57,
+      "actual": 57,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "recreator IPs",
+      "expected": 66,
+      "actual": 66,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probe events",
+      "expected": 101,
+      "actual": 101,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probe grades",
+      "expected": {
+        "reqlog": 101
+      },
+      "actual": {
+        "reqlog": 101
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "May probes",
+      "expected": 39,
+      "actual": 39,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "May probe IPs",
+      "expected": 37,
+      "actual": 37,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "June probes",
+      "expected": 62,
+      "actual": 62,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "June probe IPs",
+      "expected": 31,
+      "actual": 31,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "all probe IPs",
+      "expected": 68,
+      "actual": 68,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "first probe",
+      "expected": "2026-05-17T05:46:45Z",
+      "actual": "2026-05-17T05:46:45Z",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "last probe",
+      "expected": "2026-06-30T12:10:38Z",
+      "actual": "2026-06-30T12:10:38Z",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "probe key schema",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "event type populations",
+      "expected": {
+        "delete": 5217,
+        "probe": 101,
+        "revert": 4,
+        "save": 14591
+      },
+      "actual": {
+        "delete": 5217,
+        "probe": 101,
+        "revert": 4,
+        "save": 14591
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "events rows",
+      "expected": 19913,
+      "actual": 19913,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "pages ordered by page_key",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "labels ordered by UTF-8 bytes",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "events ordered by time and event_id",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "save key schema",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "general event key schema",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "non-probe event page keys",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "save revision references resolve one-to-one",
+      "expected": 14591,
+      "actual": 14591,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "stored recreation edges on save events",
+      "expected": 64,
+      "actual": 64,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "multi-round pages",
+      "expected": 11,
+      "actual": 11,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "multi-round relation edges",
+      "expected": 29,
+      "actual": 29,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "AgentRelent stored revisions",
+      "expected": 317,
+      "actual": 317,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "AgentRelent stored revision IPs",
+      "expected": 308,
+      "actual": 308,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "AgentRelent stored revision pages",
+      "expected": 4,
+      "actual": 4,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "AgentRelent save requests",
+      "expected": 798,
+      "actual": 798,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "AgentRelent save-request IPs",
+      "expected": 756,
+      "actual": 756,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "AgentRelent save-request /16s",
+      "expected": 119,
+      "actual": 119,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "[Admin1] save requests",
+      "expected": 3887,
+      "actual": 3887,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "[Admin1] save-request IPs",
+      "expected": 2,
+      "actual": 2,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "603-byte created-page revision exists",
+      "expected": 603,
+      "actual": 603,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "created-page diff base",
+      "expected": null,
+      "actual": null,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "created-page diff reason",
+      "expected": "page_created",
+      "actual": "page_created",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "created-page hunk covers every line",
+      "expected": true,
+      "actual": true,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "ZZZ construction page creation",
+      "expected": "2026-06-19T14:06:38Z",
+      "actual": "2026-06-19T14:06:38Z",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "DataUSAConstructionWageSep18Live named deletion",
+      "expected": 1,
+      "actual": 1,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "DataUSAConstructionWageSep18Live named deletion grade",
+      "expected": "reqlog",
+      "actual": "reqlog",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "ZZZDataUSAConstructionWageLive named deletion",
+      "expected": 1,
+      "actual": 1,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "ZZZDataUSAConstructionWageLive named deletion grade",
+      "expected": "reqlog",
+      "actual": "reqlog",
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "labels overlapping pre-2026",
+      "expected": {
+        "[Admin2]": 4,
+        "[Admin1]": 26,
+        "[Person22]": 1
+      },
+      "actual": {
+        "[Admin2]": 4,
+        "[Admin1]": 26,
+        "[Person22]": 1
+      },
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "published IPs overlapping pre-2026",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "deletions sharing an RCS archive second",
+      "expected": 2,
+      "actual": 2,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "credential-parameter literals in JSONL outputs",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "forbidden research account in output objects",
+      "expected": false,
+      "actual": false,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "request-derived URL strings retained",
+      "expected": 0,
+      "actual": 0,
+      "population_id": "export_check",
+      "ok": true
+    },
+    {
+      "name": "peak RSS KiB",
+      "expected": "< 2097152",
+      "actual": 253552,
+      "population_id": "export_check",
+      "ok": true
+    }
+  ]
+}
