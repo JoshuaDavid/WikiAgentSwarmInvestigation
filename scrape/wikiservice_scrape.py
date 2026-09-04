@@ -66,8 +66,14 @@ def fetch(url: str, *, sleep: float = DEFAULT_SLEEP) -> tuple[str, str]:
 
 # --------------------------------------------------------------------- HTML utils
 
-CONTENT_TD_RE = re.compile(
-    r'<td[^>]*class="content"[^>]*>(.*?)</td>', re.DOTALL | re.IGNORECASE
+# The content <td> contains a nested table structure in diff mode, so a
+# non-greedy `.*?</td>` cuts off inside the first inner </td>. Instead we
+# anchor on the opening td and stop at the next outer-shell row (navbar).
+CONTENT_START_RE = re.compile(
+    r'<td[^>]*class="content"[^>]*>', re.IGNORECASE
+)
+CONTENT_END_RE = re.compile(
+    r"<tr>\s*<td[^>]*class=\"navbar\"", re.IGNORECASE
 )
 TITLE_SPAN_RE = re.compile(
     r'<span class="title">.*?</span>', re.DOTALL | re.IGNORECASE
@@ -80,10 +86,12 @@ MULTIBLANK_RE = re.compile(r"\n{3,}")
 
 
 def extract_content_html(page_html: str) -> str:
-    m = CONTENT_TD_RE.search(page_html)
+    m = CONTENT_START_RE.search(page_html)
     if not m:
         return ""
-    inner = m.group(1)
+    after = page_html[m.end():]
+    end = CONTENT_END_RE.search(after)
+    inner = after[:end.start()] if end else after
     inner = TITLE_SPAN_RE.sub("", inner)
     inner = re.sub(r"<b>\s*</b>", "", inner)
     return inner
@@ -210,31 +218,42 @@ def parse_rss(rss_text: str) -> list[dict]:
 
 # --------------------------------------------------------------------- Diff parse
 
-# Diff page has one or more "Changed: A,Bc C,D" blocks, each followed by two
-# tables (yellow = removed, green = added). We treat each such block as a hunk
-# and the whole diff as `head_diff`.
-DIFF_HUNK_RE = re.compile(
-    r"<strong>(Added|Deleted|Changed): ([^<]+)</strong>.*?"
-    r"(?:<table[^>]*bgcolor=#ffffaf[^>]*><tr><td>(.*?)</td></tr></table>)?"
-    r"(?:<table[^>]*bgcolor=#cfffcf[^>]*><tr><td>(.*?)</td></tr></table>)?",
+# Diff page has one or more `<strong>OP: A,Bc C,D</strong>` markers, each followed
+# by zero, one, or two colored tables (yellow #ffffaf = removed side, green
+# #cfffcf = added side). We split the content on the marker positions and read
+# the tables from each slice.
+DIFF_MARKER_RE = re.compile(
+    r"<strong>(Added|Deleted|Changed):\s*([^<]+?)\s*</strong>", re.IGNORECASE
+)
+DIFF_YELLOW_RE = re.compile(
+    r"<table[^>]*bgcolor=#ffffaf[^>]*><tr><td>(.*?)</td></tr></table>",
+    re.DOTALL | re.IGNORECASE,
+)
+DIFF_GREEN_RE = re.compile(
+    r"<table[^>]*bgcolor=#cfffcf[^>]*><tr><td>(.*?)</td></tr></table>",
     re.DOTALL | re.IGNORECASE,
 )
 
 
 def parse_diff(diff_html: str) -> dict:
     inner = extract_content_html(diff_html)
+    markers = list(DIFF_MARKER_RE.finditer(inner))
+    if not markers:
+        no_prev = "no other diffs" in inner or "Difference (last change)" not in inner
+        return {"hunks": [], "no_previous_revision": no_prev}
     hunks = []
-    for m in DIFF_HUNK_RE.finditer(inner):
-        op, span, removed_html, added_html = m.groups()
+    for i, m in enumerate(markers):
+        start = m.end()
+        end = markers[i + 1].start() if i + 1 < len(markers) else len(inner)
+        slice_html = inner[start:end]
+        y = DIFF_YELLOW_RE.search(slice_html)
+        g = DIFF_GREEN_RE.search(slice_html)
         hunks.append({
-            "op": op.lower(),
-            "span": span.strip(),
-            "removed_text": strip_content_to_text(removed_html or ""),
-            "added_text": strip_content_to_text(added_html or ""),
+            "op": m.group(1).lower(),
+            "span": m.group(2).strip(),
+            "removed_text": strip_content_to_text(y.group(1)) if y else "",
+            "added_text": strip_content_to_text(g.group(1)) if g else "",
         })
-    # A "no diffs" head-only page yields the message below; treat as no hunks.
-    if "no other diffs" in inner and not hunks:
-        return {"hunks": [], "no_previous_revision": True}
     return {"hunks": hunks, "no_previous_revision": False}
 
 
@@ -244,7 +263,27 @@ MONTHS = {m: i for i, m in enumerate(
     ["January","February","March","April","May","June","July","August","September","October","November","December"], start=1)}
 
 
-def rc_datetime(date_str: str | None, hhmm: str | None) -> str | None:
+RSS_TZ_RE = re.compile(r"([+-]\d{2}:\d{2}|Z)$")
+
+
+def derive_wiki_tz(rss_items: list[dict]) -> str | None:
+    """Return the wiki's declared timezone offset by sampling RSS dc:date fields.
+    All items on a single wiki share one offset in ProWiki - we return whichever
+    offset shows up first. Returns e.g. '+01:00' or None if unknown.
+    """
+    for r in rss_items:
+        d = r.get("date_iso") or ""
+        m = RSS_TZ_RE.search(d)
+        if m:
+            return "+00:00" if m.group(1) == "Z" else m.group(1)
+    return None
+
+
+def rc_datetime(date_str: str | None, hhmm: str | None, tz_offset: str | None) -> str | None:
+    """Reconstruct an ISO time from RC's wall clock. `tz_offset` should be the
+    wiki's declared offset (e.g. '+01:00') derived from RSS; if unknown we mark
+    the offset as '' and callers should treat time_grade='rc_wall_naive'.
+    """
     if not date_str or not hhmm:
         return None
     parts = date_str.replace(",", "").split()
@@ -254,7 +293,8 @@ def rc_datetime(date_str: str | None, hhmm: str | None) -> str | None:
     if month not in MONTHS:
         return None
     h, m = hhmm.split(":")
-    return f"{int(year):04d}-{MONTHS[month]:02d}-{int(day):02d}T{int(h):02d}:{int(m):02d}:00Z"
+    suffix = tz_offset if tz_offset else ""
+    return f"{int(year):04d}-{MONTHS[month]:02d}-{int(day):02d}T{int(h):02d}:{int(m):02d}:00{suffix}"
 
 
 # --------------------------------------------------------------------- URL helpers
@@ -281,7 +321,7 @@ def _rss_hhmm(date_iso: str | None) -> str | None:
     return m.group(1) if m else None
 
 
-def merge_rc_rss(rc: list[dict], rss: list[dict]) -> list[dict]:
+def merge_rc_rss(rc: list[dict], rss: list[dict], tz_offset: str | None = None) -> list[dict]:
     """Match RC and RSS entries by (page_name, hh:mm). The RSS feed emits one
     or more items per page (up to the feed cap) with second-accurate ISO
     timestamps whose wall-clock HH:MM matches the RC HTML's minute-precision
@@ -308,8 +348,8 @@ def merge_rc_rss(rc: list[dict], rss: list[dict]) -> list[dict]:
             entry["time_iso"] = rss_match["date_iso"]
             entry["time_source"] = "rss"
         else:
-            entry["time_iso"] = rc_datetime(entry.get("date"), entry.get("hhmm"))
-            entry["time_source"] = "rc_wall"
+            entry["time_iso"] = rc_datetime(entry.get("date"), entry.get("hhmm"), tz_offset)
+            entry["time_source"] = "rc_wall" if tz_offset else "rc_wall_naive"
         entry["revision_number"] = rss_match["revision"] if rss_match else None
         merged.append(entry)
     return merged
@@ -337,7 +377,10 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
         rss_items = []
     print(f"[{name}]   RSS parsed: {len(rss_items)} items", file=sys.stderr)
 
-    merged = merge_rc_rss(revs, rss_items)
+    wiki_tz = derive_wiki_tz(rss_items)
+    print(f"[{name}]   wiki TZ offset: {wiki_tz or 'unknown'}", file=sys.stderr)
+
+    merged = merge_rc_rss(revs, rss_items, wiki_tz)
 
     # Unique pages in order of first-seen (newest-first from RC)
     page_names: list[str] = []
@@ -367,6 +410,7 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
         print("\n=== SANITY SUMMARY ===")
         print(f"  base: {base}")
         print(f"  days window: {days}")
+        print(f"  wiki tz offset: {wiki_tz or 'unknown'}")
         print(f"  rc rows: {len(revs)}  rss items: {len(rss_items)}  unique pages: {len(seen)}")
         for r in merged[:5]:
             print(f"  rev: {r['page_name']}  time={r.get('time_iso')} label={r['label']} summary={r.get('change_summary')!r} rev#={r.get('revision_number')}")
@@ -380,13 +424,13 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
     build_output(name=name, out=out, base=base, days=days, started=started,
                  merged=merged, page_names=page_names,
                  page_bodies=page_bodies, page_diffs=page_diffs,
-                 rc_html=rc_html, rss_items=rss_items)
+                 rc_html=rc_html, rss_items=rss_items, wiki_tz=wiki_tz)
 
 
 def build_output(*, name: str, out: Path, base: str, days: int, started: str,
                  merged: list[dict], page_names: list[str],
                  page_bodies: dict[str, str], page_diffs: dict[str, dict],
-                 rc_html: str, rss_items: list[dict]) -> None:
+                 rc_html: str, rss_items: list[dict], wiki_tz: str | None) -> None:
     # Ordering: chronological ascending by time_iso (RC is descending).
     def sortable_time(r):
         t = r.get("time_iso") or ""
@@ -542,6 +586,7 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
             "days": days,
             "endpoint": build_url(base, action="browse", id="RecentChanges", days=str(days), all="1"),
         },
+        "wiki_tz_offset": wiki_tz,
         "counts": {
             "revisions": {"value": len(revisions_out)},
             "pages": {"value": len(pages_out)},
