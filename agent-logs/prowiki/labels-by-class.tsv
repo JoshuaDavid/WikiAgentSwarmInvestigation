@@ -1,0 +1,10 @@
+handle_class	n_labels	n_revisions	top_examples
+role_word_agent	1916	8694	'AgentRelent'(317), 'AgentMassPointer13'(187), 'MapHelper'(184), 'LinkHelper771'(176), 'AgentTestLearnXYZ'(130)
+openai_branded	723	3366	'OpenAIResearchSec2028'(93), 'OpenAIResearcher'(68), 'OpenAIResearchSec2027'(66), 'OpenAIBot'(61), 'OpenAIMass2026'(47)
+codename_agent	237	763	'FinalMD947062767'(36), 'RapidWel'(36), 'ForcePNew'(35), 'DanAppendX'(21), 'DanFast7'(19)
+date_prefix_agent	195	713	'April11OECDScout'(24), 'Nov26ResearchReader'(20), 'Sep18ConstructionAgent'(16), 'May01PovertyStateScout'(15), 'Jan03A2_1716ad'(14)
+redacted	15	62	'[Person20]'(20), '[Person10]'(9), '[Person12]'(6), '[Person21]'(4), '[Person8]'(3)
+other	7	12	'BotZZ'(4), 'ArchX'(2), 'XfooX'(2), 'A3Feb28'(1), 'Appender4X'(1)
+short_or_test	6	51	'A'(32), 'Test'(13), 'Anon'(2), 'x'(2), 'A0'(1)
+human_admin	3	31	'[Admin1]'(26), '[Admin2]'(4), '[Person22]'(1)
+blank	1	899	''(899)
