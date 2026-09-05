@@ -128,6 +128,15 @@ def strip_content_to_text(inner_html: str) -> str:
 # "created" = admin-deleted, "Beschreibe hier die neue Seite." = never existed.
 DELETED_STUB_RE = re.compile(r"^\s*created\s*$", re.IGNORECASE)
 NEVER_EXISTED_RE = re.compile(r"^\s*Beschreibe hier die neue Seite\.?\s*$", re.IGNORECASE)
+# When wikiservice.at rate-limits us it serves a small "Sperre" page containing
+# "Die Zugriffrate ist zu hoch." (access rate too high). Detect on the raw HTML
+# so we back off rather than storing the block-page as a body.
+RATE_LIMIT_MARKER = "Zugriffrate ist zu hoch"
+RATE_LIMIT_TITLE = "DseWiki: Sperre"
+
+
+def is_rate_limited(page_html: str) -> bool:
+    return (RATE_LIMIT_MARKER in page_html) or (RATE_LIMIT_TITLE in page_html)
 
 
 def classify_body(text: str) -> str:
@@ -415,16 +424,28 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
            sleep: float, body_strategy: str, body_limit: int) -> None:
     started = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
+    def _initial_fetch(url: str) -> str:
+        """Fetch a mandatory URL, retrying on rate-limit before giving up."""
+        for attempt in range(6):
+            html_text, _ = fetch(url, sleep=sleep)
+            if not is_rate_limited(html_text):
+                return html_text
+            backoff = 30 * (2 ** attempt)  # up to ~16 minutes on the last try
+            print(f"[{name}]   RATE LIMITED on {url}; sleeping {backoff}s "
+                  f"(attempt {attempt+1}/6)", file=sys.stderr)
+            time.sleep(backoff)
+        raise RuntimeError(f"rate-limited after retries: {url}")
+
     print(f"[{name}] fetching RC (days={days},all=1) ...", file=sys.stderr)
     rc_url = build_url(base, action="browse", id="RecentChanges", days=str(days), all="1")
-    rc_html, _ = fetch(rc_url, sleep=sleep)
+    rc_html = _initial_fetch(rc_url)
     revs = parse_rc(rc_html)
     print(f"[{name}]   RC parsed: {len(revs)} revision rows", file=sys.stderr)
 
     print(f"[{name}] fetching RSS (days={days}) ...", file=sys.stderr)
     rss_url = build_url(base, action="browse", id="RecentChangesRss", days=str(days))
     try:
-        rss_text, _ = fetch(rss_url, sleep=sleep)
+        rss_text = _initial_fetch(rss_url)
         rss_items = parse_rss(rss_text)
     except Exception as e:
         print(f"[{name}]   RSS fetch failed: {e}", file=sys.stderr)
@@ -460,23 +481,50 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
     page_bodies: dict[str, str] = {}
     page_body_availability: dict[str, str] = {}
     page_diffs: dict[str, dict] = {}
-    for i, pn in enumerate(body_targets):
-        if i % 50 == 0 and i > 0:
-            print(f"[{name}]   ...body/diff progress {i}/{len(body_targets)}",
+
+    def _fetch_with_backoff(url: str) -> tuple[str, bool]:
+        """Fetch `url` with exponential back-off on rate-limit responses.
+        Returns (html, ok). ok=False means we hit rate-limit even after retries.
+        """
+        current_sleep = sleep
+        for attempt in range(4):
+            html_text, _ = fetch(url, sleep=current_sleep)
+            if not is_rate_limited(html_text):
+                return html_text, True
+            backoff = 30 * (2 ** attempt)  # 30, 60, 120, 240 s
+            print(f"[{name}]   RATE LIMITED on {url}; sleeping {backoff}s (attempt {attempt+1}/4)",
                   file=sys.stderr)
+            time.sleep(backoff)
+        return html_text, False
+
+    rate_limit_pages = 0
+    for i, pn in enumerate(body_targets):
+        if i % 25 == 0 and i > 0:
+            print(f"[{name}]   ...body/diff progress {i}/{len(body_targets)} "
+                  f"(rate_limited_so_far={rate_limit_pages})", file=sys.stderr)
         try:
-            body_html, _ = fetch(build_url(base, action="browse", id=pn), sleep=sleep)
-            text = strip_content_to_text(extract_content_html(body_html))
-            avail = classify_body(text)
-            page_bodies[pn] = text if avail == "head_only" else ""
-            page_body_availability[pn] = avail
+            body_html, ok = _fetch_with_backoff(build_url(base, action="browse", id=pn))
+            if not ok:
+                page_bodies[pn] = ""
+                page_body_availability[pn] = "rate_limited"
+                rate_limit_pages += 1
+            else:
+                text = strip_content_to_text(extract_content_html(body_html))
+                avail = classify_body(text)
+                page_bodies[pn] = text if avail == "head_only" else ""
+                page_body_availability[pn] = avail
         except Exception as e:
             print(f"[{name}]   page {pn}: body fetch failed: {e}", file=sys.stderr)
             page_bodies[pn] = ""
             page_body_availability[pn] = "fetch_error"
         try:
-            diff_html, _ = fetch(build_url(base, action="browse", diff="4", id=pn), sleep=sleep)
-            page_diffs[pn] = parse_diff(diff_html)
+            diff_html, ok = _fetch_with_backoff(
+                build_url(base, action="browse", diff="4", id=pn)
+            )
+            if not ok:
+                page_diffs[pn] = {"hunks": [], "no_previous_revision": None}
+            else:
+                page_diffs[pn] = parse_diff(diff_html)
         except Exception as e:
             print(f"[{name}]   page {pn}: diff fetch failed: {e}", file=sys.stderr)
             page_diffs[pn] = {"hunks": [], "no_previous_revision": None}
