@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-09-05T03:03:30+00:00",
+  "source": {
+    "wiki_name": "wiki4d",
+    "base_url": "https://prowiki.org/wiki4d/wiki.cgi",
+    "engine": "prowiki (usemod-derived, standard skin)",
+    "scraper": "scrape/wiki4d.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window",
+    "days": 120,
+    "endpoint": "https://prowiki.org/wiki4d/wiki.cgi?action=browse&id=RecentChanges&days=120&all=1"
+  },
+  "wiki_tz_offset": "+01:00",
+  "counts": {
+    "revisions": {
+      "value": 235
+    },
+    "pages": {
+      "value": 158
+    },
+    "labels": {
+      "value": 163
+    },
+    "locked_pages": {
+      "value": 0
+    }
+  },
+  "locked_pages": [],
+  "per_wiki": {
+    "wiki4d": {
+      "revisions": {
+        "value": 235
+      },
+      "pages": {
+        "value": 158
+      },
+      "body_bytes": {
+        "value": 61702
+      }
+    }
+  },
+  "limitations": [
+    "Body is HTML-stripped rendered output, not raw wiki source. Wiki markup (WikiLinks, bold/italic, headings) is largely lost; raw URLs survive because they appear verbatim in the render.",
+    "Bodies are only captured for the HEAD revision of each page. Non-head revisions in this cut have body=null (body_availability='metadata_only').",
+    "The head-to-previous diff hunks ARE captured (revisions.jsonl.hunks for the head row) - but only that one diff, since action=log and action=archive are admin-gated on this engine.",
+    "No IPs are exposed (n_ips/n_ip16/ip16 are all null). The wiki UI only shows the editor's label (nickname).",
+    "Time precision: RSS entries are second-accurate with timezone offset. RC-only rows are minute-accurate wall time and get uncertainty_seconds=60.",
+    "n_revs_before is unknown - RecentChanges window is our only visibility into revision counts, and older revisions may exist that we can't see.",
+    "Pages listed in manifest.locked_pages had their head body/diff blocked by the wiki's anti-scrape 'Wiki4D: Lock' response even after retries. Those pages' head rev has body=null and body_availability='lock_denied'; downstream can re-fetch them by name on a subsequent run."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://prowiki.org/wiki4d/wiki.cgi?action=browse&id=RecentChanges&days=120&all=1",
+    "recent_changes_rss": "https://prowiki.org/wiki4d/wiki.cgi?action=browse&id=RecentChangesRss&days=120",
+    "history_admin_gated": "https://prowiki.org/wiki4d/wiki.cgi?action=log&id=%3Cpage%3E",
+    "archive_admin_gated": "https://prowiki.org/wiki4d/wiki.cgi?action=archive&id=%3Cpage%3E"
+  }
+}
