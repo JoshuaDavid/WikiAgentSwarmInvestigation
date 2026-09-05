@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-05T01:39:04+00:00",
+  "source": {
+    "wiki_name": "dse",
+    "base_url": "https://www.wikiservice.at/dse/wiki.cgi",
+    "engine": "prowiki (usemod-derived, STANDARD skin)",
+    "scraper": "scrape/dse.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window",
+    "days": 200,
+    "endpoint": "https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=RecentChanges&days=200&all=1"
+  },
+  "body_strategy": {
+    "kind": "metadata_only",
+    "limit": null,
+    "pages_targeted": 0,
+    "pages_total": 5158
+  },
+  "wiki_tz_offset": "+01:00",
+  "counts": {
+    "revisions": {
+      "value": 22385
+    },
+    "pages": {
+      "value": 5158
+    },
+    "labels": {
+      "value": 2790
+    }
+  },
+  "per_wiki": {
+    "dse": {
+      "revisions": {
+        "value": 22385
+      },
+      "pages": {
+        "value": 5158
+      },
+      "body_bytes": {
+        "value": 0
+      }
+    }
+  },
+  "body_availability_breakdown": {
+    "metadata_only": 17227,
+    "not_fetched_size_budget": 5158
+  },
+  "limitations": [
+    "Body is HTML-stripped rendered output, not raw wiki source. Wiki markup (WikiLinks, bold/italic, headings) is largely lost; raw URLs survive because they appear verbatim in the render.",
+    "Bodies are only captured for the HEAD revision of each page, and only for the subset selected by --body-strategy. Non-head revisions in this cut have body=null (body_availability='metadata_only'). Head rows for pages skipped by the body strategy are marked 'not_fetched_size_budget'.",
+    "Deleted / never-existed pages return a stub body (\"created\" or \"Beschreibe hier die neue Seite.\"). We detect these and mark body_availability='deleted_or_404' so downstream analyses can distinguish them from real head content.",
+    "No IPs are exposed (n_ips/n_ip16/ip16 are all null). The wiki UI only shows the editor's label (nickname).",
+    "Time precision: RSS entries are second-accurate with timezone offset. RC-only rows are minute-accurate wall time and get uncertainty_seconds=60. RSS is capped at a small number of most-recent items, so for a 500-day window nearly all rows fall back to RC-wall time.",
+    "n_revs_before is unknown - RecentChanges window is our only visibility into revision counts, and older revisions may exist that we can't see.",
+    "body_strategy=metadata_only: per-page body/diff fetches were skipped entirely because the dse corpus has ~22k revisions across ~3.9k pages and full body+diff fetches at --sleep 3 would take several hours. All head rows are marked body_availability='not_fetched_size_budget'."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=RecentChanges&days=200&all=1",
+    "recent_changes_rss": "https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=RecentChangesRss&days=200",
+    "history_admin_gated": "https://www.wikiservice.at/dse/wiki.cgi?action=log&id=%3Cpage%3E",
+    "archive_admin_gated": "https://www.wikiservice.at/dse/wiki.cgi?action=archive&id=%3Cpage%3E"
+  }
+}
