@@ -161,8 +161,11 @@ def main():
     by_page = load_revisions_by_page()
     loose = loose_conversations(by_page)
 
+    # loose is O(pairs × pages) and mostly noise — cap at the top 5,000
+    # ranked entries. The tail is co-editing spam (mostly WillkommenImWiki
+    # link-dump war) and adds no information beyond the top of the list.
     with (OUT / "loose.jsonl").open("w") as f:
-        for r in loose:
+        for r in loose[:5000]:
             f.write(json.dumps(r) + "\n")
 
     print("=== LOOSE (both wrote the page, alternating) — top 20 ===")
