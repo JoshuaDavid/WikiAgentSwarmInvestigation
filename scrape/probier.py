@@ -127,7 +127,10 @@ RC_DATE_EN_RE = re.compile(
 )
 RC_ITEM_RE = re.compile(r"<li>(.*?)</li>", re.DOTALL | re.IGNORECASE)
 RC_PAGE_RE = re.compile(
-    r"<a\s+href='wiki\.cgi\?([A-Za-z0-9_][A-Za-z0-9_./-]*)'[^>]*class='body'[^>]*>([^<]+)</a>",
+    # `%` is present because ProWiki URL-encodes non-ASCII page names in the
+    # href (e.g. "J%fcrgenMargetich" -> "JürgenMargetich"). Without % here
+    # the anchor doesn't match and the row is silently dropped.
+    r"<a\s+href='wiki\.cgi\?([A-Za-z0-9_%][A-Za-z0-9_.%/-]*)'[^>]*class='body'[^>]*>([^<]+)</a>",
     re.IGNORECASE,
 )
 RC_TIME_RE = re.compile(r"\b(\d{1,2}:\d{2})\b")
@@ -228,8 +231,11 @@ def parse_rc(html_text: str) -> list[dict]:
         revisions.append({
             "date": current_date,
             "hhmm": hhmm,
-            "page_name": urllib.parse.unquote(page_name),
-            "label": urllib.parse.unquote(label),
+            # ProWiki URL-encodes non-ASCII page names in the ISO-8859-1
+            # charset (%fc = ü), not UTF-8. Decode with latin-1 so
+            # J%fcrgenMargetich becomes "JürgenMargetich", not mojibake.
+            "page_name": urllib.parse.unquote(page_name, encoding="iso-8859-1"),
+            "label": urllib.parse.unquote(label, encoding="iso-8859-1"),
             "change_summary": summary,
             "is_new_page": is_new,
             "is_minor_edit": is_minor,
@@ -347,7 +353,21 @@ def rc_datetime(date_ymd: str | None, hhmm: str | None, tz_offset: str | None) -
 # --------------------------------------------------------------------- URL helpers
 
 def build_url(base: str, **params) -> str:
-    q = urllib.parse.urlencode(params, safe="")
+    # ProWiki reads path params as ISO-8859-1. If we send %C3%BC (UTF-8 for ü)
+    # the server treats those bytes as literal characters and can't find the
+    # page. Round-trip any str value through iso-8859-1 bytes before quoting
+    # so ü comes out as %FC (Latin-1), not %C3%BC (UTF-8). Fall back to UTF-8
+    # for characters that don't fit in Latin-1.
+    coerced: dict[str, bytes | str] = {}
+    for k, v in params.items():
+        if isinstance(v, str):
+            try:
+                coerced[k] = v.encode("iso-8859-1")
+            except UnicodeEncodeError:
+                coerced[k] = v
+        else:
+            coerced[k] = v
+    q = urllib.parse.urlencode(coerced, safe="")
     return f"{base}?{q}"
 
 
