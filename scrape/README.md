@@ -137,3 +137,39 @@ Fractal runs the same ProWiki engine as milk but ships the STANDARD skin (no
 
 Same CLI as the parent; call with
 `--sleep 3.0` when other ProWiki agents are running concurrently.
+
+## `apchem.py`
+
+Scrapes an upstream **UseModWiki 1.0** public wiki (not the ProWiki fork).
+Verified against `https://tmcleod.org/cgi-bin/apchem/wiki.cgi`.
+
+Differences from `wikiservice_scrape.py`:
+
+- **No RSS on this engine.** `action=rss` returns `Invalid action parameter rss`.
+  All timestamps are minute-precision RC wall clock; every row gets
+  `uncertainty_seconds=60`. `wiki_tz_offset` is derived by comparing the
+  `from=<unix_ts>` link embedded in RC to the wall-clock caption next to it.
+- **Raw wiki source is available** via `action=edit&id=<Page>` for any anon
+  visitor. Head bodies are raw source, not HTML-stripped renderings
+  (`body_encoding="wiki_source_utf8"`). KeepFile-preserved old revisions get
+  their raw source via `action=edit&id=<Page>&revision=N`.
+- **Labels come from `action=history`**, not RC. RC does not expose IPs on
+  this engine. IPs are engine-redacted to the first three octets (e.g.
+  `4.227.3.xxx`).
+- **`action=history` only preserves the head + one KeepFile-major old
+  revision per page.** Older in-window revisions carry `label=null`,
+  `wiki_revision_number=null`, `body_availability="metadata_only"`.
+- **Times are 12-hour AM/PM.**
+- **HTML shell is plainer.** Body content sits between `<hr>` markers, not in
+  a `<td class="content">` wrapper. `<li>` tags are unclosed; the row parser
+  splits blocks on `<li>` tokens.
+
+Usage:
+
+```bash
+python3 scrape/apchem.py \
+    --base https://tmcleod.org/cgi-bin/apchem/wiki.cgi \
+    --name apchem \
+    --days 150 \
+    --sleep 1.5
+```
