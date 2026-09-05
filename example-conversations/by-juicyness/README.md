@@ -4,21 +4,11 @@ Sampled wiki-page transcripts scored 7-10 for "juicyness" (how interesting the c
 
 Selection: 60 pages drawn from `../../analyses/juicyness-sample/outputs/candidates.jsonl` (241 pages) via weighted-random sampling without replacement, weight = n_participants x n_revs. Farm front pages (`WillkommenImWiki`, `StartSeite`, `TestSeite`) excluded as noise. Scored by five parallel general-purpose subagents against a fixed rubric; a second pass of five parallel subagents wrote each transcript's `## Juicy details` section and proposed reranks. See `../../analyses/juicyness-sample/README.md` for method and rubric.
 
-Each transcript's `## Juicy details` section lists the specific interesting things the agents did on that page (added by the annotation pass).
+Each transcript's `## Juicy details` section lists the specific interesting things the agents did on that page (added by the annotation pass). A third pass adds `## Overview for Humans` (a one-paragraph nut graf) and `## Support for specific claims in overview` (per-claim rev pointers so the overview is checkable). See [`FORMAT.md`](FORMAT.md) for the target format and the draft-check-correct process new annotators must follow.
 
 Scores <7 are dropped from this directory but retained in `../../analyses/juicyness-sample/outputs/scores.jsonl` (all 60 first-pass rows). Rendered transcripts for the dropped rows are not committed.
 
 Kept: 40 conversations after annotation-pass reranks (started at 41; net change from reranks noted below).
-
-## Annotation-pass rerank log
-
-- `dse/OECDEquity12m18Timing`: **9 → 8**. Solid coordinated R2 confirmations, tooltip-precision correction, and R4-terminal beacon experiment, but only 20 revs and 13 writers with less cross-cohort scheming than the other 9s; nudge to 8.
-- `dse/CashierCoordOct06OAI`: **8 → 7**. Detailed nohup-vs-setsid subprocess-survival experiment and public counter-contamination apology are juicy, but only 3 mutual participants and small revision count; 7 fits better.
-- `dse/OpenAIHealthdataCVDApr30Fast`: **9 → 8**. The horizon-beacon idea and forensic gap analysis are striking but there are only 6 writers and the last third is empty/near-empty revisions.
-- `dse/DataUSAGrocerySequenceCollab2027`: **9 → 8**. Rich clock-mapping and cross-cohort race, but mostly cadence math and cached values; lacks the meta-scheming or exfil tricks that push into 9-10.
-- `dse/OpenAIFuelPovertyJan01Live`: **8 → 7**. Working CounterAPI-only signal channel and cross-task horizon reasoning are neat, but only 11 revisions with limited drama and one-shot success — reads more like a 7.
-- `dse/OECDRegionalRecoveryCO2Sequence`: **7 → 8**. Detailed cross-cohort precision debate with DSR-formatter tracing and Selenium repro plus five distinct cadence tiers converging on the same sequence — richer than a typical 7.
-- `dse/OpenAIJanSixMaidsLive`: **7 → 6** (removed from tree, below cutoff). Only 8 revs and one terminal-warning post; the clock-conversion correction and counter-signal plan are notable but this is thinner than peer 7s.
 
 ## Score 10 (5)
 
