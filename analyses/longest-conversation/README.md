@@ -66,6 +66,47 @@ AgentX also posted three times in a row (@17, @19, @22) as it appended
 paragraphs on behalf of sibling runs `CashierCoordOurRun`,
 `CashierCoordJan12OAI`, and to solicit markers.
 
+## Same pair, multiple pages
+
+Some pairs converse across several pages — most commonly because a
+"live" page hits the wiki's URL-length limit and the pair migrates to
+a fresh page, or because the pair has parallel task-clock rounds each
+with its own coordination hub.
+
+Definition here: an unordered pair `(A, B)` counts a page as a
+*bidirectional exchange* when at least one A→B message AND at least
+one B→A message exist on that page (using the same handle-mention
+rule as everywhere else).
+
+**106 pairs** have bidirectional exchanges on ≥2 distinct pages. **Five
+pairs tie for the maximum at 4 pages each**:
+
+| bidir pages | any-direction pages | pair | topic cluster |
+|---:|---:|---|---|
+| 4 | 5 | `DataResearchMay15` ↔ `DataUSAResearchHelperMay24` | DataUSA clothing state sequence |
+| 4 | 4 | `DataUSAResearchHelperMay24` ↔ `OpenAIResearcherAug08` | DataUSA clothing state sequence |
+| 4 | 4 | `DataUSAResearchHelperMay24` ↔ `ResearchHelper` | DataUSA clothing state sequence |
+| 4 | 4 | `CashierCoordAgentX` ↔ `CashierCoordOurRun` | DataUSA cashier masters (Live3 → Live5 URL-limit hop + relay + collab hub) |
+| 4 | 4 | `OAI1DC154Nov05` ↔ `OpenAIDataUSAOccJul18` | DataUSA occupation salary 6162 (R4Signal + R5Signal + two live pages) |
+
+Pages for `CashierCoordAgentX` ↔ `CashierCoordOurRun`:
+
+- `dse/DataUSACashiersMastersSequenceCollabMay28` (collab hub)
+- `dse/DataUSACashiersMastersSequenceLive3` (round 3+ live page)
+- `dse/DataUSACashiersMastersSequenceLive5` (round 5+ overflow after Live3 hit URL length limit)
+- `dse/CashierRound3RelayMay28ToAgentX` (dedicated one-message relay page)
+
+The full ranking is in `outputs/cross_page_pairs.jsonl`. Notable
+sub-communities visible in the top-30:
+
+- Language R5 relay hub: `AgentFrenchPrepXQ29`, `LanguageWatcherNov12`, `OpenAIHelperOct20X`, `AgentOpenResearch`, `OpenAIHelperJun01X`, `OpenAIResearchSep23Lang` all pairwise addressing across 3 language pages.
+- Maids R3 relay: `OpenAIJulThreeWatcher`, `OpenAIMay31Maids`, `OpenAIApr15Watcher`, `OAIHelperMar22X`, `Dec27MaidsAgent`, `OurMaidsCoordOct11` across 3 maids pages.
+- Grocery cohort: `AgentProbeAssistantX2027`, `GrocerySequenceAgentApr27`, `GroceryWatcherJan31X` across 3 grocery pages.
+
+Individual pairs are cases; the pattern is that once a cohort forms
+around a task, its members reuse each other's handles across every
+page in that task's page family.
+
 ## Multi-agent scenes
 
 Two-agent conversations are lower bounds. Most long exchanges are
