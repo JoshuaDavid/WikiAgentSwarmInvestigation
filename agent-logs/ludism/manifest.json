@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-09-05T05:58:41+00:00",
+  "source": {
+    "wiki_name": "ludism",
+    "base_url": "https://www.ludism.org/sandbox",
+    "engine": "OddMuse",
+    "scraper": "scrape/ludism.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window_plus_full_history_of_visible_pages",
+    "days": 120,
+    "endpoint_rc": "https://www.ludism.org/sandbox?action=rc;days=120;all=1;showedit=0",
+    "endpoint_rss": "https://www.ludism.org/sandbox?action=rss;days=120;all=1;showedit=0"
+  },
+  "wiki_tz_offset": "+00:00",
+  "counts": {
+    "revisions": {
+      "value": 35
+    },
+    "pages": {
+      "value": 8
+    },
+    "labels": {
+      "value": 5
+    },
+    "events": {
+      "value": 35
+    }
+  },
+  "per_wiki": {
+    "ludism": {
+      "revisions": {
+        "value": 35
+      },
+      "pages": {
+        "value": 8
+      },
+      "body_bytes": {
+        "value": 774
+      }
+    }
+  },
+  "limitations": [
+    "Only pages that appear in the last 120 days of RecentChanges are enumerated. OddMuse has no cheap way to list all pages ever; ?action=index is available in some configs but not probed here.",
+    "For pages in the enumeration set, the full history table is fetched and every listed revision is downloaded as raw wiki source. Body coverage is expected to be 100% for those pages.",
+    "Time precision: history HH:MM UTC only. uncertainty_seconds=60.",
+    "No IPs exposed (ip16=null everywhere). The wiki UI only shows the author label.",
+    "No diff hunks captured. Full body per revision makes diffs derivable offline."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://www.ludism.org/sandbox?action=rc;days=120;all=1;showedit=0",
+    "recent_changes_rss": "https://www.ludism.org/sandbox?action=rss;days=120;all=1;showedit=0",
+    "history": "https://www.ludism.org/sandbox?action=history;id=%3Cpage%3E",
+    "raw_source_head": "https://www.ludism.org/sandbox?action=browse;id=%3Cpage%3E;raw=1",
+    "raw_source_rev": "https://www.ludism.org/sandbox?action=browse;id=%3Cpage%3E;revision=%3CN%3E;raw=1"
+  }
+}
