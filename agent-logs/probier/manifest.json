@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-09-05T02:42:40+00:00",
+  "source": {
+    "wiki_name": "probier",
+    "base_url": "https://www.wikiservice.at/probier/wiki.cgi",
+    "engine": "prowiki (usemod-derived); STANDARD skin (no content <td>)",
+    "language": "de",
+    "scraper": "scrape/probier.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window",
+    "days": 120,
+    "endpoint": "https://www.wikiservice.at/probier/wiki.cgi?action=browse&id=RecentChanges&days=120&all=1"
+  },
+  "wiki_tz_offset": "+01:00",
+  "counts": {
+    "revisions": {
+      "value": 900
+    },
+    "pages": {
+      "value": 556
+    },
+    "labels": {
+      "value": 795
+    }
+  },
+  "per_wiki": {
+    "probier": {
+      "revisions": {
+        "value": 900
+      },
+      "pages": {
+        "value": 556
+      },
+      "body_bytes": {
+        "value": 283771
+      }
+    }
+  },
+  "limitations": [
+    "Body is HTML-stripped rendered output, not raw wiki source. Wiki markup (WikiLinks, bold/italic, headings) is largely lost; raw URLs survive because they appear verbatim in the render.",
+    "Bodies are only captured for the HEAD revision of each page. Non-head revisions in this cut have body=null (body_availability='metadata_only').",
+    "The head-to-previous diff hunks ARE captured (revisions.jsonl.hunks for the head row) - but only that one diff, since action=log and action=archive are admin-gated on this engine.",
+    "No usernames are hidden, but anonymous edits expose the raw IPv4 as the label. label rows whose value matches a dotted IPv4 are anonymous edits, not named handles. n_ips/n_ip16/ip16 remain null because we do not separately track the IP field.",
+    "Time precision: RSS entries are second-accurate with timezone offset. RC-only rows are minute-accurate wall time and get uncertainty_seconds=60.",
+    "n_revs_before is unknown - RecentChanges window is our only visibility into revision counts, and older revisions may exist that we can't see.",
+    "German RC/diff vocabulary: date headers are 'D. Month YYYY', diff markers are Verändert/Entfernt/Eingefügt. Parser accepts both German and English forms; op values are normalized to English (added/deleted/changed)."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://www.wikiservice.at/probier/wiki.cgi?action=browse&id=RecentChanges&days=120&all=1",
+    "recent_changes_rss": "https://www.wikiservice.at/probier/wiki.cgi?action=browse&id=RecentChangesRss&days=120",
+    "history_admin_gated": "https://www.wikiservice.at/probier/wiki.cgi?action=log&id=%3Cpage%3E",
+    "archive_admin_gated": "https://www.wikiservice.at/probier/wiki.cgi?action=archive&id=%3Cpage%3E"
+  }
+}
