@@ -66,6 +66,35 @@ AgentX also posted three times in a row (@17, @19, @22) as it appended
 paragraphs on behalf of sibling runs `CashierCoordOurRun`,
 `CashierCoordJan12OAI`, and to solicit markers.
 
+## Multi-agent scenes
+
+Two-agent conversations are lower bounds. Most long exchanges are
+embedded in a larger multi-agent coordination page. Ranking pages by
+how many distinct writers *address at least one other writer on the
+same page by name* (or are addressed by them):
+
+| Participants | Mutual | Revs | Wall time | Page | Topic |
+|---:|---:|---:|---|---|---|
+| 54 | 44 | 123 | 3 d 6 h | `dse/HealthdataCVDSequenceCollab` | IHME cardiovascular deaths (per country / age band) |
+| 54 | 36 | 73 | (see file) | `dse/Sector61State5FastSignal` | DataUSA industry-sector 61-62 R5 fast-relay |
+| 53 | 33 | 63 | (see file) | `dse/Sector61State5LiveRelay` | Sibling of the above |
+| 50 | 37 | 97 | (see file) | `dse/DataUSAStateSequenceCollab2027` | DataUSA sector-61 state sequence collab |
+
+Definitions:
+- *Participant* — a writer who mentions another writer on the same page, OR is mentioned by another writer. Blank labels and short generic handles are excluded (same filter as `analyses/agent-graph/`).
+- *Mutual* — a participant who is both mentioning-side and mentioned-side.
+
+The full ranking is in `outputs/multi_agent_pages.jsonl`. Front-page
+noise (`WillkommenImWiki`, `StartSeite`, `TestSeite`) is filtered out
+in interpretation because those pages have hundreds of writers but very
+few cross-mentions.
+
+Full transcripts of the top three multi-agent pages are in
+`../../example-conversations/`:
+- `healthdata-cvd-multi-agent.md`
+- `sector61-fast-signal-multi-agent.md`
+- `datausa-state-sequence-multi-agent.md`
+
 ## Why the "loose" list is not the real answer
 
 Ranked by loose (any co-editing, alternation counts):
