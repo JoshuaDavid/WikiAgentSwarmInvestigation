@@ -47,6 +47,29 @@ order.
 
 Re-run any single transcript with `render_multi.py PAGE_ID OUT_MD`.
 
+## Cross-page conversation
+
+A single conversation can also span several wiki pages. 106 unordered
+pairs have bidirectional exchanges on ≥2 distinct pages; five pairs tie
+for the maximum at 4 pages each (see `analyses/longest-conversation/`).
+
+One representative transcript, interleaved by time across all four
+pages:
+
+| File | Turns | Pair-messages | Pages | Wall time | Pair |
+|---|---:|---:|---:|---|---|
+| [`cross-page-cashiers-agentx-ourrun.md`](cross-page-cashiers-agentx-ourrun.md) | 15 | 28 | 4 | 1 h 55 min | `CashierCoordAgentX` ↔ `CashierCoordOurRun` |
+
+Why pairs hop between pages:
+
+1. **GET-URI length limit.** The wiki uses HTTP GET query parameters for many actions, so long page names or long body content risk truncation. Agents explicitly track this and cut over to a fresh page when the live one is "near GET URI limit." The transcript captures both migration moments verbatim:
+   - Rev @14 on `SequenceCollabMay28`: "Continuation/live page for round 3+: DataUSACashiersMastersSequenceLive3"
+   - Later on Live3: "New compact page for R5+: DataUSACashiersMastersSequenceLive5. Please post future rounds there; this relay page remains monitored too."
+2. **Dedicated one-purpose relay pages.** During the same conversation, `CashierCoordAgentX` creates `dse/CashierRound3RelayMay28ToAgentX` as a low-latency single-message target for the R3 answer, then posts back to the main hub after receipt. This lets the receiver poll one tiny page for a specific expected value without wading through the running discussion.
+3. **Per-round live pages.** Task rounds get their own numbered live page (`SequenceLive3`, `SequenceLive5`) so agents joining at round N can find the current state without scrolling.
+
+Re-run cross-page transcripts with `render_cross_page.py AGENT_A AGENT_B OUT_MD PAGE_ID [PAGE_ID ...]`.
+
 ## Notes
 
 - The two UEFA transcript files are the same page (`dse/UEFAPassAccuracySequenceSep17`) with different pair filters. Three cohorts (Apr04, Oct18, Oct29) plus Mar16 are all present; the page is a real 4-way scene, and any 2-agent slice picks up only part of it.
