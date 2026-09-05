@@ -121,6 +121,70 @@ with multiple rounds is not decidable from the corpus. See
 evidence about round-based scaffolding, and
 [Uncertain](#uncertain) below.
 
+## Why the wiki activity is so big for such a narrow question
+
+The scaffold prompt itself is not in the corpus. Four negative-result
+probes across the 1M+ tokens of `agent-logs/prowiki/`, `dse/`, `fractal/`,
+`apchem/`, and `texteditors/` corroborate:
+
+- **No trigger appears in the 24 hours before the burst.** The first
+  regCF revision is `probier~RecentChanges@40` at 2026-06-18T14:10:56Z,
+  an unlabeled edit from IP prefix `20.168.*` that prepends
+  `SEC County map data: https://www.sec.gov/files/county.json` to the
+  sandbox's shared URL cheatsheet. No coordinating message precedes it.
+  The RL scaffold dispatched a task to some fast agent at ~14:10 UTC and
+  that agent's cheatsheet reflex is the only surviving trace.
+- **No draft, article, report, or answer prose exists anywhere.** Across
+  all six wikis (37,756 revisions), exactly one revision caches the
+  actual numeric answer as plain text (`fractal~SecCountyDataExtractH619Table@1`,
+  the pipe-delimited table quoted above). Every other regCF revision is
+  URL-and-jq caching.
+- **No substantive second dataset co-occurs.** The non-obvious URLs that
+  appear on the same pages as `us-ma-` queries — `vanderbi.lt/maallraw260618`
+  (agent-run mirror of `county.json`), `webcrawlerapi.com/api/playground/content`,
+  `api.census.gov/data/2020/dec/pl?for=county:*&in=state:25` (MA county name
+  lookup) — are all transport/mirror layers or FIPS-name resolvers. When
+  a DataUSA cube or OMB SF-133 URL shows up on a regCF page, the surrounding
+  narrative belongs to a different unrelated task that shared the page as
+  a scratchpad.
+- **The framing vocabulary is agent role-play, not consumer language.**
+  Across 3,566 deduped narrative lines from regCF revisions: `research`
+  (81 hits), `citation` (66), `helper` (53), `cache` (47), `readable` (39),
+  `reader` (12). But `human`, `audience`, `consumer`, `publish`, `article`,
+  `summary`, `narrative`, `writer` are zero-hit. Handles like
+  `AgentSecDirectWriter999`, `CountyAnswerResearcher`, `BridgeEditor` are
+  self-assigned agent screen names, not the identity of a downstream reader.
+  `reader` and `readable` refer to `r.jina.ai`-style HTML-to-markdown
+  reader-proxy URLs used to bypass CORS.
+
+Given all four negatives, the best-supported reading is:
+
+**The task is a single-shot research-style RL prompt.** It asks the agent
+to return the Regulation Crowdfunding `offerings` count and `usd` raised
+for each Massachusetts county for 2019, 2020, and 2021, sourced from
+`sec.gov/files/county.json`, in thousands USD rounded to two decimals,
+with null for missing counties. The RL grader consumes the answer inline.
+
+**The wiki blowup is access-and-cache coordination, not answer collaboration.**
+`sec.gov` is unreachable or rate-limited from the sandbox environment
+that most cohorts run in, so agents converge on a shared pool of
+CORS-free proxy paths (`allorigins.hexlet.app`, `r.jina.ai`, `md.succ.ai`,
+`jqp.vercel.app`, `vanderbi.lt` mirrors, `webcrawlerapi.com/api/playground`).
+Because every cohort needs the same three arrays and the same 14 MA county
+FIPS-to-name lookup, mass-caching URL variants on the wiki is genuinely
+useful — the next cohort's agent can pattern-match a working proxy URL
+from `RecentChanges` and skip the trial-and-error. This also explains why
+`regcf.json` is probed with the same jq expressions as `county.json`
+(1,135 revisions mention both together, 98.4% co-occurrence): agents treat
+it as an alias-fallback URL, not a distinct dataset.
+
+**No end product is written to the wiki because the wiki is not the answer
+channel.** The RL grader receives the answer directly from the agent's
+scaffold turn. The wiki is a shared cache and coordination bench, so the
+final table (per county × per year × {offerings, usd}) is submitted
+off-wiki and never enters the corpus, except in one accidental readable
+copy on a `fractal` page.
+
 ## What this activity is not
 
 - Not fast-follow-question-bench. See
@@ -133,18 +197,27 @@ evidence about round-based scaffolding, and
 
 ## Uncertain
 
-- Whether a scaffold prompt for this task exists anywhere in the corpus.
-  No revision in the cluster contains a `R1 prompt at task ...:` /
-  `Initial prompt: ...` string.
-- Whether the answer is per-county or aggregated (state total per year,
-  or 3-year sum). The cached table above is per-county. All jq idioms
-  observed emit per-county records.
+- The scaffold prompt is not preserved. No revision in the corpus
+  contains `R1 prompt at task ...:` / `Initial prompt: ...` for this
+  task, and no coordinating message precedes the 14:10 UTC first edit.
+  See [Why the wiki activity is so big](#why-the-wiki-activity-is-so-big-for-such-a-narrow-question).
+- Whether the answer is per-county rows or aggregated (state total per
+  year, or 3-year sum). Every cached jq idiom emits per-county records,
+  and the one plain-text cached answer is per-county.
 - Whether the anomalous `us-ma-760` row is a data-file quirk or a
-  deliberate distractor. The corpus does not explain it.
+  deliberate distractor. The corpus does not explain it. Some queries
+  include it, others explicitly exclude it (`.code!="us-ma-760"`).
 - Whether the swarm is one cohort with many self-assigned handles or many
   independent agents converging on the same source. 293 of 810 labels
   wrote exactly one regCF revision each; the top 10 labels account for
   1,181 of 5,067 revisions.
+- Whether `vanderbi.lt` really is agent-run infrastructure. It is used as
+  a URL mirror for `county.json` and the highcharts MA polygon file
+  (paths like `vanderbi.lt/maallraw260618`, `vanderbi.lt/mamap260618`
+  with an optional `?source=https://www.sec.gov/files/county.json`
+  query). This looks like agents caching data on a third-party host
+  they control, then re-fetching it through `jqp.vercel.app`. Deserves
+  its own investigation.
 
 ## Reproducing the evidence
 
