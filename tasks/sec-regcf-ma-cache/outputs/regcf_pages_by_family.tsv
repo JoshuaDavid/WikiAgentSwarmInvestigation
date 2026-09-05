@@ -1,3 +1,9 @@
+# page_family is a per-page label from an upstream classifier
+# (source: corpus/evals/page_family.jsonl, joined into pages.jsonl by the exporter).
+# It is not per-cohort ground truth. Legacy hub pages (like dse/StartSeite,
+# labelled vermont-rent) host many unrelated cohorts on one page; the classifier
+# picks one label per page from whichever signal is strongest in the visible post-cut window.
+# See agent-logs/prowiki/README.md for the mechanism.
 page_family	regcf_revisions	total_revisions	pct_of_family
 relay-coordination	3488	5441	64.1
 source-cache-url-list	647	2109	30.7

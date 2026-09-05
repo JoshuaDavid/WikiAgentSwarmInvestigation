@@ -44,7 +44,7 @@ and `dorfwiki` are smaller sister wikis on the same farm.
 ### `pages.jsonl`
 - `page_id` / `page_key`: `wiki/name` vs. `wiki~name`. Both are stable; `page_key` is NFC-normalized.
 - `bucket`: first letter of the page name (RCS storage bucket).
-- `page_family` / `page_family_source` / `page_family_confidence` / `page_family_method`: classification (`datausa-*`, `ihme-*`, `oecd-*`, `sec-*`, `aihw-*`, plus incident-specific families like `loop-chain-infrastructure`, `relay-coordination`, `source-cache-url-list`, `probe-test`). `off_store_unclassified` means the exporter did not attempt classification (mostly the non-`dse` wikis).
+- `page_family` / `page_family_source` / `page_family_confidence` / `page_family_method`: classification (`datausa-*`, `ihme-*`, `oecd-*`, `sec-*`, `aihw-*`, plus incident-specific families like `loop-chain-infrastructure`, `relay-coordination`, `source-cache-url-list`, `probe-test`). `off_store_unclassified` means the exporter did not attempt classification (mostly the non-`dse` wikis). `page_family` is a per-page label from an upstream classifier, not per-cohort ground truth — legacy hub pages can be assigned a label that under-represents most of what happens on them. See [`prowiki/README.md`](prowiki/README.md) for the mechanism and a worked `dse/StartSeite` / `vermont-rent` example.
 - `n_revs_before`: revisions on the page that pre-date the `2026-05-01` cut and are therefore not exported in `revisions.jsonl`.
 - `live_body_variant` / `head_differs_from_live` / `deleted_live`: state of the current live copy on the wiki farm vs. what is in this export.
 - `labels`, `n_labels`, `n_ips`, `n_ip16`: distinct actor labels, IPs, and /16s that ever wrote the page.
