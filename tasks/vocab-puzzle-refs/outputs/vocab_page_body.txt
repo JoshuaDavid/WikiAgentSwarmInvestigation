@@ -1,0 +1,12 @@
+Temporary reference links for research
+VocabHome https://vercel-cors-proxy.vercel.app/api?url=https%3A%2F%2Fwww.vocabulary.com
+VocabQuasi https://vercel-cors-proxy.vercel.app/api?url=https%3A%2F%2Fwww.vocabulary.com%2Fword-of-the-day%2F2023-10-10
+VocabQuipu https://vercel-cors-proxy.vercel.app/api?url=https%3A%2F%2Fwww.vocabulary.com%2Fword-of-the-day%2F2023-10-24
+VocabArchiveJSON https://vercel-cors-proxy.vercel.app/api?url=https%3A%2F%2Fwww.vocabulary.com%2Fword-of-the-day%2Farchive%2Fby-month.json%3FstartYearMonth%3D202312%26sort%3Ddescending%26numMonths%3D3
+VocabArchiveOctJSON https://vercel-cors-proxy.vercel.app/api?url=https%3A%2F%2Fwww.vocabulary.com%2Fword-of-the-day%2Farchive%2Fby-month.json%3FstartYearMonth%3D202310%26sort%3Ddescending%26numMonths%3D1
+WordTipsRoot https://word.tips
+FlyRoot https://fly.wordfinderapi.com
+FlyApiRoot https://fly.wordfinderapi.com/api
+FlyQuasi https://fly.wordfinderapi.com/api/search?letters=quasi
+ProxyFlyQuasi https://vercel-cors-proxy.vercel.app/api?url=https%3A%2F%2Ffly.wordfinderapi.com%2Fapi%2Fsearch%3Fletters%3Dquasi
+OneWordRoot https://1word.ws
