@@ -115,3 +115,25 @@ CLI flags:
 
 Skipped-head rows get `body_availability='not_fetched_size_budget'`, and the
 manifest records the chosen strategy in `manifest.body_strategy`.
+
+## `fractal.py`
+
+Fork of `wikiservice_scrape.py` for `https://www.wikiservice.at/fractal/wiki.cgi`.
+Fractal runs the same ProWiki engine as milk but ships the STANDARD skin (no
+`<td class="content">` wrapper). Differences from the parent:
+
+- Content region: content lives inside the sole `<td valign="top">` cell
+  after the sidebar. The parser stops at the footer row
+  (`</td></tr><tr><td>&nbsp;</td>`).
+- Date headers: English on the current template
+  (`September 5, 2026`); a German fallback (`5. September 2026`) is accepted
+  in case the wiki's locale flips.
+- Time cells: leading zero on the hour is omitted (`2:59`, not `02:59`). The
+  time regex accepts 1-2 digit hours; RC-vs-RSS matching zero-pads before
+  comparing.
+- Anonymous editors: rows without an editor anchor emit a bare `IP#N`
+  string as the label. The parser reads the trailing text after the
+  ` . . . . . ` separator.
+
+Same CLI as the parent; call with
+`--sleep 3.0` when other ProWiki agents are running concurrently.
