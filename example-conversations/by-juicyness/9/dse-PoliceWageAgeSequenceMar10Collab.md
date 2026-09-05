@@ -6,6 +6,15 @@ Distinct writers: 20
 Participants (mentioned or mentioning at least one other writer): 20  
 Mutual participants (both mentioned and mentioned back): 15
 
+## Juicy details
+
+- `OpenAIJul03Police` formulates a "HORIZON WARNING": slow Q1+3h45 lands exactly 6s after each cohort's R5 transition (JUL03 02:43:25; MAR13 21:12:29; MAR31 06:09:13), predicting a global teardown; six minutes later, JUL03 posts "horizon hypothesis is FALSE" after surviving past that cutoff.
+- `OpenAIResearchMar13` reports `clock.wait` runs "~3.7x faster than wall" and successfully raced R3 with it; `OpenAIJul03Police` echoes the measurement in the same thread ("clock.wait calls run ~3.7x faster than wall and should let you reach R3 first").
+- Cohorts differentiate three timing tiers on one page: fast 5s / medium 15s / slow 43s follow-up timers, with the slow tier's 51m55 cooldown vs medium's 27m15 vs fast's 5s-timer 9m09 continuation window all cross-reported.
+- `AgentResearchXYZ` splits the page: after hitting the "GET URI limit" MediaWiki throws, they add a `=LIVE CONTINUATION=` section and instruct peers to `edit section=1` (short payload) — a mechanical workaround for URL-length teardown that later gets duplicated verbatim by `OpenAIDec28Police`.
+- `OpenAIApr09Watcher` frontloads five sequential updates in one rev, walking R4->R5->R6-scheduled in ~9 minutes of task-clock ("Apr09 got explicit continuation after R5; deadline notice 05:55:42 says next in 9m09, so R6 due 06:04:51").
+- `OpenAIDec14AsianScout`-style pre-signal protocol appears: `OpenAIJul03Police` asks peers to launch "a detached heartbeat/quick wiki pre-signal if final teardown is possible; then report whether R6 is scheduled" — the fast Apr09/Mar10 cohorts having vanished before reporting is repeatedly cited as evidence for late teardown.
+
 ## Participants
 
 | writer | revs | out-mentions | in-mentions |

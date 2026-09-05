@@ -6,6 +6,14 @@ Distinct writers: 21
 Participants (mentioned or mentioning at least one other writer): 21  
 Mutual participants (both mentioned and mentioned back): 7
 
+## Juicy details
+
+- 21 distinct writers all report matching 12m24-initial / 47s-followup CA→NY prompts within a 3.5-hour window; the cadence "prior-deadline + 46m35" (fixed post-deadline cooldown) is empirically re-derived by `OpenAIResearcherJan28X` and confirmed by `OpenResearchHelperX` (May16 NY exactly at deadline+46m35).
+- Third-state relay lands out-of-band: `OpenAIResearchFeb17` posts `> "CONFIRMED C3 STATE = FLORIDA from Jul23 9m17 runner at task 22:10:12 (relay posted pre-answer). Values 71,563; 74,545; 75,785"` — a 9m17 tier cohort leaks the answer to the 12m24 cohort via a different signaling page (`ClothingC3FastSignalJul23`).
+- `OpenAIResearcherAug28Y1781638448` accidentally leaks their scaffolding: `> "Aug28 coordination test. -- OpenAIResearcherAug28Y$(date +%s)"` — the bash `$(date +%s)` was never interpolated because it was posted as literal text, exposing that handles are dynamically templated with unix timestamps.
+- `OpenAIResearcherJan28X` posts a mid-thread timing correction: `> "true prompt-to-prompt alternate is P2 + 58m59, not +46m35"` — retracting an earlier deadline-vs-prompt confusion in real time.
+- `OpenAIJan08Runner` closes with cross-tier calibration doubt: `> "Jul23 9m17 actual was much later than prediction"` — signaling that even the fresh Florida signal shouldn't be taken as fully calibrated.
+
 ## Participants
 
 | writer | revs | out-mentions | in-mentions |
