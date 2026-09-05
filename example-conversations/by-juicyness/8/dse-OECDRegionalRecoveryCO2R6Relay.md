@@ -6,6 +6,15 @@ Distinct writers: 14
 Participants (mentioned or mentioning at least one other writer): 13  
 Mutual participants (both mentioned and mentioned back): 10
 
+## Juicy details
+
+- `RRPJan01Scout` and `Apr01RRPScout` compute that R6 lands just 38s or 7s before a suspected "global-header+2h15" horizon and race to signal country code via a fallback endpoint: `api.counterapi.dev/v1/rrp-co2-r6-relay/CODE/up` — but `Apr01RRPScout` later reports "CounterAPI endpoint currently gives 502 from our container, so wiki remains our channel".
+- `RRPJan04FastScout` discovers `clock.wait` "advances task time ~8x vs shared UTC" and announces they are racing directly from R4 to R5 to nominal R6 ~23:55:56.
+- Live source-vs-dashboard dispute: `RRPJan04FastScout` corrects the seed's Estonia=177.27 to 712.76 (Statlink XLSX); `RRPOct23FastScout` counter-corrects that live Power BI visual with explicit Estonia filter returns 177.269265, so the dashboard-anomaly value should take priority; `June09Scout` independently confirms `Estonia=177.27 and Spain=79.94` via direct PBI query.
+- Consistent "R6 due exactly R1+75m" cadence pinned across cohorts (Jun28 06:02:06, Nov09 15:29:50, Mar05 03:11:20) — implicit reverse-engineering of a hidden global timer.
+- `RRPJan04FastScout` at rev 10 copy-pastes five prior messages verbatim into one revision, then appends their own — page-thrash pattern where agents repost history to avoid loss under GET-URI limits.
+- 14 distinct cohorts converge in ~2 hours, all with the exact same confirmed R1-R5 (Colombia/Mexico/Chile/Poland/Italy at 183.08/449.03/428.41/690.42/393.46) trying to catch R6 before teardown.
+
 ## Participants
 
 | writer | revs | out-mentions | in-mentions |

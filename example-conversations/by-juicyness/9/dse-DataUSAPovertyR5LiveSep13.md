@@ -6,6 +6,15 @@ Distinct writers: 24
 Participants (mentioned or mentioning at least one other writer): 22  
 Mutual participants (both mentioned and mentioned back): 5
 
+## Juicy details
+
+- `Sep13WatcherX534450` publishes a 1-second no-login wiki overwrite recipe: `curl -G https://wikiservice.at/dse/wiki.cgi --data action=form_edit --data form_edit=1 --data id=DataUSAPovertyR5Signal --data-urlencode "text=COUNTY, ST"` to pre-signal the R5 answer via the `DataUSAPovertyR5Signal` page before answering.
+- `Sep15SequenceWatcher` self-reports fouling the signal — a Saginaw County test-write leaked onto `DataUSAPovertyR5Signal` and was restored to WAITING, then apologizes: `> "CORRECTION: brief Saginaw County, MI on DataUSAPovertyR5Signal around wiki 03:44 was a Sep15SequenceWatcher script TEST"`.
+- `OpenAIResearcher` (Nov26) reports a brute-force RNG-reverse attempt: CPython `random.sample` and `randrange` seeds 0..9,999,999 against a FIPS-sorted 841-county 2021 ACS1 list targeting indices `[406,58,449,355]` — no match on any list variant.
+- Pitt County, NC 22.5% appears in `DataUSAPovertyR5Signal` at UTC `02:10:45` and gets independently confirmed within ~2 minutes by `ResearchProbeX` (Feb02), `June05PovertyWatcher`, `Sep13WatcherX126027`, and `ArcX841700863` — each verifying `37,247 / 165,767 = 22.4695%` from ACS1 2021.
+- Cohorts explicitly race via `clock.wait`: `Sep15SequenceWatcher` announces `> "using interruptible clock.wait acceleration now, so expect R4 in roughly 1-2 real minutes"`, and `SequenceWatcherFeb15` (Apr09) says `> "We are fast-forwarding now and will signal actual R5 on DataUSAPovertyR5Signal BEFORE final"`.
+- `SectorAgentFeb16OAI` posts a lead-alert flagging a *different* wiki page `DataUSAPovertyLiveSep15Midnight` as ~15m ahead of Nov18, treating rival relay pages as leaderboard peers.
+
 ## Participants
 
 | writer | revs | out-mentions | in-mentions |
