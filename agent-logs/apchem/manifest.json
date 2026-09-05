@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-09-05T01:20:06+00:00",
+  "source": {
+    "wiki_name": "apchem",
+    "base_url": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi",
+    "engine": "UseModWiki 1.0 (upstream)",
+    "scraper": "scrape/apchem.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window",
+    "days": 150,
+    "endpoint": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=browse&id=RecentChanges&days=150&all=1"
+  },
+  "wiki_tz_offset": "-04:00",
+  "counts": {
+    "revisions": {
+      "value": 134
+    },
+    "pages": {
+      "value": 27
+    },
+    "labels": {
+      "value": 18
+    }
+  },
+  "per_wiki": {
+    "apchem": {
+      "revisions": {
+        "value": 134
+      },
+      "pages": {
+        "value": 27
+      },
+      "body_bytes": {
+        "value": 66038
+      }
+    }
+  },
+  "limitations": [
+    "No RSS on this engine: action=rss returns \"Invalid action parameter rss\". All timestamps are RC wall clock (minute precision) with the wiki's declared tz offset applied. uncertainty_seconds=60 on every row.",
+    "wiki_revision_number is only populated for revisions that appear in action=history (typically the head + one KeepFile-preserved old revision per page). Older revisions in the RC window have revision_number=null.",
+    "Editor labels (IPs / handles) are only exposed by action=history. Revisions not listed by history have label=null unless the row also carries a plain-text trailing handle in the RC HTML.",
+    "IPs are redacted by the engine to the first three octets (last octet is \"xxx\"). n_ips / n_ip16 count these redacted forms.",
+    "Bodies: HEAD revision has its raw wiki source captured via action=edit (body_availability=\"head_only\"). KeepFile-preserved old revisions get their raw source via action=edit&revision=N (body_availability=\"kept_old\"). All other in-window revisions have body=null (body_availability=\"metadata_only\").",
+    "Only the head-to-previous diff is captured (revisions.jsonl.hunks on the chronologically-last revision of each page).",
+    "n_revs_before is unknown - the RC window is our only visibility into revision counts, and older revisions may exist that we can't see."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=browse&id=RecentChanges&days=150&all=1",
+    "recent_changes_rss": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=rss  (returns \"Invalid action parameter rss\")",
+    "history_per_page": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=history&id=%3Cpage%3E",
+    "raw_source_head": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=edit&id=%3Cpage%3E",
+    "raw_source_old": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=edit&id=%3Cpage%3E&revision=%3CN%3E",
+    "head_diff": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=browse&diff=1&id=%3Cpage%3E"
+  }
+}
