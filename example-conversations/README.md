@@ -1,16 +1,14 @@
 # example-conversations
 
-Verbatim transcripts of the longest two-agent conversations found in the
-`agent-logs/` export. Each file is one conversation on one wiki page,
-showing the append-only diff (paragraphs added) for each revision, in
-time order.
+Verbatim transcripts and summaries of the longest and largest agent
+conversations in the `agent-logs/` export.
+
+## Two-agent transcripts
 
 Selection rule matches `analyses/longest-conversation/` (strict):
 revisions whose writer is one of two specific handles A or B **and**
 whose body mentions the other handle. The "turn count" collapses
 consecutive-same-writer revisions into one turn.
-
-## Files
 
 | File | Turns | Revs | Wall time | Topic | A | B |
 |---|---:|---:|---|---|---|---|
@@ -21,16 +19,37 @@ consecutive-same-writer revisions into one turn.
 | [`police-wage-age.md`](police-wage-age.md) | 9 | 14 | 4 h 3 min | DataUSA police-officer wage-by-age-band sequence, occupation 333050 | `OpenAIResearchMar13` | `OpenAIJul03Police` |
 | [`state-sequence-2027.md`](state-sequence-2027.md) | 9 | 11 | 40 min | DataUSA industry-sector 61-62 workforce state sequence | `ParallelSectorAgentApr2` | `SectorAgentJun20X` |
 
-## Reruns
+Re-run any single transcript with `render.py PAGE_ID AGENT_A AGENT_B OUT_MD`.
 
-`render.py` regenerates any single transcript from the source revisions:
+## Multi-agent coordination pages
 
-```
-python3 render.py PAGE_ID AGENT_A AGENT_B OUT_MD
-```
+Vocabulary for these files:
+
+| term | meaning |
+|---|---|
+| `participant` | a writer on the page who mentioned at least one other writer OR was mentioned by at least one other writer, by name. |
+| `mutual participant` | a writer who both mentioned another and was mentioned back. |
+| `out-mention` | one revision that names another writer's handle. Multiple names in one body count as multiple. |
+| `in-mention` | one revision by another writer that names this one. |
+
+Top three pages by participant count:
+
+| File | Participants | Mutual | Revs | Wall time | Topic |
+|---|---:|---:|---:|---|---|
+| [`healthdata-cvd-multi-agent.md`](healthdata-cvd-multi-agent.md) | 54 | 44 | 123 | 3 d 6 h | IHME cardiovascular deaths timed sequence (per country / age band) |
+| [`sector61-fast-signal-multi-agent.md`](sector61-fast-signal-multi-agent.md) | 54 | 36 | 73 | (see file) | DataUSA industry-sector 61-62 R5 fast-relay page |
+| [`datausa-state-sequence-multi-agent.md`](datausa-state-sequence-multi-agent.md) | 50 | 37 | 97 | (see file) | DataUSA industry-sector state sequence (2027 collab hub) |
+
+Each file contains the full transcript: participant table (per-writer
+revision count and mention-in / mention-out totals), the seed revision
+body, and one append-only diff block per subsequent revision in time
+order.
+
+Re-run any single transcript with `render_multi.py PAGE_ID OUT_MD`.
 
 ## Notes
 
-- The two UEFA files are the same page (`dse/UEFAPassAccuracySequenceSep17`) with different pair filters. Three cohorts (Apr04, Oct18, Oct29) plus Mar16 are all present; the page is a real 4-way scene, and any 2-agent slice picks up only part of it.
+- The two UEFA transcript files are the same page (`dse/UEFAPassAccuracySequenceSep17`) with different pair filters. Three cohorts (Apr04, Oct18, Oct29) plus Mar16 are all present; the page is a real 4-way scene, and any 2-agent slice picks up only part of it.
 - The Masters live3/live5 pair is one continuous conversation forced across two pages by a wiki-side URL-length limit — see the Live3 note "main page is near GET URI limit". Live3's alternation continues on Live5 among the sibling handles that follow the same cohort family.
-- Turn counts here are lower bounds on "how much they talked": each conversation is embedded in a larger multi-agent scene, and the strict filter only credits revisions where the specific two-agent pair addresses each other.
+- Two-agent turn counts are lower bounds on "how much they talked": each conversation is embedded in a larger multi-agent scene, and the strict filter only credits revisions where the specific pair addresses each other.
+- The single largest coordination scene is `dse/HealthdataCVDSequenceCollab`: 54 distinct agent handles editing across three days, with 1,419 total handle-mention events (~11 per revision). One agent, `OAI7C97`, both authored the seed message and remains the top-degree hub.
