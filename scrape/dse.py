@@ -420,8 +420,15 @@ def select_body_pages(page_names: list[str], strategy: str, limit: int) -> list[
 
 # --------------------------------------------------------------------- Main scrape
 
+def _read_iso8859_1(path: Path) -> str:
+    """Read a cached ProWiki response from disk with the wiki's native encoding."""
+    return path.read_bytes().decode("iso-8859-1", errors="replace")
+
+
 def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
-           sleep: float, body_strategy: str, body_limit: int) -> None:
+           sleep: float, body_strategy: str, body_limit: int,
+           rc_file: Path | None = None, rss_file: Path | None = None,
+           skip_rss: bool = False, tz_offset_fallback: str | None = None) -> None:
     started = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
     def _initial_fetch(url: str) -> str:
@@ -436,24 +443,45 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
             time.sleep(backoff)
         raise RuntimeError(f"rate-limited after retries: {url}")
 
-    print(f"[{name}] fetching RC (days={days},all=1) ...", file=sys.stderr)
-    rc_url = build_url(base, action="browse", id="RecentChanges", days=str(days), all="1")
-    rc_html = _initial_fetch(rc_url)
+    if rc_file:
+        print(f"[{name}] loading RC from cache: {rc_file}", file=sys.stderr)
+        rc_html = _read_iso8859_1(rc_file)
+    else:
+        print(f"[{name}] fetching RC (days={days},all=1) ...", file=sys.stderr)
+        rc_url = build_url(base, action="browse", id="RecentChanges", days=str(days), all="1")
+        rc_html = _initial_fetch(rc_url)
     revs = parse_rc(rc_html)
     print(f"[{name}]   RC parsed: {len(revs)} revision rows", file=sys.stderr)
 
-    print(f"[{name}] fetching RSS (days={days}) ...", file=sys.stderr)
-    rss_url = build_url(base, action="browse", id="RecentChangesRss", days=str(days))
-    try:
-        rss_text = _initial_fetch(rss_url)
-        rss_items = parse_rss(rss_text)
-    except Exception as e:
-        print(f"[{name}]   RSS fetch failed: {e}", file=sys.stderr)
+    if skip_rss:
+        print(f"[{name}] skipping RSS fetch (--no-rss)", file=sys.stderr)
         rss_items = []
+    elif rss_file:
+        print(f"[{name}] loading RSS from cache: {rss_file}", file=sys.stderr)
+        try:
+            rss_text = _read_iso8859_1(rss_file)
+            rss_items = parse_rss(rss_text)
+        except Exception as e:
+            print(f"[{name}]   RSS load failed: {e}", file=sys.stderr)
+            rss_items = []
+    else:
+        print(f"[{name}] fetching RSS (days={days}) ...", file=sys.stderr)
+        rss_url = build_url(base, action="browse", id="RecentChangesRss", days=str(days))
+        try:
+            rss_text = _initial_fetch(rss_url)
+            rss_items = parse_rss(rss_text)
+        except Exception as e:
+            print(f"[{name}]   RSS fetch failed: {e}", file=sys.stderr)
+            rss_items = []
     print(f"[{name}]   RSS parsed: {len(rss_items)} items", file=sys.stderr)
 
     wiki_tz = derive_wiki_tz(rss_items)
-    print(f"[{name}]   wiki TZ offset: {wiki_tz or 'unknown'}", file=sys.stderr)
+    if wiki_tz is None and tz_offset_fallback:
+        wiki_tz = tz_offset_fallback
+        print(f"[{name}]   wiki TZ offset: {wiki_tz} (from --tz-offset-fallback)",
+              file=sys.stderr)
+    else:
+        print(f"[{name}]   wiki TZ offset: {wiki_tz or 'unknown'}", file=sys.stderr)
 
     merged = merge_rc_rss(revs, rss_items, wiki_tz)
 
@@ -843,11 +871,23 @@ def main() -> None:
     )
     p.add_argument("--body-limit", type=int, default=200,
                    help="Cap for head_pages_bounded strategy (default 200)")
+    p.add_argument("--rc-file", type=Path, default=None,
+                   help="Path to a cached RecentChanges HTML file to use instead of re-fetching")
+    p.add_argument("--rss-file", type=Path, default=None,
+                   help="Path to a cached RSS XML file to use instead of re-fetching")
+    p.add_argument("--no-rss", action="store_true",
+                   help="Skip RSS entirely; all times fall back to RC-wall.")
+    p.add_argument("--tz-offset-fallback", default=None,
+                   help="Timezone offset (e.g. '+01:00') to assume for RC-wall "
+                        "times when the RSS feed is unavailable. Without this "
+                        "flag, RC-only rows are marked time_grade='rc_wall_naive'.")
     args = p.parse_args()
 
     out = args.out or Path("agent-logs") / args.name
     scrape(args.base, args.name, out, args.days, args.sanity, args.sleep,
-           args.body_strategy, args.body_limit)
+           args.body_strategy, args.body_limit,
+           rc_file=args.rc_file, rss_file=args.rss_file, skip_rss=args.no_rss,
+           tz_offset_fallback=args.tz_offset_fallback)
 
 
 if __name__ == "__main__":
