@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T01:39:04+00:00",
+  "generated_at": "2026-09-05T01:48:51+00:00",
   "source": {
     "wiki_name": "dse",
     "base_url": "https://www.wikiservice.at/dse/wiki.cgi",
@@ -53,7 +53,8 @@
     "No IPs are exposed (n_ips/n_ip16/ip16 are all null). The wiki UI only shows the editor's label (nickname).",
     "Time precision: RSS entries are second-accurate with timezone offset. RC-only rows are minute-accurate wall time and get uncertainty_seconds=60. RSS is capped at a small number of most-recent items, so for a 500-day window nearly all rows fall back to RC-wall time.",
     "n_revs_before is unknown - RecentChanges window is our only visibility into revision counts, and older revisions may exist that we can't see.",
-    "body_strategy=metadata_only: per-page body/diff fetches were skipped entirely because the dse corpus has ~22k revisions across ~3.9k pages and full body+diff fetches at --sleep 3 would take several hours. All head rows are marked body_availability='not_fetched_size_budget'."
+    "body_strategy=metadata_only: per-page body/diff fetches were skipped entirely because the dse corpus has ~22k revisions across ~5.2k pages and full body+diff fetches at --sleep 3 would take several hours. All head rows are marked body_availability='not_fetched_size_budget'.",
+    "RSS feed was unavailable during this scrape (wikiservice.at was actively rate-limiting our IP with a 'Sperre: Zugriffrate ist zu hoch' page while four ProWiki agents ran concurrently). All timestamps therefore fall back to RC-wall time with the wiki's declared +01:00 offset (CET, applied year-round on this host per an earlier single-day RSS probe). Precision is one minute, uncertainty_seconds=60 on every row. wiki_revision_number is null on every row because it comes exclusively from RSS."
   ],
   "endpoints_probed": {
     "recent_changes_html": "https://www.wikiservice.at/dse/wiki.cgi?action=browse&id=RecentChanges&days=200&all=1",

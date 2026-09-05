@@ -785,7 +785,7 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
         limitations.append(
             "body_strategy=metadata_only: per-page body/diff fetches were "
             "skipped entirely because the dse corpus has ~22k revisions across "
-            "~3.9k pages and full body+diff fetches at --sleep 3 would take "
+            "~5.2k pages and full body+diff fetches at --sleep 3 would take "
             "several hours. All head rows are marked "
             "body_availability='not_fetched_size_budget'."
         )
@@ -795,6 +795,17 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
             f"were fetched only for the {body_limit} most-recently-edited "
             "pages, sorted by newest first-seen in the RC listing. Other head "
             "rows are marked body_availability='not_fetched_size_budget'."
+        )
+    if not rss_items:
+        limitations.append(
+            "RSS feed was unavailable during this scrape (wikiservice.at was "
+            "actively rate-limiting our IP with a 'Sperre: Zugriffrate ist zu "
+            "hoch' page while four ProWiki agents ran concurrently). All "
+            "timestamps therefore fall back to RC-wall time with the wiki's "
+            "declared +01:00 offset (CET, applied year-round on this host per "
+            "an earlier single-day RSS probe). Precision is one minute, "
+            "uncertainty_seconds=60 on every row. wiki_revision_number is "
+            "null on every row because it comes exclusively from RSS."
         )
 
     manifest = {
