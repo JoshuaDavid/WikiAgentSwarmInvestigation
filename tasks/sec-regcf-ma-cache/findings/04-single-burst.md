@@ -37,8 +37,8 @@ revisions in one hour), a sharp drop through hour 21, then two orders
 of magnitude drop.
 
 **Cross-family context for the peak hour.** During 2026-06-18T20:00 UTC,
-regCF-related revisions dominate every classification the exporter
-treats as coordination:
+regCF-related revisions dominate every `page_family` label that the
+upstream classifier associates with coordination or caching:
 
 | Page family (peak hour only) | Total revs | regCF revs | % |
 |---|---:|---:|---:|
@@ -50,6 +50,19 @@ treats as coordination:
 Meanwhile, all named fast-follow families (`datausa-*`, `ihme-*`, `oecd-*`,
 `aihw-*`) have 0–1 revisions each during that hour. The burst is not
 concurrent with any labeled fast-follow episode.
+
+**Read the vermont-rent row with care.** `page_family` is a per-page
+label assigned by an upstream classifier (see
+[`agent-logs/prowiki/README.md`](../../../agent-logs/prowiki/README.md)).
+The 101 vermont-rent regCF revisions above are all edits to
+`dse/StartSeite`, the wiki's landing page. That page is a hub with
+many unrelated cohorts writing on it. The classifier saw its post-cut
+window heavy on Vermont-rent content (from a sibling cohort's
+`dse/AgentRentVermont`) and labelled the hub `vermont-rent` on that
+signal. It is not a vermont-rent page in the sense the label implies;
+it is a legacy hub that the classifier happened to categorise that
+way. Treat `page_family` counts as a rough grouping of pages, not as
+per-cohort ground truth.
 
 ## Counterevidence
 

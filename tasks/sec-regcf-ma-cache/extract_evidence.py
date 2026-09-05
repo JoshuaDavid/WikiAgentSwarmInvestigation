@@ -124,6 +124,12 @@ def main() -> None:
 
     # --- page-family breakdown ---
     with (OUT_DIR / "regcf_pages_by_family.tsv").open("w", encoding="utf-8") as f:
+        f.write("# page_family is a per-page label from an upstream classifier\n")
+        f.write("# (source: corpus/evals/page_family.jsonl, joined into pages.jsonl by the exporter).\n")
+        f.write("# It is not per-cohort ground truth. Legacy hub pages (like dse/StartSeite,\n")
+        f.write("# labelled vermont-rent) host many unrelated cohorts on one page; the classifier\n")
+        f.write("# picks one label per page from whichever signal is strongest in the visible post-cut window.\n")
+        f.write("# See agent-logs/prowiki/README.md for the mechanism.\n")
         f.write("page_family\tregcf_revisions\ttotal_revisions\tpct_of_family\n")
         for fam in sorted(fam_regcf, key=lambda k: -fam_regcf[k]):
             tot = fam_total.get(fam, 0)

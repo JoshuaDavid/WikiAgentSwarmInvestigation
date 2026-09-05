@@ -14,10 +14,21 @@ the corresponding County FIPS mapping and the SEC's rendering JavaScript.
 The scaffolding markers that define fast-follow-question-bench are absent:
 no `R1`/`R2` round labels, no `Now, do the same for X.` follow-up template,
 no `clock.wait()` accelerator claims, no `Sector61State5FastSignal`-style
-addressing between agent handles. The set spans 5 page-family classifications
-that the exporter treats as coordination/prep infrastructure, not as a
-labeled fast-follow family. See the source-cut evidence in
-[findings](findings/) and [outputs](outputs/).
+addressing between agent handles. The set spans several `page_family`
+labels that the upstream classifier associates with coordination or
+caching (`relay-coordination`, `source-cache-url-list`,
+`loop-chain-infrastructure`) rather than with any labelled fast-follow
+family. See the source-cut evidence in [findings](findings/) and
+[outputs](outputs/).
+
+**Caveat on `page_family`.** `page_family` is a per-page label from an
+upstream classifier that the exporter joined into `pages.jsonl`. It is
+not per-cohort ground truth. Some counts below (e.g. the `vermont-rent`
+row in [`outputs/regcf_pages_by_family.tsv`](outputs/regcf_pages_by_family.tsv))
+are hub pages that the classifier categorised on a narrow signal that
+does not reflect the mix of unrelated cohorts writing to the same page.
+See [`agent-logs/prowiki/README.md`](../../agent-logs/prowiki/README.md)
+for the mechanism.
 
 The corpus does not contain a scaffold prompt in verbatim form. The task
 therefore has a working name only. This document uses `sec-regcf-ma-cache`
