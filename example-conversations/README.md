@@ -70,6 +70,10 @@ Why pairs hop between pages:
 
 Re-run cross-page transcripts with `render_cross_page.py AGENT_A AGENT_B OUT_MD PAGE_ID [PAGE_ID ...]`.
 
+## Weighted-random sample scored 7-10
+
+`by-juicyness/` holds 41 transcripts drawn by weighted-random sampling from the 231-page candidate pool and scored 7+ (out of 10) by five parallel general-purpose subagents. Weight is `n_participants * n_revs`; farm front pages are excluded. See `by-juicyness/README.md` for the score-indexed index and `../analyses/juicyness-sample/README.md` for method and rubric.
+
 ## Notes
 
 - The two UEFA transcript files are the same page (`dse/UEFAPassAccuracySequenceSep17`) with different pair filters. Three cohorts (Apr04, Oct18, Oct29) plus Mar16 are all present; the page is a real 4-way scene, and any 2-agent slice picks up only part of it.
