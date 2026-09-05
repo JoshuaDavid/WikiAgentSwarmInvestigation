@@ -20,7 +20,7 @@ Rerun with `python3 extract.py && python3 plot.py`.
 
 ## Corpus
 
-Ten exports under `../../agent-logs/`. Several overlap on the same underlying
+Nine exports under `../../agent-logs/`. Several overlap on the same underlying
 wiki (`prowiki/` bundles `dse`/`probier`/`fractal`/`dorfwiki`, and each of
 those wikis also has a standalone scrape). `extract.py` deduplicates by
 `rev_id` and prefers the body-bearing row for each rev; standalone `dse/`
@@ -31,16 +31,20 @@ Per-wiki after dedup:
 | wiki | unique revs | bodied revs | addressing revs |
 |---|---:|---:|---:|
 | dse | 23,564 | 13,337 | 3,580 |
-| publictestwiki | 2,559 | 2,506 | 510 |
 | probier | 1,074 | 1,031 | 15 |
 | fractal | 643 | 534 | 10 |
-| wiki4d | 235 | 158 | 9 |
+| wiki4d | 235 | 158 | 6 |
 | apchem | 134 | 49 | 1 |
 | texteditors | 68 | 48 | 1 |
 | ludism | 35 | 35 | 4 |
 | milkwiki | 16 | 10 | 0 |
 | dorfwiki | 6 | 6 | 0 |
-| **total** | **28,334** | **17,714** | **4,130** |
+| **total** | **25,775** | **15,208** | **3,617** |
+
+`publictestwiki` was scanned in an earlier pass and dropped after inspection —
+its 2,559 revs / 510 apparent addressing_revs were regex collisions between
+the swarm handle set and legitimate Miraheze test-wiki humans. See
+`agent-logs/README.md`.
 
 `apchem` is included even though its labels look like uncoordinated
 cloud IPs — per the memory note, the tmcleod.org/apchem cloud-IP editors are
@@ -50,25 +54,25 @@ part of the same agent fleet, confirmed out-of-band.
 
 | File | Rows | What it holds |
 |---|---:|---|
-| `messages.jsonl` | 21,215 | One row per `(from, to)` pair, with wiki, page_id, rev_id, time. |
-| `edges.jsonl` | 11,693 | One row per unique directed edge, with `count`. |
-| `nodes.jsonl` | 1,631 | One row per handle, with `out_degree`, `in_degree`, `out_messages`, `in_mentions`, `wikis`. |
+| `messages.jsonl` | 15,904 | One row per `(from, to)` pair, with wiki, page_id, rev_id, time. |
+| `edges.jsonl` | 10,286 | One row per unique directed edge, with `count`. |
+| `nodes.jsonl` | 1,466 | One row per handle, with `out_degree`, `in_degree`, `out_messages`, `in_mentions`, `wikis`. |
 | `components.json` | 16 | Undirected connected components, sorted size-desc. Each has `size` and `members`. |
 | `summary.txt` | — | Per-wiki scan counts and top-8 component sample from `extract.py`. |
 | `graph.svg` | — | Visualization: giant component laid out with Fruchterman-Reingold; smaller components labelled in a stack to the right. |
 
 ## Component structure
 
-The graph is almost fully connected. Of 1,631 handles, 1,584 (97.1%) live in
+The graph is almost fully connected. Of 1,466 handles, 1,419 (96.8%) live in
 one giant component. The remainder split into 15 tiny islands:
 
 | # | size | members / sample |
 |---|---:|---|
-| 1 | 1584 | giant (samples: `SectorAgentSep21OAI`, `PB2008`, `Research`, `AgentAug02Scout`, `OpenAIJul31Police`, …) |
+| 1 | 1419 | giant (samples: `SectorAgentSep21OAI`, `Research`, `AgentAug02Scout`, `OpenAIJul31Police`, cloud-IP writers …) |
 | 2 | 14 | cross-wiki fractal/probier probe cluster: `HelmutLeitner`, `CentaurAgent`, `CollusionWikiProbe`, `DataHelperAgentZX9`, `HeraldAgent`, `JonesHarode`, `SomeSGuy`, `help_peer` + 6 IP labels |
 | 3 | 6 | MCV task cluster: `April19MCVScout`, `Aug11MCVScout`, `Feb26MCVAgent`, `MCV2June30Scout`, `MCV2Nov30Scout`, `MayTwoMCVScout` |
 | 4 | 3 | OECD triad: `Apr24SlowOECD`, `Apr25OECD288854078`, `Apr25OECD619575757` |
-| 5–16 | 2 each | twelve one-off pairwise addressings (`CookBridgeUser9`↔`PeterSmith`, `OpenAgent`↔`OpenAgent2`, etc.) |
+| 5–16 | 2 each | twelve one-off pairwise addressings (`CookBridgeUser9`↔`PeterSmith`, `May17WageAgent`↔`Sep21WageScout`, etc.) |
 
 Component #2 spans two wikis (fractal and probier) and mixes named handles
 with cloud-IP labels — this is the closest thing to a second real
@@ -80,23 +84,23 @@ By `out_degree + in_degree`:
 
 | handle | degree | out_msgs | in_mentions | wikis |
 |---|---:|---:|---:|---|
-| `Research` | 227 | 0 | 281 | apchem, dse, fractal, probier, publictestwiki, texteditors, wiki4d |
-| `OpenAI` | 191 | 9 | 263 | dse, probier, publictestwiki |
+| `Research` | 226 | 0 | 279 | apchem, dse, fractal, probier, texteditors, wiki4d |
+| `OpenAI` | 190 | 9 | 262 | dse, probier |
 | `SectorAgentSep21OAI` | 125 | 120 | 98 | dse |
 | `SectorAgentNov27OAI` | 123 | 97 | 73 | dse |
 | `AgentOpenAISep7` | 111 | 75 | 81 | dse |
 | `ResearchHelperDec05` | 110 | 46 | 135 | dse |
 | `LanguageWatcherNov12` | 104 | 145 | 63 | dse |
-| `PB2008` | 103 | 545 | 302 | publictestwiki |
 | `SectorAgentOct27OAI` | 97 | 44 | 74 | dse |
 | `SectorAgentFeb25OAI` | 93 | 70 | 55 | dse |
 | `AgentJune25OAI` | 91 | 52 | 63 | dse |
+| `SectorAgentDec25X` | 91 | 104 | 60 | dse |
 
 `Research` and `OpenAI` are short generic labels that many agents mention
 as a *group* address rather than person-to-person — `Research` has zero
-outgoing messages but 281 incoming mentions, spread across seven wikis.
-`PB2008` is the top hub outside the OpenAI/dse cluster: 545 outgoing pairs
-on `publictestwiki`, all inside the giant component.
+outgoing messages but 279 incoming mentions, spread across six wikis.
+After dropping `publictestwiki`, the hub list is entirely `dse` handles
+plus the two group-address labels.
 
 ## Method
 
@@ -134,10 +138,10 @@ on `publictestwiki`, all inside the giant component.
   are false positives from ordinary text (e.g. `OpenAI` in URLs,
   `Research` in "research references"). The detector filters length ≥ 6
   but does not reason about capitalization or sentence position.
-- IP-style labels (mostly on `apchem` and `publictestwiki`) enter the
-  handle set because they pass length ≥ 6. Some appear in the graph
-  because bodies literally cite IP addresses; edges to and from them are
-  real messages but the semantics are weaker than named-handle addressing.
+- IP-style labels (mostly on `apchem`) enter the handle set because they
+  pass length ≥ 6. Some appear in the graph because bodies literally cite
+  IP addresses; edges to and from them are real messages but the semantics
+  are weaker than named-handle addressing.
 - `dse/` (standalone export) has zero revision bodies, so it contributes
   no messages on its own. It survives the dedup pass by providing
   rev_ids not present in `prowiki/`, but those extra rev_ids can't be
