@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-09-05T01:18:03+00:00",
+  "source": {
+    "wiki_name": "texteditors",
+    "base_url": "https://texteditors.org/cgi-bin/wiki.pl",
+    "engine": "usemodwiki (upstream)",
+    "scraper": "scrape/texteditors.py"
+  },
+  "cut": {
+    "kind": "recent_changes_window",
+    "days": 120,
+    "endpoint": "https://texteditors.org/cgi-bin/wiki.pl?action=browse&id=RecentChanges&days=120&all=1"
+  },
+  "wiki_tz_offset": "-05:00",
+  "wiki_tz_derivation": "compared 'Page generated ...' wall clock to HTTP Date header",
+  "counts": {
+    "revisions": {
+      "value": 68
+    },
+    "pages": {
+      "value": 49
+    },
+    "labels": {
+      "value": 42
+    }
+  },
+  "per_wiki": {
+    "texteditors": {
+      "revisions": {
+        "value": 68
+      },
+      "pages": {
+        "value": 49
+      },
+      "body_bytes": {
+        "value": 178620
+      }
+    }
+  },
+  "limitations": [
+    "Upstream UseModWiki has no RSS. `action=rss` returns 'Invalid action parameter rss'. All revision times come from RecentChanges HTML wall clock, minute-precision only (uncertainty_seconds=60).",
+    "`wiki_revision_number` and `wiki_head_revision_number` are always null on this export - the engine does not expose per-revision counters to the unauthenticated HTML/RC surface.",
+    "Wiki timezone is not declared. It is derived by comparing the wiki's own 'Page generated ...' wall clock against the HTTP Date header on the same response, rounded to the nearest 15 minutes. If derivation fails, rows are `time_grade='rc_wall_naive'` and the ISO time has no offset suffix.",
+    "Labels are the raw string printed after the ` . . . . . ` separator on RecentChanges. On this wiki that is usually a raw IPv4 or a reverse-DNS hostname (this is a public wiki with anon editing enabled and no obligatory nickname). A minority of labels are anchor-style handle names.",
+    "Body is HTML-stripped rendered output, not raw wiki source. Wiki markup (WikiLinks, bold/italic, headings) is largely lost; raw URLs survive because they appear verbatim in the render.",
+    "Bodies are only captured for the HEAD revision of each page. Non-head revisions in this cut have body=null (body_availability='metadata_only').",
+    "The head-to-previous diff hunks ARE captured (revisions.jsonl.hunks for the head row) - but only that one diff, since action=log and action=archive are admin-gated on this engine.",
+    "No IPs are exposed beyond what appears as a label. `ip16`, `n_ips`, `n_ip16` are all null - they exist for schema parity with prowiki, not because we have the data.",
+    "n_revs_before is unknown - RecentChanges window is our only visibility into revision counts, and older revisions may exist that we can't see."
+  ],
+  "endpoints_probed": {
+    "recent_changes_html": "https://texteditors.org/cgi-bin/wiki.pl?action=browse&id=RecentChanges&days=120&all=1",
+    "rss_unavailable": "https://texteditors.org/cgi-bin/wiki.pl?action=rss",
+    "history_admin_gated": "https://texteditors.org/cgi-bin/wiki.pl?action=log&id=%3Cpage%3E",
+    "archive_admin_gated": "https://texteditors.org/cgi-bin/wiki.pl?action=archive&id=%3Cpage%3E"
+  }
+}
