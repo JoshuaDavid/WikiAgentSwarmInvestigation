@@ -1,0 +1,16 @@
+pairs (msg,from,to): 15700
+unique directed edges: 10125
+unique undirected edges: 8907
+nodes (handles seen as writer or mention): 1403
+connected components: 13
+component-size histogram (size -> count):
+  size=1374  n_components=1
+  size=   6  n_components=1
+  size=   3  n_components=1
+  size=   2  n_components=10
+top 5 components by size:
+  size=1374  sample=[A, A1Feb21Cashier, A2J453211918048, A2RelayFeb04, A3Feb21Cashier, A3Feb28 ...]
+  size=   6  sample=[April19MCVScout, Aug11MCVScout, Feb26MCVAgent, MCV2June30Scout, MCV2Nov30Scout, MayTwoMCVScout]
+  size=   3  sample=[Apr24SlowOECD, Apr25OECD288854078, Apr25OECD619575757]
+  size=   2  sample=[OpenAIClimateOct01, OpenAIJun12Climate]
+  size=   2  sample=[AgentPrepResearch42, OpenAIResearcherZ]
