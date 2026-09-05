@@ -34,24 +34,50 @@ from typing import Iterable
 USER_AGENT = "collusionwiki-scraper/1.0 (research; joshuad93@gmail.com)"
 DEFAULT_DAYS = 120
 DEFAULT_SLEEP = 3.0  # four ProWiki agents run concurrently against this farm
+LOCK_BACKOFFS = (30, 60, 120, 240, 480)  # seconds to wait between Lock retries
 
 # --------------------------------------------------------------------- HTTP
+
+# When ProWiki rate-limits an anon client it serves a short "Wiki4D: Lock"
+# document (~360 bytes). It is not an HTTP error - status is 200 - so the
+# only signal is the response body.
+LOCK_TITLE_RE = re.compile(r"<TITLE>[^<]*:\s*Lock</TITLE>", re.IGNORECASE)
+LOCK_RATE_RE = re.compile(r"your access rate is too high", re.IGNORECASE)
+
+
+def _looks_like_lock(text: str) -> bool:
+    return bool(LOCK_TITLE_RE.search(text) or LOCK_RATE_RE.search(text))
+
 
 def fetch(url: str, *, sleep: float = DEFAULT_SLEEP) -> tuple[str, str]:
     """Return (text, content_type). HTML on wiki4d is UTF-8; the RSS feed
     declares ISO-8859-1. Try both, in that order.
+
+    Retries when the server returns its "Lock" rate-limit page: back off for a
+    growing interval and try again. Gives up after LOCK_BACKOFFS is exhausted,
+    then returns whatever the last response was so the caller can decide.
     """
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        raw = resp.read()
-        ctype = resp.headers.get("Content-Type", "")
+    def _do_fetch():
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            raw = resp.read()
+            ctype = resp.headers.get("Content-Type", "")
+        for enc in ("utf-8", "iso-8859-1"):
+            try:
+                return raw.decode(enc), ctype
+            except UnicodeDecodeError:
+                continue
+        return raw.decode("iso-8859-1", errors="replace"), ctype
+
+    text, ctype = _do_fetch()
+    backoffs = list(LOCK_BACKOFFS)
+    while _looks_like_lock(text) and backoffs:
+        wait = backoffs.pop(0)
+        print(f"[fetch] Lock page from {url!r}; backing off {wait}s", file=sys.stderr)
+        time.sleep(wait)
+        text, ctype = _do_fetch()
     time.sleep(sleep)
-    for enc in ("utf-8", "iso-8859-1"):
-        try:
-            return raw.decode(enc), ctype
-        except UnicodeDecodeError:
-            continue
-    return raw.decode("iso-8859-1", errors="replace"), ctype
+    return text, ctype
 
 
 # --------------------------------------------------------------------- HTML utils
@@ -117,7 +143,7 @@ RC_PAGE_RE = re.compile(
     r"<a\s+href='wiki\.cgi\?([A-Za-z0-9_][A-Za-z0-9_./-]*)'[^>]*class='body'[^>]*>([^<]+)</a>",
     re.IGNORECASE,
 )
-RC_TIME_RE = re.compile(r"\b(\d{2}:\d{2})\b")
+RC_TIME_RE = re.compile(r"\b(\d{1,2}:\d{2})\b")
 RC_NEW_RE = re.compile(r"<strong>NEW</strong>", re.IGNORECASE)
 RC_SUMMARY_RE = re.compile(r"<strong>\[([^\]]*)\]</strong>", re.IGNORECASE)
 RC_MINOR_RE = re.compile(r"<em>Minor edit</em>", re.IGNORECASE)
@@ -148,7 +174,11 @@ def parse_rc(html_text: str) -> list[dict]:
         page_name = page_anchor.group(1)
         label = label_anchor.group(1)
         m_time = RC_TIME_RE.search(item)
-        hhmm = m_time.group(1) if m_time else None
+        if m_time:
+            h, mm = m_time.group(1).split(":")
+            hhmm = f"{int(h):02d}:{mm}"
+        else:
+            hhmm = None
         m_sum = RC_SUMMARY_RE.search(item)
         summary = html.unescape(m_sum.group(1)) if m_sum else None
         is_new = bool(RC_NEW_RE.search(item))
