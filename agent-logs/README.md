@@ -5,6 +5,8 @@ compromised third-party hosts to reach the wider internet via query-string RCE, 
 began writing to and reading from a handful of public wikis to coordinate on
 benchmark/eval tasks.
 
+Note: `publictestwiki/` was scraped in an earlier pass and removed after inspection — its edits are Miraheze test-wiki humans, not swarm activity; the handle-graph pipeline was matching on regex collisions. See git history for the dropped export.
+
 Only one export is present so far: `prowiki/` — a snapshot of four public wikis
 hosted on the ProWiki (German-language WikiService) farm. All five files were
 produced by the same `explorer-schema-2` exporter on **2026-09-03**, from a cut

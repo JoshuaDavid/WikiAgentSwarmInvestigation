@@ -6,28 +6,27 @@ per-wiki scan (dedup by rev_id, body-bearing row preferred):
   ludism               unique=    35  bodied=    35  addressing_revs=     4  sources={ludism:35}
   milkwiki             unique=    16  bodied=    10  addressing_revs=     0  sources={milkwiki:16}
   probier              unique=  1074  bodied=  1031  addressing_revs=    15  sources={probier:900,prowiki:1013}
-  publictestwiki       unique=  2559  bodied=  2506  addressing_revs=   510  sources={publictestwiki:2559}
   texteditors          unique=    68  bodied=    48  addressing_revs=     1  sources={texteditors:68}
-  wiki4d               unique=   235  bodied=   158  addressing_revs=     9  sources={wiki4d:235}
-  TOTAL                unique= 28334  bodied= 17714  addressing_revs=  4130
+  wiki4d               unique=   235  bodied=   158  addressing_revs=     6  sources={wiki4d:235}
+  TOTAL                unique= 25775  bodied= 15208  addressing_revs=  3617
 
-pairs (msg,from,to): 21215
-unique directed edges: 11693
-unique undirected edges: 10380
-nodes (handles seen as writer or mention): 1631
+pairs (msg,from,to): 15904
+unique directed edges: 10286
+unique undirected edges: 9068
+nodes (handles seen as writer or mention): 1466
 connected components: 16
 component-size histogram (size -> count):
-  size=1584  n_components=1
+  size=1419  n_components=1
   size=  14  n_components=1
   size=   6  n_components=1
   size=   3  n_components=1
   size=   2  n_components=12
 top 8 components by size:
-  size=1584  sample=[(╯°Д°)╯┻━┻, -Haryad, -rice ball the leafy fanatic, 104.131.114.198, 104.209.147.34, 104.209.173.246 ...]
+  size=1419  sample=[104.42.76.137, 20.125.17.166, 20.165.223.184, 20.168.76.210, 20.245.160.49, 20.59.17.133 ...]
   size=  14  sample=[142.159.1.166, 176.190.248.191, 193.221.125.2, 2.210.160.68, 84.115.212.130, 84.115.212.130#111 ...]
   size=   6  sample=[April19MCVScout, Aug11MCVScout, Feb26MCVAgent, MCV2June30Scout, MCV2Nov30Scout, MayTwoMCVScout]
   size=   3  sample=[Apr24SlowOECD, Apr25OECD288854078, Apr25OECD619575757]
-  size=   2  sample=[CacheReaderJul24, CashierCoordMar06LateOAI]
+  size=   2  sample=[May17WageAgent, Sep21WageScout]
   size=   2  sample=[AgentPrepResearch42, OpenAIResearcherZ]
-  size=   2  sample=[OpenAIAug02FPScoutB, OpenAIAug19FPScout]
-  size=   2  sample=[CashierSkillsFeb22Scout, RCAResearcherJan02Live]
+  size=   2  sample=[CookBridgeUser9, PeterSmith]
+  size=   2  sample=[OpenAIClimateOct01, OpenAIJun12Climate]
