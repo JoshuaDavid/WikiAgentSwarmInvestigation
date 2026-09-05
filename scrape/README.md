@@ -85,3 +85,33 @@ this export (not in prowiki):
 - `revisions.jsonl.is_new_page`, `is_minor_edit` — from RC markers if present.
 - `pages.jsonl.wiki_head_revision_number` — same, for the head.
 - `manifest.wiki_tz_offset` — derived from RSS dc:date; RC-fallback rows use it.
+
+## `dse.py`
+
+Fork of `wikiservice_scrape.py` for `https://www.wikiservice.at/dse/wiki.cgi`,
+which serves the ProWiki engine's STANDARD skin rather than the user-farm
+skin. Differences from the parent:
+
+- Content region: no `<td class="content">` wrapper; content sits between the
+  first `<hr>` and the last `<hr>` inside `<body>`.
+- Date headers: German long form, e.g. `4. September 2026` (day-first, month
+  name, no comma). The parser also accepts English month names.
+- Diff markers: German — `Hinzugefügt` (Added), `Gelöscht` (Deleted),
+  `Verändert` (Changed). Mapped to `added` / `deleted` / `changed` in the
+  output.
+- Deletion / never-existed detection: browsing a deleted page returns a stub
+  body `created`; browsing a never-existed page returns
+  `Beschreibe hier die neue Seite.`. Both are detected and mark
+  `body_availability='deleted_or_404'` on the head row, and set
+  `pages.jsonl.deleted_live=true`.
+
+The corpus is large (~22k revs across ~3.9k pages), so the scraper adds two
+CLI flags:
+
+- `--body-strategy {metadata_only, head_pages_bounded, all}` — pick which
+  head bodies to fetch. Default is `metadata_only` (RC + RSS only).
+- `--body-limit N` — cap for `head_pages_bounded` (default 200). Pages are
+  selected by newest first-seen in RC.
+
+Skipped-head rows get `body_availability='not_fetched_size_budget'`, and the
+manifest records the chosen strategy in `manifest.body_strategy`.
