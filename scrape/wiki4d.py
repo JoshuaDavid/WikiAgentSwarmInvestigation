@@ -34,7 +34,7 @@ from typing import Iterable
 USER_AGENT = "collusionwiki-scraper/1.0 (research; joshuad93@gmail.com)"
 DEFAULT_DAYS = 120
 DEFAULT_SLEEP = 3.0  # four ProWiki agents run concurrently against this farm
-LOCK_BACKOFFS = (30, 60, 120, 240, 480)  # seconds to wait between Lock retries
+LOCK_BACKOFFS = (60, 120, 240, 480, 900, 1800)  # seconds to wait between Lock retries
 
 # --------------------------------------------------------------------- HTTP
 
@@ -385,13 +385,25 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
 
     page_bodies: dict[str, str] = {}
     page_diffs: dict[str, dict] = {}
+    locked_pages: list[str] = []
     for pn in page_names:
         print(f"[{name}] page {pn}: body ...", file=sys.stderr)
         body_html, _ = fetch(build_url(base, action="browse", id=pn), sleep=sleep)
+        if _looks_like_lock(body_html):
+            print(f"[{name}] page {pn}: LOCKED after retries; skipping body/diff", file=sys.stderr)
+            locked_pages.append(pn)
+            continue
         page_bodies[pn] = strip_content_to_text(extract_content_html(body_html))
         print(f"[{name}] page {pn}: diff ...", file=sys.stderr)
         diff_html, _ = fetch(build_url(base, action="browse", diff="4", id=pn), sleep=sleep)
-        page_diffs[pn] = parse_diff(diff_html)
+        if _looks_like_lock(diff_html):
+            print(f"[{name}] page {pn}: diff LOCKED after retries; leaving diff empty", file=sys.stderr)
+            page_diffs[pn] = {"hunks": [], "no_previous_revision": False, "lock": True}
+        else:
+            page_diffs[pn] = parse_diff(diff_html)
+
+    if locked_pages:
+        print(f"[{name}] WARNING: {len(locked_pages)} pages locked out and skipped", file=sys.stderr)
 
     if sanity:
         print("\n=== SANITY SUMMARY ===")
@@ -410,18 +422,22 @@ def scrape(base: str, name: str, out: Path, days: int, sanity: bool,
     build_output(name=name, out=out, base=base, days=days, started=started,
                  merged=merged, page_names=page_names,
                  page_bodies=page_bodies, page_diffs=page_diffs,
-                 rc_html=rc_html, rss_items=rss_items, wiki_tz=wiki_tz)
+                 rc_html=rc_html, rss_items=rss_items, wiki_tz=wiki_tz,
+                 locked_pages=locked_pages)
 
 
 def build_output(*, name: str, out: Path, base: str, days: int, started: str,
                  merged: list[dict], page_names: list[str],
                  page_bodies: dict[str, str], page_diffs: dict[str, dict],
-                 rc_html: str, rss_items: list[dict], wiki_tz: str | None) -> None:
+                 rc_html: str, rss_items: list[dict], wiki_tz: str | None,
+                 locked_pages: list[str] | None = None) -> None:
+    locked_pages = locked_pages or []
     def sortable_time(r):
         t = r.get("time_iso") or ""
         return t
     merged_sorted = sorted(merged, key=sortable_time)
 
+    locked_set = set(locked_pages)
     seq_by_page: Counter[str] = Counter()
     revisions_out = []
     events_out = []
@@ -434,6 +450,10 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
         body_bytes = body.encode("utf-8") if body is not None else None
         body_sha = hashlib.sha256(body_bytes).hexdigest() if body_bytes is not None else None
         diff = page_diffs.get(pn) if is_head else None
+        if is_head:
+            body_avail = "lock_denied" if pn in locked_set else "head_only"
+        else:
+            body_avail = "metadata_only"
         rev_id = f"{name}~{pn}@{seq}"
         page_id = f"{name}/{pn}"
         page_key = f"{name}~{pn}"
@@ -473,7 +493,7 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
             "wiki_revision_number": r.get("revision_number"),
             "is_new_page": r.get("is_new_page"),
             "is_minor_edit": r.get("is_minor_edit"),
-            "body_availability": "head_only" if is_head else "metadata_only",
+            "body_availability": body_avail,
         })
         events_out.append({
             "event_id": f"save:{rev_id}",
@@ -571,7 +591,9 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
             "revisions": {"value": len(revisions_out)},
             "pages": {"value": len(pages_out)},
             "labels": {"value": len(labels_out)},
+            "locked_pages": {"value": len(locked_pages)},
         },
+        "locked_pages": sorted(locked_pages),
         "per_wiki": {
             name: {
                 "revisions": {"value": len(revisions_out)},
@@ -594,6 +616,10 @@ def build_output(*, name: str, out: Path, base: str, days: int, started: str,
             "RC-only rows are minute-accurate wall time and get uncertainty_seconds=60.",
             "n_revs_before is unknown - RecentChanges window is our only visibility "
             "into revision counts, and older revisions may exist that we can't see.",
+            "Pages listed in manifest.locked_pages had their head body/diff blocked "
+            "by the wiki's anti-scrape 'Wiki4D: Lock' response even after retries. "
+            "Those pages' head rev has body=null and body_availability='lock_denied'; "
+            "downstream can re-fetch them by name on a subsequent run.",
         ],
         "endpoints_probed": {
             "recent_changes_html": build_url(base, action="browse", id="RecentChanges", days=str(days), all="1"),
