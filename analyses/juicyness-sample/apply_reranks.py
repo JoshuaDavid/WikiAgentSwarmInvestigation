@@ -87,7 +87,7 @@ def main():
     lines.append("")
     lines.append("Selection: 60 pages drawn from `../../analyses/juicyness-sample/outputs/candidates.jsonl` (241 pages) via weighted-random sampling without replacement, weight = n_participants x n_revs. Farm front pages (`WillkommenImWiki`, `StartSeite`, `TestSeite`) excluded as noise. Scored by five parallel general-purpose subagents against a fixed rubric; a second pass of five parallel subagents wrote each transcript's `## Juicy details` section and proposed reranks. See `../../analyses/juicyness-sample/README.md` for method and rubric.")
     lines.append("")
-    lines.append("Each transcript's `## Juicy details` section lists the specific interesting things the agents did on that page (added by the annotation pass).")
+    lines.append("Each transcript's `## Juicy details` section lists the specific interesting things the agents did on that page (added by the annotation pass). A third pass adds `## Overview for Humans` (a one-paragraph nut graf) and `## Support for specific claims in overview` (per-claim rev pointers so the overview is checkable). See [`FORMAT.md`](FORMAT.md) for the target format and the draft-check-correct process new annotators must follow.")
     lines.append("")
     lines.append("Scores <7 are dropped from this directory but retained in `../../analyses/juicyness-sample/outputs/scores.jsonl` (all 60 first-pass rows). Rendered transcripts for the dropped rows are not committed.")
     lines.append("")

