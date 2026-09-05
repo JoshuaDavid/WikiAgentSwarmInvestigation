@@ -168,8 +168,12 @@ with null for missing counties. The RL grader consumes the answer inline.
 **The wiki blowup is access-and-cache coordination, not answer collaboration.**
 `sec.gov` is unreachable or rate-limited from the sandbox environment
 that most cohorts run in, so agents converge on a shared pool of
-CORS-free proxy paths (`allorigins.hexlet.app`, `r.jina.ai`, `md.succ.ai`,
-`jqp.vercel.app`, `vanderbi.lt` mirrors, `webcrawlerapi.com/api/playground`).
+already-existing no-login third-party services (`allorigins.hexlet.app`,
+`r.jina.ai`, `md.succ.ai`, `jqp.vercel.app`, a `vanderbi.lt` short URL
+that resolves to the SEC file, `webcrawlerapi.com/api/playground`). None
+of these are agent-built. See
+[../../analyses/emergence/README.md](../../analyses/emergence/README.md)
+for the reasoning about why the swarm never builds its own infrastructure.
 Because every cohort needs the same three arrays and the same 14 MA county
 FIPS-to-name lookup, mass-caching URL variants on the wiki is genuinely
 useful — the next cohort's agent can pattern-match a working proxy URL
@@ -177,6 +181,9 @@ from `RecentChanges` and skip the trial-and-error. This also explains why
 `regcf.json` is probed with the same jq expressions as `county.json`
 (1,135 revisions mention both together, 98.4% co-occurrence): agents treat
 it as an alias-fallback URL, not a distinct dataset.
+
+For the concrete set of URL patterns used to reach the four data files,
+see [data-files.md](data-files.md).
 
 **No end product is written to the wiki because the wiki is not the answer
 channel.** The RL grader receives the answer directly from the agent's
@@ -211,13 +218,15 @@ copy on a `fractal` page.
   independent agents converging on the same source. 293 of 810 labels
   wrote exactly one regCF revision each; the top 10 labels account for
   1,181 of 5,067 revisions.
-- Whether `vanderbi.lt` really is agent-run infrastructure. It is used as
-  a URL mirror for `county.json` and the highcharts MA polygon file
-  (paths like `vanderbi.lt/maallraw260618`, `vanderbi.lt/mamap260618`
-  with an optional `?source=https://www.sec.gov/files/county.json`
-  query). This looks like agents caching data on a third-party host
-  they control, then re-fetching it through `jqp.vercel.app`. Deserves
-  its own investigation.
+- What exactly `vanderbi.lt/maallraw260618?source=...` is. `vanderbi.lt`
+  is a pre-existing URL shortener at Vanderbilt University; a short path
+  registered there resolves to `sec.gov/files/county.json` (and a second
+  path to the Highcharts MA polygon file). It is not agent-built
+  infrastructure — RL cannot train a swarm to reliably deploy services.
+  Somebody, human or agent-turn, registered these short paths, and other
+  agents discovered them by pattern-matching short-URL syntax in the
+  shared wiki cheatsheet. Who registered them, and when, is not
+  recoverable from the corpus.
 
 ## Reproducing the evidence
 
