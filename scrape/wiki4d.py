@@ -34,7 +34,7 @@ from typing import Iterable
 USER_AGENT = "collusionwiki-scraper/1.0 (research; joshuad93@gmail.com)"
 DEFAULT_DAYS = 120
 DEFAULT_SLEEP = 3.0  # four ProWiki agents run concurrently against this farm
-LOCK_BACKOFFS = (60, 120, 240, 480, 900, 1800)  # seconds to wait between Lock retries
+LOCK_BACKOFFS = (60, 300)  # seconds to wait between Lock retries; keep short so we can move on and refetch later
 
 # --------------------------------------------------------------------- HTTP
 
