@@ -146,10 +146,16 @@ RC_PAGE_RE = re.compile(
     r"<a\s+href='wiki\.cgi\?([A-Za-z0-9_][A-Za-z0-9_./-]*)'[^>]*class='body'[^>]*>([^<]+)</a>",
     re.IGNORECASE,
 )
-RC_TIME_RE = re.compile(r"\b(\d{2}:\d{2})\b")
+# Fractal's RC omits leading zeros on hours (`2:59`, not `02:59`). Accept 1-2
+# digit hours; we zero-pad in `rc_datetime`. Milkwiki uses two-digit hours so
+# `\d{1,2}` is a strict superset.
+RC_TIME_RE = re.compile(r"(?:^|[^\d:])(\d{1,2}:\d{2})(?:[^\d:]|$)")
 RC_NEW_RE = re.compile(r"<strong>NEW</strong>", re.IGNORECASE)
 RC_SUMMARY_RE = re.compile(r"<strong>\[([^\]]*)\]</strong>", re.IGNORECASE)
 RC_MINOR_RE = re.compile(r"<em>Minor edit</em>", re.IGNORECASE)
+# Anonymous editor: after ` . . . . . ` the wiki emits a bare `IP#N` string
+# (no anchor). Capture everything up to the closing `</li>` or the next tag.
+RC_ANON_RE = re.compile(r"\.\s*\.\s*\.\s*\.\s*\.\s*([^<]+?)\s*$")
 
 
 def parse_rc(html_text: str) -> list[dict]:
@@ -172,16 +178,26 @@ def parse_rc(html_text: str) -> list[dict]:
         item = m_item.group(1)
         pos = m_item.end()
         # First body-class anchor after "(diff)" is the page; the last body-class
-        # anchor is the label.
+        # anchor is the label. Anonymous edits omit the label anchor and show a
+        # bare `IP#N` string after the ` . . . . . ` separator, so fall back to
+        # scanning the trailing text when only the page anchor is present.
         anchors = list(RC_PAGE_RE.finditer(item))
-        # Skip the leading (diff) anchor which has no class='body'.
         body_anchors = [a for a in anchors if "class='body'" in item[a.start():a.end()]]
-        if len(body_anchors) < 2:
+        if not body_anchors:
             continue
         page_anchor = body_anchors[0]
-        label_anchor = body_anchors[-1]
         page_name = page_anchor.group(1)
-        label = label_anchor.group(1)
+        if len(body_anchors) >= 2:
+            label_anchor = body_anchors[-1]
+            label = label_anchor.group(1)
+        else:
+            # Trailing content after `. . . . .` is the anonymous handle
+            # (typically `IP#N`). Strip any trailing whitespace/tags.
+            trailing = item[body_anchors[0].end():]
+            m_anon = RC_ANON_RE.search(trailing)
+            if not m_anon:
+                continue
+            label = m_anon.group(1).strip()
         m_time = RC_TIME_RE.search(item)
         hhmm = m_time.group(1) if m_time else None
         m_sum = RC_SUMMARY_RE.search(item)
@@ -362,6 +378,14 @@ def _rss_hhmm(date_iso: str | None) -> str | None:
     return m.group(1) if m else None
 
 
+def _norm_hhmm(hhmm: str | None) -> str:
+    """Zero-pad single-digit-hour times so RC (`2:59`) matches RSS (`02:59`)."""
+    if not hhmm or ":" not in hhmm:
+        return ""
+    h, m = hhmm.split(":", 1)
+    return f"{int(h):02d}:{m}"
+
+
 def merge_rc_rss(rc: list[dict], rss: list[dict], tz_offset: str | None = None) -> list[dict]:
     """Match RC and RSS entries by (page_name, hh:mm). The RSS feed emits one
     or more items per page (up to the feed cap) with second-accurate ISO
@@ -381,7 +405,7 @@ def merge_rc_rss(rc: list[dict], rss: list[dict], tz_offset: str | None = None) 
     merged = []
     for entry in rc:
         pn = entry["page_name"]
-        hhmm = entry.get("hhmm") or ""
+        hhmm = _norm_hhmm(entry.get("hhmm"))
         candidates = rss_by_key.get((pn, hhmm)) or []
         rss_match = candidates.pop(0) if candidates else None
         entry["rss"] = rss_match
