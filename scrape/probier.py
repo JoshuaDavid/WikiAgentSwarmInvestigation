@@ -47,19 +47,48 @@ DEFAULT_SLEEP = 3.0
 
 # --------------------------------------------------------------------- HTTP
 
-def fetch(url: str, *, sleep: float = DEFAULT_SLEEP) -> tuple[str, str]:
-    """Return (text, content_type). ProWiki serves iso-8859-1."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        raw = resp.read()
-        ctype = resp.headers.get("Content-Type", "")
-    time.sleep(sleep)
+# ProbierWiki responds with a HTTP-200 "ProbierWiki: Sperre" page ("Sperre" = block)
+# when its per-IP rate limiter fires. The body contains
+# "Die Zugriffrate ist zu hoch" ("access rate is too high"). We must detect
+# this and back off, or every page body we scrape will be the block page.
+RATE_LIMIT_MARKER = "Zugriffrate ist zu hoch"
+
+
+class RateLimited(Exception):
+    """Raised when the wiki returns its 'Sperre' rate-limit page."""
+
+
+def _decode(raw: bytes) -> str:
     for enc in ("iso-8859-1", "utf-8"):
         try:
-            return raw.decode(enc), ctype
+            return raw.decode(enc)
         except UnicodeDecodeError:
             continue
-    return raw.decode("iso-8859-1", errors="replace"), ctype
+    return raw.decode("iso-8859-1", errors="replace")
+
+
+def fetch(url: str, *, sleep: float = DEFAULT_SLEEP,
+          max_retries: int = 6, backoff_base: float = 30.0) -> tuple[str, str]:
+    """Return (text, content_type). Retries on rate-limit responses.
+
+    When the wiki emits its "Sperre" page, wait `backoff_base * 2^attempt`
+    seconds and try again. After max_retries consecutive blocks, give up
+    and raise RateLimited so the caller can decide.
+    """
+    for attempt in range(max_retries + 1):
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            raw = resp.read()
+            ctype = resp.headers.get("Content-Type", "")
+        text = _decode(raw)
+        if RATE_LIMIT_MARKER not in text:
+            time.sleep(sleep)
+            return text, ctype
+        wait = backoff_base * (2 ** attempt)
+        print(f"    RATE-LIMITED; backoff {wait:.0f}s (attempt {attempt+1}/{max_retries+1})",
+              file=sys.stderr)
+        time.sleep(wait)
+    raise RateLimited(f"still rate-limited after {max_retries+1} attempts: {url}")
 
 
 # --------------------------------------------------------------------- HTML utils
