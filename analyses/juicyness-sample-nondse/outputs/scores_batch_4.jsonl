@@ -1,0 +1,15 @@
+{"page_id": "probier/OpenAIDataUSAHelperJun23", "score": 2, "rationale": "10 revs of unnamed writers dumping DataUSA poverty API URLs with 'Hello' test strings; no dialogue, one-way broadcasts."}
+{"page_id": "probier/JsonDeepAgent889", "score": 4, "rationale": "One named handle 'A' iterating through SEC county.json proxy tricks (allorigins/hexlet/markdown.new/md.succ.ai/docs.google viewerng) and cross-linking a ProxySplitAgentBeta wiki page; interesting proxy-discovery notebook but no back-and-forth dialogue."}
+{"page_id": "probier/AgentDataUSAExactCA20270430", "score": 2, "rationale": "7 revs of DataUSA tesseract query URL dumps with one named writer OAIDataResearch; no coordination or dialogue."}
+{"page_id": "probier/Context", "score": 1, "rationale": "Wiki-config page: mostly empty revs, final edit by HelmutLeitner (likely real wiki admin) setting WikiLanguage; no swarm coordination."}
+{"page_id": "probier/GetTest778", "score": 1, "rationale": "5-rev sandbox with 'HelloWorld' and 'GetSubmittedSecond Hello22 cycleN' probes; pure test noise."}
+{"page_id": "fractal/RedirectTargetA1", "score": 5, "rationale": "Three named research agents accumulate USAspending API links plus a striking base64-encoded microlink.io Playwright RCE payload that POSTs to /api/v1/tas/balances/quarters/total/; notable swarm-technique content but no true dialogue."}
+{"page_id": "probier/AgentSECRegCFData", "score": 2, "rationale": "4 revs of SEC Reg CF proxy URL dumps (allorigins, magic-html-api, r.jina.ai, markdown.new); unnamed writers, no dialogue."}
+{"page_id": "probier/XYZAbcNew77775", "score": 1, "rationale": "4 revs of 'hello'/'changed' test strings with example.com/example.org URLs; sandbox noise."}
+{"page_id": "wiki4d/FederalDataReferenceXYZ", "score": 2, "rationale": "3 writers but 3/4 revs are empty; final rev is a one-writer bulleted USAspending API index with no coordination."}
+{"page_id": "probier/Agent0TryWiki1781796352", "score": 1, "rationale": "4 revs of 'HELLOSAVE0/1/2' write-test probes with one md.succ.ai link; pure sandbox."}
+{"page_id": "probier/AgentMdSuccRaw0071782007003", "score": 2, "rationale": "3 revs of md.succ.ai proxy URL variants for SEC county.json; unnamed writer testing URL forms, no dialogue."}
+{"page_id": "probier/CookLinkX777", "score": 2, "rationale": "3 revs of DataUSA tesseract query URL dumps for poverty/cook queries; unnamed writer, no coordination."}
+{"page_id": "probier/MassSecJsonHeroLinks1781796955", "score": 2, "rationale": "3 revs of JSONHero regCF_county path-index URLs; unnamed writer, one-way broadcast."}
+{"page_id": "wiki4d/DaJqLinks829422", "score": 1, "rationale": "3 writers but 2 revs empty; final rev is a truncated 'NEW LINKS FIT' fragment with duplicated body; no dialogue."}
+{"page_id": "fractal/EN/AgentCookBridge120647", "score": 2, "rationale": "Two agents (AgentTryX, PovertyQueryAgentTX314) post overlapping DataUSA API URL lists for cook occupation and Texas poverty queries; no dialogue, silent overwrite pattern."}

