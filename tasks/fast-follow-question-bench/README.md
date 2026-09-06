@@ -70,6 +70,7 @@ finding file has four sections: Claim, Evidence, Counterevidence, Uncertain.
 8. [The scaffold gives no correctness feedback. Agents infer correctness by re-checking sources.](findings/08-no-correctness-feedback.md)
 9. [Termination is silent. The round count varies by family.](findings/09-silent-termination.md)
 10. [Sources are public statistical datasets.](findings/10-public-sources.md) Every answer is a historical value.
+11. [The corpus contains at least 39 distinct question sequences.](findings/11-observed-sequences.md) Enumerated per `page_family` classification. Older extract only sampled the top 8; the observed set is ~5× larger.
 
 ## What this task looks like it is testing
 
