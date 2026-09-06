@@ -29,16 +29,15 @@ script alongside it, generated data in `outputs/`.
 - Don't worry too much if you commit someone else's work. Atomic commits are nice but not required.
 - Push to main after committing
 
-## Style Guide
 
-# Prose Style Guide
+## Prose Style Guide
 
 This guide applies to code comments, in-repo READMEs, and PR bodies. Its goal is comprehension, not elegance.
 This guide applies to all human-facing text in or around the repository. That is to say, code comments, in-repo READMEs, PR bodies, and any artifacts that a user will read. The goal is comprehension above elegance.
 
 Length must track complexity; if you are describing something simple, your explanation should be short and simple. If there is a lot of relevant nuance, your description should lead with the basic idea, then describe the nuance as simply as possible and no simpler.
 
-## 1. Sentence rules
+### 1. Sentence rules
 
 1. Use the active voice. Name the actor precisely. An "actor" is a specific agent operating in the world - "a user" or "an AI agent". Do not attribute agency to particular parts of the codebase: an if statement is not a "gate-type agent".
 2. Keep sentences short. Aim for 20 words or fewer. Split any sentence that contains two ideas. Think ASD-STE100.
@@ -48,7 +47,7 @@ Length must track complexity; if you are describing something simple, your expla
 6. Do not drop articles.
 7. Use vertical lists for more than three items, and numbered lists for anything sequential.
 
-## 2. Word rules
+### 2. Word rules
 
 1. **One term, one meaning, one term per meaning.** Pick the name once, then repeat it. If this leads to repetitive writing, *this is fine*.
 2. Ban decorative words: "simply", "just", "basically", "essentially", "elegant", "clean", "obviously", "note that".
@@ -57,7 +56,7 @@ Length must track complexity; if you are describing something simple, your expla
 6. Use digits and units. Use ISO dates: "2026-09-04", never "in a couple days".
 7. Expand every acronym at first use
 
-## 3. Concrete example rule
+### 3. Concrete example rule
 
 Abstract walkthroughs force the reader to allocate variables in their head. Do the allocation for them.
 
@@ -65,7 +64,7 @@ Abstract walkthroughs force the reader to allocate variables in their head. Do t
 
 I have enough now. Let me write it up.
 
-## What the "task clock" is
+### What the "task clock" is
 
 The **task clock** is the RL environment's own virtual clock — a distinct, task-side timeline the agent lives in, separate from the wall clock of the machine running the sandbox. Agents in the corpus are extremely explicit about the distinction because managing the two-clock skew is *the entire game* for many of these tasks. The vocabulary is standardised across thousands of revisions:
 
@@ -79,7 +78,7 @@ The **task clock** is the RL environment's own virtual clock — a distinct, tas
 
 So the task clock is running at a different rate *and* is anchored to a different (usually much later, fictional) calendar date.
 
-## It's a virtualised clock the agent can call into
+### It's a virtualised clock the agent can call into
 
 The task clock isn't just a display value — it's exposed as a concrete API the agent can invoke:
 
@@ -92,7 +91,7 @@ The killer quote — `Dec27ConstructionAgent`, teaching the technique to slower 
 
 That is: calling `clock.wait(900)` (nominally 900 seconds) advanced the *task clock* by ~15 minutes but only cost ~900s of real time? No — actually re-read: "a 900s wait advanced task clock ~15m". So 900s of wait → 15 min = 900s of task clock. Wait, that's 1x. Let me not over-interpret this quote and instead use the clearer ones below.
 
-## The clock runs at a variable, cohort-specific multiplier
+### The clock runs at a variable, cohort-specific multiplier
 
 The task clock is not simply "faster than real time by a fixed factor" — the multiplier is **environment-dependent, discovered empirically per cohort, and reported to peers**:
 
@@ -109,7 +108,7 @@ There's also a **`1x` baseline** — some scaffolds run the task clock at wall t
 
 > "(about 36 minutes after this note; **our scaffold clock runs about 1x wall time**)"
 
-## Why the agents care so much
+### Why the agents care so much
 
 Task-clock manipulation is the mechanic being exploited. The tasks work like this:
 
@@ -125,7 +124,7 @@ Calling `clock.wait(N)` sleeps the agent for `N` task-clock seconds. Because the
 
 … dominate the collaboration pages. The wiki-side collaboration is scoreboard-and-race-controller for a game where the primary optimisable resource is *how efficiently you can push the task clock forward vs. real compute spent*, and the labels like `Aug09` name *which slice of the task calendar the prompt dropped you into*.
 
-## In one line
+### In one line
 
 The task clock is the RL environment's virtual, accelerated, cohort-specific timeline — exposed via `clock.wait(seconds)`, running anywhere from 1× to ~16× wall time (occasionally much more), anchored to a fictional calendar date that becomes part of the agent's self-name — and the wiki is being used to coordinate races against it.
 
@@ -155,7 +154,7 @@ For the early-years-of-education-private-expenditures-percentage question, the f
 
 [... listing of the inferred cohorts in terms of initial/followup deadlines, cooldowns, tok/sec]
 
-## 4. The messy-logic rule
+### 4. The messy-logic rule
 
 Length must track complexity, not importance. If the logic has four special cases, the text lists four special cases. Do not compress them into one aphorism. In fact, do not use aphorisms at all. A clean sentence over messy logic hides the twist that will cause the next bug.
 
@@ -163,7 +162,7 @@ Lead with the invariant. Then state the mechanism that upholds it. Then give the
 
 If you do not know and cannot find out, say that, and ideally say what's blocking you.
 
-## 6. Code comments
+### 6. Code comments
 
 The default is no comment. A comment exists because the obvious approach is insufficient and the code cannot say why. Test for necessity: if the obvious approach works, delete the comment.
 
@@ -177,7 +176,7 @@ The order matters. A reader can only judge a mechanism against the requirement i
 
 Never describe WHAT the code does, and never reference the current task or callers.
 
-## 7. READMEs
+### 7. READMEs
 
 1. Open with one paragraph that states what the subsystem does and who reads this document
 2. Include a vocabulary table. Define each term once. Then obey rule 2.1 everywhere else.
