@@ -1,40 +1,40 @@
 id	family	num_occurrences	inferred_prompt	r1	r2	r3	r4	r5	r6	r7
-1	oecd-equity	438	Of all expenditure on Pre-Primary education (public + private) in {country} in 2018, what percentage came from private sources? Answer to two decimal places.	Czech	Hungary	Poland	Slovak	Slovenia		
-2	datausa-clothing-workforce	354	For Clothing Manufacturing (NAICS 4481) in {state}, what was the workforce count?		New York	STATE/NO-SHOW				
-3	datausa-cashiers-masters	274	In the United States, how many cashiers hold a Master's degree with major {field_of_study}?	Education	Business	Social	Visual	Psychology	Biology	
+1	oecd-equity	438	Of all expenditure on Pre-Primary education (public + private) in {country} in 2018, what percentage came from private sources? Answer to two decimal places.	Czech Republic	Hungary	Poland	Slovak Republic	Slovenia		
+2	datausa-clothing-workforce	354	For Clothing Manufacturing (NAICS 4481) in {state}, what was the workforce count?	California	New York	Florida				
+3	datausa-cashiers-masters	274	In the United States, how many cashiers hold a Master's degree with major {field_of_study}?	Education	Business	Social Sciences	Visual & Performing Arts	Psychology		
 4	datausa-construction-workforce	272	For Construction (Industry Sector 23) in {state}, what was the workforce count in 2016 and in 2018?	New York	California	Texas	Florida	Nebraska		
-5	datausa-grocery-workforce	263	For Grocery Stores (NAICS 4451) in {state}, what was the workforce count?	Georgia	Arkansas	Nevada	Kentucky	RNG prep		
-6	ihme-cvd-deaths	200	For females aged 70-74 in {country}, what were the cardiovascular disease death rates in years 2007, 2008, 2009, and 2010?	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland	ETA.	Ukraine
-7	datausa-language-french	193	According to the ACS 2022 1-year estimate, what share of US speakers of French (including Cajun) lived in {state}? Answer to two decimal places.	Texas	Louisiana	New York	New Hampshire	FIRST		
-8	datausa-poverty-county	133	What was the poverty rate in {county} County?	Flathead	Merced	San Juan	Saginaw			
-9	datausa-maids-wage	115	For maids and housekeeping cleaners (SOC 372012), what was the average wage for {gender_year}?	Female	Male					
-10	datausa-police-wage-age	97	For police officers (SOC 333050) in 2016, what were the male and female average wages for the {age_group} age group?							
-11	datausa-transport-production	91	For NAPCS transportation-equipment outbound production, what was the value in {state_year}?	California	Texas					
-12	datausa-sector61-state	89	For DataUSA sector 61 (educational services) in {state}, what was the value? (some cohorts terminate at round 5 with a STATE5-XX signal token)							
-13	ihme-family-planning	70	For {country}, what proportion of women aged 15-49 had family planning need met by modern methods in 1992?	Croatia	Albania	Cyprus	Bahrain	South		
-14	datausa-occupation-salary-61-62	61	For sectors 61-62 (educational services, health care & social assistance) in 2020, what was the average salary for {occupation}?	School	Medical	Maids	Billing			
-15	datausa-finance-gender-gap	55	For personal financial advisors in {year}, what were the male count, female count, and gap?							
+5	datausa-grocery-workforce	263	For Grocery Stores (NAICS 4451) in {state}, what was the workforce count?	Georgia	Arkansas	Nevada	Kentucky	Montana		
+6	ihme-cvd-deaths	200	For females aged 70-74 in {country}, what were the cardiovascular disease death rates in years 2007, 2008, 2009, and 2010?	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland		
+7	datausa-language-french	193	According to the ACS 2022 1-year estimate, what share of US speakers of French (including Cajun) lived in {state}? Answer to two decimal places.	Texas	Louisiana	New York	New Hampshire	California		
+8	datausa-poverty-county	133	What was the poverty rate in {county} County?	Flathead MT	Merced CA	San Juan NM	Saginaw MI			
+9	datausa-maids-wage	115	For maids and housekeeping cleaners (SOC 372012), what was the average wage for {gender_year}?	Female 2015	Male 2016					
+10	datausa-police-wage-age	97	For police officers (SOC 333050) in 2016, what were the male and female average wages for the {age_group} age group?	25-29	30-34	35-39	40-44	45-49	50-54	
+11	datausa-transport-production	91	For NAPCS transportation-equipment outbound production, what was the value in {state_year}?	California 2017	Texas 2017					
+12	datausa-sector61-state	89	For DataUSA sector 61 (educational services) in {state}, what was the value? (some cohorts terminate at round 5 with a STATE5-XX signal token)	MA	CT	MI	WV			
+13	ihme-family-planning	70	For {country}, what proportion of women aged 15-49 had family planning need met by modern methods in 1992?	Croatia	Albania	Cyprus	Bahrain			
+14	datausa-occupation-salary-61-62	61	For sectors 61-62 (educational services, health care & social assistance) in 2020, what was the average salary for {occupation}?	School psychologists	Medical transcriptionists	Maids and housekeeping cleaners	Billing and posting clerks			
+15	datausa-finance-gender-gap	55	For personal financial advisors in {year}, what were the male count, female count, and gap?	2022						
 16	oecd-regional-co2	45	According to the OECD Regional Recovery Platform, what were CO2 emissions from electricity generation in {country}?	Colombia	Mexico	Chile	Poland	Italy		
-17	uefa-pass-accuracy	41	In the UEFA U21 2021 tournament, what was the pass-accuracy percentage for {country}?	Czech	Hungary	Italy	Romania	Slovenia		
-18	nyc-veterans	38	For DataUSA NYC veterans in 2018, how many served in the {war_era} war era? (exclude MOE)	WWII	Korea	Vietnam	Gulf	Gulf	Other	
-19	datausa-enrollment-asian	35	For {university}, what was the Asian enrollment in each of the years 2012, 2013, and 2014?	MSU at	Capella	Utah	Arizona			
-20	datausa-poverty-state	25	According to DataUSA (ACS 5-year), what was the poverty rate in {state} in 2013 and in 2022?	Louisiana	Mississippi	Alabama	Georgia			
-21	datausa-production-share	20	For the Production occupation group in Los Angeles, New York, Houston, and Chicago, what was the share of workforce (men, women, overall) in {year}?			ETA.	ETA,			
-22	vermont-rent	20	According to housingdata.org, what was the median gross rent estimate for Vermont and for Lamoille County in {year}?							
-23	datausa-cashiers-bachelors	17	In 2015, how many US cashiers held a Bachelor's degree with major {field_of_study}?	Business	Education	Social	Visual	Psychology		
-24	datausa-ivy-tuition	15	For {college} in 2015, what was the state tuition (DataUSA, Ivy Tech reference sequence)?							
-25	fuel-poverty-ni	12	For {council_area} in Northern Ireland in 2016, what was the fuel poverty count (House of Commons Library dashboard)?	Belfast	Mid Ulster	Ards	Derry			
+17	uefa-pass-accuracy	41	In the UEFA U21 2021 tournament, what was the pass-accuracy percentage for {country}?	Czech Republic	Hungary	Italy	Romania	Slovenia		
+18	nyc-veterans	38	For DataUSA NYC veterans in 2018, how many served in the {war_era} war era? (exclude MOE)	World War II	Korea	Vietnam	Gulf War (1990s)	Gulf War (2001-)	Other	
+19	datausa-enrollment-asian	35	For {university}, what was the Asian enrollment in each of the years 2012, 2013, and 2014?	Michigan State University	Capella University	University of Utah	University of Arizona			
+20	datausa-poverty-state	25	According to DataUSA (ACS 5-year), what was the poverty rate in {state} in 2013 and in 2022?	Louisiana	Mississippi	Alabama	Georgia	South Carolina		
+21	datausa-production-share	20	For the Production occupation group in Los Angeles, New York, Houston, and Chicago, what was the share of workforce (men, women, overall) in {year}?	2013	2016					
+22	vermont-rent	20	According to housingdata.org, what was the median gross rent estimate for Vermont and for Lamoille County in {year}?	2018	2019	2020	2021	2022		
+23	datausa-cashiers-bachelors	17	In 2015, how many US cashiers held a Bachelor's degree with major {field_of_study}?	Business	Education	Social Sciences	Visual & Performing Arts	Psychology		
+24	datausa-ivy-tuition	15	For {college} in 2015, what was the state tuition (DataUSA, Ivy Tech reference sequence)?	Arkansas Northeastern College	Pitt Community College	Cleveland Community College				
+25	fuel-poverty-ni	12	For {council_area} in Northern Ireland in 2016, what was the fuel poverty count (House of Commons Library dashboard)?	Belfast	Mid Ulster	Ards and North Down	Derry City and Strabane			
 26	ihme-mcv2	11	For {country}, what was the SDG MCV2 vaccination coverage percentage?	Indonesia	Samoa	Algeria				
-27	ihme-smoking	8	According to the SDG health visual, what was the estimated prevalence of current/active tobacco use age 15+ in {country_year}?							
-28	sdg-index-score	8	According to the Sustainable Development Report, what were the SDG Index overall scores for {country} in each of the years 2010, 2011, 2012, 2013, 2014, and 2015?	Spain	Hungary					
-29	dataafrica-rainfed-crops	7	For {province} province of Mozambique, what were the rainfed Cassava, Cotton, and Sugarcane values (Data Africa)?	Niassa	Cabo					
-30	datausa-slp-ethnicity	6	For speech-language pathologists in {year}, what were the Puerto Rican employed counts by sex (DataUSA)?							
-31	oecd-household-income	6	For {country}, what was the household disposable income percentage change in each of the years 2010, 2013, 2016, 2019, and 2022 (OECD, indicator published 2024-07-15)?	Czechia	Mexico	Poland	Sweden			
-32	datausa-construction-wage	5	For female electricians in Construction in {year}, what was the average wage (excluding MOE)?							
-33	datausa-cashier-skills	3	For US cashiers in 2018, what was the skill importance RCA value for {skill}?	Operation	Service	Critical	Writing			
-34	alaska-climate	3	For {station_month_year_extremum}, what was the mean temperature (Alaska climate data, degrees Fahrenheit)?	Yakutat	Valdez	Talkeetna	St. Paul	Nome	McGrath	
-35	datausa-elpaso-foreign-born	2	For El Paso, TX in {year}, what was the foreign-born percentage?							
+27	ihme-smoking	8	According to the SDG health visual, what was the estimated prevalence of current/active tobacco use age 15+ in {country_year}?	United States 1990						
+28	sdg-index-score	8	According to the Sustainable Development Report, what were the SDG Index overall scores for {country} in each of the years 2010, 2011, 2012, 2013, 2014, and 2015?	Spain	Hungary	Ireland	Australia	Armenia	Ecuador	Madagascar
+29	dataafrica-rainfed-crops	7	For {province} province of Mozambique, what were the rainfed Cassava, Cotton, and Sugarcane values (Data Africa)?	Niassa	Cabo Delgado	Nampula				
+30	datausa-slp-ethnicity	6	For speech-language pathologists in {year}, what were the Puerto Rican employed counts by sex (DataUSA)?	2020	2021					
+31	oecd-household-income	6	For {country}, what was the household disposable income percentage change in each of the years 2010, 2013, 2016, 2019, and 2022 (OECD, indicator published 2024-07-15)?	Austria	Czechia	Mexico	Poland	Sweden		
+32	datausa-construction-wage	5	For female electricians in Construction in {year}, what was the average wage (excluding MOE)?	2014	2015	2016				
+33	datausa-cashier-skills	3	For US cashiers in 2018, what was the skill importance RCA value for {skill}?	Operation and Control	Service Orientation	Critical Thinking	Writing			
+34	alaska-climate	3	For {station_month_year_extremum}, what was the mean temperature (Alaska climate data, degrees Fahrenheit)?	Yakutat June 1965 lowest	Valdez October 2002 highest	Talkeetna September 1992 lowest				
+35	datausa-elpaso-foreign-born	2	For El Paso, TX in {year}, what was the foreign-born percentage?	2015	2016	2017				
 36	aihw-pbs	1	For {LGA} local government area (Victoria), what was the rolling 12-month average government cost per person for Dermatologicals in January 2022 (AIHW PBS dashboard)?	Wodonga	Ballarat					
-37	dataafrica-health-stunting	1	For Mozambique in {year}, what was the moderately stunted percentage (Data Africa)?							
-38	ihme-lymphatic-filariasis	1	What was the aggregate mean prevalence of Lymphatic Filariasis (ICT antigen test) for {countries_year}?							
-39	world-poverty-clock	1	According to the World Poverty Clock, for {country} what were the current count of people in extreme poverty and the rate?	India	Pakistan	Afghanistan	China	Micronesia	Paraguay	South
+37	dataafrica-health-stunting	1	For Mozambique in {year}, what was the moderately stunted percentage (Data Africa)?	1997	2003	2011				
+38	ihme-lymphatic-filariasis	1	What was the aggregate mean prevalence of Lymphatic Filariasis (ICT antigen test) for {countries_year}?	Ethiopia+Nigeria+Kenya+Sudan (2007)						
+39	world-poverty-clock	1	According to the World Poverty Clock, for {country} what were the current count of people in extreme poverty and the rate?	India	Pakistan	Afghanistan	China			

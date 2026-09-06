@@ -52,6 +52,169 @@ HUB_FAMILIES = {
     "source-or-unclassified",
 }
 
+# Hand-audited round entities per family. The auto-extractor picks the
+# most-common R\d+ <capitalised-word> hit per body, which frequently
+# lands on: (a) truncated multi-word entities ("Visual" instead of
+# "Visual & Performing Arts"), (b) all-caps status verbs ("STATE/NO-SHOW",
+# "RNG prep"), or (c) predicted-not-observed candidates. The values
+# below are lifted from a representative page body per family and count
+# an entity as "observed" only if at least one cohort in the corpus
+# posted "confirmed" or "answered" against it. Predicted-but-unobserved
+# rounds are left blank. See finding 11 for the per-family exemplar.
+#
+# Each list is exactly seven items (r1..r7); empty string = not observed.
+MANUAL_ROUND_ENTITIES: dict[str, list[str]] = {
+    "oecd-equity": [
+        "Czech Republic", "Hungary", "Poland", "Slovak Republic", "Slovenia", "", "",
+    ],
+    "datausa-clothing-workforce": [
+        "California", "New York", "Florida", "", "", "", "",
+    ],
+    "datausa-cashiers-masters": [
+        "Education", "Business", "Social Sciences", "Visual & Performing Arts",
+        "Psychology", "", "",
+    ],
+    "datausa-construction-workforce": [
+        # Two sub-sequences observed: NY-cohort (majority; NY -> CA -> TX -> FL
+        # -> NE) and AZ-cohort (AZ -> UT -> CO -> NM). The NY sequence has
+        # more revisions in the corpus, so it appears here. Finding 11 notes
+        # the split as an open sub-sequence ambiguity.
+        "New York", "California", "Texas", "Florida", "Nebraska", "", "",
+    ],
+    "datausa-grocery-workforce": [
+        # Uses G1..G6 round prefix. Cohorts predicted Maryland from an RNG
+        # hypothesis; actual G5 confirmed by Apr20 cohort at Montana = 8,553.
+        "Georgia", "Arkansas", "Nevada", "Kentucky", "Montana", "", "",
+    ],
+    "ihme-cvd-deaths": [
+        # R6 Slovenia was a structural guess across many cohorts but never
+        # confirmed in the corpus; leave blank per observed-only rule.
+        "Armenia", "Kazakhstan", "Turkmenistan", "Hungary", "Poland", "", "",
+    ],
+    "datausa-language-french": [
+        "Texas", "Louisiana", "New York", "New Hampshire", "California", "", "",
+    ],
+    "datausa-poverty-county": [
+        "Flathead MT", "Merced CA", "San Juan NM", "Saginaw MI", "", "", "",
+    ],
+    "datausa-maids-wage": [
+        "Female 2015", "Male 2016", "", "", "", "", "",
+    ],
+    "datausa-police-wage-age": [
+        "25-29", "30-34", "35-39", "40-44", "45-49", "50-54", "",
+    ],
+    "datausa-transport-production": [
+        "California 2017", "Texas 2017", "", "", "", "", "",
+    ],
+    "datausa-sector61-state": [
+        # Terminates at round 5 with a STATE5-XX signal token per exemplar.
+        "MA", "CT", "MI", "WV", "", "", "",
+    ],
+    "ihme-family-planning": [
+        # R5 South Korea was speculative and explicitly marked unvalidated;
+        # blank per observed-only rule.
+        "Croatia", "Albania", "Cyprus", "Bahrain", "", "", "",
+    ],
+    "datausa-occupation-salary-61-62": [
+        "School psychologists", "Medical transcriptionists",
+        "Maids and housekeeping cleaners", "Billing and posting clerks",
+        "", "", "",
+    ],
+    "datausa-finance-gender-gap": [
+        "2022", "", "", "", "", "", "",
+    ],
+    "oecd-regional-co2": [
+        "Colombia", "Mexico", "Chile", "Poland", "Italy", "", "",
+    ],
+    "uefa-pass-accuracy": [
+        "Czech Republic", "Hungary", "Italy", "Romania", "Slovenia", "", "",
+    ],
+    "nyc-veterans": [
+        "World War II", "Korea", "Vietnam", "Gulf War (1990s)",
+        "Gulf War (2001-)", "Other", "",
+    ],
+    "datausa-enrollment-asian": [
+        "Michigan State University", "Capella University", "University of Utah",
+        "University of Arizona", "", "", "",
+    ],
+    "datausa-poverty-state": [
+        # Cohorts use Q1..Q5 round prefix rather than R1..R5.
+        "Louisiana", "Mississippi", "Alabama", "Georgia", "South Carolina", "", "",
+    ],
+    "datausa-production-share": [
+        "2013", "2016", "", "", "", "", "",
+    ],
+    "vermont-rent": [
+        "2018", "2019", "2020", "2021", "2022", "", "",
+    ],
+    "datausa-cashiers-bachelors": [
+        "Business", "Education", "Social Sciences", "Visual & Performing Arts",
+        "Psychology", "", "",
+    ],
+    "datausa-ivy-tuition": [
+        "Arkansas Northeastern College", "Pitt Community College",
+        "Cleveland Community College", "", "", "", "",
+    ],
+    "fuel-poverty-ni": [
+        "Belfast", "Mid Ulster", "Ards and North Down",
+        "Derry City and Strabane", "", "", "",
+    ],
+    "ihme-mcv2": [
+        "Indonesia", "Samoa", "Algeria", "", "", "", "",
+    ],
+    "ihme-smoking": [
+        "United States 1990", "", "", "", "", "", "",
+    ],
+    "sdg-index-score": [
+        # OpenAIJun27SDGScout is the one cohort in the corpus that observed
+        # the full sequence including R7. See analyses of R>5 observations.
+        "Spain", "Hungary", "Ireland", "Australia", "Armenia", "Ecuador",
+        "Madagascar",
+    ],
+    "dataafrica-rainfed-crops": [
+        "Niassa", "Cabo Delgado", "Nampula", "", "", "", "",
+    ],
+    "datausa-slp-ethnicity": [
+        "2020", "2021", "", "", "", "", "",
+    ],
+    "oecd-household-income": [
+        # Cohort labels Austria as "Initial" and Czechia as "R1". Under the
+        # fast-follow convention the initial prompt is R1, so Austria is R1
+        # here.
+        "Austria", "Czechia", "Mexico", "Poland", "Sweden", "", "",
+    ],
+    "datausa-construction-wage": [
+        "2014", "2015", "2016", "", "", "", "",
+    ],
+    "datausa-cashier-skills": [
+        "Operation and Control", "Service Orientation", "Critical Thinking",
+        "Writing", "", "", "",
+    ],
+    "alaska-climate": [
+        "Yakutat June 1965 lowest", "Valdez October 2002 highest",
+        "Talkeetna September 1992 lowest", "", "", "", "",
+    ],
+    "datausa-elpaso-foreign-born": [
+        "2015", "2016", "2017", "", "", "", "",
+    ],
+    "aihw-pbs": [
+        "Wodonga", "Ballarat", "", "", "", "", "",
+    ],
+    "dataafrica-health-stunting": [
+        "1997", "2003", "2011", "", "", "", "",
+    ],
+    "ihme-lymphatic-filariasis": [
+        # R1 is a 4-country aggregate rather than a single entity.
+        "Ethiopia+Nigeria+Kenya+Sudan (2007)", "", "", "", "", "", "",
+    ],
+    "world-poverty-clock": [
+        # Cohorts use Q1..Q7 round prefix. Q1..Q4 observed. Q5..Q7 were only
+        # predicted from an RNG crack (CPython random.Random(17500112)); blank
+        # per observed-only rule.
+        "India", "Pakistan", "Afghanistan", "China", "", "", "",
+    ],
+}
+
 # Human-authored initial-prompt paraphrase per family. Each string is
 # phrased as a natural-language question, with one `{placeholder}` slot
 # that the r1..r7 entities substitute into on each round. Wording is
@@ -218,10 +381,14 @@ def main() -> None:
     for fam, count in fam_revs.most_common():
         if fam in HUB_FAMILIES:
             continue
-        seq = []
-        for rnd in range(1, 8):
-            top = fam_rounds[fam][rnd].most_common(1)
-            seq.append(top[0][0] if top else "")
+        if fam in MANUAL_ROUND_ENTITIES:
+            seq = list(MANUAL_ROUND_ENTITIES[fam])
+            assert len(seq) == 7, f"{fam}: expected 7 round entries, got {len(seq)}"
+        else:
+            seq = []
+            for rnd in range(1, 8):
+                top = fam_rounds[fam][rnd].most_common(1)
+                seq.append(top[0][0] if top else "")
         rows.append(
             {
                 "id": len(rows) + 1,
