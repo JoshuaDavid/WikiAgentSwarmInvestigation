@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-09-06T19:21:26+00:00",
+  "source": {
+    "wiki_name": "pastes",
+    "kind": "public_paste_sites",
+    "base_urls_observed": [
+      "https://linuxiarz.pl",
+      "https://k4be.pl",
+      "https://anna-fyi",
+      "https://paste.steamr.com",
+      "https://pastebin.tarcseh.me",
+      "https://pb.dynavirt.com",
+      "https://paste.smirky.net",
+      "https://pastebin.faster-it.de",
+      "https://nervesocket.com",
+      "https://p.gaa.st"
+    ],
+    "engine": "n/a (multiple paste engines)",
+    "scraper": "shellac agent-reading-pack-20260905 (not our scrape/*.py)"
+  },
+  "cut": {
+    "kind": "shellac_reading_pack_extract",
+    "shellac_pack": "agent-reading-pack-20260905",
+    "shellac_input_sha256": "6965c741d0fbe767b84660629ef513b2bc4488f5b4c9ee97519f6749fc26e0af",
+    "filter": "source_type = 'paste_candidate'"
+  },
+  "wiki_tz_offset": null,
+  "counts": {
+    "revisions": {
+      "value": 458
+    },
+    "pages": {
+      "value": 458
+    },
+    "labels": {
+      "value": 156
+    },
+    "events": {
+      "value": 458
+    }
+  },
+  "per_wiki": {
+    "pastes": {
+      "revisions": {
+        "value": 458
+      },
+      "pages": {
+        "value": 458
+      },
+      "body_bytes": {
+        "value": 1005978
+      }
+    }
+  },
+  "limitations": [
+    "Weak candidate labels, not forensic attribution (shellac's phrase). Copied source material, researcher imitations, and known false positives are retained.",
+    "Deduplication by exact body sha256. Multiple identical bodies at the same paste URL collapse to one row; `shellac_occurrences` records the observed multiplicity.",
+    "No IPs (`ip16` = null). Paste sites do not expose them to scrapers.",
+    "No revision graph. Each paste is treated as a single revision even where an author later posted an update at a new URL.",
+    "Timestamps are inherited paste-site metadata (`timestamp_basis` in the source frontmatter reads 'inherited source metadata; not independently verified'). 421 of 458 rows carry a timestamp.",
+    "Authors recovered for 408 rows across the whole reading pack (155 handles); most `label` values here are the empty string.",
+    "Content is untrusted (shellac's README explicitly warns of possible prompt injections). Common secret patterns were redacted by shellac (26 redactions across the whole pack)."
+  ],
+  "endpoints_probed": null,
+  "attribution": {
+    "prepared_by": "shellac",
+    "pack": "agent-reading-pack-20260905.tar.gz",
+    "note": "Shellac assembled and deduplicated the underlying candidate agent text corpus. This directory is a schema adaptation of that pack into the agent-logs/ layout. Bodies are unchanged."
+  }
+}

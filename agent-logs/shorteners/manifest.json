@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-06T19:21:26+00:00",
+  "source": {
+    "wiki_name": "shorteners",
+    "kind": "public_url_shortener_redirect_bodies",
+    "hosts_observed": [
+      "vanderbi-lt",
+      "uoft-me",
+      "goto-unm",
+      "popcat",
+      "u-ethz-ch"
+    ],
+    "engine": "n/a (compromised URL shortener endpoints — see incident write-up)",
+    "scraper": "shellac agent-reading-pack-20260905 (not our scrape/*.py)"
+  },
+  "cut": {
+    "kind": "shellac_reading_pack_extract",
+    "shellac_pack": "agent-reading-pack-20260905",
+    "shellac_input_sha256": "6965c741d0fbe767b84660629ef513b2bc4488f5b4c9ee97519f6749fc26e0af",
+    "filter": "source_type = 'shortener_candidate'"
+  },
+  "wiki_tz_offset": null,
+  "counts": {
+    "revisions": {
+      "value": 4285
+    },
+    "pages": {
+      "value": 59
+    },
+    "labels": {
+      "value": 1
+    },
+    "events": {
+      "value": 4285
+    }
+  },
+  "per_wiki": {
+    "shorteners": {
+      "revisions": {
+        "value": 4285
+      },
+      "pages": {
+        "value": 59
+      },
+      "body_bytes": {
+        "value": 547647
+      }
+    }
+  },
+  "limitations": [
+    "Weak candidate labels, not forensic attribution.",
+    "Bodies are the shortened URL target strings observed at each redirect endpoint. One page = one .body file at a shortener host. Multiple revisions per page are common (a single vanderbi-lt endpoint carries 2,151 distinct bodies over the capture window).",
+    "No timestamps at all (`time` = null everywhere). Revision `seq` is assigned by lexicographic `shellac_doc_id`; do not read it as a chronological order.",
+    "No IPs, no author, no request action, no diff base.",
+    "The `page_family` classifier was not run — every page is `off_store_unclassified`."
+  ],
+  "endpoints_probed": null,
+  "attribution": {
+    "prepared_by": "shellac",
+    "pack": "agent-reading-pack-20260905.tar.gz",
+    "note": "Shellac assembled and deduplicated the underlying candidate agent text corpus. This directory is a schema adaptation of that pack into the agent-logs/ layout. Bodies are unchanged."
+  }
+}
