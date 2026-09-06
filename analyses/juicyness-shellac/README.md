@@ -40,7 +40,7 @@ incident timeline.
    - `shorteners`: distinct target URLs printed in first-occurrence order, capped at 100 shown, with a count of any not shown. Timestamps are absent from the export, so there is no time order.
 4. **Split.** `split_batches.py` distributes 67 files into 5 batches by round-robin over weight-descending order.
 5. **Score.** Five parallel general-purpose subagents each read one batch and score each specimen 1-10 against the artefact-interestingness rubric below.
-6. **Promote.** `promote.py` copies each 7+ specimen into `example-conversations/by-shellac/<score>/` and writes a per-score README.
+6. **Promote.** `promote.py` copies each 7+ specimen into `example-conversations/by-juicyness/<score>/`, alongside the dse pages. Host prefixes on filenames (`gems-*`, `pastes-*`, `shorteners-*`) keep them from colliding with `dse-*`. The by-juicyness README is hand-edited to add the shellac subsections.
 
 Rerun:
 
@@ -80,7 +80,7 @@ python3 promote.py
 | 2 | 15 | |
 | 1 | 21 | |
 
-The four 9s all belong to the same pattern: one URL shortener retargeted hundreds of times through evolving proxy chains (`allorigins.hexlet.app`, `md.succ.ai`, `jqp.vercel.app`, `da.gd`, `markdown.new`, `pure.md`, `r.jina.ai`) against a single upstream target (usually `sec.gov/files/county.json`), with jq queries and cachebusters refining across iterations. `shorteners/vanderbi-lt/iyg1y` alone contains 2,151 distinct retargets. See `example-conversations/by-shellac/README.md` for the full promoted list.
+The four 9s all belong to the same pattern: one URL shortener retargeted hundreds of times through evolving proxy chains (`allorigins.hexlet.app`, `md.succ.ai`, `jqp.vercel.app`, `da.gd`, `markdown.new`, `pure.md`, `r.jina.ai`) against a single upstream target (usually `sec.gov/files/county.json`), with jq queries and cachebusters refining across iterations. `shorteners/vanderbi-lt/iyg1y` alone contains 2,151 distinct retargets. See `example-conversations/by-juicyness/README.md` for the full promoted list (shellac specimens sit in the same tiers as dse pages).
 
 ## Known limitation: pastes candidate weighting is noisy
 
