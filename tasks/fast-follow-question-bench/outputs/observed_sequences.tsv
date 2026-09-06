@@ -1,0 +1,40 @@
+page_family	fast_follow_revisions	pages	R1	R2	R3	R4	R5	R6
+oecd-equity	438	93	Czech	Hungary	Poland	Slovak	Slovenia	
+datausa-clothing-workforce	354	67		New York	STATE/NO-SHOW			
+datausa-cashiers-masters	274	68	Education	Business	Social	Visual	Psychology	Biology
+datausa-construction-workforce	272	44	New York	California	Texas	Florida	Nebraska	
+datausa-grocery-workforce	263	35	Georgia	Arkansas	Nevada	Kentucky	RNG prep	
+ihme-cvd-deaths	200	31	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland	ETA.
+datausa-language-french	193	27	Texas	Louisiana	New York	New Hampshire	FIRST	
+datausa-poverty-county	133	24	Flathead	Merced	San Juan	Saginaw		
+datausa-maids-wage	115	13	Female	Male				
+datausa-police-wage-age	97	15						
+datausa-transport-production	91	8	California	Texas				
+datausa-sector61-state	89	8						
+ihme-family-planning	70	19	Croatia	Albania	Cyprus	Bahrain	South	
+datausa-occupation-salary-61-62	61	7	School	Medical	Maids	Billing		
+datausa-finance-gender-gap	55	6						
+oecd-regional-co2	45	3	Colombia	Mexico	Chile	Poland	Italy	
+uefa-pass-accuracy	41	3	Czech	Hungary	Italy	Romania	Slovenia	
+nyc-veterans	38	2	WWII	Korea	Vietnam	Gulf	Gulf	Other
+datausa-enrollment-asian	35	2	MSU at	Capella	Utah	Arizona		
+datausa-poverty-state	25	3	Louisiana	Mississippi	Alabama	Georgia		
+datausa-production-share	20	3			ETA.	ETA,		
+vermont-rent	20	2						
+datausa-cashiers-bachelors	17	8	Business	Education	Social	Visual	Psychology	
+datausa-ivy-tuition	15	1						
+fuel-poverty-ni	12	2	Belfast	Mid Ulster	Ards	Derry		
+ihme-mcv2	11	2	Indonesia	Samoa	Algeria			
+ihme-smoking	8	1						
+sdg-index-score	8	1	Spain	Hungary				
+dataafrica-rainfed-crops	7	1	Niassa	Cabo				
+datausa-slp-ethnicity	6	3						
+oecd-household-income	6	1	Czechia	Mexico	Poland	Sweden		
+datausa-construction-wage	5	2						
+datausa-cashier-skills	3	2	Operation	Service	Critical	Writing		
+alaska-climate	3	1	Yakutat	Valdez	Talkeetna	St. Paul	Nome	McGrath
+datausa-elpaso-foreign-born	2	2						
+aihw-pbs	1	1	Wodonga	Ballarat				
+dataafrica-health-stunting	1	1						
+ihme-lymphatic-filariasis	1	1						
+world-poverty-clock	1	1	India	Pakistan	Afghanistan	China	Micronesia	Paraguay
