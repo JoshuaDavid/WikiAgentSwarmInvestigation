@@ -1,40 +1,40 @@
-page_family	fast_follow_revisions	pages	R1	R2	R3	R4	R5	R6
-oecd-equity	438	93	Czech	Hungary	Poland	Slovak	Slovenia	
-datausa-clothing-workforce	354	67		New York	STATE/NO-SHOW			
-datausa-cashiers-masters	274	68	Education	Business	Social	Visual	Psychology	Biology
-datausa-construction-workforce	272	44	New York	California	Texas	Florida	Nebraska	
-datausa-grocery-workforce	263	35	Georgia	Arkansas	Nevada	Kentucky	RNG prep	
-ihme-cvd-deaths	200	31	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland	ETA.
-datausa-language-french	193	27	Texas	Louisiana	New York	New Hampshire	FIRST	
-datausa-poverty-county	133	24	Flathead	Merced	San Juan	Saginaw		
-datausa-maids-wage	115	13	Female	Male				
-datausa-police-wage-age	97	15						
-datausa-transport-production	91	8	California	Texas				
-datausa-sector61-state	89	8						
-ihme-family-planning	70	19	Croatia	Albania	Cyprus	Bahrain	South	
-datausa-occupation-salary-61-62	61	7	School	Medical	Maids	Billing		
-datausa-finance-gender-gap	55	6						
-oecd-regional-co2	45	3	Colombia	Mexico	Chile	Poland	Italy	
-uefa-pass-accuracy	41	3	Czech	Hungary	Italy	Romania	Slovenia	
-nyc-veterans	38	2	WWII	Korea	Vietnam	Gulf	Gulf	Other
-datausa-enrollment-asian	35	2	MSU at	Capella	Utah	Arizona		
-datausa-poverty-state	25	3	Louisiana	Mississippi	Alabama	Georgia		
-datausa-production-share	20	3			ETA.	ETA,		
-vermont-rent	20	2						
-datausa-cashiers-bachelors	17	8	Business	Education	Social	Visual	Psychology	
-datausa-ivy-tuition	15	1						
-fuel-poverty-ni	12	2	Belfast	Mid Ulster	Ards	Derry		
-ihme-mcv2	11	2	Indonesia	Samoa	Algeria			
-ihme-smoking	8	1						
-sdg-index-score	8	1	Spain	Hungary				
-dataafrica-rainfed-crops	7	1	Niassa	Cabo				
-datausa-slp-ethnicity	6	3						
-oecd-household-income	6	1	Czechia	Mexico	Poland	Sweden		
-datausa-construction-wage	5	2						
-datausa-cashier-skills	3	2	Operation	Service	Critical	Writing		
-alaska-climate	3	1	Yakutat	Valdez	Talkeetna	St. Paul	Nome	McGrath
-datausa-elpaso-foreign-born	2	2						
-aihw-pbs	1	1	Wodonga	Ballarat				
-dataafrica-health-stunting	1	1						
-ihme-lymphatic-filariasis	1	1						
-world-poverty-clock	1	1	India	Pakistan	Afghanistan	China	Micronesia	Paraguay
+id	family	num_occurrences	inferred_prompt	r1	r2	r3	r4	r5	r6	r7
+1	oecd-equity	438	OECD, share of private expenditure in early years of education, 2018, per country	Czech	Hungary	Poland	Slovak	Slovenia		
+2	datausa-clothing-workforce	354	DataUSA clothing manufacturing (NAICS 4481) workforce, per state		New York	STATE/NO-SHOW				
+3	datausa-cashiers-masters	274	DataUSA cashiers with a Master's degree, count of workers per field of study	Education	Business	Social	Visual	Psychology	Biology	
+4	datausa-construction-workforce	272	DataUSA construction (Industry Sector 23) workforce, years 2016 and 2018, per state	New York	California	Texas	Florida	Nebraska		
+5	datausa-grocery-workforce	263	DataUSA grocery stores (NAICS 4451) workforce, per state (uses G1..G6 round prefix)	Georgia	Arkansas	Nevada	Kentucky	RNG prep		
+6	ihme-cvd-deaths	200	IHME cardiovascular deaths, female age 70-74, years 2007-2010, per country	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland	ETA.	Ukraine
+7	datausa-language-french	193	DataUSA ACS 2022, French (including Cajun), share of US speakers per state	Texas	Louisiana	New York	New Hampshire	FIRST		
+8	datausa-poverty-county	133	DataUSA county poverty rate, per county	Flathead	Merced	San Juan	Saginaw			
+9	datausa-maids-wage	115	DataUSA maids and housekeeping cleaners (SOC 372012) wage, per (gender, year) combination	Female	Male					
+10	datausa-police-wage-age	97	DataUSA police officers (SOC 333050) wage year 2016, per age group							
+11	datausa-transport-production	91	DataUSA NAPCS transportation-equipment outbound production, per (state, year)	California	Texas					
+12	datausa-sector61-state	89	DataUSA sector 61 (educational services), per state (uses STATE5-XX terminal token)							
+13	ihme-family-planning	70	IHME SDG family planning need met with modern methods, women 15-49, year 1992, per country	Croatia	Albania	Cyprus	Bahrain	South		
+14	datausa-occupation-salary-61-62	61	DataUSA occupation average salary, sectors 61-62, year 2020, per detailed occupation	School	Medical	Maids	Billing			
+15	datausa-finance-gender-gap	55	DataUSA personal financial advisors, male vs female count, year 2022							
+16	oecd-regional-co2	45	OECD Regional Recovery Platform, CO2 emissions from electricity generation, per country	Colombia	Mexico	Chile	Poland	Italy		
+17	uefa-pass-accuracy	41	UEFA U21 2021 pass-accuracy percentage, per team	Czech	Hungary	Italy	Romania	Slovenia		
+18	nyc-veterans	38	DataUSA NYC veterans 2018, count per war era (some cohorts use Q1..Q5)	WWII	Korea	Vietnam	Gulf	Gulf	Other	
+19	datausa-enrollment-asian	35	DataUSA Asian enrollment years 2012-14, per university	MSU at	Capella	Utah	Arizona			
+20	datausa-poverty-state	25	DataUSA state poverty rate 2013 and 2022 (uses Q1..Q3 round prefix)	Louisiana	Mississippi	Alabama	Georgia			
+21	datausa-production-share	20	DataUSA production-occupation share of workforce by city and gender, per year			ETA.	ETA,			
+22	vermont-rent	20	housingdata.org Vermont/Lamoille median gross rent estimate, per year							
+23	datausa-cashiers-bachelors	17	DataUSA cashiers with a Bachelor's degree, count of workers per field of study, year 2015	Business	Education	Social	Visual	Psychology		
+24	datausa-ivy-tuition	15	DataUSA Ivy Tech state tuition year 2015, per community college							
+25	fuel-poverty-ni	12	House of Commons Library fuel poverty dashboard, Northern Ireland 2016, per council area	Belfast	Mid Ulster	Ards	Derry			
+26	ihme-mcv2	11	IHME SDG MCV2 vaccination coverage, per country	Indonesia	Samoa	Algeria				
+27	ihme-smoking	8	IHME SDG smoking prevalence age 15+, United States, year 1990 (follow-up varies year or country)							
+28	sdg-index-score	8	Sustainable Development Report SDG Index overall score, years 2010-2015, per country	Spain	Hungary					
+29	dataafrica-rainfed-crops	7	Data Africa Mozambique rainfed crops, per province	Niassa	Cabo					
+30	datausa-slp-ethnicity	6	DataUSA speech-language pathologists, Puerto Rican employed, per (gender, year)							
+31	oecd-household-income	6	OECD household disposable income percentage change 2010/2013/2016/2019/2022 (July 2024 vintage), per country	Czechia	Mexico	Poland	Sweden			
+32	datausa-construction-wage	5	DataUSA construction female electricians, Average Wage exclude MOE, per year							
+33	datausa-cashier-skills	3	DataUSA cashiers skill importance (RCA), year 2018, per skill	Operation	Service	Critical	Writing			
+34	alaska-climate	3	Alaska climate, station-month-year extreme mean temperature, per (station, month, year, extremum)	Yakutat	Valdez	Talkeetna	St. Paul	Nome	McGrath	
+35	datausa-elpaso-foreign-born	2	DataUSA El Paso TX foreign-born percentage, per year							
+36	aihw-pbs	1	AIHW PBS Dermatologicals, Victoria LGAs, January 2022 rolling 12-month average government cost per person, per LGA	Wodonga	Ballarat					
+37	dataafrica-health-stunting	1	Data Africa Mozambique moderately stunted percentage, per year							
+38	ihme-lymphatic-filariasis	1	IHME lymphatic filariasis, ICT antigen prevalence year 2007, aggregate over Ethiopia, Nigeria, Kenya, Sudan							
+39	world-poverty-clock	1	World Poverty Clock count and rate, per country (uses Q1..Q7 round prefix)	India	Pakistan	Afghanistan	China	Micronesia	Paraguay	South
