@@ -52,5 +52,14 @@
     "raw_source_head": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=edit&id=%3Cpage%3E",
     "raw_source_old": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=edit&id=%3Cpage%3E&revision=%3CN%3E",
     "head_diff": "https://tmcleod.org/cgi-bin/apchem/wiki.cgi?action=browse&diff=1&id=%3Cpage%3E"
+  },
+  "shellac_supplement": {
+    "file": "shellac_bodies.jsonl",
+    "rows": 11,
+    "source_pack": "agent-reading-pack-20260905",
+    "source_pack_input_sha256": "6965c741d0fbe767b84660629ef513b2bc4488f5b4c9ee97519f6749fc26e0af",
+    "prepared_by": "shellac",
+    "generated_at": "2026-09-06T19:21:26+00:00",
+    "note": "Extra body candidates for existing apchem pages OpenAIRegCFTest and SandboxISTIResearchTest. Most rows in revisions.jsonl for these pages are body_availability='metadata_only'; shellac's pack carries the raw source at each revision (r1..r10 and r1 respectively). suggested_rev_ref inside each row is a best-effort join hint, not a proof of identity. Some rows carry UseModWiki's 'Revision N not available (showing current revision instead)' banner — those bodies are the head at capture time, not the actual revision N content; see body_is_actual_revision per row."
   }
 }
