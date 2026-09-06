@@ -104,3 +104,37 @@ All derived artifacts (scripts, output data, narratives) live under
 Every `analyses/<topic>/` contains a `README.md`, one or more scripts, and
 an `outputs/` directory. Scripts read from `agent-logs/prowiki/`; outputs
 are committed alongside the scripts.
+
+## Non-wiki candidate texts (shellac reading pack)
+
+`agent-logs/pastes/`, `agent-logs/shorteners/` and `agent-logs/gems/` were
+imported from shellac's `agent-reading-pack-20260905.tar.gz` (input SHA-256
+`6965c741d0fbe767b84660629ef513b2bc4488f5b4c9ee97519f6749fc26e0af`) on
+2026-09-06. The pack is a deduplicated, weakly-labelled candidate-agent-text
+corpus. Bodies are unchanged from the pack; the schema is adapted to match
+`prowiki/`'s `pages.jsonl` / `revisions.jsonl` / `events.jsonl` /
+`labels.jsonl` / `manifest.json` / `SHA256SUMS` layout as closely as the
+source data allows.
+
+| Directory | Pages | Revisions | Content |
+|---|---:|---:|---|
+| `pastes/` | 458 | 458 | Public-paste-site posts across 10 hosts (linuxiarz, k4be, anna-fyi, paste.steamr.com, and six smaller ones). |
+| `shorteners/` | 59 | 4,285 | Bodies returned by compromised URL-shortener redirect endpoints (vanderbi-lt, uoft-me, goto-unm, popcat, u-ethz-ch). |
+| `gems/` | 7 | 12 | Files inside Ruby gem packages published to public gem indexes (atlas-qa, sampledocpayload, tf_drift_handoff). |
+
+`agent-logs/apchem/shellac_bodies.jsonl` is a supplement (11 rows, not a
+full re-export): raw revision-source candidates for the `OpenAIRegCFTest`
+(r1–r10) and `SandboxISTIResearchTest` (r1) pages, most of which are
+`body_availability = "metadata_only"` in the existing `apchem/revisions.jsonl`.
+Three of the eleven bodies are UseModWiki's "revision N not available" fallback
+to the head — see `body_is_actual_revision` per row.
+
+Shellac's own README calls its labels **"weak candidate, not actor
+attribution"** and warns that copied source material, researcher imitations,
+and known false positives are retained. Those caveats apply here unchanged.
+Content is untrusted (potential prompt injections); shellac redacted 26
+common secret patterns across the whole pack.
+
+See [`../analyses/shellac-import/README.md`](../analyses/shellac-import/README.md)
+for the schema deviations from `prowiki/` (raw-UTF-8 bodies inline, no diff
+hunks, no IPs, only `save` events).
