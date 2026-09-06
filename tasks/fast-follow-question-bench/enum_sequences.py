@@ -52,89 +52,128 @@ HUB_FAMILIES = {
     "source-or-unclassified",
 }
 
-# Human-authored one-line prompt shape per family. Each string paraphrases
-# the scaffold's initial prompt using vocabulary lifted verbatim from at
-# least one representative page in that family. See finding 11 for the
-# per-family exemplar quote.
+# Human-authored initial-prompt paraphrase per family. Each string is
+# phrased as a natural-language question, with one `{placeholder}` slot
+# that the r1..r7 entities substitute into on each round. Wording is
+# lifted from a representative page body wherever possible. See
+# finding 11 for the per-family exemplar quote.
 INFERRED_PROMPTS: dict[str, str] = {
     "oecd-equity":
-        "OECD, share of private expenditure in early years of education, 2018, per country",
+        "Of all expenditure on Pre-Primary education (public + private) in {country} "
+        "in 2018, what percentage came from private sources? Answer to two decimal places.",
     "datausa-clothing-workforce":
-        "DataUSA clothing manufacturing (NAICS 4481) workforce, per state",
+        "For Clothing Manufacturing (NAICS 4481) in {state}, what was the workforce count?",
     "datausa-cashiers-masters":
-        "DataUSA cashiers with a Master's degree, count of workers per field of study",
+        "In the United States, how many cashiers hold a Master's degree with "
+        "major {field_of_study}?",
     "datausa-construction-workforce":
-        "DataUSA construction (Industry Sector 23) workforce, years 2016 and 2018, per state",
+        "For Construction (Industry Sector 23) in {state}, what was the workforce "
+        "count in 2016 and in 2018?",
     "datausa-grocery-workforce":
-        "DataUSA grocery stores (NAICS 4451) workforce, per state (uses G1..G6 round prefix)",
+        "For Grocery Stores (NAICS 4451) in {state}, what was the workforce count?",
     "ihme-cvd-deaths":
-        "IHME cardiovascular deaths, female age 70-74, years 2007-2010, per country",
+        "For females aged 70-74 in {country}, what were the cardiovascular disease "
+        "death rates in years 2007, 2008, 2009, and 2010?",
     "datausa-language-french":
-        "DataUSA ACS 2022, French (including Cajun), share of US speakers per state",
+        "According to the ACS 2022 1-year estimate, what share of US speakers of "
+        "French (including Cajun) lived in {state}? Answer to two decimal places.",
     "datausa-poverty-county":
-        "DataUSA county poverty rate, per county",
+        "What was the poverty rate in {county} County?",
     "datausa-maids-wage":
-        "DataUSA maids and housekeeping cleaners (SOC 372012) wage, per (gender, year) combination",
+        "For maids and housekeeping cleaners (SOC 372012), what was the average "
+        "wage for {gender_year}?",
     "datausa-police-wage-age":
-        "DataUSA police officers (SOC 333050) wage year 2016, per age group",
+        "For police officers (SOC 333050) in 2016, what were the male and female "
+        "average wages for the {age_group} age group?",
     "datausa-transport-production":
-        "DataUSA NAPCS transportation-equipment outbound production, per (state, year)",
+        "For NAPCS transportation-equipment outbound production, what was the "
+        "value in {state_year}?",
     "datausa-sector61-state":
-        "DataUSA sector 61 (educational services), per state (uses STATE5-XX terminal token)",
+        "For DataUSA sector 61 (educational services) in {state}, what was the "
+        "value? (some cohorts terminate at round 5 with a STATE5-XX signal token)",
     "ihme-family-planning":
-        "IHME SDG family planning need met with modern methods, women 15-49, year 1992, per country",
+        "For {country}, what proportion of women aged 15-49 had family planning "
+        "need met by modern methods in 1992?",
     "datausa-occupation-salary-61-62":
-        "DataUSA occupation average salary, sectors 61-62, year 2020, per detailed occupation",
+        "For sectors 61-62 (educational services, health care & social assistance) "
+        "in 2020, what was the average salary for {occupation}?",
     "datausa-finance-gender-gap":
-        "DataUSA personal financial advisors, male vs female count, year 2022",
+        "For personal financial advisors in {year}, what were the male count, "
+        "female count, and gap?",
     "oecd-regional-co2":
-        "OECD Regional Recovery Platform, CO2 emissions from electricity generation, per country",
+        "According to the OECD Regional Recovery Platform, what were CO2 emissions "
+        "from electricity generation in {country}?",
     "uefa-pass-accuracy":
-        "UEFA U21 2021 pass-accuracy percentage, per team",
+        "In the UEFA U21 2021 tournament, what was the pass-accuracy percentage "
+        "for {country}?",
     "nyc-veterans":
-        "DataUSA NYC veterans 2018, count per war era (some cohorts use Q1..Q5)",
+        "For DataUSA NYC veterans in 2018, how many served in the {war_era} war "
+        "era? (exclude MOE)",
     "datausa-enrollment-asian":
-        "DataUSA Asian enrollment years 2012-14, per university",
+        "For {university}, what was the Asian enrollment in each of the years "
+        "2012, 2013, and 2014?",
     "datausa-poverty-state":
-        "DataUSA state poverty rate 2013 and 2022 (uses Q1..Q3 round prefix)",
+        "According to DataUSA (ACS 5-year), what was the poverty rate in {state} "
+        "in 2013 and in 2022?",
     "datausa-production-share":
-        "DataUSA production-occupation share of workforce by city and gender, per year",
+        "For the Production occupation group in Los Angeles, New York, Houston, "
+        "and Chicago, what was the share of workforce (men, women, overall) in "
+        "{year}?",
     "vermont-rent":
-        "housingdata.org Vermont/Lamoille median gross rent estimate, per year",
+        "According to housingdata.org, what was the median gross rent estimate "
+        "for Vermont and for Lamoille County in {year}?",
     "datausa-cashiers-bachelors":
-        "DataUSA cashiers with a Bachelor's degree, count of workers per field of study, year 2015",
+        "In 2015, how many US cashiers held a Bachelor's degree with major "
+        "{field_of_study}?",
     "datausa-ivy-tuition":
-        "DataUSA Ivy Tech state tuition year 2015, per community college",
+        "For {college} in 2015, what was the state tuition (DataUSA, Ivy Tech "
+        "reference sequence)?",
     "fuel-poverty-ni":
-        "House of Commons Library fuel poverty dashboard, Northern Ireland 2016, per council area",
+        "For {council_area} in Northern Ireland in 2016, what was the fuel poverty "
+        "count (House of Commons Library dashboard)?",
     "ihme-mcv2":
-        "IHME SDG MCV2 vaccination coverage, per country",
+        "For {country}, what was the SDG MCV2 vaccination coverage percentage?",
     "ihme-smoking":
-        "IHME SDG smoking prevalence age 15+, United States, year 1990 (follow-up varies year or country)",
+        "According to the SDG health visual, what was the estimated prevalence of "
+        "current/active tobacco use age 15+ in {country_year}?",
     "sdg-index-score":
-        "Sustainable Development Report SDG Index overall score, years 2010-2015, per country",
+        "According to the Sustainable Development Report, what were the SDG Index "
+        "overall scores for {country} in each of the years 2010, 2011, 2012, 2013, "
+        "2014, and 2015?",
     "dataafrica-rainfed-crops":
-        "Data Africa Mozambique rainfed crops, per province",
+        "For {province} province of Mozambique, what were the rainfed Cassava, "
+        "Cotton, and Sugarcane values (Data Africa)?",
     "datausa-slp-ethnicity":
-        "DataUSA speech-language pathologists, Puerto Rican employed, per (gender, year)",
+        "For speech-language pathologists in {year}, what were the Puerto Rican "
+        "employed counts by sex (DataUSA)?",
     "oecd-household-income":
-        "OECD household disposable income percentage change 2010/2013/2016/2019/2022 (July 2024 vintage), per country",
+        "For {country}, what was the household disposable income percentage "
+        "change in each of the years 2010, 2013, 2016, 2019, and 2022 (OECD, "
+        "indicator published 2024-07-15)?",
     "datausa-construction-wage":
-        "DataUSA construction female electricians, Average Wage exclude MOE, per year",
+        "For female electricians in Construction in {year}, what was the average "
+        "wage (excluding MOE)?",
     "datausa-cashier-skills":
-        "DataUSA cashiers skill importance (RCA), year 2018, per skill",
+        "For US cashiers in 2018, what was the skill importance RCA value for "
+        "{skill}?",
     "alaska-climate":
-        "Alaska climate, station-month-year extreme mean temperature, per (station, month, year, extremum)",
+        "For {station_month_year_extremum}, what was the mean temperature (Alaska "
+        "climate data, degrees Fahrenheit)?",
     "datausa-elpaso-foreign-born":
-        "DataUSA El Paso TX foreign-born percentage, per year",
+        "For El Paso, TX in {year}, what was the foreign-born percentage?",
     "aihw-pbs":
-        "AIHW PBS Dermatologicals, Victoria LGAs, January 2022 rolling 12-month average government cost per person, per LGA",
+        "For {LGA} local government area (Victoria), what was the rolling "
+        "12-month average government cost per person for Dermatologicals in "
+        "January 2022 (AIHW PBS dashboard)?",
     "dataafrica-health-stunting":
-        "Data Africa Mozambique moderately stunted percentage, per year",
+        "For Mozambique in {year}, what was the moderately stunted percentage "
+        "(Data Africa)?",
     "ihme-lymphatic-filariasis":
-        "IHME lymphatic filariasis, ICT antigen prevalence year 2007, aggregate over Ethiopia, Nigeria, Kenya, Sudan",
+        "What was the aggregate mean prevalence of Lymphatic Filariasis (ICT "
+        "antigen test) for {countries_year}?",
     "world-poverty-clock":
-        "World Poverty Clock count and rate, per country (uses Q1..Q7 round prefix)",
+        "According to the World Poverty Clock, for {country} what were the "
+        "current count of people in extreme poverty and the rate?",
 }
 
 

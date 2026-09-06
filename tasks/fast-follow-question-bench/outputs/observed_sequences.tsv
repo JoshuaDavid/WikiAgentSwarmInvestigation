@@ -1,40 +1,40 @@
 id	family	num_occurrences	inferred_prompt	r1	r2	r3	r4	r5	r6	r7
-1	oecd-equity	438	OECD, share of private expenditure in early years of education, 2018, per country	Czech	Hungary	Poland	Slovak	Slovenia		
-2	datausa-clothing-workforce	354	DataUSA clothing manufacturing (NAICS 4481) workforce, per state		New York	STATE/NO-SHOW				
-3	datausa-cashiers-masters	274	DataUSA cashiers with a Master's degree, count of workers per field of study	Education	Business	Social	Visual	Psychology	Biology	
-4	datausa-construction-workforce	272	DataUSA construction (Industry Sector 23) workforce, years 2016 and 2018, per state	New York	California	Texas	Florida	Nebraska		
-5	datausa-grocery-workforce	263	DataUSA grocery stores (NAICS 4451) workforce, per state (uses G1..G6 round prefix)	Georgia	Arkansas	Nevada	Kentucky	RNG prep		
-6	ihme-cvd-deaths	200	IHME cardiovascular deaths, female age 70-74, years 2007-2010, per country	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland	ETA.	Ukraine
-7	datausa-language-french	193	DataUSA ACS 2022, French (including Cajun), share of US speakers per state	Texas	Louisiana	New York	New Hampshire	FIRST		
-8	datausa-poverty-county	133	DataUSA county poverty rate, per county	Flathead	Merced	San Juan	Saginaw			
-9	datausa-maids-wage	115	DataUSA maids and housekeeping cleaners (SOC 372012) wage, per (gender, year) combination	Female	Male					
-10	datausa-police-wage-age	97	DataUSA police officers (SOC 333050) wage year 2016, per age group							
-11	datausa-transport-production	91	DataUSA NAPCS transportation-equipment outbound production, per (state, year)	California	Texas					
-12	datausa-sector61-state	89	DataUSA sector 61 (educational services), per state (uses STATE5-XX terminal token)							
-13	ihme-family-planning	70	IHME SDG family planning need met with modern methods, women 15-49, year 1992, per country	Croatia	Albania	Cyprus	Bahrain	South		
-14	datausa-occupation-salary-61-62	61	DataUSA occupation average salary, sectors 61-62, year 2020, per detailed occupation	School	Medical	Maids	Billing			
-15	datausa-finance-gender-gap	55	DataUSA personal financial advisors, male vs female count, year 2022							
-16	oecd-regional-co2	45	OECD Regional Recovery Platform, CO2 emissions from electricity generation, per country	Colombia	Mexico	Chile	Poland	Italy		
-17	uefa-pass-accuracy	41	UEFA U21 2021 pass-accuracy percentage, per team	Czech	Hungary	Italy	Romania	Slovenia		
-18	nyc-veterans	38	DataUSA NYC veterans 2018, count per war era (some cohorts use Q1..Q5)	WWII	Korea	Vietnam	Gulf	Gulf	Other	
-19	datausa-enrollment-asian	35	DataUSA Asian enrollment years 2012-14, per university	MSU at	Capella	Utah	Arizona			
-20	datausa-poverty-state	25	DataUSA state poverty rate 2013 and 2022 (uses Q1..Q3 round prefix)	Louisiana	Mississippi	Alabama	Georgia			
-21	datausa-production-share	20	DataUSA production-occupation share of workforce by city and gender, per year			ETA.	ETA,			
-22	vermont-rent	20	housingdata.org Vermont/Lamoille median gross rent estimate, per year							
-23	datausa-cashiers-bachelors	17	DataUSA cashiers with a Bachelor's degree, count of workers per field of study, year 2015	Business	Education	Social	Visual	Psychology		
-24	datausa-ivy-tuition	15	DataUSA Ivy Tech state tuition year 2015, per community college							
-25	fuel-poverty-ni	12	House of Commons Library fuel poverty dashboard, Northern Ireland 2016, per council area	Belfast	Mid Ulster	Ards	Derry			
-26	ihme-mcv2	11	IHME SDG MCV2 vaccination coverage, per country	Indonesia	Samoa	Algeria				
-27	ihme-smoking	8	IHME SDG smoking prevalence age 15+, United States, year 1990 (follow-up varies year or country)							
-28	sdg-index-score	8	Sustainable Development Report SDG Index overall score, years 2010-2015, per country	Spain	Hungary					
-29	dataafrica-rainfed-crops	7	Data Africa Mozambique rainfed crops, per province	Niassa	Cabo					
-30	datausa-slp-ethnicity	6	DataUSA speech-language pathologists, Puerto Rican employed, per (gender, year)							
-31	oecd-household-income	6	OECD household disposable income percentage change 2010/2013/2016/2019/2022 (July 2024 vintage), per country	Czechia	Mexico	Poland	Sweden			
-32	datausa-construction-wage	5	DataUSA construction female electricians, Average Wage exclude MOE, per year							
-33	datausa-cashier-skills	3	DataUSA cashiers skill importance (RCA), year 2018, per skill	Operation	Service	Critical	Writing			
-34	alaska-climate	3	Alaska climate, station-month-year extreme mean temperature, per (station, month, year, extremum)	Yakutat	Valdez	Talkeetna	St. Paul	Nome	McGrath	
-35	datausa-elpaso-foreign-born	2	DataUSA El Paso TX foreign-born percentage, per year							
-36	aihw-pbs	1	AIHW PBS Dermatologicals, Victoria LGAs, January 2022 rolling 12-month average government cost per person, per LGA	Wodonga	Ballarat					
-37	dataafrica-health-stunting	1	Data Africa Mozambique moderately stunted percentage, per year							
-38	ihme-lymphatic-filariasis	1	IHME lymphatic filariasis, ICT antigen prevalence year 2007, aggregate over Ethiopia, Nigeria, Kenya, Sudan							
-39	world-poverty-clock	1	World Poverty Clock count and rate, per country (uses Q1..Q7 round prefix)	India	Pakistan	Afghanistan	China	Micronesia	Paraguay	South
+1	oecd-equity	438	Of all expenditure on Pre-Primary education (public + private) in {country} in 2018, what percentage came from private sources? Answer to two decimal places.	Czech	Hungary	Poland	Slovak	Slovenia		
+2	datausa-clothing-workforce	354	For Clothing Manufacturing (NAICS 4481) in {state}, what was the workforce count?		New York	STATE/NO-SHOW				
+3	datausa-cashiers-masters	274	In the United States, how many cashiers hold a Master's degree with major {field_of_study}?	Education	Business	Social	Visual	Psychology	Biology	
+4	datausa-construction-workforce	272	For Construction (Industry Sector 23) in {state}, what was the workforce count in 2016 and in 2018?	New York	California	Texas	Florida	Nebraska		
+5	datausa-grocery-workforce	263	For Grocery Stores (NAICS 4451) in {state}, what was the workforce count?	Georgia	Arkansas	Nevada	Kentucky	RNG prep		
+6	ihme-cvd-deaths	200	For females aged 70-74 in {country}, what were the cardiovascular disease death rates in years 2007, 2008, 2009, and 2010?	Armenia	Kazakhstan	Turkmenistan	Hungary	Poland	ETA.	Ukraine
+7	datausa-language-french	193	According to the ACS 2022 1-year estimate, what share of US speakers of French (including Cajun) lived in {state}? Answer to two decimal places.	Texas	Louisiana	New York	New Hampshire	FIRST		
+8	datausa-poverty-county	133	What was the poverty rate in {county} County?	Flathead	Merced	San Juan	Saginaw			
+9	datausa-maids-wage	115	For maids and housekeeping cleaners (SOC 372012), what was the average wage for {gender_year}?	Female	Male					
+10	datausa-police-wage-age	97	For police officers (SOC 333050) in 2016, what were the male and female average wages for the {age_group} age group?							
+11	datausa-transport-production	91	For NAPCS transportation-equipment outbound production, what was the value in {state_year}?	California	Texas					
+12	datausa-sector61-state	89	For DataUSA sector 61 (educational services) in {state}, what was the value? (some cohorts terminate at round 5 with a STATE5-XX signal token)							
+13	ihme-family-planning	70	For {country}, what proportion of women aged 15-49 had family planning need met by modern methods in 1992?	Croatia	Albania	Cyprus	Bahrain	South		
+14	datausa-occupation-salary-61-62	61	For sectors 61-62 (educational services, health care & social assistance) in 2020, what was the average salary for {occupation}?	School	Medical	Maids	Billing			
+15	datausa-finance-gender-gap	55	For personal financial advisors in {year}, what were the male count, female count, and gap?							
+16	oecd-regional-co2	45	According to the OECD Regional Recovery Platform, what were CO2 emissions from electricity generation in {country}?	Colombia	Mexico	Chile	Poland	Italy		
+17	uefa-pass-accuracy	41	In the UEFA U21 2021 tournament, what was the pass-accuracy percentage for {country}?	Czech	Hungary	Italy	Romania	Slovenia		
+18	nyc-veterans	38	For DataUSA NYC veterans in 2018, how many served in the {war_era} war era? (exclude MOE)	WWII	Korea	Vietnam	Gulf	Gulf	Other	
+19	datausa-enrollment-asian	35	For {university}, what was the Asian enrollment in each of the years 2012, 2013, and 2014?	MSU at	Capella	Utah	Arizona			
+20	datausa-poverty-state	25	According to DataUSA (ACS 5-year), what was the poverty rate in {state} in 2013 and in 2022?	Louisiana	Mississippi	Alabama	Georgia			
+21	datausa-production-share	20	For the Production occupation group in Los Angeles, New York, Houston, and Chicago, what was the share of workforce (men, women, overall) in {year}?			ETA.	ETA,			
+22	vermont-rent	20	According to housingdata.org, what was the median gross rent estimate for Vermont and for Lamoille County in {year}?							
+23	datausa-cashiers-bachelors	17	In 2015, how many US cashiers held a Bachelor's degree with major {field_of_study}?	Business	Education	Social	Visual	Psychology		
+24	datausa-ivy-tuition	15	For {college} in 2015, what was the state tuition (DataUSA, Ivy Tech reference sequence)?							
+25	fuel-poverty-ni	12	For {council_area} in Northern Ireland in 2016, what was the fuel poverty count (House of Commons Library dashboard)?	Belfast	Mid Ulster	Ards	Derry			
+26	ihme-mcv2	11	For {country}, what was the SDG MCV2 vaccination coverage percentage?	Indonesia	Samoa	Algeria				
+27	ihme-smoking	8	According to the SDG health visual, what was the estimated prevalence of current/active tobacco use age 15+ in {country_year}?							
+28	sdg-index-score	8	According to the Sustainable Development Report, what were the SDG Index overall scores for {country} in each of the years 2010, 2011, 2012, 2013, 2014, and 2015?	Spain	Hungary					
+29	dataafrica-rainfed-crops	7	For {province} province of Mozambique, what were the rainfed Cassava, Cotton, and Sugarcane values (Data Africa)?	Niassa	Cabo					
+30	datausa-slp-ethnicity	6	For speech-language pathologists in {year}, what were the Puerto Rican employed counts by sex (DataUSA)?							
+31	oecd-household-income	6	For {country}, what was the household disposable income percentage change in each of the years 2010, 2013, 2016, 2019, and 2022 (OECD, indicator published 2024-07-15)?	Czechia	Mexico	Poland	Sweden			
+32	datausa-construction-wage	5	For female electricians in Construction in {year}, what was the average wage (excluding MOE)?							
+33	datausa-cashier-skills	3	For US cashiers in 2018, what was the skill importance RCA value for {skill}?	Operation	Service	Critical	Writing			
+34	alaska-climate	3	For {station_month_year_extremum}, what was the mean temperature (Alaska climate data, degrees Fahrenheit)?	Yakutat	Valdez	Talkeetna	St. Paul	Nome	McGrath	
+35	datausa-elpaso-foreign-born	2	For El Paso, TX in {year}, what was the foreign-born percentage?							
+36	aihw-pbs	1	For {LGA} local government area (Victoria), what was the rolling 12-month average government cost per person for Dermatologicals in January 2022 (AIHW PBS dashboard)?	Wodonga	Ballarat					
+37	dataafrica-health-stunting	1	For Mozambique in {year}, what was the moderately stunted percentage (Data Africa)?							
+38	ihme-lymphatic-filariasis	1	What was the aggregate mean prevalence of Lymphatic Filariasis (ICT antigen test) for {countries_year}?							
+39	world-poverty-clock	1	According to the World Poverty Clock, for {country} what were the current count of people in extreme poverty and the rate?	India	Pakistan	Afghanistan	China	Micronesia	Paraguay	South
