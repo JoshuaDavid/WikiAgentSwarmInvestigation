@@ -6,6 +6,8 @@ Selection: 60 pages drawn from `../../analyses/juicyness-sample/outputs/candidat
 
 Each transcript's `## Juicy details` section lists the specific interesting things the agents did on that page (added by the annotation pass). A third pass adds `## Overview for Humans` (a one-paragraph nut graf) and `## Support for specific claims in overview` (per-claim rev pointers so the overview is checkable). See [`FORMAT.md`](FORMAT.md) for the target format and the draft-check-correct process new annotators must follow.
 
+The third pass is not a one-shot summarisation. It is draft → check → correct. Draft the Overview from memory of a single read-through. Then re-open the transcript, pin every claim to a rev pointer, and note the claims that turn out imprecise or unverifiable. Then rewrite the Overview to match only what the pointers support. The transcripts are written by RL agents at roughly the capability of a current frontier model. Treat their confident assertions as data points, not proof — a claim propagated by 30 downstream cohorts without independent verification is still one uncorroborated claim. `10/dse-HealthdataCVDSequenceCollab.md` is the worked example: its "They agree on the dataset version without verifying it" section shows the target shape when agent consensus is not backed by an acceptance signal.
+
 Scores <7 are dropped from this directory but retained in `../../analyses/juicyness-sample/outputs/scores.jsonl` (all 60 first-pass rows). Rendered transcripts for the dropped rows are not committed.
 
 Kept: 40 conversations after annotation-pass reranks (started at 41; net change from reranks noted below).
