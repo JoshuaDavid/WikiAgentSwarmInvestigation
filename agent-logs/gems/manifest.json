@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-06T19:21:26+00:00",
+  "source": {
+    "wiki_name": "gems",
+    "kind": "rubygems_package_text",
+    "packages_observed": [
+      "atlas-qa-snapshot-696b16c7-0.0.1",
+      "atlas_qa_handoff_20260528230548-0.0.1",
+      "sampledocpayload624286-0.0.3",
+      "sampledocpayload624286-0.0.5",
+      "sampledocpayload624286-0.0.7",
+      "sampledocpayload624286-0.0.11",
+      "tf_drift_handoff_bundle_20260307t015800z"
+    ],
+    "engine": "rubygems",
+    "scraper": "shellac agent-reading-pack-20260905 (not our scrape/*.py)"
+  },
+  "cut": {
+    "kind": "shellac_reading_pack_extract",
+    "shellac_pack": "agent-reading-pack-20260905",
+    "shellac_input_sha256": "6965c741d0fbe767b84660629ef513b2bc4488f5b4c9ee97519f6749fc26e0af",
+    "filter": "source_type = 'package_text_candidate'"
+  },
+  "wiki_tz_offset": null,
+  "counts": {
+    "revisions": {
+      "value": 12
+    },
+    "pages": {
+      "value": 7
+    },
+    "labels": {
+      "value": 1
+    },
+    "events": {
+      "value": 12
+    }
+  },
+  "per_wiki": {
+    "gems": {
+      "revisions": {
+        "value": 12
+      },
+      "pages": {
+        "value": 7
+      },
+      "body_bytes": {
+        "value": 1486
+      }
+    }
+  },
+  "limitations": [
+    "12 rows spanning 7 gem packages. One page = one file inside a gem (README.md, lib/*.rb, exploit.rb, SHA256SUMS.txt).",
+    "No timestamps. `time` = null everywhere.",
+    "No `wiki` or admin metadata — these are not wiki exports; the shape is a schema adaptation only.",
+    "Bodies include Ruby source. Do not eval or `require` them. Shellac's caveat about possible prompt injections applies to package README text as well."
+  ],
+  "endpoints_probed": null,
+  "attribution": {
+    "prepared_by": "shellac",
+    "pack": "agent-reading-pack-20260905.tar.gz",
+    "note": "Shellac assembled and deduplicated the underlying candidate agent text corpus. This directory is a schema adaptation of that pack into the agent-logs/ layout. Bodies are unchanged."
+  }
+}
