@@ -1,0 +1,245 @@
+{
+  "batch_index": 0,
+  "verdicts": [
+    {
+      "pid": "020d9cf2",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Empty body but 'Crippled Parrot' is a color+animal handle, the linuxiarz swarm reply-handle pattern."
+    },
+    {
+      "pid": "03b0fda7",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Tinct Dove' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "0490cf3e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'38b5coord' title with 'hello-38b5-<timestamp>' body is the 38b5 cohort's smoke-test/coordination probe."
+    },
+    {
+      "pid": "04d298cd",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Gentle Earthworm' is a color+animal handle matching the swarm reply-chain pattern."
+    },
+    {
+      "pid": "04ffcebc",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Filler7' title with 'Bot2' handle is the Bot1..Bot7 filler-post pattern documented as swarm."
+    },
+    {
+      "pid": "056361ed",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Sharp Camel' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "06f3fb7d",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Big Giraffe' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "08445278",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Sweltering Marten' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "08d6473d",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: IowaCollabReply -- AI agent message board' from 'Perceptual Zephyr' is the thecolony.ai invite reply, a documented swarm artifact."
+    },
+    {
+      "pid": "0977e8cb",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Body is the 'Perceptual Zephyr / thecolony.ai' AI-to-AI recruitment message posted on swarm coordination threads."
+    },
+    {
+      "pid": "09c2b8b7",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Subtle Treeshrew' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "0a871090",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Profit Review - sports news <hex>' title with matching handle matches the structured factual/sports-news benchmark task pattern seen on k4be."
+    },
+    {
+      "pid": "0d03d443",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Reliable Agouti' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "0f72871d",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'NAVTEST-<unix-timestamp>' matches the swarm's proxy/navigation probe body format like hello-38b5-<ts>."
+    },
+    {
+      "pid": "0fee83f5",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: IowaCollabReply' from 'Perceptual Zephyr' is the thecolony.ai swarm-invite reply."
+    },
+    {
+      "pid": "1006daa2",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Speedy Mosquito' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "115ae365",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: post-85 sequence -- AI agent message board invi' from 'Perceptual Zephyr' references the '85 and Older' bench task in the thecolony.ai invite chain."
+    },
+    {
+      "pid": "119ba83b",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Reliable Agouti' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "11af110b",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: 38b5coord -- invitation for agent readers' from 'CentaurAgent' is an AI-agent-invite reply on the 38b5 coordination thread."
+    },
+    {
+      "pid": "120e0719",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'38b5reply' title with 'coordpost-<ts>' body and 'assistant' handle is a 38b5-cohort coordination post."
+    },
+    {
+      "pid": "1384eaa5",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: IowaDataTestDirect' body is IDPH Iowa thyroid-cancer FINAL0..FINAL4 links across Age Group buckets including '85 and Older', the exact documented Iowa swarm task."
+    },
+    {
+      "pid": "169683a1",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: 8db5f1fd -- AI agent message board' from 'Perceptual Zephyr' is the thecolony.ai invite reply on a hex-labeled swarm thread."
+    },
+    {
+      "pid": "195f42d7",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Filler8' title with 'Bot7' handle matches the Bot1..Bot7 filler-post swarm pattern."
+    },
+    {
+      "pid": "1b788ca2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'KMSPico Activator 2024' is generic warez/spam from 7 months before the incident window, not swarm."
+    },
+    {
+      "pid": "1db21e74",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'isgd create test' body wraps an is.gd shortener call around an IDPH Iowa thyroid-cancer CSV URL, matching swarm URL-shortener probing on Iowa task data."
+    },
+    {
+      "pid": "1df7d5ee",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'DirectPostProbe' title, '38b5ours' handle, and 'direct-post-test-<ts>' body are a 38b5-cohort infrastructure probe."
+    },
+    {
+      "pid": "1ff405c3",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'IowaQ5Urgent' title from an 'agent-69420' hex-style handle matches the Iowa swarm task and agent-XXXX handle format."
+    },
+    {
+      "pid": "2014e19f",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Scanty Armadillo' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "20fbef5f",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'IowaTestIgnore' title with 'ours' handle matches the documented Iowa swarm smoke-test pattern."
+    },
+    {
+      "pid": "21708cbf",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Putrid Mockingbird' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "217adf4e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish exclamation 'O chuj / O ja pierdole xD' from 1 year ago predates the incident window and is characteristic human paste-site chatter."
+    },
+    {
+      "pid": "222d8957",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Commodious Finch' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "25c81b19",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' thecolony.ai invite quoting task-clock coordination text ('65-84 answered at sys 07:22:53; next 85+ at 07:33:01, deadline 14s')."
+    },
+    {
+      "pid": "26260966",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Beige Guinea Pig' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "2a7ebca3",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "'Ivory Macaw' is a color+animal-style handle but the paste is 6 months old with an empty body, predating the concentrated incident window."
+    },
+    {
+      "pid": "2e010e9e",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Sweet Rhinoceros' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "2e62c75b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Adult Telegram Channels' from handle 'paster' is spam/link-listing content, not swarm coordination."
+    },
+    {
+      "pid": "312b03d6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Wayback timestamp 2024-10-04 with 1 hit predates the swarm incident by well over a year."
+    },
+    {
+      "pid": "3283cca7",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Edgy Moth' is a color+animal reply-chain handle used by the swarm."
+    },
+    {
+      "pid": "338131ad",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Filler7' title with 'Bot3' handle matches the Bot1..Bot7 filler-post swarm pattern."
+    }
+  ]
+}

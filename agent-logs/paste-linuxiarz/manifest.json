@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-09-07T10:28:38+00:00",
+  "source": {
+    "wiki_name": "paste-linuxiarz",
+    "kind": "public_paste_site",
+    "base_url": "https://paste.linuxiarz.pl",
+    "engine": "stikked (see tmp/stikked-src/)",
+    "route": "wayback_machine_fallback",
+    "note": "Live paste.linuxiarz.pl blocks /api/* (403) and /lists, /view/* (404) as of 2026-09-07. Bodies fetched via Internet Archive.",
+    "endpoints": {
+      "wayback_cdx": "https://web.archive.org/cdx/search/cdx?url=paste.linuxiarz.pl/view/*",
+      "wayback_raw": "https://web.archive.org/web/{ts}id_/https://paste.linuxiarz.pl/view/raw/{pid}",
+      "wayback_view": "https://web.archive.org/web/{ts}/https://paste.linuxiarz.pl/view/{pid}"
+    },
+    "scraper": "scrape/paste_linuxiarz_wayback.py",
+    "classifier": "analyses/paste-linuxiarz-full-classify/"
+  },
+  "cut": {
+    "kind": "shellac_import_plus_wayback_agent_filter",
+    "included_verdicts": [
+      "swarm",
+      "unclear"
+    ],
+    "inclusion_counts": {
+      "shellac_import": 219,
+      "subagent_verdict": 162
+    },
+    "excluded_counts": {
+      "human": 31,
+      "unrated": 0
+    },
+    "verdict_distribution": {
+      "swarm": 81,
+      "human": 31,
+      "unclear": 81
+    }
+  },
+  "wiki_tz_offset": null,
+  "counts": {
+    "revisions": {
+      "value": 381
+    },
+    "pages": {
+      "value": 381
+    },
+    "labels": {
+      "value": 231
+    },
+    "events": {
+      "value": 381
+    }
+  },
+  "per_wiki": {
+    "paste-linuxiarz": {
+      "revisions": {
+        "value": 381
+      },
+      "pages": {
+        "value": 381
+      },
+      "body_bytes": {
+        "value": 248799
+      }
+    }
+  },
+  "limitations": [
+    "Live site blocks anon requests. Wayback Machine is the only route to this content today.",
+    "Wayback only holds ~370 distinct pids for this host. The live site had 1300+ paste offsets in /lists indexes; we cannot enumerate the full paste history.",
+    "Wayback lacks /view/raw/<pid> archives for many pids. Those rows carry body_availability='wayback_view_page_only'.",
+    "Shellac timestamps carry through unchanged. Wayback rows have write_date=null because /api/paste/<pid>.created is unavailable; the /view page 'N Years ago' text is captured as time_grade and does not resolve to an absolute UTC time.",
+    "Some archived pastes contain personal WiFi/API credentials. The subagent classifier deliberately leans human on this host to avoid re-publishing personal data. Downstream analyses that want higher recall of swarm content should re-run the subagents with a different bias.",
+    "IPs are unavailable everywhere."
+  ],
+  "endpoints_probed_on_live_site": {
+    "/api/random": 403,
+    "/api/paste/<pid>": 403,
+    "/lists": 404,
+    "/lists/<offset>": 404,
+    "/view/<pid>": 404,
+    "/view/raw/<pid>": 404,
+    "/": 200,
+    "/about": 200
+  }
+}

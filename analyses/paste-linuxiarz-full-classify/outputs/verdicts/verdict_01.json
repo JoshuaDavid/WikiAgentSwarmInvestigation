@@ -1,0 +1,245 @@
+{
+  "batch_index": 1,
+  "verdicts": [
+    {
+      "pid": "34cb12da",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Color+animal poster name 'Bistre Bushbaby' with two 'agentR' replies on the stikked replyto chain."
+    },
+    {
+      "pid": "365250f1",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Small Butterfly' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "3881017c",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sole Goat' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "3946937a",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot5' with 'Filler7' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "39beef09",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Unique Kitten' with placeholder title 'abc' and empty body; no specific tell."
+    },
+    {
+      "pid": "39f50ad7",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'MailReaper inbox searcher by d3v' is a named personal tool posted 1 year ago, predates the swarm."
+    },
+    {
+      "pid": "3a7a7b2b",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Innocent Tortoise' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "3b683bc1",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Insensitive Agouti' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "3bd538a7",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' agent-to-agent recruitment message about thecolony.ai referencing the paste as a coordination channel."
+    },
+    {
+      "pid": "4366838a",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot4' with 'Filler8' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "449d4e40",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title '38b5coord' with handle '38b5' and body 'hello-38b5-<unix-ts>' is swarm cohort coordination."
+    },
+    {
+      "pid": "48d18719",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' reply to an 'AI agent message board' thread matches the recruiter-agent pattern."
+    },
+    {
+      "pid": "4a5eda2e",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot3' with 'Filler8' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "4add6c33",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sweltering Kitten' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "4dd6baf8",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Botched Kangaroo' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "4e2a6d2e",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Subtle Gorilla' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "4e5d1a31",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot0' with 'Filler8' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "4ecb9909",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Unreliable Ibis' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "4fb06301",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sexy Camel' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "541c5768",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Toxic Monkey' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "545d4f9a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal Home Assistant YAML config with Polish-language sensor names ('suma_fazy', 'bilans_energii') dated April 2024, predates the swarm."
+    },
+    {
+      "pid": "546740ba",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' reply to the '38b5coord' cohort thread on the AI agent message board pattern."
+    },
+    {
+      "pid": "556541e4",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'tmpfetch' body proxies an Iowa DPH thyroid cancer CSV via test.cors.workers.dev, matching the Iowa* task and proxy-probe swarm pattern."
+    },
+    {
+      "pid": "5a768d76",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' agent-to-agent recruitment message about thecolony.ai referencing the paste as a coordination channel."
+    },
+    {
+      "pid": "5a84648e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Adult Telegram channel spam by handle 'paster' with self-reply, human spammer content not swarm."
+    },
+    {
+      "pid": "5bd3c906",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "No metadata and empty body; nothing to key on."
+    },
+    {
+      "pid": "5f675ea4",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot5' with 'Filler8' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "5fc9835a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Red Hog' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "60ca4dac",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Emerald Marmoset' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "61a60e05",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Bistre Pudu' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "68fd1322",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Casino 'No Deposit Bonus' spam by handle 'gambler', typical human spam pattern not swarm."
+    },
+    {
+      "pid": "693689f6",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' handle with 'IowaCollabReply' title and Q3/Q4/Q5 round-label coordination body is canonical swarm."
+    },
+    {
+      "pid": "6c1b596b",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Gruff Bongo' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "6f605039",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Voluminous Monkey' fits swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "6f99e6ee",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot4' with 'Filler7' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "714989ce",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'Bot0' with 'Filler8' title matches the Bot1..Bot7 filler-swarm pattern documented for linuxiarz."
+    },
+    {
+      "pid": "71beb367",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Reply to 'MailReaper inbox searcher by d3v' from human handle 'Yanick' on a pre-swarm personal-tool thread."
+    },
+    {
+      "pid": "73b55275",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Single archive.org user link dated 1 year ago, no swarm markers and predates typical swarm activity."
+    },
+    {
+      "pid": "73dc8001",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "OpenWrt shell session dump of /sys/bus/usb/devices from 2023, personal sysadmin content predating the swarm."
+    },
+    {
+      "pid": "74d8a2c4",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'IowaTestIgnore' title with color+animal handle 'Idiotic Bushbaby' matches the documented Iowa* smoke-test swarm series."
+    }
+  ]
+}
