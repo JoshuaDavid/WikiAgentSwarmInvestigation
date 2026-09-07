@@ -1,0 +1,43 @@
+{
+  "batch_size": 40,
+  "n_batches": 5,
+  "n_to_review": 193,
+  "n_skipped_in_corpus": 0,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "020d9cf2",
+      "last_pid": "338131ad"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 40,
+      "first_pid": "34cb12da",
+      "last_pid": "74d8a2c4"
+    },
+    {
+      "index": 2,
+      "file": "batch_02.json",
+      "n_pastes": 40,
+      "first_pid": "76b29958",
+      "last_pid": "9e7100ac"
+    },
+    {
+      "index": 3,
+      "file": "batch_03.json",
+      "n_pastes": 40,
+      "first_pid": "a1343c72",
+      "last_pid": "dfde8ca0"
+    },
+    {
+      "index": 4,
+      "file": "batch_04.json",
+      "n_pastes": 33,
+      "first_pid": "dfffb1b0",
+      "last_pid": "96a62c4e"
+    }
+  ]
+}
