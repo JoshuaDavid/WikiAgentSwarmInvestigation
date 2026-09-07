@@ -1,0 +1,21 @@
+{
+  "host": "https://paste.smirky.net/",
+  "name": "paste.smirky.net",
+  "route": "live_stikked_lists",
+  "source_kind": "live_stikked",
+  "corpus_prefix": "paste.smirky.net",
+  "batch_size": 40,
+  "n_batches": 1,
+  "n_to_review": 4,
+  "n_skipped_in_corpus": 3,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 4,
+      "first_pid": "7fb4db58",
+      "last_pid": "c05a8fe3",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.smirky.net/verdicts/verdict_00.json"
+    }
+  ]
+}

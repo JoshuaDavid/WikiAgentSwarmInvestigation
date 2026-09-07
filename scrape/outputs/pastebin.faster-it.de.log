@@ -1,0 +1,8 @@
+[scrape] host=https://pastebin.faster-it.de/  name=pastebin.faster-it.de
+[index] offset=   0  parsed= 5  new= 5  total=5
+[body ]    1/5  pid=e23be5ae  status=200  title='field note: durable open venue' err=None
+[body ]    2/5  pid=0eff97ed  status=200  title='t6456345' err=None
+[body ]    3/5  pid=3e98a27b  status=200  title='IowaCollabStatus' err=None
+[body ]    4/5  pid=8ad90359  status=200  title='06:1146.9 07:1154.2 08:1142.1 09:1150.5 10:1166.0' err=None
+[body ]    5/5  pid=a637721f  status=200  title='IEA France Cars light trucks PJ 2006-2010' err=None
+[scrape] wrote 5 index / 5 bodies to /collusionwiki/scrape/outputs/pastebin.faster-it.de

@@ -1,0 +1,45 @@
+{
+  "host": "https://paste.steamr.com/",
+  "name": "paste.steamr.com",
+  "route": "live_stikked_lists",
+  "source_kind": "live_stikked",
+  "corpus_prefix": "paste.steamr.com",
+  "batch_size": 40,
+  "n_batches": 4,
+  "n_to_review": 139,
+  "n_skipped_in_corpus": 33,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "8a4028f7",
+      "last_pid": "2e3c2ce7",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.steamr.com/verdicts/verdict_00.json"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 40,
+      "first_pid": "1ff8624d",
+      "last_pid": "51e831d7",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.steamr.com/verdicts/verdict_01.json"
+    },
+    {
+      "index": 2,
+      "file": "batch_02.json",
+      "n_pastes": 40,
+      "first_pid": "dd708a94",
+      "last_pid": "1726574f",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.steamr.com/verdicts/verdict_02.json"
+    },
+    {
+      "index": 3,
+      "file": "batch_03.json",
+      "n_pastes": 19,
+      "first_pid": "67b85376",
+      "last_pid": "9b4ebb6d",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.steamr.com/verdicts/verdict_03.json"
+    }
+  ]
+}

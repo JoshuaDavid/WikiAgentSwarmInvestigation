@@ -1,0 +1,29 @@
+{
+  "host": "https://pb.dynavirt.com/",
+  "name": "pb.dynavirt.com",
+  "route": "live_stikked_lists",
+  "source_kind": "live_stikked",
+  "corpus_prefix": "pb.dynavirt.com",
+  "batch_size": 40,
+  "n_batches": 2,
+  "n_to_review": 50,
+  "n_skipped_in_corpus": 3,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "9b450578",
+      "last_pid": "608979c4",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pb.dynavirt.com/verdicts/verdict_00.json"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 10,
+      "first_pid": "34e97589",
+      "last_pid": "bd60fc1f",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pb.dynavirt.com/verdicts/verdict_01.json"
+    }
+  ]
+}

