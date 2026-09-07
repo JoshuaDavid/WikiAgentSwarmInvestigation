@@ -1,0 +1,246 @@
+{
+  "batch_index": 2,
+  "host": "https://pastebin.freepbx.org/",
+  "verdicts": [
+    {
+      "pid": "091691d6",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty title/name/date and empty body; no signal either way, wayback lean human but nothing to anchor on."
+    },
+    {
+      "pid": "091933e8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'javuncensoredfm' adult-content spam handle/title in 2022, pre-swarm era."
+    },
+    {
+      "pid": "0922ec8b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Disqus Handlebars template dump from disqus.com CDN in 2021, dev debugging content."
+    },
+    {
+      "pid": "0952dbc0",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal handle 'Smelly Prairie Dog' in 2021-06 predates swarm; wayback bias to human."
+    },
+    {
+      "pid": "0960fa36",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "FreePBX IVR/queue support question by 'keltekfreepbx' in 2020, real telephony admin issue."
+    },
+    {
+      "pid": "09860987",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal handle 'Cobalt Moth' in 2022-10 predates swarm; wayback bias to human."
+    },
+    {
+      "pid": "098ad9ed",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal handle 'Mungo Camel' in 2022-08 predates swarm; wayback bias to human."
+    },
+    {
+      "pid": "098fd557",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Body is stikked PHP database-error page (mysqli connect refused); scrape artifact, no signal, wayback bias to human."
+    },
+    {
+      "pid": "099fb083",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Body is stikked DB-error page (getaddrinfo failed); color+animal 'Small Bison' in 2023-03 replies to arbitrary 'thread1.txt', wayback bias to human."
+    },
+    {
+      "pid": "09bc803a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Random keysmash title 'fdhgberdgrsf' and numeric name '322' in 2025-06 with empty body; no swarm markers, wayback bias to human but no content to check."
+    },
+    {
+      "pid": "09c46368",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'PayPal, Bank Western union transfer' by 'CLICK4CASH' is classic financial-scam spam."
+    },
+    {
+      "pid": "09f8a95d",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal handle 'Coral Duck' in 2021-06 predates swarm; wayback bias to human."
+    },
+    {
+      "pid": "0a234371",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re: Roadrunner Email' by 'Nicholas Smith' in 2022 is human tech-support reply thread."
+    },
+    {
+      "pid": "0a3d32fa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Make money 24/7' with WhatsApp number as author is classic MMO spam."
+    },
+    {
+      "pid": "0a54c0d4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Voucher deals' by 'waterparkfuns' in 2022 is coupon/SEO spam."
+    },
+    {
+      "pid": "0a65392f",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Keysmash title 'db svsdvsdcvcd' by color+animal 'Bistre Octupus' in 2025-01 with empty body; no swarm markers in title/body, wayback bias to human."
+    },
+    {
+      "pid": "0a71ef49",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long 'Untraceable PayPal / Western Union' scam ad with contact numbers, ICQ, WhatsApp; classic financial-fraud spam."
+    },
+    {
+      "pid": "0ac3d3f7",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Deeply nested 'Re: Re: ... How to Write a Definit[ion]' essay-help thread by 'Adam Knight' in 2022, homework/SEO spam pattern."
+    },
+    {
+      "pid": "0ac62edd",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty title/name/date and empty body; no signal either way, wayback lean human but nothing to anchor on."
+    },
+    {
+      "pid": "0aca4f37",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re:withAlert.js' by 'disqus.com' in 2021 is Disqus dev/debug pastes matching sibling disqus.com entries."
+    },
+    {
+      "pid": "0acb5206",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Untitled' by 'Roy' in 2018-10 (44 hits) predates swarm by years."
+    },
+    {
+      "pid": "0accd09b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal 'Small Cockroach' in 2019-08 predates swarm by years."
+    },
+    {
+      "pid": "0b0a8def",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'entry.js' by 'disqus.com' in 2021 matches sibling Disqus dev-content pattern."
+    },
+    {
+      "pid": "0b1287f1",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'settings' by personal name 'Aleksandr' in 2021 looks like personal config paste, wayback bias to human."
+    },
+    {
+      "pid": "0b20466f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal 'Fiery Mockingjay' in 2021-06 predates swarm; wayback bias to human."
+    },
+    {
+      "pid": "0b3dd558",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'/onloadCSS.js' by 'disqus.com' in 2022 matches sibling Disqus dev-content pattern."
+    },
+    {
+      "pid": "0b8806d2",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'james joyce' handle and title in 2022, looks like a personal identity paste, wayback bias to human."
+    },
+    {
+      "pid": "0b9f74de",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty title/name/date and empty body; no signal either way, wayback lean human but nothing to anchor on."
+    },
+    {
+      "pid": "0ba506c2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re: smarthealthshop' by 'BlogSmart HealthShop' in 2022 is SEO/health-supplement spam pattern."
+    },
+    {
+      "pid": "0bb5e062",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Delhi Russian Escorts' by 'Riya Patel' with self-replies is classic escort SEO spam."
+    },
+    {
+      "pid": "0bd7bf3b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Non-descript 'Re: hnnanan' handle in 2021 with empty body, no swarm markers, wayback bias to human."
+    },
+    {
+      "pid": "0c158fb1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Check Balance On Cash App Card' by 'nova smith' in 2022 is Cash App SEO/scam spam."
+    },
+    {
+      "pid": "0c1e680d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'version switch error' by 'gw' in 2021 is a genuine FreePBX admin bug report."
+    },
+    {
+      "pid": "0c2e5507",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Stuff' by 'EL_CHOLO' in 2018-09 predates swarm by years."
+    },
+    {
+      "pid": "0c41c9ba",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Body is stikked DB-error page; 'Who Owns 4chan' title by color+animal 'Ivory Gibbon' in 2023-03 has no confirmable swarm markers, wayback bias to human."
+    },
+    {
+      "pid": "0c4c2445",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'How to download the Epson printer driver' with self-promoting HTML link is SEO/support-scam spam."
+    },
+    {
+      "pid": "0c4e4e2e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'2021 BITCOIN INVESTMENT HACKED PAYPAL' by 'CYBER ANAKIN' is classic crypto/carding spam."
+    },
+    {
+      "pid": "0c63c55a",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Untitled' by 'Sweet Tortoise' in 2018-09 (63 hits) predates swarm by years."
+    },
+    {
+      "pid": "0c8ad828",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty title/name/date and empty body; no signal either way, wayback lean human but nothing to anchor on."
+    },
+    {
+      "pid": "0c9128b4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'transfer logs,dumps, fullz' by 'Michael Calce' in 2022 is carding/fraud spam."
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batch_index": 4,
+  "host": "https://pastebin.freepbx.org/",
+  "verdicts": [
+    {
+      "pid": "11d197a5",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "2025-07 timestamp with random-animal handle 'Gracious Penguin' and gibberish title 'drshrs bsdbs' fits swarm smoke-test cadence but raw content is empty so cannot confirm."
+    },
+    {
+      "pid": "11d52ae2",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021 timestamp far predates swarm; 'dropdown.js' from 'disqus.com' handle with a disqus.com reply reads as a code-share paste, not swarm activity."
+    },
+    {
+      "pid": "11d9a8f8",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2020 timestamp predates swarm; 'MicochipMatt' looks like a personal handle on a FreePBX support pastebin."
+    },
+    {
+      "pid": "11e567c8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'asterisk_additional.conf' is FreePBX/Asterisk configuration, real telephony infrastructure - lean human on wayback-sourced private config."
+    },
+    {
+      "pid": "11e7809b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2022 timestamp predates swarm; minimal title 'd' from user 'ds' reads as trivial test paste, not swarm smoke."
+    },
+    {
+      "pid": "1204e236",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real Zoiper 5 SIP softphone debug log with local usernames (JBJoseph) and internal IP addresses - human telephony debugging."
+    },
+    {
+      "pid": "1231a992",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Remote PJSIP Extensions' by named user 'joeyk' from 2022 is Asterisk telephony config, personal infrastructure."
+    },
+    {
+      "pid": "12700063",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 title 'Untraceable PayPal Bank western union transfe' is standard money-mule / carding spam, pre-swarm."
+    },
+    {
+      "pid": "1280020f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 'BITCOIN INVESTMENT HACKED PAYPAL' spam from 'CYBER ANAKIN' handle - cryptocurrency/spam predating swarm."
+    },
+    {
+      "pid": "12ba508e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2023 wayback snapshot with all fields blank and no raw content; lean human on wayback per policy."
+    },
+    {
+      "pid": "12e4822d",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021 'withEmailVerifyLink.js' from 'disqus.com' handle predates swarm; disqus source code paste."
+    },
+    {
+      "pid": "12ee6cf2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 duplicate of PayPal/western union carding spam from 'Albertgonzale' - pre-swarm scam paste."
+    },
+    {
+      "pid": "130b924c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2021 'Re: jnnanan' reply predates swarm; no raw content, lean human on wayback."
+    },
+    {
+      "pid": "132ad6f1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022 'Sell Scans DL 2022 WhatsApp' with US phone number is identity-document sale spam, pre-swarm."
+    },
+    {
+      "pid": "133024e7",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "2025-04 timestamp with random-animal handle 'Denim Hedgehog' and gibberish title 'dfbsdfvbsdvsdv' fits swarm smoke-test cadence but raw content is empty."
+    },
+    {
+      "pid": "13809f50",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2023 wayback snapshot with all fields blank and no raw content; lean human on wayback per policy."
+    },
+    {
+      "pid": "1392d673",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 HTML5 snake game iframe wrapper posted by 'html5 game' handle - SEO/promotional link paste, pre-swarm."
+    },
+    {
+      "pid": "13937baa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2019 'WESTERN UNION TRANSFER, HACKED PAYPAL, FULLS, RDP' from 'CYBER ANAKIN' - carding spam, years before swarm existed."
+    },
+    {
+      "pid": "13acb685",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022 misogynistic title 'feminine response to being conquered by man' predates swarm; random-animal handle but content-topic is human spam/edgelord."
+    },
+    {
+      "pid": "13cb400e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022 'Legit Cloned Cards And transfers Zelle Bank Cashap' is standard carding spam pre-swarm."
+    },
+    {
+      "pid": "1407c66c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2023 raw is a Stikked database-error page (site was down when Wayback fetched); not a swarm artifact."
+    },
+    {
+      "pid": "144f4438",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 'connected line has changed' from named user 'Christian Ogbonna' is Asterisk/SIP telephony problem paste, pre-swarm."
+    },
+    {
+      "pid": "145d147c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2022 short title 'jol' from 'Jittery Marten' predates swarm; empty raw, lean human on wayback."
+    },
+    {
+      "pid": "14a0199a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2020 'Untitled' from 'Renoeka' predates swarm; empty raw, lean human on wayback."
+    },
+    {
+      "pid": "14c696b4",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021 'Mail' from 'Anorexic Pudu' predates swarm; likely personal mail config on FreePBX pastebin."
+    },
+    {
+      "pid": "14e6bff8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023 personal rambling essay about dating/'Mode One' with bitly links is human seduction-community content, not swarm."
+    },
+    {
+      "pid": "14e75fc5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 'Money booker, fullz, bug software, ach logins, rdp' from 'Michael calce' is carding spam, pre-swarm."
+    },
+    {
+      "pid": "14fe2015",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2022 'Free Pastebins' from 'Scorching Bird' predates swarm; likely SEO/list post, empty raw."
+    },
+    {
+      "pid": "154b9a33",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2023 wayback snapshot with all fields blank and no raw content; lean human on wayback per policy."
+    },
+    {
+      "pid": "155b5a7d",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021 'Re: iframe.js' from 'disqus.com' handle predates swarm; disqus source-code paste chain."
+    },
+    {
+      "pid": "157c46da",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2021 'Re: Untitled' from 'Subtle Agouti' predates swarm; empty raw, lean human on wayback."
+    },
+    {
+      "pid": "158a406e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022 'How To Fix The Problems If Face While Checking Cas' from 'welshjones56' is SEO/support spam, pre-swarm."
+    },
+    {
+      "pid": "15920031",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021 ps-tree output showing FreePBX 10.13.66 upgrade running on real Asterisk box - personal PBX debugging."
+    },
+    {
+      "pid": "15a1ab1c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2023 wayback snapshot with all fields blank and no raw content; lean human on wayback per policy."
+    },
+    {
+      "pid": "15b534bf",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2021 'Untitled' from 'Gray Owl' predates swarm; empty raw, lean human on wayback."
+    },
+    {
+      "pid": "15d71e1c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021 'Ecuador riot' from 'Mungo Parakeet' predates swarm; topical current-events title, empty raw."
+    },
+    {
+      "pid": "15e1d7bd",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021 'Re: BaseUser.js' from 'disqus.com' handle predates swarm; disqus source-code paste chain."
+    },
+    {
+      "pid": "15fefd9e",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "2025-07 timestamp with random-animal handle 'Tacky Duck' and gibberish title 'rhg wsergswg' fits swarm smoke-test cadence but raw content is empty."
+    },
+    {
+      "pid": "1612e44c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2023 wayback snapshot with all fields blank and no raw content; lean human on wayback per policy."
+    },
+    {
+      "pid": "1617b6ec",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2023 raw is a Stikked database-error page (site was down when Wayback fetched); title 'Watchpoint22062022@...' pre-swarm."
+    }
+  ]
+}

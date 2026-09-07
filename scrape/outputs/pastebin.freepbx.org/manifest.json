@@ -1,0 +1,17 @@
+{
+  "base": "https://pastebin.freepbx.org/",
+  "name": "pastebin.freepbx.org",
+  "route": "wayback_view",
+  "wayback_cdx": "https://web.archive.org/cdx/search/cdx",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 3.0,
+  "started_at": "2026-09-07T11:36:59.956+00:00",
+  "finished_at": "2026-09-07T12:02:25.226+00:00",
+  "sanity": false,
+  "limit": 200,
+  "prefer_live": false,
+  "corpus_prefix": null,
+  "skip_known_shellac": false,
+  "index_rows": 2287,
+  "body_rows": 200
+}

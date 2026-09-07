@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://pastebin.freepbx.org/",
+  "verdicts": [
+    {
+      "pid": "000006b4",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body on wayback; short human-name handle on a FreePBX telephony site; wayback bias toward human."
+    },
+    {
+      "pid": "00017aa0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Financial/carding spam (SELL CVVS FULLZ DUMPS) from 2019, well before swarm existed."
+    },
+    {
+      "pid": "00055035",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Financial spam title (transfer logs, dumps, fullz) from 2022; classic carder spam."
+    },
+    {
+      "pid": "00122e0d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Automatic Pastebin from FreePBX Distro 6 by root@freepbx-a; real FreePBX system dump."
+    },
+    {
+      "pid": "002cfd08",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Extensive carder/hacker spam paste with phone numbers, ICQ, Telegram, BTC pricing - classic 2021 fraud spam."
+    },
+    {
+      "pid": "00344c50",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Re:utils.js reply from disqus.com in a JS thread; matches human developer paste-sharing pattern, pre-swarm 2021."
+    },
+    {
+      "pid": "00347f20",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Circuits Busy support post from Dennis Gray on a PBX site; standard telephony troubleshooting."
+    },
+    {
+      "pid": "00557e3f",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty everything on wayback; no swarm signal; wayback bias toward human."
+    },
+    {
+      "pid": "009b03a8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "dahdi-channels.conf is a real Asterisk DAHDI digital-telephony config file - personal infrastructure."
+    },
+    {
+      "pid": "00bcd08a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Asterisk Log from Logan - PBX troubleshooting paste, standard for this community."
+    },
+    {
+      "pid": "00c2be47",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Automatic Pastebin from Sangoma OS 7 by root@freepbx.marinepartssupply.c - real PBX system dump with real hostname."
+    },
+    {
+      "pid": "01132393",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Random-animal handle Gracious Hog with gibberish title in 2025; empty body on wayback; no confirmed swarm content, wayback bias to human."
+    },
+    {
+      "pid": "0122cfcf",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "InboundRoute from Jerry - standard FreePBX inbound routing config paste from 2022."
+    },
+    {
+      "pid": "01352cfd",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "TitleOne / AuthorOne generic placeholder from 2019, pre-swarm era; empty body; wayback bias to human."
+    },
+    {
+      "pid": "0144fdc0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Cash App phone-number SEO/scam spam ('Can you cancel cash app payment - dial cash app nu') - classic human scam SEO."
+    },
+    {
+      "pid": "015a6a1c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Failed call from Stuart Murtland - standard PBX call-troubleshooting paste."
+    },
+    {
+      "pid": "0169aa49",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Sutton bank cash app SEO scam spam title; body is only Stikked DB-error page, but title identifies human SEO spam."
+    },
+    {
+      "pid": "01720afd",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Random-animal handle Mature Bison with gibberish title (xbxcvacasc) in 2024; empty body on wayback; ambiguous but wayback bias to human."
+    },
+    {
+      "pid": "01796910",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Make money 24/7' with WhatsApp phone number as name - classic human MLM/scam spam."
+    },
+    {
+      "pid": "01a5ae3d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Repeat 2019 carding spam (SELL CVVS FULLZ DUMPS) by continetalbiz - pre-swarm fraud spam."
+    },
+    {
+      "pid": "01ab354e",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "entry.js from disqus.com in 2021 - human developer paste-sharing of Disqus JS bundle, pre-swarm."
+    },
+    {
+      "pid": "01b1b3c9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Repeat 2019 carding spam (SELL CVVS FULLZ DUMPS) - pre-swarm fraud."
+    },
+    {
+      "pid": "01c43477",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real SIP settings paste with actual PBX host pbx.eqinoxe.com and outgoing/incoming/register config - personal infrastructure."
+    },
+    {
+      "pid": "01eaa6db",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Repeat 2019 carding spam (SELL CVVS FULLZ DUMPS) by continetalbiz - pre-swarm fraud."
+    },
+    {
+      "pid": "020afc61",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Random-animal Capacious Armadillo with gibberish title (dfbfdsvsdv) in 2025; empty body on wayback; wayback bias to human."
+    },
+    {
+      "pid": "0230531b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Re: Re: Re: Untitled by codequijote in 2018 with 8 hits - deeply nested human reply thread, pre-swarm."
+    },
+    {
+      "pid": "0249074e",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "disqus.com dev paste of withReactSubviews.js with 5 replies including four color+animal handles (Wet Kitten, Rude Leech, Gentle Matamata, Harmless Plover); reply thread pattern matches a swarm tell but base paste is pre-swarm 2021 real Disqus code; wayback bias but color+animal cluster warrants unclear."
+    },
+    {
+      "pid": "0281c974",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Muting by Gary Abosch from 2020 - PBX support post, pre-swarm."
+    },
+    {
+      "pid": "02856e5d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real Asterisk intercom call log with SIP dialplan traces, hostnames, and CIDs - personal PBX infrastructure."
+    },
+    {
+      "pid": "0287feb0",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled by K in 2021 with a K reply; empty body; ambiguous but wayback bias to human."
+    },
+    {
+      "pid": "028830c5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re: how to delete a customer in Quickbooks' by George Mary - classic QuickBooks SEO support-spam pattern."
+    },
+    {
+      "pid": "0291fa72",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "disqus.com dev paste of backboneUtils.js in 2021 - real Disqus JS bundle sharing, pre-swarm."
+    },
+    {
+      "pid": "02a16a64",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Technical Help' by Nancy wilson from 2022 - generic support-spam pattern common on paste sites."
+    },
+    {
+      "pid": "02aaf606",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re: De Addiction Centre' by thinkgroup - classic Indian rehab-clinic SEO spam."
+    },
+    {
+      "pid": "02aede55",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Random-animal Cute Anoa with gibberish title (rftjtdjtdh) in 2024; empty body on wayback; wayback bias to human."
+    },
+    {
+      "pid": "0326becf",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'WORLDWIDE %100 AUTHENTICATED ACH BANK WIRE TRANSFE' by click4cash from 2019 - classic pre-swarm carding spam."
+    },
+    {
+      "pid": "0331c0a2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Business Central ERP marketing/SEO spam with backlink to nevastech.com - human SEO content spam."
+    },
+    {
+      "pid": "0331f7e3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'local SIP call' by JNB TECH - standard PBX troubleshooting post."
+    },
+    {
+      "pid": "034b6667",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled by JMV from 2021 on PBX site, empty body; wayback bias to human."
+    },
+    {
+      "pid": "035a87d6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "/var/log/maillog by Ahmed Sallam - real personal mail server log."
+    }
+  ]
+}

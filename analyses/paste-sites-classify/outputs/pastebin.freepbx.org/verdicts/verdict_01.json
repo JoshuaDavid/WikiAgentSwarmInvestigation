@@ -1,0 +1,246 @@
+{
+  "batch_index": 1,
+  "host": "https://pastebin.freepbx.org/",
+  "verdicts": [
+    {
+      "pid": "0383f20b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "FreePBX-typical title 'Circuits busy' on a VoIP-focused pastebin; wayback-sourced with no body, defaulting to human."
+    },
+    {
+      "pid": "03daa500",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Re: kernel.js' authored by 'disqus.com' — pattern of Disqus JS bundles posted to this pastebin, no swarm markers."
+    },
+    {
+      "pid": "03dea918",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic travel/lifestyle title 'LoveTravelLife' looks like human SEO/spam; wayback-sourced with empty body defaults to human."
+    },
+    {
+      "pid": "0412ed04",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'dresses for women' is human SEO spam typical of open pastebins."
+    },
+    {
+      "pid": "043037df",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Body is the Stikked 'Database Error' HTML page (not real paste content); title 'Aimt1' and name 'MorganHFarrell' have no swarm signals, wayback-source defaults to human."
+    },
+    {
+      "pid": "045dbd73",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'NodeRect.js' authored by 'disqus.com' — same Disqus JS bundle pattern as other disqus.com entries, not swarm."
+    },
+    {
+      "pid": "045e6b2b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'CID Slot Prepend Working' by 'discipulus' from 2018 — pre-swarm era FreePBX call-ID config note."
+    },
+    {
+      "pid": "04bc92ed",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Human ATM/PayPal/Western Union carding spam with WhatsApp phone, ICQ, email contacts — classic pastebin scam."
+    },
+    {
+      "pid": "04d9f4f2",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Fully blank metadata and body; nothing to classify."
+    },
+    {
+      "pid": "04de6492",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'require.js' authored by 'disqus.com' — Disqus JS bundle pattern, not swarm."
+    },
+    {
+      "pid": "04dfb6d5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Two-sentence blurb about Linux sysadmin with fieldengineer.com backlink — human SEO comment spam."
+    },
+    {
+      "pid": "0523df85",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "QuickBooks 'File Doctor' support-spam title typical of pastebin SEO scam ecosystem."
+    },
+    {
+      "pid": "053dacfe",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'JurusCasino' name plus gambling/casino URL in title — casino spam."
+    },
+    {
+      "pid": "05a9cfef",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Body is the Stikked 'Database Error' HTML; title 'mailsweb' with random-animal handle 'Burly Earthworm' from 2023 has no swarm content markers, wayback-source defaults to human."
+    },
+    {
+      "pid": "05dec91b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'20220904-1453-pjsip-log2' by 'Scott K' is a FreePBX pjsip log paste — real FreePBX user infrastructure."
+    },
+    {
+      "pid": "05e02fd2",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Deep 'Re: Re: Re: ... Untitled' reply chain from 2018 among random-animal handles predates the swarm; classic stikked human anonymity chain."
+    },
+    {
+      "pid": "062f99a9",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Untitled' by random-animal 'Denim Flamingo' from 2021, no body available — pre-swarm, defaults to human on wayback."
+    },
+    {
+      "pid": "06c94504",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Fully blank metadata and body; nothing to classify."
+    },
+    {
+      "pid": "06f8fd49",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'log' by 'erivas' on FreePBX pastebin is a typical VoIP log dump; no swarm markers."
+    },
+    {
+      "pid": "06fc752a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Untitled' by 'SteveMat11' from 2021, empty body — pre-swarm, defaults to human on wayback."
+    },
+    {
+      "pid": "070d2697",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same Albert G/CASH TEAM carding spam body as 04bc92ed and 08281082 — human financial-fraud spam."
+    },
+    {
+      "pid": "0715dfa7",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "All metadata null and body empty; nothing to classify."
+    },
+    {
+      "pid": "07238d82",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Re: Re: Change in career path' by 'Charles Clayton' — human personal-topic reply thread."
+    },
+    {
+      "pid": "072bd82a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Asterisk dialplan trace with PJSIP macros, TOUCH_MONITOR, CALLERID etc. — real FreePBX user infrastructure log."
+    },
+    {
+      "pid": "07425398",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Automatic Pastebin from FreePBX Distro 6' by 'root@vps1540489409.freepbxhostin' — FreePBX built-in auto-diagnostic upload, human infrastructure."
+    },
+    {
+      "pid": "075ab460",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "News-headline title 'Biden threatens to punish Putin over invasion' by random-animal handle from 2022 with no body — likely human news dump on open pastebin, wayback-source defaults to human."
+    },
+    {
+      "pid": "0773009f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'What is the cash app bank name - know from experts' is Cash App support-scam SEO spam."
+    },
+    {
+      "pid": "078eef2d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Random Person Sent Me Money on Cash App-manage it' by 'Steve Stark' is Cash App SEO spam."
+    },
+    {
+      "pid": "07df18fd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Want to know can cash app be hacked...' Cash App SEO/scam spam, human."
+    },
+    {
+      "pid": "07ed66f6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'PayPal, Bank Western union transfer' by 'CLICK4CASH' — human carding/money-transfer scam post."
+    },
+    {
+      "pid": "080c3273",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'What Bank Is Cash App On Plaid?' SEO spam title; body is the Stikked DB-error page, not real content."
+    },
+    {
+      "pid": "08267a0e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Keyboard-mash title 'dgndbn dfbdfsd' by random-animal 'Reliable Anoa' from 2024 with no body — plausibly a smoke test but wayback-source defaults to human without stronger swarm markers."
+    },
+    {
+      "pid": "08281082",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same Albert G/CASH TEAM carding spam body as 04bc92ed and 070d2697 — human financial-fraud spam."
+    },
+    {
+      "pid": "0838a89a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Body is a Disqus 'mediaTypeConstants' AMD module with c.disquscdn.com source URL — Disqus JS bundle upload, not swarm."
+    },
+    {
+      "pid": "088c3d9e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SIP INVITE/401/ACK trace with Sangoma P315 UA, freepbx.mydomain.com, real Digest auth headers — human FreePBX call trace."
+    },
+    {
+      "pid": "089e2839",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Re: Re: Untitled' reply from 2018 by 'Scanty Bison' predates the swarm; stikked anonymous reply chain."
+    },
+    {
+      "pid": "08af4015",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Short title 'tfu' by 'timfuinkp' from 2022 with no body — no swarm markers, wayback-source defaults to human."
+    },
+    {
+      "pid": "08bd9099",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Keyboard-mash 'fgndfbn dfbdfb' by random-animal 'Scorching Finch' from 2025 with no body — plausible smoke test but wayback-source defaults to human without stronger swarm markers."
+    },
+    {
+      "pid": "08e709f9",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Fully blank metadata and body; nothing to classify."
+    },
+    {
+      "pid": "08ec5f49",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'slick.js' authored by 'disqus.com' — same Disqus JS bundle pattern, not swarm."
+    }
+  ]
+}
