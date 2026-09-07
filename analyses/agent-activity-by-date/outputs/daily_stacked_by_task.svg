@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+<rect x="0" y="0" width="1400" height="780" fill="white"/>
+<text x="570" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#111">Agent activity by date, stacked by task family and variant</text>
+<text x="570" y="46" text-anchor="middle" fill="#555">Hue = task family (very different). Shade = variant within family. Grey = unclassified.</text>
+<line x1="80" y1="670" x2="1060" y2="670" stroke="#eee" stroke-width="1"/>
+<text x="74" y="674" text-anchor="end" fill="#333">0</text>
+<line x1="80" y1="550" x2="1060" y2="550" stroke="#eee" stroke-width="1"/>
+<text x="74" y="554" text-anchor="end" fill="#333">1,400</text>
+<line x1="80" y1="430" x2="1060" y2="430" stroke="#eee" stroke-width="1"/>
+<text x="74" y="434" text-anchor="end" fill="#333">2,800</text>
+<line x1="80" y1="310" x2="1060" y2="310" stroke="#eee" stroke-width="1"/>
+<text x="74" y="314" text-anchor="end" fill="#333">4,200</text>
+<line x1="80" y1="190" x2="1060" y2="190" stroke="#eee" stroke-width="1"/>
+<text x="74" y="194" text-anchor="end" fill="#333">5,600</text>
+<line x1="80" y1="70" x2="1060" y2="70" stroke="#eee" stroke-width="1"/>
+<text x="74" y="74" text-anchor="end" fill="#333">7,000</text>
+<line x1="80" y1="670" x2="80" y2="70" stroke="#333" stroke-width="1"/>
+<line x1="80" y1="670" x2="1060" y2="670" stroke="#333" stroke-width="1"/>
+<rect x="80.5" y="667.0" width="23.5" height="3.0" fill="#8c8c8c" stroke="none"><title>2026-05-24  unclassified / (none): 35</title></rect>
+<rect x="129.5" y="632.6" width="23.5" height="37.4" fill="#8c8c8c" stroke="none"><title>2026-05-26  unclassified / (none): 436</title></rect>
+<rect x="154.0" y="665.9" width="23.5" height="4.1" fill="#8c8c8c" stroke="none"><title>2026-05-27  unclassified / (none): 48</title></rect>
+<rect x="178.5" y="659.7" width="23.5" height="10.3" fill="#225776" stroke="none"><title>2026-05-28  archive-item-research-bench / art-work-of-charleston: 120</title></rect>
+<rect x="178.5" y="652.0" width="23.5" height="7.7" fill="#8c8c8c" stroke="none"><title>2026-05-28  unclassified / (none): 90</title></rect>
+<rect x="203.0" y="663.4" width="23.5" height="6.6" fill="#8c8c8c" stroke="none"><title>2026-05-29  unclassified / (none): 77</title></rect>
+<rect x="227.5" y="669.9" width="23.5" height="0.1" fill="#225776" stroke="none"><title>2026-05-30  archive-item-research-bench / art-work-of-charleston: 1</title></rect>
+<rect x="227.5" y="668.0" width="23.5" height="1.9" fill="#4a8ddd" stroke="none"><title>2026-05-30  archive-item-research-bench / minnesota-mhs-p16022coll45-152: 22</title></rect>
+<rect x="227.5" y="666.2" width="23.5" height="1.8" fill="#8c8c8c" stroke="none"><title>2026-05-30  unclassified / (none): 21</title></rect>
+<rect x="252.0" y="669.5" width="23.5" height="0.5" fill="#4a8ddd" stroke="none"><title>2026-05-31  archive-item-research-bench / minnesota-mhs-p16022coll45-152: 6</title></rect>
+<rect x="252.0" y="668.6" width="23.5" height="0.9" fill="#8c8c8c" stroke="none"><title>2026-05-31  unclassified / (none): 10</title></rect>
+<rect x="276.5" y="669.9" width="23.5" height="0.1" fill="#225776" stroke="none"><title>2026-06-01  archive-item-research-bench / art-work-of-charleston: 1</title></rect>
+<rect x="276.5" y="663.0" width="23.5" height="6.9" fill="#2377bc" stroke="none"><title>2026-06-01  archive-item-research-bench / clark-economics-newsletters: 81</title></rect>
+<rect x="276.5" y="662.5" width="23.5" height="0.5" fill="#4a8ddd" stroke="none"><title>2026-06-01  archive-item-research-bench / minnesota-mhs-p16022coll45-152: 6</title></rect>
+<rect x="276.5" y="657.5" width="23.5" height="5.0" fill="#8c8c8c" stroke="none"><title>2026-06-01  unclassified / (none): 58</title></rect>
+<rect x="301.0" y="669.7" width="23.5" height="0.3" fill="#8c8c8c" stroke="none"><title>2026-06-02  unclassified / (none): 4</title></rect>
+<rect x="350.0" y="669.6" width="23.5" height="0.4" fill="#8c8c8c" stroke="none"><title>2026-06-04  unclassified / (none): 5</title></rect>
+<rect x="374.5" y="669.8" width="23.5" height="0.2" fill="#8c8c8c" stroke="none"><title>2026-06-05  unclassified / (none): 2</title></rect>
+<rect x="399.0" y="669.7" width="23.5" height="0.3" fill="#90adde" stroke="none"><title>2026-06-06  archive-item-research-bench / rugby-world-march-1995: 4</title></rect>
+<rect x="399.0" y="669.0" width="23.5" height="0.7" fill="#8c8c8c" stroke="none"><title>2026-06-06  unclassified / (none): 8</title></rect>
+<rect x="423.5" y="668.9" width="23.5" height="1.1" fill="#8c8c8c" stroke="none"><title>2026-06-07  unclassified / (none): 13</title></rect>
+<rect x="448.0" y="668.8" width="23.5" height="1.2" fill="#8c8c8c" stroke="none"><title>2026-06-08  unclassified / (none): 14</title></rect>
+<rect x="472.5" y="669.5" width="23.5" height="0.5" fill="#8c8c8c" stroke="none"><title>2026-06-09  unclassified / (none): 6</title></rect>
+<rect x="497.0" y="669.5" width="23.5" height="0.5" fill="#8c8c8c" stroke="none"><title>2026-06-10  unclassified / (none): 6</title></rect>
+<rect x="521.5" y="669.9" width="23.5" height="0.1" fill="#225776" stroke="none"><title>2026-06-11  archive-item-research-bench / art-work-of-charleston: 1</title></rect>
+<rect x="521.5" y="661.5" width="23.5" height="8.4" fill="#246898" stroke="none"><title>2026-06-11  archive-item-research-bench / texas-tsl-preservica: 98</title></rect>
+<rect x="521.5" y="659.5" width="23.5" height="2.1" fill="#2482df" stroke="none"><title>2026-06-11  archive-item-research-bench / patriots-point-jan-1951: 24</title></rect>
+<rect x="521.5" y="659.2" width="23.5" height="0.3" fill="#6e9bdc" stroke="none"><title>2026-06-11  archive-item-research-bench / cgsc-hoffman-order-of-battle: 3</title></rect>
+<rect x="521.5" y="655.9" width="23.5" height="3.3" fill="#8c8c8c" stroke="none"><title>2026-06-11  unclassified / (none): 38</title></rect>
+<rect x="644.0" y="668.8" width="23.5" height="1.2" fill="#246898" stroke="none"><title>2026-06-16  archive-item-research-bench / texas-tsl-preservica: 14</title></rect>
+<rect x="644.0" y="666.1" width="23.5" height="2.7" fill="#2482df" stroke="none"><title>2026-06-16  archive-item-research-bench / patriots-point-jan-1951: 32</title></rect>
+<rect x="644.0" y="657.1" width="23.5" height="9.0" fill="#7b2d22" stroke="none"><title>2026-06-16  fast-follow-question-bench / (hub:relay-coordination): 105</title></rect>
+<rect x="644.0" y="627.5" width="23.5" height="29.6" fill="#802f23" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-clothing-workforce: 345</title></rect>
+<rect x="644.0" y="624.2" width="23.5" height="3.3" fill="#853023" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-cashiers-masters: 38</title></rect>
+<rect x="644.0" y="602.4" width="23.5" height="21.9" fill="#8f3423" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-grocery-workforce: 255</title></rect>
+<rect x="644.0" y="595.7" width="23.5" height="6.7" fill="#9a3724" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-language-french: 78</title></rect>
+<rect x="644.0" y="595.4" width="23.5" height="0.3" fill="#9f3924" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-poverty-county: 3</title></rect>
+<rect x="644.0" y="586.2" width="23.5" height="9.3" fill="#a43a24" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-maids-wage: 108</title></rect>
+<rect x="644.0" y="578.4" width="23.5" height="7.8" fill="#af3e24" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-transport-production: 91</title></rect>
+<rect x="644.0" y="570.7" width="23.5" height="7.6" fill="#b54023" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-sector61-state: 89</title></rect>
+<rect x="644.0" y="570.6" width="23.5" height="0.2" fill="#cc4822" stroke="none"><title>2026-06-16  fast-follow-question-bench / (hub:mixed-task): 2</title></rect>
+<rect x="644.0" y="568.9" width="23.5" height="1.6" fill="#de6335" stroke="none"><title>2026-06-16  fast-follow-question-bench / vermont-rent: 19</title></rect>
+<rect x="644.0" y="567.7" width="23.5" height="1.3" fill="#dd6d41" stroke="none"><title>2026-06-16  fast-follow-question-bench / datausa-ivy-tuition: 15</title></rect>
+<rect x="644.0" y="445.3" width="23.5" height="122.4" fill="#8c8c8c" stroke="none"><title>2026-06-16  unclassified / (none): 1,428</title></rect>
+<rect x="668.5" y="669.9" width="23.5" height="0.1" fill="#246898" stroke="none"><title>2026-06-17  archive-item-research-bench / texas-tsl-preservica: 1</title></rect>
+<rect x="668.5" y="669.6" width="23.5" height="0.3" fill="#762c22" stroke="none"><title>2026-06-17  fast-follow-question-bench / oecd-equity: 4</title></rect>
+<rect x="668.5" y="665.0" width="23.5" height="4.5" fill="#7b2d22" stroke="none"><title>2026-06-17  fast-follow-question-bench / (hub:relay-coordination): 53</title></rect>
+<rect x="668.5" y="664.3" width="23.5" height="0.8" fill="#802f23" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-clothing-workforce: 9</title></rect>
+<rect x="668.5" y="647.0" width="23.5" height="17.2" fill="#853023" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-cashiers-masters: 201</title></rect>
+<rect x="668.5" y="627.4" width="23.5" height="19.6" fill="#8a3223" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-construction-workforce: 229</title></rect>
+<rect x="668.5" y="626.7" width="23.5" height="0.7" fill="#8f3423" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-grocery-workforce: 8</title></rect>
+<rect x="668.5" y="616.9" width="23.5" height="9.9" fill="#9a3724" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-language-french: 115</title></rect>
+<rect x="668.5" y="607.3" width="23.5" height="9.5" fill="#9f3924" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-poverty-county: 111</title></rect>
+<rect x="668.5" y="606.7" width="23.5" height="0.6" fill="#a43a24" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-maids-wage: 7</title></rect>
+<rect x="668.5" y="602.0" width="23.5" height="4.7" fill="#c64622" stroke="none"><title>2026-06-17  fast-follow-question-bench / datausa-finance-gender-gap: 55</title></rect>
+<rect x="668.5" y="598.8" width="23.5" height="3.3" fill="#dd4e21" stroke="none"><title>2026-06-17  fast-follow-question-bench / nyc-veterans: 38</title></rect>
+<rect x="668.5" y="598.7" width="23.5" height="0.1" fill="#de6335" stroke="none"><title>2026-06-17  fast-follow-question-bench / vermont-rent: 1</title></rect>
+<rect x="668.5" y="598.3" width="23.5" height="0.4" fill="#dc855d" stroke="none"><title>2026-06-17  fast-follow-question-bench / dataafrica-rainfed-crops: 5</title></rect>
+<rect x="668.5" y="598.2" width="23.5" height="0.1" fill="#deaa8b" stroke="none"><title>2026-06-17  fast-follow-question-bench / ihme-lymphatic-filariasis: 1</title></rect>
+<rect x="668.5" y="558.8" width="23.5" height="39.3" fill="#8c8c8c" stroke="none"><title>2026-06-17  unclassified / (none): 459</title></rect>
+<rect x="693.0" y="669.9" width="23.5" height="0.1" fill="#225776" stroke="none"><title>2026-06-18  archive-item-research-bench / art-work-of-charleston: 1</title></rect>
+<rect x="693.0" y="669.1" width="23.5" height="0.9" fill="#246898" stroke="none"><title>2026-06-18  archive-item-research-bench / texas-tsl-preservica: 10</title></rect>
+<rect x="693.0" y="669.0" width="23.5" height="0.1" fill="#2377bc" stroke="none"><title>2026-06-18  archive-item-research-bench / clark-economics-newsletters: 1</title></rect>
+<rect x="693.0" y="667.5" width="23.5" height="1.5" fill="#2482df" stroke="none"><title>2026-06-18  archive-item-research-bench / patriots-point-jan-1951: 17</title></rect>
+<rect x="693.0" y="667.4" width="23.5" height="0.1" fill="#6e9bdc" stroke="none"><title>2026-06-18  archive-item-research-bench / cgsc-hoffman-order-of-battle: 1</title></rect>
+<rect x="693.0" y="666.7" width="23.5" height="0.7" fill="#7b2d22" stroke="none"><title>2026-06-18  fast-follow-question-bench / (hub:relay-coordination): 8</title></rect>
+<rect x="693.0" y="666.0" width="23.5" height="0.8" fill="#853023" stroke="none"><title>2026-06-18  fast-follow-question-bench / datausa-cashiers-masters: 9</title></rect>
+<rect x="693.0" y="662.3" width="23.5" height="3.7" fill="#8a3223" stroke="none"><title>2026-06-18  fast-follow-question-bench / datausa-construction-workforce: 43</title></rect>
+<rect x="693.0" y="660.3" width="23.5" height="2.0" fill="#953524" stroke="none"><title>2026-06-18  fast-follow-question-bench / ihme-cvd-deaths: 23</title></rect>
+<rect x="693.0" y="657.9" width="23.5" height="2.4" fill="#aa3c24" stroke="none"><title>2026-06-18  fast-follow-question-bench / datausa-police-wage-age: 28</title></rect>
+<rect x="693.0" y="657.7" width="23.5" height="0.2" fill="#dc855d" stroke="none"><title>2026-06-18  fast-follow-question-bench / dataafrica-rainfed-crops: 2</title></rect>
+<rect x="693.0" y="657.6" width="23.5" height="0.2" fill="#dc9672" stroke="none"><title>2026-06-18  fast-follow-question-bench / alaska-climate: 2</title></rect>
+<rect x="693.0" y="657.5" width="23.5" height="0.1" fill="#dda686" stroke="none"><title>2026-06-18  fast-follow-question-bench / dataafrica-health-stunting: 1</title></rect>
+<rect x="693.0" y="230.5" width="23.5" height="427.0" fill="#2ac95f" stroke="none"><title>2026-06-18  sec-regcf-ma-cache / (no variants): 4,982</title></rect>
+<rect x="693.0" y="107.0" width="23.5" height="123.4" fill="#8c8c8c" stroke="none"><title>2026-06-18  unclassified / (none): 1,440</title></rect>
+<rect x="717.5" y="669.3" width="23.5" height="0.7" fill="#762c22" stroke="none"><title>2026-06-19  fast-follow-question-bench / oecd-equity: 8</title></rect>
+<rect x="717.5" y="666.7" width="23.5" height="2.6" fill="#7b2d22" stroke="none"><title>2026-06-19  fast-follow-question-bench / (hub:relay-coordination): 30</title></rect>
+<rect x="717.5" y="664.7" width="23.5" height="2.1" fill="#853023" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-cashiers-masters: 24</title></rect>
+<rect x="717.5" y="656.9" width="23.5" height="7.8" fill="#953524" stroke="none"><title>2026-06-19  fast-follow-question-bench / ihme-cvd-deaths: 91</title></rect>
+<rect x="717.5" y="655.3" width="23.5" height="1.6" fill="#9f3924" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-poverty-county: 19</title></rect>
+<rect x="717.5" y="650.7" width="23.5" height="4.5" fill="#aa3c24" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-police-wage-age: 53</title></rect>
+<rect x="717.5" y="647.0" width="23.5" height="3.7" fill="#cc4822" stroke="none"><title>2026-06-19  fast-follow-question-bench / (hub:mixed-task): 43</title></rect>
+<rect x="717.5" y="646.5" width="23.5" height="0.5" fill="#df5324" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-enrollment-asian: 6</title></rect>
+<rect x="717.5" y="644.9" width="23.5" height="1.6" fill="#de5e30" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-production-share: 19</title></rect>
+<rect x="717.5" y="643.4" width="23.5" height="1.5" fill="#dd683b" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-cashiers-bachelors: 17</title></rect>
+<rect x="717.5" y="643.3" width="23.5" height="0.1" fill="#dd774c" stroke="none"><title>2026-06-19  fast-follow-question-bench / ihme-mcv2: 1</title></rect>
+<rect x="717.5" y="643.0" width="23.5" height="0.3" fill="#dc8962" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-slp-ethnicity: 4</title></rect>
+<rect x="717.5" y="642.8" width="23.5" height="0.2" fill="#dc926c" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-construction-wage: 2</title></rect>
+<rect x="717.5" y="642.7" width="23.5" height="0.1" fill="#dc9672" stroke="none"><title>2026-06-19  fast-follow-question-bench / alaska-climate: 1</title></rect>
+<rect x="717.5" y="642.7" width="23.5" height="0.1" fill="#dd9f7c" stroke="none"><title>2026-06-19  fast-follow-question-bench / datausa-elpaso-foreign-born: 1</title></rect>
+<rect x="717.5" y="642.6" width="23.5" height="0.1" fill="#deae90" stroke="none"><title>2026-06-19  fast-follow-question-bench / world-poverty-clock: 1</title></rect>
+<rect x="717.5" y="637.7" width="23.5" height="4.9" fill="#2ac95f" stroke="none"><title>2026-06-19  sec-regcf-ma-cache / (no variants): 57</title></rect>
+<rect x="717.5" y="626.3" width="23.5" height="11.4" fill="#8c8c8c" stroke="none"><title>2026-06-19  unclassified / (none): 133</title></rect>
+<rect x="742.0" y="634.3" width="23.5" height="35.7" fill="#762c22" stroke="none"><title>2026-06-20  fast-follow-question-bench / oecd-equity: 417</title></rect>
+<rect x="742.0" y="629.7" width="23.5" height="4.5" fill="#7b2d22" stroke="none"><title>2026-06-20  fast-follow-question-bench / (hub:relay-coordination): 53</title></rect>
+<rect x="742.0" y="629.6" width="23.5" height="0.1" fill="#853023" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-cashiers-masters: 1</title></rect>
+<rect x="742.0" y="629.4" width="23.5" height="0.3" fill="#953524" stroke="none"><title>2026-06-20  fast-follow-question-bench / ihme-cvd-deaths: 3</title></rect>
+<rect x="742.0" y="628.0" width="23.5" height="1.4" fill="#aa3c24" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-police-wage-age: 16</title></rect>
+<rect x="742.0" y="627.8" width="23.5" height="0.2" fill="#ba4223" stroke="none"><title>2026-06-20  fast-follow-question-bench / ihme-family-planning: 2</title></rect>
+<rect x="742.0" y="627.7" width="23.5" height="0.2" fill="#cc4822" stroke="none"><title>2026-06-20  fast-follow-question-bench / (hub:mixed-task): 2</title></rect>
+<rect x="742.0" y="624.1" width="23.5" height="3.5" fill="#d74c21" stroke="none"><title>2026-06-20  fast-follow-question-bench / uefa-pass-accuracy: 41</title></rect>
+<rect x="742.0" y="623.9" width="23.5" height="0.3" fill="#df5324" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-enrollment-asian: 3</title></rect>
+<rect x="742.0" y="623.0" width="23.5" height="0.9" fill="#dd774c" stroke="none"><title>2026-06-20  fast-follow-question-bench / ihme-mcv2: 10</title></rect>
+<rect x="742.0" y="622.9" width="23.5" height="0.1" fill="#dc8962" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-slp-ethnicity: 1</title></rect>
+<rect x="742.0" y="622.7" width="23.5" height="0.3" fill="#dc926c" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-construction-wage: 3</title></rect>
+<rect x="742.0" y="622.6" width="23.5" height="0.1" fill="#dd9a77" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-cashier-skills: 1</title></rect>
+<rect x="742.0" y="622.5" width="23.5" height="0.1" fill="#dd9f7c" stroke="none"><title>2026-06-20  fast-follow-question-bench / datausa-elpaso-foreign-born: 1</title></rect>
+<rect x="742.0" y="622.2" width="23.5" height="0.3" fill="#2ac95f" stroke="none"><title>2026-06-20  sec-regcf-ma-cache / (no variants): 4</title></rect>
+<rect x="742.0" y="622.1" width="23.5" height="0.1" fill="#a22ac9" stroke="none"><title>2026-06-20  vocab-puzzle-refs / (no variants): 1</title></rect>
+<rect x="742.0" y="613.7" width="23.5" height="8.4" fill="#8c8c8c" stroke="none"><title>2026-06-20  unclassified / (none): 98</title></rect>
+<rect x="766.5" y="669.2" width="23.5" height="0.8" fill="#762c22" stroke="none"><title>2026-06-21  fast-follow-question-bench / oecd-equity: 9</title></rect>
+<rect x="766.5" y="657.7" width="23.5" height="11.6" fill="#7b2d22" stroke="none"><title>2026-06-21  fast-follow-question-bench / (hub:relay-coordination): 135</title></rect>
+<rect x="766.5" y="657.6" width="23.5" height="0.1" fill="#853023" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-cashiers-masters: 1</title></rect>
+<rect x="766.5" y="650.5" width="23.5" height="7.1" fill="#953524" stroke="none"><title>2026-06-21  fast-follow-question-bench / ihme-cvd-deaths: 83</title></rect>
+<rect x="766.5" y="644.7" width="23.5" height="5.7" fill="#ba4223" stroke="none"><title>2026-06-21  fast-follow-question-bench / ihme-family-planning: 67</title></rect>
+<rect x="766.5" y="639.5" width="23.5" height="5.2" fill="#c04423" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-occupation-salary-61-62: 61</title></rect>
+<rect x="766.5" y="635.8" width="23.5" height="3.7" fill="#d14a22" stroke="none"><title>2026-06-21  fast-follow-question-bench / oecd-regional-co2: 43</title></rect>
+<rect x="766.5" y="633.6" width="23.5" height="2.2" fill="#df5324" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-enrollment-asian: 26</title></rect>
+<rect x="766.5" y="631.4" width="23.5" height="2.1" fill="#df582a" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-poverty-state: 25</title></rect>
+<rect x="766.5" y="631.3" width="23.5" height="0.1" fill="#de5e30" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-production-share: 1</title></rect>
+<rect x="766.5" y="630.3" width="23.5" height="1.0" fill="#dd7246" stroke="none"><title>2026-06-21  fast-follow-question-bench / fuel-poverty-ni: 12</title></rect>
+<rect x="766.5" y="629.6" width="23.5" height="0.7" fill="#dc7c52" stroke="none"><title>2026-06-21  fast-follow-question-bench / ihme-smoking: 8</title></rect>
+<rect x="766.5" y="628.9" width="23.5" height="0.7" fill="#dc8057" stroke="none"><title>2026-06-21  fast-follow-question-bench / sdg-index-score: 8</title></rect>
+<rect x="766.5" y="628.9" width="23.5" height="0.1" fill="#dc8962" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-slp-ethnicity: 1</title></rect>
+<rect x="766.5" y="628.3" width="23.5" height="0.5" fill="#dc8e67" stroke="none"><title>2026-06-21  fast-follow-question-bench / oecd-household-income: 6</title></rect>
+<rect x="766.5" y="628.2" width="23.5" height="0.2" fill="#dd9a77" stroke="none"><title>2026-06-21  fast-follow-question-bench / datausa-cashier-skills: 2</title></rect>
+<rect x="766.5" y="628.1" width="23.5" height="0.1" fill="#dda281" stroke="none"><title>2026-06-21  fast-follow-question-bench / aihw-pbs: 1</title></rect>
+<rect x="766.5" y="627.5" width="23.5" height="0.6" fill="#2ac95f" stroke="none"><title>2026-06-21  sec-regcf-ma-cache / (no variants): 7</title></rect>
+<rect x="766.5" y="613.5" width="23.5" height="14.0" fill="#8c8c8c" stroke="none"><title>2026-06-21  unclassified / (none): 163</title></rect>
+<rect x="791.0" y="669.9" width="23.5" height="0.1" fill="#2377bc" stroke="none"><title>2026-06-22  archive-item-research-bench / clark-economics-newsletters: 1</title></rect>
+<rect x="791.0" y="669.8" width="23.5" height="0.1" fill="#ba4223" stroke="none"><title>2026-06-22  fast-follow-question-bench / ihme-family-planning: 1</title></rect>
+<rect x="791.0" y="669.7" width="23.5" height="0.2" fill="#d14a22" stroke="none"><title>2026-06-22  fast-follow-question-bench / oecd-regional-co2: 2</title></rect>
+<rect x="791.0" y="668.2" width="23.5" height="1.5" fill="#2ac95f" stroke="none"><title>2026-06-22  sec-regcf-ma-cache / (no variants): 17</title></rect>
+<rect x="791.0" y="578.2" width="23.5" height="90.0" fill="#8c8c8c" stroke="none"><title>2026-06-22  unclassified / (none): 1,050</title></rect>
+<rect x="815.5" y="669.9" width="23.5" height="0.1" fill="#8c8c8c" stroke="none"><title>2026-06-23  unclassified / (none): 1</title></rect>
+<rect x="840.0" y="669.9" width="23.5" height="0.1" fill="#8c8c8c" stroke="none"><title>2026-06-24  unclassified / (none): 1</title></rect>
+<rect x="1011.5" y="669.4" width="23.5" height="0.6" fill="#8c8c8c" stroke="none"><title>2026-07-01  unclassified / (none): 7</title></rect>
+<rect x="1036.0" y="668.8" width="23.5" height="1.2" fill="#8c8c8c" stroke="none"><title>2026-07-02  unclassified / (none): 14</title></rect>
+<text x="92.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 92.2 684)">05-24</text>
+<text x="116.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 116.8 684)">05-25</text>
+<text x="141.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 141.2 684)">05-26</text>
+<text x="165.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 165.8 684)">05-27</text>
+<text x="190.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 190.2 684)">05-28</text>
+<text x="214.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 214.8 684)">05-29</text>
+<text x="239.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 239.2 684)">05-30</text>
+<text x="263.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 263.8 684)">05-31</text>
+<text x="288.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 288.2 684)">06-01</text>
+<text x="312.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 312.8 684)">06-02</text>
+<text x="337.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 337.2 684)">06-03</text>
+<text x="361.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 361.8 684)">06-04</text>
+<text x="386.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 386.2 684)">06-05</text>
+<text x="410.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 410.8 684)">06-06</text>
+<text x="435.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 435.2 684)">06-07</text>
+<text x="459.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 459.8 684)">06-08</text>
+<text x="484.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 484.2 684)">06-09</text>
+<text x="508.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 508.8 684)">06-10</text>
+<text x="533.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 533.2 684)">06-11</text>
+<text x="557.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 557.8 684)">06-12</text>
+<text x="582.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 582.2 684)">06-13</text>
+<text x="606.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 606.8 684)">06-14</text>
+<text x="631.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 631.2 684)">06-15</text>
+<text x="655.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 655.8 684)">06-16</text>
+<text x="680.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 680.2 684)">06-17</text>
+<text x="704.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 704.8 684)">06-18</text>
+<text x="729.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 729.2 684)">06-19</text>
+<text x="753.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 753.8 684)">06-20</text>
+<text x="778.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 778.2 684)">06-21</text>
+<text x="802.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 802.8 684)">06-22</text>
+<text x="827.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 827.2 684)">06-23</text>
+<text x="851.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 851.8 684)">06-24</text>
+<text x="876.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 876.2 684)">06-25</text>
+<text x="900.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 900.8 684)">06-26</text>
+<text x="925.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 925.2 684)">06-27</text>
+<text x="949.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 949.8 684)">06-28</text>
+<text x="974.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 974.2 684)">06-29</text>
+<text x="998.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 998.8 684)">06-30</text>
+<text x="1023.2" y="684" text-anchor="end" fill="#333" transform="rotate(-60 1023.2 684)">07-01</text>
+<text x="1047.8" y="684" text-anchor="end" fill="#333" transform="rotate(-60 1047.8 684)">07-02</text>
+<text x="20" y="370" transform="rotate(-90 20 370)" text-anchor="middle" fill="#333">revisions</text>
+<text x="1080" y="70" font-weight="600" fill="#111">Legend</text>
+<text x="1080" y="94" font-weight="600" fill="#111">archive-item-research-bench <tspan fill="#666" font-weight="400">· 445 revs · 7 variants</tspan></text>
+<rect x="1080.0" y="100" width="42.9" height="12" fill="#225776"><title>art-work-of-charleston: 124</title></rect>
+<rect x="1122.9" y="100" width="42.9" height="12" fill="#246898"><title>texas-tsl-preservica: 123</title></rect>
+<rect x="1165.7" y="100" width="42.9" height="12" fill="#2377bc"><title>clark-economics-newsletters: 83</title></rect>
+<rect x="1208.6" y="100" width="42.9" height="12" fill="#2482df"><title>patriots-point-jan-1951: 73</title></rect>
+<rect x="1251.4" y="100" width="42.9" height="12" fill="#4a8ddd"><title>minnesota-mhs-p16022coll45-152: 34</title></rect>
+<rect x="1294.3" y="100" width="42.9" height="12" fill="#6e9bdc"><title>cgsc-hoffman-order-of-battle: 4</title></rect>
+<rect x="1337.1" y="100" width="42.9" height="12" fill="#90adde"><title>rugby-world-march-1995: 4</title></rect>
+<text x="1080" y="124" fill="#333" font-size="11">top: art-work-of-charleston, texas-tsl-preservica, clark-economics-newsletters (+4 more)</text>
+<text x="1080" y="144" font-weight="600" fill="#111">fast-follow-question-bench <tspan fill="#666" font-weight="400">· 3,467 revs · 41 variants</tspan></text>
+<rect x="1080.0" y="150" width="7.3" height="12" fill="#762c22"><title>oecd-equity: 438</title></rect>
+<rect x="1087.3" y="150" width="7.3" height="12" fill="#7b2d22"><title>(hub:relay-coordination): 384</title></rect>
+<rect x="1094.6" y="150" width="7.3" height="12" fill="#802f23"><title>datausa-clothing-workforce: 354</title></rect>
+<rect x="1102.0" y="150" width="7.3" height="12" fill="#853023"><title>datausa-cashiers-masters: 274</title></rect>
+<rect x="1109.3" y="150" width="7.3" height="12" fill="#8a3223"><title>datausa-construction-workforce: 272</title></rect>
+<rect x="1116.6" y="150" width="7.3" height="12" fill="#8f3423"><title>datausa-grocery-workforce: 263</title></rect>
+<rect x="1123.9" y="150" width="7.3" height="12" fill="#953524"><title>ihme-cvd-deaths: 200</title></rect>
+<rect x="1131.2" y="150" width="7.3" height="12" fill="#9a3724"><title>datausa-language-french: 193</title></rect>
+<rect x="1138.5" y="150" width="7.3" height="12" fill="#9f3924"><title>datausa-poverty-county: 133</title></rect>
+<rect x="1145.9" y="150" width="7.3" height="12" fill="#a43a24"><title>datausa-maids-wage: 115</title></rect>
+<rect x="1153.2" y="150" width="7.3" height="12" fill="#aa3c24"><title>datausa-police-wage-age: 97</title></rect>
+<rect x="1160.5" y="150" width="7.3" height="12" fill="#af3e24"><title>datausa-transport-production: 91</title></rect>
+<rect x="1167.8" y="150" width="7.3" height="12" fill="#b54023"><title>datausa-sector61-state: 89</title></rect>
+<rect x="1175.1" y="150" width="7.3" height="12" fill="#ba4223"><title>ihme-family-planning: 70</title></rect>
+<rect x="1182.4" y="150" width="7.3" height="12" fill="#c04423"><title>datausa-occupation-salary-61-62: 61</title></rect>
+<rect x="1189.8" y="150" width="7.3" height="12" fill="#c64622"><title>datausa-finance-gender-gap: 55</title></rect>
+<rect x="1197.1" y="150" width="7.3" height="12" fill="#cc4822"><title>(hub:mixed-task): 47</title></rect>
+<rect x="1204.4" y="150" width="7.3" height="12" fill="#d14a22"><title>oecd-regional-co2: 45</title></rect>
+<rect x="1211.7" y="150" width="7.3" height="12" fill="#d74c21"><title>uefa-pass-accuracy: 41</title></rect>
+<rect x="1219.0" y="150" width="7.3" height="12" fill="#dd4e21"><title>nyc-veterans: 38</title></rect>
+<rect x="1226.3" y="150" width="7.3" height="12" fill="#df5324"><title>datausa-enrollment-asian: 35</title></rect>
+<rect x="1233.7" y="150" width="7.3" height="12" fill="#df582a"><title>datausa-poverty-state: 25</title></rect>
+<rect x="1241.0" y="150" width="7.3" height="12" fill="#de5e30"><title>datausa-production-share: 20</title></rect>
+<rect x="1248.3" y="150" width="7.3" height="12" fill="#de6335"><title>vermont-rent: 20</title></rect>
+<rect x="1255.6" y="150" width="7.3" height="12" fill="#dd683b"><title>datausa-cashiers-bachelors: 17</title></rect>
+<rect x="1262.9" y="150" width="7.3" height="12" fill="#dd6d41"><title>datausa-ivy-tuition: 15</title></rect>
+<rect x="1270.2" y="150" width="7.3" height="12" fill="#dd7246"><title>fuel-poverty-ni: 12</title></rect>
+<rect x="1277.6" y="150" width="7.3" height="12" fill="#dd774c"><title>ihme-mcv2: 11</title></rect>
+<rect x="1284.9" y="150" width="7.3" height="12" fill="#dc7c52"><title>ihme-smoking: 8</title></rect>
+<rect x="1292.2" y="150" width="7.3" height="12" fill="#dc8057"><title>sdg-index-score: 8</title></rect>
+<rect x="1299.5" y="150" width="7.3" height="12" fill="#dc855d"><title>dataafrica-rainfed-crops: 7</title></rect>
+<rect x="1306.8" y="150" width="7.3" height="12" fill="#dc8962"><title>datausa-slp-ethnicity: 6</title></rect>
+<rect x="1314.1" y="150" width="7.3" height="12" fill="#dc8e67"><title>oecd-household-income: 6</title></rect>
+<rect x="1321.5" y="150" width="7.3" height="12" fill="#dc926c"><title>datausa-construction-wage: 5</title></rect>
+<rect x="1328.8" y="150" width="7.3" height="12" fill="#dc9672"><title>alaska-climate: 3</title></rect>
+<rect x="1336.1" y="150" width="7.3" height="12" fill="#dd9a77"><title>datausa-cashier-skills: 3</title></rect>
+<rect x="1343.4" y="150" width="7.3" height="12" fill="#dd9f7c"><title>datausa-elpaso-foreign-born: 2</title></rect>
+<rect x="1350.7" y="150" width="7.3" height="12" fill="#dda281"><title>aihw-pbs: 1</title></rect>
+<rect x="1358.0" y="150" width="7.3" height="12" fill="#dda686"><title>dataafrica-health-stunting: 1</title></rect>
+<rect x="1365.4" y="150" width="7.3" height="12" fill="#deaa8b"><title>ihme-lymphatic-filariasis: 1</title></rect>
+<rect x="1372.7" y="150" width="7.3" height="12" fill="#deae90"><title>world-poverty-clock: 1</title></rect>
+<text x="1080" y="174" fill="#333" font-size="11">top: oecd-equity, (hub:relay-coordination), datausa-clothing-workforce (+38 more)</text>
+<text x="1080" y="194" font-weight="600" fill="#111">sec-regcf-ma-cache <tspan fill="#666" font-weight="400">· 5,067 revs · 1 variant</tspan></text>
+<rect x="1080.0" y="200" width="300.0" height="12" fill="#2ac95f"><title>(no variants): 5,067</title></rect>
+<text x="1080" y="224" fill="#333" font-size="11">top: (no variants)</text>
+<text x="1080" y="244" font-weight="600" fill="#111">vocab-puzzle-refs <tspan fill="#666" font-weight="400">· 1 revs · 1 variant</tspan></text>
+<rect x="1080.0" y="250" width="300.0" height="12" fill="#a22ac9"><title>(no variants): 1</title></rect>
+<text x="1080" y="274" fill="#333" font-size="11">top: (no variants)</text>
+<text x="1080" y="294" font-weight="600" fill="#111">unclassified <tspan fill="#666" font-weight="400">· 5,665 revs · 1 variant</tspan></text>
+<rect x="1080.0" y="300" width="300.0" height="12" fill="#8c8c8c"><title>(none): 5,665</title></rect>
+<text x="1080" y="324" fill="#333" font-size="11">top: (none)</text>
+</svg>
