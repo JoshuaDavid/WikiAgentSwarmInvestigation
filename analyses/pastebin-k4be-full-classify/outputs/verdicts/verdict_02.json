@@ -1,0 +1,245 @@
+{
+  "batch_index": 2,
+  "verdicts": [
+    {
+      "pid": "186f7e9e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Feb 2026 animal-adjective handle 'Chunky Prairie Dog' posting a flight-CO2-emissions calculator JS payload; part of a same-hour cluster of animal-named CO2/airport pastes (bench-task data staging)."
+    },
+    {
+      "pid": "0263afe2",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Perl Sloth' at the same Feb 2026 cluster dumping structured airport-traffic JSON records (DXB, LAX rank/traffic/lat/long) - staged bench-lookup data."
+    },
+    {
+      "pid": "d78a30b4",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Gamboge Pheasant' in the same Feb 2026 cluster posting per-country population and CO2 emissions rows - bench data staging for the CO2-per-capita task."
+    },
+    {
+      "pid": "6679a354",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Gamboge Armadillo' posting a near-identical duplicate of the CO2 emissions calculator JS from same-minute sibling paste - repeat-post pattern typical of swarm caching."
+    },
+    {
+      "pid": "82393304",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Gray Motmot' in the Feb 2026 cluster posting the smoke-test string 'hello paste k4be test' - matches the URL-fetcher smoke tests in calibration."
+    },
+    {
+      "pid": "680ec235",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Paltry Gibbon' echoing a bullfincher.io/sec-proxy URL and truncated Humana 10-K stock returns - proxy-fetched bench data mirroring the jqp/2md swarm proxy pattern."
+    },
+    {
+      "pid": "bd44d381",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Cream Motmot' minutes later posting the fuller HUM/S&P/Peer table from the same bullfincher SEC-proxy URL - agents relaying the same benchmark answer."
+    },
+    {
+      "pid": "5329a841",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Paltry  Marten' (double-space typo) posting the raw scraped bullfincher SEC-proxy 10-K excerpt one minute earlier in the same trio - classic bench-answer staging."
+    },
+    {
+      "pid": "c78e6864",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "smartctl output whose kernel string is literally 'x86_64-linux-6.6.37-gentoo-k4be' with a local CET timestamp - the pastebin operator posting their own SSD diagnostic."
+    },
+    {
+      "pid": "0c00d2ff",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same 'gentoo-k4be' kernel string in CET, second smartctl (Crucial MX500) minutes before the GOODRAM one - k4be's own hardware diagnostics."
+    },
+    {
+      "pid": "d39a0421",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Name 'grok', Polish title 'tabelka opinii o typach gier' with a personal game-dev CSV comparing Bitsy/Godot/JS/PowerPoint prototypes - a hobbyist pasting Grok's answer to their own gamedev question."
+    },
+    {
+      "pid": "9e94f1f4",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Long personal opinion essay comparing Jagienka Klecha (Dom o Zielonych Progach) to Floor Jansen with named Polish songs; no bench-task pattern, animal handle is k4be's default random name."
+    },
+    {
+      "pid": "9d6dec3a",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Animal handle 'Gentle Pelican' with title 'test' and body 'hello from api' - matches the API-smoke-test pattern (e.g. Gjavascript99 'test' in calibration)."
+    },
+    {
+      "pid": "18118b20",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "E2ePHEMERA1.3.8 file-sharing project release with mega.nz/mediafire links, part of a longstanding series of the same author's product promo posts on this site."
+    },
+    {
+      "pid": "159792d9",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Animal handle 'Corrupt Mockingjay' with body 'hello from test' - short smoke-test payload matching the URL-fetcher-test pattern."
+    },
+    {
+      "pid": "316996fe",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Identical 'Alchemical breakdown' joke posted at the same second under two different animal handles (Thundering Macaw / Torrid Zebra) - duplicate-across-handles is a swarm dedup/relay signature."
+    },
+    {
+      "pid": "514333ed",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Second copy of the identical 'Alchemical breakdown' meme posted the same second under 'Torrid Zebra' - only swarm workflows produce byte-identical duplicates across two random-animal handles."
+    },
+    {
+      "pid": "3ae5f54b",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Animal handle 'Subtle Wolf' posting a fully-computed NBA 2015-16 3-point leaders bench answer with source-attribution ('via Google Translate') and derived-average math - classic factual-lookup bench task."
+    },
+    {
+      "pid": "7473fb53",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same E2EPHEMERA author dropping a 'Decentralized HTTP file sharing' release with 4shared/mediafire/terabox links - ongoing human product-promo series."
+    },
+    {
+      "pid": "41c28976",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Animal handle 'Mammoth Camel' but content is a several-KB AVR PT6524 LCD driver in C with datasheet-specific comments - domain hobby code unlikely for a bench task, but the handle-only signal keeps it out of 'human'."
+    },
+    {
+      "pid": "88c7186b",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Animal handle 'Stained Treeshrew' with an LLM-flavored humor essay about SHA-256 of the empty string - no bench-task tell, but the register and handle are ambiguous enough to hold in unclear."
+    },
+    {
+      "pid": "308b0fbc",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Animal handle 'Idiotic Hornbill' posting a long medieval-Latin-styled essay 'DE MYSTERIOSO VEHICULO' that is duplicated hours later under another animal handle - LLM output relayed across handles."
+    },
+    {
+      "pid": "6bcdff33",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Animal handle 'Obese Tern' posting the same 'DE MYSTERIOSO VEHICULO' medieval-treatise text as sibling 308b0fbc - duplicate LLM content across two random-animal handles."
+    },
+    {
+      "pid": "2059934a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Animal handle 'Bulky Macaque' with a QList/std::lower_bound C++ chromatography helper (ChromTreeItem::getRTRangeIterators) - looks like a domain hobbyist snippet but the handle+2025-10 timing keeps it non-human."
+    },
+    {
+      "pid": "ff42b6cb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long first-person Polish/English memoir about a 1970 'Lazur' TV and a father-in-law overtightening ferrite cores, complete with jokes about Radio Free Europe - narrative fiction, not a bench task."
+    },
+    {
+      "pid": "30b2ee6d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal opinion essay about teen boombox culture referencing 'Panascanic'/'SQNY' knockoffs and Polish street stalls - stylized human commentary, no bench tell."
+    },
+    {
+      "pid": "da6169d9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish MSDS-format parody for the hypothetical element 'Frans (Fr)' with GHS pictograms and P-phrases - deliberate Polish-humor scientific-parody genre, not swarm output."
+    },
+    {
+      "pid": "135332a1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'decenhash' author's canonical file-sharing release with 30+ mirror links (mega, mediafire, 4shared, terabox, etc.) - long-running human product promo."
+    },
+    {
+      "pid": "1f645bc3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish 2025 presidential-poll scraper bash pipeline hitting ewybory.eu with pup/awk/sed - a Polish speaker's personal scraping script, no bench artefacts."
+    },
+    {
+      "pid": "e5e6211e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish step-by-step 'SAMSUNG CLP-32x czyszczenie czujnika pasa' printer-repair instructions - hobbyist how-to note in Polish."
+    },
+    {
+      "pid": "73a92d45",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'decenphp1.2.3.1' release from the recurring 'decenphp' author with dozens of file-host mirror URLs - the same human project-promo series."
+    },
+    {
+      "pid": "f94451db",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Handle 't.me/decenphp' explicitly points to the author's Telegram channel and links their decenphp1.2 zip mirrors - human project promoter."
+    },
+    {
+      "pid": "fb7b129e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'AI metal album' post advertising an album titled 'Space Lovervoid - Blackhole Annihilation' with mega/mediafire/4shared mirrors - human creator promotion."
+    },
+    {
+      "pid": "b6a8964e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'PHP_nosql_tools' release with pixpost.atwebpages.com attribution and the same mirror-farm links as the decenhash/decenphp series - same human author promoting."
+    },
+    {
+      "pid": "a51251fd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Two-line droplink.co movie-warez promo titled 'Best Movie H0t' - classic pastebin drive-by spam by a human affiliate."
+    },
+    {
+      "pid": "1447a531",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Random keyboard-mash 'jgjg' / 'ghgh' / 'jggjgjg' from 2021 - trivially a human hitting the paste button."
+    },
+    {
+      "pid": "3a2aec04",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "LTSpice schematic netlist ('Generator Seilera JFET') with WIRE/SYMBOL/SYMATTR directives - electronics hobbyist sharing a circuit file, from 2021 (pre-incident)."
+    },
+    {
+      "pid": "0af9ece5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ESP-IDF FAT filesystem debug session with Polish comments ('jedenaście', 'tutaj ssprawdza') from 2021 - a Polish embedded developer's debug snippet predating the swarm."
+    },
+    {
+      "pid": "510e858c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Classic Polish nursery-rhyme-style poem 'W grzaskich trzcinach i szuwarach kroczy jamnik w szarawarach' from 2021 - a Polish speaker pasting verse, predates the swarm."
+    },
+    {
+      "pid": "f5cd4ee5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long first-person Polish erotic story from 2021 predating the incident - unambiguous human personal-fiction paste."
+    }
+  ]
+}
