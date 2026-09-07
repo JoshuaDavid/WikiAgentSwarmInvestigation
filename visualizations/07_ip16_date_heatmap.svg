@@ -1,0 +1,1248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 884" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">
+<rect x="0" y="0" width="1500" height="884" fill="white"/>
+<text x="740" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#111">Top 60 source /16 subnets: daily revision heatmap</text>
+<text x="740" y="46" text-anchor="middle" fill="#555">Rows ordered by total revisions. Shade = log(revs on that day). Peak cell: 283 revs. Swatch = /8 prefix.</text>
+<rect x="6" y="75" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="83" fill="#111">20.165</text>
+<text x="192" y="83" text-anchor="end" fill="#666">603</text>
+<rect x="200" y="74" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="74.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.165 · 2026-05-24 · 4</title></rect>
+<rect x="254.00" y="74.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.165 · 2026-05-26 · 22</title></rect>
+<rect x="308.00" y="74.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.165 · 2026-05-28 · 9</title></rect>
+<rect x="335.00" y="74.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.165 · 2026-05-29 · 2</title></rect>
+<rect x="362.00" y="74.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.165 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="74.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.165 · 2026-06-01 · 4</title></rect>
+<rect x="578.00" y="74.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.165 · 2026-06-07 · 2</title></rect>
+<rect x="686.00" y="74.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.165 · 2026-06-11 · 6</title></rect>
+<rect x="821.00" y="74.5" width="27.00" height="11" fill="#154d9a" stroke="none"><title>20.165 · 2026-06-16 · 105</title></rect>
+<rect x="848.00" y="74.5" width="27.00" height="11" fill="#1e5bb1" stroke="none"><title>20.165 · 2026-06-17 · 64</title></rect>
+<rect x="875.00" y="74.5" width="27.00" height="11" fill="#083067" stroke="none"><title>20.165 · 2026-06-18 · 283</title></rect>
+<rect x="902.00" y="74.5" width="27.00" height="11" fill="#4e85d1" stroke="none"><title>20.165 · 2026-06-19 · 18</title></rect>
+<rect x="929.00" y="74.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.165 · 2026-06-20 · 16</title></rect>
+<rect x="956.00" y="74.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.165 · 2026-06-21 · 19</title></rect>
+<rect x="983.00" y="74.5" width="27.00" height="11" fill="#2667c2" stroke="none"><title>20.165 · 2026-06-22 · 43</title></rect>
+<rect x="1226.00" y="74.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.165 · 2026-07-01 · 2</title></rect>
+<rect x="1253.00" y="74.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.165 · 2026-07-02 · 3</title></rect>
+<rect x="6" y="87" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="95" fill="#111">20.69</text>
+<text x="192" y="95" text-anchor="end" fill="#666">587</text>
+<rect x="200" y="86" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="86.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.69 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="86.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.69 · 2026-05-26 · 19</title></rect>
+<rect x="281.00" y="86.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.69 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="86.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>20.69 · 2026-05-28 · 17</title></rect>
+<rect x="335.00" y="86.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.69 · 2026-05-29 · 5</title></rect>
+<rect x="362.00" y="86.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.69 · 2026-05-30 · 2</title></rect>
+<rect x="416.00" y="86.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.69 · 2026-06-01 · 3</title></rect>
+<rect x="605.00" y="86.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.69 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="86.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.69 · 2026-06-11 · 7</title></rect>
+<rect x="821.00" y="86.5" width="27.00" height="11" fill="#154d9b" stroke="none"><title>20.69 · 2026-06-16 · 104</title></rect>
+<rect x="848.00" y="86.5" width="27.00" height="11" fill="#2261b9" stroke="none"><title>20.69 · 2026-06-17 · 53</title></rect>
+<rect x="875.00" y="86.5" width="27.00" height="11" fill="#09326b" stroke="none"><title>20.69 · 2026-06-18 · 262</title></rect>
+<rect x="902.00" y="86.5" width="27.00" height="11" fill="#598bd1" stroke="none"><title>20.69 · 2026-06-19 · 15</title></rect>
+<rect x="929.00" y="86.5" width="27.00" height="11" fill="#3877d0" stroke="none"><title>20.69 · 2026-06-20 · 26</title></rect>
+<rect x="956.00" y="86.5" width="27.00" height="11" fill="#3d7ad0" stroke="none"><title>20.69 · 2026-06-21 · 24</title></rect>
+<rect x="983.00" y="86.5" width="27.00" height="11" fill="#2565bf" stroke="none"><title>20.69 · 2026-06-22 · 46</title></rect>
+<rect x="1253.00" y="86.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.69 · 2026-07-02 · 1</title></rect>
+<rect x="6" y="99" width="10" height="10" fill="#cbad4d"><title>57.*</title></rect>
+<text x="24" y="107" fill="#111">57.154</text>
+<text x="192" y="107" text-anchor="end" fill="#666">458</text>
+<rect x="200" y="98" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="98.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>57.154 · 2026-05-24 · 2</title></rect>
+<rect x="254.00" y="98.5" width="27.00" height="11" fill="#4e85d1" stroke="none"><title>57.154 · 2026-05-26 · 18</title></rect>
+<rect x="281.00" y="98.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>57.154 · 2026-05-27 · 3</title></rect>
+<rect x="308.00" y="98.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>57.154 · 2026-05-28 · 5</title></rect>
+<rect x="362.00" y="98.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>57.154 · 2026-05-30 · 3</title></rect>
+<rect x="416.00" y="98.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>57.154 · 2026-06-01 · 7</title></rect>
+<rect x="578.00" y="98.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>57.154 · 2026-06-07 · 1</title></rect>
+<rect x="605.00" y="98.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>57.154 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="98.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>57.154 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="98.5" width="27.00" height="11" fill="#1b57aa" stroke="none"><title>57.154 · 2026-06-16 · 74</title></rect>
+<rect x="848.00" y="98.5" width="27.00" height="11" fill="#296bc7" stroke="none"><title>57.154 · 2026-06-17 · 38</title></rect>
+<rect x="875.00" y="98.5" width="27.00" height="11" fill="#0c3a7a" stroke="none"><title>57.154 · 2026-06-18 · 201</title></rect>
+<rect x="902.00" y="98.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>57.154 · 2026-06-19 · 17</title></rect>
+<rect x="929.00" y="98.5" width="27.00" height="11" fill="#2d70ce" stroke="none"><title>57.154 · 2026-06-20 · 32</title></rect>
+<rect x="956.00" y="98.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>57.154 · 2026-06-21 · 16</title></rect>
+<rect x="983.00" y="98.5" width="27.00" height="11" fill="#2a6cc8" stroke="none"><title>57.154 · 2026-06-22 · 37</title></rect>
+<rect x="6" y="111" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="119" fill="#111">20.171</text>
+<text x="192" y="119" text-anchor="end" fill="#666">455</text>
+<rect x="200" y="110" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="110.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.171 · 2026-05-24 · 2</title></rect>
+<rect x="254.00" y="110.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.171 · 2026-05-26 · 12</title></rect>
+<rect x="281.00" y="110.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.171 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="110.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.171 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="110.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.171 · 2026-05-29 · 4</title></rect>
+<rect x="362.00" y="110.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.171 · 2026-05-30 · 2</title></rect>
+<rect x="389.00" y="110.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.171 · 2026-05-31 · 2</title></rect>
+<rect x="416.00" y="110.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.171 · 2026-06-01 · 6</title></rect>
+<rect x="686.00" y="110.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.171 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="110.5" width="27.00" height="11" fill="#205eb5" stroke="none"><title>20.171 · 2026-06-16 · 59</title></rect>
+<rect x="848.00" y="110.5" width="27.00" height="11" fill="#2362bb" stroke="none"><title>20.171 · 2026-06-17 · 51</title></rect>
+<rect x="875.00" y="110.5" width="27.00" height="11" fill="#0b3877" stroke="none"><title>20.171 · 2026-06-18 · 211</title></rect>
+<rect x="902.00" y="110.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.171 · 2026-06-19 · 16</title></rect>
+<rect x="929.00" y="110.5" width="27.00" height="11" fill="#3d7ad0" stroke="none"><title>20.171 · 2026-06-20 · 24</title></rect>
+<rect x="956.00" y="110.5" width="27.00" height="11" fill="#3877d0" stroke="none"><title>20.171 · 2026-06-21 · 26</title></rect>
+<rect x="983.00" y="110.5" width="27.00" height="11" fill="#2c6fcd" stroke="none"><title>20.171 · 2026-06-22 · 33</title></rect>
+<rect x="6" y="123" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="131" fill="#111">20.97</text>
+<text x="192" y="131" text-anchor="end" fill="#666">417</text>
+<rect x="200" y="122" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="122.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.97 · 2026-05-26 · 12</title></rect>
+<rect x="281.00" y="122.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.97 · 2026-05-27 · 2</title></rect>
+<rect x="308.00" y="122.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.97 · 2026-05-28 · 5</title></rect>
+<rect x="335.00" y="122.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.97 · 2026-05-29 · 1</title></rect>
+<rect x="389.00" y="122.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.97 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="122.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.97 · 2026-06-01 · 4</title></rect>
+<rect x="659.00" y="122.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.97 · 2026-06-10 · 2</title></rect>
+<rect x="686.00" y="122.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.97 · 2026-06-11 · 6</title></rect>
+<rect x="821.00" y="122.5" width="27.00" height="11" fill="#1c57ab" stroke="none"><title>20.97 · 2026-06-16 · 73</title></rect>
+<rect x="848.00" y="122.5" width="27.00" height="11" fill="#2e71d0" stroke="none"><title>20.97 · 2026-06-17 · 31</title></rect>
+<rect x="875.00" y="122.5" width="27.00" height="11" fill="#0c3a7b" stroke="none"><title>20.97 · 2026-06-18 · 196</title></rect>
+<rect x="902.00" y="122.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.97 · 2026-06-19 · 11</title></rect>
+<rect x="929.00" y="122.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.97 · 2026-06-20 · 19</title></rect>
+<rect x="956.00" y="122.5" width="27.00" height="11" fill="#4881d0" stroke="none"><title>20.97 · 2026-06-21 · 20</title></rect>
+<rect x="983.00" y="122.5" width="27.00" height="11" fill="#2b6ecc" stroke="none"><title>20.97 · 2026-06-22 · 34</title></rect>
+<rect x="6" y="135" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="143" fill="#111">20.225</text>
+<text x="192" y="143" text-anchor="end" fill="#666">414</text>
+<rect x="200" y="134" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="134.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.225 · 2026-05-26 · 8</title></rect>
+<rect x="281.00" y="134.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.225 · 2026-05-27 · 2</title></rect>
+<rect x="308.00" y="134.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.225 · 2026-05-28 · 10</title></rect>
+<rect x="335.00" y="134.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.225 · 2026-05-29 · 5</title></rect>
+<rect x="389.00" y="134.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.225 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="134.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.225 · 2026-06-01 · 3</title></rect>
+<rect x="686.00" y="134.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.225 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="134.5" width="27.00" height="11" fill="#1c58ac" stroke="none"><title>20.225 · 2026-06-16 · 72</title></rect>
+<rect x="848.00" y="134.5" width="27.00" height="11" fill="#2769c4" stroke="none"><title>20.225 · 2026-06-17 · 41</title></rect>
+<rect x="875.00" y="134.5" width="27.00" height="11" fill="#0d3b7c" stroke="none"><title>20.225 · 2026-06-18 · 190</title></rect>
+<rect x="902.00" y="134.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.225 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="134.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.225 · 2026-06-20 · 16</title></rect>
+<rect x="956.00" y="134.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.225 · 2026-06-21 · 10</title></rect>
+<rect x="983.00" y="134.5" width="27.00" height="11" fill="#2566c0" stroke="none"><title>20.225 · 2026-06-22 · 45</title></rect>
+<rect x="1253.00" y="134.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.225 · 2026-07-02 · 3</title></rect>
+<rect x="6" y="147" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="155" fill="#111">20.168</text>
+<text x="192" y="155" text-anchor="end" fill="#666">405</text>
+<rect x="200" y="146" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="146.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.168 · 2026-05-24 · 3</title></rect>
+<rect x="254.00" y="146.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.168 · 2026-05-26 · 12</title></rect>
+<rect x="281.00" y="146.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.168 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="146.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.168 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="146.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.168 · 2026-05-29 · 2</title></rect>
+<rect x="362.00" y="146.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.168 · 2026-05-30 · 2</title></rect>
+<rect x="416.00" y="146.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.168 · 2026-06-01 · 7</title></rect>
+<rect x="551.00" y="146.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.168 · 2026-06-06 · 1</title></rect>
+<rect x="686.00" y="146.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.168 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="146.5" width="27.00" height="11" fill="#1b56a9" stroke="none"><title>20.168 · 2026-06-16 · 76</title></rect>
+<rect x="848.00" y="146.5" width="27.00" height="11" fill="#2e71d0" stroke="none"><title>20.168 · 2026-06-17 · 31</title></rect>
+<rect x="875.00" y="146.5" width="27.00" height="11" fill="#0d3c7d" stroke="none"><title>20.168 · 2026-06-18 · 187</title></rect>
+<rect x="902.00" y="146.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>20.168 · 2026-06-19 · 13</title></rect>
+<rect x="929.00" y="146.5" width="27.00" height="11" fill="#3877d0" stroke="none"><title>20.168 · 2026-06-20 · 26</title></rect>
+<rect x="956.00" y="146.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.168 · 2026-06-21 · 10</title></rect>
+<rect x="983.00" y="146.5" width="27.00" height="11" fill="#3375d0" stroke="none"><title>20.168 · 2026-06-22 · 28</title></rect>
+<rect x="1226.00" y="146.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.168 · 2026-07-01 · 1</title></rect>
+<rect x="6" y="159" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="167" fill="#111">20.9</text>
+<text x="192" y="167" text-anchor="end" fill="#666">404</text>
+<rect x="200" y="158" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="158.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.9 · 2026-05-26 · 9</title></rect>
+<rect x="281.00" y="158.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.9 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="158.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.9 · 2026-05-28 · 2</title></rect>
+<rect x="335.00" y="158.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.9 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="158.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.9 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="158.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.9 · 2026-06-01 · 1</title></rect>
+<rect x="578.00" y="158.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.9 · 2026-06-07 · 1</title></rect>
+<rect x="686.00" y="158.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.9 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="158.5" width="27.00" height="11" fill="#1851a2" stroke="none"><title>20.9 · 2026-06-16 · 89</title></rect>
+<rect x="848.00" y="158.5" width="27.00" height="11" fill="#2a6cc8" stroke="none"><title>20.9 · 2026-06-17 · 37</title></rect>
+<rect x="875.00" y="158.5" width="27.00" height="11" fill="#0d3c7e" stroke="none"><title>20.9 · 2026-06-18 · 184</title></rect>
+<rect x="902.00" y="158.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.9 · 2026-06-19 · 19</title></rect>
+<rect x="929.00" y="158.5" width="27.00" height="11" fill="#598bd1" stroke="none"><title>20.9 · 2026-06-20 · 15</title></rect>
+<rect x="956.00" y="158.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.9 · 2026-06-21 · 16</title></rect>
+<rect x="983.00" y="158.5" width="27.00" height="11" fill="#3b79d0" stroke="none"><title>20.9 · 2026-06-22 · 25</title></rect>
+<rect x="6" y="171" width="10" height="10" fill="#a94dcb"><title>4.*</title></rect>
+<text x="24" y="179" fill="#111">4.255</text>
+<text x="192" y="179" text-anchor="end" fill="#666">356</text>
+<rect x="200" y="170" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="170.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>4.255 · 2026-05-26 · 13</title></rect>
+<rect x="281.00" y="170.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.255 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="170.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>4.255 · 2026-05-28 · 8</title></rect>
+<rect x="389.00" y="170.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.255 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="170.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>4.255 · 2026-06-01 · 4</title></rect>
+<rect x="686.00" y="170.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>4.255 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="170.5" width="27.00" height="11" fill="#1e5bb0" stroke="none"><title>4.255 · 2026-06-16 · 65</title></rect>
+<rect x="848.00" y="170.5" width="27.00" height="11" fill="#2a6dca" stroke="none"><title>4.255 · 2026-06-17 · 36</title></rect>
+<rect x="875.00" y="170.5" width="27.00" height="11" fill="#0e3f83" stroke="none"><title>4.255 · 2026-06-18 · 168</title></rect>
+<rect x="902.00" y="170.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>4.255 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="170.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>4.255 · 2026-06-20 · 11</title></rect>
+<rect x="956.00" y="170.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>4.255 · 2026-06-21 · 17</title></rect>
+<rect x="983.00" y="170.5" width="27.00" height="11" fill="#407cd0" stroke="none"><title>4.255 · 2026-06-22 · 23</title></rect>
+<rect x="6" y="183" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="191" fill="#111">20.114</text>
+<text x="192" y="191" text-anchor="end" fill="#666">334</text>
+<rect x="200" y="182" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="182.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.114 · 2026-05-26 · 3</title></rect>
+<rect x="281.00" y="182.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.114 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="182.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.114 · 2026-05-28 · 4</title></rect>
+<rect x="335.00" y="182.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.114 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="182.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.114 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="182.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.114 · 2026-06-01 · 2</title></rect>
+<rect x="551.00" y="182.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.114 · 2026-06-06 · 1</title></rect>
+<rect x="605.00" y="182.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.114 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="182.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.114 · 2026-06-11 · 6</title></rect>
+<rect x="821.00" y="182.5" width="27.00" height="11" fill="#1e5bb1" stroke="none"><title>20.114 · 2026-06-16 · 64</title></rect>
+<rect x="848.00" y="182.5" width="27.00" height="11" fill="#2c6fcd" stroke="none"><title>20.114 · 2026-06-17 · 33</title></rect>
+<rect x="875.00" y="182.5" width="27.00" height="11" fill="#10438a" stroke="none"><title>20.114 · 2026-06-18 · 146</title></rect>
+<rect x="902.00" y="182.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.114 · 2026-06-19 · 12</title></rect>
+<rect x="929.00" y="182.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.114 · 2026-06-20 · 19</title></rect>
+<rect x="956.00" y="182.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.114 · 2026-06-21 · 14</title></rect>
+<rect x="983.00" y="182.5" width="27.00" height="11" fill="#3877d0" stroke="none"><title>20.114 · 2026-06-22 · 26</title></rect>
+<rect x="6" y="195" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="203" fill="#111">20.245</text>
+<text x="192" y="203" text-anchor="end" fill="#666">300</text>
+<rect x="200" y="194" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="194.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.245 · 2026-05-26 · 16</title></rect>
+<rect x="281.00" y="194.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.245 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="194.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.245 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="194.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.245 · 2026-05-29 · 3</title></rect>
+<rect x="362.00" y="194.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.245 · 2026-05-30 · 2</title></rect>
+<rect x="416.00" y="194.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.245 · 2026-06-01 · 2</title></rect>
+<rect x="578.00" y="194.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.245 · 2026-06-07 · 1</title></rect>
+<rect x="686.00" y="194.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.245 · 2026-06-11 · 6</title></rect>
+<rect x="821.00" y="194.5" width="27.00" height="11" fill="#2363bc" stroke="none"><title>20.245 · 2026-06-16 · 50</title></rect>
+<rect x="848.00" y="194.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.245 · 2026-06-17 · 22</title></rect>
+<rect x="875.00" y="194.5" width="27.00" height="11" fill="#12468f" stroke="none"><title>20.245 · 2026-06-18 · 132</title></rect>
+<rect x="902.00" y="194.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>20.245 · 2026-06-19 · 13</title></rect>
+<rect x="929.00" y="194.5" width="27.00" height="11" fill="#4e85d1" stroke="none"><title>20.245 · 2026-06-20 · 18</title></rect>
+<rect x="956.00" y="194.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.245 · 2026-06-21 · 7</title></rect>
+<rect x="983.00" y="194.5" width="27.00" height="11" fill="#407cd0" stroke="none"><title>20.245 · 2026-06-22 · 23</title></rect>
+<rect x="1226.00" y="194.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.245 · 2026-07-01 · 1</title></rect>
+<rect x="6" y="207" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="215" fill="#111">20.80</text>
+<text x="192" y="215" text-anchor="end" fill="#666">289</text>
+<rect x="200" y="206" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="206.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.80 · 2026-05-26 · 9</title></rect>
+<rect x="281.00" y="206.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.80 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="206.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.80 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="206.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.80 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="206.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.80 · 2026-06-01 · 4</title></rect>
+<rect x="605.00" y="206.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.80 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="206.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.80 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="206.5" width="27.00" height="11" fill="#2464be" stroke="none"><title>20.80 · 2026-06-16 · 48</title></rect>
+<rect x="848.00" y="206.5" width="27.00" height="11" fill="#3b79d0" stroke="none"><title>20.80 · 2026-06-17 · 25</title></rect>
+<rect x="875.00" y="206.5" width="27.00" height="11" fill="#11458d" stroke="none"><title>20.80 · 2026-06-18 · 137</title></rect>
+<rect x="902.00" y="206.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.80 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="206.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.80 · 2026-06-20 · 14</title></rect>
+<rect x="956.00" y="206.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.80 · 2026-06-21 · 14</title></rect>
+<rect x="983.00" y="206.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.80 · 2026-06-22 · 22</title></rect>
+<rect x="6" y="219" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="227" fill="#111">20.29</text>
+<text x="192" y="227" text-anchor="end" fill="#666">275</text>
+<rect x="200" y="218" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="218.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.29 · 2026-05-26 · 11</title></rect>
+<rect x="308.00" y="218.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.29 · 2026-05-28 · 2</title></rect>
+<rect x="335.00" y="218.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.29 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="218.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.29 · 2026-06-01 · 2</title></rect>
+<rect x="551.00" y="218.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.29 · 2026-06-06 · 1</title></rect>
+<rect x="605.00" y="218.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.29 · 2026-06-08 · 1</title></rect>
+<rect x="632.00" y="218.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.29 · 2026-06-09 · 1</title></rect>
+<rect x="686.00" y="218.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.29 · 2026-06-11 · 4</title></rect>
+<rect x="821.00" y="218.5" width="27.00" height="11" fill="#2465be" stroke="none"><title>20.29 · 2026-06-16 · 47</title></rect>
+<rect x="848.00" y="218.5" width="27.00" height="11" fill="#3d7ad0" stroke="none"><title>20.29 · 2026-06-17 · 24</title></rect>
+<rect x="875.00" y="218.5" width="27.00" height="11" fill="#124690" stroke="none"><title>20.29 · 2026-06-18 · 130</title></rect>
+<rect x="902.00" y="218.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.29 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="218.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.29 · 2026-06-20 · 8</title></rect>
+<rect x="956.00" y="218.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.29 · 2026-06-21 · 14</title></rect>
+<rect x="983.00" y="218.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.29 · 2026-06-22 · 22</title></rect>
+<rect x="6" y="231" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="239" fill="#111">20.12</text>
+<text x="192" y="239" text-anchor="end" fill="#666">263</text>
+<rect x="200" y="230" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="230.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.12 · 2026-05-26 · 9</title></rect>
+<rect x="308.00" y="230.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.12 · 2026-05-28 · 1</title></rect>
+<rect x="335.00" y="230.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.12 · 2026-05-29 · 2</title></rect>
+<rect x="362.00" y="230.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.12 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="230.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.12 · 2026-06-01 · 2</title></rect>
+<rect x="605.00" y="230.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.12 · 2026-06-08 · 1</title></rect>
+<rect x="632.00" y="230.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.12 · 2026-06-09 · 1</title></rect>
+<rect x="686.00" y="230.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.12 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="230.5" width="27.00" height="11" fill="#205fb6" stroke="none"><title>20.12 · 2026-06-16 · 57</title></rect>
+<rect x="848.00" y="230.5" width="27.00" height="11" fill="#457fd0" stroke="none"><title>20.12 · 2026-06-17 · 21</title></rect>
+<rect x="875.00" y="230.5" width="27.00" height="11" fill="#144b97" stroke="none"><title>20.12 · 2026-06-18 · 112</title></rect>
+<rect x="902.00" y="230.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.12 · 2026-06-19 · 8</title></rect>
+<rect x="929.00" y="230.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>20.12 · 2026-06-20 · 13</title></rect>
+<rect x="956.00" y="230.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>20.12 · 2026-06-21 · 13</title></rect>
+<rect x="983.00" y="230.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.12 · 2026-06-22 · 19</title></rect>
+<rect x="1253.00" y="230.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.12 · 2026-07-02 · 1</title></rect>
+<rect x="6" y="243" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="251" fill="#111">20.172</text>
+<text x="192" y="251" text-anchor="end" fill="#666">259</text>
+<rect x="200" y="242" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="242.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.172 · 2026-05-26 · 14</title></rect>
+<rect x="308.00" y="242.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.172 · 2026-05-28 · 5</title></rect>
+<rect x="335.00" y="242.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.172 · 2026-05-29 · 2</title></rect>
+<rect x="362.00" y="242.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.172 · 2026-05-30 · 1</title></rect>
+<rect x="389.00" y="242.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.172 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="242.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.172 · 2026-06-01 · 3</title></rect>
+<rect x="497.00" y="242.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.172 · 2026-06-04 · 1</title></rect>
+<rect x="551.00" y="242.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.172 · 2026-06-06 · 1</title></rect>
+<rect x="578.00" y="242.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.172 · 2026-06-07 · 1</title></rect>
+<rect x="686.00" y="242.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.172 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="242.5" width="27.00" height="11" fill="#296bc7" stroke="none"><title>20.172 · 2026-06-16 · 38</title></rect>
+<rect x="848.00" y="242.5" width="27.00" height="11" fill="#4e85d1" stroke="none"><title>20.172 · 2026-06-17 · 18</title></rect>
+<rect x="875.00" y="242.5" width="27.00" height="11" fill="#134994" stroke="none"><title>20.172 · 2026-06-18 · 119</title></rect>
+<rect x="902.00" y="242.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.172 · 2026-06-19 · 9</title></rect>
+<rect x="929.00" y="242.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.172 · 2026-06-20 · 14</title></rect>
+<rect x="956.00" y="242.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.172 · 2026-06-21 · 10</title></rect>
+<rect x="983.00" y="242.5" width="27.00" height="11" fill="#4881d0" stroke="none"><title>20.172 · 2026-06-22 · 20</title></rect>
+<rect x="6" y="255" width="10" height="10" fill="#4d60cb"><title>135.*</title></rect>
+<text x="24" y="263" fill="#111">135.232</text>
+<text x="192" y="263" text-anchor="end" fill="#666">247</text>
+<rect x="200" y="254" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="254.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>135.232 · 2026-05-24 · 3</title></rect>
+<rect x="254.00" y="254.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>135.232 · 2026-05-26 · 6</title></rect>
+<rect x="281.00" y="254.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>135.232 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="254.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>135.232 · 2026-05-28 · 2</title></rect>
+<rect x="335.00" y="254.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>135.232 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="254.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>135.232 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="254.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>135.232 · 2026-06-01 · 4</title></rect>
+<rect x="686.00" y="254.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>135.232 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="254.5" width="27.00" height="11" fill="#2869c5" stroke="none"><title>135.232 · 2026-06-16 · 40</title></rect>
+<rect x="848.00" y="254.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>135.232 · 2026-06-17 · 22</title></rect>
+<rect x="875.00" y="254.5" width="27.00" height="11" fill="#134994" stroke="none"><title>135.232 · 2026-06-18 · 119</title></rect>
+<rect x="902.00" y="254.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>135.232 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="254.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>135.232 · 2026-06-20 · 9</title></rect>
+<rect x="956.00" y="254.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>135.232 · 2026-06-21 · 8</title></rect>
+<rect x="983.00" y="254.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>135.232 · 2026-06-22 · 22</title></rect>
+<rect x="6" y="267" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="275" fill="#111">20.230</text>
+<text x="192" y="275" text-anchor="end" fill="#666">239</text>
+<rect x="200" y="266" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="266.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.230 · 2026-05-26 · 9</title></rect>
+<rect x="281.00" y="266.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.230 · 2026-05-27 · 2</title></rect>
+<rect x="308.00" y="266.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.230 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="266.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.230 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="266.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.230 · 2026-06-01 · 2</title></rect>
+<rect x="443.00" y="266.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.230 · 2026-06-02 · 1</title></rect>
+<rect x="551.00" y="266.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.230 · 2026-06-06 · 1</title></rect>
+<rect x="686.00" y="266.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.230 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="266.5" width="27.00" height="11" fill="#2768c3" stroke="none"><title>20.230 · 2026-06-16 · 42</title></rect>
+<rect x="848.00" y="266.5" width="27.00" height="11" fill="#457fd0" stroke="none"><title>20.230 · 2026-06-17 · 21</title></rect>
+<rect x="875.00" y="266.5" width="27.00" height="11" fill="#154d9a" stroke="none"><title>20.230 · 2026-06-18 · 105</title></rect>
+<rect x="902.00" y="266.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.230 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="266.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.230 · 2026-06-20 · 16</title></rect>
+<rect x="956.00" y="266.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.230 · 2026-06-21 · 12</title></rect>
+<rect x="983.00" y="266.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>20.230 · 2026-06-22 · 17</title></rect>
+<rect x="6" y="279" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="287" fill="#111">20.65</text>
+<text x="192" y="287" text-anchor="end" fill="#666">235</text>
+<rect x="200" y="278" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="278.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.65 · 2026-05-26 · 4</title></rect>
+<rect x="308.00" y="278.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.65 · 2026-05-28 · 4</title></rect>
+<rect x="335.00" y="278.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.65 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="278.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.65 · 2026-06-01 · 1</title></rect>
+<rect x="524.00" y="278.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.65 · 2026-06-05 · 1</title></rect>
+<rect x="578.00" y="278.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.65 · 2026-06-07 · 1</title></rect>
+<rect x="686.00" y="278.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.65 · 2026-06-11 · 5</title></rect>
+<rect x="821.00" y="278.5" width="27.00" height="11" fill="#2f72d0" stroke="none"><title>20.65 · 2026-06-16 · 30</title></rect>
+<rect x="848.00" y="278.5" width="27.00" height="11" fill="#3877d0" stroke="none"><title>20.65 · 2026-06-17 · 26</title></rect>
+<rect x="875.00" y="278.5" width="27.00" height="11" fill="#154c99" stroke="none"><title>20.65 · 2026-06-18 · 108</title></rect>
+<rect x="902.00" y="278.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.65 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="278.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.65 · 2026-06-20 · 8</title></rect>
+<rect x="956.00" y="278.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.65 · 2026-06-21 · 9</title></rect>
+<rect x="983.00" y="278.5" width="27.00" height="11" fill="#2f72d0" stroke="none"><title>20.65 · 2026-06-22 · 30</title></rect>
+<rect x="6" y="291" width="10" height="10" fill="#cb4dc7"><title>64.*</title></rect>
+<text x="24" y="299" fill="#111">64.236</text>
+<text x="192" y="299" text-anchor="end" fill="#666">234</text>
+<rect x="200" y="290" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="290.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>64.236 · 2026-05-26 · 5</title></rect>
+<rect x="281.00" y="290.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>64.236 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="290.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>64.236 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="290.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>64.236 · 2026-05-29 · 1</title></rect>
+<rect x="686.00" y="290.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>64.236 · 2026-06-11 · 4</title></rect>
+<rect x="821.00" y="290.5" width="27.00" height="11" fill="#2464be" stroke="none"><title>64.236 · 2026-06-16 · 48</title></rect>
+<rect x="848.00" y="290.5" width="27.00" height="11" fill="#3173d0" stroke="none"><title>64.236 · 2026-06-17 · 29</title></rect>
+<rect x="875.00" y="290.5" width="27.00" height="11" fill="#164e9d" stroke="none"><title>64.236 · 2026-06-18 · 99</title></rect>
+<rect x="902.00" y="290.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>64.236 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="290.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>64.236 · 2026-06-20 · 11</title></rect>
+<rect x="956.00" y="290.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>64.236 · 2026-06-21 · 9</title></rect>
+<rect x="983.00" y="290.5" width="27.00" height="11" fill="#4881d0" stroke="none"><title>64.236 · 2026-06-22 · 20</title></rect>
+<rect x="6" y="303" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="311" fill="#111">20.98</text>
+<text x="192" y="311" text-anchor="end" fill="#666">224</text>
+<rect x="200" y="302" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="302.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.98 · 2026-05-26 · 7</title></rect>
+<rect x="281.00" y="302.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.98 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="302.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.98 · 2026-05-28 · 4</title></rect>
+<rect x="335.00" y="302.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.98 · 2026-05-29 · 2</title></rect>
+<rect x="362.00" y="302.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.98 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="302.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.98 · 2026-06-01 · 1</title></rect>
+<rect x="443.00" y="302.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.98 · 2026-06-02 · 1</title></rect>
+<rect x="551.00" y="302.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.98 · 2026-06-06 · 1</title></rect>
+<rect x="686.00" y="302.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.98 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="302.5" width="27.00" height="11" fill="#2a6dca" stroke="none"><title>20.98 · 2026-06-16 · 36</title></rect>
+<rect x="848.00" y="302.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.98 · 2026-06-17 · 19</title></rect>
+<rect x="875.00" y="302.5" width="27.00" height="11" fill="#164e9c" stroke="none"><title>20.98 · 2026-06-18 · 100</title></rect>
+<rect x="902.00" y="302.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.98 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="302.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.98 · 2026-06-20 · 10</title></rect>
+<rect x="956.00" y="302.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>20.98 · 2026-06-21 · 13</title></rect>
+<rect x="983.00" y="302.5" width="27.00" height="11" fill="#4881d0" stroke="none"><title>20.98 · 2026-06-22 · 20</title></rect>
+<rect x="6" y="315" width="10" height="10" fill="#9fcb4d"><title>52.*</title></rect>
+<text x="24" y="323" fill="#111">52.159</text>
+<text x="192" y="323" text-anchor="end" fill="#666">220</text>
+<rect x="200" y="314" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="314.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.159 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="314.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>52.159 · 2026-05-26 · 5</title></rect>
+<rect x="281.00" y="314.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.159 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="314.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.159 · 2026-05-28 · 2</title></rect>
+<rect x="362.00" y="314.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.159 · 2026-05-30 · 3</title></rect>
+<rect x="389.00" y="314.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.159 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="314.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.159 · 2026-06-01 · 1</title></rect>
+<rect x="605.00" y="314.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.159 · 2026-06-08 · 2</title></rect>
+<rect x="686.00" y="314.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.159 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="314.5" width="27.00" height="11" fill="#2b6ecc" stroke="none"><title>52.159 · 2026-06-16 · 34</title></rect>
+<rect x="848.00" y="314.5" width="27.00" height="11" fill="#3d7ad0" stroke="none"><title>52.159 · 2026-06-17 · 24</title></rect>
+<rect x="875.00" y="314.5" width="27.00" height="11" fill="#154d9a" stroke="none"><title>52.159 · 2026-06-18 · 105</title></rect>
+<rect x="902.00" y="314.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>52.159 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="314.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>52.159 · 2026-06-20 · 9</title></rect>
+<rect x="956.00" y="314.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>52.159 · 2026-06-21 · 9</title></rect>
+<rect x="983.00" y="314.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>52.159 · 2026-06-22 · 14</title></rect>
+<rect x="1226.00" y="314.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.159 · 2026-07-01 · 1</title></rect>
+<rect x="1253.00" y="314.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.159 · 2026-07-02 · 1</title></rect>
+<rect x="6" y="327" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="335" fill="#111">20.45</text>
+<text x="192" y="335" text-anchor="end" fill="#666">209</text>
+<rect x="200" y="326" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="326.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.45 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="326.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.45 · 2026-05-26 · 6</title></rect>
+<rect x="308.00" y="326.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.45 · 2026-05-28 · 6</title></rect>
+<rect x="362.00" y="326.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.45 · 2026-05-30 · 1</title></rect>
+<rect x="389.00" y="326.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.45 · 2026-05-31 · 1</title></rect>
+<rect x="686.00" y="326.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.45 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="326.5" width="27.00" height="11" fill="#2b6dcb" stroke="none"><title>20.45 · 2026-06-16 · 35</title></rect>
+<rect x="848.00" y="326.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.45 · 2026-06-17 · 19</title></rect>
+<rect x="875.00" y="326.5" width="27.00" height="11" fill="#164f9e" stroke="none"><title>20.45 · 2026-06-18 · 97</title></rect>
+<rect x="902.00" y="326.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.45 · 2026-06-19 · 10</title></rect>
+<rect x="929.00" y="326.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.45 · 2026-06-20 · 11</title></rect>
+<rect x="956.00" y="326.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.45 · 2026-06-21 · 9</title></rect>
+<rect x="983.00" y="326.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.45 · 2026-06-22 · 12</title></rect>
+<rect x="6" y="339" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="347" fill="#111">20.110</text>
+<text x="192" y="347" text-anchor="end" fill="#666">197</text>
+<rect x="200" y="338" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="338.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.110 · 2026-05-26 · 5</title></rect>
+<rect x="335.00" y="338.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.110 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="338.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.110 · 2026-06-01 · 3</title></rect>
+<rect x="686.00" y="338.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.110 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="338.5" width="27.00" height="11" fill="#2a6cc8" stroke="none"><title>20.110 · 2026-06-16 · 37</title></rect>
+<rect x="848.00" y="338.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.110 · 2026-06-17 · 19</title></rect>
+<rect x="875.00" y="338.5" width="27.00" height="11" fill="#164e9d" stroke="none"><title>20.110 · 2026-06-18 · 99</title></rect>
+<rect x="902.00" y="338.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.110 · 2026-06-19 · 2</title></rect>
+<rect x="929.00" y="338.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.110 · 2026-06-20 · 8</title></rect>
+<rect x="956.00" y="338.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.110 · 2026-06-21 · 6</title></rect>
+<rect x="983.00" y="338.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.110 · 2026-06-22 · 14</title></rect>
+<rect x="1253.00" y="338.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.110 · 2026-07-02 · 2</title></rect>
+<rect x="6" y="351" width="10" height="10" fill="#a94dcb"><title>4.*</title></rect>
+<text x="24" y="359" fill="#111">4.227</text>
+<text x="192" y="359" text-anchor="end" fill="#666">182</text>
+<rect x="200" y="350" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="350.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.227 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="350.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.227 · 2026-05-26 · 2</title></rect>
+<rect x="308.00" y="350.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.227 · 2026-05-28 · 1</title></rect>
+<rect x="335.00" y="350.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.227 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="350.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.227 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="350.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.227 · 2026-06-01 · 2</title></rect>
+<rect x="686.00" y="350.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.227 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="350.5" width="27.00" height="11" fill="#3d7ad0" stroke="none"><title>4.227 · 2026-06-16 · 24</title></rect>
+<rect x="848.00" y="350.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>4.227 · 2026-06-17 · 14</title></rect>
+<rect x="875.00" y="350.5" width="27.00" height="11" fill="#17509f" stroke="none"><title>4.227 · 2026-06-18 · 95</title></rect>
+<rect x="902.00" y="350.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>4.227 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="350.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>4.227 · 2026-06-20 · 12</title></rect>
+<rect x="956.00" y="350.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>4.227 · 2026-06-21 · 8</title></rect>
+<rect x="983.00" y="350.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>4.227 · 2026-06-22 · 14</title></rect>
+<rect x="6" y="363" width="10" height="10" fill="#9fcb4d"><title>52.*</title></rect>
+<text x="24" y="371" fill="#111">52.162</text>
+<text x="192" y="371" text-anchor="end" fill="#666">182</text>
+<rect x="200" y="362" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="362.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.162 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="362.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>52.162 · 2026-05-26 · 5</title></rect>
+<rect x="281.00" y="362.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.162 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="362.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.162 · 2026-05-28 · 2</title></rect>
+<rect x="362.00" y="362.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.162 · 2026-05-30 · 2</title></rect>
+<rect x="416.00" y="362.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.162 · 2026-06-01 · 2</title></rect>
+<rect x="551.00" y="362.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.162 · 2026-06-06 · 1</title></rect>
+<rect x="578.00" y="362.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.162 · 2026-06-07 · 2</title></rect>
+<rect x="632.00" y="362.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.162 · 2026-06-09 · 2</title></rect>
+<rect x="686.00" y="362.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.162 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="362.5" width="27.00" height="11" fill="#2a6dca" stroke="none"><title>52.162 · 2026-06-16 · 36</title></rect>
+<rect x="848.00" y="362.5" width="27.00" height="11" fill="#598bd1" stroke="none"><title>52.162 · 2026-06-17 · 15</title></rect>
+<rect x="875.00" y="362.5" width="27.00" height="11" fill="#1852a3" stroke="none"><title>52.162 · 2026-06-18 · 87</title></rect>
+<rect x="902.00" y="362.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.162 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="362.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>52.162 · 2026-06-20 · 6</title></rect>
+<rect x="956.00" y="362.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.162 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="362.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>52.162 · 2026-06-22 · 12</title></rect>
+<rect x="6" y="375" width="10" height="10" fill="#834dcb"><title>130.*</title></rect>
+<text x="24" y="383" fill="#111">130.131</text>
+<text x="192" y="383" text-anchor="end" fill="#666">176</text>
+<rect x="200" y="374" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="374.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>130.131 · 2026-05-26 · 9</title></rect>
+<rect x="281.00" y="374.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>130.131 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="374.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>130.131 · 2026-05-28 · 4</title></rect>
+<rect x="389.00" y="374.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>130.131 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="374.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>130.131 · 2026-06-01 · 3</title></rect>
+<rect x="497.00" y="374.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>130.131 · 2026-06-04 · 1</title></rect>
+<rect x="686.00" y="374.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>130.131 · 2026-06-11 · 5</title></rect>
+<rect x="821.00" y="374.5" width="27.00" height="11" fill="#2f72d0" stroke="none"><title>130.131 · 2026-06-16 · 30</title></rect>
+<rect x="848.00" y="374.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>130.131 · 2026-06-17 · 11</title></rect>
+<rect x="875.00" y="374.5" width="27.00" height="11" fill="#1954a5" stroke="none"><title>130.131 · 2026-06-18 · 83</title></rect>
+<rect x="902.00" y="374.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>130.131 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="374.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>130.131 · 2026-06-20 · 6</title></rect>
+<rect x="956.00" y="374.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>130.131 · 2026-06-21 · 7</title></rect>
+<rect x="983.00" y="374.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>130.131 · 2026-06-22 · 12</title></rect>
+<rect x="6" y="387" width="10" height="10" fill="#cb4d90"><title>172.*</title></rect>
+<text x="24" y="395" fill="#111">172.184</text>
+<text x="192" y="395" text-anchor="end" fill="#666">169</text>
+<rect x="200" y="386" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="386.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>172.184 · 2026-05-24 · 3</title></rect>
+<rect x="254.00" y="386.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>172.184 · 2026-05-26 · 6</title></rect>
+<rect x="281.00" y="386.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.184 · 2026-05-27 · 1</title></rect>
+<rect x="416.00" y="386.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>172.184 · 2026-06-01 · 4</title></rect>
+<rect x="632.00" y="386.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.184 · 2026-06-09 · 1</title></rect>
+<rect x="686.00" y="386.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.184 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="386.5" width="27.00" height="11" fill="#3676d0" stroke="none"><title>172.184 · 2026-06-16 · 27</title></rect>
+<rect x="848.00" y="386.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>172.184 · 2026-06-17 · 12</title></rect>
+<rect x="875.00" y="386.5" width="27.00" height="11" fill="#1c58ac" stroke="none"><title>172.184 · 2026-06-18 · 72</title></rect>
+<rect x="902.00" y="386.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>172.184 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="386.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>172.184 · 2026-06-20 · 5</title></rect>
+<rect x="956.00" y="386.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>172.184 · 2026-06-21 · 17</title></rect>
+<rect x="983.00" y="386.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>172.184 · 2026-06-22 · 13</title></rect>
+<rect x="6" y="399" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="407" fill="#111">20.237</text>
+<text x="192" y="407" text-anchor="end" fill="#666">167</text>
+<rect x="200" y="398" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="398.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.237 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="398.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.237 · 2026-05-26 · 6</title></rect>
+<rect x="335.00" y="398.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.237 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="398.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.237 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="398.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.237 · 2026-06-01 · 2</title></rect>
+<rect x="686.00" y="398.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.237 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="398.5" width="27.00" height="11" fill="#296bc7" stroke="none"><title>20.237 · 2026-06-16 · 38</title></rect>
+<rect x="848.00" y="398.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.237 · 2026-06-17 · 16</title></rect>
+<rect x="875.00" y="398.5" width="27.00" height="11" fill="#1d59ae" stroke="none"><title>20.237 · 2026-06-18 · 68</title></rect>
+<rect x="902.00" y="398.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.237 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="398.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.237 · 2026-06-20 · 10</title></rect>
+<rect x="956.00" y="398.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.237 · 2026-06-21 · 6</title></rect>
+<rect x="983.00" y="398.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.237 · 2026-06-22 · 10</title></rect>
+<rect x="6" y="411" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="419" fill="#111">20.94</text>
+<text x="192" y="419" text-anchor="end" fill="#666">167</text>
+<rect x="200" y="410" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="410.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.94 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="410.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.94 · 2026-05-26 · 3</title></rect>
+<rect x="308.00" y="410.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.94 · 2026-05-28 · 3</title></rect>
+<rect x="416.00" y="410.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.94 · 2026-06-01 · 1</title></rect>
+<rect x="605.00" y="410.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.94 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="410.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.94 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="410.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.94 · 2026-06-16 · 22</title></rect>
+<rect x="848.00" y="410.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.94 · 2026-06-17 · 14</title></rect>
+<rect x="875.00" y="410.5" width="27.00" height="11" fill="#1a55a7" stroke="none"><title>20.94 · 2026-06-18 · 79</title></rect>
+<rect x="902.00" y="410.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.94 · 2026-06-19 · 8</title></rect>
+<rect x="929.00" y="410.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.94 · 2026-06-20 · 9</title></rect>
+<rect x="956.00" y="410.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.94 · 2026-06-21 · 8</title></rect>
+<rect x="983.00" y="410.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.94 · 2026-06-22 · 16</title></rect>
+<rect x="6" y="423" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="431" fill="#111">20.163</text>
+<text x="192" y="431" text-anchor="end" fill="#666">157</text>
+<rect x="200" y="422" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="422.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.163 · 2026-05-26 · 4</title></rect>
+<rect x="308.00" y="422.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.163 · 2026-05-28 · 5</title></rect>
+<rect x="335.00" y="422.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.163 · 2026-05-29 · 2</title></rect>
+<rect x="686.00" y="422.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.163 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="422.5" width="27.00" height="11" fill="#3173d0" stroke="none"><title>20.163 · 2026-06-16 · 29</title></rect>
+<rect x="848.00" y="422.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.163 · 2026-06-17 · 10</title></rect>
+<rect x="875.00" y="422.5" width="27.00" height="11" fill="#1b57aa" stroke="none"><title>20.163 · 2026-06-18 · 75</title></rect>
+<rect x="902.00" y="422.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.163 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="422.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.163 · 2026-06-20 · 7</title></rect>
+<rect x="956.00" y="422.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.163 · 2026-06-21 · 6</title></rect>
+<rect x="983.00" y="422.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.163 · 2026-06-22 · 14</title></rect>
+<rect x="6" y="435" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="443" fill="#111">20.83</text>
+<text x="192" y="443" text-anchor="end" fill="#666">157</text>
+<rect x="200" y="434" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="434.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.83 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="434.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.83 · 2026-05-26 · 5</title></rect>
+<rect x="281.00" y="434.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.83 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="434.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.83 · 2026-05-28 · 6</title></rect>
+<rect x="335.00" y="434.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.83 · 2026-05-29 · 2</title></rect>
+<rect x="416.00" y="434.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.83 · 2026-06-01 · 1</title></rect>
+<rect x="605.00" y="434.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.83 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="434.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.83 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="434.5" width="27.00" height="11" fill="#2c6fcd" stroke="none"><title>20.83 · 2026-06-16 · 33</title></rect>
+<rect x="848.00" y="434.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.83 · 2026-06-17 · 8</title></rect>
+<rect x="875.00" y="434.5" width="27.00" height="11" fill="#1c59ad" stroke="none"><title>20.83 · 2026-06-18 · 70</title></rect>
+<rect x="902.00" y="434.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.83 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="434.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.83 · 2026-06-20 · 7</title></rect>
+<rect x="956.00" y="434.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.83 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="434.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.83 · 2026-06-22 · 12</title></rect>
+<rect x="6" y="447" width="10" height="10" fill="#a94dcb"><title>4.*</title></rect>
+<text x="24" y="455" fill="#111">4.154</text>
+<text x="192" y="455" text-anchor="end" fill="#666">155</text>
+<rect x="200" y="446" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="446.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>4.154 · 2026-05-26 · 8</title></rect>
+<rect x="281.00" y="446.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.154 · 2026-05-27 · 2</title></rect>
+<rect x="308.00" y="446.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.154 · 2026-05-28 · 1</title></rect>
+<rect x="335.00" y="446.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>4.154 · 2026-05-29 · 3</title></rect>
+<rect x="362.00" y="446.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.154 · 2026-05-30 · 2</title></rect>
+<rect x="416.00" y="446.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>4.154 · 2026-06-01 · 3</title></rect>
+<rect x="686.00" y="446.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.154 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="446.5" width="27.00" height="11" fill="#407cd0" stroke="none"><title>4.154 · 2026-06-16 · 23</title></rect>
+<rect x="848.00" y="446.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>4.154 · 2026-06-17 · 14</title></rect>
+<rect x="875.00" y="446.5" width="27.00" height="11" fill="#1c58ac" stroke="none"><title>4.154 · 2026-06-18 · 71</title></rect>
+<rect x="902.00" y="446.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>4.154 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="446.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>4.154 · 2026-06-20 · 6</title></rect>
+<rect x="956.00" y="446.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>4.154 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="446.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>4.154 · 2026-06-22 · 11</title></rect>
+<rect x="6" y="459" width="10" height="10" fill="#cb704d"><title>23.*</title></rect>
+<text x="24" y="467" fill="#111">23.100</text>
+<text x="192" y="467" text-anchor="end" fill="#666">152</text>
+<rect x="200" y="458" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="458.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>23.100 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="458.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>23.100 · 2026-05-26 · 5</title></rect>
+<rect x="362.00" y="458.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>23.100 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="458.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>23.100 · 2026-06-01 · 1</title></rect>
+<rect x="524.00" y="458.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>23.100 · 2026-06-05 · 1</title></rect>
+<rect x="686.00" y="458.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>23.100 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="458.5" width="27.00" height="11" fill="#2a6dca" stroke="none"><title>23.100 · 2026-06-16 · 36</title></rect>
+<rect x="848.00" y="458.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>23.100 · 2026-06-17 · 14</title></rect>
+<rect x="875.00" y="458.5" width="27.00" height="11" fill="#1d5ab0" stroke="none"><title>23.100 · 2026-06-18 · 66</title></rect>
+<rect x="902.00" y="458.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>23.100 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="458.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>23.100 · 2026-06-20 · 9</title></rect>
+<rect x="983.00" y="458.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>23.100 · 2026-06-22 · 11</title></rect>
+<rect x="6" y="471" width="10" height="10" fill="#a94dcb"><title>4.*</title></rect>
+<text x="24" y="479" fill="#111">4.151</text>
+<text x="192" y="479" text-anchor="end" fill="#666">148</text>
+<rect x="200" y="470" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="470.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>4.151 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="470.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>4.151 · 2026-05-26 · 8</title></rect>
+<rect x="308.00" y="470.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.151 · 2026-05-28 · 2</title></rect>
+<rect x="416.00" y="470.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>4.151 · 2026-06-01 · 2</title></rect>
+<rect x="686.00" y="470.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>4.151 · 2026-06-11 · 3</title></rect>
+<rect x="821.00" y="470.5" width="27.00" height="11" fill="#3173d0" stroke="none"><title>4.151 · 2026-06-16 · 29</title></rect>
+<rect x="848.00" y="470.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>4.151 · 2026-06-17 · 12</title></rect>
+<rect x="875.00" y="470.5" width="27.00" height="11" fill="#1e5cb2" stroke="none"><title>4.151 · 2026-06-18 · 63</title></rect>
+<rect x="902.00" y="470.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>4.151 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="470.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>4.151 · 2026-06-20 · 5</title></rect>
+<rect x="956.00" y="470.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>4.151 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="470.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>4.151 · 2026-06-22 · 12</title></rect>
+<rect x="6" y="483" width="10" height="10" fill="#cb4d90"><title>172.*</title></rect>
+<text x="24" y="491" fill="#111">172.212</text>
+<text x="192" y="491" text-anchor="end" fill="#666">147</text>
+<rect x="200" y="482" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="482.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.212 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="482.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>172.212 · 2026-05-26 · 4</title></rect>
+<rect x="281.00" y="482.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.212 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="482.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>172.212 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="482.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.212 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="482.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.212 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="482.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>172.212 · 2026-06-01 · 3</title></rect>
+<rect x="659.00" y="482.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>172.212 · 2026-06-10 · 2</title></rect>
+<rect x="686.00" y="482.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.212 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="482.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>172.212 · 2026-06-16 · 14</title></rect>
+<rect x="848.00" y="482.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>172.212 · 2026-06-17 · 11</title></rect>
+<rect x="875.00" y="482.5" width="27.00" height="11" fill="#1c58ac" stroke="none"><title>172.212 · 2026-06-18 · 72</title></rect>
+<rect x="902.00" y="482.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>172.212 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="482.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>172.212 · 2026-06-20 · 7</title></rect>
+<rect x="956.00" y="482.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>172.212 · 2026-06-21 · 7</title></rect>
+<rect x="983.00" y="482.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>172.212 · 2026-06-22 · 12</title></rect>
+<rect x="6" y="495" width="10" height="10" fill="#684dcb"><title>104.*</title></rect>
+<text x="24" y="503" fill="#111">104.42</text>
+<text x="192" y="503" text-anchor="end" fill="#666">141</text>
+<rect x="200" y="494" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="494.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>104.42 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="494.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>104.42 · 2026-05-26 · 1</title></rect>
+<rect x="362.00" y="494.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>104.42 · 2026-05-30 · 1</title></rect>
+<rect x="686.00" y="494.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>104.42 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="494.5" width="27.00" height="11" fill="#2b6ecc" stroke="none"><title>104.42 · 2026-06-16 · 34</title></rect>
+<rect x="848.00" y="494.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>104.42 · 2026-06-17 · 12</title></rect>
+<rect x="875.00" y="494.5" width="27.00" height="11" fill="#1c59ad" stroke="none"><title>104.42 · 2026-06-18 · 70</title></rect>
+<rect x="902.00" y="494.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>104.42 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="494.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>104.42 · 2026-06-20 · 3</title></rect>
+<rect x="956.00" y="494.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>104.42 · 2026-06-21 · 6</title></rect>
+<rect x="983.00" y="494.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>104.42 · 2026-06-22 · 9</title></rect>
+<rect x="6" y="507" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="515" fill="#111">20.66</text>
+<text x="192" y="515" text-anchor="end" fill="#666">137</text>
+<rect x="200" y="506" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="506.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.66 · 2026-05-26 · 3</title></rect>
+<rect x="308.00" y="506.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.66 · 2026-05-28 · 4</title></rect>
+<rect x="335.00" y="506.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.66 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="506.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.66 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="506.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.66 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="506.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.66 · 2026-06-16 · 22</title></rect>
+<rect x="848.00" y="506.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.66 · 2026-06-17 · 12</title></rect>
+<rect x="875.00" y="506.5" width="27.00" height="11" fill="#1f5db3" stroke="none"><title>20.66 · 2026-06-18 · 61</title></rect>
+<rect x="902.00" y="506.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.66 · 2026-06-19 · 6</title></rect>
+<rect x="929.00" y="506.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.66 · 2026-06-20 · 8</title></rect>
+<rect x="956.00" y="506.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.66 · 2026-06-21 · 11</title></rect>
+<rect x="983.00" y="506.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.66 · 2026-06-22 · 7</title></rect>
+<rect x="6" y="519" width="10" height="10" fill="#604dcb"><title>74.*</title></rect>
+<text x="24" y="527" fill="#111">74.249</text>
+<text x="192" y="527" text-anchor="end" fill="#666">137</text>
+<rect x="200" y="518" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="518.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>74.249 · 2026-05-24 · 2</title></rect>
+<rect x="254.00" y="518.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>74.249 · 2026-05-26 · 3</title></rect>
+<rect x="335.00" y="518.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>74.249 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="518.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>74.249 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="518.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>74.249 · 2026-06-01 · 3</title></rect>
+<rect x="686.00" y="518.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>74.249 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="518.5" width="27.00" height="11" fill="#4e85d1" stroke="none"><title>74.249 · 2026-06-16 · 18</title></rect>
+<rect x="848.00" y="518.5" width="27.00" height="11" fill="#4881d0" stroke="none"><title>74.249 · 2026-06-17 · 20</title></rect>
+<rect x="875.00" y="518.5" width="27.00" height="11" fill="#1f5cb2" stroke="none"><title>74.249 · 2026-06-18 · 62</title></rect>
+<rect x="902.00" y="518.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>74.249 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="518.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>74.249 · 2026-06-20 · 7</title></rect>
+<rect x="956.00" y="518.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>74.249 · 2026-06-21 · 6</title></rect>
+<rect x="983.00" y="518.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>74.249 · 2026-06-22 · 8</title></rect>
+<rect x="6" y="531" width="10" height="10" fill="#cb4d90"><title>172.*</title></rect>
+<text x="24" y="539" fill="#111">172.173</text>
+<text x="192" y="539" text-anchor="end" fill="#666">129</text>
+<rect x="200" y="530" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="530.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>172.173 · 2026-05-26 · 6</title></rect>
+<rect x="308.00" y="530.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>172.173 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="530.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.173 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="530.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.173 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="530.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.173 · 2026-06-01 · 1</title></rect>
+<rect x="578.00" y="530.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.173 · 2026-06-07 · 1</title></rect>
+<rect x="686.00" y="530.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.173 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="530.5" width="27.00" height="11" fill="#457fd0" stroke="none"><title>172.173 · 2026-06-16 · 21</title></rect>
+<rect x="848.00" y="530.5" width="27.00" height="11" fill="#598bd1" stroke="none"><title>172.173 · 2026-06-17 · 15</title></rect>
+<rect x="875.00" y="530.5" width="27.00" height="11" fill="#2464be" stroke="none"><title>172.173 · 2026-06-18 · 48</title></rect>
+<rect x="902.00" y="530.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>172.173 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="530.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>172.173 · 2026-06-20 · 6</title></rect>
+<rect x="956.00" y="530.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>172.173 · 2026-06-21 · 5</title></rect>
+<rect x="983.00" y="530.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>172.173 · 2026-06-22 · 13</title></rect>
+<rect x="6" y="543" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="551" fill="#111">20.59</text>
+<text x="192" y="551" text-anchor="end" fill="#666">129</text>
+<rect x="200" y="542" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="542.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.59 · 2026-05-26 · 5</title></rect>
+<rect x="308.00" y="542.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.59 · 2026-05-28 · 2</title></rect>
+<rect x="335.00" y="542.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.59 · 2026-05-29 · 2</title></rect>
+<rect x="416.00" y="542.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.59 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="542.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.59 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="542.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>20.59 · 2026-06-16 · 22</title></rect>
+<rect x="848.00" y="542.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.59 · 2026-06-17 · 11</title></rect>
+<rect x="875.00" y="542.5" width="27.00" height="11" fill="#205eb5" stroke="none"><title>20.59 · 2026-06-18 · 58</title></rect>
+<rect x="902.00" y="542.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.59 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="542.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.59 · 2026-06-20 · 8</title></rect>
+<rect x="956.00" y="542.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.59 · 2026-06-21 · 8</title></rect>
+<rect x="983.00" y="542.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.59 · 2026-06-22 · 4</title></rect>
+<rect x="6" y="555" width="10" height="10" fill="#cb4d90"><title>172.*</title></rect>
+<text x="24" y="563" fill="#111">172.202</text>
+<text x="192" y="563" text-anchor="end" fill="#666">116</text>
+<rect x="200" y="554" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="554.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>172.202 · 2026-05-26 · 4</title></rect>
+<rect x="281.00" y="554.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>172.202 · 2026-05-27 · 2</title></rect>
+<rect x="308.00" y="554.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.202 · 2026-05-28 · 1</title></rect>
+<rect x="362.00" y="554.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>172.202 · 2026-05-30 · 1</title></rect>
+<rect x="821.00" y="554.5" width="27.00" height="11" fill="#3375d0" stroke="none"><title>172.202 · 2026-06-16 · 28</title></rect>
+<rect x="848.00" y="554.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>172.202 · 2026-06-17 · 5</title></rect>
+<rect x="875.00" y="554.5" width="27.00" height="11" fill="#2465be" stroke="none"><title>172.202 · 2026-06-18 · 47</title></rect>
+<rect x="902.00" y="554.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>172.202 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="554.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>172.202 · 2026-06-20 · 5</title></rect>
+<rect x="956.00" y="554.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>172.202 · 2026-06-21 · 7</title></rect>
+<rect x="983.00" y="554.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>172.202 · 2026-06-22 · 11</title></rect>
+<rect x="6" y="567" width="10" height="10" fill="#684dcb"><title>104.*</title></rect>
+<text x="24" y="575" fill="#111">104.210</text>
+<text x="192" y="575" text-anchor="end" fill="#666">110</text>
+<rect x="200" y="566" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="566.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>104.210 · 2026-05-26 · 5</title></rect>
+<rect x="308.00" y="566.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>104.210 · 2026-05-28 · 2</title></rect>
+<rect x="821.00" y="566.5" width="27.00" height="11" fill="#427dd0" stroke="none"><title>104.210 · 2026-06-16 · 22</title></rect>
+<rect x="848.00" y="566.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>104.210 · 2026-06-17 · 13</title></rect>
+<rect x="875.00" y="566.5" width="27.00" height="11" fill="#2667c1" stroke="none"><title>104.210 · 2026-06-18 · 44</title></rect>
+<rect x="902.00" y="566.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>104.210 · 2026-06-19 · 5</title></rect>
+<rect x="929.00" y="566.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>104.210 · 2026-06-20 · 8</title></rect>
+<rect x="956.00" y="566.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>104.210 · 2026-06-21 · 5</title></rect>
+<rect x="983.00" y="566.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>104.210 · 2026-06-22 · 6</title></rect>
+<rect x="6" y="579" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="587" fill="#111">20.88</text>
+<text x="192" y="587" text-anchor="end" fill="#666">107</text>
+<rect x="200" y="578" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="578.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.88 · 2026-05-26 · 3</title></rect>
+<rect x="308.00" y="578.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.88 · 2026-05-28 · 1</title></rect>
+<rect x="389.00" y="578.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.88 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="578.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.88 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="578.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.88 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="578.5" width="27.00" height="11" fill="#3676d0" stroke="none"><title>20.88 · 2026-06-16 · 27</title></rect>
+<rect x="848.00" y="578.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.88 · 2026-06-17 · 10</title></rect>
+<rect x="875.00" y="578.5" width="27.00" height="11" fill="#2363bd" stroke="none"><title>20.88 · 2026-06-18 · 49</title></rect>
+<rect x="902.00" y="578.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.88 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="578.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.88 · 2026-06-20 · 2</title></rect>
+<rect x="956.00" y="578.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.88 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="578.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.88 · 2026-06-22 · 4</title></rect>
+<rect x="6" y="591" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="599" fill="#111">20.62</text>
+<text x="192" y="599" text-anchor="end" fill="#666">106</text>
+<rect x="200" y="590" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="590.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.62 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="590.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.62 · 2026-05-26 · 4</title></rect>
+<rect x="308.00" y="590.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.62 · 2026-05-28 · 1</title></rect>
+<rect x="416.00" y="590.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.62 · 2026-06-01 · 2</title></rect>
+<rect x="821.00" y="590.5" width="27.00" height="11" fill="#3b79d0" stroke="none"><title>20.62 · 2026-06-16 · 25</title></rect>
+<rect x="848.00" y="590.5" width="27.00" height="11" fill="#6190d2" stroke="none"><title>20.62 · 2026-06-17 · 13</title></rect>
+<rect x="875.00" y="590.5" width="27.00" height="11" fill="#2b6dcb" stroke="none"><title>20.62 · 2026-06-18 · 35</title></rect>
+<rect x="902.00" y="590.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.62 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="590.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.62 · 2026-06-20 · 3</title></rect>
+<rect x="956.00" y="590.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.62 · 2026-06-21 · 8</title></rect>
+<rect x="983.00" y="590.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.62 · 2026-06-22 · 9</title></rect>
+<rect x="1226.00" y="590.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.62 · 2026-07-01 · 1</title></rect>
+<rect x="6" y="603" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="611" fill="#111">20.3</text>
+<text x="192" y="611" text-anchor="end" fill="#666">104</text>
+<rect x="200" y="602" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="602.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.3 · 2026-05-26 · 2</title></rect>
+<rect x="308.00" y="602.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.3 · 2026-05-28 · 2</title></rect>
+<rect x="362.00" y="602.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.3 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="602.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.3 · 2026-06-01 · 1</title></rect>
+<rect x="578.00" y="602.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.3 · 2026-06-07 · 1</title></rect>
+<rect x="686.00" y="602.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.3 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="602.5" width="27.00" height="11" fill="#4b83d0" stroke="none"><title>20.3 · 2026-06-16 · 19</title></rect>
+<rect x="848.00" y="602.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.3 · 2026-06-17 · 11</title></rect>
+<rect x="875.00" y="602.5" width="27.00" height="11" fill="#2363bd" stroke="none"><title>20.3 · 2026-06-18 · 49</title></rect>
+<rect x="902.00" y="602.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.3 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="602.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.3 · 2026-06-20 · 3</title></rect>
+<rect x="956.00" y="602.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.3 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="602.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.3 · 2026-06-22 · 7</title></rect>
+<rect x="1253.00" y="602.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.3 · 2026-07-02 · 1</title></rect>
+<rect x="6" y="615" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="623" fill="#111">20.25</text>
+<text x="192" y="623" text-anchor="end" fill="#666">99</text>
+<rect x="200" y="614" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="614.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.25 · 2026-05-26 · 2</title></rect>
+<rect x="308.00" y="614.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.25 · 2026-05-28 · 4</title></rect>
+<rect x="335.00" y="614.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.25 · 2026-05-29 · 1</title></rect>
+<rect x="605.00" y="614.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.25 · 2026-06-08 · 1</title></rect>
+<rect x="686.00" y="614.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.25 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="614.5" width="27.00" height="11" fill="#598bd1" stroke="none"><title>20.25 · 2026-06-16 · 15</title></rect>
+<rect x="848.00" y="614.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.25 · 2026-06-17 · 14</title></rect>
+<rect x="875.00" y="614.5" width="27.00" height="11" fill="#2769c4" stroke="none"><title>20.25 · 2026-06-18 · 41</title></rect>
+<rect x="902.00" y="614.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.25 · 2026-06-19 · 2</title></rect>
+<rect x="929.00" y="614.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.25 · 2026-06-20 · 7</title></rect>
+<rect x="956.00" y="614.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.25 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="614.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.25 · 2026-06-22 · 8</title></rect>
+<rect x="6" y="627" width="10" height="10" fill="#a3cb4d"><title>65.*</title></rect>
+<text x="24" y="635" fill="#111">65.52</text>
+<text x="192" y="635" text-anchor="end" fill="#666">96</text>
+<rect x="200" y="626" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="626.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>65.52 · 2026-05-26 · 2</title></rect>
+<rect x="281.00" y="626.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>65.52 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="626.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>65.52 · 2026-05-28 · 5</title></rect>
+<rect x="416.00" y="626.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>65.52 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="626.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>65.52 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="626.5" width="27.00" height="11" fill="#3375d0" stroke="none"><title>65.52 · 2026-06-16 · 28</title></rect>
+<rect x="848.00" y="626.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>65.52 · 2026-06-17 · 10</title></rect>
+<rect x="875.00" y="626.5" width="27.00" height="11" fill="#2d70ce" stroke="none"><title>65.52 · 2026-06-18 · 32</title></rect>
+<rect x="902.00" y="626.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>65.52 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="626.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>65.52 · 2026-06-20 · 1</title></rect>
+<rect x="956.00" y="626.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>65.52 · 2026-06-21 · 5</title></rect>
+<rect x="983.00" y="626.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>65.52 · 2026-06-22 · 7</title></rect>
+<rect x="6" y="639" width="10" height="10" fill="#684dcb"><title>104.*</title></rect>
+<text x="24" y="647" fill="#111">104.43</text>
+<text x="192" y="647" text-anchor="end" fill="#666">92</text>
+<rect x="200" y="638" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="638.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>104.43 · 2026-05-26 · 2</title></rect>
+<rect x="308.00" y="638.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>104.43 · 2026-05-28 · 3</title></rect>
+<rect x="335.00" y="638.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>104.43 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="638.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>104.43 · 2026-06-01 · 2</title></rect>
+<rect x="686.00" y="638.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>104.43 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="638.5" width="27.00" height="11" fill="#4e85d1" stroke="none"><title>104.43 · 2026-06-16 · 18</title></rect>
+<rect x="848.00" y="638.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>104.43 · 2026-06-17 · 12</title></rect>
+<rect x="875.00" y="638.5" width="27.00" height="11" fill="#2a6dca" stroke="none"><title>104.43 · 2026-06-18 · 36</title></rect>
+<rect x="902.00" y="638.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>104.43 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="638.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>104.43 · 2026-06-20 · 2</title></rect>
+<rect x="956.00" y="638.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>104.43 · 2026-06-21 · 2</title></rect>
+<rect x="983.00" y="638.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>104.43 · 2026-06-22 · 10</title></rect>
+<rect x="6" y="651" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="659" fill="#111">20.96</text>
+<text x="192" y="659" text-anchor="end" fill="#666">92</text>
+<rect x="200" y="650" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="650.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.96 · 2026-05-26 · 3</title></rect>
+<rect x="281.00" y="650.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.96 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="650.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.96 · 2026-05-28 · 1</title></rect>
+<rect x="362.00" y="650.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.96 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="650.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.96 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="650.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.96 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="650.5" width="27.00" height="11" fill="#4881d0" stroke="none"><title>20.96 · 2026-06-16 · 20</title></rect>
+<rect x="848.00" y="650.5" width="27.00" height="11" fill="#7ba0d4" stroke="none"><title>20.96 · 2026-06-17 · 8</title></rect>
+<rect x="875.00" y="650.5" width="27.00" height="11" fill="#2a6cc8" stroke="none"><title>20.96 · 2026-06-18 · 37</title></rect>
+<rect x="902.00" y="650.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.96 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="650.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.96 · 2026-06-20 · 2</title></rect>
+<rect x="956.00" y="650.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.96 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="650.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.96 · 2026-06-22 · 6</title></rect>
+<rect x="6" y="663" width="10" height="10" fill="#9fcb4d"><title>52.*</title></rect>
+<text x="24" y="671" fill="#111">52.165</text>
+<text x="192" y="671" text-anchor="end" fill="#666">92</text>
+<rect x="200" y="662" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="662.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.165 · 2026-05-26 · 1</title></rect>
+<rect x="308.00" y="662.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.165 · 2026-05-28 · 3</title></rect>
+<rect x="416.00" y="662.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.165 · 2026-06-01 · 3</title></rect>
+<rect x="686.00" y="662.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.165 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="662.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>52.165 · 2026-06-16 · 11</title></rect>
+<rect x="848.00" y="662.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>52.165 · 2026-06-17 · 9</title></rect>
+<rect x="875.00" y="662.5" width="27.00" height="11" fill="#2667c1" stroke="none"><title>52.165 · 2026-06-18 · 44</title></rect>
+<rect x="902.00" y="662.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.165 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="662.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.165 · 2026-06-20 · 4</title></rect>
+<rect x="956.00" y="662.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.165 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="662.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>52.165 · 2026-06-22 · 7</title></rect>
+<rect x="6" y="675" width="10" height="10" fill="#4d77cb"><title>40.*</title></rect>
+<text x="24" y="683" fill="#111">40.75</text>
+<text x="192" y="683" text-anchor="end" fill="#666">91</text>
+<rect x="200" y="674" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="674.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>40.75 · 2026-05-26 · 3</title></rect>
+<rect x="281.00" y="674.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>40.75 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="674.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>40.75 · 2026-05-28 · 1</title></rect>
+<rect x="416.00" y="674.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>40.75 · 2026-06-01 · 2</title></rect>
+<rect x="686.00" y="674.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>40.75 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="674.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>40.75 · 2026-06-16 · 17</title></rect>
+<rect x="848.00" y="674.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>40.75 · 2026-06-17 · 10</title></rect>
+<rect x="875.00" y="674.5" width="27.00" height="11" fill="#2768c3" stroke="none"><title>40.75 · 2026-06-18 · 42</title></rect>
+<rect x="902.00" y="674.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>40.75 · 2026-06-19 · 1</title></rect>
+<rect x="929.00" y="674.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>40.75 · 2026-06-20 · 4</title></rect>
+<rect x="956.00" y="674.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>40.75 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="674.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>40.75 · 2026-06-22 · 5</title></rect>
+<rect x="6" y="687" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="695" fill="#111">20.122</text>
+<text x="192" y="695" text-anchor="end" fill="#666">90</text>
+<rect x="200" y="686" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="686.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.122 · 2026-05-26 · 5</title></rect>
+<rect x="335.00" y="686.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.122 · 2026-05-29 · 1</title></rect>
+<rect x="362.00" y="686.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.122 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="686.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.122 · 2026-06-01 · 1</title></rect>
+<rect x="578.00" y="686.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.122 · 2026-06-07 · 1</title></rect>
+<rect x="632.00" y="686.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.122 · 2026-06-09 · 1</title></rect>
+<rect x="686.00" y="686.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.122 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="686.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>20.122 · 2026-06-16 · 16</title></rect>
+<rect x="848.00" y="686.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>20.122 · 2026-06-17 · 9</title></rect>
+<rect x="875.00" y="686.5" width="27.00" height="11" fill="#2a6dca" stroke="none"><title>20.122 · 2026-06-18 · 36</title></rect>
+<rect x="902.00" y="686.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.122 · 2026-06-19 · 4</title></rect>
+<rect x="929.00" y="686.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.122 · 2026-06-20 · 5</title></rect>
+<rect x="956.00" y="686.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.122 · 2026-06-21 · 7</title></rect>
+<rect x="983.00" y="686.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.122 · 2026-06-22 · 2</title></rect>
+<rect x="6" y="699" width="10" height="10" fill="#4d60cb"><title>135.*</title></rect>
+<text x="24" y="707" fill="#111">135.119</text>
+<text x="192" y="707" text-anchor="end" fill="#666">89</text>
+<rect x="200" y="698" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="698.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>135.119 · 2026-05-26 · 5</title></rect>
+<rect x="308.00" y="698.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>135.119 · 2026-05-28 · 6</title></rect>
+<rect x="362.00" y="698.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>135.119 · 2026-05-30 · 1</title></rect>
+<rect x="416.00" y="698.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>135.119 · 2026-06-01 · 2</title></rect>
+<rect x="821.00" y="698.5" width="27.00" height="11" fill="#598bd1" stroke="none"><title>135.119 · 2026-06-16 · 15</title></rect>
+<rect x="848.00" y="698.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>135.119 · 2026-06-17 · 7</title></rect>
+<rect x="875.00" y="698.5" width="27.00" height="11" fill="#286ac6" stroke="none"><title>135.119 · 2026-06-18 · 39</title></rect>
+<rect x="902.00" y="698.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>135.119 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="698.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>135.119 · 2026-06-20 · 3</title></rect>
+<rect x="956.00" y="698.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>135.119 · 2026-06-21 · 2</title></rect>
+<rect x="983.00" y="698.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>135.119 · 2026-06-22 · 6</title></rect>
+<rect x="6" y="711" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="719" fill="#111">20.228</text>
+<text x="192" y="719" text-anchor="end" fill="#666">86</text>
+<rect x="200" y="710" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="710.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.228 · 2026-05-26 · 2</title></rect>
+<rect x="308.00" y="710.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.228 · 2026-05-28 · 2</title></rect>
+<rect x="335.00" y="710.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.228 · 2026-05-29 · 1</title></rect>
+<rect x="416.00" y="710.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.228 · 2026-06-01 · 1</title></rect>
+<rect x="821.00" y="710.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.228 · 2026-06-16 · 14</title></rect>
+<rect x="848.00" y="710.5" width="27.00" height="11" fill="#8aaad6" stroke="none"><title>20.228 · 2026-06-17 · 6</title></rect>
+<rect x="875.00" y="710.5" width="27.00" height="11" fill="#2869c5" stroke="none"><title>20.228 · 2026-06-18 · 40</title></rect>
+<rect x="902.00" y="710.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.228 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="710.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.228 · 2026-06-20 · 4</title></rect>
+<rect x="956.00" y="710.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.228 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="710.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>20.228 · 2026-06-22 · 10</title></rect>
+<rect x="6" y="723" width="10" height="10" fill="#9fcb4d"><title>52.*</title></rect>
+<text x="24" y="731" fill="#111">52.242</text>
+<text x="192" y="731" text-anchor="end" fill="#666">86</text>
+<rect x="200" y="722" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="722.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.242 · 2026-05-26 · 4</title></rect>
+<rect x="281.00" y="722.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.242 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="722.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.242 · 2026-05-28 · 1</title></rect>
+<rect x="335.00" y="722.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.242 · 2026-05-29 · 1</title></rect>
+<rect x="686.00" y="722.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.242 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="722.5" width="27.00" height="11" fill="#5589d1" stroke="none"><title>52.242 · 2026-06-16 · 16</title></rect>
+<rect x="848.00" y="722.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.242 · 2026-06-17 · 3</title></rect>
+<rect x="875.00" y="722.5" width="27.00" height="11" fill="#2363bc" stroke="none"><title>52.242 · 2026-06-18 · 50</title></rect>
+<rect x="902.00" y="722.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.242 · 2026-06-19 · 2</title></rect>
+<rect x="929.00" y="722.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.242 · 2026-06-20 · 2</title></rect>
+<rect x="956.00" y="722.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.242 · 2026-06-21 · 1</title></rect>
+<rect x="983.00" y="722.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.242 · 2026-06-22 · 4</title></rect>
+<rect x="6" y="735" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="743" fill="#111">20.169</text>
+<text x="192" y="743" text-anchor="end" fill="#666">83</text>
+<rect x="200" y="734" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="734.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.169 · 2026-05-26 · 2</title></rect>
+<rect x="308.00" y="734.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.169 · 2026-05-28 · 1</title></rect>
+<rect x="335.00" y="734.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.169 · 2026-05-29 · 3</title></rect>
+<rect x="416.00" y="734.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.169 · 2026-06-01 · 4</title></rect>
+<rect x="686.00" y="734.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.169 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="734.5" width="27.00" height="11" fill="#6693d2" stroke="none"><title>20.169 · 2026-06-16 · 12</title></rect>
+<rect x="848.00" y="734.5" width="27.00" height="11" fill="#6a96d2" stroke="none"><title>20.169 · 2026-06-17 · 11</title></rect>
+<rect x="875.00" y="734.5" width="27.00" height="11" fill="#2d70ce" stroke="none"><title>20.169 · 2026-06-18 · 32</title></rect>
+<rect x="902.00" y="734.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.169 · 2026-06-19 · 2</title></rect>
+<rect x="929.00" y="734.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.169 · 2026-06-20 · 3</title></rect>
+<rect x="956.00" y="734.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.169 · 2026-06-21 · 4</title></rect>
+<rect x="983.00" y="734.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>20.169 · 2026-06-22 · 7</title></rect>
+<rect x="6" y="747" width="10" height="10" fill="#cb9f4d"><title>157.*</title></rect>
+<text x="24" y="755" fill="#111">157.55</text>
+<text x="192" y="755" text-anchor="end" fill="#666">82</text>
+<rect x="200" y="746" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="746.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>157.55 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="746.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>157.55 · 2026-05-26 · 1</title></rect>
+<rect x="281.00" y="746.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>157.55 · 2026-05-27 · 2</title></rect>
+<rect x="308.00" y="746.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>157.55 · 2026-05-28 · 1</title></rect>
+<rect x="335.00" y="746.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>157.55 · 2026-05-29 · 1</title></rect>
+<rect x="389.00" y="746.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>157.55 · 2026-05-31 · 1</title></rect>
+<rect x="686.00" y="746.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>157.55 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="746.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>157.55 · 2026-06-16 · 17</title></rect>
+<rect x="848.00" y="746.5" width="27.00" height="11" fill="#759cd4" stroke="none"><title>157.55 · 2026-06-17 · 9</title></rect>
+<rect x="875.00" y="746.5" width="27.00" height="11" fill="#2d70ce" stroke="none"><title>157.55 · 2026-06-18 · 32</title></rect>
+<rect x="902.00" y="746.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>157.55 · 2026-06-19 · 3</title></rect>
+<rect x="929.00" y="746.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>157.55 · 2026-06-20 · 4</title></rect>
+<rect x="956.00" y="746.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>157.55 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="746.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>157.55 · 2026-06-22 · 5</title></rect>
+<rect x="6" y="759" width="10" height="10" fill="#9fcb4d"><title>52.*</title></rect>
+<text x="24" y="767" fill="#111">52.225</text>
+<text x="192" y="767" text-anchor="end" fill="#666">78</text>
+<rect x="200" y="758" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="200.00" y="758.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.225 · 2026-05-24 · 1</title></rect>
+<rect x="254.00" y="758.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.225 · 2026-05-26 · 1</title></rect>
+<rect x="281.00" y="758.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.225 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="758.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.225 · 2026-05-28 · 3</title></rect>
+<rect x="416.00" y="758.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.225 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="758.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.225 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="758.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>52.225 · 2026-06-16 · 14</title></rect>
+<rect x="848.00" y="758.5" width="27.00" height="11" fill="#7099d3" stroke="none"><title>52.225 · 2026-06-17 · 10</title></rect>
+<rect x="875.00" y="758.5" width="27.00" height="11" fill="#2b6ecc" stroke="none"><title>52.225 · 2026-06-18 · 34</title></rect>
+<rect x="902.00" y="758.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.225 · 2026-06-19 · 2</title></rect>
+<rect x="929.00" y="758.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.225 · 2026-06-20 · 2</title></rect>
+<rect x="956.00" y="758.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.225 · 2026-06-21 · 1</title></rect>
+<rect x="983.00" y="758.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>52.225 · 2026-06-22 · 7</title></rect>
+<rect x="6" y="771" width="10" height="10" fill="#cb4d94"><title>20.*</title></rect>
+<text x="24" y="779" fill="#111">20.112</text>
+<text x="192" y="779" text-anchor="end" fill="#666">77</text>
+<rect x="200" y="770" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="770.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.112 · 2026-05-26 · 1</title></rect>
+<rect x="281.00" y="770.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.112 · 2026-05-27 · 1</title></rect>
+<rect x="308.00" y="770.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.112 · 2026-05-28 · 3</title></rect>
+<rect x="389.00" y="770.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.112 · 2026-05-31 · 2</title></rect>
+<rect x="686.00" y="770.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>20.112 · 2026-06-11 · 1</title></rect>
+<rect x="821.00" y="770.5" width="27.00" height="11" fill="#5d8dd1" stroke="none"><title>20.112 · 2026-06-16 · 14</title></rect>
+<rect x="848.00" y="770.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>20.112 · 2026-06-17 · 4</title></rect>
+<rect x="875.00" y="770.5" width="27.00" height="11" fill="#286ac6" stroke="none"><title>20.112 · 2026-06-18 · 39</title></rect>
+<rect x="902.00" y="770.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.112 · 2026-06-19 · 2</title></rect>
+<rect x="929.00" y="770.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>20.112 · 2026-06-20 · 2</title></rect>
+<rect x="956.00" y="770.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>20.112 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="770.5" width="27.00" height="11" fill="#92afd8" stroke="none"><title>20.112 · 2026-06-22 · 5</title></rect>
+<rect x="6" y="783" width="10" height="10" fill="#9fcb4d"><title>52.*</title></rect>
+<text x="24" y="791" fill="#111">52.161</text>
+<text x="192" y="791" text-anchor="end" fill="#666">77</text>
+<rect x="200" y="782" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="254.00" y="782.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.161 · 2026-05-26 · 1</title></rect>
+<rect x="335.00" y="782.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.161 · 2026-05-29 · 1</title></rect>
+<rect x="389.00" y="782.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.161 · 2026-05-31 · 1</title></rect>
+<rect x="416.00" y="782.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.161 · 2026-06-01 · 1</title></rect>
+<rect x="686.00" y="782.5" width="27.00" height="11" fill="#b7c8e0" stroke="none"><title>52.161 · 2026-06-11 · 2</title></rect>
+<rect x="821.00" y="782.5" width="27.00" height="11" fill="#5287d1" stroke="none"><title>52.161 · 2026-06-16 · 17</title></rect>
+<rect x="848.00" y="782.5" width="27.00" height="11" fill="#9cb6da" stroke="none"><title>52.161 · 2026-06-17 · 4</title></rect>
+<rect x="875.00" y="782.5" width="27.00" height="11" fill="#2d70ce" stroke="none"><title>52.161 · 2026-06-18 · 32</title></rect>
+<rect x="902.00" y="782.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>52.161 · 2026-06-19 · 7</title></rect>
+<rect x="929.00" y="782.5" width="27.00" height="11" fill="#cbd6e7" stroke="none"><title>52.161 · 2026-06-20 · 1</title></rect>
+<rect x="956.00" y="782.5" width="27.00" height="11" fill="#a8bedc" stroke="none"><title>52.161 · 2026-06-21 · 3</title></rect>
+<rect x="983.00" y="782.5" width="27.00" height="11" fill="#82a5d5" stroke="none"><title>52.161 · 2026-06-22 · 7</title></rect>
+<line x1="213.5" y1="794" x2="213.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="213.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 213.5 812)">05-24</text>
+<line x1="267.5" y1="794" x2="267.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="267.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 267.5 812)">05-26</text>
+<line x1="321.5" y1="794" x2="321.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="321.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 321.5 812)">05-28</text>
+<line x1="375.5" y1="794" x2="375.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="375.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 375.5 812)">05-30</text>
+<line x1="429.5" y1="794" x2="429.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="429.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 429.5 812)">06-01</text>
+<line x1="483.5" y1="794" x2="483.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="483.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 483.5 812)">06-03</text>
+<line x1="537.5" y1="794" x2="537.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="537.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 537.5 812)">06-05</text>
+<line x1="591.5" y1="794" x2="591.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="591.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 591.5 812)">06-07</text>
+<line x1="645.5" y1="794" x2="645.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="645.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 645.5 812)">06-09</text>
+<line x1="699.5" y1="794" x2="699.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="699.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 699.5 812)">06-11</text>
+<line x1="753.5" y1="794" x2="753.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="753.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 753.5 812)">06-13</text>
+<line x1="807.5" y1="794" x2="807.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="807.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 807.5 812)">06-15</text>
+<line x1="861.5" y1="794" x2="861.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="861.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 861.5 812)">06-17</text>
+<line x1="915.5" y1="794" x2="915.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="915.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 915.5 812)">06-19</text>
+<line x1="969.5" y1="794" x2="969.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="969.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 969.5 812)">06-21</text>
+<line x1="1023.5" y1="794" x2="1023.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="1023.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 1023.5 812)">06-23</text>
+<line x1="1077.5" y1="794" x2="1077.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="1077.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 1077.5 812)">06-25</text>
+<line x1="1131.5" y1="794" x2="1131.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="1131.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 1131.5 812)">06-27</text>
+<line x1="1185.5" y1="794" x2="1185.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="1185.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 1185.5 812)">06-29</text>
+<line x1="1239.5" y1="794" x2="1239.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="1239.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 1239.5 812)">07-01</text>
+<line x1="1266.5" y1="794" x2="1266.5" y2="798" stroke="#666" stroke-width="0.5"/>
+<text x="1266.5" y="812" text-anchor="end" fill="#333" transform="rotate(-60 1266.5 812)">07-02</text>
+<line x1="200" y1="794" x2="1280" y2="794" stroke="#333" stroke-width="0.5"/>
+<line x1="200" y1="74" x2="200" y2="794" stroke="#333" stroke-width="0.5"/>
+<text x="1300" y="74" font-weight="600" fill="#111">revs on a (subnet, day) cell</text>
+<rect x="1300.00" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1301.80" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1303.60" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1305.40" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1307.20" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1309.00" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1310.80" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1312.60" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1314.40" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1316.20" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1318.00" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1319.80" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1321.60" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1323.40" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1325.20" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1327.00" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1328.80" y="88" width="2.30" height="14" fill="#cbd6e7" stroke="none"/>
+<rect x="1330.60" y="88" width="2.30" height="14" fill="#b7c8e0" stroke="none"/>
+<rect x="1332.40" y="88" width="2.30" height="14" fill="#b7c8e0" stroke="none"/>
+<rect x="1334.20" y="88" width="2.30" height="14" fill="#b7c8e0" stroke="none"/>
+<rect x="1336.00" y="88" width="2.30" height="14" fill="#b7c8e0" stroke="none"/>
+<rect x="1337.80" y="88" width="2.30" height="14" fill="#b7c8e0" stroke="none"/>
+<rect x="1339.60" y="88" width="2.30" height="14" fill="#a8bedc" stroke="none"/>
+<rect x="1341.40" y="88" width="2.30" height="14" fill="#a8bedc" stroke="none"/>
+<rect x="1343.20" y="88" width="2.30" height="14" fill="#a8bedc" stroke="none"/>
+<rect x="1345.00" y="88" width="2.30" height="14" fill="#a8bedc" stroke="none"/>
+<rect x="1346.80" y="88" width="2.30" height="14" fill="#a8bedc" stroke="none"/>
+<rect x="1348.60" y="88" width="2.30" height="14" fill="#9cb6da" stroke="none"/>
+<rect x="1350.40" y="88" width="2.30" height="14" fill="#9cb6da" stroke="none"/>
+<rect x="1352.20" y="88" width="2.30" height="14" fill="#9cb6da" stroke="none"/>
+<rect x="1354.00" y="88" width="2.30" height="14" fill="#92afd8" stroke="none"/>
+<rect x="1355.80" y="88" width="2.30" height="14" fill="#92afd8" stroke="none"/>
+<rect x="1357.60" y="88" width="2.30" height="14" fill="#92afd8" stroke="none"/>
+<rect x="1359.40" y="88" width="2.30" height="14" fill="#8aaad6" stroke="none"/>
+<rect x="1361.20" y="88" width="2.30" height="14" fill="#8aaad6" stroke="none"/>
+<rect x="1363.00" y="88" width="2.30" height="14" fill="#8aaad6" stroke="none"/>
+<rect x="1364.80" y="88" width="2.30" height="14" fill="#82a5d5" stroke="none"/>
+<rect x="1366.60" y="88" width="2.30" height="14" fill="#82a5d5" stroke="none"/>
+<rect x="1368.40" y="88" width="2.30" height="14" fill="#7ba0d4" stroke="none"/>
+<rect x="1370.20" y="88" width="2.30" height="14" fill="#7ba0d4" stroke="none"/>
+<rect x="1372.00" y="88" width="2.30" height="14" fill="#759cd4" stroke="none"/>
+<rect x="1373.80" y="88" width="2.30" height="14" fill="#759cd4" stroke="none"/>
+<rect x="1375.60" y="88" width="2.30" height="14" fill="#7099d3" stroke="none"/>
+<rect x="1377.40" y="88" width="2.30" height="14" fill="#6a96d2" stroke="none"/>
+<rect x="1379.20" y="88" width="2.30" height="14" fill="#6a96d2" stroke="none"/>
+<rect x="1381.00" y="88" width="2.30" height="14" fill="#6693d2" stroke="none"/>
+<rect x="1382.80" y="88" width="2.30" height="14" fill="#6190d2" stroke="none"/>
+<rect x="1384.60" y="88" width="2.30" height="14" fill="#5d8dd1" stroke="none"/>
+<rect x="1386.40" y="88" width="2.30" height="14" fill="#5d8dd1" stroke="none"/>
+<rect x="1388.20" y="88" width="2.30" height="14" fill="#598bd1" stroke="none"/>
+<rect x="1390.00" y="88" width="2.30" height="14" fill="#5589d1" stroke="none"/>
+<rect x="1391.80" y="88" width="2.30" height="14" fill="#5287d1" stroke="none"/>
+<rect x="1393.60" y="88" width="2.30" height="14" fill="#4e85d1" stroke="none"/>
+<rect x="1395.40" y="88" width="2.30" height="14" fill="#4881d0" stroke="none"/>
+<rect x="1397.20" y="88" width="2.30" height="14" fill="#457fd0" stroke="none"/>
+<rect x="1399.00" y="88" width="2.30" height="14" fill="#427dd0" stroke="none"/>
+<rect x="1400.80" y="88" width="2.30" height="14" fill="#407cd0" stroke="none"/>
+<rect x="1402.60" y="88" width="2.30" height="14" fill="#3b79d0" stroke="none"/>
+<rect x="1404.40" y="88" width="2.30" height="14" fill="#3877d0" stroke="none"/>
+<rect x="1406.20" y="88" width="2.30" height="14" fill="#3375d0" stroke="none"/>
+<rect x="1408.00" y="88" width="2.30" height="14" fill="#2f72d0" stroke="none"/>
+<rect x="1409.80" y="88" width="2.30" height="14" fill="#2e71d0" stroke="none"/>
+<rect x="1411.60" y="88" width="2.30" height="14" fill="#2c6fcd" stroke="none"/>
+<rect x="1413.40" y="88" width="2.30" height="14" fill="#2b6dcb" stroke="none"/>
+<rect x="1415.20" y="88" width="2.30" height="14" fill="#296bc7" stroke="none"/>
+<rect x="1417.00" y="88" width="2.30" height="14" fill="#2869c5" stroke="none"/>
+<rect x="1418.80" y="88" width="2.30" height="14" fill="#2768c3" stroke="none"/>
+<rect x="1420.60" y="88" width="2.30" height="14" fill="#2566c0" stroke="none"/>
+<rect x="1422.40" y="88" width="2.30" height="14" fill="#2465be" stroke="none"/>
+<rect x="1424.20" y="88" width="2.30" height="14" fill="#2363bc" stroke="none"/>
+<rect x="1426.00" y="88" width="2.30" height="14" fill="#2261b9" stroke="none"/>
+<rect x="1427.80" y="88" width="2.30" height="14" fill="#215fb7" stroke="none"/>
+<rect x="1429.60" y="88" width="2.30" height="14" fill="#1f5db4" stroke="none"/>
+<rect x="1431.40" y="88" width="2.30" height="14" fill="#1e5cb2" stroke="none"/>
+<rect x="1433.20" y="88" width="2.30" height="14" fill="#1d5aaf" stroke="none"/>
+<rect x="1435.00" y="88" width="2.30" height="14" fill="#1c58ac" stroke="none"/>
+<rect x="1436.80" y="88" width="2.30" height="14" fill="#1b57aa" stroke="none"/>
+<rect x="1438.60" y="88" width="2.30" height="14" fill="#1a55a7" stroke="none"/>
+<rect x="1440.40" y="88" width="2.30" height="14" fill="#1953a4" stroke="none"/>
+<rect x="1442.20" y="88" width="2.30" height="14" fill="#1851a1" stroke="none"/>
+<rect x="1444.00" y="88" width="2.30" height="14" fill="#17509f" stroke="none"/>
+<rect x="1445.80" y="88" width="2.30" height="14" fill="#164e9c" stroke="none"/>
+<rect x="1447.60" y="88" width="2.30" height="14" fill="#154c99" stroke="none"/>
+<rect x="1449.40" y="88" width="2.30" height="14" fill="#144a97" stroke="none"/>
+<rect x="1451.20" y="88" width="2.30" height="14" fill="#134994" stroke="none"/>
+<rect x="1453.00" y="88" width="2.30" height="14" fill="#124791" stroke="none"/>
+<rect x="1454.80" y="88" width="2.30" height="14" fill="#11458e" stroke="none"/>
+<rect x="1456.60" y="88" width="2.30" height="14" fill="#10448b" stroke="none"/>
+<rect x="1458.40" y="88" width="2.30" height="14" fill="#104288" stroke="none"/>
+<rect x="1460.20" y="88" width="2.30" height="14" fill="#0f4085" stroke="none"/>
+<rect x="1462.00" y="88" width="2.30" height="14" fill="#0e3f83" stroke="none"/>
+<rect x="1463.80" y="88" width="2.30" height="14" fill="#0d3d80" stroke="none"/>
+<rect x="1465.60" y="88" width="2.30" height="14" fill="#0d3b7d" stroke="none"/>
+<rect x="1467.40" y="88" width="2.30" height="14" fill="#0c3a7a" stroke="none"/>
+<rect x="1469.20" y="88" width="2.30" height="14" fill="#0b3877" stroke="none"/>
+<rect x="1471.00" y="88" width="2.30" height="14" fill="#0a3674" stroke="none"/>
+<rect x="1472.80" y="88" width="2.30" height="14" fill="#0a3571" stroke="none"/>
+<rect x="1474.60" y="88" width="2.30" height="14" fill="#09336e" stroke="none"/>
+<rect x="1476.40" y="88" width="2.30" height="14" fill="#09316a" stroke="none"/>
+<rect x="1478.20" y="88" width="2.30" height="14" fill="#083067" stroke="none"/>
+<rect x="1300" y="88" width="180" height="14" fill="none" stroke="#333" stroke-width="0.5"/>
+<line x1="1322.1" y1="102" x2="1322.1" y2="105" stroke="#333" stroke-width="0.5"/>
+<text x="1322.1" y="116" text-anchor="middle" font-size="10" fill="#333">1</text>
+<line x1="1376.4" y1="102" x2="1376.4" y2="105" stroke="#333" stroke-width="0.5"/>
+<text x="1376.4" y="116" text-anchor="middle" font-size="10" fill="#333">10</text>
+<line x1="1447.1" y1="102" x2="1447.1" y2="105" stroke="#333" stroke-width="0.5"/>
+<text x="1447.1" y="116" text-anchor="middle" font-size="10" fill="#333">100</text>
+<line x1="1480.0" y1="102" x2="1480.0" y2="105" stroke="#333" stroke-width="0.5"/>
+<text x="1480.0" y="116" text-anchor="middle" font-size="10" fill="#333">283</text>
+<line x1="1520.1" y1="102" x2="1520.1" y2="105" stroke="#333" stroke-width="0.5"/>
+<text x="1520.1" y="116" text-anchor="middle" font-size="10" fill="#333">1,000</text>
+<text x="1300" y="142" font-weight="600" fill="#111">/8 groups in top 60</text>
+<rect x="1300" y="156" width="12" height="12" fill="#cb4d94"/>
+<text x="1318" y="166" fill="#111">20.* <tspan fill="#666">· 33 /16s · 7,867 revs</tspan></text>
+<rect x="1300" y="171" width="12" height="12" fill="#a94dcb"/>
+<text x="1318" y="181" fill="#111">4.* <tspan fill="#666">· 4 /16s · 841 revs</tspan></text>
+<rect x="1300" y="186" width="12" height="12" fill="#9fcb4d"/>
+<text x="1318" y="196" fill="#111">52.* <tspan fill="#666">· 6 /16s · 735 revs</tspan></text>
+<rect x="1300" y="201" width="12" height="12" fill="#cb4d90"/>
+<text x="1318" y="211" fill="#111">172.* <tspan fill="#666">· 4 /16s · 561 revs</tspan></text>
+<rect x="1300" y="216" width="12" height="12" fill="#cbad4d"/>
+<text x="1318" y="226" fill="#111">57.* <tspan fill="#666">· 1 /16s · 458 revs</tspan></text>
+<rect x="1300" y="231" width="12" height="12" fill="#684dcb"/>
+<text x="1318" y="241" fill="#111">104.* <tspan fill="#666">· 3 /16s · 343 revs</tspan></text>
+<rect x="1300" y="246" width="12" height="12" fill="#4d60cb"/>
+<text x="1318" y="256" fill="#111">135.* <tspan fill="#666">· 2 /16s · 336 revs</tspan></text>
+<rect x="1300" y="261" width="12" height="12" fill="#cb4dc7"/>
+<text x="1318" y="271" fill="#111">64.* <tspan fill="#666">· 1 /16s · 234 revs</tspan></text>
+<rect x="1300" y="276" width="12" height="12" fill="#834dcb"/>
+<text x="1318" y="286" fill="#111">130.* <tspan fill="#666">· 1 /16s · 176 revs</tspan></text>
+<rect x="1300" y="291" width="12" height="12" fill="#cb704d"/>
+<text x="1318" y="301" fill="#111">23.* <tspan fill="#666">· 1 /16s · 152 revs</tspan></text>
+<rect x="1300" y="306" width="12" height="12" fill="#604dcb"/>
+<text x="1318" y="316" fill="#111">74.* <tspan fill="#666">· 1 /16s · 137 revs</tspan></text>
+<rect x="1300" y="321" width="12" height="12" fill="#a3cb4d"/>
+<text x="1318" y="331" fill="#111">65.* <tspan fill="#666">· 1 /16s · 96 revs</tspan></text>
+<text x="1300" y="346" font-weight="600" fill="#111">notes</text>
+<text x="1300" y="360" fill="#333">top 60 /16s cover</text>
+<text x="1300" y="374" fill="#333">  12,109 of 14,591 revs (83%)</text>
+<text x="1300" y="388" fill="#333">across 191 /16s in</text>
+<text x="1300" y="402" fill="#333">48 /8 prefixes</text>
+</svg>
