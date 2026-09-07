@@ -1,0 +1,246 @@
+{
+  "batch_index": 1,
+  "host": "https://paste.centos.org/",
+  "verdicts": [
+    {
+      "pid": "02ebde9b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (YTU6YRT); no swarm handle, series, or body markers, so lean human per wayback bias."
+    },
+    {
+      "pid": "02ed2055",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (7IYTRDYTYRY); no swarm signals."
+    },
+    {
+      "pid": "02f34239",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Gajim XMPP client GStreamer/webrtcdsp error log dated 2022-06-14, predating the swarm; classic real-user infrastructure debug output."
+    },
+    {
+      "pid": "031b7375",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and empty title; no swarm signal, defaulting human per wayback bias."
+    },
+    {
+      "pid": "032be264",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (yu7ioyufuty); no swarm signals."
+    },
+    {
+      "pid": "033da77a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (321vhj6fg5h); no swarm signals."
+    },
+    {
+      "pid": "034eb9ed",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and lowercase-word title (egnew); no swarm series match."
+    },
+    {
+      "pid": "03577f13",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body, generic Untitled title, 2023 capture predates swarm activity; no signals."
+    },
+    {
+      "pid": "035fcf11",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (YTUTYDFYYT); no swarm signals."
+    },
+    {
+      "pid": "03aefc47",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (yurdyr5ty); no swarm signals."
+    },
+    {
+      "pid": "03bbdd38",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (tyujedtyty); no swarm signals."
+    },
+    {
+      "pid": "03bfca6c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and Re: Untitled title; 2024-05 predates most documented swarm activity and no swarm handle/series match."
+    },
+    {
+      "pid": "03f514cc",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body; free musik title suggests casual human paste, no swarm series match."
+    },
+    {
+      "pid": "03f9d6c8",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (er eterter); no swarm signals."
+    },
+    {
+      "pid": "04033170",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (YTUTRFYT); no swarm signals."
+    },
+    {
+      "pid": "0404fc0e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (rtytru ty uty utyuytuyt); no swarm signals."
+    },
+    {
+      "pid": "042f6123",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and short mash title (asdr); no swarm signals."
+    },
+    {
+      "pid": "0435d5c8",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body; Get content from file title with 2023 capture suggests programming help paste, no swarm markers."
+    },
+    {
+      "pid": "043670a9",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body; filebeat.yaml title with 2021 capture is classic sysadmin config paste, predates swarm."
+    },
+    {
+      "pid": "0442f4ac",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and generic Untitled title; no swarm signals."
+    },
+    {
+      "pid": "04629983",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (sadsad); no swarm signals."
+    },
+    {
+      "pid": "04666430",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and generic Untitled title; no swarm signals."
+    },
+    {
+      "pid": "0468e375",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and generic Untitled title; no swarm signals."
+    },
+    {
+      "pid": "0481616a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and short caps title (MHHM); no swarm signals."
+    },
+    {
+      "pid": "049e98f9",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (Y7UI86D5R); no swarm signals."
+    },
+    {
+      "pid": "04e43388",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and empty title; no swarm signals."
+    },
+    {
+      "pid": "04fff494",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (safasf); no swarm signals."
+    },
+    {
+      "pid": "051e27ad",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and short caps title (DAAS); no swarm signals."
+    },
+    {
+      "pid": "054b8436",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (YTUITFU6); no swarm signals."
+    },
+    {
+      "pid": "05593dc2",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and generic Untitled title; no swarm signals."
+    },
+    {
+      "pid": "055d9b2b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (UY7YED); no swarm signals."
+    },
+    {
+      "pid": "05b18f0c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (TR6YUSR5TTER); no swarm signals."
+    },
+    {
+      "pid": "05b49a89",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (RT678UYTGFR); no swarm signals."
+    },
+    {
+      "pid": "05d39439",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and generic Untitled title; no swarm signals."
+    },
+    {
+      "pid": "05d55021",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (sdsd); no swarm signals."
+    },
+    {
+      "pid": "05f0217e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (sawreta4y5ue6irtyfh); no swarm signals."
+    },
+    {
+      "pid": "05f66290",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and generic Untitled title from 2023-08, predating swarm; no signals."
+    },
+    {
+      "pid": "0614b42a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (ytudryrty); no swarm signals."
+    },
+    {
+      "pid": "06389637",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body; title 'the lil script that took down the big server' reads like a human anecdote, not a swarm series."
+    },
+    {
+      "pid": "064275c1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-sourced with empty body and keyboard-mash title (TY6UDTYR5T); no swarm signals."
+    }
+  ]
+}

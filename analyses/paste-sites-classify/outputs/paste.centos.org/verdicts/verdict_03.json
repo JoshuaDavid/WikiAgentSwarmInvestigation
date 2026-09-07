@@ -1,0 +1,246 @@
+{
+  "batch_index": 3,
+  "host": "https://paste.centos.org/",
+  "verdicts": [
+    {
+      "pid": "0a207ddd",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body on wayback-sourced host; keyboard-mash title 'uyiftuty' has no swarm marker; defaulting to human per wayback data-handling rule."
+    },
+    {
+      "pid": "0a21d825",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic UNTITLED, 2022-03 wayback capture predates swarm; defaulting to human."
+    },
+    {
+      "pid": "0a35c942",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'TRUTYSDTTR' has no swarm marker; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0a448800",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'yr67yr57y' has no swarm marker; defaulting to human."
+    },
+    {
+      "pid": "0a58c08a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic Untitled; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0a61520f",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic Untitled; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0a645d08",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'fhgtryuikd' has no swarm marker; defaulting to human."
+    },
+    {
+      "pid": "0a757a64",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "871k-char kernel dmesg from a Fedora 43 workstation (fp-pc, luks UUID, real BIOS-e820 map) — personal machine diagnostic, not swarm."
+    },
+    {
+      "pid": "0a871538",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic Untitled; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0aaa18c1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'sdfgh' has no swarm marker; defaulting to human."
+    },
+    {
+      "pid": "0ab04d3e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; title 'Discord' suggests personal chat dump; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0ad2ccc6",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic Untitled; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0adc693c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'sddsad'; defaulting to human."
+    },
+    {
+      "pid": "0ae45073",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic Untitled; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0ae5c908",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'safsdadsad'; defaulting to human."
+    },
+    {
+      "pid": "0af9daa6",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, 2023-04 capture predates swarm; 'Re: Untitled' reply with no known swarm parent; defaulting to human."
+    },
+    {
+      "pid": "0b0e482b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, 2023-07 capture predates swarm; defaulting to human."
+    },
+    {
+      "pid": "0b12aa70",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'adsadasdsa'; defaulting to human."
+    },
+    {
+      "pid": "0b2a6172",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Git commit diff by named author 'Nathanael d. Noblet <nathanael@noblet.ca>' on Symfony PHP project, dated 2024-08-27 — real developer code review."
+    },
+    {
+      "pid": "0b666714",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, 2023-04 capture predates swarm; defaulting to human."
+    },
+    {
+      "pid": "0b6c6fb7",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; title '7CNVQQIRE15' does not match any known swarm title series; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0b7c1cec",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'seft465eyrdt'; defaulting to human."
+    },
+    {
+      "pid": "0b7ef316",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, 2024-05 capture, generic Untitled; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0bd95f37",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'asd6f549we78r'; defaulting to human."
+    },
+    {
+      "pid": "0beb97ff",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'srt34q3wawa'; defaulting to human."
+    },
+    {
+      "pid": "0c0c8fb4",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, 2023-06 capture predates swarm; defaulting to human."
+    },
+    {
+      "pid": "0c0f47de",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'u7y6irutfu'; defaulting to human."
+    },
+    {
+      "pid": "0c1fed30",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'T6URDTTRT'; defaulting to human."
+    },
+    {
+      "pid": "0c631641",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'w4et5ty'; defaulting to human."
+    },
+    {
+      "pid": "0c7f2a47",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'sadfdsads'; defaulting to human."
+    },
+    {
+      "pid": "0c80c09b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'UY8IRFT7'; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0c8eeff8",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'RTYSRTDTRE'; defaulting to human."
+    },
+    {
+      "pid": "0c9c75fb",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'UY7I76FR87U'; defaulting to human."
+    },
+    {
+      "pid": "0cf6c8dd",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; title 'MOOF' has no known swarm marker; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0cff7b00",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, 2021-06 capture predates swarm; defaulting to human."
+    },
+    {
+      "pid": "0d0498d6",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, blank title; defaulting to human per wayback rule."
+    },
+    {
+      "pid": "0d0b0d71",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; title 'NPNP' has no known swarm marker; defaulting to human."
+    },
+    {
+      "pid": "0d1c3122",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'TFYTSXRT'; defaulting to human."
+    },
+    {
+      "pid": "0d252119",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'UITDYYTRY'; defaulting to human."
+    },
+    {
+      "pid": "0d422a06",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body; keyboard-mash title 'y6tuse5t'; defaulting to human."
+    }
+  ]
+}

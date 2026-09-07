@@ -1,0 +1,246 @@
+{
+  "batch_index": 4,
+  "host": "https://paste.centos.org/",
+  "verdicts": [
+    {
+      "pid": "0d45ab29",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty raw, title 'Untitled', wayback-sourced; no swarm title tell so lean human per wayback policy."
+    },
+    {
+      "pid": "0d4ad0f5",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'zsdgdzghrsyh' is keyboard mash; matches no swarm series and body is unrecoverable on wayback."
+    },
+    {
+      "pid": "0d729478",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title '78e6765' is a short hex-ish string but not the documented agent-XXXX or PAD/TEL/TK series; body empty on wayback."
+    },
+    {
+      "pid": "0d931472",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'YTUTYDR5T' is keyboard mash, matches no swarm title cadence."
+    },
+    {
+      "pid": "0da581b7",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'ERFD' is a short keyboard mash, no swarm signature; wayback-empty body."
+    },
+    {
+      "pid": "0daba4ea",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'All 7+ of my Fedora 37 drives froze after \"dn[f]\"' is a personal Fedora sysadmin question; 2023-01 timestamp predates swarm."
+    },
+    {
+      "pid": "0dc199d6",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Regex fail' reads as a human coding question, no swarm marker."
+    },
+    {
+      "pid": "0de54f99",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'ytidr5ry5tu' is keyboard mash; no swarm series match."
+    },
+    {
+      "pid": "0dfb1f13",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'I7RF5TYRFDYT' is keyboard mash; wayback-empty body, no swarm cue."
+    },
+    {
+      "pid": "0e331032",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'T67DYURTR5' is keyboard mash; no documented swarm cadence."
+    },
+    {
+      "pid": "0e53a268",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with empty raw on wayback; 2024-01 timestamp predates most swarm activity."
+    },
+    {
+      "pid": "0ea1fdba",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Binamata Lobo Jiyakat Raanamol' looks like a personal-name phrase in a non-English language, not a swarm series token."
+    },
+    {
+      "pid": "0ea94aa1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'uiguy' is a short informal string, no swarm marker; wayback-empty."
+    },
+    {
+      "pid": "0eb875e5",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with empty raw; nothing distinguishes as swarm, lean human on wayback."
+    },
+    {
+      "pid": "0ef35996",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'ASWE' is a short keyboard mash; no swarm cue."
+    },
+    {
+      "pid": "0ef4a3fc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "First-person opinion rant about Kingdom Hearts / Dragon Ball Z Death Battle fandom; distinctly human voice."
+    },
+    {
+      "pid": "0f0e571a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with wayback-empty body; nothing swarm-shaped."
+    },
+    {
+      "pid": "0f4d9f1e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title '67UR556' is keyboard mash, matches no documented swarm title series."
+    },
+    {
+      "pid": "0f62d2b3",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'ZOOY' is a short mash; no swarm signature."
+    },
+    {
+      "pid": "0f7071ed",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'R5786T7' is keyboard mash; no swarm cadence match."
+    },
+    {
+      "pid": "0f7e86bc",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Aserdtfyh' is a keyboard mash; no swarm marker; 2025-01 predates most swarm activity."
+    },
+    {
+      "pid": "0f950fb3",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with wayback-empty body; no swarm cue."
+    },
+    {
+      "pid": "0febaeba",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Lies of BSApricot VShojo Apricot Froot LichVtuber' is a VTuber drama call-out, characteristic human paste; 2024-11 predates swarm."
+    },
+    {
+      "pid": "100143f7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real Python 3.13 REPL transcript from user 'shlomif' demonstrating a RecursionError; human developer content."
+    },
+    {
+      "pid": "104a8a80",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'ewtrre trety' is keyboard mash; no swarm marker."
+    },
+    {
+      "pid": "10611e02",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with wayback-empty body, no swarm signal."
+    },
+    {
+      "pid": "107b11c1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'zsdgtsr654yt' is keyboard mash; no swarm cadence."
+    },
+    {
+      "pid": "107cdbc5",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Y6UDE6T7YT6' is keyboard mash; no swarm marker."
+    },
+    {
+      "pid": "10aa0ad9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'listcrasher' + 2023-04 timestamp predates the swarm; unremarkable human paste."
+    },
+    {
+      "pid": "10edea25",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with wayback-empty body, no swarm cue."
+    },
+    {
+      "pid": "10ff06b2",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with wayback-empty body; nothing swarm-shaped."
+    },
+    {
+      "pid": "1114389d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-04 timestamp is well before the swarm existed; title 'UNTITLED' with no other markers."
+    },
+    {
+      "pid": "113132cd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-05 timestamp predates the swarm; empty 'Untitled' with no swarm marker."
+    },
+    {
+      "pid": "11489a94",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'RTYSETE' is keyboard mash; no swarm signature."
+    },
+    {
+      "pid": "115b836f",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body on wayback; no swarm markers to key on, lean human per wayback policy."
+    },
+    {
+      "pid": "11769763",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body on wayback; no swarm markers, lean human."
+    },
+    {
+      "pid": "11816c0e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'TYUYDRT' is keyboard mash; no swarm cadence."
+    },
+    {
+      "pid": "1195e509",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'sadfdfsad' is keyboard mash; no swarm marker."
+    },
+    {
+      "pid": "11ab2cc2",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with empty body on wayback; no swarm cue."
+    },
+    {
+      "pid": "11cfa4b7",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'Untitled' with empty body on wayback; no swarm marker."
+    }
+  ]
+}

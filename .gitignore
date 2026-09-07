@@ -10,3 +10,4 @@ __pycache__/
 # filtered corpus. Regenerate with: python3 scrape/pastebin_k4be.py
 scrape/outputs/pastebin-k4be/bodies.jsonl
 scrape/outputs/pastebin.tarcseh.me/bodies.jsonl
+scrape/outputs/paste.centos.org/bodies.jsonl

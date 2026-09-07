@@ -1,0 +1,53 @@
+{
+  "host": "https://paste.centos.org/",
+  "name": "paste.centos.org",
+  "route": "wayback_view",
+  "source_kind": "wayback",
+  "corpus_prefix": null,
+  "batch_size": 40,
+  "n_batches": 5,
+  "n_to_review": 200,
+  "n_skipped_in_corpus": 0,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "004ff099",
+      "last_pid": "02c376dc",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.centos.org/verdicts/verdict_00.json"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 40,
+      "first_pid": "02ebde9b",
+      "last_pid": "064275c1",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.centos.org/verdicts/verdict_01.json"
+    },
+    {
+      "index": 2,
+      "file": "batch_02.json",
+      "n_pastes": 40,
+      "first_pid": "06566059",
+      "last_pid": "0a18e1cf",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.centos.org/verdicts/verdict_02.json"
+    },
+    {
+      "index": 3,
+      "file": "batch_03.json",
+      "n_pastes": 40,
+      "first_pid": "0a207ddd",
+      "last_pid": "0d422a06",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.centos.org/verdicts/verdict_03.json"
+    },
+    {
+      "index": 4,
+      "file": "batch_04.json",
+      "n_pastes": 40,
+      "first_pid": "0d45ab29",
+      "last_pid": "11cfa4b7",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.centos.org/verdicts/verdict_04.json"
+    }
+  ]
+}
