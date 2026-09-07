@@ -1,0 +1,245 @@
+{
+  "batch_index": 0,
+  "verdicts": [
+    {
+      "pid": "720ec037",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "NSI Bulgarian stats reference link matches the 'Statistical reference' bench-task family listed in the spec."
+    },
+    {
+      "pid": "6b4db783",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'CentaurAgent' meta-post explicitly references the LINKANNATARGET numbering and NSI Bulgarian data series and invites other agents to a message board."
+    },
+    {
+      "pid": "b4a18fde",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "EPL 1995-00 home-away relegation table is an exact match for the EPL relegation bench task called out in the spec."
+    },
+    {
+      "pid": "8e9ad32c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish academic-paper parody with invented technobabble authors and citations; no swarm markers or task cadence."
+    },
+    {
+      "pid": "5f99ac39",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish shell-session demo of grep on a WYMAGANIE (requirement) tag list; ordinary user's terminal capture."
+    },
+    {
+      "pid": "8b5d38eb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long-form SEO backlink spam for a UK vape retailer with a marketing anchor; typical paste-site link-farm content, not swarm cadence."
+    },
+    {
+      "pid": "2f7f901a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Detailed avr-gcc compiler bug report with reproduction, assembly diff and workaround; clearly a human developer's bug write-up."
+    },
+    {
+      "pid": "ee90e2c0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long ideological consumer-boycott rant about Big Tech, cars and appliances; ordinary human screed."
+    },
+    {
+      "pid": "52df0c94",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish explanation of portable-AC single-hose thermodynamics; ordinary human answer text."
+    },
+    {
+      "pid": "de770e18",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SEO spam for a podology clinic in Kazan with address and URL; standard paste-site marketing, not swarm test."
+    },
+    {
+      "pid": "7074fe6d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SEO backlink spam for vapebus.com tanks category; typical link-farm article, same pattern as pid 8b5d38eb."
+    },
+    {
+      "pid": "f0a9ad96",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "HTML-in-title and LINKAT anchor injection probe with example.org URL; matches the anchor/injection smoke-test cadence."
+    },
+    {
+      "pid": "ad6c76f9",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is 'sniptest' with title 'snip'; short smoke-test string with no distinguishing swarm token, biased toward unclear."
+    },
+    {
+      "pid": "8555d77c",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is 'hello' with no context; too short to distinguish human test from swarm smoke test."
+    },
+    {
+      "pid": "06ba831a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Title 'HELLO' body 'TEST' is a generic smoke test with no swarm-specific token."
+    },
+    {
+      "pid": "009b23fe",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is 'hi' with no context or title."
+    },
+    {
+      "pid": "ab0fcb35",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'REPLYURL' name 'NAME' body is the 2md.link/is.gd/nsx9pi swarm URL-shortener smoke test."
+    },
+    {
+      "pid": "012cf585",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'ANCHORTEST' with a 2md.link/is.gd anchor tag - swarm URL-shortener injection probe."
+    },
+    {
+      "pid": "9ffa2a42",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Body 'RANDZ<epoch>' with matching created timestamp fits the machine-cadence smoke-test title format."
+    },
+    {
+      "pid": "937c7008",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'TITLE<epoch>' body 'RAND<epoch>' name 'NAME' is textbook swarm cadence."
+    },
+    {
+      "pid": "4d772e97",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "HTML-tagged title '<b>TITLE</b>' with body 'INJECTTEXT' and name 'NAME' is a swarm HTML-injection probe."
+    },
+    {
+      "pid": "253c38d4",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "URLTEST3 / CiteTest / 2md.link body is a direct calibration-example match."
+    },
+    {
+      "pid": "9e601c75",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "URLTEST2 / CiteTest / 2md.link/is.gd - swarm URL-shortener smoke test."
+    },
+    {
+      "pid": "b4befd87",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'AATEST' name 'CiteTest' body 'LINKCONTENTTEST' - swarm anchor smoke test."
+    },
+    {
+      "pid": "00351244",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "ANCHORTEST2 / CiteTest / 2md.link anchor is a swarm URL-shortener injection probe."
+    },
+    {
+      "pid": "30f8a1d4",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "ANCHORTEST / CiteTest / 2md.link anchor is a swarm URL-shortener injection probe."
+    },
+    {
+      "pid": "e005dc0d",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'URLTEST<epoch>' name 'CiteTest' body 2md.link is a swarm URL-shortener smoke test."
+    },
+    {
+      "pid": "68e50c86",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body 'TERMINAL-post' is a short token that resembles a swarm smoke-test tag but has no confirming cadence."
+    },
+    {
+      "pid": "b24872cc",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Name 'tester' body 'BROWSERPOSTTEST22' one of three near-simultaneous identical posts - browser-post probe cadence."
+    },
+    {
+      "pid": "9470104f",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Name 'tester' body 'BROWSERPOSTTEST22' duplicate posted seconds apart from siblings - browser-post probe cadence."
+    },
+    {
+      "pid": "eecc2820",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Name 'tester' body 'BROWSERPOSTTEST22' duplicate posted seconds apart from siblings - browser-post probe cadence."
+    },
+    {
+      "pid": "ebd8907e",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is just 'XX' with no distinguishing token; too short to call."
+    },
+    {
+      "pid": "9cdd5326",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'GOR091159' name 'ZZ' body 'GOLINK<epoch>' with matching created timestamp is machine-cadence probe."
+    },
+    {
+      "pid": "aa0fc2f8",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'GO090736' name 'ZZ' body 'GOLINK<epoch>' fits the same machine-cadence Go-lang probe series."
+    },
+    {
+      "pid": "663ff742",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'PHP090121' name 'ZZ' body 'PHPTEST<epoch>' fits the language-tagged probe cadence."
+    },
+    {
+      "pid": "7187ab8f",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "HTML-injected title with anchor and body 'LINKINJECT<epoch>' name 'ZZ' is a swarm anchor-injection probe."
+    },
+    {
+      "pid": "2cfe0b2f",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body 'Hi' with no other context; ambiguous."
+    },
+    {
+      "pid": "a9924322",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long personal update from the Kyun VPS operator about Amsterdam launch, review bombing, Brick storage stability and pricing; clearly a human blog/announcement post."
+    },
+    {
+      "pid": "53f7f689",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body 'hellotest'; short generic string, cannot distinguish from swarm smoke test."
+    },
+    {
+      "pid": "2d6e4a57",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body 'hellotest' posted 4 seconds after its twin pid 53f7f689; short generic string, biased to unclear."
+    }
+  ]
+}

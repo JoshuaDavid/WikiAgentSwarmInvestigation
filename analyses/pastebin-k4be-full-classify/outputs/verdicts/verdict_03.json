@@ -1,0 +1,245 @@
+{
+  "batch_index": 3,
+  "verdicts": [
+    {
+      "pid": "be434cd6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "mIRC script (INPUT/say/menu directives) dated 2020-10 predates the 2026 swarm incident by five years."
+    },
+    {
+      "pid": "207cc145",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish IRC channel log with timestamps and named participants k4be/dorota/nikow discussing dating, dated 2020-09."
+    },
+    {
+      "pid": "3fd0ef24",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Iterative revision of a C memcpy-style loop titled 'Re: Re: Re: Re: Bez tytulu', dated 2020-07, classic pastebin edit chain."
+    },
+    {
+      "pid": "7d7c30b0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Prior revision in the same 2020-07 C edit chain (Re: Re: Re: Bez tytulu)."
+    },
+    {
+      "pid": "7c39bc09",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Earlier revision in the same 2020-07 C edit chain (Re: Re: Bez tytulu)."
+    },
+    {
+      "pid": "680e2b60",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Duplicated C snippet in the same 2020-07 edit chain, ordinary human paste."
+    },
+    {
+      "pid": "2a828e37",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Raw IRC session with '<<' send / '>>' recv arrows against test3.pirc.pl unrealircd, matches the spec's 'IRC session dump' human example."
+    },
+    {
+      "pid": "830ea241",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd third-party module source authored by 'k4be@PIRC' (the site operator), dated 2020-05."
+    },
+    {
+      "pid": "10309cc4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Earlier revision of the same k4be UnrealIRCd clienttagdeny module, dated 2020-05."
+    },
+    {
+      "pid": "9a00dff8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Another revision of the k4be UnrealIRCd clienttagdeny module (adds a count variable), dated 2020-05."
+    },
+    {
+      "pid": "56dbc999",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbose OpenSSH debug1 client log connecting to adm.pirc.pl including local paths /home/js/.ssh, dated 2020-04."
+    },
+    {
+      "pid": "73ccfeb9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Broken Polish Tkinter beginner script by user januszspiewa titled 'kodzik', dated 2020-04."
+    },
+    {
+      "pid": "ad3ce93d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PHP+MySQL query snippet from a Polish browser-game (wiadomosci_szpiegowskie, flota) by nick 'chinczyk', dated 2020-03."
+    },
+    {
+      "pid": "4b444149",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Tiny docker-compose fragment referencing api.pirc.pl, dated 2020-03, ordinary infra paste."
+    },
+    {
+      "pid": "6144cb55",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Magnet link for a Coronavirus Prevention Handbook torrent (NulledPremium.com), matches spec's 'wallet/torrent human dump' example."
+    },
+    {
+      "pid": "27a61309",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Linux /sys/kernel/debug/wakeup_sources column dump (PNP0C14, AMDI0030, device:XX), dated 2020-03, ordinary sysadmin paste."
+    },
+    {
+      "pid": "cdd34fe1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ESPEasy flashing/esptool session log with WiFi SSID 'AndroidAP7B8A' by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "9a1fa5e4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish satirical IRC channel election manifesto ('Program JanuszSpiewa do rady kanalu'), dated 2020-03."
+    },
+    {
+      "pid": "9b6482f1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Beginner Arduino Serial-passthrough sketch by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "3a8c106c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Broken beginner Arduino ESP sketch by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "489c22db",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbatim avrdude 6.3 stk500v2 session output showing ATmega2560 detection, dated 2020-03."
+    },
+    {
+      "pid": "44ca910b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Arduino IDE compilation log with Windows path C:\\Users\\Grzesiek\\Desktop\\adriuno-czyjnik by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "7dfe5da3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "DHT11+ESP8266 Thingspeak temperature/humidity sketch in Polish (NazwaSieci/HasloSieci) by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "67abec60",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Large tn2313 AVR assembler project (7-segment clock, 1-wire, Polish register names), dated 2020-03."
+    },
+    {
+      "pid": "74975e9b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Small API-hit histogram (/api/blogmp/users-png etc.) from what looks like a pl.wikidot/CMS log, no swarm markers, dated 2020-03."
+    },
+    {
+      "pid": "0ec46c44",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish Arduino IDE compile-error report ('Podaj czestotliwosc') by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "e4155408",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Broken beginner Arduino tone-generator sketch by januszspiewa, dated 2020-03."
+    },
+    {
+      "pid": "25e0c71a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd third/setname module by k4be with GPL header, dated 2020-02."
+    },
+    {
+      "pid": "deb84e11",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Earlier revision of the same UnrealIRCd third/setname module by k4be, dated 2020-02."
+    },
+    {
+      "pid": "371c453b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Single Polish IRC flame line addressed to 'Senorita' with slurs, dated 2020-02, classic personal-message paste."
+    },
+    {
+      "pid": "1230e173",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IRC CTCP VERSION responses dump (mIRC/XChat/Irssi/Palaver/PIRCH98 client strings) with Polish jokes, dated 2020-01."
+    },
+    {
+      "pid": "ff8e8fde",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Magnet link for a Polish movie torrent (Rambo Ostatnia Krew, FileTracker.pl), dated 2019-11."
+    },
+    {
+      "pid": "b4b0b0d0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "AVR C source for a 7-segment display / button clock (Polish variable names 'losuj', 'przyc') by k4be, dated 2019-11."
+    },
+    {
+      "pid": "88beca8f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Embedded GLCD menu-rendering C code with Polish comments by k4be, dated 2019-11."
+    },
+    {
+      "pid": "6c16b9b1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "vnstat monthly traffic report plus nginx status snippet by januszspiewa, dated 2019-06."
+    },
+    {
+      "pid": "c48bbd20",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IRC TLS certificate verify log for irc.irc-chat.ch (Fake LE Intermediate X1) by k4be, dated 2019-05."
+    },
+    {
+      "pid": "ea619e3b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IE WebSocket SCRIPT12030/12029 errors with Polish system messages by k4be, dated 2019-05."
+    },
+    {
+      "pid": "22007dbd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "w_scan DVB-T terrestrial-scan log (Philips TDA10046H frontend, Polish channels) by k4be, dated 2019-05."
+    },
+    {
+      "pid": "12abb022",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Interactive UnrealIRCd 4 ./Config prompt transcript with /home/k4be/unrealircd default, dated 2019-05."
+    },
+    {
+      "pid": "18cac179",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Interactive UnrealIRCd 4 ./Config prompt transcript with /home/unreal/unrealircd default, dated 2019-05."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "batch_index": 4,
+  "verdicts": [
+    {
+      "pid": "0c3cdc28",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Small C header snippet defining TOPICLEN from the UnrealIRCd source; pasted by owner k4be in 2019."
+    },
+    {
+      "pid": "94333fbd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IRC channel kickerdata config dump (amsgs, badwords, caps, floodlines) posted by owner k4be."
+    },
+    {
+      "pid": "7cbba207",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Elaborate C macro chiptune synth (ADSR/SINE/SQUARE/SAWTOOTH beat.c) — creative demo code, no benchmark task fits."
+    },
+    {
+      "pid": "90dc396b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Preprocessed expansion of the same chiptune synth C code — nothing swarm-shaped."
+    },
+    {
+      "pid": "a0fb806a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Another gcc -E dump of the beat.c chiptune generator — pre-2020 code experiment by user milek."
+    },
+    {
+      "pid": "553210de",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Classic bytebeat one-liner piped through gcc | aplay — a well-known human demoscene trope."
+    },
+    {
+      "pid": "0481038e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "gdb epoll/vfprintf backtraces of an ircd process (m_tkl.c, s_dispatch.c) — IRC operator debugging session."
+    },
+    {
+      "pid": "d51da07d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "STM32 TIM1 stepper-motor ISR C code with Polish comment 'poprawić - gubi pierwszy krok'."
+    },
+    {
+      "pid": "6e47ce04",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PowerShell tracert to youtube.com from user 'Michal' — ordinary network troubleshooting output."
+    },
+    {
+      "pid": "0427e11d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish student email template addressed to Pan Magister/Doktor/Profesor — clearly a human message draft."
+    },
+    {
+      "pid": "311e6bc8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish-locale (sty) syslog dump of ata3.00 SATA errors and BTRFS I/O errors on user milek's box."
+    },
+    {
+      "pid": "5301aec3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Trivial iostream 'hello world' fstream demo — beginner C++ example, no swarm marker."
+    },
+    {
+      "pid": "72801cc5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PHP redirect script for archive.archlinux.org package lookup — small utility helper."
+    },
+    {
+      "pid": "29e56c8a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ping output to 145.239.82.252 posted by user m7 — plain network diagnostic."
+    },
+    {
+      "pid": "c14cc30d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "OpenOCD/STLink stm32f1x debug session dump with register listing — hardware development log."
+    },
+    {
+      "pid": "1745cdb8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "gdb 'BACKTRACE' of unrealircd segfault with hex frame addresses — IRC operator crash-dump paste."
+    },
+    {
+      "pid": "4a4b3f01",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Node.js ECONNREFUSED error object from a socket connect at util.js:1022 — routine debug paste."
+    },
+    {
+      "pid": "4daecc9c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd wwwstats module skeleton (chanStats, MySQL integration) — long personal C source."
+    },
+    {
+      "pid": "21efa0b4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish PIRC NickServ email registration template ('testtesttesttest' nick, CONFIRM code)."
+    },
+    {
+      "pid": "039789b4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Gentoo emerge --sync output showing repeated OpenPGP keyring refresh failures against sks-keyservers."
+    },
+    {
+      "pid": "a11ae61a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Gentoo glibc-2.27-r6 build log with x86_64-pc-linux-gnu-gcc iconv_prog link failure."
+    },
+    {
+      "pid": "3e45a721",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "VirtualBox 5.2.22 g++ link command dump from a portage build — package compile output."
+    },
+    {
+      "pid": "3c098cad",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "HOPM open-proxy monitor debug log (SCAN/target_string SSH/SOCKS4/SOCKS5 setup) for pirc.pl IRC network."
+    },
+    {
+      "pid": "2498143a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Short HOPM SCAN startup log against insomnia.pirc.pl — same IRC operator debugging thread."
+    },
+    {
+      "pid": "59ce4475",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd module m_showwebirc.c v0.03 by k4be adding SWHOIS for WEBIRC users."
+    },
+    {
+      "pid": "f679e1fc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Earlier v0.02 revision of the same m_showwebirc.c module — clearly ongoing personal development."
+    },
+    {
+      "pid": "6f0f3979",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "v0.01 of m_showwebirc.c adding Y usermode via CmdoverrideAdd/UmodeAdd — same k4be project."
+    },
+    {
+      "pid": "44556d52",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Nearly identical v0.01 m_showwebirc with an MOD_INIT typo (m_listrestrict) — draft revision."
+    },
+    {
+      "pid": "d3b216d2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "JavaScript SOCKS4 request-building snippet using String.fromCharCode on an IP octet split — small code snippet."
+    },
+    {
+      "pid": "af235901",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Polish IRC-client CTCP-version reply grab-bag ('twoja stara', 'spadaj', 'Nierobtego') — human channel banter."
+    },
+    {
+      "pid": "722ef110",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Node.js PIRCbot source: HOPM/DroneBL reporter with irc, https, xml2js — full personal IRC bot code."
+    },
+    {
+      "pid": "efa40029",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Irssi-format IRC session log of #lobby ('Anomaly has joined/quit', 'ook: intermittent anomaly')."
+    },
+    {
+      "pid": "dde90720",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd m_unauthban.c extended-ban ~I module by k4be — attributed license header, personal code."
+    },
+    {
+      "pid": "085eec9e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Earlier draft of m_unauthban.c with MOD_LOAD(timedban) leftover — iterative development of the same module."
+    },
+    {
+      "pid": "95031789",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd m_listrestrict.c by Gottem/k4be — fake channel list module with 'Deez defaults' comments."
+    },
+    {
+      "pid": "f169b389",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Unified diff bumping m_listrestrict v1.03 → v1.04 adding exemptIdents option — code review artifact."
+    }
+  ]
+}

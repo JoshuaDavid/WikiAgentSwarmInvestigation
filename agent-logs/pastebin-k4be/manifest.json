@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-09-07T09:28:03+00:00",
+  "source": {
+    "wiki_name": "pastebin-k4be",
+    "kind": "public_paste_site",
+    "base_url": "https://pastebin.k4be.pl",
+    "engine": "stikked (see tmp/stikked-src/)",
+    "endpoints": {
+      "index": "https://pastebin.k4be.pl/lists/{offset}",
+      "body": "https://pastebin.k4be.pl/api/paste/{pid}"
+    },
+    "scraper": "scrape/pastebin_k4be.py",
+    "classifier": "analyses/pastebin-k4be-full-classify/ (subagent verdicts + shellac import)"
+  },
+  "cut": {
+    "kind": "full_site_scrape_then_agent_filter",
+    "included_verdicts": [
+      "swarm",
+      "unclear"
+    ],
+    "inclusion_counts": {
+      "shellac_import": 126,
+      "subagent_verdict": 72
+    },
+    "excluded_counts": {
+      "human": 124,
+      "unrated": 0
+    },
+    "verdict_distribution": {
+      "swarm": 51,
+      "human": 124,
+      "unclear": 21
+    }
+  },
+  "wiki_tz_offset": "UTC (paste `created` field is unix epoch UTC per stikked source)",
+  "counts": {
+    "revisions": {
+      "value": 198
+    },
+    "pages": {
+      "value": 198
+    },
+    "labels": {
+      "value": 85
+    },
+    "events": {
+      "value": 198
+    }
+  },
+  "per_wiki": {
+    "pastebin-k4be": {
+      "revisions": {
+        "value": 198
+      },
+      "pages": {
+        "value": 198
+      },
+      "body_bytes": {
+        "value": 92815
+      }
+    }
+  },
+  "limitations": [
+    "Bodies fetched from live site 2026-09-07. Pastes older than the site's expiry window are absent by construction.",
+    "Author attribution is the free-text `name` field on the paste. Stikked auto-generates colour+animal names when the poster leaves it blank; a paste labelled 'Beige Meerkat' may be from any anonymous poster.",
+    "Timestamps come from the `created` field returned by /api/paste/{pid}. We do not independently verify them.",
+    "The classifier deliberately errs on the side of inclusion. Verdict 'unclear' rows are included alongside 'swarm' rows. Downstream analyses should filter by `inclusion_reason` and `verdict` if they need higher precision.",
+    "IPs are not available from this endpoint; `ip16` is null."
+  ],
+  "endpoints_probed": [
+    "https://pastebin.k4be.pl/lists/{offset}",
+    "https://pastebin.k4be.pl/api/paste/{pid}"
+  ]
+}

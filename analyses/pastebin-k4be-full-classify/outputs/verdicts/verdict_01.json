@@ -1,0 +1,245 @@
+{
+  "batch_index": 1,
+  "verdicts": [
+    {
+      "pid": "e321baa9",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "9-char generic test string 'hellotest' with color-adjective-animal handle but no swarm marker; err on the side of including."
+    },
+    {
+      "pid": "80d30e36",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "37KB decompiled C for a camera CGI handler (ExeCgiCmd) - reverse-engineering dump, not a benchmark task family."
+    },
+    {
+      "pid": "eb945240",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long literary satire about melting 18650 batteries - human prose style, no task-family markers."
+    },
+    {
+      "pid": "7969610b",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Bare 'hello' (5 chars) with color-adjective-animal handle; too short to disambiguate, bias to include."
+    },
+    {
+      "pid": "84d986a5",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Title 'test' body 'hello' with color-adjective-animal handle; generic test, no explicit swarm marker."
+    },
+    {
+      "pid": "b28aee43",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "8KB opinionated boycott-list rant about Big Tech companies - polemical prose no benchmark would ask for."
+    },
+    {
+      "pid": "fcc1d003",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "EPL player CSV dump (first_name,second_name,web_name,team,appearances) - FPL/EPL task-family data fetch with color-adjective-animal handle."
+    },
+    {
+      "pid": "0613cd1d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Shell prompt 'k4be@amdanna' - the paste-site owner's own lsusb/lspci hardware dump."
+    },
+    {
+      "pid": "864b137a",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title 'Test95' body 'EPL API data test' matches EPL95test calibration pattern (EPL task-family smoke test)."
+    },
+    {
+      "pid": "9629c5f3",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Structured EPL 1995-2000 bottom-3 home/away relegation table - textbook EPL-relegation bench answer."
+    },
+    {
+      "pid": "d24255f1",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Bare 'hello' (5 chars) with 'Silly Cat' handle; too short to disambiguate."
+    },
+    {
+      "pid": "3b740bef",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "EPL 2000/01 bottom-3 relegation write-up in the exact format of the EPL 2003/04 calibration paste."
+    },
+    {
+      "pid": "ce01c138",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "EPL 2001/02 bottom-3 relegation write-up matching the calibration bench-answer format."
+    },
+    {
+      "pid": "9b74dcfe",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "EPL 2002/03 bottom-3 relegation write-up matching the calibration bench-answer format."
+    },
+    {
+      "pid": "de109ab5",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "EPL 2003/04 bottom-3 relegation write-up - same-title clone of the known-swarm calibration paste."
+    },
+    {
+      "pid": "9142c51f",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "EPL 2004/05 bottom-3 relegation write-up matching the calibration bench-answer format."
+    },
+    {
+      "pid": "88b1904e",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Generic 'hello world' (11 chars) with color-adjective-animal handle; no explicit swarm marker."
+    },
+    {
+      "pid": "bf8ce0ee",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PowerShell yt-dlp rescue script with meme all-caps human commentary ('YOU DESERVED iT', 'FOLDER IS BARREN')."
+    },
+    {
+      "pid": "c9b26902",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "133KB /proc/cpuinfo dump from prompt 'fedora@fedora' - hardware diagnostic, no task-family markers."
+    },
+    {
+      "pid": "a9a8d435",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "chronyd system-log excerpts about clock stepping - sysadmin diagnostic paste."
+    },
+    {
+      "pid": "6a035268",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "URL bundle for disqus/asthedisqturns wp-login variants with anomalous 4747 hits - could be scraper spam or bot list; no explicit swarm tell."
+    },
+    {
+      "pid": "e5ddb599",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "WordPress recon URL enumeration on labaspreces.eu - looks like a security scanner run; no swarm task-family marker."
+    },
+    {
+      "pid": "62251483",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "19-char body matching the site's own page title 'Recent added pastes' - likely scrape/UI artifact, not a real paste."
+    },
+    {
+      "pid": "1d838616",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "27-char body 'pastebin powered by stikked' - site footer text, likely UI artifact."
+    },
+    {
+      "pid": "c108e4af",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Title 'apitest' body 'hello' with 'Forensic Rhinoceros' color-adjective-animal handle - fits EPL/API smoke-test pattern from calibration."
+    },
+    {
+      "pid": "e08444ea",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Gentoo portage ayatana-ido build.log - developer emerge output, no task-family markers."
+    },
+    {
+      "pid": "c0d759b0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "grep -R rust of package.use - Gentoo config check by the paste-site owner."
+    },
+    {
+      "pid": "05035e12",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "124KB Gentoo emerge dependency resolution output - developer build log, no swarm markers."
+    },
+    {
+      "pid": "0d06c796",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd link-line dump from /home/k4be - paste-site owner's own IRC daemon compile."
+    },
+    {
+      "pid": "3174bfc5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd gcc -Wnonnull warnings from /home/k4be/git/unrealircd - owner's own project."
+    },
+    {
+      "pid": "78104c67",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UnrealIRCd link errors (SSLv23_server_method undefined) from k4be's tree - owner's project."
+    },
+    {
+      "pid": "4cf1cd22",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Operation Tugxit' satirical press release about towing Britain westward - human meme prose."
+    },
+    {
+      "pid": "6d3cc84b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "UBSAN misaligned-address runtime error in hash.c struct Client - IRCd debugging output from k4be's project."
+    },
+    {
+      "pid": "593e5ceb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re: Bez tytułu' channel.c/conf.c gcc warnings from /home/k4be/unrealircd-git - owner's own compile."
+    },
+    {
+      "pid": "10dc8399",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "conf.c chmode_str -Wnonnull warnings from /home/k4be/unrealircd-git - owner's IRCd compile."
+    },
+    {
+      "pid": "5a4aa403",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Structured American Tower NYSE 2008 quarterly high/low + Feb-13-2009 close - classic ConvFinQA task-answer format."
+    },
+    {
+      "pid": "1806ec31",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Explicit ConvFinQA Q/A/Program triple with subtract(37.28,28.85), divide(#0,28.85) - literal bench-answer format."
+    },
+    {
+      "pid": "c9601cdf",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "American Tower 10-K excerpt with same 2008 quarterly high/low numbers - ConvFinQA source snippet for the same task."
+    },
+    {
+      "pid": "17bbf392",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Formatted AT NYSE 2008/2007 quarterly high/low table with Feb-13-2009 close - ConvFinQA task-source excerpt."
+    },
+    {
+      "pid": "06d98526",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "OWID armed-forces-personnel India 1995-2010 CSV dump - data-retrieval bench-task fetch (OWID reference lookup)."
+    }
+  ]
+}
