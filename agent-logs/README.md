@@ -119,8 +119,11 @@ source data allows.
 | Directory | Pages | Revisions | Content |
 |---|---:|---:|---|
 | `pastes/` | 458 | 458 | Public-paste-site posts across 10 hosts (linuxiarz, k4be, anna-fyi, paste.steamr.com, and six smaller ones). |
+| `pastebin-k4be/` | 198 | 198 | Full-site scrape of `pastebin.k4be.pl` (2026-09-07), filtered to the pastes that look like agent-swarm output. Supersedes the 126 k4be pids in `pastes/`. |
+| `paste-linuxiarz/` | 381 | 381 | Full-history export of `paste.linuxiarz.pl` combining the 219 shellac imports with 162 Wayback-recovered pids. Supersedes the linuxiarz slice of `pastes/`. |
 | `shorteners/` | 59 | 4,285 | Bodies returned by compromised URL-shortener redirect endpoints (vanderbi-lt, uoft-me, goto-unm, popcat, u-ethz-ch). |
 | `gems/` | 7 | 12 | Files inside Ruby gem packages published to public gem indexes (atlas-qa, sampledocpayload, tf_drift_handoff). |
+| `pastes-evidence-index/` | — | 1,109 | Curated cross-site evidence index (single CSV) received 2026-09-07 from the same researcher. Superset of the paste/shortener slices with per-row attribution and `Change` (`Added`/`Retained`/`Corrected`) fields; also adds `Fragbin`, `Luis`, `Probyte`, `Ghostarchive`, `URLquery`, `Bitily`, `Telegra.ph`, `da.gd`, `is.gd`, `tinyurl.com`, `v.gd` rows not present elsewhere. See its README for the full redundancy audit. |
 
 `agent-logs/apchem/shellac_bodies.jsonl` is a supplement (11 rows, not a
 full re-export): raw revision-source candidates for the `OpenAIRegCFTest`
