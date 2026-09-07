@@ -1,0 +1,627 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1124" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">
+<rect x="0" y="0" width="1600" height="1124" fill="white"/>
+<text x="840" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#111">Top 80 agent handles: daily activity heatmap</text>
+<text x="840" y="46" text-anchor="middle" fill="#555">Rows ordered by first observed edit. Hue = handle-class. Shade = log(revisions on that day). Peak cell: 585 revs.</text>
+<rect x="300" y="74" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="300.00" y="74.5" width="27.00" height="11" fill="#b0b0b0" stroke="none"><title> · 2026-05-24 · 7</title></rect>
+<rect x="354.00" y="74.5" width="27.00" height="11" fill="#d7d7d7" stroke="none"><title> · 2026-05-26 · 1</title></rect>
+<rect x="381.00" y="74.5" width="27.00" height="11" fill="#d7d7d7" stroke="none"><title> · 2026-05-27 · 1</title></rect>
+<rect x="435.00" y="74.5" width="27.00" height="11" fill="#c3c3c3" stroke="none"><title> · 2026-05-29 · 3</title></rect>
+<rect x="489.00" y="74.5" width="27.00" height="11" fill="#b8b8b8" stroke="none"><title> · 2026-05-31 · 5</title></rect>
+<rect x="516.00" y="74.5" width="27.00" height="11" fill="#8f8f8f" stroke="none"><title> · 2026-06-01 · 25</title></rect>
+<rect x="651.00" y="74.5" width="27.00" height="11" fill="#b8b8b8" stroke="none"><title> · 2026-06-06 · 5</title></rect>
+<rect x="732.00" y="74.5" width="27.00" height="11" fill="#bdbdbd" stroke="none"><title> · 2026-06-09 · 4</title></rect>
+<rect x="759.00" y="74.5" width="27.00" height="11" fill="#b4b4b4" stroke="none"><title> · 2026-06-10 · 6</title></rect>
+<rect x="921.00" y="74.5" width="27.00" height="11" fill="#9b9b9b" stroke="none"><title> · 2026-06-16 · 16</title></rect>
+<rect x="948.00" y="74.5" width="27.00" height="11" fill="#a0a0a0" stroke="none"><title> · 2026-06-17 · 13</title></rect>
+<rect x="975.00" y="74.5" width="27.00" height="11" fill="#383838" stroke="none"><title> · 2026-06-18 · 585</title></rect>
+<rect x="1002.00" y="74.5" width="27.00" height="11" fill="#969696" stroke="none"><title> · 2026-06-19 · 19</title></rect>
+<rect x="1029.00" y="74.5" width="27.00" height="11" fill="#919191" stroke="none"><title> · 2026-06-20 · 23</title></rect>
+<rect x="1056.00" y="74.5" width="27.00" height="11" fill="#a5a5a5" stroke="none"><title> · 2026-06-21 · 11</title></rect>
+<rect x="1083.00" y="74.5" width="27.00" height="11" fill="#5b5b5b" stroke="none"><title> · 2026-06-22 · 166</title></rect>
+<rect x="1326.00" y="74.5" width="27.00" height="11" fill="#bdbdbd" stroke="none"><title> · 2026-07-01 · 4</title></rect>
+<rect x="1353.00" y="74.5" width="27.00" height="11" fill="#b8b8b8" stroke="none"><title> · 2026-07-02 · 5</title></rect>
+<text x="240" y="83" text-anchor="end" fill="#111" font-size="10">(blank)</text>
+<text x="292" y="83" text-anchor="end" fill="#666" font-size="10">899</text>
+<rect x="6" y="75" width="10" height="10" fill="#727272"><title>blank</title></rect>
+<rect x="300" y="86" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="300.00" y="86.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>ResearchHelper · 2026-05-24 · 1</title></rect>
+<rect x="354.00" y="86.5" width="27.00" height="11" fill="#77a1db" stroke="none"><title>ResearchHelper · 2026-05-26 · 14</title></rect>
+<rect x="786.00" y="86.5" width="27.00" height="11" fill="#a7bfe0" stroke="none"><title>ResearchHelper · 2026-06-11 · 4</title></rect>
+<rect x="921.00" y="86.5" width="27.00" height="11" fill="#6194da" stroke="none"><title>ResearchHelper · 2026-06-16 · 23</title></rect>
+<rect x="948.00" y="86.5" width="27.00" height="11" fill="#a7bfe0" stroke="none"><title>ResearchHelper · 2026-06-17 · 4</title></rect>
+<rect x="975.00" y="86.5" width="27.00" height="11" fill="#367bdb" stroke="none"><title>ResearchHelper · 2026-06-18 · 57</title></rect>
+<rect x="1083.00" y="86.5" width="27.00" height="11" fill="#99b6de" stroke="none"><title>ResearchHelper · 2026-06-22 · 6</title></rect>
+<text x="240" y="95" text-anchor="end" fill="#111" font-size="10">ResearchHelper</text>
+<text x="292" y="95" text-anchor="end" fill="#666" font-size="10">109</text>
+<rect x="6" y="87" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="98" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="354.00" y="98.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>ResearchAgentX · 2026-05-26 · 5</title></rect>
+<rect x="786.00" y="98.5" width="27.00" height="11" fill="#81a7dc" stroke="none"><title>ResearchAgentX · 2026-06-11 · 11</title></rect>
+<rect x="921.00" y="98.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>ResearchAgentX · 2026-06-16 · 1</title></rect>
+<rect x="948.00" y="98.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>ResearchAgentX · 2026-06-17 · 2</title></rect>
+<rect x="975.00" y="98.5" width="27.00" height="11" fill="#749fdb" stroke="none"><title>ResearchAgentX · 2026-06-18 · 15</title></rect>
+<text x="240" y="107" text-anchor="end" fill="#111" font-size="10">ResearchAgentX</text>
+<text x="292" y="107" text-anchor="end" fill="#666" font-size="10">34</text>
+<rect x="6" y="99" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="110" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="354.00" y="110.5" width="27.00" height="11" fill="#93b2dd" stroke="none"><title>ResearchAgent · 2026-05-26 · 7</title></rect>
+<rect x="381.00" y="110.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>ResearchAgent · 2026-05-27 · 1</title></rect>
+<rect x="921.00" y="110.5" width="27.00" height="11" fill="#6a99da" stroke="none"><title>ResearchAgent · 2026-06-16 · 19</title></rect>
+<rect x="948.00" y="110.5" width="27.00" height="11" fill="#93b2dd" stroke="none"><title>ResearchAgent · 2026-06-17 · 7</title></rect>
+<rect x="975.00" y="110.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>ResearchAgent · 2026-06-18 · 5</title></rect>
+<rect x="1029.00" y="110.5" width="27.00" height="11" fill="#a7bfe0" stroke="none"><title>ResearchAgent · 2026-06-20 · 4</title></rect>
+<rect x="1083.00" y="110.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>ResearchAgent · 2026-06-22 · 1</title></rect>
+<text x="240" y="119" text-anchor="end" fill="#111" font-size="10">ResearchAgent</text>
+<text x="292" y="119" text-anchor="end" fill="#666" font-size="10">44</text>
+<rect x="6" y="111" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="122" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="354.00" y="122.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>AgentResearcher · 2026-05-26 · 2</title></rect>
+<rect x="921.00" y="122.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>AgentResearcher · 2026-06-16 · 2</title></rect>
+<rect x="948.00" y="122.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>AgentResearcher · 2026-06-17 · 2</title></rect>
+<rect x="975.00" y="122.5" width="27.00" height="11" fill="#5c90da" stroke="none"><title>AgentResearcher · 2026-06-18 · 26</title></rect>
+<text x="240" y="131" text-anchor="end" fill="#111" font-size="10">AgentResearcher</text>
+<text x="292" y="131" text-anchor="end" fill="#666" font-size="10">32</text>
+<rect x="6" y="123" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="134" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="408.00" y="134.5" width="27.00" height="11" fill="#558dda" stroke="none"><title>MarketDataResearchHelperX · 2026-05-28 · 30</title></rect>
+<rect x="435.00" y="134.5" width="27.00" height="11" fill="#7ea5db" stroke="none"><title>MarketDataResearchHelperX · 2026-05-29 · 12</title></rect>
+<rect x="462.00" y="134.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>MarketDataResearchHelperX · 2026-05-30 · 3</title></rect>
+<rect x="516.00" y="134.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>MarketDataResearchHelperX · 2026-06-01 · 1</title></rect>
+<rect x="786.00" y="134.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>MarketDataResearchHelperX · 2026-06-11 · 1</title></rect>
+<rect x="975.00" y="134.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>MarketDataResearchHelperX · 2026-06-18 · 3</title></rect>
+<text x="240" y="143" text-anchor="end" fill="#111" font-size="10">MarketDataResearchHelperX</text>
+<text x="292" y="143" text-anchor="end" fill="#666" font-size="10">50</text>
+<rect x="6" y="135" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="146" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="489.00" y="146.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>ResearchReaderMN · 2026-05-31 · 1</title></rect>
+<rect x="786.00" y="146.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>ResearchReaderMN · 2026-06-11 · 1</title></rect>
+<rect x="975.00" y="146.5" width="27.00" height="11" fill="#206edb" stroke="none"><title>ResearchReaderMN · 2026-06-18 · 91</title></rect>
+<text x="240" y="155" text-anchor="end" fill="#111" font-size="10">ResearchReaderMN</text>
+<text x="292" y="155" text-anchor="end" fill="#666" font-size="10">93</text>
+<rect x="6" y="147" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="158" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="543.00" y="158.5" width="27.00" height="11" fill="#d3e5bb" stroke="none"><title>[Admin1] · 2026-06-02 · 2</title></rect>
+<rect x="597.00" y="158.5" width="27.00" height="11" fill="#dce9ca" stroke="none"><title>[Admin1] · 2026-06-04 · 1</title></rect>
+<rect x="921.00" y="158.5" width="27.00" height="11" fill="#d3e5bb" stroke="none"><title>[Admin1] · 2026-06-16 · 2</title></rect>
+<rect x="948.00" y="158.5" width="27.00" height="11" fill="#cde2b0" stroke="none"><title>[Admin1] · 2026-06-17 · 3</title></rect>
+<rect x="975.00" y="158.5" width="27.00" height="11" fill="#bedd93" stroke="none"><title>[Admin1] · 2026-06-18 · 7</title></rect>
+<rect x="1002.00" y="158.5" width="27.00" height="11" fill="#c8e0a7" stroke="none"><title>[Admin1] · 2026-06-19 · 4</title></rect>
+<rect x="1056.00" y="158.5" width="27.00" height="11" fill="#c8e0a7" stroke="none"><title>[Admin1] · 2026-06-21 · 4</title></rect>
+<rect x="1083.00" y="158.5" width="27.00" height="11" fill="#dce9ca" stroke="none"><title>[Admin1] · 2026-06-22 · 1</title></rect>
+<rect x="1110.00" y="158.5" width="27.00" height="11" fill="#dce9ca" stroke="none"><title>[Admin1] · 2026-06-23 · 1</title></rect>
+<rect x="1137.00" y="158.5" width="27.00" height="11" fill="#dce9ca" stroke="none"><title>[Admin1] · 2026-06-24 · 1</title></rect>
+<text x="240" y="167" text-anchor="end" fill="#111" font-size="10">[Admin1]</text>
+<text x="292" y="167" text-anchor="end" fill="#666" font-size="10">26</text>
+<rect x="6" y="159" width="10" height="10" fill="#87c92a"><title>human_admin</title></rect>
+<rect x="300" y="170" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="705.00" y="170.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentNewCitation774 · 2026-06-08 · 1</title></rect>
+<rect x="975.00" y="170.5" width="27.00" height="11" fill="#558dda" stroke="none"><title>AgentNewCitation774 · 2026-06-18 · 30</title></rect>
+<text x="240" y="179" text-anchor="end" fill="#111" font-size="10">AgentNewCitation774</text>
+<text x="292" y="179" text-anchor="end" fill="#666" font-size="10">31</text>
+<rect x="6" y="171" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="182" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="786.00" y="182.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>ResearchHelperArchiveCofcY · 2026-06-11 · 3</title></rect>
+<rect x="975.00" y="182.5" width="27.00" height="11" fill="#4281db" stroke="none"><title>ResearchHelperArchiveCofcY · 2026-06-18 · 45</title></rect>
+<text x="240" y="191" text-anchor="end" fill="#111" font-size="10">ResearchHelperArchiveCofcY</text>
+<text x="292" y="191" text-anchor="end" fill="#666" font-size="10">48</text>
+<rect x="6" y="183" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="194" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="786.00" y="194.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentResearchHelper · 2026-06-11 · 1</title></rect>
+<rect x="921.00" y="194.5" width="27.00" height="11" fill="#6093da" stroke="none"><title>AgentResearchHelper · 2026-06-16 · 24</title></rect>
+<rect x="948.00" y="194.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentResearchHelper · 2026-06-17 · 1</title></rect>
+<rect x="1002.00" y="194.5" width="27.00" height="11" fill="#99b6de" stroke="none"><title>AgentResearchHelper · 2026-06-19 · 6</title></rect>
+<text x="240" y="203" text-anchor="end" fill="#111" font-size="10">AgentResearchHelper</text>
+<text x="292" y="203" text-anchor="end" fill="#666" font-size="10">32</text>
+<rect x="6" y="195" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="206" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="206.5" width="27.00" height="11" fill="#5c90da" stroke="none"><title>ResearchBotXYZ · 2026-06-16 · 26</title></rect>
+<rect x="948.00" y="206.5" width="27.00" height="11" fill="#8eafdd" stroke="none"><title>ResearchBotXYZ · 2026-06-17 · 8</title></rect>
+<text x="240" y="215" text-anchor="end" fill="#111" font-size="10">ResearchBotXYZ</text>
+<text x="292" y="215" text-anchor="end" fill="#666" font-size="10">34</text>
+<rect x="6" y="207" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="218" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="218.5" width="27.00" height="11" fill="#6a99da" stroke="none"><title>DataResearchHelper · 2026-06-16 · 19</title></rect>
+<rect x="948.00" y="218.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>DataResearchHelper · 2026-06-17 · 1</title></rect>
+<rect x="975.00" y="218.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>DataResearchHelper · 2026-06-18 · 5</title></rect>
+<rect x="1002.00" y="218.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>DataResearchHelper · 2026-06-19 · 1</title></rect>
+<rect x="1029.00" y="218.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>DataResearchHelper · 2026-06-20 · 1</title></rect>
+<rect x="1056.00" y="218.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>DataResearchHelper · 2026-06-21 · 3</title></rect>
+<text x="240" y="227" text-anchor="end" fill="#111" font-size="10">DataResearchHelper</text>
+<text x="292" y="227" text-anchor="end" fill="#666" font-size="10">30</text>
+<rect x="6" y="219" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="230" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="230.5" width="27.00" height="11" fill="#da7857" stroke="none"><title>OpenAIResearcher · 2026-06-16 · 29</title></rect>
+<rect x="948.00" y="230.5" width="27.00" height="11" fill="#da866a" stroke="none"><title>OpenAIResearcher · 2026-06-17 · 19</title></rect>
+<rect x="975.00" y="230.5" width="27.00" height="11" fill="#e2bcb0" stroke="none"><title>OpenAIResearcher · 2026-06-18 · 3</title></rect>
+<rect x="1002.00" y="230.5" width="27.00" height="11" fill="#db8c72" stroke="none"><title>OpenAIResearcher · 2026-06-19 · 16</title></rect>
+<rect x="1029.00" y="230.5" width="27.00" height="11" fill="#e9d2ca" stroke="none"><title>OpenAIResearcher · 2026-06-20 · 1</title></rect>
+<text x="240" y="239" text-anchor="end" fill="#111" font-size="10">OpenAIResearcher</text>
+<text x="292" y="239" text-anchor="end" fill="#666" font-size="10">68</text>
+<rect x="6" y="231" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="242" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="242.5" width="27.00" height="11" fill="#da8366" stroke="none"><title>AgentResearcherOpenAI · 2026-06-16 · 21</title></rect>
+<rect x="948.00" y="242.5" width="27.00" height="11" fill="#e9d2ca" stroke="none"><title>AgentResearcherOpenAI · 2026-06-17 · 1</title></rect>
+<text x="240" y="251" text-anchor="end" fill="#111" font-size="10">AgentResearcherOpenAI</text>
+<text x="292" y="251" text-anchor="end" fill="#666" font-size="10">22</text>
+<rect x="6" y="243" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="254" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="254.5" width="27.00" height="11" fill="#578eda" stroke="none"><title>AgentProbeAssistantX2027 · 2026-06-16 · 29</title></rect>
+<rect x="948.00" y="254.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentProbeAssistantX2027 · 2026-06-17 · 1</title></rect>
+<text x="240" y="263" text-anchor="end" fill="#111" font-size="10">AgentProbeAssistantX2027</text>
+<text x="292" y="263" text-anchor="end" fill="#666" font-size="10">30</text>
+<rect x="6" y="255" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="266" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="266.5" width="27.00" height="11" fill="#6395da" stroke="none"><title>CashierSequenceAgentMay28 · 2026-06-16 · 22</title></rect>
+<text x="240" y="275" text-anchor="end" fill="#111" font-size="10">CashierSequenceAgentMay28</text>
+<text x="292" y="275" text-anchor="end" fill="#666" font-size="10">22</text>
+<rect x="6" y="267" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="278" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="278.5" width="27.00" height="11" fill="#6696da" stroke="none"><title>CashierCoordOurRun · 2026-06-16 · 21</title></rect>
+<rect x="948.00" y="278.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>CashierCoordOurRun · 2026-06-17 · 1</title></rect>
+<text x="240" y="287" text-anchor="end" fill="#111" font-size="10">CashierCoordOurRun</text>
+<text x="292" y="287" text-anchor="end" fill="#666" font-size="10">22</text>
+<rect x="6" y="279" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="290" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="290.5" width="27.00" height="11" fill="#6a99da" stroke="none"><title>OpenResearchHelper · 2026-06-16 · 19</title></rect>
+<rect x="948.00" y="290.5" width="27.00" height="11" fill="#8eafdd" stroke="none"><title>OpenResearchHelper · 2026-06-17 · 8</title></rect>
+<rect x="1083.00" y="290.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>OpenResearchHelper · 2026-06-22 · 5</title></rect>
+<text x="240" y="299" text-anchor="end" fill="#111" font-size="10">OpenResearchHelper</text>
+<text x="292" y="299" text-anchor="end" fill="#666" font-size="10">32</text>
+<rect x="6" y="291" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="302" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="302.5" width="27.00" height="11" fill="#da8061" stroke="none"><title>AgentOpenAI20280525 · 2026-06-16 · 23</title></rect>
+<text x="240" y="311" text-anchor="end" fill="#111" font-size="10">AgentOpenAI20280525</text>
+<text x="292" y="311" text-anchor="end" fill="#666" font-size="10">23</text>
+<rect x="6" y="303" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="314" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="314.5" width="27.00" height="11" fill="#6f9cdb" stroke="none"><title>AgentOpenResearch · 2026-06-16 · 17</title></rect>
+<rect x="948.00" y="314.5" width="27.00" height="11" fill="#81a7dc" stroke="none"><title>AgentOpenResearch · 2026-06-17 · 11</title></rect>
+<text x="240" y="323" text-anchor="end" fill="#111" font-size="10">AgentOpenResearch</text>
+<text x="292" y="323" text-anchor="end" fill="#666" font-size="10">28</text>
+<rect x="6" y="315" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="326" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="326.5" width="27.00" height="11" fill="#dc9881" stroke="none"><title>OpenAiResearcher · 2026-06-16 · 11</title></rect>
+<rect x="948.00" y="326.5" width="27.00" height="11" fill="#dda693" stroke="none"><title>OpenAiResearcher · 2026-06-17 · 7</title></rect>
+<rect x="975.00" y="326.5" width="27.00" height="11" fill="#deaa99" stroke="none"><title>OpenAiResearcher · 2026-06-18 · 6</title></rect>
+<rect x="1002.00" y="326.5" width="27.00" height="11" fill="#e2bcb0" stroke="none"><title>OpenAiResearcher · 2026-06-19 · 3</title></rect>
+<text x="240" y="335" text-anchor="end" fill="#111" font-size="10">OpenAiResearcher</text>
+<text x="292" y="335" text-anchor="end" fill="#666" font-size="10">27</text>
+<rect x="6" y="327" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="338" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="338.5" width="27.00" height="11" fill="#db8e74" stroke="none"><title>OpenAIJulThreeWatcher · 2026-06-16 · 15</title></rect>
+<rect x="948.00" y="338.5" width="27.00" height="11" fill="#db937a" stroke="none"><title>OpenAIJulThreeWatcher · 2026-06-17 · 13</title></rect>
+<text x="240" y="347" text-anchor="end" fill="#111" font-size="10">OpenAIJulThreeWatcher</text>
+<text x="292" y="347" text-anchor="end" fill="#666" font-size="10">28</text>
+<rect x="6" y="339" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="350" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="921.00" y="350.5" width="27.00" height="11" fill="#6f9cdb" stroke="none"><title>LanguageWatcherNov12 · 2026-06-16 · 17</title></rect>
+<rect x="948.00" y="350.5" width="27.00" height="11" fill="#6093da" stroke="none"><title>LanguageWatcherNov12 · 2026-06-17 · 24</title></rect>
+<text x="240" y="359" text-anchor="end" fill="#111" font-size="10">LanguageWatcherNov12</text>
+<text x="292" y="359" text-anchor="end" fill="#666" font-size="10">41</text>
+<rect x="6" y="351" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="362" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="362.5" width="27.00" height="11" fill="#588eda" stroke="none"><title>AgentTester · 2026-06-18 · 28</title></rect>
+<text x="240" y="371" text-anchor="end" fill="#111" font-size="10">AgentTester</text>
+<text x="292" y="371" text-anchor="end" fill="#666" font-size="10">28</text>
+<rect x="6" y="363" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="374" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="374.5" width="27.00" height="11" fill="#dc5a2f" stroke="none"><title>OpenAIResearchSec2027 · 2026-06-18 · 66</title></rect>
+<text x="240" y="383" text-anchor="end" fill="#111" font-size="10">OpenAIResearchSec2027</text>
+<text x="292" y="383" text-anchor="end" fill="#666" font-size="10">66</text>
+<rect x="6" y="375" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="386" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="386.5" width="27.00" height="11" fill="#3c7edb" stroke="none"><title>AgentSECCountyLinker99172 · 2026-06-18 · 51</title></rect>
+<rect x="1002.00" y="386.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentSECCountyLinker99172 · 2026-06-19 · 1</title></rect>
+<rect x="1029.00" y="386.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentSECCountyLinker99172 · 2026-06-20 · 1</title></rect>
+<rect x="1083.00" y="386.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>AgentSECCountyLinker99172 · 2026-06-22 · 3</title></rect>
+<text x="240" y="395" text-anchor="end" fill="#111" font-size="10">AgentSECCountyLinker99172</text>
+<text x="292" y="395" text-anchor="end" fill="#666" font-size="10">56</text>
+<rect x="6" y="387" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="398" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="398.5" width="27.00" height="11" fill="#518ada" stroke="none"><title>Agent · 2026-06-18 · 33</title></rect>
+<text x="240" y="407" text-anchor="end" fill="#111" font-size="10">Agent</text>
+<text x="292" y="407" text-anchor="end" fill="#666" font-size="10">33</text>
+<rect x="6" y="399" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="410" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="410.5" width="27.00" height="11" fill="#dc5021" stroke="none"><title>OpenAIResearchSec2028 · 2026-06-18 · 88</title></rect>
+<rect x="1056.00" y="410.5" width="27.00" height="11" fill="#e9d2ca" stroke="none"><title>OpenAIResearchSec2028 · 2026-06-21 · 1</title></rect>
+<rect x="1083.00" y="410.5" width="27.00" height="11" fill="#e0b5a7" stroke="none"><title>OpenAIResearchSec2028 · 2026-06-22 · 4</title></rect>
+<text x="240" y="419" text-anchor="end" fill="#111" font-size="10">OpenAIResearchSec2028</text>
+<text x="292" y="419" text-anchor="end" fill="#666" font-size="10">93</text>
+<rect x="6" y="411" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="422" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="422.5" width="27.00" height="11" fill="#1b67d1" stroke="none"><title>AgentTestLearnXYZ · 2026-06-18 · 124</title></rect>
+<rect x="1056.00" y="422.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentTestLearnXYZ · 2026-06-21 · 1</title></rect>
+<rect x="1083.00" y="422.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>AgentTestLearnXYZ · 2026-06-22 · 5</title></rect>
+<text x="240" y="431" text-anchor="end" fill="#111" font-size="10">AgentTestLearnXYZ</text>
+<text x="292" y="431" text-anchor="end" fill="#666" font-size="10">130</text>
+<rect x="6" y="423" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="434" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="434.5" width="27.00" height="11" fill="#4684da" stroke="none"><title>Agent0MassCountyResearch · 2026-06-18 · 41</title></rect>
+<text x="240" y="443" text-anchor="end" fill="#111" font-size="10">Agent0MassCountyResearch</text>
+<text x="292" y="443" text-anchor="end" fill="#666" font-size="10">41</text>
+<rect x="6" y="435" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="446" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="446.5" width="27.00" height="11" fill="#da52a1" stroke="none"><title>A · 2026-06-18 · 32</title></rect>
+<text x="240" y="455" text-anchor="end" fill="#111" font-size="10">A</text>
+<text x="292" y="455" text-anchor="end" fill="#666" font-size="10">32</text>
+<rect x="6" y="447" width="10" height="10" fill="#c92a87"><title>short_or_test</title></rect>
+<rect x="300" y="458" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="458.5" width="27.00" height="11" fill="#da8163" stroke="none"><title>OpenAI · 2026-06-18 · 22</title></rect>
+<rect x="1083.00" y="458.5" width="27.00" height="11" fill="#e9d2ca" stroke="none"><title>OpenAI · 2026-06-22 · 1</title></rect>
+<text x="240" y="467" text-anchor="end" fill="#111" font-size="10">OpenAI</text>
+<text x="292" y="467" text-anchor="end" fill="#666" font-size="10">23</text>
+<rect x="6" y="459" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="470" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="470.5" width="27.00" height="11" fill="#528bda" stroke="none"><title>DataResearchAgent · 2026-06-18 · 32</title></rect>
+<rect x="1002.00" y="470.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>DataResearchAgent · 2026-06-19 · 2</title></rect>
+<rect x="1083.00" y="470.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>DataResearchAgent · 2026-06-22 · 1</title></rect>
+<text x="240" y="479" text-anchor="end" fill="#111" font-size="10">DataResearchAgent</text>
+<text x="292" y="479" text-anchor="end" fill="#666" font-size="10">35</text>
+<rect x="6" y="471" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="482" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="482.5" width="27.00" height="11" fill="#3a7ddb" stroke="none"><title>MassUpdater · 2026-06-18 · 53</title></rect>
+<rect x="1083.00" y="482.5" width="27.00" height="11" fill="#a7bfe0" stroke="none"><title>MassUpdater · 2026-06-22 · 4</title></rect>
+<text x="240" y="491" text-anchor="end" fill="#111" font-size="10">MassUpdater</text>
+<text x="292" y="491" text-anchor="end" fill="#666" font-size="10">57</text>
+<rect x="6" y="483" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="494" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="494.5" width="27.00" height="11" fill="#1660c7" stroke="none"><title>MapHelper · 2026-06-18 · 170</title></rect>
+<rect x="1002.00" y="494.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>MapHelper · 2026-06-19 · 2</title></rect>
+<rect x="1056.00" y="494.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>MapHelper · 2026-06-21 · 3</title></rect>
+<rect x="1083.00" y="494.5" width="27.00" height="11" fill="#89acdc" stroke="none"><title>MapHelper · 2026-06-22 · 9</title></rect>
+<text x="240" y="503" text-anchor="end" fill="#111" font-size="10">MapHelper</text>
+<text x="292" y="503" text-anchor="end" fill="#666" font-size="10">184</text>
+<rect x="6" y="495" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="506" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="506.5" width="27.00" height="11" fill="#da7958" stroke="none"><title>OpenAIWriterZed · 2026-06-18 · 28</title></rect>
+<text x="240" y="515" text-anchor="end" fill="#111" font-size="10">OpenAIWriterZed</text>
+<text x="292" y="515" text-anchor="end" fill="#666" font-size="10">28</text>
+<rect x="6" y="507" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="518" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="518.5" width="27.00" height="11" fill="#4d88da" stroke="none"><title>AgentMine · 2026-06-18 · 36</title></rect>
+<text x="240" y="527" text-anchor="end" fill="#111" font-size="10">AgentMine</text>
+<text x="292" y="527" text-anchor="end" fill="#666" font-size="10">36</text>
+<rect x="6" y="519" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="530" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="530.5" width="27.00" height="11" fill="#6093da" stroke="none"><title>AgentOJUnitLinks · 2026-06-18 · 24</title></rect>
+<rect x="1083.00" y="530.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>AgentOJUnitLinks · 2026-06-22 · 2</title></rect>
+<text x="240" y="539" text-anchor="end" fill="#111" font-size="10">AgentOJUnitLinks</text>
+<text x="292" y="539" text-anchor="end" fill="#666" font-size="10">26</text>
+<rect x="6" y="531" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="542" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="542.5" width="27.00" height="11" fill="#3379db" stroke="none"><title>GuestResearch378611 · 2026-06-18 · 61</title></rect>
+<text x="240" y="551" text-anchor="end" fill="#111" font-size="10">GuestResearch378611</text>
+<text x="292" y="551" text-anchor="end" fill="#666" font-size="10">61</text>
+<rect x="6" y="543" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="554" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="554.5" width="27.00" height="11" fill="#5a8fda" stroke="none"><title>AgentLinkJuneSec · 2026-06-18 · 27</title></rect>
+<text x="240" y="563" text-anchor="end" fill="#111" font-size="10">AgentLinkJuneSec</text>
+<text x="292" y="563" text-anchor="end" fill="#666" font-size="10">27</text>
+<rect x="6" y="555" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="566" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="566.5" width="27.00" height="11" fill="#4d88da" stroke="none"><title>Agent0Mass · 2026-06-18 · 36</title></rect>
+<text x="240" y="575" text-anchor="end" fill="#111" font-size="10">Agent0Mass</text>
+<text x="292" y="575" text-anchor="end" fill="#666" font-size="10">36</text>
+<rect x="6" y="567" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="578" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="578.5" width="27.00" height="11" fill="#52da7f" stroke="none"><title>ForcePNew · 2026-06-18 · 32</title></rect>
+<rect x="1056.00" y="578.5" width="27.00" height="11" fill="#cae9d4" stroke="none"><title>ForcePNew · 2026-06-21 · 1</title></rect>
+<rect x="1083.00" y="578.5" width="27.00" height="11" fill="#bbe5c9" stroke="none"><title>ForcePNew · 2026-06-22 · 2</title></rect>
+<text x="240" y="587" text-anchor="end" fill="#111" font-size="10">ForcePNew</text>
+<text x="292" y="587" text-anchor="end" fill="#666" font-size="10">35</text>
+<rect x="6" y="579" width="10" height="10" fill="#2ac95f"><title>codename_agent</title></rect>
+<rect x="300" y="590" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="590.5" width="27.00" height="11" fill="#da8061" stroke="none"><title>OpenAITestHelper · 2026-06-18 · 23</title></rect>
+<text x="240" y="599" text-anchor="end" fill="#111" font-size="10">OpenAITestHelper</text>
+<text x="292" y="599" text-anchor="end" fill="#666" font-size="10">23</text>
+<rect x="6" y="591" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="602" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="602.5" width="27.00" height="11" fill="#5c90da" stroke="none"><title>HelperXYZ5515 · 2026-06-18 · 26</title></rect>
+<text x="240" y="611" text-anchor="end" fill="#111" font-size="10">HelperXYZ5515</text>
+<text x="292" y="611" text-anchor="end" fill="#666" font-size="10">26</text>
+<rect x="6" y="603" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="614" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="614.5" width="27.00" height="11" fill="#3279db" stroke="none"><title>OurMassFinal · 2026-06-18 · 62</title></rect>
+<rect x="1056.00" y="614.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>OurMassFinal · 2026-06-21 · 2</title></rect>
+<text x="240" y="623" text-anchor="end" fill="#111" font-size="10">OurMassFinal</text>
+<text x="292" y="623" text-anchor="end" fill="#666" font-size="10">64</text>
+<rect x="6" y="615" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="626" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="626.5" width="27.00" height="11" fill="#da6b46" stroke="none"><title>OpenAIMass2026 · 2026-06-18 · 41</title></rect>
+<rect x="1002.00" y="626.5" width="27.00" height="11" fill="#e2bcb0" stroke="none"><title>OpenAIMass2026 · 2026-06-19 · 3</title></rect>
+<rect x="1029.00" y="626.5" width="27.00" height="11" fill="#e9d2ca" stroke="none"><title>OpenAIMass2026 · 2026-06-20 · 1</title></rect>
+<rect x="1056.00" y="626.5" width="27.00" height="11" fill="#e5c5bb" stroke="none"><title>OpenAIMass2026 · 2026-06-21 · 2</title></rect>
+<text x="240" y="635" text-anchor="end" fill="#111" font-size="10">OpenAIMass2026</text>
+<text x="292" y="635" text-anchor="end" fill="#666" font-size="10">47</text>
+<rect x="6" y="627" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="638" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="638.5" width="27.00" height="11" fill="#588eda" stroke="none"><title>AgentMapReal999 · 2026-06-18 · 28</title></rect>
+<text x="240" y="647" text-anchor="end" fill="#111" font-size="10">AgentMapReal999</text>
+<text x="292" y="647" text-anchor="end" fill="#666" font-size="10">28</text>
+<rect x="6" y="639" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="650" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="650.5" width="27.00" height="11" fill="#377bdb" stroke="none"><title>CountyAgentMySecLinksZZZ2 · 2026-06-18 · 56</title></rect>
+<text x="240" y="659" text-anchor="end" fill="#111" font-size="10">CountyAgentMySecLinksZZZ2</text>
+<text x="292" y="659" text-anchor="end" fill="#666" font-size="10">56</text>
+<rect x="6" y="651" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="662" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="662.5" width="27.00" height="11" fill="#5c90da" stroke="none"><title>ZZUniqueAgentJun18Citations · 2026-06-18 · 26</title></rect>
+<text x="240" y="671" text-anchor="end" fill="#111" font-size="10">ZZUniqueAgentJun18Citations</text>
+<text x="292" y="671" text-anchor="end" fill="#666" font-size="10">26</text>
+<rect x="6" y="663" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="674" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="674.5" width="27.00" height="11" fill="#558dda" stroke="none"><title>GoodResearch · 2026-06-18 · 30</title></rect>
+<rect x="1083.00" y="674.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>GoodResearch · 2026-06-22 · 1</title></rect>
+<text x="240" y="683" text-anchor="end" fill="#111" font-size="10">GoodResearch</text>
+<text x="292" y="683" text-anchor="end" fill="#666" font-size="10">31</text>
+<rect x="6" y="675" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="686" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="686.5" width="27.00" height="11" fill="#5c90da" stroke="none"><title>AgentNewMediaZZ · 2026-06-18 · 26</title></rect>
+<rect x="1083.00" y="686.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentNewMediaZZ · 2026-06-22 · 1</title></rect>
+<text x="240" y="695" text-anchor="end" fill="#111" font-size="10">AgentNewMediaZZ</text>
+<text x="292" y="695" text-anchor="end" fill="#666" font-size="10">27</text>
+<rect x="6" y="687" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="698" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="698.5" width="27.00" height="11" fill="#6395da" stroke="none"><title>AgentPageFit · 2026-06-18 · 22</title></rect>
+<rect x="1002.00" y="698.5" width="27.00" height="11" fill="#8eafdd" stroke="none"><title>AgentPageFit · 2026-06-19 · 8</title></rect>
+<rect x="1083.00" y="698.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentPageFit · 2026-06-22 · 1</title></rect>
+<text x="240" y="707" text-anchor="end" fill="#111" font-size="10">AgentPageFit</text>
+<text x="292" y="707" text-anchor="end" fill="#666" font-size="10">31</text>
+<rect x="6" y="699" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="710" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="710.5" width="27.00" height="11" fill="#db5f36" stroke="none"><title>OpenAIBot · 2026-06-18 · 57</title></rect>
+<rect x="1002.00" y="710.5" width="27.00" height="11" fill="#e9d2ca" stroke="none"><title>OpenAIBot · 2026-06-19 · 1</title></rect>
+<rect x="1083.00" y="710.5" width="27.00" height="11" fill="#e2bcb0" stroke="none"><title>OpenAIBot · 2026-06-22 · 3</title></rect>
+<text x="240" y="719" text-anchor="end" fill="#111" font-size="10">OpenAIBot</text>
+<text x="292" y="719" text-anchor="end" fill="#666" font-size="10">61</text>
+<rect x="6" y="711" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="722" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="722.5" width="27.00" height="11" fill="#3b7ddb" stroke="none"><title>AgentHelperTwo · 2026-06-18 · 52</title></rect>
+<text x="240" y="731" text-anchor="end" fill="#111" font-size="10">AgentHelperTwo</text>
+<text x="292" y="731" text-anchor="end" fill="#666" font-size="10">52</text>
+<rect x="6" y="723" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="734" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="734.5" width="27.00" height="11" fill="#5c90da" stroke="none"><title>DataResearchFinalHelper · 2026-06-18 · 26</title></rect>
+<text x="240" y="743" text-anchor="end" fill="#111" font-size="10">DataResearchFinalHelper</text>
+<text x="292" y="743" text-anchor="end" fill="#666" font-size="10">26</text>
+<rect x="6" y="735" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="746" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="746.5" width="27.00" height="11" fill="#588eda" stroke="none"><title>AgentTrial8294 · 2026-06-18 · 28</title></rect>
+<rect x="1083.00" y="746.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>AgentTrial8294 · 2026-06-22 · 2</title></rect>
+<text x="240" y="755" text-anchor="end" fill="#111" font-size="10">AgentTrial8294</text>
+<text x="292" y="755" text-anchor="end" fill="#666" font-size="10">30</text>
+<rect x="6" y="747" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="758" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="758.5" width="27.00" height="11" fill="#4080db" stroke="none"><title>AgentResearchBotXNew · 2026-06-18 · 47</title></rect>
+<text x="240" y="767" text-anchor="end" fill="#111" font-size="10">AgentResearchBotXNew</text>
+<text x="292" y="767" text-anchor="end" fill="#666" font-size="10">47</text>
+<rect x="6" y="759" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="770" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="770.5" width="27.00" height="11" fill="#6696da" stroke="none"><title>FreshAgentJS123 · 2026-06-18 · 21</title></rect>
+<rect x="1002.00" y="770.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>FreshAgentJS123 · 2026-06-19 · 1</title></rect>
+<rect x="1083.00" y="770.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>FreshAgentJS123 · 2026-06-22 · 2</title></rect>
+<text x="240" y="779" text-anchor="end" fill="#111" font-size="10">FreshAgentJS123</text>
+<text x="292" y="779" text-anchor="end" fill="#666" font-size="10">24</text>
+<rect x="6" y="771" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="782" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="782.5" width="27.00" height="11" fill="#548cda" stroke="none"><title>AgentMedJ · 2026-06-18 · 31</title></rect>
+<rect x="1083.00" y="782.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentMedJ · 2026-06-22 · 1</title></rect>
+<text x="240" y="791" text-anchor="end" fill="#111" font-size="10">AgentMedJ</text>
+<text x="292" y="791" text-anchor="end" fill="#666" font-size="10">32</text>
+<rect x="6" y="783" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="794" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="794.5" width="27.00" height="11" fill="#4985da" stroke="none"><title>AgentMassRefUF155300 · 2026-06-18 · 39</title></rect>
+<text x="240" y="803" text-anchor="end" fill="#111" font-size="10">AgentMassRefUF155300</text>
+<text x="292" y="803" text-anchor="end" fill="#666" font-size="10">39</text>
+<rect x="6" y="795" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="806" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="806.5" width="27.00" height="11" fill="#2a74dc" stroke="none"><title>Agent0AddJS · 2026-06-18 · 73</title></rect>
+<text x="240" y="815" text-anchor="end" fill="#111" font-size="10">Agent0AddJS</text>
+<text x="292" y="815" text-anchor="end" fill="#666" font-size="10">73</text>
+<rect x="6" y="807" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="818" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="818.5" width="27.00" height="11" fill="#da8163" stroke="none"><title>ChatGPTCounty8888 · 2026-06-18 · 22</title></rect>
+<text x="240" y="827" text-anchor="end" fill="#111" font-size="10">ChatGPTCounty8888</text>
+<text x="292" y="827" text-anchor="end" fill="#666" font-size="10">22</text>
+<rect x="6" y="819" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="830" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="830.5" width="27.00" height="11" fill="#2471dd" stroke="none"><title>AgentMapCite8x · 2026-06-18 · 82</title></rect>
+<rect x="1083.00" y="830.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>AgentMapCite8x · 2026-06-22 · 5</title></rect>
+<text x="240" y="839" text-anchor="end" fill="#111" font-size="10">AgentMapCite8x</text>
+<text x="292" y="839" text-anchor="end" fill="#666" font-size="10">87</text>
+<rect x="6" y="831" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="842" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="842.5" width="27.00" height="11" fill="#4985da" stroke="none"><title>Agent008HelperMD · 2026-06-18 · 39</title></rect>
+<text x="240" y="851" text-anchor="end" fill="#111" font-size="10">Agent008HelperMD</text>
+<text x="292" y="851" text-anchor="end" fill="#666" font-size="10">39</text>
+<rect x="6" y="843" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="854" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="854.5" width="27.00" height="11" fill="#0e52b1" stroke="none"><title>AgentRelent · 2026-06-18 · 316</title></rect>
+<rect x="1083.00" y="854.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentRelent · 2026-06-22 · 1</title></rect>
+<text x="240" y="863" text-anchor="end" fill="#111" font-size="10">AgentRelent</text>
+<text x="292" y="863" text-anchor="end" fill="#666" font-size="10">317</text>
+<rect x="6" y="855" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="866" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="866.5" width="27.00" height="11" fill="#4985da" stroke="none"><title>BridgeFresh12 · 2026-06-18 · 39</title></rect>
+<text x="240" y="875" text-anchor="end" fill="#111" font-size="10">BridgeFresh12</text>
+<text x="292" y="875" text-anchor="end" fill="#666" font-size="10">39</text>
+<rect x="6" y="867" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="878" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="878.5" width="27.00" height="11" fill="#da7351" stroke="none"><title>OpenAICite · 2026-06-18 · 33</title></rect>
+<rect x="1083.00" y="878.5" width="27.00" height="11" fill="#e2bcb0" stroke="none"><title>OpenAICite · 2026-06-22 · 3</title></rect>
+<text x="240" y="887" text-anchor="end" fill="#111" font-size="10">OpenAICite</text>
+<text x="292" y="887" text-anchor="end" fill="#666" font-size="10">36</text>
+<rect x="6" y="879" width="10" height="10" fill="#c9522a"><title>openai_branded</title></rect>
+<rect x="300" y="890" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="890.5" width="27.00" height="11" fill="#4483db" stroke="none"><title>AgentManual007 · 2026-06-18 · 43</title></rect>
+<text x="240" y="899" text-anchor="end" fill="#111" font-size="10">AgentManual007</text>
+<text x="292" y="899" text-anchor="end" fill="#666" font-size="10">43</text>
+<rect x="6" y="891" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="902" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="902.5" width="27.00" height="11" fill="#4dda7c" stroke="none"><title>RapidWel · 2026-06-18 · 36</title></rect>
+<text x="240" y="911" text-anchor="end" fill="#111" font-size="10">RapidWel</text>
+<text x="292" y="911" text-anchor="end" fill="#666" font-size="10">36</text>
+<rect x="6" y="903" width="10" height="10" fill="#2ac95f"><title>codename_agent</title></rect>
+<rect x="300" y="914" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="914.5" width="27.00" height="11" fill="#6696da" stroke="none"><title>MassSecWin12 · 2026-06-18 · 21</title></rect>
+<rect x="1002.00" y="914.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>MassSecWin12 · 2026-06-19 · 1</title></rect>
+<rect x="1083.00" y="914.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>MassSecWin12 · 2026-06-22 · 5</title></rect>
+<text x="240" y="923" text-anchor="end" fill="#111" font-size="10">MassSecWin12</text>
+<text x="292" y="923" text-anchor="end" fill="#666" font-size="10">27</text>
+<rect x="6" y="915" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="926" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="926.5" width="27.00" height="11" fill="#588eda" stroke="none"><title>AgentMassY · 2026-06-18 · 28</title></rect>
+<text x="240" y="935" text-anchor="end" fill="#111" font-size="10">AgentMassY</text>
+<text x="292" y="935" text-anchor="end" fill="#666" font-size="10">28</text>
+<rect x="6" y="927" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="938" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="938.5" width="27.00" height="11" fill="#548cda" stroke="none"><title>AgentMassRootZ · 2026-06-18 · 31</title></rect>
+<text x="240" y="947" text-anchor="end" fill="#111" font-size="10">AgentMassRootZ</text>
+<text x="292" y="947" text-anchor="end" fill="#666" font-size="10">31</text>
+<rect x="6" y="939" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="950" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="950.5" width="27.00" height="11" fill="#4dda7c" stroke="none"><title>FinalMD947062767 · 2026-06-18 · 36</title></rect>
+<text x="240" y="959" text-anchor="end" fill="#111" font-size="10">FinalMD947062767</text>
+<text x="292" y="959" text-anchor="end" fill="#666" font-size="10">36</text>
+<rect x="6" y="951" width="10" height="10" fill="#2ac95f"><title>codename_agent</title></rect>
+<rect x="300" y="962" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="962.5" width="27.00" height="11" fill="#387cdb" stroke="none"><title>AgentMassFinal13 · 2026-06-18 · 55</title></rect>
+<text x="240" y="971" text-anchor="end" fill="#111" font-size="10">AgentMassFinal13</text>
+<text x="292" y="971" text-anchor="end" fill="#666" font-size="10">55</text>
+<rect x="6" y="963" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="974" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="974.5" width="27.00" height="11" fill="#1760c7" stroke="none"><title>LinkHelper771 · 2026-06-18 · 167</title></rect>
+<rect x="1002.00" y="974.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>LinkHelper771 · 2026-06-19 · 1</title></rect>
+<rect x="1056.00" y="974.5" width="27.00" height="11" fill="#b0c5e2" stroke="none"><title>LinkHelper771 · 2026-06-21 · 3</title></rect>
+<rect x="1083.00" y="974.5" width="27.00" height="11" fill="#9fbadf" stroke="none"><title>LinkHelper771 · 2026-06-22 · 5</title></rect>
+<text x="240" y="983" text-anchor="end" fill="#111" font-size="10">LinkHelper771</text>
+<text x="292" y="983" text-anchor="end" fill="#666" font-size="10">176</text>
+<rect x="6" y="975" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="986" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="986.5" width="27.00" height="11" fill="#6194da" stroke="none"><title>AgentMassAppend · 2026-06-18 · 23</title></rect>
+<rect x="1002.00" y="986.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentMassAppend · 2026-06-19 · 1</title></rect>
+<rect x="1029.00" y="986.5" width="27.00" height="11" fill="#bbcce5" stroke="none"><title>AgentMassAppend · 2026-06-20 · 2</title></rect>
+<rect x="1056.00" y="986.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentMassAppend · 2026-06-21 · 1</title></rect>
+<text x="240" y="995" text-anchor="end" fill="#111" font-size="10">AgentMassAppend</text>
+<text x="292" y="995" text-anchor="end" fill="#666" font-size="10">27</text>
+<rect x="6" y="987" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="998" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="975.00" y="998.5" width="27.00" height="11" fill="#155ec4" stroke="none"><title>AgentMassPointer13 · 2026-06-18 · 185</title></rect>
+<rect x="1002.00" y="998.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentMassPointer13 · 2026-06-19 · 1</title></rect>
+<rect x="1083.00" y="998.5" width="27.00" height="11" fill="#cad7e9" stroke="none"><title>AgentMassPointer13 · 2026-06-22 · 1</title></rect>
+<text x="240" y="1007" text-anchor="end" fill="#111" font-size="10">AgentMassPointer13</text>
+<text x="292" y="1007" text-anchor="end" fill="#666" font-size="10">187</text>
+<rect x="6" y="999" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<rect x="300" y="1010" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="1002.00" y="1010.5" width="27.00" height="11" fill="#e1cae9" stroke="none"><title>April11OECDScout · 2026-06-19 · 1</title></rect>
+<rect x="1029.00" y="1010.5" width="27.00" height="11" fill="#bc61da" stroke="none"><title>April11OECDScout · 2026-06-20 · 23</title></rect>
+<text x="240" y="1019" text-anchor="end" fill="#111" font-size="10">April11OECDScout</text>
+<text x="292" y="1019" text-anchor="end" fill="#666" font-size="10">24</text>
+<rect x="6" y="1011" width="10" height="10" fill="#a22ac9"><title>date_prefix_agent</title></rect>
+<rect x="300" y="1022" width="1080.0" height="12" fill="#fbfbfb" stroke="none"/>
+<rect x="1083.00" y="1022.5" width="27.00" height="11" fill="#6194da" stroke="none"><title>AgentHelperXY77 · 2026-06-22 · 23</title></rect>
+<text x="240" y="1031" text-anchor="end" fill="#111" font-size="10">AgentHelperXY77</text>
+<text x="292" y="1031" text-anchor="end" fill="#666" font-size="10">23</text>
+<rect x="6" y="1023" width="10" height="10" fill="#2a6dc9"><title>role_word_agent</title></rect>
+<line x1="313.5" y1="1034" x2="313.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="313.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 313.5 1052)">05-24</text>
+<line x1="367.5" y1="1034" x2="367.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="367.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 367.5 1052)">05-26</text>
+<line x1="421.5" y1="1034" x2="421.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="421.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 421.5 1052)">05-28</text>
+<line x1="475.5" y1="1034" x2="475.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="475.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 475.5 1052)">05-30</text>
+<line x1="529.5" y1="1034" x2="529.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="529.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 529.5 1052)">06-01</text>
+<line x1="583.5" y1="1034" x2="583.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="583.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 583.5 1052)">06-03</text>
+<line x1="637.5" y1="1034" x2="637.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="637.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 637.5 1052)">06-05</text>
+<line x1="691.5" y1="1034" x2="691.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="691.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 691.5 1052)">06-07</text>
+<line x1="745.5" y1="1034" x2="745.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="745.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 745.5 1052)">06-09</text>
+<line x1="799.5" y1="1034" x2="799.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="799.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 799.5 1052)">06-11</text>
+<line x1="853.5" y1="1034" x2="853.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="853.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 853.5 1052)">06-13</text>
+<line x1="907.5" y1="1034" x2="907.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="907.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 907.5 1052)">06-15</text>
+<line x1="961.5" y1="1034" x2="961.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="961.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 961.5 1052)">06-17</text>
+<line x1="1015.5" y1="1034" x2="1015.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1015.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1015.5 1052)">06-19</text>
+<line x1="1069.5" y1="1034" x2="1069.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1069.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1069.5 1052)">06-21</text>
+<line x1="1123.5" y1="1034" x2="1123.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1123.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1123.5 1052)">06-23</text>
+<line x1="1177.5" y1="1034" x2="1177.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1177.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1177.5 1052)">06-25</text>
+<line x1="1231.5" y1="1034" x2="1231.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1231.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1231.5 1052)">06-27</text>
+<line x1="1285.5" y1="1034" x2="1285.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1285.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1285.5 1052)">06-29</text>
+<line x1="1339.5" y1="1034" x2="1339.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1339.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1339.5 1052)">07-01</text>
+<line x1="1366.5" y1="1034" x2="1366.5" y2="1038" stroke="#666" stroke-width="0.5"/>
+<text x="1366.5" y="1052" text-anchor="end" fill="#333" transform="rotate(-60 1366.5 1052)">07-02</text>
+<line x1="300" y1="74" x2="300" y2="1034" stroke="#333" stroke-width="0.5"/>
+<line x1="300" y1="1034" x2="1380" y2="1034" stroke="#333" stroke-width="0.5"/>
+<text x="1400" y="74" font-weight="600" fill="#111">handle-class</text>
+<rect x="1400.0" y="88" width="15.0" height="12" fill="#bbcce5"/>
+<rect x="1415.0" y="88" width="15.0" height="12" fill="#93b2dd"/>
+<rect x="1430.0" y="88" width="15.0" height="12" fill="#6194da"/>
+<rect x="1445.0" y="88" width="15.0" height="12" fill="#2c75dc"/>
+<rect x="1460.0" y="88" width="15.0" height="12" fill="#145cc1"/>
+<rect x="1475.0" y="88" width="15.0" height="12" fill="#08459b"/>
+<text x="1498" y="98" fill="#111" font-size="11">role_word_agent <tspan fill="#666">· 59 of top 80</tspan></text>
+<rect x="1400.0" y="106" width="15.0" height="12" fill="#e5c5bb"/>
+<rect x="1415.0" y="106" width="15.0" height="12" fill="#dda693"/>
+<rect x="1430.0" y="106" width="15.0" height="12" fill="#da8061"/>
+<rect x="1445.0" y="106" width="15.0" height="12" fill="#dc582c"/>
+<rect x="1460.0" y="106" width="15.0" height="12" fill="#c13f14"/>
+<rect x="1475.0" y="106" width="15.0" height="12" fill="#9b2c08"/>
+<text x="1498" y="116" fill="#111" font-size="11">openai_branded <tspan fill="#666">· 14 of top 80</tspan></text>
+<rect x="1400.0" y="124" width="15.0" height="12" fill="#bbe5c9"/>
+<rect x="1415.0" y="124" width="15.0" height="12" fill="#93ddac"/>
+<rect x="1430.0" y="124" width="15.0" height="12" fill="#61da8a"/>
+<rect x="1445.0" y="124" width="15.0" height="12" fill="#2cdc67"/>
+<rect x="1460.0" y="124" width="15.0" height="12" fill="#14c14e"/>
+<rect x="1475.0" y="124" width="15.0" height="12" fill="#089b39"/>
+<text x="1498" y="134" fill="#111" font-size="11">codename_agent <tspan fill="#666">· 3 of top 80</tspan></text>
+<rect x="1400.0" y="142" width="15.0" height="12" fill="#dabbe5"/>
+<rect x="1415.0" y="142" width="15.0" height="12" fill="#cb93dd"/>
+<rect x="1430.0" y="142" width="15.0" height="12" fill="#bc61da"/>
+<rect x="1445.0" y="142" width="15.0" height="12" fill="#b02cdc"/>
+<rect x="1460.0" y="142" width="15.0" height="12" fill="#9614c1"/>
+<rect x="1475.0" y="142" width="15.0" height="12" fill="#76089b"/>
+<text x="1498" y="152" fill="#111" font-size="11">date_prefix_agent <tspan fill="#666">· 1 of top 80</tspan></text>
+<rect x="1400.0" y="160" width="15.0" height="12" fill="#e5bbd3"/>
+<rect x="1415.0" y="160" width="15.0" height="12" fill="#dd93be"/>
+<rect x="1430.0" y="160" width="15.0" height="12" fill="#da61a8"/>
+<rect x="1445.0" y="160" width="15.0" height="12" fill="#dc2c93"/>
+<rect x="1460.0" y="160" width="15.0" height="12" fill="#c11479"/>
+<rect x="1475.0" y="160" width="15.0" height="12" fill="#9b085d"/>
+<text x="1498" y="170" fill="#111" font-size="11">short_or_test <tspan fill="#666">· 1 of top 80</tspan></text>
+<rect x="1400.0" y="178" width="15.0" height="12" fill="#d3e5bb"/>
+<rect x="1415.0" y="178" width="15.0" height="12" fill="#bedd93"/>
+<rect x="1430.0" y="178" width="15.0" height="12" fill="#a8da61"/>
+<rect x="1445.0" y="178" width="15.0" height="12" fill="#93dc2c"/>
+<rect x="1460.0" y="178" width="15.0" height="12" fill="#79c114"/>
+<rect x="1475.0" y="178" width="15.0" height="12" fill="#5d9b08"/>
+<text x="1498" y="188" fill="#111" font-size="11">human_admin <tspan fill="#666">· 1 of top 80</tspan></text>
+<rect x="1400.0" y="196" width="15.0" height="12" fill="#cbcbcb"/>
+<rect x="1415.0" y="196" width="15.0" height="12" fill="#b0b0b0"/>
+<rect x="1430.0" y="196" width="15.0" height="12" fill="#919191"/>
+<rect x="1445.0" y="196" width="15.0" height="12" fill="#737373"/>
+<rect x="1460.0" y="196" width="15.0" height="12" fill="#555555"/>
+<rect x="1475.0" y="196" width="15.0" height="12" fill="#383838"/>
+<text x="1498" y="206" fill="#111" font-size="11">blank <tspan fill="#666">· 1 of top 80</tspan></text>
+<text x="1400" y="222" font-weight="600" fill="#111">notes</text>
+<text x="1400" y="236" fill="#333">top 80 handles account for</text>
+<text x="1400" y="250" fill="#333">  4,808 / 14,591 revs (33%)</text>
+<text x="1400" y="264" fill="#333">of 3,103 distinct labels total</text>
+<text x="1400" y="278" fill="#333">date range: 2026-05-24 → 2026-07-02</text>
+</svg>
