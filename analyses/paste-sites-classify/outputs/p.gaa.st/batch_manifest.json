@@ -1,0 +1,29 @@
+{
+  "host": "https://p.gaa.st/",
+  "name": "p.gaa.st",
+  "route": "live_stikked_lists",
+  "source_kind": "live_stikked",
+  "corpus_prefix": "p.gaa.st",
+  "batch_size": 40,
+  "n_batches": 2,
+  "n_to_review": 72,
+  "n_skipped_in_corpus": 1,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "5c5af6e6",
+      "last_pid": "50719708",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/p.gaa.st/verdicts/verdict_00.json"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 32,
+      "first_pid": "96222870",
+      "last_pid": "51122089",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/p.gaa.st/verdicts/verdict_01.json"
+    }
+  ]
+}

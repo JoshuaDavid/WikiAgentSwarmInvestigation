@@ -1,0 +1,13 @@
+{
+  "base": "https://anna.fyi/",
+  "name": "anna.fyi",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 1.0,
+  "started_at": "2026-09-07T10:53:08.637+00:00",
+  "finished_at": "2026-09-07T10:55:44.354+00:00",
+  "sanity": false,
+  "index_rows": 143,
+  "body_rows": 143,
+  "index_file": "index.jsonl",
+  "bodies_file": "bodies.jsonl"
+}

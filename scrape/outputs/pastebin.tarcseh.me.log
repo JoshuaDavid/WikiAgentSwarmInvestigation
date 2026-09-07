@@ -1,0 +1,26 @@
+[scrape] host=https://pastebin.tarcseh.me/  name=pastebin.tarcseh.me
+[index] offset=   0  parsed=15  new=15  total=15
+[index] offset=  15  parsed=15  new=15  total=30
+[index] offset=  30  parsed=15  new=15  total=45
+[index] offset=  45  parsed=15  new=15  total=60
+[index] offset=  60  parsed=15  new=15  total=75
+[index] offset=  75  parsed=15  new=15  total=90
+[index] offset=  90  parsed=15  new=15  total=105
+[index] offset= 105  parsed=15  new=15  total=120
+[index] offset= 120  parsed=15  new=15  total=135
+[index] offset= 135  parsed=15  new=15  total=150
+[index] offset= 150  parsed=15  new=15  total=165
+[index] offset= 165  parsed=15  new=15  total=180
+[index] offset= 180  parsed=15  new=15  total=195
+[index] offset= 195  parsed=15  new=15  total=210
+[index] offset= 210  parsed=15  new=15  total=225
+[index] offset= 225  parsed=15  new=15  total=240
+[index] offset= 240  parsed=15  new=15  total=255
+[index] offset= 255  parsed=15  new=15  total=270
+[index] offset= 270  parsed=15  new=15  total=285
+[index] offset= 285  parsed=15  new=15  total=300
+[index] offset= 300  parsed=15  new=15  total=315
+[index] offset= 315  parsed=15  new=15  total=330
+[index] offset= 330  parsed=15  new=15  total=345
+[index] offset= 345  parsed=15  new=15  total=360
+[index] offset= 360  parsed=15  new=15  total=375

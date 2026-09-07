@@ -1,0 +1,13 @@
+{
+  "base": "https://p.gaa.st/",
+  "name": "p.gaa.st",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 1.0,
+  "started_at": "2026-09-07T10:53:08.640+00:00",
+  "finished_at": "2026-09-07T10:54:28.262+00:00",
+  "sanity": false,
+  "index_rows": 73,
+  "body_rows": 73,
+  "index_file": "index.jsonl",
+  "bodies_file": "bodies.jsonl"
+}

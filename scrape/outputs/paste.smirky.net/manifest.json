@@ -1,0 +1,13 @@
+{
+  "base": "https://paste.smirky.net/",
+  "name": "paste.smirky.net",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 1.0,
+  "started_at": "2026-09-07T10:52:33.088+00:00",
+  "finished_at": "2026-09-07T10:52:41.480+00:00",
+  "sanity": false,
+  "index_rows": 7,
+  "body_rows": 7,
+  "index_file": "index.jsonl",
+  "bodies_file": "bodies.jsonl"
+}
