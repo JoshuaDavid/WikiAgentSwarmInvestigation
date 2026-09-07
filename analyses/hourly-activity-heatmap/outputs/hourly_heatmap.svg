@@ -1,0 +1,1112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 640" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+<rect x="0" y="0" width="1400" height="640" fill="white"/>
+<text x="635" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#111">Prowiki revisions by UTC hour × date</text>
+<text x="635" y="46" text-anchor="middle" fill="#555">One cell = one hour bucket. Shade = log(revisions). Peak cell: 2,350 revs</text>
+<rect x="90.00" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 00:00 UTC — 0</title></rect>
+<rect x="90.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 01:00 UTC — 0</title></rect>
+<rect x="90.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 02:00 UTC — 0</title></rect>
+<rect x="90.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 03:00 UTC — 0</title></rect>
+<rect x="90.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 04:00 UTC — 0</title></rect>
+<rect x="90.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 05:00 UTC — 0</title></rect>
+<rect x="90.00" y="185.00" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-24 06:00 UTC — 3 revs</title></rect>
+<rect x="90.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 07:00 UTC — 0</title></rect>
+<rect x="90.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 08:00 UTC — 0</title></rect>
+<rect x="90.00" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 09:00 UTC — 0</title></rect>
+<rect x="90.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 10:00 UTC — 0</title></rect>
+<rect x="90.00" y="280.83" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-05-24 11:00 UTC — 4 revs</title></rect>
+<rect x="90.00" y="300.00" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-24 12:00 UTC — 1 revs</title></rect>
+<rect x="90.00" y="319.17" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-05-24 13:00 UTC — 7 revs</title></rect>
+<rect x="90.00" y="338.33" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-05-24 14:00 UTC — 14 revs</title></rect>
+<rect x="90.00" y="357.50" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-24 15:00 UTC — 3 revs</title></rect>
+<rect x="90.00" y="376.67" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-24 16:00 UTC — 1 revs</title></rect>
+<rect x="90.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 17:00 UTC — 0</title></rect>
+<rect x="90.00" y="415.00" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-05-24 18:00 UTC — 2 revs</title></rect>
+<rect x="90.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 19:00 UTC — 0</title></rect>
+<rect x="90.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 20:00 UTC — 0</title></rect>
+<rect x="90.00" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 21:00 UTC — 0</title></rect>
+<rect x="90.00" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 22:00 UTC — 0</title></rect>
+<rect x="90.00" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-24 23:00 UTC — 0</title></rect>
+<rect x="117.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 00:00 UTC — 0</title></rect>
+<rect x="117.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 01:00 UTC — 0</title></rect>
+<rect x="117.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 02:00 UTC — 0</title></rect>
+<rect x="117.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 03:00 UTC — 0</title></rect>
+<rect x="117.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 04:00 UTC — 0</title></rect>
+<rect x="117.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 05:00 UTC — 0</title></rect>
+<rect x="117.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 06:00 UTC — 0</title></rect>
+<rect x="117.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 07:00 UTC — 0</title></rect>
+<rect x="117.25" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 08:00 UTC — 0</title></rect>
+<rect x="117.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 09:00 UTC — 0</title></rect>
+<rect x="117.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 10:00 UTC — 0</title></rect>
+<rect x="117.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 11:00 UTC — 0</title></rect>
+<rect x="117.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 12:00 UTC — 0</title></rect>
+<rect x="117.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 13:00 UTC — 0</title></rect>
+<rect x="117.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 14:00 UTC — 0</title></rect>
+<rect x="117.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 15:00 UTC — 0</title></rect>
+<rect x="117.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 16:00 UTC — 0</title></rect>
+<rect x="117.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 17:00 UTC — 0</title></rect>
+<rect x="117.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 18:00 UTC — 0</title></rect>
+<rect x="117.25" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 19:00 UTC — 0</title></rect>
+<rect x="117.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 20:00 UTC — 0</title></rect>
+<rect x="117.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 21:00 UTC — 0</title></rect>
+<rect x="117.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 22:00 UTC — 0</title></rect>
+<rect x="117.25" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-25 23:00 UTC — 0</title></rect>
+<rect x="144.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 00:00 UTC — 0</title></rect>
+<rect x="144.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 01:00 UTC — 0</title></rect>
+<rect x="144.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 02:00 UTC — 0</title></rect>
+<rect x="144.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 03:00 UTC — 0</title></rect>
+<rect x="144.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 04:00 UTC — 0</title></rect>
+<rect x="144.50" y="165.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-26 05:00 UTC — 1 revs</title></rect>
+<rect x="144.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 06:00 UTC — 0</title></rect>
+<rect x="144.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 07:00 UTC — 0</title></rect>
+<rect x="144.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 08:00 UTC — 0</title></rect>
+<rect x="144.50" y="242.50" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-26 09:00 UTC — 3 revs</title></rect>
+<rect x="144.50" y="261.67" width="27.25" height="19.17" fill="#759cd4" stroke="#fff" stroke-width="0.3"><title>2026-05-26 10:00 UTC — 23 revs</title></rect>
+<rect x="144.50" y="280.83" width="27.25" height="19.17" fill="#5287d1" stroke="#fff" stroke-width="0.3"><title>2026-05-26 11:00 UTC — 52 revs</title></rect>
+<rect x="144.50" y="300.00" width="27.25" height="19.17" fill="#6693d2" stroke="#fff" stroke-width="0.3"><title>2026-05-26 12:00 UTC — 33 revs</title></rect>
+<rect x="144.50" y="319.17" width="27.25" height="19.17" fill="#3e7bd0" stroke="#fff" stroke-width="0.3"><title>2026-05-26 13:00 UTC — 81 revs</title></rect>
+<rect x="144.50" y="338.33" width="27.25" height="19.17" fill="#407cd0" stroke="#fff" stroke-width="0.3"><title>2026-05-26 14:00 UTC — 78 revs</title></rect>
+<rect x="144.50" y="357.50" width="27.25" height="19.17" fill="#4d84d1" stroke="#fff" stroke-width="0.3"><title>2026-05-26 15:00 UTC — 58 revs</title></rect>
+<rect x="144.50" y="376.67" width="27.25" height="19.17" fill="#3274d0" stroke="#fff" stroke-width="0.3"><title>2026-05-26 16:00 UTC — 105 revs</title></rect>
+<rect x="144.50" y="395.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-26 17:00 UTC — 1 revs</title></rect>
+<rect x="144.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 18:00 UTC — 0</title></rect>
+<rect x="144.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 19:00 UTC — 0</title></rect>
+<rect x="144.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 20:00 UTC — 0</title></rect>
+<rect x="144.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 21:00 UTC — 0</title></rect>
+<rect x="144.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-26 22:00 UTC — 0</title></rect>
+<rect x="144.50" y="510.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-26 23:00 UTC — 1 revs</title></rect>
+<rect x="171.75" y="70.00" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-05-27 00:00 UTC — 2 revs</title></rect>
+<rect x="171.75" y="89.17" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-05-27 01:00 UTC — 2 revs</title></rect>
+<rect x="171.75" y="108.33" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-05-27 02:00 UTC — 5 revs</title></rect>
+<rect x="171.75" y="127.50" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-27 03:00 UTC — 1 revs</title></rect>
+<rect x="171.75" y="146.67" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-27 04:00 UTC — 3 revs</title></rect>
+<rect x="171.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 05:00 UTC — 0</title></rect>
+<rect x="171.75" y="185.00" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-05-27 06:00 UTC — 4 revs</title></rect>
+<rect x="171.75" y="204.17" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-05-27 07:00 UTC — 8 revs</title></rect>
+<rect x="171.75" y="223.33" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-05-27 08:00 UTC — 8 revs</title></rect>
+<rect x="171.75" y="242.50" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-27 09:00 UTC — 1 revs</title></rect>
+<rect x="171.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 10:00 UTC — 0</title></rect>
+<rect x="171.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 11:00 UTC — 0</title></rect>
+<rect x="171.75" y="300.00" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 12:00 UTC — 12 revs</title></rect>
+<rect x="171.75" y="319.17" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-05-27 13:00 UTC — 2 revs</title></rect>
+<rect x="171.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 14:00 UTC — 0</title></rect>
+<rect x="171.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 15:00 UTC — 0</title></rect>
+<rect x="171.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 16:00 UTC — 0</title></rect>
+<rect x="171.75" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 17:00 UTC — 0</title></rect>
+<rect x="171.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 18:00 UTC — 0</title></rect>
+<rect x="171.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 19:00 UTC — 0</title></rect>
+<rect x="171.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 20:00 UTC — 0</title></rect>
+<rect x="171.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 21:00 UTC — 0</title></rect>
+<rect x="171.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 22:00 UTC — 0</title></rect>
+<rect x="171.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-27 23:00 UTC — 0</title></rect>
+<rect x="199.00" y="70.00" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-05-28 00:00 UTC — 9 revs</title></rect>
+<rect x="199.00" y="89.17" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-05-28 01:00 UTC — 9 revs</title></rect>
+<rect x="199.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 02:00 UTC — 0</title></rect>
+<rect x="199.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 03:00 UTC — 0</title></rect>
+<rect x="199.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 04:00 UTC — 0</title></rect>
+<rect x="199.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 05:00 UTC — 0</title></rect>
+<rect x="199.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 06:00 UTC — 0</title></rect>
+<rect x="199.00" y="204.17" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-05-28 07:00 UTC — 4 revs</title></rect>
+<rect x="199.00" y="223.33" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-28 08:00 UTC — 1 revs</title></rect>
+<rect x="199.00" y="242.50" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-28 09:00 UTC — 3 revs</title></rect>
+<rect x="199.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 10:00 UTC — 0</title></rect>
+<rect x="199.00" y="280.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-28 11:00 UTC — 1 revs</title></rect>
+<rect x="199.00" y="300.00" width="27.25" height="19.17" fill="#a6bddc" stroke="#fff" stroke-width="0.3"><title>2026-05-28 12:00 UTC — 6 revs</title></rect>
+<rect x="199.00" y="319.17" width="27.25" height="19.17" fill="#6794d2" stroke="#fff" stroke-width="0.3"><title>2026-05-28 13:00 UTC — 32 revs</title></rect>
+<rect x="199.00" y="338.33" width="27.25" height="19.17" fill="#5a8cd1" stroke="#fff" stroke-width="0.3"><title>2026-05-28 14:00 UTC — 43 revs</title></rect>
+<rect x="199.00" y="357.50" width="27.25" height="19.17" fill="#6693d2" stroke="#fff" stroke-width="0.3"><title>2026-05-28 15:00 UTC — 33 revs</title></rect>
+<rect x="199.00" y="376.67" width="27.25" height="19.17" fill="#8baad7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 16:00 UTC — 13 revs</title></rect>
+<rect x="199.00" y="395.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-28 17:00 UTC — 1 revs</title></rect>
+<rect x="199.00" y="415.00" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-05-28 18:00 UTC — 1 revs</title></rect>
+<rect x="199.00" y="434.17" width="27.25" height="19.17" fill="#85a7d6" stroke="#fff" stroke-width="0.3"><title>2026-05-28 19:00 UTC — 15 revs</title></rect>
+<rect x="199.00" y="453.33" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-05-28 20:00 UTC — 5 revs</title></rect>
+<rect x="199.00" y="472.50" width="27.25" height="19.17" fill="#8baad7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 21:00 UTC — 13 revs</title></rect>
+<rect x="199.00" y="491.67" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-05-28 22:00 UTC — 12 revs</title></rect>
+<rect x="199.00" y="510.83" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-05-28 23:00 UTC — 9 revs</title></rect>
+<rect x="226.25" y="70.00" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-05-29 00:00 UTC — 2 revs</title></rect>
+<rect x="226.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 01:00 UTC — 0</title></rect>
+<rect x="226.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 02:00 UTC — 0</title></rect>
+<rect x="226.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 03:00 UTC — 0</title></rect>
+<rect x="226.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 04:00 UTC — 0</title></rect>
+<rect x="226.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 05:00 UTC — 0</title></rect>
+<rect x="226.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 06:00 UTC — 0</title></rect>
+<rect x="226.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 07:00 UTC — 0</title></rect>
+<rect x="226.25" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 08:00 UTC — 0</title></rect>
+<rect x="226.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 09:00 UTC — 0</title></rect>
+<rect x="226.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 10:00 UTC — 0</title></rect>
+<rect x="226.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 11:00 UTC — 0</title></rect>
+<rect x="226.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 12:00 UTC — 0</title></rect>
+<rect x="226.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 13:00 UTC — 0</title></rect>
+<rect x="226.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 14:00 UTC — 0</title></rect>
+<rect x="226.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 15:00 UTC — 0</title></rect>
+<rect x="226.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 16:00 UTC — 0</title></rect>
+<rect x="226.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 17:00 UTC — 0</title></rect>
+<rect x="226.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 18:00 UTC — 0</title></rect>
+<rect x="226.25" y="434.17" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-29 19:00 UTC — 3 revs</title></rect>
+<rect x="226.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-29 20:00 UTC — 0</title></rect>
+<rect x="226.25" y="472.50" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-05-29 21:00 UTC — 4 revs</title></rect>
+<rect x="226.25" y="491.67" width="27.25" height="19.17" fill="#5d8ed1" stroke="#fff" stroke-width="0.3"><title>2026-05-29 22:00 UTC — 40 revs</title></rect>
+<rect x="226.25" y="510.83" width="27.25" height="19.17" fill="#6c97d3" stroke="#fff" stroke-width="0.3"><title>2026-05-29 23:00 UTC — 28 revs</title></rect>
+<rect x="253.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 00:00 UTC — 0</title></rect>
+<rect x="253.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 01:00 UTC — 0</title></rect>
+<rect x="253.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 02:00 UTC — 0</title></rect>
+<rect x="253.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 03:00 UTC — 0</title></rect>
+<rect x="253.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 04:00 UTC — 0</title></rect>
+<rect x="253.50" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 05:00 UTC — 0</title></rect>
+<rect x="253.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 06:00 UTC — 0</title></rect>
+<rect x="253.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 07:00 UTC — 0</title></rect>
+<rect x="253.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 08:00 UTC — 0</title></rect>
+<rect x="253.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 09:00 UTC — 0</title></rect>
+<rect x="253.50" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 10:00 UTC — 0</title></rect>
+<rect x="253.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 11:00 UTC — 0</title></rect>
+<rect x="253.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 12:00 UTC — 0</title></rect>
+<rect x="253.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 13:00 UTC — 0</title></rect>
+<rect x="253.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 14:00 UTC — 0</title></rect>
+<rect x="253.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 15:00 UTC — 0</title></rect>
+<rect x="253.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 16:00 UTC — 0</title></rect>
+<rect x="253.50" y="395.83" width="27.25" height="19.17" fill="#a6bddc" stroke="#fff" stroke-width="0.3"><title>2026-05-30 17:00 UTC — 6 revs</title></rect>
+<rect x="253.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-30 18:00 UTC — 0</title></rect>
+<rect x="253.50" y="434.17" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-05-30 19:00 UTC — 3 revs</title></rect>
+<rect x="253.50" y="453.33" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-05-30 20:00 UTC — 8 revs</title></rect>
+<rect x="253.50" y="472.50" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-05-30 21:00 UTC — 8 revs</title></rect>
+<rect x="253.50" y="491.67" width="27.25" height="19.17" fill="#91afd8" stroke="#fff" stroke-width="0.3"><title>2026-05-30 22:00 UTC — 11 revs</title></rect>
+<rect x="253.50" y="510.83" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-05-30 23:00 UTC — 8 revs</title></rect>
+<rect x="280.75" y="70.00" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-05-31 00:00 UTC — 9 revs</title></rect>
+<rect x="280.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 01:00 UTC — 0</title></rect>
+<rect x="280.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 02:00 UTC — 0</title></rect>
+<rect x="280.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 03:00 UTC — 0</title></rect>
+<rect x="280.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 04:00 UTC — 0</title></rect>
+<rect x="280.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 05:00 UTC — 0</title></rect>
+<rect x="280.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 06:00 UTC — 0</title></rect>
+<rect x="280.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 07:00 UTC — 0</title></rect>
+<rect x="280.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 08:00 UTC — 0</title></rect>
+<rect x="280.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 09:00 UTC — 0</title></rect>
+<rect x="280.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 10:00 UTC — 0</title></rect>
+<rect x="280.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 11:00 UTC — 0</title></rect>
+<rect x="280.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 12:00 UTC — 0</title></rect>
+<rect x="280.75" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 13:00 UTC — 0</title></rect>
+<rect x="280.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 14:00 UTC — 0</title></rect>
+<rect x="280.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 15:00 UTC — 0</title></rect>
+<rect x="280.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 16:00 UTC — 0</title></rect>
+<rect x="280.75" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 17:00 UTC — 0</title></rect>
+<rect x="280.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 18:00 UTC — 0</title></rect>
+<rect x="280.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 19:00 UTC — 0</title></rect>
+<rect x="280.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 20:00 UTC — 0</title></rect>
+<rect x="280.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-05-31 21:00 UTC — 0</title></rect>
+<rect x="280.75" y="491.67" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-05-31 22:00 UTC — 2 revs</title></rect>
+<rect x="280.75" y="510.83" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-05-31 23:00 UTC — 5 revs</title></rect>
+<rect x="308.00" y="70.00" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-01 00:00 UTC — 4 revs</title></rect>
+<rect x="308.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 01:00 UTC — 0</title></rect>
+<rect x="308.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 02:00 UTC — 0</title></rect>
+<rect x="308.00" y="127.50" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-01 03:00 UTC — 7 revs</title></rect>
+<rect x="308.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 04:00 UTC — 0</title></rect>
+<rect x="308.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 05:00 UTC — 0</title></rect>
+<rect x="308.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 06:00 UTC — 0</title></rect>
+<rect x="308.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 07:00 UTC — 0</title></rect>
+<rect x="308.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 08:00 UTC — 0</title></rect>
+<rect x="308.00" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 09:00 UTC — 0</title></rect>
+<rect x="308.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 10:00 UTC — 0</title></rect>
+<rect x="308.00" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 11:00 UTC — 0</title></rect>
+<rect x="308.00" y="300.00" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-06-01 12:00 UTC — 9 revs</title></rect>
+<rect x="308.00" y="319.17" width="27.25" height="19.17" fill="#85a7d6" stroke="#fff" stroke-width="0.3"><title>2026-06-01 13:00 UTC — 15 revs</title></rect>
+<rect x="308.00" y="338.33" width="27.25" height="19.17" fill="#417dd0" stroke="#fff" stroke-width="0.3"><title>2026-06-01 14:00 UTC — 75 revs</title></rect>
+<rect x="308.00" y="357.50" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 15:00 UTC — 12 revs</title></rect>
+<rect x="308.00" y="376.67" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-01 16:00 UTC — 4 revs</title></rect>
+<rect x="308.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 17:00 UTC — 0</title></rect>
+<rect x="308.00" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 18:00 UTC — 0</title></rect>
+<rect x="308.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 19:00 UTC — 0</title></rect>
+<rect x="308.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-01 20:00 UTC — 0</title></rect>
+<rect x="308.00" y="472.50" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-01 21:00 UTC — 1 revs</title></rect>
+<rect x="308.00" y="491.67" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-01 22:00 UTC — 3 revs</title></rect>
+<rect x="308.00" y="510.83" width="27.25" height="19.17" fill="#95b1d8" stroke="#fff" stroke-width="0.3"><title>2026-06-01 23:00 UTC — 10 revs</title></rect>
+<rect x="335.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 00:00 UTC — 0</title></rect>
+<rect x="335.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 01:00 UTC — 0</title></rect>
+<rect x="335.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 02:00 UTC — 0</title></rect>
+<rect x="335.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 03:00 UTC — 0</title></rect>
+<rect x="335.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 04:00 UTC — 0</title></rect>
+<rect x="335.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 05:00 UTC — 0</title></rect>
+<rect x="335.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 06:00 UTC — 0</title></rect>
+<rect x="335.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 07:00 UTC — 0</title></rect>
+<rect x="335.25" y="223.33" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-02 08:00 UTC — 1 revs</title></rect>
+<rect x="335.25" y="242.50" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-02 09:00 UTC — 1 revs</title></rect>
+<rect x="335.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 10:00 UTC — 0</title></rect>
+<rect x="335.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 11:00 UTC — 0</title></rect>
+<rect x="335.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 12:00 UTC — 0</title></rect>
+<rect x="335.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 13:00 UTC — 0</title></rect>
+<rect x="335.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 14:00 UTC — 0</title></rect>
+<rect x="335.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 15:00 UTC — 0</title></rect>
+<rect x="335.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 16:00 UTC — 0</title></rect>
+<rect x="335.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 17:00 UTC — 0</title></rect>
+<rect x="335.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 18:00 UTC — 0</title></rect>
+<rect x="335.25" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 19:00 UTC — 0</title></rect>
+<rect x="335.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 20:00 UTC — 0</title></rect>
+<rect x="335.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 21:00 UTC — 0</title></rect>
+<rect x="335.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-02 22:00 UTC — 0</title></rect>
+<rect x="335.25" y="510.83" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-02 23:00 UTC — 2 revs</title></rect>
+<rect x="362.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 00:00 UTC — 0</title></rect>
+<rect x="362.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 01:00 UTC — 0</title></rect>
+<rect x="362.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 02:00 UTC — 0</title></rect>
+<rect x="362.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 03:00 UTC — 0</title></rect>
+<rect x="362.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 04:00 UTC — 0</title></rect>
+<rect x="362.50" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 05:00 UTC — 0</title></rect>
+<rect x="362.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 06:00 UTC — 0</title></rect>
+<rect x="362.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 07:00 UTC — 0</title></rect>
+<rect x="362.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 08:00 UTC — 0</title></rect>
+<rect x="362.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 09:00 UTC — 0</title></rect>
+<rect x="362.50" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 10:00 UTC — 0</title></rect>
+<rect x="362.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 11:00 UTC — 0</title></rect>
+<rect x="362.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 12:00 UTC — 0</title></rect>
+<rect x="362.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 13:00 UTC — 0</title></rect>
+<rect x="362.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 14:00 UTC — 0</title></rect>
+<rect x="362.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 15:00 UTC — 0</title></rect>
+<rect x="362.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 16:00 UTC — 0</title></rect>
+<rect x="362.50" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 17:00 UTC — 0</title></rect>
+<rect x="362.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 18:00 UTC — 0</title></rect>
+<rect x="362.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 19:00 UTC — 0</title></rect>
+<rect x="362.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 20:00 UTC — 0</title></rect>
+<rect x="362.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 21:00 UTC — 0</title></rect>
+<rect x="362.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 22:00 UTC — 0</title></rect>
+<rect x="362.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-03 23:00 UTC — 0</title></rect>
+<rect x="389.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 00:00 UTC — 0</title></rect>
+<rect x="389.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 01:00 UTC — 0</title></rect>
+<rect x="389.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 02:00 UTC — 0</title></rect>
+<rect x="389.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 03:00 UTC — 0</title></rect>
+<rect x="389.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 04:00 UTC — 0</title></rect>
+<rect x="389.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 05:00 UTC — 0</title></rect>
+<rect x="389.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 06:00 UTC — 0</title></rect>
+<rect x="389.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 07:00 UTC — 0</title></rect>
+<rect x="389.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 08:00 UTC — 0</title></rect>
+<rect x="389.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 09:00 UTC — 0</title></rect>
+<rect x="389.75" y="261.67" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-04 10:00 UTC — 1 revs</title></rect>
+<rect x="389.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 11:00 UTC — 0</title></rect>
+<rect x="389.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 12:00 UTC — 0</title></rect>
+<rect x="389.75" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 13:00 UTC — 0</title></rect>
+<rect x="389.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 14:00 UTC — 0</title></rect>
+<rect x="389.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 15:00 UTC — 0</title></rect>
+<rect x="389.75" y="376.67" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-04 16:00 UTC — 1 revs</title></rect>
+<rect x="389.75" y="395.83" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-04 17:00 UTC — 2 revs</title></rect>
+<rect x="389.75" y="415.00" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-04 18:00 UTC — 1 revs</title></rect>
+<rect x="389.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 19:00 UTC — 0</title></rect>
+<rect x="389.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 20:00 UTC — 0</title></rect>
+<rect x="389.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 21:00 UTC — 0</title></rect>
+<rect x="389.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 22:00 UTC — 0</title></rect>
+<rect x="389.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-04 23:00 UTC — 0</title></rect>
+<rect x="417.00" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 00:00 UTC — 0</title></rect>
+<rect x="417.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 01:00 UTC — 0</title></rect>
+<rect x="417.00" y="108.33" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-05 02:00 UTC — 2 revs</title></rect>
+<rect x="417.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 03:00 UTC — 0</title></rect>
+<rect x="417.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 04:00 UTC — 0</title></rect>
+<rect x="417.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 05:00 UTC — 0</title></rect>
+<rect x="417.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 06:00 UTC — 0</title></rect>
+<rect x="417.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 07:00 UTC — 0</title></rect>
+<rect x="417.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 08:00 UTC — 0</title></rect>
+<rect x="417.00" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 09:00 UTC — 0</title></rect>
+<rect x="417.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 10:00 UTC — 0</title></rect>
+<rect x="417.00" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 11:00 UTC — 0</title></rect>
+<rect x="417.00" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 12:00 UTC — 0</title></rect>
+<rect x="417.00" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 13:00 UTC — 0</title></rect>
+<rect x="417.00" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 14:00 UTC — 0</title></rect>
+<rect x="417.00" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 15:00 UTC — 0</title></rect>
+<rect x="417.00" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 16:00 UTC — 0</title></rect>
+<rect x="417.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 17:00 UTC — 0</title></rect>
+<rect x="417.00" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 18:00 UTC — 0</title></rect>
+<rect x="417.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 19:00 UTC — 0</title></rect>
+<rect x="417.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 20:00 UTC — 0</title></rect>
+<rect x="417.00" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 21:00 UTC — 0</title></rect>
+<rect x="417.00" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 22:00 UTC — 0</title></rect>
+<rect x="417.00" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-05 23:00 UTC — 0</title></rect>
+<rect x="444.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 00:00 UTC — 0</title></rect>
+<rect x="444.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 01:00 UTC — 0</title></rect>
+<rect x="444.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 02:00 UTC — 0</title></rect>
+<rect x="444.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 03:00 UTC — 0</title></rect>
+<rect x="444.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 04:00 UTC — 0</title></rect>
+<rect x="444.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 05:00 UTC — 0</title></rect>
+<rect x="444.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 06:00 UTC — 0</title></rect>
+<rect x="444.25" y="204.17" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-06-06 07:00 UTC — 5 revs</title></rect>
+<rect x="444.25" y="223.33" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-06 08:00 UTC — 1 revs</title></rect>
+<rect x="444.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 09:00 UTC — 0</title></rect>
+<rect x="444.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 10:00 UTC — 0</title></rect>
+<rect x="444.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 11:00 UTC — 0</title></rect>
+<rect x="444.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 12:00 UTC — 0</title></rect>
+<rect x="444.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 13:00 UTC — 0</title></rect>
+<rect x="444.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 14:00 UTC — 0</title></rect>
+<rect x="444.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 15:00 UTC — 0</title></rect>
+<rect x="444.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 16:00 UTC — 0</title></rect>
+<rect x="444.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 17:00 UTC — 0</title></rect>
+<rect x="444.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 18:00 UTC — 0</title></rect>
+<rect x="444.25" y="434.17" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-06-06 19:00 UTC — 5 revs</title></rect>
+<rect x="444.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 20:00 UTC — 0</title></rect>
+<rect x="444.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 21:00 UTC — 0</title></rect>
+<rect x="444.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-06 22:00 UTC — 0</title></rect>
+<rect x="444.25" y="510.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-06 23:00 UTC — 1 revs</title></rect>
+<rect x="471.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 00:00 UTC — 0</title></rect>
+<rect x="471.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 01:00 UTC — 0</title></rect>
+<rect x="471.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 02:00 UTC — 0</title></rect>
+<rect x="471.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 03:00 UTC — 0</title></rect>
+<rect x="471.50" y="146.67" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-06-07 04:00 UTC — 5 revs</title></rect>
+<rect x="471.50" y="165.83" width="27.25" height="19.17" fill="#a6bddc" stroke="#fff" stroke-width="0.3"><title>2026-06-07 05:00 UTC — 6 revs</title></rect>
+<rect x="471.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 06:00 UTC — 0</title></rect>
+<rect x="471.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 07:00 UTC — 0</title></rect>
+<rect x="471.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 08:00 UTC — 0</title></rect>
+<rect x="471.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 09:00 UTC — 0</title></rect>
+<rect x="471.50" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 10:00 UTC — 0</title></rect>
+<rect x="471.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 11:00 UTC — 0</title></rect>
+<rect x="471.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 12:00 UTC — 0</title></rect>
+<rect x="471.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 13:00 UTC — 0</title></rect>
+<rect x="471.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 14:00 UTC — 0</title></rect>
+<rect x="471.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 15:00 UTC — 0</title></rect>
+<rect x="471.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 16:00 UTC — 0</title></rect>
+<rect x="471.50" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 17:00 UTC — 0</title></rect>
+<rect x="471.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 18:00 UTC — 0</title></rect>
+<rect x="471.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 19:00 UTC — 0</title></rect>
+<rect x="471.50" y="453.33" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-07 20:00 UTC — 2 revs</title></rect>
+<rect x="471.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 21:00 UTC — 0</title></rect>
+<rect x="471.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 22:00 UTC — 0</title></rect>
+<rect x="471.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-07 23:00 UTC — 0</title></rect>
+<rect x="498.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 00:00 UTC — 0</title></rect>
+<rect x="498.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 01:00 UTC — 0</title></rect>
+<rect x="498.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 02:00 UTC — 0</title></rect>
+<rect x="498.75" y="127.50" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-08 03:00 UTC — 7 revs</title></rect>
+<rect x="498.75" y="146.67" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-08 04:00 UTC — 7 revs</title></rect>
+<rect x="498.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 05:00 UTC — 0</title></rect>
+<rect x="498.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 06:00 UTC — 0</title></rect>
+<rect x="498.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 07:00 UTC — 0</title></rect>
+<rect x="498.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 08:00 UTC — 0</title></rect>
+<rect x="498.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 09:00 UTC — 0</title></rect>
+<rect x="498.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 10:00 UTC — 0</title></rect>
+<rect x="498.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 11:00 UTC — 0</title></rect>
+<rect x="498.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 12:00 UTC — 0</title></rect>
+<rect x="498.75" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 13:00 UTC — 0</title></rect>
+<rect x="498.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 14:00 UTC — 0</title></rect>
+<rect x="498.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 15:00 UTC — 0</title></rect>
+<rect x="498.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 16:00 UTC — 0</title></rect>
+<rect x="498.75" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 17:00 UTC — 0</title></rect>
+<rect x="498.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 18:00 UTC — 0</title></rect>
+<rect x="498.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 19:00 UTC — 0</title></rect>
+<rect x="498.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 20:00 UTC — 0</title></rect>
+<rect x="498.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 21:00 UTC — 0</title></rect>
+<rect x="498.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 22:00 UTC — 0</title></rect>
+<rect x="498.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-08 23:00 UTC — 0</title></rect>
+<rect x="526.00" y="70.00" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-09 00:00 UTC — 2 revs</title></rect>
+<rect x="526.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 01:00 UTC — 0</title></rect>
+<rect x="526.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 02:00 UTC — 0</title></rect>
+<rect x="526.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 03:00 UTC — 0</title></rect>
+<rect x="526.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 04:00 UTC — 0</title></rect>
+<rect x="526.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 05:00 UTC — 0</title></rect>
+<rect x="526.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 06:00 UTC — 0</title></rect>
+<rect x="526.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 07:00 UTC — 0</title></rect>
+<rect x="526.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 08:00 UTC — 0</title></rect>
+<rect x="526.00" y="242.50" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-09 09:00 UTC — 4 revs</title></rect>
+<rect x="526.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 10:00 UTC — 0</title></rect>
+<rect x="526.00" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 11:00 UTC — 0</title></rect>
+<rect x="526.00" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 12:00 UTC — 0</title></rect>
+<rect x="526.00" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 13:00 UTC — 0</title></rect>
+<rect x="526.00" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 14:00 UTC — 0</title></rect>
+<rect x="526.00" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 15:00 UTC — 0</title></rect>
+<rect x="526.00" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 16:00 UTC — 0</title></rect>
+<rect x="526.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 17:00 UTC — 0</title></rect>
+<rect x="526.00" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 18:00 UTC — 0</title></rect>
+<rect x="526.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 19:00 UTC — 0</title></rect>
+<rect x="526.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 20:00 UTC — 0</title></rect>
+<rect x="526.00" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 21:00 UTC — 0</title></rect>
+<rect x="526.00" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 22:00 UTC — 0</title></rect>
+<rect x="526.00" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-09 23:00 UTC — 0</title></rect>
+<rect x="553.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 00:00 UTC — 0</title></rect>
+<rect x="553.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 01:00 UTC — 0</title></rect>
+<rect x="553.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 02:00 UTC — 0</title></rect>
+<rect x="553.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 03:00 UTC — 0</title></rect>
+<rect x="553.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 04:00 UTC — 0</title></rect>
+<rect x="553.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 05:00 UTC — 0</title></rect>
+<rect x="553.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 06:00 UTC — 0</title></rect>
+<rect x="553.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 07:00 UTC — 0</title></rect>
+<rect x="553.25" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 08:00 UTC — 0</title></rect>
+<rect x="553.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 09:00 UTC — 0</title></rect>
+<rect x="553.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 10:00 UTC — 0</title></rect>
+<rect x="553.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 11:00 UTC — 0</title></rect>
+<rect x="553.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 12:00 UTC — 0</title></rect>
+<rect x="553.25" y="319.17" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-10 13:00 UTC — 4 revs</title></rect>
+<rect x="553.25" y="338.33" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-10 14:00 UTC — 2 revs</title></rect>
+<rect x="553.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 15:00 UTC — 0</title></rect>
+<rect x="553.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 16:00 UTC — 0</title></rect>
+<rect x="553.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 17:00 UTC — 0</title></rect>
+<rect x="553.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 18:00 UTC — 0</title></rect>
+<rect x="553.25" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 19:00 UTC — 0</title></rect>
+<rect x="553.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 20:00 UTC — 0</title></rect>
+<rect x="553.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 21:00 UTC — 0</title></rect>
+<rect x="553.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 22:00 UTC — 0</title></rect>
+<rect x="553.25" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-10 23:00 UTC — 0</title></rect>
+<rect x="580.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 00:00 UTC — 0</title></rect>
+<rect x="580.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 01:00 UTC — 0</title></rect>
+<rect x="580.50" y="108.33" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-11 02:00 UTC — 3 revs</title></rect>
+<rect x="580.50" y="127.50" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 03:00 UTC — 12 revs</title></rect>
+<rect x="580.50" y="146.67" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 04:00 UTC — 12 revs</title></rect>
+<rect x="580.50" y="165.83" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-06-11 05:00 UTC — 14 revs</title></rect>
+<rect x="580.50" y="185.00" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 06:00 UTC — 12 revs</title></rect>
+<rect x="580.50" y="204.17" width="27.25" height="19.17" fill="#8baad7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 07:00 UTC — 13 revs</title></rect>
+<rect x="580.50" y="223.33" width="27.25" height="19.17" fill="#a6bddc" stroke="#fff" stroke-width="0.3"><title>2026-06-11 08:00 UTC — 6 revs</title></rect>
+<rect x="580.50" y="242.50" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-11 09:00 UTC — 7 revs</title></rect>
+<rect x="580.50" y="261.67" width="27.25" height="19.17" fill="#a6bddc" stroke="#fff" stroke-width="0.3"><title>2026-06-11 10:00 UTC — 6 revs</title></rect>
+<rect x="580.50" y="280.83" width="27.25" height="19.17" fill="#a6bddc" stroke="#fff" stroke-width="0.3"><title>2026-06-11 11:00 UTC — 6 revs</title></rect>
+<rect x="580.50" y="300.00" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-06-11 12:00 UTC — 8 revs</title></rect>
+<rect x="580.50" y="319.17" width="27.25" height="19.17" fill="#789ed4" stroke="#fff" stroke-width="0.3"><title>2026-06-11 13:00 UTC — 21 revs</title></rect>
+<rect x="580.50" y="338.33" width="27.25" height="19.17" fill="#719ad3" stroke="#fff" stroke-width="0.3"><title>2026-06-11 14:00 UTC — 25 revs</title></rect>
+<rect x="580.50" y="357.50" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-06-11 15:00 UTC — 5 revs</title></rect>
+<rect x="580.50" y="376.67" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-11 16:00 UTC — 4 revs</title></rect>
+<rect x="580.50" y="395.83" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-06-11 17:00 UTC — 5 revs</title></rect>
+<rect x="580.50" y="415.00" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-11 18:00 UTC — 1 revs</title></rect>
+<rect x="580.50" y="434.17" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-11 19:00 UTC — 1 revs</title></rect>
+<rect x="580.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 20:00 UTC — 0</title></rect>
+<rect x="580.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 21:00 UTC — 0</title></rect>
+<rect x="580.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 22:00 UTC — 0</title></rect>
+<rect x="580.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-11 23:00 UTC — 0</title></rect>
+<rect x="607.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 00:00 UTC — 0</title></rect>
+<rect x="607.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 01:00 UTC — 0</title></rect>
+<rect x="607.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 02:00 UTC — 0</title></rect>
+<rect x="607.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 03:00 UTC — 0</title></rect>
+<rect x="607.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 04:00 UTC — 0</title></rect>
+<rect x="607.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 05:00 UTC — 0</title></rect>
+<rect x="607.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 06:00 UTC — 0</title></rect>
+<rect x="607.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 07:00 UTC — 0</title></rect>
+<rect x="607.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 08:00 UTC — 0</title></rect>
+<rect x="607.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 09:00 UTC — 0</title></rect>
+<rect x="607.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 10:00 UTC — 0</title></rect>
+<rect x="607.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 11:00 UTC — 0</title></rect>
+<rect x="607.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 12:00 UTC — 0</title></rect>
+<rect x="607.75" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 13:00 UTC — 0</title></rect>
+<rect x="607.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 14:00 UTC — 0</title></rect>
+<rect x="607.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 15:00 UTC — 0</title></rect>
+<rect x="607.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 16:00 UTC — 0</title></rect>
+<rect x="607.75" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 17:00 UTC — 0</title></rect>
+<rect x="607.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 18:00 UTC — 0</title></rect>
+<rect x="607.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 19:00 UTC — 0</title></rect>
+<rect x="607.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 20:00 UTC — 0</title></rect>
+<rect x="607.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 21:00 UTC — 0</title></rect>
+<rect x="607.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 22:00 UTC — 0</title></rect>
+<rect x="607.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-12 23:00 UTC — 0</title></rect>
+<rect x="635.00" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 00:00 UTC — 0</title></rect>
+<rect x="635.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 01:00 UTC — 0</title></rect>
+<rect x="635.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 02:00 UTC — 0</title></rect>
+<rect x="635.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 03:00 UTC — 0</title></rect>
+<rect x="635.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 04:00 UTC — 0</title></rect>
+<rect x="635.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 05:00 UTC — 0</title></rect>
+<rect x="635.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 06:00 UTC — 0</title></rect>
+<rect x="635.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 07:00 UTC — 0</title></rect>
+<rect x="635.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 08:00 UTC — 0</title></rect>
+<rect x="635.00" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 09:00 UTC — 0</title></rect>
+<rect x="635.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 10:00 UTC — 0</title></rect>
+<rect x="635.00" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 11:00 UTC — 0</title></rect>
+<rect x="635.00" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 12:00 UTC — 0</title></rect>
+<rect x="635.00" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 13:00 UTC — 0</title></rect>
+<rect x="635.00" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 14:00 UTC — 0</title></rect>
+<rect x="635.00" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 15:00 UTC — 0</title></rect>
+<rect x="635.00" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 16:00 UTC — 0</title></rect>
+<rect x="635.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 17:00 UTC — 0</title></rect>
+<rect x="635.00" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 18:00 UTC — 0</title></rect>
+<rect x="635.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 19:00 UTC — 0</title></rect>
+<rect x="635.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 20:00 UTC — 0</title></rect>
+<rect x="635.00" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 21:00 UTC — 0</title></rect>
+<rect x="635.00" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 22:00 UTC — 0</title></rect>
+<rect x="635.00" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-13 23:00 UTC — 0</title></rect>
+<rect x="662.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 00:00 UTC — 0</title></rect>
+<rect x="662.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 01:00 UTC — 0</title></rect>
+<rect x="662.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 02:00 UTC — 0</title></rect>
+<rect x="662.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 03:00 UTC — 0</title></rect>
+<rect x="662.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 04:00 UTC — 0</title></rect>
+<rect x="662.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 05:00 UTC — 0</title></rect>
+<rect x="662.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 06:00 UTC — 0</title></rect>
+<rect x="662.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 07:00 UTC — 0</title></rect>
+<rect x="662.25" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 08:00 UTC — 0</title></rect>
+<rect x="662.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 09:00 UTC — 0</title></rect>
+<rect x="662.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 10:00 UTC — 0</title></rect>
+<rect x="662.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 11:00 UTC — 0</title></rect>
+<rect x="662.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 12:00 UTC — 0</title></rect>
+<rect x="662.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 13:00 UTC — 0</title></rect>
+<rect x="662.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 14:00 UTC — 0</title></rect>
+<rect x="662.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 15:00 UTC — 0</title></rect>
+<rect x="662.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 16:00 UTC — 0</title></rect>
+<rect x="662.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 17:00 UTC — 0</title></rect>
+<rect x="662.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 18:00 UTC — 0</title></rect>
+<rect x="662.25" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 19:00 UTC — 0</title></rect>
+<rect x="662.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 20:00 UTC — 0</title></rect>
+<rect x="662.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 21:00 UTC — 0</title></rect>
+<rect x="662.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 22:00 UTC — 0</title></rect>
+<rect x="662.25" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-14 23:00 UTC — 0</title></rect>
+<rect x="689.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 00:00 UTC — 0</title></rect>
+<rect x="689.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 01:00 UTC — 0</title></rect>
+<rect x="689.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 02:00 UTC — 0</title></rect>
+<rect x="689.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 03:00 UTC — 0</title></rect>
+<rect x="689.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 04:00 UTC — 0</title></rect>
+<rect x="689.50" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 05:00 UTC — 0</title></rect>
+<rect x="689.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 06:00 UTC — 0</title></rect>
+<rect x="689.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 07:00 UTC — 0</title></rect>
+<rect x="689.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 08:00 UTC — 0</title></rect>
+<rect x="689.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 09:00 UTC — 0</title></rect>
+<rect x="689.50" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 10:00 UTC — 0</title></rect>
+<rect x="689.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 11:00 UTC — 0</title></rect>
+<rect x="689.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 12:00 UTC — 0</title></rect>
+<rect x="689.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 13:00 UTC — 0</title></rect>
+<rect x="689.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 14:00 UTC — 0</title></rect>
+<rect x="689.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 15:00 UTC — 0</title></rect>
+<rect x="689.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 16:00 UTC — 0</title></rect>
+<rect x="689.50" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 17:00 UTC — 0</title></rect>
+<rect x="689.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 18:00 UTC — 0</title></rect>
+<rect x="689.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 19:00 UTC — 0</title></rect>
+<rect x="689.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 20:00 UTC — 0</title></rect>
+<rect x="689.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 21:00 UTC — 0</title></rect>
+<rect x="689.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 22:00 UTC — 0</title></rect>
+<rect x="689.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-15 23:00 UTC — 0</title></rect>
+<rect x="716.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 00:00 UTC — 0</title></rect>
+<rect x="716.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 01:00 UTC — 0</title></rect>
+<rect x="716.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 02:00 UTC — 0</title></rect>
+<rect x="716.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 03:00 UTC — 0</title></rect>
+<rect x="716.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 04:00 UTC — 0</title></rect>
+<rect x="716.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 05:00 UTC — 0</title></rect>
+<rect x="716.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 06:00 UTC — 0</title></rect>
+<rect x="716.75" y="204.17" width="27.25" height="19.17" fill="#6894d2" stroke="#fff" stroke-width="0.3"><title>2026-06-16 07:00 UTC — 31 revs</title></rect>
+<rect x="716.75" y="223.33" width="27.25" height="19.17" fill="#5488d1" stroke="#fff" stroke-width="0.3"><title>2026-06-16 08:00 UTC — 50 revs</title></rect>
+<rect x="716.75" y="242.50" width="27.25" height="19.17" fill="#3475d0" stroke="#fff" stroke-width="0.3"><title>2026-06-16 09:00 UTC — 101 revs</title></rect>
+<rect x="716.75" y="261.67" width="27.25" height="19.17" fill="#2a6dca" stroke="#fff" stroke-width="0.3"><title>2026-06-16 10:00 UTC — 141 revs</title></rect>
+<rect x="716.75" y="280.83" width="27.25" height="19.17" fill="#437ed0" stroke="#fff" stroke-width="0.3"><title>2026-06-16 11:00 UTC — 72 revs</title></rect>
+<rect x="716.75" y="300.00" width="27.25" height="19.17" fill="#6290d2" stroke="#fff" stroke-width="0.3"><title>2026-06-16 12:00 UTC — 36 revs</title></rect>
+<rect x="716.75" y="319.17" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-06-16 13:00 UTC — 8 revs</title></rect>
+<rect x="716.75" y="338.33" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-16 14:00 UTC — 4 revs</title></rect>
+<rect x="716.75" y="357.50" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-16 15:00 UTC — 1 revs</title></rect>
+<rect x="716.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-16 16:00 UTC — 0</title></rect>
+<rect x="716.75" y="395.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-16 17:00 UTC — 1 revs</title></rect>
+<rect x="716.75" y="415.00" width="27.25" height="19.17" fill="#1f5db3" stroke="#fff" stroke-width="0.3"><title>2026-06-16 18:00 UTC — 292 revs</title></rect>
+<rect x="716.75" y="434.17" width="27.25" height="19.17" fill="#134893" stroke="#fff" stroke-width="0.3"><title>2026-06-16 19:00 UTC — 749 revs</title></rect>
+<rect x="716.75" y="453.33" width="27.25" height="19.17" fill="#1b56a9" stroke="#fff" stroke-width="0.3"><title>2026-06-16 20:00 UTC — 390 revs</title></rect>
+<rect x="716.75" y="472.50" width="27.25" height="19.17" fill="#1b56a9" stroke="#fff" stroke-width="0.3"><title>2026-06-16 21:00 UTC — 393 revs</title></rect>
+<rect x="716.75" y="491.67" width="27.25" height="19.17" fill="#2261b9" stroke="#fff" stroke-width="0.3"><title>2026-06-16 22:00 UTC — 238 revs</title></rect>
+<rect x="716.75" y="510.83" width="27.25" height="19.17" fill="#3676d0" stroke="#fff" stroke-width="0.3"><title>2026-06-16 23:00 UTC — 96 revs</title></rect>
+<rect x="744.00" y="70.00" width="27.25" height="19.17" fill="#3173d0" stroke="#fff" stroke-width="0.3"><title>2026-06-17 00:00 UTC — 107 revs</title></rect>
+<rect x="744.00" y="89.17" width="27.25" height="19.17" fill="#2768c3" stroke="#fff" stroke-width="0.3"><title>2026-06-17 01:00 UTC — 176 revs</title></rect>
+<rect x="744.00" y="108.33" width="27.25" height="19.17" fill="#2566c1" stroke="#fff" stroke-width="0.3"><title>2026-06-17 02:00 UTC — 190 revs</title></rect>
+<rect x="744.00" y="127.50" width="27.25" height="19.17" fill="#2d70cf" stroke="#fff" stroke-width="0.3"><title>2026-06-17 03:00 UTC — 119 revs</title></rect>
+<rect x="744.00" y="146.67" width="27.25" height="19.17" fill="#6190d2" stroke="#fff" stroke-width="0.3"><title>2026-06-17 04:00 UTC — 37 revs</title></rect>
+<rect x="744.00" y="165.83" width="27.25" height="19.17" fill="#6492d2" stroke="#fff" stroke-width="0.3"><title>2026-06-17 05:00 UTC — 34 revs</title></rect>
+<rect x="744.00" y="185.00" width="27.25" height="19.17" fill="#437ed0" stroke="#fff" stroke-width="0.3"><title>2026-06-17 06:00 UTC — 72 revs</title></rect>
+<rect x="744.00" y="204.17" width="27.25" height="19.17" fill="#407cd0" stroke="#fff" stroke-width="0.3"><title>2026-06-17 07:00 UTC — 78 revs</title></rect>
+<rect x="744.00" y="223.33" width="27.25" height="19.17" fill="#598bd1" stroke="#fff" stroke-width="0.3"><title>2026-06-17 08:00 UTC — 44 revs</title></rect>
+<rect x="744.00" y="242.50" width="27.25" height="19.17" fill="#5387d1" stroke="#fff" stroke-width="0.3"><title>2026-06-17 09:00 UTC — 51 revs</title></rect>
+<rect x="744.00" y="261.67" width="27.25" height="19.17" fill="#6c97d3" stroke="#fff" stroke-width="0.3"><title>2026-06-17 10:00 UTC — 28 revs</title></rect>
+<rect x="744.00" y="280.83" width="27.25" height="19.17" fill="#6f99d3" stroke="#fff" stroke-width="0.3"><title>2026-06-17 11:00 UTC — 26 revs</title></rect>
+<rect x="744.00" y="300.00" width="27.25" height="19.17" fill="#6b96d3" stroke="#fff" stroke-width="0.3"><title>2026-06-17 12:00 UTC — 29 revs</title></rect>
+<rect x="744.00" y="319.17" width="27.25" height="19.17" fill="#81a4d5" stroke="#fff" stroke-width="0.3"><title>2026-06-17 13:00 UTC — 17 revs</title></rect>
+<rect x="744.00" y="338.33" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-17 14:00 UTC — 3 revs</title></rect>
+<rect x="744.00" y="357.50" width="27.25" height="19.17" fill="#759cd4" stroke="#fff" stroke-width="0.3"><title>2026-06-17 15:00 UTC — 23 revs</title></rect>
+<rect x="744.00" y="376.67" width="27.25" height="19.17" fill="#3b79d0" stroke="#fff" stroke-width="0.3"><title>2026-06-17 16:00 UTC — 86 revs</title></rect>
+<rect x="744.00" y="395.83" width="27.25" height="19.17" fill="#5287d1" stroke="#fff" stroke-width="0.3"><title>2026-06-17 17:00 UTC — 52 revs</title></rect>
+<rect x="744.00" y="415.00" width="27.25" height="19.17" fill="#6894d2" stroke="#fff" stroke-width="0.3"><title>2026-06-17 18:00 UTC — 31 revs</title></rect>
+<rect x="744.00" y="434.17" width="27.25" height="19.17" fill="#6e98d3" stroke="#fff" stroke-width="0.3"><title>2026-06-17 19:00 UTC — 27 revs</title></rect>
+<rect x="744.00" y="453.33" width="27.25" height="19.17" fill="#7ca1d4" stroke="#fff" stroke-width="0.3"><title>2026-06-17 20:00 UTC — 19 revs</title></rect>
+<rect x="744.00" y="472.50" width="27.25" height="19.17" fill="#759cd4" stroke="#fff" stroke-width="0.3"><title>2026-06-17 21:00 UTC — 23 revs</title></rect>
+<rect x="744.00" y="491.67" width="27.25" height="19.17" fill="#83a5d5" stroke="#fff" stroke-width="0.3"><title>2026-06-17 22:00 UTC — 16 revs</title></rect>
+<rect x="744.00" y="510.83" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-06-17 23:00 UTC — 9 revs</title></rect>
+<rect x="771.25" y="70.00" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-06-18 00:00 UTC — 14 revs</title></rect>
+<rect x="771.25" y="89.17" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-06-18 01:00 UTC — 9 revs</title></rect>
+<rect x="771.25" y="108.33" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-18 02:00 UTC — 2 revs</title></rect>
+<rect x="771.25" y="127.50" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-18 03:00 UTC — 3 revs</title></rect>
+<rect x="771.25" y="146.67" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-06-18 04:00 UTC — 8 revs</title></rect>
+<rect x="771.25" y="165.83" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-18 05:00 UTC — 7 revs</title></rect>
+<rect x="771.25" y="185.00" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-06-18 06:00 UTC — 8 revs</title></rect>
+<rect x="771.25" y="204.17" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-18 07:00 UTC — 4 revs</title></rect>
+<rect x="771.25" y="223.33" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-18 08:00 UTC — 2 revs</title></rect>
+<rect x="771.25" y="242.50" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-18 09:00 UTC — 3 revs</title></rect>
+<rect x="771.25" y="261.67" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-18 10:00 UTC — 4 revs</title></rect>
+<rect x="771.25" y="280.83" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-18 11:00 UTC — 4 revs</title></rect>
+<rect x="771.25" y="300.00" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-18 12:00 UTC — 2 revs</title></rect>
+<rect x="771.25" y="319.17" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-18 13:00 UTC — 3 revs</title></rect>
+<rect x="771.25" y="338.33" width="27.25" height="19.17" fill="#5488d1" stroke="#fff" stroke-width="0.3"><title>2026-06-18 14:00 UTC — 50 revs</title></rect>
+<rect x="771.25" y="357.50" width="27.25" height="19.17" fill="#2a6cc9" stroke="#fff" stroke-width="0.3"><title>2026-06-18 15:00 UTC — 146 revs</title></rect>
+<rect x="771.25" y="376.67" width="27.25" height="19.17" fill="#2363bd" stroke="#fff" stroke-width="0.3"><title>2026-06-18 16:00 UTC — 216 revs</title></rect>
+<rect x="771.25" y="395.83" width="27.25" height="19.17" fill="#1a54a6" stroke="#fff" stroke-width="0.3"><title>2026-06-18 17:00 UTC — 427 revs</title></rect>
+<rect x="771.25" y="415.00" width="27.25" height="19.17" fill="#11448b" stroke="#fff" stroke-width="0.3"><title>2026-06-18 18:00 UTC — 913 revs</title></rect>
+<rect x="771.25" y="434.17" width="27.25" height="19.17" fill="#0d3d7f" stroke="#fff" stroke-width="0.3"><title>2026-06-18 19:00 UTC — 1,263 revs</title></rect>
+<rect x="771.25" y="453.33" width="27.25" height="19.17" fill="#083067" stroke="#fff" stroke-width="0.3"><title>2026-06-18 20:00 UTC — 2,350 revs</title></rect>
+<rect x="771.25" y="472.50" width="27.25" height="19.17" fill="#0f4186" stroke="#fff" stroke-width="0.3"><title>2026-06-18 21:00 UTC — 1,052 revs</title></rect>
+<rect x="771.25" y="491.67" width="27.25" height="19.17" fill="#81a4d5" stroke="#fff" stroke-width="0.3"><title>2026-06-18 22:00 UTC — 17 revs</title></rect>
+<rect x="771.25" y="510.83" width="27.25" height="19.17" fill="#6290d2" stroke="#fff" stroke-width="0.3"><title>2026-06-18 23:00 UTC — 36 revs</title></rect>
+<rect x="798.50" y="70.00" width="27.25" height="19.17" fill="#5689d1" stroke="#fff" stroke-width="0.3"><title>2026-06-19 00:00 UTC — 47 revs</title></rect>
+<rect x="798.50" y="89.17" width="27.25" height="19.17" fill="#6c97d3" stroke="#fff" stroke-width="0.3"><title>2026-06-19 01:00 UTC — 28 revs</title></rect>
+<rect x="798.50" y="108.33" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-19 02:00 UTC — 7 revs</title></rect>
+<rect x="798.50" y="127.50" width="27.25" height="19.17" fill="#6492d2" stroke="#fff" stroke-width="0.3"><title>2026-06-19 03:00 UTC — 34 revs</title></rect>
+<rect x="798.50" y="146.67" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-19 04:00 UTC — 7 revs</title></rect>
+<rect x="798.50" y="165.83" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-19 05:00 UTC — 12 revs</title></rect>
+<rect x="798.50" y="185.00" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-06-19 06:00 UTC — 5 revs</title></rect>
+<rect x="798.50" y="204.17" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-06-19 07:00 UTC — 9 revs</title></rect>
+<rect x="798.50" y="223.33" width="27.25" height="19.17" fill="#95b1d8" stroke="#fff" stroke-width="0.3"><title>2026-06-19 08:00 UTC — 10 revs</title></rect>
+<rect x="798.50" y="242.50" width="27.25" height="19.17" fill="#85a7d6" stroke="#fff" stroke-width="0.3"><title>2026-06-19 09:00 UTC — 15 revs</title></rect>
+<rect x="798.50" y="261.67" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-06-19 10:00 UTC — 14 revs</title></rect>
+<rect x="798.50" y="280.83" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-06-19 11:00 UTC — 14 revs</title></rect>
+<rect x="798.50" y="300.00" width="27.25" height="19.17" fill="#5186d1" stroke="#fff" stroke-width="0.3"><title>2026-06-19 12:00 UTC — 53 revs</title></rect>
+<rect x="798.50" y="319.17" width="27.25" height="19.17" fill="#578ad1" stroke="#fff" stroke-width="0.3"><title>2026-06-19 13:00 UTC — 46 revs</title></rect>
+<rect x="798.50" y="338.33" width="27.25" height="19.17" fill="#6492d2" stroke="#fff" stroke-width="0.3"><title>2026-06-19 14:00 UTC — 34 revs</title></rect>
+<rect x="798.50" y="357.50" width="27.25" height="19.17" fill="#83a5d5" stroke="#fff" stroke-width="0.3"><title>2026-06-19 15:00 UTC — 16 revs</title></rect>
+<rect x="798.50" y="376.67" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-06-19 16:00 UTC — 9 revs</title></rect>
+<rect x="798.50" y="395.83" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-19 17:00 UTC — 4 revs</title></rect>
+<rect x="798.50" y="415.00" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-06-19 18:00 UTC — 14 revs</title></rect>
+<rect x="798.50" y="434.17" width="27.25" height="19.17" fill="#759cd4" stroke="#fff" stroke-width="0.3"><title>2026-06-19 19:00 UTC — 23 revs</title></rect>
+<rect x="798.50" y="453.33" width="27.25" height="19.17" fill="#5589d1" stroke="#fff" stroke-width="0.3"><title>2026-06-19 20:00 UTC — 48 revs</title></rect>
+<rect x="798.50" y="472.50" width="27.25" height="19.17" fill="#769dd4" stroke="#fff" stroke-width="0.3"><title>2026-06-19 21:00 UTC — 22 revs</title></rect>
+<rect x="798.50" y="491.67" width="27.25" height="19.17" fill="#88a9d6" stroke="#fff" stroke-width="0.3"><title>2026-06-19 22:00 UTC — 14 revs</title></rect>
+<rect x="798.50" y="510.83" width="27.25" height="19.17" fill="#739bd3" stroke="#fff" stroke-width="0.3"><title>2026-06-19 23:00 UTC — 24 revs</title></rect>
+<rect x="825.75" y="70.00" width="27.25" height="19.17" fill="#588bd1" stroke="#fff" stroke-width="0.3"><title>2026-06-20 00:00 UTC — 45 revs</title></rect>
+<rect x="825.75" y="89.17" width="27.25" height="19.17" fill="#3576d0" stroke="#fff" stroke-width="0.3"><title>2026-06-20 01:00 UTC — 98 revs</title></rect>
+<rect x="825.75" y="108.33" width="27.25" height="19.17" fill="#3d7ad0" stroke="#fff" stroke-width="0.3"><title>2026-06-20 02:00 UTC — 83 revs</title></rect>
+<rect x="825.75" y="127.50" width="27.25" height="19.17" fill="#4c83d1" stroke="#fff" stroke-width="0.3"><title>2026-06-20 03:00 UTC — 59 revs</title></rect>
+<rect x="825.75" y="146.67" width="27.25" height="19.17" fill="#83a5d5" stroke="#fff" stroke-width="0.3"><title>2026-06-20 04:00 UTC — 16 revs</title></rect>
+<rect x="825.75" y="165.83" width="27.25" height="19.17" fill="#4982d0" stroke="#fff" stroke-width="0.3"><title>2026-06-20 05:00 UTC — 63 revs</title></rect>
+<rect x="825.75" y="185.00" width="27.25" height="19.17" fill="#4b83d1" stroke="#fff" stroke-width="0.3"><title>2026-06-20 06:00 UTC — 60 revs</title></rect>
+<rect x="825.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-20 07:00 UTC — 0</title></rect>
+<rect x="825.75" y="223.33" width="27.25" height="19.17" fill="#7ea2d5" stroke="#fff" stroke-width="0.3"><title>2026-06-20 08:00 UTC — 18 revs</title></rect>
+<rect x="825.75" y="242.50" width="27.25" height="19.17" fill="#6190d2" stroke="#fff" stroke-width="0.3"><title>2026-06-20 09:00 UTC — 37 revs</title></rect>
+<rect x="825.75" y="261.67" width="27.25" height="19.17" fill="#6492d2" stroke="#fff" stroke-width="0.3"><title>2026-06-20 10:00 UTC — 34 revs</title></rect>
+<rect x="825.75" y="280.83" width="27.25" height="19.17" fill="#6b96d3" stroke="#fff" stroke-width="0.3"><title>2026-06-20 11:00 UTC — 29 revs</title></rect>
+<rect x="825.75" y="300.00" width="27.25" height="19.17" fill="#7ca1d4" stroke="#fff" stroke-width="0.3"><title>2026-06-20 12:00 UTC — 19 revs</title></rect>
+<rect x="825.75" y="319.17" width="27.25" height="19.17" fill="#7ea2d5" stroke="#fff" stroke-width="0.3"><title>2026-06-20 13:00 UTC — 18 revs</title></rect>
+<rect x="825.75" y="338.33" width="27.25" height="19.17" fill="#95b1d8" stroke="#fff" stroke-width="0.3"><title>2026-06-20 14:00 UTC — 10 revs</title></rect>
+<rect x="825.75" y="357.50" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-20 15:00 UTC — 2 revs</title></rect>
+<rect x="825.75" y="376.67" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-06-20 16:00 UTC — 4 revs</title></rect>
+<rect x="825.75" y="395.83" width="27.25" height="19.17" fill="#85a7d6" stroke="#fff" stroke-width="0.3"><title>2026-06-20 17:00 UTC — 15 revs</title></rect>
+<rect x="825.75" y="415.00" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-20 18:00 UTC — 12 revs</title></rect>
+<rect x="825.75" y="434.17" width="27.25" height="19.17" fill="#98b3d9" stroke="#fff" stroke-width="0.3"><title>2026-06-20 19:00 UTC — 9 revs</title></rect>
+<rect x="825.75" y="453.33" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-20 20:00 UTC — 7 revs</title></rect>
+<rect x="825.75" y="472.50" width="27.25" height="19.17" fill="#85a7d6" stroke="#fff" stroke-width="0.3"><title>2026-06-20 21:00 UTC — 15 revs</title></rect>
+<rect x="825.75" y="491.67" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-20 22:00 UTC — 2 revs</title></rect>
+<rect x="825.75" y="510.83" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-06-20 23:00 UTC — 2 revs</title></rect>
+<rect x="853.00" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-21 00:00 UTC — 0</title></rect>
+<rect x="853.00" y="89.17" width="27.25" height="19.17" fill="#91afd8" stroke="#fff" stroke-width="0.3"><title>2026-06-21 01:00 UTC — 11 revs</title></rect>
+<rect x="853.00" y="108.33" width="27.25" height="19.17" fill="#759cd4" stroke="#fff" stroke-width="0.3"><title>2026-06-21 02:00 UTC — 23 revs</title></rect>
+<rect x="853.00" y="127.50" width="27.25" height="19.17" fill="#5c8dd1" stroke="#fff" stroke-width="0.3"><title>2026-06-21 03:00 UTC — 41 revs</title></rect>
+<rect x="853.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-21 04:00 UTC — 0</title></rect>
+<rect x="853.00" y="165.83" width="27.25" height="19.17" fill="#91afd8" stroke="#fff" stroke-width="0.3"><title>2026-06-21 05:00 UTC — 11 revs</title></rect>
+<rect x="853.00" y="185.00" width="27.25" height="19.17" fill="#6693d2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 06:00 UTC — 33 revs</title></rect>
+<rect x="853.00" y="204.17" width="27.25" height="19.17" fill="#6794d2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 07:00 UTC — 32 revs</title></rect>
+<rect x="853.00" y="223.33" width="27.25" height="19.17" fill="#4c83d1" stroke="#fff" stroke-width="0.3"><title>2026-06-21 08:00 UTC — 59 revs</title></rect>
+<rect x="853.00" y="242.50" width="27.25" height="19.17" fill="#5e8ed2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 09:00 UTC — 39 revs</title></rect>
+<rect x="853.00" y="261.67" width="27.25" height="19.17" fill="#588bd1" stroke="#fff" stroke-width="0.3"><title>2026-06-21 10:00 UTC — 45 revs</title></rect>
+<rect x="853.00" y="280.83" width="27.25" height="19.17" fill="#6e98d3" stroke="#fff" stroke-width="0.3"><title>2026-06-21 11:00 UTC — 27 revs</title></rect>
+<rect x="853.00" y="300.00" width="27.25" height="19.17" fill="#739bd3" stroke="#fff" stroke-width="0.3"><title>2026-06-21 12:00 UTC — 24 revs</title></rect>
+<rect x="853.00" y="319.17" width="27.25" height="19.17" fill="#6391d2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 13:00 UTC — 35 revs</title></rect>
+<rect x="853.00" y="338.33" width="27.25" height="19.17" fill="#7ca1d4" stroke="#fff" stroke-width="0.3"><title>2026-06-21 14:00 UTC — 19 revs</title></rect>
+<rect x="853.00" y="357.50" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-21 15:00 UTC — 12 revs</title></rect>
+<rect x="853.00" y="376.67" width="27.25" height="19.17" fill="#8eacd7" stroke="#fff" stroke-width="0.3"><title>2026-06-21 16:00 UTC — 12 revs</title></rect>
+<rect x="853.00" y="395.83" width="27.25" height="19.17" fill="#6b96d3" stroke="#fff" stroke-width="0.3"><title>2026-06-21 17:00 UTC — 29 revs</title></rect>
+<rect x="853.00" y="415.00" width="27.25" height="19.17" fill="#6290d2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 18:00 UTC — 36 revs</title></rect>
+<rect x="853.00" y="434.17" width="27.25" height="19.17" fill="#578ad1" stroke="#fff" stroke-width="0.3"><title>2026-06-21 19:00 UTC — 46 revs</title></rect>
+<rect x="853.00" y="453.33" width="27.25" height="19.17" fill="#5c8dd1" stroke="#fff" stroke-width="0.3"><title>2026-06-21 20:00 UTC — 41 revs</title></rect>
+<rect x="853.00" y="472.50" width="27.25" height="19.17" fill="#6693d2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 21:00 UTC — 33 revs</title></rect>
+<rect x="853.00" y="491.67" width="27.25" height="19.17" fill="#789ed4" stroke="#fff" stroke-width="0.3"><title>2026-06-21 22:00 UTC — 21 revs</title></rect>
+<rect x="853.00" y="510.83" width="27.25" height="19.17" fill="#6a95d2" stroke="#fff" stroke-width="0.3"><title>2026-06-21 23:00 UTC — 30 revs</title></rect>
+<rect x="880.25" y="70.00" width="27.25" height="19.17" fill="#5589d1" stroke="#fff" stroke-width="0.3"><title>2026-06-22 00:00 UTC — 48 revs</title></rect>
+<rect x="880.25" y="89.17" width="27.25" height="19.17" fill="#bbcbe2" stroke="#fff" stroke-width="0.3"><title>2026-06-22 01:00 UTC — 3 revs</title></rect>
+<rect x="880.25" y="108.33" width="27.25" height="19.17" fill="#1a55a7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 02:00 UTC — 411 revs</title></rect>
+<rect x="880.25" y="127.50" width="27.25" height="19.17" fill="#437ed0" stroke="#fff" stroke-width="0.3"><title>2026-06-22 03:00 UTC — 73 revs</title></rect>
+<rect x="880.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 04:00 UTC — 0</title></rect>
+<rect x="880.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 05:00 UTC — 0</title></rect>
+<rect x="880.25" y="185.00" width="27.25" height="19.17" fill="#5b8cd1" stroke="#fff" stroke-width="0.3"><title>2026-06-22 06:00 UTC — 42 revs</title></rect>
+<rect x="880.25" y="204.17" width="27.25" height="19.17" fill="#a1b9db" stroke="#fff" stroke-width="0.3"><title>2026-06-22 07:00 UTC — 7 revs</title></rect>
+<rect x="880.25" y="223.33" width="27.25" height="19.17" fill="#1952a3" stroke="#fff" stroke-width="0.3"><title>2026-06-22 08:00 UTC — 463 revs</title></rect>
+<rect x="880.25" y="242.50" width="27.25" height="19.17" fill="#759cd4" stroke="#fff" stroke-width="0.3"><title>2026-06-22 09:00 UTC — 23 revs</title></rect>
+<rect x="880.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 10:00 UTC — 0</title></rect>
+<rect x="880.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 11:00 UTC — 0</title></rect>
+<rect x="880.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 12:00 UTC — 0</title></rect>
+<rect x="880.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 13:00 UTC — 0</title></rect>
+<rect x="880.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 14:00 UTC — 0</title></rect>
+<rect x="880.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 15:00 UTC — 0</title></rect>
+<rect x="880.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 16:00 UTC — 0</title></rect>
+<rect x="880.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 17:00 UTC — 0</title></rect>
+<rect x="880.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 18:00 UTC — 0</title></rect>
+<rect x="880.25" y="434.17" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-22 19:00 UTC — 1 revs</title></rect>
+<rect x="880.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 20:00 UTC — 0</title></rect>
+<rect x="880.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 21:00 UTC — 0</title></rect>
+<rect x="880.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 22:00 UTC — 0</title></rect>
+<rect x="880.25" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-22 23:00 UTC — 0</title></rect>
+<rect x="907.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 00:00 UTC — 0</title></rect>
+<rect x="907.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 01:00 UTC — 0</title></rect>
+<rect x="907.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 02:00 UTC — 0</title></rect>
+<rect x="907.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 03:00 UTC — 0</title></rect>
+<rect x="907.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 04:00 UTC — 0</title></rect>
+<rect x="907.50" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 05:00 UTC — 0</title></rect>
+<rect x="907.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 06:00 UTC — 0</title></rect>
+<rect x="907.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 07:00 UTC — 0</title></rect>
+<rect x="907.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 08:00 UTC — 0</title></rect>
+<rect x="907.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 09:00 UTC — 0</title></rect>
+<rect x="907.50" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 10:00 UTC — 0</title></rect>
+<rect x="907.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 11:00 UTC — 0</title></rect>
+<rect x="907.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 12:00 UTC — 0</title></rect>
+<rect x="907.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 13:00 UTC — 0</title></rect>
+<rect x="907.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 14:00 UTC — 0</title></rect>
+<rect x="907.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 15:00 UTC — 0</title></rect>
+<rect x="907.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 16:00 UTC — 0</title></rect>
+<rect x="907.50" y="395.83" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-23 17:00 UTC — 1 revs</title></rect>
+<rect x="907.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 18:00 UTC — 0</title></rect>
+<rect x="907.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 19:00 UTC — 0</title></rect>
+<rect x="907.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 20:00 UTC — 0</title></rect>
+<rect x="907.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 21:00 UTC — 0</title></rect>
+<rect x="907.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 22:00 UTC — 0</title></rect>
+<rect x="907.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-23 23:00 UTC — 0</title></rect>
+<rect x="934.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 00:00 UTC — 0</title></rect>
+<rect x="934.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 01:00 UTC — 0</title></rect>
+<rect x="934.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 02:00 UTC — 0</title></rect>
+<rect x="934.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 03:00 UTC — 0</title></rect>
+<rect x="934.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 04:00 UTC — 0</title></rect>
+<rect x="934.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 05:00 UTC — 0</title></rect>
+<rect x="934.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 06:00 UTC — 0</title></rect>
+<rect x="934.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 07:00 UTC — 0</title></rect>
+<rect x="934.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 08:00 UTC — 0</title></rect>
+<rect x="934.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 09:00 UTC — 0</title></rect>
+<rect x="934.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 10:00 UTC — 0</title></rect>
+<rect x="934.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 11:00 UTC — 0</title></rect>
+<rect x="934.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 12:00 UTC — 0</title></rect>
+<rect x="934.75" y="319.17" width="27.25" height="19.17" fill="#d4ddea" stroke="#fff" stroke-width="0.3"><title>2026-06-24 13:00 UTC — 1 revs</title></rect>
+<rect x="934.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 14:00 UTC — 0</title></rect>
+<rect x="934.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 15:00 UTC — 0</title></rect>
+<rect x="934.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 16:00 UTC — 0</title></rect>
+<rect x="934.75" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 17:00 UTC — 0</title></rect>
+<rect x="934.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 18:00 UTC — 0</title></rect>
+<rect x="934.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 19:00 UTC — 0</title></rect>
+<rect x="934.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 20:00 UTC — 0</title></rect>
+<rect x="934.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 21:00 UTC — 0</title></rect>
+<rect x="934.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 22:00 UTC — 0</title></rect>
+<rect x="934.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-24 23:00 UTC — 0</title></rect>
+<rect x="962.00" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 00:00 UTC — 0</title></rect>
+<rect x="962.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 01:00 UTC — 0</title></rect>
+<rect x="962.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 02:00 UTC — 0</title></rect>
+<rect x="962.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 03:00 UTC — 0</title></rect>
+<rect x="962.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 04:00 UTC — 0</title></rect>
+<rect x="962.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 05:00 UTC — 0</title></rect>
+<rect x="962.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 06:00 UTC — 0</title></rect>
+<rect x="962.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 07:00 UTC — 0</title></rect>
+<rect x="962.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 08:00 UTC — 0</title></rect>
+<rect x="962.00" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 09:00 UTC — 0</title></rect>
+<rect x="962.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 10:00 UTC — 0</title></rect>
+<rect x="962.00" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 11:00 UTC — 0</title></rect>
+<rect x="962.00" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 12:00 UTC — 0</title></rect>
+<rect x="962.00" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 13:00 UTC — 0</title></rect>
+<rect x="962.00" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 14:00 UTC — 0</title></rect>
+<rect x="962.00" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 15:00 UTC — 0</title></rect>
+<rect x="962.00" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 16:00 UTC — 0</title></rect>
+<rect x="962.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 17:00 UTC — 0</title></rect>
+<rect x="962.00" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 18:00 UTC — 0</title></rect>
+<rect x="962.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 19:00 UTC — 0</title></rect>
+<rect x="962.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 20:00 UTC — 0</title></rect>
+<rect x="962.00" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 21:00 UTC — 0</title></rect>
+<rect x="962.00" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 22:00 UTC — 0</title></rect>
+<rect x="962.00" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-25 23:00 UTC — 0</title></rect>
+<rect x="989.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 00:00 UTC — 0</title></rect>
+<rect x="989.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 01:00 UTC — 0</title></rect>
+<rect x="989.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 02:00 UTC — 0</title></rect>
+<rect x="989.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 03:00 UTC — 0</title></rect>
+<rect x="989.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 04:00 UTC — 0</title></rect>
+<rect x="989.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 05:00 UTC — 0</title></rect>
+<rect x="989.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 06:00 UTC — 0</title></rect>
+<rect x="989.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 07:00 UTC — 0</title></rect>
+<rect x="989.25" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 08:00 UTC — 0</title></rect>
+<rect x="989.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 09:00 UTC — 0</title></rect>
+<rect x="989.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 10:00 UTC — 0</title></rect>
+<rect x="989.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 11:00 UTC — 0</title></rect>
+<rect x="989.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 12:00 UTC — 0</title></rect>
+<rect x="989.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 13:00 UTC — 0</title></rect>
+<rect x="989.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 14:00 UTC — 0</title></rect>
+<rect x="989.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 15:00 UTC — 0</title></rect>
+<rect x="989.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 16:00 UTC — 0</title></rect>
+<rect x="989.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 17:00 UTC — 0</title></rect>
+<rect x="989.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 18:00 UTC — 0</title></rect>
+<rect x="989.25" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 19:00 UTC — 0</title></rect>
+<rect x="989.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 20:00 UTC — 0</title></rect>
+<rect x="989.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 21:00 UTC — 0</title></rect>
+<rect x="989.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 22:00 UTC — 0</title></rect>
+<rect x="989.25" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-26 23:00 UTC — 0</title></rect>
+<rect x="1016.50" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 00:00 UTC — 0</title></rect>
+<rect x="1016.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 01:00 UTC — 0</title></rect>
+<rect x="1016.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 02:00 UTC — 0</title></rect>
+<rect x="1016.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 03:00 UTC — 0</title></rect>
+<rect x="1016.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 04:00 UTC — 0</title></rect>
+<rect x="1016.50" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 05:00 UTC — 0</title></rect>
+<rect x="1016.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 06:00 UTC — 0</title></rect>
+<rect x="1016.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 07:00 UTC — 0</title></rect>
+<rect x="1016.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 08:00 UTC — 0</title></rect>
+<rect x="1016.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 09:00 UTC — 0</title></rect>
+<rect x="1016.50" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 10:00 UTC — 0</title></rect>
+<rect x="1016.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 11:00 UTC — 0</title></rect>
+<rect x="1016.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 12:00 UTC — 0</title></rect>
+<rect x="1016.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 13:00 UTC — 0</title></rect>
+<rect x="1016.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 14:00 UTC — 0</title></rect>
+<rect x="1016.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 15:00 UTC — 0</title></rect>
+<rect x="1016.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 16:00 UTC — 0</title></rect>
+<rect x="1016.50" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 17:00 UTC — 0</title></rect>
+<rect x="1016.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 18:00 UTC — 0</title></rect>
+<rect x="1016.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 19:00 UTC — 0</title></rect>
+<rect x="1016.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 20:00 UTC — 0</title></rect>
+<rect x="1016.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 21:00 UTC — 0</title></rect>
+<rect x="1016.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 22:00 UTC — 0</title></rect>
+<rect x="1016.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-27 23:00 UTC — 0</title></rect>
+<rect x="1043.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 00:00 UTC — 0</title></rect>
+<rect x="1043.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 01:00 UTC — 0</title></rect>
+<rect x="1043.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 02:00 UTC — 0</title></rect>
+<rect x="1043.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 03:00 UTC — 0</title></rect>
+<rect x="1043.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 04:00 UTC — 0</title></rect>
+<rect x="1043.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 05:00 UTC — 0</title></rect>
+<rect x="1043.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 06:00 UTC — 0</title></rect>
+<rect x="1043.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 07:00 UTC — 0</title></rect>
+<rect x="1043.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 08:00 UTC — 0</title></rect>
+<rect x="1043.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 09:00 UTC — 0</title></rect>
+<rect x="1043.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 10:00 UTC — 0</title></rect>
+<rect x="1043.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 11:00 UTC — 0</title></rect>
+<rect x="1043.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 12:00 UTC — 0</title></rect>
+<rect x="1043.75" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 13:00 UTC — 0</title></rect>
+<rect x="1043.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 14:00 UTC — 0</title></rect>
+<rect x="1043.75" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 15:00 UTC — 0</title></rect>
+<rect x="1043.75" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 16:00 UTC — 0</title></rect>
+<rect x="1043.75" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 17:00 UTC — 0</title></rect>
+<rect x="1043.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 18:00 UTC — 0</title></rect>
+<rect x="1043.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 19:00 UTC — 0</title></rect>
+<rect x="1043.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 20:00 UTC — 0</title></rect>
+<rect x="1043.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 21:00 UTC — 0</title></rect>
+<rect x="1043.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 22:00 UTC — 0</title></rect>
+<rect x="1043.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-28 23:00 UTC — 0</title></rect>
+<rect x="1071.00" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 00:00 UTC — 0</title></rect>
+<rect x="1071.00" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 01:00 UTC — 0</title></rect>
+<rect x="1071.00" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 02:00 UTC — 0</title></rect>
+<rect x="1071.00" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 03:00 UTC — 0</title></rect>
+<rect x="1071.00" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 04:00 UTC — 0</title></rect>
+<rect x="1071.00" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 05:00 UTC — 0</title></rect>
+<rect x="1071.00" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 06:00 UTC — 0</title></rect>
+<rect x="1071.00" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 07:00 UTC — 0</title></rect>
+<rect x="1071.00" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 08:00 UTC — 0</title></rect>
+<rect x="1071.00" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 09:00 UTC — 0</title></rect>
+<rect x="1071.00" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 10:00 UTC — 0</title></rect>
+<rect x="1071.00" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 11:00 UTC — 0</title></rect>
+<rect x="1071.00" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 12:00 UTC — 0</title></rect>
+<rect x="1071.00" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 13:00 UTC — 0</title></rect>
+<rect x="1071.00" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 14:00 UTC — 0</title></rect>
+<rect x="1071.00" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 15:00 UTC — 0</title></rect>
+<rect x="1071.00" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 16:00 UTC — 0</title></rect>
+<rect x="1071.00" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 17:00 UTC — 0</title></rect>
+<rect x="1071.00" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 18:00 UTC — 0</title></rect>
+<rect x="1071.00" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 19:00 UTC — 0</title></rect>
+<rect x="1071.00" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 20:00 UTC — 0</title></rect>
+<rect x="1071.00" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 21:00 UTC — 0</title></rect>
+<rect x="1071.00" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 22:00 UTC — 0</title></rect>
+<rect x="1071.00" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-29 23:00 UTC — 0</title></rect>
+<rect x="1098.25" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 00:00 UTC — 0</title></rect>
+<rect x="1098.25" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 01:00 UTC — 0</title></rect>
+<rect x="1098.25" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 02:00 UTC — 0</title></rect>
+<rect x="1098.25" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 03:00 UTC — 0</title></rect>
+<rect x="1098.25" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 04:00 UTC — 0</title></rect>
+<rect x="1098.25" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 05:00 UTC — 0</title></rect>
+<rect x="1098.25" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 06:00 UTC — 0</title></rect>
+<rect x="1098.25" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 07:00 UTC — 0</title></rect>
+<rect x="1098.25" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 08:00 UTC — 0</title></rect>
+<rect x="1098.25" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 09:00 UTC — 0</title></rect>
+<rect x="1098.25" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 10:00 UTC — 0</title></rect>
+<rect x="1098.25" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 11:00 UTC — 0</title></rect>
+<rect x="1098.25" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 12:00 UTC — 0</title></rect>
+<rect x="1098.25" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 13:00 UTC — 0</title></rect>
+<rect x="1098.25" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 14:00 UTC — 0</title></rect>
+<rect x="1098.25" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 15:00 UTC — 0</title></rect>
+<rect x="1098.25" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 16:00 UTC — 0</title></rect>
+<rect x="1098.25" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 17:00 UTC — 0</title></rect>
+<rect x="1098.25" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 18:00 UTC — 0</title></rect>
+<rect x="1098.25" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 19:00 UTC — 0</title></rect>
+<rect x="1098.25" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 20:00 UTC — 0</title></rect>
+<rect x="1098.25" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 21:00 UTC — 0</title></rect>
+<rect x="1098.25" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 22:00 UTC — 0</title></rect>
+<rect x="1098.25" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-06-30 23:00 UTC — 0</title></rect>
+<rect x="1125.50" y="70.00" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-07-01 00:00 UTC — 2 revs</title></rect>
+<rect x="1125.50" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 01:00 UTC — 0</title></rect>
+<rect x="1125.50" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 02:00 UTC — 0</title></rect>
+<rect x="1125.50" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 03:00 UTC — 0</title></rect>
+<rect x="1125.50" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 04:00 UTC — 0</title></rect>
+<rect x="1125.50" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 05:00 UTC — 0</title></rect>
+<rect x="1125.50" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 06:00 UTC — 0</title></rect>
+<rect x="1125.50" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 07:00 UTC — 0</title></rect>
+<rect x="1125.50" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 08:00 UTC — 0</title></rect>
+<rect x="1125.50" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 09:00 UTC — 0</title></rect>
+<rect x="1125.50" y="261.67" width="27.25" height="19.17" fill="#acc1dd" stroke="#fff" stroke-width="0.3"><title>2026-07-01 10:00 UTC — 5 revs</title></rect>
+<rect x="1125.50" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 11:00 UTC — 0</title></rect>
+<rect x="1125.50" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 12:00 UTC — 0</title></rect>
+<rect x="1125.50" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 13:00 UTC — 0</title></rect>
+<rect x="1125.50" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 14:00 UTC — 0</title></rect>
+<rect x="1125.50" y="357.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 15:00 UTC — 0</title></rect>
+<rect x="1125.50" y="376.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 16:00 UTC — 0</title></rect>
+<rect x="1125.50" y="395.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 17:00 UTC — 0</title></rect>
+<rect x="1125.50" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 18:00 UTC — 0</title></rect>
+<rect x="1125.50" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 19:00 UTC — 0</title></rect>
+<rect x="1125.50" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 20:00 UTC — 0</title></rect>
+<rect x="1125.50" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 21:00 UTC — 0</title></rect>
+<rect x="1125.50" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 22:00 UTC — 0</title></rect>
+<rect x="1125.50" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-01 23:00 UTC — 0</title></rect>
+<rect x="1152.75" y="70.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 00:00 UTC — 0</title></rect>
+<rect x="1152.75" y="89.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 01:00 UTC — 0</title></rect>
+<rect x="1152.75" y="108.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 02:00 UTC — 0</title></rect>
+<rect x="1152.75" y="127.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 03:00 UTC — 0</title></rect>
+<rect x="1152.75" y="146.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 04:00 UTC — 0</title></rect>
+<rect x="1152.75" y="165.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 05:00 UTC — 0</title></rect>
+<rect x="1152.75" y="185.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 06:00 UTC — 0</title></rect>
+<rect x="1152.75" y="204.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 07:00 UTC — 0</title></rect>
+<rect x="1152.75" y="223.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 08:00 UTC — 0</title></rect>
+<rect x="1152.75" y="242.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 09:00 UTC — 0</title></rect>
+<rect x="1152.75" y="261.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 10:00 UTC — 0</title></rect>
+<rect x="1152.75" y="280.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 11:00 UTC — 0</title></rect>
+<rect x="1152.75" y="300.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 12:00 UTC — 0</title></rect>
+<rect x="1152.75" y="319.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 13:00 UTC — 0</title></rect>
+<rect x="1152.75" y="338.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 14:00 UTC — 0</title></rect>
+<rect x="1152.75" y="357.50" width="27.25" height="19.17" fill="#c6d3e5" stroke="#fff" stroke-width="0.3"><title>2026-07-02 15:00 UTC — 2 revs</title></rect>
+<rect x="1152.75" y="376.67" width="27.25" height="19.17" fill="#9db6da" stroke="#fff" stroke-width="0.3"><title>2026-07-02 16:00 UTC — 8 revs</title></rect>
+<rect x="1152.75" y="395.83" width="27.25" height="19.17" fill="#b3c5df" stroke="#fff" stroke-width="0.3"><title>2026-07-02 17:00 UTC — 4 revs</title></rect>
+<rect x="1152.75" y="415.00" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 18:00 UTC — 0</title></rect>
+<rect x="1152.75" y="434.17" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 19:00 UTC — 0</title></rect>
+<rect x="1152.75" y="453.33" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 20:00 UTC — 0</title></rect>
+<rect x="1152.75" y="472.50" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 21:00 UTC — 0</title></rect>
+<rect x="1152.75" y="491.67" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 22:00 UTC — 0</title></rect>
+<rect x="1152.75" y="510.83" width="27.25" height="19.17" fill="#f7f7f7" stroke="#fff" stroke-width="0.3"><title>2026-07-02 23:00 UTC — 0</title></rect>
+<text x="82" y="83.6" text-anchor="end" fill="#333">00:00</text>
+<text x="82" y="141.1" text-anchor="end" fill="#333">03:00</text>
+<text x="82" y="198.6" text-anchor="end" fill="#333">06:00</text>
+<text x="82" y="256.1" text-anchor="end" fill="#333">09:00</text>
+<text x="82" y="313.6" text-anchor="end" fill="#333">12:00</text>
+<text x="82" y="371.1" text-anchor="end" fill="#333">15:00</text>
+<text x="82" y="428.6" text-anchor="end" fill="#333">18:00</text>
+<text x="82" y="486.1" text-anchor="end" fill="#333">21:00</text>
+<text x="30" y="300" transform="rotate(-90 30 300)" text-anchor="middle" fill="#333">hour of day (UTC)</text>
+<text x="103.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 103.6 544)">05-24</text>
+<text x="158.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 158.1 544)">05-26</text>
+<text x="212.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 212.6 544)">05-28</text>
+<text x="267.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 267.1 544)">05-30</text>
+<text x="321.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 321.6 544)">06-01</text>
+<text x="376.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 376.1 544)">06-03</text>
+<text x="430.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 430.6 544)">06-05</text>
+<text x="485.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 485.1 544)">06-07</text>
+<text x="539.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 539.6 544)">06-09</text>
+<text x="594.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 594.1 544)">06-11</text>
+<text x="648.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 648.6 544)">06-13</text>
+<text x="703.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 703.1 544)">06-15</text>
+<text x="757.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 757.6 544)">06-17</text>
+<text x="812.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 812.1 544)">06-19</text>
+<text x="866.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 866.6 544)">06-21</text>
+<text x="921.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 921.1 544)">06-23</text>
+<text x="975.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 975.6 544)">06-25</text>
+<text x="1030.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 1030.1 544)">06-27</text>
+<text x="1084.6" y="544" text-anchor="end" fill="#333" transform="rotate(-60 1084.6 544)">06-29</text>
+<text x="1139.1" y="544" text-anchor="end" fill="#333" transform="rotate(-60 1139.1 544)">07-01</text>
+<text x="1166.4" y="544" text-anchor="end" fill="#333" transform="rotate(-60 1166.4 544)">07-02</text>
+<text x="1200" y="70" font-weight="600" fill="#111">revisions per hour</text>
+<rect x="1200.00" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1201.80" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1203.60" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1205.40" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1207.20" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1209.00" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1210.80" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1212.60" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1214.40" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1216.20" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1218.00" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1219.80" y="82" width="2.30" height="14" fill="#d4ddea" stroke="none"/>
+<rect x="1221.60" y="82" width="2.30" height="14" fill="#c6d3e5" stroke="none"/>
+<rect x="1223.40" y="82" width="2.30" height="14" fill="#c6d3e5" stroke="none"/>
+<rect x="1225.20" y="82" width="2.30" height="14" fill="#c6d3e5" stroke="none"/>
+<rect x="1227.00" y="82" width="2.30" height="14" fill="#c6d3e5" stroke="none"/>
+<rect x="1228.80" y="82" width="2.30" height="14" fill="#bbcbe2" stroke="none"/>
+<rect x="1230.60" y="82" width="2.30" height="14" fill="#bbcbe2" stroke="none"/>
+<rect x="1232.40" y="82" width="2.30" height="14" fill="#bbcbe2" stroke="none"/>
+<rect x="1234.20" y="82" width="2.30" height="14" fill="#bbcbe2" stroke="none"/>
+<rect x="1236.00" y="82" width="2.30" height="14" fill="#b3c5df" stroke="none"/>
+<rect x="1237.80" y="82" width="2.30" height="14" fill="#b3c5df" stroke="none"/>
+<rect x="1239.60" y="82" width="2.30" height="14" fill="#acc1dd" stroke="none"/>
+<rect x="1241.40" y="82" width="2.30" height="14" fill="#acc1dd" stroke="none"/>
+<rect x="1243.20" y="82" width="2.30" height="14" fill="#a6bddc" stroke="none"/>
+<rect x="1245.00" y="82" width="2.30" height="14" fill="#a6bddc" stroke="none"/>
+<rect x="1246.80" y="82" width="2.30" height="14" fill="#a1b9db" stroke="none"/>
+<rect x="1248.60" y="82" width="2.30" height="14" fill="#a1b9db" stroke="none"/>
+<rect x="1250.40" y="82" width="2.30" height="14" fill="#9db6da" stroke="none"/>
+<rect x="1252.20" y="82" width="2.30" height="14" fill="#98b3d9" stroke="none"/>
+<rect x="1254.00" y="82" width="2.30" height="14" fill="#95b1d8" stroke="none"/>
+<rect x="1255.80" y="82" width="2.30" height="14" fill="#95b1d8" stroke="none"/>
+<rect x="1257.60" y="82" width="2.30" height="14" fill="#91afd8" stroke="none"/>
+<rect x="1259.40" y="82" width="2.30" height="14" fill="#8eacd7" stroke="none"/>
+<rect x="1261.20" y="82" width="2.30" height="14" fill="#8baad7" stroke="none"/>
+<rect x="1263.00" y="82" width="2.30" height="14" fill="#85a7d6" stroke="none"/>
+<rect x="1264.80" y="82" width="2.30" height="14" fill="#83a5d5" stroke="none"/>
+<rect x="1266.60" y="82" width="2.30" height="14" fill="#81a4d5" stroke="none"/>
+<rect x="1268.40" y="82" width="2.30" height="14" fill="#7ca1d4" stroke="none"/>
+<rect x="1270.20" y="82" width="2.30" height="14" fill="#7aa0d4" stroke="none"/>
+<rect x="1272.00" y="82" width="2.30" height="14" fill="#769dd4" stroke="none"/>
+<rect x="1273.80" y="82" width="2.30" height="14" fill="#739bd3" stroke="none"/>
+<rect x="1275.60" y="82" width="2.30" height="14" fill="#6f99d3" stroke="none"/>
+<rect x="1277.40" y="82" width="2.30" height="14" fill="#6c97d3" stroke="none"/>
+<rect x="1279.20" y="82" width="2.30" height="14" fill="#6894d2" stroke="none"/>
+<rect x="1281.00" y="82" width="2.30" height="14" fill="#6693d2" stroke="none"/>
+<rect x="1282.80" y="82" width="2.30" height="14" fill="#6290d2" stroke="none"/>
+<rect x="1284.60" y="82" width="2.30" height="14" fill="#5e8ed2" stroke="none"/>
+<rect x="1286.40" y="82" width="2.30" height="14" fill="#5b8cd1" stroke="none"/>
+<rect x="1288.20" y="82" width="2.30" height="14" fill="#578ad1" stroke="none"/>
+<rect x="1290.00" y="82" width="2.30" height="14" fill="#5488d1" stroke="none"/>
+<rect x="1291.80" y="82" width="2.30" height="14" fill="#5086d1" stroke="none"/>
+<rect x="1293.60" y="82" width="2.30" height="14" fill="#4d84d1" stroke="none"/>
+<rect x="1295.40" y="82" width="2.30" height="14" fill="#4982d0" stroke="none"/>
+<rect x="1297.20" y="82" width="2.30" height="14" fill="#4680d0" stroke="none"/>
+<rect x="1299.00" y="82" width="2.30" height="14" fill="#427dd0" stroke="none"/>
+<rect x="1300.80" y="82" width="2.30" height="14" fill="#3e7bd0" stroke="none"/>
+<rect x="1302.60" y="82" width="2.30" height="14" fill="#3b79d0" stroke="none"/>
+<rect x="1304.40" y="82" width="2.30" height="14" fill="#3777d0" stroke="none"/>
+<rect x="1306.20" y="82" width="2.30" height="14" fill="#3475d0" stroke="none"/>
+<rect x="1308.00" y="82" width="2.30" height="14" fill="#3073d0" stroke="none"/>
+<rect x="1309.80" y="82" width="2.30" height="14" fill="#2d71cf" stroke="none"/>
+<rect x="1311.60" y="82" width="2.30" height="14" fill="#2c6fcd" stroke="none"/>
+<rect x="1313.40" y="82" width="2.30" height="14" fill="#2a6dca" stroke="none"/>
+<rect x="1315.20" y="82" width="2.30" height="14" fill="#296bc8" stroke="none"/>
+<rect x="1317.00" y="82" width="2.30" height="14" fill="#286ac6" stroke="none"/>
+<rect x="1318.80" y="82" width="2.30" height="14" fill="#2768c3" stroke="none"/>
+<rect x="1320.60" y="82" width="2.30" height="14" fill="#2566c1" stroke="none"/>
+<rect x="1322.40" y="82" width="2.30" height="14" fill="#2464be" stroke="none"/>
+<rect x="1324.20" y="82" width="2.30" height="14" fill="#2362bc" stroke="none"/>
+<rect x="1326.00" y="82" width="2.30" height="14" fill="#2261b9" stroke="none"/>
+<rect x="1327.80" y="82" width="2.30" height="14" fill="#205fb7" stroke="none"/>
+<rect x="1329.60" y="82" width="2.30" height="14" fill="#1f5db4" stroke="none"/>
+<rect x="1331.40" y="82" width="2.30" height="14" fill="#1e5cb1" stroke="none"/>
+<rect x="1333.20" y="82" width="2.30" height="14" fill="#1d5aaf" stroke="none"/>
+<rect x="1335.00" y="82" width="2.30" height="14" fill="#1c58ac" stroke="none"/>
+<rect x="1336.80" y="82" width="2.30" height="14" fill="#1b56aa" stroke="none"/>
+<rect x="1338.60" y="82" width="2.30" height="14" fill="#1a55a7" stroke="none"/>
+<rect x="1340.40" y="82" width="2.30" height="14" fill="#1953a4" stroke="none"/>
+<rect x="1342.20" y="82" width="2.30" height="14" fill="#1851a2" stroke="none"/>
+<rect x="1344.00" y="82" width="2.30" height="14" fill="#17509f" stroke="none"/>
+<rect x="1345.80" y="82" width="2.30" height="14" fill="#164e9c" stroke="none"/>
+<rect x="1347.60" y="82" width="2.30" height="14" fill="#154c99" stroke="none"/>
+<rect x="1349.40" y="82" width="2.30" height="14" fill="#144a97" stroke="none"/>
+<rect x="1351.20" y="82" width="2.30" height="14" fill="#134994" stroke="none"/>
+<rect x="1353.00" y="82" width="2.30" height="14" fill="#124791" stroke="none"/>
+<rect x="1354.80" y="82" width="2.30" height="14" fill="#11458e" stroke="none"/>
+<rect x="1356.60" y="82" width="2.30" height="14" fill="#10448b" stroke="none"/>
+<rect x="1358.40" y="82" width="2.30" height="14" fill="#104288" stroke="none"/>
+<rect x="1360.20" y="82" width="2.30" height="14" fill="#0f4085" stroke="none"/>
+<rect x="1362.00" y="82" width="2.30" height="14" fill="#0e3f83" stroke="none"/>
+<rect x="1363.80" y="82" width="2.30" height="14" fill="#0d3d80" stroke="none"/>
+<rect x="1365.60" y="82" width="2.30" height="14" fill="#0d3b7d" stroke="none"/>
+<rect x="1367.40" y="82" width="2.30" height="14" fill="#0c3a7a" stroke="none"/>
+<rect x="1369.20" y="82" width="2.30" height="14" fill="#0b3877" stroke="none"/>
+<rect x="1371.00" y="82" width="2.30" height="14" fill="#0a3674" stroke="none"/>
+<rect x="1372.80" y="82" width="2.30" height="14" fill="#0a3571" stroke="none"/>
+<rect x="1374.60" y="82" width="2.30" height="14" fill="#09336d" stroke="none"/>
+<rect x="1376.40" y="82" width="2.30" height="14" fill="#09316a" stroke="none"/>
+<rect x="1378.20" y="82" width="2.30" height="14" fill="#083067" stroke="none"/>
+<rect x="1200" y="82" width="180" height="14" fill="none" stroke="#333" stroke-width="0.5"/>
+<line x1="1216.1" y1="96" x2="1216.1" y2="99" stroke="#333" stroke-width="0.5"/>
+<text x="1216.1" y="110" text-anchor="middle" font-size="10" fill="#333">1</text>
+<line x1="1255.6" y1="96" x2="1255.6" y2="99" stroke="#333" stroke-width="0.5"/>
+<text x="1255.6" y="110" text-anchor="middle" font-size="10" fill="#333">10</text>
+<line x1="1307.0" y1="96" x2="1307.0" y2="99" stroke="#333" stroke-width="0.5"/>
+<text x="1307.0" y="110" text-anchor="middle" font-size="10" fill="#333">100</text>
+<line x1="1360.2" y1="96" x2="1360.2" y2="99" stroke="#333" stroke-width="0.5"/>
+<text x="1360.2" y="110" text-anchor="middle" font-size="10" fill="#333">1,000</text>
+<line x1="1380.0" y1="96" x2="1380.0" y2="99" stroke="#333" stroke-width="0.5"/>
+<text x="1380.0" y="110" text-anchor="middle" font-size="10" fill="#333">2,350</text>
+<text x="1200" y="136" fill="#111" font-weight="600">totals</text>
+<text x="1200" y="152" fill="#333">14,591 revisions</text>
+<text x="1200" y="166" fill="#333">260 of 960 hour cells non-empty (27%)</text>
+<text x="1200" y="180" fill="#333">peak hour of day (UTC): 20:00  (2,870)</text>
+<text x="1200" y="194" fill="#333">quietest hour of day (UTC): 04:00  (95)</text>
+</svg>
