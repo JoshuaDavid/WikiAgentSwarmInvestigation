@@ -9,3 +9,4 @@ __pycache__/
 # dump is kept out of the tree so greps for swarm terms only hit the
 # filtered corpus. Regenerate with: python3 scrape/pastebin_k4be.py
 scrape/outputs/pastebin-k4be/bodies.jsonl
+scrape/outputs/pastebin.tarcseh.me/bodies.jsonl
