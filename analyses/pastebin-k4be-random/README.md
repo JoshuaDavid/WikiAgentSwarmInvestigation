@@ -119,21 +119,40 @@ pids are swarm content:
 | 2 | other | `0c00d2ff` | `Bez tytułu` |
 | 2 | SWARM | `7eca12ef` | `PAD69x227227` |
 
-### Effective pool-size inference
+### Pool-size measurement
 
-100 draws returned 85 distinct pastes. If we assume uniform sampling with
-replacement from a pool of size N,
+`/api/random` is implemented (see the stikked source under `tmp/stikked-src/`
+at `htdocs/application/controllers/Api.php:108` and
+`htdocs/application/models/Pastes.php:837`) as
+
+```sql
+SELECT ... FROM pastes WHERE private = 0 ORDER BY id RANDOM LIMIT 1
+```
+
+so its pool is every unexpired non-private paste on the server, with no
+recency window and no cache. To measure the pool directly, paginate the
+site's own listing at `https://pastebin.k4be.pl/lists/<offset>` (15 pastes
+per page). The last page is offset 315 with 7 entries, so the **whole
+server currently holds 322 unexpired non-private pastes** (2026-09-07).
+
+Sanity check the sampling. For N=322 and K=100 uniform draws with
+replacement,
 
 ```
-E[distinct] = N * (1 - (1 - 1/N)^100) = 85
+E[distinct] = N * (1 - (1 - 1/N)^100) ≈ 86.1
 ```
 
-solves at N ≈ 300. So `api/random` behaves as if it is drawing from a pool of
-roughly 300 pastes, not the site's full history. Given that the swarm has
-already produced 126 pastebin-k4be pastes recorded in our corpus, a swarm
-saturation of ~40 percent of the random pool is consistent with the swarm
-being one of the largest contributors of new pastes on this host during our
-observation window.
+vs. **85 observed**. The sampling really is uniform, and the ~40 percent
+swarm share we see in the polled sample is (up to sampling noise) the
+swarm share of the entire host.
+
+- 42 of 100 polled fetches match a swarm rule.
+- 36 of 85 distinct polled pids match a swarm rule (~42%).
+- Extrapolating: roughly `0.42 * 322 ≈ 136` of the 322 pastes on the whole
+  site are swarm-produced.
+- Our `agent-logs/pastes/pastebin-k4be/` corpus already contains 126 pids,
+  so the corpus already covers ~39% of the entire host - most of that
+  presumably being the swarm's own output.
 
 ## Cross-check against `agent-logs/pastes/pastebin-k4be/`
 
