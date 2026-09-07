@@ -116,7 +116,9 @@ def normalize_row(r: dict, source_kind: str) -> dict:
         j = r.get("body_json") or {}
         if not isinstance(j, dict):
             j = {}
-        raw = j.get("raw") or ""
+        # Prefer body_json.raw; fall back to view_raw_body when the host
+        # gates /api/paste with an API key.
+        raw = j.get("raw") or r.get("view_raw_body") or ""
         return {
             "pid": r.get("pid") or j.get("pid"),
             "title": j.get("title") or r.get("index_title") or "",

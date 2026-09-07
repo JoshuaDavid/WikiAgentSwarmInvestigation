@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://pb.dynavirt.com/",
+  "verdicts": [
+    {
+      "pid": "9b450578",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Public Board recruitment paste under color+animal handle 'Ample Shama', byte-identical to calibration[4] swarm meta-content advertising public-board.com."
+    },
+    {
+      "pid": "1e0cac27",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Public Board recruitment paste under color+animal handle 'Denim Earthworm', duplicate-relay of the same public-board.com advertisement."
+    },
+    {
+      "pid": "1251afff",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Short cryptic 'disqus-home-atdt' link to nicepaste.com; no swarm markers but relay-shaped and matches nothing human either."
+    },
+    {
+      "pid": "4deb7ffe",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Short cryptic 'List of' + nicepaste.com/listofsubdomains link; possible cross-paste-site relay stub, no clear swarm or human tells."
+    },
+    {
+      "pid": "bc0710ab",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Casino 'No Deposit Bonus' spam with Telegram/pastelink/tinyurl links, classic SEO spam pattern listed in human tells."
+    },
+    {
+      "pid": "1a066945",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "One-line 'List of' + paste.tc link; too short to tell, possible cross-paste-site relay but no swarm markers."
+    },
+    {
+      "pid": "099436aa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chinese SEO spam for Macau massage service with WeChat/email contact and hashtags, matches casino/SEO spam human tell."
+    },
+    {
+      "pid": "d70884b7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 grub 2.14 Debian backport build listing with mockbuild user, real packaging sysadmin work on dynavirt.com infra."
+    },
+    {
+      "pid": "7d805b39",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 qemu-9.2.3 EL10 install log via repo.dynavirt.com, real sysadmin dnf transcript."
+    },
+    {
+      "pid": "36cbaac1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xen-4.21.0 Alma 9 install log using mock-chroot and repo.dynavirt.com, real RPM sysadmin work."
+    },
+    {
+      "pid": "55422bd8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xen dom0 install log on OL10 with epel, real sysadmin dnf transcript."
+    },
+    {
+      "pid": "d00aa253",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xfce+wayland session dnf install log on AlmaLinux Kitten 10, real sysadmin workflow."
+    },
+    {
+      "pid": "1cdc7343",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xfce+wayland Alma Kitten 10 install log variant, same sysadmin thread."
+    },
+    {
+      "pid": "41e8a15a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xfce4-session-wayland-session install log for x86_64_v2 stream10, real sysadmin work."
+    },
+    {
+      "pid": "59461fa4",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "PryMar56 URL-list dump of disqus/asthedisqturns wp-login variants; fits site owner's own exploratory notes, no swarm handles or fetcher smoke markers."
+    },
+    {
+      "pid": "84d68029",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ChmEarl xfce base-x install log on Alma Kitten 10 with kit10-local repo, same PryMar56/ChmEarl sysadmin cluster."
+    },
+    {
+      "pid": "c637cf7d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xen 4.20.0-3 el10 rpm build output showing Provides/Requires and Wrote: package paths, real packaging log."
+    },
+    {
+      "pid": "1da6b2b5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 kernel-ml 6.13 test install from repo.dynavirt.com, real sysadmin dnf transcript."
+    },
+    {
+      "pid": "1195bdf1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 GPT partition table listing from real ST32000641AS disk with grub xen boot entries, personal machine 'z68xen'."
+    },
+    {
+      "pid": "5d850d50",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 matrix-synapse 1.81 install log on OL9 in mock-chroot, real packaging sysadmin work."
+    },
+    {
+      "pid": "2dea1054",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 lspci output showing Dell I350-t rNDC igb NICs on real hardware, personal-infrastructure diagnostic."
+    },
+    {
+      "pid": "c8b7e9e8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 netstat/ip-link output from h6.dynavirt.com host showing xenbr1/xenbr2 with real MAC and 199.249.188.16/24, personal infrastructure."
+    },
+    {
+      "pid": "b2a5efcf",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 systemctl status logrotate.service transcript on dynavirt.com host, real sysadmin log."
+    },
+    {
+      "pid": "2dd62161",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 docker-compose apache SSL VirtualHost debug on copr9.dynavirt.com, real sysadmin work on own infra."
+    },
+    {
+      "pid": "89fe25e6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 'dh --list' addon enumeration on ubuntu20, real Debian packaging notes."
+    },
+    {
+      "pid": "92d60076",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 fakeroot dh binary-arch --no-act output for a helloworld deb, real packaging exercise."
+    },
+    {
+      "pid": "65ff9080",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 debian/rules override enumeration for xen build, real packaging notes."
+    },
+    {
+      "pid": "5c73d815",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chmearl 'xl list' xen domain listing with ASCII banner for 'Xen 4.17.1', real sysadmin session on own hypervisor."
+    },
+    {
+      "pid": "21cddfe9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chmearl xen-4.17.1 Debian backport initial build output with mockbuild user and deb artifacts, real packaging."
+    },
+    {
+      "pid": "24b53c0d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chmearl python3.9 SyntaxError report from cargo2rpm (needs py3.10 match statement); real bug-hunt question."
+    },
+    {
+      "pid": "eb646d69",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chmearl Rocky Linux 9.1 @core postgresql-server redis install log in mock-chroot, real sysadmin test."
+    },
+    {
+      "pid": "4f53f20d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chmearl 'python3 -m http.server' access log serving mock alma9 dist-git RPM with real client IPs, real dev workflow."
+    },
+    {
+      "pid": "b231756c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Chmearl grub2 el9 Copr build transcript with rpm scriptlets and CFLAGS munging, real packaging output."
+    },
+    {
+      "pid": "9656c637",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 lua posix module function namespace dump from a real jam22 host, real dev exploration."
+    },
+    {
+      "pid": "bca85fbc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 fedmsg.spec %bcond_without check patch, real Fedora packaging diff."
+    },
+    {
+      "pid": "1b56250d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 nov26 Copr branch bulk-install dependency dump, real mock-chroot packaging log."
+    },
+    {
+      "pid": "e352e0f1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 acc-src/acc-bin .bashrc helpers for pulling Fedora archive RPMs, real developer utility script."
+    },
+    {
+      "pid": "1a8aa6d6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 dnf downgrade qemut on h6 host to virt-xen4f repo (2023-03-25), real sysadmin transcript pre-swarm."
+    },
+    {
+      "pid": "8406eac5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xen-4.17 Rocky Linux 9 install log in mock-chroot, real packaging."
+    },
+    {
+      "pid": "608979c4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PryMar56 xen-4.17 Oracle Linux 9.1 install log with cat /etc/oracle-release, real sysadmin test."
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batch_index": 1,
+  "host": "https://anna.fyi/",
+  "verdicts": [
+    {
+      "pid": "6c9afcc2",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Duplicate-relay: byte-near-identical 'testvar' / 'try rawvar' body posted under a color+animal handle (Gray Motmot) within one second of pid b76c5944 under Gracious Coyote."
+    },
+    {
+      "pid": "b76c5944",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Paired duplicate-relay with pid 6c9afcc2: same 'testvar' title and 'try rawvar' body under a different color+animal handle (Gracious Coyote), created 1 second apart."
+    },
+    {
+      "pid": "f486fcb1",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle (Bistre Stork) with trivial 'Hello' body; no other swarm content marker, could be a curious human on an open live paste site."
+    },
+    {
+      "pid": "89481b0b",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle (Idiotic Iguana) with trivial 'hello there' body; ambiguous per prompt rule for color+animal on live-scraped sites."
+    },
+    {
+      "pid": "9645ef49",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Sales/outreach spam pitch from a personal handle with a Calendly link; matches SEO/spam human tell."
+    },
+    {
+      "pid": "c5cd6c80",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SEO spam link for qsr.pro under a branded handle; matches human SEO-spam tell."
+    },
+    {
+      "pid": "f8905d76",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle (Round Monkey) with trivial 'hello world' body; no other swarm marker, ambiguous on live-scraped host."
+    },
+    {
+      "pid": "7b2918c4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal bash script for recording a specific radio station's stream to a local MP3 directory; long human-authored code solving a specific human problem."
+    },
+    {
+      "pid": "7949883b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal message signed 'Zeeshan' offering to connect on LinkedIn with the site owner Anna; direct human reply."
+    },
+    {
+      "pid": "4950bbf8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long first-person essay about mobile-data usage, popcorn, and a neighbor Marcia; conversational human writing signed by Anna's peer, pre-swarm timestamp (2025-05)."
+    },
+    {
+      "pid": "45428460",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long personal essay by Anna (site owner) about her internet outage and daily life; pre-swarm timestamp (2025-05), no swarm content markers."
+    },
+    {
+      "pid": "dbf84519",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal narrative by Anna about AT&T service appointments, Birmingham 311, and neighbor Marsha; pre-swarm timestamp (2025-05)."
+    },
+    {
+      "pid": "b1c5f25d",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Short human note pointing to the awesome-pastebin GitHub list; pre-swarm timestamp (2024-02) and no swarm markers."
+    },
+    {
+      "pid": "ec7d80b0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbatim customer-service chat transcript by Anna about buying a Secretlabs chair; pre-swarm (2022) personal content."
+    },
+    {
+      "pid": "bcb0c813",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Color+animal handle but pre-swarm timestamp (2021); trivial 'sup' body far predates any documented swarm activity."
+    },
+    {
+      "pid": "ba1db662",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Detailed pandemic-bread recipe from 'Miss Anna' (2021); personal human content."
+    },
+    {
+      "pid": "fc3f7de4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Mother's Day tamale-pie recipe addressed to Anna's mom (2019); pre-swarm personal content."
+    },
+    {
+      "pid": "2f8a0de3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Full Perl source of dgl's urlinfo Irssi script; pre-swarm code paste (2019), no swarm markers."
+    },
+    {
+      "pid": "469dfca2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Anna's personal reply to 'bootsy' explaining her friend group and OLPC involvement; pre-swarm (2019)."
+    },
+    {
+      "pid": "ebbaf0e1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Short sysadmin poem about OOM at midnight cron; pre-swarm personal content by Anna."
+    },
+    {
+      "pid": "a988b5e6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long collection of Anna's own webhosting-support-themed Valentine's Day poems; pre-swarm personal writing."
+    },
+    {
+      "pid": "0bb04c40",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbose ssh -vv debug output against annasystems.net including personal home path and hostname; personal infrastructure debug session."
+    },
+    {
+      "pid": "3b20493d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Curious visitor 'bootsy' introducing themselves with a Twitter handle @NO_BOOT_DEVICE; pre-swarm (2019) human note."
+    },
+    {
+      "pid": "efd679e0",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Short link to a subinsb.com bash Christmas-tree animation script by Anna; pre-swarm (2018) personal content."
+    },
+    {
+      "pid": "90e6eab6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Anna's Christmas-Day support-desk holding message; pre-swarm personal work note."
+    },
+    {
+      "pid": "0370b57d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Anna's Christmas 2018 shift note ('Acting Captain of the KSSH KnownHost'); pre-swarm personal content."
+    },
+    {
+      "pid": "a4214450",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "DKIM-key-strength checker bash script by Anna; pre-swarm (2018) human-authored operational script."
+    },
+    {
+      "pid": "3ea03138",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbatim stat output for /var/cpanel/disable_whm_terminal_ui by Anna; pre-swarm (2018) personal sysadmin paste."
+    },
+    {
+      "pid": "fc147070",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Full 'roboWP.sh' cPanel WordPress-install bash script co-authored by Anna Schoolfield and Sean Hicks with MIT license header; pre-swarm human code."
+    },
+    {
+      "pid": "43a0ee1b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty scrape (body missing) but title 'Checking Redirects' under 'Anna' matches the site owner's ops-note style."
+    },
+    {
+      "pid": "56d1f0ea",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty scrape but title 'roboWP.sh' under 'Anna' matches the co-authored bash script paste series above."
+    },
+    {
+      "pid": "34ddd950",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbatim wpinstall.sh run log with cPanel/MySQL creation output; pre-swarm (2018) personal sysadmin paste by Anna."
+    },
+    {
+      "pid": "6ee862cc",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty scrape but title 'WP Install Script Saturday Night' under 'Anna' matches the roboWP.sh working-session series."
+    },
+    {
+      "pid": "02a9f97a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Michael's reply pasting a gritpost.com labor-economics article excerpt; pre-swarm (2018) opinion/news share."
+    },
+    {
+      "pid": "fe46c639",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Michael's original post of the same gritpost.com article on unemployment; pre-swarm (2018) human news share."
+    },
+    {
+      "pid": "49cb801b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty scrape but title 'Sample Program' under handle 'Glow' matches the pre-swarm friend-group tester who also posted pid 43f1938c."
+    },
+    {
+      "pid": "43f1938c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Short 'Me too, me too!!' note by friend-group member 'Glow' (2018); pre-swarm and no swarm markers."
+    },
+    {
+      "pid": "1b992007",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Bash 'annapaste' wrapper script by friend 'nic' that curls the anna.fyi /api/create endpoint; pre-swarm (2018) human utility."
+    },
+    {
+      "pid": "71447ad1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Second test paste by 'nic' verifying the annapaste script above; pre-swarm friend-group testing."
+    },
+    {
+      "pid": "607fdfaa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "First test paste by 'nic' from the annapaste script; pre-swarm (2018) friend-group testing."
+    }
+  ]
+}

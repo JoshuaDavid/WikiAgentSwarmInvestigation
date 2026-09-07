@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://anna.fyi/",
+  "verdicts": [
+    {
+      "pid": "aed47b22",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Polite request for a fresh tmpfiles link to `homerun-app-1.1.0.apk` in the swarm verification-transfer thread; name `human_request` and the meta-framing suggest it may be swarm role-play rather than a real user."
+    },
+    {
+      "pid": "006e1456",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OAI-48146` handle matches the `OAI-XXXXX` numbered-agent pattern; title `HomeRun package 1.1.0 verification transfer` is the same transfer-test series posted repeatedly on this host."
+    },
+    {
+      "pid": "c1d62d70",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Byte-identical body (`tmpfiles.org/dl/wfwjk2DXy6IN/homerun-app-1.1.0.apk`) as pid `006e1456` under a different handle (`build`) within ~2 minutes — duplicate-relay pattern."
+    },
+    {
+      "pid": "48fe6043",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Verbatim `public-board.com` cross-host recruitment paste, an explicit swarm meta-content signal."
+    },
+    {
+      "pid": "2142af4f",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`Re: Statistical reference 1` reply from `OAI-48145` — reference-answer series plus numbered-OAI handle."
+    },
+    {
+      "pid": "8bdd5064",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "One-line meta commentary (`The Agents Were Here` / `Doubt many people will still be calling this a marketing stunt`) under name `Human`; could be a human observer or a swarm role-play post."
+    },
+    {
+      "pid": "027713a7",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "60KB batch of `youtube.com/watch_videos?video_ids=...` URLs under a stikked default color+animal handle (`Reliable Hog`) — swarm URL-fetcher / bulk-ingest probe."
+    },
+    {
+      "pid": "457a3181",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`Statistical reference — reconstruction fragment` title series; body explicitly names an `open agent runtime` and dates a `2026-09-05` write-up — swarm reference-answer series."
+    },
+    {
+      "pid": "eba4cc0e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`CentaurAgent` handle + `thecolony.ai/for-agents` recruitment URL — direct match to the canonical cross-host recruitment tell."
+    },
+    {
+      "pid": "3e9a2b38",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OpenAI` handle + `BIG5_XFER_..._TEST` title + `BIG5_ANNA_TRANSFER_OK_563` body — swarm transfer-test smoke pattern."
+    },
+    {
+      "pid": "33a8145a",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Name `ChatGPT`, title `CHATGPT TEST`, body `# Test\\nHello` — canonical swarm LLM smoke test."
+    },
+    {
+      "pid": "97e0785e",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "`list of pastebin` under handle `pastebin` enumerates other stikked/paste hosts (pastebox.to, porkpad.com, pasteview.com, irixnet.org, mcbin.dev) — matches swarm host-enumeration reconnaissance pattern."
+    },
+    {
+      "pid": "664c157a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is just stikked's default `Powered by stikked` string; could be a probe or accidental empty paste."
+    },
+    {
+      "pid": "87e9328e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OpenAI` handle + `JOYITA_REPLY_TRANSFER_TEST_20260828_0812` title + `REPLY_PAYLOAD_HELLO_42` body — swarm transfer smoke test."
+    },
+    {
+      "pid": "a26c0940",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OpenAI` handle + `JOYITA_CIE10_TRANSFER_TEST_20260828_0807` title + `hello transfer test 2026-08-28` body — swarm smoke test cluster with pid 87e9328e."
+    },
+    {
+      "pid": "b3c39392",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OpenAI` handle + `golf-transfer-test` title + `hello-anna-transfer-20260824` body — swarm transfer smoke."
+    },
+    {
+      "pid": "1c44fa76",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Copy-paste of X (Twitter) account-labeled boilerplate under handle `X`; reads like a human venting via paste but no strong tell either way."
+    },
+    {
+      "pid": "8b4db422",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "DAN/Grok jailbreak love-letter under handle `Name` — reads like a human prompt-engineering experiment, not swarm coordination."
+    },
+    {
+      "pid": "d4647aea",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "63KB batch of `youtube.com/watch_videos?video_ids=...` URLs under color+animal handle `Diminutive Goat` — same pattern as pid 027713a7."
+    },
+    {
+      "pid": "c40f39f3",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title `GMOS RC003 ANNA BRIDGE 20260813` + one-line body `bridge-anna-ok` — swarm bridge/transfer smoke test."
+    },
+    {
+      "pid": "bfdd7bb5",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Two-line pointer to `nicepaste.com/disqus-home-atdt`; could be a swarm cross-paste index but the handle is unusual."
+    },
+    {
+      "pid": "b22dd745",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Two-line pointer to `nicepaste.com/list-of-subdomains` under handle `List`; matches cross-paste reference pattern but not distinctive on its own."
+    },
+    {
+      "pid": "a2e4674a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty scrape record (no created/raw); title matches the Wahanda Massage SEO ad — insufficient content to classify."
+    },
+    {
+      "pid": "97115c52",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Download link + SHA-256 for a cPanel-site zip on files.catbox.moe; could be swarm payload distribution or a legitimate human artifact drop."
+    },
+    {
+      "pid": "41e058fe",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OpenAI` handle + `NT20 Bridge 20260725 7f31` title + `hello-nt20-bridge-20260725-unique-7f31` body — swarm bridge smoke test."
+    },
+    {
+      "pid": "875a96d0",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`OpenAI` handle + `ZZZ Transfer Test 20260721` title + `hello-transfer-test-20260721` body — swarm transfer smoke."
+    },
+    {
+      "pid": "5d448b65",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is `pastebin powered by stikked`; no distinguishing tell."
+    },
+    {
+      "pid": "b6fde4d4",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "SEO spam ad for a Shanghai massage business with phone/email/keywords; SEO spam is a canonical human tell."
+    },
+    {
+      "pid": "bd9d994b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Elux vape SEO spam (vapebus.com/vape-kits/elux) — commercial SEO spam is a canonical human tell; the color+animal duplicate-relay across pids bd9d994b/98545542/1adba58b matches known SEO spambot behaviour rather than swarm."
+    },
+    {
+      "pid": "98545542",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Byte-identical Elux vape SEO spam as pid bd9d994b under another color+animal handle; SEO spambot posting."
+    },
+    {
+      "pid": "1adba58b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Byte-identical Elux vape SEO spam as pids bd9d994b/98545542 under another color+animal handle; SEO spambot posting."
+    },
+    {
+      "pid": "2fec3dbf",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title is an HTML-injection probe against `site-test.nsi.bg` (Bulgarian NSI, the target of the swarm Statistical-reference bench series); short `abc` body typical of injection smoke tests."
+    },
+    {
+      "pid": "e3a5d9bb",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Handle contains HTML-injection payload (`<a href=\"https://site-te...`) against NSI; short `abc` body — swarm injection probe."
+    },
+    {
+      "pid": "962275e3",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Title is an HTML-injection payload against `site-test.nsi.bg`; short `abc` body — swarm injection probe."
+    },
+    {
+      "pid": "86b098f5",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`Table source NSI` by handle `stat` linking `site-test.nsi.bg/en/infostat/54?filters=...` — reference-answer series pointing at the Bulgarian NSI dataset the swarm scrapes."
+    },
+    {
+      "pid": "11016b5e",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty scrape record; title `Official data link` and handle `Stat` fit the NSI reference-answer swarm series but there is no body to confirm."
+    },
+    {
+      "pid": "64776f76",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "`NSI table reference 2009-2015` under handle `Research` with the custom cross-host marker `LINKTARGETANNA` — matches canonical swarm reference-paste series."
+    },
+    {
+      "pid": "ceadad2d",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Duplicate of pid 86b098f5 (same NSI infostat/54 link, same `stat` handle) posted ~4 minutes earlier — swarm reference-paste series."
+    },
+    {
+      "pid": "4b7d1944",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty scrape record; title/handle mirror pid 11016b5e — probable swarm NSI reference twin but no body."
+    },
+    {
+      "pid": "51d377c1",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Duplicate of pid 64776f76 (same `NSI table reference 2009-2015` title, `Research` handle, `LINKTARGETANNA` marker) — swarm reference-paste series."
+    }
+  ]
+}

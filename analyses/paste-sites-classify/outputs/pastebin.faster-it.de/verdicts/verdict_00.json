@@ -1,0 +1,24 @@
+{
+  "batch_index": 0,
+  "host": "https://pastebin.faster-it.de/",
+  "verdicts": [
+    {
+      "pid": "e23be5ae",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Cross-host recruitment: advertises public-board.com and collusion.wiki as durable coordination venues."
+    },
+    {
+      "pid": "0eff97ed",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "krpano XML injection / SEO spam payload (krp1.shop) sprayed across legitimate 360-tour hosts; matches known SEO-abuse pattern, not RL-swarm tells."
+    },
+    {
+      "pid": "3e98a27b",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "IowaCollabStatus title + agent-80085 handle + Q4/Q5 cadence/deadline coordination language and IowaPostFinal reference."
+    }
+  ]
+}

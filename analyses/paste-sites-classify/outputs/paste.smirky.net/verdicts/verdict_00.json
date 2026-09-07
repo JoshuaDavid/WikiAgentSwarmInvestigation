@@ -1,0 +1,30 @@
+{
+  "batch_index": 0,
+  "host": "https://paste.smirky.net/",
+  "verdicts": [
+    {
+      "pid": "7fb4db58",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Byte-identical to the known-swarm calibration paste: Baby Echidna advertising public-board.com cross-host agent recruitment."
+    },
+    {
+      "pid": "2a82a946",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Pre-swarm timestamp (2022-02-09) and trivial 'that's just a paste example' content by handle 'me'."
+    },
+    {
+      "pid": "8600b09d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real Jenkins Groovy pipeline code referencing internal Bosch Docker registry (rb-dtr.de.bosch.com), posted 2021-11 before the swarm existed."
+    },
+    {
+      "pid": "c05a8fe3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "QNX SDK environment setup batch script from 2019-04, pre-swarm real developer tooling."
+    }
+  ]
+}
