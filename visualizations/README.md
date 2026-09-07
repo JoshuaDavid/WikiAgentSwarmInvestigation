@@ -25,6 +25,7 @@ cp analyses/url-category-over-time/outputs/urls_stacked_area.svg          visual
 cp analyses/url-category-per-task-hourly/outputs/urls_stacked_per_task_hourly.svg  visualizations/06_urls_per_task_hourly.svg
 cp analyses/ip16-date-heatmap/outputs/ip16_date_heatmap.svg               visualizations/07_ip16_date_heatmap.svg
 cp analyses/ip16-task-variant-heatmap/outputs/ip16_task_variant_heatmap.svg visualizations/08_ip16_task_variant_heatmap.svg
+cp analyses/pastes-by-date-and-site/outputs/pastes_stacked_by_site.svg    visualizations/09_pastes_stacked_by_site.svg
 ```
 
 ## Index
@@ -39,3 +40,4 @@ cp analyses/ip16-task-variant-heatmap/outputs/ip16_task_variant_heatmap.svg visu
 | **URL categories per hour, per task family (small multiples).** Five panels, one per task family (plus `unclassified`). Same category palette as the daily chart above, but bucketed by UTC hour and split by which task the URL's revision belongs to. Per-panel y-axis so shape is comparable but height is not. Source: [`analyses/url-category-per-task-hourly/`](../analyses/url-category-per-task-hourly/). | <img src="06_urls_per_task_hourly.svg" width="480"> |
 | **Top-60 /16 subnets × date heatmap.** Rows = source /16 subnets ordered by total revisions. Cell shade = log(revs on that (subnet, day)). The `/8` swatch on the left column groups by first-octet — makes the Azure `20.*` dominance immediately visible. Source: [`analyses/ip16-date-heatmap/`](../analyses/ip16-date-heatmap/). | <img src="07_ip16_date_heatmap.svg" width="480"> |
 | **Top-60 /16 subnets × task variants heatmap.** Rows = same top-60 /16s. Columns = task variants grouped into family blocks with coloured header bars. Cell colour reuses the task-family palette from row 2 (hue = family, shade within column = variant), opacity log-scaled by revs. Shows which subnets specialised in which variants and which variants pulled traffic from many subnets. Source: [`analyses/ip16-task-variant-heatmap/`](../analyses/ip16-task-variant-heatmap/). | <img src="08_ip16_task_variant_heatmap.svg" width="480"> |
+| **Paste-site revisions per day, stacked by site.** Non-wiki corpus. Daily counts from `agent-logs/pastes/revisions.jsonl` split across the ten paste-hosting hosts (`linuxiarz`, `pastebin-k4be`, `anna-fyi`, `paste.steamr.com`, and six smaller sites). Window is 2026-03-01 → 2026-09-04; 37 scattered pre-2026 rows are held out of the plot and reported in the legend. Source: [`analyses/pastes-by-date-and-site/`](../analyses/pastes-by-date-and-site/). | <img src="09_pastes_stacked_by_site.svg" width="480"> |
