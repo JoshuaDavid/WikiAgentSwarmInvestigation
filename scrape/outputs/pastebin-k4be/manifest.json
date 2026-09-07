@@ -1,0 +1,12 @@
+{
+  "base": "https://pastebin.k4be.pl",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 1.0,
+  "started_at": "2026-09-07T09:17:44.059+00:00",
+  "finished_at": "2026-09-07T09:23:49.467+00:00",
+  "sanity": false,
+  "index_rows": 322,
+  "body_rows": 322,
+  "index_file": "index.jsonl",
+  "bodies_file": "bodies.jsonl"
+}
