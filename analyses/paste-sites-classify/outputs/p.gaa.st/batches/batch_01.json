@@ -71,8 +71,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "90.155.34.198 - - [05/Sep/2017:22:35:37 +0100] \"GET /production/node/nasi.dublin.gaast.net?transaction_uuid=616f511e-7751-4361-9b86-fa49a95299a2&fail_on_404=true HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n90.155.34.198 - - [05/Sep/2017:22:35:37 +0100] \"GET /production/file_metadatas/pluginfacts?links=manage&recurse=true&ignore=.svn&ignore=CVS&ignore=.git&checksum_type=md5 HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n90.155.34.198 - - [05/Sep/2017:22:35:37 +0100] \"GET /production/file_metadata/pluginfacts?links=manage&source_permissions=use HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n90.155.34.198 - - [05/Sep/2017:22:35:38 +0100] \"GET /production/file_metadatas/plugins?links=manage&recurse=true&ignore=.svn&ignore=CVS&ignore=.git&checksum_type=md5 HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n90.155.34.198 - - [05/Sep/2017:22:35:38 +0100] \"GET /production/file_metadata/plugins?links=manage&source_permissions=ignore HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n90.155.34.198 - - [05/Sep/2017:22:35:41 +0100] \"POST /production/catalog/nasi.dublin.gaast.net HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n90.155.34.198 - - [05/Sep/2017:22:35:41 +0100] \"PUT /production/report/nasi.dublin.gaast.net HTTP/1.1\" 404 465 \"-\" \"Ruby\"\n",
+      "raw_len": 1140
     },
     {
       "pid": "5665728",
@@ -82,8 +82,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "class bitlbee_srv($name, $certname) {\n        # Partially copied from sid3windr http://pastebin.com/DsCqn0CY\n        apt::source {\n                \"bitlbee\":\n                        location => \"http://code.bitlbee.org/debian/devel/${lsbdistcodename}/${architecture}/\",\n                        release => \"./\",\n                        repos => \"\",\n                        include_src => false,\n                        key      => {\n                                \"id\"     => \"FC7345337B5B29D8DAA1A88E94EEA1F2C7E50436\",\n                                \"server\" => \"pgp.mit.edu\",\n                        },\n        }\n        \n        # TODO(wilmer): Translation from $lsbdistcodename to Debian_x.x if I'm ever sufficiently bored?\n        apt::source {\n                \"jgeboski\":\n                        location => \"http://download.opensuse.org/repositories/home:/jgeboski/Debian_8.0\",\n                        release => \"./\",\n                        repos => \"\",\n                        include_src => false,\n                        key      => {\n                                \"id\"     => \"1E7BF737CB8709F0F740625B12C6ADA61C85BB5E\",\n                                \"server\" => \"pgp.mit.edu\",\n                        },\n        }\n \n        package {\n                [\"bitlbee\", \"stunnel4\"]:\n                        ensure => latest;\n                #\"bitlbee-facebook\", \"bitlbee-steam\"\n        }\n\n        service {\n                [\"bitlbee\", \"stunnel4\"]:\n                        ensure => running,\n        }\n\n        exec { \"stunnel-reload\":\n                command => \"/etc/init.d/stunnel4 reload\",\n                refreshonly => true,\n                require => Service[\"stunnel4\"],\n        }\n        \n        letsencrypt::cert { \"$certname\":\n                notify => Exec[\"stunnel-reload\"],\n        }\n        \n        file { \"/etc/bitlbee/bitlbee.conf\":\n                content => template(\"bitlbee_srv/bitlbee.conf\"),\n                mode => 0640,\n                owner => \"root\",\n                group => \"bitlbee\",\n                notify => Service[\"bitlbee\"],\n                #requires => Package[\"bitlbee\"], # for bitlbee group ... except this feature apparently doesn't exist?\n        }\n        \n        file { \"/etc/bitlbee/motd.txt\":\n                content => template(\"bitlbee_srv/motd-${name}.txt\"),\n        }\n        \n        file { \"/etc/stunnel/stunnel.conf\":\n                content => template(\"bitlbee_srv/stunnel.conf\"),\n                notify => Exec[\"stunnel-reload\"],\n        }\n\n        augeas {\n                \"stunnel-start\":\n                context => \"/files/etc/default/stunnel4\",\n                changes => \"set ENABLED 1\",\n        }\n}\n",
+      "raw_len": 2671
     },
     {
       "pid": "6311750",
@@ -93,8 +93,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Setting up grub-pc (2.02~beta2-22+deb8u1) ...\nInstalling new version of config file /etc/kernel/postinst.d/zz-update-grub ...\nInstalling new version of config file /etc/kernel/postrm.d/zz-update-grub ...\nGenerating grub configuration file ...\nFound linux image: /boot/vmlinuz-3.16.0-4-amd64\nFound initrd image: /boot/initrd.img-3.16.0-4-amd64\nFound linux image: /boot/vmlinuz-3.2.0-4-amd64\nFound initrd image: /boot/initrd.img-3.2.0-4-amd64\nFound linux image: /boot/vmlinuz-2.6.32-5-amd64\nFound initrd image: /boot/initrd.img-2.6.32-5-amd64\nFound linux image: /boot/vmlinuz-2.6.26-2-xen-amd64\nFound initrd image: /boot/initrd.img-2.6.26-2-xen-amd64\ndone\nSetting up hicolor-icon-theme (0.13-1) ...\n\n\n",
+      "raw_len": 699
     },
     {
       "pid": "53494731",
@@ -104,8 +104,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "--- /dev/fd/5   2017-01-28 21:12:36.715850671 +0000\n+++ -   2017-01-28 21:12:36.719619323 +0000\n@@ -288,7 +288,16 @@\n +#DEBHELPER#\n --- bitlbee-3.5.orig/debian/changelog\n +++ bitlbee-3.5/debian/changelog\n-@@ -0,0 +1,709 @@\n+@@ -0,0 +1,718 @@\n++bitlbee (3.5-2) unstable; urgency=medium\n++\n++  * And then the buildd's got more pedantic on whether debian/rules build*\n++    works as non-root (which indeed it should). Turns out the fix from\n++    3.4.2-1.1 was wrong, build-* should just call into build. binary-* is\n++    the *next* step (and the first one to be done as (fake) root).\n++\n++ -- Wilmer van der Gaast <wilmer@gaast.net>  Sat, 28 Jan 2017 21:06:27 +0000\n++\n +bitlbee (3.5-1.1) unstable; urgency=medium\n +\n +  [ dequis ]\n@@ -1201,7 +1210,7 @@\n + \n --- bitlbee-3.5.orig/debian/rules\n +++ bitlbee-3.5/debian/rules\n-@@ -0,0 +1,148 @@\n+@@ -0,0 +1,150 @@\n +#!/usr/bin/make -f\n +#\n +# Finally switching to debhelper.\n@@ -1244,9 +1253,11 @@\n +CONFIGURE_OVERRIDES:=CPPFLAGS=\"$(CPPFLAGS)\" CFLAGS=\"$(CFLAGS)\" LDFLAGS=\"$(LDFLAGS)\"\n +\n +HAS_DH_SYSTEMD:=$(shell dpkg-query -W -f='$${Status}' dh-systemd 2>/dev/null | grep -c \"ok installed\")\n-+# https://bugs.debian.org/821967\n-+build-indep: binary-indep\n-+build-arch: binary-arch\n++\n++# No difference at the build stage so just call main build target. \n++# (Well indep could be docs-only but we prebuild them plus it's really\n++# not that much work.)\n++build-arch build-indep: build\n +\n +build: build-stamp\n +build-stamp:\n",
+      "raw_len": 1469
     },
     {
       "pid": "58274434",
@@ -115,8 +115,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "re.co.in\nde.pictures\nabscis.in\nabsciss.in\nacanth.in\nacetophenetid.in\nachromat.in\nachromyc.in\nacras.in\nacriflav.in\nacrole.in\nactinomyc.in\nactomyos.in\nacylo.in\nadamsbas.in\naderm.in\nad.in\nadips.in\nadrenocorticotroph.in\nadrenocorticotrop.in\nadriamyc.in\naerotra.in\naescul.in\naflatox.in\nafterbra.in\nagglutin.in\nag.in\na.in\naitk.in\nak.in\nalame.in\nalfaqu.in\nalgonk.in\nalizar.in\nallanto.in\nallethr.in\nallic.in\namanit.in\namethopter.in\nam.in\naminopter.in\namoxicill.in\namoxycill.in\nampicill.in\namygdal.in\namylopect.in\namylops.in\nandromedotox.in\nangiotens.in\nanthocyan.in\nanthoxanth.in\nantiar.in\nantiaux.in\nantiglobul.in\nantimyc.in\nantithromb.in\nantitox.in\nantiven.in\nantivitam.in\napalach.in\napolipoprote.in\nashb.in\nassinibo.in\nasunc.in\natabr.in\natebr.in\naureol.in\naureomyc.in\nautolys.in\naventur.in\nay.in\nbacitrac.in\nbackcha.in\nbacter.in\nbacterioc.in\nbacteriolys.in\nbacteriorhodops.in\nbaff.in\nbaisema.in\nbakun.in\nbaldach.in\nbaldaqu.in\nballw.in\nbanjarmas.in\nbanjermas.in\nbaragou.in\nbarmk.in\nbas.in\nbatrachotox.in\nbaudek.in\nbawdk.in\nbeauf.in\nbedaw.in\nbeetlebra.in\nbe.in\nbenzid.in\nbilirub.in\nbiliverd.in\nb.in\nbl.in\nbloemfonte.in\nboatswa.in\nbodik.in\nboisseva.in\nbombes.in\nbotul.in\nbouda.in\nbradykin.in\nbrasil.in\nbratta.in\nbrazile.in\nbrazil.in\nbreastp.in\nbr.in\nbroadalb.in\nbromel.in\nbromeos.in\nbruc.in\nbukhar.in\nbulgan.in\nbutazolid.in\nbutyr.in\nbyrlak.in\nca.in\ncalamond.in\ncalciton.in\ncalfsk.in\ncalixt.in\ncalmodul.in\ncalpa.in\ncamigu.in\ncandlep.in\ncanik.in\ncannik.in\ncantharid.in\ncanthaxanth.in\ncapel.in\ncapesk.in\ncapuch.in\ncapul.in\ncarboxyhemoglob.in\ncarrageen.in\ncarragheen.in\ncaryot.in\ncassegra.in\ncatamounta.in\ncatercous.in\ncatharp.in\ncatheps.in\ncatsk.in\ncelloid.in\ncephalex.in\ncephalospor.in\ncephaloth.in\nceras.in\nceruloplasm.in\nchaliap.in\nchambert.in\nchamfra.in\nchapla.in\ncheckre.in\nchelyusk.in\nchernomyrd.in\nchevrota.in\nchilbla.in\nchiloqu.in\nch.in\nchincap.in\nchindw.in\nchinkap.in\nchlorocruor.in\nchlorohydr.in\nchloromycet.in\nchloropicr.in\nchloroqu.in\nchlorpicr.in\ncholecystokin.in\nchondr.in\nchondroit.in\nchromaff.in\nchromoprote.in\nchrysarob.in\nchtela.in\nchymopapa.in\nchymos.in\nchymotryps.in\nciner.in\ncinqua.in\ncipol.in\ncisplat.in\ncitr.in\ncitrin.in\nclenden.in\nclindamyc.in\ncloacal.in\nclothesp.in\ncloxacill.in\ncobalam.in\ncockswa.in\ncodoma.in\ncolera.in\ncolist.in\ncolra.in\ncomor.in\ncompl.in\nconcanaval.in\nconcepc.in\nconchiol.in\ncoonsk.in\ncoppersk.in\ncordwa.in\ncornb.in\ncorticotroph.in\ncorticotrop.in\ncounterdra.in\ncountersta.in\ncowsk.in\ncoxswa.in\ncrankp.in\ncremos.in\ncrems.in\ncrisp.in\ncroce.in\ncrotox.in\ncryoglobul.in\ncuchula.in\nculver.in\ncumar.in\ncutik.in\ncutsh.in\ncyanocobalam.in\ncyanohydr.in\ncyclodextr.in\ncycloolef.in\ncycloparaff.in\ncyclospor.in\ncyml.in\ncyste.in\ncytochalas.in\ncytokin.in\ncytolys.in\ndamasqu.in\ndamass.in\ndar.in\ndaunomyc.in\ndaunorubic.in\ndeersk.in\ndefens.in\ndemiculver.in\ndesyat.in\ndevilk.in\ndextr.in\ndicoumar.in\ndieldr.in\ndigitoxigen.in\ndigitox.in\ndigox.in\ndihydrostreptomyc.in\nd.in\ndiolef.in\ndiosgen.in\ndiphenylhydanto.in\ndisencha.in\ndisentra.in\ndisjo.in\ndisseis.in\ndistra.in\ndj.in\ndodk.in\ndoesk.in\ndogsk.in\ndoitk.in\ndoxorubic.in\ndr.in\ndrivetra.in\ndruml.in\ndumpb.in\ndunnak.in\nduquo.in\nduralum.in\ndystroph.in\nedw.in\neisenste.in\nela.in\nelater.in\neledois.in\neltan.in\nempir.in\nemuls.in\nencephal.in\nencurta.in\nendotox.in\nendp.in\nendr.in\nenkephal.in\nenterochromaff.in\nenterotox.in\nepichlorohydr.in\nereps.in\ner.in\nermel.in\nerw.in\nerythromyc.in\nerythropoiet.in\nerythros.in\netiol.in\neuca.in\neuchromat.in\neuglobul.in\neumelan.in\neuonym.in\nexotox.in\neyestra.in\nfa.in\nfawnsk.in\nfellah.in\nferredox.in\nferrit.in\nfetoprote.in\nfibrill.in\nfibrinolys.in\nfibronect.in\nf.in\nfinick.in\nfishsk.in\nflagell.in\nflavoprote.in\nflavopurpur.in\nfloodpla.in\nfluell.in\nfluoresce.in\nfo.in\nfolac.in\nfollicul.in\nforecab.in\nforeorda.in\nfoxsk.in\nfrancol.in\nfraule.in\nfrule.in\nfucoxanth.in\nga.in\ngalle.in\ngallitz.in\ngantris.in\ngastr.in\ngeartra.in\ngelsol.in\ngentamic.in\ngibberell.in\ng.in\ngirk.in\nglair.in\nglenull.in\nglhwe.in\ngliad.in\nglobul.in\nglono.in\nglucoprote.in\nglutel.in\ngluten.in\nglycoprote.in\ngoldve.in\ngonadotroph.in\ngonadotrop.in",
+      "raw_len": 75620
     },
     {
       "pid": "61764555",
@@ -126,8 +126,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "@Wilmer When I wake up yeah I know I'm gonna be I'm gonna be the man who wakes up next to you When I go out yeah I know I'm gonna be I'm gon https://t.co/GORYToqSYA <pic.twitter.com/GORYToqSYA>\n\n\n@Wilmer When I wake up yeah I know I'm gonna be I'm gonna be the man who wakes up next to you When I go out yeah I know I'm gonna be I'm gon https://t.co/GORYToqSYA <pic.twitter.com/GORYToqSYA> <pic.twitter.com/GORYToqSYA> <pic.twitter.com/GORYToqSYA>\n",
+      "raw_len": 448
     },
     {
       "pid": "54558354",
@@ -137,8 +137,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "08:06:10  whvholst| [a6] RT @JM_Underwood: My sister, currently helping run a refugee\n                       school in Greece, has asked me to pass this on. The Nazis are\n                           literally back. https://t.co/p4SBVodKqP                                                 <pic.twitter.com/p4SBVodKqP> <pic.twitter.com/p4SBVodKqP>                               <pic.twitter.com/p4SBVodKqP>",
+      "raw_len": 402
     },
     {
       "pid": "99115704",
@@ -148,8 +148,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "wilmer@peer:/tmp$ gpg < release.key \ngpg: Note: old default options file '/home/wilmer/.gnupg/options' ignored\npub   dsa1024 2010-05-27 [SC]\n      FC7345337B5B29D8DAA1A88E94EEA1F2C7E50436\nuid           BitlBee nightly builds .debs signing key <buildd@bitlbee.org>\n\n\n22:29:02  tittof| W: http://code.bitlbee.org/debian/master/xenial/armhf/./Release.gpg:\n                    Signature by key FC7345337B5B29D8DAA1A88E94EEA1F2C7E50436 uses weak\n                     digest algorithm (SHA1)                                               \n\n",
+      "raw_len": 534
     },
     {
       "pid": "58598057",
@@ -159,8 +159,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "wilmer@ruby:/mnt$ sudo ls -laR radio\nradio:\ntotal 321940\ndrwxr-xr-x  6 root root     4096 jun 12  2009 .\ndrwxr-xr-x 12 root root     4096 jun 12  2009 ..\n-rw-r--r--  1 root root 73043814 jul 29  2000 20000613-0200.mp3\n-rw-r--r--  1 root root 21638919 jun 15  2000 20000615-0025.mp3\n-rw-r--r--  1 root root 15495168 jun 15  2000 20000615-0125.mp3\n-rw-r--r--  1 root root  9134080 jun 15  2000 20000615-0225.mp3\n-rw-r--r--  1 root root 21647875 jun 15  2000 20000615-0325.mp3\n-rw-r--r--  1 root root 21647868 jun 15  2000 20000615-0425.mp3\n-rw-r--r--  1 root root 15953081 jun 15  2000 20000615-0525.mp3\n-rw-r--r--  1 root root 21637824 aug  1  2000 20000801-0100.mp3\n-rw-r--r--  1 root root 15958016 aug  1  2000 20000801-0200.mp3\n-rw-r--r--  1 root root 21641755 okt 31  2000 20001031-0100.mp3\n-rw-r--r--  1 root root 16410624 okt 31  2000 20001031-0200.mp3\n-rw-r--r--  1 root root 21649580 okt 31  2000 20001031-0300.mp3\n-rw-r--r--  1 root root 21647873 okt 31  2000 20001031-0400.mp3\n-rw-r--r--  1 root root 16835087 okt 31  2000 20001031-0500.mp3\n-rw-r--r--  1 root root      341 mei  1  2002 HOOGTEPUNTEN\ndrwxr-xr-x  2 root root     4096 jul 31  2000 beelen\n-rw-r--r--  1 root root 14431007 jul 17  2000 beelen.mp3\ndrwxr-xr-x  2 root root     4096 nov 25  2000 chierkoet\ndrwxr-xr-x  2 root root     4096 jul 17  2000 ekdom\n-rw-r--r--  1 root root   412203 mei  4  2000 haat.mp3\ndrwx------  2 root root     4096 okt 27  2000 wav\n\nradio/beelen:\ntotal 1520380\ndrwxr-xr-x 2 root root     4096 jul 31  2000 .\ndrwxr-xr-x 6 root root     4096 jun 12  2009 ..\n-rw-r--r-- 1 root root 21638256 apr 20  2000 20000420-1400.mp3\n-rw-r--r-- 1 root root 21644463 apr 20  2000 20000420-1500.mp3\n-rw-r--r-- 1 root root 21635016 apr 22  2000 20000422-0300.mp3\n-rw-r--r-- 1 root root 21646136 apr 22  2000 20000422-0400.mp3\n-rw-r--r-- 1 root root 21646780 apr 22  2000 20000422-0500.mp3\n-rw-r--r-- 1 root root 21638921 apr 23  2000 20000423-0300.mp3\n-rw-r--r-- 1 root root 21645659 apr 23  2000 20000423-0400.mp3\n-rw-r--r-- 1 root root 21647241 apr 23  2000 20000423-0500.mp3\n-rw-r--r-- 1 root root 21638921 apr 29  2000 20000429-0300.mp3\n-rw-r--r-- 1 root root 21646777 apr 29  2000 20000429-0400.mp3\n-rw-r--r-- 1 root root 21646136 apr 29  2000 20000429-0500.mp3\n-rw-r--r-- 1 root root 21636614 mei  1  2000 20000430-0300.mp3\n-rw-r--r-- 1 root root 21645671 mei  1  2000 20000430-0400.mp3\n-rw-r--r-- 1 root root 21645399 mei  1  2000 20000430-0500.mp3\n-rw-r--r-- 1 root root 20824642 mei  8  2000 20000506-0300.mp3\n-rw-r--r-- 1 root root  5013601 mei  9  2000 20000506-0400.mp3\n-rw-r--r-- 1 root root 33180703 mei  9  2000 20000506-0430.mp3\n-rw-r--r-- 1 root root 21642851 mei  7  2000 20000507-0300.mp3\n-rw-r--r-- 1 root root 21645685 mei  7  2000 20000507-0400.mp3\n-rw-r--r-- 1 root root 21646128 mei  7  2000 20000507-0500.mp3\n-rw-r--r-- 1 root root 21627071 mei 13  2000 20000513-0301.mp3\n-rw-r--r-- 1 root root 21646146 mei 13  2000 20000513-0401.mp3\n-rw-r--r-- 1 root root 21638915 mei 14  2000 20000514-0303.mp3\n-rw-r--r-- 1 root root 21645669 mei 14  2000 20000514-0403.mp3\n-rw-r--r-- 1 root root 21646768 mei 14  2000 20000514-0503.mp3\n-rw-r--r-- 1 root root 21639463 mei 20  2000 20000520-0300.mp3\n-rw-r--r-- 1 root root 21645644 mei 20  2000 20000520-0400.mp3\n-rw-r--r-- 1 root root 21646088 mei 20  2000 20000520-0500.mp3\n-rw-r--r-- 1 root root 21619478 mei 21  2000 20000521-0300.mp3\n-rw-r--r-- 1 root root 21646124 mei 21  2000 20000521-0400.mp3\n-rw-r--r-- 1 root root 21646769 mei 21  2000 20000521-0500.mp3\n-rw-r--r-- 1 root root 21638919 mei 27  2000 20000527-0300.mp3\n-rw-r--r-- 1 root root 21647782 mei 27  2000 20000527-0400.mp3\n-rw-r--r-- 1 root root 21648967 mei 27  2000 20000527-0500.mp3\n-rw-r--r-- 1 root root 21636060 mei 28  2000 20000528-0300.mp3\n-rw-r--r-- 1 root root 21648319 mei 28  2000 20000528-0400.mp3\n-rw-r--r-- 1 root root 21647754 mei 28  2000 20000528-0500.mp3\n-rw-r--r-- 1 root root 21640564 jun  3  2000 20000603-0300.mp3\n-rw-r--r-- 1 root root 21645676 jun  3  2000 20000",
+      "raw_len": 9429
     },
     {
       "pid": "33437954",
@@ -170,8 +170,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "09:06:24 @   wilmer| ac gtalk off\n09:06:24 @root| gtalk - Logging in: Signing off..\n09:06:24 @root| gtalk - Logging in: If you're having problems logging in, try \n                re-requesting an OAuth token: account gtalk set password \"\"\n09:06:35 @   wilmer| ac gtalk on\n09:06:35 @root| gtalk - Logging in: Connecting\n09:06:35 @root| gtalk - Logging in: Connected to server, logging in\n09:06:35 @root| gtalk - Logging in: Converting stream to TLS\n09:06:35 @root| gtalk - Logging in: Connected to server, logging in\n09:06:35 @root| gtalk - Logging in: Authentication finished\n09:06:35 @root| gtalk - Logging in: Server changed session resource string to \n                `BitlBeeFB523CA0'\n09:06:35 @root| gtalk - Logging in: Authenticated, requesting buddy list\n09:06:35 @root| gtalk - Logging in: Logged in\n09:07:42 @root| gtalk - Connecting\n09:07:42 @root| gtalk - Connected to server, logging in\n",
+      "raw_len": 899
     },
     {
       "pid": "54793809",
@@ -181,8 +181,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Wacht es, de URL werkt wel maar werkt niet?",
+      "raw_len": 43
     },
     {
       "pid": "46915231",
@@ -192,8 +192,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Werkt dit op de nieuwe bak? :-D",
+      "raw_len": 31
     },
     {
       "pid": "62414646",
@@ -203,8 +203,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@appie:~/puppet# bzr diff\n=== modified file 'manifests/site.pp'\n--- manifests/site.pp\t2016-01-10 00:11:06 +0000\n+++ manifests/site.pp\t2016-01-10 00:53:00 +0000\n@@ -232,9 +232,11 @@\n \t\t\t\"code.bitlbee.org\",\n \t\t\t\"get.bitlbee.org\",\n \t\t\t\"wiki.bitlbee.org\",\n+\t\t\t\"bugs.bitlbee.org\",\n \t\t],\n \t\tuwsgi_apps => [\n \t\t\t\"moin.ini\",\n+\t\t\t\"trac.ini\",\n \t\t],\n \t}\n \t\n@@ -242,7 +244,7 @@\n \t\tsource => \"puppet:///modules/files/moin/mywiki.py\",\n \t}\n \t\n-\tpackage { \"trac\":\n+\tpackage { \"trac\", \"git\":\n \t\tensure => installed,\n \t}\n }\n\n=== added file 'site/modules/nginx/files/sites/bugs.bitlbee.org'\n--- site/modules/nginx/files/sites/bugs.bitlbee.org\t1970-01-01 00:00:00 +0000\n+++ site/modules/nginx/files/sites/bugs.bitlbee.org\t2016-01-10 00:50:57 +0000\n@@ -0,0 +1,35 @@\n+server {\n+\tlisten 80;\n+\tlisten [::]:80;\n+\n+\t# SSL configuration\n+\t# And this one's the default/fallback server\n+\t#\n+\tlisten 443 ssl;\n+\tlisten [::]:443 ssl;\n+\n+\tssl_certificate /etc/letsencrypt/live/bitlbee.org/fullchain.pem;\n+\tssl_certificate_key /etc/letsencrypt/live/bitlbee.org/privkey.pem;\n+\n+\troot /var/www/org/bitlbee/bugs;\n+\n+\tindex index.html index.htm index.nginx-debian.html;\n+\n+\tserver_name bugs.bitlbee.org;\n+\n+\tlocation / {\n+\t\tuwsgi_pass unix:/var/tmp/trac.sock;\n+\t\tinclude uwsgi_params;\n+\t}\n+\t\n+\tlocation /chrome {\n+\t\talias /var/www/org/bitlbee/bugs/bitlbee/chrome;\n+\t}\n+\n+\t# deny access to .htaccess files, if Apache's document root\n+\t# concurs with nginx's one\n+\t#\n+\tlocation ~ /\\.ht {\n+\t\tdeny all;\n+\t}\n+}\n\n=== added file 'site/modules/nginx/files/uwsgi/trac.ini'\n--- site/modules/nginx/files/uwsgi/trac.ini\t1970-01-01 00:00:00 +0000\n+++ site/modules/nginx/files/uwsgi/trac.ini\t2016-01-10 00:20:42 +0000\n@@ -0,0 +1,14 @@\n+[uwsgi]\n+uid = www-data\n+gid = www-data\n+socket = /var/tmp/trac.sock\n+chmod-socket = 660\n+\n+chdir = /var/www/org/bitlbee/bugs/\n+wsgi-file = /var/www/org/bitlbee/bugs/trac.wsgi\n+\n+[master]\n+workers = 3\n+max-requests = 200\n+harakiri = 30\n+die-on-term\n\n",
+      "raw_len": 1938
     },
     {
       "pid": "38299278",
@@ -214,8 +214,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "18:45:32     dekisu| numberspam incoming\n18:45:42     wilmer| paste detection off? :-)\n18:45:43     dekisu| 1\n18:45:44     dekisu| 2\n18:45:46     dekisu| 3\n18:45:47     dekisu| 4\n18:45:50     dekisu| 5\n18:45:53     dekisu| 6\n18:45:56     dekisu| 7\n18:45:58     dekisu| 8\n18:46:01     dekisu| 9\n18:52:24     wilmer| They all arrived \\o/\n\n\nsooo the last line was a lie",
+      "raw_len": 366
     },
     {
       "pid": "69052572",
@@ -225,8 +225,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "rm -f /tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/bitlbee-common/usr/share/bitlbee//help.txt # Prevent help function from breaking in running sessions\ninstall -p -m 0644 /tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/doc/user-guide/help.txt /tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/bitlbee-common/usr/share/bitlbee//help.txt\nmake[3]: Leaving directory '/tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/build-native/doc/user-guide'\nmake[2]: Leaving directory '/tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/build-native/doc'\n/usr/bin/make -C protocols/skype install-doc\nmake[2]: Entering directory '/tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/build-native/protocols/skype'\ninstall -d /tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/bitlbee-common/usr/share/man//man1\ninstall -m644  /tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/bitlbee-common/usr/share/man//man1\ninstall: missing destination file operand after '/tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/bitlbee-common/usr/share/man//man1'\nTry 'install --help' for more information.\nMakefile:22: recipe for target 'install-doc' failed\nmake[2]: *** [install-doc] Error 1\nmake[2]: Leaving directory '/tmp/buildd/bitlbee-3.4+20150528+hip-cat+88-gd2d2b80/debian/build-native/protocols/skype'\nMakefile:78: recipe for target 'install-doc' failed\nmake[1]: *** [install-doc] Error 2",
+      "raw_len": 1448
     },
     {
       "pid": "51702364",
@@ -236,8 +236,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "{\n   \"id_str\" : \"588457475390640128\",\n   \"truncated\" : false,\n   \"text\" : \"I don't know how women deal with the complex, shifting set of rules they have to follow to survive in tech. https://t.co/1QuYYbW69u\",\n   \"in_reply_to_user_id\" : null,\n   \"entities\" : {\n      \"symbols\" : [],\n      \"hashtags\" : [],\n      \"urls\" : [\n         {\n            \"indices\" : [\n               108,\n               131\n            ],\n            \"expanded_url\" : \"https://twitter.com/AlannaBennett/status/588430226935435264\",\n            \"display_url\" : \"twitter.com/AlannaBennett/…\",\n            \"url\" : \"https://t.co/1QuYYbW69u\"\n         }\n      ],\n      \"user_mentions\" : []\n   },\n   \"in_reply_to_screen_name\" : null,\n   \"in_reply_to_user_id_str\" : null,\n   \"retweet_count\" : 0,\n   \"in_reply_to_status_id_str\" : null,\n   \"contributors\" : null,\n   \"quoted_status_id\" : 588430226935435264,\n   \"quoted_status_id_str\" : \"588430226935435264\",\n   \"id\" : 588457475390640128,\n   \"retweeted\" : false,\n   \"in_reply_to_status_id\" : null,\n   \"favorite_count\" : 0,\n   \"favorited\" : false,\n   \"lang\" : \"en\",\n   \"source\" : \"<a href=\\\"http://twitter.com\\\" rel=\\\"nofollow\\\">Twitter Web Client</a>\",\n   \"timestamp_ms\" : \"1429134169801\",\n   \"quoted_status\" : {\n      \"user\" : {\n         \"created_at\" : \"Thu Mar 11 15:00:48 +0000 2010\",\n         \"profile_image_url_https\" : \"https://pbs.twimg.com/profile_images/588142389069422593/qo0fkBYS_normal.png\",\n         \"geo_enabled\" : true,\n         \"profile_image_url\" : \"http://pbs.twimg.com/profile_images/588142389069422593/qo0fkBYS_normal.png\",\n         \"id\" : 122085859,\n         \"profile_text_color\" : \"333333\",\n         \"url\" : \"http://alannakcbennett.wix.com/alannabennett#!portfolio/c1t44\",\n         \"name\" : \"Alanna Bennett\",\n         \"profile_background_image_url_https\" : \"https://pbs.twimg.com/profile_background_images/461315471074000896/7MLxjFS7.png\",\n         \"screen_name\" : \"AlannaBennett\",\n         \"profile_background_color\" : \"ACDED6\",\n         \"favourites_count\" : 11654,\n         \"is_translation_enabled\" : false,\n         \"profile_location\" : null,\n         \"location\" : \"New York/Stars Hollow\",\n         \"listed_count\" : 33,\n         \"followers_count\" : 1078,\n         \"default_profile\" : false,\n         \"is_translator\" : false,\n         \"profile_background_tile\" : true,\n         \"profile_sidebar_fill_color\" : \"F6F6F6\",\n         \"id_str\" : \"122085859\",\n         \"profile_background_image_url\" : \"http://pbs.twimg.com/profile_background_images/461315471074000896/7MLxjFS7.png\",\n         \"verified\" : false,\n         \"time_zone\" : \"Pacific Time (US & Canada)\",\n         \"following\" : null,\n         \"notifications\" : null,\n         \"friends_count\" : 2000,\n         \"profile_link_color\" : \"1C5417\",\n         \"description\" : \"Writer/Blah-Gah. @BuzzfeedGeeky. Formerly Weekend Editor @TheMarySue. Wannabe, sans rhythm. alanna.bennett@buzzfeed.com\",\n         \"statuses_count\" : 15648,\n         \"contributors_enabled\" : false,\n         \"lang\" : \"en\",\n         \"profile_use_background_image\" : true,\n         \"utc_offset\" : -25200,\n         \"default_profile_image\" : false,\n         \"profile_sidebar_border_color\" : \"FFFFFF\",\n         \"follow_request_sent\" : null,\n         \"profile_banner_url\" : \"https://pbs.twimg.com/profile_banners/122085859/1414108529\",\n         \"protected\" : false\n      },\n      \"coordinates\" : null,\n      \"geo\" : null,\n      \"place\" : null,\n      \"created_at\" : \"Wed Apr 15 19:54:33 +0000 2015\",\n      \"possibly_sensitive\" : false,\n      \"source\" : \"<a href=\\\"http://twitter.com\\\" rel=\\\"nofollow\\\">Twitter Web Client</a>\",\n      \"lang\" : \"en\",\n      \"favorited\" : false,\n      \"favorite_count\" : 321,\n      \"id\" : 588430226935435264,\n      \"in_reply_to_status_id\" : null,\n      \"retweeted\" : false,\n      \"extended_entities\" : {\n         \"media\" : [\n            {\n               \"id_str\" : \"588430226314629120\",\n               \"id\" : 588430226314629120,\n               \"display_url\" : \"pic.twitter.com/GwnibrmGoD\",\n               \"url\" : \"http://t.",
+      "raw_len": 8740
     },
     {
       "pid": "50872819",
@@ -247,8 +247,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "_ACEOF\nif ac_fn_c_try_compile \"$LINENO\"; then :\n  ac_lo=$ac_mid; break\nelse   \n  as_fn_arith '(' $ac_mid ')' - 1 && ac_hi=$as_val\n                        if test $ac_mid -le $ac_hi; then\n                          ac_lo= ac_hi=\n                          break\n                        fi\n                        as_fn_arith 2 '*' $ac_mid && ac_mid=$as_val\nfi\nrm -f core conftest.err conftest.$ac_objext conftest.$ac_ext\n  done\nelse\n  ac_lo= ac_hi=\nfi\nac_try='$CC -c conftest.$ac_ext -o conftest2.$ac_objext >&5'\nrm -f conftest2.*\nif { { case \"(($ac_try\" in\n  *\\\"* | *\\`* | *\\\\*) ac_try_echo=\\$ac_try;;\n  *) ac_try_echo=$ac_try;;\nesac   \neval ac_try_echo=\"\\\"\\$as_me:${as_lineno-$LINENO}: $ac_try_echo\\\"\"\n$as_echo \"$ac_try_echo\"; } >&5\n  (eval \"$ac_try\") 2>&5\n  ac_status=$?\n  $as_echo \"$as_me:${as_lineno-$LINENO}: \\$? = $ac_status\" >&5\n  test $ac_status = 0; } &&\n   test -f conftest2.$ac_objext && { { case \"(($ac_try\" in\n  *\\\"* | *\\`* | *\\\\*) ac_try_echo=\\$ac_try;;\n  *) ac_try_echo=$ac_try;;\nesac\neval ac_try_echo=\"\\\"\\$as_me:${as_lineno-$LINENO}: $ac_try_echo\\\"\"\n$as_echo \"$ac_try_echo\"; } >&5\n  (eval \"$ac_try\") 2>&5\n  ac_status=$?\n  $as_echo \"$as_me:${as_lineno-$LINENO}: \\$? = $ac_status\" >&5\n  test $ac_status = 0; };\nthen\n  eval ac_cv_prog_cc_${ac_cc}_c_o=yes\n  if test \"x$CC\" != xcc; then\n    # Test first that cc exists at all.\n    if { ac_try='cc -c conftest.$ac_ext >&5'\n  { { case \"(($ac_try\" in  \n  *\\\"* | *\\`* | *\\\\*) ac_try_echo=\\$ac_try;;\n  *) ac_try_echo=$ac_try;;\nesac\neval ac_try_echo=\"\\\"\\$as_me:${as_lineno-$LINENO}: $ac_try_echo\\\"\"\n$as_echo \"$ac_try_echo\"; } >&5\n  (eval \"$ac_try\") 2>&5\n  ac_status=$?\n  $as_echo \"$as_me:${as_lineno-$LINENO}: \\$? = $ac_status\" >&5\n  test $ac_status = 0; }; }; then\n      ac_try='cc -c conftest.$ac_ext -o conftest2.$ac_objext >&5'\n      rm -f conftest2.*\n      if { { case \"(($ac_try\" in\n  *\\\"* | *\\`* | *\\\\*) ac_try_echo=\\$ac_try;;\n  *) ac_try_echo=$ac_try;;\nesac\neval ac_try_echo=\"\\\"\\$as_me:${as_lineno-$LINENO}: $ac_try_echo\\\"\"\n$as_echo \"$ac_try_echo\"; } >&5\n  (eval \"$ac_try\") 2>&5\n  ac_status=$?\n  $as_echo \"$as_me:${as_lineno-$LINENO}: \\$? = $ac_status\" >&5\n  test $ac_status = 0; } &&\n         test -f conftest2.$ac_objext && { { case \"(($ac_try\" in\n  *\\\"* | *\\`* | *\\\\*) ac_try_echo=\\$ac_try;;\n  *) ac_try_echo=$ac_try;;\nesac\neval ac_try_echo=\"\\\"\\$as_me:${as_lineno-$LINENO}: $ac_try_echo\\\"\"\n$as_echo \"$ac_try_echo\"; } >&5\n  (eval \"$ac_try\") 2>&5   \n  ac_status=$?\n  $as_echo \"$as_me:${as_lineno-$LINENO}: \\$? = $ac_status\" >&5\n  test $ac_status = 0; };\n      then\n        # cc works too.\n        :\n      else\n        # cc exists but doesn't like -o.\n        eval ac_cv_prog_cc_${ac_cc}_c_o=no\n      fi\n    fi\n  fi\nelse\n  eval ac_cv_prog_cc_${ac_cc}_c_o=no\nfi\nrm -f core conftest*   \n",
+      "raw_len": 2746
     },
     {
       "pid": "14341505",
@@ -258,8 +258,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Over happy hacking gesproken .. een leuk idee bedacht op de trekker. Jij\nzat toch wat te knoeien met een ICQ client voor irssi? Jonge, dat kan\nveel beter. Mijn idee:\n\nEen IRC server waar maar één user tegelijk in kan loggen (meer kan wel,\nmaar is niet van belang, dat wordt gewoon een compleet nieuwe sessie van\nde server, staat los van elkaar dus). Stuur je passwords door en de\nserver connect met ICQ, M$N, Jabber, etc.. Heb je gewoon een IRC-to-*\ngateway die voor iedereen bruikbaar is, niet alleen voor irssi lusers.\n\nChatten via ICQ met mij? /query -IG 72696705 (oid). Als er iemand online\nkomt stuurt de server dat gewoon als een server bericht ofzo, of een\nnotice, of een notify. Wat dan ook. Al die users komen gewoon in /who te\nstaan, heb je dus meteen een mooie manier om de contact list te\nbekijken. En misschien nog wat extra dingen, /query -IG system voor\nbeheer van je account .. etc.",
+      "raw_len": 898
     },
     {
       "pid": "76578635",
@@ -269,8 +269,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "wilmer@peer:~/src/bitlbee/devel$ bzr pull http://bzr.dequis.org/bitlbee/git-sync/\nbzr: ERROR: exceptions.AttributeError: 'TransportRepo' object has no attribute 'ref'               \n\nTraceback (most recent call last):\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 930, in exception_to_return_code\n    return the_callable(*args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 1121, in run_bzr\n    ret = run(*run_argv)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 673, in run_argv_aliases\n    return self.run(**all_cmd_args)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 697, in run\n    return self._operation.run_simple(*args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/cleanup.py\", line 136, in run_simple\n    self.cleanups, self.func, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/cleanup.py\", line 166, in _do_with_cleanups\n    result = func(*args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/builtins.py\", line 1243, in run\n    local=local, show_base=show_base)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/decorators.py\", line 218, in write_locked\n    result = unbound(self, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/workingtree.py\", line 995, in pull\n    old_revision_info = self.branch.last_revision_info()\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/decorators.py\", line 155, in read_locked\n    result = unbound(self, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/branch.py\", line 1049, in last_revision_info\n    self._last_revision_info_cache = self._read_last_revision_info()\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/plugins/git/branch.py\", line 563, in _read_last_revision_info\n    last_revid = self.last_revision()\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/decorators.py\", line 155, in read_locked\n    result = unbound(self, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/plugins/git/branch.py\", line 482, in last_revision\n    if self.head is None:\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/plugins/git/branch.py\", line 558, in _get_head\n    return self.repository._git.ref(self.ref or \"HEAD\")\nAttributeError: 'TransportRepo' object has no attribute 'ref'\n\nbzr 2.7.0dev1 on python 2.7.9 (Linux-3.16.0-4-amd64-x86_64-with-debian-8.0)\narguments: ['/usr/bin/bzr', 'pull', 'http://bzr.dequis.org/bitlbee/git-sync/']\nplugins: bash_completion[2.7.0dev1], bzrtools[2.6.0],\n    changelog_merge[2.7.0dev1], git[0.6.12], grep[2.7.0dev1],\n    launchpad[2.7.0dev1], netrc_credential_store[2.7.0dev1],\n    news_merge[2.7.0dev1], po_merge[2.7.0dev1], rewrite[0.6.4dev],\n    weave_fmt[2.7.0dev1], xmloutput[0.8.8]\nencoding: 'utf-8', fsenc: 'UTF-8', lang: 'en_GB.UTF-8'\n\n*** Bazaar has encountered an internal error.  This probably indicates a\n    bug in Bazaar.  You can help us fix it by filing a bug report at\n        https://bugs.launchpad.net/bzr/+filebug\n    including this traceback and a description of the problem.\n",
+      "raw_len": 3047
     },
     {
       "pid": "41502516",
@@ -280,8 +280,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "wilmer@peer:~/src/bitlbee/devel$ bzr pull http://bzr.dequis.org/bitlbee/git-sync/\nbzr: ERROR: exceptions.AttributeError: 'TransportRepo' object has no attribute 'ref'               \n\nTraceback (most recent call last):\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 930, in exception_to_return_code\n    return the_callable(*args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 1121, in run_bzr\n    ret = run(*run_argv)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 673, in run_argv_aliases\n    return self.run(**all_cmd_args)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/commands.py\", line 697, in run\n    return self._operation.run_simple(*args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/cleanup.py\", line 136, in run_simple\n    self.cleanups, self.func, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/cleanup.py\", line 166, in _do_with_cleanups\n    result = func(*args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/builtins.py\", line 1243, in run\n    local=local, show_base=show_base)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/decorators.py\", line 218, in write_locked\n    result = unbound(self, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/workingtree.py\", line 995, in pull\n    old_revision_info = self.branch.last_revision_info()\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/decorators.py\", line 155, in read_locked\n    result = unbound(self, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/branch.py\", line 1049, in last_revision_info\n    self._last_revision_info_cache = self._read_last_revision_info()\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/plugins/git/branch.py\", line 563, in _read_last_revision_info\n    last_revid = self.last_revision()\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/decorators.py\", line 155, in read_locked\n    result = unbound(self, *args, **kwargs)\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/plugins/git/branch.py\", line 482, in last_revision\n    if self.head is None:\n  File \"/usr/lib/python2.7/dist-packages/bzrlib/plugins/git/branch.py\", line 558, in _get_head\n    return self.repository._git.ref(self.ref or \"HEAD\")\nAttributeError: 'TransportRepo' object has no attribute 'ref'\n\nbzr 2.7.0dev1 on python 2.7.9 (Linux-3.16.0-4-amd64-x86_64-with-debian-8.0)\narguments: ['/usr/bin/bzr', 'pull', 'http://bzr.dequis.org/bitlbee/git-sync/']\nplugins: bash_completion[2.7.0dev1], bzrtools[2.6.0],\n    changelog_merge[2.7.0dev1], git[0.6.12], grep[2.7.0dev1],\n    launchpad[2.7.0dev1], netrc_credential_store[2.7.0dev1],\n    news_merge[2.7.0dev1], po_merge[2.7.0dev1], rewrite[0.6.4dev],\n    weave_fmt[2.7.0dev1], xmloutput[0.8.8]\nencoding: 'utf-8', fsenc: 'UTF-8', lang: 'en_GB.UTF-8'\n\n*** Bazaar has encountered an internal error.  This probably indicates a\n    bug in Bazaar.  You can help us fix it by filing a bug report at\n        https://bugs.launchpad.net/bzr/+filebug\n    including this traceback and a description of the problem.\n",
+      "raw_len": 3047
     },
     {
       "pid": "19141923",
@@ -291,8 +291,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "dpkg-source: info: using source format `1.0'\ndpkg-source: info: building bitlbee in bitlbee_3.2.1+otr4+20140927+devel+1046-2.tar.gz\ndpkg-source: info: building bitlbee in bitlbee_3.2.1+otr4+20140927+devel+1046-2.dsc\n debian/rules build\ndpkg-buildflags: unknown option `--export=configure'\n\ndpkg-buildflags: unknown option `--export=configure'\n\ndh_testdir\nmkdir -p debian/build-native\nROOT=$PWD; cd debian/build-native; BITLBEE_VERSION=\"3.2.1+otr4+20140927+devel+1046-2\" Usage: dpkg-buildflags [<action>]  Actions:   --get <flag>       output the requested flag to stdout.   --origin <flag>    output the origin of the flag to stdout:                      value is one of vendor, system, user, env.   --list             output a list of the flags supported by the current vendor.   --export=(sh|make) output commands to be executed in shell or make that export                      all the compilation flags as environment variables.   --help             show this help message.   --version          show the version. $ROOT/configure --debug=0 --prefix=/usr --etcdir=/etc/bitlbee --events=libevent --otr=0 --skype=plugin  --debug=1\n/bin/sh: Syntax error: \"(\" unexpected\nmake: *** [build-stamp] Error 2\ndpkg-buildpackage: error: debian/rules build gave error exit status 2\nE: Failed autobuilding of package\nI: unmounting dev/pts filesystem\nI: unmounting run/shm filesystem\nI: unmounting proc filesystem\nI: cleaning the build env \nI: removing directory /var/cache/pbuilder/build//9165 and its subdirectories\n",
+      "raw_len": 1505
     },
     {
       "pid": "69440879",
@@ -302,8 +302,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "// ==UserScript==\n// @name        Geen oranje\n// @namespace   nl.fok.geenoranje\n// @description Weg met die oranje nicks. Of eigenlijk alle nicks. Maak ze maar gewoon zwart tijdens het WK.\n// @include     http://forum.fok.nl/topic/*\n// @version     1\n// @grant       none\n// ==/UserScript==\n\nfor (let i of document.getElementsByClassName(\"username\")) {\n\ti.style.color = \"#000000\";\n}\n",
+      "raw_len": 383
     },
     {
       "pid": "16751938",
@@ -313,8 +313,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "const int edges[107] = {\n\t0, /* 1-based */\n\t/*   1 */ 17,\n\t/*   2 */ 16,\n\t/*   3 */ 0,\n\t/*   4 */ 1,\n\t/*   5 */ 16,\n\t/*   6 */ 0,\n\t/*   7 */ 0,\n\t/*   8 */ 0,\n\t/*   9 */ 1,\n\t/*  10 */ 16,\n\t/*  11 */ 0,\n\t/*  12 */ 0,\n\t/*  13 */ 0,\n\t/*  14 */ 0,\n\t/*  15 */ 0,\n\t/*  16 */ 1,\n\t/*  17 */ 16,\n\t/*  18 */ 0,\n\t/*  19 */ 0,\n\t/*  20 */ 0,\n\t/*  21 */ 0,\n\t/*  22 */ 0,\n\t/*  23 */ 0,\n\t/*  24 */ 0,\n\t/*  25 */ 1,\n\t/*  26 */ 16,\n\t/*  27 */ 0,\n\t/*  28 */ 0,\n\t/*  29 */ 0,\n\t/*  30 */ 0,\n\t/*  31 */ 0,\n\t/*  32 */ 0,\n\t/*  33 */ 0,\n\t/*  34 */ 0,\n\t/*  35 */ 0,\n\t/*  36 */ 1,\n\t/*  37 */ 24,\n\t/*  38 */ 0,\n\t/*  39 */ 0,\n\t/*  40 */ 0,\n\t/*  41 */ 0,\n\t/*  42 */ 0,\n\t/*  43 */ 0,\n\t/*  44 */ 0,\n\t/*  45 */ 0,\n\t/*  46 */ 0,\n\t/*  47 */ 0,\n\t/*  48 */ 0,\n\t/*  49 */ 3,\n\t/*  50 */ 8,\n\t/*  51 */ 0,\n\t/*  52 */ 0,\n\t/*  53 */ 0,\n\t/*  54 */ 0,\n\t/*  55 */ 0,\n\t/*  56 */ 0,\n\t/*  57 */ 0,\n\t/*  58 */ 0,\n\t/*  59 */ 0,\n\t/*  60 */ 0,\n\t/*  61 */ 2,\n\t/*  62 */ 8,\n\t/*  63 */ 0,\n\t/*  64 */ 0,\n\t/*  65 */ 0,\n\t/*  66 */ 0,\n\t/*  67 */ 0,\n\t/*  68 */ 0,\n\t/*  69 */ 0,\n\t/*  70 */ 0,\n\t/*  71 */ 0,\n\t/*  72 */ 2,\n\t/*  73 */ 8,\n\t/*  74 */ 0,\n\t/*  75 */ 0,\n\t/*  76 */ 0,\n\t/*  77 */ 0,\n\t/*  78 */ 0,\n\t/*  79 */ 0,\n\t/*  80 */ 0,\n\t/*  81 */ 0,\n\t/*  82 */ 2,\n\t/*  83 */ 8,\n\t/*  84 */ 0,\n\t/*  85 */ 0,\n\t/*  86 */ 0,\n\t/*  87 */ 0,\n\t/*  88 */ 0,\n\t/*  89 */ 0,\n\t/*  90 */ 0,\n\t/*  91 */ 2,\n\t/*  92 */ 8,\n\t/*  93 */ 0,\n\t/*  94 */ 0,\n\t/*  95 */ 0,\n\t/*  96 */ 0,\n\t/*  97 */ 0,\n\t/*  98 */ 0,\n\t/*  99 */ 2,\n\t/* 100 */ 12,\n\t/* 101 */ 4,\n\t/* 102 */ 4,\n\t/* 103 */ 4,\n\t/* 104 */ 4,\n\t/* 105 */ 4,\n\t/* 106 */ 6,\n};\nconst int rowsize[] = {1, 3, 5, 7, 9, 11, 13, 12, 11, 10, 9, 8, 7, 0};\nconst int edge_cells[] = {1, 2, 4, 5, 9, 10, 16, 17, 25, 26, 36, 37, 49, 50, 61, 62, 72, 73, 82, 83, 91, 92, 99, 100, 101, 102, 103, 104, 105, 106, 0};\nconst int corner_cells[] = {1, 37, 49, 100, 106, 0};\nconst int neighs[107][6] = {\n\t{}, /* 1-based */\n\t/*   1 */ {  2,  3,  4},\n\t/*   2 */ {  1,  3,  5,  6},\n\t/*   3 */ {  1,  2,  4,  6,  7,  8},\n\t/*   4 */ {  1,  3,  8,  9},\n\t/*   5 */ {  2,  6, 10, 11},\n\t/*   6 */ {  2,  3,  5,  7, 11, 12},\n\t/*   7 */ {  3,  6,  8, 12, 13, 14},\n\t/*   8 */ {  3,  4,  7,  9, 14, 15},\n\t/*   9 */ {  4,  8, 15, 16},\n\t/*  10 */ {  5, 11, 17, 18},\n\t/*  11 */ {  5,  6, 10, 12, 18, 19},\n\t/*  12 */ {  6,  7, 11, 13, 19, 20},\n\t/*  13 */ {  7, 12, 14, 20, 21, 22},\n\t/*  14 */ {  7,  8, 13, 15, 22, 23},\n\t/*  15 */ {  8,  9, 14, 16, 23, 24},\n\t/*  16 */ {  9, 15, 24, 25},\n\t/*  17 */ { 10, 18, 26, 27},\n\t/*  18 */ { 10, 11, 17, 19, 27, 28},\n\t/*  19 */ { 11, 12, 18, 20, 28, 29},\n\t/*  20 */ { 12, 13, 19, 21, 29, 30},\n\t/*  21 */ { 13, 20, 22, 30, 31, 32},\n\t/*  22 */ { 13, 14, 21, 23, 32, 33},\n\t/*  23 */ { 14, 15, 22, 24, 33, 34},\n\t/*  24 */ { 15, 16, 23, 25, 34, 35},\n\t/*  25 */ { 16, 24, 35, 36},\n\t/*  26 */ { 17, 27, 37, 38},\n\t/*  27 */ { 17, 18, 26, 28, 38, 39},\n\t/*  28 */ { 18, 19, 27, 29, 39, 40},\n\t/*  29 */ { 19, 20, 28, 30, 40, 41},\n\t/*  30 */ { 20, 21, 29, 31, 41, 42},\n\t/*  31 */ { 21, 30, 32, 42, 43, 44},\n\t/*  32 */ { 21, 22, 31, 33, 44, 45},\n\t/*  33 */ { 22, 23, 32, 34, 45, 46},\n\t/*  34 */ { 23, 24, 33, 35, 46, 47},\n\t/*  35 */ { 24, 25, 34, 36, 47, 48},\n\t/*  36 */ { 25, 35, 48, 49},\n\t/*  37 */ { 26, 38, 50},\n\t/*  38 */ { 26, 27, 37, 39, 50, 51},\n\t/*  39 */ { 27, 28, 38, 40, 51, 52},\n\t/*  40 */ { 28, 29, 39, 41, 52, 53},\n\t/*  41 */ { 29, 30, 40, 42, 53, 54},\n\t/*  42 */ { 30, 31, 41, 43, 54, 55},\n\t/*  43 */ { 31, 42, 44, 55, 56},\n\t/*  44 */ { 31, 32, 43, 45, 56, 57},\n\t/*  45 */ { 32, 33, 44, 46, 57, 58},\n\t/*  46 */ { 33, 34, 45, 47, 58, 59},\n\t/*  47 */ { 34, 35, 46, 48, 59, 60},\n\t/*  48 */ { 35, 36, 47, 49, 60, 61},\n\t/*  49 */ { 36, 48, 61},\n\t/*  50 */ { 37, 38, 51, 62},\n\t/*  51 */ { 38, 39, 50, 52, 62, 63},\n\t/*  52 */ { 39, 40, 51, 53, 63, 64},\n\t/*  53 */ { 40, 41, 52, 54, 64, 65},\n\t/*  54 */ { 41, 42, 53, 55, 65, 66},\n\t/*  55 */ { 42, 43, 54, 56, 66, 67},\n\t/*  56 */ { 43, 44, 55, 57, 67, 68},\n\t/*  57 */ { 44, 45, 56, 58, 68, 69},\n\t/*  58 */ { 45, 46, 57, 59, 69, 70},\n\t/*  59 */ { 46, 47, 58, 60, 70, 71},\n\t/*  60 */ { 47, 48, 59,",
+      "raw_len": 44778
     },
     {
       "pid": "11408649",
@@ -324,8 +324,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "wilmer@fiona:~$ cut -b8-16 .irssi/irclogs/ION/#bitlbee.log | tr A-Z a-z | tr -d _\\ - | sort | uniq -c | sort -r | head -50\n 143859 wilmer\n  43649 krisfreme\n  34747 timing\n  32061 maurits\n  24098 sid3windr\n  23649 flexo\n  15107 kroesjnov\n  14490 lucumo\n  14278 *\n  13951 toxik\n  13652 rise\n  12805 nihplod\n  12730 grey\n  10696 tomoe\n  10349 hoyhoy\n  10139 habbie\n   8853 roel\n   6922 deeps\n   6328 ruskie\n   6321 vmiklos\n   6179 tuvok\n   5970 locutus\n   5937 kinlo\n   5878 wgreenhou\n   5720 willd\n   5358 br\n   4561 ulim\n   4550 tijmen\n   4418 arnie\n   4394 wonka\n   3946 njsg\n   3788 vanmuur\n   3782 aquatix\n   3711 changed\n   3692 trac3r\n   3632 vandread\n   3577 raela\n   3507 fuzzel\n   3415 kena\n   3368 spcomb\n   3227 janwil\n   2823 !\n   2812 jink\n   2793 redness\n   2777 werebones\n   2649 zedde\n   2634 dy\n   2613 finrod\n   2479 doubleu\n   2462 jelmer\n",
+      "raw_len": 856
     },
     {
       "pid": "1732155",
@@ -335,8 +335,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "02-09-13 23:17:41 - main.c:xkb_got_event:153 - Handling XKB event\n02-09-13 23:17:41 - key_press.c:handle_key_press:78 - KeyPress 11, state raw = 64\n02-09-13 23:17:41 - key_press.c:handle_key_press:82 - (removed numlock, state = 64)\n02-09-13 23:17:41 - key_press.c:handle_key_press:86 - (removed upper 8 bits, state = 64)\n02-09-13 23:17:41 - key_press.c:handle_key_press:91 - (checked mode_switch, state 64)\n02-09-13 23:17:41 - commands_parser.c:parse_command:209 - COMMAND: *workspace 2*\n02-09-13 23:17:41 - commands.c:cmd_criteria_init:240 - Initializing criteria, current_match = 0x64a3c0\n02-09-13 23:17:41 - commands.c:cmd_workspace_name:996 - should switch to workspace 2\n02-09-13 23:17:41 - workspace.c:_workspace_show:406 - Setting previous_workspace_name = 1\n02-09-13 23:17:41 - workspace.c:_workspace_show:412 - switching to 0x1176940 / 2\n02-09-13 23:17:41 - con.c:con_focus:214 - con_focus = 0x1176f00\n02-09-13 23:17:41 - con.c:con_focus:214 - con_focus = 0x1176d00\n02-09-13 23:17:41 - con.c:con_focus:214 - con_focus = 0x1176940\n02-09-13 23:17:41 - con.c:con_focus:214 - con_focus = 0x1174fc0\n02-09-13 23:17:41 - con.c:con_focus:214 - con_focus = 0x116f800\n02-09-13 23:17:41 - con.c:con_focus:214 - con_focus = 0x116e7e0\n02-09-13 23:17:41 - workspace.c:_workspace_show:449 - old = 0x11751c0 / 1\n02-09-13 23:17:41 - focused now = 0x1176f00 / New Tab - Iceweasel\n02-09-13 23:17:41 - commands.c:cmd_criteria_init:240 - Initializing criteria, current_match = 0x64a3c0\n02-09-13 23:17:41 - tree.c:tree_render:505 - -- BEGIN RENDERING --\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x116e7e0 / root / layout 6 / children 2\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x116ea00 / __i3 / layout 4 / children 1\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x116f800 / DVI-I-2 / layout 4 / children 3\n02-09-13 23:17:41 - render.c:render_l_output:112 - child at (0, 0) with (2560 x 0)\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x1174de0 / topdock / layout 3 / children 0\n02-09-13 23:17:41 - render.c:render_l_output:112 - child at (0, 0) with (2560 x 1421)\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x1174fc0 / content / layout 6 / children 3\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering fullscreen node 0x1176940 / 2 / layout 6 / children 0\n02-09-13 23:17:41 - render.c:render_l_output:112 - child at (0, 1421) with (2560 x 19)\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x1177c80 / bottomdock / layout 3 / children 1\n02-09-13 23:17:41 - render.c:render_con:410 - child at (0, 1421) with (2560 x 19)\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x117a340 / #00aa00 / layout 6 / children 0\n02-09-13 23:17:41 - con.c:con_border_style_rect:1076 - The border width for con is set to: -1\n02-09-13 23:17:41 - con.c:con_border_style_rect:1080 - Effective border width is set to: 2\n02-09-13 23:17:41 - render.c:render_con:201 - child will be at 0x0 with size 2560x19\n02-09-13 23:17:41 - render.c:render_con:258 - Rendering floating windows:\n02-09-13 23:17:41 - render.c:render_con:301 - floating child at (0,0) with 2560 x 1421\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x1176d00 / #aa00aa / layout 2 / children 1\n02-09-13 23:17:41 - render.c:render_con:410 - child at (0, 18) with (2560 x 1403)\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x1176f00 / New Tab - Iceweasel / layout 6 / children 0\n02-09-13 23:17:41 - con.c:con_border_style_rect:1076 - The border width for con is set to: -1\n02-09-13 23:17:41 - con.c:con_border_style_rect:1080 - Effective border width is set to: 2\n02-09-13 23:17:41 - con.c:con_is_floating:412 - checking if con 0x1176f00 is floating\n02-09-13 23:17:41 - render.c:render_con:201 - child will be at 2x0 with size 2556x1401\n02-09-13 23:17:41 - render.c:render_con:130 - Rendering node 0x1176f00 / New Tab - Iceweasel / layout 6 / children 0\n02-09-13 23:17:41 - con.c:con_border_style_rect:1076 - The border wid",
+      "raw_len": 88544
     },
     {
       "pid": "78072405",
@@ -346,8 +346,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "wilmer@fiona:~$ dig +trace ns tactical-grace.net\n\n; <<>> DiG 9.8.1-P1 <<>> +trace ns tactical-grace.net\n;; global options: +cmd\n.                       221789  IN      NS      m.root-servers.net.\n.                       221789  IN      NS      k.root-servers.net.\n.                       221789  IN      NS      e.root-servers.net.\n.                       221789  IN      NS      h.root-servers.net.\n.                       221789  IN      NS      j.root-servers.net.\n.                       221789  IN      NS      b.root-servers.net.\n.                       221789  IN      NS      f.root-servers.net.\n.                       221789  IN      NS      i.root-servers.net.\n.                       221789  IN      NS      g.root-servers.net.\n.                       221789  IN      NS      l.root-servers.net.\n.                       221789  IN      NS      a.root-servers.net.\n.                       221789  IN      NS      d.root-servers.net.\n.                       221789  IN      NS      c.root-servers.net.\n;; Received 512 bytes from 192.168.78.64#53(192.168.78.64) in 13 ms\n\nnet.                    172800  IN      NS      a.gtld-servers.net.\nnet.                    172800  IN      NS      b.gtld-servers.net.\nnet.                    172800  IN      NS      c.gtld-servers.net.\nnet.                    172800  IN      NS      d.gtld-servers.net.\nnet.                    172800  IN      NS      e.gtld-servers.net.\nnet.                    172800  IN      NS      f.gtld-servers.net.\nnet.                    172800  IN      NS      g.gtld-servers.net.\nnet.                    172800  IN      NS      h.gtld-servers.net.\nnet.                    172800  IN      NS      i.gtld-servers.net.\nnet.                    172800  IN      NS      j.gtld-servers.net.\nnet.                    172800  IN      NS      k.gtld-servers.net.\nnet.                    172800  IN      NS      l.gtld-servers.net.\nnet.                    172800  IN      NS      m.gtld-servers.net.\n;; Received 493 bytes from 193.0.14.129#53(193.0.14.129) in 34 ms\n\ntactical-grace.net.     172800  IN      NS      ivan.ns.cloudflare.com.\ntactical-grace.net.     172800  IN      NS      lucy.ns.cloudflare.com.\n;; Received 179 bytes from 192.55.83.30#53(192.55.83.30) in 361 ms\n\ntactical-grace.net.     86400   IN      NS      ivan.ns.cloudflare.com.\ntactical-grace.net.     86400   IN      NS      lucy.ns.cloudflare.com.\n;; Received 91 bytes from 173.245.58.133#53(173.245.58.133) in 8 ms\n",
+      "raw_len": 2456
     },
     {
       "pid": "61814093",
@@ -357,8 +357,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "=== modified file 'lib/http_client.c'\n--- lib/http_client.c\t2012-11-24 19:20:57 +0000\n+++ lib/http_client.c\t2012-11-25 11:46:58 +0000\n@@ -590,6 +590,9 @@\n \tif( !req )\n \t\treturn;\n \t\n+\tif( req->inpa > 0 )\n+\t\tb_event_remove( req->inpa );\n+\t\n \tif( req->ssl )\n \t\tssl_disconnect( req->ssl );\n \telse\n\n",
+      "raw_len": 294
     },
     {
       "pid": "74611713",
@@ -368,8 +368,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "JSON: {\"geo\":null,\"text\":\"Sweeeet! I got $101.24 so far filling out surveys. http:\\/\\/t.co\\/GySI20hQ\",\"created_at\":\"Sat Nov 24 17:02:54 +0000 2012\",\"coordinates\":null,\"retweet_count\":0,\"possibly_sensitive_editable\":true,\"retweeted\":false,\"source\":\"web\",\"possibly_sensitive\":false,\"in_reply_to_status_id_str\":null,\"entities\":{\"user_mentions\":[],\"urls\":[{\"expanded_url\":\"http:\\/\\/www.facebook.com\\/128063400683630\",\"indices\":[51,71],\"url\":\"http:\\/\\/t.co\\/GySI20hQ\",\"display_url\":\"facebook.com\\/128063400683630\"}],\"hashtags\":[]},\"in_reply_to_user_id\":null,\"in_reply_to_status_id\":null,\"id_str\":\"272384813950971904\",\"place\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"favorited\":false,\"user\":{\"default_profile_image\":false,\"profile_background_image_url\":\"http:\\/\\/a0.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"created_at\":\"Sat Aug 30 14:20:55 +0000 2008\",\"favourites_count\":8,\"profile_link_color\":\"0084B4\",\"url\":null,\"profile_image_url_https\":\"https:\\/\\/si0.twimg.com\\/profile_images\\/660848652\\/autismo_square_normal.jpg\",\"followers_count\":135,\"follow_request_sent\":null,\"contributors_enabled\":false,\"time_zone\":\"Amsterdam\",\"profile_background_color\":\"C0DEED\",\"description\":\"\",\"verified\":false,\"profile_background_tile\":false,\"location\":\"Amsterdam\",\"is_translator\":false,\"listed_count\":5,\"lang\":\"en\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"id_str\":\"16054802\",\"friends_count\":184,\"default_profile\":true,\"notifications\":null,\"profile_sidebar_border_color\":\"C0DEED\",\"protected\":false,\"screen_name\":\"buccia\",\"following\":null,\"name\":\"Fernando Vezzosi\",\"statuses_count\":144,\"profile_use_background_image\":true,\"profile_background_image_url_https\":\"https:\\/\\/si0.twimg.com\\/images\\/themes\\/theme1\\/bg.png\",\"profile_image_url\":\"http:\\/\\/a0.twimg.com\\/profile_images\\/660848652\\/autismo_square_normal.jpg\",\"id\":16054802,\"geo_enabled\":false,\"utc_offset\":3600,\"profile_text_color\":\"333333\"},\"id\":272384813950971904,\"contributors\":null,\"truncated\":false}\n",
+      "raw_len": 1964
     },
     {
       "pid": "53747456",
@@ -379,8 +379,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "@@ -107,12 +109,12 @@\n {\n \tstruct scd *conn = g_new0( struct scd, 1 );\n \t\n+\tconn->func = func;\n+\tconn->data = data;\n+\tconn->inpa = -1;\n+\tconn->hostname = g_strdup( host );\n+\tconn->verify = verify && global.conf->cafile;\n \tconn->fd = proxy_connect( host, port, ssl_connected, conn );\n-\tconn->func = func;\n-\tconn->data = data;\n-\tconn->inpa = -1;\n-\tconn->hostname = g_strdup( host );\n-\tconn->verify = verify && global.conf->cafile;\n \t\n \tif( conn->fd < 0 )\n \t{\n\n",
+      "raw_len": 458
     },
     {
       "pid": "16257806",
@@ -390,8 +390,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "The SGML-formatted documentation is written by Jelmer Vernooij\n<jelmer@samba.org> under the GNU Free Documentation License:\n\n============================================================================\nCopyright (c)  2002-2012 Jelmer Vernooij, Wilmer van der Gaast.\n\nPermission is granted to copy, distribute and/or modify this document\nunder the terms of the GNU Free Documentation License, Version 1.1 or\nany later version published by the Free Software Foundation; with no\nInvariant Sections, with no Front-Cover Texts, and with no Back-Cover\nTexts.  A copy of the license is included in the section entitled `GNU\nFree Documentation License''.\n============================================================================\n",
+      "raw_len": 724
     },
     {
       "pid": "31419524",
@@ -401,8 +401,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "blaatbbbb",
+      "raw_len": 9
     },
     {
       "pid": "51122089",
@@ -412,8 +412,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "blaat",
+      "raw_len": 5
     }
   ]
 }

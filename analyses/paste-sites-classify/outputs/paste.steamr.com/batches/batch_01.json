@@ -71,8 +71,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "test",
+      "raw_len": 4
     },
     {
       "pid": "1f8d3c48",
@@ -82,8 +82,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "UCALG-60--69005----00000",
+      "raw_len": 24
     },
     {
       "pid": "f0149b38",
@@ -93,8 +93,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "=== START OF INFORMATION SECTION ===\r\nModel Family:     Seagate BarraCuda 3.5\r\nDevice Model:     ST8000DM004-2CX188\r\nSerial Number:    ZR107A7E\r\nLU WWN Device Id: 5 000c50 0c8a3dcf6\r\nFirmware Version: 0001\r\nUser Capacity:    8,001,563,222,016 bytes [8.00 TB]\r\nSector Sizes:     512 bytes logical, 4096 bytes physical\r\nRotation Rate:    5425 rpm\r\nForm Factor:      3.5 inches\r\nDevice is:        In smartctl database [for details use: -P show]\r\nATA Version is:   ACS-3 T13/2161-D revision 5\r\nSATA Version is:  SATA 3.1, 6.0 Gb/s (current: 3.0 Gb/s)\r\nLocal Time is:    Sun Aug  8 12:05:59 2021 MDT\r\nSMART support is: Available - device has SMART capability.\r\nSMART support is: Enabled\r\n\r\n=== START OF READ SMART DATA SECTION ===\r\nSMART overall-health self-assessment test result: PASSED\r\n\r\nGeneral SMART Values:\r\nOffline data collection status:  (0x00) Offline data collection activity\r\n                                        was never started.\r\n                                        Auto Offline Data Collection: Disabled.\r\nSelf-test execution status:      ( 249) Self-test routine in progress...\r\n                                        90% of test remaining.\r\nTotal time to complete Offline\r\ndata collection:                (    0) seconds.\r\nOffline data collection\r\ncapabilities:                    (0x73) SMART execute Offline immediate.\r\n                                        Auto Offline data collection on/off support.\r\n                                        Suspend Offline collection upon new\r\n                                        command.\r\n                                        No Offline surface scan supported.\r\n                                        Self-test supported.\r\n                                        Conveyance Self-test supported.\r\n                                        Selective Self-test supported.\r\nSMART capabilities:            (0x0003) Saves SMART data before entering\r\n                                        power-saving mode.\r\n                                        Supports SMART auto save timer.\r\nError logging capability:        (0x01) Error logging supported.\r\n                                        General Purpose Logging supported.\r\nShort self-test routine\r\nrecommended polling time:        (   1) minutes.\r\nExtended self-test routine\r\nrecommended polling time:        ( 976) minutes.\r\nConveyance self-test routine\r\nrecommended polling time:        (   2) minutes.\r\nSCT capabilities:              (0x30a5) SCT Status supported.\r\n                                        SCT Data Table supported.\r\n\r\nSMART Attributes Data Structure revision number: 10\r\nVendor Specific SMART Attributes with Thresholds:\r\nID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE\r\n  1 Raw_Read_Error_Rate     0x000f   066   064   006    Pre-fail  Always       -       4227308\r\n  3 Spin_Up_Time            0x0003   092   091   000    Pre-fail  Always       -       0\r\n  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       32\r\n  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0\r\n  7 Seek_Error_Rate         0x000f   070   060   045    Pre-fail  Always       -       10449492\r\n  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       1017 (166 79 0)\r\n 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0\r\n 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       32\r\n183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0\r\n184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0\r\n187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0\r\n188 Command_Timeout         0x0032   100   092   000    Old_age   Always       -       71 73 86\r\n189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0\r\n190 Airflow_Temperature_Cel 0x0022   0",
+      "raw_len": 5119
     },
     {
       "pid": "2ed6de37",
@@ -104,8 +104,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "release_0_5_06 %        ./remote_install.sh                                                                               leo@dell:/home/leo/source/WyzeHacks/release/release_0_5_06 | Code 148 | 2 job | 23:16:48 \r\nFound local config file, including into firmware update archive...                                                                                                                                                 \r\nUpgrade/config.inc                                                                                                                                                                                                 \r\nDefaulting to user installation because normal site-packages is not writeable                                                                                                                                      \r\nRequirement already satisfied: requests in /usr/lib/python3.9/site-packages (2.25.1)                                                                                                                               \r\nRequirement already satisfied: idna<3,>=2.5 in /usr/lib/python3.9/site-packages (from requests) (2.10)                                                                                                             \r\nRequirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/lib/python3.9/site-packages (from requests) (1.25.10)                                                                                                 \r\nRequirement already satisfied: chardet<5,>=3.0.2 in /usr/lib/python3.9/site-packages (from requests) (4.0.0)                                                                                                       \r\nINFO:root:Trying saved credentials from /home/leo/.wyze_token.                                                                                                                                                     \r\nINFO:root:Checking device, mac=7C78B23AF941                                                                                                                                                                        \r\n                                                                                                                                                                                                                   \r\nDevice type:      Camera (WYZE_CAKP2JFUS)                                                                                                                                                                          \r\nDevice name:      v3b                                                                                                                                                                                              \r\nFirmware version: 4.36.0.280                                                                                                                                                                                       \r\nIP Address:       10.1.3.252                                                                                                                                                                                       \r\n                                                                                                                                                                                                                   \r\nPushing firmware to this device? [y/N]:y                                                                                                                                                                           \r\nINFO:root:Serving firmware file './firmware.bin' as 'http://s3-us-west-2.amazonaws.com/wuv2/upgrade/WLPP1/firmware/1.2.0.80a.bin', md5=7cde34dd8669101e0a93ae962109d0be                                            \r\nINFO:root:Checking device, mac=A4DA222C2591                                                                                                                           ",
+      "raw_len": 6650
     },
     {
       "pid": "791d8f1d",
@@ -115,8 +115,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://ahs.queue-it.net/?c=ahs&e=covidvaccinebooking&q=7a04c5b0-a1fd-4b1f-b3db-58f16c218acf&t=https%3A%2F%2Fwww.albertahealthservices.ca%2Fcovidbooking%2Fwelcome.aspx%3Fv%3D20210527&cid=en-US",
+      "raw_len": 192
     },
     {
       "pid": "68f0e85e",
@@ -126,8 +126,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://ahs.queue-it.net/?c=ahs&e=vaccinerebook&ver=v3-aspnet-3.6.2&cver=39&man=Rebook%20-%20Send%20To%20Queue&l=Ticket%20Layout%20by%20Queue-it&t=https%3A%2F%2Fwww.albertahealthservices.ca%2FApps%2FEndCOVID%2FVaccineBookingManagement.aspx%3Fref%3DGylH1DO2e3DR8xngtD8XeUGOQ3ltxV8YIfaNdMA3MPDfwpXEWaqJAeaDu76NzlhcJ7RdnrtOidm0Axnjkl%252buU2hKamEeN%252bM8ArnB7Gp3DF51p8mOJf20jmvK7llmudep&q=b79add20-be79-4001-842d-c9791bd67b45",
+      "raw_len": 423
     },
     {
       "pid": "9f982366",
@@ -137,8 +137,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://ahs.queue-it.net/?c=ahs&e=vaccinerebook&ver=v3-aspnet-3.6.2&cver=39&man=Rebook%20-%20Send%20To%20Queue&l=Ticket%20Layout%20by%20Queue-it&t=https%3A%2F%2Fwww.albertahealthservices.ca%2FApps%2FEndCOVID%2FVaccineBookingManagement.aspx%3Fref%3DGylH1DO2e3DR8xngtD8XeUGOQ3ltxV8YIfaNdMA3MPDfwpXEWaqJAeaDu76NzlhcJ7RdnrtOidm0Axnjkl%252buU2hKamEeN%252bM8ArnB7Gp3DF51p8mOJf20jmvK7llmudep",
+      "raw_len": 384
     },
     {
       "pid": "23da50b7",
@@ -148,8 +148,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://ahs.queue-it.net/?c=ahs&e=covidvaccinebooking&q=2eca8cd4-a4d4-493f-8af4-463d444fd380&t=https%3A%2F%2Fwww.albertahealthservices.ca%2Fcovidbooking%2Fwelcome.aspx%3Fv%3D20210527&cv=-631204914&cid=en-US",
+      "raw_len": 206
     },
     {
       "pid": "baef7d0f",
@@ -159,8 +159,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "SwitchMode1 1\r\nSwitchTopic 0\r\nRule1 on Switch1#state=1 do publish tasmota/%topic%/PIR1 ON endon on Switch1#state=0 do Publish tasmota/%topic%/PIR1 OFF endon\r\nRule1 1",
+      "raw_len": 165
     },
     {
       "pid": "93a51702",
@@ -170,8 +170,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "gosund % python -m esptool --port /dev/ttyUSB0 --chip auto read_flash  0 0x100000 firmware2.bin                                                                                                                                   leo@dell:/home/leo/gosund | Code 2 | 20:26:03\r\nesptool.py v3.0\r\nSerial port /dev/ttyUSB0\r\nConnecting........_____....._\r\nDetecting chip type... ESP8266\r\nChip is ESP8285\r\nFeatures: WiFi, Embedded Flash\r\nCrystal is 26MHz\r\nMAC: c4:dd:57:0d:2c:de\r\nUploading stub...\r\nRunning stub...\r\nStub running...\r\n1048576 (100 %)\r\n1048576 (100 %)\r\n\r\nA fatal error occurred: Digest mismatch: expected 9B60686A442B0A68591CFB54D28B867B, got 458345CAB9C61F97AAB45943ED64C234\r\n",
+      "raw_len": 681
     },
     {
       "pid": "2ff473cd",
@@ -181,8 +181,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "g: [itrcsadminp01] => (item=srv-miseq01) \nchanged: [itrcsadminp01] => (item=RCS)\nchanged: [itrcsadminp01] => (item=chgi_common)\nchanged: [itrcsadminp01] => (item=ebg_lab)\nTASK [netapp : Add primary group to netapp debug] ******************************\nok: [itrcsadminp01] => (item=lleung) => {\n    \"msg\": \"vserver services name-service unix-group create -vserver ITSOBulkData01 -name lleung -id 16311891 \"\n}\nok: [itrcsadminp01] => (item=srv-rcs-test) => {\n    \"msg\": \"vserver services name-service unix-group create -vserver ITSOBulkData01 -name srv-rcs-test -id 40000015 \"\n}\nok: [itrcsadminp01] => (item=srv-iseq) => {\n    \"msg\": \"vserver services name-service unix-group create -vserver ITSOBulkData01 -name srv-iseq -id 40000016 \"\n}\nok: [itrcsadminp01] => (item=srv-miseq01) => {\n    \"msg\": \"vserver services name-service unix-group create -vserver ITSOBulkData01 -name srv-miseq01 -id 40000022 \"\n}\nskipping: [itrcsadminp01] => (item=RCS) \nskipping: [itrcsadminp01] => (item=chgi_common) \nskipping: [itrcsadminp01] => (item=ebg_lab) \nTASK [netapp : Add primary group to netapp] ************************************\nchanged: [itrcsadminp01] => (item=lleung)\nchanged: [itrcsadminp01] => (item=srv-rcs-test)\nchanged: [itrcsadminp01] => (item=srv-iseq)\nchanged: [itrcsadminp01] => (item=srv-miseq01)\nskipping: [itrcsadminp01] => (item=RCS) \nskipping: [itrcsadminp01] => (item=chgi_common) \nskipping: [itrcsadminp01] => (item=ebg_lab) \nTASK [netapp : Add users to netapp debug] **************************************\nok: [itrcsadminp01] => (item={'username': 'lleung', 'uid': 16311891, 'gecos': 'Leo Leung', 'groups': ['RCS'], 'netapp': True}) => {\n    \"msg\": \"vserver services name-service unix-user create -vserver ITSOBulkData01 -user lleung -id 16311891 -primary-gid 16311891 \"\n}\nok: [itrcsadminp01] => (item={'username': 'srv-rcs-test', 'uid': 40000015, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True, 'groups': ['RCS']}) => {\n    \"msg\": \"vserver services name-service unix-user create -vserver ITSOBulkData01 -user srv-rcs-test -id 40000015 -primary-gid 40000015 \"\n}\nok: [itrcsadminp01] => (item={'username': 'srv-iseq', 'uid': 40000016, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True, 'groups': ['chgi_common']}) => {\n    \"msg\": \"vserver services name-service unix-user create -vserver ITSOBulkData01 -user srv-iseq -id 40000016 -primary-gid 40000016 \"\n}\nok: [itrcsadminp01] => (item={'username': 'srv-miseq01', 'uid': 40000022, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True, 'groups': ['ebg_lab']}) => {\n    \"msg\": \"vserver services name-service unix-user create -vserver ITSOBulkData01 -user srv-miseq01 -id 40000022 -primary-gid 40000022 \"\n}\nTASK [netapp : Add users to netapp] ********************************************\nchanged: [itrcsadminp01] => (item={'username': 'lleung', 'uid': 16311891, 'gecos': 'Leo Leung', 'groups': ['RCS'], 'netapp': True})\nchanged: [itrcsadminp01] => (item={'username': 'srv-rcs-test', 'uid': 40000015, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True, 'groups': ['RCS']})\nchanged: [itrcsadminp01] => (item={'username': 'srv-iseq', 'uid': 40000016, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True, 'groups': ['chgi_common']})\nchanged: [itrcsadminp01] => (item={'username': 'srv-miseq01', 'uid': 40000022, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True, 'groups': ['ebg_lab']})\nTASK [netapp : Add users to secondary groups debug] ****************************\nok: [itrcsadminp01] => (item=[{'username': 'lleung', 'uid': 16311891, 'gecos': 'Leo Leung', 'netapp': True}, 'RCS']) => {\n    \"msg\": \"vserver services name-service unix-group adduser -vserver ITSOBulkData01 -name RCS -username lleung\"\n}\nok: [itrcsadminp01] => (item=[{'username': 'srv-rcs-test', 'uid': 40000015, 'shell': '/sbin/nologin', 'manage_home': False, 'netapp': True}, 'RCS']) => {\n    \"msg\": \"vserver services name-service unix-group adduser -vserver ITSOBulkData01 -name RCS -username srv-rcs-test",
+      "raw_len": 4648
     },
     {
       "pid": "1d8383ad",
@@ -192,8 +192,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "                                                                                                                                                                                                      \n# Add the group to the netapp                                                                                                                                                                                      \n- name: Add group to netapp                                                                                                                                                                                        \n  debug:                                                                                                                                                                                                           \n    msg: \"vserver services name-service unix-group create -vserver ITSOBulkData01 -name {{ item }} -id {{ account_groups | selectattr('group', 'equalto', item) | map(attribute='gid') | join(',') }} \"            \n  with_items: \"{{ netapp_groups }}\"                                                                                                                                                                                \n  when: account_groups | selectattr(\"group\", \"equalto\", item) | join(',')                                                                                                                                          \n              ",
+      "raw_len": 1485
     },
     {
       "pid": "8683c818",
@@ -203,8 +203,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "# Add the group to the netapp\r\n- name: Add group to netapp\r\n  debug:\r\n    msg: \"vserver services name-service unix-group create -vserver ITSOBulkData01 -name {{ item }} -id {{ account_groups | selectattr('group', 'equalto', item) }} \"\r\n  loop: \"{{ netapp_groups }}\"\r\n  when: account_groups | selectattr(\"group\", \"equalto\", item)\r\n  loop_control:\r\n    label: \"{{ item.username }}\"\r\n",
+      "raw_len": 381
     },
     {
       "pid": "00c663aa",
@@ -214,8 +214,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[root@arc-dtn ilaforestlap]# strace rm -rf august_2014/claire/f1/scrap/2ef1a1_1.scrap.contigs.fasta                                                                        \r\nexecve(\"/usr/bin/rm\", [\"rm\", \"-rf\", \"august_2014/claire/f1/scrap/2ef1\"...], [/* 24 vars */]) = 0                                                                           \r\nbrk(NULL)                               = 0x1ee1000                                                                                                                        \r\nmmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f38f84fe000                                                                                  \r\naccess(\"/etc/ld.so.preload\", R_OK)      = -1 ENOENT (No such file or directory)                                                                                            \r\nopen(\"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 3                                                                                                                           \r\nfstat(3, {st_mode=S_IFREG|0644, st_size=72260, ...}) = 0                                                                                                                   \r\nmmap(NULL, 72260, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f38f84ec000                                                                                                           \r\nclose(3)                                = 0                                                                                                                                \r\nopen(\"/lib64/libc.so.6\", O_RDONLY|O_CLOEXEC) = 3                                                                                                                           \r\nread(3, \"\\177ELF\\2\\1\\1\\3\\0\\0\\0\\0\\0\\0\\0\\0\\3\\0>\\0\\1\\0\\0\\0`&\\2\\0\\0\\0\\0\\0\"..., 832) = 832                                                                                      \r\nfstat(3, {st_mode=S_IFREG|0755, st_size=2156240, ...}) = 0                                                                                                                 \r\nmmap(NULL, 3985920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f38f7f10000                                                                                 \r\nmprotect(0x7f38f80d3000, 2097152, PROT_NONE) = 0                                                                                                                           \r\nmmap(0x7f38f82d3000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c3000) = 0x7f38f82d3000                                                       \r\nmmap(0x7f38f82d9000, 16896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f38f82d9000                                                             \r\nclose(3)                                = 0                                                                                                                                \r\nmmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f38f84eb000                                                                                  \r\nmmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f38f84e9000                                                                                  \r\narch_prctl(ARCH_SET_FS, 0x7f38f84e9740) = 0                                                                                                                                \r\nmprotect(0x7f38f82d3000, 16384, PROT_READ) = 0                                                                                                                             \r\nmprotect(0x60d000, 4096, PROT_READ)     = 0                                                                                                                                \r\nmprotect(0x7f38f84ff000, 4096, PROT_READ) = 0                                                                                                                              \r\nmunmap(0x7f38f84ec000",
+      "raw_len": 13319
     },
     {
       "pid": "e5016f8a",
@@ -225,8 +225,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "{\r\n  \"version\": 1,\r\n  \"timestamp\": 1611284528,\r\n  \"quotas\":  [\r\n\r\n{\r\n  \"type\": \"fileset\",\r\n  \"user\": \"lleung\",\r\n  \"path\": \"/home/lleung\",\r\n  \"block_usage\": 500,\r\n  \"total_block_usage\": 1000,\r\n  \"block_limit\": 2000,\r\n  \"file_usage\": 1,\r\n  \"total_file_usage\": 5,\r\n  \"file_limit\": 10\r\n}\r\n\r\n]}",
+      "raw_len": 289
     },
     {
       "pid": "ab54192e",
@@ -236,8 +236,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "{\r\n\"quotas\": [{\r\n  \"type\": \"fileset\",\r\n  \"user\": \"lleung\",\r\n  \"path\": \"/home/lleung\",\r\n  \"block_usage\": 500,\r\n  \"total_block_usage\": 1000,\r\n  \"block_limit\": 2000,\r\n  \"file_usage\": 1,\r\n  \"total_file_usage\": 5,\r\n  \"file_limit\": 10\r\n}\r\n]\r\n}",
+      "raw_len": 237
     },
     {
       "pid": "988b3789",
@@ -247,8 +247,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "{\r\n  \"type\": \"fileset\",\r\n  \"user\": \"lleung\",\r\n  \"path\": \"/home/lleung\",\r\n  \"block_usage\": 500,\r\n  \"total_block_usage\": 1000,\r\n  \"block_limit\": 2000,\r\n  \"file_usage\": 1,\r\n  \"total_file_usage\": 5,\r\n  \"file_limit\": 10\r\n}",
+      "raw_len": 217
     },
     {
       "pid": "b94e365b",
@@ -258,8 +258,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 56'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:46962 (Go-http-client/1.1) at May 4 2020, 22:29:15\r\nPOST\r\nArray\r\n(\r\n    [data] => 87920E07B8AD3AF20F19A0C4E38DE68622D5981CAC6F6066469BA2AF54B29ED18893E4EF23E88BE5ECC31FC384C2AFB8505A2D74CEF6EE6EED57A869C592FCE50FDFE27A4F9B19AA3F6D3B47B38AB005C24A8C101125ED1B588093535377BAC2C575365A76216535A0533B378C3FB8ED\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => atop.online.debug.log\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 15\r\n    [sign] => 3ffba2615766e8a5e8153bc453d9614f\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":true,\"t\":1588652955,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 100'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:46962 (Go-http-client/1.1) at May 4 2020, 22:29:16\r\nPOST\r\nArray\r\n(\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => tuya.device.dynamic.config.get\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588652955\r\n    [v] => 1.0\r\n    [sign] => aa6f0029f177583d3a3b10205153bc5b\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":{\"validTime\":1800,\"time\":1588652956,\"config\":{}},\"t\":1588652956,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 42'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:47066 (Go-http-client/1.1) at May 4 2020, 22:29:30\r\nPOST\r\nArray\r\n(\r\n    [data] => B043F7E4ED7EE1A8D694B595BD826E09\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => tuya.device.upgrade.silent.get\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588652969\r\n    [v] => 4.1\r\n    [sign] => a457bbbf86102ec491e7907377c6ac6d\r\n)\r\n\r\n\r\nRESP\r\n{\"t\":1588652970,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 112'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:48052 (Go-http-client/1.1) at May 4 2020, 22:32:13\r\nPOST\r\nArray\r\n(\r\n    [data] => C088324E18A6F3AA699E83BF6254DAA38BADFF312FA9BEB86446E14DDBEE94D6014EDCA12EAAF1D850B2A9C1BCDA01E927C7140F2348E55A9E3DB6E24DD76585\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => s.gw.dev.timer.count\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588653132\r\n    [sign] => 600bb1d8c168c36651420053e302972b\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":{\"devId\":\"18313406cc50e312318a\",\"count\":0,\"lastFetchTime\":0},\"t\":1588653133,\"e\":false,\"success\":true}\r\n\r\n\r\n",
+      "raw_len": 2773
     },
     {
       "pid": "e72d9bd5",
@@ -269,8 +269,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 56'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:46962 (Go-http-client/1.1) at May 4 2020, 22:29:15\r\nPOST\r\nArray\r\n(\r\n    [data] => 87920E07B8AD3AF20F19A0C4E38DE68622D5981CAC6F6066469BA2AF54B29ED18893E4EF23E88BE5ECC31FC384C2AFB8505A2D74CEF6EE6EED57A869C592FCE50FDFE27A4F9B19AA3F6D3B47B38AB005C24A8C101125ED1B588093535377BAC2C575365A76216535A0533B378C3FB8ED\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => atop.online.debug.log\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 15\r\n    [sign] => 3ffba2615766e8a5e8153bc453d9614f\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":true,\"t\":1588652955,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 100'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:46962 (Go-http-client/1.1) at May 4 2020, 22:29:16\r\nPOST\r\nArray\r\n(\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => tuya.device.dynamic.config.get\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588652955\r\n    [v] => 1.0\r\n    [sign] => aa6f0029f177583d3a3b10205153bc5b\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":{\"validTime\":1800,\"time\":1588652956,\"config\":{}},\"t\":1588652956,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 42'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:47066 (Go-http-client/1.1) at May 4 2020, 22:29:30\r\nPOST\r\nArray\r\n(\r\n    [data] => B043F7E4ED7EE1A8D694B595BD826E09\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => tuya.device.upgrade.silent.get\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588652969\r\n    [v] => 4.1\r\n    [sign] => a457bbbf86102ec491e7907377c6ac6d\r\n)\r\n\r\n\r\nRESP\r\n{\"t\":1588652970,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 112'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:48052 (Go-http-client/1.1) at May 4 2020, 22:32:13\r\nPOST\r\nArray\r\n(\r\n    [data] => C088324E18A6F3AA699E83BF6254DAA38BADFF312FA9BEB86446E14DDBEE94D6014EDCA12EAAF1D850B2A9C1BCDA01E927C7140F2348E55A9E3DB6E24DD76585\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => s.gw.dev.timer.count\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588653132\r\n    [sign] => 600bb1d8c168c36651420053e302972b\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":{\"devId\":\"18313406cc50e312318a\",\"count\":0,\"lastFetchTime\":0},\"t\":1588653133,\"e\":false,\"success\":true}\r\n\r\n\r\n",
+      "raw_len": 2775
     },
     {
       "pid": "2a754063",
@@ -280,8 +280,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "leo # hdparm -I /dev/sdb                                                                                                                                         root@dell:/home/leo | Code 192 | 1 job | 17:46:47\r\n\r\n/dev/sdb:\r\n\r\nATA device, with non-removable media\r\n\tModel Number:       ST3000DM001-9YN166                      \r\n\tSerial Number:      W1F0SJ27\r\n\tFirmware Revision:  CC4B    \r\n\tTransport:          Serial, SATA Rev 3.0\r\nStandards:\r\n\tUsed: unknown (minor revision code 0x0029) \r\n\tSupported: 8 7 6 5 \r\n\tLikely used: 8\r\nConfiguration:\r\n\tLogical\t\tmax\tcurrent\r\n\tcylinders\t16383\t16383\r\n\theads\t\t16\t16\r\n\tsectors/track\t63\t63\r\n\t--\r\n\tCHS current addressable sectors:    16514064\r\n\tLBA    user addressable sectors:   268435455\r\n\tLBA48  user addressable sectors:  5860533168\r\n\tLogical  Sector size:                   512 bytes\r\n\tPhysical Sector size:                  4096 bytes\r\n\tLogical Sector-0 offset:                  0 bytes\r\n\tdevice size with M = 1024*1024:     2861588 MBytes\r\n\tdevice size with M = 1000*1000:     3000592 MBytes (3000 GB)\r\n\tcache/buffer size  = unknown\r\n\tNominal Media Rotation Rate: 7200\r\nCapabilities:\r\n\tLBA, IORDY(can be disabled)\r\n\tQueue depth: 32\r\n\tStandby timer values: spec'd by Standard, no device specific minimum\r\n\tR/W multiple sector transfer: Max = 16\tCurrent = ?\r\n\tAdvanced power management level: 128\r\n\tRecommended acoustic management value: 208, current value: 0\r\n\tDMA: mdma0 mdma1 mdma2 udma0 udma1 udma2 udma3 udma4 udma5 *udma6 \r\n\t     Cycle time: min=120ns recommended=120ns\r\n\tPIO: pio0 pio1 pio2 pio3 pio4 \r\n\t     Cycle time: no flow control=120ns  IORDY flow control=120ns\r\nCommands/features:\r\n\tEnabled\tSupported:\r\n\t   *\tSMART feature set\r\n\t    \tSecurity Mode feature set\r\n\t   *\tPower Management feature set\r\n\t   *\tWrite cache\r\n\t   *\tLook-ahead\r\n\t   *\tHost Protected Area feature set\r\n\t   *\tWRITE_BUFFER command\r\n\t   *\tREAD_BUFFER command\r\n\t   *\tDOWNLOAD_MICROCODE\r\n\t   *\tAdvanced Power Management feature set\r\n\t    \tSET_MAX security extension\r\n\t   *\t48-bit Address feature set\r\n\t   *\tDevice Configuration Overlay feature set\r\n\t   *\tMandatory FLUSH_CACHE\r\n\t   *\tFLUSH_CACHE_EXT\r\n\t   *\tSMART error logging\r\n\t   *\tSMART self-test\r\n\t   *\tGeneral Purpose Logging feature set\r\n\t   *\tWRITE_{DMA|MULTIPLE}_FUA_EXT\r\n\t   *\t64-bit World wide name\r\n\t    \tWrite-Read-Verify feature set\r\n\t   *\tWRITE_UNCORRECTABLE_EXT command\r\n\t   *\t{READ,WRITE}_DMA_EXT_GPL commands\r\n\t   *\tSegmented DOWNLOAD_MICROCODE\r\n\t   *\tGen1 signaling speed (1.5Gb/s)\r\n\t   *\tGen2 signaling speed (3.0Gb/s)\r\n\t   *\tGen3 signaling speed (6.0Gb/s)\r\n\t   *\tNative Command Queueing (NCQ)\r\n\t   *\tPhy event counters\r\n\t   *\tREAD_LOG_DMA_EXT equivalent to READ_LOG_EXT\r\n\t    \tDMA Setup Auto-Activate optimization\r\n\t    \tDevice-initiated interface power management\r\n\t   *\tSoftware settings preservation\r\n\t   *\tSMART Command Transport (SCT) feature set\r\n\t   *\tSCT Write Same (AC2)\r\n\t    \tunknown 206[7]\r\n\t    \tunknown 206[12] (vendor specific)\r\n\t    \tunknown 206[13] (vendor specific)\r\nSecurity: \r\n\tMaster password revision code = 65534\r\n\t\tsupported\r\n\tnot\tenabled\r\n\tnot\tlocked\r\n\tnot\tfrozen\r\n\tnot\texpired: security count\r\n\t\tsupported: enhanced erase\r\n\t330min for SECURITY ERASE UNIT. 330min for ENHANCED SECURITY ERASE UNIT.\r\nLogical Unit WWN Device Identifier: 5000c500529df4f3\r\n\tNAA\t\t: 5\r\n\tIEEE OUI\t: 000c50\r\n\tUnique ID\t: 0529df4f3\r\nChecksum: correct\r\n",
+      "raw_len": 3346
     },
     {
       "pid": "72d451f8",
@@ -291,8 +291,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "leo # hdparm --read-sector 4005685761 /dev/sdb                                                                                                                                      root@dell:/home/leo | 11:30:47\r\n\r\n/dev/sdb:\r\nreading sector 4005685761: succeeded\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n0000 0000 0000 0000 0000 0000 0000 0000\r\n",
+      "raw_len": 1575
     },
     {
       "pid": "ae9cf292",
@@ -302,8 +302,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[Fri Jul 31 11:22:36 2020] blk_update_request: I/O error, dev sdb, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 0\r\n[Fri Jul 31 11:22:38 2020] sd 2:0:0:0: [sdb] tag#0 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=1s\r\n[Fri Jul 31 11:22:38 2020] sd 2:0:0:0: [sdb] tag#0 Sense Key : Medium Error [current] \r\n[Fri Jul 31 11:22:38 2020] sd 2:0:0:0: [sdb] tag#0 Add. Sense: Unrecovered read error\r\n[Fri Jul 31 11:22:38 2020] sd 2:0:0:0: [sdb] tag#0 CDB: Read(16) 88 00 00 00 00 00 ee c1 ea 00 00 00 00 08 00 00\r\n[Fri Jul 31 11:22:38 2020] blk_update_request: critical medium error, dev sdb, sector 4005685760 op 0x0:(READ) flags 0x80700 phys_seg 1 prio class 0\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 timing out command, waited 360s\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=360s\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 Sense Key : Hardware Error [current] \r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 Add. Sense: Internal target failure\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 CDB: Synchronize Cache(10) 35 00 00 00 00 00 00 00 00 00\r\n[Fri Jul 31 11:28:38 2020] blk_update_request: I/O error, dev sdb, sector 0 op 0x1:(WRITE) flags 0x800 phys_seg 0 prio class 0\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=0s\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 Sense Key : Medium Error [current] \r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 Add. Sense: Unrecovered read error\r\n[Fri Jul 31 11:28:38 2020] sd 2:0:0:0: [sdb] tag#0 CDB: Read(16) 88 00 00 00 00 00 ee c1 ea 00 00 00 00 08 00 00\r\n[Fri Jul 31 11:28:38 2020] blk_update_request: critical medium error, dev sdb, sector 4005685760 op 0x0:(READ) flags 0x0 phys_seg 8 prio class 0\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685760, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685761, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685762, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685763, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685764, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685765, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685766, async page read\r\n[Fri Jul 31 11:28:38 2020] Buffer I/O error on dev sdb, logical block 4005685767, async page read\r\n",
+      "raw_len": 2649
     },
     {
       "pid": "bd20ac1d",
@@ -313,8 +313,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "─\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff816ae7c8>] dump_stack+0x19/0x1b\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff81329dfa>] idr_remove.part.6+0x24a/0x260\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff81329e1d>] idr_remove+0xd/0x10\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc0566c1a>] nfs4_put_stid+0x3a/0x90 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc0566e45>] nfsd4_cb_recall_release+0x15/0x20 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc057268b>] nfsd4_run_cb_work+0xcb/0x110 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810abe2f>] process_one_work+0x17f/0x440\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810acaf6>] worker_thread+0x126/0x3c0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810ac9d0>] ? manage_workers.isra.24+0x2a0/0x2a0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b4031>] kthread+0xd1/0xe0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b3f60>] ? insert_kthread_work+0x40/0x40\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff816c0577>] ret_from_fork+0x77/0xb0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b3f60>] ? insert_kthread_work+0x40/0x40\r\n[Fri Jun 19 14:57:19 2020] idr_remove called for id=11974313 which is not allocated.\r\n[Fri Jun 19 14:57:19 2020] CPU: 13 PID: 14446 Comm: kworker/u192:2 Tainted: P        W  OE  ------------   3.10.0-693.21.1.el7.x86_64 #1\r\n[Fri Jun 19 14:57:19 2020] Hardware name: Dell Inc. PowerEdge R820/0YWR73, BIOS 1.7.2 11/26/2013\r\n[Fri Jun 19 14:57:19 2020] Workqueue: nfsd4_callbacks nfsd4_run_cb_work [nfsd]\r\n[Fri Jun 19 14:57:19 2020] Call Trace:\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff816ae7c8>] dump_stack+0x19/0x1b\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff81329dfa>] idr_remove.part.6+0x24a/0x260\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff81329e1d>] idr_remove+0xd/0x10\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc0566c1a>] nfs4_put_stid+0x3a/0x90 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc0566e45>] nfsd4_cb_recall_release+0x15/0x20 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc057268b>] nfsd4_run_cb_work+0xcb/0x110 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810abe2f>] process_one_work+0x17f/0x440\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810acaf6>] worker_thread+0x126/0x3c0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810ac9d0>] ? manage_workers.isra.24+0x2a0/0x2a0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b4031>] kthread+0xd1/0xe0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b3f60>] ? insert_kthread_work+0x40/0x40\r\n[Fri Jun 19 14:57:19 2020] systemd-journald[1044]: /dev/kmsg buffer overrun, some messages lost.\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff816c0577>] ret_from_fork+0x77/0xb0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b3f60>] ? insert_kthread_work+0x40/0x40\r\n[Fri Jun 19 14:57:19 2020] idr_remove called for id=11974315 which is not allocated.\r\n[Fri Jun 19 14:57:19 2020] CPU: 13 PID: 14446 Comm: kworker/u192:2 Tainted: P        W  OE  ------------   3.10.0-693.21.1.el7.x86_64 #1\r\n[Fri Jun 19 14:57:19 2020] Hardware name: Dell Inc. PowerEdge R820/0YWR73, BIOS 1.7.2 11/26/2013\r\n[Fri Jun 19 14:57:19 2020] Workqueue: nfsd4_callbacks nfsd4_run_cb_work [nfsd]\r\n[Fri Jun 19 14:57:19 2020] Call Trace:\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff816ae7c8>] dump_stack+0x19/0x1b\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff81329dfa>] idr_remove.part.6+0x24a/0x260\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff81329e1d>] idr_remove+0xd/0x10\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc0566c1a>] nfs4_put_stid+0x3a/0x90 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc0566e45>] nfsd4_cb_recall_release+0x15/0x20 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffffc057268b>] nfsd4_run_cb_work+0xcb/0x110 [nfsd]\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810abe2f>] process_one_work+0x17f/0x440\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810acaf6>] worker_thread+0x126/0x3c0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810ac9d0>] ? manage_workers.isra.24+0x2a0/0x2a0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b4031>] kthread+0xd1/0xe0\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff810b3f60>] ? insert_kthread_work+0x40/0x40\r\n[Fri Jun 19 14:57:19 2020]  [<ffffffff816c0577>] ret_from_fork+0x77/0xb0\r\n[Fri Jun 19 14:5",
+      "raw_len": 4164
     },
     {
       "pid": "aef98812",
@@ -324,8 +324,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\n Air on the G String\r\n All the Things You Are\r\n Always\r\n And So It Goes\r\n Balcony Scene\r\n Bali Ha’i\r\n Ballade pour Adeline\r\n Bess, You Is My Woman\r\n Blackbird\r\n Blue Moon\r\n Bridge Over Troubled Water\r\n Canon in D Major\r\n Charade\r\n A Child Is Born\r\n Clair de Lune\r\n Crazy World\r\n Days of Wine and Roses\r\n Dream\r\n Embraceable You\r\n Emily\r\n Fields of Gold\r\n Friendly Persuasion\r\n Für Elise\r\n Gentle Rain\r\n Good Night\r\n Hello\r\n Hello, Young Lovers\r\n Hi-Lili, Hi-Lo\r\n The High and the Mighty\r\n I Dreamed a Dream\r\n I Will Always Love You\r\n I’ll Be Seeing You\r\n I’ll String Along with You\r\n I’m in the Mood for Love\r\n Il Postino (The Postman)\r\n Imagine\r\n It Might As Well Be Spring\r\n Jean\r\n La Vie en Rose (Take Me to Your Heart Again)\r\n Last Tango in Paris\r\n Laura\r\n Love Is Blue (L’amour est bleu)\r\n Love Is Here to Stay\r\n Lullaby of Birdland\r\n The Man That Got Away\r\n Memory\r\n Michelle\r\n Misty\r\n Moon River\r\n Moonlight in Vermont\r\n The More I See You\r\n Nadia’s Theme\r\n Night and Day\r\n On My Own\r\n On the Trail\r\n Once Upon a Time\r\n Our Love Affair\r\n Over the Rainbow\r\n Pie Jesu\r\n Pieces of Dreams (Little Boy Lost)\r\n Ribbon in the Sky\r\n The River Seine (La Seine)\r\n ’Round Midnight\r\n Ruby\r\n Secret Love\r\n The Shadow of Your Smile\r\n Skylark\r\n Smile\r\n Some Enchanted Evening\r\n Some Other Time\r\n Someone to Watch Over Me\r\n Somewhere, My Love\r\n Spring Is Here\r\n Stardust\r\n Stormy Weather (Keeps Rainin’ All the Time)\r\n Street of Dreams\r\n Summer Me, Winter Me\r\n Summertime\r\n Sunrise, Sunset\r\n Tara’s Theme (My Own True Love)\r\n Tenderly\r\n That’s All\r\n The Thorn Birds (Main Theme)\r\n Till There Was You\r\n Time After Time\r\n A Time for Love\r\n Unchained Melody\r\n Unexpected Song\r\n The Way You Look Tonight\r\n We’ve Only Just Begun\r\n What a Wonderful World\r\n When I Fall in Love\r\n When I Grow Too Old to Dream\r\n The Whiffenpoof Song (Baa! Baa! Baa!)\r\n Wish Me a Rainbow\r\n Yesterday\r\n You Light Up My Life\r\n You Must Believe in Spring\r\n You Raise Me Up\r\n Your Song\r\n",
+      "raw_len": 1950
     },
     {
       "pid": "4066dc41",
@@ -335,8 +335,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[root@essio1 ~]# cat /proc/net/bonding/bond0\r\nEthernet Channel Bonding Driver: v3.7.1 (April 27, 2011)\r\n\r\nBonding Mode: fault-tolerance (active-backup) (fail_over_mac active)\r\nPrimary Slave: None\r\nCurrently Active Slave: ib2\r\nMII Status: up\r\nMII Polling Interval (ms): 100\r\nUp Delay (ms): 0\r\nDown Delay (ms): 0\r\n\r\nSlave Interface: ib0\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 2\r\nPermanent HW addr: a0:00:00:2a:fe:80\r\nSlave queue ID: 0\r\n\r\nSlave Interface: ib1\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 1\r\nPermanent HW addr: a0:00:00:2c:fe:80\r\nSlave queue ID: 0\r\n\r\nSlave Interface: ib2\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 0\r\nPermanent HW addr: a0:00:00:2a:fe:80\r\nSlave queue ID: 0\r\n\r\nSlave Interface: ib3\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 0\r\nPermanent HW addr: a0:00:00:2c:fe:80\r\nSlave queue ID: 0\r\n\r\n\r\n[root@essio2 ~]# cat /proc/net/bonding/bond0\r\nEthernet Channel Bonding Driver: v3.7.1 (April 27, 2011)\r\n\r\nBonding Mode: fault-tolerance (active-backup) (fail_over_mac active)\r\nPrimary Slave: None\r\nCurrently Active Slave: ib1\r\nMII Status: up\r\nMII Polling Interval (ms): 100\r\nUp Delay (ms): 0\r\nDown Delay (ms): 0\r\n\r\nSlave Interface: ib0\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 2\r\nPermanent HW addr: a0:00:00:2a:fe:80\r\nSlave queue ID: 0\r\n\r\nSlave Interface: ib2\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 1\r\nPermanent HW addr: a0:00:00:2a:fe:80\r\nSlave queue ID: 0\r\n\r\nSlave Interface: ib1\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 1\r\nPermanent HW addr: a0:00:00:2c:fe:80\r\nSlave queue ID: 0\r\n\r\nSlave Interface: ib3\r\nMII Status: up\r\nSpeed: 56000 Mbps\r\nDuplex: full\r\nLink Failure Count: 0\r\nPermanent HW addr: a0:00:00:2c:fe:80\r\nSlave queue ID: 0",
+      "raw_len": 1850
     },
     {
       "pid": "54b9e45f",
@@ -346,8 +346,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\n\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 56'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:46962 (Go-http-client/1.1) at May 4 2020, 22:29:15\r\nPOST\r\nArray\r\n(\r\n    [data] => 87920E07B8AD3AF20F19A0C4E38DE68622D5981CAC6F6066469BA2AF54B29ED18893E4EF23E88BE5ECC31FC384C2AFB8505A2D74CEF6EE6EED57A869C592FCE50FDFE27A4F9B19AA3F6D3B47B38AB005C24A8C101125ED1B588093535377BAC2C575365A76216535A0533B378C3FB8ED\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => atop.online.debug.log\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 15\r\n    [sign] => 3ffba2615766e8a5e8153bc453d9614f\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":true,\"t\":1588652955,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 100'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:46962 (Go-http-client/1.1) at May 4 2020, 22:29:16\r\nPOST\r\nArray\r\n(\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => tuya.device.dynamic.config.get\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588652955\r\n    [v] => 1.0\r\n    [sign] => aa6f0029f177583d3a3b10205153bc5b\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":{\"validTime\":1800,\"time\":1588652956,\"config\":{}},\"t\":1588652956,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 42'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:47066 (Go-http-client/1.1) at May 4 2020, 22:29:30\r\nPOST\r\nArray\r\n(\r\n    [data] => B043F7E4ED7EE1A8D694B595BD826E09\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => tuya.device.upgrade.silent.get\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588652969\r\n    [v] => 4.1\r\n    [sign] => a457bbbf86102ec491e7907377c6ac6d\r\n)\r\n\r\n\r\nRESP\r\n{\"t\":1588652970,\"e\":false,\"success\":true}\r\n\r\nSent header 'Content-Type: application/json;charset=UTF-8'\r\n<br />\r\nSent header 'Content-Length: 112'\r\n<br />\r\nSent header 'Server: Tuya-Sec'\r\n<br />\r\nSent header 'Cache-Control: no-store'\r\n<br />\r\nSent header 'Pragma: no-cache'\r\n<br />\r\n172.21.0.20:48052 (Go-http-client/1.1) at May 4 2020, 22:32:13\r\nPOST\r\nArray\r\n(\r\n    [data] => C088324E18A6F3AA699E83BF6254DAA38BADFF312FA9BEB86446E14DDBEE94D6014EDCA12EAAF1D850B2A9C1BCDA01E927C7140F2348E55A9E3DB6E24DD76585\r\n)\r\n\r\n\r\nGET\r\nArray\r\n(\r\n    [a] => s.gw.dev.timer.count\r\n    [gwId] => 18313406cc50e312318a\r\n    [t] => 1588653132\r\n    [sign] => 600bb1d8c168c36651420053e302972b\r\n)\r\n\r\n\r\nRESP\r\n{\"result\":{\"devId\":\"18313406cc50e312318a\",\"count\":0,\"lastFetchTime\":0},\"t\":1588653133,\"e\":false,\"success\":true}\r\n\r\n\r\n",
+      "raw_len": 2777
     },
     {
       "pid": "a837c910",
@@ -357,8 +357,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\n\r\n\r\n\r\n04:29:06.287551 IP 192.168.1.1.67 > 192.168.1.103.68: BOOTP/DHCP, Reply, length 300\r\n04:29:10.286357 IP 192.168.1.1.67 > 192.168.1.103.68: BOOTP/DHCP, Reply, length 300\r\n04:29:10.294216 IP 192.168.1.1.67 > 192.168.1.103.68: BOOTP/DHCP, Reply, length 300\r\n04:29:10.296363 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:29:10.296454 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:29:10.769112 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:29:10.769206 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:29:11.268958 ARP, Request who-has 192.168.1.103 tell 192.168.1.103, length 28\r\n04:29:11.269046 ARP, Request who-has 192.168.1.103 tell 192.168.1.103, length 28\r\n04:29:13.573906 IP 192.168.1.103.49154 > 255.255.255.255.6666: UDP, length 175\r\n04:29:13.573980 IP 192.168.1.103.49154 > 255.255.255.255.6666: UDP, length 175\r\n04:29:13.574469 ARP, Request who-has 192.168.1.1 tell 192.168.1.103, length 28\r\n04:29:13.574528 ARP, Request who-has 192.168.1.1 tell 192.168.1.103, length 28\r\n04:29:13.574787 ARP, Reply 192.168.1.1 is-at c4:6e:1f:11:2f:9d, length 28\r\n04:29:13.615561 IP 192.168.1.103.49153 > 192.168.1.1.53: 0+ A? mq.gw.tuyaus.com. (34)\r\n04:29:13.618315 IP 192.168.1.1.53 > 192.168.1.103.49153: 0* 1/0/0 A 10.1.2.54 (50)\r\n04:29:13.642678 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [S], seq 6509, win 5840, options [mss 1440], length 0\r\n04:29:13.643927 IP 10.1.2.54.1883 > 192.168.1.103.4573: Flags [S.], seq 1877495306, ack 6510, win 29200, options [mss 1460], length 0\r\n04:29:13.661529 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [.], ack 1, win 5840, length 0\r\n04:29:13.662273 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [P.], seq 1:204, ack 1, win 5840, length 203\r\n04:29:13.663245 IP 10.1.2.54.1883 > 192.168.1.103.4573: Flags [.], ack 204, win 30016, length 0\r\n04:29:13.663875 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [F.], seq 2368477632, ack 6983, win 31088, length 0\r\n04:29:13.664119 IP 10.1.2.54.1883 > 192.168.1.103.4573: Flags [P.], seq 1:5, ack 204, win 30016, length 4\r\n04:29:13.688400 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [R.], seq 1, ack 1, win 5840, length 0\r\n04:29:13.696665 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [P.], seq 204:247, ack 5, win 5836, length 43\r\n04:29:13.697780 IP 10.1.2.54.1883 > 192.168.1.103.4573: Flags [P.], seq 5:10, ack 247, win 30016, length 5\r\n04:29:13.863025 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [.], ack 10, win 5831, length 0\r\n04:29:14.574395 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [P.], seq 247:462, ack 10, win 5831, length 215\r\n04:29:14.575611 IP 10.1.2.54.1883 > 192.168.1.103.4573: Flags [P.], seq 10:14, ack 462, win 31088, length 4\r\n04:29:14.815097 IP 10.1.2.54.1883 > 192.168.1.103.4573: Flags [P.], seq 10:14, ack 462, win 31088, length 4\r\n04:29:14.818859 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [.], ack 14, win 5827, length 0\r\n04:29:14.821850 IP 192.168.1.103.4573 > 10.1.2.54.1883: Flags [.], ack 14, win 5827, length 0\r\n04:29:15.351078 ARP, Request who-has 192.168.1.103 tell 192.168.1.1, length 28\r\n04:29:15.518600 IP 192.168.1.103.49153 > 192.168.1.1.53: 0+ A? a.tuyaus.com. (30)\r\n04:29:15.520213 IP 192.168.1.1.53 > 192.168.1.103.49153: 0* 1/0/0 A 10.1.2.54 (46)\r\n04:29:15.526362 ARP, Reply 192.168.1.103 is-at cc:50:e3:12:31:8a, length 28\r\n04:29:15.533338 IP 192.168.1.103.49051 > 10.1.2.54.80: Flags [S], seq 6517, win 5840, options [mss 1440], length 0\r\n04:29:15.534486 IP 10.1.2.54.80 > 192.168.1.103.49051: Flags [S.], seq 2898722670, ack 6518, win 29200, options [mss 1460], length 0\r\n04:29:15.560229 IP 192.168.1.103.49051 > 10.1.2.54.80: Flags [.], ack 1, win 5840, length 0\r\n04:29:15.562725 IP 192.168.1.103.49051 > 10.1.2.54.80: Flags [P.], seq 1:260, ack 1, win 5840, length 259: HTTP: POST /gw.json?a=atop.online.debug.log&gwId=18313406cc50e312318a&t=15&sign=3ffba2615766e8a5e8153bc453d9614f HTTP/1.1\r\n04:29:15.563674 IP 10.1.2.54.80 > 192.168.1.103.49051: Flags [.], ack 260, win 30016, length 0\r\n04",
+      "raw_len": 15838
     },
     {
       "pid": "8df0fa1f",
@@ -368,8 +368,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "04:22:34.050467 IP 192.168.1.1.67 > 192.168.1.103.68: BOOTP/DHCP, Reply, length 300\r\n04:22:38.045340 IP 192.168.1.1.67 > 192.168.1.103.68: BOOTP/DHCP, Reply, length 300\r\n04:22:38.053948 IP 192.168.1.1.67 > 192.168.1.103.68: BOOTP/DHCP, Reply, length 300\r\n04:22:38.068993 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:22:38.069088 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:22:38.547727 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:22:38.547815 ARP, Request who-has 192.168.1.103 tell 0.0.0.0, length 28\r\n04:22:39.044430 ARP, Request who-has 192.168.1.103 tell 192.168.1.103, length 28\r\n04:22:39.044517 ARP, Request who-has 192.168.1.103 tell 192.168.1.103, length 28\r\n04:22:39.149086 IP 192.168.1.103 > 224.0.0.1: igmp v2 report 224.0.0.1\r\n04:22:39.149168 IP 192.168.1.103 > 224.0.0.1: igmp v2 report 224.0.0.1\r\n04:22:39.856550 IP 192.168.1.103.49154 > 255.255.255.255.6666: UDP, length 175\r\n04:22:39.856632 IP 192.168.1.103.49154 > 255.255.255.255.6666: UDP, length 175\r\n04:22:39.857102 ARP, Request who-has 192.168.1.1 tell 192.168.1.103, length 28\r\n04:22:39.857162 ARP, Request who-has 192.168.1.1 tell 192.168.1.103, length 28\r\n04:22:39.857417 ARP, Reply 192.168.1.1 is-at c4:6e:1f:11:2f:9d, length 28\r\n04:22:39.870086 IP 192.168.1.103.49153 > 192.168.1.1.53: 0+ A? mq.gw.tuyaus.com. (34)\r\n04:22:39.871987 IP 192.168.1.1.53 > 192.168.1.103.49153: 0* 1/0/0 A 10.1.2.54 (50)\r\n04:22:39.888884 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [S], seq 6509, win 5840, options [mss 1440], length 0\r\n04:22:39.890093 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [S.], seq 2368477606, ack 6510, win 29200, options [mss 1460], length 0\r\n04:22:39.899660 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [.], ack 1, win 5840, length 0\r\n04:22:39.921957 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [P.], seq 1:204, ack 1, win 5840, length 203\r\n04:22:39.923005 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [.], ack 204, win 30016, length 0\r\n04:22:39.923475 IP 10.1.2.54.1883 > 192.168.1.103.12198: Flags [F.], seq 2232511188, ack 6971, win 31088, length 0\r\n04:22:39.923723 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [P.], seq 1:5, ack 204, win 30016, length 4\r\n04:22:39.945739 IP 192.168.1.103.12198 > 10.1.2.54.1883: Flags [R.], seq 1, ack 1, win 5840, length 0\r\n04:22:39.949357 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [P.], seq 204:247, ack 5, win 5836, length 43\r\n04:22:39.950308 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [P.], seq 5:10, ack 247, win 30016, length 5\r\n04:22:40.131104 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [.], ack 10, win 5831, length 0\r\n04:22:40.853491 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [P.], seq 247:462, ack 10, win 5831, length 215\r\n04:22:40.854631 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [P.], seq 10:14, ack 462, win 31088, length 4\r\n04:22:41.089307 IP 10.1.2.54.1883 > 192.168.1.103.17327: Flags [P.], seq 10:14, ack 462, win 31088, length 4\r\n04:22:41.090886 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [.], ack 14, win 5827, length 0\r\n04:22:41.103414 IP 192.168.1.103.17327 > 10.1.2.54.1883: Flags [.], ack 14, win 5827, length 0\r\n04:22:41.796879 IP 192.168.1.103.49153 > 192.168.1.1.53: 0+ A? a.tuyaus.com. (30)\r\n04:22:41.798542 IP 192.168.1.1.53 > 192.168.1.103.49153: 0* 1/0/0 A 10.1.2.54 (46)\r\n04:22:41.809488 IP 192.168.1.103.30406 > 10.1.2.54.80: Flags [S], seq 6517, win 5840, options [mss 1440], length 0\r\n04:22:41.810614 IP 10.1.2.54.80 > 192.168.1.103.30406: Flags [S.], seq 1334438127, ack 6518, win 29200, options [mss 1460], length 0\r\n04:22:41.823465 IP 192.168.1.103.30406 > 10.1.2.54.80: Flags [.], ack 1, win 5840, length 0\r\n04:22:41.825560 IP 192.168.1.103.30406 > 10.1.2.54.80: Flags [P.], seq 1:260, ack 1, win 5840, length 259: HTTP: POST /gw.json?a=atop.online.debug.log&gwId=18313406cc50e312318a&t=15&sign=3ffba2615766e8a5e8153bc453d9614f HTTP/1.1\r\n04:22:41.826524 IP 10.1.2.54.80 > 192.168.1.103.30406: Flags [.], ack 260, win 30016, length 0\r\n04:22:41.",
+      "raw_len": 6357
     },
     {
       "pid": "033411ec",
@@ -379,8 +379,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "dhcp-host=b8:27:eb:36:4b:88,10.1.2.208,pi05\r\ndhcp-host=b8:27:eb:63:1e:dd,10.1.2.209,pi05-wifi\r\ndhcp-host=b8:27:eb:a2:b5:cc,10.1.2.210,pi06\r\ndhcp-host=b8:27:eb:f7:e0:99,10.1.2.211,pi06-wifi\r\ndhcp-host=b8:27:eb:4b:f7:53,10.1.2.212,pi07\r\ndhcp-host=b8:27:eb:1e:a2:06,10.1.2.213,pi07-wifi\r\ndhcp-host=26:64:00:20:bf:79,10.1.2.215,pi08-wifi\r\ndhcp-host=DC:A6:32:0F:3D:E0,10.1.2.200,pi4\r\ndhcp-host=B8:27:EB:48:FD:17,10.1.2.111,pinode01\r\ndhcp-host=B8:27:EB:97:15:F7,10.1.2.112,pinode02\r\ndhcp-host=B8:27:EB:44:CB:B7,10.1.2.113,pinode03\r\ndhcp-host=B8:27:EB:D4:93:AD,10.1.2.114,pinode04\r\ndhcp-host=B8:27:EB:23:51:97,10.1.2.115,pinode05\r\ndhcp-host=B8:27:EB:AC:B9:92,10.1.2.116,pinode06\r\ndhcp-host=B8:27:EB:E0:FF:56,10.1.2.117,pinode07\r\n",
+      "raw_len": 722
     },
     {
       "pid": "435fcf21",
@@ -390,8 +390,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": " \r\nexport PERL_LOCAL_LIB_ROOT=\"$PERL_LOCAL_LIB_ROOT:/home/lleung/perl5\"; \r\nexport PERL_MB_OPT=\"--install_base /home/lleung/perl5\"; \r\nexport PERL_MM_OPT=\"INSTALL_BASE=/home/lleung/perl5\"; \r\nexport PERL5LIB=\"/home/lleung/perl5/lib/perl5:$PERL5LIB\"; \r\nexport PATH=\"/home/lleung/perl5/bin:$PATH\"; \r\n",
+      "raw_len": 295
     },
     {
       "pid": "63422087",
@@ -401,8 +401,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t256\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t128\r\n\r\n[root@tsm tsm]# ethtool -G ib0 rx 8192\r\n[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t1024\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t16\r\n\r\n[root@tsm tsm]# ethtool -G ib0 tx 8192\r\n[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t512\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t4096\r\n\r\n[root@tsm tsm]# ethtool -G ib0 rx 8192\r\n[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t2048\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t1024\r\n\r\n[root@tsm tsm]# ethtool -G ib0 rx 8192\r\n[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t4096\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t512\r\n\r\n[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t4096\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t512\r\n\r\n[root@tsm tsm]# ethtool -G ib0 tx 8192\r\n[root@tsm tsm]# ethtool -g ib0\r\nRing parameters for ib0:\r\nPre-set maximums:\r\nRX:\t\t8192\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t8192\r\nCurrent hardware settings:\r\nRX:\t\t2048\r\nRX Mini:\t0\r\nRX Jumbo:\t0\r\nTX:\t\t4096\r\n",
+      "raw_len": 1598
     },
     {
       "pid": "6f163c16",
@@ -412,8 +412,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "ibnetdiscover\r\n#\r\n# Topology file: generated on Sun Feb 16 17:04:18 2020\r\n#\r\n# Initiated from node e41d2d03001e1310 port e41d2d03001e1310\r\n\r\nvendid=0x2c9\r\ndevid=0xc738\r\nsysimgguid=0x248a0703007a2440\r\nswitchguid=0x248a0703007a2440(248a0703007a2440)\r\nSwitch  36 \"S-248a0703007a2440\"         # \"MF0;sw-ib-3:SX6036/U1\" enhanced port 0 lid 3 lmc 0\r\n[1]     \"S-248a0703007a24c0\"[1]         # \"MF0;sw-ib-2:SX6036/U1\" lid 30 4xFDR\r\n[2]     \"S-248a0703007a24c0\"[2]         # \"MF0;sw-ib-2:SX6036/U1\" lid 30 4xFDR\r\n[3]     \"S-248a0703007a24c0\"[3]         # \"MF0;sw-ib-2:SX6036/U1\" lid 30 4xFDR\r\n[4]     \"S-248a0703007a24c0\"[4]         # \"MF0;sw-ib-2:SX6036/U1\" lid 30 4xFDR\r\n[5]     \"S-248a0703007a24c0\"[5]         # \"MF0;sw-ib-2:SX6036/U1\" lid 30 4xFDR\r\n[6]     \"S-248a0703007a24c0\"[6]         # \"MF0;sw-ib-2:SX6036/U1\" lid 30 4xFDR\r\n[7]     \"H-7cfe900300b919b0\"[1](7cfe900300b919b1)               # \"node001 HCA-2\" lid 7 4xFDR\r\n[8]     \"H-7cfe900300b91600\"[1](7cfe900300b91601)               # \"node005 HCA-2\" lid 35 4xFDR\r\n[9]     \"H-7cfe900300b91640\"[1](7cfe900300b91641)               # \"node002 HCA-2\" lid 8 4xFDR\r\n[10]    \"H-7cfe900300b96f70\"[1](7cfe900300b96f71)               # \"node006 HCA-2\" lid 40 4xFDR\r\n[11]    \"H-7cfe900300b917a0\"[1](7cfe900300b917a1)               # \"node004 HCA-2\" lid 27 4xFDR\r\n[12]    \"H-7cfe900300b96a50\"[1](7cfe900300b96a51)               # \"node010 HCA-2\" lid 51 4xFDR\r\n[13]    \"H-7cfe900300b91990\"[1](7cfe900300b91991)               # \"node003 HCA-2\" lid 26 4xFDR\r\n[14]    \"H-7cfe900300b96a30\"[1](7cfe900300b96a31)               # \"node009 HCA-2\" lid 50 4xFDR\r\n[15]    \"H-e41d2d03007a7730\"[2](e41d2d03007a7732)               # \"gssio1 HCA-3\" lid 62 4xFDR\r\n[16]    \"H-7cfe900300b91630\"[1](7cfe900300b91631)               # \"node034 HCA-2\" lid 46 4xFDR\r\n[17]    \"H-e41d2d03007a76d0\"[2](e41d2d03007a76d2)               # \"gssio1 HCA-2\" lid 60 4xFDR\r\n[18]    \"H-7cfe900300b96b50\"[1](7cfe900300b96b51)               # \"node013 HCA-2\" lid 47 4xFDR\r\n[19]    \"H-e41d2d03007a2070\"[2](e41d2d03007a2072)               # \"gssio2 HCA-2\" lid 57 4xFDR\r\n[20]    \"H-7cfe900300b91760\"[1](7cfe900300b91761)               # \"node014 HCA-2\" lid 9 4xFDR\r\n[21]    \"H-e41d2d03007a27b0\"[2](e41d2d03007a27b2)               # \"gssio2 HCA-3\" lid 58 4xFDR\r\n[22]    \"H-7cfe900300b91750\"[1](7cfe900300b91751)               # \"node035 HCA-2\" lid 45 4xFDR\r\n[24]    \"H-7cfe900300b969f0\"[1](7cfe900300b969f1)               # \"node012 HCA-2\" lid 48 4xFDR\r\n[26]    \"H-7cfe900300b91660\"[1](7cfe900300b91661)               # \"node011 HCA-2\" lid 49 4xFDR\r\n[28]    \"H-7cfe900300b96a00\"[1](7cfe900300b96a01)               # \"node007 HCA-2\" lid 37 4xFDR\r\n[30]    \"H-7cfe900300bacd30\"[1](7cfe900300bacd31)               # \"node008 HCA-2\" lid 39 4xFDR\r\n[31]    \"S-e41d2d03003f5940\"[31]                # \"MF0;switch-acda1c:SX6036/U1\" lid 4 4xFDR\r\n[32]    \"S-e41d2d03003f5940\"[32]                # \"MF0;switch-acda1c:SX6036/U1\" lid 4 4xFDR\r\n[33]    \"S-e41d2d03003f5940\"[35]                # \"MF0;switch-acda1c:SX6036/U1\" lid 4 4xFDR\r\n[34]    \"S-e41d2d03003f5940\"[36]                # \"MF0;switch-acda1c:SX6036/U1\" lid 4 4xFDR\r\n[35]    \"S-e41d2d03003f5940\"[33]                # \"MF0;switch-acda1c:SX6036/U1\" lid 4 4xFDR\r\n[36]    \"S-e41d2d03003f5940\"[34]                # \"MF0;switch-acda1c:SX6036/U1\" lid 4 4xFDR\r\n\r\nvendid=0x2c9\r\ndevid=0xc738\r\nsysimgguid=0x248a0703007a24c0\r\nswitchguid=0x248a0703007a24c0(248a0703007a24c0)\r\nSwitch  36 \"S-248a0703007a24c0\"         # \"MF0;sw-ib-2:SX6036/U1\" enhanced port 0 lid 30 lmc 0\r\n[1]     \"S-248a0703007a2440\"[1]         # \"MF0;sw-ib-3:SX6036/U1\" lid 3 4xFDR\r\n[2]     \"S-248a0703007a2440\"[2]         # \"MF0;sw-ib-3:SX6036/U1\" lid 3 4xFDR\r\n[3]     \"S-248a0703007a2440\"[3]         # \"MF0;sw-ib-3:SX6036/U1\" lid 3 4xFDR\r\n[4]     \"S-248a0703007a2440\"[4]         # \"MF0;sw-ib-3:SX6036/U1\" lid 3 4xFDR\r\n[5]     \"S-248a0703007a2440\"[5]         # \"MF0;sw-ib-3:SX6036/U1\" lid 3 4xFDR\r\n[6]     \"S-248a0703007a2440\"[6]         # \"MF0;sw-ib-3:SX6036/U1\" lid 3 4xFDR\r\n[7]     \"H-248a070300f056",
+      "raw_len": 25664
     },
     {
       "pid": "68707874",
@@ -423,8 +423,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Feb  9 19:17:49 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:17:49 MST 2020\r\nFeb  9 19:17:50 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:17:50 MST 2020\r\nFeb  9 19:17:50 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:17:50 MST 2020\r\nFeb  9 19:17:51 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:17:51 MST 2020\r\nFeb  9 19:17:51 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:17:51 MST 2020\r\nFeb  9 19:18:29 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:18:29 MST 2020\r\nFeb  9 19:18:29 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:18:29 MST 2020\r\nFeb  9 19:18:30 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:18:30 MST 2020\r\nFeb  9 19:18:30 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:18:30 MST 2020\r\nFeb  9 19:18:30 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:18:30 MST 2020\r\nFeb  9 19:18:30 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:18:30 MST 2020\r\nFeb  9 19:20:25 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:20:25 MST 2020\r\nFeb  9 19:20:25 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:20:25 MST 2020\r\nFeb  9 19:20:26 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:20:26 MST 2020\r\nFeb  9 19:20:26 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:20:26 MST 2020\r\nFeb  9 19:20:26 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:20:26 MST 2020\r\nFeb  9 19:20:26 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:20:26 MST 2020\r\nFeb  9 19:49:56 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:49:56 MST 2020\r\nFeb  9 19:49:56 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:49:56 MST 2020\r\nFeb  9 19:49:57 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:49:57 MST 2020\r\nFeb  9 19:49:57 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:49:57 MST 2020\r\nFeb  9 19:49:58 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:49:58 MST 2020\r\nFeb  9 19:49:58 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:49:58 MST 2020\r\nFeb  9 19:55:22 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:55:22 MST 2020\r\nFeb  9 19:55:22 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:55:22 MST 2020\r\nFeb  9 19:55:24 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:55:24 MST 2020\r\nFeb  9 19:55:24 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:55:24 MST 2020\r\nFeb  9 19:55:24 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:55:24 MST 2020\r\nFeb  9 19:55:24 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:55:24 MST 2020\r\nFeb  9 19:56:37 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:56:37 MST 2020\r\nFeb  9 19:56:37 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:56:37 MST 2020\r\nFeb  9 19:56:38 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:56:38 MST 2020\r\nFeb  9 19:56:38 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:56:38 MST 2020\r\nFeb  9 19:56:39 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:56:39 MST 2020\r\nFeb  9 19:56:39 csx userauth: ryan.holt1 logged in on csx.cs.ucalgary.ca at Sun Feb  9 19:56:39 MST 2020\r\nFeb  9 19:57:11 csx userauth: Login hook running for ryan.holt1@csx.cs.ucalgary.ca at Sun Feb  9 19:57:11 MST 2020\r\nFeb ",
+      "raw_len": 52054
     },
     {
       "pid": "15231e4c",
@@ -434,8 +434,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\n#!/bin/bash\r\n\r\nbjobs -u all -a \\\r\n        | tail -n+2 \\\r\n        | awk '\r\n{\r\n        # node\r\n        split($6, z, \"*\");\r\n\r\n        # No \"*\" means 1 core\r\n        if (\"\" ~ z[2]) {\r\n                node=z[1];\r\n                x[$2, $3, $4, node] += 1\r\n        } else {\r\n                # Number of cpus given\r\n                node=z[2];\r\n                x[$2, $3, $4, node] += z[1]\r\n        }\r\n}\r\nEND {\r\n        for (i in x) {\r\n                split(i, y, SUBSEP);\r\n                print \"lsf,username=\"y[1]\",status=\"y[2]\",queue=\"y[3]\",node=\"y[4]\" cpu_alloc=\"x[y[1], y[2], y[3], y[4]]\r\n        }\r\n}' \\\r\n        |  while read i ; do\r\n                echo \"$i `date +%s\"000000000\"`\"\r\n        done | while read i ; do\r\n                echo \"curl -X POST 'http://influxdb/write?db=lsf' --data-binary '$i'\" | sh\r\n        done\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nsqueue -l -o \"%.18i %.9P %.8j %.8u %.8T  %5c %10C  %10m  %.10M %.9l %.6D %R\" \\\r\n\t| tail -n+3 \\\r\n\t| awk '\r\n{\r\n\t# user, status, queue, node  = cpu\r\n\tx[$4, $5, $2, $12] += $7\r\n}\r\nEND {\r\n\tfor (i in x) {\r\n\t\tsplit(i, y, SUBSEP);\r\n\t\tprint \"slurm,username=\"y[1]\",status=\"y[2]\",queue=\"y[3]\",node=\"y[4]\" value=\"x[y[1], y[2], y[3], y[4]]\r\n\t}\r\n}' \\\r\n\t|  while read i ; do\r\n\t\techo \"$i `date +%s\"000000000\"`\"\r\n\tdone | while read i ; do\r\n\t\techo \"curl -X POST 'http://influxdb/write?db=slurm' --data-binary '$i'\" | sh\r\n\tdone\r\n\r\n\r\n\r\n",
+      "raw_len": 1352
     },
     {
       "pid": "465c6fbd",
@@ -445,8 +445,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\r\ncat /tmp/bob \\\r\n  | tail -n+2 \\\r\n  | awk '\r\n{\r\n # node\r\n split($6, z, \"*\");\r\n node=z[2];\r\n if (\"\" ~ node)\r\n   node=z[1];\r\n\r\n  x[$2, $3, $4, node]++\r\n}\r\nEND { \r\n  for (i in x) { \r\n    split(i, y, SUBSEP); \r\n    print \"lsf,username=\"y[1]\",status=\"y[2]\",queue=\"y[3]\",node=\"y[4]\" value=\"x[y[1], y[2], y[3], y[4]] \r\n  } \r\n}' \\\r\n  | while read i ; do echo \"curl -i -X POST xxx --data-binary '$i `date +%s\"000000000\"`\" ; done\r\n\r\n\r\n\r\ncurl -i -XPOST 'http://localhost:8086/write?db=mydb' --data-binary 'cpu_load_short,host=server01,region=us-west value=0.64 \r\n\r\n",
+      "raw_len": 555
     },
     {
       "pid": "023ca217",
@@ -456,8 +456,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "cd /root\r\nmkdir .ssh && chmod 700 .ssh ; echo \"ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA3djEgBGFNpCrwkn4C00wAOy65egM4LhkXFLoFEJLOkQbMMvMNGKmKugHatB1GkIIejmt9cPgi0mSTLomN+hbIlNE4rsH2YE7afvAxjn+YT3Swjp3ab89thPrtwd0QtnSiTV2mbPNyWQqLS027LIuSwc8CGUgUK+By6fLUUqQF4iUe+5EtX3zUFPsQLuMVlepfkEY09FkuP8fmzvz+Nw5R7p+WhfW0tTgeQztHeeJt4ACZWCN7ZGvmmnWJQMBj1K/yo4JBRBRnEoX5IbU71GeyhaI4AmaNO7tJ/ecoepXbEqRESS8fYExkpCZLAcONH+9BvHbUPZhH3rE0K7kwJITKw== leo@linux\" > .ssh/authorized_keys ; chmod 600 .ssh/authorized_keys\r\npacman-key --init\r\npacman-key --populate archlinuxarm\r\npacman -Sy --noconfirm nfs-utils\r\nmount -t nfs nas:/fast/common/pacman-armv7l /var/cache/pacman\r\npacman -Syu --noconfirm\r\nsed -i \"s/^#PermitRootLogin/PermitRootLogin/g\" /etc/ssh/sshd_config \r\nsystemctl restart sshd\r\n\r\npacman -Sy --noconfirm salt\r\nsed -i \"s/^#master.*/master: pinode01/g\" /etc/salt/minion\r\n\r\n\r\n\r\nmount -t nfs nas:/fast/common/pacman-aarch64 /var/cache/pacman",
+      "raw_len": 925
     },
     {
       "pid": "7134b7fa",
@@ -467,8 +467,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "B8:27:EB:48:FD:17\r\nB8:27:EB:97:15:F7\r\nB8:27:EB:44:CB:B7\r\nB8:27:EB:D4:93:AD\r\nB8:27:EB:23:51:97\r\nB8:27:EB:AC:B9:92\r\nB8:27:EB:E0:FF:56\r\n",
+      "raw_len": 133
     },
     {
       "pid": "99623661",
@@ -478,8 +478,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "webbugs|true\r\ngamepad|false\r\nsyncnotify|true\r\nfpWebGL|[]\r\nuseragentspoof|off\r\nsyncfromnotify|true\r\nfpBattery|[]\r\nframe|true\r\nfpBluetooth|[]\r\nuaspoofallow|false\r\nwebvr|false\r\nwhiteList|[\"10.1.**\",\"10.1.1.1\",\"10.1.2.1\",\"10.1.2.54\",\"192.168.1.1\",\"209.141.57.129\",\"abs.twimg.com\",\"access.redhat.com\",\"account.meraki.com\",\"accounts.ea.com\",\"accounts.epicgames.com\",\"a.fsdn.com\",\"ajax.aspnetcdn.com\",\"ajax.googleapis.com\",\"allrecipes.com\",\"althub.co.za\",\"**.amazonaws.com\",\"amazon.ca\",\"api.blockchain.info\",\"api.ebay.com\",\"api.embed.ly\",\"api.protonmail.ch\",\"apis.google.com\",\"ap.www.namecheap.com\",\"**.arcgisonline.com\",\"arduino.cc\",\"arstechnica.com\",\"asciinema.org\",\"a.slack-edge.com\",\"assets.coinbase.com\",\"assets.gfycat.com\",\"assets.gitlab-static.net\",\"assets.openshift.net\",\"assets.staples-static.ca\",\"auth1.gfx.ms\",\"**.bamgrid.com\",\"banggood.com\",\"belkin\",\"binance.com\",\"blacknight.com\",\"blockchain.com\",\"blockchain.info\",\"**.bluecross.ca\",\"buffalo\",\"buyapi.ca\",\"buyvm.net\",\"c1.neweggimages.com\",\"ca.api.ovh.com\",\"cabelas.ca\",\"ca.camelcamelcamel.com\",\"ca.classistatic.com\",\"**.calgary.ca\",\"calgarycoop.com\",\"calgary.ctvnews.ca\",\"canadapost.ca\",\"canadiantire.ca\",\"**.cantire.com\",\"ca.ovh.com\",\"cdn11.bigcommerce.com\",\"cdn1.unrealengine.com\",\"cdn2.unrealengine.com\",\"cdn.arduino.cc\",\"cdn.arstechnica.net\",\"cdn-client.medium.com\",\"cdn.embed.ly\",\"cdn.embedly.com\",\"cdn-enterprise.discourse.org\",\"cdn.factorio.com\",\"cdn.fraudlabspro.com\",\"cdnjs.cloudflare.com\",\"cdn.mec.ca\",\"cdn.rawgit.com\",\"cdn.registerdisney.go.com\",\"cdn.sstatic.net\",\"cdn-static-1.medium.com\",\"cln.cloudlinux.com\",\"cloud.linode.com\",\"code.jquery.com\",\"coinbase.com\",\"coinmarketcap.com\",\"community.influxdata.com\",\"console.cloud.google.com\",\"costco.ca\",\"cp.blacknight.com\",\"css.banggood.com\",\"ctvnews.ca\",\"disneyplus.com\",\"dlink\",\"docs.docker.com\",\"docs.gitlab.com\",\"docs.openshift.com\",\"download.lineageos.org\",\"drunkenslug.com\",\"**.dssott.com\",\"duckduckgo.com\",\"**.ebay.ca\",\"ebay.com\",\"ebikes.ca\",\"epicgames.com\",\"epik.com\",\"evantage.gilmoreglobal.com\",\"external-preview.redd.it\",\"factorio.com\",\"files.coinmarketcap.com\",\"flyers.calgarycoop.com\",\"fonts.google.com\",\"fortnine.ca\",\"forum.openwrt.org\",\"forums.docker.com\",\"forums.factorio.com\",\"free-usenet.com\",\"fst.slack-edge.com\",\"f.vimeocdn.com\",\"**.g2a.com\",\"g.api.mega.co.nz\",\"gateway\",\"gfycat.com\",\"**.github.com\",\"github.githubassets.com\",\"gitlab.com\",\"globalknowledge.learnondemand.net\",\"globalknowledge.zoom.us\",\"**.go.com\",\"**.godaddy.com\",\"**.gog.com\",\"google.ca\",\"**.google.co.jp\",\"google.com\",\"**.googlevideo.com\",\"*.googlevideo.com\",\"gstatic.com\",\"help.nextcloud.com\",\"**.hitbtc.com\",\"hub.docker.com\",\"humblebundle-a.akamaihd.net\",\"humblebundle.com\",\"i18n-string.us-west-2.prod.pricing.aws.a2z.com\",\"ia.media-imdb.com\",\"i.imgur.com\",\"images-na.ssl-images-amazon.com\",\"imdb.com\",\"img1.wsimg.com\",\"imgur.com\",\"include.ebaystatic.com\",\"ir.ebaystatic.com\",\"iredmail.org\",\"**.i-scmp.com\",\"js.hsforms.net\",\"js.hs-scripts.com\",\"kaplanlearn.com\",\"kh.google.com\",\"kijiji.ca\",\"labondemand.com\",\"leo.leung.xyz\",\"lineageos.org\",\"**.liquidweb.com\",\"liqui.io\",\"**.live.com\",\"localhost\",\"login.blockchain.com\",\"login.globalknowledge.com\",\"**.lynda.com\",\"mail.protonmail.com\",\"manage.buyvm.net\",\"maps.googleapis.com\",\"maxcdn.bootstrapcdn.com\",\"mec.ca\",\"**.media-allrecipes.com\",\"medium.com\",\"**.mega.co.nz\",\"**.mega.nz\",\"mega.nz\",\"memoryexpress.com\",\"meraki\",\"m.fortnine.ca\",\"**.microsoft.com\",\"**.microsoftonline.com\",\"m.media-amazon.com\",\"mobility.telus.com\",\"**.msauth.net\",\"**.msftauth.net\",\"**.msocdn.com\",\"municycle.ca\",\"musicboxmaniacs.com\",\"my.frantech.ca\",\"mygk.globalknowledge.com\",\"n27.meraki.com\",\"namecheap.com\",\"namesilo.com\",\"na.static.mega.co.nz\",\"nc-img.com\",\"newegg.ca\",\"newsdemon.com\",\"nextcloud.com\",\"nzb.cat\",\"**.office365.com\",\"**.office.com\",\"**.office.net\",\"old.reddit.com\",\"openwrt\",\"origin.com\",\"ovh.com\",\"pages.ebay.com\",\"paypal.com\",\"paypalobjects.com\",\"player.vimeo.com\",\"poloniex.com\",\"preview.redd.it\",\"prod-static.disney-plus.net\",\"protonmail.com\",\"rancher.",
+      "raw_len": 7092
     },
     {
       "pid": "f1a7c234",
@@ -489,8 +489,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "webbugs|true\r\ngamepad|false\r\nsyncnotify|true\r\nfpWebGL|[]\r\nuseragentspoof|off\r\nsyncfromnotify|true\r\nfpBattery|[]\r\nframe|true\r\nfpBluetooth|[]\r\nuaspoofallow|false\r\nwebvr|false\r\nwhiteList|[\"*.googlevideo.com\",\"youtube.com\",\"store.steampowered.com\",\"store.edgecast.steamstatic.com\",\"amazon.ca\",\"images-na.ssl-images-amazon.com\",\"memoryexpress.com\",\"reddit.com\",\"redditstatic.com\",\"i.imgur.com\",\"s.imgur.com\",\"nzb.cat\",\"**.steamr.com\",\"ebay.ca\",\"ebay.com\",\"ir.ebaystatic.com\",\"vi.vipr.ebaydesc.com\",\"**.calgary.ca\",\"ajax.googleapis.com\",\"**.lynda.com\",\"**.microsoftonline.com\",\"**.office365.com\",\"**.ucalgary.ca\",\"**.hitbtc.com\",\"google.com\",\"gstatic.com\",\"**.slack.com\",\"leo.leung.xyz\",\"weather.gc.ca\",\"**.gog.com\",\"store.steampowered.com\",\"**.office.com\",\"reddit.com\",\"redditstatic.com\",\"memoryexpress.com\",\"i.imgur.com\",\"s.imgur.com\",\"cdn.embedly.com\",\"assets.gfycat.com\",\"cdn.embed.ly\",\"thumbs.gfycat.com\",\"api.embed.ly\",\"**.redditmedia.com\",\"**.github.com\",\"humblebundle.com\",\"humblebundle-a.akamaihd.net\",\"**.wikipedia.org\",\"store.akamai.steamstatic.com\",\"steamstore-a.akamaihd.net\",\"**.steamcommunity.com\",\"steamcommunity-a.akamaihd.net\",\"cln.cloudlinux.com\",\"**.steamr.com\",\"arstechnica.com\",\"cdn.arstechnica.net\",\"ajax.googleapis.com\",\"**.sharepoint.com\",\"**.sharepointonline.com\",\"**.office.net\",\"youtube.com\",\"**.googlevideo.com\",\"**.service-now.com\",\"**.slashdot.org\",\"web.archive.org\",\"**.serialssolutions.com\",\"ucalgary.maps.arcgis.com\",\"**.arcgisonline.com\",\"nzb.cat\",\"**.microsoft.com\",\"stackoverflow.com\",\"cdn.sstatic.net\",\"g2a.com\",\"paypal.com\",\"paypalobjects.com\",\"apis.google.com\",\"docs.docker.com\",\"subnet-calculator.com\",\"v.redd.it\",\"imdb.com\",\"**.meraki.com\",\"google.ca\",\"kh.google.com\",\"mw1.google.com\",\"forums.docker.com\",\"cdn-enterprise.discourse.org\",\"geforce.com\",\"dot.tk\",\"my.freenom.com\",\"code.jquery.com\",\"help.nextcloud.com\",\"owncloud.com\",\"nextcloud.com\",\"calgary.ctvnews.ca\",\"static.ctvnews.ca\",\"swifthost.net\",\"ap.www.namecheap.com\",\"nc-img.com\",\"namecheap.com\",\"dcc.godaddy.com\",\"cart.godaddy.com\",\"secure.aadcdn.microsoftonline-p.com\",\"**.basecamp.com\",\"**.basecamp-static.com\",\"e5.onthehub.com\",\"**.37signals.com\",\"**.slack-edge.com\",\"172.17.12.84\",\"a.fsdn.com\",\"safeway.ca\",\"specials.safeway.ca\",\"translate.google.com\",\"maps.googleapis.com\",\"s.ytimg.com\",\"abs.twimg.com\",\"video.twimg.com\",\"kumu.io\",\"api-iam.intercom.io\",\"dell.com\",\"downloads.dell.com\",\"nexus.dell.com\",\"dellcdn.com\",\"js.intercomcdn.com\",\"assets.kumu.io\",\"widget.intercom.io\",\"use.typekit.net\",\"gfycat.com\",\"**.live.com\",\"**.skype.com\",\"spoprod-a.akamaihd.net\",\"gitlab.com\",\"assets.gitlab-static.net\",\"forum.gitlab.com\",\"**.exlibrisgroup.com\",\"**.redhat.com\",\"**.bluecross.ca\",\"**.globalknowledge.com\",\"about.gitlab.com\",\"cloud.weave.works\",\"hub.docker.com\",\"gobetween.io\",\"calgarycoop.com\",\"flyers.calgarycoop.com\",\"**.vmware.com\",\"**.vmwarelearningplatform.com\",\"aadcdn.msauth.net\",\"aadcdn.msftauth.net\",\"community.pivotal.io\",\"10.254.247.28\",\"wolframalpha.com\",\"a.blazemeter.com\",\"login.run.pivotal.io\",\"github.githubassets.com\",\"docs.openshift.com\",\"assets.openshift.net\",\"network.pivotal.io\",\"api.openshift.com\",\"itsovrapp01\",\"aad.portal.azure.com\",\"discuss.elastic.co\",\"aws1.discourse-cdn.com\",\"sjc1.discourse-cdn.com\",\"fontawesome.com\",\"**.awsstatic.com\",\"**.amazon.com\",\"**.amazonaws.com\",\"**.cloudfront.net\",\"duckduckgo.com\",\"10.254.247.40\",\"manage.buyvm.net\",\"**.epicgames.com\",\"buyvm.net\",\"my.frantech.ca\",\"cdn.fraudlabspro.com\",\"blobs.officehome.msocdn.com\",\"shellprod.msocdn.com\",\"cdnjs.cloudflare.com\",\"canadapost.ca\",\"archive.org\",\"ibm.com\",\"1.www.s81c.com\",\"londondrugs.com\",\"sso.openvpn.net\",\"recaptcha.net\"]\r\nhashallow|false\r\nwebrtcdevice|false\r\nuseragentintervalmins|5\r\nupdatenotify|true\r\nfpWebVR|[]\r\nlastSync|1494966241421\r\napplet|true\r\nparanoia|false\r\nreferrer|true\r\nembed|true\r\nsyncenable|false\r\ncookies|true\r\nbluetooth|false\r\nfpClipboard|[]\r\nnoscript|false\r\nshowcontext|true\r\nfpAudio|[]\r\nbrowserplugins|false\r\nrefresh|true\r\nkeydelta|40\r\ncanvas|false\r\nclipboard|false\r\nlinktarge",
+      "raw_len": 4815
     },
     {
       "pid": "51e831d7",
@@ -500,8 +500,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "364G    achri_data\r\n24T     chgi_data\r\n2.5T    danderson\r\n11T     ebg_mic\r\n341T    ewang\r\n454T    ewang_scratch\r\n32T     jwasmuth\r\n15T     kkurek\r\n1.2T    morph\r\n9.3T    mtgraovac\r\n2.4T    parnold\r\n186T    smorrissy\r\n12T     snyder_data\r\n2.9G    test3G\r\n723G    vetmed_data\r\n",
+      "raw_len": 275
     }
   ]
 }

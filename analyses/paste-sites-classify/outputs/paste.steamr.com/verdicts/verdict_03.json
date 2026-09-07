@@ -1,0 +1,120 @@
+{
+  "batch_index": 3,
+  "host": "https://paste.steamr.com/",
+  "verdicts": [
+    {
+      "pid": "67b85376",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real ZFS admin session: root@nas shell, zpool commands, 2017 resilver timestamp, personal blog URL — human sysadmin work."
+    },
+    {
+      "pid": "875c1640",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Human-authored Docker entrypoint script with SIGTERM trap boilerplate; no swarm markers."
+    },
+    {
+      "pid": "5414f884",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real embedded-status script polling a specific UCalgary CPSC display server via ttyS0 — personal/institutional code."
+    },
+    {
+      "pid": "fc863961",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal ZFS snapshot diff listing with dashcam clips, Chinese-titled family photo directories, and 2015-2017 date snapshots."
+    },
+    {
+      "pid": "7c6582e7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Human-authored rpmrepo sync bash script (Re: reply chain) that references Adobe Flash, Slack, Chrome, VSCode, RPMFusion — clearly a personal Fedora setup."
+    },
+    {
+      "pid": "3f9dddda",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Iteration in the same rpmrepo sync bash script Re: thread — human evolutionary revision, not swarm duplicate-relay."
+    },
+    {
+      "pid": "77f70662",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Earlier revision of the rpmrepo sync bash script Re: thread — human iterative development."
+    },
+    {
+      "pid": "fa99eb3e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Original rpmrepo sync bash script (parent of the Re: chain) targeting SaltStack repos — human sysadmin tool."
+    },
+    {
+      "pid": "c80ed686",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Short human utility snippet for recursive wget from a link list — no swarm markers, no benchmark structure."
+    },
+    {
+      "pid": "3b071af8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal TinyCore Linux package inventory for building an Nvidia-supported X environment — hobbyist build notes."
+    },
+    {
+      "pid": "4b8e7220",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Detailed Dell OpenManage/ZFS migration checklist for hosts ugb/nsf/nsb with real controller commands — clearly personal ops runbook by 'Leo'."
+    },
+    {
+      "pid": "92e3fe71",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Old Solidity 0.4.0 contract sketch (SimpleBank/IsAlive) — human learning-Ethereum snippet, predates the swarm."
+    },
+    {
+      "pid": "c7aa2820",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real OpenOCD JTAG session output debugging rpi3 with Olimex adapter — hardware hacker workflow."
+    },
+    {
+      "pid": "379195ac",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "udev rules file for the Olimex USB JTAG adapter — companion to the openocd paste, real hardware config."
+    },
+    {
+      "pid": "56e50d48",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Bash helper to disable non-cpsc dnf repos on a CPSC-managed Fedora host — same UCalgary CPSC operator as other pastes."
+    },
+    {
+      "pid": "0bc18ad4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "HP ProLiant integrated management log dump (POST errors, power supply failures) with timestamps back to 2009 — real server operator."
+    },
+    {
+      "pid": "a472a8a5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "HP iLO 2 event log with server-power/reset events on 10.1.1.22 back to 2013 — same operator's hardware notes."
+    },
+    {
+      "pid": "07884157",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real Subway restaurant transaction JSON with masked card numbers, store 24509, 2017 dates — genuine personal purchase history dump."
+    },
+    {
+      "pid": "9b4ebb6d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PeopleSoft campus solutions SQL joining F_Class_Instructor / D_Class_Table for MS 119 room — university staff DBA work."
+    }
+  ]
+}

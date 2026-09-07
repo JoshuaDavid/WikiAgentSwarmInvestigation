@@ -1,0 +1,192 @@
+{
+  "batch_index": 0,
+  "host": "https://pastie.iem.at/",
+  "verdicts": [
+    {
+      "pid": "3d9283d6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Casino / no-deposit-bonus spam with t.me and tinyurl links; listed human tell (SEO/gambling spam)."
+    },
+    {
+      "pid": "6d6dace0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig is the Pure Data maintainer; content is a legitimate Pd `autoclone~` abstraction on iem.at (the Pd community paste bin)."
+    },
+    {
+      "pid": "f4338e6b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes zmölnig (Pd maintainer) posting a small `add2 msgbox` Pd canvas on the IEM/Pd community paste site."
+    },
+    {
+      "pid": "64f6c448",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Named handle `Ben` posting a `moving average` Pd DSP patch; long structural Pd content, no swarm markers."
+    },
+    {
+      "pid": "cb699e34",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Stikked default-name handle `Crimson Dove` but content is a legitimate Pd `tabrename` patch, not swarm task content; live-scraped so unclear."
+    },
+    {
+      "pid": "cdddca66",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "`Ben Wesch` with a signed 2023 timestamped `int2scale.pd` — real Pd community author on the Pd paste site."
+    },
+    {
+      "pid": "07368c96",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig replying `Re: samplelist.pd` with a Pd file-glob abstraction; Pd maintainer, normal community use."
+    },
+    {
+      "pid": "93c4d5b5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig posting `samplelist.pd` companion patch; Pd maintainer on the Pd paste site."
+    },
+    {
+      "pid": "d0a4edde",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Stikked default handle `Gentle Parrot` but content is a substantial Gem/pmpd Pendulum Pd patch, not swarm task content; live-scraped so unclear."
+    },
+    {
+      "pid": "e17f0103",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Handle `bw` (Ben Wesch abbreviation) with a detailed `[tgl] with rcv/snd` Pd abstraction and inline commentary; real Pd hacker."
+    },
+    {
+      "pid": "52eb7239",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "`umlaeute` is IOhannes m zmölnig's well-known handle (Pd/GEM maintainer); Gem particle-system Pd patch."
+    },
+    {
+      "pid": "d6bc234e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig, `randometro` — small Pd tutorial patch on the Pd community paste site."
+    },
+    {
+      "pid": "1c56f3d6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Named handle `ingo` posting a detailed 4-slider control Pd patch with per-slider expressions; real Pd community content."
+    },
+    {
+      "pid": "a2e50e35",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Handle `IO` (short for IOhannes) posting a Gem `pix_mask` dynamic-buffer patch; consistent with the Pd maintainer's other pastes here."
+    },
+    {
+      "pid": "7e166ff5",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Stikked default handle `Capacious Anoa` but the paste is a 10 KB Pd control-surface patch with realistic `receive 1a..6a` OSC routing, not swarm content; live-scraped so unclear."
+    },
+    {
+      "pid": "98608e11",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig demonstrating `[pix_film] with correct speed` — Gem authoring, matches his other pastes."
+    },
+    {
+      "pid": "1a21c2af",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Stikked default handle `Corrupt Gibbon` with a tiny `response.pd` Pd abstraction; not swarm task content but paired with pid 24b19eb3 under the same random-animal handle."
+    },
+    {
+      "pid": "24b19eb3",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Stikked default handle `Corrupt Gibbon` with a tiny `query.pd` Pd abstraction; live-scraped so unclear, paired with pid 1a21c2af."
+    },
+    {
+      "pid": "2122f9db",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes with `WAV-loops-good` — Pd `bytestruct` WAV chunk parser, matches his other pastes on this site."
+    },
+    {
+      "pid": "996b6ace",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes with `WAV-loops-bad` — companion patch to WAV-loops-good, consistent Pd authoring."
+    },
+    {
+      "pid": "71796205",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig, `list accumulator` — small Pd list-split demo, matches his other pastes."
+    },
+    {
+      "pid": "c8a687e1",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Handle is literally `Claude` (LLM name) but content is a trivial legitimate Pd `[t b i]` route-and-print test patch with no swarm task markers; live-scraped so unclear."
+    },
+    {
+      "pid": "bb0c4867",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "`ClaudiusMaximus` (long-standing Pd/generative music author) posting `Clapping Music` in a Forth-like DSL; identity + creative-code content."
+    },
+    {
+      "pid": "82f714cc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ClaudiusMaximus posting a `swapany.pd` Pd abstraction that swaps any-message between two inlets; genuine Pd hacker."
+    },
+    {
+      "pid": "a194328b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ClaudiusMaximus posting `swapany-help.pd`, the standard Pd help-patch companion to swapany.pd."
+    },
+    {
+      "pid": "feb5ce59",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ClaudiusMaximus posting a Pd MIDI polysynth with commented DSP chain (mtof, poly, osc~, tanh clipping); real music-DSP content."
+    },
+    {
+      "pid": "988cb247",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ClaudiusMaximus posting a hard-sync oscillator emulation Pd patch; legitimate DSP demo."
+    },
+    {
+      "pid": "9d4926aa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ClaudiusMaximus posting a Pd `random 100` list generator patch; consistent with his other pastes here."
+    },
+    {
+      "pid": "ea5b12b7",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "Stikked default handle `Gray Crocodile` with a legitimate `netreceive` + delay Pd patch, not swarm task content; live-scraped so unclear."
+    },
+    {
+      "pid": "c026288b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes posting a Pd `realtime`-based profiler patch; matches his other pastes on this site."
+    },
+    {
+      "pid": "4255cd31",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IOhannes m zmölnig posting a Pd `sequencer` abstraction; consistent with his other pastes here."
+    }
+  ]
+}

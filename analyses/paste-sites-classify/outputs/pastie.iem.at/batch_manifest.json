@@ -1,0 +1,21 @@
+{
+  "host": "https://pastie.iem.at/",
+  "name": "pastie.iem.at",
+  "route": "live_stikked_lists",
+  "source_kind": "live_stikked",
+  "corpus_prefix": null,
+  "batch_size": 40,
+  "n_batches": 1,
+  "n_to_review": 31,
+  "n_skipped_in_corpus": 0,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 31,
+      "first_pid": "3d9283d6",
+      "last_pid": "4255cd31",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastie.iem.at/verdicts/verdict_00.json"
+    }
+  ]
+}

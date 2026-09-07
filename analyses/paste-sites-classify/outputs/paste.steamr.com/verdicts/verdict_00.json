@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://paste.steamr.com/",
+  "verdicts": [
+    {
+      "pid": "8a4028f7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Public Entrust EV TLS intermediate CA certificate dump; sysadmin reference paste, not swarm."
+    },
+    {
+      "pid": "97e71c82",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Public Sectigo root CA certificate dump; sysadmin reference paste, not swarm."
+    },
+    {
+      "pid": "6a86f51b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Real smartctl -a output for an 8TB Seagate BarraCuda with 2024 Jan MST timestamp; personal storage diagnostics."
+    },
+    {
+      "pid": "c93e26cd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CGNM-2250 cable-modem shell dump including Intel CEFDK boot text and a modem service password; hardware-hacking sysadmin note."
+    },
+    {
+      "pid": "9d3872b7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Furbo (pet camera) /etc/shadow and /etc/passwd extracted from a rooted device; embedded-device reverse-engineering paste."
+    },
+    {
+      "pid": "f34752bd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Ambarella S2L amboot bootloader banner from a Furbo camera; continuation of the same embedded-device teardown."
+    },
+    {
+      "pid": "07170d98",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Full Ambarella S2LM IronMan Linux 3.10.73 kernel boot log via netcat; embedded-device reverse-engineering paste."
+    },
+    {
+      "pid": "99a598e2",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Only a curl -H Googlebot User-Agent snippet under a color+animal handle; no swarm title series or body markers, but too short to confidently call human."
+    },
+    {
+      "pid": "0b0a87b2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "395KB CSV of 2023-07-27 git commit-batch timings under a custom project handle git-time-to-push; benchmarking data for a personal git tool."
+    },
+    {
+      "pid": "d415d113",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Companion CSV of git push times from the same 2023-07-27 measurement session under the git-time-to-push handle."
+    },
+    {
+      "pid": "a89f1ad6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Numeric commit-time series from the same git-commit-times-12h benchmarking project by the same operator."
+    },
+    {
+      "pid": "3dc19c39",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "FortiClient 6.4.4 forticlient_configuration XML profile; corporate VPN client config, not swarm content."
+    },
+    {
+      "pid": "e147a0b6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "NixOS traceroute against internal 10.44.120.19 with the operator's own hostnames; personal network debugging."
+    },
+    {
+      "pid": "c2ba3039",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "gdm-x-session Xorg crash backtrace with real user path /home/leo/.local/share/xorg on a Zorin PVE VM; personal debugging."
+    },
+    {
+      "pid": "f2121a38",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Bash script plus Cisco Nexus mac address-table output for finding a MAC on a real DC-MSPDC-N95K switch; sysadmin work."
+    },
+    {
+      "pid": "00551d94",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Byte-identical repost of the same MAC-address-finder script under a second color+animal handle, but the content is genuine institutional sysadmin work with matching switch hostname (probably the same human re-pasting)."
+    },
+    {
+      "pid": "e09f3fee",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Single ssh-rsa root@admin public key; sysadmin reference paste."
+    },
+    {
+      "pid": "9fce8cad",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Traefik config with ucalgary-acme@steamr.com Let's Encrypt email and personal example.com Docker rule; matches the UCalgary sysadmin cluster of this instance."
+    },
+    {
+      "pid": "4201746c",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Two-byte 'as' body under 2-char handle 'zx'; looks like a keyboard-test not a documented swarm smoke pattern."
+    },
+    {
+      "pid": "8d60528d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SSH known_hosts diff for mc100 with named user 'drozmano' and MD5 fingerprint verification workflow; sysadmin post-incident note."
+    },
+    {
+      "pid": "1e20eb28",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "smartctl output from an IBM-ESXS ST6000NM0034 with 'DATA CHANNEL IMPENDING FAILURE' and 2723 grown defects on real HPC host essio1; storage failure log."
+    },
+    {
+      "pid": "70fcb352",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Shell script piping smartctl into an InfluxDB endpoint; personal monitoring tooling."
+    },
+    {
+      "pid": "183158fe",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "LBNL nhc (node health check) verbose output on Rocky 8.4 with real /work /bulk NetApp mounts and slurm/munge checks; HPC sysadmin bug report."
+    },
+    {
+      "pid": "5ab81ce7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Firefox Redirector v3.5.3 export mapping YouTube/Reddit to piped.oracle.steamr.com (this instance's own domain); personal browser config."
+    },
+    {
+      "pid": "5388d74a",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Short Korean phrase 봄날 당신에게 보내는 편지 ('Letter to you on a spring day'); personal message, no swarm markers."
+    },
+    {
+      "pid": "2fab5e33",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Notes and wget commands for pinning old Firefox versions (33/51/56) for NPAPI/XUL testing; sysadmin/dev reference."
+    },
+    {
+      "pid": "46b8832d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Openvswitch DPDK bond setup notes with specific PCI addresses 0000:31:00.0 and hugepage/isolcpus kernel cmdline; HPC networking scratch."
+    },
+    {
+      "pid": "42e1a4c7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SSSD + Kerberos setup for realm UC.UCALGARY.CA against ITSODCSRV14 with gzipped payload; UCalgary sysadmin provisioning script."
+    },
+    {
+      "pid": "94604a32",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Near-duplicate of the UCalgary SSSD/krb5.conf provisioning script under a second color+animal handle; same UCalgary sysadmin cluster."
+    },
+    {
+      "pid": "7fc3aa92",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "63-byte base64-looking blob 'EgR8BCI17VbCBD2NY...' with no title context; too short and cryptic to classify, does not match documented swarm markers."
+    },
+    {
+      "pid": "f9b11635",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "OpenFaaS faasd installer script (upstream, 'Copyright OpenFaaS Author(s) 2022'); sysadmin reference paste as a reply."
+    },
+    {
+      "pid": "f6aa2e63",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Original of the same OpenFaaS faasd installer script (parent of the Re: above); sysadmin reference paste."
+    },
+    {
+      "pid": "c1f0e34d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Ubuntu debian-installer preseed with ca.archive.ubuntu.com mirror, LVM recipe and 'ubuntu:ubuntu' account; personal install automation."
+    },
+    {
+      "pid": "8898ba88",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "traceroute from leo-ubuntu1 (cs8cloud.internal) to a UCalgary 136.159.140.55 host; matches the UCalgary infrastructure cluster."
+    },
+    {
+      "pid": "b178b98d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ovs-vsctl show output listing hundreds of VLAN trunks on eno1 for a real admin bridge; institutional networking sysadmin dump."
+    },
+    {
+      "pid": "a5cc7145",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ip a output for a real admin host with wg0 wireguard + management0/storage0/public0 OVS internal ports; matches the UCalgary admin sysadmin cluster."
+    },
+    {
+      "pid": "1e0b7a3b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "vcreate --tag 3627 script snippet against UCalgary DNS 136.159.1.21; matches the UCalgary sysadmin cluster."
+    },
+    {
+      "pid": "e4a9829f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Sibling of the vcreate --tag 3627 script snippet with the same UCalgary 136.159.1.21 DNS; UCalgary sysadmin cluster."
+    },
+    {
+      "pid": "1c128e28",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Parent template of the vcreate script with ${vlan} placeholders and the same UCalgary DNS 136.159.1.21; UCalgary sysadmin cluster."
+    },
+    {
+      "pid": "2e3c2ce7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ip a from marc-admin host showing bond0.3627 with 10.41.224.161 matching the sibling vcreate scripts; UCalgary sysadmin cluster."
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://p.gaa.st/",
+  "verdicts": [
+    {
+      "pid": "5c5af6e6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Verbose fwupdmgr StarBook BIOS-upgrade console log with real hostname 'wilmer@veer' - personal firmware update session."
+    },
+    {
+      "pid": "54016f26",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal Flask webhook script for Garmin livetrack email parsing with a real BasicAuth password hard-coded - private infra."
+    },
+    {
+      "pid": "9fe02ae4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "FOSDEM 2023 schedule XML event fragment (LLVM devroom) - conference metadata pasted for debugging, not swarm."
+    },
+    {
+      "pid": "adc943dd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Dutch-language IRC log ('Alle bestaande strings voor aai') from IRC bot Pink - human chat session."
+    },
+    {
+      "pid": "135bea39",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CTF ping-command-injection ps output showing www-data shell payloads searching for 'flag{' - CTF write-up."
+    },
+    {
+      "pid": "4d977903",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CTF exploit script hitting smartblockchain.ctf.zone port 8333 with MD5 payload search - CTF solver code."
+    },
+    {
+      "pid": "54a64042",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "16-bit x86 boot-sector disassembly with 'flag{MD5}' key-checker - CTF challenge analysis."
+    },
+    {
+      "pid": "af9f3af3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Decompiled Android checkPassword() Java with obfuscated string IDs - reverse-engineering write-up."
+    },
+    {
+      "pid": "6ef373ef",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'find | grep' output on server 'tosca' listing personal PHP CVS working copy of /www/hekje - operator's own machine."
+    },
+    {
+      "pid": "779b2546",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Dutch IRC log 2002/2013 from users 'wilmer', 'Roel', 'Wilco', 'Pink' - historical chat archive."
+    },
+    {
+      "pid": "09cbcb34",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Common Lisp bitlbee/whatscl backtrace for wilmer@gaa.st/MainBee - personal bitlbee WhatsApp debug dump."
+    },
+    {
+      "pid": "8a0a0049",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "MariaDB SQL snippet computing per-hour delivery rates from a 'Dash' table - human developer scratch."
+    },
+    {
+      "pid": "ae692a52",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'dig txt pwc.com +trace' DNS trace ran from personal host 'wilmer@veer:~/smartplug/smartplugctl' - operator debugging."
+    },
+    {
+      "pid": "6059a486",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IRC log from bitlbee dev channel with 'wilmer' (BitlBee maintainer) discussing purple plugin search paths."
+    },
+    {
+      "pid": "378870e2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "MariaDB 'select * from types' listing Dutch IRC bot Pink's message types (aai, mep, hurd) - private bot DB."
+    },
+    {
+      "pid": "c7670134",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "wc -l output listing counts-adsb log files 2016-2019 on 'wilmer@nasi' - personal ADS-B receiver logs."
+    },
+    {
+      "pid": "19d0cde4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "gdm-x-session BOE panel modeset log from personal 'lappie' host with i915 DP link-training failure."
+    },
+    {
+      "pid": "1dbea96a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal prometheus dashboard config with solar inverter, dump1090, Ceph pool queries - operator infra."
+    },
+    {
+      "pid": "4aa7da1e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "gdb backtrace inside facter's ruby module hitting a 'free(): invalid pointer' - developer debug session."
+    },
+    {
+      "pid": "a36e1bd5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "syslog from OpenWrt router 'zapp' showing PPPoE link flap on 'wg_gaast' / tinc.gaast - operator's home router."
+    },
+    {
+      "pid": "bfbc7d0b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Ceph 'osd pool create' / 'pg ls-by-pool' output on host 'kube' - operator's homelab Ceph cluster."
+    },
+    {
+      "pid": "3a875f05",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'ceph osd crush rule dump ectest' JSON from 'kube' - continuation of the same homelab Ceph debug."
+    },
+    {
+      "pid": "08cb6119",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'ceph osd df tree' output listing OSDs on hosts appie/kube/nasi/tosca - operator's Ceph cluster inventory."
+    },
+    {
+      "pid": "adb999ef",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "puppet module list on 'root@mop:~/puppet' referencing personal modules (adsb, bitlbee_pbuilder, tinc, ceph)."
+    },
+    {
+      "pid": "a17de799",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "OpenCV chroma-key script for C920 webcam by 'wilmer@veer' with v4l2loopback and pyfakewebcam - personal dev."
+    },
+    {
+      "pid": "042a84a8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "shell watchdog for airspy_adsb process with kill/reboot logic - operator's ADS-B receiver monitor."
+    },
+    {
+      "pid": "25064071",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'pip install dulwich' interactive session on 'wilmer@ruby' Python 3.7.2 - developer setup transcript."
+    },
+    {
+      "pid": "8724417",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Small Python snippet iterating git ls-tree over a 'menu' subdir - developer scratch code."
+    },
+    {
+      "pid": "96420643",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "openssl speed aes-256-cbc benchmark comparison with/without AES-NI on 'root@appie' - operator benchmarking."
+    },
+    {
+      "pid": "32835765",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "openssl speed aes-256-gcm benchmark (paired with 96420643) on same 'root@appie' host - operator benchmarking."
+    },
+    {
+      "pid": "65604342",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "openssl speed aes-128-ecb benchmark (paired with 96420643/32835765) on 'root@appie' - operator benchmarking."
+    },
+    {
+      "pid": "31623619",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'du' and 'ls -la' of pbuilder base tarballs (jessie/stretch/xenial/bionic) on 'root@nasi' - Debian dev chroots."
+    },
+    {
+      "pid": "36306858",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "tcpdump PPPoE PADI capture on 'root@zapp:/etc/ppp' - operator debugging ISP PPPoE session."
+    },
+    {
+      "pid": "64086887",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "traceroute 1.1.1.1 from 'wilmer@fiona' via appie.dublin.gaast.net - operator's own network path."
+    },
+    {
+      "pid": "86292143",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Short irssi IRC query log ('hi', 'are you there', 'WTF') addressed to willlllllllll16 - human IM snippet."
+    },
+    {
+      "pid": "43088874",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "tcptrace 2004 output analysing nasi.dump/ruby.dump on 'wilmer@nasi:~/tcpwtf' - personal packet capture analysis."
+    },
+    {
+      "pid": "7568301",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "One-line paste 'bla' - stikked user smoke test on the operator's own instance; no swarm markers."
+    },
+    {
+      "pid": "91612911",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "nginx puppet-master server{} block with SSL passenger config and placeholder HOSTNAME - operator's puppet docs."
+    },
+    {
+      "pid": "25526625",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same puppet-master nginx block populated with real hostnames puppet.i.gaast.net and mop.co.gaast.net."
+    },
+    {
+      "pid": "50719708",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Puppet manifest class puppet_master {} adding the Phusion Passenger apt repo - operator's puppet code."
+    }
+  ]
+}
