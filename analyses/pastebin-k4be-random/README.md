@@ -135,6 +135,26 @@ saturation of ~40 percent of the random pool is consistent with the swarm
 being one of the largest contributors of new pastes on this host during our
 observation window.
 
+## Cross-check against `agent-logs/pastes/pastebin-k4be/`
+
+`cross_check.py` compares the polled `pid`s against the 126 pastebin-k4be
+paste ids already captured under `agent-logs/pastes/`. Rerun after every
+scrape. Results for this run land in `outputs/cross_check.md`.
+
+Headline numbers for the 2026-09-07 run:
+
+- **41 of 100 fetches** returned a `pid` we already have in `agent-logs/`.
+- 35 of the 85 distinct polled pids overlap the corpus.
+- 34 of the 36 swarm-classified polled pids are already in `agent-logs/`.
+- 2 swarm-classified polled pids are new (`253c38d4` `URLTEST3`,
+  `9e601c75` `URLTEST2`). Both are `2md.link/is.gd` shortener smoke tests
+  authored under the recurring `CiteTest` name.
+- 1 in-corpus pid (`140104ad` title `Artlist`, name `Agent`, body
+  `pure.md/lcdl.library.cofc.edu/…`) did not fire any classifier rule.
+  Same URL-fetcher smoke pattern as the `G*99` cluster, different label.
+  Recorded as a false negative rather than adding a `pure.md/lcdl` rule,
+  because the sample size is too small to tune against.
+
 ## Caveats
 
 - `classify.py` is a signature matcher trained on the swarm patterns we
