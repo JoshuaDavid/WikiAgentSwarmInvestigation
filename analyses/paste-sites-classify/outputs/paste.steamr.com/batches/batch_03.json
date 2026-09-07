@@ -71,8 +71,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@nas:/home/leo# zpool get expandsize data\nNAME  PROPERTY    VALUE     SOURCE\ndata  expandsize  2.69T     -\nroot@nas:/home/leo# zpool list data\nNAME   SIZE  ALLOC   FREE  EXPANDSZ   FRAG    CAP  DEDUP  HEALTH  ALTROOT\ndata  8.12T  6.69T  1.43T     2.69T    41%    82%  1.00x  ONLINE  -\nroot@nas:/home/leo# zpool status data\n  pool: data\n state: ONLINE\nstatus: Some supported features are not enabled on the pool. The pool can\n        still be used, but some features are unavailable.\naction: Enable all features using 'zpool upgrade'. Once this is done,\n        the pool may no longer be accessible by software that does not support\n        the features. See zpool-features(5) for details.\n  scan: resilvered 2.22T in 24h12m with 0 errors on Wed Nov  1 16:43:39 2017\nconfig:\n\n        NAME                                       STATE     READ WRITE CKSUM\n        data                                       ONLINE       0     0     0\n          raidz1-0                                 ONLINE       0     0     0\n            ata-ST4000DM005-2DP166_ZGY0956M-part1  ONLINE       0     0     0\n            wwn-0x5000c500a36f4651-part1           ONLINE       0     0     0\n            ata-ST4000DM000-2AE166_WDH01SND-part1  ONLINE       0     0     0\n        cache\n          sdc1                                     ONLINE       0     0     0\n\nerrors: No known data errors\nroot@nas:/home/leo# zpool online -e data ata-ST4000DM005-2DP166_ZGY0956M-part1\nroot@nas:/home/leo# zpool list data\nNAME   SIZE  ALLOC   FREE  EXPANDSZ   FRAG    CAP  DEDUP  HEALTH  ALTROOT\ndata  10.9T  6.69T  4.18T         -    30%    61%  1.00x  ONLINE  -\nroot@nas:/home/leo# zpool get autoexpand data\nNAME  PROPERTY    VALUE   SOURCE\ndata  autoexpand  off     default\n\n\n\nSee also: https://tomasz.korwel.net/2014/01/03/growing-zfs-pool/",
+      "raw_len": 1806
     },
     {
       "pid": "875c1640",
@@ -82,8 +82,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/sh\n\nhandle_signal (){\n\techo \"received signal, passing SIGTERM\"\n\tkill -s SIGTERM `ps -o pid | tail -n + 2 | xargs`\n}\n\ntrap \"handle_signal\" SIGINT SIGTERM SIGHUP\n\n\nif [[ \"$1\" == \"service\" ]] ; then\n\t# do your stuff\n\techo \"Starting $1\"\n\nelse\n\t# Run custom command\n\techo \"Running $@\"\n\texec \"$@\"\nfi\n",
+      "raw_len": 301
     },
     {
       "pid": "5414f884",
@@ -93,8 +93,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/sh\n\ntest -c /dev/ttyS0 || exit\n\nstty -F /dev/ttyS0 9600\n\nMac=`ifconfig | grep -Eiwoh '[a-z0-9:]{17}' | tr '\\n' ';'`\n\nStatus=`wget -q -O - http://the.displays.cpsc.ucalgary.ca/presentation/begin/$Mac \\\n        | grep -Eoh \"room_status[^\\\"]*\" \\\n        | tail -n 1 \\\n        | awk '{print $2}'`\n\nif [[ \"$Status\" == \"available\" ]] ; then\n        # turn light green\n        echo -e \"\\xFE\\x00\" > /dev/ttyS0\nelse\n        # turn light red\n        echo -e \"\\xFE\\x01\" > /dev/ttyS0\nfi\n",
+      "raw_len": 482
     },
     {
       "pid": "fc863961",
@@ -104,8 +104,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "        data/crypt@zbk-daily-20170926-003201:/data5\n        data/dashcam@zbk-daily-20170926-003401:/2016_0722_181824_040.MP4\n        data/dashcam@zbk-daily-20170926-003401:/2016_1004_175012_039.MP4\n        data/public@zbk-daily-20170926-003601:/pi07-cam03/videos/20170413.mp4\n        data/public@zbk-daily-20170926-003601:/pi06-cam02/videos/20170620.mp4\n        data/public@zbk-daily-20170926-003601:/pi05-cam01/videos/20170620.mp4\n        data/public@zbk-daily-20170926-003601:/pi05-cam02/videos/20170620.mp4\n        data/scratch@zbk-daily-20170926-003801:/bitcoin-data/blocks/blk00043.dat\n        data/images@2017-Jan-01:/2011-09-22楓葉+大紅花+ c calligraphy + carnival + Jasmine+/P1040547.MOV\n        data/images@2017-Jan-01:/2012-10-20 重慶/P1060589.JPG\n        data/images@2017-Jan-01:/2010-12-17 生活照+singing classmates/P1020236.MOV\n        data/images@2017-Jan-01:/C Painting videos/P1020397.MOV\n        data/images@2017-Jan-01:/2012-05-28 Universal Studio/P1080951.JPG\n        data/images@2017-Jan-01:/2013-01-08 向日葵﹐小鳥﹔工﹕繡球花/MVI_0030.MOV\n        data/images@2017-Jan-01:/2010-09-04 Sam, 牽牛花+畫友/P1000826.MOV\n        data/images@2017-Jan-01:/2013-04-30 山水﹐洋紫荊/MVI_3231.MOV\n        data/images@2017-Jan-01:/2012-06-12 紫藤/P1090467.MOV\n        data/images@2017-Jan-01:/2011-02-25 Orchid + singing/P1020446.MOV\n        data/images@2017-Jan-01:/2010-09-27 壽桃壽鳥+ 秋景/P1000910.MOV\n        data/images@2017-Jan-01:/2010-12-11 荷花+WA/P1020121.MOV\n        data/images@2017-Jan-01:/2010-05-22 彩竹/P1040653.MOV\n        data/images@2017-Jan-01:/2013-01-29 青鳥﹐禾雀﹐竹﹐荷花﹐金魚/MVI_0129.MOV\n        data/images@2017-Jan-01:/2012-07-10 小紫花﹐馬蹄蘭﹐白菜﹐馬蹄/P1090800.MOV\n        data/images@2017-Jan-01:/2012-11-20 竹﹐麻雀﹔工﹕染法﹐線條/P1130002.MOV\n        data/backups@2015-Dec-15:/partimg/smallbook-dump-nov162012/sda1.vfat-ptcl-img.gz.ad\n        data/backups@2015-Dec-15:/Computers/smallbook/october 2011/Windows XP/Windows XP.vdi\n",
+      "raw_len": 1892
     },
     {
       "pid": "7c6582e7",
@@ -115,8 +115,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n\nfunction PrimaryXml {\n        wget -q -O - \"$1/repodata/repomd.xml\" \\\n                | grep primary.xml \\\n                | sed -n -e 's/.*\"\\(.*\\)\".*/\\1/p'\n}\n\nfunction GetPackages {\n        BaseUrl=\"$1\"\n        # Packages end with - and start with /\n        Include=`echo $2 | sed 's/ /-|\\//g'`\n        Exclude=`echo $3 | sed 's/ /-|\\//g'`\n\n        wget -q -O - \"$BaseUrl`PrimaryXml $BaseUrl`\" \\\n                | zcat \\\n                | sed -n -e 's/.*href=\"\\([^\"]*\\)\\\".*/\\1/p' \\\n                | grep -E \"rpm$\" \\\n                | ( [ -z \"$Include\" ] && cat || grep -E \"($Include)\" ) \\\n                | ( [ -z \"$Exclude\" ] && cat || grep -vE \"($Exclude)\" ) \\\n}\n\nfunction DownloadPackages {\n        BaseUrl=\"$1\"\n\n        Mode=0\n        Include=\"\"\n        Exclude=\"\"\n\n        shift\n        while (($#)); do\n                if [[ \"$1\" == \"-v\" ]] ; then\n                        Mode=1\n                else\n                        if [ $Mode -eq 1 ] ; then\n                                Exclude=\"$Exclude $1\"\n                        else\n                                Include=\"$Include $1\"\n                        fi\n                fi\n\n                shift\n        done\n\n        Packages=0\n\n        GetPackages \"$BaseUrl\" \"$Include\" \"$Exclude\" | {\n                while read i ; do\n                        if [ ! -f `basename $i` ] ; then\n                                test -d `dirname $i` || mkdir -p `dirname $i`\n\n                                echo \"Downloading $BaseUrl$i...\"\n                                wget -q -O \"`basename $i`\" \"$BaseUrl$i\"\n                        fi\n                        Packages=$((Packages+1))\n                done\n\n                echo \"Download complete: $Packages from $BaseUrl\"\n        }\n}\n\nDownloadPackages http://linuxdownload.adobe.com/linux/x86_64/ flash-player\n\nDownloadPackages https://packagecloud.io/slacktechnologies/slack/fedora/21/x86_64/ slack\n\nDownloadPackages https://dl.google.com/linux/chrome/rpm/stable/x86_64/ google-chrome-stable\n\nDownloadPackages https://packages.microsoft.com/yumrepos/vscode/ code\n\nDownloadPackages http://download1.rpmfusion.org/free/fedora/releases/26/Everything/x86_64/os/ akmod-VirtualBox VirtualBox exfat-utils ffmpeg faad2-libs live555 libdca libmpeg2 libavdevice opencore-amr vlc vo-amrwbenc twolame-libs x264-libs x265-libs xvidcore -v i686\n\n",
+      "raw_len": 2350
     },
     {
       "pid": "3f9dddda",
@@ -126,8 +126,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n\nfunction PrimaryXml {\n        wget -q -O - \"$1/repodata/repomd.xml\" \\\n                | grep primary.xml \\\n                | sed -n -e 's/.*\"\\(.*\\)\".*/\\1/p'\n}\n\nfunction GetPackages {\n        BaseUrl=\"$1\"\n        # Packages end with - and start with /\n        Include=`echo $2 | sed 's/ /-|\\//g'`\n        Exclude=`echo $3 | sed 's/ /-|\\//g'`\n\n        wget -q -O - \"$BaseUrl`PrimaryXml $BaseUrl`\" \\\n                | zcat \\\n                | sed -n -e 's/.*href=\"\\([^\"]*\\)\\\".*/\\1/p' \\\n                | grep -E \"rpm$\" \\\n                | ( [ -z \"$Include\" ] && cat || grep -E \"($Include)\" ) \\\n                | ( [ -z \"$Exclude\" ] && cat || grep -vE \"($Exclude)\" ) \\\n}\n\nfunction DownloadPackages {\n        BaseUrl=\"$1\"\n\n        Mode=0\n        Include=\"\"\n        Exclude=\"\"\n\n        shift\n        while (($#)); do\n                if [[ \"$1\" == \"-v\" ]] ; then\n                        Mode=1\n                else\n                        if [ $Mode -eq 1 ] ; then\n                                Exclude=\"$Exclude $1\"\n                        else\n                                Include=\"$Include $1\"\n                        fi\n                fi\n\n                shift\n        done\n\n        Packages=0\n\n        GetPackages \"$BaseUrl\" \"$Include\" \"$Exclude\" | {\n                while read i ; do\n                        if [ ! -f `basename $i` ] ; then\n                                test -d `dirname $i` || mkdir -p `dirname $i`\n\n                                echo \"Downloading $BaseUrl$i...\"\n                                wget -q -O \"`basename $i`\" \"$BaseUrl$i\"\n                        fi\n                        Packages=$((Packages+1))\n                done\n\n                echo \"Download complete: $Packages from $BaseUrl\"\n        }\n}\n",
+      "raw_len": 1751
     },
     {
       "pid": "77f70662",
@@ -137,8 +137,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n\nfunction PrimaryXml {\n        wget -q -O - $1/repodata/repomd.xml \\\n                | grep primary.xml \\\n                | sed -n -e 's/.*\"\\(.*\\)\".*/\\1/p'\n}\n\nfunction GetPackages {\n        BaseUrl=\"$1\"\n        Include=`echo $2 | tr ' ' '|'`\n        Exclude=`echo $3 | tr ' ' '|'`\n\n        wget -q -O - $BaseUrl`PrimaryXml $BaseUrl` \\\n                | zcat \\\n                | sed -n -e 's/.*href=\"\\([^\"]*\\)\\\".*/\\1/p' \\\n                | grep -E \"rpm$\" \\\n                | ( [ -z \"$Include\" ] && cat || grep -E \"($Include)\" ) \\\n                | ( [ -z \"$Exclude\" ] && cat || grep -vE \"($Exclude)\" ) \\\n}\n\nfunction DownloadPackages {\n        BaseUrl=\"$1\"\n\n        Mode=0\n        Include=\"\"\n        Exclude=\"\"\n\n        shift\n        while (($#)); do\n                if [[ \"$1\" == \"-v\" ]] ; then\n                        Mode=1\n                else\n                        if [ $Mode -eq 1 ] ; then\n                                Exclude=\"$Exclude $1\"\n                        else\n                                Include=\"$Include $1\"\n                        fi\n                fi\n\n                shift\n        done\n\n        GetPackages $BaseUrl \"$Include\" \"$Exclude\" | while read i ; do\n                if [ ! -f $i ] ; then\n                        test -d `dirname $i` || mkdir -p `dirname $i`\n\n                        echo \"Downloading $BaseUrl$i...\"\n                        wget -q -O $i $BaseUrl$i\n                fi\n        done\n\n        echo \"Download complete.\"\n}\n\n\nDownloadPackages https://dl.google.com/linux/chrome/rpm/stable/x86_64/ google-chrome-stable\n",
+      "raw_len": 1577
     },
     {
       "pid": "fa99eb3e",
@@ -148,8 +148,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n\nfunction PrimaryXml {\n        wget -q -O - $1/repodata/repomd.xml \\\n                | grep primary.xml \\\n                | sed -n -e 's/.*\"\\(.*\\)\".*/\\1/p'\n}\n\nfunction GetPackages {\n        wget -q -O - $1`PrimaryXml $1` \\\n                | zcat \\\n                | grep rpm \\\n                | grep location \\\n                | sed -n -e 's/.*<location href=\\\"\\(.*\\)\\\".*/\\1/p' \\\n                | grep -v src.rpm\n}\n\nfunction DownloadPackages {\n        GetPackages $1 | while read i ; do\n                if [ ! -f $i ] ; then\n                        test -d `dirname $i` || mkdir -p `dirname $i`\n\n                        echo \"Downloading $1$i...\"\n                        wget -q -O $i $1$i\n                fi\n        done\n\n        echo \"Download complete.\"\n}\n\n\nUrl=\"https://repo.saltstack.com/yum/redhat/7/x86_64/2016.11/\"\nUrl=\"https://repo.saltstack.com/yum/redhat/7/x86_64/2017.7/\"\n\nDownloadPackages $Url\n\n",
+      "raw_len": 921
     },
     {
       "pid": "c80ed686",
@@ -159,8 +159,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\ncat links.txt | while read i ; do\n        wget --no-check-certificate -np -r -c --reject \"index.html*\" -e robots=off $i\ndone\n",
+      "raw_len": 126
     },
     {
       "pid": "3b071af8",
@@ -170,8 +170,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Nvidia TinyCore has:\n\nXlibs.tcz\nXprogs.tcz\nXvesa.tcz\naterm.tcz\nfltk-1.3.tcz\nfreetype.tcz\nimlib2.tcz\nlibICE.tcz\nlibSM.tcz\nlibX11.tcz\nlibXau.tcz\nlibXdmcp.tcz\nlibXext.tcz\nlibXfont.tcz\nlibXi.tcz\nlibXmu.tcz\nlibXpm.tcz\nlibXrandr.tcz\nlibXrender.tcz\nlibXt.tcz\nlibfontenc.tcz\nlibjpeg-turbo.tcz\nlibpng.tcz\nlibxcb.tcz\nlibXft.tcz\nlibXinerama.tcz\nlibXcursor.tcz\nliblzma.tcz\nlibffi.tcz\ngdk-pixbuf2.tcz\nlibtiff.tcz\nglib2.tcz\nimlib2-bin.tcz\nwbar.tcz\nflwm_topside.tcz\nfirefox-ESR.tcz\nfluxbox.tcz\nopenssh.tcz\nntpclient.tcz\nxdotool.tcz\nXorg-7.7.tcz\nnvidia-340.96-4.2.9-tinycore.tcz\nautoconf.tcz\npkg-config.tcz\nXorg-7.7-3d-dev.tcz\n\n\n\nNeeded from base are:\nlibXft\nlibXinerama\nlibXcursor\nliblzma\nlibffi\ngdk-pixbuf2\nfirefox-ESR\n\nfluxbox\nopenssh\nntpclient\nxdotool    <-- from older release\nXorg-7.7\nnvidia-340.96-4.2.9-tinycore\nautoconf\npkg-config\nXorg-7.7-3d-dev (?)\n",
+      "raw_len": 844
     },
     {
       "pid": "4b8e7220",
@@ -181,8 +181,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\n*** Do this on UGB (NSF) ***\n\n0. stop samba and NFS\n\n1. rsync data to uga (nsb)\n root@nsf:~$ rsync -avh --progress --delete /export/ug/ root@nsb:/export/ugb/\n\n2. umount /export/ug  umount /export/ug1\n3. recreate vdisks\n\tx) PATH=$PATH:/opt/dell/srvadmin/bin\n\t\n\ta) check controller's disks \n\t\tomreport storage pdisk controller=0 | grep -E '^(ID|Status|Capacity|Sector Size|Bus|Power|Media)'\n\t\n\tb) delete old vdisk\n\t\tomreport storage vdisk controller=0 | grep -E '^(ID|Name)'\n\t\tomconfig storage vdisk action=deletevdisk controller=0 vdisk=six\n\t\t\n\tb) create disks\n\t\tomconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:6 writepolicy=fwb name=disk06\n\t\t\n\t\troot@nsf:/$ omconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:2 writepolicy=fwb name=disk01\n\t\tCommand successful!\n\t\troot@nsf:/$ omconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:3 writepolicy=fwb name=disk02\n\t\tCommand successful!\n\t\troot@nsf:/$ omconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:4 writepolicy=fwb name=disk03\n\t\tCommand successful!\n\t\troot@nsf:/$ omconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:5 writepolicy=fwb name=disk04\n\t\tCommand successful!\n\t\troot@nsf:/$ omconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:6 writepolicy=fwb name=disk05\n\t\tCommand successful!\n\t\troot@nsf:/$ omconfig storage controller controller=0 action=createvdisk raid=r0 size=max pdisk=0:1:7 writepolicy=fwb name=disk06\n\t\tCommand successful!\n\n\t\t\n\t\tfdisk each disk,\n\t\tu\n\t\t2048 start \n\t\tsdc sdd\n\t\tsde sdf\n\t\tsdg sdh\n\t\t\n4. create zfs pool. 3x mirrors\n\tzpool create -f ugb mirror /dev/disk/by-id... ... mirror ... ... mirror ... ...\n\t\n\t`zpool status` should look like:\n\t    uga                                               ONLINE       0     0     0\n          mirror-0                                        ONLINE       0     0     0\n            scsi-36848f690ec946a001f4604200a61a9c4-part1  ONLINE       0     0     0\n            scsi-36848f690ec946a001f46042f0b49a2bb-part1  ONLINE       0     0     0\n          mirror-1                                        ONLINE       0     0     0\n            scsi-36848f690ec946a001f4604460ca4d664-part1  ONLINE       0     0     0\n            scsi-36848f690ec946a001f46043c0c144593-part1  ONLINE       0     0     0\n          mirror-2                                        ONLINE       0     0     0\n            scsi-36848f690ec946a001f4604520d5ff888-part1  ONLINE       0     0     0\n            scsi-36848f690ec946a001f46045c0df837ce-part1  ONLINE       0     0     0\n\n\t\t\t\n5. create the pool with the compress option\n\tzfs create -o compress=lz4 ugb/ugb\n\t\n\tzfs set mountpoint=/export ugb\n\tzfs set compression=lz4 ugb\n\tzfs set exec=off ugb\n\n\n5. zfs import from uga(nsb) to ugb(nfs)\n\n\tuga (nsb)# zfs snapshot -r uga/ugb@transfer\n\tuga (nsb)# zfs send -R uga/ugb@transfer | ssh ugb (nsf) \"zfs recv -vFd ugb\"\n\t\n\t\n\trename ugb/ugb to ugb/ug\n\t\n\tenable sharenfs, otherwise nested mounts don't work (WTF?)\n\tzfs set sharenfs=on ugb\n\t\n\t\n6. Ensure zfs gets mounted properly on reboot\n\n\n\n\n\n\n",
+      "raw_len": 3178
     },
     {
       "pid": "92e3fe71",
@@ -192,8 +192,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "pragma solidity ^0.4.0;\n\ncontract SimpleBank {\n    address public owner;\n    \n    // even that gets logged on block chain...\n    event MyWorthIs(uint balance);\n    \n    /*\n     */\n    function SimpleBank() {\n        // the 'owner' is the person who creates this contract\n        owner = msg.sender;\n    }\n    \n    /*\n     */\n    function() payable {\n        \n    }\n    \n    /*\n     */\n    function Worth() {\n        MyWorthIs(this.balance);\n    }\n    \n    function send(address _to, uint256 _amount) {\n        _to.send(_amount);\n    }\n    \n    /*\n     * Suicide function will kill the contract.\n     */\n    function kill() {\n        suicide(msg.sender);\n    }\n    \n}\n\n\ncontract IsAlive {\n    address public thing;\n    \n    function IsAlive(address _thing) {\n        thing = _thing;\n    }\n    \n    function() payable {\n        if (SimpleBank(thing).owner() == 0) {\n            // the contract is dead, send amount back\n            msg.sender.send(msg.value);\n        } else {\n            // don't need gas?\n            thing.call.gas(300000000).value(msg.value)();\n            // you can call a specific funtion by..\n            // thing.call.gas(x).value(y)(bytes4(sha3(\"pay()\")));\n        }\n    }\n    \n    /*\n     * Suicide function will kill the contract.\n     */\n    function kill() {\n        suicide(msg.sender);\n    }\n    \n    \n}\n",
+      "raw_len": 1335
     },
     {
       "pid": "c7aa2820",
@@ -203,8 +203,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "leo@leo-fedora:/home/staff/leo/pi3/asarhan/openocd-armv8% ./src/openocd -f tcl/interface/ftdi/olimex-arm-usb-ocd.cfg  -f tcl/target/rpi3.cfg\nOpen On-Chip Debugger 0.9.0-dev-gb796a58 (2017-07-07-11:47)\nLicensed under GNU GPL v2\nFor bug reports, read\n\thttp://openocd.sourceforge.net/doc/doxygen/bugs.html\ntrst_and_srst separate srst_gates_jtag trst_push_pull srst_open_drain connect_deassert_srst\nadapter speed: 1000 kHz\njtag_ntrst_delay: 500\nInfo : clock speed 1000 kHz\nError: JTAG scan chain interrogation failed: all ones\nError: Check JTAG interface, timings, target power, etc.\nError: Trying to use configured scan chain anyway...\nError: rpi3.dap: IR capture error; saw 0x0f not 0x01\nWarn : Bypassing JTAG setup events due to errors\nWarn : Invalid ACK 0x7 in JTAG-DP transaction\n",
+      "raw_len": 781
     },
     {
       "pid": "379195ac",
@@ -214,8 +214,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "ACTION!=\"add\", SUBSYSTEM!=\"usb_device\", GOTO=\"olimex_rules_end\"\nATTR{idProduct}==\"0003\", ATTR{idVendor}==\"15ba\", MODE=\"666\"\nLABEL=\"olimex_rules_end\"\n",
+      "raw_len": 149
     },
     {
       "pid": "56e50d48",
@@ -225,8 +225,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n# What: Disables all other non-cpsc repos\n# Why: cpsc-extras will provide extraneous packages\n\n# RepoFile=\"/etc/yum.repos.d/google-chrome.repo\"\n\nfunction extra_repos() {\n        dnf -q repolist \\\n                | tail -n + 2 \\\n                | awk '{print $1}' \\\n                | grep -v cpsc\n}\n\nfor i in `extra_repos` ; do\n        echo $i\ndone\n\n",
+      "raw_len": 361
     },
     {
       "pid": "0bc18ad4",
@@ -236,8 +236,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\nSeverity \tClass \tLast Update \tInitial Update \tCount \tDescription\nCaution\n\t\nPOST Message\n\t\n06/18/2017 06:12\n\t\n06/18/2017 06:12\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:53\n\t\n06/18/2017 04:53\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:53\n\t\n06/18/2017 04:53\n\t\n1\n\t\nPOST Error: 1615-Power Supply Failure or Power Supply Unplugged in Bay 2\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:46\n\t\n06/18/2017 04:46\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:45\n\t\n06/18/2017 04:45\n\t\n1\n\t\nPOST Error: 1615-Power Supply Failure or Power Supply Unplugged in Bay 2\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:21\n\t\n06/18/2017 04:21\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:18\n\t\n06/18/2017 04:18\n\t\n1\n\t\nPOST Error: 1615-Power Supply Failure or Power Supply Unplugged in Bay 2\nCaution\n\t\nPower\n\t\n06/18/2017 04:52\n\t\n06/18/2017 04:18\n\t\n3\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:11\n\t\n06/18/2017 04:11\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST Message\n\t\n06/18/2017 04:10\n\t\n06/18/2017 04:10\n\t\n1\n\t\nPOST Error: 1615-Power Supply Failure or Power Supply Unplugged in Bay 2\nCaution\n\t\nPower\n\t\n[NOT SET]\n\t\n[NOT SET]\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nCaution\n\t\nPower\n\t\n05/29/2017 20:15\n\t\n05/29/2017 20:15\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nCaution\n\t\nPower\n\t\n05/29/2017 20:15\n\t\n05/29/2017 20:15\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 1)\nCaution\n\t\nPOST Message\n\t\n05/29/2017 20:14\n\t\n05/29/2017 20:14\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST Message\n\t\n12/16/2013 08:49\n\t\n12/16/2013 08:49\n\t\n1\n\t\nPOST Error: 1786-Drive Array Recovery Needed\nRepaired\n\t\nPower\n\t\n12/06/2013 16:41\n\t\n12/06/2013 15:02\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/06/2013 16:41\n\t\n12/06/2013 15:02\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 1)\nCaution\n\t\nPower\n\t\n06/21/2013 14:06\n\t\n06/21/2013 14:06\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nCaution\n\t\nPower\n\t\n06/21/2013 14:06\n\t\n06/21/2013 14:06\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 1)\nCaution\n\t\nPower\n\t\n01/22/2011 19:06\n\t\n01/22/2011 19:06\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nCaution\n\t\nPower\n\t\n01/22/2011 19:06\n\t\n01/22/2011 19:06\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nCaution\n\t\nPOST Message\n\t\n04/09/2010 00:24\n\t\n04/09/2010 00:24\n\t\n1\n\t\nPOST Error: 1792-Drive Array Reports Valid Data Found in Array Accelerator\nRepaired\n\t\nPower\n\t\n12/29/2009 23:03\n\t\n12/29/2009 23:03\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/29/2009 23:03\n\t\n12/29/2009 23:03\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 1)\nRepaired\n\t\nPower\n\t\n12/29/2009 22:56\n\t\n12/29/2009 22:56\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/29/2009 22:56\n\t\n12/29/2009 22:56\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nRepaired\n\t\nPower\n\t\n12/29/2009 22:55\n\t\n12/29/2009 22:55\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/29/2009 22:55\n\t\n12/29/2009 22:55\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nRepaired\n\t\nPower\n\t\n12/29/2009 22:52\n\t\n12/29/2009 22:50\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/29/2009 22:52\n\t\n12/29/2009 22:50\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nRepaired\n\t\nPower\n\t\n12/29/2009 22:49\n\t\n12/29/2009 22:49\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/29/2009 22:49\n\t\n12/29/2009 22:49\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nRepaired\n\t\nPower\n\t\n12/29/2009 22:49\n\t\n12/29/2009 22:49\n\t\n1\n\t\nSystem Power Supplies Not Redundant\nRepaired\n\t\nPower\n\t\n12/29/2009 22:49\n\t\n12/29/2009 22:49\n\t\n1\n\t\nSystem Power Supply: General Failure (Power Supply 2)\nCaution\n\t\nPOST Message\n\t\n07/05/2009 21:38\n\t\n07/05/2009 21:38\n\t\n1\n\t\nPOST Error: 1785-Drive Array not Configured\nCaution\n\t\nPOST ",
+      "raw_len": 4427
     },
     {
       "pid": "a472a8a5",
@@ -247,8 +247,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\nSeverity \tClass \tLast Update \tInitial Update \tCount \tDescription\nInformational\n\t\niLO 2\n\t\n06/19/2017 00:39\n\t\n06/19/2017 00:39\n\t\n1\n\t\nBrowser login: Administrator - 10.1.1.22(DNS name not found).\nCaution\n\t\niLO 2\n\t\n06/19/2017 00:37\n\t\n06/19/2017 00:37\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/19/2017 00:37\n\t\n06/19/2017 00:36\n\t\n2\n\t\nServer power restored.\nInformational\n\t\niLO 2\n\t\n06/19/2017 00:09\n\t\n06/19/2017 00:09\n\t\n1\n\t\niLO 2 network link up at 100 Mbps.\nInformational\n\t\niLO 2\n\t\n06/18/2017 09:06\n\t\n06/18/2017 09:06\n\t\n1\n\t\nServer power removed.\nCaution\n\t\niLO 2\n\t\n06/18/2017 09:06\n\t\n06/18/2017 09:06\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/18/2017 07:03\n\t\n06/18/2017 07:03\n\t\n1\n\t\nServer power restored.\nCaution\n\t\niLO 2\n\t\n06/18/2017 07:03\n\t\n06/18/2017 07:03\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/18/2017 06:22\n\t\n06/18/2017 06:22\n\t\n1\n\t\nServer power removed.\nInformational\n\t\niLO 2\n\t\n06/18/2017 06:50\n\t\n06/18/2017 06:12\n\t\n6\n\t\nServer power restored.\nCaution\n\t\niLO 2\n\t\n06/18/2017 06:50\n\t\n06/18/2017 06:12\n\t\n6\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/18/2017 06:11\n\t\n06/18/2017 06:11\n\t\n1\n\t\niLO 2 RBSU exited.\nInformational\n\t\niLO 2\n\t\n06/18/2017 06:10\n\t\n06/18/2017 06:10\n\t\n1\n\t\nOn-board clock set; was previously [NOT SET].\nCaution\n\t\niLO 2\n\t\n[NOT SET]\n\t\n[NOT SET]\n\t\n1\n\t\nPower restored to iLO 2.\nInformational\n\t\niLO 2\n\t\n06/18/2017 05:14\n\t\n06/18/2017 05:14\n\t\n1\n\t\nServer power removed.\nCaution\n\t\niLO 2\n\t\n06/18/2017 05:14\n\t\n06/18/2017 05:14\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/18/2017 04:21\n\t\n06/18/2017 04:21\n\t\n1\n\t\niLO 2 RBSU exited.\nInformational\n\t\niLO 2\n\t\n06/18/2017 04:20\n\t\n06/18/2017 04:20\n\t\n1\n\t\nModified user: Administrator.\nInformational\n\t\niLO 2\n\t\n06/18/2017 04:51\n\t\n06/18/2017 04:17\n\t\n3\n\t\nServer power restored.\nInformational\n\t\niLO 2\n\t\n06/18/2017 04:16\n\t\n06/18/2017 04:16\n\t\n1\n\t\nServer power removed.\nCaution\n\t\niLO 2\n\t\n06/18/2017 04:51\n\t\n06/18/2017 04:16\n\t\n3\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/18/2017 04:11\n\t\n06/18/2017 04:11\n\t\n1\n\t\nOn-board clock set; was previously [NOT SET].\nCaution\n\t\niLO 2\n\t\n[NOT SET]\n\t\n[NOT SET]\n\t\n1\n\t\nPower restored to iLO 2.\nInformational\n\t\niLO 2\n\t\n05/29/2017 20:15\n\t\n05/29/2017 20:15\n\t\n1\n\t\nServer power removed.\nInformational\n\t\niLO 2\n\t\n05/29/2017 20:14\n\t\n05/29/2017 20:14\n\t\n1\n\t\nOn-board clock set; was previously [NOT SET].\nCaution\n\t\niLO 2\n\t\n[NOT SET]\n\t\n[NOT SET]\n\t\n1\n\t\nPower restored to iLO 2.\nInformational\n\t\niLO 2\n\t\n08/26/2015 16:07\n\t\n08/26/2015 16:07\n\t\n1\n\t\nServer power removed.\nCaution\n\t\niLO 2\n\t\n08/26/2015 16:07\n\t\n08/26/2015 16:07\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n07/25/2015 21:47\n\t\n07/25/2015 21:47\n\t\n1\n\t\nOn-board clock set; was 07/25/2015 22:05:03.\nCaution\n\t\niLO 2\n\t\n07/25/2015 22:03\n\t\n07/25/2015 22:03\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n07/25/2015 22:03\n\t\n07/25/2015 22:03\n\t\n2\n\t\nServer power restored.\nInformational\n\t\niLO 2\n\t\n07/24/2015 22:11\n\t\n07/24/2015 22:11\n\t\n1\n\t\nServer power removed.\nCaution\n\t\niLO 2\n\t\n07/24/2015 22:11\n\t\n07/24/2015 22:11\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n05/23/2014 00:20\n\t\n05/23/2014 00:20\n\t\n1\n\t\nServer power restored.\nCaution\n\t\niLO 2\n\t\n05/23/2014 00:20\n\t\n05/23/2014 00:20\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n03/21/2014 21:45\n\t\n03/21/2014 21:45\n\t\n1\n\t\nServer power restored.\nCaution\n\t\niLO 2\n\t\n03/21/2014 21:45\n\t\n03/21/2014 21:45\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n03/21/2014 19:59\n\t\n03/21/2014 19:59\n\t\n1\n\t\nServer power restored.\nCaution\n\t\niLO 2\n\t\n03/21/2014 19:59\n\t\n03/21/2014 19:59\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n03/21/2014 15:35\n\t\n03/21/2014 15:35\n\t\n2\n\t\nServer power restored.\nInformational\n\t\niLO 2\n\t\n03/21/2014 15:23\n\t\n03/21/2014 15:23\n\t\n1\n\t\nServer power removed.\nCaution\n\t\niLO 2\n\t\n03/21/2014 15:35\n\t\n03/21/2014 15:23\n\t\n2\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n12/16/2013 08:48\n\t\n12/16/2013 08:48\n\t\n1\n\t\nServer power restored.\nCaution\n\t\niLO 2\n\t\n12/16/2013 08:48\n\t\n12/16/2013 08:48\n\t\n1\n\t\nServer reset.\nInformational\n\t\niLO 2\n\t\n06/21/2013 14:44\n\t\n06/21/2013 14:44\n\t\n1\n\t\nOn-board clock set; was previously [NOT SET].\nCaution\n\t\niLO 2\n\t\n[NOT SET]\n\t\n[NOT SE",
+      "raw_len": 11920
     },
     {
       "pid": "07884157",
@@ -258,8 +258,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[{\"transaction\":{\"cad\":-5.97,\"clerk\":\"1\",\"host_order_id\":\"683-355-155693\",\"items\":[{\"item\":{\"amount\":5.69,\"currency\":\"CAD\",\"item_name\":\"Roast Beef 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":0.28,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":5.97,\"currency\":\"CAD\",\"number\":\"6299...9003\",\"type\":\"SUBWAYCARD\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":0,\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-06-08T18:17:28Z\",\"txn_name\":\"In restaurant purchase\",\"usd\":0}},{\"transaction\":{\"cad\":25.0,\"clerk\":\"1\",\"host_order_id\":\"686-357-3614103\",\"items\":[{\"item\":{\"amount\":0.0,\"currency\":\"CAD\",\"item_name\":\"Chicken Bcn Ranch 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":0.0,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":25.0,\"currency\":\"CAD\",\"number\":\"451211..0594\",\"type\":\"VISA\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":\"6299...9003\",\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-06-06T19:24:59Z\",\"txn_name\":\"In restaurant purchase\",\"usd\":0}},{\"transaction\":{\"cad\":-7.86,\"clerk\":\"1\",\"host_order_id\":\"624-348-79694\",\"items\":[{\"item\":{\"amount\":3.55,\"currency\":\"CAD\",\"item_name\":\"CibtaPaniniBMT 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":1.53,\"currency\":\"CAD\",\"item_name\":\"12oz Coffee\",\"quantity\":1}},{\"item\":{\"amount\":2.41,\"currency\":\"CAD\",\"item_name\":\"Soup RTU 8oz Soup\",\"quantity\":1}},{\"item\":{\"amount\":0.37,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":7.86,\"currency\":\"CAD\",\"number\":\"6299...9003\",\"type\":\"SUBWAYCARD\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":0,\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-06-01T19:05:04Z\",\"txn_name\":\"In restaurant purchase\",\"usd\":0}},{\"transaction\":{\"cad\":-5.97,\"clerk\":\"1\",\"host_order_id\":\"683-353-576707\",\"items\":[{\"item\":{\"amount\":5.69,\"currency\":\"CAD\",\"item_name\":\"B.M.T. 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":0.28,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":5.97,\"currency\":\"CAD\",\"number\":\"6299...9003\",\"type\":\"SUBWAYCARD\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":0,\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-05-26T19:07:17Z\",\"txn_name\":\"In restaurant purchase\",\"usd\":0}},{\"transaction\":{\"cad\":-5.97,\"clerk\":\"1\",\"host_order_id\":\"686-355-2466190\",\"items\":[{\"item\":{\"amount\":5.69,\"currency\":\"CAD\",\"item_name\":\"Tuna 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":0.28,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":5.97,\"currency\":\"CAD\",\"number\":\"6299...9003\",\"type\":\"SUBWAYCARD\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":0,\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-05-23T18:51:22Z\",\"txn_name\":\"In restaurant purchase\",\"usd\":0}},{\"transaction\":{\"cad\":25.0,\"clerk\":\"1\",\"host_order_id\":\"746-79-605678\",\"items\":[{\"item\":{\"amount\":0.0,\"currency\":\"CAD\",\"item_name\":\"BBQ Rib 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":0.0,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":25.0,\"currency\":\"CAD\",\"number\":\"451211..0594\",\"type\":\"VISA\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":\"6299...9003\",\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-05-19T19:23:34Z\",\"txn_name\":\"In restaurant purchase\",\"usd\":0}},{\"transaction\":{\"cad\":-5.25,\"clerk\":\"1\",\"host_order_id\":\"683-352-781148\",\"items\":[{\"item\":{\"amount\":3.62,\"currency\":\"CAD\",\"item_name\":\"CbtaPniChkCBleu 6 inch\",\"quantity\":1}},{\"item\":{\"amount\":1.38,\"currency\":\"CAD\",\"item_name\":\"Soup RTU 8oz Soup\",\"quantity\":1}},{\"item\":{\"amount\":0.25,\"currency\":\"CAD\",\"item_name\":\"Amount of tax\",\"quantity\":1}}],\"order_status\":\"COMPLETED\",\"payments\":[{\"payment\":{\"amount\":5.25,\"currency\":\"CAD\",\"number\":\"6299...9003\",\"type\":\"SUBWAYCARD\"}}],\"points\":0,\"reward\":{\"reward\":{\"number\":0,\"points\":0}},\"store_number\":\"24509\",\"txn_date\":\"2017-05-18T20:10:48Z\",\"txn_n",
+      "raw_len": 21254
     },
     {
       "pid": "9b4ebb6d",
@@ -269,8 +269,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "SELECT ps.Emplid, ps.Expr1 , ps.Person_First_Name , ps.Person_Last_Name, clt.Class_Section , clt.Component, clt.Course_Topic_ID, clt.Subject, clt.Catalog_Nbr, clt.Class_Desc, cm.Facility_ID, cm.Class_Start_Time, cm.Class_End_Time, cm.Days, cm.Class_Start_Date, cm.Class_End_Date, cm.Monday, cm.Tuesday, cm.Wednesday, cm.Thursday, cm.Friday, cm.Saturday, cm.Sunday FROM F_Class_Instructor as ci JOIN D_Class_Table as clt ON ci.Strm_Class_DKey = clt.Strm_Class_DKey JOIN D_PERSON_PS as ps ON ci.Person_Key = ps.Person_Key JOIN F_Class_Meeting_Pattern as cm ON cm.Strm_Class_DKey = clt.Strm_Class_DKey AND cm.Crse_Strm_DKey = clt.Crse_Strm_DKey WHERE cm.Facility_ID LIKE 'MS 119' AND ci.Instructor_Role = 'PI' AND ci.Schedule_Print_Instructor = 'Y' AND clt.Term = '2173' ORDER BY cm.Class_Start_Time ASC",
+      "raw_len": 800
     }
   ]
 }

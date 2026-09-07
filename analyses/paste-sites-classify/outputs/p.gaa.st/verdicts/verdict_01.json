@@ -1,0 +1,198 @@
+{
+  "batch_index": 1,
+  "host": "https://p.gaa.st/",
+  "verdicts": [
+    {
+      "pid": "96222870",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2017-09-05 Puppet agent Apache log dump referencing gaast.net internal hostname; pre-swarm timestamp and personal infrastructure."
+    },
+    {
+      "pid": "5665728",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Puppet manifest for a personal bitlbee server (letsencrypt cert, stunnel4, apt sources) - human infrastructure config."
+    },
+    {
+      "pid": "6311750",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "apt/dpkg install output for grub-pc on Debian 8 kernel 3.16 - normal sysadmin console output, pre-swarm."
+    },
+    {
+      "pid": "53494731",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Debian changelog diff signed by Wilmer van der Gaast dated 2017-01-28 for bitlbee-3.5-2 packaging - developer's paste, pre-swarm."
+    },
+    {
+      "pid": "58274434",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Large word list of English words ending in 'in' formatted as domain names - looks like a hobby domain-hack brainstorm, no swarm markers."
+    },
+    {
+      "pid": "61764555",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Twitter mention aimed at 'Wilmer' quoting Proclaimers lyrics with a t.co URL - personal chat context, not a swarm URL smoke test."
+    },
+    {
+      "pid": "54558354",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IRC log line prefixed with timestamp+nick (whvholst) retweeting a JM_Underwood tweet - matches human IRC session-paste pattern."
+    },
+    {
+      "pid": "99115704",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "GPG key inspection and apt weak-digest warning for bitlbee build-signing key - hands-on sysadmin session from wilmer@peer."
+    },
+    {
+      "pid": "58598057",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "sudo ls -laR of a personal mp3 archive dating back to 2000 on wilmer@ruby - deeply personal file listing, definitely human."
+    },
+    {
+      "pid": "33437954",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Bitlbee IRC control-channel log from wilmer showing gtalk OAuth reconnection - human debugging his own bitlbee instance."
+    },
+    {
+      "pid": "54793809",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Dutch one-liner 'Wacht es, de URL werkt wel maar werkt niet?' - human chat, no swarm markers."
+    },
+    {
+      "pid": "46915231",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Dutch one-liner 'Werkt dit op de nieuwe bak? :-D' - human chat conversation."
+    },
+    {
+      "pid": "62414646",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "bzr diff of Puppet site.pp adding bugs.bitlbee.org uwsgi/trac nginx config - personal infrastructure change from root@appie."
+    },
+    {
+      "pid": "38299278",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IRC log of dekisu and wilmer testing paste-detection with a numbered spam - human IRC dialogue about bitlbee's own paste feature."
+    },
+    {
+      "pid": "69052572",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Debian buildd install-doc failure log for bitlbee-3.4 build - developer debugging their own package build."
+    },
+    {
+      "pid": "51702364",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Raw Twitter API JSON dump of a 2015 tweet about women in tech - human sharing raw API output, pre-swarm."
+    },
+    {
+      "pid": "50872819",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Autoconf configure-script fragment (ac_fn_c_try_compile, conftest.c) - developer sharing broken autotools output."
+    },
+    {
+      "pid": "14341505",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Dutch email describing an idea for an IRC-to-ICQ/MSN/Jabber gateway - literally the origin story of bitlbee, human personal note."
+    },
+    {
+      "pid": "76578635",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Bazaar traceback from wilmer@peer pulling bzr.dequis.org bitlbee git-sync - developer debugging bzr against bitlbee source."
+    },
+    {
+      "pid": "41502516",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Byte-identical duplicate of pid 76578635 (bzr traceback) - not a swarm duplicate-relay because the content is human dev output; probable user re-paste."
+    },
+    {
+      "pid": "19141923",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "dpkg-buildpackage failure for bitlbee 3.2.1+otr4 with dpkg-buildflags syntax error - developer packaging output."
+    },
+    {
+      "pid": "69440879",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "GreaseMonkey userscript to recolor forum.fok.nl usernames during Dutch World Cup - human hobby script."
+    },
+    {
+      "pid": "16751938",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "C source file (edges/neighs arrays) titled 'Zetter/Uilskuiken' by 'Wilmer' - Wilmer sharing his own hex-puzzle solver code."
+    },
+    {
+      "pid": "11408649",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "wilmer@fiona shell one-liner counting speakers in #bitlbee irssi log - human IRC statistics dump."
+    },
+    {
+      "pid": "1732155",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "i3 window-manager debug log (2013-09-02 timestamps) showing render tree - human i3 user submitting bug data, pre-swarm."
+    },
+    {
+      "pid": "78072405",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "dig +trace output for tactical-grace.net (Wilmer's own domain) from wilmer@fiona - human DNS debugging."
+    },
+    {
+      "pid": "61814093",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Small bzr diff of lib/http_client.c adding b_event_remove guard - bitlbee source patch, developer paste."
+    },
+    {
+      "pid": "74611713",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Raw Twitter statuses/show JSON for a 2012 tweet ('Sweeeet! I got $101.24') - human shared sample of Twitter API v1 output."
+    },
+    {
+      "pid": "53747456",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Diff hunk reordering initialization of struct scd in proxy code - developer patch snippet, no swarm markers."
+    },
+    {
+      "pid": "16257806",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "GFDL copyright header for bitlbee SGML docs, credited to Jelmer Vernooij and Wilmer van der Gaast - project boilerplate, human."
+    },
+    {
+      "pid": "31419524",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Nine-byte gibberish 'blaatbbbb' as an RE: reply - human test paste (Dutch 'blaat' filler word); no swarm markers, live-scrape site so leaning unclear... but on this host all activity is Wilmer/bitlbee community, so human."
+    },
+    {
+      "pid": "51122089",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Five-byte 'blaat' - Dutch filler-word test paste consistent with the site's community; low signal but no swarm tells."
+    }
+  ]
+}

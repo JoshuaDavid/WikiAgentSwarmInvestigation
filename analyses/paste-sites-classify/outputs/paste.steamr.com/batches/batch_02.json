@@ -71,8 +71,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "10T     5500x1\r\n85T     achri_data\r\n13T     achri_galaxy\r\n64G     admin\r\n0       automountdir\r\n9.4T    cbousman\r\n20T     charb_data\r\n129T    common\r\n66G     common_power\r\n7.9T    ebg_data\r\n4.7T    ebg_gmb\r\n0       ebg_mgw\r\n25T     ebg_projects\r\n503G    ebg_web\r\n11T     ebg_work\r\n10G     fs1\r\n144T    gallo\r\n0       ha\r\n269T    home\r\n676M    home.anikolic\r\n22T     hyperion\r\n8.0T    hyperion_scratch\r\n845M    Install\r\n180G    perf\r\n168T    qlong\r\n2.9G    snyder_irida\r\n26T     snyder_work\r\n0       sysadmin\r\n633M    Temp\r\n3.0T    test\r\n75G     theia\r\n101G    tmp\r\n20G     trans_write\r\n32T     vetmed_data\r\n99G     vetmed_stage\r\n",
+      "raw_len": 628
     },
     {
       "pid": "dd2bebf4",
@@ -82,8 +82,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "# dmidecode\r\n# dmidecode 3.2\r\nGetting SMBIOS data from sysfs.\r\nSMBIOS 2.7 present.\r\n51 structures occupying 1950 bytes.\r\nTable at 0x000EB100.\r\n\r\nHandle 0x0000, DMI type 0, 24 bytes\r\nBIOS Information\r\n        Vendor: American Megatrends Inc.\r\n        Version: 31SUG206\r\n        Release Date: 04/24/2012\r\n        Address: 0xF0000\r\n        Runtime Size: 64 kB\r\n        ROM Size: 1024 kB\r\n        Characteristics:\r\n                PCI is supported\r\n                BIOS is upgradeable\r\n                BIOS shadowing is allowed\r\n                Boot from CD is supported\r\n                Selectable boot is supported\r\n                BIOS ROM is socketed\r\n                EDD is supported\r\n                5.25\"/1.2 MB floppy services are supported (int 13h)\r\n                3.5\"/720 kB floppy services are supported (int 13h)\r\n                3.5\"/2.88 MB floppy services are supported (int 13h)\r\n                Print screen service is supported (int 5h)\r\n                8042 keyboard services are supported (int 9h)\r\n                Serial services are supported (int 14h)\r\n                Printer services are supported (int 17h)\r\n                ACPI is supported\r\n                USB legacy is supported\r\n                BIOS boot specification is supported\r\n                Targeted content distribution is supported\r\n                UEFI is supported\r\n        BIOS Revision: 4.6\r\n\r\nHandle 0x0001, DMI type 1, 27 bytes\r\nSystem Information\r\n        Manufacturer: Buffalo\r\n        Product Name: TeraStation\r\n        Version: To be filled by O.E.M.\r\n        Serial Number: To be filled by O.E.M.\r\n        UUID: 03000200-0400-0500-0006-000700080009\r\n        Wake-up Type: Power Switch\r\n        SKU Number: To be filled by O.E.M.\r\n        Family: To be filled by O.E.M.\r\n\r\nHandle 0x0002, DMI type 2, 15 bytes\r\nBase Board Information\r\n        Manufacturer: USI\r\n        Product Name: SUGI\r\n        Version: To be filled by O.E.M.\r\n        Serial Number: To be filled by O.E.M.\r\n        Asset Tag: To be filled by O.E.M.\r\n        Features:\r\n                Board is a hosting board\r\n                Board is replaceable\r\n        Location In Chassis: To be filled by O.E.M.\r\n        Chassis Handle: 0x0003\r\n        Type: Motherboard\r\n        Contained Object Handles: 0\r\n\r\nHandle 0x0003, DMI type 3, 22 bytes\r\nChassis Information\r\n        Manufacturer: To Be Filled By O.E.M.\r\n        Type: Desktop\r\n        Lock: Not Present\r\n        Version: To Be Filled By O.E.M.\r\n        Serial Number: To Be Filled By O.E.M.\r\n        Asset Tag: To Be Filled By O.E.M.\r\n        Boot-up State: Safe\r\n        Power Supply State: Safe\r\n        Thermal State: Safe\r\n        Security Status: None\r\n        OEM Information: 0x00000000\r\n        Height: Unspecified\r\n        Number Of Power Cords: 1\r\n        Contained Elements: 0\r\n        SKU Number: To be filled by O.E.M.\r\n\r\nHandle 0x0004, DMI type 4, 42 bytes\r\nProcessor Information\r\n        Socket Designation: CPU 1\r\n        Type: Central Processor\r\n        Family: Other\r\n        Manufacturer: Intel\r\n        ID: 61 06 03 00 FF FB EB BF\r\n        Version: Intel(R) Atom(TM) CPU D2550   @ 1.86GHz\r\n        Voltage: 1.1 V\r\n        External Clock: 533 MHz\r\n        Max Speed: 1865 MHz\r\n        Current Speed: 1865 MHz\r\n        Status: Populated, Enabled\r\n        Upgrade: Other\r\n        L1 Cache Handle: 0x0005\r\n        L2 Cache Handle: 0x0006\r\n        L3 Cache Handle: Not Provided\r\n        Serial Number: To Be Filled By O.E.M.\r\n        Asset Tag: To Be Filled By O.E.M.\r\n        Part Number: To Be Filled By O.E.M.\r\n        Core Count: 2\r\n        Core Enabled: 1\r\n        Thread Count: 2\r\n        Characteristics:\r\n                64-bit capable\r\n\r\nHandle 0x0005, DMI type 7, 19 bytes\r\nCache Information\r\n        Socket Designation: L1-Cache\r\n        Configuration: Enabled, Not Socketed, Level 1\r\n        Operational Mode: Write Back\r\n        Location: Internal\r\n        Installed Size: 24 kB\r\n        Maximum Size: 24 kB\r\n        Supported SRAM Types:\r\n            ",
+      "raw_len": 16635
     },
     {
       "pid": "9b0b3ffe",
@@ -93,8 +93,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "whiteList|[\"*.googlevideo.com\",\"youtube.com\",\"store.steampowered.com\",\"store.edgecast.steamstatic.com\",\"amazon.ca\",\"images-na.ssl-images-amazon.com\",\"memoryexpress.com\",\"reddit.com\",\"redditstatic.com\",\"i.imgur.com\",\"s.imgur.com\",\"nzb.cat\",\"ebay.com\",\"ir.ebaystatic.com\",\"vi.vipr.ebaydesc.com\",\"**.calgary.ca\",\"ajax.googleapis.com\",\"**.lynda.com\",\"**.microsoftonline.com\",\"**.office365.com\",\"**.ucalgary.ca\",\"**.hitbtc.com\",\"google.com\",\"gstatic.com\",\"**.slack.com\",\"fst.slack-edge.com\",\"leo.leung.xyz\",\"weather.gc.ca\",\"**.gog.com\",\"store.steampowered.com\",\"**.office.com\",\"reddit.com\",\"redditstatic.com\",\"memoryexpress.com\",\"i.imgur.com\",\"s.imgur.com\",\"cdn.embedly.com\",\"gfycat.com\",\"assets.gfycat.com\",\"cdn.embed.ly\",\"thumbs.gfycat.com\",\"api.embed.ly\",\"**.redditmedia.com\",\"a.slack-edge.com\",\"**.github.com\",\"humblebundle.com\",\"humblebundle-a.akamaihd.net\",\"**.wikipedia.org\",\"store.akamai.steamstatic.com\",\"steamstore-a.akamaihd.net\",\"**.steamcommunity.com\",\"steamcommunity-a.akamaihd.net\",\"cln.cloudlinux.com\",\"arstechnica.com\",\"cdn.arstechnica.net\",\"ajax.googleapis.com\",\"**.sharepoint.com\",\"**.live.com\",\"**.sharepointonline.com\",\"**.office.net\",\"youtube.com\",\"**.googlevideo.com\",\"**.service-now.com\",\"**.slashdot.org\",\"d3tglifpd8whs6.cloudfront.net\",\"web.archive.org\",\"**.serialssolutions.com\",\"ucalgary.maps.arcgis.com\",\"**.arcgisonline.com\",\"nzb.cat\",\"**.microsoft.com\",\"stackoverflow.com\",\"cdn.sstatic.net\",\"allrecipes.com\",\"**.media-allrecipes.com\",\"hub.docker.com\",\"google.ca\",\"docs.docker.com\",\"paypal.com\",\"paypalobjects.com\",\"rbcroyalbank.com\",\"**.royalbank.com\",\"css.banggood.com\",\"banggood.com\",\"secureir.ebaystatic.com\",\"pages.ebay.com\",\"include.ebaystatic.com\",\"v.redd.it\",\"imgur.com\",\"web\",\"althub.co.za\",\"drunkenslug.com\",\"code.jquery.com\",\"maxcdn.bootstrapcdn.com\",\"help.nextcloud.com\",\"iredmail.org\",\"forums.docker.com\",\"cdn-enterprise.discourse.org\",\"apis.google.com\",\"kh.google.com\",\"access.redhat.com\",\"fortnine.ca\",\"m.fortnine.ca\",\"api.ebay.com\",\"coinbase.com\",\"assets.coinbase.com\",\"canadapost.ca\",\"**.ebay.ca\",\"poloniex.com\",\"coinmarketcap.com\",\"binance.com\",\"resource.binance.com\",\"liqui.io\",\"files.coinmarketcap.com\",\"s2.coinmarketcap.com\",\"translate.google.com\",\"ca.camelcamelcamel.com\",\"d1i0o2gnhzh6dj.cloudfront.net\",\"steamdb.info\",\"**.g2a.com\",\"**.shaw.ca\",\"cdnjs.cloudflare.com\",\"s.ytimg.com\",\"imdb.com\",\"m.media-amazon.com\",\"ia.media-imdb.com\",\"newegg.ca\",\"c1.neweggimages.com\",\"ups.com\",\"**.unity.com\",\"**.unity3d.com\",\"dlink\",\"buffalo\",\"gateway\",\"openwrt\",\"free-usenet.com\",\"lineageos.org\",\"download.lineageos.org\",\"192.168.1.1\",\"**.sportchek.ca\",\"**.cantire.com\",\"10.1.**\",\"old.reddit.com\",\"**.swifthost.net\",\"**.steamr.com\",\"**.google.co.jp\",\"**.i-scmp.com\",\"calgary.ctvnews.ca\",\"static.ctvnews.ca\",\"**.vimeocdn.com\",\"player.vimeo.com\",\"10.1.2.54\",\"ctvnews.ca\",\"flyers.calgarycoop.com\",\"github.githubassets.com\",\"ucalgary-primo.hosted.exlibrisgroup.com\",\"calgarycoop.com\",\"a.fsdn.com\",\"staples.ca\",\"assets.staples-static.ca\",\"community.influxdata.com\",\"buyapi.ca\",\"ebikes.ca\",\"epicgames.com\",\"accounts.epicgames.com\",\"walmart.ca\",\"municycle.ca\",\"external-preview.redd.it\",\"costco.ca\",\"**.mega.nz\",\"na.static.mega.co.nz\",\"g.api.mega.co.nz\",\"musicboxmaniacs.com\",\"belkin\",\"static-assets-prod.epicgames.com\",\"cdn1.unrealengine.com\",\"cdn2.unrealengine.com\",\"canadiantire.ca\",\"preview.redd.it\",\"d36jcksde1wxzq.cloudfront.net\",\"realtor.ca\",\"maps.googleapis.com\",\"blockchain.com\",\"vimeo.com\",\"cabelas.ca\",\"origin.com\",\"accounts.ea.com\",\"telusidentity.telus.com\",\"mobility.telus.com\",\"ap.www.namecheap.com\",\"nc-img.com\",\"wclc.com\",\"silvergoldbull.ca\",\"video.twimg.com\",\"ton.twimg.com\",\"localhost\",\"my.frantech.ca\",\"manage.buyvm.net\",\"twitter.com\",\"abs.twimg.com\",\"amazon.com\",\"**.msauth.net\",\"10.1.1.1\",\"ca.classistatic.com\",\"kijiji.ca\",\"disneyplus.com\",\"prod-static.disney-plus.net\",\"**.bamgrid.com\",\"**.go.com\",\"**.dssott.com\",\"factorio.com\",\"cdn.factorio.com\"]\r\nhashallow|false\r\nwebrtcdevice|false\r\nuseragentintervalmins|5\r\nupdatenotify|true\r\nfpWebVR|[]\r\nlastSync|",
+      "raw_len": 5079
     },
     {
       "pid": "81e2a6fa",
@@ -104,8 +104,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://community.linuxmint.com/tutorial/view/29",
+      "raw_len": 48
     },
     {
       "pid": "06fcb018",
@@ -115,8 +115,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "      6 93.174.93.178\r\n      7 107.189.11.145\r\n     11 185.17.73.141\r\n     31 67.227.194.37\r\n    360 193.112.63.109\r\n    576 129.204.51.140\r\n    622 106.13.46.149\r\n    622 118.24.89.174\r\n    622 43.248.171.41\r\n    628 118.25.101.96\r\n    629 103.194.105.146\r\n    629 106.13.48.54\r\n    629 111.230.23.22\r\n    629 118.24.174.175\r\n    629 118.25.26.81\r\n    629 129.204.168.130\r\n    629 129.28.129.33\r\n    629 132.232.135.73\r\n    629 134.175.45.222\r\n    629 45.138.172.193\r\n    632 140.143.71.1\r\n    640 154.206.46.251\r\n    643 106.13.86.104\r\n    643 129.28.114.129\r\n    646 106.12.111.29\r\n    646 162.247.99.34\r\n    646 180.76.146.109\r\n    646 202.162.19.114\r\n    648 117.121.97.96\r\n    648 177.137.207.2\r\n    648 49.235.242.13\r\n    649 106.52.179.234\r\n    653 45.204.14.136\r\n    658 103.96.148.244\r\n    658 122.114.145.127\r\n    662 193.112.212.143\r\n    662 52.166.56.39\r\n    665 129.226.71.71\r\n    666 123.207.52.78\r\n    666 150.109.78.53\r\n    666 186.17.190.232\r\n\r\n\r\n186.17.190.232 - - [03/Nov/2019:23:02:38 +0000] \"POST /1b7540b8/admin.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\" 1409769 \"backend not found\" \"/1b7540b8/admin.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:38 +0000] \"POST /1b7540b8/admin.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\" 1409770 \"backend not found\" \"/1b7540b8/admin.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:39 +0000] \"POST /1b7540b8/admin.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\" 1409772 \"backend not found\" \"/1b7540b8/admin.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:40 +0000] \"POST /index.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409780 \"backend not found\" \"/index.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:41 +0000] \"POST /bbs.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409781 \"backend not found\" \"/bbs.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:41 +0000] \"POST /forum.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409783 \"backend not found\" \"/forum.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:41 +0000] \"POST /forums.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409784 \"backend not found\" \"/forums.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:41 +0000] \"POST /bbs/index.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409785 \"backend not found\" \"/bbs/index.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:42 +0000] \"POST /forum/index.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409787 \"backend not found\" \"/forum/index.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:02:42 +0000] \"POST /forums/index.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36\" 1409789 \"backend not found\" \"/forums/index.php\" 0ms\r\n186.17.190.232 - - [03/Nov/2019:23:03:23 +0000] \"POST /wuwu11.php HTTP/1.1\" 404 19 \"-\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0\" 1410000 \"backend not found\" \"/wuwu11.php\" 0ms\r\n\r\n\r\n      9 /test.php\r\n      8 /1.php\r\n      6 /qq.php\r\n      4 /x.php\r\n      4 /ss.php\r\n      4 /shell.php\r\n      4 /confg.php\r\n      4 /api.php\r\n      3 /zxy.php\r\n      3 /test123.php\r\n      3 /q.php\r\n      3 /log.php\r",
+      "raw_len": 15223
     },
     {
       "pid": "fdb6eddf",
@@ -126,8 +126,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@nas:/root# zpool status                                                                                                                                                                              15:19:21\r\n  pool: data\r\n state: DEGRADED\r\nstatus: One or more devices are faulted in response to persistent errors.\r\n        Sufficient replicas exist for the pool to continue functioning in a\r\n        degraded state.\r\naction: Replace the faulted device, or use 'zpool clear' to mark the device\r\n        repaired.\r\n  scan: scrub canceled on Thu Sep 26 15:15:47 2019\r\nconfig:\r\n\r\n        NAME                                                STATE     READ WRITE CKSUM\r\n        data                                                DEGRADED     0     0     0\r\n          raidz1-0                                          DEGRADED     0     0     0\r\n            ata-ST4000DM005-2DP166_ZGY0956M-part1           ONLINE       0     0     0\r\n            ata-WDC_WD40EFRX-68WT0N0_WD-WCC4E0KR60H3-part1  ONLINE       0     0     0\r\n            ata-ST4000DM000-2AE166_WDH01SND-part1           FAULTED      0     0     0  too many errors\r\n\r\nerrors: No known data errors\r\n\r\n  pool: storage\r\n state: ONLINE\r\n  scan: resilvered 2.12T in 13h14m with 0 errors on Sat Sep 21 11:09:25 2019\r\nconfig:\r\n\r\n        NAME                                       STATE     READ WRITE CKSUM\r\n        storage                                    ONLINE       0     0     0\r\n          raidz1-0                                 ONLINE       0     0     0\r\n            ata-Hitachi_HUS724030ALE641_P8GH7GVR   ONLINE       0     0     0\r\n            ata-ST3000DM001-9YN166_W1F0SJ27-part1  ONLINE       0     0     0\r\n            ata-Hitachi_HUS724030ALE641_P8GBAW7P   ONLINE       0     0     0\r\n            ata-ST3000DM001-1CH166_Z1F4HGS6        ONLINE       0     0     0\r\n            ata-Hitachi_HUS724030ALE641_P8G9NZSR   ONLINE       0     0     0\r\n\r\nerrors: No known data errors\r\nroot@nas:/root# zpool offline data ata-ST4000DM000-2AE166_WDH01SND-part1                                                                                                                                  15:19:52\r\nroot@nas:/root# zpool status                                                                                                                                                                              15:19:55\r\n  pool: data\r\n state: DEGRADED\r\nstatus: One or more devices are faulted in response to persistent errors.\r\n        Sufficient replicas exist for the pool to continue functioning in a\r\n        degraded state.\r\naction: Replace the faulted device, or use 'zpool clear' to mark the device\r\n        repaired.\r\n  scan: scrub canceled on Thu Sep 26 15:15:47 2019\r\nconfig:\r\n\r\n        NAME                                                STATE     READ WRITE CKSUM\r\n        data                                                DEGRADED     0     0     0\r\n          raidz1-0                                          DEGRADED     0     0     0\r\n            ata-ST4000DM005-2DP166_ZGY0956M-part1           ONLINE       0     0     0\r\n            ata-WDC_WD40EFRX-68WT0N0_WD-WCC4E0KR60H3-part1  ONLINE       0     0     0\r\n            ata-ST4000DM000-2AE166_WDH01SND-part1           FAULTED      0     0     0  too many errors\r\n\r\nerrors: No known data errors\r\n\r\n  pool: storage\r\n state: ONLINE\r\n  scan: resilvered 2.12T in 13h14m with 0 errors on Sat Sep 21 11:09:25 2019\r\nconfig:\r\n\r\n        NAME                                       STATE     READ WRITE CKSUM\r\n        storage                                    ONLINE       0     0     0\r\n          raidz1-0                                 ONLINE       0     0     0\r\n            ata-Hitachi_HUS724030ALE641_P8GH7GVR   ONLINE       0     0     0\r\n            ata-ST3000DM001-9YN166_W1F0SJ27-part1  ONLINE       0     0     0\r\n            ata-Hitachi_HUS724030ALE641_P8GBAW7P   ONLINE       0     0     0\r\n            ata-ST3000DM001-1CH166_Z1F4HGS6        ONLINE       0     0     0\r\n         ",
+      "raw_len": 6837
     },
     {
       "pid": "986752a0",
@@ -137,8 +137,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@nas:/root# smartctl -a /dev/sdc                                                           14:34:56\r\nsmartctl 6.6 2017-11-05 r4594 [x86_64-linux-5.0.9-100.fc28.x86_64] (local build)\r\nCopyright (C) 2002-17, Bruce Allen, Christian Franke, www.smartmontools.org\r\n\r\n=== START OF INFORMATION SECTION ===\r\nModel Family:     Hitachi/HGST Ultrastar 7K4000\r\nDevice Model:     Hitachi HUS724030ALE641\r\nSerial Number:    P8GH7GVR\r\nLU WWN Device Id: 5 000cca 22cc6eda4\r\nFirmware Version: MJ8OA5F0\r\nUser Capacity:    3,000,592,982,016 bytes [3.00 TB]\r\nSector Sizes:     512 bytes logical, 4096 bytes physical\r\nRotation Rate:    7200 rpm\r\nForm Factor:      3.5 inches\r\nDevice is:        In smartctl database [for details use: -P show]\r\nATA Version is:   ATA8-ACS T13/1699-D revision 4\r\nSATA Version is:  SATA 3.0, 6.0 Gb/s (current: 6.0 Gb/s)\r\nLocal Time is:    Fri Sep 20 14:34:56 2019 MDT\r\nSMART support is: Available - device has SMART capability.\r\nSMART support is: Enabled\r\n\r\n=== START OF READ SMART DATA SECTION ===\r\nSMART overall-health self-assessment test result: PASSED\r\n\r\nGeneral SMART Values:\r\nOffline data collection status:  (0x82) Offline data collection activity\r\n                                        was completed without error.\r\n                                        Auto Offline Data Collection: Enabled.\r\nSelf-test execution status:      (   0) The previous self-test routine completed\r\n                                        without error or no self-test has ever\r\n                                        been run.\r\nTotal time to complete Offline\r\ndata collection:                (   24) seconds.\r\nOffline data collection\r\ncapabilities:                    (0x5b) SMART execute Offline immediate.\r\n                                        Auto Offline data collection on/off support.\r\n                                        Suspend Offline collection upon new\r\n                                        command.\r\n                                        Offline surface scan supported.\r\n                                        Self-test supported.\r\n                                        No Conveyance Self-test supported.\r\n                                        Selective Self-test supported.\r\nSMART capabilities:            (0x0003) Saves SMART data before entering\r\n                                        power-saving mode.\r\n                                        Supports SMART auto save timer.\r\nError logging capability:        (0x01) Error logging supported.\r\n                                        General Purpose Logging supported.\r\nShort self-test routine\r\nrecommended polling time:        (   1) minutes.\r\nExtended self-test routine\r\nrecommended polling time:        (   1) minutes.\r\nSCT capabilities:              (0x003d) SCT Status supported.\r\n                                        SCT Error Recovery Control supported.\r\n                                        SCT Feature Control supported.\r\n                                        SCT Data Table supported.\r\n\r\nSMART Attributes Data Structure revision number: 16\r\nVendor Specific SMART Attributes with Thresholds:\r\nID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE\r\n  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0\r\n  2 Throughput_Performance  0x0005   135   135   054    Pre-fail  Offline      -       84\r\n  3 Spin_Up_Time            0x0007   136   136   024    Pre-fail  Always       -       479 (Average 440)\r\n  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       52\r\n  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       9\r\n  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0\r\n  8 Seek_Time_Performance   0x0005   121   121   020    Pre-fail  Offline      -       34\r\n  9 Power_On_Hours          0x0012   095   095   000    Old_age   Always       -       39864\r\n 10 Spin_Retry_Count        0x0013   100   100   060    Pre-",
+      "raw_len": 10732
     },
     {
       "pid": "45cac9d9",
@@ -148,8 +148,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[root@vps ~]# chmod 755 install.sh\r\n[root@vps ~]# ./install.sh\r\n-----------------------------------------------\r\n Welcome to Softaculous Apps Installer\r\n-----------------------------------------------\r\n\r\n///////////////////////////////\r\n// INSTALLING SOFTACULOUS\r\n// Detected Panel : Directadmin\r\n// DOWNLOADING SOFTACULOUS PACKAGE\r\n// CONFIGURED universal.php\r\n// FETCHED THE LICENSE\r\n// UPDATED SCRIPTS CATEGORIES\r\n// UPDATED SCRIPTS LIST\r\n// ADDED CRON JOB\r\n// BUILDING SCRIPT CACHE\r\n--2019-09-14 21:23:39--  http://files.virtualizor.com/ioncube/64/ioncube_loader_lin_7.3.so\r\nResolving files.virtualizor.com (files.virtualizor.com)... 192.198.80.3\r\nConnecting to files.virtualizor.com (files.virtualizor.com)|192.198.80.3|:80... connected.\r\nHTTP request sent, awaiting response... 200 OK\r\nLength: 1320168 (1.3M) [application/octet-stream]\r\nSaving to: ‘ioncube_loader_lin_7.3.so’\r\n\r\n100%[===============================================================================================================================>] 1,320,168   3.21MB/s   in 0.4s\r\n\r\n2019-09-14 21:23:40 (3.21 MB/s) - ‘ioncube_loader_lin_7.3.so’ saved [1320168/1320168]\r\n\r\n// Script Packages will be downloaded in background\r\n///////////////////////////////\r\n\r\n=====================================================\r\nCongratulations, Softaculous was installed successfully\r\nSoftaculous has been installed at:\r\nPath : /usr/local/directadmin/plugins/softaculous\r\nScripts Path : /var/softaculous\r\n\r\nWe request you to please register for updates and notifications at :\r\nhttp://www.softaculous.com/board/index.php?act=register\r\nIt also inspires us when you register. Registration is free and just a one minute job.\r\n\r\nIf you need any support you can always count on us. Just drop in at our Support Board:\r\nhttp://www.softaculous.com/board\r\nAlternatively, you can contact us via Email at support@softaculous.com\r\n\r\nThank you for using Softaculous\r\n",
+      "raw_len": 1911
     },
     {
       "pid": "227e94ab",
@@ -159,8 +159,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/",
+      "raw_len": 73
     },
     {
       "pid": "82b618a2",
@@ -170,8 +170,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "[cephuser@admin cluster]$ ceph-deploy install admin mon1 osd1 osd2 osd3\r\n[ceph_deploy.conf][DEBUG ] found configuration file at: /home/cephuser/.cephdeploy.conf\r\n[ceph_deploy.cli][INFO  ] Invoked (1.5.39): /bin/ceph-deploy install admin mon1 osd1 osd2 osd3\r\n[ceph_deploy.cli][INFO  ] ceph-deploy options:\r\n[ceph_deploy.cli][INFO  ]  verbose                       : False\r\n[ceph_deploy.cli][INFO  ]  testing                       : None\r\n[ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7ff0832a5cf8>\r\n[ceph_deploy.cli][INFO  ]  cluster                       : ceph\r\n[ceph_deploy.cli][INFO  ]  dev_commit                    : None\r\n[ceph_deploy.cli][INFO  ]  install_mds                   : False\r\n[ceph_deploy.cli][INFO  ]  stable                        : None\r\n[ceph_deploy.cli][INFO  ]  default_release               : False\r\n[ceph_deploy.cli][INFO  ]  username                      : None\r\n[ceph_deploy.cli][INFO  ]  adjust_repos                  : True\r\n[ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7ff083d72de8>\r\n[ceph_deploy.cli][INFO  ]  install_mgr                   : False\r\n[ceph_deploy.cli][INFO  ]  install_all                   : False\r\n[ceph_deploy.cli][INFO  ]  repo                          : False\r\n[ceph_deploy.cli][INFO  ]  host                          : ['admin', 'mon1', 'osd1', 'osd2', 'osd3']\r\n[ceph_deploy.cli][INFO  ]  install_rgw                   : False\r\n[ceph_deploy.cli][INFO  ]  install_tests                 : False\r\n[ceph_deploy.cli][INFO  ]  repo_url                      : None\r\n[ceph_deploy.cli][INFO  ]  ceph_conf                     : None\r\n[ceph_deploy.cli][INFO  ]  install_osd                   : False\r\n[ceph_deploy.cli][INFO  ]  version_kind                  : stable\r\n[ceph_deploy.cli][INFO  ]  install_common                : False\r\n[ceph_deploy.cli][INFO  ]  overwrite_conf                : False\r\n[ceph_deploy.cli][INFO  ]  quiet                         : False\r\n[ceph_deploy.cli][INFO  ]  dev                           : master\r\n[ceph_deploy.cli][INFO  ]  nogpgcheck                    : False\r\n[ceph_deploy.cli][INFO  ]  local_mirror                  : None\r\n[ceph_deploy.cli][INFO  ]  release                       : None\r\n[ceph_deploy.cli][INFO  ]  install_mon                   : False\r\n[ceph_deploy.cli][INFO  ]  gpg_url                       : None\r\n[ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts admin mon1 osd1 osd2 osd3\r\n[ceph_deploy.install][DEBUG ] Detecting platform for host admin ...\r\n[admin][DEBUG ] connection detected need for sudo\r\n[admin][DEBUG ] connected to host: admin\r\n[admin][DEBUG ] detect platform information from remote host\r\n[admin][DEBUG ] detect machine type\r\n[ceph_deploy.install][INFO  ] Distro info: CentOS Linux 7.6.1810 Core\r\n[admin][INFO  ] installing Ceph on admin\r\n[admin][INFO  ] Running command: sudo yum clean all\r\n[admin][DEBUG ] Loaded plugins: fastestmirror\r\n[admin][DEBUG ] Cleaning repos: Ceph Ceph-noarch base ceph-source extras updates\r\n[admin][DEBUG ] Cleaning up list of fastest mirrors\r\n[admin][INFO  ] Running command: sudo yum -y install epel-release\r\n[admin][DEBUG ] Loaded plugins: fastestmirror\r\n[admin][DEBUG ] Determining fastest mirrors\r\n[admin][DEBUG ]  * base: mirror.it.ubc.ca\r\n[admin][DEBUG ]  * extras: centos.mirror.rafal.ca\r\n[admin][DEBUG ]  * updates: centos.mirror.rafal.ca\r\n[admin][DEBUG ] Resolving Dependencies\r\n[admin][DEBUG ] --> Running transaction check\r\n[admin][DEBUG ] ---> Package epel-release.noarch 0:7-11 will be installed\r\n[admin][DEBUG ] --> Finished Dependency Resolution\r\n[admin][DEBUG ]\r\n[admin][DEBUG ] Dependencies Resolved\r\n[admin][DEBUG ]\r\n[admin][DEBUG ] ================================================================================\r\n[admin][DEBUG ]  Package                Arch             Version         Repository        Size\r\n[admin][DEBUG ] =============================================================================",
+      "raw_len": 178846
     },
     {
       "pid": "2f4f7263",
@@ -181,8 +181,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "PaaS enables developers to easily create applications without having to worry about setting up the underlying platform components. So if a developer wants a database, they just check a box, or make an API call, or use whatever mechanism that the PaaS provides to get one. They don’t have to install the database, they can just use it. OpenShift, Cloud Foundry, and Heroku are examples of a PaaS. \r\n\r\n\r\nspinnaker@halyard:/workdir$ kubectl get nodes\r\nNAME                                   STATUS   ROLES    AGE   VERSION\r\n7b41da72-f250-4e49-9e11-f73bce94d29c   Ready    <none>   8d    v1.13.5\r\n972210f9-cfbf-4cdc-b3a7-8231ec701685   Ready    <none>   8d    v1.13.5\r\ne6ccad96-fe41-446a-a847-251cced395c5   Ready    <none>   8d    v1.13.5\r\nspinnaker@halyard:/workdir$ ls\r\nspinnaker@halyard:/workdir$ hal deploy apply\r\n+ Get current deployment\r\n  Success\r\n+ Prep deployment\r\n  Success\r\n+ Preparation complete... deploying Spinnaker\r\n+ Get current deployment\r\n  Success\r\n+ Apply deployment\r\n  Success\r\n+ Run `hal deploy connect` to connect to Spinnaker.\r\n/home/spinnaker/.hal/default/install.sh must be executed with root permissions; exiting\r\n! ERROR Error encountered running script. See above output for more\r\n  details.\r\nspinnaker@halyard:/workdir$ hal config provider kubernetes enable\r\n+ Get current deployment\r\n  Success\r\n+ Edit the kubernetes provider\r\n  Success\r\nProblems in default.provider.kubernetes:\r\n- WARNING Provider kubernetes is enabled, but no accounts have been\r\n  configured.\r\n\r\n+ Successfully enabled kubernetes\r\nspinnaker@halyard:/workdir$ CONTEXT=$(kubectl config current-context)\r\nspinnaker@halyard:/workdir$\r\nspinnaker@halyard:/workdir$ hal config provider kubernetes account add my-k8s-v2-account    --provider-version v2   --context $CONTEXT\r\n+ Get current deployment\r\n  Success\r\n+ Add the my-k8s-v2-account account\r\n  Success\r\n+ Successfully added account my-k8s-v2-account for provider\r\n  kubernetes.\r\nspinnaker@halyard:/workdir$ hal config features edit --artifacts true\r\n+ Get current deployment\r\n  Success\r\n+ Get features\r\n  Success\r\n+ Edit features\r\n  Success\r\n+ Successfully updated features.\r\nspinnaker@halyard:/workdir$ hal config deploy edit --type distributed --account-name  my-k8s-v2-account\r\n+ Get current deployment\r\n  Success\r\n+ Get the deployment environment\r\n  Success\r\n+ Edit the deployment environment\r\n  Success\r\n+ Successfully updated your deployment environment.\r\nspinnaker@halyard:/workdir$ echo  minio123  | hal config storage s3 edit --endpoint  minio-service  --access-key-id minio  --secret-access-key\r\n+ Get current deployment\r\n  Success\r\n+ Get persistent store\r\n  Success\r\n- No changes supplied.\r\nspinnaker@halyard:/workdir$ hal config storage edit --type s3\r\n+ Get current deployment\r\n  Success\r\n+ Get persistent storage settings\r\n  Success\r\n- No changes supplied.\r\nspinnaker@halyard:/workdir$ hal deploy apply\r\n+ Get current deployment\r\n  Success\r\n+ Prep deployment\r\n  Success\r\nProblems in default.security:\r\n- WARNING Your UI or API domain does not have override base URLs\r\n  set even though your Spinnaker deployment is a Distributed deployment on a\r\n  remote cloud provider. As a result, you will need to open SSH tunnels against\r\n  that deployment to access Spinnaker.\r\n? We recommend that you instead configure an authentication\r\n  mechanism (OAuth2, SAML2, or x509) to make it easier to access Spinnaker\r\n  securely, and then register the intended Domain and IP addresses that your\r\n  publicly facing services will be using.\r\n\r\n+ Preparation complete... deploying Spinnaker\r\n+ Get current deployment\r\n  Success\r\n- Apply deployment\r\n  Generating all Spinnaker profile files and endpoints: Waiting on deployments to complete\r\n- Deploy spin-redis\r\n\r\n- Deploy spin-clouddriver\r\n\r\n- Deploy spin-front50\r\n\r\n- Deploy spin-orca\r\n\r\n- Deploy spin-deck\r\n\r\n- Deploy spin-echo\r\n\r\n- Deploy spin-gate\r\n\r\n- Deploy spin-rosco\r\n\r\n",
+      "raw_len": 3873
     },
     {
       "pid": "2c8a8da8",
@@ -192,8 +192,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "apiVersion: v1\r\nkind: Pod\r\nmetadata:\r\n  name: halyard\r\n  labels:\r\n    app: halyard\r\nspec:\r\n  containers:\r\n    - name: halyard\r\n      imagePullPolicy: Always\r\n      image: gcr.io/spinnaker-marketplace/halyard:stable\r\n      volumeMounts:\r\n        - name: halyard-data\r\n          mountPath: /root\r\n      ports:\r\n        - containerPort: 9000\r\n        - containerPort: 8084\r\n  volumes:\r\n    - name: halyard-data\r\n      persistentVolumeClaim:\r\n        claimName: halyard-data-0\r\n---\r\napiVersion: v1\r\nkind: Service\r\nmetadata:\r\n  name: halyard-service\r\nspec:\r\n  type: LoadBalancer\r\n  ports:\r\n    - port: 9000\r\n      targetPort: 9000\r\n      name: hal\r\n      protocol: TCP\r\n    - port: 8084\r\n      name: hal2\r\n      targetPort: 8084\r\n      protocol: TCP\r\n  selector:\r\n    app: halyard\r\n---\r\napiVersion: extensions/v1beta1\r\nkind: Ingress\r\nmetadata:\r\n  annotations:\r\n    kubernetes.io/ingress.allow-http: \"true\"\r\n  name: halyard-ingress\r\nspec:\r\n  rules:\r\n  - host: halyard.uc.ucalgary.ca\r\n    http:\r\n      paths:\r\n      - backend:\r\n          serviceName: halyard-service\r\n          servicePort: 9000\r\n        path: /*\r\n  tls:\r\n  - hosts:\r\n    - halyard.uc.ucalgary.ca\r\n    secretName: ingress-proxy-secret\r\n\r\n---\r\nkind: PersistentVolumeClaim\r\napiVersion: v1\r\nmetadata:\r\n  name: halyard-data-0\r\n  labels:\r\n    app: halyard\r\n  annotations:\r\n    volume.beta.kubernetes.io/storage-class: halyard-pod-storage\r\nspec:\r\n  accessModes:\r\n  - ReadWriteOnce\r\n  resources:\r\n    requests:\r\n      storage: 5Gi\r\n  dataSource:\r\n---\r\nkind: StorageClass\r\napiVersion: storage.k8s.io/v1\r\nmetadata:\r\n  name: halyard-pod-storage\r\nprovisioner: kubernetes.io/vsphere-volume\r\nparameters:\r\n    diskformat: thin\r\n    datastore: itsoesxcaas01_LUN01\r\n    fstype: ext3\r\n\r\n",
+      "raw_len": 1730
     },
     {
       "pid": "6f9e57e3",
@@ -203,8 +203,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "apiVersion: v1\r\nkind: Pod\r\nmetadata:\r\n  name: minio\r\n  labels:\r\n    app: minio\r\nspec:\r\n  containers:\r\n    - name: minio\r\n      imagePullPolicy: Always\r\n      image: minio/minio\r\n      volumeMounts:\r\n        - name: minio-data\r\n          mountPath: /data\r\n      args:\r\n        - server\r\n        - /data\r\n      env:\r\n        # MinIO access key and secret key\r\n        - name: MINIO_ACCESS_KEY\r\n          value: \"minio\"\r\n        - name: MINIO_SECRET_KEY\r\n          value: \"minio123\"\r\n      ports:\r\n        - containerPort: 9000\r\n      # Readiness probe detects situations when MinIO server instance\r\n      # is not ready to accept traffic. Kubernetes doesn't forward\r\n      # traffic to the pod while readiness checks fail.\r\n      readinessProbe:\r\n        httpGet:\r\n          path: /minio/health/ready\r\n          port: 9000\r\n        initialDelaySeconds: 120\r\n        periodSeconds: 20\r\n      # Liveness probe detects situations where MinIO server instance\r\n      # is not working properly and needs restart. Kubernetes automatically\r\n      # restarts the pods if liveness checks fail.\r\n      livenessProbe:\r\n        httpGet:\r\n          path: /minio/health/live\r\n          port: 9000\r\n        initialDelaySeconds: 120\r\n        periodSeconds: 20\r\n\r\n  volumes:\r\n    - name: minio-data\r\n      persistentVolumeClaim:\r\n        claimName: minio-data-0\r\n---\r\napiVersion: v1\r\nkind: Service\r\nmetadata:\r\n  # This name uniquely identifies the service\r\n  name: minio-service\r\nspec:\r\n  type: LoadBalancer\r\n  ports:\r\n    - port: 9000\r\n      targetPort: 9000\r\n      protocol: TCP\r\n  selector:\r\n    # Looks for labels `app:minio` in the namespace and applies the spec\r\n    app: minio\r\n---\r\nkind: PersistentVolumeClaim\r\napiVersion: v1\r\nmetadata:\r\n  name: minio-data-0\r\n  labels:\r\n    app: minio\r\n  annotations:\r\n    volume.beta.kubernetes.io/storage-class: minio-pod-storage\r\nspec:\r\n  accessModes:\r\n  - ReadWriteOnce\r\n  resources:\r\n    requests:\r\n      storage: 5Gi\r\n  dataSource:\r\n---\r\nkind: StorageClass\r\napiVersion: storage.k8s.io/v1\r\nmetadata:\r\n  name: minio-pod-storage\r\nprovisioner: kubernetes.io/vsphere-volume\r\nparameters:\r\n    diskformat: thin\r\n    datastore: itsoesxcaas01_LUN01\r\n    fstype: ext3\r\n",
+      "raw_len": 2187
     },
     {
       "pid": "7974ba25",
@@ -214,8 +214,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "extracted# find\n.\n./support\n./support/.ssh\n./tmp\n./sys\n./MERAKI_BUILD\n./storage\n./dev\n./include\n./include/radlib_private.h\n./include/execinfo.h\n./include/radlib.h\n./include/radlib_vs.h\n./proc\n./linuxrc\n./usr\n./usr/lib\n./usr/lib/libpcre.so.0.0.1\n./usr/lib/meraki_snmp.so\n./usr/lib/libpanel.so.5\n./usr/lib/libreadline.so.6.3\n./usr/lib/libstdc++.so\n./usr/lib/libnetsnmp.so.30\n./usr/lib/libmenu.so.5\n./usr/lib/libmenu.so.5.9\n./usr/lib/libnetsnmphelpers.so.30\n./usr/lib/libpcre.so.0\n./usr/lib/libevent-2.1.so.6.0.2\n./usr/lib/libreadline.so.6\n./usr/lib/libnetsnmphelpers.so.30.0.3\n./usr/lib/libpci.so.3\n./usr/lib/libpcap.so.1\n./usr/lib/libncurses.so.5\n./usr/lib/libevent-2.1.so.6\n./usr/lib/libpanel.so.5.9\n./usr/lib/libhistory.so.6.3\n./usr/lib/libpcreposix.so.0.0.0\n./usr/lib/libpcap.so.1.8.1\n./usr/lib/libz.so.1.2.11\n./usr/lib/libnetsnmpagent.so.30.0.3\n./usr/lib/libcurl.so.4\n./usr/lib/libstdc++.so.6.0.21\n./usr/lib/libelf.so.0.8.13\n./usr/lib/libz.so.1\n./usr/lib/libstdc++.so.6\n./usr/lib/libpci.so.3.3.0\n./usr/lib/libmeraki.so\n./usr/lib/libpcreposix.so.0\n./usr/lib/libpcap.so\n./usr/lib/libpoecore.so\n./usr/lib/libnetsnmpmibs.so.30.0.3\n./usr/lib/libelf.so.0\n./usr/lib/libcrypto.so.1.0.0\n./usr/lib/libssl.so.1.0.0\n./usr/lib/libhistory.so.6\n./usr/lib/libncurses.so.5.9\n./usr/lib/libnetsnmp.so.30.0.3\n./usr/lib/libnetsnmpmibs.so.30\n./usr/lib/lighttpd\n./usr/lib/lighttpd/mod_proxy.so\n./usr/lib/lighttpd/mod_dirlisting.so\n./usr/lib/lighttpd/mod_setenv.so\n./usr/lib/lighttpd/mod_staticfile.so\n./usr/lib/lighttpd/mod_redirect.so\n./usr/lib/lighttpd/mod_indexfile.so\n./usr/lib/lighttpd/mod_rewrite.so\n./usr/lib/lighttpd/mod_simple_vhost.so\n./usr/lib/lighttpd/mod_cgi.so\n./usr/lib/lighttpd/mod_fastcgi.so\n./usr/lib/lighttpd/mod_access.so\n./usr/lib/lighttpd/mod_auth.so\n./usr/lib/libnetsnmpagent.so.30\n./usr/lib/libcurl.so.4.5.0\n./usr/bin\n./usr/bin/click_write\n./usr/bin/switch_brain\n./usr/bin/sort\n./usr/bin/strings\n./usr/bin/cmp\n./usr/bin/wget\n./usr/bin/ssh\n./usr/bin/curl\n./usr/bin/test_ms_mem\n./usr/bin/save_random_seed\n./usr/bin/timestamp_wrapper\n./usr/bin/shuf\n./usr/bin/hostid\n./usr/bin/telnet\n./usr/bin/dropbearkey\n./usr/bin/time\n./usr/bin/test\n./usr/bin/pcap_dump\n./usr/bin/hexdump\n./usr/bin/memtest\n./usr/bin/unlink\n./usr/bin/bootsh\n./usr/bin/traceroute\n./usr/bin/awk\n./usr/bin/bigacl_d\n./usr/bin/find\n./usr/bin/cgroups_mount\n./usr/bin/add_timestamp_to_output\n./usr/bin/md5sum\n./usr/bin/start_blescan\n./usr/bin/freeze\n./usr/bin/head\n./usr/bin/config_updater\n./usr/bin/connection_monitor\n./usr/bin/reset_switch\n./usr/bin/printf\n./usr/bin/udping_c\n./usr/bin/nc\n./usr/bin/id\n./usr/bin/patch\n./usr/bin/dig\n./usr/bin/udping_s\n./usr/bin/checkpart\n./usr/bin/cut\n./usr/bin/resize\n./usr/bin/expr\n./usr/bin/led_ssi\n./usr/bin/memtester\n./usr/bin/mtunnel_http_client\n./usr/bin/poder_agent\n./usr/bin/fastcgi\n./usr/bin/killall\n./usr/bin/udhcpc6\n./usr/bin/tcp_probe\n./usr/bin/runmax\n./usr/bin/sync_log\n./usr/bin/basename\n./usr/bin/wc\n./usr/bin/mkfifo\n./usr/bin/serial_logincheck\n./usr/bin/ms_dhcpd_sync\n./usr/bin/sniffers_disable\n./usr/bin/tr\n./usr/bin/list_updater\n./usr/bin/hd\n./usr/bin/du\n./usr/bin/led_off\n./usr/bin/capture_kernel.sh\n./usr/bin/wol\n./usr/bin/seq\n./usr/bin/uniq\n./usr/bin/nuttcp\n./usr/bin/meraki_watchdog\n./usr/bin/make_plain_sdb\n./usr/bin/poe_server\n./usr/bin/board_data_config\n./usr/bin/evhttpd\n./usr/bin/sync_log_d\n./usr/bin/test_leds\n./usr/bin/check_bootreason\n./usr/bin/failover\n./usr/bin/free\n./usr/bin/ms_start_dhcpd\n./usr/bin/less\n./usr/bin/update_loader\n./usr/bin/led_on\n./usr/bin/odm\n./usr/bin/blkdiscard\n./usr/bin/yes\n./usr/bin/mtunnel_client\n./usr/bin/logger\n./usr/bin/mesg\n./usr/bin/dbclient\n./usr/bin/test_leds_shiny\n./usr/bin/check_unlock\n./usr/bin/passwd\n./usr/bin/bzcat\n./usr/bin/uptime\n./usr/bin/unshare\n./usr/bin/fping\n./usr/bin/scp\n./usr/bin/ifrename\n./usr/bin/which\n./usr/bin/poe_cli\n./usr/bin/dirname\n./usr/bin/sniffers_enable\n./usr/bin/mkpasswd\n./usr/bin/snoop_d\n./usr/bin/[[\n./usr/bin/extfs_mount\n./usr/bin/top\n./usr/bin/mpatch\n./usr/bin/click_read\n./usr/bin/clear\n./usr/bin/set_",
+      "raw_len": 11879
     },
     {
       "pid": "287eca75",
@@ -225,8 +225,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n\nstty -echo\ndmesg -n 1\n\nfunction chksum (){\n\techo -n \"$1\" | md5sum | awk '{print $1}'\n}\n\nfunction tx_data (){\n\tFile=\"$1\"\n\t\n\tif [ ! -f $File ] ; then\n\t\techo \"File $File not found.\"\n\tfi\n\t\n\tmd5sum $File | awk '{print $1}'\n\n\tcat $File | base64 | while read -r x ; do\n\t\tSum=$(chksum \"$x\")\n\n\t\twhile true ; do\n\t\t\t# Send the data\n\t\t\techo \"$x:$Sum\"\n\n\t\t\tread X < /dev/ttyS0\n\t\t\tX=$(echo \"$X\" | tr -d '\\n')\n\t\t\tif [[ \"$X\" == \"$1\" ]] ; then\n\t\t\t\tbreak\n\t\t\telif [[ \"$X\" == \"quit\" ]] ; then\n\t\t\t\texit\n\t\t\tfi\n\t\tdone\n\tdone\n\t\n\techo \"EOF\"\n}\n\ntx_data $@",
+      "raw_len": 540
     },
     {
       "pid": "f02c109c",
@@ -236,8 +236,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "#!/bin/bash\n\n\nfunction chksum (){\n        echo -n \"$1\" | md5sum | awk '{print $1}'\n}\n\nfunction rx_data (){\n        Filename=\"$1\"\n\n        if [ -f $Filename.b64 ] ; then\n                rm $Filename.b64\n        fi\n\n        echo > /dev/ttyUSB0\n        (sleep 1 && echo \"/bin/sh /xfer.sh $Filename\" > /dev/ttyUSB0) &\n\n        read MD5Sum\n        MD5Sum=$(echo $MD5Sum | tr -d '\\r')\n        echo \"Expected sum is $MD5Sum\"\n\n        (sleep 1 && echo > /dev/ttyUSB0) &\n        while read x ; do\n                x=$(echo $x | tr -d '\\r')\n                if [[ \"$x\" == \"EOF\" ]] ; then\n                        break\n                fi\n\n                Payload=$(echo \"$x\" | awk -F: '{print $1}')\n                SumActual=$(echo \"$x\" | awk -F: '{print $2}' )\n                Sum=$(chksum \"$Payload\")\n\n                if [[ \"$Sum\" == \"$SumActual\" ]] ; then\n                        # Valid data, write it somewhere\n                        echo $Payload >> $Filename.b64\n                        # Ack data\n                        echo $Sum > /dev/ttyUSB0\n                        echo -n \".\"\n                else\n                        echo \"FAIL\" > /dev/ttyUSB0\n                        echo -n 'x'\n                fi\n        done  < /dev/ttyUSB0\n\n        cat $Filename.b64 | base64 -d > $Filename\n        rm $Filename.b64\n\n        ActualSum=$(md5sum $Filename | awk '{print $1}')\n        if [[ \"$ActualSum\" == \"$MD5Sum\" ]] ; then\n                return 0\n        else\n                return 1\n        fi\n}\n\n\nFile=\"$1\"\n\nif rx_data \"$File\" ; then\n        echo \"File transferred OK!\"\nelse\n        echo \"File appears corrupt.\"\n        echo \"Retry?\"\nfi\n",
+      "raw_len": 1636
     },
     {
       "pid": "0fe63791",
@@ -247,8 +247,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "{ 1, \"NxNetworks\" },\n{ 2, \"IBM (https://w3.ibm.com/standards )\" },\n{ 3, \"Carnegie Mellon\" },\n{ 4, \"Unix\" },\n{ 5, \"ACC\" },\n{ 6, \"TWG\" },\n{ 7, \"CAYMAN\" },\n{ 8, \"PSI\" },\n{ 9, \"ciscoSystems\" },\n{ 10, \"NSC\" },\n{ 11, \"Hewlett-Packard\" },\n{ 12, \"Epilogue\" },\n{ 13, \"U of Tennessee\" },\n{ 14, \"BBN Technologies\" },\n{ 15, \"Xylogics, Inc.\" },\n{ 16, \"Timeplex\" },\n{ 17, \"Canstar\" },\n{ 18, \"Wellfleet\" },\n{ 19, \"TRW\" },\n{ 20, \"MIT\" },\n{ 21, \"EON\" },\n{ 22, \"Fibronics\" },\n{ 23, \"Novell\" },\n{ 24, \"Spider Systems\" },\n{ 25, \"NSFNET\" },\n{ 26, \"Hughes LAN Systems\" },\n{ 27, \"Intergraph\" },\n{ 28, \"Interlan\" },\n{ 29, \"Vitalink Communications\" },\n{ 30, \"Ulana\" },\n{ 31, \"NSWC\" },\n{ 32, \"Santa Cruz Operation\" },\n{ 33, \"MRV Communications, In-Reach Product Division\" },\n{ 34, \"Cray\" },\n{ 35, \"Nortel Networks\" },\n{ 36, \"DEC\" },\n{ 37, \"Touch\" },\n{ 38, \"Network Research Corp.\" },\n{ 39, \"Baylor College of Medicine\" },\n{ 40, \"NMFECC-LLNL\" },\n{ 41, \"SRI\" },\n{ 42, \"Sun Microsystems\" },\n{ 43, \"3Com\" },\n{ 44, \"CMC\" },\n{ 45, \"SynOptics\" },\n{ 46, \"Cheyenne Software\" },\n{ 47, \"Prime Computer\" },\n{ 48, \"MCNC/North Carolina\" },\n{ 49, \"Chippcom\" },\n{ 50, \"Optical Data Systems\" },\n{ 51, \"gated\" },\n{ 52, \"Enterasys Networks Inc.\" },\n{ 53, \"Apollo Computers\" },\n{ 54, \"DeskTalk Systems, Inc.\" },\n{ 55, \"SSDS\" },\n{ 56, \"Castle Rock Computing\" },\n{ 57, \"MIPS Computer Systems\" },\n{ 58, \"TGV, Inc.\" },\n{ 59, \"Silicon Graphics, Inc.\" },\n{ 60, \"University of British Columbia\" },\n{ 61, \"Merit\" },\n{ 62, \"NetEdge\" },\n{ 63, \"Apple Computer, Inc.\" },\n{ 64, \"Gandalf\" },\n{ 65, \"Dartmouth College\" },\n{ 66, \"David Systems\" },\n{ 67, \"Reuter\" },\n{ 68, \"Cornell\" },\n{ 69, \"Michael Sabo\" },\n{ 70, \"Locus Computing Corp.\" },\n{ 71, \"NASA\" },\n{ 72, \"Retix\" },\n{ 73, \"Boeing\" },\n{ 74, \"AT&T\" },\n{ 75, \"Ungermann-Bass\" },\n{ 76, \"Digital Analysis Corporation\" },\n{ 77, \"LAN Manager\" },\n{ 78, \"LogMatrix Inc (formerly 'OpenService Inc.')\" },\n{ 79, \"Fujitsu Services\" },\n{ 80, \"Auspex Systems, Inc\" },\n{ 81, \"Lannet Company\" },\n{ 82, \"Network Computing Devices\" },\n{ 83, \"Raycom Systems\" },\n{ 84, \"Pirelli Focom Ltd.\" },\n{ 85, \"Datability Software Systems\" },\n{ 86, \"Network Application Technology\" },\n{ 87, \"Institute of Telematics, Karlsruhe Institute of Technology (KIT)\" },\n{ 88, \"New York University\" },\n{ 89, \"RND\" },\n{ 90, \"InterCon Systems Corporation\" },\n{ 91, \"Coral Network Corporation\" },\n{ 92, \"Webster Computer Corporation\" },\n{ 93, \"Frontier Technologies Corporation\" },\n{ 94, \"Nokia\" },\n{ 95, \"Rockwell Automation, Inc. (formerly 'Allen-Bradley Company')\" },\n{ 96, \"CERN\" },\n{ 97, \"Sigma Network Systems, Inc.\" },\n{ 98, \"Emerging Technologies, Inc.\" },\n{ 99, \"SNMP Research\" },\n{ 100, \"Ohio State University\" },\n{ 101, \"Ultra Network Technologies Julie\" },\n{ 102, \"Microcom\" },\n{ 103, \"Lockheed Martin\" },\n{ 104, \"Micro Technology\" },\n{ 105, \"Process Software Corporation\" },\n{ 106, \"EMC Data General Division\" },\n{ 107, \"Bull Company\" },\n{ 108, \"Emulex Corporation\" },\n{ 109, \"Warwick University Computing Services\" },\n{ 110, \"NetScout Systems, Inc. (formerly 'Network General Corporation')\" },\n{ 111, \"Oracle\" },\n{ 112, \"Control Data Corporation\" },\n{ 113, \"Hughes Aircraft Company\" },\n{ 114, \"Synernetics, Inc.\" },\n{ 115, \"Mitre\" },\n{ 116, \"Hitachi, Ltd.\" },\n{ 117, \"Telebit\" },\n{ 118, \"Salomon Technology Services\" },\n{ 119, \"NEC Corporation\" },\n{ 120, \"Fibermux\" },\n{ 121, \"FTP Software Inc.\" },\n{ 122, \"Sony\" },\n{ 123, \"Newbridge Networks Corporation\" },\n{ 124, \"Racal-Datacom\" },\n{ 125, \"CR SYSTEMS\" },\n{ 126, \"DSET Corporation\" },\n{ 127, \"Computone\" },\n{ 128, \"Tektronix, Inc.\" },\n{ 129, \"Interactive Systems Corporation\" },\n{ 130, \"Banyan Systems Inc.\" },\n{ 131, \"Sintrom Datanet Limited\" },\n{ 132, \"Bell Canada\" },\n{ 133, \"Olicom Enterprise Products Inc.\" },\n{ 134, \"Rice University\" },\n{ 135, \"OnStream Networks\" },\n{ 136, \"Concurrent Computer Corporation\" },\n{ 137, \"Basser\" },\n{ 138, \"Luxcom\" },\n{ 139, \"Artel\" },\n{ 140, \"Independence Technologies, Inc.(ITI)\" },\n{ 141, \"NetScout Systems, Inc. (formerly 'Frontier Software ",
+      "raw_len": 1869623
     },
     {
       "pid": "792dfbdf",
@@ -258,8 +258,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "MUNRCA8QPWB46BBM",
+      "raw_len": 16
     },
     {
       "pid": "baecc383",
@@ -269,8 +269,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "install\nurl --url http://linbuild.cs.ucalgary.ca/fedora/28/x86_64/os/\nlang en_US.UTF-8\nselinux --disabled\nkeyboard us\n\nnetwork --bootproto dhcp --hostname gfx01-4.cs.ucalgary.ca --device=14:b3:1f:07:ed:77\nrootpw --iscrypted $5$ot2nUDJR$VxOvOKMvLnqjX0NpPYy3Hast15pPGwBAg.jiFx6RXK6\n\n\nfirewall --service=ssh\nauthconfig --useshadow --passalgo=SHA256 --kickstart\ntimezone --utc America/Edmonton\n\n\n\n\n# CPSC Extras\nrepo --name=cpsc-fedora-extras --cost=5 --baseurl=http://linbuild.cs.ucalgary.ca/cpsc/cpsc-extras/fc28/x86_64/extras\n\n\n# Updates\n# repo --name=cpsc-fedora-updates  --baseurl=http://mirror.cpsc.ucalgary.ca/mirror/fedora/linux/updates/28/Everything/x86_64\nrepo --name=cpsc-fedora-updates  --baseurl=http://linbuild.cs.ucalgary.ca/fedora/28/x86_64/updates/\n\n\n\n\n\n# bootloader --location=mbr --append=\"nofb quiet splash=quiet\" \nbootloader --append=\"nofb quiet splash=quiet\" \n\n%include /tmp/diskpart.cfg\n\n# Graphical or text installer, defaults to graphical unless specified\ngraphical\n\n# Graphical system\nxconfig --startxonboot\n\nreboot\n\n%packages\nyum\ndhclient\nntp\nwget\n@Core\nredhat-lsb-core\n\n\nsalt-minion\n\n\n\n\n# From package_groups0\n@cpsc-fedora-workstation-base\n\n# From package_groups0\n@cpsc-base\n\n\n\n\n\n\n\n%end\n%pre\n#Dynamic\n\n",
+      "raw_len": 1226
     },
     {
       "pid": "0b264f95",
@@ -280,8 +280,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@DD-WRT:~# lsmod|grep usb\nusblp                   8996  0 \nusbcore               118161  4 usblp,ohci_hcd,ehci_hcd\nusb_common              1146  1 usbcore\nroot@DD-WRT:~# lsusb\n-sh: lsusb: not found\nroot@DD-WRT:~# uname -a\nLinux DD-WRT 3.10.102 #28624 Thu Nov 30 14:01:34 CET 2017 mips DD-WRT\nroot@DD-WRT:~# dmesg|grep -i usb\n<6>[  552.770000] usbcore: registered new interface driver usbfs\n<6>[  552.780000] usbcore: registered new interface driver hub\n<6>[  552.790000] usbcore: registered new device driver usb\n<6>[  552.880000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver\n<7>[  552.880000] drivers/usb/host/ehci-ar71xx.c: starting AR7100 EHCI USB Controller...done. reset 0x40 usb config 0x30000\n<6>[  554.800000] ar71xx-ehci ar71xx-ehci.0: new USB bus registered, assigned bus number 1\n<6>[  554.850000] ar71xx-ehci ar71xx-ehci.0: USB 2.0 started, EHCI 1.00\n<6>[  554.850000] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002\n<6>[  554.860000] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1\n<6>[  554.870000] usb usb1: Product: Atheros AR71xx built-in EHCI controller\n<6>[  554.870000] usb usb1: Manufacturer: Linux 3.10.102 ehci_hcd\n<6>[  554.880000] usb usb1: SerialNumber: platform\n<6>[  554.880000] hub 1-0:1.0: USB hub found\n<6>[  555.100000] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver\n<7>[  555.100000] drivers/usb/host/ohci-ar71xx.c: starting AR7100 OHCI USB Controller...\n<6>[  555.110000] ar71xx-ohci ar71xx-ohci.0: new USB bus registered, assigned bus number 2\n<6>[  555.180000] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001\n<6>[  555.190000] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1\n<6>[  555.190000] usb usb2: Product: Atheros AR71xx built-in OHCI controller\n<6>[  555.200000] usb usb2: Manufacturer: Linux 3.10.102 ohci_hcd\n<6>[  555.210000] usb usb2: SerialNumber: platform\n<6>[  555.210000] hub 2-0:1.0: USB hub found\n<6>[  555.500000] usbcore: registered new interface driver usblp\n",
+      "raw_len": 2007
     },
     {
       "pid": "7b47dded",
@@ -291,8 +291,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\nfor i in 53 67 69 ; do firewall-cmd --permanent --add-port=\"$i/udp\" ; done\nfor i in 53 80 443 5647 8000 8140 8443 9090 ; do firewall-cmd --permanent --add-port=\"$i/tcp\" ; done",
+      "raw_len": 176
     },
     {
       "pid": "308beb49",
@@ -302,8 +302,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "cd /tmp\nwget http://content.example.com/rhsat6.2.1/x86_64/isos/satellite-6.2.1-rhel-7-x86_64-dvd.iso\nmkdir /mnt/iso\nmount -o loop /tmp/*iso /mnt/iso\ncd /mnt/iso\n./install_packages\n\n# foreman-installer --scenario katello\nsatellite-installer --scenario satellite # --foreman-admin-username admin --foreman-admin-password RedHat\n\nfirewall-cmd --add-service=RH-Satellite-6 --permanent\nfirewall-cmd --permanent --add-port=\"53/udp\" --add-port=\"53/tcp\" --add-port=\"67/udp\" --add-port=\"68/udp\" --add-port=\"69/udp\"\nfirewall-cmd --reload\n\n\nsestatus\nselinux --enforcing\n\nforeman-rake permissions:reset\n",
+      "raw_len": 591
     },
     {
       "pid": "4d3e91d1",
@@ -313,8 +313,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\ncd /tmp\nwget http://content/rhsat6.2.1/x86_64/isos/satellite-capsule-6.2.1-rhel-7-x86_64-dvd.iso\nmkdir /mnt/iso\nmount -o loop satellite-capsule-6.2.1-rhel-7-x86_64-dvd.iso /mnt/iso\ncp /mnt/iso/*repo /etc/yum.repos.d/capsule.repo\n\n## Add 'baseurl=file:///mnt/iso' to the repository file\nvi /etc/yum.repos.d/capsule.repo\n\nyum -y install satellite-capsule",
+      "raw_len": 353
     },
     {
       "pid": "e0916878",
@@ -324,8 +324,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "\ncd /tmp\nwget http://content.example.com/rhsat6.2.1/x86_64/isos/satellite-6.2.1-rhel-7-x86_64-dvd.iso\nmkdir /mnt/iso\nmount -o loop /tmp/*iso /mnt/iso\n\nforeman-installer --scenario katello\nsatellite-installer --scenario satellite # --foreman-admin-username admin --foreman-admin-password RedHat\n\nfirewall-cmd --add-service=RH-Satellite-6 --permanent\nfirewall-cmd --permanent --add-port=\"53/udp\" --add-port=\"53/tcp\" --add-port=\"67/udp\" --add-port=\"68/udp\" --add-port=\"69/udp\"\nfirewall-cmd --reload\n\n\nsestatus\nselinux --enforcing\n\nforeman-rake permissions:reset",
+      "raw_len": 558
     },
     {
       "pid": "c1161ebe",
@@ -335,8 +335,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Name:           hello\nVersion:         1.0\nRelease:        1%{?dist}\nSummary:        Hello program\n\nLicense:        GNU\nURL:            http://example.com\nSource0:        hello-1.0.tar.gz\n\n\n%description\n\n\n%prep\n%setup -q\n\n\n%build\nmake\n\n%install\nrm -rf $RPM_BUILD_ROOT\n\nmkdir -p %{buildroot}/usr/local/bin\ninstall -m 755 hello %{buildroot}/usr/local/bin\n\n\n\n%files\n/usr/local/bin/hello\n\n%license LICENSE\n\n%changelog\n* Mon Sep 2 2018 <bob@example.com>\n- Initial build\n",
+      "raw_len": 465
     },
     {
       "pid": "3ef7f4e0",
@@ -346,8 +346,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "http://redirdevnull.blogspot.com/\nhttps://bugzilla.redhat.com/show_bug.cgi?id=1129811\nhttps://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Security/TrustSec_1-99/Dot1X_Deployment/Dot1x_Dep_Guide.pdf",
+      "raw_len": 204
     },
     {
       "pid": "8e09576e",
@@ -357,8 +357,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "29nR/g8UiyzNaVCXMH8M35xXSZWAT9Kh7XFde87ATO5gUfyDcKIfBA/+Th4bL8tfNAcV8l+QxZYsc/vGF/Dp9tNlxX/5jUPg0aPa01Ievmp+wD6Gt1WIQZwXys4ehbFcwyr6HhrhjzpbVJtNvwCsbpzeRYOUk9VpSun09BxcWS6CsE/WlxVZEpO1EaAx6t04KqF+TYlMyCR21nFT7vs4ceT+95fArCPQsDzuv+mkrhcEXsPOAaMEGXHAenIGJjSOGZYzIL7B6id2L7WCP7AkYtpJCArbpPNYZwKXiSw1NWE=",
+      "raw_len": 300
     },
     {
       "pid": "16d3c471",
@@ -368,8 +368,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@velocity:~# smartctl -a /dev/sdb\nsmartctl 6.5 2016-05-07 r4318 [x86_64-linux-4.10.17-200.fc25.x86_64] (local build)\nCopyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org\n\n=== START OF INFORMATION SECTION ===\nModel Family:     Hitachi/HGST Ultrastar 7K4000\nDevice Model:     Hitachi HUS724030ALE641\nSerial Number:    P8GBAW7P\nLU WWN Device Id: 5 000cca 22cc528eb\nFirmware Version: MJ8OA5F0\nUser Capacity:    3,000,592,982,016 bytes [3.00 TB]\nSector Sizes:     512 bytes logical, 4096 bytes physical\nRotation Rate:    7200 rpm\nForm Factor:      3.5 inches\nDevice is:        In smartctl database [for details use: -P show]\nATA Version is:   ATA8-ACS T13/1699-D revision 4\nSATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)\nLocal Time is:    Tue Jun  5 22:12:43 2018 MDT\nSMART support is: Available - device has SMART capability.\nSMART support is: Enabled\n\n=== START OF READ SMART DATA SECTION ===\nSMART overall-health self-assessment test result: PASSED\n\nGeneral SMART Values:\nOffline data collection status:  (0x80) Offline data collection activity\n                                        was never started.\n                                        Auto Offline Data Collection: Enabled.\nSelf-test execution status:      (   0) The previous self-test routine completed\n                                        without error or no self-test has ever\n                                        been run.\nTotal time to complete Offline\ndata collection:                (   24) seconds.\nOffline data collection\ncapabilities:                    (0x5b) SMART execute Offline immediate.\n                                        Auto Offline data collection on/off support.\n                                        Suspend Offline collection upon new\n                                        command.\n                                        Offline surface scan supported.\n                                        Self-test supported.\n                                        No Conveyance Self-test supported.\n                                        Selective Self-test supported.\nSMART capabilities:            (0x0003) Saves SMART data before entering\n                                        power-saving mode.\n                                        Supports SMART auto save timer.\nError logging capability:        (0x01) Error logging supported.\n                                        General Purpose Logging supported.\nShort self-test routine\nrecommended polling time:        (   1) minutes.\nExtended self-test routine\nrecommended polling time:        (   1) minutes.\nSCT capabilities:              (0x003d) SCT Status supported.\n                                        SCT Error Recovery Control supported.\n                                        SCT Feature Control supported.\n                                        SCT Data Table supported.\n\nSMART Attributes Data Structure revision number: 16\nVendor Specific SMART Attributes with Thresholds:\nID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE\n  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0\n  2 Throughput_Performance  0x0005   136   136   054    Pre-fail  Offline      -       80\n  3 Spin_Up_Time            0x0007   100   100   024    Pre-fail  Always       -       413\n  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       24\n  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0\n  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0\n  8 Seek_Time_Performance   0x0005   119   119   020    Pre-fail  Offline      -       35\n  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       23153\n 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0\n 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       24\n192 Power-Off_Retract_Count 0x0032  ",
+      "raw_len": 6892
     },
     {
       "pid": "00f7a668",
@@ -379,8 +379,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "root@velocity:~# smartctl -a /dev/sdc\nsmartctl 6.5 2016-05-07 r4318 [x86_64-linux-4.10.17-200.fc25.x86_64] (local build)\nCopyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org\n\n=== START OF INFORMATION SECTION ===\nModel Family:     Hitachi/HGST Ultrastar 7K4000\nDevice Model:     Hitachi HUS724030ALE641\nSerial Number:    P8G9NZSR\nLU WWN Device Id: 5 000cca 22cc46624\nFirmware Version: MJ8OA5F0\nUser Capacity:    3,000,592,982,016 bytes [3.00 TB]\nSector Sizes:     512 bytes logical, 4096 bytes physical\nRotation Rate:    7200 rpm\nForm Factor:      3.5 inches\nDevice is:        In smartctl database [for details use: -P show]\nATA Version is:   ATA8-ACS T13/1699-D revision 4\nSATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)\nLocal Time is:    Tue Jun  5 22:13:05 2018 MDT\nSMART support is: Available - device has SMART capability.\nSMART support is: Enabled\n\n=== START OF READ SMART DATA SECTION ===\nSMART overall-health self-assessment test result: PASSED\n\nGeneral SMART Values:\nOffline data collection status:  (0x80) Offline data collection activity\n                                        was never started.\n                                        Auto Offline Data Collection: Enabled.\nSelf-test execution status:      (   0) The previous self-test routine completed\n                                        without error or no self-test has ever\n                                        been run.\nTotal time to complete Offline\ndata collection:                (   24) seconds.\nOffline data collection\ncapabilities:                    (0x5b) SMART execute Offline immediate.\n                                        Auto Offline data collection on/off support.\n                                        Suspend Offline collection upon new\n                                        command.\n                                        Offline surface scan supported.\n                                        Self-test supported.\n                                        No Conveyance Self-test supported.\n                                        Selective Self-test supported.\nSMART capabilities:            (0x0003) Saves SMART data before entering\n                                        power-saving mode.\n                                        Supports SMART auto save timer.\nError logging capability:        (0x01) Error logging supported.\n                                        General Purpose Logging supported.\nShort self-test routine\nrecommended polling time:        (   1) minutes.\nExtended self-test routine\nrecommended polling time:        (   1) minutes.\nSCT capabilities:              (0x003d) SCT Status supported.\n                                        SCT Error Recovery Control supported.\n                                        SCT Feature Control supported.\n                                        SCT Data Table supported.\n\nSMART Attributes Data Structure revision number: 16\nVendor Specific SMART Attributes with Thresholds:\nID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE\n  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0\n  2 Throughput_Performance  0x0005   137   137   054    Pre-fail  Offline      -       78\n  3 Spin_Up_Time            0x0007   100   100   024    Pre-fail  Always       -       406\n  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       20\n  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0\n  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0\n  8 Seek_Time_Performance   0x0005   121   121   020    Pre-fail  Offline      -       34\n  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       23100\n 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0\n 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       20\n192 Power-Off_Retract_Count 0x0032  ",
+      "raw_len": 5507
     },
     {
       "pid": "62b26b34",
@@ -390,8 +390,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Primary Ethereum Address:\n\n0xD2f887EdA1B28C8714DBB2Cf63A59F77fB68fB94",
+      "raw_len": 69
     },
     {
       "pid": "440ef09b",
@@ -401,8 +401,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "KNRRP2L-5T3LYIQ-JFDSPWV-FCRZDTT-O5W4NK5-ELJT3JS-SF6L7GJ-X4YBTAY",
+      "raw_len": 63
     },
     {
       "pid": "9acabc3b",
@@ -412,8 +412,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "ZRZFALR-434WNGX-52Q6VYH-USVO6SR-DUPPVKG-OLG5BI6-3RRSRQY-PDEBTAR",
+      "raw_len": 63
     },
     {
       "pid": "30b22dc8",
@@ -423,8 +423,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "http://stockroms.net/file/GalaxyS4/SGH-I337M/I337MVLUAMDJ_I337MOYAAMDJ_TLS.zip",
+      "raw_len": 78
     },
     {
       "pid": "2d46dd7a",
@@ -434,8 +434,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://www.freepik.com/free-vector/set-of-christmas-characters-in-retro-style_1396147.htm\nhttps://www.freepik.com/free-vector/pack-of-christmas-decorative-elements_1435792.htm",
+      "raw_len": 176
     },
     {
       "pid": "9be83c08",
@@ -445,8 +445,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://www.freepik.com/free-vector/christmas-floral-elements_813719.htm",
+      "raw_len": 72
     },
     {
       "pid": "665a38be",
@@ -456,8 +456,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "https://www.freepik.com/free-vector/christmas-background-with-watercolor-leaves_960977.htm\nhttps://www.freepik.com/free-vector/hand-drawn-baubles-background_1369855.htm\nhttps://www.freepik.com/free-vector/christmas-background-with-watercolor-leaves_960977.htm\nhttps://www.freepik.com/free-vector/elegant-watercolor-wreath_1377693.htm\nhttps://www.freepik.com/free-vector/pack-of-retro-christmas-elements-in-flat-design_1359070.htm\n\n\n",
+      "raw_len": 432
     },
     {
       "pid": "39283dda",
@@ -467,8 +467,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "LIVE LINKimg  img  img  img\nhttp://rg.to/file/14c577f0f0a475f4e44108d3cf37c397/Adam.Ruins.Everything.S01.Special-The.Adam.Ruins.Everything.Election.Special.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/4185c34564b81a975612f02adae1efb2/adam.ruins.everything.s01e01.proper.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/9c3165386f34f933894d4d794bbcfae1/adam.ruins.everything.s01e02.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/cd446170595fb6e110e5c8299b517c8e/adam.ruins.everything.s01e03.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/6c99cff84cb6340079c690b85a326936/adam.ruins.everything.s01e04.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/3e1ea8ea11173c2330c72f97cfbbc630/adam.ruins.everything.s01e05.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/400b2b170908afbf545f2b761bf87c90/adam.ruins.everything.s01e06.repack.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/7081956b299ee35e762a84fef1de1944/adam.ruins.everything.s01e07.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/495827b924932c6943f42d3ff5f9b60d/adam.ruins.everything.s01e08.adam.ruins.work.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/51c66aba1a77f4c55ce9c868fcba3e0f/adam.ruins.everything.s01e09.adam.ruins.summer.fun.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/6fa0b5fd23f53a91f4e0081fd546fca9/adam.ruins.everything.s01e10.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/ecc78edf947fef7c80e9310837269218/adam.ruins.everything.s01e11.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/8d914550ac4be61ab345ccb5bdf49e87/adam.ruins.everything.s01e12.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/497e07f32c83f3724358f25c38d036cf/adam.ruins.everything.s01e13.proper.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/3ddac4a1e9189f0bd8756514fc4c15b8/adam.ruins.everything.s01e14.adam.ruins.football.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/b57d6f3950cfafd507f4f52496891061/Adam.Ruins.Everything.S01E15.Adam.Ruins.Weddings.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/9cf4be86831ad5425500bcae088c2804/Adam.Ruins.Everything.S01E16.Adam.Ruins.Malls.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/a8087e18f05fad2b621a98b2148e2867/adam.ruins.everything.s01e17.adam.ruins.animals.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/08d523db07a4ef72b1dacff9d9e538d1/Adam.Ruins.Everything.S01E18.Adam.Ruins.Immigration.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/77ccdf236e706488f5bd1fc1c85a6134/adam.ruins.everything.s01e19.adam.ruins.variety.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/c95cc32f590faffb4384e4e87637652a/Adam.Ruins.Everything.S01E20.Adam.Ruins.dgs.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/2e4df814e7a83b301009a8d1eb00a9ac/adam.ruins.everything.s01e21.720p.web.dl.hevc.x265.mkv.html\nhttp://rg.to/file/e73871cd71fe6c34edbb27766135699a/adam.ruins.everything.s01e22.adam.ruins.the.wild.west.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/59cb8c63e7cc866aa48564b826e77a9a/Adam.Ruins.Everything.S01E23.Adam.Ruins.The.Internet.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/a67b213ad5794f07a82b9293bba68c5d/adam.ruins.everything.s01e24.adam.ruins.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/98b899cbeca4f3f80f00e0280d07b6a9/adam.ruins.everything.s01e25.adam.ruins.christmas.720p.hdtv.hevc.x265.mkv.html",
+      "raw_len": 3202
     },
     {
       "pid": "887b6acd",
@@ -478,8 +478,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "Server: news.usenet.pw\nPort: 563 (SSL!)\nUser: neo858095541 & Pass: hi\nUserHash: 06367513ca1b3e18743f772be777990dd593a870",
+      "raw_len": 120
     },
     {
       "pid": "1d761db1",
@@ -489,8 +489,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "LIVE LINKimg  img  img  img\nhttp://rg.to/file/14c577f0f0a475f4e44108d3cf37c397/Adam.Ruins.Everything.S01.Special-The.Adam.Ruins.Everything.Election.Special.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/4185c34564b81a975612f02adae1efb2/adam.ruins.everything.s01e01.proper.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/9c3165386f34f933894d4d794bbcfae1/adam.ruins.everything.s01e02.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/cd446170595fb6e110e5c8299b517c8e/adam.ruins.everything.s01e03.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/6c99cff84cb6340079c690b85a326936/adam.ruins.everything.s01e04.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/3e1ea8ea11173c2330c72f97cfbbc630/adam.ruins.everything.s01e05.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/400b2b170908afbf545f2b761bf87c90/adam.ruins.everything.s01e06.repack.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/7081956b299ee35e762a84fef1de1944/adam.ruins.everything.s01e07.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/495827b924932c6943f42d3ff5f9b60d/adam.ruins.everything.s01e08.adam.ruins.work.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/51c66aba1a77f4c55ce9c868fcba3e0f/adam.ruins.everything.s01e09.adam.ruins.summer.fun.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/6fa0b5fd23f53a91f4e0081fd546fca9/adam.ruins.everything.s01e10.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/ecc78edf947fef7c80e9310837269218/adam.ruins.everything.s01e11.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/8d914550ac4be61ab345ccb5bdf49e87/adam.ruins.everything.s01e12.720p.hdtv.hevc.x265.rar.html\nhttp://rg.to/file/497e07f32c83f3724358f25c38d036cf/adam.ruins.everything.s01e13.proper.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/3ddac4a1e9189f0bd8756514fc4c15b8/adam.ruins.everything.s01e14.adam.ruins.football.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/b57d6f3950cfafd507f4f52496891061/Adam.Ruins.Everything.S01E15.Adam.Ruins.Weddings.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/9cf4be86831ad5425500bcae088c2804/Adam.Ruins.Everything.S01E16.Adam.Ruins.Malls.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/a8087e18f05fad2b621a98b2148e2867/adam.ruins.everything.s01e17.adam.ruins.animals.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/08d523db07a4ef72b1dacff9d9e538d1/Adam.Ruins.Everything.S01E18.Adam.Ruins.Immigration.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/77ccdf236e706488f5bd1fc1c85a6134/adam.ruins.everything.s01e19.adam.ruins.variety.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/c95cc32f590faffb4384e4e87637652a/Adam.Ruins.Everything.S01E20.Adam.Ruins.dgs.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/2e4df814e7a83b301009a8d1eb00a9ac/adam.ruins.everything.s01e21.720p.web.dl.hevc.x265.mkv.html\nhttp://rg.to/file/e73871cd71fe6c34edbb27766135699a/adam.ruins.everything.s01e22.adam.ruins.the.wild.west.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/59cb8c63e7cc866aa48564b826e77a9a/Adam.Ruins.Everything.S01E23.Adam.Ruins.The.Internet.720p.HEVC.x265-MeGusta.mkv.html\nhttp://rg.to/file/a67b213ad5794f07a82b9293bba68c5d/adam.ruins.everything.s01e24.adam.ruins.720p.hdtv.hevc.x265.mkv.html\nhttp://rg.to/file/98b899cbeca4f3f80f00e0280d07b6a9/adam.ruins.everything.s01e25.adam.ruins.christmas.720p.hdtv.hevc.x265.mkv.html",
+      "raw_len": 3202
     },
     {
       "pid": "1726574f",
@@ -500,8 +500,8 @@
       "created": null,
       "hits": null,
       "url": null,
-      "raw_truncated": "",
-      "raw_len": 0
+      "raw_truncated": "        midori -e Fullscreen -a http://some-url.steamr.com",
+      "raw_len": 58
     }
   ]
 }

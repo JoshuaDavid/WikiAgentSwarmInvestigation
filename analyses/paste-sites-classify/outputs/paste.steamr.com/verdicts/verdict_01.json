@@ -1,0 +1,246 @@
+{
+  "batch_index": 1,
+  "host": "https://paste.steamr.com/",
+  "verdicts": [
+    {
+      "pid": "1ff8624d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "One-word 'test' paste on a live-scraped host with no swarm markers; site is dominated by one sysadmin's IoT/homelab content, so likely a personal smoke test."
+    },
+    {
+      "pid": "1f8d3c48",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Short 'UCALG-60--69005----00000' identifier fits the U-Calgary personal-infrastructure context of this site (see later pastes citing csx.cs.ucalgary.ca and lleung); does not match any documented swarm title series."
+    },
+    {
+      "pid": "f0149b38",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "smartctl output for a specific Seagate ST8000DM004 serial ZR107A7E dated Aug 2021 MDT — real personal disk diagnostics."
+    },
+    {
+      "pid": "2ed6de37",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "WyzeHacks firmware push from user 'leo@dell' with real MAC c4:dd:57:0d:2c:de and camera IPs — personal infrastructure."
+    },
+    {
+      "pid": "791d8f1d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Alberta Health Services COVID vaccine booking queue-it URL with a real session token — personal booking artifact."
+    },
+    {
+      "pid": "68f0e85e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Alberta Health Services vaccine rebooking URL with real session ticket; Re: thread on the queue-it paste above, all personal."
+    },
+    {
+      "pid": "9f982366",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same AHS vaccine rebooking session ticket as sibling paste — personal COVID booking artifact, not swarm."
+    },
+    {
+      "pid": "23da50b7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Third AHS covidvaccinebooking queue-it link with distinct session token — personal booking artifact."
+    },
+    {
+      "pid": "baef7d0f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Tasmota SwitchMode/Rule1 configuration for a PIR sensor — personal Home Assistant / MQTT smart-home config."
+    },
+    {
+      "pid": "93a51702",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "esptool ESP8285 flash read from user leo@dell with real MAC c4:dd:57:0d:2c:de — personal firmware dumping."
+    },
+    {
+      "pid": "2ff473cd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Ansible netapp task output naming real users lleung/srv-rcs-test with UIDs — personal cluster administration."
+    },
+    {
+      "pid": "1d8383ad",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Ansible YAML snippet using real vars 'netapp_groups' and 'account_groups' — Re: reply to the netapp playbook paste above."
+    },
+    {
+      "pid": "8683c818",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Ansible loop over netapp_groups with item.username label — same personal netapp playbook thread."
+    },
+    {
+      "pid": "00c663aa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "strace of rm on /home/ilaforestlap/august_2014/claire/f1/scrap/ from real arc-dtn host — personal HPC filesystem debugging."
+    },
+    {
+      "pid": "e5016f8a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IBM Spectrum Scale quotas JSON for user lleung path /home/lleung dated Jan 2021 — personal storage config, Re: thread."
+    },
+    {
+      "pid": "ab54192e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "IBM Spectrum Scale quotas fragment for lleung — same personal storage-config thread."
+    },
+    {
+      "pid": "988b3789",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Third variant of the lleung fileset-quota JSON block — personal storage config."
+    },
+    {
+      "pid": "b94e365b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Tuya-Sec HTTP debug capture of Tuya smart plug gwId 18313406cc50e312318a from May 2020 — personal IoT traffic dump."
+    },
+    {
+      "pid": "e72d9bd5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Same Tuya smart plug HTTP capture, Re: thread — personal IoT reverse-engineering."
+    },
+    {
+      "pid": "2a754063",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "hdparm -I output on real /dev/sdb ST3000DM001 serial W1F0SJ27 as root@dell — personal disk diagnostics."
+    },
+    {
+      "pid": "72d451f8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "hdparm --read-sector on real /dev/sdb as root@dell — personal bad-sector debug."
+    },
+    {
+      "pid": "ae9cf292",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "dmesg blk_update_request / Medium Error entries for /dev/sdb dated Jul 2020 — personal disk-failure log."
+    },
+    {
+      "pid": "bd20ac1d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "nfsd/idr_remove kernel oops on Dell PowerEdge R820 from Jun 2020 — personal server kernel panic log."
+    },
+    {
+      "pid": "aef98812",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Alphabetical list of standard piano-piece titles (Air on the G String, Fur Elise, etc.); reads like a personal repertoire list, not any known swarm task."
+    },
+    {
+      "pid": "4066dc41",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "cat /proc/net/bonding/bond0 from real hosts essio1/essio2 showing 56Gbps InfiniBand slaves — personal HPC networking."
+    },
+    {
+      "pid": "54b9e45f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Fourth-level Re: on the Tuya smart plug traffic thread with identical May 2020 gwId capture — personal IoT thread."
+    },
+    {
+      "pid": "a837c910",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "tcpdump of Tuya plug at 192.168.1.103 talking to mq.gw.tuyaus.com — personal IoT packet capture."
+    },
+    {
+      "pid": "8df0fa1f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Original tcpdump of the Tuya smart plug MQTT/HTTP flow — personal IoT reverse-engineering, parent of the thread."
+    },
+    {
+      "pid": "033411ec",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "dnsmasq dhcp-host lines assigning real Raspberry Pi B8:27:EB MACs to 10.1.2.208+ — personal homelab DHCP config."
+    },
+    {
+      "pid": "435fcf21",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Perl local::lib env exports pinning /home/lleung/perl5 — personal shell rc snippet."
+    },
+    {
+      "pid": "63422087",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ethtool ring-parameter tuning on ib0 from real host tsm — personal InfiniBand tuning session."
+    },
+    {
+      "pid": "6f163c16",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ibnetdiscover topology dump of SX6036 InfiniBand switches and 4xFDR HCAs for node001..node035 — personal HPC fabric map."
+    },
+    {
+      "pid": "68707874",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "userauth login-hook log for real user ryan.holt1@csx.cs.ucalgary.ca in Feb 2020 — personal U-Calgary CS syslog dump."
+    },
+    {
+      "pid": "15231e4c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Shell script piping bjobs/squeue output to influxdb — personal LSF/Slurm cluster monitoring."
+    },
+    {
+      "pid": "465c6fbd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "awk one-liner sketching bjobs -> influxdb curl — personal cluster-monitoring script draft, same thread as previous."
+    },
+    {
+      "pid": "023ca217",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Arch Linux ARM Raspberry Pi bootstrap installing an actual ssh-rsa key for user 'leo@linux', mounting nas:/fast/common/pacman-armv7l — personal homelab pi setup."
+    },
+    {
+      "pid": "7134b7fa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "List of B8:27:EB Raspberry Pi MAC addresses — companion to Pi MACs dnsmasq paste, personal homelab inventory."
+    },
+    {
+      "pid": "99623661",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ScriptSafe whitelist containing personal domains (leo.leung.xyz, 10.1.**, mail hosts) — personal browser extension backup."
+    },
+    {
+      "pid": "f1a7c234",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "ScriptSafe whitelist referencing **.steamr.com (site owner's own domain), **.ucalgary.ca and leo.leung.xyz — personal browser config, not swarm."
+    },
+    {
+      "pid": "51e831d7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "du-style storage report listing named research groups (ewang 341T, smorrissy 186T, chgi_data 24T) — personal HPC filesystem accounting."
+    }
+  ]
+}

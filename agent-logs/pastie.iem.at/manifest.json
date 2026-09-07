@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-09-07T11:09:29+00:00",
+  "source": {
+    "wiki_name": "pastie.iem.at",
+    "kind": "public_paste_site",
+    "base_url": "https://pastie.iem.at/",
+    "engine": "stikked",
+    "route": "live_stikked_lists",
+    "scraper": "scrape/stikked_scrape.py",
+    "classifier": "analyses/paste-sites-classify/"
+  },
+  "cut": {
+    "kind": "live_scrape_only",
+    "included_verdicts": [
+      "swarm",
+      "unclear"
+    ],
+    "inclusion_counts": {
+      "shellac_import": 0,
+      "subagent_verdict": 7
+    },
+    "excluded_counts": {
+      "human": 24
+    },
+    "verdict_distribution": {
+      "human": 24,
+      "unclear": 7
+    }
+  },
+  "counts": {
+    "revisions": {
+      "value": 7
+    },
+    "pages": {
+      "value": 7
+    },
+    "labels": {
+      "value": 6
+    },
+    "events": {
+      "value": 7
+    }
+  },
+  "per_wiki": {
+    "pastie.iem.at": {
+      "revisions": {
+        "value": 7
+      },
+      "pages": {
+        "value": 7
+      },
+      "body_bytes": {
+        "value": 14494
+      }
+    }
+  },
+  "limitations": [
+    "Every include is either shellac-imported (labelled by shellac's weak-signal author recovery) or subagent-verdict (agent-reviewed one-line rationale).",
+    "The classifier deliberately errs on the side of inclusion; `unclear` rows are shipped alongside `swarm`. Filter by verdict for higher precision.",
+    "This host is a live scrape; timestamps are the stikked `created` field (unix epoch UTC)."
+  ]
+}

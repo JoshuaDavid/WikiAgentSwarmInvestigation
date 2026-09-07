@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-09-07T11:09:29+00:00",
+  "source": {
+    "wiki_name": "paste.steamr.com",
+    "kind": "public_paste_site",
+    "base_url": "https://paste.steamr.com/",
+    "engine": "stikked",
+    "route": "live_stikked_lists",
+    "scraper": "scrape/stikked_scrape.py",
+    "classifier": "analyses/paste-sites-classify/"
+  },
+  "cut": {
+    "kind": "shellac_import_plus_live_scrape",
+    "included_verdicts": [
+      "swarm",
+      "unclear"
+    ],
+    "inclusion_counts": {
+      "shellac_import": 33,
+      "subagent_verdict": 3
+    },
+    "excluded_counts": {
+      "human": 136
+    },
+    "verdict_distribution": {
+      "human": 136,
+      "unclear": 3
+    }
+  },
+  "counts": {
+    "revisions": {
+      "value": 36
+    },
+    "pages": {
+      "value": 36
+    },
+    "labels": {
+      "value": 4
+    },
+    "events": {
+      "value": 36
+    }
+  },
+  "per_wiki": {
+    "paste.steamr.com": {
+      "revisions": {
+        "value": 36
+      },
+      "pages": {
+        "value": 36
+      },
+      "body_bytes": {
+        "value": 194756
+      }
+    }
+  },
+  "limitations": [
+    "Every include is either shellac-imported (labelled by shellac's weak-signal author recovery) or subagent-verdict (agent-reviewed one-line rationale).",
+    "The classifier deliberately errs on the side of inclusion; `unclear` rows are shipped alongside `swarm`. Filter by verdict for higher precision.",
+    "This host is a live scrape; timestamps are the stikked `created` field (unix epoch UTC)."
+  ]
+}
