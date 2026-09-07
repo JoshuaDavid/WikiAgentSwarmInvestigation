@@ -1,32 +1,36 @@
 per-wiki scan (dedup by rev_id, body-bearing row preferred):
-  apchem               unique=   134  bodied=    49  addressing_revs=     1  sources={apchem:134}
-  dorfwiki             unique=     6  bodied=     6  addressing_revs=     0  sources={prowiki:6}
-  dse                  unique= 23564  bodied= 13337  addressing_revs=  3580  sources={dse:22385,prowiki:13403}
-  fractal              unique=   643  bodied=   534  addressing_revs=    10  sources={fractal:562,prowiki:169}
+  apchem               unique=   134  bodied=    49  addressing_revs=     3  sources={apchem:134}
+  dorfwiki             unique=     6  bodied=     6  addressing_revs=     4  sources={prowiki:6}
+  dse                  unique= 23564  bodied= 13337  addressing_revs=  4317  sources={dse:22385,prowiki:13403}
+  fractal              unique=   643  bodied=   534  addressing_revs=   158  sources={fractal:562,prowiki:169}
+  gems                 unique=    12  bodied=    12  addressing_revs=     0  sources={gems:12}
   ludism               unique=    35  bodied=    35  addressing_revs=     4  sources={ludism:35}
   milkwiki             unique=    16  bodied=    10  addressing_revs=     0  sources={milkwiki:16}
-  probier              unique=  1074  bodied=  1031  addressing_revs=    15  sources={probier:900,prowiki:1013}
-  texteditors          unique=    68  bodied=    48  addressing_revs=     1  sources={texteditors:68}
-  wiki4d               unique=   235  bodied=   158  addressing_revs=     6  sources={wiki4d:235}
-  TOTAL                unique= 25775  bodied= 15208  addressing_revs=  3617
+  pastes               unique=   458  bodied=   458  addressing_revs=    45  sources={pastes:458}
+  probier              unique=  1074  bodied=  1031  addressing_revs=    83  sources={probier:900,prowiki:1013}
+  shorteners           unique=  4285  bodied=  4285  addressing_revs=     0  sources={shorteners:4285}
+  texteditors          unique=    68  bodied=    48  addressing_revs=     7  sources={texteditors:68}
+  wiki4d               unique=   235  bodied=   158  addressing_revs=    19  sources={wiki4d:235}
+  TOTAL                unique= 30530  bodied= 19963  addressing_revs=  4640
 
-pairs (msg,from,to): 15904
-unique directed edges: 10286
-unique undirected edges: 9068
-nodes (handles seen as writer or mention): 1466
-connected components: 16
+pairs (msg,from,to): 17247
+unique directed edges: 11177
+unique undirected edges: 9959
+nodes (handles seen as writer or mention): 1958
+connected components: 18
 component-size histogram (size -> count):
-  size=1419  n_components=1
-  size=  14  n_components=1
+  size=1894  n_components=1
+  size=  23  n_components=1
   size=   6  n_components=1
-  size=   3  n_components=1
+  size=   5  n_components=1
+  size=   3  n_components=2
   size=   2  n_components=12
 top 8 components by size:
-  size=1419  sample=[104.42.76.137, 20.125.17.166, 20.165.223.184, 20.168.76.210, 20.245.160.49, 20.59.17.133 ...]
-  size=  14  sample=[142.159.1.166, 176.190.248.191, 193.221.125.2, 2.210.160.68, 84.115.212.130, 84.115.212.130#111 ...]
+  size=1894  sample=[104.42.76.137, 13.78.132.xxx, 142.159.1.166, 172.173.109.62, 172.184.177.244, 172.185.20.58 ...]
+  size=  23  sample=[38b5-current, agent-0020, agent-0428, agent-0434, agent-0604, agent-0630 ...]
   size=   6  sample=[April19MCVScout, Aug11MCVScout, Feb26MCVAgent, MCV2June30Scout, MCV2Nov30Scout, MayTwoMCVScout]
+  size=   5  sample=[agent-38b5, agent-ours0637, agent-ours1052, agent-ours1620, agent-ours1833]
+  size=   3  sample=[agent-0227, agent-38b5-current, agent-ours0533]
   size=   3  sample=[Apr24SlowOECD, Apr25OECD288854078, Apr25OECD619575757]
-  size=   2  sample=[May17WageAgent, Sep21WageScout]
-  size=   2  sample=[AgentPrepResearch42, OpenAIResearcherZ]
-  size=   2  sample=[CookBridgeUser9, PeterSmith]
-  size=   2  sample=[OpenAIClimateOct01, OpenAIJun12Climate]
+  size=   2  sample=[agent-test, tmp]
+  size=   2  sample=[OpenAIJun23Watcher, ReaderJul23X]

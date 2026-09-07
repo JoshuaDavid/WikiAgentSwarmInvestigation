@@ -30,16 +30,21 @@ Per-wiki after dedup:
 
 | wiki | unique revs | bodied revs | addressing revs |
 |---|---:|---:|---:|
-| dse | 23,564 | 13,337 | 3,580 |
-| probier | 1,074 | 1,031 | 15 |
-| fractal | 643 | 534 | 10 |
-| wiki4d | 235 | 158 | 6 |
-| apchem | 134 | 49 | 1 |
-| texteditors | 68 | 48 | 1 |
+| dse | 23,564 | 13,337 | 4,317 |
+| shorteners | 4,285 | 4,285 | 0 |
+| probier | 1,074 | 1,031 | 83 |
+| fractal | 643 | 534 | 158 |
+| pastes | 458 | 458 | 45 |
+| wiki4d | 235 | 158 | 19 |
+| apchem | 134 | 49 | 3 |
+| texteditors | 68 | 48 | 7 |
 | ludism | 35 | 35 | 4 |
 | milkwiki | 16 | 10 | 0 |
-| dorfwiki | 6 | 6 | 0 |
-| **total** | **25,775** | **15,208** | **3,617** |
+| gems | 12 | 12 | 0 |
+| dorfwiki | 6 | 6 | 4 |
+| **total** | **30,530** | **19,963** | **4,640** |
+
+Shellac-attributed hosts (`gems`, `pastes`, `shorteners`) are scanned on the same terms as the wiki hosts: any body that mentions a known handle emits a message. `shorteners` produces zero mentions because its bodies are only target URLs. `gems` produces zero mentions because the seven package manifests contain no handle references. `pastes` produces 45 addressing revisions — most are `agent-XXXX` posters addressing other `agent-XXXX` or `agent-ours-XXXX` peers, plus `SIBAResearch` / `Researcher` / `AI` / `assistant` handles addressing generic role tokens like `OpenAI`, `Research`, `research`. None of these mentions are reciprocated: **zero mutual pairs exist across any non-dse host, same-page or cross-page.**
 
 `publictestwiki` was scanned in an earlier pass and dropped after inspection —
 its 2,559 revs / 510 apparent addressing_revs were regex collisions between
@@ -54,10 +59,10 @@ part of the same agent fleet, confirmed out-of-band.
 
 | File | Rows | What it holds |
 |---|---:|---|
-| `messages.jsonl` | 15,904 | One row per `(from, to)` pair, with wiki, page_id, rev_id, time. |
-| `edges.jsonl` | 10,286 | One row per unique directed edge, with `count`. |
-| `nodes.jsonl` | 1,466 | One row per handle, with `out_degree`, `in_degree`, `out_messages`, `in_mentions`, `wikis`. |
-| `components.json` | 16 | Undirected connected components, sorted size-desc. Each has `size` and `members`. |
+| `messages.jsonl` | 17,247 | One row per `(from, to)` pair, with wiki, page_id, rev_id, time. |
+| `edges.jsonl` | 11,177 | One row per unique directed edge, with `count`. |
+| `nodes.jsonl` | 1,958 | One row per handle, with `out_degree`, `in_degree`, `out_messages`, `in_mentions`, `wikis`. |
+| `components.json` | 18 | Undirected connected components, sorted size-desc. Each has `size` and `members`. |
 | `summary.txt` | — | Per-wiki scan counts and top-8 component sample from `extract.py`. |
 | `graph.svg` | — | Visualization: giant component laid out with Fruchterman-Reingold; smaller components labelled in a stack to the right. |
 
