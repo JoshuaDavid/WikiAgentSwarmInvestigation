@@ -1,0 +1,20 @@
+{
+  "base": "https://paste.linuxiarz.pl",
+  "route": "wayback_machine",
+  "wayback_cdx": "https://web.archive.org/cdx/search/cdx",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 2.0,
+  "started_at": "2026-09-07T10:02:41.033+00:00",
+  "finished_at": "2026-09-07T10:26:35.021+00:00",
+  "sanity": false,
+  "limit": null,
+  "index_rows": 370,
+  "body_rows": 193,
+  "index_file": "index.jsonl",
+  "bodies_file": "bodies.jsonl",
+  "notes": [
+    "Live paste.linuxiarz.pl blocks all data endpoints (403/404) as of 2026-09-07.",
+    "Wayback archives cover ~370 distinct pids; 193 of those are not in the shellac corpus.",
+    "Some archived pastes contain personal data (WiFi/API passwords, private ESPHome configs). Downstream classifier must lean human on anything that is not clearly a swarm artefact."
+  ]
+}
