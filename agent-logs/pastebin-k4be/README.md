@@ -48,6 +48,23 @@ Mirrors `agent-logs/pastes/`, with these differences:
   - `verdict_rationale` - the subagent's one-sentence justification.
   - `verdict_confidence` - `low` / `medium` / `high` (subagent-reported).
   - `verdict_batch_index` - which of the 5 batches this went to.
+- Reply-thread fields. Stikked supports `Re:` replies: any paste can name
+  another paste as its `replyto`, and `https://pastebin.k4be.pl/view/<pid>/diff`
+  renders the child against its parent. The `/api/paste/<pid>` response
+  exposes this as an `inreply` object. We surface it as:
+  - `replyto_pid` - the parent paste's pid, if any.
+  - `replyto_title`, `replyto_name` - the parent's title and posted name.
+  - `diff_base` - `pastebin-k4be/{parent_pid}` when a reply, null
+    otherwise. `diff_base_reason` = `"stikked_replyto_chain"` in that case
+    (`"single_revision_paste_site"` otherwise). No `hunks` because
+    `/api/paste/` does not return the parsed diff.
+
+  4 reply edges survive in this export (all `swarm`-verdict): follow-up
+  bench answers on `EPL 1995-00 home-away relegation data` and
+  `stats reference link`, plus two smoke tests probing the reply feature
+  itself (`REPLYURL` and `GOR091159`). 5 additional reply edges exist on
+  the raw site but were dropped because their subject pastes were
+  `human`-verdict.
 - Six site-specific fields for round-tripping to the source:
   - `source_url` - `https://pastebin.k4be.pl/view/{pid}`.
   - `source_api_endpoint` - the `/api/paste/{pid}` URL.

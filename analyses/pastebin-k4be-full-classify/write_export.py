@@ -29,6 +29,7 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -94,12 +95,26 @@ def load_skipped_pids() -> set[str]:
     return pids
 
 
+REPLY_URL_RE = re.compile(r"https://pastebin\.k4be\.pl/view/([a-z0-9]+)")
+
+
+def _extract_reply_parent(j: dict) -> tuple[str | None, str | None, str | None]:
+    """Return (parent_pid, parent_title, parent_name) from an /api/paste response."""
+    inreply = j.get("inreply")
+    if not isinstance(inreply, dict):
+        return None, None, None
+    url = inreply.get("url") or ""
+    m = REPLY_URL_RE.match(url)
+    return (m.group(1) if m else None, inreply.get("title"), inreply.get("name"))
+
+
 def build_revision(body_row: dict, inclusion: dict) -> dict:
     j = body_row.get("body_json") or {}
     pid = body_row.get("pid") or j.get("pid")
     title = j.get("title") or body_row.get("index_title") or ""
     name = j.get("name") or body_row.get("index_name") or ""
     raw = j.get("raw") or ""
+    replyto_pid, replyto_title, replyto_name = _extract_reply_parent(j)
     body_bytes = raw.encode("utf-8", errors="replace")
     created_str = j.get("created")
     try:
@@ -121,9 +136,16 @@ def build_revision(body_row: dict, inclusion: dict) -> dict:
         "body_len": len(body_bytes),
         "body_sha256": hashlib.sha256(body_bytes).hexdigest(),
         "lines": raw.count("\n") + (1 if raw else 0),
-        "diff_base": None,
-        "diff_base_reason": "single_revision_paste_site",
+        "diff_base": (
+            f"pastebin-k4be/{replyto_pid}" if replyto_pid else None
+        ),
+        "diff_base_reason": (
+            "stikked_replyto_chain" if replyto_pid else "single_revision_paste_site"
+        ),
         "hunks": None,
+        "replyto_pid": replyto_pid,
+        "replyto_title": replyto_title,
+        "replyto_name": replyto_name,
         "label": name,
         "label_source": "pastebin_k4be_api_paste_name",
         "ip16": None,
