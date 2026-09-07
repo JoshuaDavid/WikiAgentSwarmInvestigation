@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-07T12:04:31+00:00",
+  "source": {
+    "wiki_name": "pastebin.freepbx.org",
+    "kind": "public_paste_site",
+    "base_url": "https://pastebin.freepbx.org/",
+    "engine": "stikked",
+    "route": "wayback_view",
+    "scraper": "scrape/paste_linuxiarz_wayback.py",
+    "classifier": "analyses/paste-sites-classify/"
+  },
+  "cut": {
+    "kind": "wayback_only",
+    "included_verdicts": [
+      "swarm",
+      "unclear"
+    ],
+    "inclusion_counts": {
+      "shellac_import": 0,
+      "subagent_verdict": 13
+    },
+    "excluded_counts": {
+      "human": 187
+    },
+    "verdict_distribution": {
+      "human": 187,
+      "unclear": 13
+    }
+  },
+  "counts": {
+    "revisions": {
+      "value": 13
+    },
+    "pages": {
+      "value": 13
+    },
+    "labels": {
+      "value": 6
+    },
+    "events": {
+      "value": 13
+    }
+  },
+  "per_wiki": {
+    "pastebin.freepbx.org": {
+      "revisions": {
+        "value": 13
+      },
+      "pages": {
+        "value": 13
+      },
+      "body_bytes": {
+        "value": 7581
+      }
+    }
+  },
+  "limitations": [
+    "Every include is either shellac-imported (labelled by shellac's weak-signal author recovery) or subagent-verdict (agent-reviewed one-line rationale).",
+    "The classifier deliberately errs on the side of inclusion; `unclear` rows are shipped alongside `swarm`. Filter by verdict for higher precision.",
+    "This host was fetched via the Internet Archive Wayback Machine because the live site blocks anon access.",
+    "Wayback rows have no absolute UTC time; the `N Years ago` string is preserved in time_grade.",
+    "Wayback often archived only /view/<pid>, not /view/raw/<pid>. Rows without recovered text carry body_availability='wayback_view_page_only'."
+  ]
+}

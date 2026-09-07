@@ -1,0 +1,53 @@
+{
+  "host": "https://pastebin.freepbx.org/",
+  "name": "pastebin.freepbx.org",
+  "route": "wayback_view",
+  "source_kind": "wayback",
+  "corpus_prefix": null,
+  "batch_size": 40,
+  "n_batches": 5,
+  "n_to_review": 200,
+  "n_skipped_in_corpus": 0,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "000006b4",
+      "last_pid": "035a87d6",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.freepbx.org/verdicts/verdict_00.json"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 40,
+      "first_pid": "0383f20b",
+      "last_pid": "08ec5f49",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.freepbx.org/verdicts/verdict_01.json"
+    },
+    {
+      "index": 2,
+      "file": "batch_02.json",
+      "n_pastes": 40,
+      "first_pid": "091691d6",
+      "last_pid": "0c9128b4",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.freepbx.org/verdicts/verdict_02.json"
+    },
+    {
+      "index": 3,
+      "file": "batch_03.json",
+      "n_pastes": 40,
+      "first_pid": "0cccc0f0",
+      "last_pid": "1192e6b8",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.freepbx.org/verdicts/verdict_03.json"
+    },
+    {
+      "index": 4,
+      "file": "batch_04.json",
+      "n_pastes": 40,
+      "first_pid": "11d197a5",
+      "last_pid": "1617b6ec",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.freepbx.org/verdicts/verdict_04.json"
+    }
+  ]
+}

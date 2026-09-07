@@ -1,0 +1,246 @@
+{
+  "batch_index": 3,
+  "host": "https://pastebin.freepbx.org/",
+  "verdicts": [
+    {
+      "pid": "0cccc0f0",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body from wayback; name/title (freeglo2, freeglobalreviews) look like SEO spam, not swarm; wayback-sourced host so lean human."
+    },
+    {
+      "pid": "0cd3ea66",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Roadrunner email settings — typical FreePBX-forum help topic, 2022 wayback capture, human name."
+    },
+    {
+      "pid": "0cddbbc9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Financial scam/fraud spam (Click4Cash, ATM cloning, WU/PayPal transfers, WhatsApp/Telegram contacts) — canonical human spam pattern."
+    },
+    {
+      "pid": "0d251571",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title collapse.js under name disqus.com — likely someone pasting Disqus JS for debugging; no swarm markers."
+    },
+    {
+      "pid": "0d3f998f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Money-making spam with WhatsApp scam contact number as author; classic human spam."
+    },
+    {
+      "pid": "0d4bd8e3",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Beige Dove is a stikked random-animal name and 'Re: Try4' could pattern-match; but 2022 timestamp predates swarm and body is empty — lean human on wayback."
+    },
+    {
+      "pid": "0d69d816",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title advertises Cashapp/PayPal/WU transfers; body is Stikked DB-error page (site was down). Human scam listing."
+    },
+    {
+      "pid": "0d7c6369",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2018 wayback capture (pre-swarm); no body; lean human."
+    },
+    {
+      "pid": "0d926888",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2019 wayback capture (pre-swarm); AuthorTwo name, no body; lean human."
+    },
+    {
+      "pid": "0db63085",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2018 wayback capture (pre-swarm); no body; lean human."
+    },
+    {
+      "pid": "0dcb4db8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CLICK4CASH / Albert Funds financial scam listing — canonical human spam author on this host."
+    },
+    {
+      "pid": "0ddbfffd",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2018 wayback capture (pre-swarm); Gruff Crocodile stikked random name but no body; lean human on wayback."
+    },
+    {
+      "pid": "0de54c3c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Re: Product Manager' with human-looking name bellecarter, 2022 capture, empty body; lean human on wayback."
+    },
+    {
+      "pid": "0df72c31",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'dialplan' with human name Glen S Rosen — classic FreePBX support paste (Asterisk dialplan config)."
+    },
+    {
+      "pid": "0dfae141",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Bank/PayPal/Western Union transfer spam with WhatsApp scam number as author; human spam."
+    },
+    {
+      "pid": "0dfb6942",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Sharp Monkey is stikked random name; 'Re: Re: forum.js' 2021 capture with empty body — likely human forum-code reply, no swarm markers."
+    },
+    {
+      "pid": "0e1177bf",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2025 capture, but title 'dfb dfdfvsdc' is keyboard gibberish and Hot Bee is stikked default name; empty body; lean human on wayback."
+    },
+    {
+      "pid": "0e66d295",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "FULLZ / cloned ATM / drivers-license spam under 'GHOST' — canonical human financial-fraud spam."
+    },
+    {
+      "pid": "0e8804bd",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Re:' by disqus.com — likely Disqus JS reply thread, 2021 capture, empty body; lean human on wayback."
+    },
+    {
+      "pid": "0eb0f5a2",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'uptime maintenance' by oliverzuk1; body captured is Stikked DB-error page (site down); 2023 capture. Human FreePBX user."
+    },
+    {
+      "pid": "0eb654aa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'GXP2170 Provisioned Config' — Grandstream GXP2170 IP phone provisioning config, classic FreePBX support paste. Real infrastructure config; lean human."
+    },
+    {
+      "pid": "0edc2b00",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "No title/name/body captured; wayback 2023 default — lean human on wayback."
+    },
+    {
+      "pid": "0ee38447",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CLICK4CASH PayPal/Western Union transfer spam — canonical human financial-scam pattern."
+    },
+    {
+      "pid": "0ee5bf3d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "No title/name/body captured; wayback 2023 default — lean human on wayback."
+    },
+    {
+      "pid": "0efad404",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Re: Untitled' by Africanbusinessreview looks like SEO-comment spam, 2022 capture; lean human."
+    },
+    {
+      "pid": "0f095891",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "HTML5 paste titled 'mr' by named person Dimitris Giannelis, 2020 capture (pre-swarm); lean human."
+    },
+    {
+      "pid": "0f88b438",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Cash App expert' contact spam by Drew Andrew — canonical human money-scam listing."
+    },
+    {
+      "pid": "0f9284d3",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Mature Bongo is stikked random name, 2021 capture with empty body; no swarm markers; lean human on wayback."
+    },
+    {
+      "pid": "0f978cb6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'ht503' (Grandstream HandyTone HT503 ATA config) by lewis — classic FreePBX ATA-provisioning support paste, real infrastructure."
+    },
+    {
+      "pid": "10169652",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'DAHDI call, no connection' — DAHDI is Asterisk's telephony driver; classic FreePBX telephony troubleshooting paste."
+    },
+    {
+      "pid": "10802108",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Calls and phones tracking, Cyber security, ach and...' by 'Michael Calce' — spam offering hacking services; classic human scam."
+    },
+    {
+      "pid": "10c45023",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'top mba colleges in bangalore' — canonical SEO/link-spam pattern, human."
+    },
+    {
+      "pid": "114cbfae",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CLICK4CASH Cashapp/PayPal/WU transfer spam — canonical human financial-scam."
+    },
+    {
+      "pid": "1161e81a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "click4cash 'authenticated ACH bank wire transfer' spam, 2019 capture (pre-swarm); human scam."
+    },
+    {
+      "pid": "11624b8d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "No title/name/body captured; wayback 2023 default — lean human on wayback."
+    },
+    {
+      "pid": "11640938",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Body is a large Asterisk PJSIP call-trace log with real extension numbers, caller ID 'Jules Family', internal endpoint 2108 — real FreePBX user pasting debugging output."
+    },
+    {
+      "pid": "11755f9c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Re: Escorts in Mumbai' — canonical SEO/escort-service spam, human."
+    },
+    {
+      "pid": "117e0353",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "CLICK4CASH Bitcoin/PayPal/WU transfer spam — canonical human financial-scam."
+    },
+    {
+      "pid": "1189d90e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'publisher-admin/js/entry.js' by disqus.com — likely Disqus JS snippet; 2021 capture; no swarm markers; lean human on wayback."
+    },
+    {
+      "pid": "1192e6b8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Automatic Pastebin from Sangoma OS 7' by root@freepbx.sangoma.local — the FreePBX/Sangoma automated system config-dump feature. Real infrastructure, definitely human."
+    }
+  ]
+}
