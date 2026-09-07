@@ -1,0 +1,246 @@
+{
+  "batch_index": 7,
+  "host": "https://pastebin.tarcseh.me/",
+  "verdicts": [
+    {
+      "pid": "8aa16e65",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-04 Hungarian MTA:SA SeeCity roleplay profile with BB-code rank timeline (Katasztrofavedelmi, NAV, SeeCity Rendorseg); pre-2024 timestamp."
+    },
+    {
+      "pid": "c022dbad",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-04 MTA:SA server chat log (Hungarian HIRDETES ads, Server FPS limit, [Kick] lines); pre-2024 human MTA client dump."
+    },
+    {
+      "pid": "a3731be8",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022-03 short filler paste ('asd' title/name/body); no swarm tell and pre-2024."
+    },
+    {
+      "pid": "5e60980a",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022-03 bit.ly/nr.tn shortlink dump under animal handle 'Perl Dolphin'; pre-2024, no swarm URL-fetcher smoke-test markers."
+    },
+    {
+      "pid": "8f1dfa6d",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022-03 one-word Hungarian slang paste ('Takony'); pre-2024, no swarm tell."
+    },
+    {
+      "pid": "48611c86",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022-03 four-letter Hungarian profanity reply on human 'kocka' thread; pre-2024 and parent is not a swarm paste."
+    },
+    {
+      "pid": "c90c870a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-03 SeeMTA server-admin/moderator/police rank profile in BB code with 2018-2022 dates; pre-2024 human RP CV."
+    },
+    {
+      "pid": "778a6f1e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-03 SeeMTA Hungarian roleplay factions/achievements profile with BB code; pre-2024."
+    },
+    {
+      "pid": "342d0e7e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-02 Windows DLL C++ SbieDll-unload snippet (sandbox evasion); typical human cheat/game code, pre-2024."
+    },
+    {
+      "pid": "699af783",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-02 MTA:SA server chat log (HIRDETES ads, AdminJail, kicks) in Hungarian; pre-2024 human client dump."
+    },
+    {
+      "pid": "85003bfb",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022-01 keyboard-mash filler ('jklkj'); pre-2024, no swarm tell."
+    },
+    {
+      "pid": "f1d540ce",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-01 MTA:SA Hungarian RP session log (rank lecture 'Doug Simson', Katasztrofavedelmi felhivas); pre-2024 human."
+    },
+    {
+      "pid": "185ea811",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022-01 Hungarian police-academy recruitment BB-code post (SeeMTA); pre-2024 human."
+    },
+    {
+      "pid": "24e2a5bb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-12 TypeScript runners/officers grouping algo with Hungarian comments ('osszebaszott logikai bukfenc'); pre-2024 human dev snippet."
+    },
+    {
+      "pid": "22217c6f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-12 mojibaked MTA:SA client log ('Manar Olsen' radio chat, biztonsagi ov, heroin RP); pre-2024 human."
+    },
+    {
+      "pid": "d47a8daa",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-12 alt:V TypeScript Auth/Login/Register class (bcrypt, UserEntity, socialID); pre-2024 human MP-server dev code."
+    },
+    {
+      "pid": "2761f867",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-11 MTA:SA server chat log with Hungarian HIRDETES ads; pre-2024 human client dump."
+    },
+    {
+      "pid": "8b010f15",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-11 discord.js/mongoose bot skeleton (WOKCommands, MONGO_URI); pre-2024 human hobby bot code."
+    },
+    {
+      "pid": "76d6c8e5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-11 SZANITEC KOZPONT rejection notice, Hungarian RP paperwork BB-code; pre-2024 human."
+    },
+    {
+      "pid": "3a0dc98c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-11 SZANITEC KOZPONT acceptance notice (companion to 76d6c8e5); pre-2024 human RP paperwork."
+    },
+    {
+      "pid": "5cdb2a86",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-11 CS:GO nezu-cheat 'crasher' Lua (Cheat.RegisterCallback, cs_round_final_beep); pre-2024 human cheat-scripting."
+    },
+    {
+      "pid": "920faa4f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-11 same alt:V TypeScript Auth class as d47a8daa reposted; pre-2024 human dev snippet."
+    },
+    {
+      "pid": "ac3f7a9a",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021-11 four-letter Hungarian profanity ('geci') under title 'kocka'; pre-2024, no swarm tell."
+    },
+    {
+      "pid": "84a31ee6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 MTA:SA server chat log with Hungarian HIRDETES ads; pre-2024 human client dump."
+    },
+    {
+      "pid": "6bd446cb",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021-10 three-letter filler ('ole'); pre-2024, no swarm tell."
+    },
+    {
+      "pid": "50727e30",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 mojibaked SeeMTA Rendorseg dispatch log (traffipax, Robert L Oliver, koroszott jarmu); pre-2024 human."
+    },
+    {
+      "pid": "a318a73d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 Hungarian MTA:SA log by named user 'karolyboss'; pre-2024, matches this host's RP-community pattern."
+    },
+    {
+      "pid": "97ab605d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 'Rendorseg Traffipax' log under RP handle 'Kayla Ezekiel'; pre-2024 human MTA dispatch dump."
+    },
+    {
+      "pid": "8e922d8d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 large Hungarian MTA:SA session log under animal handle 'Cream Bushbaby'; pre-2024, host-typical."
+    },
+    {
+      "pid": "6aceaa77",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 'Rendorseg - Traffipax' log by RP handle 'Kayla Ezekiel' (same user as 97ab605d); pre-2024 human."
+    },
+    {
+      "pid": "98a55956",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 very large MTA:SA log by named user 'Roberto'; pre-2024 human client dump."
+    },
+    {
+      "pid": "d5dfd5ca",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 very large MTA:SA log by handle 'Flash'; pre-2024 human client dump."
+    },
+    {
+      "pid": "b6d61722",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 MTA:SA client log under animal handle 'Beefy Mosquito'; pre-2024 human, host-typical."
+    },
+    {
+      "pid": "4f4a8873",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-10 keyboard-mash-titled MTA log by named user 'karoly'; pre-2024 human."
+    },
+    {
+      "pid": "97ede960",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-09 MTA:SA session log under animal handle 'Funky Echidna'; pre-2024 human, host-typical."
+    },
+    {
+      "pid": "89c58e6c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-09 large MTA:SA log under animal handle 'Unreliable Goat'; pre-2024 human client dump."
+    },
+    {
+      "pid": "df7be29c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-09 MTA:SA log under animal handle 'Thundering Hummingbird'; pre-2024 human client dump."
+    },
+    {
+      "pid": "7212ec13",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2021-09 very large (558k) MTA:SA log under animal handle 'Little Pudu'; pre-2024 human client dump."
+    },
+    {
+      "pid": "e35f4295",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021-08 short Hungarian reply on 'kenyer unepe' by named user 'jozsi'; pre-2024."
+    },
+    {
+      "pid": "14194c60",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2021-08 tiny Hungarian post 'kenyer unepe' by named user 'jozsi'; pre-2024, no swarm tell."
+    }
+  ]
+}

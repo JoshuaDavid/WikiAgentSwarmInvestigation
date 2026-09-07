@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://pastebin.tarcseh.me/",
+  "verdicts": [
+    {
+      "pid": "06f9f997",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Cross-host recruitment paste advertising public-board.com and collusion.wiki - documented swarm meta-content."
+    },
+    {
+      "pid": "73e31949",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "RSA JWK with kid='evil'; looks like a security-testing key dump but no documented swarm tell matches."
+    },
+    {
+      "pid": "ce834121",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "SEO spam for vivideo.ai text-to-video generator - matches documented human SEO/spam pattern."
+    },
+    {
+      "pid": "ae877d0d",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty body with no metadata; cannot classify."
+    },
+    {
+      "pid": "b4218ee0",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Short 'hello-hd-1450' body with matching 'hd-test-1450' title under random-animal handle - matches hello-<cohort>-<ts> smoke-test pattern."
+    },
+    {
+      "pid": "df80f5e7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam for snow stakes / FRP products - commercial link farm."
+    },
+    {
+      "pid": "b9305e02",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (fiberglass grating buying guide) - commercial link farm."
+    },
+    {
+      "pid": "0bf9fa49",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (telescoping antenna pole) - commercial link farm."
+    },
+    {
+      "pid": "65601b29",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP rebar) - commercial link farm."
+    },
+    {
+      "pid": "0269dc2b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP panels install) - commercial link farm."
+    },
+    {
+      "pid": "5625f472",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP panels cut) - commercial link farm."
+    },
+    {
+      "pid": "8724b47f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP vs epoxy rebar) - commercial link farm."
+    },
+    {
+      "pid": "efa2e4ad",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (McNichols alternative) - commercial link farm."
+    },
+    {
+      "pid": "14d57fe3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (pultrusion machine cost) - commercial link farm."
+    },
+    {
+      "pid": "2f2d0e01",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (Tractor Supply alternative) - commercial link farm."
+    },
+    {
+      "pid": "45f5f956",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP grating price) - commercial link farm."
+    },
+    {
+      "pid": "c5a68d54",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP vs PVC) - commercial link farm."
+    },
+    {
+      "pid": "9be881b6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (vinyl ester vs polyester) - commercial link farm."
+    },
+    {
+      "pid": "e128a729",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (fiberglass mat vs cloth) - commercial link farm."
+    },
+    {
+      "pid": "ddce027b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (Home Depot fiberglass rebar alternative) - commercial link farm."
+    },
+    {
+      "pid": "f51d6111",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP panels retail alternatives) - commercial link farm."
+    },
+    {
+      "pid": "581d4c13",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (Marlite vs Nudo vs Glasliner) - commercial link farm."
+    },
+    {
+      "pid": "54917228",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (fiberglass vs carbon fiber) - commercial link farm."
+    },
+    {
+      "pid": "ddb62f99",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (electric fence posts materials) - commercial link farm."
+    },
+    {
+      "pid": "08eda535",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Body is just 'test'; too short to attribute to either swarm smoke-test or human."
+    },
+    {
+      "pid": "0c196b54",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP washers) - commercial link farm."
+    },
+    {
+      "pid": "ed8d0816",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (G10 FR4 electrical) - commercial link farm."
+    },
+    {
+      "pid": "21aaa031",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP washers corrosion resistant) - commercial link farm."
+    },
+    {
+      "pid": "11cc82de",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (insulating washer materials) - commercial link farm."
+    },
+    {
+      "pid": "0ba6bdcc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (epoxy glass composite rod) - commercial link farm."
+    },
+    {
+      "pid": "29e3afe3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FR4 vs G10) - commercial link farm."
+    },
+    {
+      "pid": "b1a1ee7f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FR4 G10 washers) - commercial link farm."
+    },
+    {
+      "pid": "2b6d0bec",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP washer manufacturer) - commercial link farm."
+    },
+    {
+      "pid": "4663bac5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (CNC machining G10/FR4) - commercial link farm."
+    },
+    {
+      "pid": "ef8df781",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP vinyl ester structure) - commercial link farm."
+    },
+    {
+      "pid": "c042385b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (FRP stitched fabric) - commercial link farm."
+    },
+    {
+      "pid": "c694e404",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (SMC machine) - commercial link farm."
+    },
+    {
+      "pid": "66ded690",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (roving creel) - commercial link farm."
+    },
+    {
+      "pid": "3062a3ac",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (shipment) - commercial link farm."
+    },
+    {
+      "pid": "cf8ae05a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Income Pultrusion SEO spam (roll mat slitter) - commercial link farm."
+    }
+  ]
+}
