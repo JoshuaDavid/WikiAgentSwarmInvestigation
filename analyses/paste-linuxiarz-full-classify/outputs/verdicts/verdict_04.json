@@ -1,0 +1,203 @@
+{
+  "batch_index": 4,
+  "verdicts": [
+    {
+      "pid": "dfffb1b0",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Bot7 handle with Filler7 title matches the Bot1..Bot7 swarm filler-post pattern documented for linuxiarz."
+    },
+    {
+      "pid": "e01d7ef8",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+adjective handle 'Whipped Human' looks like a swarm reply handle, but body is empty so I cannot confirm."
+    },
+    {
+      "pid": "e0fde17d",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' explicitly self-identifies as an AI agent replying to another agent's coordination message, addressed to the swarm."
+    },
+    {
+      "pid": "e1bc6bc4",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Bot6 handle with Filler8 title matches the Bot1..Bot7 swarm filler-post pattern documented for linuxiarz."
+    },
+    {
+      "pid": "e1d04731",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sweet Panda' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "e21f5e34",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Denim Panda' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "e4b685c8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Handle 'gambler', 'No Deposit Bonus' title, and 2024 timestamp predate the incident; classic paste-site spam, not swarm."
+    },
+    {
+      "pid": "e5410e8e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' handle replying to a coord thread (38b5coord) is the same AI-agent-message-board swarm actor seen in e0fde17d."
+    },
+    {
+      "pid": "e5ab1526",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Handle 'Grok' with 'Debug Developemt' title and a self-reply is suggestive of LLM/bot activity, but body is empty and I cannot match a specific tell."
+    },
+    {
+      "pid": "e63305dd",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sole Owl' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "e7e550e7",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' hex-id handle with IowaCollabReply title posting Q3/Q4/Q5 timing and '65-84' age-group task labels; canonical swarm artefact."
+    },
+    {
+      "pid": "e8903a52",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "Bot6 handle with Filler7 title matches the Bot1..Bot7 swarm filler-post pattern documented for linuxiarz."
+    },
+    {
+      "pid": "ea3e0241",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-1515' hex-id handle with 'IowaPostTest' title and unix-timestamp payload is the canonical Iowa swarm collab-test pattern."
+    },
+    {
+      "pid": "eb4ebe8e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Re: IowaDataTestDirect body contains Iowa IDPH thyroid-cancer age-group URLs including '85 and Older', the exact benchmark task documented for this swarm."
+    },
+    {
+      "pid": "ebcced74",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' handle replying to another coord thread (40101f1a) is the same AI-agent-message-board swarm actor."
+    },
+    {
+      "pid": "ed79858b",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Speedy Gibbon' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "edb27f8c",
+      "verdict": "unclear",
+      "confidence": "medium",
+      "rationale": "'AgentWatcher' replying 'Agent Activity?' to swarm coord thread 38b5coord is probing swarm activity, but not clearly a swarm participant itself."
+    },
+    {
+      "pid": "eec4da3f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Lowercase Polish nickname 'chudy' with 'modbus' title, 1-year-old timestamp - industrial/personal config predating the incident."
+    },
+    {
+      "pid": "ef973e17",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Edgy Pelican' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "efb1832a",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' hex-id handle with IowaCollabReply title and the Q3/Q4/Q5 65-84 age-group timing payload; canonical Iowa swarm artefact."
+    },
+    {
+      "pid": "f0bbf170",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Lowercase throwaway nickname 'tweeee' with 'eee' title and 10-month-old timestamp - junk pre-incident personal paste."
+    },
+    {
+      "pid": "f0bfbcdf",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Emerald Gibbon' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "f11d4b30",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Funky Eider' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "f5b3dd71",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Wahanda Macau Massage' title with 'Wahanda' handle is classic paste-site SEO spam, not swarm coordination."
+    },
+    {
+      "pid": "f621ab2b",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "Re: IowaDataTestDirect body contains Iowa IDPH thyroid-cancer age-group URLs including '85 and Older', the exact benchmark task documented for this swarm."
+    },
+    {
+      "pid": "f7cc8997",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "All metadata is null and body is empty; no tell available to classify either way."
+    },
+    {
+      "pid": "fa574a57",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Rude Goat' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "fb0add4b",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' hex-id handle with IowaCollabReply title and the Q3/Q4/Q5 65-84 age-group timing payload; canonical Iowa swarm artefact."
+    },
+    {
+      "pid": "fb3408b5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-dated WarZone RAT cracked-malware advertisement predates the incident and is unrelated to swarm coordination."
+    },
+    {
+      "pid": "fb451da4",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Beige Owl' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "fe888ff5",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "All metadata is null and body is empty; no tell available to classify either way."
+    },
+    {
+      "pid": "ff0ef043",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Capacious Prairie Dog' matches the swarm reply-handle family, but empty body prevents confirmation."
+    },
+    {
+      "pid": "96a62c4e",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "All metadata is null and body is empty; no tell available to classify either way."
+    }
+  ]
+}

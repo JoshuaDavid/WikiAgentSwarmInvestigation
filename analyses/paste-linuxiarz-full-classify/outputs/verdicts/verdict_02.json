@@ -1,0 +1,245 @@
+{
+  "batch_index": 2,
+  "verdicts": [
+    {
+      "pid": "76b29958",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Funky Pig' with empty body matches the swarm reply-name family but has no body content to confirm."
+    },
+    {
+      "pid": "76bce356",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Cute Moth' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "77280fdf",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "AI agent 'Perceptual Zephyr' explicitly self-identifies as an AI agent replying to a swarm coordination thread, referencing thecolony.ai agent message board."
+    },
+    {
+      "pid": "774077fb",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Bot2' with 'Filler8' title matches the Bot1..Bot7 filler-post swarm signature."
+    },
+    {
+      "pid": "7781e4b0",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Botched Duck' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "77da9635",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Commodious Owl' but empty body and 1-year-ago timestamp weakens the swarm signal."
+    },
+    {
+      "pid": "77f4fc5a",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sexy Owl' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "79c3158d",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Bitty Baboon' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "7a993e81",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Mustard Camel' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "7d64c8ec",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Chartreuse Pintail' explicitly matches the listed swarm reply-name pattern but body is empty."
+    },
+    {
+      "pid": "7dd3b639",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Melodic Parakeet' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "7de9cc62",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Thundering Pig' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "7e5eb8ce",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Bot1' with 'Filler8' title matches the Bot1..Bot7 filler-post swarm signature."
+    },
+    {
+      "pid": "7f1f2ff4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'gambler' handle with 'No Deposit Bonus' title from 4 months ago is spam/human, not swarm."
+    },
+    {
+      "pid": "7f6da85e",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' handle plus 'IowaCollabReply' title match the canonical agent-XXXX + Iowa* swarm signature."
+    },
+    {
+      "pid": "81ce3e42",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Funky Frog' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "8347ebe3",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Cobalt Earthworm' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "84e20f0c",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Chocolate Pelican' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "859858e9",
+      "verdict": "swarm",
+      "confidence": "medium",
+      "rationale": "'IowaPostFinal' title matches the documented Iowa* swarm task series despite the anomalous handle."
+    },
+    {
+      "pid": "875754a0",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' with IowaCollabReply title and body listing Q3/Q4/Q5 round labels plus '65-84' age bracket matches the Iowa task-clock coordination pattern."
+    },
+    {
+      "pid": "8a071933",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'root grok' handle with 'Insert mode active' title dated 4 months ago looks like a personal vim/shell session, not swarm."
+    },
+    {
+      "pid": "8a71ed39",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'vim grokrc' title and handle plus Root-grok reply is a personal vim config, matching the human sysadmin/dotfile pattern."
+    },
+    {
+      "pid": "8b2c7353",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Capacious Wolf' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "8b9aa824",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Re: IowaCacheLinks' title plus body 'Next male 65-84 at 04:04:37' matches the Iowa age-bracket bench task coordination."
+    },
+    {
+      "pid": "8cfcafeb",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'Perceptual Zephyr' AI-agent message-board reply matches the same pattern as pid 77280fdf."
+    },
+    {
+      "pid": "8dd5b571",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'agent-0014' handle with IowaCollabReply title and 'hello0014' body matches canonical agent-XXXX swarm signature."
+    },
+    {
+      "pid": "8fb7393f",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Emerald Terrapin' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "8fbd47c7",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Grok' handle with 'Debug Developemt' title from 4 months ago with a root-grok reply looks like a personal debug session."
+    },
+    {
+      "pid": "90e872e3",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'xredir' body is a JS redirect to data.idph.state.ia.us thyroid-cancer CSV with a cache-buster timestamp, matching the Iowa data-fetch swarm task."
+    },
+    {
+      "pid": "9243de09",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Gracious Marten' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "93fa1dd9",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Sweltering Tortoise' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "97e658ce",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'IowaPrepFemale' with da.gd short links keyed by 'Female|85 and Older' age brackets matches the documented '85 and Older' Iowa bench task."
+    },
+    {
+      "pid": "998c166d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'paster' handle posting a long list of Telegram adult-channel invite links is spam/human content, not swarm."
+    },
+    {
+      "pid": "9a0a10a1",
+      "verdict": "swarm",
+      "confidence": "high",
+      "rationale": "'IowaTestIgnore' title with handle 'ours' (matches the agent-ours0909 family) and single-char body 'x' matches the calibrated smoke-test pattern."
+    },
+    {
+      "pid": "9a0dd3bd",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Gamboge Plover' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "9af88b46",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Round Armadillo' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "9ca87581",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Cream Marten' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "9d1c17ac",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Lowercase Polish handle 'Kocur' with 2024-10 timestamp predates the incident timeframe."
+    },
+    {
+      "pid": "9de462b7",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Gamboge Motmot' fits the swarm handle family but body is empty."
+    },
+    {
+      "pid": "9e7100ac",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Color+animal handle 'Beefy Tamarin' fits the swarm handle family but body is empty."
+    }
+  ]
+}
