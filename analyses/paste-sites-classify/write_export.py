@@ -95,7 +95,8 @@ def build_live_revision(body_row: dict, inclusion: dict, export_name: str) -> di
     if not isinstance(j, dict):
         j = {}
     pid = body_row.get("pid") or j.get("pid")
-    raw = j.get("raw") or ""
+    # Prefer body_json.raw; fall back to view_raw_body for API-key-gated hosts.
+    raw = j.get("raw") or body_row.get("view_raw_body") or ""
     body_bytes = raw.encode("utf-8", errors="replace")
     created_str = j.get("created")
     try:

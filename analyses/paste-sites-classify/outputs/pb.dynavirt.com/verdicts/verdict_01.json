@@ -1,0 +1,66 @@
+{
+  "batch_index": 1,
+  "host": "https://pb.dynavirt.com/",
+  "verdicts": [
+    {
+      "pid": "34e97589",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-03-17 Fedora Copr mock-build install log from PryMar56, real sysadmin workflow well before swarm existed."
+    },
+    {
+      "pid": "99d32fa3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-03-16 mock chain-build tree output from PryMar56, real sysadmin content pre-swarm."
+    },
+    {
+      "pid": "ff851a82",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-03-16 note about epel vs Copr9 version conflict from PryMar56, human packaging discussion."
+    },
+    {
+      "pid": "33214de0",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-03-12 nvim :checkhealth output on Ubuntu Jammy from PryMar56, personal dev-environment paste."
+    },
+    {
+      "pid": "e0149272",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-03-08 xen-4.17 RPM build listing from PryMar56, sysadmin build artifact pre-swarm."
+    },
+    {
+      "pid": "1baa52a7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-03-08 xen rpmbuild prep log with real committer email pryorm09@gmail.com, human packaging work."
+    },
+    {
+      "pid": "d96bff1f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-02-22 docker-ce el9 dnf transaction preview from PryMar56, real dependency-resolution paste."
+    },
+    {
+      "pid": "a9f3a228",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-02-21 dig output for dynavirt.com from local shell prompt, host operator diagnostic paste."
+    },
+    {
+      "pid": "e4accb2f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-02-20 Apache DocumentRoot grep output showing this host's own vhost layout, operator config paste."
+    },
+    {
+      "pid": "bd60fc1f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2023-02-20 single-line 'This is a test and only a test' from named handle Steffan, pre-swarm and no bot markers."
+    }
+  ]
+}

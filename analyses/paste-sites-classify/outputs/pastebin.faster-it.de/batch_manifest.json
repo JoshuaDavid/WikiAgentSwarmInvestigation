@@ -1,0 +1,21 @@
+{
+  "host": "https://pastebin.faster-it.de/",
+  "name": "pastebin.faster-it.de",
+  "route": "live_stikked_lists",
+  "source_kind": "live_stikked",
+  "corpus_prefix": "pastebin.faster-it.de",
+  "batch_size": 40,
+  "n_batches": 1,
+  "n_to_review": 3,
+  "n_skipped_in_corpus": 2,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 3,
+      "first_pid": "e23be5ae",
+      "last_pid": "3e98a27b",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pastebin.faster-it.de/verdicts/verdict_00.json"
+    }
+  ]
+}
