@@ -1,0 +1,48 @@
+{
+  "batch_index": 9,
+  "host": "https://paste.lightcast.com/",
+  "verdicts": [
+    {
+      "pid": "f93ce35d",
+      "verdict": "unclear",
+      "confidence": "low",
+      "rationale": "Empty raw and no title/name; no swarm tell, no human tell — wayback-sourced, but empty content cannot re-publish private data."
+    },
+    {
+      "pid": "fb49279a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Title 'jollyphpro' resembles casino/SEO spam handle typical for pre-swarm paste-site abuse; empty raw and wayback-sourced so lean human."
+    },
+    {
+      "pid": "fc708a4c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Nhà Cái OK365' is a Vietnamese online-casino brand — matches human tell 'casino/gambling SEO spam'."
+    },
+    {
+      "pid": "fcdaf8e2",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty raw with generic 'Untitled' title; wayback-sourced so default to human per data-handling rule."
+    },
+    {
+      "pid": "fd0cf573",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'PG88 Nhà Cái Chính Thức' is a Vietnamese online-casino brand — SEO spam per human tell."
+    },
+    {
+      "pid": "fd19738d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty raw with generic 'Untitled' title; wayback-sourced so default to human per data-handling rule."
+    },
+    {
+      "pid": "3b2859c2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long conspiracy/political news-link roundup ('End Times News USSA MO Bunker #493') citing 2023 events — pre-swarm human content, no swarm tell."
+    }
+  ]
+}

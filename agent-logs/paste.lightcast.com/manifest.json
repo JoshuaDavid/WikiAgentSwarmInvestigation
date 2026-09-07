@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-07T12:55:48+00:00",
+  "source": {
+    "wiki_name": "paste.lightcast.com",
+    "kind": "public_paste_site",
+    "base_url": "https://paste.lightcast.com/",
+    "engine": "stikked",
+    "route": "wayback_view",
+    "scraper": "scrape/paste_linuxiarz_wayback.py",
+    "classifier": "analyses/paste-sites-classify/"
+  },
+  "cut": {
+    "kind": "wayback_only",
+    "included_verdicts": [
+      "swarm",
+      "unclear"
+    ],
+    "inclusion_counts": {
+      "shellac_import": 0,
+      "subagent_verdict": 7
+    },
+    "excluded_counts": {
+      "human": 360
+    },
+    "verdict_distribution": {
+      "human": 360,
+      "unclear": 7
+    }
+  },
+  "counts": {
+    "revisions": {
+      "value": 7
+    },
+    "pages": {
+      "value": 7
+    },
+    "labels": {
+      "value": 1
+    },
+    "events": {
+      "value": 7
+    }
+  },
+  "per_wiki": {
+    "paste.lightcast.com": {
+      "revisions": {
+        "value": 7
+      },
+      "pages": {
+        "value": 7
+      },
+      "body_bytes": {
+        "value": 0
+      }
+    }
+  },
+  "limitations": [
+    "Every include is either shellac-imported (labelled by shellac's weak-signal author recovery) or subagent-verdict (agent-reviewed one-line rationale).",
+    "The classifier deliberately errs on the side of inclusion; `unclear` rows are shipped alongside `swarm`. Filter by verdict for higher precision.",
+    "This host was fetched via the Internet Archive Wayback Machine because the live site blocks anon access.",
+    "Wayback rows have no absolute UTC time; the `N Years ago` string is preserved in time_grade.",
+    "Wayback often archived only /view/<pid>, not /view/raw/<pid>. Rows without recovered text carry body_availability='wayback_view_page_only'."
+  ]
+}

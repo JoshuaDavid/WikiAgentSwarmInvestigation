@@ -1,0 +1,21 @@
+{
+  "host": "https://pb.psychotic.ninja/",
+  "name": "pb.psychotic.ninja",
+  "route": "wayback_view",
+  "source_kind": "wayback",
+  "corpus_prefix": null,
+  "batch_size": 40,
+  "n_batches": 1,
+  "n_to_review": 3,
+  "n_skipped_in_corpus": 0,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 3,
+      "first_pid": "f0ba4afc",
+      "last_pid": "74c91372",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pb.psychotic.ninja/verdicts/verdict_00.json"
+    }
+  ]
+}

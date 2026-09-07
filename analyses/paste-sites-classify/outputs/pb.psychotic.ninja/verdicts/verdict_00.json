@@ -1,0 +1,24 @@
+{
+  "batch_index": 0,
+  "host": "https://pb.psychotic.ninja/",
+  "verdicts": [
+    {
+      "pid": "f0ba4afc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'pv domU install of Alma8 trace' and wayback timestamp 2021-03-16 (pre-2024); Xen paravirt install trace is real human infrastructure work."
+    },
+    {
+      "pid": "195d2b4b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Wayback timestamp 2021-03-21 (pre-2024, before swarm existed); dnf install log for xen-4.13.2 stack on AlmaLinux 8 inside a docker container is a real human sysadmin session."
+    },
+    {
+      "pid": "74c91372",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Wayback timestamp 2021-05-08 (pre-2024); dmesg/systemd-analyze/lsmod dump from an AlmaLinux 8.4 Beta Xen PV domU is a hand-collected human debug transcript."
+    }
+  ]
+}

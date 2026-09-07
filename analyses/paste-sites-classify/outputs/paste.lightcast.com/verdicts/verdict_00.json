@@ -1,0 +1,246 @@
+{
+  "batch_index": 0,
+  "host": "https://paste.lightcast.com/",
+  "verdicts": [
+    {
+      "pid": "0019ec6f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'km88observer' matches Vietnamese/gambling SEO handle pattern, no swarm markers; wayback rule leans human."
+    },
+    {
+      "pid": "00682536",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Nh88' matches Vietnamese casino brand (nhà cái 88) SEO spam pattern."
+    },
+    {
+      "pid": "008ca841",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled with empty body, no signal; wayback rule defaults to human."
+    },
+    {
+      "pid": "01385a7c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'9 herbs to enhance resistance' is health-content SEO spam and 2022-08 timestamp predates the swarm."
+    },
+    {
+      "pid": "013f9069",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Japanese aquaponics market-report title is common paid press-release / SEO spam pattern."
+    },
+    {
+      "pid": "01616089",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'GAMEBAI88 GAMES' is Vietnamese gambling SEO spam."
+    },
+    {
+      "pid": "01f46405",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Plant-Based Collagen Market Trends title is standard market-report SEO spam."
+    },
+    {
+      "pid": "02d78a96",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; wayback rule defaults to human."
+    },
+    {
+      "pid": "033786dd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'7 natural ways to deal with cirrhosis' is 2022-08 health SEO spam, predates swarm; reply from human handle 'dharshanpriya'."
+    },
+    {
+      "pid": "04da0d01",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà cái LC88' is Vietnamese casino SEO spam with matching promoter reply handle 'lc88999com'."
+    },
+    {
+      "pid": "04f5cf97",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'nhacaibon68' is Vietnamese casino SEO spam handle."
+    },
+    {
+      "pid": "050e0e93",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Indonesian SEO tutorial 'Cara Bangun Backlink Aman Berkualitas' is backlink-farming spam."
+    },
+    {
+      "pid": "054fa5d2",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Re: Re: Delta pet policy' resembles a Q&A thread but body is empty and no swarm handle; wayback rule leans human."
+    },
+    {
+      "pid": "0577c55c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà Cái 789bet' is Vietnamese casino SEO spam."
+    },
+    {
+      "pid": "067dfa1c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling how-to article 'Tài Xỉu Online' is SEO spam."
+    },
+    {
+      "pid": "06852142",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Numeric title '6623' with empty body; likely gambling brand SEO spam, wayback rule leans human."
+    },
+    {
+      "pid": "06e50912",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'B52Club Thiên Đường Giải Trí Online' is Vietnamese casino SEO spam."
+    },
+    {
+      "pid": "07245473",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'So79' matches short Vietnamese casino brand SEO spam pattern."
+    },
+    {
+      "pid": "08527ea3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese sports-betting SEO spam title."
+    },
+    {
+      "pid": "0895448a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'8xBet - Nhà Cái Cá Cược Trực Tuyến' is Vietnamese casino SEO spam."
+    },
+    {
+      "pid": "08bff3b7",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2023-09 timestamp predates swarm and reply from human handle 'nate'."
+    },
+    {
+      "pid": "093c1c43",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Japanese bulletproof-vest market-report title is standard SEO spam."
+    },
+    {
+      "pid": "093d75ae",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; wayback rule defaults to human."
+    },
+    {
+      "pid": "0b9cd86b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled, empty body, no swarm markers; wayback rule leans human."
+    },
+    {
+      "pid": "0bb95b2f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'startupwizzcom' is an SEO promoter handle."
+    },
+    {
+      "pid": "0bc18822",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled with empty body; wayback rule leans human."
+    },
+    {
+      "pid": "0c0dea29",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-01 dating/backlink SEO spam with bit.ly link farm and forum quotes, predates swarm."
+    },
+    {
+      "pid": "0c96c3e8",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Japanese seafood-market report title is standard SEO spam."
+    },
+    {
+      "pid": "0feea680",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'88main Situs Resmi' is Indonesian gambling-site SEO spam."
+    },
+    {
+      "pid": "108610b2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Body is Vietnamese casino-site promo with backlink farm across 60+ profile sites (789Club SEO spam)."
+    },
+    {
+      "pid": "1125e494",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'88XX' matches short Vietnamese casino brand SEO spam pattern."
+    },
+    {
+      "pid": "1281556c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled, empty body; wayback rule leans human."
+    },
+    {
+      "pid": "141f0a81",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'Qatar Cancellation Policy' resembles a factual-lookup question but body empty and no swarm handle; wayback rule leans human."
+    },
+    {
+      "pid": "1566f3d6",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'KKWin' matches Asian casino brand SEO spam pattern."
+    },
+    {
+      "pid": "15c22d82",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-01 body is bit.ly backlink farm plus dating/relationship forum quote with 5 human reply handles; predates swarm."
+    },
+    {
+      "pid": "16e10e12",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2022-07 timestamp predates swarm; empty body prevents further classification."
+    },
+    {
+      "pid": "1731330f",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; wayback rule defaults to human."
+    },
+    {
+      "pid": "178e8f5f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'HU88' is Vietnamese casino SEO spam with matching promoter reply handle 'hu88supply'."
+    },
+    {
+      "pid": "1800710f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Good88 - Nền Tảng Cá Cược Trực Tuyến' is Vietnamese casino SEO spam."
+    },
+    {
+      "pid": "186e5e46",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Untitled with empty body, no swarm markers; wayback rule leans human."
+    }
+  ]
+}

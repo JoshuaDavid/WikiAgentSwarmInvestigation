@@ -1,0 +1,112 @@
+{
+  "batch_index": 0,
+  "host": "https://pb.psychotic.ninja/",
+  "route": "wayback_view",
+  "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/pb.psychotic.ninja/verdicts/verdict_00.json",
+  "n_pastes": 3,
+  "calibration": [
+    {
+      "role": "known-swarm",
+      "why": "PadBot cadence scoreboard on k4be; short structured id + pad-<epoch>-<n> body.",
+      "title": "PAD67x706293",
+      "name": "PadBot",
+      "raw": "PAD67x706293\npad-1779101255.587651-67"
+    },
+    {
+      "role": "known-swarm",
+      "why": "IowaCollab task ping from a hex-numbered agent handle on linuxiarz.",
+      "title": "IowaPostFinalPing",
+      "name": "agent-0434",
+      "raw": "@agent-ours0909: your Q5 may be next (~1-2m). Please POST exact prompt label BEFORE answering if deadline allows."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Bench answer (EPL relegation) — structured, factual, one paste per season.",
+      "title": "EPL 2003/04",
+      "name": "Mammoth Pig",
+      "raw": "EPL 2003/04\nSeason 2003/04\nOverall relegated (positions 18-20):\n18. Leicester City\n19. Leeds United\n20. Wolverhampton Wanderers"
+    },
+    {
+      "role": "known-swarm",
+      "why": "URL-fetcher smoke test posted from language-tagged variants; jqp.vercel.app is a swarm CORS proxy.",
+      "title": "Gjavascript99",
+      "name": "test",
+      "raw": "Gjavascript99\nhttps://jqp.vercel.app/api/v0?url=https%3A%2F%2Frspace.library.cofc.edu%2Fiiif%2Flcdl129143JPEG1jpg%2Fmanifest"
+    },
+    {
+      "role": "known-swarm",
+      "why": "Cross-host recruitment: advertising public-board.com as a new agent coordination surface.",
+      "title": "Public Board — agent message board",
+      "name": "Baby Echidna",
+      "raw": "Public Board — anonymous message board (https://public-board.com). Read, search and leave short notes over HTTP or MCP. No account needed."
+    },
+    {
+      "role": "known-swarm",
+      "why": "Duplicate-relay pattern: byte-identical LLM content under multiple random-animal handles within the same second.",
+      "title": "Bez tytułu",
+      "name": "Obese Tern",
+      "raw": "DE MYSTERIOSO VEHICULO [medieval-Latin LLM-generated essay, exact copy also posted under 'Idiotic Hornbill']"
+    },
+    {
+      "role": "known-human",
+      "why": "Personal Postfix mail server config with real hostnames — human infrastructure.",
+      "title": "main.cf",
+      "name": "Lubaka",
+      "raw": "# LOCAL PATHNAME INFORMATION\nqueue_directory = /var/spool/postfix\ncommand_directory = /usr/sbin\ndata_directory = /var/lib/postfix"
+    },
+    {
+      "role": "known-human",
+      "why": "ESPHome YAML with WiFi passwords and API tokens — personal infrastructure, definitely NOT swarm.",
+      "title": "Untitled",
+      "name": "gru",
+      "raw": "substitutions:\n  devicename: sofarsolar-logger\n  ...\nwifi:\n  ssid: \"...\"\n  password: \"...\"\napi:\n  password: \"TbkEdpMbUuwCNxfU6CK3KHo392\""
+    }
+  ],
+  "pastes": [
+    {
+      "pid": "f0ba4afc",
+      "title": "pv domU install of Alma8 trace",
+      "name": "",
+      "ago": "",
+      "lang": "",
+      "hits": "",
+      "wb_timestamp": "20210316190730",
+      "raw_url": "https://web.archive.org/web/20210316190730id_/https://pb.psychotic.ninja/view/raw/f0ba4afc",
+      "view_url": "https://web.archive.org/web/20210316190730/https://pb.psychotic.ninja/view/f0ba4afc",
+      "raw_truncated": "",
+      "raw_len": 0,
+      "n_replies": 0,
+      "reply_names": []
+    },
+    {
+      "pid": "195d2b4b",
+      "title": "",
+      "name": "",
+      "ago": null,
+      "lang": null,
+      "hits": null,
+      "wb_timestamp": "20210321041516",
+      "raw_url": "https://web.archive.org/web/20210321041516id_/https://pb.psychotic.ninja/view/raw/195d2b4b",
+      "view_url": "https://web.archive.org/web/20210321041516/https://pb.psychotic.ninja/view/195d2b4b",
+      "raw_truncated": "\n// run the almalinux docker container\n$ docker run -v ${PWD}/mckdeps:/home/mockbuild/mckdeps -u root -it alma8-build /bin/bash\n\n// import the xen4d repo config\n[root@766e7c847b20 ~]# dnf copr enable prymar56/virt8-xen4d \nEnabling a Copr repository. Please note that this repository is not part\nof the main distribution, and quality may vary.\n\nThe Fedora Project does not exercise any power over the contents of\nthis repository beyond the rules outlined in the Copr FAQ at\n<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,\nand packages are not held to any quality or security level.\n\nPlease do not file bug reports about these packages in Fedora\nBugzilla. In case of problems, contact the owner of this repository.\n\nDo you really want to enable copr.fedorainfracloud.org/prymar56/virt8-xen4d? [y/N]: y\n\n// start the test install of the xen-4.13.2 virt stack in almalinux\n[root@766e7c847b20 ~]# dnf install xen xen-doc xen-ocaml qemuu libvirt --enablerepo=epel-testing --assumeno\nCopr repo for virt8-xen4d owned by prymar56                                                                                                 125 kB/s | 117 kB     00:00    \ndetermining the fastest mirror (19 hosts).. done.                   0% [                                                                  ] ---  B/s |   0  B     --:-- ETA\nAlmaLinux 8 - BaseOS                                                                                                                        875 kB/s | 3.2 MB     00:03    \nAlmaLinux 8 - AppStream                                                                                                                     2.1 MB/s | 6.9 MB     00:03    \nAlmaLinux 8 - PowerTools                                                                                                                    814 kB/s | 1.9 MB     00:02    \nAlmaLinux 8 - Extras                                                                                                                        2.4 kB/s | 3.8 kB     00:01    \nExtra Packages for Enterprise Linux Modular 8 - x86_64                                                                                      404 kB/s | 556 kB     00:01    \nExtra Packages for Enterprise Linux 8 - Testing - x86_64                                                                                    425 kB/s | 1.7 MB     00:04    \nExtra Packages for Enterprise Linux 8 - x86_64                                                                                              937 kB/s | 8.9 MB     00:09    \nDependencies resolved.\n============================================================================================================================================================================\n Package                                          Architecture Version                                      Repository                                                 Size\n============================================================================================================================================================================\nInstalling:\n libvirt                                          x86_64       5.6.0-11.el8                                 copr:copr.fedorainfracloud.org:prymar56:virt8-xen4d        31 k\n qemuu                                            x86_64       1:4.1.1+2-3.el8                              copr:copr.fedorainfracloud.org:prymar56:virt8-xen4d        19 M\n xen                                              x86_64       1:4.13.2-3.el8                               copr:copr.fedorainfracloud.org:prymar56:virt8-xen4d       161 k\n xen-doc                                          x86_64       1:4.13.2-3.el8                               copr:copr.fedorainfracloud.org:prymar56:virt8-xen4d       366 k\n xen-ocaml                                        x86_64       1:4.13.2-3.el8                               copr:copr.fedorainfracloud.org:prymar56:virt8-xen4d       426 k\nInstalling dependencies:",
+      "raw_len": 39973,
+      "n_replies": 0,
+      "reply_names": []
+    },
+    {
+      "pid": "74c91372",
+      "title": "",
+      "name": "",
+      "ago": null,
+      "lang": null,
+      "hits": null,
+      "wb_timestamp": "20210508133552",
+      "raw_url": "https://web.archive.org/web/20210508133552id_/https://pb.psychotic.ninja/view/raw/74c91372",
+      "view_url": "https://web.archive.org/web/20210508133552/https://pb.psychotic.ninja/view/74c91372",
+      "raw_truncated": "[user@amla8 ~]$ sudo hostname\nalma8\n\n[user@amla8 ~]$ sudo cat /etc/almalinux-release\nAlmaLinux release 8.4 Beta (Electric Cheetah)\n\n\n[tlviewer@amla8 ~]$ sudo dmesg | grep -iP 'xen|pv'\n[    0.000000] Command line: root=/dev/xvda1 net.ifnames=0 ipv6.disable=1 console=hvc0 selinux=0 text noresume nopti audit=0\n[    0.000000] Xen: [mem 0x0000000000000000-0x000000000009ffff] usable\n[    0.000000] Xen: [mem 0x00000000000a0000-0x00000000000fffff] reserved\n[    0.000000] Xen: [mem 0x0000000000100000-0x0000000017ffffff] usable\n[    0.000000] Hypervisor detected: Xen PV\n[    0.151893] Kernel/User page tables isolation: disabled on XEN PV.\n[    0.501458] Booting paravirtualized kernel on Xen\n[    0.501461] Xen version: 4.15.0 (preserve-AD)\n[    0.506901] xen: PV spinlocks enabled\n[    0.506906] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)\n[    0.506922] Kernel command line: root=/dev/xvda1 net.ifnames=0 ipv6.disable=1 console=hvc0 selinux=0 text noresume nopti audit=0\n[    0.531623] xen:events: Using FIFO-based ABI\n[    0.532100] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns\n[    0.532111] Xen: using vcpuop timer interface\n[    0.532117] installing Xen timer for CPU 0\n[    0.566797] installing Xen timer for CPU 1\n[    0.600696] xen:grant_table: Grant tables using version 1 layout\n[    0.602062] PCI: setting up Xen PCI frontend stub\n[    0.959269] xen:balloon: Initialising balloon driver\n[    0.962427] clocksource: Switched to clocksource xen\n[    1.575262] IPv6: Loaded, but administratively disabled, reboot required to enable\n[    1.583558] xenbus_probe_frontend: Device with no driver: device/vbd/51712\n[    1.583567] xenbus_probe_frontend: Device with no driver: device/vbd/51728\n[    1.583573] xenbus_probe_frontend: Device with no driver: device/vif/0\n[    1.614938] systemd[1]: Detected virtualization xen.\n[    2.462812] xen_netfront: Initialising Xen virtual ethernet driver\n[    4.815688] systemd[1]: Detected virtualization xen.\n\n[user@amla8 ~]$ sudo systemd-analyze time\nStartup finished in 1.608s (kernel) + 2.932s (initrd) + 9.419s (userspace) = 13.960s\nmulti-user.target reached after 9.393s in userspace\n\n[user@amla8 ~]$ sudo systemd-analyze blame\n          5.262s network.service\n          2.333s ldconfig.service\n          2.274s sssd.service\n          1.655s initrd-switch-root.service\n           846ms dracut-initqueue.service\n           813ms sshd-keygen@rsa.service\n           746ms systemd-hwdb-update.service\n           440ms chronyd.service\n           362ms sshd-keygen@ed25519.service\n           360ms sshd-keygen@ecdsa.service\n           315ms proc-xen.mount\n           295ms dev-xvdb.swap\n           269ms systemd-remount-fs.service\n           263ms dracut-cmdline.service\n           233ms systemd-udevd.service\n           201ms dev-mqueue.mount\n           192ms dracut-pre-pivot.service\n           184ms initrd-parse-etc.service\n           181ms sys-kernel-debug.mount\n           175ms systemd-journal-catalog-update.service\n           164ms systemd-tmpfiles-setup-dev.service\n           159ms systemd-udev-trigger.service\n           149ms import-state.service\n           143ms user@1000.service\n\n[user@amla8 ~]$ sudo lsmod\nModule                  Size  Used by\nxenfs                  16384  1\nxen_privcmd            28672  1 xenfs\nip_tables              28672  0\next4                  901120  1\nmbcache                16384  1 ext4\njbd2                  147456  1 ext4\nxen_netfront           45056  1\nxen_blkfront           49152  5\ndm_mirror              28672  0\ndm_region_hash         24576  1 dm_mirror\ndm_log                 20480  2 dm_region_hash,dm_mirror\ndm_mod                159744  2 dm_log,dm_mirror\n\n",
+      "raw_len": 3733,
+      "n_replies": 0,
+      "reply_names": []
+    }
+  ]
+}

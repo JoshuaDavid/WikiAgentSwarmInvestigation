@@ -1,0 +1,246 @@
+{
+  "batch_index": 6,
+  "host": "https://paste.lightcast.com/",
+  "verdicts": [
+    {
+      "pid": "afbe6b11",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'win456cool' fits the Vietnamese/Asian gambling-SEO spam pattern dominating this host; wayback capture has empty body but no swarm tell in title."
+    },
+    {
+      "pid": "b1942a58",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture with 'Untitled' title and no metadata; lean human per wayback rule."
+    },
+    {
+      "pid": "b1eadefa",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, no title, no metadata; lean human per wayback rule."
+    },
+    {
+      "pid": "b1f62f79",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling SEO spam title 'QH88 - Link QH88 Đăng Nhập Chính Thức'; casino spam is a documented human tell."
+    },
+    {
+      "pid": "b22e0730",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'BET88' casino/betting SEO spam title matches documented gambling human-tell."
+    },
+    {
+      "pid": "b2ba6ddc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling SEO title 'OKKING - Trang chủ uy tín'; documented casino spam pattern."
+    },
+    {
+      "pid": "b3063865",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Vn123' fits the Vietnamese gambling/SEO spam cluster dominating this host."
+    },
+    {
+      "pid": "b40556ef",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà Cái RR88' Vietnamese casino brand SEO spam with matching 'rr88law' reply handle; documented gambling human-tell."
+    },
+    {
+      "pid": "b4404512",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, 'Untitled'; lean human per wayback rule."
+    },
+    {
+      "pid": "b49a30fd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'TrafficSeotop - Dịch Vụ Traffic Seo Top' is explicit SEO-spam service advertisement."
+    },
+    {
+      "pid": "b5f3d88f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà Cái 555WIN' Vietnamese casino brand SEO spam; documented gambling human-tell."
+    },
+    {
+      "pid": "b6d58f46",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Febet' betting-brand SEO spam title matches gambling human-tell pattern."
+    },
+    {
+      "pid": "b78a1b38",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'9PH - Easy Places To Play Games And Earn Money' explicit gambling/earn-money spam."
+    },
+    {
+      "pid": "b8b50ace",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Kingfun' Vietnamese casino brand SEO spam."
+    },
+    {
+      "pid": "b91cdbcb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà Cái 789CLUB' Vietnamese casino brand with matching '789clubjpnet' reply handle; documented gambling spam."
+    },
+    {
+      "pid": "b957d2b4",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title '789pedu' fits the 789-series gambling brand SEO spam cluster."
+    },
+    {
+      "pid": "ba8214cd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022 wayback capture (pre-swarm era) with bit.ly link farm and old blog comment text about 'brats'; documented pre-2024 human tell."
+    },
+    {
+      "pid": "ba954c5b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, no title, no metadata; lean human per wayback rule."
+    },
+    {
+      "pid": "bb606ed5",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, no title, no metadata; lean human per wayback rule."
+    },
+    {
+      "pid": "bccc0493",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, 'Untitled'; lean human per wayback rule."
+    },
+    {
+      "pid": "bce77550",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023 wayback capture (pre-swarm) with bit.ly link farm and pasted blog comments about dating/STEM; documented pre-2024 human tell."
+    },
+    {
+      "pid": "bdc12d2c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'RR88 - Sòng Bạc Trực Tuyến' Vietnamese online casino SEO spam."
+    },
+    {
+      "pid": "bde13703",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, 'Untitled'; lean human per wayback rule."
+    },
+    {
+      "pid": "be538f1f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'PADMA SPA & THERAPY' local business SEO spam, not swarm content."
+    },
+    {
+      "pid": "be71d009",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'LEO88' casino brand SEO spam."
+    },
+    {
+      "pid": "bede7bcd",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'winphblog' fits Philippine gambling/win-brand SEO spam pattern."
+    },
+    {
+      "pid": "bf120466",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'May88- Cá Cược Uy Tín' Vietnamese betting brand SEO spam."
+    },
+    {
+      "pid": "bf29a302",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023 wayback capture (pre-swarm) with bit.ly link farm and pasted blog dating comments; documented pre-2024 human tell."
+    },
+    {
+      "pid": "bf60538c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'RC88' casino brand SEO spam."
+    },
+    {
+      "pid": "bf706b85",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà Cái King88' Vietnamese casino brand with matching 'king888dev' reply handle."
+    },
+    {
+      "pid": "bfc84eb8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Bk8 - Nhà cái cá cược thể thao' Vietnamese sportsbook SEO spam."
+    },
+    {
+      "pid": "c0a19c2e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Ylang Ylang Extract Market Key for Strong Growth' generic market-research SEO spam, not swarm content."
+    },
+    {
+      "pid": "c22a3a62",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Fb68 – Cơ Hội Vàng Mỗi Ngày Với Kho Trò Chơi Cá Cược' Vietnamese betting SEO spam."
+    },
+    {
+      "pid": "c2414479",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, 'Untitled'; lean human per wayback rule."
+    },
+    {
+      "pid": "c26ef71e",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'Nhà Cái OK365' Vietnamese casino brand with matching 'ok365tfit' reply handle."
+    },
+    {
+      "pid": "c2c0ad71",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty wayback capture, no title, no metadata; lean human per wayback rule."
+    },
+    {
+      "pid": "c3037033",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'8XBET' casino/betting brand SEO spam."
+    },
+    {
+      "pid": "c3c9a75f",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'FM88' casino brand SEO spam."
+    },
+    {
+      "pid": "c494f651",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'bong99fcom' Vietnamese gambling brand SEO spam."
+    },
+    {
+      "pid": "c59e3fbf",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "'VB777 – Nơi Mang Đến Những Trải Nghiệm Cá Cược' Vietnamese casino brand SEO spam with 'Route2Health' local-biz reply."
+    }
+  ]
+}
