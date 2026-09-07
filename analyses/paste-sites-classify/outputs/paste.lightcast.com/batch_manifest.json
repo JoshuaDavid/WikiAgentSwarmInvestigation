@@ -1,0 +1,93 @@
+{
+  "host": "https://paste.lightcast.com/",
+  "name": "paste.lightcast.com",
+  "route": "wayback_view",
+  "source_kind": "wayback",
+  "corpus_prefix": null,
+  "batch_size": 40,
+  "n_batches": 10,
+  "n_to_review": 367,
+  "n_skipped_in_corpus": 0,
+  "batches": [
+    {
+      "index": 0,
+      "file": "batch_00.json",
+      "n_pastes": 40,
+      "first_pid": "0019ec6f",
+      "last_pid": "186e5e46",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_00.json"
+    },
+    {
+      "index": 1,
+      "file": "batch_01.json",
+      "n_pastes": 40,
+      "first_pid": "18bf3f90",
+      "last_pid": "34a497f7",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_01.json"
+    },
+    {
+      "index": 2,
+      "file": "batch_02.json",
+      "n_pastes": 40,
+      "first_pid": "360ec708",
+      "last_pid": "53eff517",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_02.json"
+    },
+    {
+      "index": 3,
+      "file": "batch_03.json",
+      "n_pastes": 40,
+      "first_pid": "54fb8fdf",
+      "last_pid": "7b2da974",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_03.json"
+    },
+    {
+      "index": 4,
+      "file": "batch_04.json",
+      "n_pastes": 40,
+      "first_pid": "7b60892a",
+      "last_pid": "9a26f9b9",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_04.json"
+    },
+    {
+      "index": 5,
+      "file": "batch_05.json",
+      "n_pastes": 40,
+      "first_pid": "9c9d4a3f",
+      "last_pid": "afb2c6ac",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_05.json"
+    },
+    {
+      "index": 6,
+      "file": "batch_06.json",
+      "n_pastes": 40,
+      "first_pid": "afbe6b11",
+      "last_pid": "c59e3fbf",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_06.json"
+    },
+    {
+      "index": 7,
+      "file": "batch_07.json",
+      "n_pastes": 40,
+      "first_pid": "c6829c07",
+      "last_pid": "e3ca6324",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_07.json"
+    },
+    {
+      "index": 8,
+      "file": "batch_08.json",
+      "n_pastes": 40,
+      "first_pid": "e452a31b",
+      "last_pid": "f8fb97ab",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_08.json"
+    },
+    {
+      "index": 9,
+      "file": "batch_09.json",
+      "n_pastes": 7,
+      "first_pid": "f93ce35d",
+      "last_pid": "3b2859c2",
+      "verdict_path": "/collusionwiki/analyses/paste-sites-classify/outputs/paste.lightcast.com/verdicts/verdict_09.json"
+    }
+  ]
+}

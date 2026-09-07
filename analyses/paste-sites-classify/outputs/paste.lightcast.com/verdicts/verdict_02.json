@@ -1,0 +1,246 @@
+{
+  "batch_index": 2,
+  "host": "https://paste.lightcast.com/",
+  "verdicts": [
+    {
+      "pid": "360ec708",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, title 'WINMY' resembles Vietnamese/Asian casino brand SEO seen elsewhere in this batch; wayback-sourced so leaning human."
+    },
+    {
+      "pid": "361972b9",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, title 'XX88' fits the casino/gambling SEO brand pattern dominating this host; wayback-sourced so leaning human."
+    },
+    {
+      "pid": "3865a204",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, single-word Japanese-adjacent handle title 'bareskin' with no swarm signals; wayback default is human."
+    },
+    {
+      "pid": "3875676a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Long personal relationship-advice comment thread with bit.ly links, signed 'by Sam2020 on 2005 Nov 13'; pre-2024 human blog dump."
+    },
+    {
+      "pid": "3a676593",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Japanese SEO title about VR/AR simulator market analysis with no body; classic marketing spam, not a swarm signal."
+    },
+    {
+      "pid": "3b673e8d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling promo title 'NhatVIP – SỰ LỰA CHỌN HOÀN HẢO CHO GAME THỦ VIỆT'; standard casino/betting SEO spam."
+    },
+    {
+      "pid": "3b8c13e1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, title '88XX' fits casino-brand SEO pattern on this host; wayback default is human."
+    },
+    {
+      "pid": "3c0a820b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, Japanese romanization title 'rinhachimitsu' with no swarm markers; wayback default is human."
+    },
+    {
+      "pid": "3cdb80c6",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty body, generic 'Untitled' with no reply thread, no visible signals; wayback default is human."
+    },
+    {
+      "pid": "3cfd5a91",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling brand title 'Nhà cái SHBET'; casino SEO spam."
+    },
+    {
+      "pid": "3d9a7daf",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Health-tip SEO title with reply from 'take my online exam' account promoting exam-cheating service; 2022 timestamp predates swarm."
+    },
+    {
+      "pid": "3db0c6a8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling promo title 'B52 Club Link Tải Game B52 Chính Thức'; casino SEO spam."
+    },
+    {
+      "pid": "3e5ceae6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2022 self-help title 'Acknowledge, Accept, Empower and Heal'; predates swarm, human wellness content."
+    },
+    {
+      "pid": "3f9f3bb4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling brand title 'Good88'; casino SEO spam."
+    },
+    {
+      "pid": "3fe59921",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Lu88' matches casino/betting brand style dominant in this batch; wayback default is human."
+    },
+    {
+      "pid": "40153710",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling brand title 'Nhà Cái King88'; casino SEO spam."
+    },
+    {
+      "pid": "40468774",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'C54 in' matches Vietnamese casino brand pattern (C54 is a known Vietnamese betting site); SEO spam."
+    },
+    {
+      "pid": "40ecfbee",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Re: Dating Single Men for a New Day' with base64-encoded body; 2023 personal/dating thread reply, predates swarm."
+    },
+    {
+      "pid": "413a850b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese feng shui SEO title 'Phong Thủy - Cách thu hút tài lộc và may mắn'; lifestyle spam, not swarm."
+    },
+    {
+      "pid": "41dc765b",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese sports-betting SEO title 'keonhacai 5usorg' (keonhacai = football odds); gambling spam."
+    },
+    {
+      "pid": "424f1621",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'wi88chime' fits '88' casino-brand suffix pattern; wayback default is human."
+    },
+    {
+      "pid": "43ee4738",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and empty body; no signals; wayback default is human."
+    },
+    {
+      "pid": "4459708c",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling promo title 'QH88 - Đăng Nhập QH88 Nhận Khuyến Mãi Vip 2025'; casino SEO spam."
+    },
+    {
+      "pid": "446e29c3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling promo title 'Nhà Cái So79 - Thu hút game thủ từ mọi lứa tuổi'; casino SEO spam."
+    },
+    {
+      "pid": "44ad9611",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'IWIN' is a well-known Vietnamese gambling brand; SEO spam."
+    },
+    {
+      "pid": "4651f346",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; no signals; wayback default is human."
+    },
+    {
+      "pid": "472f5dda",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; no signals; wayback default is human."
+    },
+    {
+      "pid": "4b22f472",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling brand title 'VN88'; casino SEO spam."
+    },
+    {
+      "pid": "4b5589c5",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'VVVWIN' matches casino/betting brand naming pattern; wayback default is human."
+    },
+    {
+      "pid": "4b6acc1e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty 'Untitled' body; no swarm markers; wayback default is human."
+    },
+    {
+      "pid": "4c377ed0",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Random keyboard-mash title 'fewtrrfgryr' with 2024-01 timestamp; typical human noise paste, no swarm signals."
+    },
+    {
+      "pid": "4cdeb686",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty 'Untitled' body; 2025-01 timestamp; no signals; wayback default is human."
+    },
+    {
+      "pid": "4d04021b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; no signals; wayback default is human."
+    },
+    {
+      "pid": "4f901570",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; no signals; wayback default is human."
+    },
+    {
+      "pid": "50a05ef5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Adult/porn SEO title 'Vip XnXX Sex Tubes - Webcam Extreme Sex Videos'; classic spam, 2023 timestamp predates swarm."
+    },
+    {
+      "pid": "51254d33",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese gambling brand title 'Nhà cái RC88'; casino SEO spam."
+    },
+    {
+      "pid": "5234bbdc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Personal relationship title 'Relationsips standard Ie set for myself' with 2023-01 timestamp; predates swarm, human blog content."
+    },
+    {
+      "pid": "52b126ce",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title '79kingobserver' references 79KING Vietnamese betting brand; casino SEO spam."
+    },
+    {
+      "pid": "53c99f16",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; no signals; wayback default is human."
+    },
+    {
+      "pid": "53eff517",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty title and body; no signals; wayback default is human."
+    }
+  ]
+}

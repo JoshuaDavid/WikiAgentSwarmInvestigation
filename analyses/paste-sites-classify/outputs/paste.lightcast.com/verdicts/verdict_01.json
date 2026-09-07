@@ -1,0 +1,246 @@
+{
+  "batch_index": 1,
+  "host": "https://paste.lightcast.com/",
+  "verdicts": [
+    {
+      "pid": "18bf3f90",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title '98win' is Vietnamese gambling SEO spam; no swarm handle or task-clock markers; body unavailable so lean human on wayback."
+    },
+    {
+      "pid": "1964cc52",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Vietnamese personal name 'Cao Nghĩa' as title; no swarm tells; wayback-sourced with empty body."
+    },
+    {
+      "pid": "1a4de9c8",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title and body, wayback-sourced; no evidence of swarm; default to human on wayback."
+    },
+    {
+      "pid": "1a771e86",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'KONG88 WIKI' is Vietnamese gambling SEO spam pattern, not a swarm title series."
+    },
+    {
+      "pid": "1b83f95a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic 'Untitled' title, empty body, wayback-sourced; no swarm tells so default to human."
+    },
+    {
+      "pid": "1c837f91",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'choangclubs' matches Vietnamese gambling SEO spam; no swarm handles or task markers."
+    },
+    {
+      "pid": "1cfb1e24",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Nhà cái Lode88' is Vietnamese betting-site SEO spam ('nhà cái' = 'bookmaker')."
+    },
+    {
+      "pid": "1d67f61e",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'RIKVIP' is a well-known Vietnamese online casino brand; SEO spam pattern."
+    },
+    {
+      "pid": "1dfbbfd6",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'28bet' is gambling SEO spam; no swarm markers."
+    },
+    {
+      "pid": "1e625353",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Cat368 - Thương Hiệu Cá Cược Trực Tuyến Uy Tín' is Vietnamese online betting brand SEO spam."
+    },
+    {
+      "pid": "1ecf8f22",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'GO88' is a Vietnamese gambling app; SEO spam pattern despite 2026 wayback capture."
+    },
+    {
+      "pid": "1f2100f9",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'DA88 - Sân Chơi Cá Cược Thể Thao' is Vietnamese sports betting SEO spam."
+    },
+    {
+      "pid": "1f4750ff",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'FEBET | Nhà Cái Uy Tín' is Vietnamese betting-site SEO spam."
+    },
+    {
+      "pid": "1f9f2931",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'009 Casino Vip' is casino SEO spam; explicit human-tell per prompt."
+    },
+    {
+      "pid": "2051db27",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'88i – Nền tảng cá cược trực tuyến' is Vietnamese online betting platform SEO spam."
+    },
+    {
+      "pid": "21b9b0a1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title and body, wayback-sourced with no swarm signal; default to human."
+    },
+    {
+      "pid": "222a2f2a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Wayback timestamp 2023-01-30 is pre-swarm; 'Re: Dating Single Men' matches earlier dating-blog reposts on this host."
+    },
+    {
+      "pid": "228f372f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'SG777 Adventure - Dive into Entertainment' is online-casino SEO spam."
+    },
+    {
+      "pid": "22e56228",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title and body wayback-sourced; no swarm signal so default to human."
+    },
+    {
+      "pid": "232754c5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Wayback timestamp 2023-01-30 predates the swarm; dating-blog title matches other 2023 human posts on this host."
+    },
+    {
+      "pid": "248359a6",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'linkdwincity' looks like a betting-site SEO slug; no swarm markers."
+    },
+    {
+      "pid": "25314fbb",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "'nhanle' is a Vietnamese personal name / handle; no swarm tells."
+    },
+    {
+      "pid": "259aff32",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'89bet' is gambling SEO spam matching the site pattern."
+    },
+    {
+      "pid": "25b1a9cf",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'u888observer' is Vietnamese gambling-brand SEO slug."
+    },
+    {
+      "pid": "264de809",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title and body wayback-sourced; no swarm signal so default to human."
+    },
+    {
+      "pid": "26a87d77",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'jobetzip' looks like a betting-site SEO slug; no swarm handle or task marker."
+    },
+    {
+      "pid": "271dd26d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic 'Untitled' with empty body on wayback; no swarm signal so default to human."
+    },
+    {
+      "pid": "28618174",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'gemwin2win' is Vietnamese gambling brand ('gemwin') SEO spam."
+    },
+    {
+      "pid": "2aa7e7f9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Wayback timestamp 2023-09-24 is pre-swarm; dating-blog title matches other 2023 human posts on this host."
+    },
+    {
+      "pid": "2ac702e6",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'QH88 Nhà Cái Uy Tín' is Vietnamese bookmaker SEO spam."
+    },
+    {
+      "pid": "2bcd6e0e",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Dịch vụ bảo vệ' ('security service') is Vietnamese-language SEO spam for a physical service."
+    },
+    {
+      "pid": "2f054f88",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'blue88asia' is gambling SEO spam; the one reply also uses the same brand handle 'blue88asia', matching typical SEO thread inflation not swarm relay."
+    },
+    {
+      "pid": "2fe6cd33",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'uu88vt' is Vietnamese gambling brand SEO spam."
+    },
+    {
+      "pid": "30848f57",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'Hbbet Trải Nghiệm Cá Cược Đỉnh Cao' is Vietnamese betting SEO spam."
+    },
+    {
+      "pid": "317bed30",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'S8Club Bóng Đá' is Vietnamese football-betting brand SEO spam."
+    },
+    {
+      "pid": "32d64554",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title and body wayback-sourced; no swarm signal so default to human."
+    },
+    {
+      "pid": "3337e6a3",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title and body wayback-sourced; no swarm signal so default to human."
+    },
+    {
+      "pid": "334243fb",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'NỔ HŨ' ('slot jackpot' in Vietnamese) is gambling-app SEO spam."
+    },
+    {
+      "pid": "33a2fcef",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "'sunwin666com' is Vietnamese gambling brand SEO spam ('Sunwin' is a well-known VN casino app)."
+    },
+    {
+      "pid": "34a497f7",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-01-30 pre-swarm capture; body is explicit human-authored anecdote plus bit.ly shortener spam, classic dating-blog paste dump."
+    }
+  ]
+}

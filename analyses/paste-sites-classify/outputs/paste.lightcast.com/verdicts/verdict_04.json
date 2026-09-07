@@ -1,0 +1,246 @@
+{
+  "batch_index": 4,
+  "host": "https://paste.lightcast.com/",
+  "verdicts": [
+    {
+      "pid": "7b60892a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback archive returned empty body; no title/name/content to key on; default to human on wayback-sourced."
+    },
+    {
+      "pid": "7d8d0a7d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PUA/dating blog post with bit.ly link farm dated 2023-01-30, pre-swarm era; narrative first-person prose about picking up women."
+    },
+    {
+      "pid": "7f5eb7cf",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body; no swarm tells present; default human on wayback."
+    },
+    {
+      "pid": "7f71a392",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'GO88 Nơi Giải Trí Trực Tuyến An Toàn Và Kịch Tính' is Vietnamese online-casino SEO spam, matches known human-spam pattern."
+    },
+    {
+      "pid": "810fb2c3",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Google news 2023' is SEO/newsjacking spam from 2024-04, no swarm markers."
+    },
+    {
+      "pid": "81a53caf",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, no title/name; default human on wayback."
+    },
+    {
+      "pid": "81bc240f",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'j88gripe' matches j88 Vietnamese betting SEO series, standard human casino spam."
+    },
+    {
+      "pid": "822e0a84",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'SUNCITY' is casino brand SEO spam, no swarm markers."
+    },
+    {
+      "pid": "8272b8d0",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, no title/name; default human on wayback."
+    },
+    {
+      "pid": "836d1db9",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'S8' fits gambling-brand SEO spam series, no swarm markers."
+    },
+    {
+      "pid": "85bc1fbf",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese casino SEO spam title 'RC88 - Sân chơi cá cược đẳng cấp'."
+    },
+    {
+      "pid": "87919e49",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'ko66observer' fits ko66 gambling-brand SEO spam pattern."
+    },
+    {
+      "pid": "8966126c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'mm99' matches numbered gambling-brand SEO spam series."
+    },
+    {
+      "pid": "8a5785dd",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Vietnamese casino SEO spam 'ST666 LINK TRANG CHỦ'; replies from Unknown handles are typical of spam Q&A padding, not swarm."
+    },
+    {
+      "pid": "8bc4b58b",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body; default human on wayback."
+    },
+    {
+      "pid": "8c143578",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Olybet - Nen Tang Ca Cuoc Truc Tuyen Den Tu Chau A' is Vietnamese online-casino SEO spam."
+    },
+    {
+      "pid": "8ca994b6",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body; default human on wayback."
+    },
+    {
+      "pid": "8cc319d9",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'zobetdev' matches gambling-brand SEO spam pattern."
+    },
+    {
+      "pid": "8d56af83",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, generic 'Untitled' title, no swarm markers; default human on wayback."
+    },
+    {
+      "pid": "8d59b5be",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'xo88name' matches xo88 gambling-brand SEO spam series."
+    },
+    {
+      "pid": "8d7effdc",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PUA dating-blog paste dated 2022-07 with bit.ly link farm; pre-swarm-era human content."
+    },
+    {
+      "pid": "8d929180",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, 'Untitled'; default human on wayback."
+    },
+    {
+      "pid": "8ea90e32",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Okvip Top' is Vietnamese affiliate/casino SEO spam."
+    },
+    {
+      "pid": "8eb9c959",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'ABC8 Trải Nghiệm Cá Cược Trực Tuyến' is Vietnamese casino SEO spam."
+    },
+    {
+      "pid": "8f86055d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, 'Untitled'; default human on wayback."
+    },
+    {
+      "pid": "8fb89bb7",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title '#1 Planet Clicker – Free Online Idle Clicker Game' is game-affiliate SEO spam."
+    },
+    {
+      "pid": "912d95c8",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Japanese SEO/market-research title on NDT market trends, standard promotional spam."
+    },
+    {
+      "pid": "919a3f50",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'VM88' matches numbered gambling-brand SEO spam series."
+    },
+    {
+      "pid": "91bd2ef9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PUA dating-blog paste dated 2023-01 with link farm to Dutch/Belgian brides-personals domains; pre-swarm-era human content."
+    },
+    {
+      "pid": "93196e0d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'EV88 Casino' is casino SEO spam."
+    },
+    {
+      "pid": "936a1722",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, no title; default human on wayback."
+    },
+    {
+      "pid": "93971129",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'M88' matches numbered gambling-brand SEO spam series."
+    },
+    {
+      "pid": "943c63da",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'Best Cannabis Gummies' is affiliate/product SEO spam."
+    },
+    {
+      "pid": "94e2bdd1",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'IP88- Trang chủ chính thức của ip88.com' is Vietnamese casino SEO spam."
+    },
+    {
+      "pid": "9579478d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "PUA dating-blog paste dated 2023-01 with statesmen/brides link farm; pre-swarm-era human content."
+    },
+    {
+      "pid": "95ab9b82",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Keonhacai' (Vietnamese betting-odds site) with reply from '9keonhacaicom' is standard casino-SEO spam and its own back-link commenter, not swarm relay."
+    },
+    {
+      "pid": "97e3e9f3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Title 'Online Casino Singapore' is casino SEO spam."
+    },
+    {
+      "pid": "99c2a766",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, no title; default human on wayback."
+    },
+    {
+      "pid": "9a0eb4be",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Empty archive body, 'Untitled'; default human on wayback."
+    },
+    {
+      "pid": "9a26f9b9",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Title 'SUNWIN' is Vietnamese casino brand SEO spam."
+    }
+  ]
+}
