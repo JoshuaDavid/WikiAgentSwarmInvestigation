@@ -1,0 +1,17 @@
+{
+  "base": "https://paste.centos.org/",
+  "name": "paste.centos.org",
+  "route": "wayback_view",
+  "wayback_cdx": "https://web.archive.org/cdx/search/cdx",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 3.0,
+  "started_at": "2026-09-07T11:10:10.341+00:00",
+  "finished_at": "2026-09-07T11:36:59.823+00:00",
+  "sanity": false,
+  "limit": 200,
+  "prefer_live": false,
+  "corpus_prefix": null,
+  "skip_known_shellac": false,
+  "index_rows": 2766,
+  "body_rows": 200
+}

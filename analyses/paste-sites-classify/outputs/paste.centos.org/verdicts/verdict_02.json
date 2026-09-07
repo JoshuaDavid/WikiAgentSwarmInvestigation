@@ -1,0 +1,246 @@
+{
+  "batch_index": 2,
+  "host": "https://paste.centos.org/",
+  "verdicts": [
+    {
+      "pid": "06566059",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Wayback-only, empty body, generic UNTITLED; no swarm tell present so lean human per wayback policy."
+    },
+    {
+      "pid": "06649a6c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'dcfgndnb dfb dfbsdfv' typical of a human quick-testing the paste box."
+    },
+    {
+      "pid": "069c9973",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Short random-caps title '56USTR5' with no body content and no known swarm series match."
+    },
+    {
+      "pid": "06a24139",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'sdfdsfds' consistent with a human testing the paste form."
+    },
+    {
+      "pid": "06a53127",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'yurtyrtr' typical of a human quick-test paste."
+    },
+    {
+      "pid": "06da31e1",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic Untitled with empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "06ea6522",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic Untitled with empty body; no swarm tell so lean human on wayback."
+    },
+    {
+      "pid": "06ec8052",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Random-caps title 'T7879OIUJH' with empty body; not matching any known swarm series (TEL/TK/GOR/URLTEST)."
+    },
+    {
+      "pid": "06f60ca2",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-02 pre-swarm timestamp; a real bash+ffmpeg shuffle-concat script solving a specific human video editing problem."
+    },
+    {
+      "pid": "06fbe31a",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'uy7yudtryt' with empty body; typical human test paste."
+    },
+    {
+      "pid": "070c7221",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Random-caps title '8I5D54T6RETG' with empty body; no known swarm-series match."
+    },
+    {
+      "pid": "071252ac",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Random-caps title 'UYRDURTYTR' with empty body; no known swarm-series match."
+    },
+    {
+      "pid": "0719b49a",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title, empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "0760b77c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Nonsense phrase 'giouwvanie dows zant' (possibly garbled Polish/gibberish) with empty body; human test paste."
+    },
+    {
+      "pid": "077acd70",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'earetgsrdg' typical of a human quick-test."
+    },
+    {
+      "pid": "0784a9a0",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'iuyiuytvfy' consistent with human quick-test paste."
+    },
+    {
+      "pid": "078bb504",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Random-caps title 'HAHYVJKWTG2' with empty body; no known swarm-series match."
+    },
+    {
+      "pid": "078c2ae0",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title, empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "079553bc",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "2024-09 pre-swarm-canonical timestamp with keyboard-mash 'sdfgfdfdg' title; human quick-test."
+    },
+    {
+      "pid": "07a96e15",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title, empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "07ab4618",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Short random-caps title 'POOU' with empty body; no swarm-series match."
+    },
+    {
+      "pid": "07ed9a1b",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'defrytdy' typical of a human quick-test paste."
+    },
+    {
+      "pid": "07f42c18",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic Untitled with empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "07ffe262",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic Untitled with empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "0808d22c",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Random-caps title 'YJUYDTRY' with empty body; no known swarm-series match."
+    },
+    {
+      "pid": "080efe58",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "2024-11 Untitled with empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "080f70a7",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash 'dsfbdsfbsdv ascasc' title typical of human quick-test paste."
+    },
+    {
+      "pid": "085a5b12",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'asdfg' typical of a human quick-test."
+    },
+    {
+      "pid": "087de506",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Short random-caps title 'FRGRTE' with empty body; no swarm-series match."
+    },
+    {
+      "pid": "0897ef21",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-04 pre-swarm timestamp, X11 session debug journalctl paste, replied to by named human 'Piotr Dobrogost' — real support thread."
+    },
+    {
+      "pid": "08a5579c",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'yutd7utyrt' typical of human quick-test paste."
+    },
+    {
+      "pid": "08fecff5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "250 KB dnf/yum list of python-*-doc.noarch packages from EL9/EPEL — a real sysadmin package audit dump, not swarm content."
+    },
+    {
+      "pid": "09578c54",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Blank title, empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "09638401",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'sd6543x2c1vb' typical of a human quick-test paste."
+    },
+    {
+      "pid": "0982131d",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Random-caps title 'YUDYXRTR' with empty body; no swarm-series match."
+    },
+    {
+      "pid": "09930c8e",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic Untitled with empty body; wayback policy defaults to human."
+    },
+    {
+      "pid": "09c4ae74",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'uytyuydtryt' typical of a human quick-test paste."
+    },
+    {
+      "pid": "09c691e3",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "2023-11 pre-swarm timestamp UNTITLED paste; the RL agent swarm did not yet exist."
+    },
+    {
+      "pid": "0a0f96be",
+      "verdict": "human",
+      "confidence": "medium",
+      "rationale": "Keyboard-mash title 'vfzsdgeshrhyrsyh' typical of a human quick-test paste."
+    },
+    {
+      "pid": "0a18e1cf",
+      "verdict": "human",
+      "confidence": "low",
+      "rationale": "Generic Untitled with empty body; wayback policy defaults to human."
+    }
+  ]
+}
