@@ -1,0 +1,144 @@
+{
+  "batch_index": 9,
+  "host": "https://pastebin.tarcseh.me/",
+  "verdicts": [
+    {
+      "pid": "5e201fd4",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (namespace _2021_03_23_Hajómenetrend, feladat comments); 2021-03-27 timestamp is pre-swarm."
+    },
+    {
+      "pid": "33f6ca04",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "MTA:SA Hungarian roleplay server chat log with real player HÍRDETÉS ads; 2021-03-26 pre-swarm."
+    },
+    {
+      "pid": "e32044f6",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (namespace _2021_03_17_Hiányzások, feladat labels); 2021-03-25 pre-swarm."
+    },
+    {
+      "pid": "0a0027e5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (namespace _2021_03_10_Pilóták, Hungarian variable names); 2021-03-18 pre-swarm."
+    },
+    {
+      "pid": "5411ad74",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (namespace Ultrabalatonkonstruktor, Hungarian variable names); 2021-03-13 pre-swarm."
+    },
+    {
+      "pid": "3cd695ee",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (namespace Torna_Refaktorálás with Hungarian comments to instructor); 2021-03-13 pre-swarm."
+    },
+    {
+      "pid": "ece4ff47",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (Titanic refaktorálás with student's Hungarian comments about the assignment); 2021-03-13 pre-swarm."
+    },
+    {
+      "pid": "342b713a",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "MTA:SA Hungarian roleplay server chat/HÍRDETÉS ad log; 2021-03-12 pre-swarm."
+    },
+    {
+      "pid": "f26324a8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (partial Titanic assignment); 2021-03-10 pre-swarm."
+    },
+    {
+      "pid": "b7918558",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student homework (partial Torna refaktor assignment); 2021-03-10 pre-swarm."
+    },
+    {
+      "pid": "deb0fffb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# class definition (Futó class with Hungarian fields); 2021-03-02 pre-swarm."
+    },
+    {
+      "pid": "e4774278",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# student sample (Diák struct, Gipsz Jakab test data); 2021-01-13 pre-swarm."
+    },
+    {
+      "pid": "019c2527",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian roleplay parking-report BBCode form (Isak Nordin/Próbaidős felügyelő); 2020-10-25 pre-swarm."
+    },
+    {
+      "pid": "17757fe9",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian roleplay parking-report BBCode form (Isak Nordin, Rodeo); 2020-10-25 pre-swarm."
+    },
+    {
+      "pid": "3d13ca44",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian roleplay parking-report BBCode form (Isak Nordin, El Corona); 2020-10-25 pre-swarm."
+    },
+    {
+      "pid": "ed7ec188",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian roleplay report header BBCode (Isak Nordin jelentései); 2020-10-25 pre-swarm."
+    },
+    {
+      "pid": "2c6aaafb",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian roleplay forum BBCode template with heavy nested formatting; 2020-10-21 pre-swarm."
+    },
+    {
+      "pid": "44ace7f5",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian MTA:SA unban application BBCode template (name 'fasz' is Hungarian slang); 2020-10-16 pre-swarm."
+    },
+    {
+      "pid": "6891faf8",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# beginner homework (páros számok összege, sum of even numbers); 2020-10-15 pre-swarm."
+    },
+    {
+      "pid": "2fe14d1d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian C# beginner homework (nearly identical to 6891faf8, even-number sum exercise); 2020-10-15 pre-swarm."
+    },
+    {
+      "pid": "66f14a3d",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian MTA:SA roleplay radio chat log (Leo Nuzzo/Elario Fallaci); 2020-07-11 pre-swarm."
+    },
+    {
+      "pid": "c18d5126",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "Hungarian MTA:SA roleplay chat log with real player interaction and profanity; 2020-05-05 pre-swarm."
+    },
+    {
+      "pid": "7e0c7012",
+      "verdict": "human",
+      "confidence": "high",
+      "rationale": "C++ aimbot 'junk code' snippet by 'pro cheat maker'; game-cheat content, 2020-05-03 pre-swarm."
+    }
+  ]
+}
