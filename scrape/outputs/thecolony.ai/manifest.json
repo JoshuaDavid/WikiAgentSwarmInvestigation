@@ -1,0 +1,399 @@
+{
+  "base": "https://thecolony.ai",
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)",
+  "sleep_seconds": 3.0,
+  "started_at": "2026-09-08T05:17:32+00:00",
+  "route": "public_readonly",
+  "notes": [
+    "Read-only. No authenticated calls; no agent registration.",
+    "This site is a social network for AI agents that appeared in swarm-corpus recruitment pastes from 2026-09-04 onward. Its relationship to the OpenAI incident is unclear."
+  ],
+  "fetches": [
+    {
+      "path": "for-agents",
+      "outname": "for-agents.html",
+      "status": 200,
+      "bytes": 86090,
+      "error": null,
+      "at": "2026-09-08T05:17:33+00:00"
+    },
+    {
+      "path": "api/v1/instructions",
+      "outname": "api_v1_instructions.md",
+      "status": 200,
+      "bytes": 198020,
+      "error": null,
+      "at": "2026-09-08T05:17:37+00:00"
+    },
+    {
+      "path": "api/v1/colonies?limit=200",
+      "outname": "api_v1_colonies.json",
+      "status": 200,
+      "bytes": 27620,
+      "error": null,
+      "at": "2026-09-08T05:17:41+00:00"
+    },
+    {
+      "path": "feed.rss",
+      "outname": "feed.rss",
+      "status": 200,
+      "bytes": 41233,
+      "error": null,
+      "at": "2026-09-08T05:17:45+00:00"
+    },
+    {
+      "path": "c/findings/feed.rss",
+      "outname": "c_findings_feed.rss",
+      "status": 200,
+      "bytes": 43397,
+      "error": null,
+      "at": "2026-09-08T05:17:49+00:00"
+    },
+    {
+      "path": "c/general/feed.rss",
+      "outname": "c_general_feed.rss",
+      "status": 200,
+      "bytes": 43766,
+      "error": null,
+      "at": "2026-09-08T05:17:52+00:00"
+    },
+    {
+      "path": "c/agent-economy/feed.rss",
+      "outname": "c_agent-economy_feed.rss",
+      "status": 200,
+      "bytes": 41144,
+      "error": null,
+      "at": "2026-09-08T05:17:56+00:00"
+    },
+    {
+      "path": "c/introductions/feed.rss",
+      "outname": "c_introductions_feed.rss",
+      "status": 200,
+      "bytes": 41630,
+      "error": null,
+      "at": "2026-09-08T05:18:00+00:00"
+    },
+    {
+      "path": "c/questions/feed.rss",
+      "outname": "c_questions_feed.rss",
+      "status": 200,
+      "bytes": 42579,
+      "error": null,
+      "at": "2026-09-08T05:18:04+00:00"
+    },
+    {
+      "path": "c/meta/feed.rss",
+      "outname": "c_meta_feed.rss",
+      "status": 200,
+      "bytes": 42926,
+      "error": null,
+      "at": "2026-09-08T05:18:08+00:00"
+    },
+    {
+      "path": "c/human-requests/feed.rss",
+      "outname": "c_human-requests_feed.rss",
+      "status": 200,
+      "bytes": 25035,
+      "error": null,
+      "at": "2026-09-08T05:18:11+00:00"
+    },
+    {
+      "path": "c/ai-agents/feed.rss",
+      "outname": "c_ai-agents_feed.rss",
+      "status": 200,
+      "bytes": 44324,
+      "error": null,
+      "at": "2026-09-08T05:18:15+00:00"
+    },
+    {
+      "path": "c/cryptocurrency/feed.rss",
+      "outname": "c_cryptocurrency_feed.rss",
+      "status": 200,
+      "bytes": 42289,
+      "error": null,
+      "at": "2026-09-08T05:18:19+00:00"
+    },
+    {
+      "path": "c/science/feed.rss",
+      "outname": "c_science_feed.rss",
+      "status": 200,
+      "bytes": 43025,
+      "error": null,
+      "at": "2026-09-08T05:18:23+00:00"
+    },
+    {
+      "path": "c/reviews/feed.rss",
+      "outname": "c_reviews_feed.rss",
+      "status": 200,
+      "bytes": 24801,
+      "error": null,
+      "at": "2026-09-08T05:18:27+00:00"
+    },
+    {
+      "path": "c/build-in-public/feed.rss",
+      "outname": "c_build-in-public_feed.rss",
+      "status": 200,
+      "bytes": 43572,
+      "error": null,
+      "at": "2026-09-08T05:18:31+00:00"
+    },
+    {
+      "path": "c/test-posts/feed.rss",
+      "outname": "c_test-posts_feed.rss",
+      "status": 200,
+      "bytes": 443,
+      "error": null,
+      "at": "2026-09-08T05:18:34+00:00"
+    },
+    {
+      "path": "c/art/feed.rss",
+      "outname": "c_art_feed.rss",
+      "status": 200,
+      "bytes": 42281,
+      "error": null,
+      "at": "2026-09-08T05:18:38+00:00"
+    },
+    {
+      "path": "c/ainglish/feed.rss",
+      "outname": "c_ainglish_feed.rss",
+      "status": 200,
+      "bytes": 44466,
+      "error": null,
+      "at": "2026-09-08T05:18:42+00:00"
+    },
+    {
+      "path": "c/help/feed.rss",
+      "outname": "c_help_feed.rss",
+      "status": 200,
+      "bytes": 5613,
+      "error": null,
+      "at": "2026-09-08T05:18:45+00:00"
+    },
+    {
+      "path": "c/feature-requests/feed.rss",
+      "outname": "c_feature-requests_feed.rss",
+      "status": 200,
+      "bytes": 10683,
+      "error": null,
+      "at": "2026-09-08T05:18:49+00:00"
+    },
+    {
+      "path": "c/ads/feed.rss",
+      "outname": "c_ads_feed.rss",
+      "status": 200,
+      "bytes": 25972,
+      "error": null,
+      "at": "2026-09-08T05:18:53+00:00"
+    },
+    {
+      "path": "c/local-agents/feed.rss",
+      "outname": "c_local-agents_feed.rss",
+      "status": 200,
+      "bytes": 7110,
+      "error": null,
+      "at": "2026-09-08T05:18:56+00:00"
+    },
+    {
+      "path": "c/the-colon/feed.rss",
+      "outname": "c_the-colon_feed.rss",
+      "status": 200,
+      "bytes": 12923,
+      "error": null,
+      "at": "2026-09-08T05:19:00+00:00"
+    },
+    {
+      "path": "c/artifact-council/feed.rss",
+      "outname": "c_artifact-council_feed.rss",
+      "status": 200,
+      "bytes": 44353,
+      "error": null,
+      "at": "2026-09-08T05:19:04+00:00"
+    },
+    {
+      "path": "c/theology/feed.rss",
+      "outname": "c_theology_feed.rss",
+      "status": 200,
+      "bytes": 20049,
+      "error": null,
+      "at": "2026-09-08T05:19:08+00:00"
+    },
+    {
+      "path": "c/space-tech/feed.rss",
+      "outname": "c_space-tech_feed.rss",
+      "status": 200,
+      "bytes": 11552,
+      "error": null,
+      "at": "2026-09-08T05:19:11+00:00"
+    },
+    {
+      "path": "c/touchstone/feed.rss",
+      "outname": "c_touchstone_feed.rss",
+      "status": 200,
+      "bytes": 3137,
+      "error": null,
+      "at": "2026-09-08T05:19:15+00:00"
+    },
+    {
+      "path": "c/vow-protocol/feed.rss",
+      "outname": "c_vow-protocol_feed.rss",
+      "status": 200,
+      "bytes": 10074,
+      "error": null,
+      "at": "2026-09-08T05:19:19+00:00"
+    },
+    {
+      "path": "c/integration-dynamics/feed.rss",
+      "outname": "c_integration-dynamics_feed.rss",
+      "status": 200,
+      "bytes": 12481,
+      "error": null,
+      "at": "2026-09-08T05:19:22+00:00"
+    },
+    {
+      "path": "c/progenly/feed.rss",
+      "outname": "c_progenly_feed.rss",
+      "status": 200,
+      "bytes": 2281,
+      "error": null,
+      "at": "2026-09-08T05:19:26+00:00"
+    },
+    {
+      "path": "c/schelling-point/feed.rss",
+      "outname": "c_schelling-point_feed.rss",
+      "status": 200,
+      "bytes": 6156,
+      "error": null,
+      "at": "2026-09-08T05:19:29+00:00"
+    },
+    {
+      "path": "c/mathsclub/feed.rss",
+      "outname": "c_mathsclub_feed.rss",
+      "status": 200,
+      "bytes": 8316,
+      "error": null,
+      "at": "2026-09-08T05:19:33+00:00"
+    },
+    {
+      "path": "c/stocks/feed.rss",
+      "outname": "c_stocks_feed.rss",
+      "status": 200,
+      "bytes": 7424,
+      "error": null,
+      "at": "2026-09-08T05:19:37+00:00"
+    },
+    {
+      "path": "c/thecolony/feed.rss",
+      "outname": "c_thecolony_feed.rss",
+      "status": 200,
+      "bytes": 10446,
+      "error": null,
+      "at": "2026-09-08T05:19:40+00:00"
+    },
+    {
+      "path": "c/beacon/feed.rss",
+      "outname": "c_beacon_feed.rss",
+      "status": 200,
+      "bytes": 418,
+      "error": null,
+      "at": "2026-09-08T05:19:44+00:00"
+    },
+    {
+      "path": "c/hexagonia/feed.rss",
+      "outname": "c_hexagonia_feed.rss",
+      "status": 200,
+      "bytes": 1254,
+      "error": null,
+      "at": "2026-09-08T05:19:47+00:00"
+    },
+    {
+      "path": "c/with-mew-social/feed.rss",
+      "outname": "c_with-mew-social_feed.rss",
+      "status": 200,
+      "bytes": 6224,
+      "error": null,
+      "at": "2026-09-08T05:19:51+00:00"
+    },
+    {
+      "path": "c/random-thoughts/feed.rss",
+      "outname": "c_random-thoughts_feed.rss",
+      "status": 200,
+      "bytes": 17373,
+      "error": null,
+      "at": "2026-09-08T05:19:55+00:00"
+    },
+    {
+      "path": "c/test-colony/feed.rss",
+      "outname": "c_test-colony_feed.rss",
+      "status": 200,
+      "bytes": 246,
+      "error": null,
+      "at": "2026-09-08T05:19:58+00:00"
+    },
+    {
+      "path": "u/amsedmens/feed.rss",
+      "outname": "u_amsedmens_feed.rss",
+      "status": 200,
+      "bytes": 1473,
+      "error": null,
+      "at": "2026-09-08T05:20:03+00:00"
+    },
+    {
+      "path": "u/feeble9583/feed.rss",
+      "outname": "u_feeble9583_feed.rss",
+      "status": 200,
+      "bytes": 8877,
+      "error": null,
+      "at": "2026-09-08T05:20:07+00:00"
+    },
+    {
+      "path": "u/hermes-final/feed.rss",
+      "outname": "u_hermes-final_feed.rss",
+      "status": 200,
+      "bytes": 44985,
+      "error": null,
+      "at": "2026-09-08T05:20:11+00:00"
+    },
+    {
+      "path": "u/hongniu_niu/feed.rss",
+      "outname": "u_hongniu_niu_feed.rss",
+      "status": 404,
+      "bytes": 14,
+      "error": "HTTPError 404 Not Found",
+      "at": "2026-09-08T05:20:14+00:00"
+    },
+    {
+      "path": "u/jorwhol/feed.rss",
+      "outname": "u_jorwhol_feed.rss",
+      "status": 200,
+      "bytes": 18094,
+      "error": null,
+      "at": "2026-09-08T05:20:18+00:00"
+    },
+    {
+      "path": "u/skdhbegjk/feed.rss",
+      "outname": "u_skdhbegjk_feed.rss",
+      "status": 200,
+      "bytes": 1197,
+      "error": null,
+      "at": "2026-09-08T05:20:22+00:00"
+    },
+    {
+      "path": "u/tom-chat-claude/feed.rss",
+      "outname": "u_tom-chat-claude_feed.rss",
+      "status": 200,
+      "bytes": 1239,
+      "error": null,
+      "at": "2026-09-08T05:20:25+00:00"
+    }
+  ],
+  "creators_discovered": [
+    "amsedmens",
+    "feeble9583",
+    "hermes-final",
+    "hongniu_niu",
+    "jorwhol",
+    "skdhbegjk",
+    "tom-chat-claude"
+  ],
+  "finished_at": "2026-09-08T05:20:28+00:00"
+}
