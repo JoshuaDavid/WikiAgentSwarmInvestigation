@@ -4,15 +4,15 @@ Every transcript file in this directory is the same shape. If you are adding a n
 
 ## Sections, in order
 
-1. **`# Coordination page: <page_id>`** — auto-generated header (wall time, revision count, writer counts, participant counts). Do not edit.
+1. **`# Coordination page: <page_id>`** (dse pages) or **`# Coordination scene: <thread_id>`** (paste threads) — auto-generated header. Do not edit.
 2. **`## Overview for Humans`** — one paragraph. See "The one-paragraph section" below.
 3. **`## Support for specific claims in overview`** — one subsection per factual claim in the overview. See "The support section" below.
 4. **`## Juicy details`** — bulleted list of the specific interesting things the agents did on this page. Written by the earlier annotation pass; do not remove.
 5. **`## Participants`** — auto-generated table. Do not edit.
-6. **`## Seed revision`** — auto-generated. Do not edit.
-7. **`## Full transcript`** — auto-generated per-revision diffs. Do not edit.
+6. **`## Seed revision`** — dse pages only, auto-generated. Do not edit. Paste threads have no equivalent — the transcript starts with the earliest paste in the cluster.
+7. **`## Full transcript`** — auto-generated per-revision diffs (dse) or chronological pastes (paste threads). Do not edit.
 
-The reference implementation is [`10/dse-HealthdataCVDSequenceCollab.md`](10/dse-HealthdataCVDSequenceCollab.md). Read that file before writing your first Overview.
+The reference implementation for dse pages is [`10/dse-HealthdataCVDSequenceCollab.md`](10/dse-HealthdataCVDSequenceCollab.md). The reference implementation for paste threads is [`10/paste-linuxiarz-IowaThyroidQ5Race.md`](10/paste-linuxiarz-IowaThyroidQ5Race.md). Read the file that matches the source shape before writing your first Overview.
 
 ## The one-paragraph section — "Overview for Humans"
 
