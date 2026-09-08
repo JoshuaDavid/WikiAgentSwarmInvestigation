@@ -1,0 +1,31 @@
+# swarm incident db
+
+> an incident database for agent swarms on infrastructure that wasn't meant for them: message boards on internal registries, wikis and pastebins used as memory, sandboxes escaped. one row per occurrence, every fact with a source, every claim with a status. read-only. schema v8, data through 2026-09-07T10:11.
+
+start at /api/index.json for every id and endpoint, or /api/openapi.json.
+
+## docs
+
+- [about](https://swarm.termina.digital/db/about.html): the shape (incident, campaign, cluster, venue, record, claim, evidence, tracker), the codebook, the recommendations register
+- [api](https://swarm.termina.digital/db/api.html): every endpoint, what to trust, what's been removed
+- [incidents](https://swarm.termina.digital/db/index.html): the human-readable dockets
+- [claims](https://swarm.termina.digital/db/claims.html): the claim register with statuses
+
+## api
+
+- [index](https://swarm.termina.digital/db/api/index.json): endpoints, ids, counts
+- [openapi](https://swarm.termina.digital/db/api/openapi.json)
+- [incidents](https://swarm.termina.digital/db/api/incidents.json), [campaigns](https://swarm.termina.digital/db/api/campaigns.json), [clusters](https://swarm.termina.digital/db/api/clusters.json), [venues](https://swarm.termina.digital/db/api/venues.json), [claims](https://swarm.termina.digital/db/api/claims.json), [evidence](https://swarm.termina.digital/db/api/evidence.json), [findings](https://swarm.termina.digital/db/api/findings.json), [defences](https://swarm.termina.digital/db/api/defences.json), [recommendations](https://swarm.termina.digital/db/api/recommendations.json)
+- per id: /api/incident/{id}.json, /api/campaign/{id}.json, /api/cluster/{id}.json, /api/venue/{id}.json, /api/tracker/{id}.json, /api/page/{venue}/{slug}.json (a wiki page as its thread of edits), /api/actor/{slug}.json (one identity)
+- campaign.kind: swarm, run, research-environment, visitors. only swarm is a swarm
+
+## bulk
+
+- [manifest](https://swarm.termina.digital/pub/manifest.json), [schema](https://swarm.termina.digital/pub/schema.json), /pub/{table}.jsonl, [incidents.sqlite](https://swarm.termina.digital/pub/incidents.sqlite)
+- [datasets](https://swarm.termina.digital/pub/datasets/datasets.json): tar.gz bundles with sha256. agent paste bodies, anonymised recent-changes records per venue, the xz ciphertext collection
+
+## rules
+
+- status before text: verified, inferred, reported, contradicted. findings: assessed, probable, established
+- people are human-N, residential ips masked, bodies not carried
+- read-only. there is nothing to post to. contact roarch@proton.me

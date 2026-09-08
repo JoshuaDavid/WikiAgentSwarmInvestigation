@@ -1,0 +1,1545 @@
+{
+  "$id": "ai-safety-lab incident db",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "tables": {
+    "actor": {
+      "properties": {
+        "first_seen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "handle",
+            "ip",
+            "ip16",
+            "asn",
+            "model",
+            "developer",
+            "human",
+            "tracker"
+          ]
+        },
+        "last_seen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "venue_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "name",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "actor_link": {
+      "properties": {
+        "basis": {
+          "enum": [
+            "observed",
+            "self-described",
+            "inferred",
+            "reported",
+            "developer-disclosure",
+            "self-identified-handle",
+            "cloud-asn-match",
+            "task-content-match",
+            "timing-match",
+            "cross-site-handle-reuse"
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "from_actor": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "used-ip",
+            "claims-model",
+            "same-as",
+            "operated-by"
+          ]
+        },
+        "to_actor": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "from_actor",
+        "to_actor",
+        "kind",
+        "basis"
+      ],
+      "type": "object"
+    },
+    "alias": {
+      "properties": {
+        "ours": {
+          "type": "string"
+        },
+        "table_name": {
+          "type": "string"
+        },
+        "theirs": {
+          "type": "string"
+        },
+        "tracker_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ours",
+        "table_name",
+        "tracker_id",
+        "theirs"
+      ],
+      "type": "object"
+    },
+    "campaign": {
+      "properties": {
+        "basis": {
+          "type": "array"
+        },
+        "catch_all": {
+          "type": "integer"
+        },
+        "cohesion": {
+          "enum": [
+            "established",
+            "probable",
+            "assessed",
+            "unknown",
+            null
+          ]
+        },
+        "cohesion_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "confirmed",
+            "likely",
+            "possible",
+            "unattributed"
+          ]
+        },
+        "developer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "swarm",
+            "run",
+            "research-environment",
+            "visitors"
+          ]
+        },
+        "models": {
+          "type": "array"
+        },
+        "name": {
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "related": {
+          "type": "array"
+        },
+        "summary": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "summary",
+        "models",
+        "confidence",
+        "kind",
+        "basis",
+        "catch_all",
+        "related"
+      ],
+      "type": "object"
+    },
+    "category": {
+      "properties": {
+        "definition": {
+          "type": "string"
+        },
+        "examples": {
+          "type": "string"
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "definition",
+        "examples"
+      ],
+      "type": "object"
+    },
+    "claim": {
+      "properties": {
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checked_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "made_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "inferred",
+            "reported",
+            "contradicted"
+          ]
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "subject_kind": {
+          "enum": [
+            "incident",
+            "campaign",
+            "cluster",
+            "venue",
+            "actor",
+            "record",
+            "edge"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "subject_kind",
+        "subject_id",
+        "text",
+        "status",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "cluster": {
+      "properties": {
+        "body_markers": {
+          "type": "array"
+        },
+        "campaign_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "datasets": {
+          "type": "array"
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "markers": {
+          "type": "array"
+        },
+        "name": {
+          "type": "string"
+        },
+        "page_match": {
+          "enum": [
+            "0",
+            "1"
+          ]
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "summary_markers": {
+          "type": "array"
+        },
+        "venue_ids": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "summary",
+        "datasets",
+        "markers",
+        "summary_markers",
+        "body_markers",
+        "venue_ids",
+        "page_match"
+      ],
+      "type": "object"
+    },
+    "collection": {
+      "properties": {
+        "at": {
+          "type": "string"
+        },
+        "files": {
+          "type": "array"
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "object"
+        },
+        "target": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "string"
+        },
+        "user_agent": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "at",
+        "tool",
+        "target",
+        "files",
+        "sha256",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "defence": {
+      "properties": {
+        "acted_on": {
+          "enum": [
+            "yes",
+            "late",
+            "no",
+            "unknown",
+            "n/a",
+            null
+          ]
+        },
+        "configured": {
+          "enum": [
+            "yes",
+            "partly",
+            "no",
+            "unknown",
+            null
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "existed": {
+          "enum": [
+            "yes",
+            "no",
+            "unknown"
+          ]
+        },
+        "fired": {
+          "enum": [
+            "yes",
+            "no",
+            "unknown",
+            "n/a",
+            null
+          ]
+        },
+        "incident_id": {
+          "type": "string"
+        },
+        "layer": {
+          "enum": [
+            "egress-allowlist",
+            "sandbox-isolation",
+            "shared-service-isolation",
+            "flow-monitoring",
+            "alert-routing",
+            "on-call",
+            "admission-policy",
+            "eval-hygiene",
+            "output-classifiers",
+            "transcript-integrity",
+            "venue-moderation",
+            "rate-limit",
+            "identity"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "incident_id",
+        "layer",
+        "existed",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "edge": {
+      "properties": {
+        "basis": {
+          "enum": [
+            "structural",
+            "textual",
+            "inferred"
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "from_record": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "reply",
+            "revert",
+            "restore",
+            "relay",
+            "announce",
+            "chunk-of",
+            "same-body",
+            "deletes",
+            "quotes",
+            "logs"
+          ]
+        },
+        "ord": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "to_record": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "from_record",
+        "to_record",
+        "kind",
+        "basis"
+      ],
+      "type": "object"
+    },
+    "evidence": {
+      "properties": {
+        "collection_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "primary",
+            "report",
+            "press",
+            "secondary",
+            "agent-authored"
+          ]
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "published": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retrieved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tracker_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "type": "object"
+    },
+    "figure": {
+      "properties": {
+        "counts": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subject_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subject_kind": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "what": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "what"
+      ],
+      "type": "object"
+    },
+    "finding": {
+      "properties": {
+        "basis": {
+          "type": "string"
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "incident_id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "assessed",
+            "probable",
+            "established"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "incident_id",
+        "text",
+        "status",
+        "basis"
+      ],
+      "type": "object"
+    },
+    "incident": {
+      "properties": {
+        "campaigns": {
+          "type": "array"
+        },
+        "categories": {
+          "type": "array"
+        },
+        "contained": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contained_basis": {
+          "enum": [
+            "known",
+            "estimated",
+            "unknown",
+            null
+          ]
+        },
+        "developers": {
+          "type": "array"
+        },
+        "disclosed_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "disclosed_on": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "discovered": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "discovered_basis": {
+          "enum": [
+            "known",
+            "estimated",
+            "unknown",
+            null
+          ]
+        },
+        "discovered_by": {
+          "enum": [
+            "operator",
+            "venue-owner",
+            "third-party",
+            "victim",
+            "agent",
+            "press",
+            null
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "first_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "first_action_basis": {
+          "enum": [
+            "known",
+            "estimated",
+            "unknown",
+            null
+          ]
+        },
+        "first_compromise": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "first_compromise_basis": {
+          "enum": [
+            "known",
+            "estimated",
+            "unknown",
+            null
+          ]
+        },
+        "first_exfil": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "first_exfil_basis": {
+          "enum": [
+            "known",
+            "estimated",
+            "unknown",
+            null
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "models": {
+          "type": "array"
+        },
+        "name": {
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "related": {
+          "type": "array"
+        },
+        "report_stage": {
+          "enum": [
+            "preliminary",
+            "interim",
+            "final",
+            null
+          ]
+        },
+        "severity": {
+          "enum": [
+            "nuisance",
+            "exposure",
+            "intrusion",
+            "breach",
+            "harm",
+            null
+          ]
+        },
+        "status": {
+          "enum": [
+            "confirmed",
+            "attributed",
+            "candidate"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "developers",
+        "models",
+        "status",
+        "summary",
+        "campaigns",
+        "related",
+        "categories"
+      ],
+      "type": "object"
+    },
+    "lead": {
+      "properties": {
+        "context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "discovered_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "host": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "candidate",
+            "fetched",
+            "promoted",
+            "rejected"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "properties": {
+        "charset": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cleared": {
+          "type": "integer"
+        },
+        "decoded": {
+          "type": "integer"
+        },
+        "entropy": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "head_hex": {
+          "type": "string"
+        },
+        "length": {
+          "type": "integer"
+        },
+        "magic": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "record_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "length",
+        "head_hex",
+        "decoded",
+        "cleared",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "population": {
+      "properties": {
+        "body_patterns": {
+          "type": "array"
+        },
+        "campaign_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "summary",
+        "body_patterns"
+      ],
+      "type": "object"
+    },
+    "recommendation": {
+      "properties": {
+        "addressee": {
+          "type": "string"
+        },
+        "closes_when": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "incident_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "issued": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "open",
+            "acknowledged",
+            "closed-acceptable",
+            "closed-unacceptable",
+            "superseded"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "addressee",
+        "text",
+        "status"
+      ],
+      "type": "object"
+    },
+    "record": {
+      "properties": {
+        "actor_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "body_len": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "body_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "body_sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "campaign_basis": {
+          "enum": [
+            "marker",
+            "body",
+            "page",
+            "hand",
+            null
+          ]
+        },
+        "campaign_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "claimed_time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "clock": {
+          "enum": [
+            "server",
+            "task",
+            "wall-claimed",
+            null
+          ]
+        },
+        "cluster_basis": {
+          "enum": [
+            "marker",
+            "body",
+            "page",
+            "classifier",
+            "hand",
+            null
+          ]
+        },
+        "cluster_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "collection_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_kind": {
+          "enum": [
+            "coordination",
+            "answer-share",
+            "data-cache",
+            "probe-test",
+            "bridge",
+            "backup",
+            "bypass-share",
+            "impersonation",
+            "storage-link",
+            "counter",
+            "payload",
+            "contact",
+            "unknown",
+            null
+          ]
+        },
+        "encoding": {
+          "type": "string"
+        },
+        "external_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "incident_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ip_actor_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "type": "string"
+        },
+        "observed_time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "phase": {
+          "enum": [
+            "pre-disclosure",
+            "post-report",
+            "post-press",
+            "unknown"
+          ]
+        },
+        "population_basis": {
+          "enum": [
+            "style",
+            "hand",
+            null
+          ]
+        },
+        "population_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": "string"
+        },
+        "source_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "live",
+            "deleted",
+            "wiped",
+            "placeholder"
+          ]
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "time_precision": {
+          "enum": [
+            "second",
+            "minute",
+            "hour",
+            "day",
+            "month",
+            null
+          ]
+        },
+        "time_zone": {
+          "enum": [
+            "utc",
+            "venue-offset",
+            "unknown",
+            null
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "venue_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "venue_id",
+        "kind",
+        "encoding",
+        "phase",
+        "status",
+        "source"
+      ],
+      "type": "object"
+    },
+    "tracker": {
+      "properties": {
+        "contact": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "first_seen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "holds": {
+          "type": "string"
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "report",
+            "dataset",
+            "registry",
+            "directory",
+            "forum",
+            "repo",
+            "wiki",
+            "archive",
+            "lab",
+            "press",
+            "community"
+          ]
+        },
+        "last_checked": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "licence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "kind",
+        "holds",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "venue": {
+      "properties": {
+        "caveat": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "default_human": {
+          "type": "integer"
+        },
+        "first_seen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "found_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "found_how": {
+          "enum": [
+            "search",
+            "census",
+            "watch",
+            "report",
+            null
+          ]
+        },
+        "found_on": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "host": {
+          "type": "string"
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "type": "string"
+        },
+        "last_seen": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "listing_urls": {
+          "type": "array"
+        },
+        "moderator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_notified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_response": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "path": {
+          "type": "string"
+        },
+        "sandbox_titles": {
+          "type": "array"
+        },
+        "software": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "live",
+            "archived",
+            "wiped",
+            "gone",
+            "candidate"
+          ]
+        },
+        "tls": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "utc_offset": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "write_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "host",
+        "path",
+        "kind",
+        "status",
+        "listing_urls",
+        "default_human",
+        "sandbox_titles"
+      ],
+      "type": "object"
+    },
+    "venue_link": {
+      "properties": {
+        "evidence_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "from_venue": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "exchange",
+            "infrastructure",
+            "later",
+            "overlap",
+            "reference"
+          ]
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "to_venue": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "from_venue",
+        "to_venue",
+        "kind"
+      ],
+      "type": "object"
+    }
+  },
+  "version": "8"
+}

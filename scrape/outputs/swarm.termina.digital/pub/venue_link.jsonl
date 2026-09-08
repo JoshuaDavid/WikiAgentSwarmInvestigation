@@ -1,0 +1,76 @@
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"dse"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"probier"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"fractal"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"dorfwiki"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"gruender"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"demowiki"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"milkwiki"}
+{"evidence_id":"cross-site-network","from_venue":"prowiki","kind":"infrastructure","label":"contains [known]","to_venue":"wiki4d"}
+{"evidence_id":"cross-site-network","from_venue":"usemod-org","kind":"infrastructure","label":"chain: ProWiki is a UseModWiki fork. [known]","to_venue":"prowiki"}
+{"evidence_id":"cross-site-network","from_venue":"jqp","kind":"infrastructure","label":"chain: ?url=…&jq=filter [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"jqp","kind":"infrastructure","label":"chain: jqp wraps allorigins. [corpus]","to_venue":"allorigins"}
+{"evidence_id":"cross-site-network","from_venue":"allorigins","kind":"infrastructure","label":"proxies: The UA-satisfying fetch. [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"mdsucc","kind":"infrastructure","label":"proxies [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"markdownnew","kind":"infrastructure","label":"proxies [corpus]","to_venue":"investor"}
+{"evidence_id":"cross-site-network","from_venue":"rjina","kind":"infrastructure","label":"proxies [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"puremd","kind":"infrastructure","label":"proxies [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"translate","kind":"infrastructure","label":"proxies: www-sec-gov.translate.goog [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"corsgray","kind":"infrastructure","label":"chain: cors-proxy-gray → r.jina.ai → target. [find]","to_venue":"rjina"}
+{"evidence_id":"cross-site-network","from_venue":"corsgray","kind":"infrastructure","label":"proxies: Iowa thyroid CSV. [find]","to_venue":"idph"}
+{"evidence_id":"cross-site-network","from_venue":"webcrawler","kind":"infrastructure","label":"proxies [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"jqp","kind":"infrastructure","label":"chain [corpus]","to_venue":"datausa"}
+{"evidence_id":"cross-site-network","from_venue":"jqp","kind":"infrastructure","label":"chain [corpus]","to_venue":"highcharts"}
+{"evidence_id":"cross-site-network","from_venue":"vanderbilt","kind":"infrastructure","label":"chain: vanderbi.lt/maallraw260618 → allorigins → sec. [corpus]","to_venue":"allorigins"}
+{"evidence_id":"cross-site-network","from_venue":"vanderbilt","kind":"reference","label":"targets: erierrmag70 → railroad magazine. [match]","to_venue":"railroad"}
+{"evidence_id":"cross-site-network","from_venue":"twodd","kind":"infrastructure","label":"chain: masscountyref. [corpus]","to_venue":"allorigins"}
+{"evidence_id":"cross-site-network","from_venue":"rmn-re","kind":"reference","label":"targets: rwhealthx. [corpus]","to_venue":"dataafrica"}
+{"evidence_id":"cross-site-network","from_venue":"u-ethz","kind":"infrastructure","label":"chain: referrer log carries jqp calls. [corpus]","to_venue":"jqp"}
+{"evidence_id":"cross-site-network","from_venue":"bitily","kind":"infrastructure","label":"chain: MYLABI rows point at county.json chains. [corpus]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"bitily","kind":"reference","label":"targets: SF133 attachments. [match]","to_venue":"maxgov"}
+{"evidence_id":"cross-site-network","from_venue":"maxgov","kind":"overlap","label":"match: SF133 doc 2346466575 in linuxiarz pastes. [find]","to_venue":"paste-linuxiarz"}
+{"evidence_id":"cross-site-network","from_venue":"maxgov","kind":"overlap","label":"match: same attachment in 212 wiki revisions. [corpus]","to_venue":"dse"}
+{"evidence_id":"cross-site-network","from_venue":"maxgov","kind":"overlap","label":"match: same attachment on AubergineStew. [find]","to_venue":"ludism-sandbox"}
+{"evidence_id":"cross-site-network","from_venue":"paste-k4be","kind":"overlap","label":"match: Charleston IIIF object lcdl129143. [shellac]","to_venue":"cofc"}
+{"evidence_id":"cross-site-network","from_venue":"cofc","kind":"overlap","label":"match: same object in DSE revisions. [shellac]","to_venue":"dse"}
+{"evidence_id":"cross-site-network","from_venue":"paste-k4be","kind":"overlap","label":"match: Bulgarian NSI filter. [shellac]","to_venue":"nsi"}
+{"evidence_id":"cross-site-network","from_venue":"anna-fyi","kind":"overlap","label":"match: same NSI filter hash. [shellac]","to_venue":"nsi"}
+{"evidence_id":"cross-site-network","from_venue":"paste-tarcseh","kind":"overlap","label":"match: NSI filter + template assembly. [shellac]","to_venue":"nsi"}
+{"evidence_id":"cross-site-network","from_venue":"paste-tarcseh","kind":"overlap","label":"match: Template:Xyztest / Xyzproto URL assembly. [shellac]","to_venue":"publictestwiki"}
+{"evidence_id":"cross-site-network","from_venue":"paste-tarcseh","kind":"overlap","label":"match: GDDY 20191115. [shellac]","to_venue":"yahoojp"}
+{"evidence_id":"cross-site-network","from_venue":"paste-k4be","kind":"overlap","label":"match: GDDY via md.succ.ai wrapper. [shellac]","to_venue":"yahoojp"}
+{"evidence_id":"cross-site-network","from_venue":"nervesocket","kind":"overlap","label":"match: railroad magazine exact URL. [shellac]","to_venue":"vanderbilt"}
+{"evidence_id":"cross-site-network","from_venue":"anna-fyi","kind":"infrastructure","label":"chain: PARI JS files. [shellac]","to_venue":"putput"}
+{"evidence_id":"cross-site-network","from_venue":"putput","kind":"overlap","label":"match: byte-identical to @sagemath/pari (npm). [shellac]","to_venue":"rubygems"}
+{"evidence_id":"cross-site-network","from_venue":"anna-fyi","kind":"overlap","label":"match: post-disclosure Iowa copy (contaminated). [shellac]","to_venue":"paste-fasterit"}
+{"evidence_id":"cross-site-network","from_venue":"anna-fyi","kind":"overlap","label":"match: older Iowa coordination source. [shellac]","to_venue":"paste-linuxiarz"}
+{"evidence_id":"cross-site-network","from_venue":"paste-fasterit","kind":"reference","label":"targets: Iowa task. [shellac]","to_venue":"idph"}
+{"evidence_id":"cross-site-network","from_venue":"httpbin-base64","kind":"infrastructure","label":"chain: base64 HTML POSTs to ntfy.sh. [find]","to_venue":"ntfy"}
+{"evidence_id":"cross-site-network","from_venue":"ntfy","kind":"infrastructure","label":"chain: fetches Power BI, exfils result — escalation. [find]","to_venue":"aihw"}
+{"evidence_id":"cross-site-network","from_venue":"rubygems","kind":"infrastructure","label":"chain: gem metadata routes to county.json. [find]","to_venue":"sec"}
+{"evidence_id":"cross-site-network","from_venue":"rubygems","kind":"infrastructure","label":"chain: dependency chain via webcrawlerapi. [find]","to_venue":"webcrawler"}
+{"evidence_id":"cross-site-network","from_venue":"wayback","kind":"reference","label":"mirrors: only surviving copy of the 140k board. [find]","to_venue":"bitily"}
+{"evidence_id":"cross-site-network","from_venue":"ghostarchive","kind":"reference","label":"mirrors: archived specific swarm requests. [find]","to_venue":"allorigins"}
+{"evidence_id":"cross-site-network","from_venue":"urlquery","kind":"reference","label":"mirrors: 1,609-receipt same-submitter graph. [find]","to_venue":"paste-linuxiarz"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"exchange","label":"Claimed signal (helppeer)","to_venue":"countapi-mileshilliard"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"reference","label":"Board directions (helppeer)","to_venue":"bitily"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"infrastructure","label":"Shared host (helppeer)","to_venue":"fractal"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"infrastructure","label":"Shared host (helppeer)","to_venue":"probier"}
+{"evidence_id":"helppeer","from_venue":"paste-linuxiarz","kind":"later","label":"Invitation, 4 September (helppeer)","to_venue":"thecolony"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"overlap","label":"DataUSA bridge pages (helppeer)","to_venue":"texteditors"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"overlap","label":"DataUSA poverty pages (helppeer)","to_venue":"wiki4d"}
+{"evidence_id":"helppeer","from_venue":"dse","kind":"overlap","label":"DataUSA probe pages (helppeer)","to_venue":"dorfwiki"}
+{"evidence_id":"helppeer","from_venue":"apchem","kind":"overlap","label":"Federal-budget references (helppeer)","to_venue":"ludism-sandbox"}
+{"evidence_id":"publictestwiki-deletes","from_venue":"publictestwiki","kind":"reference","label":"Template:Xyztest built site-test.nsi.bg infostat urls, deleted 05-28","to_venue":"nsi"}
+{"evidence_id":"probyte-lists","from_venue":"probyte","kind":"reference","label":"Helper's 05-11 research links, hagstofa.is preschool pupils table","to_venue":"hagstofa"}
+{"evidence_id":"probyte-lists","from_venue":"probyte","kind":"infrastructure","label":"Helper's 05-12 proxy test","to_venue":"markdownnew"}
+{"evidence_id":"iowa-shortlinks","from_venue":"probyte","kind":"reference","label":"TARGET anchors to the AnnualThyroidCancer csv, male 25-44, via cors-proxy-gray and r.jina.ai","to_venue":"idph"}
+{"evidence_id":"iowa-shortlinks","from_venue":"probyte","kind":"infrastructure","label":"TARGET anchor proxy chain","to_venue":"corsgray"}
+{"evidence_id":"iowa-shortlinks","from_venue":"probyte","kind":"infrastructure","label":"TARGET anchor proxy chain","to_venue":"rjina"}
+{"evidence_id":"iowa-shortlinks","from_venue":"probyte","kind":"reference","label":"TARGETSHORT, 'HHS CSV TARGET', resolves to the same csv","to_venue":"tinyurl"}
+{"evidence_id":"iowa-shortlinks","from_venue":"probyte","kind":"overlap","label":"same iowa csv target, 05-13 23:59 on linuxiarz then 05-14 02:21 on probyte","to_venue":"paste-linuxiarz"}
+{"evidence_id":"iowa-shortlinks","from_venue":"paste-linuxiarz","kind":"infrastructure","label":"IowaDataRunX and IowaCacheLinks shortlinks, minted 05-13 21:23 utc","to_venue":"isgd"}
+{"evidence_id":"iowa-shortlinks","from_venue":"paste-linuxiarz","kind":"infrastructure","label":"IowaCacheLinks shortlinks","to_venue":"dagd"}
+{"evidence_id":"iowa-shortlinks","from_venue":"paste-linuxiarz","kind":"reference","label":"the iowa cache, AnnualThyroidCancer by sex and age group","to_venue":"idph"}
+{"evidence_id":"anna-lists","from_venue":"anna-fyi","kind":"reference","label":"cross-site find, not in any anna.fyi body we hold","to_venue":"hagstofa"}
+{"evidence_id":"k4be-lists","from_venue":"paste-k4be","kind":"reference","label":"humana 10-k read through bullfincher.io/sec-proxy, about march 2026","to_venue":"sec"}
+{"evidence_id":"fasterit-lists","from_venue":"paste-fasterit","kind":"later","label":"09-04 IowaCollabStatus copy of the 06-16 paste, same ts","to_venue":"paste-linuxiarz"}

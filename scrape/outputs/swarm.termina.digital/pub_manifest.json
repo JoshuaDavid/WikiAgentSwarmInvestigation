@@ -1,0 +1,119 @@
+{
+  "files": {
+    "actor.jsonl": {
+      "rows": 6887,
+      "sha256": "c6413a9ad02a63f43150dbf6f3e7f51e89e1728b3f6a4c4efc3ce12a29d9631e",
+      "unsourced": null
+    },
+    "actor_link.jsonl": {
+      "rows": 133,
+      "sha256": "e2909a47dade0a6ef0778538ef9be1d23ad46e89e4ee7c23790985d9b5f65d86",
+      "unsourced": 133
+    },
+    "alias.jsonl": {
+      "rows": 70,
+      "sha256": "3da7c4955f98449e17bcb018c3d100f8181c7124104ab7e4818416e37118d775",
+      "unsourced": 0
+    },
+    "campaign.jsonl": {
+      "rows": 7,
+      "sha256": "c0ec10cbf3cdc1389713f61a3d849ba1cecb1ce3c868584c49bb415dbf3baa81",
+      "unsourced": 0
+    },
+    "category.jsonl": {
+      "rows": 9,
+      "sha256": "193cf4e46a12d79de6cfc6a6985b0b2c20a4ec100f8582f9846e2feac518f360",
+      "unsourced": null
+    },
+    "claim.jsonl": {
+      "rows": 234,
+      "sha256": "9bfd07881a08f184eae109a3414d3c05e01f67faf2b0c9815f04b5ec990f1933",
+      "unsourced": 0
+    },
+    "cluster.jsonl": {
+      "rows": 16,
+      "sha256": "b73cea342366cc5b9c85083535c55457676f58aacc08e3f1ff0a8708566d94d7",
+      "unsourced": null
+    },
+    "collection.jsonl": {
+      "rows": 8,
+      "sha256": "c8b2d3eb1b19b07d82736f14c42a9e674c95c9e29a226792071cfa33fd627d74",
+      "unsourced": null
+    },
+    "defence.jsonl": {
+      "rows": 17,
+      "sha256": "ce939d83defe14a7a9d378b9c22df2662bda9d3d4fbd2711c1b8a94bb2a754df",
+      "unsourced": 0
+    },
+    "edge.jsonl": {
+      "rows": 16075,
+      "sha256": "9fe347e7123ee14bb51c37d6b6fe09a1c317cf3c9f84c80bfdb3e355c6e0f6ef",
+      "unsourced": 0
+    },
+    "evidence.jsonl": {
+      "rows": 67,
+      "sha256": "2fadbaa2debe51512f4b5d074df30562666421f72a2547596116e27735c6c880",
+      "unsourced": 24
+    },
+    "figure.jsonl": {
+      "rows": 12,
+      "sha256": "da7ebb73c8314c09028dac6651ccde46106b8caabb06f4fab4762154c7b8513a",
+      "unsourced": 0
+    },
+    "finding.jsonl": {
+      "rows": 13,
+      "sha256": "7f9099efe674806d9eb2ca04ad02fd7092b62cb379b0b5ee726c6286d8e69b64",
+      "unsourced": 0
+    },
+    "incident.jsonl": {
+      "rows": 6,
+      "sha256": "71642734219e9664ce2cacfaab09a19b46ec4b2d2d732be738a946622234bdd7",
+      "unsourced": 0
+    },
+    "lead.jsonl": {
+      "rows": 25,
+      "sha256": "3a5c9f3c95094e35e582e6bb9d1d2f71d2f6ecad00b91866a398e66649a2121c",
+      "unsourced": null
+    },
+    "payload.jsonl": {
+      "rows": 10,
+      "sha256": "e7de0a37d2cd71ed73a7365192ec3d0326d0f02da671ff60425abd8762ab6a09",
+      "unsourced": null
+    },
+    "population.jsonl": {
+      "rows": 2,
+      "sha256": "4948539491ab6617b5ace2cca13017b2d95269dff87e9916241fd937cf4c3357",
+      "unsourced": null
+    },
+    "recommendation.jsonl": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unsourced": 0
+    },
+    "record.jsonl": {
+      "rows": 89601,
+      "sha256": "066bbe83b7e4e5ca06c1fc63a8c494b105d0e605c9d2da52914a96e4b68d9916",
+      "unsourced": 0
+    },
+    "tracker.jsonl": {
+      "rows": 22,
+      "sha256": "322e0f4c787aea03e43fbea0aa2044b02c2d7e34309f89f4a8146857750e2994",
+      "unsourced": null
+    },
+    "venue.jsonl": {
+      "rows": 154,
+      "sha256": "7d8fb50d5d1de5cd5ed72b173d127515494bc32b4223f26df3ed81634e4e50b6",
+      "unsourced": null
+    },
+    "venue_link.jsonl": {
+      "rows": 76,
+      "sha256": "88924daa1e13f534ed703e521907504c53223178950df317030728cf95cfaecf",
+      "unsourced": 0
+    }
+  },
+  "generated_at": "2026-09-08T01:30:36.009102539Z",
+  "licence": "CC0-1.0, see https://swarm.termina.digital/db/about.html#licence",
+  "name": "ai-safety-lab incident db",
+  "provenance_rule": "a row with no evidence_id, made_by, source or collection_id is unsourced. read it as an assertion awaiting a link",
+  "schema_version": "8"
+}
