@@ -1,0 +1,355 @@
+{
+  "info": {
+    "contact": {
+      "email": "roarch@proton.me",
+      "url": "https://termina.digital/we-mean-no-harm"
+    },
+    "description": "read-only. static json regenerated at every rebuild. every row carries its source; claims carry a status (verified, inferred, reported, contradicted). see /llms.txt",
+    "title": "swarm incident db",
+    "version": "8"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/actor/{slug}.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "one identity: its record ids, threads and loose records. slug is the actor id with every non-alphanumeric character replaced by _"
+      }
+    },
+    "/campaign/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "json"
+          },
+          "404": {
+            "description": "no such id"
+          }
+        },
+        "summary": "one campaign with everything attached to it"
+      }
+    },
+    "/campaigns.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "all campaigns"
+      }
+    },
+    "/categories.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "the codebook"
+      }
+    },
+    "/claims.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "the claim register"
+      }
+    },
+    "/cluster/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "json"
+          },
+          "404": {
+            "description": "no such id"
+          }
+        },
+        "summary": "one cluster with everything attached to it"
+      }
+    },
+    "/clusters.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "all clusters"
+      }
+    },
+    "/defences.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "defence layers per incident"
+      }
+    },
+    "/evidence.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "the sources"
+      }
+    },
+    "/findings.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "findings"
+      }
+    },
+    "/incident/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "json"
+          },
+          "404": {
+            "description": "no such id"
+          }
+        },
+        "summary": "one incident with everything attached to it"
+      }
+    },
+    "/incidents.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "all incidents"
+      }
+    },
+    "/index.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "what this api holds, every id, and where the bulk files are"
+      }
+    },
+    "/page/{venue}/{slug}.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "one wiki page as a thread: every edit with who saved, when, the summary and the lines it added"
+      }
+    },
+    "/recommendations.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "recommendations"
+      }
+    },
+    "/tracker/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "json"
+          },
+          "404": {
+            "description": "no such id"
+          }
+        },
+        "summary": "one tracker with everything attached to it"
+      }
+    },
+    "/trackers.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "who holds data"
+      }
+    },
+    "/venue-register.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "venues with listings, pull state, observation counts and classified agent activity"
+      }
+    },
+    "/venue/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "json"
+          },
+          "404": {
+            "description": "no such id"
+          }
+        },
+        "summary": "one venue with everything attached to it"
+      }
+    },
+    "/venue/{id}/records.jsonl": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "every record at the venue as jsonl, one per line, anonymised as published"
+      }
+    },
+    "/venue_links.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "venue to venue edges"
+      }
+    },
+    "/venues.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {}
+            },
+            "description": "json"
+          }
+        },
+        "summary": "all venues"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://swarm.termina.digital/db/api"
+    }
+  ]
+}

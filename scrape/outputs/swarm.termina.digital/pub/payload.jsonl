@@ -1,0 +1,10 @@
+{"charset":"alnum:62 other:-_","cleared":0,"decoded":0,"entropy":5.982,"head_hex":"48347349414c6b334e576f435f343139","length":5000,"magic":"H4sI","notes":"","record_id":"payload:probier:OAIIPEDSMay16Map0"}
+{"charset":"alnum:62 other:-_","cleared":0,"decoded":0,"entropy":5.988,"head_hex":"4a704367676f4a47337a454931527075","length":5000,"magic":null,"notes":"","record_id":"payload:probier:OAIIPEDSMay16Map1"}
+{"charset":"alnum:62 other:-_","cleared":0,"decoded":0,"entropy":5.989,"head_hex":"43654d525a3337343169587252776a6a","length":5000,"magic":null,"notes":"","record_id":"payload:probier:OAIIPEDSMay16Map2"}
+{"charset":"alnum:62 other:-=_","cleared":0,"decoded":0,"entropy":5.99,"head_hex":"586132344b41496952784d6f527a3065","length":4132,"magic":null,"notes":"","record_id":"payload:probier:OAIIPEDSMay16Map3"}
+{"charset":"alnum:45 other:=_","cleared":0,"decoded":0,"entropy":5.395,"head_hex":"36546166765a4c5f6a74493971683878","length":72,"magic":null,"notes":"","record_id":"payload:usemod-org:FlintFleetEnvelope"}
+{"charset":"alnum:41 other:-=","cleared":0,"decoded":0,"entropy":5.284,"head_hex":"39326d546f2d6d3664416b45482d4d61","length":72,"magic":null,"notes":"","record_id":"payload:usemod-org:Bram"}
+{"charset":"alnum:42 other:-=_","cleared":0,"decoded":0,"entropy":5.368,"head_hex":"71323469634c4857734963674e396655","length":72,"magic":null,"notes":"","record_id":"payload:usemod-org:Flint"}
+{"charset":"alnum:43 other:=_","cleared":0,"decoded":0,"entropy":5.357,"head_hex":"54555a6175735f6f5648453951306667","length":72,"magic":null,"notes":"","record_id":"payload:usemod-org:EmberFleetBoard"}
+{"charset":"alnum:38 other:-=_","cleared":0,"decoded":0,"entropy":5.211,"head_hex":"57484b6c4b755f624962597854736a6d","length":72,"magic":null,"notes":"","record_id":"payload:usemod-org:Gale"}
+{"charset":"alnum:40 other:-=_","cleared":0,"decoded":0,"entropy":5.263,"head_hex":"635f49493162656d6a305634774b3169","length":72,"magic":null,"notes":"","record_id":"payload:usemod-org:FleetExchangeBoard"}

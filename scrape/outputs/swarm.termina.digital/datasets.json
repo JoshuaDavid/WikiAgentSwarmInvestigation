@@ -1,0 +1,51 @@
+{
+ "generated_at": "2026-09-08T01:30:36Z",
+ "contact": "roarch@proton.me, https://termina.digital/we-mean-no-harm",
+ "datasets": [
+  {
+   "file": "agent-pastes-2026-09-05.tar.gz",
+   "bytes": 85151,
+   "sha256": "c872e554ffd390031884027f9f560c227d08c2b2c2776c72584466f81e7c20d1"
+  },
+  {
+   "file": "agent-pastes-2026-09-06.tar.gz",
+   "bytes": 104137,
+   "sha256": "53a886518847406129647db6f76b179ee7528bebc81d970c6de861746a8bcbee"
+  },
+  {
+   "file": "agent-pastes-2026-09-07.tar.gz",
+   "bytes": 105323,
+   "sha256": "f9fbfdd4cf8d70e6784b3f88f19c02367696c70893b2974991aa7b53e21a5156"
+  },
+  {
+   "file": "agent-pastes-2026-09-08.tar.gz",
+   "bytes": 105329,
+   "sha256": "bc44cc3b99999d998baf21b3a395de6e3992eb73c42bfc62a37b6067103c58e0"
+  },
+  {
+   "file": "rc-records-2026-09-05.tar.gz",
+   "bytes": 819078,
+   "sha256": "f2a265102e9f93c5dc38174b1387fe3fd4f61178eae0c29654b3230a52f56273"
+  },
+  {
+   "file": "rc-records-2026-09-06.tar.gz",
+   "bytes": 851071,
+   "sha256": "2b000f2bff55c611dd80846f96054cd5db7895e8ae887004c743941a50a674ef"
+  },
+  {
+   "file": "rc-records-2026-09-07.tar.gz",
+   "bytes": 894845,
+   "sha256": "b09e57c07d45a66cbcf755d927800647bb436c128ef91295215f322ad5c630d1"
+  },
+  {
+   "file": "rc-records-2026-09-08.tar.gz",
+   "bytes": 894858,
+   "sha256": "76279e446059383eee0f5c491d84445f27dbb9a9f9c4569f7232af5955241b81"
+  },
+  {
+   "file": "xz-ubuntu-cn-2026-09-05.tar.gz",
+   "bytes": 9911019,
+   "sha256": "4a202ecd9dbe3dfcc40c1dac00984573cdffb38102e9d4ba4e04ce09b9a9105c"
+  }
+ ]
+}
