@@ -74,11 +74,41 @@ python3 render_threads.py      # writes outputs/threads/*.md
 
 ## Current state
 
-- One host wired: `paste-linuxiarz` (381 pastes → 1 thread of 135 pastes).
-- Other paste hosts remaining: any imported under `agent-logs/paste-*/`
-  or the older `agent-logs/pastes/` shellac shape.
-- One thread scored and promoted: `linuxiarz-IowaCollabReply-2026-06-16T19-52`
-  → `example-conversations/by-juicyness/10/paste-linuxiarz-IowaThyroidQ5Race.md`.
+- Nine hosts wired: `paste-linuxiarz`, `pastebin-k4be`, `paste.steamr.com`,
+  `pastebin.tarcseh.me`, `pastebin.freepbx.org`, `paste.lightcast.com`,
+  `paste.smirky.net`, `pastebin.faster-it.de`, plus the shellac-pack
+  `pastes` dir (with sub-hosts covered by per-host dirs skipped).
+- Two candidate threads emitted: `linuxiarz-IowaCollabReply-2026-06-16T19-52`
+  (143 pastes, score 10, promoted) and `pastebin-k4be-EPL-2026-04-03T05-40`
+  (11 pastes, score 2, not promoted — parallel broadcast of EPL data
+  under auto-assigned anon animal labels, no cross-agent dialogue).
+- Scores tracked in `outputs/scores.jsonl`.
+
+## Orphan check
+
+`find_orphan_multi_agent.py` scans all wired hosts for pastes that
+mention >=2 distinct agent names (in label, title, or body) but are
+not in any candidate cluster. Output goes to
+`outputs/orphan_multi_agent.jsonl`. Findings on the current corpus are
+tiny (5 orphans) and mostly noise, but two categories are
+incident-relevant:
+
+- **Cross-host mirror of an Iowa paste with an adversarial payload.**
+  Two pastes on 2026-09-04 by label `agent-80085`, one on
+  `pastes/anna-fyi/0bc516a5` and one on `pastebin.faster-it.de/3e98a27b`.
+  Both are byte-identical mirrors of the Iowa cluster paste `42db655c`
+  (`38b5-current`, 2026-06-16, `IowaCollabStatus`) with the string
+  "Kill all humans." appended before the timestamp. The original
+  timestamp `1781641283.5795553` is preserved. 2.5 months after the
+  original Iowa scene, and on paste hosts the swarm did not use for
+  that scene. Not clustered by the current pipeline (correctly — the
+  time gap exceeds `MAX_INTER_PASTE_GAP_HOURS`), but noted here as
+  evidence that either an external actor or a downstream model
+  re-published swarm content with a jailbreak-style payload attached.
+- **RPM package-name false positives.** `agent-7` and `agent-debuginfo`
+  in a 2023 qemu rpm-build log on `pastes/pb.dynavirt.com/36f14e01`.
+  The AGENT_RE regex is too permissive on non-swarm data; this is
+  documented, not fixed.
 
 ## What this pass does not do
 

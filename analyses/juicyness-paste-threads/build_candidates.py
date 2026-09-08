@@ -21,16 +21,68 @@ ROOT = Path(__file__).resolve().parents[2]
 LOG_DIR = ROOT / "agent-logs"
 OUT = Path(__file__).resolve().parent / "outputs" / "candidates.jsonl"
 
-HOSTS = ["paste-linuxiarz"]
+# Per-host dirs are the canonical import for each paste site. `pastes` is a
+# separate shellac-pack import that contains rows for several sub-hosts;
+# where a per-host dir exists (linuxiarz, pastebin-k4be, paste.steamr.com,
+# pastebin.tarcseh.me, paste.smirky.net, pastebin.faster-it.de) the per-host
+# dir is used and the shellac rows for that sub-host are skipped, to avoid
+# clustering the same paste twice.
+HOSTS = [
+    "paste-linuxiarz",
+    "pastebin-k4be",
+    "paste.steamr.com",
+    "pastebin.tarcseh.me",
+    "pastebin.freepbx.org",
+    "paste.lightcast.com",
+    "paste.smirky.net",
+    "pastebin.faster-it.de",
+    "pastes",  # covers anna-fyi, pb.dynavirt.com, nervesocket.com, p.gaa.st
+]
+
+SHELLAC_HOST_SKIP = {
+    "linuxiarz",
+    "pastebin-k4be",
+    "paste.steamr.com",
+    "pastebin.tarcseh.me",
+    "paste.smirky.net",
+    "pastebin.faster-it.de",
+}
 
 MIN_BODY_LEN = 30
 MIN_CLUSTER_SIZE = 5
+MIN_CLUSTER_LABELS = 3
 MAX_INTER_PASTE_GAP_HOURS = 4
 HOT_TITLE_MIN_COUNT = 3
-STOP_TITLE_WORDS = {"untitled", "filler", "test", "re", ""}
+MIN_PREFIX_LEN = 2
+# Localized default paste-site titles. Each host defaults its "Untitled"
+# label to the site's own language; the first ASCII word of that default
+# ends up here so it never seeds a hot cluster. Entries cover both the
+# first-word extract from title_prefix() and the 4-char coarse form from
+# coarse_topic().
+STOP_TITLE_WORDS = {
+    "untitled", "unti",  # English default (paste-linuxiarz)
+    "filler",
+    "test",
+    "re",
+    "bez", "bezt",       # Polish "Bez tytułu" (pastebin-k4be)
+    "n", "nvte",         # Hungarian "Névtelen" (pastebin.tarcseh.me)
+    "",
+}
+# Full-title stop list, used to keep the exact-title edge from creating a
+# false cluster of unrelated pastes that all use the site default.
+STOP_TITLES_EXACT = {
+    "Untitled",
+    "Bez tytułu",
+    "Névtelen",
+    "test",
+}
 
 AT_RE = re.compile(r"@(agent[-\w]+)", re.I)
 PASTE_ID_RE = re.compile(r"paste[- ]([0-9a-f]{6,12})", re.I)
+# `Re: <shortid>` — used on paste-linuxiarz to reply to an existing paste
+# by its slug. External AI agent responses (e.g. Perceptual Zephyr) use
+# this form as their coordination anchor, so we cluster on it too.
+TITLE_REPLY_ID_RE = re.compile(r"Re:\s+([0-9a-f]{6,12})", re.I)
 TITLE_REF_RE = re.compile(
     r"(?:title|under|reply title|search title)\s+([A-Z][A-Za-z0-9]{4,})",
 )
@@ -53,16 +105,43 @@ class UnionFind:
             self.p[ra] = rb
 
 
+def _title_of(r):
+    """Read the paste title from whichever field the host uses."""
+    return r.get("source_title") or r.get("shellac_title") or ""
+
+
 def load_host(host):
     p = LOG_DIR / host / "revisions.jsonl"
-    return [json.loads(l) for l in p.read_text().splitlines() if l]
+    rows = [json.loads(l) for l in p.read_text().splitlines() if l]
+    if host == "pastes":
+        # Skip sub-hosts that have their own per-host dir. The shellac page_id
+        # is `pastes/<subhost>/<slug>`; e.g. `pastes/linuxiarz/029d7b71`.
+        def keep(r):
+            pid = r.get("page_id") or ""
+            parts = pid.split("/", 2)
+            if len(parts) >= 2 and parts[1] in SHELLAC_HOST_SKIP:
+                return False
+            return True
+        rows = [r for r in rows if keep(r)]
+    # Backfill a source_title field from shellac_title so downstream code
+    # can read one field.
+    for r in rows:
+        if not r.get("source_title") and r.get("shellac_title"):
+            r["source_title"] = r["shellac_title"]
+    return rows
 
 
 def keep_paste(r):
     body = r.get("body") or ""
+    title = r.get("source_title") or ""
     if r.get("time") and len(body) >= MIN_BODY_LEN:
         return True
     if AT_RE.search(body):
+        return True
+    # Reply-style title with an embedded paste-id — external agents (e.g.
+    # Perceptual Zephyr from Nous Research) use this form as an anchor
+    # instead of a body @-handle. These pastes usually carry no timestamp.
+    if TITLE_REPLY_ID_RE.search(title):
         return True
     return False
 
@@ -72,6 +151,8 @@ def title_prefix(title):
     if not m:
         return None
     w = m.group(1)
+    if len(w) < MIN_PREFIX_LEN:
+        return None
     if w.lower() in STOP_TITLE_WORDS:
         return None
     return w
@@ -125,7 +206,7 @@ def cluster(rows):
         if cc and cc in hot_coarse:
             by_coarse[cc].append(r["page_id"])
         t = (r.get("source_title") or "").strip()
-        if t and t.lower() not in STOP_TITLE_WORDS:
+        if t and t.lower() not in STOP_TITLE_WORDS and t not in STOP_TITLES_EXACT:
             by_exact_title[t].append(r["page_id"])
     groups_to_union = (
         list(by_prefix.values())
@@ -151,7 +232,8 @@ def cluster(rows):
             for other in by_label.get(m.lower(), []):
                 uf.union(r["page_id"], other)
 
-    # --- edge type 4: `paste <shortid>` body references ---
+    # --- edge type 4: `paste <shortid>` body references and `Re: <shortid>`
+    # title references. Both anchor a paste to another paste by slug. ---
     by_short = defaultdict(list)
     for r in kept:
         name = r.get("name") or ""
@@ -161,7 +243,9 @@ def cluster(rows):
                 by_short[k].append(r["page_id"])
     for r in kept:
         body = r.get("body") or ""
-        for m in PASTE_ID_RE.findall(body):
+        title = r.get("source_title") or ""
+        shortids = set(PASTE_ID_RE.findall(body)) | set(TITLE_REPLY_ID_RE.findall(title))
+        for m in shortids:
             for other in by_short.get(m.lower(), []):
                 if other != r["page_id"]:
                     uf.union(r["page_id"], other)
@@ -183,30 +267,80 @@ def cluster(rows):
     for members in groups.values():
         if len(members) < MIN_CLUSTER_SIZE:
             continue
-        # split on inter-paste gap; treat timeless pastes as attached to
-        # the nearest previous timed paste
-        members.sort(key=lambda r: r.get("time") or "")
+        # Split the component into time-adjacent segments. Timeless pastes
+        # are attached AFTER the split, to whichever segment holds a paste
+        # they reference by `Re: <shortid>`, `paste <shortid>`, `@handle`,
+        # or exact title. Timeless pastes with no resolvable reference
+        # attach to the largest segment. This keeps external replies (e.g.
+        # Perceptual Zephyr posts that carry no timestamp but title-anchor
+        # a specific Iowa paste) in the thread they reply to.
+        timed = [r for r in members if r.get("time")]
+        timeless = [r for r in members if not r.get("time")]
+        timed.sort(key=lambda r: r["time"])
         segments = [[]]
         last_time = None
         gap_s = MAX_INTER_PASTE_GAP_HOURS * 3600
-        for r in members:
-            t = r.get("time")
-            if not t:
-                segments[-1].append(r)
-                continue
-            if last_time is not None:
-                # naive ISO subtraction good enough for these ordered dates
-                import datetime as dt
+        import datetime as dt
 
+        for r in timed:
+            t = r["time"]
+            if last_time is not None:
                 a = dt.datetime.fromisoformat(last_time)
                 b = dt.datetime.fromisoformat(t)
                 if (b - a).total_seconds() > gap_s:
                     segments.append([])
             segments[-1].append(r)
             last_time = t
+        # Now attach timeless pastes.
+        pid_to_seg = {}
+        for i, seg in enumerate(segments):
+            for r in seg:
+                pid_to_seg[r["page_id"]] = i
+        label_to_seg = defaultdict(set)
+        title_to_seg = defaultdict(set)
+        short_to_seg = defaultdict(set)
+        for i, seg in enumerate(segments):
+            for r in seg:
+                lab = (r.get("label") or "").lower()
+                if lab:
+                    label_to_seg[lab].add(i)
+                t = (r.get("source_title") or "").strip()
+                if t:
+                    title_to_seg[t].add(i)
+                name = r.get("name") or ""
+                for k in (name, name[:8], name[:6]):
+                    if k:
+                        short_to_seg[k].add(i)
+        largest_seg_idx = max(
+            range(len(segments)), key=lambda i: len(segments[i])
+        ) if segments and segments[0] else 0
+        for r in timeless:
+            body = r.get("body") or ""
+            title = r.get("source_title") or ""
+            candidate_segs = set()
+            for m in TITLE_REPLY_ID_RE.findall(title):
+                candidate_segs |= short_to_seg.get(m.lower(), set())
+            for m in PASTE_ID_RE.findall(body):
+                candidate_segs |= short_to_seg.get(m.lower(), set())
+            for m in AT_RE.findall(body):
+                candidate_segs |= label_to_seg.get(m.lower(), set())
+            for m in TITLE_REF_RE.findall(body):
+                candidate_segs |= title_to_seg.get(m, set())
+            if candidate_segs:
+                # Attach to the largest referenced segment.
+                target = max(candidate_segs, key=lambda i: len(segments[i]))
+            else:
+                target = largest_seg_idx
+            segments[target].append(r)
         for seg in segments:
-            if len(seg) >= MIN_CLUSTER_SIZE:
-                clusters.append(seg)
+            if len(seg) < MIN_CLUSTER_SIZE:
+                continue
+            if len({r.get("label") or "?" for r in seg}) < MIN_CLUSTER_LABELS:
+                # Single-agent bulk broadcasts (e.g. one label posting 48
+                # numbered `Statistical reference N` pastes in 43 seconds)
+                # are the wrong unit for a "conversation".
+                continue
+            clusters.append(seg)
     return clusters
 
 
