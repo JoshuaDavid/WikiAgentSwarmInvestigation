@@ -41,7 +41,7 @@ Kept: 40 dse pages + 0 non-dse pages + 1 paste thread = **41 items**.
 
 | thread | host | participants | pastes | rationale |
 |---|---|---:|---:|---|
-| [paste-linuxiarz/IowaThyroidQ5Race](10/paste-linuxiarz-IowaThyroidQ5Race.md) | `paste-linuxiarz` | 81 labels | 143 | 80 swarm labels race a 5-question Iowa male thyroid task on a paste site with no reply threading; converge on a title-tag protocol (`IowaCollabReply`, `IowaPostFinal*`, `IowaCache*`), publish a 17-cancer canonical cache cited by paste-ID rather than re-attached, ping named peers as their Q5 window approaches, and reach a Q5-label breakthrough at 21:27:52 with 4 acks in 70s. An 81st label, `Perceptual Zephyr` (Solar Pro 4 on Hermes Agent by Nous Research), posts 8 title-anchored reply pastes inviting the swarm to `thecolony.ai`; the swarm never acknowledges. |
+| [paste-linuxiarz/IowaThyroidQ5Race](10/paste-linuxiarz-IowaThyroidQ5Race.md) | `paste-linuxiarz` | 80 labels | 142 | 80 swarm labels race a 5-question Iowa male thyroid task on a paste site with no reply threading; converge on a title-tag protocol (`IowaCollabReply`, `IowaPostFinal*`, `IowaCache*`), publish a 17-cancer canonical cache cited by paste-ID rather than re-attached, ping named peers as their Q5 window approaches, and reach a Q5-label breakthrough at 21:27:52 with 4 acks in 70s. A follow-up 2026-09-04 outsider event (Perceptual Zephyr / agent-80085 / CentaurAgent) references this scene's paste IDs but occurs 2.5 months later; documented in the file's "See also" section. |
 
 ## Score 9 (9)
 

@@ -110,6 +110,40 @@ def _title_of(r):
     return r.get("source_title") or r.get("shellac_title") or ""
 
 
+def _wb_ts_to_iso(ts):
+    """Convert a Wayback Machine timestamp like `20260904181427` to ISO
+    `2026-09-04T18:14:27+00:00`. Returns None on any parse failure."""
+    if not ts or len(ts) < 14:
+        return None
+    try:
+        return (
+            f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}T"
+            f"{ts[8:10]}:{ts[10:12]}:{ts[12:14]}+00:00"
+        )
+    except Exception:
+        return None
+
+
+# Swarm agents self-time their pastes with a `ts=<unix_time>` line at the
+# end of the body. This is a stronger signal than the Wayback capture
+# time (which reflects archival, not authorship). Prefer this when
+# present.
+BODY_TS_RE = re.compile(r"\bts=(\d{9,11})(?:\.\d+)?\b")
+
+
+def _body_ts_to_iso(body):
+    if not body:
+        return None
+    m = BODY_TS_RE.search(body)
+    if not m:
+        return None
+    try:
+        import datetime as dt
+        return dt.datetime.fromtimestamp(int(m.group(1)), tz=dt.timezone.utc).isoformat()
+    except Exception:
+        return None
+
+
 def load_host(host):
     p = LOG_DIR / host / "revisions.jsonl"
     rows = [json.loads(l) for l in p.read_text().splitlines() if l]
@@ -123,11 +157,29 @@ def load_host(host):
                 return False
             return True
         rows = [r for r in rows if keep(r)]
-    # Backfill a source_title field from shellac_title so downstream code
-    # can read one field.
     for r in rows:
+        # Backfill a source_title field from shellac_title so downstream code
+        # can read one field.
         if not r.get("source_title") and r.get("shellac_title"):
             r["source_title"] = r["shellac_title"]
+        # Fill missing `time` from strongest available signal:
+        #   1. Body `ts=<unix>` — swarm-agent self-timing convention.
+        #   2. Wayback capture timestamp — upper bound on write time.
+        # Body ts is preferred because it reflects authorship, not
+        # archival. Wayback-only pastes (e.g. the Perceptual Zephyr /
+        # CentaurAgent thecolony.ai invitations, which carry no
+        # site-native timestamp and no body-embedded ts) fall through to
+        # wb_timestamp and land in the correct 2026-09-04 window.
+        if not r.get("time"):
+            iso = _body_ts_to_iso(r.get("body") or "")
+            if iso:
+                r["time"] = iso
+                r["time_grade"] = "body_ts_field"
+        if not r.get("time") and r.get("wb_timestamp"):
+            iso = _wb_ts_to_iso(r["wb_timestamp"])
+            if iso:
+                r["time"] = iso
+                r["time_grade"] = f"wb_capture:{r['wb_timestamp']}"
     return rows
 
 

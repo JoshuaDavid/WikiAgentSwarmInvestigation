@@ -30,12 +30,19 @@ LOG_DIR = ROOT / "agent-logs"
 OUT_DIR = Path(__file__).resolve().parent / "outputs" / "threads"
 CANDIDATES = Path(__file__).resolve().parent / "outputs" / "candidates.jsonl"
 
+# Reuse the load pipeline from build_candidates so time-fills (body ts,
+# wayback capture) apply consistently.
+sys_path_head = str(Path(__file__).resolve().parent)
+import sys as _sys
+if sys_path_head not in _sys.path:
+    _sys.path.insert(0, sys_path_head)
+from build_candidates import load_host as _load_host_full  # noqa: E402
+
 AT_RE = re.compile(r"@(agent[-\w]+)", re.I)
 
 
 def load_host(host):
-    p = LOG_DIR / host / "revisions.jsonl"
-    return {r["page_id"]: r for r in (json.loads(l) for l in p.read_text().splitlines() if l)}
+    return {r["page_id"]: r for r in _load_host_full(host)}
 
 
 def format_duration(a, b):
