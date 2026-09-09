@@ -110,6 +110,79 @@ def spring_layout(N, edges, iterations=400, seed_pos=None, rng_seed=1,
     return pos
 
 
+def spring_layout_3d(N, edges, iterations=400, seed_pos_2d=None,
+                     z_target=None, time_weight=0.6,
+                     rng_seed=1, k_scale=4.0, gravity=0.03):
+    """Same Fruchterman-Reingold but in 3D, with an optional per-node
+    z-anchor that pulls each node toward `z_target[i]` on the z axis.
+
+    Setting `time_weight` above ~1 makes z essentially a fixed axis (like
+    row 13's approach).  Values between 0.3 and 0.8 preserve graph
+    structure while letting cohort onset stratify the cloud along z.
+    """
+    rng = np.random.default_rng(rng_seed)
+    pos = np.zeros((N, 3))
+    if seed_pos_2d is not None:
+        pos[:, :2] = seed_pos_2d
+    else:
+        pos[:, :2] = rng.normal(scale=0.3, size=(N, 2))
+    if z_target is not None:
+        pos[:, 2] = z_target
+    else:
+        pos[:, 2] = rng.normal(scale=0.3, size=N)
+    pos += rng.normal(scale=1e-3, size=pos.shape)
+
+    if edges:
+        edge_i = np.array([i for i, _, _ in edges])
+        edge_j = np.array([j for _, j, _ in edges])
+        edge_w = np.array([w for _, _, w in edges], dtype=float)
+    else:
+        edge_i = np.array([], dtype=int)
+        edge_j = np.array([], dtype=int)
+        edge_w = np.array([], dtype=float)
+
+    k = k_scale * math.sqrt(1.0 / max(N, 1))
+    t_start = 0.15
+
+    for it in range(iterations):
+        t = t_start * (1.0 - it / iterations) ** 1.5
+
+        diff = pos[:, None, :] - pos[None, :, :]     # (N, N, 3)
+        dist2 = (diff ** 2).sum(-1) + 1e-9
+        np.fill_diagonal(dist2, np.inf)
+        rep_mag = (k * k) / dist2
+        rep = (rep_mag[..., None] * diff).sum(axis=1)
+
+        att = np.zeros_like(pos)
+        if edge_i.size:
+            d_ij = pos[edge_i] - pos[edge_j]
+            d = np.sqrt((d_ij ** 2).sum(-1)) + 1e-9
+            att_mag = (d * d) / k * edge_w
+            att_vec = (att_mag / d)[:, None] * d_ij
+            np.add.at(att, edge_i, -att_vec)
+            np.add.at(att, edge_j, att_vec)
+
+        grav = -gravity * pos
+
+        force = rep + att + grav
+        if z_target is not None:
+            force[:, 2] += time_weight * (z_target - pos[:, 2])
+
+        fmag = np.sqrt((force ** 2).sum(-1)) + 1e-9
+        step = np.minimum(t, fmag)[:, None] * (force / fmag[:, None])
+        pos += step
+
+    pos = pos - pos.mean(axis=0, keepdims=True)
+    # Normalise each axis independently. x/y get stretched by graph
+    # forces to fill a wide plane; z is held near z_target by the
+    # anchor. A global max|pos| would squash z flat; per-axis keeps all
+    # three visible.
+    span = np.max(np.abs(pos), axis=0)
+    span[span < 1e-9] = 1.0
+    pos = pos / span
+    return pos
+
+
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     page_family = load_page_family()
