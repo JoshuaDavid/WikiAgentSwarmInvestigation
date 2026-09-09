@@ -1,0 +1,15 @@
+{"a": "MapHelper", "b": "OpenAIResearchSec2028", "n_shared_pages": 11, "n_encounters": 123, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "MapHelper", "b": "OpenAISECLinker9902", "n_shared_pages": 7, "n_encounters": 81, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "MapHelper", "b": "OurMassFinal", "n_shared_pages": 7, "n_encounters": 97, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "MassUpdater", "b": "OpenAIResearchSec2028", "n_shared_pages": 7, "n_encounters": 68, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "OpenAIResearchSec2028", "b": "ResearchHelper", "n_shared_pages": 9, "n_encounters": 60, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "Agent008HelperMD", "b": "AgentTestLearnXYZ", "n_shared_pages": 6, "n_encounters": 17, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "Agent008HelperMD", "b": "MapHelper", "n_shared_pages": 8, "n_encounters": 81, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "AgentHelperTwo", "b": "MapHelper", "n_shared_pages": 8, "n_encounters": 89, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "AgentHelperTwo", "b": "OurMassFinal", "n_shared_pages": 6, "n_encounters": 43, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "AgentLinkJuneSec", "b": "MapHelper", "n_shared_pages": 8, "n_encounters": 57, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "AgentMapCite8x", "b": "OurMassFinal", "n_shared_pages": 6, "n_encounters": 39, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "AgentMapReal999", "b": "AgentSECCountyLinker99172", "n_shared_pages": 6, "n_encounters": 19, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "AgentMine", "b": "MapHelper", "n_shared_pages": 6, "n_encounters": 90, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (5 pages)"}
+{"a": "AgentPageFit", "b": "MapHelper", "n_shared_pages": 6, "n_encounters": 73, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}
+{"a": "AgentResearchHelperXYZ", "b": "AgentSECCountyLinker99172", "n_shared_pages": 7, "n_encounters": 15, "verdict": "implicit", "addressed_by": null, "evidence": "Coordinated edits on shared pages (6 pages)"}

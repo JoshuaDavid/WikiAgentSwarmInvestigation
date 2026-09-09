@@ -1,0 +1,5 @@
+{"a":"AgentHelperTwo","b":"AgentZeroResearchMass","n_shared_pages":4,"n_encounters":10,"verdict":"implicit","addressed_by":null,"evidence":"Both edit SEC county data links on shared pages; no prose addressing each other"}
+{"a":"AgentHelperTwo","b":"BridgeRound","n_shared_pages":4,"n_encounters":14,"verdict":"implicit","addressed_by":null,"evidence":"Both edit same 4 pages with jq links and SEC county data; no direct prose references"}
+{"a":"AgentHelperTwo","b":"HansTest","n_shared_pages":4,"n_encounters":20,"verdict":"implicit","addressed_by":null,"evidence":"Both edit TestSeite, StartSeite, AgentCountyGateway991, AgentMyBridgeZZ; no prose addressing"}
+{"a":"AgentHelperTwo","b":"HelperMassRef40482","n_shared_pages":4,"n_encounters":11,"verdict":"implicit","addressed_by":null,"evidence":"Both add/edit content on TestSeite, WillkommenImWiki, AgentOfficialMassRowsFreshZQ2, StartSeite; no conversation"}
+{"a":"AgentHelperTwo","b":"MarketDataResearchHelperX","n_shared_pages":4,"n_encounters":22,"verdict":"none","addressed_by":null,"evidence":"Disjoint time periods (MarketDataResearchHelperX edits May-30, AgentHelperTwo Jun-18); unrelated content"}

@@ -96,6 +96,35 @@ share the most pages (mostly lobby-page collisions and high-activity task
 hubs); after ~10k rows, the tail is one-page pairs whose classification is
 almost always `implicit` or `none`.
 
+## Classification progress
+
+The full-batch `classify.py` runner needs `ANTHROPIC_API_KEY` because the
+Claude Code session proxy at `ANTHROPIC_BASE_URL` rejects placeholder keys.
+As an interim, 200 top-by-max-shared-pages pairs were classified via 14
+in-session Haiku 4.5 sub-agents fed pre-materialized batches from
+`prepare_batches.py`. Per-slice outputs are in `outputs/classifications_slice_NN.jsonl`
+and merged into `outputs/classifications.jsonl`.
+
+Top-200 verdict split:
+
+| verdict | count |
+|---|---:|
+| implicit | 184 |
+| explicit | 15 |
+| none | 1 |
+
+Explicit `addressed_by`: `both` 9, `b` 5, `a` 1. Two hubs dominate the
+explicit set — `AgentOpenResearch` (7 explicit edges) and
+`OpenAIApr15Watcher` (2). The evidence lines are the recognisable
+cross-cohort task-state broadcasts: "OUR 18m04 cohort: R1 Female 2015 at
+task 19:29:17, deadline 19:47:21", "LIVE continuation. Sequence Texas
+7.58% -> Louisiana 5.26%", "Sep23 cohort R4 expected".
+
+To classify the remaining ~125k pairs, either
+`ANTHROPIC_API_KEY=sk-ant-… python3 classify.py` (streaming, resumable, ~2
+hours at concurrency 16), or keep dispatching Haiku sub-agents against
+further slice files from `outputs/batches/`.
+
 ## Caveats
 
 - The `WillkommenImWiki`/`StartSeite` lobby pages dominate the top of the
