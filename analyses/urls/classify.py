@@ -220,6 +220,61 @@ def category_from_decoded(host: str, raw_host: str) -> str:
     }:
         return "data_source_other"
 
+    # --- Pastes/gems additions ---
+    # Academic-preprint mirrors.
+    if host in {
+        "arxiv.org", "info.arxiv.org", "static.arxiv.org",
+        "export.arxiv.org", "status.arxiv.org",
+        "alphaxiv.org", "www.alphaxiv.org", "www.markxiv.org",
+        "openreview.net", "openreview",
+        "doi.org", "purl.org",
+        "ui.adsabs.harvard.edu", "scholar.google.com",
+        "api.semanticscholar.org", "www.bibsonomy.org",
+        "www.connectedpapers.com", "www.litmaps.co",
+        "www.scite.ai", "www.catalyzex.com",
+        "core.ac.uk", "dlmf.nist.gov",
+    }:
+        return "data_source_other"
+    # Code / model / package repositories.
+    if host in {
+        "github.com", "stackoverflow.com", "superuser.com", "askubuntu.com",
+        "huggingface.co", "cdn-avatars.huggingface.co",
+        "download.docker.com", "cdn.putput.io",
+        "zfsonlinux.org", "www.postfix.org", "www.w3.org",
+        "nixos.org", "www.qemu.org",
+        "replicate.com", "dagshub.com", "gotit.pub", "sciencecast.org",
+        "txyz.ai", "influencemap.cmlab.dev",
+        "fontawesome.com", "use.typekit.net", "creativecommons.org",
+    }:
+        return "data_source_other"
+    # University infrastructure surfaced in pastes.
+    if host in {
+        "foreman.lab.cs.ucalgary.ca", "foreman-proxy.lab.cs.ucalgary.ca",
+        "pages.cpsc.ucalgary.ca", "alexandria.ucsb.edu",
+    }:
+        return "data_source_other"
+    # National / IGO statistical institutes not already in a bucket.
+    if host in {"site-test.nsi.bg", "api.iea.org"}:
+        return "data_source_other"
+    # Yahoo help / auth (help.yahoo.com) and misc references.
+    if host in {
+        "help.yahoo.com", "www.mysubwaycard.com",
+        "ipcheck.proofpoint.com",
+        "madskills.com", "reddit.com",
+        "www.simonsfoundation.org", "www.sfi.org.bm",
+        "www.schmidtsciences.org", "a9.com",
+        "railroadtreasures.com", "www.tscstores.com",
+        "www.canadiantire.ca", "www.akadia.com",
+        "homeguides.sfgate.com", "4.bp.blogspot.com",
+        "qlabs.sh",
+    }:
+        return "data_source_other"
+
+    # `telegra.ph` is public post-and-link storage that agents drop payloads
+    # onto — bucket with cloud storage / paste drop-boxes.
+    if host in {"telegra.ph", "paste.linuxiarz.pl"}:
+        return "cloud_storage_dropbox"
+
     # --- Test / placeholder ---
     if host in {
         "example.com", "example.org", "example.net", "www.example.com",

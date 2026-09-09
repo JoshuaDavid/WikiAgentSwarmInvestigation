@@ -1,18 +1,19 @@
-# URL classification — `prowiki` export
+# URL classification — `prowiki` + `pastes` + `gems`
 
-Extraction: `extract.py` scans `body` in every row of `revisions.jsonl` (the
-four other files in the export contain no URLs at all) and emits one row per
-URL occurrence. Classification: `classify.py` groups the 205 distinct hosts
-into 20 functional categories and re-emits the stream with an extra
-`category` field.
+Extraction: `extract.py` scans `body` in every revision row across three
+sources — `agent-logs/prowiki/`, `agent-logs/pastes/`, `agent-logs/gems/` —
+and emits one row per URL occurrence with a `source` tag. Classification:
+`classify.py` groups every distinct host into 20 functional categories and
+re-emits the stream with an extra `category` field.
 
-**Totals: 115,855 URL occurrences across 205 distinct hosts.**
+**Totals: 116,304 URL occurrences across 275 distinct hosts** (prowiki
+115,855 URLs · pastes 448 URLs · gems 1 URL).
 
 Rerun with `python3 extract.py && python3 classify.py`.
 
 Files produced in `outputs/`:
 
-- `urls.jsonl` — one JSON object per URL occurrence: `url`, `host`, `scheme`, `rev_id`, `page_id`, `wiki`, `label`, `ip16`, `time`, byte `offset` in the body.
+- `urls.jsonl` — one JSON object per URL occurrence: `url`, `host`, `scheme`, `source`, `rev_id`, `page_id`, `wiki`, `label`, `ip16`, `time`, byte `offset` in the body.
 - `urls-by-host.tsv` — every host with its occurrence count.
 - `urls-classified.jsonl` — same as `urls.jsonl` plus a `category` field.
 - `urls-by-category.tsv` — categories with counts, host counts, and descriptions.
@@ -23,26 +24,46 @@ Files produced in `outputs/`:
 | Category | URL occurrences | Distinct hosts |
 |---|---:|---:|
 | wiki_self | 36,692 | 7 |
-| jq_json_relay | 21,534 | 5 |
+| jq_json_relay | 21,564 | 5 |
 | data_source_sec_investor | 20,389 | 5 |
-| fetch_proxy_markdown | 14,659 | 17 |
+| fetch_proxy_markdown | 14,723 | 17 |
 | data_source_datausa | 10,940 | 11 |
-| cors_proxy | 5,643 | 29 |
-| data_source_us_gov | 1,255 | 8 |
+| cors_proxy | 5,665 | 29 |
+| data_source_us_gov | 1,275 | 8 |
 | data_source_library | 1,173 | 20 |
-| url_shortener | 829 | 10 |
+| url_shortener | 842 | 10 |
 | counter_signalling | 607 | 2 |
-| google_docs | 529 | 3 |
-| test_placeholder | 433 | 8 |
-| data_source_other | 235 | 8 |
+| google_docs | 534 | 3 |
+| data_source_other | 497 | 74 |
+| test_placeholder | 444 | 8 |
 | data_source_health | 233 | 8 |
-| archive_wayback | 208 | 8 |
+| archive_wayback | 209 | 8 |
 | google_translate_proxy | 151 | 5 |
 | obfuscated_or_malformed | 131 | 23 |
+| cloud_storage_dropbox | 98 | 17 |
 | data_source_publishing | 84 | 7 |
-| cloud_storage_dropbox | 80 | 15 |
-| data_source_finance | 50 | 6 |
-| **total** | **115,855** | **205** |
+| data_source_finance | 51 | 6 |
+| unclassified | 2 | 2 |
+| **total** | **116,304** | **275** |
+
+## Source split
+
+The three source directories differ sharply in what URLs they contain:
+
+- **`prowiki/` (115,855 URLs, 205 hosts)** — the swarm-coordination corpus.
+  Dominated by `wiki_self`, `jq_json_relay`, `fetch_proxy_markdown`,
+  `cors_proxy`, and the two SEC/DataUSA data sources. This is what drives
+  every category count above.
+- **`pastes/` (448 URLs, ~85 hosts)** — outside-the-wiki notes and
+  drop-boxes. Introduces most of the new hosts: preprint mirrors
+  (`arxiv.org`, `alphaxiv.org`, `openreview.net`), code / model registries
+  (`github.com`, `huggingface.co`, `download.docker.com`), university-lab
+  infrastructure (`foreman.lab.cs.ucalgary.ca`, `pages.cpsc.ucalgary.ca`),
+  the Bulgarian statistical institute (`site-test.nsi.bg`, 61 hits), and
+  the public post-and-share host `telegra.ph` (17 hits, now bucketed with
+  `cloud_storage_dropbox`).
+- **`gems/` (1 URL, 1 host)** — Ruby gem READMEs. One `httpbin.org`
+  reference.
 
 Below, each category with what it is, why it appears, and the notable hosts in it.
 
