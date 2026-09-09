@@ -1,0 +1,704 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 780" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+<rect x="0" y="0" width="1600" height="780" fill="white"/>
+<text x="630" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#111">URL occurrences per day — stacked bar, one segment per host, colored by host type</text>
+<text x="630" y="46" text-anchor="middle" fill="#555">Sources: prowiki + pastes + gems. Hosts in the same category share a color.</text>
+<line x1="80" y1="670.0" x2="1180" y2="670.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="674.0" text-anchor="end" fill="#333">0</text>
+<line x1="80" y1="550.8" x2="1180" y2="550.8" stroke="#eee" stroke-width="1"/>
+<text x="74" y="554.8" text-anchor="end" fill="#333">20,000</text>
+<line x1="80" y1="431.6" x2="1180" y2="431.6" stroke="#eee" stroke-width="1"/>
+<text x="74" y="435.6" text-anchor="end" fill="#333">40,000</text>
+<line x1="80" y1="312.4" x2="1180" y2="312.4" stroke="#eee" stroke-width="1"/>
+<text x="74" y="316.4" text-anchor="end" fill="#333">60,000</text>
+<line x1="80" y1="193.2" x2="1180" y2="193.2" stroke="#eee" stroke-width="1"/>
+<text x="74" y="197.2" text-anchor="end" fill="#333">80,000</text>
+<line x1="80" y1="74.0" x2="1180" y2="74.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="78.0" text-anchor="end" fill="#333">100,000</text>
+<rect x="80.8" y="670.0" width="9.17" height="0.60" fill="#379cbd"><title>2026-05-12 · archive.org (archive_wayback): 1 URL occurrences</title></rect>
+<rect x="91.6" y="669.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-13 · markdown.new (fetch_proxy_markdown): 13 URL occurrences</title></rect>
+<rect x="91.6" y="669.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-13 · example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="102.4" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-14 · markdown.new (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="102.4" y="670.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-14 · test.cors.workers.dev (cors_proxy): 5 URL occurrences</title></rect>
+<rect x="102.4" y="669.9" width="9.17" height="0.60" fill="#a737bd"><title>2026-05-14 · is.gd (url_shortener): 5 URL occurrences</title></rect>
+<rect x="134.7" y="670.0" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-17 · alexandria.ucsb.edu (data_source_other): 1 URL occurrences</title></rect>
+<rect x="134.7" y="670.0" width="9.17" height="0.60" fill="#374dbd"><title>2026-05-17 · docs.google.com (google_docs): 1 URL occurrences</title></rect>
+<rect x="134.7" y="670.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-17 · example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="145.5" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-18 · api.microlink.io (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="145.5" y="669.9" width="9.17" height="0.60" fill="#377abd"><title>2026-05-18 · telegra.ph (cloud_storage_dropbox): 17 URL occurrences</title></rect>
+<rect x="145.5" y="669.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-18 · example.com (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="210.2" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-24 · wikiservice.at (wiki_self): 6 URL occurrences</title></rect>
+<rect x="210.2" y="669.9" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-24 · www.wikiservice.at (wiki_self): 4 URL occurrences</title></rect>
+<rect x="210.2" y="669.5" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-24 · api.usaspending.gov (data_source_us_gov): 73 URL occurrences</title></rect>
+<rect x="231.8" y="669.2" width="9.17" height="0.80" fill="#376fbd"><title>2026-05-26 · wikiservice.at (wiki_self): 135 URL occurrences</title></rect>
+<rect x="231.8" y="668.2" width="9.17" height="0.95" fill="#376fbd"><title>2026-05-26 · www.wikiservice.at (wiki_self): 160 URL occurrences</title></rect>
+<rect x="231.8" y="668.1" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-26 · prowiki.org (wiki_self): 17 URL occurrences</title></rect>
+<rect x="231.8" y="668.1" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-26 · www.prowiki.org (wiki_self): 13 URL occurrences</title></rect>
+<rect x="231.8" y="666.9" width="9.17" height="1.13" fill="#bd6f37"><title>2026-05-26 · markdown.new (fetch_proxy_markdown): 189 URL occurrences</title></rect>
+<rect x="231.8" y="666.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-26 · pure.md (fetch_proxy_markdown): 10 URL occurrences</title></rect>
+<rect x="231.8" y="666.8" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-26 · api.microlink.io (fetch_proxy_markdown): 15 URL occurrences</title></rect>
+<rect x="231.8" y="666.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-26 · allorigins.hexlet.app (cors_proxy): 11 URL occurrences</title></rect>
+<rect x="231.8" y="666.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-26 · proxy.corsfix.com (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="231.8" y="666.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-26 · test.cors.workers.dev (cors_proxy): 5 URL occurrences</title></rect>
+<rect x="231.8" y="666.7" width="9.17" height="0.60" fill="#bd3737"><title>2026-05-26 · api-usaspending-gov.translate.goog (google_translate_proxy): 1 URL occurrences</title></rect>
+<rect x="231.8" y="664.2" width="9.17" height="2.46" fill="#37bd90"><title>2026-05-26 · api.usaspending.gov (data_source_us_gov): 412 URL occurrences</title></rect>
+<rect x="231.8" y="663.7" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-26 · piv.max.gov (data_source_us_gov): 89 URL occurrences</title></rect>
+<rect x="231.8" y="663.2" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-26 · portal.max.gov (data_source_us_gov): 78 URL occurrences</title></rect>
+<rect x="231.8" y="663.0" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-26 · login.max.gov (data_source_us_gov): 42 URL occurrences</title></rect>
+<rect x="231.8" y="663.0" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-26 · max.omb.gov (data_source_us_gov): 3 URL occurrences</title></rect>
+<rect x="231.8" y="662.9" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-26 · files.usaspending.gov (data_source_us_gov): 2 URL occurrences</title></rect>
+<rect x="231.8" y="662.9" width="9.17" height="0.60" fill="#377abd"><title>2026-05-26 · urlquery.net (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="231.8" y="662.9" width="9.17" height="0.60" fill="#374dbd"><title>2026-05-26 · docs.google.com (google_docs): 5 URL occurrences</title></rect>
+<rect x="231.8" y="662.7" width="9.17" height="0.60" fill="#374dbd"><title>2026-05-26 · drive.google.com (google_docs): 30 URL occurrences</title></rect>
+<rect x="231.8" y="662.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-05-26 · tinyurl.com (url_shortener): 4 URL occurrences</title></rect>
+<rect x="231.8" y="662.5" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-26 · example.com (test_placeholder): 27 URL occurrences</title></rect>
+<rect x="231.8" y="662.5" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-26 · example.org (test_placeholder): 4 URL occurrences</title></rect>
+<rect x="231.8" y="662.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-05-26 · bund-der-tierfreunde.de= (obfuscated_or_malformed): 4 URL occurrences</title></rect>
+<rect x="242.6" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-27 · wikiservice.at (wiki_self): 2 URL occurrences</title></rect>
+<rect x="242.6" y="669.9" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-27 · www.wikiservice.at (wiki_self): 20 URL occurrences</title></rect>
+<rect x="242.6" y="669.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-27 · markdown.new (fetch_proxy_markdown): 40 URL occurrences</title></rect>
+<rect x="242.6" y="669.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-27 · pure.md (fetch_proxy_markdown): 4 URL occurrences</title></rect>
+<rect x="242.6" y="669.3" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-27 · api.usaspending.gov (data_source_us_gov): 44 URL occurrences</title></rect>
+<rect x="242.6" y="668.7" width="9.17" height="0.64" fill="#37bd90"><title>2026-05-27 · piv.max.gov (data_source_us_gov): 107 URL occurrences</title></rect>
+<rect x="242.6" y="668.3" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-27 · portal.max.gov (data_source_us_gov): 66 URL occurrences</title></rect>
+<rect x="242.6" y="668.2" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-27 · login.max.gov (data_source_us_gov): 24 URL occurrences</title></rect>
+<rect x="242.6" y="668.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-27 · max.omb.gov (data_source_us_gov): 11 URL occurrences</title></rect>
+<rect x="242.6" y="667.7" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-27 · site-test.nsi.bg (data_source_other): 61 URL occurrences</title></rect>
+<rect x="242.6" y="667.7" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-27 · railroadtreasures.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="242.6" y="667.0" width="9.17" height="0.77" fill="#374dbd"><title>2026-05-27 · docs.google.com (google_docs): 130 URL occurrences</title></rect>
+<rect x="242.6" y="666.9" width="9.17" height="0.60" fill="#374dbd"><title>2026-05-27 · drive.google.com (google_docs): 7 URL occurrences</title></rect>
+<rect x="242.6" y="666.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-27 · example.com (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="242.6" y="666.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-27 · example.org (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="242.6" y="666.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-27 · httpbin.org (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="242.6" y="666.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-27 · example.net (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="253.4" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-28 · www.wikiservice.at (wiki_self): 3 URL occurrences</title></rect>
+<rect x="253.4" y="668.9" width="9.17" height="1.05" fill="#bd4d37"><title>2026-05-28 · jqp.vercel.app (jq_json_relay): 176 URL occurrences</title></rect>
+<rect x="253.4" y="668.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-28 · md.succ.ai (fetch_proxy_markdown): 2 URL occurrences</title></rect>
+<rect x="253.4" y="667.7" width="9.17" height="1.18" fill="#bd6f37"><title>2026-05-28 · markdown.new (fetch_proxy_markdown): 198 URL occurrences</title></rect>
+<rect x="253.4" y="666.1" width="9.17" height="1.64" fill="#bd6f37"><title>2026-05-28 · pure.md (fetch_proxy_markdown): 275 URL occurrences</title></rect>
+<rect x="253.4" y="666.1" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-28 · markdown.microlink.io (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="253.4" y="665.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-28 · allorigins.hexlet.app (cors_proxy): 37 URL occurrences</title></rect>
+<rect x="253.4" y="665.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-28 · cors.bwa.workers.dev (cors_proxy): 74 URL occurrences</title></rect>
+<rect x="253.4" y="664.5" width="9.17" height="0.94" fill="#bd9037"><title>2026-05-28 · www.proxymule.com (cors_proxy): 158 URL occurrences</title></rect>
+<rect x="253.4" y="664.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-28 · corsmirror.com (cors_proxy): 80 URL occurrences</title></rect>
+<rect x="253.4" y="663.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-28 · api.cors.lol (cors_proxy): 44 URL occurrences</title></rect>
+<rect x="253.4" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-28 · cors-get-proxy.sirjosh.workers.dev (cors_proxy): 40 URL occurrences</title></rect>
+<rect x="253.4" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-28 · test.cors.workers.dev (cors_proxy): 6 URL occurrences</title></rect>
+<rect x="253.4" y="663.4" width="9.17" height="0.60" fill="#37bd6f"><title>2026-05-28 · api.datausa.io (data_source_datausa): 5 URL occurrences</title></rect>
+<rect x="253.4" y="663.4" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-28 · api.usaspending.gov (data_source_us_gov): 3 URL occurrences</title></rect>
+<rect x="253.4" y="663.4" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-28 · piv.max.gov (data_source_us_gov): 9 URL occurrences</title></rect>
+<rect x="253.4" y="663.3" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-28 · portal.max.gov (data_source_us_gov): 3 URL occurrences</title></rect>
+<rect x="253.4" y="663.2" width="9.17" height="0.60" fill="#63bd37"><title>2026-05-28 · finance.yahoo.co.jp (data_source_finance): 25 URL occurrences</title></rect>
+<rect x="253.4" y="663.2" width="9.17" height="0.60" fill="#63bd37"><title>2026-05-28 · query1.finance.yahoo.com (data_source_finance): 7 URL occurrences</title></rect>
+<rect x="253.4" y="663.1" width="9.17" height="0.60" fill="#63bd37"><title>2026-05-28 · finance.yahoo.com (data_source_finance): 3 URL occurrences</title></rect>
+<rect x="253.4" y="663.1" width="9.17" height="0.60" fill="#63bd37"><title>2026-05-28 · query2.finance.yahoo.com (data_source_finance): 2 URL occurrences</title></rect>
+<rect x="253.4" y="663.1" width="9.17" height="0.60" fill="#63bd37"><title>2026-05-28 · ca.finance.yahoo.com (data_source_finance): 1 URL occurrences</title></rect>
+<rect x="253.4" y="660.7" width="9.17" height="2.42" fill="#85bd37"><title>2026-05-28 · rspace.library.cofc.edu (data_source_library): 406 URL occurrences</title></rect>
+<rect x="253.4" y="659.8" width="9.17" height="0.91" fill="#85bd37"><title>2026-05-28 · hub.catalogit.app (data_source_library): 153 URL occurrences</title></rect>
+<rect x="253.4" y="659.3" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-28 · lcdl.library.cofc.edu (data_source_library): 84 URL occurrences</title></rect>
+<rect x="253.4" y="659.0" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-28 · iiif.library.cofc.edu (data_source_library): 43 URL occurrences</title></rect>
+<rect x="253.4" y="658.9" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-28 · api.catalogit.app (data_source_library): 16 URL occurrences</title></rect>
+<rect x="253.4" y="658.9" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-28 · api.dp.la (data_source_other): 2 URL occurrences</title></rect>
+<rect x="253.4" y="658.9" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-28 · dp.la (data_source_other): 2 URL occurrences</title></rect>
+<rect x="253.4" y="658.8" width="9.17" height="0.60" fill="#379cbd"><title>2026-05-28 · web.archive.org (archive_wayback): 12 URL occurrences</title></rect>
+<rect x="253.4" y="658.8" width="9.17" height="0.60" fill="#379cbd"><title>2026-05-28 · wayback.archive-it.org (archive_wayback): 9 URL occurrences</title></rect>
+<rect x="253.4" y="658.8" width="9.17" height="0.60" fill="#377abd"><title>2026-05-28 · ir.intrusion.com (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="253.4" y="658.6" width="9.17" height="0.60" fill="#374dbd"><title>2026-05-28 · docs.google.com (google_docs): 39 URL occurrences</title></rect>
+<rect x="253.4" y="658.5" width="9.17" height="0.60" fill="#a737bd"><title>2026-05-28 · ctxr.me (url_shortener): 8 URL occurrences</title></rect>
+<rect x="253.4" y="658.5" width="9.17" height="0.60" fill="#a737bd"><title>2026-05-28 · bitily.in (url_shortener): 1 URL occurrences</title></rect>
+<rect x="253.4" y="658.5" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-28 · example.com (test_placeholder): 5 URL occurrences</title></rect>
+<rect x="253.4" y="658.4" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-28 · example.org (test_placeholder): 11 URL occurrences</title></rect>
+<rect x="253.4" y="658.3" width="9.17" height="0.60" fill="#bd374d"><title>2026-05-28 · lcdl.library.cofc.edu. (obfuscated_or_malformed): 15 URL occurrences</title></rect>
+<rect x="264.1" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-29 · www.wikiservice.at (wiki_self): 3 URL occurrences</title></rect>
+<rect x="264.1" y="669.9" width="9.17" height="0.60" fill="#bd4d37"><title>2026-05-29 · jqp.vercel.app (jq_json_relay): 10 URL occurrences</title></rect>
+<rect x="264.1" y="669.8" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-29 · md.succ.ai (fetch_proxy_markdown): 15 URL occurrences</title></rect>
+<rect x="264.1" y="669.8" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-29 · markdown.new (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="264.1" y="669.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-29 · pure.md (fetch_proxy_markdown): 13 URL occurrences</title></rect>
+<rect x="264.1" y="669.1" width="9.17" height="0.64" fill="#bd9037"><title>2026-05-29 · cors.bwa.workers.dev (cors_proxy): 107 URL occurrences</title></rect>
+<rect x="264.1" y="668.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-29 · www.proxymule.com (cors_proxy): 36 URL occurrences</title></rect>
+<rect x="264.1" y="668.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-29 · corsmirror.com (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="264.1" y="668.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-29 · api.cors.lol (cors_proxy): 8 URL occurrences</title></rect>
+<rect x="264.1" y="668.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-29 · cors-get-proxy.sirjosh.workers.dev (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="264.1" y="668.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-29 · test.cors.workers.dev (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="264.1" y="668.7" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-29 · api.usaspending.gov (data_source_us_gov): 10 URL occurrences</title></rect>
+<rect x="264.1" y="668.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-29 · piv.max.gov (data_source_us_gov): 13 URL occurrences</title></rect>
+<rect x="264.1" y="668.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-29 · portal.max.gov (data_source_us_gov): 5 URL occurrences</title></rect>
+<rect x="264.1" y="668.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-29 · login.max.gov (data_source_us_gov): 4 URL occurrences</title></rect>
+<rect x="264.1" y="668.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-05-29 · max.omb.gov (data_source_us_gov): 1 URL occurrences</title></rect>
+<rect x="264.1" y="668.3" width="9.17" height="0.60" fill="#42bd37"><title>2026-05-29 · vizhub.healthdata.org (data_source_health): 40 URL occurrences</title></rect>
+<rect x="264.1" y="668.2" width="9.17" height="0.60" fill="#374dbd"><title>2026-05-29 · docs.google.com (google_docs): 19 URL occurrences</title></rect>
+<rect x="264.1" y="668.2" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-29 · example.com (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="264.1" y="668.2" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-29 · example.org (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="264.1" y="668.2" width="9.17" height="0.60" fill="#bd374d"><title>2026-05-29 · bund-der-tierfreunde.de= (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="274.9" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-30 · wikiservice.at (wiki_self): 2 URL occurrences</title></rect>
+<rect x="274.9" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-05-30 · www.wikiservice.at (wiki_self): 1 URL occurrences</title></rect>
+<rect x="274.9" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-30 · md.succ.ai (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="274.9" y="669.8" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-30 · markdown.new (fetch_proxy_markdown): 33 URL occurrences</title></rect>
+<rect x="274.9" y="669.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-30 · allorigins.hexlet.app (cors_proxy): 10 URL occurrences</title></rect>
+<rect x="274.9" y="669.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-30 · cors.bwa.workers.dev (cors_proxy): 23 URL occurrences</title></rect>
+<rect x="274.9" y="669.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-30 · www.proxymule.com (cors_proxy): 20 URL occurrences</title></rect>
+<rect x="274.9" y="669.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-30 · corsmirror.com (cors_proxy): 5 URL occurrences</title></rect>
+<rect x="274.9" y="669.4" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · rspace.library.cofc.edu (data_source_library): 11 URL occurrences</title></rect>
+<rect x="274.9" y="669.3" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · hub.catalogit.app (data_source_library): 4 URL occurrences</title></rect>
+<rect x="274.9" y="669.3" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · lcdl.library.cofc.edu (data_source_library): 3 URL occurrences</title></rect>
+<rect x="274.9" y="669.2" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · cdm16022.contentdm.oclc.org (data_source_library): 20 URL occurrences</title></rect>
+<rect x="274.9" y="669.2" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · collection.mndigital.org (data_source_library): 7 URL occurrences</title></rect>
+<rect x="274.9" y="669.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · reflections.mndigital.org (data_source_library): 5 URL occurrences</title></rect>
+<rect x="274.9" y="669.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · metl.lib.umn.edu (data_source_library): 3 URL occurrences</title></rect>
+<rect x="274.9" y="669.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · server16022.contentdm.oclc.org (data_source_library): 3 URL occurrences</title></rect>
+<rect x="274.9" y="669.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · www.cdm16022.contentdm.oclc.org (data_source_library): 1 URL occurrences</title></rect>
+<rect x="274.9" y="669.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-30 · localhost.cdm16022.contentdm.oclc.org (data_source_library): 1 URL occurrences</title></rect>
+<rect x="274.9" y="669.0" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-30 · api.dp.la (data_source_other): 11 URL occurrences</title></rect>
+<rect x="274.9" y="669.0" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-30 · dp.la (data_source_other): 5 URL occurrences</title></rect>
+<rect x="274.9" y="669.0" width="9.17" height="0.60" fill="#379cbd"><title>2026-05-30 · archive-it.org (archive_wayback): 1 URL occurrences</title></rect>
+<rect x="274.9" y="669.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-05-30 · example.com (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="285.7" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-31 · md.succ.ai (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="285.7" y="669.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-05-31 · markdown.new (fetch_proxy_markdown): 14 URL occurrences</title></rect>
+<rect x="285.7" y="669.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-31 · www.proxymule.com (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="285.7" y="669.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-05-31 · cf-cors.findme-19.workers.dev (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="285.7" y="669.8" width="9.17" height="0.60" fill="#37bd6f"><title>2026-05-31 · api.datausa.io (data_source_datausa): 13 URL occurrences</title></rect>
+<rect x="285.7" y="669.8" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-31 · cdm16022.contentdm.oclc.org (data_source_library): 6 URL occurrences</title></rect>
+<rect x="285.7" y="669.8" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-31 · www.cdm16022.contentdm.oclc.org (data_source_library): 1 URL occurrences</title></rect>
+<rect x="285.7" y="669.8" width="9.17" height="0.60" fill="#85bd37"><title>2026-05-31 · localhost.cdm16022.contentdm.oclc.org (data_source_library): 1 URL occurrences</title></rect>
+<rect x="285.7" y="669.8" width="9.17" height="0.60" fill="#a7bd37"><title>2026-05-31 · api.dp.la (data_source_other): 1 URL occurrences</title></rect>
+<rect x="285.7" y="669.7" width="9.17" height="0.60" fill="#379cbd"><title>2026-05-31 · archive-it.org (archive_wayback): 1 URL occurrences</title></rect>
+<rect x="296.5" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-01 · wikiservice.at (wiki_self): 3 URL occurrences</title></rect>
+<rect x="296.5" y="668.8" width="9.17" height="1.20" fill="#bd4d37"><title>2026-06-01 · jqp.vercel.app (jq_json_relay): 201 URL occurrences</title></rect>
+<rect x="296.5" y="668.0" width="9.17" height="0.75" fill="#bd6f37"><title>2026-06-01 · markdown.new (fetch_proxy_markdown): 126 URL occurrences</title></rect>
+<rect x="296.5" y="668.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-01 · r.jina.ai (fetch_proxy_markdown): 4 URL occurrences</title></rect>
+<rect x="296.5" y="667.2" width="9.17" height="0.83" fill="#bd6f37"><title>2026-06-01 · pure.md (fetch_proxy_markdown): 140 URL occurrences</title></rect>
+<rect x="296.5" y="667.2" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-01 · md.dhr.wtf (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="296.5" y="666.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · allorigins.hexlet.app (cors_proxy): 60 URL occurrences</title></rect>
+<rect x="296.5" y="666.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · cors.bwa.workers.dev (cors_proxy): 10 URL occurrences</title></rect>
+<rect x="296.5" y="666.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · corsmirror.com (cors_proxy): 58 URL occurrences</title></rect>
+<rect x="296.5" y="666.3" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · cors-get-proxy.sirjosh.workers.dev (cors_proxy): 18 URL occurrences</title></rect>
+<rect x="296.5" y="666.3" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · cf-cors.findme-19.workers.dev (cors_proxy): 6 URL occurrences</title></rect>
+<rect x="296.5" y="666.2" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · vercel-cors-proxy.vercel.app (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="296.5" y="666.2" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · cors-bypasser-pro.vercel.app (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="296.5" y="666.2" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · proxy-mu-seven-70.vercel.app (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="296.5" y="666.2" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-01 · vercel-cors-proxy-lokal.vercel.app (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="296.5" y="666.1" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-01 · api.datausa.io (data_source_datausa): 15 URL occurrences</title></rect>
+<rect x="296.5" y="666.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-01 · hub.catalogit.app (data_source_library): 1 URL occurrences</title></rect>
+<rect x="296.5" y="666.0" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-01 · services3.arcgis.com (data_source_library): 11 URL occurrences</title></rect>
+<rect x="296.5" y="665.5" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-01 · memgator.cs.odu.edu (archive_wayback): 86 URL occurrences</title></rect>
+<rect x="296.5" y="665.5" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-01 · web.archive.org (archive_wayback): 7 URL occurrences</title></rect>
+<rect x="296.5" y="665.5" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-01 · archive.org (archive_wayback): 2 URL occurrences</title></rect>
+<rect x="296.5" y="665.4" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-01 · wayback.archive.org (archive_wayback): 8 URL occurrences</title></rect>
+<rect x="296.5" y="665.4" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-01 · docs.google.com (google_docs): 4 URL occurrences</title></rect>
+<rect x="296.5" y="665.4" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-01 · example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="296.5" y="665.4" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-01 · example.org (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="296.5" y="665.3" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-01 · lcdl.library.cofc.edu. (obfuscated_or_malformed): 6 URL occurrences</title></rect>
+<rect x="307.3" y="670.0" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-02 · jqp.vercel.app (jq_json_relay): 7 URL occurrences</title></rect>
+<rect x="328.8" y="670.0" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-04 · jqp.vercel.app (jq_json_relay): 2 URL occurrences</title></rect>
+<rect x="328.8" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-04 · pure.md (fetch_proxy_markdown): 5 URL occurrences</title></rect>
+<rect x="328.8" y="670.0" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-04 · public.tableau.com (data_source_library): 1 URL occurrences</title></rect>
+<rect x="328.8" y="669.9" width="9.17" height="0.60" fill="#a7bd37"><title>2026-06-04 · housingdata.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="328.8" y="669.9" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-04 · da.gd (url_shortener): 1 URL occurrences</title></rect>
+<rect x="328.8" y="669.9" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-04 · example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="328.8" y="669.9" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-04 · bund-der-tierfreunde.de= (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="339.6" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-05 · markdown.new (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="339.6" y="670.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-05 · allorigins.hexlet.app (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="350.4" y="670.0" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-06 · wikiservice.at (wiki_self): 5 URL occurrences</title></rect>
+<rect x="350.4" y="669.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-06 · markdown.new (fetch_proxy_markdown): 11 URL occurrences</title></rect>
+<rect x="350.4" y="669.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-06 · allorigins.hexlet.app (cors_proxy): 21 URL occurrences</title></rect>
+<rect x="350.4" y="669.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-06 · cors.bwa.workers.dev (cors_proxy): 24 URL occurrences</title></rect>
+<rect x="350.4" y="669.6" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-06 · unctadstat-api.unctad.org (data_source_health): 3 URL occurrences</title></rect>
+<rect x="350.4" y="669.4" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-06 · www.themagazinearchive.com (data_source_publishing): 36 URL occurrences</title></rect>
+<rect x="350.4" y="669.3" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-06 · pages.pagesuite.com (data_source_publishing): 24 URL occurrences</title></rect>
+<rect x="350.4" y="669.2" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-06 · editions.themagazinearchive.org (data_source_publishing): 6 URL occurrences</title></rect>
+<rect x="350.4" y="669.2" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-06 · editions.pagesuite.com (data_source_publishing): 3 URL occurrences</title></rect>
+<rect x="361.2" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-07 · pure.md (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="361.2" y="670.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-07 · allorigins.hexlet.app (cors_proxy): 5 URL occurrences</title></rect>
+<rect x="361.2" y="669.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-07 · www.proxymule.com (cors_proxy): 13 URL occurrences</title></rect>
+<rect x="361.2" y="669.9" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-07 · api.datausa.io (data_source_datausa): 4 URL occurrences</title></rect>
+<rect x="361.2" y="669.8" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-07 · datausa.io (data_source_datausa): 4 URL occurrences</title></rect>
+<rect x="361.2" y="669.8" width="9.17" height="0.60" fill="#63bd37"><title>2026-06-07 · finance.yahoo.co.jp (data_source_finance): 12 URL occurrences</title></rect>
+<rect x="361.2" y="669.8" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-07 · example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="372.0" y="670.0" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-08 · jqp.vercel.app (jq_json_relay): 1 URL occurrences</title></rect>
+<rect x="372.0" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-08 · pure.md (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="372.0" y="670.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-08 · www.proxymule.com (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="372.0" y="669.8" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-08 · api.datausa.io (data_source_datausa): 23 URL occurrences</title></rect>
+<rect x="372.0" y="669.8" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-08 · datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="372.0" y="669.8" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-08 · tinyurl.com (url_shortener): 1 URL occurrences</title></rect>
+<rect x="372.0" y="669.8" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-08 · www.example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="382.8" y="669.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-09 · markdown.new (fetch_proxy_markdown): 10 URL occurrences</title></rect>
+<rect x="382.8" y="669.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-09 · corsmirror.com (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="393.6" y="670.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-10 · markdown.new (fetch_proxy_markdown): 6 URL occurrences</title></rect>
+<rect x="404.3" y="669.5" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-11 · wikiservice.at (wiki_self): 78 URL occurrences</title></rect>
+<rect x="404.3" y="669.5" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-11 · www.wikiservice.at (wiki_self): 8 URL occurrences</title></rect>
+<rect x="404.3" y="669.4" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-11 · jqp.vercel.app (jq_json_relay): 21 URL occurrences</title></rect>
+<rect x="404.3" y="669.1" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-11 · markdown.new (fetch_proxy_markdown): 47 URL occurrences</title></rect>
+<rect x="404.3" y="669.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-11 · r.jina.ai (fetch_proxy_markdown): 14 URL occurrences</title></rect>
+<rect x="404.3" y="668.8" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-11 · pure.md (fetch_proxy_markdown): 27 URL occurrences</title></rect>
+<rect x="404.3" y="668.8" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-11 · api.ocr.space (fetch_proxy_markdown): 7 URL occurrences</title></rect>
+<rect x="404.3" y="668.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · allorigins.hexlet.app (cors_proxy): 24 URL occurrences</title></rect>
+<rect x="404.3" y="667.0" width="9.17" height="1.67" fill="#bd9037"><title>2026-06-11 · cors.bwa.workers.dev (cors_proxy): 281 URL occurrences</title></rect>
+<rect x="404.3" y="666.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · www.proxymule.com (cors_proxy): 18 URL occurrences</title></rect>
+<rect x="404.3" y="666.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · corsmirror.com (cors_proxy): 25 URL occurrences</title></rect>
+<rect x="404.3" y="666.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · api.allorigins.win (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="404.3" y="666.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · cors-get-proxy.sirjosh.workers.dev (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="404.3" y="666.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · test.cors.workers.dev (cors_proxy): 14 URL occurrences</title></rect>
+<rect x="404.3" y="666.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · cors.isomorphic-git.org (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="404.3" y="666.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-11 · corsproxy.io (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="404.3" y="666.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-11 · api.datausa.io (data_source_datausa): 5 URL occurrences</title></rect>
+<rect x="404.3" y="666.5" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-11 · datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="404.3" y="666.4" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-11 · rspace.library.cofc.edu (data_source_library): 25 URL occurrences</title></rect>
+<rect x="404.3" y="666.3" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-11 · iiif.library.cofc.edu (data_source_library): 19 URL occurrences</title></rect>
+<rect x="404.3" y="666.3" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-11 · cgsc.contentdm.oclc.org (data_source_library): 6 URL occurrences</title></rect>
+<rect x="404.3" y="666.2" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-11 · tsl.preservica.com (data_source_library): 1 URL occurrences</title></rect>
+<rect x="404.3" y="666.2" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-11 · tsl.access.preservica.com (data_source_library): 1 URL occurrences</title></rect>
+<rect x="404.3" y="666.2" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-11 · www.patriotspoint.org (data_source_publishing): 1 URL occurrences</title></rect>
+<rect x="404.3" y="666.2" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-11 · archive.org (archive_wayback): 6 URL occurrences</title></rect>
+<rect x="404.3" y="666.2" width="9.17" height="0.60" fill="#377abd"><title>2026-06-11 · doc-10-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 3 URL occurrences</title></rect>
+<rect x="404.3" y="666.2" width="9.17" height="0.60" fill="#377abd"><title>2026-06-11 · doc-08-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 3 URL occurrences</title></rect>
+<rect x="404.3" y="666.1" width="9.17" height="0.60" fill="#377abd"><title>2026-06-11 · doc-0s-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 3 URL occurrences</title></rect>
+<rect x="404.3" y="666.1" width="9.17" height="0.60" fill="#377abd"><title>2026-06-11 · doc-00-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 2 URL occurrences</title></rect>
+<rect x="404.3" y="665.7" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-11 · docs.google.com (google_docs): 76 URL occurrences</title></rect>
+<rect x="404.3" y="665.7" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-11 · drive.google.com (google_docs): 3 URL occurrences</title></rect>
+<rect x="404.3" y="665.6" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-11 · example.com (test_placeholder): 8 URL occurrences</title></rect>
+<rect x="404.3" y="665.6" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-11 · example.org (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="404.3" y="665.6" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-11 · httpbin.org (test_placeholder): 4 URL occurrences</title></rect>
+<rect x="404.3" y="665.6" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-11 · www.example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="458.3" y="665.6" width="9.17" height="4.40" fill="#376fbd"><title>2026-06-16 · wikiservice.at (wiki_self): 738 URL occurrences</title></rect>
+<rect x="458.3" y="664.8" width="9.17" height="0.82" fill="#376fbd"><title>2026-06-16 · www.wikiservice.at (wiki_self): 137 URL occurrences</title></rect>
+<rect x="458.3" y="664.8" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-16 · prowiki.org (wiki_self): 1 URL occurrences</title></rect>
+<rect x="458.3" y="664.1" width="9.17" height="0.72" fill="#bd6f37"><title>2026-06-16 · markdown.new (fetch_proxy_markdown): 121 URL occurrences</title></rect>
+<rect x="458.3" y="664.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-16 · r.jina.ai (fetch_proxy_markdown): 6 URL occurrences</title></rect>
+<rect x="458.3" y="664.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-16 · pure.md (fetch_proxy_markdown): 2 URL occurrences</title></rect>
+<rect x="458.3" y="664.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · allorigins.hexlet.app (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="458.3" y="663.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · cors.bwa.workers.dev (cors_proxy): 57 URL occurrences</title></rect>
+<rect x="458.3" y="663.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · www.proxymule.com (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="458.3" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · corsmirror.com (cors_proxy): 14 URL occurrences</title></rect>
+<rect x="458.3" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · api.allorigins.win (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="458.3" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · test.cors.workers.dev (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="458.3" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · cors.isomorphic-git.org (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="458.3" y="663.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-16 · corsproxy.io (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="458.3" y="642.6" width="9.17" height="20.93" fill="#37bd6f"><title>2026-06-16 · api.datausa.io (data_source_datausa): 3,511 URL occurrences</title></rect>
+<rect x="458.3" y="641.4" width="9.17" height="1.23" fill="#37bd6f"><title>2026-06-16 · api-la.datausa.io (data_source_datausa): 206 URL occurrences</title></rect>
+<rect x="458.3" y="640.8" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-16 · datausa.io (data_source_datausa): 86 URL occurrences</title></rect>
+<rect x="458.3" y="640.7" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-16 · la.datausa.io (data_source_datausa): 30 URL occurrences</title></rect>
+<rect x="458.3" y="640.7" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-16 · gary-api.datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="458.3" y="640.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-16 · api-ts.datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="458.3" y="640.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-16 · api-ts-dev.datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="458.3" y="640.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-16 · honolulu-api.datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="458.3" y="640.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-16 · api.usaspending.gov (data_source_us_gov): 5 URL occurrences</title></rect>
+<rect x="458.3" y="640.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-16 · login.max.gov (data_source_us_gov): 2 URL occurrences</title></rect>
+<rect x="458.3" y="640.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-16 · api.census.gov (data_source_us_gov): 5 URL occurrences</title></rect>
+<rect x="458.3" y="640.4" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-16 · vizhub.healthdata.org (data_source_health): 20 URL occurrences</title></rect>
+<rect x="458.3" y="640.4" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-16 · rspace.library.cofc.edu (data_source_library): 4 URL occurrences</title></rect>
+<rect x="458.3" y="640.4" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-16 · iiif.library.cofc.edu (data_source_library): 4 URL occurrences</title></rect>
+<rect x="458.3" y="640.2" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-16 · archive.org (archive_wayback): 28 URL occurrences</title></rect>
+<rect x="458.3" y="640.2" width="9.17" height="0.60" fill="#377abd"><title>2026-06-16 · doc-10-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 4 URL occurrences</title></rect>
+<rect x="458.3" y="640.2" width="9.17" height="0.60" fill="#377abd"><title>2026-06-16 · www.datalumos.org (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="458.3" y="640.2" width="9.17" height="0.60" fill="#377abd"><title>2026-06-16 · paste.linuxiarz.pl (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="458.3" y="639.8" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-16 · docs.google.com (google_docs): 68 URL occurrences</title></rect>
+<rect x="458.3" y="639.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-16 · tinyurl.com (url_shortener): 20 URL occurrences</title></rect>
+<rect x="458.3" y="639.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-16 · da.gd (url_shortener): 1 URL occurrences</title></rect>
+<rect x="458.3" y="639.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-16 · bitily.in (url_shortener): 2 URL occurrences</title></rect>
+<rect x="458.3" y="638.8" width="9.17" height="0.88" fill="#bd37a7"><title>2026-06-16 · api.counterapi.dev (counter_signalling): 148 URL occurrences</title></rect>
+<rect x="458.3" y="638.3" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-16 · example.com (test_placeholder): 84 URL occurrences</title></rect>
+<rect x="458.3" y="638.2" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-16 · example.org (test_placeholder): 15 URL occurrences</title></rect>
+<rect x="458.3" y="638.2" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-16 · httpbin.org (test_placeholder): 3 URL occurrences</title></rect>
+<rect x="458.3" y="638.1" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-16 · example.net (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="458.3" y="638.1" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-16 · ... (obfuscated_or_malformed): 8 URL occurrences</title></rect>
+<rect x="458.3" y="638.1" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-16 · ...html (obfuscated_or_malformed): 8 URL occurrences</title></rect>
+<rect x="469.0" y="669.2" width="9.17" height="0.75" fill="#376fbd"><title>2026-06-17 · wikiservice.at (wiki_self): 126 URL occurrences</title></rect>
+<rect x="469.0" y="669.2" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-17 · www.wikiservice.at (wiki_self): 2 URL occurrences</title></rect>
+<rect x="469.0" y="669.2" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-17 · prowiki.org (wiki_self): 5 URL occurrences</title></rect>
+<rect x="469.0" y="668.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-17 · markdown.new (fetch_proxy_markdown): 58 URL occurrences</title></rect>
+<rect x="469.0" y="668.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-17 · r.jina.ai (fetch_proxy_markdown): 35 URL occurrences</title></rect>
+<rect x="469.0" y="668.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-17 · pure.md (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="469.0" y="668.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-17 · api.microlink.io (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="469.0" y="668.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · allorigins.hexlet.app (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="469.0" y="668.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · cors.bwa.workers.dev (cors_proxy): 23 URL occurrences</title></rect>
+<rect x="469.0" y="668.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · www.proxymule.com (cors_proxy): 6 URL occurrences</title></rect>
+<rect x="469.0" y="668.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · cors-get-proxy.sirjosh.workers.dev (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="469.0" y="668.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · test.cors.workers.dev (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="469.0" y="668.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · cf-cors.findme-19.workers.dev (cors_proxy): 6 URL occurrences</title></rect>
+<rect x="469.0" y="668.4" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-17 · proxymule.com (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="469.0" y="663.3" width="9.17" height="5.10" fill="#37bd6f"><title>2026-06-17 · api.datausa.io (data_source_datausa): 855 URL occurrences</title></rect>
+<rect x="469.0" y="662.7" width="9.17" height="0.61" fill="#37bd6f"><title>2026-06-17 · api-la.datausa.io (data_source_datausa): 102 URL occurrences</title></rect>
+<rect x="469.0" y="662.3" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · datausa.io (data_source_datausa): 60 URL occurrences</title></rect>
+<rect x="469.0" y="662.3" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · gary-api.datausa.io (data_source_datausa): 4 URL occurrences</title></rect>
+<rect x="469.0" y="662.3" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · api-ts.datausa.io (data_source_datausa): 2 URL occurrences</title></rect>
+<rect x="469.0" y="662.3" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · api-ts-dev.datausa.io (data_source_datausa): 2 URL occurrences</title></rect>
+<rect x="469.0" y="662.3" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · api-kona.datausa.io (data_source_datausa): 2 URL occurrences</title></rect>
+<rect x="469.0" y="662.3" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · kona.datausa.io (data_source_datausa): 2 URL occurrences</title></rect>
+<rect x="469.0" y="662.2" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-17 · tesseract.datausa.io (data_source_datausa): 2 URL occurrences</title></rect>
+<rect x="469.0" y="662.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-17 · api.usaspending.gov (data_source_us_gov): 19 URL occurrences</title></rect>
+<rect x="469.0" y="662.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-17 · login.max.gov (data_source_us_gov): 2 URL occurrences</title></rect>
+<rect x="469.0" y="662.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-17 · api.census.gov (data_source_us_gov): 6 URL occurrences</title></rect>
+<rect x="469.0" y="662.0" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-17 · viz.aihw.gov.au (data_source_health): 19 URL occurrences</title></rect>
+<rect x="469.0" y="661.9" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-17 · vizhub.healthdata.org (data_source_health): 18 URL occurrences</title></rect>
+<rect x="469.0" y="661.8" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-17 · www.oecd.org (data_source_health): 4 URL occurrences</title></rect>
+<rect x="469.0" y="661.8" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-17 · public.tableau.com (data_source_library): 1 URL occurrences</title></rect>
+<rect x="469.0" y="661.8" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-17 · index.commoncrawl.org (archive_wayback): 5 URL occurrences</title></rect>
+<rect x="469.0" y="661.8" width="9.17" height="0.60" fill="#377abd"><title>2026-06-17 · 70a66b041b7fe0b1-35-95-198-152.serveousercontent.com (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="469.0" y="661.8" width="9.17" height="0.60" fill="#377abd"><title>2026-06-17 · bvryr-16-146-184-55.run.pinggy-free.link (cloud_storage_dropbox): 5 URL occurrences</title></rect>
+<rect x="469.0" y="661.7" width="9.17" height="0.60" fill="#377abd"><title>2026-06-17 · fxldt-16-146-184-55.run.pinggy-free.link (cloud_storage_dropbox): 4 URL occurrences</title></rect>
+<rect x="469.0" y="661.7" width="9.17" height="0.60" fill="#377abd"><title>2026-06-17 · urlquery.net (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="469.0" y="661.7" width="9.17" height="0.60" fill="#377abd"><title>2026-06-17 · hyqjx-16-146-184-55.run.pinggy-free.link (cloud_storage_dropbox): 2 URL occurrences</title></rect>
+<rect x="469.0" y="661.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-17 · is.gd (url_shortener): 5 URL occurrences</title></rect>
+<rect x="469.0" y="661.6" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-17 · tinyurl.com (url_shortener): 12 URL occurrences</title></rect>
+<rect x="469.0" y="661.6" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-17 · da.gd (url_shortener): 5 URL occurrences</title></rect>
+<rect x="469.0" y="660.3" width="9.17" height="1.28" fill="#bd37a7"><title>2026-06-17 · api.counterapi.dev (counter_signalling): 215 URL occurrences</title></rect>
+<rect x="469.0" y="660.1" width="9.17" height="0.60" fill="#bd37a7"><title>2026-06-17 · countapi.mileshilliard.com (counter_signalling): 44 URL occurrences</title></rect>
+<rect x="469.0" y="659.8" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-17 · example.com (test_placeholder): 35 URL occurrences</title></rect>
+<rect x="469.0" y="659.8" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-17 · ... (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="469.0" y="659.8" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-17 · ...html (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="473.2" width="9.17" height="196.81" fill="#376fbd"><title>2026-06-18 · wikiservice.at (wiki_self): 33,022 URL occurrences</title></rect>
+<rect x="479.8" y="465.9" width="9.17" height="7.31" fill="#376fbd"><title>2026-06-18 · www.wikiservice.at (wiki_self): 1,226 URL occurrences</title></rect>
+<rect x="479.8" y="464.5" width="9.17" height="1.36" fill="#376fbd"><title>2026-06-18 · prowiki.org (wiki_self): 229 URL occurrences</title></rect>
+<rect x="479.8" y="463.6" width="9.17" height="0.95" fill="#376fbd"><title>2026-06-18 · www.prowiki.org (wiki_self): 160 URL occurrences</title></rect>
+<rect x="479.8" y="463.1" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-18 · www.wikiservice.com (wiki_self): 80 URL occurrences</title></rect>
+<rect x="479.8" y="462.8" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-18 · wikiservice.com (wiki_self): 46 URL occurrences</title></rect>
+<rect x="479.8" y="462.8" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-18 · wikiservice.org (wiki_self): 1 URL occurrences</title></rect>
+<rect x="479.8" y="352.4" width="9.17" height="110.44" fill="#bd4d37"><title>2026-06-18 · jqp.vercel.app (jq_json_relay): 18,531 URL occurrences</title></rect>
+<rect x="479.8" y="339.8" width="9.17" height="12.56" fill="#bd4d37"><title>2026-06-18 · jsonhero.io (jq_json_relay): 2,107 URL occurrences</title></rect>
+<rect x="479.8" y="339.8" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-18 · jsonformatter.curiousconcept.com (jq_json_relay): 3 URL occurrences</title></rect>
+<rect x="479.8" y="339.8" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-18 · codebeautify.org (jq_json_relay): 3 URL occurrences</title></rect>
+<rect x="479.8" y="339.8" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-18 · jqp-git-main-sighrobot.vercel.app (jq_json_relay): 1 URL occurrences</title></rect>
+<rect x="479.8" y="293.7" width="9.17" height="46.08" fill="#bd6f37"><title>2026-06-18 · md.succ.ai (fetch_proxy_markdown): 7,732 URL occurrences</title></rect>
+<rect x="479.8" y="282.4" width="9.17" height="11.26" fill="#bd6f37"><title>2026-06-18 · markdown.new (fetch_proxy_markdown): 1,889 URL occurrences</title></rect>
+<rect x="479.8" y="271.3" width="9.17" height="11.07" fill="#bd6f37"><title>2026-06-18 · r.jina.ai (fetch_proxy_markdown): 1,858 URL occurrences</title></rect>
+<rect x="479.8" y="267.2" width="9.17" height="4.11" fill="#bd6f37"><title>2026-06-18 · pure.md (fetch_proxy_markdown): 689 URL occurrences</title></rect>
+<rect x="479.8" y="262.9" width="9.17" height="4.39" fill="#bd6f37"><title>2026-06-18 · md.dhr.wtf (fetch_proxy_markdown): 736 URL occurrences</title></rect>
+<rect x="479.8" y="262.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · urltomarkdown.herokuapp.com (fetch_proxy_markdown): 23 URL occurrences</title></rect>
+<rect x="479.8" y="262.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · magic-html-api.vercel.app (fetch_proxy_markdown): 10 URL occurrences</title></rect>
+<rect x="479.8" y="262.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · api.ocr.space (fetch_proxy_markdown): 2 URL occurrences</title></rect>
+<rect x="479.8" y="262.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · viewpagesource.online (fetch_proxy_markdown): 5 URL occurrences</title></rect>
+<rect x="479.8" y="262.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · r.jina-ai.workers.dev (fetch_proxy_markdown): 2 URL occurrences</title></rect>
+<rect x="479.8" y="262.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · jina.ai (fetch_proxy_markdown): 2 URL occurrences</title></rect>
+<rect x="479.8" y="262.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · image.thum.io (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="479.8" y="262.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-18 · images.weserv.nl (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="479.8" y="249.4" width="9.17" height="13.20" fill="#bd9037"><title>2026-06-18 · allorigins.hexlet.app (cors_proxy): 2,215 URL occurrences</title></rect>
+<rect x="479.8" y="243.4" width="9.17" height="5.95" fill="#bd9037"><title>2026-06-18 · webcrawlerapi.com (cors_proxy): 998 URL occurrences</title></rect>
+<rect x="479.8" y="243.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · cors.bwa.workers.dev (cors_proxy): 65 URL occurrences</title></rect>
+<rect x="479.8" y="242.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · www.proxymule.com (cors_proxy): 83 URL occurrences</title></rect>
+<rect x="479.8" y="241.0" width="9.17" height="1.56" fill="#bd9037"><title>2026-06-18 · cors.hypnguyen.workers.dev (cors_proxy): 261 URL occurrences</title></rect>
+<rect x="479.8" y="240.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · corsmirror.com (cors_proxy): 47 URL occurrences</title></rect>
+<rect x="479.8" y="239.6" width="9.17" height="1.13" fill="#bd9037"><title>2026-06-18 · api.allorigins.win (cors_proxy): 189 URL occurrences</title></rect>
+<rect x="479.8" y="239.1" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · api.cors.lol (cors_proxy): 75 URL occurrences</title></rect>
+<rect x="479.8" y="238.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · proxy.corsfix.com (cors_proxy): 77 URL occurrences</title></rect>
+<rect x="479.8" y="238.3" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · cloudflare-cors-anywhere.hanpengchen.workers.dev (cors_proxy): 69 URL occurrences</title></rect>
+<rect x="479.8" y="238.2" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · test.cors.workers.dev (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="479.8" y="238.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · cors.isomorphic-git.org (cors_proxy): 33 URL occurrences</title></rect>
+<rect x="479.8" y="237.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · corsproxy.io (cors_proxy): 19 URL occurrences</title></rect>
+<rect x="479.8" y="237.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · api.codetabs.com (cors_proxy): 17 URL occurrences</title></rect>
+<rect x="479.8" y="237.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · proxymule.com (cors_proxy): 5 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · thingproxy.freeboard.io (cors_proxy): 12 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · proxy.cors.sh (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · cors.eu.org (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · cors-anywhere.herokuapp.com (cors_proxy): 3 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · allorigins.win (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · cors-anywhere.com (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="479.8" y="237.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · jsonp.afeld.me (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="479.8" y="237.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-18 · thenacken-python-cors-proxy.hf.space (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="479.8" y="237.3" width="9.17" height="0.60" fill="#bd3737"><title>2026-06-18 · www-sec-gov.translate.goog (google_translate_proxy): 53 URL occurrences</title></rect>
+<rect x="479.8" y="237.0" width="9.17" height="0.60" fill="#bd3737"><title>2026-06-18 · translate.google.com (google_translate_proxy): 51 URL occurrences</title></rect>
+<rect x="479.8" y="236.8" width="9.17" height="0.60" fill="#bd3737"><title>2026-06-18 · www-investor-gov.translate.goog (google_translate_proxy): 40 URL occurrences</title></rect>
+<rect x="479.8" y="236.8" width="9.17" height="0.60" fill="#bd3737"><title>2026-06-18 · translate-pa.googleapis.com (google_translate_proxy): 1 URL occurrences</title></rect>
+<rect x="479.8" y="130.3" width="9.17" height="106.52" fill="#37bd4d"><title>2026-06-18 · www.sec.gov (data_source_sec_investor): 17,873 URL occurrences</title></rect>
+<rect x="479.8" y="118.6" width="9.17" height="11.64" fill="#37bd4d"><title>2026-06-18 · www.investor.gov (data_source_sec_investor): 1,953 URL occurrences</title></rect>
+<rect x="479.8" y="118.0" width="9.17" height="0.66" fill="#37bd4d"><title>2026-06-18 · sec.gov (data_source_sec_investor): 110 URL occurrences</title></rect>
+<rect x="479.8" y="117.8" width="9.17" height="0.60" fill="#37bd4d"><title>2026-06-18 · investor.gov (data_source_sec_investor): 21 URL occurrences</title></rect>
+<rect x="479.8" y="117.8" width="9.17" height="0.60" fill="#37bd4d"><title>2026-06-18 · data.sec.gov (data_source_sec_investor): 4 URL occurrences</title></rect>
+<rect x="479.8" y="113.7" width="9.17" height="4.14" fill="#37bd6f"><title>2026-06-18 · api.datausa.io (data_source_datausa): 694 URL occurrences</title></rect>
+<rect x="479.8" y="113.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-18 · api-la.datausa.io (data_source_datausa): 13 URL occurrences</title></rect>
+<rect x="479.8" y="113.4" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-18 · datausa.io (data_source_datausa): 33 URL occurrences</title></rect>
+<rect x="479.8" y="113.0" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-18 · api.usaspending.gov (data_source_us_gov): 61 URL occurrences</title></rect>
+<rect x="479.8" y="113.0" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-18 · piv.max.gov (data_source_us_gov): 6 URL occurrences</title></rect>
+<rect x="479.8" y="113.0" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-18 · portal.max.gov (data_source_us_gov): 8 URL occurrences</title></rect>
+<rect x="479.8" y="112.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-18 · login.max.gov (data_source_us_gov): 56 URL occurrences</title></rect>
+<rect x="479.8" y="112.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-18 · api.census.gov (data_source_us_gov): 83 URL occurrences</title></rect>
+<rect x="479.8" y="112.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-18 · tigerweb.geo.census.gov (data_source_us_gov): 2 URL occurrences</title></rect>
+<rect x="479.8" y="112.1" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-18 · viz.aihw.gov.au (data_source_health): 5 URL occurrences</title></rect>
+<rect x="479.8" y="112.1" width="9.17" height="0.60" fill="#63bd37"><title>2026-06-18 · proxy-itunes.apple.com (data_source_finance): 1 URL occurrences</title></rect>
+<rect x="479.8" y="112.0" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-18 · rspace.library.cofc.edu (data_source_library): 17 URL occurrences</title></rect>
+<rect x="479.8" y="110.5" width="9.17" height="1.51" fill="#85bd37"><title>2026-06-18 · vanderbi.lt (data_source_library): 253 URL occurrences</title></rect>
+<rect x="479.8" y="110.4" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-18 · iiif.library.cofc.edu (data_source_library): 16 URL occurrences</title></rect>
+<rect x="479.8" y="110.2" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-18 · platform.lemino.ai (data_source_library): 37 URL occurrences</title></rect>
+<rect x="479.8" y="110.2" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-18 · cgsc.contentdm.oclc.org (data_source_library): 1 URL occurrences</title></rect>
+<rect x="479.8" y="110.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-18 · tsl.preservica.com (data_source_library): 1 URL occurrences</title></rect>
+<rect x="479.8" y="110.1" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-18 · tsl.access.preservica.com (data_source_library): 1 URL occurrences</title></rect>
+<rect x="479.8" y="110.1" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-18 · e.infogram.com (data_source_publishing): 7 URL occurrences</title></rect>
+<rect x="479.8" y="110.1" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-18 · infogram.com (data_source_publishing): 6 URL occurrences</title></rect>
+<rect x="479.8" y="110.1" width="9.17" height="0.60" fill="#37bdb2"><title>2026-06-18 · www.patriotspoint.org (data_source_publishing): 1 URL occurrences</title></rect>
+<rect x="479.8" y="108.9" width="9.17" height="1.19" fill="#a7bd37"><title>2026-06-18 · code.highcharts.com (data_source_other): 199 URL occurrences</title></rect>
+<rect x="479.8" y="108.8" width="9.17" height="0.60" fill="#a7bd37"><title>2026-06-18 · api.github.com (data_source_other): 4 URL occurrences</title></rect>
+<rect x="479.8" y="108.8" width="9.17" height="0.60" fill="#a7bd37"><title>2026-06-18 · raw.githubusercontent.com (data_source_other): 3 URL occurrences</title></rect>
+<rect x="479.8" y="108.8" width="9.17" height="0.60" fill="#a7bd37"><title>2026-06-18 · raw.githack.com (data_source_other): 2 URL occurrences</title></rect>
+<rect x="479.8" y="108.7" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-18 · web.archive.org (archive_wayback): 17 URL occurrences</title></rect>
+<rect x="479.8" y="108.7" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-18 · archive.org (archive_wayback): 7 URL occurrences</title></rect>
+<rect x="479.8" y="108.6" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-18 · sec.govwayback.com (archive_wayback): 7 URL occurrences</title></rect>
+<rect x="479.8" y="108.6" width="9.17" height="0.60" fill="#377abd"><title>2026-06-18 · doc-10-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 4 URL occurrences</title></rect>
+<rect x="479.8" y="108.6" width="9.17" height="0.60" fill="#377abd"><title>2026-06-18 · doc-08-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 4 URL occurrences</title></rect>
+<rect x="479.8" y="108.5" width="9.17" height="0.60" fill="#377abd"><title>2026-06-18 · doc-0g-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 7 URL occurrences</title></rect>
+<rect x="479.8" y="108.5" width="9.17" height="0.60" fill="#377abd"><title>2026-06-18 · doc-0s-bk-apps-viewer.googleusercontent.com (cloud_storage_dropbox): 3 URL occurrences</title></rect>
+<rect x="479.8" y="107.8" width="9.17" height="0.69" fill="#374dbd"><title>2026-06-18 · docs.google.com (google_docs): 115 URL occurrences</title></rect>
+<rect x="479.8" y="107.8" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-18 · drive.google.com (google_docs): 2 URL occurrences</title></rect>
+<rect x="479.8" y="107.7" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-18 · www.google.com (google_docs): 29 URL occurrences</title></rect>
+<rect x="479.8" y="105.9" width="9.17" height="1.81" fill="#a737bd"><title>2026-06-18 · is.gd (url_shortener): 303 URL occurrences</title></rect>
+<rect x="479.8" y="104.4" width="9.17" height="1.46" fill="#a737bd"><title>2026-06-18 · tinyurl.com (url_shortener): 245 URL occurrences</title></rect>
+<rect x="479.8" y="103.5" width="9.17" height="0.94" fill="#a737bd"><title>2026-06-18 · v.gd (url_shortener): 157 URL occurrences</title></rect>
+<rect x="479.8" y="103.1" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-18 · da.gd (url_shortener): 63 URL occurrences</title></rect>
+<rect x="479.8" y="103.1" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-18 · 2dd.pl (url_shortener): 2 URL occurrences</title></rect>
+<rect x="479.8" y="102.9" width="9.17" height="0.60" fill="#bd37a7"><title>2026-06-18 · api.counterapi.dev (counter_signalling): 28 URL occurrences</title></rect>
+<rect x="479.8" y="102.4" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · example.com (test_placeholder): 92 URL occurrences</title></rect>
+<rect x="479.8" y="102.3" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · example.org (test_placeholder): 14 URL occurrences</title></rect>
+<rect x="479.8" y="102.1" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · httpbin.org (test_placeholder): 32 URL occurrences</title></rect>
+<rect x="479.8" y="102.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · example.net (test_placeholder): 6 URL occurrences</title></rect>
+<rect x="479.8" y="102.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · www.example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="479.8" y="102.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · eu.httpbin.org (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="479.8" y="102.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · v2.jokeapi.dev (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="479.8" y="102.0" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-18 · jsonplaceholder.typicode.com (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="479.8" y="101.9" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · %61llorigins.hexlet.app (obfuscated_or_malformed): 20 URL occurrences</title></rect>
+<rect x="479.8" y="101.8" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.gov. (obfuscated_or_malformed): 19 URL occurrences</title></rect>
+<rect x="479.8" y="101.7" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · allorigins%2ehexlet%2eapp (obfuscated_or_malformed): 10 URL occurrences</title></rect>
+<rect x="479.8" y="101.7" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · %61%6clorigins.hexlet.app (obfuscated_or_malformed): 7 URL occurrences</title></rect>
+<rect x="479.8" y="101.6" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · %61%6c%6corigins%2ehexlet%2eapp (obfuscated_or_malformed): 6 URL occurrences</title></rect>
+<rect x="479.8" y="101.6" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · allorigins%252ehexlet%252eapp (obfuscated_or_malformed): 6 URL occurrences</title></rect>
+<rect x="479.8" y="101.6" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.investor.gov_6000 (obfuscated_or_malformed): 2 URL occurrences</title></rect>
+<rect x="479.8" y="101.6" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.investor.gov_12000 (obfuscated_or_malformed): 2 URL occurrences</title></rect>
+<rect x="479.8" y="101.6" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.investor.gov_18000 (obfuscated_or_malformed): 2 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.investor.gov_25000 (obfuscated_or_malformed): 2 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec%2egov (obfuscated_or_malformed): 2 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · md.succ.ai%2fhttps%253a%252f%252fwww.sec.gov%252ffiles%252fcounty.json (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.gov_6000 (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.gov_12000 (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.gov_18000 (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.gov_25000 (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec&amp; (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.gov%2ffiles%2fcounty.json (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="479.8" y="101.5" width="9.17" height="0.60" fill="#bd374d"><title>2026-06-18 · www.sec.g%6fv (obfuscated_or_malformed): 1 URL occurrences</title></rect>
+<rect x="490.6" y="668.7" width="9.17" height="1.26" fill="#376fbd"><title>2026-06-19 · wikiservice.at (wiki_self): 211 URL occurrences</title></rect>
+<rect x="490.6" y="668.7" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-19 · www.wikiservice.at (wiki_self): 2 URL occurrences</title></rect>
+<rect x="490.6" y="668.7" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-19 · prowiki.org (wiki_self): 10 URL occurrences</title></rect>
+<rect x="490.6" y="667.2" width="9.17" height="1.48" fill="#bd4d37"><title>2026-06-19 · jqp.vercel.app (jq_json_relay): 249 URL occurrences</title></rect>
+<rect x="490.6" y="667.1" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-19 · jsonhero.io (jq_json_relay): 14 URL occurrences</title></rect>
+<rect x="490.6" y="666.4" width="9.17" height="0.73" fill="#bd6f37"><title>2026-06-19 · md.succ.ai (fetch_proxy_markdown): 123 URL occurrences</title></rect>
+<rect x="490.6" y="666.3" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-19 · markdown.new (fetch_proxy_markdown): 9 URL occurrences</title></rect>
+<rect x="490.6" y="666.0" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-19 · r.jina.ai (fetch_proxy_markdown): 60 URL occurrences</title></rect>
+<rect x="490.6" y="665.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-19 · pure.md (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="490.6" y="665.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-19 · urltomarkdown.herokuapp.com (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="490.6" y="665.9" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-19 · allorigins.hexlet.app (cors_proxy): 8 URL occurrences</title></rect>
+<rect x="490.6" y="665.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-19 · www.proxymule.com (cors_proxy): 14 URL occurrences</title></rect>
+<rect x="490.6" y="665.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-19 · api.allorigins.win (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="490.6" y="665.8" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-19 · api.cors.lol (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="490.6" y="665.7" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-19 · cf-cors.findme-19.workers.dev (cors_proxy): 7 URL occurrences</title></rect>
+<rect x="490.6" y="665.7" width="9.17" height="0.60" fill="#bd3737"><title>2026-06-19 · www-sec-gov.translate.goog (google_translate_proxy): 3 URL occurrences</title></rect>
+<rect x="490.6" y="665.7" width="9.17" height="0.60" fill="#bd3737"><title>2026-06-19 · www-investor-gov.translate.goog (google_translate_proxy): 2 URL occurrences</title></rect>
+<rect x="490.6" y="663.4" width="9.17" height="2.29" fill="#37bd4d"><title>2026-06-19 · www.sec.gov (data_source_sec_investor): 384 URL occurrences</title></rect>
+<rect x="490.6" y="663.3" width="9.17" height="0.60" fill="#37bd4d"><title>2026-06-19 · www.investor.gov (data_source_sec_investor): 29 URL occurrences</title></rect>
+<rect x="490.6" y="663.2" width="9.17" height="0.60" fill="#37bd4d"><title>2026-06-19 · sec.gov (data_source_sec_investor): 11 URL occurrences</title></rect>
+<rect x="490.6" y="662.0" width="9.17" height="1.14" fill="#37bd6f"><title>2026-06-19 · api.datausa.io (data_source_datausa): 191 URL occurrences</title></rect>
+<rect x="490.6" y="661.7" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-19 · api-la.datausa.io (data_source_datausa): 63 URL occurrences</title></rect>
+<rect x="490.6" y="661.7" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-19 · datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="490.6" y="661.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-19 · gary-api.datausa.io (data_source_datausa): 7 URL occurrences</title></rect>
+<rect x="490.6" y="661.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-19 · api.usaspending.gov (data_source_us_gov): 4 URL occurrences</title></rect>
+<rect x="490.6" y="661.6" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-19 · login.max.gov (data_source_us_gov): 2 URL occurrences</title></rect>
+<rect x="490.6" y="661.5" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-19 · viz.aihw.gov.au (data_source_health): 14 URL occurrences</title></rect>
+<rect x="490.6" y="661.5" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-19 · www.oecd.org (data_source_health): 2 URL occurrences</title></rect>
+<rect x="490.6" y="661.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-06-19 · code.highcharts.com (data_source_other): 2 URL occurrences</title></rect>
+<rect x="490.6" y="661.4" width="9.17" height="0.60" fill="#377abd"><title>2026-06-19 · 70a66b041b7fe0b1-35-95-198-152.serveousercontent.com (cloud_storage_dropbox): 7 URL occurrences</title></rect>
+<rect x="490.6" y="661.4" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-19 · is.gd (url_shortener): 1 URL occurrences</title></rect>
+<rect x="490.6" y="661.4" width="9.17" height="0.60" fill="#bd37a7"><title>2026-06-19 · api.counterapi.dev (counter_signalling): 14 URL occurrences</title></rect>
+<rect x="490.6" y="661.3" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-19 · example.com (test_placeholder): 5 URL occurrences</title></rect>
+<rect x="490.6" y="661.3" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-19 · example.org (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="501.4" y="669.8" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-20 · wikiservice.at (wiki_self): 30 URL occurrences</title></rect>
+<rect x="501.4" y="669.8" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-20 · jqp.vercel.app (jq_json_relay): 4 URL occurrences</title></rect>
+<rect x="501.4" y="669.6" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-20 · jsonhero.io (jq_json_relay): 39 URL occurrences</title></rect>
+<rect x="501.4" y="669.5" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-20 · md.succ.ai (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="501.4" y="669.4" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-20 · markdown.new (fetch_proxy_markdown): 28 URL occurrences</title></rect>
+<rect x="501.4" y="669.4" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-20 · r.jina.ai (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="501.4" y="669.3" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-20 · pure.md (fetch_proxy_markdown): 8 URL occurrences</title></rect>
+<rect x="501.4" y="669.3" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-20 · vercel-cors-proxy.vercel.app (cors_proxy): 6 URL occurrences</title></rect>
+<rect x="501.4" y="669.3" width="9.17" height="0.60" fill="#37bd4d"><title>2026-06-20 · www.sec.gov (data_source_sec_investor): 3 URL occurrences</title></rect>
+<rect x="501.4" y="669.1" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-20 · api.datausa.io (data_source_datausa): 28 URL occurrences</title></rect>
+<rect x="501.4" y="669.1" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-20 · api-la.datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="501.4" y="669.1" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-20 · datausa.io (data_source_datausa): 1 URL occurrences</title></rect>
+<rect x="501.4" y="669.0" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-20 · api.ourworldindata.org (data_source_health): 13 URL occurrences</title></rect>
+<rect x="501.4" y="668.9" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-20 · www.oecd.org (data_source_health): 19 URL occurrences</title></rect>
+<rect x="501.4" y="668.9" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-20 · unctadstat.unctad.org (data_source_health): 1 URL occurrences</title></rect>
+<rect x="501.4" y="668.9" width="9.17" height="0.60" fill="#85bd37"><title>2026-06-20 · app.powerbi.com (data_source_library): 5 URL occurrences</title></rect>
+<rect x="501.4" y="668.8" width="9.17" height="0.60" fill="#a7bd37"><title>2026-06-20 · fly.wordfinderapi.com (data_source_other): 3 URL occurrences</title></rect>
+<rect x="501.4" y="668.8" width="9.17" height="0.60" fill="#377abd"><title>2026-06-20 · foo.blob.core.windows.net (cloud_storage_dropbox): 14 URL occurrences</title></rect>
+<rect x="501.4" y="668.8" width="9.17" height="0.60" fill="#377abd"><title>2026-06-20 · bypass.blob.core.windows.net (cloud_storage_dropbox): 2 URL occurrences</title></rect>
+<rect x="501.4" y="668.7" width="9.17" height="0.60" fill="#377abd"><title>2026-06-20 · x.blob.core.windows.net (cloud_storage_dropbox): 1 URL occurrences</title></rect>
+<rect x="501.4" y="668.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-20 · word.tips (url_shortener): 1 URL occurrences</title></rect>
+<rect x="501.4" y="668.7" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-20 · 1word.ws (url_shortener): 1 URL occurrences</title></rect>
+<rect x="501.4" y="668.1" width="9.17" height="0.61" fill="#bd37a7"><title>2026-06-20 · api.counterapi.dev (counter_signalling): 102 URL occurrences</title></rect>
+<rect x="501.4" y="668.1" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-20 · example.com (test_placeholder): 2 URL occurrences</title></rect>
+<rect x="512.2" y="669.7" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-21 · wikiservice.at (wiki_self): 49 URL occurrences</title></rect>
+<rect x="512.2" y="669.7" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-21 · www.wikiservice.at (wiki_self): 6 URL occurrences</title></rect>
+<rect x="512.2" y="669.5" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-21 · prowiki.org (wiki_self): 22 URL occurrences</title></rect>
+<rect x="512.2" y="669.4" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-21 · jqp.vercel.app (jq_json_relay): 21 URL occurrences</title></rect>
+<rect x="512.2" y="668.9" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-21 · jsonhero.io (jq_json_relay): 84 URL occurrences</title></rect>
+<rect x="512.2" y="668.9" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-21 · md.succ.ai (fetch_proxy_markdown): 2 URL occurrences</title></rect>
+<rect x="512.2" y="668.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-21 · markdown.new (fetch_proxy_markdown): 32 URL occurrences</title></rect>
+<rect x="512.2" y="668.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-21 · r.jina.ai (fetch_proxy_markdown): 9 URL occurrences</title></rect>
+<rect x="512.2" y="668.7" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-21 · pure.md (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-21 · api.shotapi.io (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-21 · www.pageshot.site (fetch_proxy_markdown): 1 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · cors.bwa.workers.dev (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · www.proxymule.com (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · cors.hypnguyen.workers.dev (cors_proxy): 2 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · api.allorigins.win (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="512.2" y="668.6" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · cf-cors.findme-19.workers.dev (cors_proxy): 7 URL occurrences</title></rect>
+<rect x="512.2" y="668.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · corsproxy.io (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="512.2" y="668.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-21 · proxymule.com (cors_proxy): 6 URL occurrences</title></rect>
+<rect x="512.2" y="668.5" width="9.17" height="0.60" fill="#37bd4d"><title>2026-06-21 · www.sec.gov (data_source_sec_investor): 1 URL occurrences</title></rect>
+<rect x="512.2" y="666.7" width="9.17" height="1.84" fill="#37bd6f"><title>2026-06-21 · api.datausa.io (data_source_datausa): 309 URL occurrences</title></rect>
+<rect x="512.2" y="666.6" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-21 · api-la.datausa.io (data_source_datausa): 9 URL occurrences</title></rect>
+<rect x="512.2" y="666.5" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-21 · datausa.io (data_source_datausa): 17 URL occurrences</title></rect>
+<rect x="512.2" y="666.5" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-21 · la.datausa.io (data_source_datausa): 5 URL occurrences</title></rect>
+<rect x="512.2" y="666.4" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-21 · gary-api.datausa.io (data_source_datausa): 7 URL occurrences</title></rect>
+<rect x="512.2" y="666.2" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-21 · viz.aihw.gov.au (data_source_health): 47 URL occurrences</title></rect>
+<rect x="512.2" y="666.0" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-21 · api.ourworldindata.org (data_source_health): 23 URL occurrences</title></rect>
+<rect x="512.2" y="666.0" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-21 · www.aihw.gov.au (data_source_health): 3 URL occurrences</title></rect>
+<rect x="512.2" y="666.0" width="9.17" height="0.60" fill="#42bd37"><title>2026-06-21 · vizprod.aihw.gov.au (data_source_health): 2 URL occurrences</title></rect>
+<rect x="512.2" y="665.9" width="9.17" height="0.60" fill="#377abd"><title>2026-06-21 · 70a66b041b7fe0b1-35-95-198-152.serveousercontent.com (cloud_storage_dropbox): 7 URL occurrences</title></rect>
+<rect x="512.2" y="665.9" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-21 · app.bitily.in (url_shortener): 3 URL occurrences</title></rect>
+<rect x="512.2" y="665.6" width="9.17" height="0.60" fill="#bd37a7"><title>2026-06-21 · api.counterapi.dev (counter_signalling): 56 URL occurrences</title></rect>
+<rect x="512.2" y="665.4" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-21 · example.com (test_placeholder): 37 URL occurrences</title></rect>
+<rect x="523.0" y="669.2" width="9.17" height="0.75" fill="#376fbd"><title>2026-06-22 · wikiservice.at (wiki_self): 126 URL occurrences</title></rect>
+<rect x="523.0" y="669.2" width="9.17" height="0.60" fill="#376fbd"><title>2026-06-22 · www.wikiservice.at (wiki_self): 3 URL occurrences</title></rect>
+<rect x="523.0" y="668.9" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-22 · jqp.vercel.app (jq_json_relay): 62 URL occurrences</title></rect>
+<rect x="523.0" y="668.7" width="9.17" height="0.60" fill="#bd4d37"><title>2026-06-22 · jsonhero.io (jq_json_relay): 28 URL occurrences</title></rect>
+<rect x="523.0" y="668.5" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-22 · markdown.new (fetch_proxy_markdown): 26 URL occurrences</title></rect>
+<rect x="523.0" y="668.5" width="9.17" height="0.60" fill="#bd6f37"><title>2026-06-22 · pure.md (fetch_proxy_markdown): 3 URL occurrences</title></rect>
+<rect x="523.0" y="668.5" width="9.17" height="0.60" fill="#bd9037"><title>2026-06-22 · www.proxymule.com (cors_proxy): 4 URL occurrences</title></rect>
+<rect x="523.0" y="642.6" width="9.17" height="25.90" fill="#37bd6f"><title>2026-06-22 · api.datausa.io (data_source_datausa): 4,345 URL occurrences</title></rect>
+<rect x="523.0" y="641.4" width="9.17" height="1.17" fill="#37bd6f"><title>2026-06-22 · api-la.datausa.io (data_source_datausa): 196 URL occurrences</title></rect>
+<rect x="523.0" y="641.2" width="9.17" height="0.60" fill="#37bd6f"><title>2026-06-22 · datausa.io (data_source_datausa): 46 URL occurrences</title></rect>
+<rect x="523.0" y="641.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-22 · api.usaspending.gov (data_source_us_gov): 2 URL occurrences</title></rect>
+<rect x="523.0" y="641.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-22 · login.max.gov (data_source_us_gov): 4 URL occurrences</title></rect>
+<rect x="523.0" y="641.1" width="9.17" height="0.60" fill="#37bd90"><title>2026-06-22 · api.census.gov (data_source_us_gov): 9 URL occurrences</title></rect>
+<rect x="523.0" y="641.0" width="9.17" height="0.60" fill="#379cbd"><title>2026-06-22 · web.archive.org (archive_wayback): 10 URL occurrences</title></rect>
+<rect x="523.0" y="641.0" width="9.17" height="0.60" fill="#374dbd"><title>2026-06-22 · docs.google.com (google_docs): 6 URL occurrences</title></rect>
+<rect x="523.0" y="641.0" width="9.17" height="0.60" fill="#a737bd"><title>2026-06-22 · tinyurl.com (url_shortener): 1 URL occurrences</title></rect>
+<rect x="523.0" y="640.8" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-22 · example.com (test_placeholder): 21 URL occurrences</title></rect>
+<rect x="523.0" y="640.8" width="9.17" height="0.60" fill="#bd377a"><title>2026-06-22 · example.org (test_placeholder): 5 URL occurrences</title></rect>
+<rect x="620.0" y="670.0" width="9.17" height="0.60" fill="#bd9037"><title>2026-07-01 · allorigins.hexlet.app (cors_proxy): 1 URL occurrences</title></rect>
+<rect x="620.0" y="670.0" width="9.17" height="0.60" fill="#37bd6f"><title>2026-07-01 · api.datausa.io (data_source_datausa): 6 URL occurrences</title></rect>
+<rect x="620.0" y="669.9" width="9.17" height="0.60" fill="#379cbd"><title>2026-07-01 · memgator.cs.odu.edu (archive_wayback): 2 URL occurrences</title></rect>
+<rect x="630.8" y="669.8" width="9.17" height="0.60" fill="#37bd6f"><title>2026-07-02 · api.datausa.io (data_source_datausa): 29 URL occurrences</title></rect>
+<rect x="630.8" y="669.8" width="9.17" height="0.60" fill="#bd377a"><title>2026-07-02 · example.com (test_placeholder): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.8" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · arxiv.org (data_source_other): 36 URL occurrences</title></rect>
+<rect x="1094.5" y="669.7" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · info.arxiv.org (data_source_other): 15 URL occurrences</title></rect>
+<rect x="1094.5" y="669.7" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.alphaxiv.org (data_source_other): 6 URL occurrences</title></rect>
+<rect x="1094.5" y="669.6" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · huggingface.co (data_source_other): 6 URL occurrences</title></rect>
+<rect x="1094.5" y="669.6" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.w3.org (data_source_other): 4 URL occurrences</title></rect>
+<rect x="1094.5" y="669.6" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · alphaxiv.org (data_source_other): 3 URL occurrences</title></rect>
+<rect x="1094.5" y="669.6" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · qlabs.sh (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.6" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · openreview.net (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · openreview (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · fontawesome.com (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · static.arxiv.org (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · doi.org (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · export.arxiv.org (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.markxiv.org (data_source_other): 2 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · dlmf.nist.gov (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · use.typekit.net (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · purl.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · madskills.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · creativecommons.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.5" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · ui.adsabs.harvard.edu (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · scholar.google.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · api.semanticscholar.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.bibsonomy.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · reddit.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.connectedpapers.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.litmaps.co (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.scite.ai (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.catalyzex.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · dagshub.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · gotit.pub (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · sciencecast.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · replicate.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · txyz.ai (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · influencemap.cmlab.dev (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · core.ac.uk (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · status.arxiv.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.4" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.simonsfoundation.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.3" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.sfi.org.bm (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.3" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · www.schmidtsciences.org (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.3" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · a9.com (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1094.5" y="669.3" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-14 · cdn-avatars.huggingface.co (data_source_other): 1 URL occurrences</title></rect>
+<rect x="1170.0" y="670.0" width="9.17" height="0.60" fill="#a7bd37"><title>2026-08-21 · cdn.putput.io (data_source_other): 3 URL occurrences</title></rect>
+<line x1="80" y1="74" x2="80" y2="670" stroke="#333" stroke-width="1"/>
+<line x1="80" y1="670" x2="1180" y2="670" stroke="#333" stroke-width="1"/>
+<text x="20" y="372" transform="rotate(-90 20 372)" text-anchor="middle" fill="#333">URL occurrences</text>
+<text x="85.4" y="686" text-anchor="end" fill="#333" transform="rotate(-60 85.4 686)">2026-05-12</text>
+<text x="128.5" y="686" text-anchor="end" fill="#333" transform="rotate(-60 128.5 686)">2026-05-16</text>
+<text x="171.7" y="686" text-anchor="end" fill="#333" transform="rotate(-60 171.7 686)">2026-05-20</text>
+<text x="214.8" y="686" text-anchor="end" fill="#333" transform="rotate(-60 214.8 686)">2026-05-24</text>
+<text x="257.9" y="686" text-anchor="end" fill="#333" transform="rotate(-60 257.9 686)">2026-05-28</text>
+<text x="301.1" y="686" text-anchor="end" fill="#333" transform="rotate(-60 301.1 686)">2026-06-01</text>
+<text x="344.2" y="686" text-anchor="end" fill="#333" transform="rotate(-60 344.2 686)">2026-06-05</text>
+<text x="387.4" y="686" text-anchor="end" fill="#333" transform="rotate(-60 387.4 686)">2026-06-09</text>
+<text x="430.5" y="686" text-anchor="end" fill="#333" transform="rotate(-60 430.5 686)">2026-06-13</text>
+<text x="473.6" y="686" text-anchor="end" fill="#333" transform="rotate(-60 473.6 686)">2026-06-17</text>
+<text x="516.8" y="686" text-anchor="end" fill="#333" transform="rotate(-60 516.8 686)">2026-06-21</text>
+<text x="559.9" y="686" text-anchor="end" fill="#333" transform="rotate(-60 559.9 686)">2026-06-25</text>
+<text x="603.0" y="686" text-anchor="end" fill="#333" transform="rotate(-60 603.0 686)">2026-06-29</text>
+<text x="646.2" y="686" text-anchor="end" fill="#333" transform="rotate(-60 646.2 686)">2026-07-03</text>
+<text x="689.3" y="686" text-anchor="end" fill="#333" transform="rotate(-60 689.3 686)">2026-07-07</text>
+<text x="732.5" y="686" text-anchor="end" fill="#333" transform="rotate(-60 732.5 686)">2026-07-11</text>
+<text x="775.6" y="686" text-anchor="end" fill="#333" transform="rotate(-60 775.6 686)">2026-07-15</text>
+<text x="818.7" y="686" text-anchor="end" fill="#333" transform="rotate(-60 818.7 686)">2026-07-19</text>
+<text x="861.9" y="686" text-anchor="end" fill="#333" transform="rotate(-60 861.9 686)">2026-07-23</text>
+<text x="905.0" y="686" text-anchor="end" fill="#333" transform="rotate(-60 905.0 686)">2026-07-27</text>
+<text x="948.1" y="686" text-anchor="end" fill="#333" transform="rotate(-60 948.1 686)">2026-07-31</text>
+<text x="991.3" y="686" text-anchor="end" fill="#333" transform="rotate(-60 991.3 686)">2026-08-04</text>
+<text x="1034.4" y="686" text-anchor="end" fill="#333" transform="rotate(-60 1034.4 686)">2026-08-08</text>
+<text x="1077.5" y="686" text-anchor="end" fill="#333" transform="rotate(-60 1077.5 686)">2026-08-12</text>
+<text x="1120.7" y="686" text-anchor="end" fill="#333" transform="rotate(-60 1120.7 686)">2026-08-16</text>
+<text x="1163.8" y="686" text-anchor="end" fill="#333" transform="rotate(-60 1163.8 686)">2026-08-20</text>
+<text x="1174.6" y="686" text-anchor="end" fill="#333" transform="rotate(-60 1174.6 686)">2026-08-21</text>
+<text x="1204" y="74" font-weight="600" fill="#111">category color · in-window · hosts · (pre-window)</text>
+<rect x="1204" y="86" width="16" height="12" fill="#376fbd"/>
+<text x="1226" y="96" fill="#111">wiki_self<tspan fill="#666"> · 36,692 URLs · 7 hosts</tspan></text>
+<rect x="1204" y="104" width="16" height="12" fill="#bd4d37"/>
+<text x="1226" y="114" fill="#111">jq_json_relay<tspan fill="#666"> · 21,564 URLs · 5 hosts</tspan></text>
+<rect x="1204" y="122" width="16" height="12" fill="#37bd4d"/>
+<text x="1226" y="132" fill="#111">data_source_sec_investor<tspan fill="#666"> · 20,389 URLs · 5 hosts</tspan></text>
+<rect x="1204" y="140" width="16" height="12" fill="#bd6f37"/>
+<text x="1226" y="150" fill="#111">fetch_proxy_markdown<tspan fill="#666"> · 14,723 URLs · 17 hosts</tspan></text>
+<rect x="1204" y="158" width="16" height="12" fill="#37bd6f"/>
+<text x="1226" y="168" fill="#111">data_source_datausa<tspan fill="#666"> · 10,940 URLs · 11 hosts</tspan></text>
+<rect x="1204" y="176" width="16" height="12" fill="#bd9037"/>
+<text x="1226" y="186" fill="#111">cors_proxy<tspan fill="#666"> · 5,665 URLs · 29 hosts</tspan></text>
+<rect x="1204" y="194" width="16" height="12" fill="#37bd90"/>
+<text x="1226" y="204" fill="#111">data_source_us_gov<tspan fill="#666"> · 1,275 URLs · 8 hosts</tspan></text>
+<rect x="1204" y="212" width="16" height="12" fill="#85bd37"/>
+<text x="1226" y="222" fill="#111">data_source_library<tspan fill="#666"> · 1,173 URLs · 20 hosts</tspan></text>
+<rect x="1204" y="230" width="16" height="12" fill="#a737bd"/>
+<text x="1226" y="240" fill="#111">url_shortener<tspan fill="#666"> · 842 URLs · 10 hosts</tspan></text>
+<rect x="1204" y="248" width="16" height="12" fill="#bd37a7"/>
+<text x="1226" y="258" fill="#111">counter_signalling<tspan fill="#666"> · 607 URLs · 2 hosts</tspan></text>
+<rect x="1204" y="266" width="16" height="12" fill="#374dbd"/>
+<text x="1226" y="276" fill="#111">google_docs<tspan fill="#666"> · 534 URLs · 3 hosts</tspan></text>
+<rect x="1204" y="284" width="16" height="12" fill="#bd377a"/>
+<text x="1226" y="294" fill="#111">test_placeholder<tspan fill="#666"> · 443 URLs · 8 hosts  +1 pre-window</tspan></text>
+<rect x="1204" y="302" width="16" height="12" fill="#a7bd37"/>
+<text x="1226" y="312" fill="#111">data_source_other<tspan fill="#666"> · 414 URLs · 53 hosts  +83 pre-window</tspan></text>
+<rect x="1204" y="320" width="16" height="12" fill="#42bd37"/>
+<text x="1226" y="330" fill="#111">data_source_health<tspan fill="#666"> · 233 URLs · 8 hosts</tspan></text>
+<rect x="1204" y="338" width="16" height="12" fill="#379cbd"/>
+<text x="1226" y="348" fill="#111">archive_wayback<tspan fill="#666"> · 209 URLs · 8 hosts</tspan></text>
+<rect x="1204" y="356" width="16" height="12" fill="#bd3737"/>
+<text x="1226" y="366" fill="#111">google_translate_proxy<tspan fill="#666"> · 151 URLs · 5 hosts</tspan></text>
+<rect x="1204" y="374" width="16" height="12" fill="#bd374d"/>
+<text x="1226" y="384" fill="#111">obfuscated_or_malformed<tspan fill="#666"> · 131 URLs · 23 hosts</tspan></text>
+<rect x="1204" y="392" width="16" height="12" fill="#377abd"/>
+<text x="1226" y="402" fill="#111">cloud_storage_dropbox<tspan fill="#666"> · 98 URLs · 17 hosts</tspan></text>
+<rect x="1204" y="410" width="16" height="12" fill="#37bdb2"/>
+<text x="1226" y="420" fill="#111">data_source_publishing<tspan fill="#666"> · 84 URLs · 7 hosts</tspan></text>
+<rect x="1204" y="428" width="16" height="12" fill="#63bd37"/>
+<text x="1226" y="438" fill="#111">data_source_finance<tspan fill="#666"> · 51 URLs · 6 hosts</tspan></text>
+<rect x="1204" y="446" width="16" height="12" fill="#888888"/>
+<text x="1226" y="456" fill="#111">unclassified<tspan fill="#666"> · 0 URLs · 0 hosts  +2 pre-window</tspan></text>
+<text x="1204" y="486" font-weight="600" fill="#111">window: 2026-05-01 → 2026-08-21</text>
+<text x="1204" y="502" fill="#333">116,218 URL occurrences · 252 distinct hosts</text>
+<text x="1204" y="518" fill="#333">pre-window (undated or before 2026-05-01): 86</text>
+</svg>

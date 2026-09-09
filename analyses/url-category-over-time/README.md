@@ -1,40 +1,37 @@
 # url-category-over-time
 
-Stacked area chart: URL occurrences per UTC day, grouped by category. One
-polygon per category; hues are shared within a functional group (own-wiki,
-proxies, data sources, archive/storage, obfuscation/test) and lightness
-distinguishes categories within the group.
+Stacked bar chart: URL occurrences per UTC day, one segment per host, colored
+by the host's category. Sources: `prowiki`, `pastes`, `gems`.
 
 ## Vocabulary
 
 | Term | Meaning |
 |---|---|
-| URL occurrence | One `http(s)://` string in one revision body. From `analyses/urls/outputs/urls-classified.jsonl`. |
-| category | The upstream classifier's label — 20 distinct values, e.g. `wiki_self`, `jq_json_relay`, `fetch_proxy_markdown`, `data_source_sec_investor`. |
-| group | A hand-picked bundle of related categories that share a hue in the chart. See `CATEGORY_GROUPS` in `build_and_plot.py`. Five groups. |
+| URL occurrence | One `http(s)://` string in one revision body. From `analyses/urls/outputs/urls-classified.jsonl` (which now covers `prowiki`, `pastes`, and `gems`). |
+| host | The lowercased hostname of one URL, e.g. `wikiservice.at`. There are 275 distinct hosts in the corpus. |
+| category | Upstream classifier label — 20 functional buckets (`wiki_self`, `jq_json_relay`, `fetch_proxy_markdown`, `data_source_sec_investor`, …). Every segment in a bar is colored by its host's category. |
+| window | 2026-05-01 → last dated URL (2026-09-04). Rows with a null timestamp or a date before the window are reported in the legend as "+N pre-window" per category. |
+
+## Chart design
+
+- **X-axis:** one bar per UTC date in the window. Bars are the same width; missing days show as gaps.
+- **Y-axis:** URL occurrences per day, linear.
+- **Segment ordering (bottom → top of each bar):** category rank first (`wiki_self`, then the proxy/relay categories, then the data-source categories, then archive/storage, then obfuscation/test); within a category, hosts are sorted by their in-window total, largest at the bottom of the color band.
+- **Colors:** one color per category (20 total). Two hosts in the same category share the same color. Legend at the right lists categories with in-window URL count, distinct host count, and pre-window count (if any).
+- **Peak day:** 2026-06-18 carries ~95k of the ~116k in-window URL occurrences and dominates the y-axis; other days are visible as short bars near the baseline. Hover over any segment to see the exact host and count.
 
 ## Files
 
 | File | What it holds |
 |---|---|
 | `build_and_plot.py` | Reads `analyses/urls/outputs/urls-classified.jsonl`. Writes both outputs. |
-| `outputs/urls_by_date.tsv` | `date`, `category`, `occurrences`. One row per (date, category) with a non-zero count. 203 rows. |
-| `outputs/urls_stacked_area.svg` | The stacked-area chart. Legend at right lists each group and its categories, top-of-stack first. |
-
-## Notes on scale
-
-- Total URL occurrences: 115,855 across the export.
-- Peak day (2026-06-18) has ~40k URL occurrences. That is the same day the
-  overall revision counts spike; unsurprising because URL-per-revision is
-  roughly stable.
-- The `own wiki` (`wiki_self`) band is often the tallest single slice on
-  quieter days. Agents cite the wiki itself to signal state to peers.
-- The red/orange band (`jq_json_relay`, `fetch_proxy_markdown`, `cors_proxy`)
-  is the tool-use signature: agents fetching arbitrary URLs through a
-  third-party proxy that returns markdown or JSON.
+| `outputs/urls_by_date_host.tsv` | `date`, `category`, `host`, `occurrences`. One row per (date, category, host) in the window with a non-zero count. 611 rows. |
+| `outputs/urls_stacked_bar_by_host.svg` | The stacked-bar chart. |
 
 ## Rerun
 
 ```
-python3 analyses/url-category-over-time/build_and_plot.py
+python3 analyses/urls/extract.py \
+  && python3 analyses/urls/classify.py \
+  && python3 analyses/url-category-over-time/build_and_plot.py
 ```
