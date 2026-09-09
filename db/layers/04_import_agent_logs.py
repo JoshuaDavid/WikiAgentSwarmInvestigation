@@ -19,6 +19,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import re
 import sqlite3
 from pathlib import Path
 
@@ -26,11 +27,15 @@ from pathlib import Path
 # ------------- helpers ----------------------------------------------------
 
 def _decode_body(body_str: str, encoding: str) -> bytes:
+    """Recover the original bytes from a revisions.jsonl `body` field.
+
+    prowiki uses `body_encoding` in {ascii, utf8, latin1} — the JSON string
+    is produced by decoding the byte payload as latin-1, so encoding the
+    string as latin-1 round-trips to the original bytes. Shellac-imported
+    corpora use `raw_utf8`, meaning the JSON string is the text itself.
+    """
     if encoding in ("ascii", "utf8", "latin1"):
-        try:
-            return base64.b64decode(body_str)
-        except Exception:
-            return body_str.encode("utf-8", errors="replace")
+        return body_str.encode("latin-1", errors="replace")
     return body_str.encode("utf-8", errors="replace")
 
 
@@ -139,6 +144,29 @@ def _record_provenance(conn, subject_tbl: str, subject_id: int,
         "VALUES (?, ?, ?, ?, ?)",
         (subject_tbl, subject_id, batch_id, source_file, line_no),
     )
+
+
+_REF_KIND_RE = re.compile(r"(rclog|reqlog|attacklog)", re.I)
+
+
+def _record_source_refs(conn, subject_tbl: str, subject_id: int,
+                         refs: list[str]) -> None:
+    """Split an exporter `source_refs` entry like
+    `corpus/live/rclog.jsonl:131972` into ref_path + ref_lineno + ref_kind."""
+    for s in refs:
+        path, sep, lno = s.rpartition(":")
+        if not sep or not lno.isdigit():
+            path, lno = s, None
+        else:
+            lno = int(lno)
+        m = _REF_KIND_RE.search(path or s)
+        kind = m.group(1).lower() if m else "rclog"
+        conn.execute(
+            "INSERT INTO raw_source_ref "
+            "(subject_tbl, subject_id, ref_kind, ref_path, ref_lineno) "
+            "VALUES (?, ?, ?, ?, ?)",
+            (subject_tbl, subject_id, kind, path or s, lno),
+        )
 
 
 def _capture_method_for(source_kind: str, rev: dict) -> str:
@@ -269,31 +297,44 @@ def _import_pages_jsonl(conn, cfg, src: dict, batch_id: int,
                                     f"{src['dir']}/pages.jsonl", line_no)
 
 
+_PROBE_WIKI_RE = re.compile(r"attacklog_raw_([a-z0-9]+)_\d+\.jsonl", re.I)
+
+
+def _probe_venue_name(ev: dict) -> str | None:
+    """Prowiki's probe rows have no `wiki` field. Extract the wiki name from
+    the source_refs entry that points at an attacklog file
+    (`attacklog_raw_<wiki>_YYMM.jsonl`)."""
+    for s in ev.get("source_refs") or []:
+        m = _PROBE_WIKI_RE.search(s)
+        if m:
+            return m.group(1)
+    return None
+
+
 def _import_events_jsonl(conn, cfg, src: dict, batch_id: int,
-                          caches: _Caches, doc_by_wiki_name: dict) -> None:
-    """Read events.jsonl (wiki sources) and populate moderation_event + probe.
-    save events are already implicit in the revisions.jsonl import; we skip
-    them here."""
+                          caches: _Caches) -> None:
+    """Populate moderation_event + probe from events.jsonl for wiki sources.
+    `save` events duplicate what revisions.jsonl already carries and are
+    skipped."""
     p = cfg.AGENT_LOGS / src["dir"] / "events.jsonl"
     if not p.exists():
         return
     for line_no, line in enumerate(open(p), start=1):
         ev = json.loads(line)
         etype = ev.get("event_type")
-        # `save` events are covered by revisions.jsonl; skip fast so we do not
-        # need to resolve a venue for aggregate sources that only have saves.
         if etype not in ("delete", "revert", "probe"):
             continue
-        venue_name = src["venue_name"] or ev.get("wiki")
-        if not venue_name:
-            continue
-        venue_id = _venue_id(conn, venue_name, caches)
 
         if etype in ("delete", "revert"):
-            # Look up the document by (venue, page-name). The event payload uses
-            # varying field names for the page identifier depending on the
-            # exporter; check the common ones.
-            page_name = (ev.get("page_name") or ev.get("name")
+            venue_name = (src["venue_name"] or ev.get("wiki"))
+            if not venue_name:
+                continue
+            venue_id = _venue_id(conn, venue_name, caches)
+            # The exporter's field name for the page varies. prowiki uses
+            # `page`; sister wikis may use `page_name` or `name`; some rows
+            # only have `page_id` = `<wiki>/<page>`.
+            page_name = (ev.get("page") or ev.get("page_name")
+                          or ev.get("name")
                           or (ev.get("page_id") or "").split("/", 1)[-1])
             if not page_name:
                 continue
@@ -314,13 +355,20 @@ def _import_events_jsonl(conn, cfg, src: dict, batch_id: int,
                 "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 (doc_id, handle_id, network_block_id, etype,
                  ev.get("request_time"), ev.get("success_time"),
-                 ev.get("rclog_time"), ev.get("change_summary"),
+                 ev.get("rclog_time") or ev.get("rcs_date"),
+                 ev.get("change_summary"),
                  _bool_or_none(ev.get("page_held"))),
             )
+            _record_source_refs(conn, "moderation_event", cur.lastrowid,
+                                 ev.get("source_refs") or [])
             _record_provenance(conn, "moderation_event", cur.lastrowid,
                                 batch_id, f"{src['dir']}/events.jsonl", line_no)
 
         elif etype == "probe":
+            venue_name = _probe_venue_name(ev) or ev.get("wiki") or src["venue_name"]
+            if not venue_name:
+                continue
+            venue_id = _venue_id(conn, venue_name, caches)
             network_block_id = None
             ip16 = ev.get("ip16")
             if ip16:
@@ -332,6 +380,8 @@ def _import_events_jsonl(conn, cfg, src: dict, batch_id: int,
                 (venue_id, network_block_id, ev.get("param_family"),
                  ev.get("request_action"), ev.get("request_time")),
             )
+            _record_source_refs(conn, "probe", cur.lastrowid,
+                                 ev.get("source_refs") or [])
             _record_provenance(conn, "probe", cur.lastrowid, batch_id,
                                 f"{src['dir']}/events.jsonl", line_no)
 
@@ -499,7 +549,7 @@ def _import_source(conn: sqlite3.Connection, ctx: dict, src: dict,
         )
 
     # Events last: needs documents to exist.
-    _import_events_jsonl(conn, cfg, src, batch_id, caches, {})
+    _import_events_jsonl(conn, cfg, src, batch_id, caches)
 
     print(f"  {src['dir']}: {n_posts} new posts, {n_captures_only} additional captures")
 

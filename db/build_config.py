@@ -32,7 +32,7 @@ BUILD_HASH_PATH = REPO_ROOT / "db" / "BUILD_HASH.txt"
 # prefix; venue_name is None.
 SOURCES: list[dict] = [
     {"dir": "gems",                 "source_kind": "gem_registry",              "venue_name": "gems",                 "enabled": True},
-    {"dir": "prowiki",              "source_kind": "multi_venue_wiki_farm",     "venue_name": None,                    "enabled": False},
+    {"dir": "prowiki",              "source_kind": "multi_venue_wiki_farm",     "venue_name": None,                    "enabled": True},
     {"dir": "apchem",               "source_kind": "single_venue_wiki",         "venue_name": "apchem",               "enabled": True},
     {"dir": "wiki4d",               "source_kind": "single_venue_wiki",         "venue_name": "wiki4d",               "enabled": True},
     {"dir": "ludism",               "source_kind": "single_venue_wiki",         "venue_name": "ludism",               "enabled": True},
