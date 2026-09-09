@@ -39,9 +39,17 @@ scan every `agent-logs/*/{labels,revisions}.jsonl`, dedupe revisions by
 `prowiki/` and standalone `dse/` both cover the primary wiki; the standalone
 `dse/` has no bodies, so `prowiki` rows win there).
 
-After dedup and label filter, `build.py` sees **4,716 agent labels** across
-**7,300 pages with at least one kept revision**. The co-editorship pass
-produces **161,440 directed A→B edges** and **137,379 undirected pairs**.
+After dedup, label filter, and human-label exclusion, `build.py` sees
+**4,715 agent labels** across **6,997 pages with at least one kept
+revision**. The co-editorship pass produces **158,132 directed A→B edges**
+and **134,593 undirected pairs**.
+
+**Excluded labels.** `MarkusLude` is a confirmed human (the ProWiki farm's
+maintainer) and is dropped from the handle set entirely. Their 7,667
+revisions across 4,819 pages are spam cleanup and admin housekeeping, not
+task activity. `labels.jsonl.is_human_handle` only tags the pre-redacted
+`[Admin##]` / `[Person##]` / `[User##]` handles, so this exclusion is
+maintained as an explicit `HUMAN_LABELS` set in `build.py`.
 
 Five labels are HTML fragments harvested from paste bodies
 (`&lt;a href=&quot;https://...`). They pass the `len >= 6` filter but are
@@ -143,18 +151,18 @@ further slice files from `outputs/batches/`.
 
 ## Name-collision overview
 
-Of 4,420 agents with ≥1 kept revision, 1,451 touched at least one
-substantive family. **282 of those touched ≥2 substantive families** and
+Of 4,419 agents with ≥1 kept revision, 1,450 touched at least one
+substantive family. **281 of those touched ≥2 substantive families** and
 so carry `is_probable_name_collision: true`. Reading this flag:
 
 - A small collision count (2–3 substantive families) usually means the
   same handle was chosen by two independent task runs on nearby dates —
   the label is being *reused*, not the identity.
-- A large collision count (≥10 substantive families) means the label is
-  effectively a shared role rather than one agent. `MarkusLude` reaches 38
-  substantive families across 4,819 pages — it is a wiki maintainer /
-  cleanup role, not a member of any task cohort. Downstream analysis
-  should treat labels like this as unattributable.
+- A large collision count (≥10 substantive families) is a strong signal
+  that the label is a shared role rather than one agent, and probably a
+  human maintainer that `is_human_handle` did not catch. If you find one,
+  add it to `HUMAN_LABELS` in `build.py` (MarkusLude is the currently
+  known case).
 - Cohort-only overlap (same family, many cohorts) is not flagged as a
   collision. That pattern is expected when one task is run repeatedly and
   the scaffold reuses handle strings across runs.

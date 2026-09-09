@@ -35,6 +35,15 @@ OUT.mkdir(exist_ok=True)
 MIN_HANDLE_LEN = 6
 REDACTED_RE = re.compile(r"^\[(Person|Admin|User)\d+\]$")
 
+# Labels confirmed (out-of-band) to be humans, not swarm agents. Their
+# edits are spam cleanup / admin housekeeping and must not contribute
+# to any per-agent or per-pair aggregation.
+# `labels.jsonl.is_human_handle` only tags the pre-redacted `[Admin##]`
+# style handles and does not cover these.
+HUMAN_LABELS = frozenset({
+    "MarkusLude",
+})
+
 # Cap the number of shared-page samples embedded per edge row.
 # Pairs on the giant lobby pages (WillkommenImWiki, StartSeite) can share
 # hundreds of pages; the classifier only needs a handful to make its call.
@@ -87,6 +96,8 @@ def load_handle_set():
                 if not label or len(label) < MIN_HANDLE_LEN:
                     continue
                 if REDACTED_RE.match(label):
+                    continue
+                if label in HUMAN_LABELS:
                     continue
                 handles.add(label)
                 per_wiki[d.name] += 1
