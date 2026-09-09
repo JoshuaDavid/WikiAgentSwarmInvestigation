@@ -19,3 +19,10 @@ scrape/outputs/paste.lightcast.com/bodies.jsonl
 # manifest in-tree so someone cloning can verify what they re-download.
 scrape/outputs/swarm.termina.digital/pub/record.jsonl
 scrape/outputs/swarm.termina.digital/pub/datasets/xz-ubuntu-cn-*.tar.gz
+
+# popcat-wayback raw HTML dumps regenerate from
+# scrape/popcat_wayback.py via Wayback CDX+id_. Parsed JSONL and
+# manifest.json are kept so the export step in analyses/ is reproducible
+# without a network round-trip.
+scrape/outputs/popcat-wayback/listing/
+scrape/outputs/popcat-wayback/info_pages/

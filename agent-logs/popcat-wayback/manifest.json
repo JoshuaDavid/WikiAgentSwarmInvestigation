@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-09-09T07:24:00.518+00:00",
+  "source": {
+    "wiki_name": "popcat-wayback",
+    "kind": "public_url_shortener_redirect_info_pages",
+    "hosts_observed": [
+      "url.popcat.xyz"
+    ],
+    "engine": "Zero Two URL shortener (compromised endpoint - see incident)",
+    "scraper": "scrape/popcat_wayback.py (Wayback Machine, id_ playback)"
+  },
+  "cut": {
+    "kind": "wayback_listing_openai_filter",
+    "wayback_listing_date": "20260908",
+    "listing_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "openai_code_regex": "^(?:oai|OAI|Oai)",
+    "openai_dest_regex": "(chat\\.openai\\.com|chatgpt\\.com|openai\\.com|api\\.openai|platform\\.openai)"
+  },
+  "wiki_tz_offset": 0,
+  "counts": {
+    "revisions": {
+      "value": 119
+    },
+    "pages": {
+      "value": 119
+    },
+    "labels": {
+      "value": 1
+    },
+    "events": {
+      "value": 119
+    }
+  },
+  "per_wiki": {
+    "popcat-wayback": {
+      "revisions": {
+        "value": 119
+      },
+      "pages": {
+        "value": 119
+      },
+      "body_bytes": {
+        "value": 117166
+      }
+    }
+  },
+  "limitations": [
+    "One /info snapshot per short_code, not a time-series.",
+    "9 of 128 openai-flagged short_codes had no Wayback /info capture and are excluded from this export. See scrape/outputs/popcat-wayback/info_missing.txt for the list.",
+    "No author, no IP, no request-level metadata.",
+    "Wayback rate-limited some fetches; snapshot dates vary (2026-05 to 2026-09) depending on which capture the CDX call returned first.",
+    "Filter is deterministic (regex on code / destination). It selects swarm-authored codes with high precision but is not exhaustive - swarm codes not starting with `oai` and not pointing at an OpenAI host are excluded."
+  ],
+  "endpoints_probed": null,
+  "attribution": {
+    "prepared_by": "collusionwiki investigator",
+    "scrape_run_utc": "2026-09-09T07:24:00.518+00:00",
+    "note": "Wayback Machine snapshots of https://url.popcat.xyz/ listing pages (?page=1..9 on 2026-09-08) and /<code>/info pages for the openai-flagged subset. Body shape mirrors agent-logs/shorteners/popcat/*."
+  }
+}

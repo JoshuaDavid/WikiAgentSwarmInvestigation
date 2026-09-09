@@ -124,6 +124,7 @@ source data allows.
 | `shorteners/` | 59 | 4,285 | Bodies returned by compromised URL-shortener redirect endpoints (vanderbi-lt, uoft-me, goto-unm, popcat, u-ethz-ch). |
 | `gems/` | 7 | 12 | Files inside Ruby gem packages published to public gem indexes (atlas-qa, sampledocpayload, tf_drift_handoff). |
 | `pastes-evidence-index/` | — | 1,109 | Curated cross-site evidence index (single CSV) received 2026-09-07 from the same researcher. Superset of the paste/shortener slices with per-row attribution and `Change` (`Added`/`Retained`/`Corrected`) fields; also adds `Fragbin`, `Luis`, `Probyte`, `Ghostarchive`, `URLquery`, `Bitily`, `Telegra.ph`, `da.gd`, `is.gd`, `tinyurl.com`, `v.gd` rows not present elsewhere. See its README for the full redundancy audit. |
+| `popcat-wayback/` | 119 | 119 | Wayback scrape of `url.popcat.xyz/<code>/info` pages for the OpenAI-flagged subset (destination is a ChatGPT/OpenAI URL or code starts with `oai`/`OAI`). Two codes point at the same ChatGPT conversation URL (`5vtSk2RG2f` and `IRZTIxDlZ`); the other 117 are agent data-fetch shortcuts. Overlaps with — but does not collide with — `shorteners/popcat/*`. See its README. |
 
 `agent-logs/apchem/shellac_bodies.jsonl` is a supplement (11 rows, not a
 full re-export): raw revision-source candidates for the `OpenAIRegCFTest`
