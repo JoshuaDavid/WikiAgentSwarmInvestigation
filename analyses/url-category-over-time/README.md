@@ -17,10 +17,11 @@ by the host's category. Sources: every `agent-logs/*/revisions.jsonl` with a
 ## Chart design
 
 - **X-axis:** one bar per UTC date in the window. Bars are the same width; missing days show as gaps.
-- **Y-axis:** URL occurrences per day, linear.
+- **Y-axis:** URL occurrences per day, **log10** scale from 1 to the next power of 10 above the peak (currently 100,000). Major grid lines mark each decade; minor lines mark the 2× and 5× ticks within a decade.
 - **Segment ordering (bottom → top of each bar):** category rank first (`wiki_self`, then the proxy/relay categories, then the data-source categories, then archive/storage, then obfuscation/test, then unclassified in grey); within a category, hosts are sorted by their in-window total, largest at the bottom of the color band.
+- **Stacking on a log axis:** each segment occupies `log10(cum_top) − log10(cum_bottom)` of the plot height. This is not a proportional mapping — bottom-of-stack categories claim most of the visible height even if a top-of-stack category has a larger absolute count. The trade-off buys visibility for small counts on quiet days (single-URL segments are still ~1 pixel tall) at the cost of the "area = count" intuition. That is the deliberate choice; each bar's tooltip still carries the exact count.
 - **Colors:** one color per category (20 hues + grey for `unclassified`). Two hosts in the same category share the same color. Legend at the right lists categories with in-window URL count, distinct host count, and pre-window count (if any).
-- **Peak day:** 2026-06-18 carries ~95k of the ~120k in-window URL occurrences (a single-day prowiki spike) and dominates the y-axis; other days are visible as short bars near the baseline. Hover over any segment to see the exact host and count.
+- **Peak day:** 2026-06-18 carries ~95k of the ~120k in-window URL occurrences (a single-day prowiki spike). On the log axis it no longer dwarfs the other days — most bars in the window reach between 10 and 10,000 URLs and are directly comparable.
 - **Excluded from the extract:** `agent-logs/shorteners/` (4,285 URLs but every row has `time = null`, so it would only contribute to the pre-window totals) and `agent-logs/probier/` (already covered by the prowiki export).
 
 ## Files
