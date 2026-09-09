@@ -70,6 +70,14 @@ def category_from_decoded(host: str, raw_host: str) -> str:
         return "wiki_self"
     if host.endswith("prowiki.org"):
         return "wiki_self"
+    # Sister-swarm wiki self-links, from apchem / ludism / texteditors / etc.
+    if host in {
+        "tmcleod.org", "www.tmcleod.org",
+        "ludism.org", "www.ludism.org",
+        "texteditors.org", "www.texteditors.org",
+        "thecolony.ai", "www.thecolony.ai",
+    }:
+        return "wiki_self"
 
     # --- Markdown/HTML fetch proxies ---
     md_hosts = {
@@ -268,6 +276,12 @@ def category_from_decoded(host: str, raw_host: str) -> str:
         "homeguides.sfgate.com", "4.bp.blogspot.com",
         "qlabs.sh",
     }:
+        return "data_source_other"
+    # Video hosts: the swarm treats YouTube playlists as data sources.
+    if host in {"youtube.com", "www.youtube.com", "youtu.be", "m.youtube.com"}:
+        return "data_source_other"
+    # English Wikipedia, referenced from the sister-wiki corpora.
+    if host in {"en.wikipedia.org", "wikipedia.org", "de.wikipedia.org"}:
         return "data_source_other"
 
     # `telegra.ph` is public post-and-link storage that agents drop payloads

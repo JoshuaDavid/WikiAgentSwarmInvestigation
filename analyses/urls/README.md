@@ -1,13 +1,16 @@
-# URL classification — `prowiki` + `pastes` + `gems`
+# URL classification — every `agent-logs/*/revisions.jsonl`
 
-Extraction: `extract.py` scans `body` in every revision row across three
-sources — `agent-logs/prowiki/`, `agent-logs/pastes/`, `agent-logs/gems/` —
-and emits one row per URL occurrence with a `source` tag. Classification:
+Extraction: `extract.py` scans `body` in every revision row across every
+`agent-logs/*/revisions.jsonl` directory that carries `body` text — 23
+sources in total. Each URL row carries a `source` tag. Rows are deduplicated
+by `body_sha256` across corpora (first source wins; duplicates *within* a
+corpus are kept — those are legitimate re-saves). Classification:
 `classify.py` groups every distinct host into 20 functional categories and
 re-emits the stream with an extra `category` field.
 
-**Totals: 116,304 URL occurrences across 275 distinct hosts** (prowiki
-115,855 URLs · pastes 448 URLs · gems 1 URL).
+**Totals: 120,002 URL occurrences across 420 distinct hosts.** Cross-corpus
+dedup skipped 464 body-shared rows (mostly `pastes/` slices that are covered
+by fuller per-site scrapes).
 
 Rerun with `python3 extract.py && python3 classify.py`.
 
@@ -23,47 +26,80 @@ Files produced in `outputs/`:
 
 | Category | URL occurrences | Distinct hosts |
 |---|---:|---:|
-| wiki_self | 36,692 | 7 |
-| jq_json_relay | 21,564 | 5 |
-| data_source_sec_investor | 20,389 | 5 |
-| fetch_proxy_markdown | 14,723 | 17 |
-| data_source_datausa | 10,940 | 11 |
-| cors_proxy | 5,665 | 29 |
-| data_source_us_gov | 1,275 | 8 |
+| wiki_self | 36,768 | 12 |
+| jq_json_relay | 21,659 | 5 |
+| data_source_sec_investor | 20,395 | 5 |
+| fetch_proxy_markdown | 14,803 | 17 |
+| data_source_datausa | 11,019 | 11 |
+| cors_proxy | 5,713 | 29 |
+| data_source_other | 2,925 | 77 |
+| data_source_us_gov | 1,441 | 8 |
 | data_source_library | 1,173 | 20 |
-| url_shortener | 842 | 10 |
+| url_shortener | 868 | 10 |
 | counter_signalling | 607 | 2 |
-| google_docs | 534 | 3 |
-| data_source_other | 497 | 74 |
-| test_placeholder | 444 | 8 |
+| google_docs | 594 | 3 |
+| test_placeholder | 529 | 8 |
+| unclassified | 530 | 138 |
 | data_source_health | 233 | 8 |
 | archive_wayback | 209 | 8 |
-| google_translate_proxy | 151 | 5 |
+| google_translate_proxy | 155 | 6 |
 | obfuscated_or_malformed | 131 | 23 |
-| cloud_storage_dropbox | 98 | 17 |
+| cloud_storage_dropbox | 115 | 17 |
 | data_source_publishing | 84 | 7 |
 | data_source_finance | 51 | 6 |
-| unclassified | 2 | 2 |
-| **total** | **116,304** | **275** |
+| **total** | **120,002** | **420** |
 
 ## Source split
 
-The three source directories differ sharply in what URLs they contain:
+Per-source URL counts (post-dedup):
 
-- **`prowiki/` (115,855 URLs, 205 hosts)** — the swarm-coordination corpus.
-  Dominated by `wiki_self`, `jq_json_relay`, `fetch_proxy_markdown`,
-  `cors_proxy`, and the two SEC/DataUSA data sources. This is what drives
-  every category count above.
-- **`pastes/` (448 URLs, ~85 hosts)** — outside-the-wiki notes and
-  drop-boxes. Introduces most of the new hosts: preprint mirrors
-  (`arxiv.org`, `alphaxiv.org`, `openreview.net`), code / model registries
-  (`github.com`, `huggingface.co`, `download.docker.com`), university-lab
-  infrastructure (`foreman.lab.cs.ucalgary.ca`, `pages.cpsc.ucalgary.ca`),
-  the Bulgarian statistical institute (`site-test.nsi.bg`, 61 hits), and
-  the public post-and-share host `telegra.ph` (17 hits, now bucketed with
-  `cloud_storage_dropbox`).
-- **`gems/` (1 URL, 1 host)** — Ruby gem READMEs. One `httpbin.org`
-  reference.
+| Source | Revisions | URLs kept | Dedup skipped |
+|---|---:|---:|---:|
+| prowiki | 14,591 | 115,855 | 0 |
+| anna.fyi | 103 | 2,570 | 5 |
+| apchem | 134 | 356 | 0 |
+| wiki4d | 235 | 311 | 3 |
+| popcat-wayback | 119 | 238 | 0 |
+| pastebin-k4be | 198 | 184 | 19 |
+| paste-linuxiarz | 381 | 170 | 3 |
+| texteditors | 68 | 73 | 1 |
+| pastes | 458 | 60 | 330 |
+| ludism | 35 | 53 | 0 |
+| milkwiki | 16 | 39 | 0 |
+| paste.steamr.com | 36 | 37 | 0 |
+| paste.smirky.net | 4 | 35 | 1 |
+| pastebin.tarcseh.me | 23 | 13 | 6 |
+| pb.dynavirt.com | 8 | 4 | 2 |
+| pastebin.faster-it.de | 4 | 2 | 1 |
+| pastebin.freepbx.org | 13 | 1 | 0 |
+| gems | 12 | 1 | 0 |
+| p.gaa.st, paste.centos.org, paste.lightcast.com, pastie.iem.at, pb.psychotic.ninja | — | 0 | — |
+
+- `prowiki/` is the swarm-coordination corpus. Dominated by `wiki_self`,
+  `jq_json_relay`, `fetch_proxy_markdown`, `cors_proxy`, and the SEC/DataUSA
+  data sources.
+- `anna.fyi/` contributes 2,376 `youtube.com` URLs from two paste bodies
+  that dump long lists of video IDs — this is now the top pastes-source URL
+  host and lands in `data_source_other`.
+- `apchem/`, `ludism/`, `texteditors/`, `wiki4d/`, `milkwiki/` add their
+  own self-link hosts (`tmcleod.org`, `www.ludism.org`, `texteditors.org`,
+  `thecolony.ai`) into `wiki_self`.
+- `pastebin-k4be/` and `paste-linuxiarz/` supersede the corresponding slices
+  in `pastes/`; dedup by `body_sha256` skips the overlap.
+- `popcat-wayback/` (119 rows, 238 URLs) contains the OpenAI-flagged
+  `url.popcat.xyz` bodies — each redirect body enumerates one or more target
+  URLs plus the popcat metadata line.
+- `gems/` — 12 Ruby-gem READMEs, one `httpbin.org` reference.
+
+## Not extracted
+
+- `agent-logs/shorteners/` — 4,285 shortener-body rows but every row has
+  `time = null`, so they would only contribute to the pre-window bucket.
+  Skipped so they do not swamp downstream tallies with undated URLs.
+- `agent-logs/probier/` — the same probier wiki is already exported inside
+  `agent-logs/prowiki/`. Not scanned separately.
+- `agent-logs/pastes-evidence-index/` — a curated CSV, not a
+  `revisions.jsonl` corpus.
 
 Below, each category with what it is, why it appears, and the notable hosts in it.
 
