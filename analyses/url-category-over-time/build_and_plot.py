@@ -164,19 +164,22 @@ def main() -> None:
     def x_left(i: int) -> float:
         return MARGIN_L + i * bar_pitch + (bar_pitch - bar_w) / 2
 
-    def nice_ymax(v: int) -> int:
-        if v <= 0:
-            return 1
-        for step in [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000,
-                     2000, 5000, 10000, 20000, 50000, 100000]:
-            for mult in range(1, 11):
-                if step * mult >= v:
-                    return step * mult
-        return v
-    y_max_r = nice_ymax(y_max)
+    # Log-scale y-axis. The chart is a stacked bar in log space: each
+    # segment's cumulative bottom and top are mapped through log10, and the
+    # visible height of a segment is log(cum_top) - log(cum_bot). Segments
+    # near the bottom of the stack take most of the visible height; segments
+    # further up compress. The single-URL floor is Y_MIN = 1 (log10 = 0).
+    import math
+    Y_MIN = 1.0
+    Y_MAX = 10.0 ** math.ceil(math.log10(max(y_max, 10)))  # next power of 10
+    LOG_MIN = math.log10(Y_MIN)
+    LOG_MAX = math.log10(Y_MAX)
 
     def y_at(v: float) -> float:
-        return MARGIN_T + plot_h - plot_h * v / y_max_r
+        # Clamp values below Y_MIN to the baseline.
+        v = v if v > Y_MIN else Y_MIN
+        frac = (math.log10(v) - LOG_MIN) / (LOG_MAX - LOG_MIN)
+        return MARGIN_T + plot_h - plot_h * frac
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
@@ -189,21 +192,33 @@ def main() -> None:
         f'<text x="{(MARGIN_L + plot_w/2):.0f}" y="46" text-anchor="middle" '
         f'fill="#555">Sources: prowiki + apchem + wiki4d + ludism + milkwiki + '
         f'texteditors + pastes + gems + popcat-wayback + per-site paste scrapes. '
-        f'Hosts in the same category share a color.</text>',
+        f'Y-axis is log10; segment height = log(cum_top) − log(cum_bottom), so '
+        f'bottom-of-stack categories dominate visually.</text>',
     ]
 
-    # Y grid.
-    for k in range(6):
-        v = int(round(y_max_r * k / 5))
+    # Y grid — one line per power of 10, plus minor lines at 2/5 of each
+    # decade so the reader can eyeball intermediate values.
+    n_decades = int(round(LOG_MAX - LOG_MIN))
+    for k in range(n_decades + 1):
+        v = 10 ** (int(LOG_MIN) + k)
         y = y_at(v)
         parts.append(
             f'<line x1="{MARGIN_L}" y1="{y:.1f}" x2="{MARGIN_L + plot_w}" '
-            f'y2="{y:.1f}" stroke="#eee" stroke-width="1"/>'
+            f'y2="{y:.1f}" stroke="#ccc" stroke-width="1"/>'
         )
         parts.append(
             f'<text x="{MARGIN_L - 6}" y="{y + 4:.1f}" text-anchor="end" '
             f'fill="#333">{v:,}</text>'
         )
+        # Minor decade ticks at 2× and 5× within each decade.
+        if k < n_decades:
+            for m in (2, 5):
+                y = y_at(v * m)
+                parts.append(
+                    f'<line x1="{MARGIN_L}" y1="{y:.1f}" '
+                    f'x2="{MARGIN_L + plot_w}" y2="{y:.1f}" '
+                    f'stroke="#eee" stroke-width="1"/>'
+                )
 
     # Bars: for each day, stack hosts bottom-up in (category, host size) order.
     per_day: dict[str, dict[tuple[str, str], int]] = defaultdict(dict)
@@ -245,7 +260,7 @@ def main() -> None:
     parts.append(
         f'<text x="{MARGIN_L - 60}" y="{MARGIN_T + plot_h/2:.0f}" '
         f'transform="rotate(-90 {MARGIN_L - 60} {MARGIN_T + plot_h/2:.0f})" '
-        f'text-anchor="middle" fill="#333">URL occurrences</text>'
+        f'text-anchor="middle" fill="#333">URL occurrences (log scale)</text>'
     )
 
     # X labels every ~step days.
