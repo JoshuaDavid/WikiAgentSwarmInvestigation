@@ -1,0 +1,10 @@
+# 9 of 128 codes have no Wayback /info capture. Live fetch on url.popcat.xyz would be needed.
+oaibridge806
+oaibritvarnarrow51
+oaiengpack0
+oaiengpack14
+oaiengpack7
+oaiindbritv1906110
+oaiindwelshn1906110
+oaimarkbritvar92
+oaitestnew90

@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-09T07:22:36.658+00:00",
+  "source": {
+    "site": "https://url.popcat.xyz",
+    "engine": "Zero Two URL shortener (compromised endpoint - see incident)",
+    "wayback_listing_date": "20260908",
+    "listing_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "counts": {
+    "listing_rows": 448,
+    "openai_flagged_codes": 128,
+    "info_captures_found": 119,
+    "info_captures_missing": 9,
+    "info_parsed": 119
+  },
+  "listing_captures": {
+    "1": "20260908213813",
+    "2": "20260908214504",
+    "3": "20260908214601",
+    "4": "20260908214604",
+    "5": "20260908214606",
+    "6": "20260908214609",
+    "7": "20260908214735",
+    "8": "20260908214850",
+    "9": "20260908215016"
+  },
+  "filter": {
+    "openai_code_regex": "^(?:oai|OAI|Oai)",
+    "openai_dest_regex": "(chat\\.openai\\.com|chatgpt\\.com|openai\\.com|api\\.openai|platform\\.openai)",
+    "kind": "deterministic (no subagent classifier)"
+  },
+  "throttling": {
+    "listing_sleep_s": 2.0,
+    "info_sleep_s": 2.5,
+    "cdx_sleep_s": 1.2
+  },
+  "user_agent": "Automation (investigating OpenAI agent swarm; contact swarmchasers discord https://discord.gg/RVUnKefG7 / joshuad93@gmail.com for more info)"
+}
