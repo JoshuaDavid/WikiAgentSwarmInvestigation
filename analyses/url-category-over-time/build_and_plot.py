@@ -73,7 +73,11 @@ def date_range(start: str, end: str) -> list[str]:
     return out
 
 
-WINDOW_START = "2026-05-01"
+# Window: 2026-01-01 onwards. The chart auto-starts at the earliest in-window
+# date (currently 2026-02-26 from an anna.fyi paste). Anything older — a
+# handful of scattered rows from 2018–2025, mostly ludism — is aggregated
+# into the legend's "pre-window" counts.
+WINDOW_START = "2026-01-01"
 
 
 def collect() -> tuple[
@@ -183,7 +187,8 @@ def main() -> None:
         f'font-size="18" font-weight="600" fill="#111">URL occurrences per '
         f'day — stacked bar, one segment per host, colored by host type</text>',
         f'<text x="{(MARGIN_L + plot_w/2):.0f}" y="46" text-anchor="middle" '
-        f'fill="#555">Sources: prowiki + pastes + gems. '
+        f'fill="#555">Sources: prowiki + apchem + wiki4d + ludism + milkwiki + '
+        f'texteditors + pastes + gems + popcat-wayback + per-site paste scrapes. '
         f'Hosts in the same category share a color.</text>',
     ]
 
