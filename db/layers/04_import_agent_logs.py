@@ -178,13 +178,39 @@ def _resolve_venue_name(cfg, src: dict, rev: dict, line_no: int) -> str:
 def _resolve_canonical_name(src: dict, rev: dict) -> str:
     """For multi-venue aggregates the name carries a `<venue-prefix>/<real-name>`
     shape; strip the prefix so the canonical_name matches what a per-site scrape
-    stores."""
+    stores.
+
+    Special case: shorteners/popcat/* rows are shellac-BUNDLES — each `seq` is
+    a distinct popcat code, not a version of one code. Extract the real code
+    from the body (line 2 of the popcat-info format). Downstream we also force
+    sequence_no=1 for those rows.
+    """
     kind = src["source_kind"]
     name = rev.get("name") or ""
+    if (kind == "multi_venue_shortener_aggregate"
+            and name.startswith("popcat/")):
+        body = rev.get("body") or ""
+        lines = body.split("\n")
+        code = lines[2].strip() if len(lines) >= 3 else ""
+        if code:
+            return code
+        # Fall back to the shellac path if the body doesn't fit the format.
+        return name.split("/", 1)[1] if "/" in name else name
     if kind in ("multi_venue_paste_aggregate",
                  "multi_venue_shortener_aggregate") and "/" in name:
         return name.split("/", 1)[1]
     return name
+
+
+def _resolve_sequence_no(src: dict, rev: dict) -> int:
+    """Override the row's `seq` for cases where the shellac bundling doesn't
+    correspond to real versions. Popcat bundles: each row is a distinct
+    document, so sequence_no is always 1."""
+    name = rev.get("name") or ""
+    if (src["source_kind"] == "multi_venue_shortener_aggregate"
+            and name.startswith("popcat/")):
+        return 1
+    return rev.get("seq") or 1
 
 
 # ------------- per-source import -----------------------------------------
@@ -367,7 +393,7 @@ def _import_source(conn: sqlite3.Connection, ctx: dict, src: dict,
                                  rev.get("body_encoding") or "raw_utf8")
         body_id = _upsert_body(conn, raw_body, caches)
 
-        seq = rev.get("seq") or 1
+        seq = _resolve_sequence_no(src, rev)
 
         # Idempotency: if this document already has a post at this seq, add
         # only a capture row.
