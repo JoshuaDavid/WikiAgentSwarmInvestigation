@@ -202,39 +202,45 @@ def _load_and_sort_rows(path: Path) -> list[tuple[int, dict]]:
 
 def _import_pages_jsonl(conn, cfg, src: dict, batch_id: int,
                         caches: _Caches) -> None:
-    """Read pages.jsonl (wiki sources) and populate wiki_document_details."""
+    """Read pages.jsonl. Only wiki sources populate wiki_document_details.
+    Aggregate paste/shortener sources still walk pages.jsonl to record the
+    document + provenance, but do not fill in wiki-specific columns."""
     p = cfg.AGENT_LOGS / src["dir"] / "pages.jsonl"
     if not p.exists():
         return
+    is_wiki_source = src["source_kind"] in ("multi_venue_wiki_farm",
+                                              "single_venue_wiki")
     for line_no, line in enumerate(open(p), start=1):
         page = json.loads(line)
-        venue_name = src["venue_name"] or page.get("wiki")
-        if not venue_name:
-            continue
+        # Reuse the revisions.jsonl venue resolver so aggregate sources get
+        # per-row venues instead of the aggregate stub name.
+        venue_name = _resolve_venue_name(cfg, src, page, line_no)
         venue_id = _venue_id(conn, venue_name, caches)
-        canonical_name = page.get("name") or ""
+        canonical_name = _resolve_canonical_name(src, page)
         doc_id = _upsert_document(conn, venue_id, canonical_name, caches)
-        # One wiki_document_details per document. Idempotent on UNIQUE(document_id).
-        existing = conn.execute(
-            "SELECT 1 FROM wiki_document_details WHERE document_id = ?",
-            (doc_id,),
-        ).fetchone()
-        if existing:
-            continue
-        conn.execute(
-            "INSERT INTO wiki_document_details "
-            "(document_id, page_family, page_family_source, "
-            " page_family_confidence, page_family_method, bucket, rcs_path, "
-            " live_body_variant, head_differs_from_live) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            (doc_id, page.get("page_family"), page.get("page_family_source"),
-             page.get("page_family_confidence"), page.get("page_family_method"),
-             page.get("bucket"), page.get("rcs_path"),
-             page.get("live_body_variant"),
-             _bool_or_none(page.get("head_differs_from_live"))),
-        )
-        _record_provenance(conn, "document", doc_id, batch_id,
-                            f"{src['dir']}/pages.jsonl", line_no)
+
+        if is_wiki_source:
+            existing = conn.execute(
+                "SELECT 1 FROM wiki_document_details WHERE document_id = ?",
+                (doc_id,),
+            ).fetchone()
+            if not existing:
+                conn.execute(
+                    "INSERT INTO wiki_document_details "
+                    "(document_id, page_family, page_family_source, "
+                    " page_family_confidence, page_family_method, bucket, "
+                    " rcs_path, live_body_variant, head_differs_from_live) "
+                    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    (doc_id, page.get("page_family"),
+                     page.get("page_family_source"),
+                     page.get("page_family_confidence"),
+                     page.get("page_family_method"),
+                     page.get("bucket"), page.get("rcs_path"),
+                     page.get("live_body_variant"),
+                     _bool_or_none(page.get("head_differs_from_live"))),
+                )
+                _record_provenance(conn, "document", doc_id, batch_id,
+                                    f"{src['dir']}/pages.jsonl", line_no)
 
 
 def _import_events_jsonl(conn, cfg, src: dict, batch_id: int,
@@ -248,6 +254,10 @@ def _import_events_jsonl(conn, cfg, src: dict, batch_id: int,
     for line_no, line in enumerate(open(p), start=1):
         ev = json.loads(line)
         etype = ev.get("event_type")
+        # `save` events are covered by revisions.jsonl; skip fast so we do not
+        # need to resolve a venue for aggregate sources that only have saves.
+        if etype not in ("delete", "revert", "probe"):
+            continue
         venue_name = src["venue_name"] or ev.get("wiki")
         if not venue_name:
             continue

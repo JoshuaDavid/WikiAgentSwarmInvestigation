@@ -48,7 +48,7 @@ SOURCES: list[dict] = [
     {"dir": "pastebin.freepbx.org", "source_kind": "single_venue_paste_site",   "venue_name": "pastebin.freepbx.org", "enabled": True},
     {"dir": "pb.dynavirt.com",      "source_kind": "single_venue_paste_site",   "venue_name": "pb.dynavirt.com",      "enabled": True},
     {"dir": "popcat-wayback",       "source_kind": "single_venue_shortener",    "venue_name": "url.popcat.xyz",       "enabled": True},
-    {"dir": "pastes",               "source_kind": "multi_venue_paste_aggregate","venue_name": None,                  "enabled": False},
+    {"dir": "pastes",               "source_kind": "multi_venue_paste_aggregate","venue_name": None,                  "enabled": True},
     {"dir": "shorteners",           "source_kind": "multi_venue_shortener_aggregate","venue_name": None,              "enabled": False},
 ]
 
