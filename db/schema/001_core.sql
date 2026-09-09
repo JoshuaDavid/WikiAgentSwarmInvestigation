@@ -113,7 +113,7 @@ CREATE TABLE wiki_post_details (
     request_time          TEXT,
     success_time          TEXT,
     recent_changes_time   TEXT,
-    related_moderation_id INTEGER,
+    related_moderation_id INTEGER REFERENCES moderation_event(id),
     related_kind          TEXT
 );
 

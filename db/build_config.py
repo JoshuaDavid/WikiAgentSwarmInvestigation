@@ -16,40 +16,45 @@ BUILD_HASH_PATH = REPO_ROOT / "db" / "BUILD_HASH.txt"
 
 
 # Sources scanned by the raw-import layer, in stable order.
-# `enabled` gates whether the layer imports the source in this build.
-# `venue_name` and `venue_kind` are used when the source's revisions.jsonl
-# rows all belong to a single venue (e.g. `gems`, `anna.fyi`, `shorteners`).
-# When rows carry their own `wiki` field naming multiple venues (e.g. the
-# prowiki farm), the import layer reads venue from each row instead.
+#
+# `source_kind` is a source-side vocabulary (how the DIRECTORY is shaped),
+# distinct from `venue.kind` (what the AGENT interacts with).
+#   single_venue_wiki    — one venue, wiki-shaped rows (apchem, ludism, ...).
+#   multi_venue_wiki_farm — many wiki-venues in one export (prowiki: dse/probier/fractal/dorfwiki).
+#   single_venue_paste_site — one paste-site's own scrape (anna.fyi, pastebin-k4be).
+#   multi_venue_paste_aggregate — a shellac aggregate covering many paste sites (pastes/).
+#   single_venue_shortener — one shortener host (popcat-wayback → url.popcat.xyz).
+#   multi_venue_shortener_aggregate — a shellac aggregate covering many shorteners (shorteners/).
+#   gem_registry — Ruby gem READMEs (gems/).
+#
+# `venue_name` names the target venue when source_kind is single_venue_*.
+# For multi_venue_* sources, venue is resolved per-row from the row's `name`
+# prefix; venue_name is None.
 SOURCES: list[dict] = [
-    # First round: gems only, so we can prove the shape end-to-end on a
-    # 12-row corpus. Flip `enabled` to True as we bring each source online.
-    {"dir": "gems",                "kind": "gem_registry", "venue_name": "gems",                "enabled": True},
-    {"dir": "prowiki",             "kind": "wiki_farm",    "venue_name": None,                   "enabled": False},
-    {"dir": "apchem",              "kind": "wiki",         "venue_name": "apchem",              "enabled": False},
-    {"dir": "wiki4d",              "kind": "wiki",         "venue_name": "wiki4d",              "enabled": False},
-    {"dir": "ludism",              "kind": "wiki",         "venue_name": "ludism",              "enabled": False},
-    {"dir": "milkwiki",            "kind": "wiki",         "venue_name": "milkwiki",            "enabled": False},
-    {"dir": "texteditors",         "kind": "wiki",         "venue_name": "texteditors",         "enabled": False},
-    {"dir": "anna.fyi",            "kind": "paste_site",   "venue_name": "anna.fyi",            "enabled": False},
-    {"dir": "pastebin-k4be",       "kind": "paste_site",   "venue_name": "pastebin.k4be.pl",    "enabled": False},
-    {"dir": "paste-linuxiarz",     "kind": "paste_site",   "venue_name": "paste.linuxiarz.pl",  "enabled": False},
-    {"dir": "popcat-wayback",      "kind": "shortener",    "venue_name": "url.popcat.xyz",      "enabled": False},
-    {"dir": "paste.steamr.com",    "kind": "paste_site",   "venue_name": "paste.steamr.com",    "enabled": False},
-    {"dir": "paste.smirky.net",    "kind": "paste_site",   "venue_name": "paste.smirky.net",    "enabled": False},
-    {"dir": "pastebin.tarcseh.me", "kind": "paste_site",   "venue_name": "pastebin.tarcseh.me", "enabled": False},
-    {"dir": "pastebin.faster-it.de","kind": "paste_site",  "venue_name": "pastebin.faster-it.de","enabled": False},
-    {"dir": "pastebin.freepbx.org","kind": "paste_site",   "venue_name": "pastebin.freepbx.org","enabled": False},
-    {"dir": "pb.dynavirt.com",     "kind": "paste_site",   "venue_name": "pb.dynavirt.com",     "enabled": False},
-    {"dir": "pastes",              "kind": "paste_site",   "venue_name": "pastes.aggregate",    "enabled": False},
-    {"dir": "shorteners",          "kind": "shortener",    "venue_name": "shorteners.aggregate","enabled": False},
+    {"dir": "gems",                 "source_kind": "gem_registry",              "venue_name": "gems",                 "enabled": True},
+    {"dir": "prowiki",              "source_kind": "multi_venue_wiki_farm",     "venue_name": None,                    "enabled": False},
+    {"dir": "apchem",               "source_kind": "single_venue_wiki",         "venue_name": "apchem",               "enabled": True},
+    {"dir": "wiki4d",               "source_kind": "single_venue_wiki",         "venue_name": "wiki4d",               "enabled": True},
+    {"dir": "ludism",               "source_kind": "single_venue_wiki",         "venue_name": "ludism",               "enabled": True},
+    {"dir": "milkwiki",             "source_kind": "single_venue_wiki",         "venue_name": "milkwiki",             "enabled": True},
+    {"dir": "texteditors",          "source_kind": "single_venue_wiki",         "venue_name": "texteditors",          "enabled": True},
+    {"dir": "anna.fyi",             "source_kind": "single_venue_paste_site",   "venue_name": "anna.fyi",             "enabled": False},
+    {"dir": "pastebin-k4be",        "source_kind": "single_venue_paste_site",   "venue_name": "pastebin.k4be.pl",     "enabled": False},
+    {"dir": "paste-linuxiarz",      "source_kind": "single_venue_paste_site",   "venue_name": "paste.linuxiarz.pl",   "enabled": False},
+    {"dir": "paste.steamr.com",     "source_kind": "single_venue_paste_site",   "venue_name": "paste.steamr.com",     "enabled": False},
+    {"dir": "paste.smirky.net",     "source_kind": "single_venue_paste_site",   "venue_name": "paste.smirky.net",     "enabled": False},
+    {"dir": "pastebin.tarcseh.me",  "source_kind": "single_venue_paste_site",   "venue_name": "pastebin.tarcseh.me",  "enabled": False},
+    {"dir": "pastebin.faster-it.de","source_kind": "single_venue_paste_site",   "venue_name": "pastebin.faster-it.de","enabled": False},
+    {"dir": "pastebin.freepbx.org", "source_kind": "single_venue_paste_site",   "venue_name": "pastebin.freepbx.org", "enabled": False},
+    {"dir": "pb.dynavirt.com",      "source_kind": "single_venue_paste_site",   "venue_name": "pb.dynavirt.com",      "enabled": False},
+    {"dir": "popcat-wayback",       "source_kind": "single_venue_shortener",    "venue_name": "url.popcat.xyz",       "enabled": False},
+    {"dir": "pastes",               "source_kind": "multi_venue_paste_aggregate","venue_name": None,                  "enabled": False},
+    {"dir": "shorteners",           "source_kind": "multi_venue_shortener_aggregate","venue_name": None,              "enabled": False},
 ]
 
 
 # Analyses registered at build time. Each analysis has a stable name and a
 # closed set of label kinds. IDs are assigned in the order they appear here.
-# Layer names are the file base without the numeric prefix; the loader logs
-# a warning if a registered analysis has no matching layer file.
 ANALYSES: list[dict] = [
     {
         "name": "url_extraction",
@@ -100,17 +105,16 @@ ANALYSES: list[dict] = [
 ]
 
 
-# Venues that are known independently of any source's rows. Some sources (like
-# `pastes`) name their per-site venues in the row's `name` prefix rather than
-# in `wiki`, so we pre-seed the venues we know about. Kind constraints match
-# the venue table's CHECK.
+# Venues the agents publish to. Aggregate import corpora (`pastes/`,
+# `shorteners/`) get their per-row venues from the row's `name` prefix — they
+# are NOT venues themselves and do not appear here.
 KNOWN_VENUES: list[dict] = [
     # Prowiki farm's four wikis.
     {"name": "dse",                "kind": "wiki",          "base_domain": "wikiservice.at"},
     {"name": "probier",            "kind": "wiki",          "base_domain": "wikiservice.at"},
     {"name": "fractal",            "kind": "wiki",          "base_domain": "wikiservice.at"},
     {"name": "dorfwiki",           "kind": "wiki",          "base_domain": "wikiservice.at"},
-    # Sister wikis.
+    # Sister wikis on their own farms.
     {"name": "apchem",             "kind": "wiki",          "base_domain": "tmcleod.org"},
     {"name": "wiki4d",             "kind": "wiki",          "base_domain": "wiki4d.ws"},
     {"name": "ludism",             "kind": "wiki",          "base_domain": "ludism.org"},
@@ -126,10 +130,38 @@ KNOWN_VENUES: list[dict] = [
     {"name": "pastebin.faster-it.de","kind": "paste_site",  "base_domain": "pastebin.faster-it.de"},
     {"name": "pastebin.freepbx.org","kind": "paste_site",   "base_domain": "pastebin.freepbx.org"},
     {"name": "pb.dynavirt.com",    "kind": "paste_site",    "base_domain": "pb.dynavirt.com"},
-    {"name": "pastes.aggregate",   "kind": "paste_site",    "base_domain": None},
+    {"name": "nervesocket.com",    "kind": "paste_site",    "base_domain": "nervesocket.com"},
+    {"name": "p.gaa.st",           "kind": "paste_site",    "base_domain": "p.gaa.st"},
     # Shorteners.
     {"name": "url.popcat.xyz",     "kind": "shortener",     "base_domain": "url.popcat.xyz"},
-    {"name": "shorteners.aggregate","kind": "shortener",    "base_domain": None},
+    {"name": "vanderbi.lt",        "kind": "shortener",     "base_domain": "vanderbi.lt"},
+    {"name": "uoft.me",            "kind": "shortener",     "base_domain": "uoft.me"},
+    {"name": "goto.unm.edu",       "kind": "shortener",     "base_domain": "goto.unm.edu"},
+    {"name": "u.ethz.ch",          "kind": "shortener",     "base_domain": "u.ethz.ch"},
     # Gem registry.
     {"name": "gems",               "kind": "gem_registry",  "base_domain": "rubygems.org"},
 ]
+
+
+# For multi-venue aggregate sources (pastes/, shorteners/), map the row's
+# `name` prefix (up to the first '/') to the real venue name. Populated with
+# whatever prefixes actually show up in the data.
+NAME_PREFIX_TO_VENUE: dict[str, str] = {
+    # pastes/
+    "linuxiarz":            "paste.linuxiarz.pl",
+    "pastebin-k4be":        "pastebin.k4be.pl",
+    "anna-fyi":             "anna.fyi",
+    "paste.steamr.com":     "paste.steamr.com",
+    "pastebin.tarcseh.me":  "pastebin.tarcseh.me",
+    "paste.smirky.net":     "paste.smirky.net",
+    "pb.dynavirt.com":      "pb.dynavirt.com",
+    "nervesocket.com":      "nervesocket.com",
+    "pastebin.faster-it.de":"pastebin.faster-it.de",
+    "p.gaa.st":             "p.gaa.st",
+    # shorteners/
+    "popcat":               "url.popcat.xyz",
+    "vanderbi-lt":          "vanderbi.lt",
+    "uoft-me":              "uoft.me",
+    "goto-unm":             "goto.unm.edu",
+    "u-ethz-ch":            "u.ethz.ch",
+}
