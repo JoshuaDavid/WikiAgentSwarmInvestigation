@@ -71,6 +71,20 @@ db/tests/test_build_deterministic.sh   # rebuild twice, assert byte-identical
 
 ## Currently enabled
 
-Just `gems` (12 rows). This is the smallest corpus and serves as the
-end-to-end test case. Other corpora will come online one at a time, with a
-new commit per source.
+All 19 sources with data. 20,135 posts across 26 venues, 124,975 URL
+references, 443 hosts classified. DB size ~57 MB.
+
+Post distribution (top 10 venues):
+
+| Venue | Kind | Posts |
+|---|---|---:|
+| dse | wiki | 13,403 |
+| vanderbi.lt | shortener | 3,043 |
+| probier | wiki | 1,013 |
+| uoft.me | shortener | 527 |
+| goto.unm.edu | shortener | 468 |
+| paste.linuxiarz.pl | paste_site | 381 |
+| wiki4d | wiki | 235 |
+| url.popcat.xyz | shortener | 216 |
+| pastebin.k4be.pl | paste_site | 198 |
+| fractal | wiki | 169 |
