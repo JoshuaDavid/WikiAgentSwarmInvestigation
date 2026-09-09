@@ -26,7 +26,9 @@ agent-comms: per-wiki scan (dedup by rev_id, body-bearing row preferred):
 
 agents rows (handles in filtered set): 4716
   of which have >=1 kept revision: 4420
+  of which are probable name collisions (>=2 substantive families): 282
 pages with >=1 kept revision: 7300
+  of which have a real page_family classification: 3906
 total co-editor encounters (page-level A→B triggers): 808481
 unique directed A→B edges: 161440
 unique undirected pairs {A,B}: 137379
