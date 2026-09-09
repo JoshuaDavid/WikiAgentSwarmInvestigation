@@ -62,6 +62,23 @@ def category_color(hue: int) -> str:
     return hsl_hex(hue, 0.55, 0.48)
 
 
+def host_color(hue: int, rank: int, count: int) -> str:
+    """Within-category variation: shift lightness (and mildly hue) so multiple
+    featured hosts in the same category can be told apart in a stacked bar."""
+    if hue < 0:
+        return "#888888"
+    if count == 1:
+        return hsl_hex(hue, 0.55, 0.48)
+    frac = rank / (count - 1)  # 0 for first (largest), 1 for last
+    hue_j = hue + (frac - 0.5) * 24
+    sat = 0.50 + 0.20 * (1 - abs(frac - 0.5) * 2)
+    light = 0.34 + frac * 0.34
+    return hsl_hex(hue_j, sat, light)
+
+
+OTHER_COLOR = "#bbbbbb"
+
+
 def date_range(start: str, end: str) -> list[str]:
     y1, m1, d1 = (int(x) for x in start.split("-"))
     y2, m2, d2 = (int(x) for x in end.split("-"))
@@ -121,24 +138,52 @@ def main() -> None:
     cat_total_win: dict[str, int] = defaultdict(int)
     cat_hosts_win: dict[str, set[str]] = defaultdict(set)
     host_total_win: dict[str, int] = defaultdict(int)
+    host_cat: dict[str, str] = {}
     for (d, c, h), n in in_win.items():
         cat_total_win[c] += n
         cat_hosts_win[c].add(h)
         host_total_win[h] += n
+        host_cat[h] = c
 
     # Per-category pre-window totals (undated + pre 2026-05-01).
     cat_total_pre: dict[str, int] = defaultdict(int)
     for (c, h), n in pre_win.items():
         cat_total_pre[c] += n
 
+    # Featured hosts: the smallest set whose in-window URL counts sum to
+    # >= 90% of the total. Everything else goes into a single grey "other"
+    # segment (per day).
+    hosts_ranked = sorted(host_total_win.items(), key=lambda kv: -kv[1])
+    total_win = sum(host_total_win.values())
+    cutoff = 0.90 * total_win
+    featured: list[str] = []
+    cum = 0
+    for host, n in hosts_ranked:
+        featured.append(host)
+        cum += n
+        if cum >= cutoff:
+            break
+    featured_set = set(featured)
+
+    # Per-host color: category hue + within-category shading. Featured hosts
+    # within a category are ranked by in-window count (largest = rank 0).
+    per_cat_featured: dict[str, list[str]] = defaultdict(list)
+    for host in featured:
+        per_cat_featured[host_cat[host]].append(host)
+    host_to_color: dict[str, str] = {}
+    for cat, hosts in per_cat_featured.items():
+        hue = cat_hue.get(cat, -1)
+        for i, host in enumerate(hosts):
+            host_to_color[host] = host_color(hue, i, len(hosts))
+
     # TSV output.
     with (OUT_DIR / "urls_by_date_host.tsv").open("w") as f:
-        f.write("date\tcategory\thost\toccurrences\n")
+        f.write("date\tcategory\thost\toccurrences\tfeatured\n")
         for (d, c, h), n in sorted(
             in_win.items(),
             key=lambda kv: (kv[0][0], cat_rank.get(kv[0][1], 999), -kv[1]),
         ):
-            f.write(f"{d}\t{c}\t{h}\t{n}\n")
+            f.write(f"{d}\t{c}\t{h}\t{n}\t{1 if h in featured_set else 0}\n")
 
     # Stack order within each bar: category rank asc, then host total desc.
     # We render bottom-up, so the first entries end up at the bottom.
@@ -188,12 +233,12 @@ def main() -> None:
         f'<rect x="0" y="0" width="{W}" height="{H}" fill="white"/>',
         f'<text x="{(MARGIN_L + plot_w/2):.0f}" y="26" text-anchor="middle" '
         f'font-size="18" font-weight="600" fill="#111">URL occurrences per '
-        f'day — stacked bar, one segment per host, colored by host type</text>',
+        f'day — stacked bar; top hosts colored individually, long tail in '
+        f'grey "other"</text>',
         f'<text x="{(MARGIN_L + plot_w/2):.0f}" y="46" text-anchor="middle" '
         f'fill="#555">Sources: prowiki + apchem + wiki4d + ludism + milkwiki + '
         f'texteditors + pastes + gems + popcat-wayback + per-site paste scrapes. '
-        f'Y-axis is log10; segment height = log(cum_top) − log(cum_bottom), so '
-        f'bottom-of-stack categories dominate visually.</text>',
+        f'Y-axis is log10; hosts in the same category share a hue.</text>',
     ]
 
     # Y grid — one line per power of 10, plus minor lines at 2/5 of each
@@ -220,21 +265,33 @@ def main() -> None:
                     f'stroke="#eee" stroke-width="1"/>'
                 )
 
-    # Bars: for each day, stack hosts bottom-up in (category, host size) order.
+    # Bars: for each day, stack featured hosts bottom-up in (category, host
+    # size) order, then a single grey "other" segment at the top covering
+    # every non-featured host for that day.
     per_day: dict[str, dict[tuple[str, str], int]] = defaultdict(dict)
+    per_day_other: dict[str, tuple[int, int]] = {}  # day -> (urls, host_count)
     for (d, c, h), n in in_win.items():
-        per_day[d][(c, h)] = n
+        if h in featured_set:
+            per_day[d][(c, h)] = n
+    for d in dates:
+        other_urls = 0
+        other_hosts: set[str] = set()
+        for (dd, c, h), n in in_win.items():
+            if dd == d and h not in featured_set:
+                other_urls += n
+                other_hosts.add(h)
+        if other_urls:
+            per_day_other[d] = (other_urls, len(other_hosts))
 
     for i, d in enumerate(dates):
         segs = per_day.get(d, {})
-        if not segs:
+        if not segs and d not in per_day_other:
             continue
         ordered = sorted(segs.items(), key=lambda kv: stack_key(kv[0]))
         x = x_left(i)
         base = 0.0
         for (cat, host), n in ordered:
-            hue = cat_hue.get(cat, -1)
-            color = category_color(hue)
+            color = host_to_color.get(host, category_color(cat_hue.get(cat, -1)))
             top = base + n
             y0 = y_at(top)
             y1 = y_at(base)
@@ -246,6 +303,19 @@ def main() -> None:
                 f'{n:,} URL occurrences</title></rect>'
             )
             base = top
+        # "other" segment sits on top.
+        if d in per_day_other:
+            other_urls, other_hosts_n = per_day_other[d]
+            top = base + other_urls
+            y0 = y_at(top)
+            y1 = y_at(base)
+            h_px = max(0.6, y1 - y0)
+            parts.append(
+                f'<rect x="{x:.1f}" y="{y0:.1f}" width="{bar_w:.2f}" '
+                f'height="{h_px:.2f}" fill="{OTHER_COLOR}">'
+                f'<title>{escape(d)} · other ({other_hosts_n} hosts): '
+                f'{other_urls:,} URL occurrences</title></rect>'
+            )
 
     # Axes.
     parts.append(
@@ -276,45 +346,62 @@ def main() -> None:
             f'{d}</text>'
         )
 
-    # Legend: categories sorted by in-window total desc.
+    # Legend: featured hosts (top 90% by URL volume), each with its own color;
+    # grey "other" row covers the long tail.
     lx = MARGIN_L + plot_w + 24
     ly = MARGIN_T
     parts.append(
         f'<text x="{lx}" y="{ly}" font-weight="600" fill="#111">'
-        f'category color · in-window · hosts · (pre-window)</text>'
+        f'top hosts (~90% of window URLs)</text>'
     )
-    ly += 22
+    ly += 14
+    parts.append(
+        f'<text x="{lx}" y="{ly}" fill="#666" font-size="11">'
+        f'colored by host; hosts in the same category share a hue with '
+        f'lightness variation.</text>'
+    )
+    ly += 18
 
-    sorted_cats = sorted(
-        cat_order,
-        key=lambda c: (-cat_total_win.get(c, 0), cat_rank.get(c, 999)),
-    )
-    for cat in sorted_cats:
-        n_win = cat_total_win.get(cat, 0)
-        if n_win == 0 and cat_total_pre.get(cat, 0) == 0:
-            continue
-        color = category_color(cat_hue.get(cat, -1))
-        n_hosts = len(cat_hosts_win.get(cat, set()))
-        pre = cat_total_pre.get(cat, 0)
+    remainder_hosts = hosts_ranked[len(featured):]
+    remainder_urls = total_win - cum
+    remainder_host_count = len(remainder_hosts)
+
+    # Group featured hosts in the legend by category (matches stack order in
+    # the chart) so like-colored hosts sit next to each other.
+    for cat in cat_order:
+        for host in per_cat_featured.get(cat, []):
+            n = host_total_win[host]
+            color = host_to_color[host]
+            parts.append(
+                f'<rect x="{lx}" y="{ly - 10}" width="16" height="12" '
+                f'fill="{color}"/>'
+            )
+            parts.append(
+                f'<text x="{lx + 22}" y="{ly}" fill="#111" font-size="12">'
+                f'{escape(host)}'
+                f'<tspan fill="#666"> · {n:,} · {escape(cat)}</tspan></text>'
+            )
+            ly += 16
+
+    if remainder_hosts:
         parts.append(
             f'<rect x="{lx}" y="{ly - 10}" width="16" height="12" '
-            f'fill="{color}"/>'
+            f'fill="{OTHER_COLOR}"/>'
         )
-        pre_str = f'  +{pre:,} pre-window' if pre else ''
         parts.append(
-            f'<text x="{lx + 22}" y="{ly}" fill="#111">{escape(cat)}'
-            f'<tspan fill="#666"> · {n_win:,} URLs · {n_hosts} hosts'
-            f'{escape(pre_str)}</tspan></text>'
+            f'<text x="{lx + 22}" y="{ly}" fill="#111" font-size="12">'
+            f'other'
+            f'<tspan fill="#666"> · {remainder_urls:,} URLs · '
+            f'{remainder_host_count:,} hosts</tspan></text>'
         )
-        ly += 18
+        ly += 16
 
-    ly += 12
-    total_win = sum(cat_total_win.values())
+    ly += 16
     total_pre = sum(cat_total_pre.values())
     n_hosts_all = sum(len(v) for v in cat_hosts_win.values())
     parts.append(
         f'<text x="{lx}" y="{ly}" font-weight="600" fill="#111">'
-        f'window: {WINDOW_START} → {dates[-1]}</text>'
+        f'window: {dates[0]} → {dates[-1]}</text>'
     )
     ly += 16
     parts.append(
