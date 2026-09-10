@@ -1,13 +1,13 @@
 task	variant	first_time	last_time	revisions
-archive-item-research-bench	(any variant)	2026-05-28T07:51:18Z	2026-06-22T02:43:12Z	445
-archive-item-research-bench	art-work-of-charleston	2026-05-28T07:51:18Z	2026-06-18T19:58:11Z	124
+archive-item-research-bench	(any variant)	2026-05-28T07:51:18Z	2026-06-22T02:43:12Z	454
+archive-item-research-bench	art-work-of-charleston	2026-05-28T07:51:18Z	2026-06-18T19:58:11Z	135
 archive-item-research-bench	patriots-point-jan-1951	2026-06-11T13:05:33Z	2026-06-18T21:08:49Z	73
 archive-item-research-bench	texas-tsl-preservica	2026-06-11T02:28:54Z	2026-06-18T21:12:57Z	123
-archive-item-research-bench	clark-economics-newsletters	2026-06-01T12:45:17Z	2026-06-22T02:43:12Z	83
+archive-item-research-bench	clark-economics-newsletters	2026-06-01T12:45:17Z	2026-06-22T02:43:12Z	92
 archive-item-research-bench	minnesota-mhs-p16022coll45-152	2026-05-30T17:31:34Z	2026-06-01T15:00:48Z	34
 archive-item-research-bench	cgsc-hoffman-order-of-battle	2026-06-11T09:12:45Z	2026-06-18T18:34:18Z	4
 archive-item-research-bench	rugby-world-march-1995	2026-06-06T07:20:37Z	2026-06-06T08:02:07Z	4
-fast-follow-question-bench	(any variant)	2026-06-16T10:33:50Z	2026-06-22T01:51:43Z	3467
+fast-follow-question-bench	(any variant)	2026-06-16T10:33:50Z	2026-09-04T18:20:09+00:00	3508
 fast-follow-question-bench	oecd-equity	2026-06-17T09:46:10Z	2026-06-21T18:03:50Z	438
 fast-follow-question-bench	datausa-clothing-workforce	2026-06-16T10:56:38Z	2026-06-17T03:01:26Z	354
 fast-follow-question-bench	datausa-cashiers-masters	2026-06-16T11:25:02Z	2026-06-21T01:48:15Z	274
@@ -17,27 +17,27 @@ fast-follow-question-bench	ihme-cvd-deaths	2026-06-18T04:04:16Z	2026-06-21T11:06
 fast-follow-question-bench	datausa-language-french	2026-06-16T20:52:52Z	2026-06-17T07:19:57Z	193
 fast-follow-question-bench	datausa-poverty-county	2026-06-16T13:40:52Z	2026-06-19T22:12:09Z	133
 fast-follow-question-bench	datausa-maids-wage	2026-06-16T18:59:14Z	2026-06-17T02:43:55Z	115
-fast-follow-question-bench	datausa-police-wage-age	2026-06-18T14:25:21Z	2026-06-20T13:24:09Z	97
+fast-follow-question-bench	datausa-police-wage-age	2026-06-18T14:25:21Z	2026-06-20T13:09:00+01:00	97
 fast-follow-question-bench	datausa-transport-production	2026-06-16T19:10:26Z	2026-06-16T23:25:06Z	91
 fast-follow-question-bench	datausa-sector61-state	2026-06-16T20:53:13Z	2026-06-16T23:05:14Z	89
 fast-follow-question-bench	ihme-family-planning	2026-06-20T11:07:47Z	2026-06-22T01:51:43Z	70
 fast-follow-question-bench	datausa-occupation-salary-61-62	2026-06-21T18:20:02Z	2026-06-21T23:15:16Z	61
 fast-follow-question-bench	datausa-finance-gender-gap	2026-06-17T06:54:47Z	2026-06-17T21:53:26Z	55
-fast-follow-question-bench	oecd-regional-co2	2026-06-21T09:07:01Z	2026-06-22T01:02:24Z	45
+fast-follow-question-bench	oecd-regional-co2	2026-06-21T05:26:00+01:00	2026-06-22T01:02:24Z	45
 fast-follow-question-bench	uefa-pass-accuracy	2026-06-20T08:12:40Z	2026-06-20T16:34:54Z	41
 fast-follow-question-bench	nyc-veterans	2026-06-17T09:16:03Z	2026-06-17T21:55:42Z	38
 fast-follow-question-bench	datausa-enrollment-asian	2026-06-19T15:16:40Z	2026-06-21T20:03:31Z	35
 fast-follow-question-bench	datausa-poverty-state	2026-06-21T11:15:32Z	2026-06-21T23:08:36Z	25
 fast-follow-question-bench	datausa-production-share	2026-06-19T05:22:54Z	2026-06-21T03:18:32Z	20
 fast-follow-question-bench	vermont-rent	2026-06-16T13:27:21Z	2026-06-17T12:20:21Z	20
-fast-follow-question-bench	datausa-cashiers-bachelors	2026-06-19T03:13:35Z	2026-06-19T16:15:18Z	17
+fast-follow-question-bench	datausa-cashiers-bachelors	2026-06-18T21:59:00+01:00	2026-06-19T16:15:18Z	17
 fast-follow-question-bench	datausa-ivy-tuition	2026-06-16T20:02:20Z	2026-06-16T21:20:23Z	15
 fast-follow-question-bench	fuel-poverty-ni	2026-06-21T12:33:07Z	2026-06-21T16:21:19Z	12
 fast-follow-question-bench	ihme-mcv2	2026-06-19T22:28:51Z	2026-06-20T21:29:40Z	11
 fast-follow-question-bench	ihme-smoking	2026-06-21T10:35:01Z	2026-06-21T12:25:43Z	8
 fast-follow-question-bench	sdg-index-score	2026-06-21T09:50:48Z	2026-06-21T13:47:30Z	8
 fast-follow-question-bench	dataafrica-rainfed-crops	2026-06-17T09:53:10Z	2026-06-18T09:38:50Z	7
-fast-follow-question-bench	datausa-slp-ethnicity	2026-06-19T12:59:11Z	2026-06-21T01:22:59Z	6
+fast-follow-question-bench	datausa-slp-ethnicity	2026-06-19T12:59:11Z	2026-06-20T01:42:00+01:00	6
 fast-follow-question-bench	oecd-household-income	2026-06-21T08:05:59Z	2026-06-21T10:09:59Z	6
 fast-follow-question-bench	datausa-construction-wage	2026-06-19T22:08:12Z	2026-06-20T18:49:16Z	5
 fast-follow-question-bench	datausa-cashier-skills	2026-06-20T20:30:38Z	2026-06-21T03:02:43Z	3
@@ -49,5 +49,6 @@ fast-follow-question-bench	ihme-lymphatic-filariasis	2026-06-17T19:09:00Z	2026-0
 fast-follow-question-bench	world-poverty-clock	2026-06-19T11:39:27Z	2026-06-19T11:39:27Z	1
 fast-follow-question-bench	(hub:mixed-task)	2026-06-16T20:22:04Z	2026-06-20T18:16:34Z	47
 fast-follow-question-bench	(hub:relay-coordination)	2026-06-16T11:24:09Z	2026-06-21T22:34:30Z	384
-sec-regcf-ma-cache	(no variants)	2026-06-18T14:10:56Z	2026-06-22T08:43:35Z	5067
+fast-follow-question-bench	(hub:unknown)	2026-06-16T20:08:09+00:00	2026-09-04T18:20:09+00:00	41
+sec-regcf-ma-cache	(no variants)	2026-05-26T18:11:00+01:00	2026-07-07T15:12:00-04:00	5202
 vocab-puzzle-refs	(no variants)	2026-06-20T13:58:46Z	2026-06-20T13:58:46Z	1
