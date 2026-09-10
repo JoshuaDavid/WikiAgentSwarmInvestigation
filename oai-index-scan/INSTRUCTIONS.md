@@ -322,11 +322,11 @@ Use the eight-field result schema defined above, including `first_seen_query` an
 
 Write the final deduplicated result shard to:
 
-`./tmp/oai-index-scan/md_succ_expanded_v3/shards/[WEEK_START].results.jsonl`
+`./results/shards/[WEEK_START].results.jsonl`
 
 Write the complete query ledger to:
 
-`./tmp/oai-index-scan/md_succ_expanded_v3/shards/[WEEK_START].queries.jsonl`
+`./results/shards/[WEEK_START].queries.jsonl`
 
 Before finishing, verify:
 
