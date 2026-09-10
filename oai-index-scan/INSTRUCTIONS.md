@@ -124,18 +124,52 @@ Do not rely on Boolean operators or grouping syntax such as `OR`, `AND`, `NOT`, 
 
 For each term or distinctive lead, search the term alone before pairing it with dates, cache surfaces, datasets, or other terms. Narrow the search only when the broad query returns too many results to process usefully, or when its useful results have already been seen. Do not begin with an unnecessarily restrictive combination that could hide an unknown cluster.
 
-For every initial target string:
+### Required comparable core matrix
 
-1. Search the exact quoted string alone.
-2. Search it with the assigned year and month.
-3. Search it with each assigned date in several formats, such as `"May 28, 2026"`, `"May 28"`, `"2026-05-28"`, and `"May" "2026"`.
-4. Combine it with known cache surfaces and page markers such as `yourls`, `vanderbi.lt`, `bitily.in`, `Stats`, `Original URL`, `Long URL`, and `admin/index.php`.
-5. Search combinations of retrieval services, such as `"md.succ.ai" "r.jina.ai"`, `"md.succ.ai" "markdown.new"`, `"md.succ.ai" "allorigins"`, `"md.succ.ai" "proxymule"`, and `"pure.md" "finance.yahoo.com"`.
-6. Search distinctive dataset paths, generated identifiers, and fragments discovered in results.
-7. Search exact fragments from truncated results. Do not assume `[...]` makes a lead unusable.
-8. Open promising results when that exposes more URLs, referrers, metadata, statistics, or fuller snippets.
-9. Continue diversifying after duplicates; different queries can expose different snippets or portions of mutable YOURLS pages.
-10. When timestamps reveal an activity burst, probe minute prefixes or neighboring time windows using new formulations rather than simply repeating seed queries.
+Every weekly run must begin with the same fixed 92-query core matrix. There are
+23 initial target strings. For each target, in the order listed above:
+
+1. Search the exact quoted target string alone.
+2. Search the quoted target with the week's Sunday date in the canonical full
+   form `"Month D, YYYY"`.
+3. Search it with the week's Wednesday date in that form.
+4. Search it with the week's Saturday date in that form.
+
+For example, a week beginning May 3 uses May 3, May 6, and May 9. Do not rotate
+different dates among targets, stop partway through the target list, substitute
+short or ISO date formats, or replace these queries with a Boolean expression.
+The required core is complete only when all 23 targets have all four exact query
+forms in the ledger.
+
+Submit each required core query as its own search-tool call. This avoids the
+per-query attribution ambiguity of combined search responses and makes weekly
+runs directly comparable. The core matrix must be completed before the stopping
+rule may be applied and before optional follow-up searches begin.
+
+Request the search tool's `long` response length for every core and follow-up
+query. Do not mix `short`, `medium`, default, and `long` response lengths between
+queries or weekly runs; different response sizes make result counts and visible
+snippet evidence incomparable.
+
+After the core matrix:
+
+1. Use the remaining queries before the soft cap to follow the strongest newly
+   discovered services, dataset paths, generated identifiers, and fragments.
+2. Search alternative date formats or non-anchor dates only when an observed
+   result supplies a reason to do so; they are follow-ups, not core coverage.
+3. Combine targets with known cache surfaces and page markers such as `yourls`,
+   `Stats`, `Original URL`, `Long URL`, and `admin/index.php` when narrowing is
+   warranted.
+4. Search combinations of retrieval services when testing a retrieval-chain
+   hypothesis.
+5. Search exact fragments from truncated results. Do not assume `[...]` makes a
+   lead unusable.
+6. Open promising results when that exposes more URLs, referrers, metadata,
+   statistics, or fuller snippets.
+7. Continue diversifying after duplicates; different queries can expose
+   different snippets or portions of mutable YOURLS pages.
+8. When timestamps reveal an activity burst, probe minute prefixes or neighboring
+   time windows using new formulations rather than simply repeating seed queries.
 
 Do not stop after the first page of plausible results. One date can have hundreds of indexed results.
 
@@ -146,6 +180,35 @@ Include a result when a target string occurs anywhere in its URL, title, snippet
 Do not exclude a result because the target is not its hostname; its URL is truncated, malformed, encoded, or double-encoded; its date is uncertain or outside the assigned week; it resembles another result but has a different exact `page_url`; it points to a test domain; it is a mutable admin/statistics page; it concerns infrastructure experimentation; or it looks superficially human-readable.
 
 Exclude only obvious unrelated lexical collisions without a literal target or connected retrieval evidence.
+
+### Deterministic result-block processing
+
+Apply the same processing rule to core and follow-up queries:
+
+1. Split only on result boundaries visibly supplied by the search tool. Preserve
+   the complete raw search response for later audit.
+2. Retain every parseable result block containing any initial target string
+   anywhere in its result URL, title, snippet, metadata, cached text, or visible
+   embedded URLs. Do not apply an additional subjective relevance,
+   benchmark-likeness, hostname, or agent-attribution filter to such a block.
+3. Also retain a block without an initial target only when it visibly contains a
+   retrieval-chain service or distinctive lead already connected to this run;
+   record that matching lead in `matched_target_strings`.
+4. Exclude a block only when it has neither a literal initial target nor visible
+   connected retrieval evidence. Ordinary-looking pages are not excluded merely
+   for looking ordinary when the literal evidence rule is satisfied.
+5. Populate `matched_target_strings` by testing the entire retained block against
+   all initial targets and connected searched leads, not only the term in the
+   current query.
+6. Extract every distinct relevant URL string visibly present in the retained
+   block. Do not cap the number of URLs, capture unrelated incidental links, or
+   require the `page_url` itself to be repeated in `urls_in_page` unless it is
+   separately visible as URL evidence in the block.
+
+Do not change these rules between core and follow-up searches or between weekly
+runs. If a result cannot be parsed confidently, preserve the raw response and
+describe the omission as a limitation rather than silently applying a different
+heuristic.
 
 ## Truncation
 
@@ -161,11 +224,23 @@ Within each record, collect every visible relevant URL string from the result UR
 
 A **search group** is one submitted batch of search queries. Number groups sequentially from `001` in submission order.
 
-When the search tool supports several queries in one call, batching is allowed. Use the largest practical batch only when individual-query provenance remains unambiguous. If the tool returns one combined result set without identifying which query produced each result, prefer individual calls whenever needed to preserve `first_seen_query` and ledger accuracy. Record each query separately in the query ledger even when several queries share one tool call.
+When the search tool supports several queries in one call, batching is allowed
+only for optional follow-up work where individual-query provenance remains
+unambiguous. Never batch required core-matrix queries. If the tool returns one
+combined result set without identifying which query produced each result, use
+individual calls. Record each query separately in the query ledger even when
+several optional queries share one tool call.
 
 After processing every group, create or update (. relative to this INSTRUCTIONS.md file):
 
 `./tmp/scratch/[WEEK_START].group_[NNN].results.jsonl`
+
+Also preserve the exact unmodified search-tool response for the group at:
+
+`./tmp/raw/[WEEK_START].group_[NNN].txt`
+
+Raw response files are audit evidence, not JSONL records. They may contain no
+results. Never reconstruct or prettify their contents.
 
 Checkpoints are incremental deltas, not cumulative snapshots. Collectively, all intact checkpoints through group `[NNN]` must be sufficient to reconstruct the state after that group without duplicating every earlier record in every file.
 
@@ -219,14 +294,18 @@ Inspect all distinctive visible fragments, names, combinations, and timestamps a
 
 ## Stopping rule
 
-The default soft cap is 100 individual search queries, not 100 tool calls or search groups. Reaching the cap is not by itself a reason to stop while searches are producing useful new pages or leads.
+The default soft cap is 100 individual search queries, not 100 tool calls or search groups. It includes the 92 required core queries. Reaching the cap is not by itself a reason to stop while searches are producing useful new pages or leads.
 
 Stop when either 5,000 distinct `page_url` records have been collected, or when both of the following are true:
 
 - At least 100 individual queries have been attempted, or 20 consecutive materially different queries have produced neither a newly retained `page_url` nor a worthwhile new distinctive lead.
 - Further searching does not appear fruitful based on the remaining untried terms, unresolved leads, and recent yield.
 
-Thus, an active discovery streak may continue beyond 100 queries. Conversely, a 20-query drought may justify stopping before 100 only when there are no promising untried leads. Repeated queries and cosmetic reformulations do not count as materially different and do not advance the drought counter.
+Thus, an active discovery streak may continue beyond 100 queries. A 20-query
+drought may justify stopping before 100 only after the complete 92-query core and
+when there are no promising untried leads. Repeated queries and cosmetic
+reformulations do not count as materially different and do not advance the
+drought counter.
 
 ## Final deliverable
 
@@ -299,6 +378,11 @@ Field rules:
 
 Each ledger checkpoint contains only queries attempted in that group. The full ledger reconstructed by concatenating checkpoints in group-number order must contain every query in continuous query-sequence order. Never omit zero-result or zero-new-page queries.
 
+For individually submitted queries, set `returned_result_count` to the number of
+distinct result blocks visibly returned by the tool only when result boundaries
+are unambiguous. Otherwise use `null` and retain the raw response; do not infer a
+count from prose, citation numbering, or an advertised backend total.
+
 ## Result checkpoints
 
 Write incremental result checkpoints to:
@@ -311,12 +395,13 @@ Use the eight-field result schema defined above, including `first_seen_query` an
 
 ## Search-discipline overrides
 
-- The assigned week remains a starting partition, not an inclusion boundary, but complete the systematic target-by-date matrix for the assigned week before pursuing out-of-week leads.
+- Complete and ledger-audit the exact 92-query core matrix before pursuing optional or out-of-week leads.
 - Do not substitute already-known May 27–28 searches for assigned-week coverage.
 - Do not run any exact seed query listed in the reference section. Derive materially different queries from those examples.
 - `site:` is allowed only for a known cache surface and must not replace substring searches.
 - A query is materially different only when it changes a target term, cache surface, date/time partition, dataset clue, identifier fragment, or retrieval-chain hypothesis—not merely punctuation or word order.
 - The stopping rule's 20-query drought is evaluated from the reconstructed query ledger using `new_page_count == 0` and an empty `new_distinctive_leads` array.
+- Do not report a 20-query drought unless the final 20 ledger records all satisfy that test. Report the actual final drought length otherwise.
 
 ## v3 final deliverables
 
@@ -334,6 +419,12 @@ Before finishing, verify:
 - Result records use exactly the eight-field v2 schema.
 - Query records use exactly the nine-field v3 ledger schema.
 - `query_sequence` is continuous and strictly increasing.
+- The ledger contains exactly the four required core queries for every initial target, with the correct Sunday, Wednesday, and Saturday dates, before any optional follow-up query.
+- Required core queries were submitted as individual search-tool calls.
+- Every search group has a corresponding exact raw-response file under
+  `./tmp/raw/`.
+- Reprocessing raw responses with the deterministic result-block rules reproduces
+  the retained records, subject only to documented parser failures.
 - Query checkpoints concatenate to the final query ledger.
 - Replaying result checkpoints as ordered exact-`page_url` upserts produces the final result shard.
 - Reconstructed checkpoint state never loses a previously retained page.
