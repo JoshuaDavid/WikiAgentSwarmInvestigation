@@ -120,6 +120,8 @@ These are clues, not mandatory conditions. Because several target services are i
 
 Use every distinct web-search mode actually exposed in your environment. Record the exact mode reported by the tool. If only one mode is available, use it and note that limitation; do not invent mode names.
 
+Do not rely on Boolean operators or grouping syntax such as `OR`, `AND`, `NOT`, or parentheses. The search backend may accept these strings without honoring them as hard Boolean constraints, and may return results that contain none of the grouped alternatives. Submit alternatives as separate queries and deduplicate the resulting pages afterward.
+
 For each term or distinctive lead, search the term alone before pairing it with dates, cache surfaces, datasets, or other terms. Narrow the search only when the broad query returns too many results to process usefully, or when its useful results have already been seen. Do not begin with an unnecessarily restrictive combination that could hide an unknown cluster.
 
 For every initial target string:
@@ -161,9 +163,9 @@ A **search group** is one submitted batch of search queries. Number groups seque
 
 When the search tool supports several queries in one call, batching is allowed. Use the largest practical batch only when individual-query provenance remains unambiguous. If the tool returns one combined result set without identifying which query produced each result, prefer individual calls whenever needed to preserve `first_seen_query` and ledger accuracy. Record each query separately in the query ledger even when several queries share one tool call.
 
-After processing every group, create or update:
+After processing every group, create or update (. relative to this INSTRUCTIONS.md file):
 
-`./tmp/oai-index-scan/md_succ_expanded_v3/scratch/[WEEK_START].group_[NNN].results.jsonl`
+`./tmp/scratch/[WEEK_START].group_[NNN].results.jsonl`
 
 Checkpoints are incremental deltas, not cumulative snapshots. Collectively, all intact checkpoints through group `[NNN]` must be sufficient to reconstruct the state after that group without duplicating every earlier record in every file.
 
@@ -230,7 +232,7 @@ Thus, an active discovery streak may continue beyond 100 queries. Conversely, a 
 
 Write the weekly shard to:
 
-`./tmp/oai-index-scan/md_succ_expanded_v3/shards/[WEEK_START].results.jsonl`
+`./results/shards/[WEEK_START].results.jsonl`
 
 Validate that every line is JSON; every object has exactly the eight fields in the prescribed order; both array fields are arrays; truncated strings remain; exact duplicate page records are merged; first-query provenance is retained; and off-host occurrences were not excluded.
 
@@ -265,7 +267,7 @@ Record **every attempted search query**, including searches returning zero relev
 
 Maintain one incremental JSONL query-ledger checkpoint for each search group:
 
-`./tmp/oai-index-scan/md_succ_expanded_v3/scratch/[WEEK_START].group_[NNN].queries.jsonl`
+`./tmp/scratch/[WEEK_START].group_[NNN].queries.jsonl`
 
 Each line represents one individual query, even when several queries were submitted in one batch. Use exactly these fields, in this order:
 
@@ -301,7 +303,7 @@ Each ledger checkpoint contains only queries attempted in that group. The full l
 
 Write incremental result checkpoints to:
 
-`./tmp/oai-index-scan/md_succ_expanded_v3/scratch/[WEEK_START].group_[NNN].results.jsonl`
+`./tmp/scratch/[WEEK_START].group_[NNN].results.jsonl`
 
 Each checkpoint contains only pages newly discovered or updated in that group. Replay checkpoints as ordered `page_url` upserts to verify that reconstructed state never loses a previously retained page. An empty result checkpoint is valid for a group that found no new page and made no update.
 
