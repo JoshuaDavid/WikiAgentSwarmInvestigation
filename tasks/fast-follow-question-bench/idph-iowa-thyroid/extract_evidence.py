@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-REPO = HERE.parents[1]
+REPO = next(p for p in HERE.parents if (p / "agent-logs").is_dir())
 TSV_IN = REPO / "analyses" / "pastes-by-task" / "outputs" / "pastes_by_task.tsv"
 LOGS = REPO / "agent-logs"
 OUT_DIR = HERE / "outputs"

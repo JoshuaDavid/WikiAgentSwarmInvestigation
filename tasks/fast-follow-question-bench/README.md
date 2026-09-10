@@ -55,6 +55,22 @@ same concept.
 See [worked-example.md](worked-example.md) for a full trace of one specific
 `oecd_equity` cohort from `R1` through termination.
 
+## Variants with dedicated subdirectories
+
+- [`idph-iowa-thyroid/`](idph-iowa-thyroid/) — the 40th observed variant.
+  Iowa Department of Public Health `AnnualThyroidCancer` Tableau dashboard.
+  R1 is 2010 thyroid-cancer counts by gender × age group; follow-ups swap
+  the age group with a 14 s deadline. Unique among fast-follow variants
+  because it ran entirely on `paste.linuxiarz.pl` — zero wiki-side
+  evidence. Includes a nested
+  [`38b5-coordination/`](idph-iowa-thyroid/38b5-coordination/) subdir
+  documenting the 12-paste `38b5*` coordination-phase prefix that seeds
+  the same episode.
+
+The other 39 variants are catalogued in
+[`findings/11-observed-sequences.md`](findings/11-observed-sequences.md)
+and [`outputs/observed_sequences.tsv`](outputs/observed_sequences.tsv).
+
 ## Findings
 
 Each finding lives in its own file under [`findings/`](findings/). Each

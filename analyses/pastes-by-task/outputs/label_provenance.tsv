@@ -215,90 +215,58 @@ f8b0bbaf981e79bfba343a2c7df9afd006574ed7a3f66b9cd90dc849381bb091	grok-tool-unrel
 6c25d18038d12676bcfd97bb250286c9821f9e21fa247f9b873019e2c216d338	homerun-apk-distribution	homerun-apk-distribution	reviewer_confirmed	medium	01	Request for fresh homerun-app-1.1.0.apk link in HomeRun distribution thread.
 005bfd5e479f1bffed5f14528d8a906f31df591cdb382dc3ce0ab28884d294ba	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	BYTE UNIX Benchmarks output from AWS ip-172-26-7-36 dated 2023; legitimate sysadmin benchmark paste.
 007320354377967a5795da7635ac4827e1495316940e2cc2385f2b3aba2a3bf3	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	CentOS 8 kickstart config file; legitimate sysadmin paste chaff.
-0146ac114ec81c1c00486bf8f60644d0fd9d88c08d78afb6baf04971d9836ccf	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data query.pd patch on pastie.iem.at (Pd community pastebin) — off-topic community content, not swarm.
-024980ec92ce145c5f4d2ebce9e59da8366f2fff6ae527f2636af2b6aec6cd84	host-chaff-untitled	host-chaff-untitled	regex_only			
-02c5a86d52d2d621a0443d11c1e9774e0dfb2e49b02dbc419914a06824fdf729	host-chaff-untitled	host-chaff-untitled	regex_only			
+0146ac114ec81c1c00486bf8f60644d0fd9d88c08d78afb6baf04971d9836ccf	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pure Data query.pd patch on pastie.iem.at (Pd community pastebin) — off-topic community content, not swarm.
 056d97b16bd6239805b80288727842ad7f66ab99b58d37cd53d0db919fa9b0c8	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench gcc compile output; legitimate sysadmin benchmark paste chaff.
-05b598b81113a62916b83a0bbe8e4eccacb4ff62cb83faf19f1f5dd6dac6870c	host-chaff-untitled	host-chaff-untitled	regex_only			
 0d10a4b0b205c53ae1d79e1cdb3bb1645a94155fe0a67c64d32d8f2579fee775	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench build output ('3dinfo: not found'); legitimate sysadmin benchmark paste chaff.
-0dbd1387e7398e6cd9931acd53b70f6cd597e5f4fec67da9b11eb3837015df66	host-chaff-untitled	host-chaff-untitled	regex_only			
-16ff986f635964a88d379c7af965bbd352ed7c4b6c472f05592ddf4ae05929dd	host-chaff-untitled	host-chaff-untitled	regex_only			
 17a00f74a50bcd933497647c16f4f840bc0bf0ce1a4a4471998f8867552b5c94	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	h5bench HDF5 benchmark output; legitimate scientific-computing sysadmin paste chaff.
 1885fb4a9ef3e7360f1cf5b5d0320808063da5c7a17d39fc86b1998f304d6044	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Reply thread on centos8 kickstart config; legitimate sysadmin paste chaff.
-1d7c03707602cbb5378e88a6d8f3955633d276bf4b0fe76a1a8f84b4907fefef	host-chaff-untitled	host-chaff-untitled	regex_only			
-1d9adba5396d886107cba63d3d4667a44c22cbb91ece7a89e9aa121752bf581b	host-chaff-untitled	host-chaff-untitled	regex_only			
 202cef12fa3ce56b047f85ba4a15e24f7ece11efbc0aa7ebae2dea2a3358cf1e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Reply on centos8 kickstart config; legitimate sysadmin paste chaff.
 21b4305691efd474399ab89c8c89f0c5acc270fb42dcad2ea5b0a04d3193e74d	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman answers YAML reply thread; legitimate sysadmin paste chaff.
-25c357e83161dc30c93f2ea98a9783897b68481db4a7dd9ec1e1ea211c00dd4c	host-chaff-untitled	host-chaff-untitled	regex_only			
-25ed92417af3bbda3761ca1cb87210cad5f9116fd9b0d502b01c36522ffa4463	host-chaff-untitled	host-chaff-untitled	regex_only			
 277c1727fc0f4a36044f8fb503f7f5a1cf11ea0251b7a3cdc7d137dcf797b05a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Postfix master.cf config file; legitimate sysadmin paste chaff.
 2b217af2907101d1aaf0a7ae1ff300ce3e29e4a59d9c14fd31c84fac2e1af1cd	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome ESP32 config re-paste, ordinary user content.
 2de98066ae4e79b0458c314a002b951c03af27495d5f865df41a35e6bce9ee0e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	h5bench HDF5 benchmark output with lleung-test path; legitimate scientific-computing paste chaff.
 331e4e0f9749c9bd0c34df8b566b1c25d554571835697e3290fbfa612d2e0bb9	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	Debian 12 Xen 4.17 qemu build log, ordinary sysadmin paste.
 35e4ad7b435548546b1cfb758c37d361e6072229396feb2aa6da085a40b81745	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Puppet agent noop run on nasi.dublin.gaast.net; legitimate sysadmin paste chaff.
-3639efcd08abb273b1619e82e78c29a7df02c1051b1820e99fc395dcaa3326b8	host-chaff-untitled	host-chaff-untitled	regex_only			
-373bc8c396433321ac42a05402d588c097c6b3fd7df413954e6686acf4f6a112	host-chaff-untitled	host-chaff-untitled	regex_only			
-4561a13e3c59846d9d02bf2fad88964598632b2f9a86d106d9e2f5667cb4621d	host-chaff-untitled	host-chaff-untitled	regex_only			
 4f2fcdc5a8068d0b6400064b5640f6bd2c103f71e9d85beb1d67bf2276ed174e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench make output; legitimate sysadmin benchmark paste chaff.
-537ff37e8aefd3804340fe6e40ba493838b1debb54d84c6ce72c9c12be412764	host-chaff-untitled	host-chaff-untitled	regex_only			
 59d54a1adf0d2d2310e68c660996a102a4032b41d7f6d232d8a18ad518844355	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on centos8 kickstart config; legitimate sysadmin paste chaff.
-5b1b43cbd4bfcce759ad7574bc4cb2dc39cdb299cf37305e8fa94f1740c4a18d	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	medium	02	Pre-swarm 2021 Disqus withReactSubviews.js code on pastebin.freepbx.org; legitimate developer chaff despite animal-name reply handles.
+5b1b43cbd4bfcce759ad7574bc4cb2dc39cdb299cf37305e8fa94f1740c4a18d	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	medium	02	Pre-swarm 2021 Disqus withReactSubviews.js code on pastebin.freepbx.org; legitimate developer chaff despite animal-name reply handles.
 5dde934e4bd6c017d4dd2d5bda1a0e6ed34bce5320dfb7cc96b3addb60e777c9	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	InfiniBand perfquery output from tsm host; legitimate sysadmin paste chaff.
 60b146239da92c51f9cf50bbc33d2443b7a18a47a948b60092e4af82153b2413	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	NixOS configuration.nix file; legitimate sysadmin paste chaff.
-64254238457d888ea0a4c90e48948c1d96f9e8e3c52936e5f46386df04d2f8e0	host-chaff-untitled	host-chaff-untitled	regex_only			
-64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c	host-chaff-untitled	host-chaff-untitled	regex_only			
 6b561c47e76747b5e16d10b19bfd54d4b2c8557de5c6fc26c9b9466acd168b8a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	medium	01	'pastebin powered by stikked' — likely site-footer scrape artifact, not real content.
 6db652ace3b9918387e9df90736b90c545478d9009ee183fcb03d0951ebdbd4e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	QEMU 7.2 rpm-info Xen build log, ordinary sysadmin paste.
-71143138503a0629e5eaddd05245101e7fc9ec1fba1e46fc8a46df5081bf7f69	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data response.pd patch on pastie.iem.at — Pd community post, background traffic.
-7294054571488983bcc054a13269dcfa0841355e0e20fd1c86d90904e94f957e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data tabrename patch (noise~/tabwrite~) on pastie.iem.at — Pd community post.
+71143138503a0629e5eaddd05245101e7fc9ec1fba1e46fc8a46df5081bf7f69	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pure Data response.pd patch on pastie.iem.at — Pd community post, background traffic.
+7294054571488983bcc054a13269dcfa0841355e0e20fd1c86d90904e94f957e	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pure Data tabrename patch (noise~/tabwrite~) on pastie.iem.at — Pd community post.
 75ce1ad946d8ef637bae3d6381eb273128b67968742851f1b2aff7edf2bf01b2	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	MySubwayCard.com HTTP request/response dump; legitimate developer paste chaff.
-76da74d9471e7b12892b538b85d3fba70005799a56f6081f1878ff8b16bfe485	host-chaff-untitled	host-chaff-untitled	regex_only			
-77a88390e49a061c43fd050366e8cf837311faa92c8bcd78144b6bd6f86b3d86	host-chaff-untitled	host-chaff-untitled	regex_only			
-7d16ff6b8957b62fdfe2b5fa9c78aabd8273a03d5bf3b359761997b7ed4b8194	host-chaff-untitled	host-chaff-untitled	regex_only			
 7ef25bc81aac198b3c7f3fcd0f9e9839687bdfba7314752ace12507acd0420ee	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Ansible facts JSON example; legitimate sysadmin paste chaff.
 7f0d1ee357ce9b8a4dbb2d6f4755f2a57936f5d40a054f2840541a826b6b734a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	EZ Lawn gardening guide text, ordinary user paste.
 81b1008693b0827f72586758da59b939ce4754a99753b16df2bed767320943fa	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	BYTE UNIX Benchmarks on leo-fedora7050; legitimate sysadmin benchmark paste chaff.
-883d07eb1ce2ff1cd009f5b30024edeaa78892064f7dede3ff7f260b9d306ea7	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data [t b i] test patch on pastie.iem.at — Pd community post despite Claude label.
+883d07eb1ce2ff1cd009f5b30024edeaa78892064f7dede3ff7f260b9d306ea7	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pure Data [t b i] test patch on pastie.iem.at — Pd community post despite Claude label.
 89edcad7103ba873c870ed43cb12491f79247e68f24a8bd47c9c3acb23f8cdae	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman answers reply thread; legitimate sysadmin paste chaff.
-8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4	host-chaff-untitled	host-chaff-untitled	regex_only			
 904083d5d76267f186cb09804ffcb2005b6975669707fd3de0fc46f2fe3dfe24	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	lscpu/benchmark output titled 'test-2-benchmark'; legitimate sysadmin benchmark paste chaff.
 90ea6ed7ce16cd670a3f8a91a66e85ddbddd3719d239677d9ca5d0c3d68f5fcf	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config re-paste, ordinary user content.
-94d46d8d52654d063d1056eede571b94c39889a0b6d953ed873df31900395948	host-chaff-untitled	host-chaff-untitled	regex_only			
 9658196b9c29b2e86df99853fa2a8e681bb07cdc57b448367de7e66275847eac	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	nginx user-agent block list snippet, ordinary sysadmin paste.
 9e307e7aba80262e2a555a111fcc4e297c21ec5d4267c4e241427692810a2237	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman smart-proxy dhcpd.conf; legitimate sysadmin paste chaff (lab.cs.ucalgary.ca).
-9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08	host-chaff-untitled	host-chaff-untitled	regex_only			
 a1887a78fd4be801b42def547ec42ea6de05712c0b682018792c0e9e3475e02e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman answers YAML file; legitimate sysadmin paste chaff.
 a1b152da8294fe2bbc2e84539fd64c1058f78ba581c3e76aec02da2f5b295078	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on Foreman answers; legitimate sysadmin paste chaff.
 a4866a12602d8b94c838ba2b9c4f2a83cce973a1074dc6621ab6d9d81b5af97c	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Computer Science Rocky Linux kickstart config; legitimate sysadmin paste chaff.
 a8196499c8c69d79232848644ca0bf5976f964f1ae2258b8f8ea0048cf14360a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	h5bench HDF5 benchmark on /work/RCS/lleung; legitimate scientific-computing paste chaff.
-a91a9610f06a664a5059b2b75040535860dd6c8908988277a8c99b954708166b	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pd Pendulum patch with Gem/pmpd physical-modelling libs on pastie.iem.at — Pd community post.
+a91a9610f06a664a5059b2b75040535860dd6c8908988277a8c99b954708166b	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pd Pendulum patch with Gem/pmpd physical-modelling libs on pastie.iem.at — Pd community post.
 aa79f8ed17b88831422092e85ec9fb74a1edb6c5b2ffa0b55e00353df63cc92c	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on centos8 kickstart config; legitimate sysadmin paste chaff.
 aada7aea25611705b7906f58549f7cecd18b7c00db180d96a0bfc4d33a754af4	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	System log grep on droplet-muzikalnik host; legitimate sysadmin paste chaff.
-ac69434313813f1a2af0d957b6349a93cafcfa049fb89580d6605b3323d950dc	host-chaff-untitled	host-chaff-untitled	regex_only			
-ae62ac384220e84f658b130b21ab7858e28ded7fae12271882a4f9d1edd4cd6e	host-chaff-untitled	host-chaff-untitled	regex_only			
-aed33beefd4a8dfd95935b3b3c1d15a281b4c7c87a5ebfe654d491afdf305703	host-chaff-untitled	host-chaff-untitled	regex_only			
 af50c40ccfeea7047aafedc6d10146b40377a6ca1a54d53dac5d7e879d560c81	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	ESPHome modbus/sofarsolar YAML config, ordinary user content.
-b121c7eb99b3a43f729d36d855275b4abb7495b36209d0daea9b7695c86b9d3d	host-chaff-untitled	host-chaff-untitled	regex_only			
-b406c115f28a4eeb50996ab4e8e9d22d9fa2d8cb23371e2da9ea3c8673fd9fbc	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pd patch with vsl/pack/line receivers on pastie.iem.at — Pd community MIDI-ish patch, background traffic.
-b55658a43a9c8aa754ca1c5dcdc9c2db0e523dc1929cfa37fe5db66f4c0acea3	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pd netreceive/delread~ delay patch on pastie.iem.at — Pd community post.
+b406c115f28a4eeb50996ab4e8e9d22d9fa2d8cb23371e2da9ea3c8673fd9fbc	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pd patch with vsl/pack/line receivers on pastie.iem.at — Pd community MIDI-ish patch, background traffic.
+b55658a43a9c8aa754ca1c5dcdc9c2db0e523dc1929cfa37fe5db66f4c0acea3	host-chaff-untitled	host-chaff-untitled	reviewer_confirmed	high	04	Pd netreceive/delread~ delay patch on pastie.iem.at — Pd community post.
 baa26bbd6d65a47a1c55013cf6ef2edc4d5f91568e909d39268dd502fa428151	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config re-paste, ordinary user content.
-c36c211ea5138142c7bf257386df02fc5e77f59293e1349f5a597d82e095363a	host-chaff-untitled	host-chaff-untitled	regex_only			
 c6d64e39a9eb60d52720a41ff602d20025bdad25ed801d26ff7154e4c610a1b9	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	ibdiagnet InfiniBand diagnostics on tsm host; legitimate sysadmin paste chaff.
 cd752ac9822477f697b8724f9dcec0f15475f73031e1c976fe8f769d286ecf8d	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config paste, ordinary user community sharing.
-cef636fa0156ef66700b6cff2669721279804dfbf83025db98878a07789d791a	host-chaff-untitled	host-chaff-untitled	regex_only			
 d24da2b9c9270112839de2399850cd65a608b7db748fdf0aff11e616d08d2cdb	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench under alpine/docker/esxi on DL380; legitimate sysadmin benchmark paste chaff.
-d28c67fdf6b313dda342202ce5059fb3287e36a39bcf3d7b192f2c9e5107470b	host-chaff-untitled	host-chaff-untitled	regex_only			
 d610651ac9289be918b4f59a646bfcaa044b614162cb436112fe85f82bbb6baa	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Reply thread on CS Rocky Linux kickstart config; legitimate sysadmin paste chaff.
 e057c7a2e4e6750fdb22f6e9e77c056163678188703cc370f49a8fe0c5ea5c95	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on Foreman answers; legitimate sysadmin paste chaff.
 e0a9204e80ab1f0a990fddefe7a60207419c846375959b68ab39418017ac079f	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	Unixbench-style compilation/benchmark output paste, not swarm content.
-e19fb3216349e534d29ec795a21f6ed529cdb1ef28c4e44dd6ed3fa9ba83a99b	host-chaff-untitled	host-chaff-untitled	regex_only			
 e1f8464c476c2f556ebfa37dfa537ed2e4ec750ad9aea056d34b37c5deefa5e1	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	lscpu + benchmark output paste, ordinary paste-site user content.
 e3f9018de4bdda922d546b0d9b1ffe9f7d8143a7f0f253af583644d78c9e441a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config paste, ordinary user content.
 e443311580561fed30f4ab06752e58d123c95b4b911abfadc92a41491103487a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	medium	01	'Recent added pastes' — scraper caught the site's own page title, not a real paste.
-e75792d4e699d272be7298422f2a430eb3500f87ada82cd1d7479b0d133d34c4	host-chaff-untitled	host-chaff-untitled	regex_only			
 e8bc3c0246a8f344767ff06896f2200d9b9f66b5291eb2c5506649c05b2b7a10	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	CentOS/Rocky Linux kickstart config, ordinary sysadmin paste.
-ec89a96fa17f4347f5976e1e392cc5a9fa20cdd05b8ab650e5156db4e89c09d7	host-chaff-untitled	host-chaff-untitled	regex_only			
-ecc76c19c9f3c5108773d6c3a18a6c25c9bf1131c4e250b71213274e3b2b5d08	host-chaff-untitled	host-chaff-untitled	regex_only			
 effb6cc6313dab7e306037af926f2fdb86dfafdd9b4d09c4b832f88347793c46	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	h5bench HDF5 benchmark output, ordinary user paste.
 fc5c9f696bf56e0bf4840c55a17d19125eb6fba6998a110e8a6d64f6a656df3e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	CentOS 8 kickstart config, ordinary sysadmin paste.
 fd85df9087df619c215ef91e2f5d217d05a952f8b8737c818a51ffb16a411d3e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome ESP32 config, ordinary user content.
@@ -576,40 +544,72 @@ bbd142c6264036b07225ab9cee0ec953b400d1bd9079e73aa01ad5f394fdfa59	unknown	transfe
 c13be958866b35b29e1e3b3d640c821d5263447dd3d46a8afba382f9dc0fdb37	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + BIG5_XFER_TEST title + BIG5_ANNA_TRANSFER_OK body — swarm transfer smoke.
 c8310ab372d80e18ad14faa5b4af540c81a6fd23256f2324cc110cdae660213e	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + JOYITA_CIE10_TRANSFER_TEST title + hello transfer test body — swarm transfer smoke.
 d14f508542c61a883387931d94b1c11aba45cc96a5f1b80e0e238abfd191357f	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + JOYITA_REPLY_TRANSFER_TEST title + REPLY_PAYLOAD_HELLO_42 body — swarm transfer reply.
+024980ec92ce145c5f4d2ebce9e59da8366f2fff6ae527f2636af2b6aec6cd84	unknown	unknown	regex_only			
+02c5a86d52d2d621a0443d11c1e9774e0dfb2e49b02dbc419914a06824fdf729	unknown	unknown	regex_only			
+05b598b81113a62916b83a0bbe8e4eccacb4ff62cb83faf19f1f5dd6dac6870c	unknown	unknown	regex_only			
 093539ef18ef55ca6392f08560b0f16df239aaf96c11179dcd6b874c55c2ce75	unknown	unknown	reviewer_confirmed	low	04	TestNoPost hello-timestamp — bare OAI-style connectivity probe.
 0aa0cd5d5d3a86c79ae3fd412e2179e38dd18d752293e5ee6e4b786c2a1c6f23	unknown	unknown	reviewer_confirmed	low	04	LinkTestA with example.com markdown/angle-bracket link — pure link-format probe.
 0d20f1433937461bfeb39079e338592eb3242a5d90207b3d3212239e34a845eb	unknown	unknown	reviewer_confirmed	low	04	oai-test with timestamped token — OAI cohort connectivity probe; new label oai-probe could fit if pattern recurs.
+0dbd1387e7398e6cd9931acd53b70f6cd597e5f4fec67da9b11eb3837015df66	unknown	unknown	regex_only			
 12998c017066eb0d2a70b94e6ed3192985855ce390f321bbdb832022888bd251	unknown	unknown	reviewer_confirmed	low	01	Trivial 'hello there' body on default color+animal handle; no distinguishing swarm marker.
+16ff986f635964a88d379c7af965bbd352ed7c4b6c472f05592ddf4ae05929dd	unknown	unknown	regex_only			
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969	unknown	unknown	reviewer_confirmed	low	01	Bare 'Hello' body on default color+animal handle; no distinguishing swarm marker.
+1d7c03707602cbb5378e88a6d8f3955633d276bf4b0fe76a1a8f84b4907fefef	unknown	unknown	regex_only			
+1d9adba5396d886107cba63d3d4667a44c22cbb91ece7a89e9aa121752bf581b	unknown	unknown	regex_only			
+25c357e83161dc30c93f2ea98a9783897b68481db4a7dd9ec1e1ea211c00dd4c	unknown	unknown	regex_only			
+25ed92417af3bbda3761ca1cb87210cad5f9116fd9b0d502b01c36522ffa4463	unknown	unknown	regex_only			
 2a0a7e113c9008e1e7ef57d416e82cde2a59acf39626375b55ad3b85450e50f7	unknown	unknown	reviewer_confirmed	low	04	DirectPostTest directpost-timestamp — write-path probe, no series content.
 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824	unknown	unknown	reviewer_confirmed	low	01	Title 'apitest' body 'hello' with default color+animal handle; ambiguous.
 2cfb91a718fbca5d62dd0702bfeebc2ac5707e53c8a87aa4a14182469f08e844	unknown	unknown	reviewer_confirmed	low	04	mdposttest with timestamp token — OAI cohort markdown-post probe.
+3639efcd08abb273b1619e82e78c29a7df02c1051b1820e99fc395dcaa3326b8	unknown	unknown	regex_only			
+373bc8c396433321ac42a05402d588c097c6b3fd7df413954e6686acf4f6a112	unknown	unknown	regex_only			
+4561a13e3c59846d9d02bf2fad88964598632b2f9a86d106d9e2f5667cb4621d	unknown	unknown	regex_only			
 4825e71dccc8dc9f5d513ea7337908201b423cc78d8920ab1acfabce41a7729d	unknown	unknown	reviewer_confirmed	low	04	Single railroadtreasures.com URL with unique focus token — one-shot link probe, no recurring pattern.
 4853fc4682ae954599c3dd2c79a328ec56a16ef38d201f8618bba15ce4e23293	unknown	unknown	reviewer_confirmed	low	04	oaihello hello-oai timestamp — OAI cohort connectivity probe.
 4a466a0ed624d68b43906e41ecf3451701a1c4ec79e7e74cfa1fbf9cbae92129	unknown	unknown	reviewer_confirmed	low	01	X (Twitter) account-label boilerplate; reads like a human venting, no swarm marker.
+537ff37e8aefd3804340fe6e40ba493838b1debb54d84c6ce72c9c12be412764	unknown	unknown	regex_only			
 57277b8a4e14d1d4bd9387ba1b58d1476d4410568146b595dbf7cfee337a6d4d	unknown	unknown	reviewer_confirmed	low	04	Untitled body test from agent — bare probe.
 5f23a18a5d9763e57b62ef6516d2a72df89f36bfa51d3ea9aa680a51ef0d8308	unknown	unknown	reviewer_confirmed	low	04	Probe body test from agent-current — bare probe.
-611ae7810b5f4aaeb0cf1361b10332335b2d663ec8c68eb25996e44c352cc37f	unknown	unknown	reviewer_confirmed	low	04	pb.dynavirt.com List of body single paste.tc link — sparse pastebin cross-link, no swarm marker.
+611ae7810b5f4aaeb0cf1361b10332335b2d663ec8c68eb25996e44c352cc37f	host-chaff-untitled	unknown	reviewer_overrode_regex	low	04	pb.dynavirt.com List of body single paste.tc link — sparse pastebin cross-link, no swarm marker.
+64254238457d888ea0a4c90e48948c1d96f9e8e3c52936e5f46386df04d2f8e0	unknown	unknown	regex_only			
 64946bf32245ae5dac777e34e233df6f62317bef2c871ed7583366848560478e	nicepaste-cross-index	unknown	reviewer_overrode_regex	low	04	pb.dynavirt.com disqus-home-atdt single nicepaste URL — cross-paste stub, insufficient to classify.
+64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c	unknown	unknown	regex_only			
 6a36d80fb38d07b72391a1a7de05700a29a9db62699c55b47f575815dab79f2d	unknown	unknown	reviewer_confirmed	low	04	try / agent hello test — bare agent connectivity probe.
 6e4d2ab0784a3e2d745f79fee637914bc0c4674474dc9dcdff953a4485b6b19e	unknown	unknown	reviewer_confirmed	low	04	ReferenceLinks0 with example.com only — infra probe, no series marker.
+76da74d9471e7b12892b538b85d3fba70005799a56f6081f1878ff8b16bfe485	unknown	unknown	regex_only			
+77a88390e49a061c43fd050366e8cf837311faa92c8bcd78144b6bd6f86b3d86	unknown	unknown	regex_only			
+7d16ff6b8957b62fdfe2b5fa9c78aabd8273a03d5bf3b359761997b7ed4b8194	unknown	unknown	regex_only			
 7f3239685ff46784ef194eb0de20088e49a66a35ae2296023c92df5fd94cd552	unknown	unknown	reviewer_confirmed	low	04	title x body test-oai-noharm — OAI-style probe explicitly marked harmless.
+8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4	unknown	unknown	regex_only			
 912a77b20b0f003c7c7b71faccf8569148bd5fab8a60dbc1b37d572085b01ea3	unknown	unknown	reviewer_confirmed	low	01	catbox.moe cPanel-site zip drop with sha256; could be human artifact or swarm payload — insufficient signal.
+94d46d8d52654d063d1056eede571b94c39889a0b6d953ed873df31900395948	unknown	unknown	regex_only			
 9bc9612a6cca08d5f3e4a0eab3f257325cc395d7c17f1cbed02a6d5df941e8bf	unknown	unknown	reviewer_confirmed	low	04	ReplySF ourreply — short reply probe, no context to classify further.
 9cf816dc0753e8b02e60281c66de8d31d77675d168998a341713de3a7aeb4aa9	unknown	unknown	reviewer_confirmed	low	01	'hello from api' with default color+animal handle; could be swarm API smoke but no distinctive marker.
-a31272e7ac032c69a7a70d912f00cbd436e340aa2497eefcb12753e21eee9583	unknown	unknown	reviewer_confirmed	low	01	curl -H Googlebot User-Agent snippet; no task-family marker.
+9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08	unknown	unknown	regex_only			
+a31272e7ac032c69a7a70d912f00cbd436e340aa2497eefcb12753e21eee9583	host-chaff-untitled	unknown	reviewer_overrode_regex	low	01	curl -H Googlebot User-Agent snippet; no task-family marker.
+ac69434313813f1a2af0d957b6349a93cafcfa049fb89580d6605b3323d950dc	unknown	unknown	regex_only			
+ae62ac384220e84f658b130b21ab7858e28ded7fae12271882a4f9d1edd4cd6e	unknown	unknown	regex_only			
+aed33beefd4a8dfd95935b3b3c1d15a281b4c7c87a5ebfe654d491afdf305703	unknown	unknown	regex_only			
+b121c7eb99b3a43f729d36d855275b4abb7495b36209d0daea9b7695c86b9d3d	unknown	unknown	regex_only			
 b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9	unknown	unknown	reviewer_confirmed	low	01	'hello world' body with default color+animal handle; no swarm marker.
 c0c9727fadca064b97f06595b012dfe690fe3f154ffdd0018759012bced11a85	unknown	unknown	reviewer_confirmed	low	01	One-line meta commentary under 'Human' handle; ambiguous observer-or-roleplay.
-c2e44d4f08db5f9fe592954ba349fc9198a8f281335f67b62d2e31a6461d07d8	unknown	unknown	reviewer_confirmed	low	01	63-byte base64-looking blob with no title context; too cryptic to classify.
+c2e44d4f08db5f9fe592954ba349fc9198a8f281335f67b62d2e31a6461d07d8	host-chaff-untitled	unknown	reviewer_overrode_regex	low	01	63-byte base64-looking blob with no title context; too cryptic to classify.
+c36c211ea5138142c7bf257386df02fc5e77f59293e1349f5a597d82e095363a	unknown	unknown	regex_only			
 c54b257e15891558e134ba3976897b7fc166978ff26ef70112f8028cd48c5087	unknown	unknown	reviewer_confirmed	low	04	Title Research body TestHelloABC — one-shot connectivity probe, no series marker.
 cc96ad1f6d999b84f472b817e92e8228ea6824e10b77921ae718a5d5effc9e05	unknown	unknown	reviewer_confirmed	low	01	Body is stikked default 'Powered by stikked' string; probably empty-paste artifact.
+cef636fa0156ef66700b6cff2669721279804dfbf83025db98878a07789d791a	unknown	unknown	regex_only			
 d17dc33bbab186d28bf6a61a4b79cf7191157f5d47e7775799ad28070094eb40	unknown	unknown	reviewer_confirmed	low	04	SFXY883/ZZNEW883 opaque token — likely handshake probe, no series marker.
+d28c67fdf6b313dda342202ce5059fb3287e36a39bcf3d7b192f2c9e5107470b	unknown	unknown	regex_only			
 d61780b06a35bcec2061829c9c53d7600bbcb35af35d6a30c4ded853cd890c3e	unknown	unknown	reviewer_confirmed	low	04	Yahoo Japan finance historical URL for GDDY 2019-11-15 with focusagent001 marker — single-shot finance research probe.
 db6021287a80f6074b1b118e6e3d4adb92bf574bf4daa719ba459181162c3978	unknown	unknown	reviewer_confirmed	low	04	ShortURLtestjune shortURLtest — text-only shortener test, no actual shortened URLs present.
 de86af04f63b0bd5ae69f43b4bea0ba0c9e45a955bcde82cc1acf815cf166b7a	unknown	unknown	reviewer_confirmed	low	04	probe2 test from agent — bare probe (agent-test cohort but no Iowa marker in body).
+e19fb3216349e534d29ec795a21f6ed529cdb1ef28c4e44dd6ed3fa9ba83a99b	unknown	unknown	regex_only			
+e75792d4e699d272be7298422f2a430eb3500f87ada82cd1d7479b0d133d34c4	unknown	unknown	regex_only			
+ec89a96fa17f4347f5976e1e392cc5a9fa20cdd05b8ab650e5156db4e89c09d7	unknown	unknown	regex_only			
+ecc76c19c9f3c5108773d6c3a18a6c25c9bf1131c4e250b71213274e3b2b5d08	unknown	unknown	regex_only			
 ecd27df86e75ecd00a225abd2a5b4c1b2332ece7d7835986182ab8174bf296eb	unknown	unknown	reviewer_confirmed	low	04	oaitest test123 — bare probe.
 ed11ab4f0a89b6deaa294dd3fd5494032935f39371ef8a5d0d7423f3dd1438b6	nicepaste-cross-index	unknown	reviewer_overrode_regex	low	04	pb.dynavirt.com List of subdomains body single nicepaste URL — sparse cross-link, insufficient to classify.
-f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8	unknown	unknown	reviewer_confirmed	low	01	Two-byte 'as' body under 'zx' handle; keyboard-test noise.
+f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8	host-chaff-untitled	unknown	reviewer_overrode_regex	low	01	Two-byte 'as' body under 'zx' handle; keyboard-test noise.
 0056c29014da78eaa53652a0b31310051deeb05d199a2ce7420d4933e36ccdde	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
 06c9d98f01895ad61142048999213cd1999846287c4fb29e26044dae7a261262	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
 08cc7d7297ed9a61d4222bace009cce654c8f0496cb20c765593c8d3c9dfff43	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
