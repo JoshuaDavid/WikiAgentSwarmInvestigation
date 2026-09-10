@@ -112,7 +112,9 @@ WRAPPERS = {
     "cors.io":                       {"mode": "path"},
     "eco-cors-proxy.netlify.app":    {"mode": "path"},
     "web2md.site":                   {"mode": "param", "param": "url"},
+    "www.web2md.site":               {"mode": "param", "param": "url"},
     "markdown.microlink.io":         {"mode": "param", "param": "url"},
+    "api.codetabs.com":              {"mode": "codetabs"},
 
     # YOURLS admin/index.php with ?u=<encoded-url>  (swarm's own redirectors)
     "yourls.pro":       {"mode": "yourls"},
@@ -121,10 +123,17 @@ WRAPPERS = {
     "yourls.space":     {"mode": "yourls"},
     "yourls.biz":       {"mode": "yourls"},
     "bitily.in":        {"mode": "yourls"},
+    "app.bitily.in":    {"mode": "yourls"},
     "vanderbi.lt":      {"mode": "yourls"},
     "goto.unm.edu":     {"mode": "yourls"},
     "rmn.re":           {"mode": "yourls"},
     "sho.rt":           {"mode": "yourls"},
+
+    # platform.lemino.ai/api/url2md/<inner-url>
+    "platform.lemino.ai": {"mode": "url2md"},
+
+    # rt.http3.lol/index.php?q=<base64-encoded-url>
+    "rt.http3.lol":     {"mode": "base64q"},
 }
 
 
@@ -179,7 +188,7 @@ def _has_ellipsis(u: str) -> bool:
 
 # --- inner-URL extraction helpers -------------------------------------------
 
-_SCHEME_RE = re.compile(r"^(https?)(?::/{1,2}|%3A%2F%2F|%253A%252F%252F)", re.IGNORECASE)
+_SCHEME_RE = re.compile(r"^(https?)(?::/{1,2}|%3A/{0,2}|%3A%2F%2F|%253A%252F%252F)", re.IGNORECASE)
 
 
 def _looks_like_url(s: str) -> bool:
@@ -278,7 +287,7 @@ def _extract_inner_proxymule(split: urllib.parse.SplitResult) -> Optional[str]:
     return f"{scheme}://{host}{tail}"
 
 
-_EMBED_HTTP_RE = re.compile(r"(https?)(?::/{1,2}|%3A%2F%2F)", re.IGNORECASE)
+_EMBED_HTTP_RE = re.compile(r"(https?)(?::/{1,2}|%3A/{0,2}|%3A%2F%2F)", re.IGNORECASE)
 
 
 def _extract_inner_wayback(split: urllib.parse.SplitResult) -> Optional[str]:
@@ -301,6 +310,71 @@ def _extract_inner_wayback(split: urllib.parse.SplitResult) -> Optional[str]:
     if "%3a" in inner.lower() and "://" not in inner:
         inner = _decode_maybe(inner)
     return inner
+
+
+def _extract_inner_url2md(split: urllib.parse.SplitResult) -> Optional[str]:
+    """platform.lemino.ai/api/url2md/<inner-url>."""
+    path = split.path
+    m = re.match(r"^/api/url2md/(.+)$", path)
+    if not m:
+        return None
+    tail = m.group(1)
+    if split.query:
+        tail = tail + "?" + split.query
+    if "%3a" in tail.lower() and "://" not in tail:
+        tail = _decode_maybe(tail)
+    if _looks_like_url(tail):
+        return tail
+    if "." in tail.split("/", 1)[0]:
+        return "https://" + tail
+    return None
+
+
+import base64
+
+
+def _extract_inner_base64q(split: urllib.parse.SplitResult) -> Optional[str]:
+    """rt.http3.lol/index.php?q=<base64-standard-or-urlsafe-encoding>.
+
+    Base64 of a URL always starts `http` -> `aHR0c` prefix.  Padding is
+    frequently omitted so we accept 0-2 missing '=' characters.
+    """
+    q = split.query
+    if not q:
+        return None
+    qs = urllib.parse.parse_qs(q, keep_blank_values=True)
+    val = (qs.get("q") or [""])[0]
+    if not val:
+        return None
+    # try urlsafe first, then standard
+    for decoder in (base64.urlsafe_b64decode, base64.b64decode):
+        for pad in ("", "=", "=="):
+            try:
+                out = decoder(val + pad).decode("utf-8", errors="strict")
+            except Exception:
+                continue
+            if out.startswith(("http://", "https://")):
+                return out
+    return None
+
+
+def _extract_inner_codetabs(split: urllib.parse.SplitResult) -> Optional[str]:
+    """api.codetabs.com/v1/proxy?quest=<url>."""
+    q = split.query
+    if not q:
+        return None
+    qs = urllib.parse.parse_qs(q, keep_blank_values=True)
+    val = (qs.get("quest") or qs.get("url") or [""])[0]
+    if not val:
+        return None
+    if _looks_like_url(val):
+        if "%3a" in val.lower():
+            return _decode_maybe(val)
+        return val
+    dec = _decode_maybe(val)
+    if _looks_like_url(dec):
+        return dec
+    return None
 
 
 def _extract_inner_yourls(split: urllib.parse.SplitResult) -> Optional[str]:
@@ -492,6 +566,12 @@ def parse(url: str, max_depth: int = 6) -> Parsed:
             inner = _extract_inner_wayback(split)
         elif mode == "yourls":
             inner = _extract_inner_yourls(split)
+        elif mode == "url2md":
+            inner = _extract_inner_url2md(split)
+        elif mode == "base64q":
+            inner = _extract_inner_base64q(split)
+        elif mode == "codetabs":
+            inner = _extract_inner_codetabs(split)
         elif mode == "httpbin":
             # httpbin endpoints are essentially base URLs (test bed)
             p.base_host = key
