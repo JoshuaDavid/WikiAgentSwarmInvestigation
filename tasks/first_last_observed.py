@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 """Compute the first and last observed message time per task family and, where
-variants are defined, per variant.
+variants are defined, per variant, across every corpus in `agent-logs/`.
 
-"Message" here means one revision in `agent-logs/prowiki/revisions.jsonl`
-whose body matches the classifier for that task or variant. Each per-task
-classifier reproduces the same detection logic used by that task's own
-`extract_evidence.py`. See each task's README for the classifier rationale.
+"Message" means one revision whose body matches the classifier for that task
+or variant. Each per-task classifier reproduces the same detection logic used
+by that task's own `extract_evidence.py`. See each task's README for the
+classifier rationale.
+
+Sources: every `agent-logs/<name>/revisions.jsonl`, with the aggregate
+`pastes/` export skipped so its rows do not double-count the per-site paste
+scrapes (`pastebin-k4be/`, `anna.fyi/`, ...).
+
+Deduplication: same `rev_id` observed in more than one source (e.g.
+`dse~PageName@N` appears in both `prowiki/` and `dse/`) is counted once and
+attributed to its earliest observed timestamp.
+
+Bodies from wiki exports are base64-decoded per `body_encoding`; paste bodies
+are raw UTF-8.
 
 Writes `tasks/first_last_observed.tsv`. Rerun with:
 
@@ -21,9 +32,14 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 REPO_ROOT = HERE.parent
-REV_PATH = REPO_ROOT / "agent-logs" / "prowiki" / "revisions.jsonl"
-PAGES_PATH = REPO_ROOT / "agent-logs" / "prowiki" / "pages.jsonl"
+AGENT_LOGS = REPO_ROOT / "agent-logs"
 OUT_PATH = HERE / "first_last_observed.tsv"
+
+# Sources to skip. `pastes/` is an aggregate export whose rows are
+# already present under the per-site paste dirs; including it would
+# double-count. `pastes-evidence-index/` is an index over `pastes/`,
+# not a distinct corpus.
+SKIP_SOURCES = {"pastes", "pastes-evidence-index"}
 
 # --- archive-item-research-bench: 7 instances --------------------------------
 # Lifted verbatim from tasks/archive-item-research-bench/extract_evidence.py.
@@ -89,8 +105,6 @@ HUB_FAMILIES = {
     "source-cache-url-list",
     "source-or-unclassified",
 }
-# The 39 families the task's README enumerates (order preserved from
-# outputs/observed_sequences.tsv).
 FAST_FOLLOW_FAMILIES = [
     "oecd-equity", "datausa-clothing-workforce", "datausa-cashiers-masters",
     "datausa-construction-workforce", "datausa-grocery-workforce",
@@ -122,74 +136,144 @@ def is_regcf(body: str) -> bool:
     return ("regCF" in body) or ("us-ma-" in body) or ("county.json" in body)
 
 
-# --- vocab-puzzle-refs: single instance --------------------------------------
+# --- vocab-puzzle-refs: single dse page --------------------------------------
 
 VOCAB_PAGE_ID = "dse/AgentVocabPuzzleRefsJun20"
 
 
 # --- driver ------------------------------------------------------------------
 
-def load_page_family() -> dict[str, str]:
+def decode_body(rev: dict) -> str:
+    # Every `agent-logs/*/revisions.jsonl` in this repo stores the body as
+    # raw text — `body_encoding` names the content encoding (`ascii`,
+    # `raw_utf8`, `html_stripped_utf8`, `wiki_source_utf8`, ...), not a
+    # base64 wrapper. Older exporter documentation still describes the
+    # ascii/utf8/latin1 fields as base64-encoded, but the current export
+    # files decode cleanly as raw text.
+    return rev.get("body") or ""
+
+
+def load_page_family_map() -> dict[str, str]:
+    """page_key -> page_family across every source that populates it.
+
+    Multiple sources classify the same page_key (e.g. `dse/StartSeite` is in
+    both `dse/pages.jsonl` and `prowiki/pages.jsonl`). Prowiki carries the
+    fine-grained fast-follow taxonomy (`oecd-equity`, `datausa-*`, ...);
+    other sources fall back to `off_store_unclassified` for the same page.
+    Prefer specific family labels; only accept `off_store_unclassified` when
+    no other classification exists.
+    """
     m: dict[str, str] = {}
-    with PAGES_PATH.open() as f:
-        for line in f:
-            p = json.loads(line)
-            m[p["page_key"]] = p.get("page_family", "") or ""
+    for pages_path in sorted(AGENT_LOGS.glob("*/pages.jsonl")):
+        src = pages_path.parent.name
+        if src in SKIP_SOURCES:
+            continue
+        with pages_path.open() as f:
+            for line in f:
+                if not line.strip():
+                    continue
+                p = json.loads(line)
+                fam = p.get("page_family") or ""
+                if not fam:
+                    continue
+                key = p.get("page_key") or p.get("page_id")
+                if not key:
+                    continue
+                existing = m.get(key)
+                if existing is None or (
+                    existing == "off_store_unclassified" and fam != "off_store_unclassified"
+                ):
+                    m[key] = fam
     return m
 
 
+def iter_revisions():
+    """Yield (source_name, revision_dict) across every enabled source."""
+    for rev_path in sorted(AGENT_LOGS.glob("*/revisions.jsonl")):
+        src = rev_path.parent.name
+        if src in SKIP_SOURCES:
+            continue
+        with rev_path.open() as f:
+            for line in f:
+                if not line.strip():
+                    continue
+                yield src, json.loads(line)
+
+
 def main() -> None:
-    page_family = load_page_family()
+    page_family = load_page_family_map()
 
-    # (task, variant) -> [times]
+    # Two passes:
+    # 1) Collect the earliest observed timestamp per rev_id across all
+    #    sources. `dse/`, `fractal/`, `probier/` carry no body text
+    #    themselves — only prowiki/apchem/paste-* have the body — but they
+    #    do carry the earlier recent-changes-window timestamps we need.
+    # 2) Classify each rev_id exactly once, using whichever source has a
+    #    non-empty body for it. Attribute the match to the earliest time
+    #    from pass 1.
+
+    seen_rev: dict[str, str] = {}  # rev_id -> earliest_time
+    for _, rev in iter_revisions():
+        rid = rev.get("rev_id")
+        t = rev.get("time") or ""
+        if not rid or not t:
+            continue
+        prev = seen_rev.get(rid)
+        if prev is None or t < prev:
+            seen_rev[rid] = t
+
     times: dict[tuple[str, str], list[str]] = defaultdict(list)
+    classified: set[str] = set()
 
-    with REV_PATH.open() as rf:
-        for line in rf:
-            rev = json.loads(line)
-            body = rev.get("body") or ""
-            t = rev.get("time") or ""
-            if not t:
-                continue
-            body_lc = body.lower()
+    for _, rev in iter_revisions():
+        rid = rev.get("rev_id")
+        if not rid or rid in classified:
+            continue
+        body = decode_body(rev)
+        if not body:
+            continue
+        classified.add(rid)
+        body_lc = body.lower()
 
-            # archive-item-research-bench
-            for inst in match_archive_instances(body_lc):
-                times[("archive-item-research-bench", inst)].append(t)
-                times[("archive-item-research-bench", "(any variant)")].append(t)
+        matches: set[tuple[str, str]] = set()
 
-            # fast-follow-question-bench
-            if is_fast_follow(body):
-                fam = page_family.get(rev.get("page_key", ""), "") or "unknown"
-                times[("fast-follow-question-bench", "(any variant)")].append(t)
-                if fam in FAST_FOLLOW_FAMILIES:
-                    times[("fast-follow-question-bench", fam)].append(t)
-                elif fam in HUB_FAMILIES:
-                    times[("fast-follow-question-bench", f"(hub:{fam})")].append(t)
-                else:
-                    times[("fast-follow-question-bench", f"(other:{fam})")].append(t)
+        for inst in match_archive_instances(body_lc):
+            matches.add(("archive-item-research-bench", inst))
+            matches.add(("archive-item-research-bench", "(any variant)"))
 
-            # sec-regcf-ma-cache
-            if is_regcf(body):
-                times[("sec-regcf-ma-cache", "(no variants)")].append(t)
+        if is_fast_follow(body):
+            fam = page_family.get(rev.get("page_key", "")) or ""
+            if not fam:
+                fam = page_family.get(rev.get("page_id", "")) or "unknown"
+            matches.add(("fast-follow-question-bench", "(any variant)"))
+            if fam in FAST_FOLLOW_FAMILIES:
+                matches.add(("fast-follow-question-bench", fam))
+            elif fam in HUB_FAMILIES:
+                matches.add(("fast-follow-question-bench", f"(hub:{fam})"))
+            else:
+                matches.add(("fast-follow-question-bench", f"(other:{fam})"))
 
-            # vocab-puzzle-refs
-            if rev.get("page_id") == VOCAB_PAGE_ID:
-                times[("vocab-puzzle-refs", "(no variants)")].append(t)
+        if is_regcf(body):
+            matches.add(("sec-regcf-ma-cache", "(no variants)"))
 
-    # De-duplicate task totals across variants using the "(any variant)" bucket
-    # already populated above.
+        if rev.get("page_id") == VOCAB_PAGE_ID:
+            matches.add(("vocab-puzzle-refs", "(no variants)"))
+
+        if not matches:
+            continue
+        t_earliest = seen_rev.get(rid) or rev.get("time") or ""
+        if not t_earliest:
+            continue
+        for key in matches:
+            times[key].append(t_earliest)
+
     rows: list[tuple[str, str, str, str, int]] = []
-    # Fixed task order in the output.
     task_order = [
         "archive-item-research-bench",
         "fast-follow-question-bench",
         "sec-regcf-ma-cache",
         "vocab-puzzle-refs",
     ]
-    # For each task, emit the totals row first, then variants in the order
-    # listed above (for fast-follow) or in the extract_evidence order (for
-    # archive), then any spillover buckets (hub/other) at the end.
     variant_order = {
         "archive-item-research-bench":
             ["(any variant)"] + list(ARCHIVE_INSTANCES.keys()),
@@ -206,15 +290,12 @@ def main() -> None:
             if key in times:
                 ts = sorted(times[key])
                 rows.append((task, variant, ts[0], ts[-1], len(ts)))
-                emitted.add(variant)
             else:
                 rows.append((task, variant, "", "", 0))
-                emitted.add(variant)
-        # spillover buckets (hub:*, other:*) — sorted for determinism.
+            emitted.add(variant)
         spill = sorted(v for (tk, v) in times if tk == task and v not in emitted)
         for variant in spill:
-            key = (task, variant)
-            ts = sorted(times[key])
+            ts = sorted(times[(task, variant)])
             rows.append((task, variant, ts[0], ts[-1], len(ts)))
 
     with OUT_PATH.open("w") as f:
@@ -223,7 +304,8 @@ def main() -> None:
             f.write("\t".join([row[0], row[1], row[2], row[3], str(row[4])]) + "\n")
 
     print(f"wrote {OUT_PATH}", file=sys.stderr)
-    print(f"  {len(rows)} rows", file=sys.stderr)
+    n_hits = sum(len(v) for k, v in times.items() if k[1] == "(any variant)" or k[1].startswith("(no"))
+    print(f"  {len(rows)} rows, {n_hits} classified revision-hits (task totals)", file=sys.stderr)
 
 
 if __name__ == "__main__":
