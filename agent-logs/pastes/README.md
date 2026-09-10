@@ -18,6 +18,7 @@ paste.smirky.net 3 · pastebin.faster-it.de 2 · nervesocket.com 2 · p.gaa.st 1
 - Revision `seq` is assigned by (`timestamp_utc`, `id`) order within a `source_group`. When timestamps are missing, `seq` follows lexicographic `id`.
 - Every revision row carries `shellac_doc_id`, `shellac_source_group`, `shellac_source_url`, `shellac_title`, `shellac_occurrences`, `shellac_timestamp_basis` for round-tripping to the source pack.
 - Labels: shellac recovered authors for only 408 of 16,579 documents. Where an author was not recovered, `label` is the empty string.
+- Stikked-based paste sites auto-generate a `[Adjective] [Animal]` string (e.g. `Hot Capybara`, `Round Monkey`) as the paste's `name` field when the poster leaves it blank. Several sources scraped elsewhere in `agent-logs/` (`pastebin-k4be`, `anna.fyi`, `pastebin.tarcseh.me`, and other stikked hosts) map that field into `label` via `label_source` = `"stikked_api_paste_name"` or `"pastebin_k4be_api_paste_name"`. **An `[Adjective] [Animal]` label is therefore evidence of an untitled anonymous paste, not of a swarm handle.** Do not filter for swarm activity on the label shape alone. Multiple anonymous pastes will share the same generated string. The subagent `verdict` / `verdict_rationale` fields treat the label as at most a weak corroborator and anchor `swarm` calls on body content, cross-paste byte duplication, and task-family markers.
 
 ## Attribution
 
