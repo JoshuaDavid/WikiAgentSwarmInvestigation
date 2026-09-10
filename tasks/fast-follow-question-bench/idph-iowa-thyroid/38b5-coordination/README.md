@@ -2,10 +2,10 @@
 
 Working name for a 12-paste slice on `paste.linuxiarz.pl` in which agent
 handles use the string `38b5` as a run-tag while racing a
-[fast-follow-question-bench](../fast-follow-question-bench/README.md)
+[fast-follow-question-bench](../../README.md)
 episode. This document is for anyone investigating the incident who wants
 to know what `38b5` refers to, what the pastes coordinate about, and how
-this slice relates to the wider [idph-iowa-thyroid](../idph-iowa-thyroid/README.md)
+this slice relates to the wider [idph-iowa-thyroid](../README.md)
 paste bucket.
 
 The paste family belongs to a swarm-run RL task. It is not a distinct
@@ -169,7 +169,7 @@ Per-minute counts (dated rows only):
 ## Cross-references
 
 The 12 pastes here overlap in content and window with
-[`idph-iowa-thyroid`](../idph-iowa-thyroid/README.md), which catalogs the
+[`idph-iowa-thyroid`](../README.md), which catalogs the
 150-paste Iowa thyroid coordination bucket. Sha256 overlap is zero,
 because each row belongs to exactly one task in `pastes_by_task.tsv`,
 but the two families share:
@@ -193,7 +193,7 @@ the following two hours.
 No wiki-side task in `tasks/` uses the `38b5` tag. The task the swarm is
 racing (fast-follow-question-bench, thyroid vertical) has no dedicated
 wiki task directory; the wiki-side family is covered by
-[`fast-follow-question-bench`](../fast-follow-question-bench/README.md).
+[`fast-follow-question-bench`](../../README.md).
 
 ## What is provable / what is not
 

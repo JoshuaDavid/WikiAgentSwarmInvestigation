@@ -1,9 +1,22 @@
 # host-chaff-untitled
 
 **Chaff bucket. Not a swarm task. Not a reinforcement-learning task.** This
-directory documents 90 paste-site pastes that the
-`analyses/pastes-by-task/` classifier assigned to the `host-chaff-untitled`
-label. The pastes are background traffic from small-community paste hosts
+directory documents the 58 paste-site pastes that the
+`analyses/pastes-by-task/` classifier currently assigns to the
+`host-chaff-untitled` label.
+
+> **Update (2026-09-10):** an earlier version of `classify.py` labeled 90
+> pastes as chaff. Author-time audit of this dir found that 20 of the 30
+> `pastebin-k4be` pastes in that bucket were actually swarm content
+> (ConvFinQA Q/A, SEC 10-K excerpts, OWID CSV, EPL/NBA/CO2 data staging).
+> The classifier was patched to gate chaff on non-swarm hosts
+> (`NONSWARM_CHAFF_HOSTS`) — pastes on swarm-active hosts (`pastebin-k4be`,
+> `anna.fyi`, `pastebin.tarcseh.me`, `paste-linuxiarz`,
+> `pastebin.faster-it.de`) no longer fall through to chaff; they land in
+> `unknown` instead. The counts, host mix, and per-paste rows in
+> `outputs/evidence.tsv` reflect the post-patch state. Some paragraphs
+> below still quote the pre-patch 90-paste number for context; treat those
+> as history, not the current state. The pastes are background traffic from small-community paste hosts
 (Polish, Hungarian, English sysadmin / hobbyist audiences). The `shellac`
 curation pipeline swept these paste sites for swarm content and retained
 these bodies as false positives. This document is for anyone investigating

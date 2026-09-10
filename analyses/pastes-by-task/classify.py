@@ -197,15 +197,47 @@ def match_shortener_bench(body: str, title: str) -> bool:
     return sum(1 for s in shorteners if s in body) >= 1 and len(re.findall(r"https?://", body)) >= 3
 
 
-def match_polish_pastebin_chaff(body: str, title: str) -> bool:
-    # `Bez tytułu` = Polish "untitled". Native Polish/Hungarian/German paste-site
-    # background traffic that got picked up in the shellac curation.
-    return title in ("Bez tytułu", "Névtelen") and not any(
-        m(body, title) for m in (match_iowa, match_epl_bench, match_nsi_bg,
-                                  match_iea, match_usaspending, match_38b5,
-                                  match_collusion_wiki, match_public_board,
-                                  match_colony)
-    )
+# Chaff on swarm-active hosts is not chaff; it's an unknown swarm pattern.
+# Restrict the chaff catch to hosts where paste-sites-classify's audit
+# (`analyses/paste-sites-classify/hosts_summary.md`) found no or near-zero
+# swarm traffic — the audit of tasks/host-chaff-untitled surfaced that
+# 20 of 30 `Bez tytułu` pastes on pastebin-k4be are ConvFinQA / SEC 10-K
+# / OWID swarm content, not chaff. Gating on source keeps those out.
+NONSWARM_CHAFF_HOSTS = {
+    "paste.centos.org",
+    "paste.lightcast.com",
+    "paste.smirky.net",
+    "paste.steamr.com",
+    "pastie.iem.at",
+    "p.gaa.st",
+    "pastebin.freepbx.org",
+    "pb.psychotic.ninja",
+    "pb.dynavirt.com",
+}
+
+# Positive chaff-content signatures. Presence of any one on a paste-site
+# host names the paste as background sysadmin/community content, not a
+# swarm task. Cheap keyword hits; overlap with real tasks is negligible
+# because those already fired earlier in classify().
+CHAFF_CONTENT_SIGNATURES = re.compile(
+    r"(#version=DEVEL|%packages|kickstart|"
+    r"^\s*server\s+\S+\s*\{|"
+    r"listen\s+\d+\s+ssl|worker_processes|"
+    r"smtpd_recipient_restrictions|virtual_mailbox_domains|"
+    r"pd_(?:in|out)let|[Pp]ureData\b|\bPd_extern\b|"
+    r"esphome:|api:\s*$|sensor:\s*$|"
+    r"nixpkgs\s*=|configuration\.nix|"
+    r"UnixBench|h5bench|iperf|fio\s+--)",
+    re.MULTILINE,
+)
+
+
+def match_host_chaff(body: str, title: str, source: str) -> bool:
+    if source in NONSWARM_CHAFF_HOSTS:
+        return True
+    if title in ("Bez tytułu", "Névtelen") and bool(CHAFF_CONTENT_SIGNATURES.search(body)):
+        return True
+    return False
 
 
 # Paste-specific task families added by reviewer subagents (2026-09-10).
@@ -302,14 +334,12 @@ TOOL_SIGNAL_TASKS = [
     ("youtube-watch-list", match_youtube_watch),
     ("shortener-bench", match_shortener_bench),
     ("url-fetch-proxy-usage", match_url_fetch_proxy),
-    # Chaff class runs last so real tasks capture their pastes first.
-    ("host-chaff-untitled", match_polish_pastebin_chaff),
 ]
 
 
 # --- classifier --------------------------------------------------------------
 
-def classify(body: str, title: str) -> str:
+def classify(body: str, title: str, source: str = "") -> str:
     body_lc = body.lower()
 
     for task, needles in ARCHIVE_NEEDLES.items():
@@ -335,6 +365,12 @@ def classify(body: str, title: str) -> str:
                 return name
         except Exception:
             continue
+
+    # Chaff runs LAST and is source-gated. Non-swarm-host untitled pastes
+    # count as chaff; swarm-host untitled pastes without any other match
+    # fall through to `unknown`.
+    if match_host_chaff(body, title, source):
+        return "host-chaff-untitled"
 
     return "unknown"
 
@@ -373,7 +409,7 @@ def main() -> None:
     for sha, r in seen.items():
         body = r.get("body") or ""
         title = (r.get("source_title") or r.get("shellac_title") or "").strip()
-        task = classify(body, title)
+        task = classify(body, title, r.get("_src", ""))
         counts[task] += 1
         t = r.get("time") or ""
         if t:

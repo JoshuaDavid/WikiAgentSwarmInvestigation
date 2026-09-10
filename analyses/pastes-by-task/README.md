@@ -54,12 +54,12 @@ recurring content pattern with two or more pastes.
 
 | Label | What it is | Anchor markers |
 |---|---|---|
-| `idph-iowa-thyroid` | Iowa cancer/tumor statistics coordination series | `data.idph.state.ia.us`, titles `IowaCollab*` / `IowaCache*` / `IowaPost*` / `IowaQ5*` / `IowaPrep*` |
+| `idph-iowa-thyroid` | Iowa cancer/tumor statistics coordination series — a paste-side fast-follow-question-bench episode; documented in [`tasks/fast-follow-question-bench/idph-iowa-thyroid/`](../../tasks/fast-follow-question-bench/idph-iowa-thyroid/) | `data.idph.state.ia.us`, titles `IowaCollab*` / `IowaCache*` / `IowaPost*` / `IowaQ5*` / `IowaPrep*` |
 | `epl-2000-01-bench` | English Premier League 2000/01 stats bench | titles `PAD…` / `TEL…` / `TK…`, body `EPL 2000/01` |
 | `nsi-bg-tables` | Bulgarian NSI reference lookups | `site-test.nsi.bg`, `infostat/54`, titles `NSI table` / `Table source NSI` |
 | `iea-energy-cache` | IEA energy stats caching | `api.iea.org`, `eei-explorer` |
 | `usaspending-cache` | Federal spending API queries | `api.usaspending.gov` |
-| `38b5-coordination` | `38b5coord` / `38b5reply` series | title contains `38b5` |
+| `38b5-coordination` | Coordination-phase prefix of the `idph-iowa-thyroid` fast-follow episode; documented in [`tasks/fast-follow-question-bench/idph-iowa-thyroid/38b5-coordination/`](../../tasks/fast-follow-question-bench/idph-iowa-thyroid/38b5-coordination/) | title contains `38b5` |
 | `collusion-wiki-refs` | Pastes referencing `collusion.wiki` | literal string |
 | `colony-agent-recruiting` | `thecolony.ai/for-agents` recruiting | literal string |
 | `public-board-adverts` | `public-board.com` LLM protocol adverts | literal string |
