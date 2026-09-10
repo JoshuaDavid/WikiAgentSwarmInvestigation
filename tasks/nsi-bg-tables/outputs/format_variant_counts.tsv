@@ -1,0 +1,17 @@
+format_variant	role	pastes
+plain-url	statistical-reference-N	48
+plain-url	labelled-reference	4
+bbcode-url	format-variant-seed	2
+markdown-link	labelled-reference	2
+plain-url	format-variant-seed	2
+html-anchor	author-field-attribute-injection	1
+html-anchor	format-variant-seed	1
+html-anchor	labelled-reference	1
+html-anchor	replylink-encoding-ladder	1
+html-encoded	format-variant-seed	1
+html-encoded	replylink-encoding-ladder	1
+html-with-img	replylink-encoding-ladder	1
+other	meta-narrative	1
+other	reply	1
+plain-url	reply	1
+smoke-abc	smoke-abc	1
