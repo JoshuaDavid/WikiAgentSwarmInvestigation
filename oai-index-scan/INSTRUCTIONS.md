@@ -120,6 +120,8 @@ These are clues, not mandatory conditions. Because several target services are i
 
 Use every distinct web-search mode actually exposed in your environment. Record the exact mode reported by the tool. If only one mode is available, use it and note that limitation; do not invent mode names.
 
+For each term or distinctive lead, search the term alone before pairing it with dates, cache surfaces, datasets, or other terms. Narrow the search only when the broad query returns too many results to process usefully, or when its useful results have already been seen. Do not begin with an unnecessarily restrictive combination that could hide an unknown cluster.
+
 For every initial target string:
 
 1. Search the exact quoted string alone.
@@ -157,11 +159,17 @@ Within each record, collect every visible relevant URL string from the result UR
 
 A **search group** is one submitted batch of search queries. Number groups sequentially from `001` in submission order.
 
+When the search tool supports several queries in one call, batching is allowed. Use the largest practical batch only when individual-query provenance remains unambiguous. If the tool returns one combined result set without identifying which query produced each result, prefer individual calls whenever needed to preserve `first_seen_query` and ledger accuracy. Record each query separately in the query ledger even when several queries share one tool call.
+
 After processing every group, create or update:
 
 `./tmp/oai-index-scan/md_succ_expanded_v3/scratch/[WEEK_START].group_[NNN].results.jsonl`
 
-Each checkpoint is cumulative: it contains all deduplicated results found through that group, not merely the newest results. Thus the highest-numbered intact checkpoint is a usable recovery point.
+Checkpoints are incremental deltas, not cumulative snapshots. Collectively, all intact checkpoints through group `[NNN]` must be sufficient to reconstruct the state after that group without duplicating every earlier record in every file.
+
+Each result checkpoint contains only records newly discovered or updated in that group. Treat these records as ordered upserts keyed by exact `page_url`: replay checkpoint files in group-number order, inserting new pages and replacing earlier versions when a later checkpoint contains the same `page_url`. A later upsert must preserve the earliest `first_seen_query` and contain the merged URL and target-string arrays accumulated through that group.
+
+Each query checkpoint contains only the individual queries attempted in that group, in query-sequence order. Concatenating query checkpoints in group-number order reconstructs the complete ledger.
 
 ## Output schema
 
@@ -195,7 +203,7 @@ Do not normalize relative dates, infer missing metadata, or silently repair URLs
 
 ## Input evidence
 
-Use `./oai-index-scan/bitily_agent_activity_expanded.csv` as examples and lead generation. It arose from May 27–28 searches of Bitily/MYLABI admin pages and contains services, task-looking URLs, timestamps, and identifier families such as:
+Use `./oai-index-scan/bitily_agent_activity_expanded.csv` as examples and lead generation when running from the repository root. It arose from May 27–28 searches of Bitily/MYLABI admin pages and contains services, task-looking URLs, timestamps, and identifier families such as:
 
 - `yourls.pro`, `yourls.shop`, `yourls.website`, `yourls.space`
 - `proxymule.com`, `pure.md`, `cors.ripka.workers.dev`, `httpbin.org`
@@ -209,12 +217,14 @@ Inspect all distinctive visible fragments, names, combinations, and timestamps a
 
 ## Stopping rule
 
-Continue until either:
+The default soft cap is 100 individual search queries, not 100 tool calls or search groups. Reaching the cap is not by itself a reason to stop while searches are producing useful new pages or leads.
 
-- 5,000 distinct `page_url` records have been collected; or
-- 20 consecutive materially different search queries produce neither a new `page_url` nor a new distinctive lead worth following.
+Stop when either 5,000 distinct `page_url` records have been collected, or when both of the following are true:
 
-Repeated queries and cosmetic reformulations do not count as materially different.
+- At least 100 individual queries have been attempted, or 20 consecutive materially different queries have produced neither a newly retained `page_url` nor a worthwhile new distinctive lead.
+- Further searching does not appear fruitful based on the remaining untried terms, unresolved leads, and recent yield.
+
+Thus, an active discovery streak may continue beyond 100 queries. Conversely, a 20-query drought may justify stopping before 100 only when there are no promising untried leads. Repeated queries and cosmetic reformulations do not count as materially different and do not advance the drought counter.
 
 ## Final deliverable
 
@@ -253,7 +263,7 @@ The supplied CSV is a lead generator, not cache evidence. Its rows may not be co
 
 Record **every attempted search query**, including searches returning zero relevant results. The ledger, rather than `first_seen_query`, is authoritative for auditing search coverage and the stopping rule.
 
-Maintain one cumulative JSONL query ledger for each checkpoint:
+Maintain one incremental JSONL query-ledger checkpoint for each search group:
 
 `./tmp/oai-index-scan/md_succ_expanded_v3/scratch/[WEEK_START].group_[NNN].queries.jsonl`
 
@@ -285,15 +295,15 @@ Field rules:
 - `cumulative_page_count`: Distinct retained `page_url` count after processing this query.
 - `new_distinctive_leads`: Distinct newly observed terms that merit follow-up searches. Use `[]` when none.
 
-The ledger checkpoint must be cumulative and contain all queries attempted through group `[NNN]`, in query-sequence order. Never omit zero-result or zero-new-page queries.
+Each ledger checkpoint contains only queries attempted in that group. The full ledger reconstructed by concatenating checkpoints in group-number order must contain every query in continuous query-sequence order. Never omit zero-result or zero-new-page queries.
 
 ## Result checkpoints
 
-Write cumulative result checkpoints to:
+Write incremental result checkpoints to:
 
 `./tmp/oai-index-scan/md_succ_expanded_v3/scratch/[WEEK_START].group_[NNN].results.jsonl`
 
-Each checkpoint contains all distinct retained pages found through that group. It must never shrink. If group N has fewer records than group N-1, stop and repair it before further searching.
+Each checkpoint contains only pages newly discovered or updated in that group. Replay checkpoints as ordered `page_url` upserts to verify that reconstructed state never loses a previously retained page. An empty result checkpoint is valid for a group that found no new page and made no update.
 
 Use the eight-field result schema defined above, including `first_seen_query` and `matched_target_strings`.
 
@@ -304,7 +314,7 @@ Use the eight-field result schema defined above, including `first_seen_query` an
 - Do not run any exact seed query listed in the reference section. Derive materially different queries from those examples.
 - `site:` is allowed only for a known cache surface and must not replace substring searches.
 - A query is materially different only when it changes a target term, cache surface, date/time partition, dataset clue, identifier fragment, or retrieval-chain hypothesis—not merely punctuation or word order.
-- The stopping rule's 20-query drought is evaluated from the query ledger using `new_page_count == 0` and an empty `new_distinctive_leads` array.
+- The stopping rule's 20-query drought is evaluated from the reconstructed query ledger using `new_page_count == 0` and an empty `new_distinctive_leads` array.
 
 ## v3 final deliverables
 
@@ -322,6 +332,9 @@ Before finishing, verify:
 - Result records use exactly the eight-field v2 schema.
 - Query records use exactly the nine-field v3 ledger schema.
 - `query_sequence` is continuous and strictly increasing.
-- Both checkpoint types are cumulative.
-- Final files equal the highest checkpoint's contents.
+- Query checkpoints concatenate to the final query ledger.
+- Replaying result checkpoints as ordered exact-`page_url` upserts produces the final result shard.
+- Reconstructed checkpoint state never loses a previously retained page.
 - Reported search and result counts agree with the ledger and result shard.
+
+Once you're done, if there were any papercuts you experienced while executing the task, mention them in your final response.
