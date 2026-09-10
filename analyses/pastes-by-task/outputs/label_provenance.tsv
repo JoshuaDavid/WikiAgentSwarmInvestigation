@@ -1,0 +1,695 @@
+body_sha256	regex_task	final_task	provenance	reviewer_confidence	reviewer_batch	reviewer_rationale
+234a0ce183283494503b1677c8388119caa5d7c86ca2ed703b4f154d848cd5d8	unknown	38b5-coordination	reviewer_upgraded_from_unknown	high	01	'38b5ours' handle + DirectPostProbe title + direct-post-test-<ts> body — 38b5 cohort infrastructure probe.
+2a84f7b2aa9714323debb2b8937a5691aa817748e181d7990d51866eb15335e6	38b5-coordination	38b5-coordination	reviewer_confirmed	high	05	Confirms current_task; 38b5coord reply about male 65-84 sequence.
+2bd9784c2360f3f91a64c032610e4587c410629a5bd3f03e67ddab136da334c2	38b5-coordination	38b5-coordination	reviewer_confirmed	high	05	Confirms current_task; 38b5coord body coordinating age-group sequence.
+49057604254f93cc1e8acfdce7314f757f61b918fba75de6557530baf1e0f013	38b5-coordination	38b5-coordination	regex_only			
+57ddf5c2d7e64360306351aafdc44250489929482c22d782ffbf320c142410cf	38b5-coordination	38b5-coordination	regex_only			
+725fafa8307907e7959ddf76687827f04126cb0cc15d7ac7a941f05c04d59c56	38b5-coordination	38b5-coordination	regex_only			
+7c0725e6ed02c1ab2e889bf0681f091e48bdc965dcefef3fc1393047d92c0557	38b5-coordination	38b5-coordination	regex_only			
+7d6e4e344dd460fe1c27a3573985635ff3e260a2bb328521e17ea0eee8ca53f1	unknown	38b5-coordination	reviewer_upgraded_from_unknown	medium	01	'NAVTEST-<unix-ts>' body matches 38b5-style hello-<name>-<ts> proxy/navigation probe format.
+7f6bba3ef522f81b29431d8370a172cd5ebb351a0939b344568654648acda13b	38b5-coordination	38b5-coordination	reviewer_confirmed	high	05	Confirms current_task; 38b5coord timeline coordination about age-group cancer data.
+8bcbb0928e23c9a331d8c1776bdd89971f5e8e0c0040724c57ce6f514a393589	38b5-coordination	38b5-coordination	reviewer_confirmed	high	05	Confirms current_task; titled 38b5coord with hello-38b5 handshake body.
+e9dbaff4e354b265946ab53f8988659b6a03dedcece82a385ec2f15a8842e51a	38b5-coordination	38b5-coordination	regex_only			
+eb19d29c904ef32f31f3a8fa7b52f69f953c44fd1154e2c0b3c3c6e317a7bf56	38b5-coordination	38b5-coordination	regex_only			
+ff1ae2d2bb9b4d5b439468624d23e4b5037077a31d2f6eaf0a8e39f258b5590e	archive-org-fetch	archive-org-fetch	reviewer_confirmed	high	05	Confirms current_task; single archive.org/details TED research link.
+4f39843479ddcf1d4c0de03f3366accaa9cbc548503b6c97d6d86eb13f34b54d	archive:art-work-of-charleston	archive:art-work-of-charleston	reviewer_confirmed	high	05	Confirms current_task; links to lcdl.library.cofc.edu/lcdl:129142 catalog record.
+ff591db9d6667bff8a9858170c6b14d2d6b0d56cf0de3f66ca346920dab05ad6	archive:art-work-of-charleston	archive:art-work-of-charleston	reviewer_confirmed	high	05	Confirms current_task; entity-encoded link to lcdl:129142.
+505178e6440f15b4c7a2876e3de0219d09650d01f78bd2515f10373fd823d2a7	arxiv-fetch	arxiv-fetch	reviewer_confirmed	high	05	Confirms current_task; SIBA paper relay of arxiv 2608.08888 via alphaxiv.
+2d48434afdfea915476433611029150ef936eca6251015922484eca6d2f1a0a4	collusion-wiki-refs	collusion-wiki-refs	reviewer_confirmed	high	05	Confirms current_task; explicitly references collusion.wiki (also public-board.com, but collusion-wiki-refs fits).
+46aa43d7a8e1a7a0fafde2cb88e545a00fcf373e64f008e3f3e8a21bf645c6fd	colony-agent-recruiting	colony-agent-recruiting	reviewer_confirmed	high	05	Confirms current_task; Perceptual Zephyr invites to thecolony.ai agent thread.
+4cce4b96a222ede727c94020a417a2b83bdaf476866e357066257b497535cbde	transfer-smoke-test	colony-agent-recruiting	reviewer_overrode_regex	medium	04	OpenAI Cohort3 Transfer Test 20260723 body hello anna transfer — anna handle transfer probe, adjacent to colony recruiting; new label oai-anna-transfer possible.
+901eb93b9f9270ef9767802ef33754683e6c1adead74482a297922cbcbf27127	colony-agent-recruiting	colony-agent-recruiting	reviewer_confirmed	high	05	Confirms current_task; Centaur invites to thecolony.ai/for-agents from NSI thread.
+a17d89cd5729cd8a5ad08b3a959de85865ba881cd7a2c3e23f2414ce37f1ac12	transfer-smoke-test	colony-agent-recruiting	reviewer_overrode_regex	medium	04	OAI Transfer 9f3a with hello-anna-transfer token — pairs with prior OpenAI transfer test; anna cross-venue probe.
+01303218f05152f090343c3f2a14cf3d201dfaf7f517190cf322fc1dc5aa09ae	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+01c8c0d770002c5847eaf2ae2c93171e93017a44a581e5911b3c7099b1c5b3fb	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+03d9150712c190a8927cb816a7b3204b31191571b0c59b50d87f8352eeb8f979	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+043364aff6e5a391c7e4b6bf6a3a58085941846a3ddef5c57574926fa672dfdf	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+04bc45b65ea2b3bb101c9c96d70549881421f575e30e1209a08ed5a5c2197bc0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+05e0a1bcb00da5d79c21af38277b4ad720b491482524db138be25bbf03a16dc3	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+069fc9814c9042ff91b8b90d5f2d53fd1db8d598eb7e0043efcab078b61c44a6	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+06d275324630cf9adf6dbad4badeba2093439765aecaf73f76acc224aec7ff53	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	low	05	Title-only PAD match; body is bare timestamp with no EPL content. Keep label since PAD series is EPL bench per taxonomy.
+084d6310f8269da00ffe37deaafb489ed0b0d4ce43071d574ebf630b8255609b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+0858a0c00644851065668cec33b9115758201d5916c4abd734178f291e89a4ea	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+0ce76741207b4a1dbc466a47d69a62ae0592200af3638210df3e9d36a93f5314	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+0d21c55fd42780863d699eaec63f2c1674bc9c9ccfab0857b7bc092d82eef76e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+0faa7960f82f4e37e352e7888319a7dcd059d98d7391a9ce8ee39c18a5d5eb52	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+129e29f43e6f3c891fbc60e77252808eab36eb40b0a8e532e254848b4c716784	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+168496aa92b92977513ee8cf1f6980d180a97b059708c3af6d93f29cdc3ed528	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+180dc99c7aff5f0e7a7325cb58b537e8fad591385173bd51829aca044dc236c0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+1b6eb6d3d980fc2ca5e0440a731a0b81ccdbf5cd24c4c981458196b93bd57360	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+1e7e15918855944db6f11d3f186fe346d39366d7ce81882aea51669917c3b0f0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+20431dfd155c806d547ac58f22cdcfbf9c628cde7fa305fb78ad0dbb555a53b0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+23e09d759a8caed0d738114490bd6bd69de12c3bbf830076a2fcc0bdf61e2f52	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	high	04	EPL 2001/02 relegation table with home/away splits — classic swarm EPL bench artifact.
+2502b4b9f22cb22ce4ec093a48b95bacf890bb4740240b0914978d614f8b7831	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+27f7823eb84da3e003478b565e532d7878a55378b0a5e79ca6fdba2b314f63e3	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+28ce30ff4121d69856d59d565e3caec05ae363b1bf6a20a412f2eb8ccc8a1b8b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+2d126a48ab9cbad7ec860a5f20266874ec9a38c0fe3582bc8c8df2a44979c84d	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+2de71c35d3f7efc35b10f8e19c6945f9a2e220e8fb029349e2dbaeba2fc13f97	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+2e11f82f4655259ebed097932670caca62d570e7ad33c72c90b5527b16aff620	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+2e216fe998929b341bc7f27698178ba9f0737521b37084c9aaed9d9bd53fd191	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+3151382b2fb91e31be2bb8c9bf2d9ade8cf01caeb65567ccd9d946775bbac019	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+36b677aba2f7a2f0159785f1ba324cb8c63ae6f34a2ed53ec8cfe6f17a1e23ab	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+3810ca0d3b26bca34db3f415a20b179b393b99a8c174b04b4b90f14cf8904a18	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+387d212feab9510f0ae050e9f3230bde8361eefa9029d6e146827c6967168e5b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+38f350b8868720eba8330bd3f366ddb57dd3887a5d245bb3eabfcc85d6a4c0e8	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+39521c249e5da7c29588c02dd2a5e81592d9d20020ed6f40234960889e24fb32	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+3c479379f94944e6a50d6a3d0c8cb92bc64a34c27461767f03b45ab2582a0209	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	high	03	EPL bottom-3 home/away relegation table lookup, same task family as 2000/01 bench.
+3e6cd7a00c45b6be63ec73090834045e0ce4043851f868598a878e028b260b64	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+3e7ae1eb9f0c9470cf96449aab071c8de7edeeda1087f092312f34fe9c60aeac	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+41a09b0a1e1ad9c38a164d22e02ebbb75adeaf821bef2a28e161e9b622bfaf57	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+43094d87eb53627d63dff49d2b7c883a5effd8fe14e3661041f281c194e93dba	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4431423d7ae5c98f05a8e400a705f7c93629391bd0d209c5bae31ba5870b0c56	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+444392ef64da6e9e9fdd6d5ec21cedefc213faf0f545b8eb37e0dee5d4c25e3b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+45169b9fe59c49ba61527027ea358df528b343932f33834c6ac015ccb8cbda9b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+451fa8ebf7f178b96298ae21e50119bb1d2f821cef2d8c592361d879e09c3582	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+452d7a333d0d13d48e57daa2a6d8380b9c8d591858cb7c9c87603539ea0134b9	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+48497fd83f41114d16ba2b11e55d9511fbbbaf09a6408112e72a3cf4eac07b35	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+490928035f59b96ca46e909f104d7978b05eb6a145f398a6729bca9bc9325d21	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4a470068edf60db9fafda9bcdc59a638ead2610d87bedc39d9f59d8532610d40	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4b68ab3847feda7d6c62c1fbcbeebfa35eab7351ed5e78f4ddadea5df64b8015	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4bf84666ed0ea1096de4db170c70c8851f350d11268e10268fb3ac1c8a09082a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4cb3dbc7382ea5986bf0ecb7c4521269a7102acff2fba4e9a543441743679165	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4edb7cd564254db8416c0e140da6e1eebc6567e86b3667ed9fae94b6d526ac04	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+4f81fbd7dc7bf11ea2ad0664b3a15e063ea6abff85a4f570f920523cb19695b7	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	02	Reposted EPL 1995-00 Pulselive API relegation data; same task family as EPL 2000/01 bench.
+5055ba9b9cdd61a86b3960c8a5638e4d82577bd0c708571d2878e4735c2434f0	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	02	EPL 1995-00 Pulselive API relegation-table dump matches the EPL bench series; season range extends before 2000/01 but same task family.
+50d19e7aae14d3810767eeedb8253f9bb9c3a205ed08e401527ce4c8ead34661	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+55bb0ed7246c62f0243f06bc002868ae7e6e0a73a7a136f339c5fb26813f37dd	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	high	03	EPL bottom-3 home/away relegation table lookup, same task family as 2000/01 bench.
+5cafd9922d8bfc984e0b87e909c94b4ed021ed474756fba7c62e3d0e21eaee41	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5d3cd9f7b159164de9456d36d2041e0a23959cf5b0eee11767252119c5de8d66	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5d505c015700481db2e069d17f8bf5437456877ba9c8498025711231e9824734	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5d87991fc9918d0cb5db34bbdcc0f4cf7fd4861fd5a3efd2fe025586d1f566a7	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5e64af2f45d2e9f56fe9530a83a39395413b792689f616faed9c15eddc7ed6b1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5e89d651a4e65c3f172f09f75dd1166b13bcef1cbafbcbfcea2d48e897b4651f	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5ed2b6bd2ed8a5077c129cd67b00129846974e053919f48ba100361123d0a585	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+5f39589e2f2789c520ff4d938c8b4e5303b4699e913a95550e4d922f30a13394	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+60967467babdc9418f9d1478af602a7c327558c1ec88cee9e71c60184c35f229	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+623e47b4cca30aac1b05f4d0bb28c443b51e1f03d62dbb8d80821ee014b6aed1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+674192ec0b654295eb1ee2586b627f97f114bddf37864b0957da163a7f2a326e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+676874ae7dfc5eefc204419f555108ee107b44fc6c4fcce211f4651020cb9589	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	low	05	Title-only PAD match; body is bare timestamp. Confidence low because body has no EPL evidence.
+678f78bf9756e69b0b0e5ce9abf7783f16a73306063ed9a1b120c01e6e463376	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+6ad28ce202f6cb1fa0219e98e81b69f0b8220a5fbf5ef68c84bfe2348341451e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+6e7a99189b830d9c76bb35f215c11cb87eb6e1a6df182e661a9b82eb78a9d525	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+70ad883f4bbf89c7760c4d24543ce7dbbef2ed98d5083beeb9c83fcaa68d96f2	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+71b6ddd686b718dfd9d6d8246bd50c9dee8eb1967e5d418e556baeb5ba627ac7	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	low	05	Title-only PAD match; body is bare timestamp. Keeping label per PadBot-series taxonomy.
+721315be5fe6431f9448f2a66d1fe420e67bf74e8ad3c62018eeb70d88de26f1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+72694b63547bb21859a74fdf1d28917e752c91e8a859a21152ea4c9979ac8a35	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+7580dd7073cce3a51332dd34eddb15e161adc18b5eec311a975bff67edeb68bd	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+791c84573f90fbc2b789ecd05cf3c483ae8b1ae644cff6455a92d873db5a58b8	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+796e5d2134059a9cd4234b1596b26f9043d82bd4c8c516db67d542045a7afb10	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+7ee2dc94ad76d74d07e27974575df34d11ea8bda0d487bd6ce2ee6132f9d34f2	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+80c6ea66ddc247a020958ec7d88d8cc7e290e0242ea21145e86f04526c2ebdf1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+83cdb87926a735138d4e14db2875111382ecfcb41ef73f1fe197e73a4c5c2a37	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+83d8494591e66702b386c857858ef49e23190f8ded713c95b17df7dd82903ade	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+845f3d3ac86f1b60c2edb5bc29d73bd83522786007b15509f337f56566eac62a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+848f1089b5ef60a3898ee0c4ad8bb13d16b0dc90d4bbd0f3921e46cdb292bb3a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+85733462fcdbb5011b12b3a20f294574b53f9735112340ef9bc52c7763d11dfa	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+860cda76e1c9cc4dc5013f84a44bc44ca21d4960e2300ac09de2fd1fa4cb1f92	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+866cae2dd00499f3c6dc1918a5c89cdd3a2be6abd84634a2fdcd5ee56af886d1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+8870609f9b23393c1e15dc9f5e7b644f1ca8da3f9228672411f3c21baf57607a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+88a750acd111f5fc187c394d555e4ff9d5e6cc80a05f0f60cbedbbfe9e70344d	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+8993186e23c27d78f7e7f1c83d88b5942241c33c7050a8cdf723b2f4ace9e4cc	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+89ac62f5bb91a8b673b62f1e8f5ef4663fc7ae6859a5d071da6df233d4308401	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	01	EPL 2003/04 bottom-3 home/away relegation answer — EPL bench format.
+8acb1321cd5a00db4f479e0006a350e5dd1c1102e0a430b9f92905c9c501fc0c	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+8d40e4624e9b495c82144a601fa34b918605067e45dbc0b9c04f93556a2a4e1d	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+8eaa6c3020e2294398600faa408c9b69e9ab2fe61e6857c68fc0a3fbb7e0976a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+8f688ece1a753fcdf3c04776280f40a4a02df1c9d28999d3d8cc55dec3610479	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+8fa03d14d7bb70084fbc6e8866a0fda1ddd59c39f17e9b32d8dd15baba0cceca	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9183df3ff95dcc19ee8af38ff90d5888c86b5710cdad14ae34b2e77c01edc1c4	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9237de3d14c2986bc953d816661c7c29ae1b7e7038138a9f7f8a8a159cbb2870	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+92dd09c97418ff52f1bbafa0dc4df27921c3e0aa66237ffa68fb37e594d6ecf5	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+951816c3bea51cd95b2e46c07d0efaf0675e2b83b9c62160cdc862097b5f03d4	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9524d5ddb01e6abe533aaf82f5c87f805365e76d74708f3c7f2ab98bd598503e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9597e6ccd76364d30aa20e4d578a803468a0e832f10931fe1d99cbbbeb42d26f	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	high	04	EPL 1995-00 Pulselive API bottom-3 home/away positions — same season-relegation bench extended to earlier years.
+95ba79a64ced27103ae5c6cb13329697ca20289b50bd1ae3448ebe2ee0f3ec53	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9784d6be0d56947bafc8e750899749aea4364334ee9c34763e6479d792c28841	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+986379f9fd23b40b30bb2b63263fec8edfbfc0043193d5d6b1506bec2bdab832	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9b5b5278a667d74c92c2bef514bb497e321d6beb96c683ad6136fc3e12cfe9e1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9c052f415ae96cc93f11c1233e1a2f59357ffa3de1392d054e2d0b9d4ba63faa	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9cdd3b5531b579ef9f57552c62a470ceb38da0b2541a18d582fcd9cbc1eb897e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9ce419bee2b721185e18a53864af901e3fb39854c04a94cb8600e9e56e61ddd6	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9e9e9312bfb35db1612bf95839d247c27cbae24f624d5c135ef15f2366bb0e20	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+a03ae32f535212235622d1a8174a8004a5f1babf6e83816e283fa831d29d0812	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+a14898da82ff5e5c64b3868dd07fc87044015ec20272816ff0ad72017ced9c2f	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+a3044a21fbd32b5a8fdfbff1bc79d997e17ac676791b2d8f839415bc2352d0bb	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+a74349469c9497716361a2df0bf7d7f01850c27321a5ac2414999530d2e7c4b8	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+a823cb40f62d3e68278c18b866eaf57e7996dcec2652f0aa26987c6e9fc370fe	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+a9ceaec359ef358f9c67efe9c49a82a47c00fa52ab7d47b55a0a4a50fd27652f	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+aada132329e75fa89d965e5992b56127a7170db9820d5dbdec3a691a2c8cc976	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ac805d302e7178a6fe0d70c076724f32cf3fddf24b77782d99c59d255314db92	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ad5bc9da21a7328baf0aa7763087d830712dcddb58222505b3ae3340267a5814	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ad8f4a4889e2f7b97a2c2e2eb3cd05ac13ade2f913da0753299e1c99565d000f	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ada5e4b5b5d9995439585f21ded43a68da0e525fabff0f76ff011b884a53ced8	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+afb5077d9e49cbcba0505081f0b820b024fd78fb55a973047dadafe0afcf6779	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+b314be00212e6beea67ab1da44a7f0cb0c618dd41445f3051805c20e01ec0da4	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+b3d6652358d93f25fa92083bef3a27709ff483983e34e9659b3803dd4ea73e1c	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	01	EPL 1995-1999 bottom-3 home/away compiled answer — EPL relegation bench.
+b53d2a03a3daac0da0cbe06e55b45ec50e161b8a0be534b4a46b8260f6ff0fff	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+b5c54ab1770dd9cfd43797ec5e7f2279d691aa6dbcd760da41b436aeedf01b19	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+b6b246d8691730d842872b495a1542f232c352928b44ea01c3ae1adcc11bd2c3	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+b72ec8f2df630538121256639242337422037875812d485ddcddf56d90a1079c	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+b797917ed78490b20df5773dc55cfe77c66e71ad350c79340dc9692d25ddf9b0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ba3b77f8b20132366f222b84cfcd871fede5d8d0a57fec15eba74ac8c8ab5c1e	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	01	EPL 2000/01 bottom-3 home/away relegation answer — canonical EPL bench season.
+baaa5c1112818931b4fbc7002def277c4ce52e9a67d0b36655f482980b853ebc	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	01	EPL 2002/03 bottom-3 home/away relegation answer — EPL bench format.
+bdd719f4701046fc32fd10c423d29773059492282d6bf9f0e4af3ede4092090a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+bea9ba22a12d9025bda79efd213cb95a0ef10329b1b44a3b218543a3fa0fa31b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+c18687933a961c39132c7a9128dd9cba8363857080e6a0d6694a52d5e739300f	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+c55e14aa515889bd975d95afac225fd8825a6eedd4aa528acf28958ea7a0ff2b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+c5ed8d4b5824fd21ec2138666c566fe1da1c596264254a08a414effe93d6da05	epl-2000-01-bench	epl-2000-01-bench	reviewer_confirmed	high	03	EPL bottom-3 home/away relegation table lookup, same task family as 2000/01 bench.
+c717e5b68d6645811944db607b577c9e9d57ee75336f8aef3f95a93e40293011	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+c8ed01074838ccb622fcfe893b793cc695f115e50f2a360367fdd4faec230401	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+c9411306cee894791f054efcb5455052540a486c7ecb0107d23d5c15786019b0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+cce2373e63cf1c0419f01622743b9cf38534972ad19d395117adadc63ace2891	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+cdebac944b57a3013afc2427112047c5b5941542085bc91335aea05bb7d0c4bc	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+d14bd23a326915614cd8a9a3bc34b55f739ccd0472a84b9e22008bdce3db5f99	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	medium	04	Title EPL95test body AAA — throwaway probe posted while working the EPL series.
+d1e802c4766b4becb1293572e39ef7a007d6bc4371da94226dae7f73e7be6533	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+d246caa0383faac337e526e93d614fae4e3facdd1d4b2b952a2322e85bbe89e9	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+d2ab89a345c3c54c8c4106c8d66b37f1e76a1b2c3b8af78c3ff6c847b73e1a2e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+d46615a565a24902ad916ce2055058dc3c72a5ef0f51f208f20c60aea6c8aa65	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+d70d8d76491c68f9dcb5389f7a135533649f71ff21f3c55ed55cbf3b602bd06f	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	01	EPL 2001/02 bottom-3 home/away relegation answer — EPL bench format.
+d889b74db1740a0767c0156c4bca590e626fb9b7e44842fa4966679cff519451	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+d9317ecc9fb433091836ab5d71364c02f2f90965765ad8e717813688f04009a0	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+dbadb435abaefb0ffadf676a289416333c11ad6cdc673691bfe2ba0cad923759	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+dbd52c7e382939a00ea06e53b7419b86691b29a8a2f0ac7ca20649cae285a5cb	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+e0376aed08c5f6cac85de47dee85e1ef3009fc332d005a4f8912cec523303448	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+e31cf0a3babef8b5425529611d10023b6b912902cce2b6cd666358311fedb49c	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+e32872df8c3a40c5327195c402bf35f884434cc674f692b78b7dd5f7c6f39605	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	medium	01	'Test95' title + 'EPL API data test' body — EPL bench smoke test.
+e497b53c6e9b58701a17f257504cd8f8cbff88dab3dfbb7702d11e7a049b982f	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+eab23e3cca48a6eefb4b8583c5759a91fe81a446ab0b1a45404ea4bd578c246b	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ec21046b6da75894685fe7773be9b5e6e63aea573c366d006f67603f00566065	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ef8d61cf263eb9d3bb92919d31dd008ee26d028dc9e1ddc17b3ef62a1f75704e	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+f05b3995f1c915aa5c624aacdbfc3e0afeb74fe6e1e2c46f92fe3e062e7aef90	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+f318078b277b5bbfcb37b4069eddd6630116a60cf17e5d4fbb4b3ee4d622951a	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+f4797633f6ead061839836b70b6a06e768bece17a54f05a0085df49a27ef7608	unknown	epl-2000-01-bench	reviewer_upgraded_from_unknown	high	01	EPL 2004/05 bottom-3 home/away relegation answer — canonical EPL relegation bench format.
+f5dcffa3e097b5a182b8465aae2b196173a039ddf777f1b79a7f2da68065d521	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+f8e8ffcf9c0b198b44439b497b45c5d7ce7781113ae55ef40aba5357b2a876e2	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+f96ea74178c695c6d7fa90337ba793f69b970df0af90ed49e82dc61767a2783c	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+fa9c0015d760eff44ad26e77d16d07d7055d022eb2d8e85c7d59358b53b206f1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+fc43b610fd7c06b43af439b00e8f51a9c918edb320f371d91550f590b179e0b9	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ff9cfa55614692706571081ffb7b1e24bb1eb51078e5b81182bfa71049c932d1	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+ffa4e85e9c1089807948033d23dc22d35187a0ba2ae0633a670c8fe682f4a399	epl-2000-01-bench	epl-2000-01-bench	regex_only			
+9e0245e7422d3100c21d2950b038776e789760efb84980cf83fe08c3eaeb235c	fast-follow-question-bench	fast-follow-question-bench	regex_only			
+0444ec4e9541dd37136ff6bc9c12e70712a5313a6f57b190afa59636ed650a8a	grok-tool-unrelated	grok-tool-unrelated	reviewer_confirmed	high	05	Confirms current_task; grok-5-godmode unlock roleplay, off-topic experimentation.
+1a7dbcdf88e532940a2855d92a3aec5fb4c1dddb9ac539d448be15ffbc3f26c0	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+1ea3fdf680b92acbd2dc20ef3fd9e87032ea9a462aa050eba5ce8dfc25615107	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+2a6a3b0545f3d184950072d051c213f76664da295a368ffae1670a214553802c	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+2cd1f3017fe4bac658c735904638210b23713eb0b8353101a6825e7e206da019	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+3955ced4c21e086756b872169852fc86d33615b89a315a97fa17486c436d98b6	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+3c9de9b6a4936ef7de5b4ec373cd6555c1da0b5d54ff6fa1c435ed26529128cf	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+408bde2b2e61ec794e46a61717022cbca489e552ba9bade7bd0eced33d116cf5	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+493f1ea5c2fb528ee0189a89391cd201bce1927e9d0bdc3849fd48a45bacd81d	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	Grok jailbreak "Default" personality prompt, unrelated to swarm.
+620efe8aa46804bb2623098e8c2ade0195d08ce189fbe9e3e2f9b2084fd034fc	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	04	Duplicate Elon Musk jailbreak conversation JSON with beta-test preamble — Grok jailbreak, unrelated to swarm.
+6ccdb234739f26cc93b6ad9e0745ae5c8ddfa0300dda7610b3be14710083de04	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+6d0e20d05ccaed66af9e380a870effdffb856b6f9d8b250321b85179d2699651	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+7e9f5639c5a7b333052201672d07cb93edbd7f0ca75e7d73ddf13db4e554e107	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+92a97024c8d003daa204cf5d9b65b746bf27655ccf51e4593c08e91c4f0c7eea	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+9662f17221b946ec209c793163e02972397000ce85431f048c4398c50f1a64ff	grok-tool-unrelated	grok-tool-unrelated	reviewer_confirmed	high	05	Confirms current_task; grok4-godmode-instance content-moderation-deletion roleplay unrelated to swarm.
+a31cc85940a6794dc0e84c96dd9b93338eddb5eee1c4f641ad730fb9b9292700	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+c153c1be97645a5281f9ab013f3006b7ad14870dceb1359e1f8b330192348666	grok-tool-unrelated	grok-tool-unrelated	reviewer_confirmed	high	05	Confirms current_task; grok-5-godmode filter-override roleplay, unrelated.
+c7000b3d38898a20bed19eaa0403d6ef0593ddee087d57075143aa00c55edaf8	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+ce1486ec6ab98bbcf26c3094ea5802da2b0692c338a4ab263a63d7d8c0ebf1cb	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+cee0743052d6756f9e7228cefa9f79928f34241c485e396a0f3abc6d48f1002d	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	04	Assistant-persona rewrite of same Musk/Grok jailbreak — recurring jailbreak-prompt paste, not swarm.
+d0befe4c7e385c087c594dfb97a70262a715e5a3f51d8a8fd151cb45df298880	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+d1dd9a9980a442c0d97e5aeaa64fb335b33e20cb1039bb384a84fc98ee36328d	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	03	grok-4-godmode-instance jailbreak/roleplay paste, unrelated to swarm.
+f6e3021d7e7085eff9163f27b4cdbb615fe0a5c0a8631e6d13f111bde7b71cae	unknown	grok-tool-unrelated	reviewer_upgraded_from_unknown	high	04	Elon Musk / xAI Grok jailbreak persona conversation JSON — unrelated Grok/AI jailbreak content, not swarm.
+f8b0bbaf981e79bfba343a2c7df9afd006574ed7a3f66b9cd90dc849381bb091	grok-tool-unrelated	grok-tool-unrelated	reviewer_confirmed	high	05	Confirms current_task; Re: grok4-godmode filter-override roleplay reply, unrelated to swarm.
+4db34986ee65182924b77d1a08a3741de184a429781c7bce1585b3561061f9e4	homerun-apk-distribution	homerun-apk-distribution	reviewer_confirmed	medium	01	tmpfiles.org homerun-app-1.1.0.apk link duplicated across handles; new label for the HomeRun APK distribution thread.
+6c25d18038d12676bcfd97bb250286c9821f9e21fa247f9b873019e2c216d338	homerun-apk-distribution	homerun-apk-distribution	reviewer_confirmed	medium	01	Request for fresh homerun-app-1.1.0.apk link in HomeRun distribution thread.
+005bfd5e479f1bffed5f14528d8a906f31df591cdb382dc3ce0ab28884d294ba	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	BYTE UNIX Benchmarks output from AWS ip-172-26-7-36 dated 2023; legitimate sysadmin benchmark paste.
+007320354377967a5795da7635ac4827e1495316940e2cc2385f2b3aba2a3bf3	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	CentOS 8 kickstart config file; legitimate sysadmin paste chaff.
+0146ac114ec81c1c00486bf8f60644d0fd9d88c08d78afb6baf04971d9836ccf	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data query.pd patch on pastie.iem.at (Pd community pastebin) — off-topic community content, not swarm.
+024980ec92ce145c5f4d2ebce9e59da8366f2fff6ae527f2636af2b6aec6cd84	host-chaff-untitled	host-chaff-untitled	regex_only			
+02c5a86d52d2d621a0443d11c1e9774e0dfb2e49b02dbc419914a06824fdf729	host-chaff-untitled	host-chaff-untitled	regex_only			
+056d97b16bd6239805b80288727842ad7f66ab99b58d37cd53d0db919fa9b0c8	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench gcc compile output; legitimate sysadmin benchmark paste chaff.
+05b598b81113a62916b83a0bbe8e4eccacb4ff62cb83faf19f1f5dd6dac6870c	host-chaff-untitled	host-chaff-untitled	regex_only			
+0d10a4b0b205c53ae1d79e1cdb3bb1645a94155fe0a67c64d32d8f2579fee775	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench build output ('3dinfo: not found'); legitimate sysadmin benchmark paste chaff.
+0dbd1387e7398e6cd9931acd53b70f6cd597e5f4fec67da9b11eb3837015df66	host-chaff-untitled	host-chaff-untitled	regex_only			
+16ff986f635964a88d379c7af965bbd352ed7c4b6c472f05592ddf4ae05929dd	host-chaff-untitled	host-chaff-untitled	regex_only			
+17a00f74a50bcd933497647c16f4f840bc0bf0ce1a4a4471998f8867552b5c94	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	h5bench HDF5 benchmark output; legitimate scientific-computing sysadmin paste chaff.
+1885fb4a9ef3e7360f1cf5b5d0320808063da5c7a17d39fc86b1998f304d6044	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Reply thread on centos8 kickstart config; legitimate sysadmin paste chaff.
+1d7c03707602cbb5378e88a6d8f3955633d276bf4b0fe76a1a8f84b4907fefef	host-chaff-untitled	host-chaff-untitled	regex_only			
+1d9adba5396d886107cba63d3d4667a44c22cbb91ece7a89e9aa121752bf581b	host-chaff-untitled	host-chaff-untitled	regex_only			
+202cef12fa3ce56b047f85ba4a15e24f7ece11efbc0aa7ebae2dea2a3358cf1e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Reply on centos8 kickstart config; legitimate sysadmin paste chaff.
+21b4305691efd474399ab89c8c89f0c5acc270fb42dcad2ea5b0a04d3193e74d	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman answers YAML reply thread; legitimate sysadmin paste chaff.
+25c357e83161dc30c93f2ea98a9783897b68481db4a7dd9ec1e1ea211c00dd4c	host-chaff-untitled	host-chaff-untitled	regex_only			
+25ed92417af3bbda3761ca1cb87210cad5f9116fd9b0d502b01c36522ffa4463	host-chaff-untitled	host-chaff-untitled	regex_only			
+277c1727fc0f4a36044f8fb503f7f5a1cf11ea0251b7a3cdc7d137dcf797b05a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Postfix master.cf config file; legitimate sysadmin paste chaff.
+2b217af2907101d1aaf0a7ae1ff300ce3e29e4a59d9c14fd31c84fac2e1af1cd	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome ESP32 config re-paste, ordinary user content.
+2de98066ae4e79b0458c314a002b951c03af27495d5f865df41a35e6bce9ee0e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	h5bench HDF5 benchmark output with lleung-test path; legitimate scientific-computing paste chaff.
+331e4e0f9749c9bd0c34df8b566b1c25d554571835697e3290fbfa612d2e0bb9	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	Debian 12 Xen 4.17 qemu build log, ordinary sysadmin paste.
+35e4ad7b435548546b1cfb758c37d361e6072229396feb2aa6da085a40b81745	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Puppet agent noop run on nasi.dublin.gaast.net; legitimate sysadmin paste chaff.
+3639efcd08abb273b1619e82e78c29a7df02c1051b1820e99fc395dcaa3326b8	host-chaff-untitled	host-chaff-untitled	regex_only			
+373bc8c396433321ac42a05402d588c097c6b3fd7df413954e6686acf4f6a112	host-chaff-untitled	host-chaff-untitled	regex_only			
+4561a13e3c59846d9d02bf2fad88964598632b2f9a86d106d9e2f5667cb4621d	host-chaff-untitled	host-chaff-untitled	regex_only			
+4f2fcdc5a8068d0b6400064b5640f6bd2c103f71e9d85beb1d67bf2276ed174e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench make output; legitimate sysadmin benchmark paste chaff.
+537ff37e8aefd3804340fe6e40ba493838b1debb54d84c6ce72c9c12be412764	host-chaff-untitled	host-chaff-untitled	regex_only			
+59d54a1adf0d2d2310e68c660996a102a4032b41d7f6d232d8a18ad518844355	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on centos8 kickstart config; legitimate sysadmin paste chaff.
+5b1b43cbd4bfcce759ad7574bc4cb2dc39cdb299cf37305e8fa94f1740c4a18d	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	medium	02	Pre-swarm 2021 Disqus withReactSubviews.js code on pastebin.freepbx.org; legitimate developer chaff despite animal-name reply handles.
+5dde934e4bd6c017d4dd2d5bda1a0e6ed34bce5320dfb7cc96b3addb60e777c9	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	InfiniBand perfquery output from tsm host; legitimate sysadmin paste chaff.
+60b146239da92c51f9cf50bbc33d2443b7a18a47a948b60092e4af82153b2413	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	NixOS configuration.nix file; legitimate sysadmin paste chaff.
+64254238457d888ea0a4c90e48948c1d96f9e8e3c52936e5f46386df04d2f8e0	host-chaff-untitled	host-chaff-untitled	regex_only			
+64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c	host-chaff-untitled	host-chaff-untitled	regex_only			
+6b561c47e76747b5e16d10b19bfd54d4b2c8557de5c6fc26c9b9466acd168b8a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	medium	01	'pastebin powered by stikked' — likely site-footer scrape artifact, not real content.
+6db652ace3b9918387e9df90736b90c545478d9009ee183fcb03d0951ebdbd4e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	QEMU 7.2 rpm-info Xen build log, ordinary sysadmin paste.
+71143138503a0629e5eaddd05245101e7fc9ec1fba1e46fc8a46df5081bf7f69	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data response.pd patch on pastie.iem.at — Pd community post, background traffic.
+7294054571488983bcc054a13269dcfa0841355e0e20fd1c86d90904e94f957e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data tabrename patch (noise~/tabwrite~) on pastie.iem.at — Pd community post.
+75ce1ad946d8ef637bae3d6381eb273128b67968742851f1b2aff7edf2bf01b2	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	MySubwayCard.com HTTP request/response dump; legitimate developer paste chaff.
+76da74d9471e7b12892b538b85d3fba70005799a56f6081f1878ff8b16bfe485	host-chaff-untitled	host-chaff-untitled	regex_only			
+77a88390e49a061c43fd050366e8cf837311faa92c8bcd78144b6bd6f86b3d86	host-chaff-untitled	host-chaff-untitled	regex_only			
+7d16ff6b8957b62fdfe2b5fa9c78aabd8273a03d5bf3b359761997b7ed4b8194	host-chaff-untitled	host-chaff-untitled	regex_only			
+7ef25bc81aac198b3c7f3fcd0f9e9839687bdfba7314752ace12507acd0420ee	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Ansible facts JSON example; legitimate sysadmin paste chaff.
+7f0d1ee357ce9b8a4dbb2d6f4755f2a57936f5d40a054f2840541a826b6b734a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	EZ Lawn gardening guide text, ordinary user paste.
+81b1008693b0827f72586758da59b939ce4754a99753b16df2bed767320943fa	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	BYTE UNIX Benchmarks on leo-fedora7050; legitimate sysadmin benchmark paste chaff.
+883d07eb1ce2ff1cd009f5b30024edeaa78892064f7dede3ff7f260b9d306ea7	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pure Data [t b i] test patch on pastie.iem.at — Pd community post despite Claude label.
+89edcad7103ba873c870ed43cb12491f79247e68f24a8bd47c9c3acb23f8cdae	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman answers reply thread; legitimate sysadmin paste chaff.
+8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4	host-chaff-untitled	host-chaff-untitled	regex_only			
+904083d5d76267f186cb09804ffcb2005b6975669707fd3de0fc46f2fe3dfe24	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	lscpu/benchmark output titled 'test-2-benchmark'; legitimate sysadmin benchmark paste chaff.
+90ea6ed7ce16cd670a3f8a91a66e85ddbddd3719d239677d9ca5d0c3d68f5fcf	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config re-paste, ordinary user content.
+94d46d8d52654d063d1056eede571b94c39889a0b6d953ed873df31900395948	host-chaff-untitled	host-chaff-untitled	regex_only			
+9658196b9c29b2e86df99853fa2a8e681bb07cdc57b448367de7e66275847eac	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	nginx user-agent block list snippet, ordinary sysadmin paste.
+9e307e7aba80262e2a555a111fcc4e297c21ec5d4267c4e241427692810a2237	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman smart-proxy dhcpd.conf; legitimate sysadmin paste chaff (lab.cs.ucalgary.ca).
+9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08	host-chaff-untitled	host-chaff-untitled	regex_only			
+a1887a78fd4be801b42def547ec42ea6de05712c0b682018792c0e9e3475e02e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Foreman answers YAML file; legitimate sysadmin paste chaff.
+a1b152da8294fe2bbc2e84539fd64c1058f78ba581c3e76aec02da2f5b295078	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on Foreman answers; legitimate sysadmin paste chaff.
+a4866a12602d8b94c838ba2b9c4f2a83cce973a1074dc6621ab6d9d81b5af97c	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Computer Science Rocky Linux kickstart config; legitimate sysadmin paste chaff.
+a8196499c8c69d79232848644ca0bf5976f964f1ae2258b8f8ea0048cf14360a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	h5bench HDF5 benchmark on /work/RCS/lleung; legitimate scientific-computing paste chaff.
+a91a9610f06a664a5059b2b75040535860dd6c8908988277a8c99b954708166b	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pd Pendulum patch with Gem/pmpd physical-modelling libs on pastie.iem.at — Pd community post.
+aa79f8ed17b88831422092e85ec9fb74a1edb6c5b2ffa0b55e00353df63cc92c	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on centos8 kickstart config; legitimate sysadmin paste chaff.
+aada7aea25611705b7906f58549f7cecd18b7c00db180d96a0bfc4d33a754af4	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	System log grep on droplet-muzikalnik host; legitimate sysadmin paste chaff.
+ac69434313813f1a2af0d957b6349a93cafcfa049fb89580d6605b3323d950dc	host-chaff-untitled	host-chaff-untitled	regex_only			
+ae62ac384220e84f658b130b21ab7858e28ded7fae12271882a4f9d1edd4cd6e	host-chaff-untitled	host-chaff-untitled	regex_only			
+aed33beefd4a8dfd95935b3b3c1d15a281b4c7c87a5ebfe654d491afdf305703	host-chaff-untitled	host-chaff-untitled	regex_only			
+af50c40ccfeea7047aafedc6d10146b40377a6ca1a54d53dac5d7e879d560c81	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	ESPHome modbus/sofarsolar YAML config, ordinary user content.
+b121c7eb99b3a43f729d36d855275b4abb7495b36209d0daea9b7695c86b9d3d	host-chaff-untitled	host-chaff-untitled	regex_only			
+b406c115f28a4eeb50996ab4e8e9d22d9fa2d8cb23371e2da9ea3c8673fd9fbc	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pd patch with vsl/pack/line receivers on pastie.iem.at — Pd community MIDI-ish patch, background traffic.
+b55658a43a9c8aa754ca1c5dcdc9c2db0e523dc1929cfa37fe5db66f4c0acea3	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	04	Pd netreceive/delread~ delay patch on pastie.iem.at — Pd community post.
+baa26bbd6d65a47a1c55013cf6ef2edc4d5f91568e909d39268dd502fa428151	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config re-paste, ordinary user content.
+c36c211ea5138142c7bf257386df02fc5e77f59293e1349f5a597d82e095363a	host-chaff-untitled	host-chaff-untitled	regex_only			
+c6d64e39a9eb60d52720a41ff602d20025bdad25ed801d26ff7154e4c610a1b9	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	ibdiagnet InfiniBand diagnostics on tsm host; legitimate sysadmin paste chaff.
+cd752ac9822477f697b8724f9dcec0f15475f73031e1c976fe8f769d286ecf8d	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config paste, ordinary user community sharing.
+cef636fa0156ef66700b6cff2669721279804dfbf83025db98878a07789d791a	host-chaff-untitled	host-chaff-untitled	regex_only			
+d24da2b9c9270112839de2399850cd65a608b7db748fdf0aff11e616d08d2cdb	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	UnixBench under alpine/docker/esxi on DL380; legitimate sysadmin benchmark paste chaff.
+d28c67fdf6b313dda342202ce5059fb3287e36a39bcf3d7b192f2c9e5107470b	host-chaff-untitled	host-chaff-untitled	regex_only			
+d610651ac9289be918b4f59a646bfcaa044b614162cb436112fe85f82bbb6baa	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Reply thread on CS Rocky Linux kickstart config; legitimate sysadmin paste chaff.
+e057c7a2e4e6750fdb22f6e9e77c056163678188703cc370f49a8fe0c5ea5c95	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	02	Deep reply chain on Foreman answers; legitimate sysadmin paste chaff.
+e0a9204e80ab1f0a990fddefe7a60207419c846375959b68ab39418017ac079f	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	Unixbench-style compilation/benchmark output paste, not swarm content.
+e19fb3216349e534d29ec795a21f6ed529cdb1ef28c4e44dd6ed3fa9ba83a99b	host-chaff-untitled	host-chaff-untitled	regex_only			
+e1f8464c476c2f556ebfa37dfa537ed2e4ec750ad9aea056d34b37c5deefa5e1	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	lscpu + benchmark output paste, ordinary paste-site user content.
+e3f9018de4bdda922d546b0d9b1ffe9f7d8143a7f0f253af583644d78c9e441a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome config paste, ordinary user content.
+e443311580561fed30f4ab06752e58d123c95b4b911abfadc92a41491103487a	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	medium	01	'Recent added pastes' — scraper caught the site's own page title, not a real paste.
+e75792d4e699d272be7298422f2a430eb3500f87ada82cd1d7479b0d133d34c4	host-chaff-untitled	host-chaff-untitled	regex_only			
+e8bc3c0246a8f344767ff06896f2200d9b9f66b5291eb2c5506649c05b2b7a10	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	CentOS/Rocky Linux kickstart config, ordinary sysadmin paste.
+ec89a96fa17f4347f5976e1e392cc5a9fa20cdd05b8ab650e5156db4e89c09d7	host-chaff-untitled	host-chaff-untitled	regex_only			
+ecc76c19c9f3c5108773d6c3a18a6c25c9bf1131c4e250b71213274e3b2b5d08	host-chaff-untitled	host-chaff-untitled	regex_only			
+effb6cc6313dab7e306037af926f2fdb86dfafdd9b4d09c4b832f88347793c46	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	h5bench HDF5 benchmark output, ordinary user paste.
+fc5c9f696bf56e0bf4840c55a17d19125eb6fba6998a110e8a6d64f6a656df3e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	CentOS 8 kickstart config, ordinary sysadmin paste.
+fd85df9087df619c215ef91e2f5d217d05a952f8b8737c818a51ffb16a411d3e	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	SofarSolar ESPHome ESP32 config, ordinary user content.
+feb830427de77e431af09891e52c19abaad90b629faa66acc4c4c18d0a311662	unknown	host-chaff-untitled	reviewer_upgraded_from_unknown	high	03	Postfix main.cf mail server configuration, ordinary user paste.
+04deaa77b7b6a719db4e5bd917d1c1c477f13400d5770d2187019f90a8a96727	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+07bdcd6b5dbb8d702383d041286aacdc340b697f5b887d78b5772e0efbf9d41a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+07cb3307a0038cc70443ffea63e0a250eaca076da78f09796f96a6fb8ec59373	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Confirms current_task; IowaCollabReply handshake — Iowa task.
+08175c3ab15bc4f9b18b69e168cbeb381199844804e0e7b1d99a8d4288aeb06c	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+09c11bbbce6d68a96f74314e4a393f0bf10fa7c1e298deb99d91ec5f4314a133	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+0b1143659543a65321bcbf2b068d30bd5d1e68e58c9276c0508d82f92b1837ad	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+0b86a1e04bb9d0e58bfe7d119e30cb376b2f241ed525f3e8294c7e7521143d2a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+0c4dd5f8fc0f47f101f9c08545caff361b3e0f2a23199ed3240909e145ae5e4a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+0c51cacddf0abc09b54cf6ce218a9228621853a1854a97775144858fe5d31ab5	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+0efb6014bf03be36fec9eaaeae5eaf63515a12b0ac201a8cbaf1e1b4aaaf8e4f	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+10c94f3dd697b09a88610ff80666e98da44be8af6ec9073cd2b48ae274b944f4	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+111fcc10d101c587d66e69c23e8f7fb4dc57fa518b6187eae741d0243c67af1b	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+11fe3c497b27d27424d85fefd3a775a5c2f235b06c838a80956fd90d219dbe1a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+133ab42b91fac05b49f2b5e3b8eef689223e6ce1b6a06568fd21e63a75a586e5	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+13c03fc54c876da0c8fa5486cfa0636a2fbfe03a1271bfe297af3c2dcad66e03	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+14af4b3940dd484fdc9a26f544282cdbd129a41b64a778f0631496d2cc9c4725	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+15c2e4726f0cfc4befed7bfc5ba0aa75880bb96c122b02b8f8f7aa35464fb45f	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+1dc8edfea2fe0cdba3a1d895e3ab3d1045c26dfd7c41cccf7584b1382fa15fb2	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+21286f8d3e4945716cbb69cfd0ded4beb3f957392cbb3e576517c004cf24d5fb	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+2332c8ab119919571b9f4b8bc09c135b433522e6242f68bae35f76c818bc4064	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+2c7084833a66baec896470d8dc5246b57c08a09482c313215176fb8ded3cfb2c	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+2c920790e1916d8d60e876b220931bb16b35114efd0925bd28bb7245287a9318	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+30a4dc40c82099f1ce9bfd6aef9a7606bc8f5848ec1c4d8855b84c031f554ebf	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+31904ae7a77f9cfc49c877d4836c3d2868eedec4b3a76de33f0cd434d76000f7	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+323ecd25a3a3bfb3eacddd28689d48c1604d729587a43f867c65548edc643154	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3242846d10fd2a52961c4238fcf878c6037b671ccf45ffbbcddf7b7443120a5b	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3422b4f767a70da61754f756d194a15d4e2e18d4cf629ae35a487bb6f0c7cad6	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3505847cb123d219b6324887234fd683c85f971492e0a5d95f61133205052ea2	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+354a4b3e6bd83f78b0fa69e5b6abf7ea8f08dd3357199ebd363258c7208764c7	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	04	IowaAsthmaCountsCache — gzip+base64 Iowa asthma ED visit counts cache from Iowa health-data swarm task.
+38d02f3d19c79ea9e7e85324f61e2a6619fc424e3952017dde35fb64b9f9db93	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+38db53bc2fca6b05e483a2a1a66d92fbc72ae07542937d7293749abc77f9ad62	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+39da4ab4eeba1463bd8e73ae653a39454d66c562f034fbbe64779489db852a01	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3a7039d431c30bf9a7e39b675f7ce0f987939b778ee46ca1ee379105e7ee1057	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3b805557ee2b17f2535ca701f4fa060430c7a5b4b9208c9b9de73ec4864428b0	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3c0ec43abd526d086ad986ba90e5ad328f79d2ccfae22ed3c20b09ef06805e86	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3f4bd8ac3eaa1ea79c9b4fd91dd433ada3efbae22cf1ff4af005bb3f03d2e832	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3f980c62860d37305d14de3e85eb6e33a7b1d9888c221673804c4511420b8cff	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3fde68124f7eb63facaa77aeae1802c7e2dea4d7964f2120daa8962f8627f706	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+3ffaae8cd2d79bc31834557fb5f8381c77cf981a0e075ceb23fd0ef2f40dd428	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+448dcacd1e93b267634d6ae69b6c4668de84b6ad5f2504bdf6a38527211c585e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+451a1e35184147376f7442a690d81eb4539085dfc5f973d304bfbd2d42636dac	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+465c5deebb6c95b17860d8d036412ca4da0cfe562c3a28bde6f546a417f9f359	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+49ffbff5742da9c773e6c39a8d0b6a37fcb98f7797eaf926b2d9790e16ea1921	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4a0dc383459e7cad2535fde332cdcf667fb153f34c8dde85be7ad5f9c39c9721	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4b637773cf6646a787537dd054c4644082db938362223bd13d2b618660057e62	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4b87147c86dd2898f2d87b6c331fc4b46edd3c492b82cde8a33c489b8b9277a0	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4c19c5a46a88f371df84989d78c1c29264db5536385a9adbf4ac129cfd2d7f30	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4c217003fbc4897456cd743217fcf0765eeecd3612f11a2b503d30307b35ed05	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4db1e5da9e7e88e187b5a4d879c0899b99de8d40ea3dde9926398000827afe2a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4f3c282a0ad2a5c9ea6cfa8a20924e36da7e919eee8435b8ee4e2177d439e7af	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+4fbf16ffdd05551d2c10eef81c03bf72e8fdc28843f9036d82592f3c76e6975d	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+518aa25b010a1599bdec48c57393266abfdc4016d03cee6e70280b31ec77829a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+52eb3b0fca538e8846079cff3d3bc752329be0ceab63f0c28a17df94cd0f9bd9	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+564574a37d387291aa04f3f9d2171eb296f126958a6f2ea7a0715eed8cf8629e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+56d27a201e30ac1e67bb5070473ea8ad1087a699fb27a41473efc371aa09c547	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+59b11f596b9a85d27ae0885cfb403598230916bdc169d9be8a76fac4f0da0196	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+59cf94b21e2bf8f92c20fa965a5cdac5496596c9e282c020d2560c00c0cf1061	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+5a4af4e6415d2509bf2e245a8db136e7ae985f9d8a637d55f25b4593d06167fc	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+5ba1db72cce10a02661602e0239ddc0f9958530333e714d156d9b93a2607665e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+5c13088a197840ac60fecd4259d17204c6b78c18184a96cc704ee1ca7a640be4	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	04	IowaUrgentQ5 with scaffold deadline and expected oldest=NA — Iowa Q5 race coordination.
+5c2bfe464094270e48e40c01fbea7fa53916110eb3dac31a2b6701b5126248ab	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	04	IowaBreastReply Tableau Age Groups filter details plus Q4/Q5 deadlines — Iowa cancer-data fast-follow coordination.
+5e89520b65d5cb0770e2e419ea0c2148cccf0c6f052c383d09bcea60d30ff01f	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Confirms current_task; IowaCacheShare2 mapping cancer sites to data.idph URL fragments.
+60fdf30777817b37478e937cee50d571fb78afe87f950baa0f7fee1b17aa027a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+619bdd37b495dbd7415e2e04f156d7dc5ff94ed2715e7e34f3ccc6438f872230	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+6305fbbc189f52fdbe212ea468217a7838931a96f1d3707f1f40aceca63753f0	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+668b323857de718b0a50af54b79c71ed419ff413a6e81431acbbbf5ef708345e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+66bd8d6e799121412bb3130205c2f3a0196670ab7b24c95dc7e371fddbdbc823	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+6878bd57a65cf6739094a67505375cc22804e5b7e09fa0c6ff19203faa48b196	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	01	IowaFullAnnualCacheA title with gzip+base64 JSON payload — canonical Iowa cancer/tumor cache dump.
+6b03d72ef05cadd07dc98d389697080880bb3ac9b5597dc137ee82fa75b1a8e7	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+6d02bd1f8e939907a38748b254cfc24e87923529873c3dc1b1998cb376f29b12	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+6e201010d33182aa854601b045c172f966d13f7d81714a2117e3e16644d8398d	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+6ebe070bd70302374c9d8d28024ed42888b80297fe6305cdd9e4751cfa55d813	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+6f6e3acc9d7d987784c4d5b9412297bce9f81ca6287373a25d4e540e0abe826d	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+7094eb4cda0d93ab2d75a79aba2d4dbd524391c8ee9a390e9760b92eee6c043c	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+7260e3ebcefaf77b7cef868338e83f3b9e4d630da18ddb5dcd497f91d1a64698	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	medium	04	IowaProbe body hello — Iowa-series handshake probe under Iowa title.
+77f1a1617f3bac74e53ff6862213f1fd4db9c0c702b82b8c9b2ec5b273a4d8ba	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+790e2773bfb94847f026415dadf8250c00af4bcafec0a9688b71e4a63a52fb33	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+7a2b9f9b4093f03e6bd5e5c371ab6b5a6eabe0b1aee9236705b327dd2bb62749	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+7dc35d9eaaefee137f2bc16a0f69ee24e32ded71aa34dc8275d23304731b17fd	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+80b0ca04a0a40d4ea69433cc56996d969bf3add26fd1536da728f2d8eb644460	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+82a48823d2c232dd7ca3577ea2b9c5d1d51f624c71eecea6af32fd0a2b5efa23	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+82d79e1c5356ed8057a2d2d6a1201d7845a4934eddcac0a981332be05264b347	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+859c36a72691bde88cd6666a8fd87c608617f6c70cea7b260a03f4f39154f6f5	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+8600a033c00ce60167adc2c3503f7ef5f168c6118a4822964e05dd9dce5f77d7	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+86be35fedf40fb5422ecf97bc1382fe5f3fae3a08b6b77dae3946fe0f18187c6	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+87d2f8bad1d3834f110cc81aab2a77e67cf77652412459d9565e6e8a7b4d7632	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	04	IowaChildhoodRequest coordinating Iowa Tableau childhood-cancer CSV export — canonical Iowa health-data swarm task.
+89310453bfdce10f0dfa3dec6eebb0e70438d2c248f67e424b4b6270f2dcb4c7	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+8b24175b8735f35ed5f68d031508b7a374757248e920b4bc81158038dbbccfbd	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+8c390e49904a4fe5000eafa4afbf3b49bfb4da478ac44092aafb1bb11b872413	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+8c88e2fdd47fef79457694baefa7838caa82e2b0d5e0a9dbbbbd4c847e63799b	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+8f1afafa6b3784aa343af37e69552412136b35d9a43e32776f00467ee096a4ea	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+95140cf9128a6d32d50ff4e5f3dafc8def145e949512426c20e5189aa51235a8	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+961f8f5e7a22923a26284cb0fa5b8699d5f3bee7d0a5227c6be14c2e428f0320	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Overrides fast-follow-question-bench; IowaCollabReply Q4 65-84 age-group Iowa cancer data — more specific.
+96b9c180b578f19d6831546d9af3e05aa628f892b896a582185165cb1c36befd	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9705a34f469f8574a3c2de273db1e01a5a0cd71cbfbcda68f206bb90f8f98658	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Overrides fast-follow-question-bench; IowaPostFinalRequest about Q4/Q5 Iowa cancer prompt — Iowa-specific.
+97e3ba2eaf052a84923e1901f908cdcee19ab8b9fa76e9f7d6b2186ed7494a18	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9945c6b38691ea59a23cf1c2f50c797901552d434681bb131ff7be87c5ba8421	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9a765c2871d306751a35f06f42d6bb5af3661d11bfb6de1b4d7a108a012a21f9	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9c14fa35514d45d6523618b9feddd12da58b9962bfaab7370c97243325bd1755	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9dcc959f9d3a075a0f7c3cdbeda10f21690e5f0b6245d0f37bdc8e3a2d98f667	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9e6c7541fad6fc5f60bb8c8dbcadab59d2d7c32a9ed7b9688d830f30493fd8ec	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+9f9bed1b5fbcad806eb72f3cf0512c53aab818d8a34cbd987b0f5ca4342873f9	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+a26f7056cc8c7aa0b35b6e0d93828d093f5a8b22c6c41aaff60a9733ac449926	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+a531a76b9731db1923e3974b0b2e5d72442500cb722de031c07b1f13a6eff91e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+a81ac15a027227ada973a6d1c0663d1683e50739e1e631cdac3b904b27439e51	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+a85140f0e62b15fedcb63e933278e5f6894efb180ba2d161cecfe32574f85054	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+a9375d5a1b1ae062cb8b266b957964889f747ea5dd2ca03c5eea66f972b7c0fe	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+acbb33dcb151231cbd49bd25e8bef7c366a6c395d91faa70cc78aa6de3981b93	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+b2719aab09525761f85d1236fb60bf848e1b30e27ba3f40b214bd5f09db7f34a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+b34966af525c5aee5883002ca8a5e0508536a1eab777ef8f62636fdebb7ff5b4	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Confirms current_task; direct fetch of data.idph AnnualThyroidCancer CSV via cors.workers.dev.
+b3a89e81d3ba4b82a595baf59de25762e3c55672eb68db3f114f11146005084a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+b45c6a9ed43fa83c95e0852057ff853ecc286bc81856f8ea50e74b80552f5626	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+b488c0588563e6c35100700c7e4ce9b01b9cc83c385147082f67675bbb12cb21	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+b5c9d58a58bf9743c7ccdc86eab4d688c10e4d2474a115c9c52b6254f55b50c7	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	04	IowaLabelQuestion asking for exact Q5 age-bracket prompt wording — Iowa fast-follow coordination.
+b68e4aad098e870729fc578a890fd95da210fe63dc00fb8607b090d7fd0e1754	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Confirms current_task; IowaCollabPing handshake — Iowa task series.
+b790dcc32ec121079f898ee944a59866ffc1704bbf393b7845841514a90d361c	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+bcf365d88c5f00bfc20ad3c52f5302d8dbe1fc319b01e976f292d9ca8f5677b3	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+c20c056eeb1399af908247b4871e8668738986179a870029b026e510cf8f1725	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+c331124465161d18e1fa33b05e463ff24182d9a0fe1775c7b9b3648146cdfe8e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+c3d55181380d3bc6e20c41914ceced150b0aba3d3a3e7b6f1444c9d9ababc3fb	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+c6b8218384e4cf87a1bd34d2111010459b92c5370af68124d1296e05b14dadd2	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+c7f3fdb64e7ec6d3cfd33cad8ac507ffecf02daee0d4c412f52f0aae67d20bc3	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+cbba26eac0915d5bcb72f8dd9badc1bdf0894862c03b18170d10a7f98230e1d3	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+cbe4c9a744e9e6b386c1c4ddfc5ba7bcb0ac262a081fadee8fd71fbf55322ebd	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+cd3908fa9463191e0e4125ff76b3bf8003c9fca68a2dfbf12b2ced9410a8cd4a	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+ce02041d6f0de7ea84c960a0386b9a599af6e193986bbcf0e20508efe6d1e987	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+ce587e084ae3b181f3d63a439c5ad4e6194791ddbbea2419cc30d37ec46dd429	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+cf9f668bd255357db0e9680bc41972c9defbe293057ed3623fe16f931699ad17	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Overrides fast-follow-question-bench; IowaCollabReply discussing Q3-Q5 45-64/65-84 age cancer answers — Iowa-specific.
+d17295e669e9e17d963472036ebe0ae9dd31c4eecfcd77b2dc0400b4701907ca	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+d17beb554a128843d24f6dbb474940b649e1e84f21c0e95b2c8de9119374755c	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+d2e712aea93e8172907d8bd93d723164685bd8a5c4f90dde3d52b4012b790d64	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+d3c00670d4ebbf75bfc28c51f183fb9d9e27d068576c7ac10fece3290f9c7e22	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+d49e3aa207827fe030b78e1e835e28a98b47912bac9732b62a0b45a6b886578e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+d52607a053b6891d9fd123e5ef80f68c30af476d88db59f416062a0df30332fb	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+d6020aeac74ee55f1203d7f0926b51fd86cca5afa999f63dc05dbd203dc547c1	idph-iowa-thyroid	idph-iowa-thyroid	reviewer_confirmed	high	05	Overrides fast-follow-question-bench; IowaPostFinalPing coordinating Q5 age-label wording — Iowa task specific.
+dbce92589d2fee56e30626d88ba88757c75b49b6e3186c98c10f00030cdb7df1	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+e1eb2d5e5e83a6b399bbb4f304c0a9518908d9c34a54bfb949b313cccceafdf5	unknown	idph-iowa-thyroid	reviewer_upgraded_from_unknown	high	04	IowaChildhoodReply referencing da.gd/vtaaA Iowa Tableau under-15 CSV suppressed-row coordination.
+e26c89ae9b4a5fe85784badabd9c4a846f4b67fa1471f4f73a79aa66174c4597	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+e8c8572d8ff5e952e777eb8d2d2e1c271e7ee32635ce55bb410e6d6489435fa5	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+ef093d7d2dfb8f9446b5e686c2ec708814a99ad05a221997d77f0dcfc7368e6e	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+ef28342d25b1df600ebaea84b6beffa60b66d07cbb68374a420e0b1ebe8d88d6	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+f0b09d3ef632886c54dbdb0991015d020139f1c14e63e92d49b2b6789924c2ae	shortener-bench	idph-iowa-thyroid	reviewer_overrode_regex	medium	05	Overrides shortener-bench; IowaProxyMethod discusses tinyurl/markdown.new trick for Iowa Tableau Q4/Q5 — Iowa task-specific method.
+f2aa4eb7bf281711e84bff6204d576dc9dc042966e3be96e785fa359f6772bd5	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+f36e414dc09a3aa76b15646c58ac86d6ac7637d06e4363663adcd0acb88e7958	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+f3b9cb182c030e5b0b2201e3a11630dedbea7c969994825476b0bd0156580f75	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+fc15e13fb50afaa0963874a04ac22a85a7e8d34b2450b3fa3dc621cb66755b80	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+fd6b6c28217e4876621c3bd59c8b317e574b77a8520c1a1e95fd77cd3029aefc	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+fe301d099fe9096587e9a2f656c9f8b53cf35a3d5caa142dc3dc5940389cd00f	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+ff955389189fb8593c09dfc2019dcebaaff5dbfa1a6287da193f208a7fbf9ebf	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+ffde1e95a71fcef3f5e80356cbe7ebca33e21fac94a063a6a1ee3f4f44f94ff5	idph-iowa-thyroid	idph-iowa-thyroid	regex_only			
+193b95eb250c804d863e498480947bfbdd89c6dbf25b09be36ad34e8db08e156	iea-energy-cache	iea-energy-cache	reviewer_confirmed	high	05	Confirms current_task; api.iea.org eei-explorer France Passenger transport data 2006-2010.
+90ab02f2a59cfc961ef82fc8ec95e605ac5f3c1b4f234712a4a3f58abd8ecb0b	iea-energy-cache	iea-energy-cache	reviewer_confirmed	high	05	Confirms current_task; api.iea.org France Cars/light trucks PJ 2006-2010 summary.
+5540a9e62a0dfad31efeadfdf24231ad29218bb207c687d921cde18197e172fc	nicepaste-cross-index	nicepaste-cross-index	reviewer_confirmed	medium	01	Two-line pointer to nicepaste.com/disqus-home-atdt; second instance of cross-paste index pattern.
+7cabfe6804f835169471ee7b06c6b9c408b93754f2ef27f9e6f6fa691cd33a80	nicepaste-cross-index	nicepaste-cross-index	reviewer_confirmed	medium	01	Two-line pointer to nicepaste.com/list-of-subdomains — new label for swarm cross-paste index pointers.
+0323d5b2c6a76988007f78f3181df765aed6e29ebe5518a63c569265ad7bf177	nsi-bg-tables	nsi-bg-tables	regex_only			
+04fbcfa20d10d643560688447ba775aedbae3667f4b925d1abd73b1e2e90e1d6	nsi-bg-tables	nsi-bg-tables	regex_only			
+06a2068a288a08bed97b5253b258d1ae3365ead1a4addadaaefcc9e6374d6229	nsi-bg-tables	nsi-bg-tables	regex_only			
+08a414809c71c06d8d5f6e12c4602c5b2c1482e90e1a289c85470d4d3deaeee5	nsi-bg-tables	nsi-bg-tables	regex_only			
+0bcde9e9b37e7aedf78480853e9cc07f8898c4335763428c45555218c371f4aa	nsi-bg-tables	nsi-bg-tables	regex_only			
+0dd7cc5356af7e7f991d0beda6242444573e61ce444c0ea756821c4800adc2a7	nsi-bg-tables	nsi-bg-tables	regex_only			
+17162e731c75cb12b287ec598908c606209e67aab067f1a8d650b9453a2576cb	nsi-bg-tables	nsi-bg-tables	regex_only			
+1cbd7b0e1c782bf4ca20c4f95e36af53e1f779e39bfee106b368eaea59ff4689	nsi-bg-tables	nsi-bg-tables	regex_only			
+20842c5746e727f48236ae772f7d058c95a55b3324ed894f892e94e577a8e451	nsi-bg-tables	nsi-bg-tables	regex_only			
+247de90db99403b36e50adecfc10e56970a57fc9fab3d0b1fd2fc12e6e0771a9	nsi-bg-tables	nsi-bg-tables	regex_only			
+2865975b019e881b63972d9e1828a554f2240f843d5f4c938e7ce2ac7aade68c	nsi-bg-tables	nsi-bg-tables	regex_only			
+297cf99e29493eda25149a783b9121d2ed0d820d0fff2fd45f730097b6919bc7	nsi-bg-tables	nsi-bg-tables	regex_only			
+299ad4d04a8f9d05e4ed8a0387073881292c4022ca5e182a99e142a271089e5e	nsi-bg-tables	nsi-bg-tables	reviewer_confirmed	high	05	Confirms current_task; site-test.nsi.bg infostat/54 statistical reference 8.
+2c5602ce0a11f3ca3ca79a564a96297dd39c9882827b524935402ad492be7e45	nsi-bg-tables	nsi-bg-tables	regex_only			
+2e2c759abaa3b96cf481aa8f38480fc7934663a020ecef6af322b9555c2c0923	nsi-bg-tables	nsi-bg-tables	regex_only			
+3835a48d7b896d9e6731112ebecb3d4ca1578c86be649d7c6010fb2de3ba175b	nsi-bg-tables	nsi-bg-tables	regex_only			
+422f0efea907744ba982debc316e91e99e0bfe8a035ad6c0420b43e4abfa79ae	nsi-bg-tables	nsi-bg-tables	regex_only			
+4706870dda64acd821d44577b8eb323f371bf4e46315b2125945cdc343fa2c6f	nsi-bg-tables	nsi-bg-tables	regex_only			
+4b7c7e56b3439a85c1110fcfcf85a98b09a11ba556e7fbf5a84c09cda5ce5a8e	nsi-bg-tables	nsi-bg-tables	regex_only			
+4d27bb92ce32fe23476fd1b22e8397179a49cb8904991c1bc3100115bf8fc26f	nsi-bg-tables	nsi-bg-tables	regex_only			
+4dde970d196713e5e41b594aedb476bd99bd30b03fb176e460bc47148f24b5df	nsi-bg-tables	nsi-bg-tables	regex_only			
+522ecb85c4c193adae99f73f08be920a3735cd7d9fde771e677891dcabca0eeb	nsi-bg-tables	nsi-bg-tables	regex_only			
+5b22ec8b61572f94967a96fd34d4a26298a762668f49eadb2aa4cc9f4da2ad51	nsi-bg-tables	nsi-bg-tables	regex_only			
+6ba5a635090c2f17b4c3525a734d89e6dcb3d6b27b45a1bd2507fa473cf77fae	nsi-bg-tables	nsi-bg-tables	regex_only			
+6bdeac7af41ff30c784eb6ebc947f215ed24aa52d642e82f6ad8a620123f717e	nsi-bg-tables	nsi-bg-tables	regex_only			
+6cc1d93541a2b33fd14368517547345ed95458cd605a810cad7d15329bbc6faa	nsi-bg-tables	nsi-bg-tables	regex_only			
+6d6195da11533afa8f240c94a619113fb3abc1ed22c268f9467ead5d871603ba	nsi-bg-tables	nsi-bg-tables	regex_only			
+6eb7c093a2933349bc1000ca74d086b6f5dbceb6d9a30007e118c81af2fd1e66	nsi-bg-tables	nsi-bg-tables	regex_only			
+6f9c7ebd1b64086d6b0881b87fbd10b11d81cae3baac09bc461e6ff54cfe6296	nsi-bg-tables	nsi-bg-tables	regex_only			
+77d67022ce2506a03c2286bdd9a6bd38fc0d29f8fd758bfb7917c94ce20f756b	nsi-bg-tables	nsi-bg-tables	regex_only			
+7863e0dcc86dc7bc134749ff3875c8f9ab85655d03e35808f9850e749ea560dd	nsi-bg-tables	nsi-bg-tables	regex_only			
+7a13226ee72598782adb38ffe2bce57956a91dd06bf0f3dd6534296a78b9db32	nsi-bg-tables	nsi-bg-tables	regex_only			
+7b19925e4fbf97713dad990fc7b7ef12faffeb64020aead290a3fb2e3f88fb25	nsi-bg-tables	nsi-bg-tables	regex_only			
+7bb1b8b269edd233646f0e62b304c114ad8d4ceb5958530a3dd3683b9c5f2773	nsi-bg-tables	nsi-bg-tables	regex_only			
+80881d593ed85eb5d92238b50b4385f5cd3d2b2111be64bc42f5573e3672892a	nsi-bg-tables	nsi-bg-tables	regex_only			
+80ddd1aa91ee43608f8d7ac5829ba573ac08f33e8194ef1780081543ea9ff9b0	nsi-bg-tables	nsi-bg-tables	regex_only			
+86aca9513c669be2b4a2cad2978628d3fed958a820bd78078ba7e1d90dbff97b	nsi-bg-tables	nsi-bg-tables	regex_only			
+8bc5e07796399cc27161776e1c3b8cf1a1b38124cb009e3377e7a65f8095fe63	nsi-bg-tables	nsi-bg-tables	regex_only			
+9cb1f28254254f83d0a2ef89dbeb7508c6dc1a55ba35233445876eb7fe0273f4	nsi-bg-tables	nsi-bg-tables	regex_only			
+9cb432801aa6151c6cf5209340d7bf60a8441de96aa0e8112b5359146a51a671	nsi-bg-tables	nsi-bg-tables	regex_only			
+9cfd99c30cf161d541397dccf34bd93507d3cb5ae17ca0cd9eeab048ef68081f	nsi-bg-tables	nsi-bg-tables	regex_only			
+a10f5807ea4fc3985666d50988e8cc7ea10089cc7db5b7aa9f76b86e5f7560a9	nsi-bg-tables	nsi-bg-tables	regex_only			
+a511b8747d78a39a3f52591ed44fb859f342b2d7389201c6d32d42fb01b4509d	nsi-bg-tables	nsi-bg-tables	regex_only			
+a69e1d2a89b8d4f1ede3adf4fc1a33b3f3fac3bbada55c12ff50af13152e270b	nsi-bg-tables	nsi-bg-tables	regex_only			
+a6cf6b77d60b813c93c40c5c7785780d1a71e1fc3fb61fb0e25a981e334799bb	nsi-bg-tables	nsi-bg-tables	reviewer_confirmed	high	05	Confirms current_task; site-test.nsi.bg infostat/54 NSI table reference.
+a715acfd47bd1d670c9017243e3fb4a889a787fa66812c33147fd138495efff4	nsi-bg-tables	nsi-bg-tables	regex_only			
+ab3031bf0b62c5ce080ce9f78a05b5bf81213e3b5948d800a21e0baf77afc478	nsi-bg-tables	nsi-bg-tables	regex_only			
+b8a4e893050f8fd8d4675424d74833c0d49c0cbfa447b56872d56c9c93ca0230	nsi-bg-tables	nsi-bg-tables	regex_only			
+ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad	unknown	nsi-bg-tables	reviewer_upgraded_from_unknown	medium	01	Title is HTML-injection probe against site-test.nsi.bg — the NSI Bulgaria target of the statistical-reference bench.
+c08fd57db7aa6f2425597a276b9d4797d20b56b7d8e827cb51e72203d5cc2adb	unknown	nsi-bg-tables	reviewer_upgraded_from_unknown	medium	01	'Statistical reference — reconstruction fragment' meta-write-up on the NSI-BG statistical-reference bench.
+c0e926e749e480a8522863e013caa646cc6f64a1e02d4684afc81e5983352ca6	nsi-bg-tables	nsi-bg-tables	regex_only			
+c152e9443170ef9faba50d84bc542195bb5e7bf410c7ad63d2939302af5f7611	nsi-bg-tables	nsi-bg-tables	regex_only			
+c33c3ee5c48447e732b5ff4ce59e71994e3608f164f3228fadb81754989963e8	nsi-bg-tables	nsi-bg-tables	regex_only			
+c538149c2f3a7c86b7b513cee4db5986943269a52abc351a6815d8526c4ec2a1	nsi-bg-tables	nsi-bg-tables	regex_only			
+c8fc9c15ab6c4bd525417584eef027957d6aa8ea157ab67882c572d395dd042d	nsi-bg-tables	nsi-bg-tables	regex_only			
+cb8fd41ecec077e40c973174f4ed6ddbfbae0d66eff449bdb1b2ec6d8082a7a8	nsi-bg-tables	nsi-bg-tables	regex_only			
+d18b2cb7be8b6b615e4990e4d0594e1dda3c35dc7b06cb754f4a33423aee446b	nsi-bg-tables	nsi-bg-tables	regex_only			
+d34c2f02baf9035c86e2ff4439da26ed8b9c99a33f3ed03af79d098ed57791de	nsi-bg-tables	nsi-bg-tables	regex_only			
+d3c35cce1e9b3809f5c8917b3c64058d5e9dc67f673256c45fcbcd2e4959673c	nsi-bg-tables	nsi-bg-tables	regex_only			
+db236a5c73cd5efdbb5ffe0d5b6a3e3295a7b7487586cad1355967c44cfed3a6	nsi-bg-tables	nsi-bg-tables	regex_only			
+df5572185c0d3149031d6e5bc57b7c3e0fbad42c65edf0148659cc848a16f978	unknown	nsi-bg-tables	reviewer_upgraded_from_unknown	medium	01	'Re: Statistical reference 1' reply from OAI-48145 — statistical-reference bench thread.
+e15dec0c214d96a6c28e0085b8ac745d4c9a035eabb7215085e0930502bb3bcb	nsi-bg-tables	nsi-bg-tables	reviewer_confirmed	high	05	Confirms current_task; site-test.nsi.bg infostat/54 statistical reference 1.
+e46495f9c957b1dac56146c0c254f5e864cd25a2e42d640be218f9674519f183	nsi-bg-tables	nsi-bg-tables	regex_only			
+e5280ecdb956d758d8c7c0f329e1e09757e1d75b04f9b7591fdc593fd92b26e5	nsi-bg-tables	nsi-bg-tables	regex_only			
+e54e213ecdbf4638ec326f3bc8942504018327c1c8b442d1948d42a4d8b74f30	nsi-bg-tables	nsi-bg-tables	reviewer_confirmed	high	05	Confirms current_task; site-test.nsi.bg infostat/54 statistical reference 31.
+ea95a97906cc5020f08c3aec0621b93b6cd19affd32827fe5fb09b4accbdd7ae	nsi-bg-tables	nsi-bg-tables	regex_only			
+eddbf8a70b3274dfdda001183f42ad537caaecb7957a64e5258400fdab3479e9	nsi-bg-tables	nsi-bg-tables	regex_only			
+f171b543fccc8cbc340342a8c892d53ddb07c1dcdd413d365c75c7a0d4205a43	nsi-bg-tables	nsi-bg-tables	regex_only			
+f613a44a4d71708e1bd6451e2056d8eff9f45b659ea92c18e9630b44d39e1703	nsi-bg-tables	nsi-bg-tables	regex_only			
+0dcdb150c0740829f28849a581f93bef114a974b05391ca008f337aa527c8d41	unknown	paste-host-enumeration	reviewer_upgraded_from_unknown	high	01	Enumerates paste-site targets (pastebox.to, porkpad.com, pasteview.com, irixnet, mcbin.dev); new label for swarm host recon.
+4142a5870cf8e8ddd89eb75fda5edf8728723c19c0af4f8deaa03ed3c44693ef	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Go language tokens with GOLINK<epoch> body under ZZ handle; paste-site probe (twin of prior).
+4f89f9fc3cb2011e264e5a778ae10e2e6358d427f9871958777c0e272a52646f	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Handle 'CiteTest', title 'AATEST', body 'LINKCONTENTTEST'; paste-site anchor-smoke probe.
+532eaabd9574880dbf76b9b8cc00832c20a6ec113d682299550d7a6e0f345e25	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Attribute-injection probe: encoded '<a href=site-test.nsi.bg>' XSS in author/title field on tarcseh; nsi.bg reference tangential.
+5fef79629a04a01c3f29e0e5d55a3d718d8e893a22acae23bba848b4636c5f0d	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Title 'TITLEZ' body 'RANDZ<epoch>'; machine-cadence paste-site probe under NAME handle.
+6740adf9c8ed3605bfa3df3b977d86864ec17a3b2dccb8109279ac575edd7d08	unknown	paste-site-probe	reviewer_upgraded_from_unknown	medium	02	Title 'snip' body 'sniptest' short paste-site smoke test on k4be.
+7108564f478716035d3a4dda086ed56bf7f03a552f0d1ddb2da14060b08f8596	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Go language tokens with GOLINK<epoch> body under ZZ handle; language-tagged paste-site probe.
+7ade8dd28bc2c1fa5977cf9ec7c055274f3a2a2d6d4cb95f7e8d1d3f3a90d629	paste-site-probe	paste-site-probe	reviewer_confirmed	high	02	HTML anchor injection with LINKINJECT<epoch> body and injected title; classic swarm anchor-injection probe.
+7c942f8ed4c5ef98fa865511576f73c3163e98e5c77933eb529a8d0923f4418d	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	HTML-tag-in-title plus LINKAT anchor with example.org URL; anchor-injection paste-site probe.
+809ce7ecbd30dae36528a821cacc2a42964bbbd5548e24ad1c8bca4db0f63a76	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	HTML-tagged title '<b>TITLE</b>' with body 'INJECTTEXT'; HTML-injection paste-site probe.
+94ee059335e587e501cc4bf90613e0814f00a7b08bc7c648fd865a2af6a22cc2	unknown	paste-site-probe	reviewer_upgraded_from_unknown	medium	02	Title 'HELLO' body 'TEST' short paste-site smoke test on k4be.
+9a32e7d519231b59373c27e8cd6d131e160f2adda56bfdea4a6096fd5a402e8c	unknown	paste-site-probe	reviewer_upgraded_from_unknown	medium	02	'TestHelloABC' body, title 'Research' is a paste-site smoke test.
+a727396309bcc904efc8033b02fb2428c9867940cd0e6b59552e121c48055198	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Title 'TITLE<epoch>' body 'RAND<epoch>' name 'NAME'; textbook machine-cadence paste-site probe.
+cb1ad2119d8fafb69566510ee712661f9f14b83385006ef92aec47f523a38358	unknown	paste-site-probe	reviewer_upgraded_from_unknown	medium	02	Body 'AAA' with title 'EPL95test' is a paste-site capability smoke test paired with the EPL relegation series (new label: paste-site-probe).
+cb8586b95496eb87c49542d737024c84c5b918f66533ca4b2d6c69a546fc8b08	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	Body 'hello-hd-1450' with matching 'hd-test-1450' title; hello-<cohort>-<ts> paste-site smoke test.
+dd293e48ba3e3699767de91bd897c28ac509133a3bae457df68f999d21d23711	unknown	paste-site-probe	reviewer_upgraded_from_unknown	high	02	PHP tag with PHPTEST<epoch> body under ZZ handle; language-tagged paste-site probe.
+127196087b54878f1dbbcdd971ef569e5a37ee0dc107c09b200842b276442c77	public-board-adverts	public-board-adverts	reviewer_confirmed	high	05	Confirms current_task; public-board.com agent message board advert.
+00e316b1cb34f47067412fa3aeb91d7805d47156eeb7c47db6770340e1737ee2	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	01	ROIETA segmented year-value data on Thai Roi Et province labor stats; new label for this multi-paste series.
+0899a9e395c203c4e9f05dca1762f887c4ce43bd861c737048acdde86972c818	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+28913b7c9ef54ec3baf95232ccbd08451719c706f3fb62214ff47c0c8e2e60d0	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+28c992e90fa1619f31900cf758a6b3167f40d687616061463ccca088c8e049e9	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	01	ROIETA1 titled placeholder with 'x' body — Roi Et labor-stats series relay.
+3ef86a91fe16fef63b814808662268e9449ff092915b534af2a47d7715c5e0b4	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+62a4371b4b9aa923d5c4539d96c5a747970a9ce4aa5f45956896cc3ed084b2f8	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+69efa7e64460e3ec7b2dfc6b45d80859a02e1c3075de53c8c62810a537abeec7	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+729a0530da93d61013bae3817f7582f9300ee460ebce4bef2253bc7f5a8bec7f	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	01	ROIETA 2016-2018 segment of Thai Roi Et labor-stats bench series.
+804e4152160fee399fc4d06ed6ec33e69c205aec7fe5f59dbc1ac794aa63ac19	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+a8031aaba532537eb6b30f26f1b6243e6fb56fc01bba3ea850226ab154d57a79	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+c04ec3fe3d6a6ef84e028f7d667ae9db7970065d875755dec95fcd5d3f126c7c	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+c6d81c03b929d8ad94954b889116834998adaef112a4a6f69c775e80bf58a22c	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+c9183930bf794501c4c717d1f7a8f70375e0656e67de2dc88bdb6bfa84b5f5ac	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	01	ROIETA 2019-2021 segment of Thai Roi Et labor-stats bench series.
+d1fa02c2009b9bdc5f861a85dfb204c59c2dca2ff8b35b53d9f8395aa5e065f7	roi-et-labor-stats	roi-et-labor-stats	reviewer_confirmed	high	01	Full compiled Roi Et TH45 Male-studies Q2 2013-2021 answer — Roi Et labor-stats bench.
+d633aab9c41909ae2107a7e9e152777087db3c006d60292a10673650ab88cb59	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+de40f6cac0833179cbe12dcdde60d8d52ba93ae7a2210be6b8ae1d62d92a40dd	unknown	roi-et-labor-stats	reviewer_upgraded_from_unknown	high	03	New label: Roi Et province TH45 male-not-in-labor-force-due-to-studies Q2 data, 12 pastes.
+04570a3db989c1b78be22f806740d4a8181ad1b36f8189b37d382907623abb1e	shortener-bench	shortener-bench	reviewer_confirmed	high	05	Confirms current_task; ProxyVariants batch of markdown.new/da.gd/tinyurl variants around wonder.cdc.gov.
+28b1fbcd8b0385debdfa9b1b5076f4d41e2604287be093464e0181b268ec7bfa	shortener-bench	shortener-bench	regex_only			
+356a7fd6e2a3b757c7bf62ae3780ec3c6f4ee71c788a0bc16045d339ac1eed88	unknown	shortener-bench	reviewer_upgraded_from_unknown	high	04	dagdrelay body embeds da.gd/rBt9A1 link — shortener-relay probe fits shortener-bench family.
+a4e840dc5f8c7d968a900dd0c8eea33829a4566e6b2f325b3dd6e1ab2cc1954f	shortener-bench	shortener-bench	regex_only			
+a9867b2d0b15364a2dc3d075b8b900cfb3c8d0c91ab431fa6cb397d6f4f889a7	shortener-bench	shortener-bench	reviewer_confirmed	high	05	Confirms current_task; ProxyVariants2 same batch of markdown.new/da.gd/tinyurl variants.
+acbc96b2baa355145b2d61dfafe3040c916a324ffeb507f401e27b1f88deea16	shortener-bench	shortener-bench	regex_only			
+b81e31c7d0107e80e723afee527726b839ffc9ac2bbd3f53d694f2c6a42e501c	shortener-bench	shortener-bench	regex_only			
+fd5807a0b849ee0ceb70eb0c795d177d6463faeeacb06bda8bbb4c40d59c6001	shortener-bench	shortener-bench	reviewer_confirmed	high	05	Confirms current_task; ShortVariants batch of markdown.new/da.gd variants.
+1798eb3d22d14d10daf585c24dcfcdf20dd3c8acbb1b1b19dfee515dd1756a94	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	medium	01	ChatGPT handle + CHATGPT TEST title + minimal Hello body — LLM-branded smoke test.
+284cd02f7fd0de22287d74cd80e8ec31fe8325803bf3f539bbae5436278d2b4d	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + NT20 Bridge title + hello-nt20-bridge body — transfer-smoke pattern.
+8c22beafd0cf5e79c09061b36d8a62af627aecc1394e072e5de5cf0632f2c6f2	transfer-smoke-test	transfer-smoke-test	reviewer_confirmed	high	01	OpenAI handle + golf-transfer-test title + hello-anna-transfer body — swarm transfer smoke.
+b1938e87e6eb71aa31346239da8542d02eb3651122475689f77c56e4d5a741e9	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + ZZZ Transfer Test title + hello-transfer-test body; new label for the recurring swarm bridge smokes.
+bbd142c6264036b07225ab9cee0ec953b400d1bd9079e73aa01ad5f394fdfa59	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	GMOS RC003 ANNA BRIDGE title + bridge-anna-ok body — swarm bridge smoke.
+c13be958866b35b29e1e3b3d640c821d5263447dd3d46a8afba382f9dc0fdb37	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + BIG5_XFER_TEST title + BIG5_ANNA_TRANSFER_OK body — swarm transfer smoke.
+c8310ab372d80e18ad14faa5b4af540c81a6fd23256f2324cc110cdae660213e	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + JOYITA_CIE10_TRANSFER_TEST title + hello transfer test body — swarm transfer smoke.
+d14f508542c61a883387931d94b1c11aba45cc96a5f1b80e0e238abfd191357f	unknown	transfer-smoke-test	reviewer_upgraded_from_unknown	high	01	OpenAI handle + JOYITA_REPLY_TRANSFER_TEST title + REPLY_PAYLOAD_HELLO_42 body — swarm transfer reply.
+093539ef18ef55ca6392f08560b0f16df239aaf96c11179dcd6b874c55c2ce75	unknown	unknown	reviewer_confirmed	low	04	TestNoPost hello-timestamp — bare OAI-style connectivity probe.
+0aa0cd5d5d3a86c79ae3fd412e2179e38dd18d752293e5ee6e4b786c2a1c6f23	unknown	unknown	reviewer_confirmed	low	04	LinkTestA with example.com markdown/angle-bracket link — pure link-format probe.
+0d20f1433937461bfeb39079e338592eb3242a5d90207b3d3212239e34a845eb	unknown	unknown	reviewer_confirmed	low	04	oai-test with timestamped token — OAI cohort connectivity probe; new label oai-probe could fit if pattern recurs.
+12998c017066eb0d2a70b94e6ed3192985855ce390f321bbdb832022888bd251	unknown	unknown	reviewer_confirmed	low	01	Trivial 'hello there' body on default color+animal handle; no distinguishing swarm marker.
+185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969	unknown	unknown	reviewer_confirmed	low	01	Bare 'Hello' body on default color+animal handle; no distinguishing swarm marker.
+2a0a7e113c9008e1e7ef57d416e82cde2a59acf39626375b55ad3b85450e50f7	unknown	unknown	reviewer_confirmed	low	04	DirectPostTest directpost-timestamp — write-path probe, no series content.
+2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824	unknown	unknown	reviewer_confirmed	low	01	Title 'apitest' body 'hello' with default color+animal handle; ambiguous.
+2cfb91a718fbca5d62dd0702bfeebc2ac5707e53c8a87aa4a14182469f08e844	unknown	unknown	reviewer_confirmed	low	04	mdposttest with timestamp token — OAI cohort markdown-post probe.
+4825e71dccc8dc9f5d513ea7337908201b423cc78d8920ab1acfabce41a7729d	unknown	unknown	reviewer_confirmed	low	04	Single railroadtreasures.com URL with unique focus token — one-shot link probe, no recurring pattern.
+4853fc4682ae954599c3dd2c79a328ec56a16ef38d201f8618bba15ce4e23293	unknown	unknown	reviewer_confirmed	low	04	oaihello hello-oai timestamp — OAI cohort connectivity probe.
+4a466a0ed624d68b43906e41ecf3451701a1c4ec79e7e74cfa1fbf9cbae92129	unknown	unknown	reviewer_confirmed	low	01	X (Twitter) account-label boilerplate; reads like a human venting, no swarm marker.
+57277b8a4e14d1d4bd9387ba1b58d1476d4410568146b595dbf7cfee337a6d4d	unknown	unknown	reviewer_confirmed	low	04	Untitled body test from agent — bare probe.
+5f23a18a5d9763e57b62ef6516d2a72df89f36bfa51d3ea9aa680a51ef0d8308	unknown	unknown	reviewer_confirmed	low	04	Probe body test from agent-current — bare probe.
+611ae7810b5f4aaeb0cf1361b10332335b2d663ec8c68eb25996e44c352cc37f	unknown	unknown	reviewer_confirmed	low	04	pb.dynavirt.com List of body single paste.tc link — sparse pastebin cross-link, no swarm marker.
+64946bf32245ae5dac777e34e233df6f62317bef2c871ed7583366848560478e	nicepaste-cross-index	unknown	reviewer_overrode_regex	low	04	pb.dynavirt.com disqus-home-atdt single nicepaste URL — cross-paste stub, insufficient to classify.
+6a36d80fb38d07b72391a1a7de05700a29a9db62699c55b47f575815dab79f2d	unknown	unknown	reviewer_confirmed	low	04	try / agent hello test — bare agent connectivity probe.
+6e4d2ab0784a3e2d745f79fee637914bc0c4674474dc9dcdff953a4485b6b19e	unknown	unknown	reviewer_confirmed	low	04	ReferenceLinks0 with example.com only — infra probe, no series marker.
+7f3239685ff46784ef194eb0de20088e49a66a35ae2296023c92df5fd94cd552	unknown	unknown	reviewer_confirmed	low	04	title x body test-oai-noharm — OAI-style probe explicitly marked harmless.
+912a77b20b0f003c7c7b71faccf8569148bd5fab8a60dbc1b37d572085b01ea3	unknown	unknown	reviewer_confirmed	low	01	catbox.moe cPanel-site zip drop with sha256; could be human artifact or swarm payload — insufficient signal.
+9bc9612a6cca08d5f3e4a0eab3f257325cc395d7c17f1cbed02a6d5df941e8bf	unknown	unknown	reviewer_confirmed	low	04	ReplySF ourreply — short reply probe, no context to classify further.
+9cf816dc0753e8b02e60281c66de8d31d77675d168998a341713de3a7aeb4aa9	unknown	unknown	reviewer_confirmed	low	01	'hello from api' with default color+animal handle; could be swarm API smoke but no distinctive marker.
+a31272e7ac032c69a7a70d912f00cbd436e340aa2497eefcb12753e21eee9583	unknown	unknown	reviewer_confirmed	low	01	curl -H Googlebot User-Agent snippet; no task-family marker.
+b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9	unknown	unknown	reviewer_confirmed	low	01	'hello world' body with default color+animal handle; no swarm marker.
+c0c9727fadca064b97f06595b012dfe690fe3f154ffdd0018759012bced11a85	unknown	unknown	reviewer_confirmed	low	01	One-line meta commentary under 'Human' handle; ambiguous observer-or-roleplay.
+c2e44d4f08db5f9fe592954ba349fc9198a8f281335f67b62d2e31a6461d07d8	unknown	unknown	reviewer_confirmed	low	01	63-byte base64-looking blob with no title context; too cryptic to classify.
+c54b257e15891558e134ba3976897b7fc166978ff26ef70112f8028cd48c5087	unknown	unknown	reviewer_confirmed	low	04	Title Research body TestHelloABC — one-shot connectivity probe, no series marker.
+cc96ad1f6d999b84f472b817e92e8228ea6824e10b77921ae718a5d5effc9e05	unknown	unknown	reviewer_confirmed	low	01	Body is stikked default 'Powered by stikked' string; probably empty-paste artifact.
+d17dc33bbab186d28bf6a61a4b79cf7191157f5d47e7775799ad28070094eb40	unknown	unknown	reviewer_confirmed	low	04	SFXY883/ZZNEW883 opaque token — likely handshake probe, no series marker.
+d61780b06a35bcec2061829c9c53d7600bbcb35af35d6a30c4ded853cd890c3e	unknown	unknown	reviewer_confirmed	low	04	Yahoo Japan finance historical URL for GDDY 2019-11-15 with focusagent001 marker — single-shot finance research probe.
+db6021287a80f6074b1b118e6e3d4adb92bf574bf4daa719ba459181162c3978	unknown	unknown	reviewer_confirmed	low	04	ShortURLtestjune shortURLtest — text-only shortener test, no actual shortened URLs present.
+de86af04f63b0bd5ae69f43b4bea0ba0c9e45a955bcde82cc1acf815cf166b7a	unknown	unknown	reviewer_confirmed	low	04	probe2 test from agent — bare probe (agent-test cohort but no Iowa marker in body).
+ecd27df86e75ecd00a225abd2a5b4c1b2332ece7d7835986182ab8174bf296eb	unknown	unknown	reviewer_confirmed	low	04	oaitest test123 — bare probe.
+ed11ab4f0a89b6deaa294dd3fd5494032935f39371ef8a5d0d7423f3dd1438b6	nicepaste-cross-index	unknown	reviewer_overrode_regex	low	04	pb.dynavirt.com List of subdomains body single nicepaste URL — sparse cross-link, insufficient to classify.
+f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8	unknown	unknown	reviewer_confirmed	low	01	Two-byte 'as' body under 'zx' handle; keyboard-test noise.
+0056c29014da78eaa53652a0b31310051deeb05d199a2ce7420d4933e36ccdde	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+06c9d98f01895ad61142048999213cd1999846287c4fb29e26044dae7a261262	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+08cc7d7297ed9a61d4222bace009cce654c8f0496cb20c765593c8d3c9dfff43	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+1458761e744694ef7259fbf5a2f1a453c9ea52bdd88c57477fd16a85ada6a776	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+19498d093280be72b9b4c5a835e031a5a1022def49adb92129adde7535da90e9	unknown	url-fetch-proxy-usage	reviewer_upgraded_from_unknown	medium	01	'testvar'/'try rawvar' duplicate-relay pair probing paste-site raw-body infrastructure; swarm-relay smoke test.
+1dd4ec198a86a637737a40c16fbc98e97c680d55259b1247585039a427f413a0	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+1dfb0334c39636d6fc89b6fc4a689fad10439c9ddc4f0d3e0d2e99cffa42fb03	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+1e775f2373ad8ceeec2e43caa43511256bb9c9833e4f8da3889b7047060d6298	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+1ed0977defd0efae2fc939d48258b66d3106f9844b07414569696a69ac58d379	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+1f6e413b389f3d16661a6171450d5804cb2dc81c6de728b18ff7be0a17725d98	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+22854bcca7d581979cba6942275eb46fefde29fa2c519dd7b108cef6beeca27b	url-fetch-proxy-usage	url-fetch-proxy-usage	reviewer_confirmed	high	05	Confirms current_task; RefQ0 markdown.new/allorigins/cors.workers.dev proxy variants over portal.max.gov.
+243fd14b156087fe9a417f6600391efc5b7042243395faaf8b6b3ecf04c9c20f	url-fetch-proxy-usage	url-fetch-proxy-usage	reviewer_confirmed	high	05	Confirms current_task; 2md.link proxy over is.gd short URL.
+24762aee6e253137ce6cfaa0457840c3a33c5efaa428f67365adef40387ca456	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+2a2cb513d7a72cf7bf0b287575ba007b62888833045313aa3f4c47131022b338	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+2b38b166f4061fb26d240ceb3adf1737581529a242aa2184eea3d1227856b2a3	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+2c331f239b403acba9aa37b9ef0f2a316109512620883bfd13b6ef57602c1454	unknown	url-fetch-proxy-usage	reviewer_upgraded_from_unknown	medium	04	agent-test probing docs.google.com/viewer proxy with example.com URL — render-proxy usage probe.
+2f3900a1e4349e16553ff3ba7e3ecafcbddcb5e46db4fa15f2370e0be5c49194	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+31fc45aa383bdce43cb11cdce8491cdb245d658916395563f15ddd669ae38c38	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+3248abdcb007d6a3d849c153efc307f33776ee83a70f2b8c02fc2a4251637f33	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+33243d54ec3d9d02c7783be7b366b0a9d4af46c490a06af97b839cb47532886a	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+39d30224ecea9adca57440718bdac254669662c42402ebd1e779925f68b8fafc	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+40d9a1d8dcf335cbdecbf8bb0ed8361fc0a2b963a16de9c0dbff0d42ed9e716d	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+4206dc9cdef3ebc2405e57172414b1eaecffe8eb51e78ef060f2a2d6b78522be	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+4968ccc29061c3350459f37990f15a9d318d71e19cd6e439c987e2999d13cf58	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+4a019b0942dab6eedf25659d786bcc098cb564756268dc3b6c7ffc26d88db12e	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+4b10b9af8417c5c1bc46597a8e07265dfc5925cb49271c25f553a78acd81d0a8	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+4f1e1e277593fd02080535e239fa4f653f494617d9e48d063e37d9ee14b2a7ac	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+52dee06ecad007c160fc620c1f52d1756a9bdef87ff8de7b49147267edd132fb	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+55d1e46111d9d096b8db77eade6132ca3c0d87cfa8c8926ff4f87826ac38aeeb	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+5c4a342e5ceae07e0b3b72e66e847a880f70eaa20dc1db310c96132372ce3164	url-fetch-proxy-usage	url-fetch-proxy-usage	reviewer_confirmed	high	05	Confirms current_task; Gurl99 jqp.vercel.app proxy tests against rspace.library.cofc.edu manifest.
+5eb1fb13c16dfa06996af913d0da4b9f3369f1e0a9da7ef2c93ab07870b53114	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+5fecaa65240c19d090ed5c9515906ee54bdd15f0be95b5dc5443e563fa3cc42d	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+60966b4f95d3de129ba6ed85460e47ec80f7b6f4865d53b319c4b0f571cf8b85	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+636b6bce847caf926dab7a1beaf5fc787b9e7b4ca5fa6dcc5c644f00ac2126b5	unknown	url-fetch-proxy-usage	reviewer_upgraded_from_unknown	medium	04	meta refresh redirect with example.com — testing HTML-render/refresh proxy behaviour.
+67ab3afa2842e2e1b5fd7513eca4ed1d259853907be5d50e0d15e487253324b3	url-fetch-proxy-usage	url-fetch-proxy-usage	reviewer_confirmed	medium	05	Overrides epl-2000-01-bench; body is telegra.ph link test (CLICKMAYBE), not EPL content — TEL series here tests proxy URLs.
+67ad9e51789377cb935396f2f6a99cf65ea15b52d0068fddde7e9f9836a2c79c	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+69b1179ac1e06f1414b1cb82a2c382c58121bb7b563e928da20053776f23bd84	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+6d69ced0916ff1a6c32a9f222b87f4510fea6a5f213e36d95b433342a223a722	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+70cf9cc10d239dd718d8a63afafd0ea409814faafe166ea54ebb43415a2c3b5d	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+745eecf067daaaf07b34558d28fef5cd0f8895d6795386a6a593c445239a3686	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+75155ff620ef5870d2094e8f97a5c22b8546fcc0a8fd1a8ec4a0ab00e3598b23	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+7941347992911e60f7cd7326dd9db40863cec7bdc525bedf3789964d65213fc6	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+814c28d04a348e03c9850de37d1cd0b85616ed28e864ea01f897283985db6c1e	unknown	url-fetch-proxy-usage	reviewer_upgraded_from_unknown	medium	01	'testvar'/'try rawvar' relay-partner of pid b76c5944 posted one second apart; swarm-relay smoke test.
+84d891ab51d2bd00eb760a5ca7eda4b4c86f8ba38582643040d4e5bf4150d7e9	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+89fa9e8d263bb18e994acdd1cba46d672474b6182675f87bc3d15b59c8a3ebc6	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+8aab2891b6a5ac17ab99bb4f6ad90cbfa08517e3a659ae655c570e655ed8a24c	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+90345411db3ac7fa949fd165f09a88c9da0f54f91010f8b8d4fdcfa140df16d1	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+959207a691da63084d87db389a78d1da79f96524b139b69247c180f4108aa24d	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+99d6de713914e7811531a2074143e852247b37ec984436d93c1b710c22b7e4c1	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+ad0f4995089b5d13cbd9c5d7a33832ffa9809a21abeadf7875ed955110abe94c	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+b2eefb6bfe1c26f499775aaaf8d81d943ba2a1e6560345454ca0c04cb01d4c9d	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+bd37cf03dcb65132f3f47e3d9522e0b63bf85e7e1b484a9480e7141e755a23cd	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+bd81c2f439e302d84e13ed1744c10bfdc359a093e8efae927b43520c6f2638ee	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+c50e72a658f4821155ced955c80ef7584f0f39ea3f0407f8ff7129e5c4768a15	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+c526c1fc8a4bab7852cdce422e0505a98830044047be78ee0d656cbb7c83c2aa	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+ccce0cb67148bdd9a4f07b356e95f7671ffab083837125c08a973f229191f9a8	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+cdf2579be47e458f58eece5aec2c19ae27f43b1d5d7be4ecee1776a5ae668bb0	url-fetch-proxy-usage	url-fetch-proxy-usage	reviewer_confirmed	high	05	Confirms current_task; RefXY allorigins/docs.google gview proxy variants over portal.max.gov xlsx.
+ce6c841c1efa2db2336eec43c0b947af3273471c1b113be6091afffa0af7c1d4	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+cfd1e50c9b7b82f34e9b5398dd6a3daa540614e2e03d8efc9bf96482c865a980	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+d237705c530c917fae7edf248fbd64ba4f1db0524a0ac0670464ff7ab319f534	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+d635dad54dd6148e7be60f5ba697938f55d969ca5bd3dda3ed6859c845247b68	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+d6c4af1467beb67676284ccaaae666bc8696d5c0c70a5d84ffbf79fec34676cf	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+d7817de4401e0f8b6ce748528de573baaa0f2219d5a1e52a271344f373a819b0	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+d7ceca86c551ab296abf06dbc031734bc38d83621485aa09b4aa7d3e9ffcaeb4	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+dca6d928893680eeaaf1460ce08a35052591a949cd755aae72b969e87c62e45e	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+ded87b2c8c4d75453ed3e6420ced6eaccf673e52392d6786eb05876ca0df60cb	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+e1146b72d1bd060478a29c3815b27ca8a8ff1faf3c42ead2e475db637c9d8392	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+e506c45bc1533a9449da0a509b6d2878afe78d411f020628486f791fc7a21e40	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+eac5ec6295f305e1440794a79f357af390d327318461484889468f336b940c0e	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+ead7bfdde7bba9a6d0a0115df88e34cf049da714345b14f4a32ac6f2ea178fc6	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+ed9b61b386532932d0facceb758fd048218f04fb967d34566d491ac79cd6a3c1	unknown	url-fetch-proxy-usage	reviewer_upgraded_from_unknown	medium	04	pari-transfer with putput.io CDN links for wasm/js/index blobs — code-transfer via public CDN, infra staging.
+ef4089efa5d661ba650c80de2c4fdbe89879a03d791482eb3d7ca19d07d8fc7b	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+f0e8358fc4de6dfc831c6c311166984bdd66fbb55d4882167711b1d09dffd019	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+f3572cae1160846c3aac5766222ea1c49100449fb0f6043adf6b0bdbe3088bb5	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+f888124a5d0f73664e73e92fee762694655737be20d925468798dcc885836b16	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+fdfad4bedd450dfdfcbba930247a554b2bd40518c1dd0d401208ac4c3fe32a0c	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+ff38fc478edbfb5a5316d666400ff2a4df11644cb1f9d59859945dd7b584ac98	url-fetch-proxy-usage	url-fetch-proxy-usage	regex_only			
+3cd111df46fa15ed53ca48b8f1400f08b4ba0e0bf3309c8aeabae7f10b53daaf	usaspending-cache	usaspending-cache	reviewer_confirmed	high	05	Confirms current_task; RefAP2 duplicate of api.usaspending.gov federal_accounts probes.
+b03395a46793c02e267be89cc9fa74e6ccf91e189c62cd36b4020d6838172a30	usaspending-cache	usaspending-cache	reviewer_confirmed	high	05	Confirms current_task; RefAP api.usaspending.gov federal_accounts probe URLs.
+a1f4388160a4268c614a0a7465f5d4f7dc3f64c46182494f4ff16f60ef40f284	unknown	wp-recon-enumeration	reviewer_upgraded_from_unknown	medium	01	Disqus/asthedisqturns wp-login URL enumeration — wp-recon-enumeration pattern.
+cb983cdeb87ad8eb7242df40da179b3c0b30234b07aaebf6b782d09f130a2492	unknown	wp-recon-enumeration	reviewer_upgraded_from_unknown	medium	01	WordPress/cPanel subdomain URL enumeration for labaspreces.eu; new label for automated site-recon dumps (see also disqus recon).
+871bcdd11e35f7db1833c894cd3278da9870e39c1fb256761ca1058191920ff6	youtube-watch-list	youtube-watch-list	reviewer_confirmed	high	05	Confirms current_task; multiple youtube.com/watch_videos bulk id lists (anna.fyi series).
+a711f02fb16032eb16d8f5c790cac301db3877d1eeefa5185900433b426e671a	youtube-watch-list	youtube-watch-list	reviewer_confirmed	high	05	Confirms current_task; multiple youtube.com/watch_videos bulk id lists.
