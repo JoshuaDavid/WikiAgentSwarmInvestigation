@@ -1,20 +1,28 @@
 """Render the AgentOpenAIDataUSAHubMay13X7 hub timeline as an SVG.
 
-One row per page (hub on top, then the 8 children created inside the
-prowiki UTC-precise window). X axis is 2026-06-16 UTC from 19:30 to 22:00.
-Horizontal bar per page runs from that page's @1 write_date to the right
-edge. Vertical drop lines fall from each hub revision through every child
-row; at each intersection a circle marks whether the linked child page
-already existed at that moment: filled = existed, open = did not exist yet.
+One row per page, each in its own color. Vertical dashed drop lines fall
+from each hub revision and inherit the hub's color; dots on those drop
+lines also inherit the hub's color. A dot lands on a child row only if
+that hub revision created a link to that child (new_links = links in this
+rev minus links in the previous rev of the same page). Fill state on a
+dot: open = target did not yet exist at drop time, filled = target already
+existed.
+
+Render order: drops first, then horizontal bars, so bars visibly cover
+drop segments where they cross without a dot.
 """
 from datetime import datetime, timezone
 
-# All timestamps are UTC.
 def T(h, m, s):
     return datetime(2026, 6, 16, h, m, s, tzinfo=timezone.utc)
 
 HUB = "AgentOpenAIDataUSAHubMay13X7"
-HUB_REVS = [("@1", T(19, 41, 35)), ("@2", T(21, 4, 21))]
+
+_SLOTS = [f"AgentOpenAIDataUSASlotMay13X7_{i:02d}" for i in range(1, 31)]
+HUB_REVS = [
+    {"tag": "@1", "t": T(19, 41, 35), "new_links": set(_SLOTS)},
+    {"tag": "@2", "t": T(21, 4, 21), "new_links": set()},
+]
 
 CHILDREN = [
     ("AgentOpenAIDataUSASlotMay13X7_01", T(20, 40, 39)),
@@ -27,21 +35,32 @@ CHILDREN = [
     ("AgentOpenAIDataUSASlotMay13X7_22", T(21, 46, 26)),
 ]
 
+HUB_COLOR = "#d62728"
+CHILD_COLORS = [
+    "#1f77b4",  # _01 blue
+    "#2ca02c",  # _29 green
+    "#ff7f0e",  # _28 orange
+    "#9467bd",  # _26 purple
+    "#17becf",  # _27 cyan
+    "#e377c2",  # _24 pink
+    "#bcbd22",  # _23 olive
+    "#8c564b",  # _22 brown
+]
+
 X_START = T(19, 30, 0)
 X_END = T(22, 0, 0)
 
-# Layout
 LEFT_LABEL_W = 330
 RIGHT_PAD = 20
 TOP_PAD = 40
 ROW_H = 42
-TICK_LABELS = [T(19, 30, 0), T(20, 0, 0), T(20, 30, 0), T(21, 0, 0),
-               T(21, 30, 0), T(22, 0, 0)]
-
 CHART_W = 620
 CHART_H = (1 + len(CHILDREN)) * ROW_H
 SVG_W = LEFT_LABEL_W + CHART_W + RIGHT_PAD
-SVG_H = TOP_PAD + CHART_H + 50
+SVG_H = TOP_PAD + CHART_H + 60
+
+TICK_LABELS = [T(19, 30, 0), T(20, 0, 0), T(20, 30, 0), T(21, 0, 0),
+               T(21, 30, 0), T(22, 0, 0)]
 
 
 def x_of(t):
@@ -54,10 +73,6 @@ def y_of(row):
     return TOP_PAD + row * ROW_H + ROW_H / 2
 
 
-def existed_at(child_t, at_t):
-    return at_t >= child_t
-
-
 def hms(t):
     return t.strftime("%H:%M")
 
@@ -65,96 +80,132 @@ def hms(t):
 def main():
     parts = []
     parts.append(
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{SVG_W}" height="{SVG_H}" '
-        f'viewBox="0 0 {SVG_W} {SVG_H}" font-family="monospace" font-size="12">'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{SVG_W}" '
+        f'height="{SVG_H}" viewBox="0 0 {SVG_W} {SVG_H}" '
+        f'font-family="monospace" font-size="12">'
     )
-    parts.append('<style>'
-                 '.bar{stroke:#333;stroke-width:2;fill:none}'
-                 '.drop{stroke:#888;stroke-width:1;stroke-dasharray:2 3;fill:none}'
-                 '.axis{stroke:#333;stroke-width:1;fill:none}'
-                 '.grid{stroke:#ddd;stroke-width:1;fill:none}'
-                 '.label{fill:#111}'
-                 '.rev{fill:#111;font-weight:bold}'
-                 '.tick{fill:#333}'
-                 '.filled{fill:#333;stroke:#333;stroke-width:1}'
-                 '.open{fill:#fff;stroke:#333;stroke-width:1.5}'
-                 '</style>')
+    parts.append(
+        '<style>'
+        '.axis{stroke:#333;stroke-width:1;fill:none}'
+        '.grid{stroke:#eee;stroke-width:1;fill:none}'
+        '.tick{fill:#333}'
+        '</style>'
+    )
 
-    # Vertical gridlines at each tick
+    # --- Layer 1: grid ---
     for t in TICK_LABELS:
         x = x_of(t)
-        parts.append(f'<line class="grid" x1="{x:.1f}" y1="{TOP_PAD}" '
-                     f'x2="{x:.1f}" y2="{TOP_PAD + CHART_H}"/>')
+        parts.append(
+            f'<line class="grid" x1="{x:.1f}" y1="{TOP_PAD}" '
+            f'x2="{x:.1f}" y2="{TOP_PAD + CHART_H}"/>'
+        )
 
-    # Y axis on the left of the chart
-    parts.append(f'<line class="axis" x1="{LEFT_LABEL_W}" y1="{TOP_PAD}" '
-                 f'x2="{LEFT_LABEL_W}" y2="{TOP_PAD + CHART_H}"/>')
-    # X axis at the bottom
-    parts.append(f'<line class="axis" x1="{LEFT_LABEL_W}" y1="{TOP_PAD + CHART_H}" '
-                 f'x2="{LEFT_LABEL_W + CHART_W}" y2="{TOP_PAD + CHART_H}"/>')
+    # --- Layer 2: drop lines (under bars). All drops from the hub, so all
+    # inherit the hub's color. ---
+    drop_y_top = y_of(0)
+    drop_y_bot = y_of(len(CHILDREN)) + 6
+    for rev in HUB_REVS:
+        x = x_of(rev["t"])
+        parts.append(
+            f'<line x1="{x:.1f}" y1="{drop_y_top:.1f}" '
+            f'x2="{x:.1f}" y2="{drop_y_bot:.1f}" '
+            f'stroke="{HUB_COLOR}" stroke-width="1" '
+            f'stroke-dasharray="2 3" fill="none"/>'
+        )
 
-    # X-axis tick labels
-    for t in TICK_LABELS:
-        x = x_of(t)
-        y = TOP_PAD + CHART_H + 15
-        parts.append(f'<text class="tick" x="{x:.1f}" y="{y}" '
-                     f'text-anchor="middle">{hms(t)}</text>')
-    parts.append(f'<text class="tick" x="{LEFT_LABEL_W + CHART_W / 2:.1f}" '
-                 f'y="{TOP_PAD + CHART_H + 35}" text-anchor="middle">'
-                 f'2026-06-16 UTC</text>')
+    # --- Layer 3: horizontal bars (on top of drops) ---
+    rows = [(HUB, HUB_REVS[0]["t"], [(r["tag"], r["t"]) for r in HUB_REVS], HUB_COLOR)]
+    for (name, t), color in zip(CHILDREN, CHILD_COLORS):
+        rows.append((name, t, [("@1", t)], color))
 
-    # Row 0: hub. Bar from hub @1 to right edge.
-    row_data = [(HUB, HUB_REVS[0][1], HUB_REVS)] + [
-        (name, t, [("@1", t)]) for name, t in CHILDREN
-    ]
-
-    for i, (name, first_t, markers) in enumerate(row_data):
+    for i, (name, first_t, markers, color) in enumerate(rows):
         y = y_of(i)
-        # Label on the left (right-justified into the label column)
         parts.append(
-            f'<text class="label" x="{LEFT_LABEL_W - 8}" y="{y + 4}" '
-            f'text-anchor="end">{name}</text>'
+            f'<text x="{LEFT_LABEL_W - 8}" y="{y + 4}" '
+            f'text-anchor="end" fill="{color}" font-weight="bold">{name}</text>'
         )
-        # Horizontal bar from first_t to right edge
         parts.append(
-            f'<line class="bar" x1="{x_of(first_t):.1f}" y1="{y}" '
-            f'x2="{LEFT_LABEL_W + CHART_W:.1f}" y2="{y}"/>'
+            f'<line x1="{x_of(first_t):.1f}" y1="{y}" '
+            f'x2="{LEFT_LABEL_W + CHART_W:.1f}" y2="{y}" '
+            f'stroke="{color}" stroke-width="3" fill="none"/>'
         )
-        # @-markers on the bar
+
+    # --- Layer 4: @-markers on bars, in row color ---
+    for i, (name, first_t, markers, color) in enumerate(rows):
+        y = y_of(i)
         for tag, t in markers:
             parts.append(
-                f'<text class="rev" x="{x_of(t):.1f}" y="{y - 5}" '
-                f'text-anchor="start">{tag}</text>'
+                f'<line x1="{x_of(t):.1f}" y1="{y - 5}" '
+                f'x2="{x_of(t):.1f}" y2="{y + 5}" '
+                f'stroke="{color}" stroke-width="2"/>'
             )
-            # Small tick on the bar itself so the marker's foot is visible
             parts.append(
-                f'<line class="axis" x1="{x_of(t):.1f}" y1="{y - 3}" '
-                f'x2="{x_of(t):.1f}" y2="{y + 3}"/>'
+                f'<text x="{x_of(t) + 3:.1f}" y="{y - 7}" '
+                f'text-anchor="start" fill="{color}" '
+                f'font-weight="bold">{tag}</text>'
             )
 
-    # Drop lines from each hub revision to every child row, with circles.
-    for tag, hub_t in HUB_REVS:
-        x = x_of(hub_t)
-        # Vertical dashed line from hub row down to last child row.
-        parts.append(
-            f'<line class="drop" x1="{x:.1f}" y1="{y_of(0) + 6}" '
-            f'x2="{x:.1f}" y2="{y_of(len(CHILDREN)) + 6}"/>'
-        )
-        # Circle at each child row.
-        for i, (name, child_t) in enumerate(CHILDREN, start=1):
+    # --- Layer 5: dots (hub color) ---
+    for rev in HUB_REVS:
+        x = x_of(rev["t"])
+        for i, (child_name, child_t) in enumerate(CHILDREN, start=1):
+            if child_name not in rev["new_links"]:
+                continue
             y = y_of(i)
-            cls = "filled" if existed_at(child_t, hub_t) else "open"
-            parts.append(f'<circle class="{cls}" cx="{x:.1f}" cy="{y}" r="4.5"/>')
+            filled = rev["t"] >= child_t
+            if filled:
+                parts.append(
+                    f'<circle cx="{x:.1f}" cy="{y}" r="5" '
+                    f'fill="{HUB_COLOR}" stroke="{HUB_COLOR}" '
+                    f'stroke-width="1"/>'
+                )
+            else:
+                parts.append(
+                    f'<circle cx="{x:.1f}" cy="{y}" r="5" '
+                    f'fill="#fff" stroke="{HUB_COLOR}" '
+                    f'stroke-width="2"/>'
+                )
+
+    # --- Layer 6: axes and tick labels ---
+    parts.append(
+        f'<line class="axis" x1="{LEFT_LABEL_W}" y1="{TOP_PAD}" '
+        f'x2="{LEFT_LABEL_W}" y2="{TOP_PAD + CHART_H}"/>'
+    )
+    parts.append(
+        f'<line class="axis" x1="{LEFT_LABEL_W}" y1="{TOP_PAD + CHART_H}" '
+        f'x2="{LEFT_LABEL_W + CHART_W}" y2="{TOP_PAD + CHART_H}"/>'
+    )
+    for t in TICK_LABELS:
+        x = x_of(t)
+        parts.append(
+            f'<text class="tick" x="{x:.1f}" y="{TOP_PAD + CHART_H + 15}" '
+            f'text-anchor="middle">{hms(t)}</text>'
+        )
+    parts.append(
+        f'<text class="tick" x="{LEFT_LABEL_W + CHART_W / 2:.1f}" '
+        f'y="{TOP_PAD + CHART_H + 35}" text-anchor="middle">'
+        f'2026-06-16 UTC</text>'
+    )
 
     # Legend
     lx = LEFT_LABEL_W + 20
-    ly = TOP_PAD + CHART_H + 45
-    parts.append(f'<circle class="open" cx="{lx}" cy="{ly - 4}" r="4.5"/>')
-    parts.append(f'<text class="tick" x="{lx + 10}" y="{ly}" '
-                 f'text-anchor="start">page did not exist at link time</text>')
-    parts.append(f'<circle class="filled" cx="{lx + 260}" cy="{ly - 4}" r="4.5"/>')
-    parts.append(f'<text class="tick" x="{lx + 270}" y="{ly}" '
-                 f'text-anchor="start">page already existed</text>')
+    ly = TOP_PAD + CHART_H + 55
+    parts.append(
+        f'<circle cx="{lx}" cy="{ly - 4}" r="5" fill="#fff" '
+        f'stroke="{HUB_COLOR}" stroke-width="2"/>'
+    )
+    parts.append(
+        f'<text class="tick" x="{lx + 10}" y="{ly}" text-anchor="start">'
+        f'link created; target did not yet exist</text>'
+    )
+    parts.append(
+        f'<circle cx="{lx + 280}" cy="{ly - 4}" r="5" fill="{HUB_COLOR}" '
+        f'stroke="{HUB_COLOR}"/>'
+    )
+    parts.append(
+        f'<text class="tick" x="{lx + 290}" y="{ly}" text-anchor="start">'
+        f'link created; target already existed</text>'
+    )
 
     parts.append('</svg>')
 
