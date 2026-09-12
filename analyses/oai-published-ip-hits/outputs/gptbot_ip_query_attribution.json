@@ -1,0 +1,1209 @@
+{
+  "target_ips": [
+    "74.7.227.151",
+    "74.7.227.165",
+    "74.7.241.37",
+    "74.7.227.138",
+    "74.7.241.17",
+    "74.7.227.36",
+    "74.7.243.202"
+  ],
+  "n_weeks_of_shards_available": 49,
+  "n_group_files_with_any_target_ip": 373,
+  "n_distinct_queries_that_hit": 110,
+  "queries_hitting_every_week": [
+    "\"yourls.website\"",
+    "\"yourls.shop\"",
+    "\"yourls.pro\""
+  ],
+  "queries": [
+    {
+      "query": "\"yourls.website\"",
+      "n_weeks_fired": 49,
+      "first_week": "2025-10-05",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 49,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\"",
+      "n_weeks_fired": 49,
+      "first_week": "2025-10-05",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 49,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\"",
+      "n_weeks_fired": 49,
+      "first_week": "2025-10-05",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 49,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"jqp.vercel.app\"",
+      "n_weeks_fired": 48,
+      "first_week": "2025-10-05",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 48,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"api.internetpoverty.io\"",
+      "n_weeks_fired": 24,
+      "first_week": "2025-10-05",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 24,
+      "matched_ips": [
+        "74.7.227.165",
+        "74.7.241.17",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"rspace.library.cofc.edu\"",
+      "n_weeks_fired": 7,
+      "first_week": "2025-11-23",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 7,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"GOALBITDSTgoalbit587777931\"",
+      "n_weeks_fired": 6,
+      "first_week": "2025-11-09",
+      "last_week": "2026-03-22",
+      "group_hits_across_weeks": 6,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit587777931\"",
+      "n_weeks_fired": 5,
+      "first_week": "2025-12-14",
+      "last_week": "2026-08-09",
+      "group_hits_across_weeks": 5,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"api.internetpoverty.io\" \"allorigins.hexlet.app\"",
+      "n_weeks_fired": 4,
+      "first_week": "2025-10-12",
+      "last_week": "2026-05-17",
+      "group_hits_across_weeks": 4,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.17",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"vizhub.healthdata.org/lbd/api/v1/themes/tb\"",
+      "n_weeks_fired": 4,
+      "first_week": "2025-12-07",
+      "last_week": "2026-04-19",
+      "group_hits_across_weeks": 4,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"web.archive.org\" \"pure.md\"",
+      "n_weeks_fired": 3,
+      "first_week": "2025-11-23",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 3,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"allorigins.hexlet.app\" \"yourls\"",
+      "n_weeks_fired": 3,
+      "first_week": "2026-04-05",
+      "last_week": "2026-08-16",
+      "group_hits_across_weeks": 3,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"TS030\" \"pure.md\"",
+      "n_weeks_fired": 3,
+      "first_week": "2026-02-22",
+      "last_week": "2026-05-17",
+      "group_hits_across_weeks": 3,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"web2md.site\"",
+      "n_weeks_fired": 3,
+      "first_week": "2025-11-23",
+      "last_week": "2026-07-12",
+      "group_hits_across_weeks": 3,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"TS030\" \"markdown.new\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-01-18",
+      "last_week": "2026-05-10",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"everyorigin.deno.dev\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-07-12",
+      "last_week": "2026-09-06",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"finance.yahoo.co.jp\" \"md.succ.ai\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-01-18",
+      "last_week": "2026-08-16",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"zagchain743355\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-03-15",
+      "last_week": "2026-03-29",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"PROTARGETssrftest205599\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-03-15",
+      "last_week": "2026-03-22",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"finance.yahoo.co.jp\" \"markdown.new\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-10-05",
+      "last_week": "2026-05-17",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"CHAINFINALa0chain2959560638\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-03-15",
+      "last_week": "2026-03-22",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"ourvar110505912\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-03-15",
+      "last_week": "2026-03-29",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"finance.yahoo.com/quote/CYBR/history\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-12-07",
+      "last_week": "2026-04-19",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.17",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"GOALBITDSTgoalbit83683311\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-11-09",
+      "last_week": "2026-03-15",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"pure.md\" \"TS030\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-02-01",
+      "last_week": "2026-04-26",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"finance.yahoo.com/quote/GDDY/history\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-12-07",
+      "last_week": "2026-04-19",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"allorigins.hexlet.app\" \"TS030\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-02-01",
+      "last_week": "2026-04-26",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165"
+      ]
+    },
+    {
+      "query": "\"api.internetpoverty.io/graphql\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-12-07",
+      "last_week": "2026-04-19",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.227.165",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"markdown.new\" \"TS030\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-02-01",
+      "last_week": "2026-04-26",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"jsonhero.io\" \"yourls.pro\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-04-05",
+      "last_week": "2026-06-07",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"pure.md/finance.yahoo.com/quote\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-12-07",
+      "last_week": "2026-04-19",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.227.151",
+        "74.7.227.36",
+        "74.7.241.17",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"api.internetpoverty.io\" \"yourls.pro\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-02-22",
+      "last_week": "2026-05-17",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.pro/https://finance.yahoo.com/quote\"",
+      "n_weeks_fired": 2,
+      "first_week": "2025-12-07",
+      "last_week": "2026-04-19",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"www.proxymule.com\"",
+      "n_weeks_fired": 2,
+      "first_week": "2026-07-12",
+      "last_week": "2026-07-26",
+      "group_hits_across_weeks": 2,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"jqp.vercel.app\" \"yourls.pro\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"TS030\" \"yourls.shop\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-02-22",
+      "last_week": "2026-02-22",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"ag0ssrfsh7443655\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-08-02",
+      "last_week": "2026-08-02",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\" December 31 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"yourls.space\" December 31 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.165"
+      ]
+    },
+    {
+      "query": "\"bittrig\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-11-30",
+      "last_week": "2025-11-30",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"ag0bridgeinner0117122\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-08-02",
+      "last_week": "2026-08-02",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"yourls.website\" December 31 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"finance.yahoo.com\" \"pure.md\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-11-23",
+      "last_week": "2025-11-23",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.227.151",
+        "74.7.227.36",
+        "74.7.241.17",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"api.beta.ons.gov.uk\" \"TS030\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-11-23",
+      "last_week": "2025-11-23",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.165",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"allorigins.hexlet.app\" \"May 30, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-24",
+      "last_week": "2026-05-24",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.17",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\" \"pure.md\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"vizhub.healthdata.org/lbd/api/v1/themes/tb/config\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-01-25",
+      "last_week": "2026-01-25",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.website\" \"pure.md\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" January 3 2026",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\" \"May 30, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-24",
+      "last_week": "2026-05-24",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"goalbit537782401\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit83683311\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" \"yourls.shop\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\" December 31 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"goalbit275270662\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit705405214\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"api.dataafrica.io\" \"pure.md\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-08-16",
+      "last_week": "2026-08-16",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"api.internetpoverty.io\" \"pure.md\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-02-15",
+      "last_week": "2026-02-15",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit773888554\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit296086902\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"pure.md\" \"yourls.shop\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\" January 3 2026",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" December 28 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" \"yourls.pro\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"GOALBITDSTgoalbit773888554\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-11-09",
+      "last_week": "2025-11-09",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"GOALBITDSTgoalbit705405214\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-11-09",
+      "last_week": "2025-11-09",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit620125211\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" \"yourls.space\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\" January 3 2026",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"goalbit767408016\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit64243875\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit67941761\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" \"yourls.website\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"yourls.website\" January 3 2026",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\" December 28 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit689661795\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit324269388\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit691242857\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\" December 28 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"da.gd\" \"allorigins.hexlet.app\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.pro\" \"May 30, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-24",
+      "last_week": "2026-05-24",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"da.gd\" \"yourls.pro\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.space\" January 3 2026",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.165"
+      ]
+    },
+    {
+      "query": "\"yourls.website\" December 28 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" December 31 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"allorigins.hexlet.app\" \"api.internetpoverty.io\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-26",
+      "last_week": "2026-04-26",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.17",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"jqp.vercel.app\" \"api.dataafrica.io\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-03",
+      "last_week": "2026-05-03",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"NM_2049_1\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-06-28",
+      "last_week": "2026-06-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165"
+      ]
+    },
+    {
+      "query": "\"yourls.space\" December 28 2025",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-28",
+      "last_week": "2025-12-28",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.165"
+      ]
+    },
+    {
+      "query": "\"api.dataafrica.io\" \"yourls.pro\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-08-16",
+      "last_week": "2026-08-16",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"md.succ.ai\" \"api.internetpoverty.io\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-26",
+      "last_week": "2026-04-26",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"goalbit608244174\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-14",
+      "last_week": "2025-12-14",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.space\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"thtarget883611\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-03-15",
+      "last_week": "2026-03-15",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"vizhub.healthdata.org\" \"yourls.pro\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-02-22",
+      "last_week": "2026-02-22",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"Stats\" \"allorigins.hexlet.app\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-11-09",
+      "last_week": "2025-11-09",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.165",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"pure.md\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"Original URL\" \"md.succ.ai\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-07-12",
+      "last_week": "2026-07-12",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.36",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"yourls.shop\" \"allorigins.hexlet.app\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"allorigins.hexlet.app\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.165",
+        "74.7.241.17",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"api.internetpoverty.io\" \"yourls.shop\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-02-22",
+      "last_week": "2026-02-22",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37",
+        "74.7.243.202"
+      ]
+    },
+    {
+      "query": "\"GOALBITDSTgoalbit587777931\" \"Stats\"",
+      "n_weeks_fired": 1,
+      "first_week": "2025-12-21",
+      "last_week": "2025-12-21",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"TS030\" \"yourls.pro\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-02-22",
+      "last_week": "2026-02-22",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"da.gd\" \"May 30, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-24",
+      "last_week": "2026-05-24",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.17"
+      ]
+    },
+    {
+      "query": "\"pure.md\" \"md.succ.ai\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-04-05",
+      "last_week": "2026-04-05",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138"
+      ]
+    },
+    {
+      "query": "\"da.gd\" \"May 31, 2026\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-31",
+      "last_week": "2026-05-31",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.37"
+      ]
+    },
+    {
+      "query": "\"ssrf289963128y\"",
+      "n_weeks_fired": 1,
+      "first_week": "2026-05-24",
+      "last_week": "2026-05-24",
+      "group_hits_across_weeks": 1,
+      "matched_ips": [
+        "74.7.227.138",
+        "74.7.227.151",
+        "74.7.227.165",
+        "74.7.241.17",
+        "74.7.241.37"
+      ]
+    }
+  ],
+  "unresolved_group_files": []
+}
