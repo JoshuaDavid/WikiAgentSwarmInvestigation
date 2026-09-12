@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="460" viewBox="0 0 1080 460" font-family="monospace" font-size="12">
+<rect x="0" y="0" width="1080" height="460" fill="#ffffff"/>
+<style>.axis{stroke:#333;stroke-width:1;fill:none}.grid{stroke:#f5f5f5;stroke-width:1;fill:none}.tick{fill:#333}</style>
+<line class="grid" x1="469.3" y1="40" x2="469.3" y2="400"/>
+<line class="grid" x1="626.6" y1="40" x2="626.6" y2="400"/>
+<line class="grid" x1="783.8" y1="40" x2="783.8" y2="400"/>
+<line class="grid" x1="941.1" y1="40" x2="941.1" y2="400"/>
+<line x1="372.7" y1="60.0" x2="372.7" y2="386.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<text x="332" y="64.0" text-anchor="end" fill="#d62728" font-weight="bold">AgentOpenAIDataUSAHubMay13X7</text>
+<line x1="372.7" y1="60.0" x2="1060.0" y2="60.0" stroke="#d62728" stroke-width="3" fill="none"/>
+<text x="332" y="104.0" text-anchor="end" fill="#1f77b4" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_29</text>
+<line x1="727.5" y1="100.0" x2="1060.0" y2="100.0" stroke="#1f77b4" stroke-width="3" fill="none"/>
+<text x="332" y="144.0" text-anchor="end" fill="#2ca02c" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_27</text>
+<line x1="931.5" y1="140.0" x2="1060.0" y2="140.0" stroke="#2ca02c" stroke-width="3" fill="none"/>
+<text x="332" y="184.0" text-anchor="end" fill="#ff7f0e" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_01</text>
+<line x1="682.4" y1="180.0" x2="1060.0" y2="180.0" stroke="#ff7f0e" stroke-width="3" fill="none"/>
+<text x="332" y="224.0" text-anchor="end" fill="#9467bd" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_26</text>
+<line x1="765.8" y1="220.0" x2="1060.0" y2="220.0" stroke="#9467bd" stroke-width="3" fill="none"/>
+<text x="332" y="264.0" text-anchor="end" fill="#17becf" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_23</text>
+<line x1="1026.8" y1="260.0" x2="1060.0" y2="260.0" stroke="#17becf" stroke-width="3" fill="none"/>
+<text x="332" y="304.0" text-anchor="end" fill="#e377c2" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_24</text>
+<line x1="1006.6" y1="300.0" x2="1060.0" y2="300.0" stroke="#e377c2" stroke-width="3" fill="none"/>
+<text x="332" y="344.0" text-anchor="end" fill="#bcbd22" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_28</text>
+<line x1="738.5" y1="340.0" x2="1060.0" y2="340.0" stroke="#bcbd22" stroke-width="3" fill="none"/>
+<text x="332" y="384.0" text-anchor="end" fill="#8c564b" font-weight="bold">AgentOpenAIDataUSASlotMay13X7_22</text>
+<line x1="1027.3" y1="380.0" x2="1060.0" y2="380.0" stroke="#8c564b" stroke-width="3" fill="none"/>
+<line x1="372.7" y1="54.0" x2="372.7" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="727.5" y1="95.0" x2="727.5" y2="105.0" stroke="#1f77b4" stroke-width="2"/>
+<text x="730.5" y="93.0" text-anchor="start" fill="#1f77b4" font-weight="bold">@1</text>
+<line x1="931.5" y1="135.0" x2="931.5" y2="145.0" stroke="#2ca02c" stroke-width="2"/>
+<text x="934.5" y="133.0" text-anchor="start" fill="#2ca02c" font-weight="bold">@1</text>
+<line x1="682.4" y1="175.0" x2="682.4" y2="185.0" stroke="#ff7f0e" stroke-width="2"/>
+<text x="685.4" y="173.0" text-anchor="start" fill="#ff7f0e" font-weight="bold">@1</text>
+<line x1="765.8" y1="215.0" x2="765.8" y2="225.0" stroke="#9467bd" stroke-width="2"/>
+<text x="768.8" y="213.0" text-anchor="start" fill="#9467bd" font-weight="bold">@1</text>
+<line x1="1026.8" y1="255.0" x2="1026.8" y2="265.0" stroke="#17becf" stroke-width="2"/>
+<text x="1029.8" y="253.0" text-anchor="start" fill="#17becf" font-weight="bold">@1</text>
+<line x1="1006.6" y1="295.0" x2="1006.6" y2="305.0" stroke="#e377c2" stroke-width="2"/>
+<text x="1009.6" y="293.0" text-anchor="start" fill="#e377c2" font-weight="bold">@1</text>
+<line x1="738.5" y1="335.0" x2="738.5" y2="345.0" stroke="#bcbd22" stroke-width="2"/>
+<text x="741.5" y="333.0" text-anchor="start" fill="#bcbd22" font-weight="bold">@1</text>
+<line x1="1027.3" y1="375.0" x2="1027.3" y2="385.0" stroke="#8c564b" stroke-width="2"/>
+<text x="1030.3" y="373.0" text-anchor="start" fill="#8c564b" font-weight="bold">@1</text>
+<circle cx="372.7" cy="100.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="140.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="180.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="220.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="260.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="300.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="340.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="372.7" cy="380.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<line class="axis" x1="340" y1="40" x2="340" y2="400"/>
+<line class="axis" x1="340" y1="400" x2="1060" y2="400"/>
+<text class="tick" x="469.3" y="415" text-anchor="middle">20:00</text>
+<text class="tick" x="626.6" y="415" text-anchor="middle">20:30</text>
+<text class="tick" x="783.8" y="415" text-anchor="middle">21:00</text>
+<text class="tick" x="941.1" y="415" text-anchor="middle">21:30</text>
+<text class="tick" x="700.0" y="435" text-anchor="middle">2026-06-16 UTC</text>
+<circle cx="360" cy="451" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<text class="tick" x="370" y="455" text-anchor="start">link created; target did not yet exist</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="540" viewBox="0 0 1080 540" font-family="monospace" font-size="12">
+<rect x="0" y="0" width="1080" height="540" fill="#ffffff"/>
+<style>.axis{stroke:#333;stroke-width:1;fill:none}.grid{stroke:#f5f5f5;stroke-width:1;fill:none}.tick{fill:#333}</style>
+<line class="grid" x1="437.4" y1="40" x2="437.4" y2="480"/>
+<line class="grid" x1="613.2" y1="40" x2="613.2" y2="480"/>
+<line class="grid" x1="789.0" y1="40" x2="789.0" y2="480"/>
+<line class="grid" x1="964.8" y1="40" x2="964.8" y2="480"/>
+<line x1="417.4" y1="60.0" x2="417.4" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="456.9" y1="60.0" x2="456.9" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="497.4" y1="60.0" x2="497.4" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="498.9" y1="60.0" x2="498.9" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="502.1" y1="60.0" x2="502.1" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="521.1" y1="60.0" x2="521.1" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="554.4" y1="60.0" x2="554.4" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="576.4" y1="60.0" x2="576.4" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="615.8" y1="60.0" x2="615.8" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="1012.3" y1="60.0" x2="1012.3" y2="466.0" stroke="#d62728" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<text x="332" y="64.0" text-anchor="end" fill="#d62728" font-weight="bold">WillkommenImWiki</text>
+<line x1="372.7" y1="60.0" x2="1060.0" y2="60.0" stroke="#d62728" stroke-width="3" fill="none"/>
+<text x="332" y="104.0" text-anchor="end" fill="#1f77b4" font-weight="bold">OpenAIRegCFMassBridge3002</text>
+<line x1="428.0" y1="100.0" x2="1060.0" y2="100.0" stroke="#1f77b4" stroke-width="3" fill="none"/>
+<text x="332" y="144.0" text-anchor="end" fill="#2ca02c" font-weight="bold">AgentJSLinksNew990071</text>
+<line x1="458.9" y1="140.0" x2="1060.0" y2="140.0" stroke="#2ca02c" stroke-width="3" fill="none"/>
+<text x="332" y="184.0" text-anchor="end" fill="#ff7f0e" font-weight="bold">ZNewNextSelfFinal</text>
+<line x1="509.9" y1="180.0" x2="1060.0" y2="180.0" stroke="#ff7f0e" stroke-width="3" fill="none"/>
+<text x="332" y="224.0" text-anchor="end" fill="#9467bd" font-weight="bold">AgentMarkdownIndexChildGood8801</text>
+<line x1="504.4" y1="220.0" x2="1060.0" y2="220.0" stroke="#9467bd" stroke-width="3" fill="none"/>
+<text x="332" y="264.0" text-anchor="end" fill="#17becf" font-weight="bold">AgentUltimateJuneBC</text>
+<line x1="506.2" y1="260.0" x2="1060.0" y2="260.0" stroke="#17becf" stroke-width="3" fill="none"/>
+<text x="332" y="304.0" text-anchor="end" fill="#e377c2" font-weight="bold">AgentSecDirectJQP999</text>
+<line x1="524.3" y1="300.0" x2="1060.0" y2="300.0" stroke="#e377c2" stroke-width="3" fill="none"/>
+<text x="332" y="344.0" text-anchor="end" fill="#bcbd22" font-weight="bold">AgentUniquePage551990</text>
+<line x1="562.1" y1="340.0" x2="1060.0" y2="340.0" stroke="#bcbd22" stroke-width="3" fill="none"/>
+<text x="332" y="384.0" text-anchor="end" fill="#8c564b" font-weight="bold">AgentSECAllOriginsOfficialFinal19001</text>
+<line x1="578.7" y1="380.0" x2="1060.0" y2="380.0" stroke="#8c564b" stroke-width="3" fill="none"/>
+<text x="332" y="424.0" text-anchor="end" fill="#393b79" font-weight="bold">LiveChildProxy998800</text>
+<line x1="616.7" y1="420.0" x2="1060.0" y2="420.0" stroke="#393b79" stroke-width="3" fill="none"/>
+<text x="332" y="464.0" text-anchor="end" fill="#637939" font-weight="bold">AgentMassDirect928</text>
+<line x1="1027.3" y1="460.0" x2="1060.0" y2="460.0" stroke="#637939" stroke-width="3" fill="none"/>
+<line x1="417.4" y1="54.0" x2="417.4" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="456.9" y1="54.0" x2="456.9" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="497.4" y1="54.0" x2="497.4" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="498.9" y1="54.0" x2="498.9" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="502.1" y1="54.0" x2="502.1" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="521.1" y1="54.0" x2="521.1" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="554.4" y1="54.0" x2="554.4" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="576.4" y1="54.0" x2="576.4" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="615.8" y1="54.0" x2="615.8" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="1012.3" y1="54.0" x2="1012.3" y2="66.0" stroke="#d62728" stroke-width="2"/>
+<line x1="428.0" y1="95.0" x2="428.0" y2="105.0" stroke="#1f77b4" stroke-width="2"/>
+<text x="431.0" y="93.0" text-anchor="start" fill="#1f77b4" font-weight="bold">@1</text>
+<line x1="458.9" y1="135.0" x2="458.9" y2="145.0" stroke="#2ca02c" stroke-width="2"/>
+<text x="461.9" y="133.0" text-anchor="start" fill="#2ca02c" font-weight="bold">@1</text>
+<line x1="509.9" y1="175.0" x2="509.9" y2="185.0" stroke="#ff7f0e" stroke-width="2"/>
+<text x="512.9" y="173.0" text-anchor="start" fill="#ff7f0e" font-weight="bold">@1</text>
+<line x1="504.4" y1="215.0" x2="504.4" y2="225.0" stroke="#9467bd" stroke-width="2"/>
+<text x="507.4" y="213.0" text-anchor="start" fill="#9467bd" font-weight="bold">@1</text>
+<line x1="506.2" y1="255.0" x2="506.2" y2="265.0" stroke="#17becf" stroke-width="2"/>
+<text x="509.2" y="253.0" text-anchor="start" fill="#17becf" font-weight="bold">@1</text>
+<line x1="524.3" y1="295.0" x2="524.3" y2="305.0" stroke="#e377c2" stroke-width="2"/>
+<text x="527.3" y="293.0" text-anchor="start" fill="#e377c2" font-weight="bold">@1</text>
+<line x1="562.1" y1="335.0" x2="562.1" y2="345.0" stroke="#bcbd22" stroke-width="2"/>
+<text x="565.1" y="333.0" text-anchor="start" fill="#bcbd22" font-weight="bold">@1</text>
+<line x1="578.7" y1="375.0" x2="578.7" y2="385.0" stroke="#8c564b" stroke-width="2"/>
+<text x="581.7" y="373.0" text-anchor="start" fill="#8c564b" font-weight="bold">@1</text>
+<line x1="616.7" y1="415.0" x2="616.7" y2="425.0" stroke="#393b79" stroke-width="2"/>
+<text x="619.7" y="413.0" text-anchor="start" fill="#393b79" font-weight="bold">@1</text>
+<line x1="1027.3" y1="455.0" x2="1027.3" y2="465.0" stroke="#637939" stroke-width="2"/>
+<text x="1030.3" y="453.0" text-anchor="start" fill="#637939" font-weight="bold">@1</text>
+<circle cx="417.4" cy="100.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="456.9" cy="140.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="497.4" cy="180.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="498.9" cy="220.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="502.1" cy="260.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="521.1" cy="300.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="554.4" cy="340.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="576.4" cy="380.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="615.8" cy="420.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<circle cx="1012.3" cy="460.0" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<line class="axis" x1="340" y1="40" x2="340" y2="480"/>
+<line class="axis" x1="340" y1="480" x2="1060" y2="480"/>
+<text class="tick" x="437.4" y="495" text-anchor="middle">18:00</text>
+<text class="tick" x="613.2" y="495" text-anchor="middle">20:00</text>
+<text class="tick" x="789.0" y="495" text-anchor="middle">22:00</text>
+<text class="tick" x="964.8" y="495" text-anchor="middle">00:00</text>
+<text class="tick" x="700.0" y="515" text-anchor="middle">2026-06-18 -> 2026-06-19 UTC</text>
+<circle cx="360" cy="531" r="5" fill="#fff" stroke="#d62728" stroke-width="2"/>
+<text class="tick" x="370" y="535" text-anchor="start">link created; target did not yet exist</text>
+</svg>
