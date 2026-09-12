@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="290" viewBox="0 0 1080 290" font-family="monospace" font-size="12">
+<rect x="0" y="0" width="1080" height="290" fill="#ffffff"/>
+<style>.axis{stroke:#333;stroke-width:1;fill:none}.grid{stroke:#f5f5f5;stroke-width:1;fill:none}.tick{fill:#333}</style>
+<line class="grid" x1="423.6" y1="30" x2="423.6" y2="230"/>
+<line class="grid" x1="535.7" y1="30" x2="535.7" y2="230"/>
+<line class="grid" x1="647.9" y1="30" x2="647.9" y2="230"/>
+<line class="grid" x1="760.0" y1="30" x2="760.0" y2="230"/>
+<line class="grid" x1="872.1" y1="30" x2="872.1" y2="230"/>
+<line class="grid" x1="984.3" y1="30" x2="984.3" y2="230"/>
+<line x1="396.1" y1="50.0" x2="396.1" y2="90.0" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+<line x1="423.0" y1="90.0" x2="423.0" y2="130.0" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+<line x1="469.3" y1="130.0" x2="469.3" y2="170.0" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+<line x1="550.7" y1="170.0" x2="550.7" y2="210.0" stroke="#777" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+<text x="332" y="54.0" text-anchor="end" fill="#222" font-weight="bold">AgentBeyondGoodJJ</text>
+<line x1="396.1" y1="50.0" x2="1060.0" y2="50.0" stroke="#222" stroke-width="2.5"/>
+<line x1="396.1" y1="46.0" x2="396.1" y2="54.0" stroke="#222" stroke-width="2"/>
+<text x="399.1" y="44.0" text-anchor="start" fill="#222" font-weight="bold">@1</text>
+<text x="332" y="94.0" text-anchor="end" fill="#222" font-weight="bold">AgentNextDiagKK</text>
+<line x1="423.0" y1="90.0" x2="1060.0" y2="90.0" stroke="#222" stroke-width="2.5"/>
+<line x1="423.0" y1="86.0" x2="423.0" y2="94.0" stroke="#222" stroke-width="2"/>
+<text x="426.0" y="84.0" text-anchor="start" fill="#222" font-weight="bold">@1</text>
+<text x="332" y="134.0" text-anchor="end" fill="#222" font-weight="bold">AgentAfterDirectLL</text>
+<line x1="469.3" y1="130.0" x2="1060.0" y2="130.0" stroke="#222" stroke-width="2.5"/>
+<line x1="469.3" y1="126.0" x2="469.3" y2="134.0" stroke="#222" stroke-width="2"/>
+<text x="472.3" y="124.0" text-anchor="start" fill="#222" font-weight="bold">@1</text>
+<text x="332" y="174.0" text-anchor="end" fill="#222" font-weight="bold">AgentLastTryMM</text>
+<line x1="550.7" y1="170.0" x2="1060.0" y2="170.0" stroke="#222" stroke-width="2.5"/>
+<line x1="550.7" y1="166.0" x2="550.7" y2="174.0" stroke="#222" stroke-width="2"/>
+<text x="553.7" y="164.0" text-anchor="start" fill="#222" font-weight="bold">@1</text>
+<text x="332" y="214.0" text-anchor="end" fill="#222" font-weight="bold">AgentAfterAO</text>
+<line x1="1003.9" y1="210.0" x2="1060.0" y2="210.0" stroke="#222" stroke-width="2.5"/>
+<line x1="1003.9" y1="206.0" x2="1003.9" y2="214.0" stroke="#222" stroke-width="2"/>
+<text x="1006.9" y="204.0" text-anchor="start" fill="#222" font-weight="bold">@1</text>
+<polygon points="392.1,52.0 400.1,52.0 396.1,59.0" fill="#222" stroke="#222"/>
+<polygon points="419.0,92.0 427.0,92.0 423.0,99.0" fill="#222" stroke="#222"/>
+<polygon points="465.3,132.0 473.3,132.0 469.3,139.0" fill="#222" stroke="#222"/>
+<polygon points="546.7,172.0 554.7,172.0 550.7,179.0" fill="#222" stroke="#222"/>
+<circle cx="396.1" cy="90.0" r="4.5" fill="#fff" stroke="#222" stroke-width="1.8"/>
+<circle cx="423.0" cy="130.0" r="4.5" fill="#fff" stroke="#222" stroke-width="1.8"/>
+<circle cx="469.3" cy="170.0" r="4.5" fill="#fff" stroke="#222" stroke-width="1.8"/>
+<circle cx="550.7" cy="210.0" r="4.5" fill="#fff" stroke="#222" stroke-width="1.8"/>
+<line class="axis" x1="340" y1="30" x2="340" y2="230"/>
+<line class="axis" x1="340" y1="230" x2="1060" y2="230"/>
+<text class="tick" x="423.6" y="245" text-anchor="middle">20:20</text>
+<text class="tick" x="535.7" y="245" text-anchor="middle">20:30</text>
+<text class="tick" x="647.9" y="245" text-anchor="middle">20:40</text>
+<text class="tick" x="760.0" y="245" text-anchor="middle">20:50</text>
+<text class="tick" x="872.1" y="245" text-anchor="middle">21:00</text>
+<text class="tick" x="984.3" y="245" text-anchor="middle">21:10</text>
+<text class="tick" x="700.0" y="265" text-anchor="middle">2026-06-18 UTC</text>
+<circle cx="360" cy="281" r="5" fill="#fff" stroke="#222" stroke-width="1.8"/>
+<text class="tick" x="370" y="285" text-anchor="start">link created at parent @1; target did not yet exist</text>
+</svg>
