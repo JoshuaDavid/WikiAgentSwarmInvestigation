@@ -20,18 +20,25 @@ WIKI_CGI_ID = re.compile(
     r"wikiservice\.at/dse/wiki\.cgi\?[^\s\]]*?\bid=([A-Za-z0-9_/\-]+)"
 )
 
-PALETTE = [
-    "#1f77b4", "#2ca02c", "#ff7f0e", "#d62728",
-    "#9467bd", "#17becf", "#e377c2", "#8c564b",
-    "#bcbd22", "#393b79", "#637939", "#843c39",
-]
+BAR_COLOR = "#222"
+DROP_COLOR = "#777"
 
-CHAINS = [
-    ["AgentMassDataNext774411", "AgentMassThird889922",
-     "AgentMassFourth990033", "AgentMassFifth551199"],
-    ["AgentMassSixth113377", "AgentMassSeventh991113",
-     "AgentMassEighth224466", "AgentMassNinth778899"],
-]
+CHAINS_BY_NAME = {
+    "mass": [
+        ["AgentMassDataNext774411", "AgentMassThird889922",
+         "AgentMassFourth990033", "AgentMassFifth551199"],
+        ["AgentMassSixth113377", "AgentMassSeventh991113",
+         "AgentMassEighth224466", "AgentMassNinth778899"],
+    ],
+    "junecc": [
+        ["AgentUltimateJuneCC", "AgentVariantNextFF", "AgentAfterFinalGG",
+         "AgentEvenLaterHH", "AgentPostAllII"],
+    ],
+    "beyondgoodjj": [
+        ["AgentBeyondGoodJJ", "AgentNextDiagKK", "AgentAfterDirectLL",
+         "AgentLastTryMM", "AgentAfterAO"],
+    ],
+}
 
 
 def parse(t):
@@ -60,19 +67,15 @@ def build_svg(chains, out_path, gap_rows=1):
     first_rev = load_first_revs()
 
     # Flatten to a row order with visual gaps between chains.
-    rows = []  # list of (name | None, color_idx or None)
-    color_idx = 0
+    rows = []
     for ci, chain in enumerate(chains):
         if ci > 0:
             for _ in range(gap_rows):
-                rows.append((None, None))
+                rows.append(None)
         for name in chain:
-            rows.append((name, color_idx))
-            color_idx += 1
+            rows.append(name)
 
-    # X-axis range from earliest @1 to latest @1 plus a bit of padding.
-    times = [first_rev[n]["t"] for name_row, _ in rows if name_row
-             for n in [name_row]]
+    times = [first_rev[n]["t"] for n in rows if n is not None]
     lo, hi = min(times), max(times)
     span = hi - lo
     pad = timedelta(seconds=max(300, span.total_seconds() * 0.08))
@@ -136,60 +139,63 @@ def build_svg(chains, out_path, gap_rows=1):
             f'x2="{x:.1f}" y2="{TOP_PAD + CHART_H}"/>'
         )
 
-    # Compute drops: for each chain, each page (except last) drops to the next.
     # Drops sit UNDER bars, so emit them first.
-    drops = []  # (x, y1, y2, color, target_y)
-    row_index_of = {}
-    for i, (name, cidx) in enumerate(rows):
-        if name:
-            row_index_of[name] = i
+    drops = []
+    row_index_of = {n: i for i, n in enumerate(rows) if n is not None}
     for chain in chains:
         for src, tgt in zip(chain, chain[1:]):
             i_src = row_index_of[src]
             i_tgt = row_index_of[tgt]
-            color = PALETTE[rows[i_src][1] % len(PALETTE)]
             x = x_of(first_rev[src]["t"])
-            drops.append((x, y_of(i_src), y_of(i_tgt), color))
+            drops.append((x, y_of(i_src), y_of(i_tgt)))
 
-    for x, y1, y2, color in drops:
+    for x, y1, y2 in drops:
         parts.append(
             f'<line x1="{x:.1f}" y1="{y1:.1f}" x2="{x:.1f}" y2="{y2:.1f}" '
-            f'stroke="{color}" stroke-width="1.5" '
+            f'stroke="{DROP_COLOR}" stroke-width="1.2" '
             f'stroke-dasharray="4 3" fill="none"/>'
         )
 
     # Bars.
-    for i, (name, cidx) in enumerate(rows):
+    for i, name in enumerate(rows):
         if name is None:
             continue
-        color = PALETTE[cidx % len(PALETTE)]
         y = y_of(i)
         first_t = first_rev[name]["t"]
         parts.append(
             f'<text x="{LEFT_LABEL_W - 8}" y="{y + 4}" '
-            f'text-anchor="end" fill="{color}" font-weight="bold">{name}</text>'
+            f'text-anchor="end" fill="{BAR_COLOR}" font-weight="bold">'
+            f'{name}</text>'
         )
         parts.append(
             f'<line x1="{x_of(first_t):.1f}" y1="{y}" '
             f'x2="{LEFT_LABEL_W + CHART_W:.1f}" y2="{y}" '
-            f'stroke="{color}" stroke-width="3" fill="none"/>'
+            f'stroke="{BAR_COLOR}" stroke-width="2.5"/>'
         )
-        # @1 marker.
         x = x_of(first_t)
         parts.append(
-            f'<line x1="{x:.1f}" y1="{y - 5}" x2="{x:.1f}" y2="{y + 5}" '
-            f'stroke="{color}" stroke-width="2"/>'
+            f'<line x1="{x:.1f}" y1="{y - 4}" x2="{x:.1f}" y2="{y + 4}" '
+            f'stroke="{BAR_COLOR}" stroke-width="2"/>'
         )
         parts.append(
-            f'<text x="{x + 3:.1f}" y="{y - 7}" text-anchor="start" '
-            f'fill="{color}" font-weight="bold">@1</text>'
+            f'<text x="{x + 3:.1f}" y="{y - 6}" text-anchor="start" '
+            f'fill="{BAR_COLOR}" font-weight="bold">@1</text>'
         )
 
-    # Dots at each drop's target row (all forward, so all open).
-    for x, y1, y2, color in drops:
+    # Bottom triangle at each drop's source (the parent page creates a new
+    # internal link at its @1).
+    for x, y1, _ in drops:
         parts.append(
-            f'<circle cx="{x:.1f}" cy="{y2:.1f}" r="5" fill="#fff" '
-            f'stroke="{color}" stroke-width="2"/>'
+            f'<polygon points="{x-4:.1f},{y1 + 2:.1f} '
+            f'{x+4:.1f},{y1 + 2:.1f} {x:.1f},{y1 + 9:.1f}" '
+            f'fill="{BAR_COLOR}" stroke="{BAR_COLOR}"/>'
+        )
+
+    # Open circles at each drop's target row.
+    for x, _, y2 in drops:
+        parts.append(
+            f'<circle cx="{x:.1f}" cy="{y2:.1f}" r="4.5" fill="#fff" '
+            f'stroke="{BAR_COLOR}" stroke-width="1.8"/>'
         )
 
     # Axis + tick labels.
@@ -218,7 +224,7 @@ def build_svg(chains, out_path, gap_rows=1):
     ly = TOP_PAD + CHART_H + 55
     parts.append(
         f'<circle cx="{lx}" cy="{ly - 4}" r="5" fill="#fff" '
-        f'stroke="#333" stroke-width="2"/>'
+        f'stroke="{BAR_COLOR}" stroke-width="1.8"/>'
     )
     parts.append(
         f'<text class="tick" x="{lx + 10}" y="{ly}" text-anchor="start">'
@@ -232,7 +238,8 @@ def build_svg(chains, out_path, gap_rows=1):
 
 
 if __name__ == "__main__":
-    out = (sys.argv[1] if len(sys.argv) > 1
-           else "/collusionwiki/analyses/dse-forward-links/outputs/"
-                "chain_timeline_mass.svg")
-    build_svg(CHAINS, out)
+    name = sys.argv[1] if len(sys.argv) > 1 else "mass"
+    out = (sys.argv[2] if len(sys.argv) > 2
+           else f"/collusionwiki/analyses/dse-forward-links/outputs/"
+                f"chain_timeline_{name}.svg")
+    build_svg(CHAINS_BY_NAME[name], out)
