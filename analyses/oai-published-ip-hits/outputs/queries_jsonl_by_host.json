@@ -1,0 +1,1461 @@
+{
+  "source": "/collusionwiki/oai-index-scan/results/agent-activity/azure-expansion-2026-09-11/queries.jsonl",
+  "hosts": [
+    {
+      "host": "yourls.pro",
+      "ips_distinct": 373,
+      "ips_occurrences": 1370,
+      "oai_distinct": 7,
+      "oai_occurrences": 68,
+      "oai_frac_of_distinct": 0.01876675603217158,
+      "oai_roles": {
+        "searchbot": 5,
+        "gptbot": 63
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.138",
+          "occurrences": 30,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.241.17",
+          "occurrences": 27,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.242.3",
+          "occurrences": 5,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.229.196",
+          "occurrences": 2,
+          "role": "searchbot"
+        },
+        {
+          "ip": "74.7.229.167",
+          "occurrences": 2,
+          "role": "searchbot"
+        },
+        {
+          "ip": "74.7.242.171",
+          "occurrences": 1,
+          "role": "searchbot"
+        },
+        {
+          "ip": "74.7.242.32",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "yourls.shop",
+      "ips_distinct": 5,
+      "ips_occurrences": 266,
+      "oai_distinct": 4,
+      "oai_occurrences": 265,
+      "oai_frac_of_distinct": 0.8,
+      "oai_roles": {
+        "gptbot": 265
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 173,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.227.165",
+          "occurrences": 46,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.241.37",
+          "occurrences": 40,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.243.202",
+          "occurrences": 6,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "ipaddress.jp",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 2,
+      "oai_occurrences": 2,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "searchbot": 2
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.228.208",
+          "occurrences": 1,
+          "role": "searchbot"
+        },
+        {
+          "ip": "74.7.242.149",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "yourls.website",
+      "ips_distinct": 28,
+      "ips_occurrences": 124,
+      "oai_distinct": 2,
+      "oai_occurrences": 25,
+      "oai_frac_of_distinct": 0.07142857142857142,
+      "oai_roles": {
+        "gptbot": 25
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.36",
+          "occurrences": 21,
+          "role": "gptbot"
+        },
+        {
+          "ip": "74.7.227.6",
+          "occurrences": 4,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "ifconfig.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "searchbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.242.137",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "ipxt.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "searchbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.243.20",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "funddoctor.co.kr",
+      "ips_distinct": 1,
+      "ips_occurrences": 3,
+      "oai_distinct": 1,
+      "oai_occurrences": 3,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 3
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 3,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "nanning.anjuke.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 1,
+      "oai_occurrences": 2,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 2
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 2,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "yujianfangdichan62.anjuke.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "lifestylescentral.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 4,
+      "oai_distinct": 1,
+      "oai_occurrences": 4,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 4
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 4,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "havasuscannerfeed.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "yindingfangdichan.anjuke.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "zhaoqing.anjuke.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "deyang.anjuke.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 1,
+      "oai_occurrences": 2,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 2
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 2,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "xionganxinqu.58.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "chengdu.anjuke.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 1.0,
+      "oai_roles": {
+        "gptbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 1,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "iipp.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 12,
+      "oai_distinct": 1,
+      "oai_occurrences": 6,
+      "oai_frac_of_distinct": 0.5,
+      "oai_roles": {
+        "searchbot": 6
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.228.250",
+          "occurrences": 6,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "ipcfg.co",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 0.5,
+      "oai_roles": {
+        "searchbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.242.136",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "ofjeju.kr",
+      "ips_distinct": 2,
+      "ips_occurrences": 22,
+      "oai_distinct": 1,
+      "oai_occurrences": 11,
+      "oai_frac_of_distinct": 0.5,
+      "oai_roles": {
+        "gptbot": 11
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 11,
+          "role": "gptbot"
+        }
+      ]
+    },
+    {
+      "host": "ip-block.com",
+      "ips_distinct": 3,
+      "ips_occurrences": 16,
+      "oai_distinct": 1,
+      "oai_occurrences": 2,
+      "oai_frac_of_distinct": 0.3333333333333333,
+      "oai_roles": {
+        "searchbot": 2
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.229.159",
+          "occurrences": 2,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "ipnetinfo.com",
+      "ips_distinct": 3,
+      "ips_occurrences": 3,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 0.3333333333333333,
+      "oai_roles": {
+        "searchbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.243.45",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "speedguide.net",
+      "ips_distinct": 5,
+      "ips_occurrences": 6,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 0.2,
+      "oai_roles": {
+        "searchbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.242.171",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "ipwhois.net",
+      "ips_distinct": 9,
+      "ips_occurrences": 31,
+      "oai_distinct": 1,
+      "oai_occurrences": 3,
+      "oai_frac_of_distinct": 0.1111111111111111,
+      "oai_roles": {
+        "searchbot": 3
+      },
+      "oai_ips": [
+        {
+          "ip": "74.7.243.38",
+          "occurrences": 3,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "ip-address-lookup-v4.com",
+      "ips_distinct": 450,
+      "ips_occurrences": 488,
+      "oai_distinct": 1,
+      "oai_occurrences": 1,
+      "oai_frac_of_distinct": 0.0022222222222222222,
+      "oai_roles": {
+        "searchbot": 1
+      },
+      "oai_ips": [
+        {
+          "ip": "20.169.6.230",
+          "occurrences": 1,
+          "role": "searchbot"
+        }
+      ]
+    },
+    {
+      "host": "bitily.in",
+      "ips_distinct": 2263,
+      "ips_occurrences": 15565,
+      "oai_distinct": 1,
+      "oai_occurrences": 12,
+      "oai_frac_of_distinct": 0.0004418912947414936,
+      "oai_roles": {
+        "chatgpt_user": 12
+      },
+      "oai_ips": [
+        {
+          "ip": "23.98.142.182",
+          "occurrences": 12,
+          "role": "chatgpt_user"
+        }
+      ]
+    },
+    {
+      "host": "tamingdns.com",
+      "ips_distinct": 7,
+      "ips_occurrences": 11,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "toolsgenie.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ip-insight-gamma.vercel.app",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "iply.dev",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "io-tools.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "bulkgeoip.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "useragent.in",
+      "ips_distinct": 2,
+      "ips_occurrences": 13,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "kitbase.dev",
+      "ips_distinct": 1,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ipgeolocation.io",
+      "ips_distinct": 2048,
+      "ips_occurrences": 8079,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "thesnaptools.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "singhajit.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "tools.jlvextension.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ipxo.com",
+      "ips_distinct": 1800,
+      "ips_occurrences": 6183,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "forum.donanimarsivi.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "technopat.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "yourls.space",
+      "ips_distinct": 2,
+      "ips_occurrences": 5,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "whatismyip.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 10,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "showip.net",
+      "ips_distinct": 2,
+      "ips_occurrences": 27,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "host.tools",
+      "ips_distinct": 4,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ip.xen.tw",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ip-netblocks.whoisxmlapi.com",
+      "ips_distinct": 707,
+      "ips_occurrences": 1390,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ip2proxy.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ipaddress.com",
+      "ips_distinct": 51,
+      "ips_occurrences": 126,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "westmusic.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 18,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "app.bitily.in",
+      "ips_distinct": 34,
+      "ips_occurrences": 97,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "forums.alliedmods.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "mypro.tiddlyspot.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 129,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "cve.mitre.org",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "urlquery.net",
+      "ips_distinct": 17,
+      "ips_occurrences": 42,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "mobile.urlquery.net",
+      "ips_distinct": 10,
+      "ips_occurrences": 35,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "search.urlquery.net",
+      "ips_distinct": 5,
+      "ips_occurrences": 14,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "m.urlquery.net",
+      "ips_distinct": 3,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "httpbin.org",
+      "ips_distinct": 2,
+      "ips_occurrences": 7,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "scamadviser.com",
+      "ips_distinct": 7,
+      "ips_occurrences": 13,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "gridinsoft.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "who.is",
+      "ips_distinct": 35,
+      "ips_occurrences": 67,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "bgp.he.net",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "thecolony.cc",
+      "ips_distinct": 3,
+      "ips_occurrences": 15,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "github.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "1.1.1.1.urlquery.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "1.urlquery.net",
+      "ips_distinct": 3,
+      "ips_occurrences": 7,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "strontic.github.io",
+      "ips_distinct": 2,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "urlscan.io",
+      "ips_distinct": 1,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "baijialedouniuwenzhuan.urlquery.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "swarm.termina.digital",
+      "ips_distinct": 3,
+      "ips_occurrences": 24,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "wikiservice.at",
+      "ips_distinct": 242,
+      "ips_occurrences": 815,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "rmn.re",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "vedbex.com",
+      "ips_distinct": 6,
+      "ips_occurrences": 7,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "corsproxy.io",
+      "ips_distinct": 1,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "test.securityheaders.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "subdomainfinder.io",
+      "ips_distinct": 8,
+      "ips_occurrences": 28,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "hypestat.com",
+      "ips_distinct": 7,
+      "ips_occurrences": 7,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "whois.net.tw",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "wikiservice.at.dewebc.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "de.wikipedia.org",
+      "ips_distinct": 3,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "scanner.pcrisk.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "stackoverflow.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "reddit.com",
+      "ips_distinct": 5,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ip.sb",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "lbernard-massias.canoprof.fr",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ilbank.gov.tr",
+      "ips_distinct": 1,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "boletimdosaneamento.com.br",
+      "ips_distinct": 4,
+      "ips_occurrences": 12,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ghostarchive.org.clearwebstats.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "corsmirror.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "fitasencantadas.urlquery.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "dehradun.urlquery.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "webtechsurvey.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "robtex.com",
+      "ips_distinct": 4,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "it.wikipedia.org",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "twitter.com.clearwebstats.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "archive.md",
+      "ips_distinct": 3,
+      "ips_occurrences": 4,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "en.wikipedia.org",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "citeseerx.ist.psu.edu",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "myip.ms",
+      "ips_distinct": 5,
+      "ips_occurrences": 5,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "docs.qualys.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "user-agents.net",
+      "ips_distinct": 1,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "whatismy-ipaddress.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "trace.22u.ai",
+      "ips_distinct": 3,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "liveipmap.com",
+      "ips_distinct": 593,
+      "ips_occurrences": 1257,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "agent.ai",
+      "ips_distinct": 3,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "thecolony.uk",
+      "ips_distinct": 1,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "thecolony.ai",
+      "ips_distinct": 3,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ipget.app",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "com.all-url.info",
+      "ips_distinct": 1,
+      "ips_occurrences": 22,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "2ip.io",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "jetems.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "nipponboutique.fr",
+      "ips_distinct": 1,
+      "ips_occurrences": 6,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "tokyo-market.fr",
+      "ips_distinct": 1,
+      "ips_occurrences": 10,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "knowledge.broadcom.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "developer.hashicorp.com",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ipaddress.to",
+      "ips_distinct": 2,
+      "ips_occurrences": 3,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "wheresthatip.com",
+      "ips_distinct": 5,
+      "ips_occurrences": 11,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "boxtoolpro.com",
+      "ips_distinct": 2,
+      "ips_occurrences": 2,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "tools.root.cloud",
+      "ips_distinct": 1,
+      "ips_occurrences": 1,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    },
+    {
+      "host": "ipaddress.my",
+      "ips_distinct": 12,
+      "ips_occurrences": 16,
+      "oai_distinct": 0,
+      "oai_occurrences": 0,
+      "oai_frac_of_distinct": 0.0,
+      "oai_roles": {},
+      "oai_ips": []
+    }
+  ]
+}
