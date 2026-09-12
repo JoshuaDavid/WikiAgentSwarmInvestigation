@@ -134,14 +134,15 @@ def build(hub_name, out_path):
     TOP_LABEL_BLOCK = 12 + max_hosts * HOST_LINE_H + 12  # padding + lines + gap
 
     LEFT_LABEL_W = 340
-    RIGHT_PAD = 20
+    RIGHT_PAD = 30
     TOP_PAD = 20 + TOP_LABEL_BLOCK
     ROW_H = 32
-    CHART_W = 780
+    CHART_W = 800
     n_rows = 1 + len(children)
     CHART_H = n_rows * ROW_H
     SVG_W = LEFT_LABEL_W + CHART_W + RIGHT_PAD
-    SVG_H = TOP_PAD + CHART_H + 70
+    # Bottom area: 20px gap + tick labels + date label + 5 legend rows.
+    SVG_H = TOP_PAD + CHART_H + 45 + 5 * 18 + 15
 
     def x_of(t):
         s = (x_end - x_start).total_seconds()
@@ -239,6 +240,13 @@ def build(hub_name, out_path):
             parts.append(
                 f'<text x="{x1 + 3:.1f}" y="{y - 6}" text-anchor="start" '
                 f'fill="{BAR_COLOR}" font-weight="bold">@1</text>'
+            )
+        else:
+            # Page was never observed getting its own revision. Label the row
+            # so the reader knows the drop lands on nothing.
+            parts.append(
+                f'<text x="{LEFT_LABEL_W + 6}" y="{y + 4}" text-anchor="start" '
+                f'fill="#888" font-style="italic">[never created]</text>'
             )
 
     # --- @N markers on hub bar (above the line) ---
@@ -350,35 +358,38 @@ def build(hub_name, out_path):
         f'fill="{AXIS_COLOR}">{date_span}</text>'
     )
 
-    # Legend
-    lx = LEFT_LABEL_W + 20
+    # Legend items stacked vertically so they always fit inside the SVG.
+    lx = LEFT_LABEL_W + 10
     ly = TOP_PAD + CHART_H + 55
-    parts.append(down_triangle(lx, ly - 4))
-    parts.append(
-        f'<text x="{lx + 10}" y="{ly}" fill="{AXIS_COLOR}" font-size="11">'
-        f'new internal link at this rev</text>'
-    )
-    parts.append(up_triangle(lx + 240, ly + 3))
-    parts.append(
-        f'<text x="{lx + 250}" y="{ly}" fill="{AXIS_COLOR}" font-size="11">'
-        f'new external link (host labeled above)</text>'
-    )
-    parts.append(
-        f'<circle cx="{lx + 520}" cy="{ly - 4}" r="4.5" fill="#fff" '
-        f'stroke="{BAR_COLOR}" stroke-width="1.8"/>'
-    )
-    parts.append(
-        f'<text x="{lx + 530}" y="{ly}" fill="{AXIS_COLOR}" font-size="11">'
-        f'target didn\'t exist yet</text>'
-    )
-    parts.append(
-        f'<circle cx="{lx + 680}" cy="{ly - 4}" r="4.5" fill="{BAR_COLOR}" '
-        f'stroke="{BAR_COLOR}"/>'
-    )
-    parts.append(
-        f'<text x="{lx + 690}" y="{ly}" fill="{AXIS_COLOR}" font-size="11">'
-        f'target existed</text>'
-    )
+    line_h = 18
+    legend_items = [
+        ("down", "new internal link at this rev"),
+        ("up", "new external link (host labeled above)"),
+        ("open", "target did not yet exist"),
+        ("filled", "target already existed"),
+        ("never", "[never created] = target has no observed revision"),
+    ]
+    for i, (kind, text) in enumerate(legend_items):
+        row_y = ly + i * line_h
+        if kind == "down":
+            parts.append(down_triangle(lx, row_y - 4))
+        elif kind == "up":
+            parts.append(up_triangle(lx, row_y + 3))
+        elif kind == "open":
+            parts.append(
+                f'<circle cx="{lx}" cy="{row_y - 4}" r="4.5" fill="#fff" '
+                f'stroke="{BAR_COLOR}" stroke-width="1.8"/>'
+            )
+        elif kind == "filled":
+            parts.append(
+                f'<circle cx="{lx}" cy="{row_y - 4}" r="4.5" '
+                f'fill="{BAR_COLOR}" stroke="{BAR_COLOR}"/>'
+            )
+        # kind == "never" has no glyph; the text alone is self-explanatory.
+        parts.append(
+            f'<text x="{lx + 10}" y="{row_y}" fill="{AXIS_COLOR}" '
+            f'font-size="11">{text}</text>'
+        )
 
     parts.append('</svg>')
     with open(out_path, "w") as f:
