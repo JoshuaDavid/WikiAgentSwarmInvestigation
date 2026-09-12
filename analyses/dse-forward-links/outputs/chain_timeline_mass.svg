@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="450" viewBox="0 0 1080 450" font-family="monospace" font-size="12">
+<rect x="0" y="0" width="1080" height="450" fill="#ffffff"/>
+<style>.axis{stroke:#333;stroke-width:1;fill:none}.grid{stroke:#f5f5f5;stroke-width:1;fill:none}.tick{fill:#333}</style>
+<line class="grid" x1="481.4" y1="30" x2="481.4" y2="390"/>
+<line class="grid" x1="645.3" y1="30" x2="645.3" y2="390"/>
+<line class="grid" x1="809.2" y1="30" x2="809.2" y2="390"/>
+<line class="grid" x1="973.1" y1="30" x2="973.1" y2="390"/>
+<line x1="389.7" y1="50.0" x2="389.7" y2="90.0" stroke="#1f77b4" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="406.2" y1="90.0" x2="406.2" y2="130.0" stroke="#2ca02c" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="590.4" y1="130.0" x2="590.4" y2="170.0" stroke="#ff7f0e" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="710.7" y1="250.0" x2="710.7" y2="290.0" stroke="#9467bd" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="875.0" y1="290.0" x2="875.0" y2="330.0" stroke="#17becf" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<line x1="887.4" y1="330.0" x2="887.4" y2="370.0" stroke="#e377c2" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+<text x="332" y="54.0" text-anchor="end" fill="#1f77b4" font-weight="bold">AgentMassDataNext774411</text>
+<line x1="389.7" y1="50.0" x2="1060.0" y2="50.0" stroke="#1f77b4" stroke-width="3" fill="none"/>
+<line x1="389.7" y1="45.0" x2="389.7" y2="55.0" stroke="#1f77b4" stroke-width="2"/>
+<text x="392.7" y="43.0" text-anchor="start" fill="#1f77b4" font-weight="bold">@1</text>
+<text x="332" y="94.0" text-anchor="end" fill="#2ca02c" font-weight="bold">AgentMassThird889922</text>
+<line x1="406.2" y1="90.0" x2="1060.0" y2="90.0" stroke="#2ca02c" stroke-width="3" fill="none"/>
+<line x1="406.2" y1="85.0" x2="406.2" y2="95.0" stroke="#2ca02c" stroke-width="2"/>
+<text x="409.2" y="83.0" text-anchor="start" fill="#2ca02c" font-weight="bold">@1</text>
+<text x="332" y="134.0" text-anchor="end" fill="#ff7f0e" font-weight="bold">AgentMassFourth990033</text>
+<line x1="590.4" y1="130.0" x2="1060.0" y2="130.0" stroke="#ff7f0e" stroke-width="3" fill="none"/>
+<line x1="590.4" y1="125.0" x2="590.4" y2="135.0" stroke="#ff7f0e" stroke-width="2"/>
+<text x="593.4" y="123.0" text-anchor="start" fill="#ff7f0e" font-weight="bold">@1</text>
+<text x="332" y="174.0" text-anchor="end" fill="#d62728" font-weight="bold">AgentMassFifth551199</text>
+<line x1="609.5" y1="170.0" x2="1060.0" y2="170.0" stroke="#d62728" stroke-width="3" fill="none"/>
+<line x1="609.5" y1="165.0" x2="609.5" y2="175.0" stroke="#d62728" stroke-width="2"/>
+<text x="612.5" y="163.0" text-anchor="start" fill="#d62728" font-weight="bold">@1</text>
+<text x="332" y="254.0" text-anchor="end" fill="#9467bd" font-weight="bold">AgentMassSixth113377</text>
+<line x1="710.7" y1="250.0" x2="1060.0" y2="250.0" stroke="#9467bd" stroke-width="3" fill="none"/>
+<line x1="710.7" y1="245.0" x2="710.7" y2="255.0" stroke="#9467bd" stroke-width="2"/>
+<text x="713.7" y="243.0" text-anchor="start" fill="#9467bd" font-weight="bold">@1</text>
+<text x="332" y="294.0" text-anchor="end" fill="#17becf" font-weight="bold">AgentMassSeventh991113</text>
+<line x1="875.0" y1="290.0" x2="1060.0" y2="290.0" stroke="#17becf" stroke-width="3" fill="none"/>
+<line x1="875.0" y1="285.0" x2="875.0" y2="295.0" stroke="#17becf" stroke-width="2"/>
+<text x="878.0" y="283.0" text-anchor="start" fill="#17becf" font-weight="bold">@1</text>
+<text x="332" y="334.0" text-anchor="end" fill="#e377c2" font-weight="bold">AgentMassEighth224466</text>
+<line x1="887.4" y1="330.0" x2="1060.0" y2="330.0" stroke="#e377c2" stroke-width="3" fill="none"/>
+<line x1="887.4" y1="325.0" x2="887.4" y2="335.0" stroke="#e377c2" stroke-width="2"/>
+<text x="890.4" y="323.0" text-anchor="start" fill="#e377c2" font-weight="bold">@1</text>
+<text x="332" y="374.0" text-anchor="end" fill="#8c564b" font-weight="bold">AgentMassNinth778899</text>
+<line x1="1010.3" y1="370.0" x2="1060.0" y2="370.0" stroke="#8c564b" stroke-width="3" fill="none"/>
+<line x1="1010.3" y1="365.0" x2="1010.3" y2="375.0" stroke="#8c564b" stroke-width="2"/>
+<text x="1013.3" y="363.0" text-anchor="start" fill="#8c564b" font-weight="bold">@1</text>
+<circle cx="389.7" cy="90.0" r="5" fill="#fff" stroke="#1f77b4" stroke-width="2"/>
+<circle cx="406.2" cy="130.0" r="5" fill="#fff" stroke="#2ca02c" stroke-width="2"/>
+<circle cx="590.4" cy="170.0" r="5" fill="#fff" stroke="#ff7f0e" stroke-width="2"/>
+<circle cx="710.7" cy="290.0" r="5" fill="#fff" stroke="#9467bd" stroke-width="2"/>
+<circle cx="875.0" cy="330.0" r="5" fill="#fff" stroke="#17becf" stroke-width="2"/>
+<circle cx="887.4" cy="370.0" r="5" fill="#fff" stroke="#e377c2" stroke-width="2"/>
+<line class="axis" x1="340" y1="30" x2="340" y2="390"/>
+<line class="axis" x1="340" y1="390" x2="1060" y2="390"/>
+<text class="tick" x="481.4" y="405" text-anchor="middle">17:30</text>
+<text class="tick" x="645.3" y="405" text-anchor="middle">18:00</text>
+<text class="tick" x="809.2" y="405" text-anchor="middle">18:30</text>
+<text class="tick" x="973.1" y="405" text-anchor="middle">19:00</text>
+<text class="tick" x="700.0" y="425" text-anchor="middle">2026-06-18 UTC</text>
+<circle cx="360" cy="441" r="5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text class="tick" x="370" y="445" text-anchor="start">link created at parent @1; target did not yet exist</text>
+</svg>
