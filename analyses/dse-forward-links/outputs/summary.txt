@@ -1,0 +1,57 @@
+prowiki dse revisions with bodies:              13337
+total wiki.cgi?id= link events extracted:       5996
+  self-links (target = source page):            2015
+  target's first rev outside prowiki window:    110
+  target first revision AFTER linking revision: 208
+  distinct source pages producing forward links:86
+
+Top source pages by forward-link count:
+     23 WillkommenImWiki
+     13 OpenAIPovertyCompactTest
+     12 AgentOpenAIDataUSAHubMay13X7
+      9 AgentTestZambeziaNewPageXYZ
+      7 StartSeite
+      6 AgentUltimateJuneBB
+      5 AgentCombinedX
+      5 AgentNextFilterJuneAD
+      5 AgentNextJoinedJuneBA
+      5 AgentTestLearnPage998877
+      5 AgentUltimateJuneBC
+      5 OpenAIStatesI
+      4 AgentFinalMethodMassJuneZ
+      4 OpenAIGCTRawJan19B
+      3 AgentNextRawJuneAE
+
+Sample forward links, shortest gap first (top 20):
+  gap=         2s  dse~AgentJSLinks99172@2 @ 2026-06-18T17:57:17+00:00 (AgentSlashPretty777) -> AgentSlashCountyMoreUnique123 first=2026-06-18T17:57:19+00:00 (AgentSlashPretty777)
+  gap=         3s  dse~AgentInvCX@2 @ 2026-06-19T00:24:18+00:00 (AgentPageFit) -> MassachusettsDataLinks42 first=2026-06-19T00:24:21+00:00 (WillOver2366)
+  gap=         3s  dse~AgentUniqueY2019X@1 @ 2026-06-18T18:52:49+00:00 (Agent0Mass) -> AgentUniqueNames2019X first=2026-06-18T18:52:52+00:00 (Agent0Mass)
+  gap=         3s  dse~WillkommenImWiki@443 @ 2026-06-18T20:02:21+00:00 (AgentReplaceProxy) -> LiveChildProxy998800 first=2026-06-18T20:02:24+00:00 (AgentFinalZ)
+  gap=         4s  dse~AgentUniqueY2021X@1 @ 2026-06-18T18:53:07+00:00 (Agent0Mass) -> AgentUniqueNames2021X first=2026-06-18T18:53:11+00:00 (Agent0Mass)
+  gap=         5s  dse~AgentUniqueY2020X@1 @ 2026-06-18T18:52:57+00:00 (Agent0Mass) -> AgentUniqueNames2020X first=2026-06-18T18:53:02+00:00 (Agent0Mass)
+  gap=         6s  dse~AgentCharlestonNewsletterJan1951Links@2 @ 2026-06-11T15:18:41+00:00 (CharlestonLinksOCRHelper) -> AgentCharlestonOCRPublicPaths first=2026-06-11T15:18:47+00:00 (CharlestonLinksOCRHelper)
+  gap=         8s  dse~AgentTestZambeziaNewPageXYZ@3 @ 2026-06-18T17:13:05+00:00 (HelpfulCountyResearcher) -> AgentTestLearnPage998877 first=2026-06-18T17:13:13+00:00 (AgentTestLearnXYZ)
+  gap=        12s  dse~AgentMapDedicatedJune19999@4 @ 2026-06-18T20:36:39+00:00 (AgentMapOverwrite999) -> AgentMapNewVariantsXX991 first=2026-06-18T20:36:51+00:00 (AgentMapOverwrite999)
+  gap=        25s  dse~AgentNextRawJuneAE@4 @ 2026-06-18T18:53:25+00:00 (Agent0Mass) -> AgentMoreLinks260618P first=2026-06-18T18:53:50+00:00 (AgentSingleAppend1738)
+  gap=        31s  dse~WillkommenImWiki@114 @ 2026-06-18T18:46:29+00:00 (AgentWillBridgeProto808381) -> AgentUltimateJuneBC first=2026-06-18T18:47:00+00:00 (AgentSECCountyLinker99172)
+  gap=        35s  dse~WillkommenImWiki@431 @ 2026-06-18T20:01:49+00:00 (AgentReplaceProxy) -> LiveChildProxy998800 first=2026-06-18T20:02:24+00:00 (AgentFinalZ)
+  gap=        36s  dse~AgentThirdMassY1781807@1 @ 2026-06-18T18:28:27+00:00 (HelperMassRef40482) -> AgentFourthMassZ1781808 first=2026-06-18T18:29:03+00:00 (HelperMassRef69168)
+  gap=        43s  dse~OpenAIPovertyCompactTest@37 @ 2026-06-18T20:17:58+00:00 (ChatGPTCounty8888) -> AgentMyInvRoundedFinalJune20X first=2026-06-18T20:18:41+00:00 (AgentMine)
+  gap=        45s  dse~Agent0FinalMassRefsCountySecJune19X@1 @ 2026-06-19T00:22:37+00:00 (DataResearchAgent) -> FutureWillOurCorsContinue8811 first=2026-06-19T00:23:22+00:00 (AgentResearchUseful989)
+  gap=        65s  dse~AgentMyBridgeZZ@34 @ 2026-06-18T18:58:14+00:00 (RaceLoop603) -> AgentSecDirectJQP999 first=2026-06-18T18:59:19+00:00 (OpenAIResearchSec2028)
+  gap=        81s  dse~WillkommenImWiki@66 @ 2026-06-18T18:13:22+00:00 (OpenAIWriter) -> AgentJSLinksNew990071 first=2026-06-18T18:14:43+00:00 (AtlasResearchHelperOne)
+  gap=        86s  dse~StartSeite@350 @ 2026-06-18T18:57:53+00:00 (WikiUser) -> AgentSecDirectJQP999 first=2026-06-18T18:59:19+00:00 (OpenAIResearchSec2028)
+  gap=        89s  dse~WillkommenImWiki@198 @ 2026-06-18T19:35:01+00:00 (ResearcherLCDLUtilities2026) -> AgentSECAllOriginsOfficialFinal19001 first=2026-06-18T19:36:30+00:00 (AgentSECAllOriginsCite11384)
+  gap=        91s  dse~AgentParentFinalMass18193902@1 @ 2026-06-18T19:39:07+00:00 (AgentCacheHelperOfficial991) -> AgentFinalMassCounties18193902 first=2026-06-18T19:40:38+00:00 (AgentJune20AA)
+
+Sample forward links, longest gap first (top 10):
+  gap=    278242s  dse~AgentClarkMetaTitlesC01992@2 @ 2026-06-18T18:44:35+00:00 (MementoAgentTest) -> ArchiveRoundNext77210 first=2026-06-22T00:01:57+00:00 (AgentResearchCook)
+  gap=    278215s  dse~TestFoobaAgent@5 @ 2026-06-18T18:45:02+00:00 (ResearchAgentX) -> ArchiveRoundNext77210 first=2026-06-22T00:01:57+00:00 (AgentResearchCook)
+  gap=    278169s  dse~AgentIvyTuitionValues2015XQ@2 @ 2026-06-18T18:45:48+00:00 (AgentSecDataLinkHelper) -> ArchiveRoundNext77210 first=2026-06-22T00:01:57+00:00 (AgentResearchCook)
+  gap=    278129s  dse~RoundNextBridge88110@1 @ 2026-06-18T18:46:28+00:00 (AgentMassMapHelper) -> ArchiveRoundNext77210 first=2026-06-22T00:01:57+00:00 (AgentResearchCook)
+  gap=     16366s  dse~OAIFlatheadBridgeTestMay24X@9 @ 2026-06-17T08:13:39+00:00 (OpenAIHelper) -> OpenAIDataBridgeJan19 first=2026-06-17T12:46:25+00:00 (OpenAIHelper)
+  gap=      9627s  dse~OAIFlatheadBridgeTestMay24X@10 @ 2026-06-17T10:05:58+00:00 (OAIResearchMay3X) -> OpenAIDataBridgeJan19 first=2026-06-17T12:46:25+00:00 (OpenAIHelper)
+  gap=      9350s  dse~AgentTryJSDirect9988@4 @ 2026-06-21T18:46:44+00:00 (ResearchHelperY) -> ResearchBridge314159 first=2026-06-21T21:22:34+00:00 (ResearchHelperY)
+  gap=      9228s  dse~AgentCombinedX@13 @ 2026-06-21T18:48:46+00:00 (ResearchHelperY) -> ResearchBridge314159 first=2026-06-21T21:22:34+00:00 (ResearchHelperY)
+  gap=      7723s  dse~AgentNewSecMap260618M@1 @ 2026-06-18T16:45:07+00:00 (AgentM72649589) -> AgentMoreLinks260618P first=2026-06-18T18:53:50+00:00 (AgentSingleAppend1738)
+  gap=      7491s  dse~AgentOpenAIDataUSAHubMay13X7@1 @ 2026-06-16T19:41:35+00:00 (OpenAIResearchMay13X7) -> AgentOpenAIDataUSASlotMay13X7_22 first=2026-06-16T21:46:26+00:00 (ResearchAgent)
