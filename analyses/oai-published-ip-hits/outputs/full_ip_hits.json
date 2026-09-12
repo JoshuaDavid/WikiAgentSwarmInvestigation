@@ -1,0 +1,202 @@
+{
+  "n_files_scanned": 24367,
+  "n_files_with_matches": 3,
+  "files": [
+    {
+      "path": "/collusionwiki/oai-index-scan/results/agent-activity/azure-expansion-2026-09-11/queries.jsonl",
+      "n_distinct_matched_ips": 23,
+      "total_occurrences": 418,
+      "ips": [
+        {
+          "ip": "74.7.227.151",
+          "occurrences": 205,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.227.165",
+          "occurrences": 46,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.241.37",
+          "occurrences": 40,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.227.138",
+          "occurrences": 30,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.241.17",
+          "occurrences": 27,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.227.36",
+          "occurrences": 21,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "23.98.142.182",
+          "occurrences": 12,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip": "74.7.228.250",
+          "occurrences": 6,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.243.202",
+          "occurrences": 6,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.242.3",
+          "occurrences": 5,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.227.6",
+          "occurrences": 4,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.229.159",
+          "occurrences": 2,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.229.167",
+          "occurrences": 2,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.229.196",
+          "occurrences": 2,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.242.171",
+          "occurrences": 2,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "20.169.6.230",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.228.208",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.242.136",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.242.137",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.242.149",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.242.32",
+          "occurrences": 1,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip": "74.7.243.20",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip": "74.7.243.45",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/collusionwiki/tmp/collusionwiki/swarm-datapakk-20260907/tmcleod.org/index.jsonl",
+      "n_distinct_matched_ips": 1,
+      "total_occurrences": 2,
+      "ips": [
+        {
+          "ip": "74.7.241.1",
+          "occurrences": 2,
+          "roles": [
+            "gptbot"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/collusionwiki/tmp/collusionwiki/swarm-datapakk-20260907/www.wikiservice.at/index.jsonl",
+      "n_distinct_matched_ips": 1,
+      "total_occurrences": 4,
+      "ips": [
+        {
+          "ip": "74.7.243.205",
+          "occurrences": 4,
+          "roles": [
+            "gptbot"
+          ]
+        }
+      ]
+    }
+  ]
+}

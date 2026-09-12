@@ -1,0 +1,790 @@
+{
+  "n_files_scanned": 24367,
+  "n_files_with_corridor_hits": 4,
+  "files": [
+    {
+      "path": "/collusionwiki/agent-logs/prowiki/revisions.jsonl",
+      "n_ip16_records": 14591,
+      "n_distinct_ip16": 191,
+      "n_matching_distinct_ip16": 39,
+      "n_matching_occurrences": 4144,
+      "ip16_hits": [
+        {
+          "ip16": "57.154",
+          "occurrences": 458,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.171",
+          "occurrences": 455,
+          "roles": [
+            "gptbot",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.168",
+          "occurrences": 405,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.172",
+          "occurrences": 259,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.98",
+          "occurrences": 224,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.159",
+          "occurrences": 220,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.45",
+          "occurrences": 209,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "4.227",
+          "occurrences": 182,
+          "roles": [
+            "gptbot",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.83",
+          "occurrences": 157,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "4.151",
+          "occurrences": 148,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "172.212",
+          "occurrences": 147,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "104.210",
+          "occurrences": 110,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.25",
+          "occurrences": 99,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.165",
+          "occurrences": 92,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.242",
+          "occurrences": 86,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.228",
+          "occurrences": 86,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.169",
+          "occurrences": 83,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.225",
+          "occurrences": 78,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.161",
+          "occurrences": 77,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "132.196",
+          "occurrences": 64,
+          "roles": [
+            "chatgpt_user",
+            "gptbot"
+          ]
+        },
+        {
+          "ip16": "20.125",
+          "occurrences": 53,
+          "roles": [
+            "chatgpt_user",
+            "gptbot"
+          ]
+        },
+        {
+          "ip16": "135.234",
+          "occurrences": 51,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.57",
+          "occurrences": 49,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "23.102",
+          "occurrences": 49,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "172.215",
+          "occurrences": 46,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "40.116",
+          "occurrences": 41,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.230",
+          "occurrences": 37,
+          "roles": [
+            "gptbot"
+          ]
+        },
+        {
+          "ip16": "52.173",
+          "occurrences": 26,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.190",
+          "occurrences": 24,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.241",
+          "occurrences": 22,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "23.101",
+          "occurrences": 22,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "13.83",
+          "occurrences": 19,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.14",
+          "occurrences": 18,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.55",
+          "occurrences": 12,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "51.57",
+          "occurrences": 11,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "172.170",
+          "occurrences": 10,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "13.66",
+          "occurrences": 9,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.102",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.255",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/collusionwiki/analyses/blank-labels/outputs/blank_nonstub.jsonl",
+      "n_ip16_records": 375,
+      "n_distinct_ip16": 91,
+      "n_matching_distinct_ip16": 25,
+      "n_matching_occurrences": 103,
+      "ip16_hits": [
+        {
+          "ip16": "57.154",
+          "occurrences": 11,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.168",
+          "occurrences": 10,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.172",
+          "occurrences": 10,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.171",
+          "occurrences": 9,
+          "roles": [
+            "gptbot",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "4.151",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "172.212",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.98",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.159",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.45",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "4.227",
+          "occurrences": 6,
+          "roles": [
+            "gptbot",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.169",
+          "occurrences": 4,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.165",
+          "occurrences": 4,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.242",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.225",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "40.116",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "104.210",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.14",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.125",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "gptbot"
+          ]
+        },
+        {
+          "ip16": "52.161",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.25",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.228",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "172.170",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "51.57",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "23.102",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "132.196",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "gptbot"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/collusionwiki/tmp/blank_nonstub.jsonl",
+      "n_ip16_records": 375,
+      "n_distinct_ip16": 91,
+      "n_matching_distinct_ip16": 25,
+      "n_matching_occurrences": 103,
+      "ip16_hits": [
+        {
+          "ip16": "57.154",
+          "occurrences": 11,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.168",
+          "occurrences": 10,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.172",
+          "occurrences": 10,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.171",
+          "occurrences": 9,
+          "roles": [
+            "gptbot",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "4.151",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "172.212",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.98",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.159",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.45",
+          "occurrences": 6,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "4.227",
+          "occurrences": 6,
+          "roles": [
+            "gptbot",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.169",
+          "occurrences": 4,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.165",
+          "occurrences": 4,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.242",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.225",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "40.116",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "104.210",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.14",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.125",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "gptbot"
+          ]
+        },
+        {
+          "ip16": "52.161",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.25",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.228",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "172.170",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "51.57",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "23.102",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "132.196",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "gptbot"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/collusionwiki/agent-logs/prowiki/events.jsonl",
+      "n_ip16_records": 5322,
+      "n_distinct_ip16": 50,
+      "n_matching_distinct_ip16": 14,
+      "n_matching_occurrences": 19,
+      "ip16_hits": [
+        {
+          "ip16": "52.159",
+          "occurrences": 3,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.168",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.165",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "52.161",
+          "occurrences": 2,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "135.234",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.172",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.98",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "104.210",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.242",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "4.151",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "57.154",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user"
+          ]
+        },
+        {
+          "ip16": "20.25",
+          "occurrences": 1,
+          "roles": [
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "20.169",
+          "occurrences": 1,
+          "roles": [
+            "chatgpt_user",
+            "searchbot"
+          ]
+        },
+        {
+          "ip16": "52.230",
+          "occurrences": 1,
+          "roles": [
+            "gptbot"
+          ]
+        }
+      ]
+    }
+  ]
+}
