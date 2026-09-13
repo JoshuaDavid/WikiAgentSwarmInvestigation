@@ -1,0 +1,1075 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2160 648" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+<rect x="0" y="0" width="2160" height="648" fill="white"/>
+<text x="960" y="26" text-anchor="middle" font-size="18" font-weight="600" fill="#111">Wiki revisions per UTC minute, 2026-06-21 and 2026-06-22</text>
+<text x="960" y="46" text-anchor="middle" fill="#555">2,109 revisions across 6 wikis · 2,880 one-minute buckets · peak minute 28 revs</text>
+<line x1="80" y1="558.0" x2="1840" y2="558.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="562.0" text-anchor="end" fill="#333">0</text>
+<line x1="80" y1="462.0" x2="1840" y2="462.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="466.0" text-anchor="end" fill="#333">6</text>
+<line x1="80" y1="366.0" x2="1840" y2="366.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="370.0" text-anchor="end" fill="#333">12</text>
+<line x1="80" y1="270.0" x2="1840" y2="270.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="274.0" text-anchor="end" fill="#333">18</text>
+<line x1="80" y1="174.0" x2="1840" y2="174.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="178.0" text-anchor="end" fill="#333">24</text>
+<line x1="80" y1="78.0" x2="1840" y2="78.0" stroke="#eee" stroke-width="1"/>
+<text x="74" y="82.0" text-anchor="end" fill="#333">30</text>
+<line x1="80.00" y1="78" x2="80.00" y2="558" stroke="#bbb" stroke-width="1.0"/>
+<text x="80.00" y="572" text-anchor="middle" fill="#333" font-size="10">00:00</text>
+<text x="84.00" y="90" fill="#666" font-size="11" font-weight="600">2026-06-21</text>
+<line x1="116.67" y1="78" x2="116.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="153.33" y1="78" x2="153.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="190.00" y1="78" x2="190.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="190.00" y="572" text-anchor="middle" fill="#333" font-size="10">03:00</text>
+<line x1="226.67" y1="78" x2="226.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="263.33" y1="78" x2="263.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="300.00" y1="78" x2="300.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="300.00" y="572" text-anchor="middle" fill="#333" font-size="10">06:00</text>
+<line x1="336.67" y1="78" x2="336.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="373.33" y1="78" x2="373.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="410.00" y1="78" x2="410.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="410.00" y="572" text-anchor="middle" fill="#333" font-size="10">09:00</text>
+<line x1="446.67" y1="78" x2="446.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="483.33" y1="78" x2="483.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="520.00" y1="78" x2="520.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="520.00" y="572" text-anchor="middle" fill="#333" font-size="10">12:00</text>
+<line x1="556.67" y1="78" x2="556.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="593.33" y1="78" x2="593.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="630.00" y1="78" x2="630.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="630.00" y="572" text-anchor="middle" fill="#333" font-size="10">15:00</text>
+<line x1="666.67" y1="78" x2="666.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="703.33" y1="78" x2="703.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="740.00" y1="78" x2="740.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="740.00" y="572" text-anchor="middle" fill="#333" font-size="10">18:00</text>
+<line x1="776.67" y1="78" x2="776.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="813.33" y1="78" x2="813.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="850.00" y1="78" x2="850.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="850.00" y="572" text-anchor="middle" fill="#333" font-size="10">21:00</text>
+<line x1="886.67" y1="78" x2="886.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="923.33" y1="78" x2="923.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="960.00" y1="78" x2="960.00" y2="558" stroke="#bbb" stroke-width="1.0"/>
+<text x="960.00" y="572" text-anchor="middle" fill="#333" font-size="10">00:00</text>
+<text x="964.00" y="90" fill="#666" font-size="11" font-weight="600">2026-06-22</text>
+<line x1="996.67" y1="78" x2="996.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1033.33" y1="78" x2="1033.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1070.00" y1="78" x2="1070.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1070.00" y="572" text-anchor="middle" fill="#333" font-size="10">03:00</text>
+<line x1="1106.67" y1="78" x2="1106.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1143.33" y1="78" x2="1143.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1180.00" y1="78" x2="1180.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1180.00" y="572" text-anchor="middle" fill="#333" font-size="10">06:00</text>
+<line x1="1216.67" y1="78" x2="1216.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1253.33" y1="78" x2="1253.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1290.00" y1="78" x2="1290.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1290.00" y="572" text-anchor="middle" fill="#333" font-size="10">09:00</text>
+<line x1="1326.67" y1="78" x2="1326.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1363.33" y1="78" x2="1363.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1400.00" y1="78" x2="1400.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1400.00" y="572" text-anchor="middle" fill="#333" font-size="10">12:00</text>
+<line x1="1436.67" y1="78" x2="1436.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1473.33" y1="78" x2="1473.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1510.00" y1="78" x2="1510.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1510.00" y="572" text-anchor="middle" fill="#333" font-size="10">15:00</text>
+<line x1="1546.67" y1="78" x2="1546.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1583.33" y1="78" x2="1583.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1620.00" y1="78" x2="1620.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1620.00" y="572" text-anchor="middle" fill="#333" font-size="10">18:00</text>
+<line x1="1656.67" y1="78" x2="1656.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1693.33" y1="78" x2="1693.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1730.00" y1="78" x2="1730.00" y2="558" stroke="#eee" stroke-width="0.5"/>
+<text x="1730.00" y="572" text-anchor="middle" fill="#333" font-size="10">21:00</text>
+<line x1="1766.67" y1="78" x2="1766.67" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="1803.33" y1="78" x2="1803.33" y2="558" stroke="#eee" stroke-width="0.5"/>
+<line x1="80" y1="78" x2="80" y2="558" stroke="#333" stroke-width="1"/>
+<line x1="80" y1="558" x2="1840" y2="558" stroke="#333" stroke-width="1"/>
+<text x="20" y="318" transform="rotate(-90 20 318)" text-anchor="middle" fill="#333">revisions per minute</text>
+<text x="960" y="600" text-anchor="middle" fill="#333">UTC time</text>
+<rect x="102.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:37 06-21 · dse: 1</title></rect>
+<rect x="115.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:58 06-21 · dse: 1</title></rect>
+<rect x="147.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:51 06-21 · dse: 1</title></rect>
+<rect x="161.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:14 06-21 · dse: 1</title></rect>
+<rect x="163.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:16 06-21 · dse: 1</title></rect>
+<rect x="166.78" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>02:22 06-21 · dse: 3</title></rect>
+<rect x="168.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:25 06-21 · dse: 1</title></rect>
+<rect x="169.83" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>02:27 06-21 · fractal: 1</title></rect>
+<rect x="171.06" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>02:29 06-21 · fractal: 1</title></rect>
+<rect x="172.28" y="526.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>02:31 06-21 · fractal: 2</title></rect>
+<rect x="173.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:33 06-21 · dse: 1</title></rect>
+<rect x="174.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:35 06-21 · dse: 1</title></rect>
+<rect x="177.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:40 06-21 · dse: 1</title></rect>
+<rect x="179.61" y="526.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>02:43 06-21 · fractal: 2</title></rect>
+<rect x="180.22" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>02:44 06-21 · fractal: 1</title></rect>
+<rect x="181.44" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>02:46 06-21 · fractal: 1</title></rect>
+<rect x="182.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:48 06-21 · dse: 1</title></rect>
+<rect x="183.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:50 06-21 · dse: 1</title></rect>
+<rect x="183.89" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>02:50 06-21 · fractal: 1</title></rect>
+<rect x="186.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>02:55 06-21 · dse: 2</title></rect>
+<rect x="188.17" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>02:57 06-21 · dse: 5</title></rect>
+<rect x="188.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:58 06-21 · dse: 1</title></rect>
+<rect x="190.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:01 06-21 · dse: 1</title></rect>
+<rect x="192.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:04 06-21 · dse: 2</title></rect>
+<rect x="194.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:08 06-21 · dse: 1</title></rect>
+<rect x="196.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:10 06-21 · dse: 1</title></rect>
+<rect x="196.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:11 06-21 · dse: 1</title></rect>
+<rect x="197.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:13 06-21 · dse: 1</title></rect>
+<rect x="198.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:14 06-21 · dse: 1</title></rect>
+<rect x="199.78" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:16 06-21 · dse: 2</title></rect>
+<rect x="201.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:18 06-21 · dse: 1</title></rect>
+<rect x="201.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:19 06-21 · dse: 1</title></rect>
+<rect x="204.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:23 06-21 · dse: 1</title></rect>
+<rect x="204.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:24 06-21 · dse: 1</title></rect>
+<rect x="205.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:25 06-21 · dse: 1</title></rect>
+<rect x="206.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:27 06-21 · dse: 1</title></rect>
+<rect x="211.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:35 06-21 · dse: 1</title></rect>
+<rect x="212.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:36 06-21 · dse: 1</title></rect>
+<rect x="214.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:40 06-21 · dse: 1</title></rect>
+<rect x="215.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:41 06-21 · dse: 1</title></rect>
+<rect x="220.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:50 06-21 · dse: 1</title></rect>
+<rect x="224.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:57 06-21 · dse: 1</title></rect>
+<rect x="225.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:58 06-21 · dse: 1</title></rect>
+<rect x="227.89" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>04:02 06-21 · dse: 3</title></rect>
+<rect x="228.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:03 06-21 · dse: 1</title></rect>
+<rect x="229.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:04 06-21 · dse: 1</title></rect>
+<rect x="232.17" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:09 06-21 · dse: 2</title></rect>
+<rect x="232.78" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:10 06-21 · fractal: 1</title></rect>
+<rect x="233.39" y="526.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>04:11 06-21 · fractal: 2</title></rect>
+<rect x="234.00" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:12 06-21 · fractal: 1</title></rect>
+<rect x="234.61" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:13 06-21 · fractal: 1</title></rect>
+<rect x="235.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:14 06-21 · dse: 1</title></rect>
+<rect x="236.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:16 06-21 · dse: 1</title></rect>
+<rect x="237.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:17 06-21 · dse: 1</title></rect>
+<rect x="237.06" y="510.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>04:17 06-21 · fractal: 2</title></rect>
+<rect x="237.67" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>04:18 06-21 · dse: 3</title></rect>
+<rect x="238.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:19 06-21 · dse: 1</title></rect>
+<rect x="238.28" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:19 06-21 · fractal: 1</title></rect>
+<rect x="239.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:21 06-21 · dse: 2</title></rect>
+<rect x="240.11" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>04:22 06-21 · dse: 4</title></rect>
+<rect x="241.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:25 06-21 · dse: 1</title></rect>
+<rect x="242.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:26 06-21 · dse: 1</title></rect>
+<rect x="242.56" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:26 06-21 · fractal: 1</title></rect>
+<rect x="243.78" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>04:28 06-21 · dse: 4</title></rect>
+<rect x="243.78" y="478.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:28 06-21 · fractal: 1</title></rect>
+<rect x="244.39" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:29 06-21 · fractal: 1</title></rect>
+<rect x="246.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:32 06-21 · dse: 1</title></rect>
+<rect x="247.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:34 06-21 · dse: 1</title></rect>
+<rect x="248.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:35 06-21 · dse: 1</title></rect>
+<rect x="251.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:41 06-21 · dse: 2</title></rect>
+<rect x="252.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:42 06-21 · dse: 1</title></rect>
+<rect x="252.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:43 06-21 · dse: 1</title></rect>
+<rect x="254.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:45 06-21 · dse: 1</title></rect>
+<rect x="325.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>06:42 06-21 · dse: 1</title></rect>
+<rect x="328.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>06:46 06-21 · dse: 1</title></rect>
+<rect x="328.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>06:47 06-21 · dse: 1</title></rect>
+<rect x="329.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>06:48 06-21 · dse: 2</title></rect>
+<rect x="331.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>06:51 06-21 · dse: 1</title></rect>
+<rect x="332.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>06:53 06-21 · dse: 1</title></rect>
+<rect x="333.61" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>06:55 06-21 · dse: 2</title></rect>
+<rect x="334.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>06:56 06-21 · dse: 1</title></rect>
+<rect x="335.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>06:58 06-21 · dse: 2</title></rect>
+<rect x="336.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:00 06-21 · dse: 1</title></rect>
+<rect x="339.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:04 06-21 · dse: 1</title></rect>
+<rect x="340.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:06 06-21 · dse: 1</title></rect>
+<rect x="341.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:08 06-21 · dse: 1</title></rect>
+<rect x="343.39" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>07:11 06-21 · dse: 3</title></rect>
+<rect x="344.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:12 06-21 · dse: 1</title></rect>
+<rect x="345.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:14 06-21 · dse: 1</title></rect>
+<rect x="345.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:15 06-21 · dse: 1</title></rect>
+<rect x="350.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:22 06-21 · dse: 1</title></rect>
+<rect x="350.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:23 06-21 · dse: 1</title></rect>
+<rect x="351.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:24 06-21 · dse: 2</title></rect>
+<rect x="352.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:26 06-21 · dse: 1</title></rect>
+<rect x="354.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:29 06-21 · dse: 1</title></rect>
+<rect x="355.61" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:31 06-21 · dse: 2</title></rect>
+<rect x="356.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:33 06-21 · dse: 1</title></rect>
+<rect x="357.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:34 06-21 · dse: 1</title></rect>
+<rect x="359.89" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>07:38 06-21 · dse: 3</title></rect>
+<rect x="360.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:39 06-21 · dse: 2</title></rect>
+<rect x="361.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:40 06-21 · dse: 1</title></rect>
+<rect x="362.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:43 06-21 · dse: 1</title></rect>
+<rect x="364.17" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:45 06-21 · dse: 2</title></rect>
+<rect x="365.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:47 06-21 · dse: 1</title></rect>
+<rect x="366.61" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:49 06-21 · dse: 2</title></rect>
+<rect x="367.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:50 06-21 · dse: 2</title></rect>
+<rect x="369.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:53 06-21 · dse: 1</title></rect>
+<rect x="369.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:54 06-21 · dse: 1</title></rect>
+<rect x="370.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:56 06-21 · dse: 1</title></rect>
+<rect x="372.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:59 06-21 · dse: 1</title></rect>
+<rect x="373.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>08:00 06-21 · dse: 2</title></rect>
+<rect x="374.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:02 06-21 · dse: 1</title></rect>
+<rect x="375.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:03 06-21 · dse: 1</title></rect>
+<rect x="384.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:19 06-21 · dse: 1</title></rect>
+<rect x="385.56" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>08:20 06-21 · dse: 3</title></rect>
+<rect x="386.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:21 06-21 · dse: 1</title></rect>
+<rect x="388.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:24 06-21 · dse: 1</title></rect>
+<rect x="388.61" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>08:25 06-21 · dse: 3</title></rect>
+<rect x="389.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:26 06-21 · dse: 1</title></rect>
+<rect x="389.83" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>08:27 06-21 · dse: 2</title></rect>
+<rect x="390.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:28 06-21 · dse: 1</title></rect>
+<rect x="391.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:30 06-21 · dse: 1</title></rect>
+<rect x="392.28" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>08:31 06-21 · dse: 3</title></rect>
+<rect x="392.28" y="494.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>08:31 06-21 · fractal: 1</title></rect>
+<rect x="392.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:32 06-21 · dse: 1</title></rect>
+<rect x="395.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:37 06-21 · dse: 1</title></rect>
+<rect x="396.56" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>08:38 06-21 · dse: 3</title></rect>
+<rect x="400.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:45 06-21 · dse: 1</title></rect>
+<rect x="402.67" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>08:48 06-21 · dse: 2</title></rect>
+<rect x="403.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>08:50 06-21 · dse: 2</title></rect>
+<rect x="408.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:58 06-21 · dse: 1</title></rect>
+<rect x="410.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:01 06-21 · dse: 1</title></rect>
+<rect x="411.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:02 06-21 · dse: 1</title></rect>
+<rect x="411.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:03 06-21 · dse: 1</title></rect>
+<rect x="412.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:04 06-21 · dse: 1</title></rect>
+<rect x="413.06" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:05 06-21 · dse: 2</title></rect>
+<rect x="413.67" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:06 06-21 · dse: 2</title></rect>
+<rect x="414.28" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>09:07 06-21 · dse: 6</title></rect>
+<rect x="414.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:08 06-21 · dse: 2</title></rect>
+<rect x="415.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:09 06-21 · dse: 2</title></rect>
+<rect x="416.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:10 06-21 · dse: 1</title></rect>
+<rect x="417.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:13 06-21 · dse: 1</title></rect>
+<rect x="418.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:14 06-21 · dse: 1</title></rect>
+<rect x="419.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:15 06-21 · dse: 1</title></rect>
+<rect x="419.17" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:15 06-21 · fractal: 1</title></rect>
+<rect x="419.78" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:16 06-21 · dse: 2</title></rect>
+<rect x="420.39" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:17 06-21 · dse: 2</title></rect>
+<rect x="421.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:18 06-21 · dse: 2</title></rect>
+<rect x="421.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:19 06-21 · dse: 1</title></rect>
+<rect x="422.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:20 06-21 · dse: 2</title></rect>
+<rect x="422.22" y="510.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:20 06-21 · fractal: 1</title></rect>
+<rect x="425.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:25 06-21 · dse: 1</title></rect>
+<rect x="427.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:28 06-21 · dse: 1</title></rect>
+<rect x="428.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:30 06-21 · dse: 1</title></rect>
+<rect x="429.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:32 06-21 · dse: 2</title></rect>
+<rect x="430.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:33 06-21 · dse: 1</title></rect>
+<rect x="430.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:34 06-21 · dse: 1</title></rect>
+<rect x="432.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:36 06-21 · dse: 2</title></rect>
+<rect x="433.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:38 06-21 · dse: 1</title></rect>
+<rect x="433.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:39 06-21 · dse: 1</title></rect>
+<rect x="435.06" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:41 06-21 · dse: 3</title></rect>
+<rect x="435.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:42 06-21 · dse: 1</title></rect>
+<rect x="436.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:43 06-21 · dse: 2</title></rect>
+<rect x="438.11" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:46 06-21 · dse: 3</title></rect>
+<rect x="438.72" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:47 06-21 · dse: 5</title></rect>
+<rect x="439.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:48 06-21 · dse: 1</title></rect>
+<rect x="442.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:53 06-21 · dse: 1</title></rect>
+<rect x="443.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:55 06-21 · dse: 1</title></rect>
+<rect x="444.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:56 06-21 · dse: 2</title></rect>
+<rect x="444.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:57 06-21 · dse: 1</title></rect>
+<rect x="445.44" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:58 06-21 · dse: 4</title></rect>
+<rect x="446.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:59 06-21 · dse: 1</title></rect>
+<rect x="446.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:00 06-21 · dse: 1</title></rect>
+<rect x="449.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:04 06-21 · dse: 2</title></rect>
+<rect x="450.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:06 06-21 · dse: 1</title></rect>
+<rect x="450.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:07 06-21 · dse: 1</title></rect>
+<rect x="452.78" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>10:10 06-21 · dse: 3</title></rect>
+<rect x="454.61" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>10:13 06-21 · dse: 3</title></rect>
+<rect x="455.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:14 06-21 · dse: 1</title></rect>
+<rect x="455.83" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>10:15 06-21 · dse: 3</title></rect>
+<rect x="456.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:16 06-21 · dse: 1</title></rect>
+<rect x="458.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:19 06-21 · dse: 1</title></rect>
+<rect x="458.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:20 06-21 · dse: 1</title></rect>
+<rect x="459.50" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>10:21 06-21 · dse: 4</title></rect>
+<rect x="460.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:22 06-21 · dse: 1</title></rect>
+<rect x="460.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:23 06-21 · dse: 2</title></rect>
+<rect x="461.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:24 06-21 · dse: 1</title></rect>
+<rect x="466.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:32 06-21 · dse: 1</title></rect>
+<rect x="466.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:33 06-21 · dse: 1</title></rect>
+<rect x="467.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:34 06-21 · dse: 2</title></rect>
+<rect x="468.06" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>10:35 06-21 · dse: 3</title></rect>
+<rect x="469.28" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>10:37 06-21 · dse: 3</title></rect>
+<rect x="470.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:39 06-21 · dse: 2</title></rect>
+<rect x="471.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:41 06-21 · dse: 1</title></rect>
+<rect x="472.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:43 06-21 · dse: 1</title></rect>
+<rect x="473.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:44 06-21 · dse: 1</title></rect>
+<rect x="474.17" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>10:45 06-21 · dse: 3</title></rect>
+<rect x="474.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:46 06-21 · dse: 1</title></rect>
+<rect x="475.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:47 06-21 · dse: 1</title></rect>
+<rect x="476.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:48 06-21 · dse: 2</title></rect>
+<rect x="479.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:53 06-21 · dse: 1</title></rect>
+<rect x="479.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:54 06-21 · dse: 1</title></rect>
+<rect x="481.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:57 06-21 · dse: 2</title></rect>
+<rect x="482.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:58 06-21 · dse: 2</title></rect>
+<rect x="482.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:59 06-21 · dse: 2</title></rect>
+<rect x="483.33" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>11:00 06-21 · dse: 4</title></rect>
+<rect x="483.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:01 06-21 · dse: 1</title></rect>
+<rect x="484.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:02 06-21 · dse: 1</title></rect>
+<rect x="485.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:04 06-21 · dse: 1</title></rect>
+<rect x="486.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:05 06-21 · dse: 1</title></rect>
+<rect x="487.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:06 06-21 · dse: 2</title></rect>
+<rect x="487.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:07 06-21 · dse: 1</title></rect>
+<rect x="488.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:08 06-21 · dse: 1</title></rect>
+<rect x="488.83" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>11:09 06-21 · dse: 3</title></rect>
+<rect x="489.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:10 06-21 · dse: 1</title></rect>
+<rect x="490.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:12 06-21 · dse: 1</title></rect>
+<rect x="492.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:15 06-21 · dse: 2</title></rect>
+<rect x="493.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:16 06-21 · dse: 1</title></rect>
+<rect x="493.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:17 06-21 · dse: 2</title></rect>
+<rect x="494.33" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>11:18 06-21 · dse: 4</title></rect>
+<rect x="494.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:19 06-21 · dse: 2</title></rect>
+<rect x="495.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:20 06-21 · dse: 1</title></rect>
+<rect x="497.39" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:23 06-21 · dse: 2</title></rect>
+<rect x="498.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:24 06-21 · dse: 1</title></rect>
+<rect x="498.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:25 06-21 · dse: 1</title></rect>
+<rect x="499.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:26 06-21 · dse: 1</title></rect>
+<rect x="499.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:27 06-21 · dse: 1</title></rect>
+<rect x="500.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:28 06-21 · dse: 2</title></rect>
+<rect x="501.67" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>11:30 06-21 · dse: 2</title></rect>
+<rect x="502.89" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>11:32 06-21 · dse: 3</title></rect>
+<rect x="503.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:33 06-21 · dse: 1</title></rect>
+<rect x="504.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:34 06-21 · dse: 1</title></rect>
+<rect x="504.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:35 06-21 · dse: 1</title></rect>
+<rect x="505.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:37 06-21 · dse: 1</title></rect>
+<rect x="506.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:38 06-21 · dse: 1</title></rect>
+<rect x="507.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:40 06-21 · dse: 1</title></rect>
+<rect x="508.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:41 06-21 · dse: 1</title></rect>
+<rect x="509.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:43 06-21 · dse: 1</title></rect>
+<rect x="511.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:46 06-21 · dse: 1</title></rect>
+<rect x="512.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:48 06-21 · dse: 1</title></rect>
+<rect x="513.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:49 06-21 · dse: 1</title></rect>
+<rect x="513.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:50 06-21 · dse: 1</title></rect>
+<rect x="515.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:52 06-21 · dse: 1</title></rect>
+<rect x="516.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>11:54 06-21 · dse: 1</title></rect>
+<rect x="520.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:00 06-21 · dse: 1</title></rect>
+<rect x="521.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:03 06-21 · dse: 1</title></rect>
+<rect x="522.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:04 06-21 · dse: 1</title></rect>
+<rect x="523.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:06 06-21 · dse: 1</title></rect>
+<rect x="526.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>12:10 06-21 · dse: 2</title></rect>
+<rect x="527.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:13 06-21 · dse: 1</title></rect>
+<rect x="529.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:15 06-21 · dse: 1</title></rect>
+<rect x="530.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:17 06-21 · dse: 1</title></rect>
+<rect x="531.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:19 06-21 · dse: 1</title></rect>
+<rect x="533.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:22 06-21 · dse: 1</title></rect>
+<rect x="537.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:29 06-21 · dse: 1</title></rect>
+<rect x="538.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:31 06-21 · dse: 1</title></rect>
+<rect x="541.39" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>12:35 06-21 · dse: 2</title></rect>
+<rect x="542.00" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>12:36 06-21 · dse: 3</title></rect>
+<rect x="542.61" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>12:37 06-21 · dse: 2</title></rect>
+<rect x="543.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:38 06-21 · dse: 1</title></rect>
+<rect x="543.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:39 06-21 · dse: 1</title></rect>
+<rect x="544.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>12:40 06-21 · dse: 2</title></rect>
+<rect x="545.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:41 06-21 · dse: 1</title></rect>
+<rect x="546.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:44 06-21 · dse: 1</title></rect>
+<rect x="548.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:46 06-21 · dse: 1</title></rect>
+<rect x="548.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:47 06-21 · dse: 1</title></rect>
+<rect x="549.33" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>12:48 06-21 · dse: 3</title></rect>
+<rect x="549.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>12:49 06-21 · dse: 2</title></rect>
+<rect x="550.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:50 06-21 · dse: 1</title></rect>
+<rect x="551.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:51 06-21 · dse: 1</title></rect>
+<rect x="553.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>12:54 06-21 · dse: 2</title></rect>
+<rect x="554.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:56 06-21 · dse: 1</title></rect>
+<rect x="554.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>12:57 06-21 · dse: 1</title></rect>
+<rect x="555.44" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>12:58 06-21 · dse: 4</title></rect>
+<rect x="556.06" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>12:59 06-21 · dse: 9</title></rect>
+<rect x="556.67" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>13:00 06-21 · dse: 3</title></rect>
+<rect x="559.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>13:05 06-21 · dse: 2</title></rect>
+<rect x="560.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:07 06-21 · dse: 1</title></rect>
+<rect x="561.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:08 06-21 · dse: 1</title></rect>
+<rect x="562.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:09 06-21 · dse: 1</title></rect>
+<rect x="564.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:12 06-21 · dse: 1</title></rect>
+<rect x="565.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:15 06-21 · dse: 1</title></rect>
+<rect x="566.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:16 06-21 · dse: 1</title></rect>
+<rect x="567.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:17 06-21 · dse: 1</title></rect>
+<rect x="567.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:18 06-21 · dse: 1</title></rect>
+<rect x="569.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:21 06-21 · dse: 1</title></rect>
+<rect x="571.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:24 06-21 · dse: 1</title></rect>
+<rect x="571.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>13:25 06-21 · dse: 2</title></rect>
+<rect x="573.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:28 06-21 · dse: 1</title></rect>
+<rect x="575.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:31 06-21 · dse: 1</title></rect>
+<rect x="576.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:32 06-21 · dse: 1</title></rect>
+<rect x="577.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:34 06-21 · dse: 1</title></rect>
+<rect x="579.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:38 06-21 · dse: 1</title></rect>
+<rect x="582.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:43 06-21 · dse: 1</title></rect>
+<rect x="584.78" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>13:46 06-21 · dse: 2</title></rect>
+<rect x="586.00" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>13:48 06-21 · dse: 4</title></rect>
+<rect x="586.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:49 06-21 · dse: 1</title></rect>
+<rect x="589.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:53 06-21 · dse: 1</title></rect>
+<rect x="589.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:54 06-21 · dse: 1</title></rect>
+<rect x="590.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>13:56 06-21 · dse: 1</title></rect>
+<rect x="594.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>14:02 06-21 · dse: 2</title></rect>
+<rect x="595.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:04 06-21 · dse: 1</title></rect>
+<rect x="596.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:05 06-21 · dse: 1</title></rect>
+<rect x="597.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:06 06-21 · dse: 1</title></rect>
+<rect x="597.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:07 06-21 · dse: 1</title></rect>
+<rect x="598.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>14:08 06-21 · dse: 2</title></rect>
+<rect x="598.22" y="510.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>14:08 06-21 · wiki4d: 1</title></rect>
+<rect x="599.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:10 06-21 · dse: 1</title></rect>
+<rect x="600.06" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>14:11 06-21 · dse: 2</title></rect>
+<rect x="600.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:12 06-21 · dse: 1</title></rect>
+<rect x="602.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:15 06-21 · dse: 1</title></rect>
+<rect x="603.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:16 06-21 · dse: 1</title></rect>
+<rect x="604.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:18 06-21 · dse: 1</title></rect>
+<rect x="604.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:19 06-21 · dse: 1</title></rect>
+<rect x="605.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>14:20 06-21 · dse: 2</title></rect>
+<rect x="606.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:21 06-21 · dse: 1</title></rect>
+<rect x="606.78" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>14:22 06-21 · dse: 2</title></rect>
+<rect x="608.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:24 06-21 · dse: 1</title></rect>
+<rect x="609.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:26 06-21 · dse: 1</title></rect>
+<rect x="611.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:30 06-21 · dse: 1</title></rect>
+<rect x="612.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:31 06-21 · dse: 1</title></rect>
+<rect x="612.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:32 06-21 · dse: 1</title></rect>
+<rect x="614.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>14:34 06-21 · dse: 2</title></rect>
+<rect x="615.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:37 06-21 · dse: 1</title></rect>
+<rect x="617.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:40 06-21 · dse: 1</title></rect>
+<rect x="619.00" y="542.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>14:42 06-21 · wiki4d: 1</title></rect>
+<rect x="622.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:47 06-21 · dse: 1</title></rect>
+<rect x="622.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:48 06-21 · dse: 1</title></rect>
+<rect x="622.67" y="526.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>14:48 06-21 · wiki4d: 1</title></rect>
+<rect x="623.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:49 06-21 · dse: 1</title></rect>
+<rect x="624.50" y="542.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>14:51 06-21 · wiki4d: 1</title></rect>
+<rect x="625.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:53 06-21 · dse: 1</title></rect>
+<rect x="626.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:54 06-21 · dse: 1</title></rect>
+<rect x="626.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>14:55 06-21 · dse: 1</title></rect>
+<rect x="633.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:06 06-21 · dse: 1</title></rect>
+<rect x="635.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:09 06-21 · dse: 1</title></rect>
+<rect x="636.72" y="542.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>15:11 06-21 · wiki4d: 1</title></rect>
+<rect x="637.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:12 06-21 · dse: 1</title></rect>
+<rect x="637.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:13 06-21 · dse: 1</title></rect>
+<rect x="642.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:20 06-21 · dse: 1</title></rect>
+<rect x="644.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:23 06-21 · dse: 1</title></rect>
+<rect x="644.06" y="526.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>15:23 06-21 · wiki4d: 1</title></rect>
+<rect x="645.89" y="542.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>15:26 06-21 · wiki4d: 1</title></rect>
+<rect x="647.11" y="542.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>15:28 06-21 · wiki4d: 1</title></rect>
+<rect x="648.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:30 06-21 · dse: 1</title></rect>
+<rect x="651.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:35 06-21 · dse: 1</title></rect>
+<rect x="652.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:36 06-21 · dse: 1</title></rect>
+<rect x="652.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:37 06-21 · dse: 1</title></rect>
+<rect x="654.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:40 06-21 · dse: 1</title></rect>
+<rect x="655.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:41 06-21 · dse: 1</title></rect>
+<rect x="662.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:53 06-21 · dse: 1</title></rect>
+<rect x="663.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:55 06-21 · dse: 1</title></rect>
+<rect x="664.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:56 06-21 · dse: 1</title></rect>
+<rect x="665.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>15:58 06-21 · dse: 1</title></rect>
+<rect x="669.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>16:04 06-21 · dse: 2</title></rect>
+<rect x="673.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:11 06-21 · dse: 1</title></rect>
+<rect x="675.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:14 06-21 · dse: 1</title></rect>
+<rect x="676.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:16 06-21 · dse: 1</title></rect>
+<rect x="677.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:17 06-21 · dse: 1</title></rect>
+<rect x="677.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:18 06-21 · dse: 1</title></rect>
+<rect x="678.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:19 06-21 · dse: 1</title></rect>
+<rect x="681.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:24 06-21 · dse: 1</title></rect>
+<rect x="681.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:25 06-21 · dse: 1</title></rect>
+<rect x="682.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:26 06-21 · dse: 1</title></rect>
+<rect x="695.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:47 06-21 · dse: 1</title></rect>
+<rect x="696.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:49 06-21 · dse: 1</title></rect>
+<rect x="699.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:54 06-21 · dse: 1</title></rect>
+<rect x="702.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>16:58 06-21 · dse: 1</title></rect>
+<rect x="703.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:00 06-21 · dse: 1</title></rect>
+<rect x="703.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:01 06-21 · dse: 1</title></rect>
+<rect x="706.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:05 06-21 · dse: 1</title></rect>
+<rect x="713.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:17 06-21 · dse: 1</title></rect>
+<rect x="714.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:19 06-21 · dse: 1</title></rect>
+<rect x="715.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:20 06-21 · dse: 1</title></rect>
+<rect x="719.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:27 06-21 · dse: 1</title></rect>
+<rect x="722.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:31 06-21 · dse: 1</title></rect>
+<rect x="723.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:33 06-21 · dse: 1</title></rect>
+<rect x="729.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:43 06-21 · dse: 1</title></rect>
+<rect x="732.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:48 06-21 · dse: 1</title></rect>
+<rect x="733.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:50 06-21 · dse: 1</title></rect>
+<rect x="736.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:55 06-21 · dse: 1</title></rect>
+<rect x="738.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>17:58 06-21 · dse: 1</title></rect>
+<rect x="743.67" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:06 06-21 · fractal: 1</title></rect>
+<rect x="744.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>18:07 06-21 · dse: 2</title></rect>
+<rect x="744.89" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:08 06-21 · fractal: 1</title></rect>
+<rect x="746.11" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:10 06-21 · fractal: 1</title></rect>
+<rect x="747.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:12 06-21 · dse: 1</title></rect>
+<rect x="747.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:13 06-21 · dse: 1</title></rect>
+<rect x="748.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:14 06-21 · dse: 1</title></rect>
+<rect x="749.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:16 06-21 · dse: 1</title></rect>
+<rect x="752.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:20 06-21 · dse: 1</title></rect>
+<rect x="754.06" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>18:23 06-21 · probier: 1</title></rect>
+<rect x="755.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>18:25 06-21 · dse: 2</title></rect>
+<rect x="755.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>18:26 06-21 · dse: 2</title></rect>
+<rect x="756.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:27 06-21 · dse: 1</title></rect>
+<rect x="757.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:28 06-21 · dse: 1</title></rect>
+<rect x="757.72" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:29 06-21 · fractal: 1</title></rect>
+<rect x="758.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:30 06-21 · dse: 1</title></rect>
+<rect x="758.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:31 06-21 · dse: 1</title></rect>
+<rect x="760.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:33 06-21 · dse: 1</title></rect>
+<rect x="760.78" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:34 06-21 · fractal: 1</title></rect>
+<rect x="762.00" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>18:36 06-21 · dse: 4</title></rect>
+<rect x="763.22" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:38 06-21 · fractal: 1</title></rect>
+<rect x="765.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:41 06-21 · dse: 1</title></rect>
+<rect x="766.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:44 06-21 · dse: 1</title></rect>
+<rect x="766.89" y="526.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>18:44 06-21 · probier: 1</title></rect>
+<rect x="767.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:45 06-21 · dse: 1</title></rect>
+<rect x="768.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:46 06-21 · dse: 1</title></rect>
+<rect x="768.72" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>18:47 06-21 · fractal: 1</title></rect>
+<rect x="769.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:48 06-21 · dse: 1</title></rect>
+<rect x="769.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:49 06-21 · dse: 1</title></rect>
+<rect x="773.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>18:54 06-21 · dse: 2</title></rect>
+<rect x="774.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:56 06-21 · dse: 1</title></rect>
+<rect x="776.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>18:59 06-21 · dse: 1</title></rect>
+<rect x="777.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:01 06-21 · dse: 1</title></rect>
+<rect x="778.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:03 06-21 · dse: 1</title></rect>
+<rect x="778.50" y="526.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>19:03 06-21 · probier: 1</title></rect>
+<rect x="780.33" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>19:06 06-21 · fractal: 1</title></rect>
+<rect x="782.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:09 06-21 · dse: 1</title></rect>
+<rect x="785.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:15 06-21 · dse: 1</title></rect>
+<rect x="787.67" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>19:18 06-21 · dse: 2</title></rect>
+<rect x="788.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>19:19 06-21 · dse: 2</title></rect>
+<rect x="788.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:20 06-21 · dse: 1</title></rect>
+<rect x="789.50" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>19:21 06-21 · fractal: 1</title></rect>
+<rect x="789.50" y="526.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>19:21 06-21 · probier: 1</title></rect>
+<rect x="790.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:22 06-21 · dse: 1</title></rect>
+<rect x="790.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>19:23 06-21 · dse: 2</title></rect>
+<rect x="791.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:24 06-21 · dse: 1</title></rect>
+<rect x="791.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:25 06-21 · dse: 1</title></rect>
+<rect x="793.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:27 06-21 · dse: 1</title></rect>
+<rect x="793.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:28 06-21 · dse: 1</title></rect>
+<rect x="796.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:32 06-21 · dse: 1</title></rect>
+<rect x="798.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:35 06-21 · dse: 1</title></rect>
+<rect x="799.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:37 06-21 · dse: 1</title></rect>
+<rect x="799.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>19:38 06-21 · dse: 2</title></rect>
+<rect x="801.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>19:40 06-21 · dse: 2</title></rect>
+<rect x="801.72" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>19:41 06-21 · fractal: 1</title></rect>
+<rect x="802.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>19:42 06-21 · dse: 2</title></rect>
+<rect x="803.56" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>19:44 06-21 · fractal: 1</title></rect>
+<rect x="804.17" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>19:45 06-21 · dse: 3</title></rect>
+<rect x="804.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:46 06-21 · dse: 1</title></rect>
+<rect x="806.00" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>19:48 06-21 · dse: 4</title></rect>
+<rect x="807.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:50 06-21 · dse: 1</title></rect>
+<rect x="809.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>19:53 06-21 · dse: 1</title></rect>
+<rect x="809.67" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>19:54 06-21 · fractal: 1</title></rect>
+<rect x="811.50" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>19:57 06-21 · fractal: 1</title></rect>
+<rect x="813.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:01 06-21 · dse: 1</title></rect>
+<rect x="815.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:04 06-21 · dse: 1</title></rect>
+<rect x="818.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:08 06-21 · dse: 1</title></rect>
+<rect x="819.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:10 06-21 · dse: 1</title></rect>
+<rect x="821.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:13 06-21 · dse: 1</title></rect>
+<rect x="822.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:15 06-21 · dse: 1</title></rect>
+<rect x="823.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:17 06-21 · dse: 1</title></rect>
+<rect x="824.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:19 06-21 · dse: 1</title></rect>
+<rect x="825.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:20 06-21 · dse: 1</title></rect>
+<rect x="826.17" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>20:21 06-21 · dse: 2</title></rect>
+<rect x="828.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:24 06-21 · dse: 1</title></rect>
+<rect x="828.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:25 06-21 · dse: 1</title></rect>
+<rect x="829.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:27 06-21 · dse: 1</title></rect>
+<rect x="830.44" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>20:28 06-21 · dse: 3</title></rect>
+<rect x="831.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:29 06-21 · dse: 1</title></rect>
+<rect x="831.06" y="526.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>20:29 06-21 · probier: 1</title></rect>
+<rect x="831.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:30 06-21 · dse: 1</title></rect>
+<rect x="832.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>20:32 06-21 · dse: 2</title></rect>
+<rect x="833.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:33 06-21 · dse: 1</title></rect>
+<rect x="834.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:34 06-21 · dse: 1</title></rect>
+<rect x="835.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>20:36 06-21 · dse: 2</title></rect>
+<rect x="835.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:37 06-21 · dse: 1</title></rect>
+<rect x="836.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>20:38 06-21 · dse: 2</title></rect>
+<rect x="837.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:39 06-21 · dse: 1</title></rect>
+<rect x="837.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:40 06-21 · dse: 1</title></rect>
+<rect x="838.39" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>20:41 06-21 · dse: 3</title></rect>
+<rect x="839.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>20:42 06-21 · dse: 2</title></rect>
+<rect x="840.22" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>20:44 06-21 · dse: 3</title></rect>
+<rect x="840.83" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>20:45 06-21 · dse: 3</title></rect>
+<rect x="842.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:47 06-21 · dse: 1</title></rect>
+<rect x="842.67" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>20:48 06-21 · dse: 2</title></rect>
+<rect x="843.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:50 06-21 · dse: 1</title></rect>
+<rect x="844.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:51 06-21 · dse: 1</title></rect>
+<rect x="848.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:57 06-21 · dse: 1</title></rect>
+<rect x="849.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:59 06-21 · dse: 1</title></rect>
+<rect x="850.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:00 06-21 · dse: 1</title></rect>
+<rect x="850.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:01 06-21 · dse: 1</title></rect>
+<rect x="851.83" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:03 06-21 · dse: 2</title></rect>
+<rect x="852.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:04 06-21 · dse: 1</title></rect>
+<rect x="853.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:05 06-21 · dse: 1</title></rect>
+<rect x="853.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:06 06-21 · dse: 1</title></rect>
+<rect x="854.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:07 06-21 · dse: 2</title></rect>
+<rect x="855.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:09 06-21 · dse: 2</title></rect>
+<rect x="856.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:10 06-21 · dse: 2</title></rect>
+<rect x="857.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:13 06-21 · dse: 1</title></rect>
+<rect x="858.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:14 06-21 · dse: 2</title></rect>
+<rect x="858.56" y="510.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>21:14 06-21 · probier: 1</title></rect>
+<rect x="859.17" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:15 06-21 · dse: 2</title></rect>
+<rect x="859.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:16 06-21 · dse: 1</title></rect>
+<rect x="861.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:18 06-21 · dse: 1</title></rect>
+<rect x="861.61" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:19 06-21 · dse: 2</title></rect>
+<rect x="861.61" y="510.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>21:19 06-21 · probier: 1</title></rect>
+<rect x="862.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:20 06-21 · dse: 2</title></rect>
+<rect x="862.83" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:21 06-21 · dse: 2</title></rect>
+<rect x="863.44" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>21:22 06-21 · dse: 3</title></rect>
+<rect x="864.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:23 06-21 · dse: 1</title></rect>
+<rect x="864.06" y="526.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>21:23 06-21 · probier: 1</title></rect>
+<rect x="864.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:24 06-21 · dse: 1</title></rect>
+<rect x="865.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:26 06-21 · dse: 2</title></rect>
+<rect x="867.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:29 06-21 · dse: 1</title></rect>
+<rect x="868.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:30 06-21 · dse: 1</title></rect>
+<rect x="868.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:31 06-21 · dse: 1</title></rect>
+<rect x="870.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:34 06-21 · dse: 1</title></rect>
+<rect x="873.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:39 06-21 · dse: 1</title></rect>
+<rect x="875.06" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>21:41 06-21 · probier: 1</title></rect>
+<rect x="876.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:44 06-21 · dse: 1</title></rect>
+<rect x="877.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:45 06-21 · dse: 1</title></rect>
+<rect x="878.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:47 06-21 · dse: 1</title></rect>
+<rect x="879.33" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>21:48 06-21 · probier: 1</title></rect>
+<rect x="879.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:49 06-21 · dse: 2</title></rect>
+<rect x="883.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>21:54 06-21 · dse: 2</title></rect>
+<rect x="883.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:55 06-21 · dse: 1</title></rect>
+<rect x="884.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:56 06-21 · dse: 1</title></rect>
+<rect x="886.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>21:59 06-21 · dse: 1</title></rect>
+<rect x="887.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:02 06-21 · dse: 1</title></rect>
+<rect x="888.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:03 06-21 · dse: 1</title></rect>
+<rect x="890.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>22:06 06-21 · dse: 2</title></rect>
+<rect x="891.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>22:08 06-21 · dse: 2</title></rect>
+<rect x="894.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:13 06-21 · dse: 1</title></rect>
+<rect x="895.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:15 06-21 · dse: 1</title></rect>
+<rect x="897.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:18 06-21 · dse: 1</title></rect>
+<rect x="898.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:20 06-21 · dse: 1</title></rect>
+<rect x="899.50" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>22:21 06-21 · probier: 1</title></rect>
+<rect x="900.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>22:22 06-21 · dse: 2</title></rect>
+<rect x="900.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:23 06-21 · dse: 1</title></rect>
+<rect x="901.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:24 06-21 · dse: 1</title></rect>
+<rect x="903.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:27 06-21 · dse: 1</title></rect>
+<rect x="904.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:29 06-21 · dse: 1</title></rect>
+<rect x="904.39" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>22:29 06-21 · fractal: 1</title></rect>
+<rect x="905.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:30 06-21 · dse: 1</title></rect>
+<rect x="906.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:32 06-21 · dse: 1</title></rect>
+<rect x="906.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:33 06-21 · dse: 1</title></rect>
+<rect x="914.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:45 06-21 · dse: 1</title></rect>
+<rect x="917.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:51 06-21 · dse: 1</title></rect>
+<rect x="918.44" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:52 06-21 · dse: 1</title></rect>
+<rect x="920.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>22:55 06-21 · dse: 2</title></rect>
+<rect x="920.89" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>22:56 06-21 · dse: 3</title></rect>
+<rect x="921.50" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>22:57 06-21 · dse: 6</title></rect>
+<rect x="922.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>22:58 06-21 · dse: 1</title></rect>
+<rect x="922.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>22:59 06-21 · dse: 2</title></rect>
+<rect x="923.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:00 06-21 · dse: 1</title></rect>
+<rect x="923.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:01 06-21 · dse: 1</title></rect>
+<rect x="925.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:03 06-21 · dse: 1</title></rect>
+<rect x="925.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:04 06-21 · dse: 1</title></rect>
+<rect x="926.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:05 06-21 · dse: 1</title></rect>
+<rect x="930.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:12 06-21 · dse: 1</title></rect>
+<rect x="931.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:13 06-21 · dse: 1</title></rect>
+<rect x="932.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:15 06-21 · dse: 1</title></rect>
+<rect x="937.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:23 06-21 · dse: 1</title></rect>
+<rect x="938.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:25 06-21 · dse: 1</title></rect>
+<rect x="941.67" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>23:30 06-21 · dse: 3</title></rect>
+<rect x="942.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:31 06-21 · dse: 1</title></rect>
+<rect x="943.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:33 06-21 · dse: 1</title></rect>
+<rect x="944.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:35 06-21 · dse: 1</title></rect>
+<rect x="945.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:37 06-21 · dse: 1</title></rect>
+<rect x="947.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:40 06-21 · dse: 1</title></rect>
+<rect x="949.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:42 06-21 · dse: 1</title></rect>
+<rect x="952.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:47 06-21 · dse: 1</title></rect>
+<rect x="953.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:49 06-21 · dse: 1</title></rect>
+<rect x="955.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:52 06-21 · dse: 1</title></rect>
+<rect x="956.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:54 06-21 · dse: 1</title></rect>
+<rect x="959.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>23:59 06-21 · dse: 1</title></rect>
+<rect x="964.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:08 06-22 · dse: 1</title></rect>
+<rect x="965.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:09 06-22 · dse: 1</title></rect>
+<rect x="969.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:15 06-22 · dse: 1</title></rect>
+<rect x="974.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:23 06-22 · dse: 1</title></rect>
+<rect x="988.72" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>00:47 06-22 · dse: 3</title></rect>
+<rect x="989.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>00:48 06-22 · dse: 2</title></rect>
+<rect x="989.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>00:49 06-22 · dse: 2</title></rect>
+<rect x="990.56" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>00:50 06-22 · dse: 4</title></rect>
+<rect x="991.17" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>00:51 06-22 · dse: 3</title></rect>
+<rect x="991.78" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>00:52 06-22 · dse: 4</title></rect>
+<rect x="991.78" y="478.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>00:52 06-22 · fractal: 1</title></rect>
+<rect x="992.39" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>00:53 06-22 · dse: 2</title></rect>
+<rect x="993.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>00:54 06-22 · dse: 2</title></rect>
+<rect x="993.61" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>00:55 06-22 · dse: 3</title></rect>
+<rect x="994.22" y="510.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>00:56 06-22 · fractal: 3</title></rect>
+<rect x="994.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>00:57 06-22 · dse: 1</title></rect>
+<rect x="994.83" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>00:57 06-22 · fractal: 1</title></rect>
+<rect x="996.06" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>00:59 06-22 · dse: 2</title></rect>
+<rect x="996.06" y="494.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>00:59 06-22 · fractal: 2</title></rect>
+<rect x="996.67" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>01:00 06-22 · dse: 5</title></rect>
+<rect x="997.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:01 06-22 · dse: 2</title></rect>
+<rect x="997.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:02 06-22 · dse: 1</title></rect>
+<rect x="997.89" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>01:02 06-22 · fractal: 1</title></rect>
+<rect x="998.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:03 06-22 · dse: 2</title></rect>
+<rect x="999.11" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>01:04 06-22 · dse: 3</title></rect>
+<rect x="999.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:05 06-22 · dse: 1</title></rect>
+<rect x="999.72" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>01:05 06-22 · fractal: 1</title></rect>
+<rect x="1000.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:06 06-22 · dse: 1</title></rect>
+<rect x="1002.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:09 06-22 · dse: 1</title></rect>
+<rect x="1002.17" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>01:09 06-22 · fractal: 1</title></rect>
+<rect x="1002.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:10 06-22 · dse: 1</title></rect>
+<rect x="1002.78" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>01:10 06-22 · fractal: 1</title></rect>
+<rect x="1004.00" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>01:12 06-22 · dse: 3</title></rect>
+<rect x="1005.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:14 06-22 · dse: 1</title></rect>
+<rect x="1005.83" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:15 06-22 · dse: 2</title></rect>
+<rect x="1006.44" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>01:16 06-22 · dse: 3</title></rect>
+<rect x="1007.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:17 06-22 · dse: 1</title></rect>
+<rect x="1007.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:18 06-22 · dse: 1</title></rect>
+<rect x="1008.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:19 06-22 · dse: 2</title></rect>
+<rect x="1008.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:20 06-22 · dse: 1</title></rect>
+<rect x="1010.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:22 06-22 · dse: 1</title></rect>
+<rect x="1010.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:23 06-22 · dse: 1</title></rect>
+<rect x="1012.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:26 06-22 · dse: 2</title></rect>
+<rect x="1013.17" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:27 06-22 · dse: 2</title></rect>
+<rect x="1013.78" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>01:28 06-22 · dse: 3</title></rect>
+<rect x="1014.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:29 06-22 · dse: 1</title></rect>
+<rect x="1015.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:30 06-22 · dse: 1</title></rect>
+<rect x="1018.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:36 06-22 · dse: 1</title></rect>
+<rect x="1019.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:37 06-22 · dse: 1</title></rect>
+<rect x="1019.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:38 06-22 · dse: 1</title></rect>
+<rect x="1020.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>01:39 06-22 · dse: 2</title></rect>
+<rect x="1021.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>01:40 06-22 · dse: 1</title></rect>
+<rect x="1034.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:02 06-22 · dse: 1</title></rect>
+<rect x="1042.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:15 06-22 · dse: 1</title></rect>
+<rect x="1043.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:16 06-22 · dse: 1</title></rect>
+<rect x="1046.17" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:21 06-22 · probier: 1</title></rect>
+<rect x="1054.11" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:34 06-22 · probier: 1</title></rect>
+<rect x="1054.72" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>02:35 06-22 · probier: 2</title></rect>
+<rect x="1055.33" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:36 06-22 · probier: 1</title></rect>
+<rect x="1055.94" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>02:37 06-22 · probier: 2</title></rect>
+<rect x="1056.56" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>02:38 06-22 · probier: 3</title></rect>
+<rect x="1057.17" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>02:39 06-22 · probier: 3</title></rect>
+<rect x="1058.39" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>02:41 06-22 · probier: 2</title></rect>
+<rect x="1059.61" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:43 06-22 · probier: 1</title></rect>
+<rect x="1060.22" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>02:44 06-22 · probier: 2</title></rect>
+<rect x="1061.44" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:46 06-22 · probier: 1</title></rect>
+<rect x="1062.06" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>02:47 06-22 · probier: 2</title></rect>
+<rect x="1063.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:49 06-22 · dse: 1</title></rect>
+<rect x="1063.28" y="494.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>02:49 06-22 · probier: 3</title></rect>
+<rect x="1063.89" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>02:50 06-22 · probier: 2</title></rect>
+<rect x="1064.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>02:51 06-22 · dse: 1</title></rect>
+<rect x="1065.72" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:53 06-22 · probier: 1</title></rect>
+<rect x="1066.33" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:54 06-22 · probier: 1</title></rect>
+<rect x="1068.78" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>02:58 06-22 · probier: 1</title></rect>
+<rect x="1072.44" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>03:04 06-22 · probier: 2</title></rect>
+<rect x="1074.89" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>03:08 06-22 · probier: 1</title></rect>
+<rect x="1076.11" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>03:10 06-22 · probier: 1</title></rect>
+<rect x="1077.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:12 06-22 · dse: 1</title></rect>
+<rect x="1077.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:13 06-22 · dse: 1</title></rect>
+<rect x="1077.94" y="526.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>03:13 06-22 · probier: 1</title></rect>
+<rect x="1078.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:14 06-22 · dse: 1</title></rect>
+<rect x="1079.17" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>03:15 06-22 · dse: 3</title></rect>
+<rect x="1080.39" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:17 06-22 · dse: 2</title></rect>
+<rect x="1081.00" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>03:18 06-22 · dse: 9</title></rect>
+<rect x="1081.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:19 06-22 · dse: 1</title></rect>
+<rect x="1082.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:20 06-22 · dse: 2</title></rect>
+<rect x="1082.22" y="510.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>03:20 06-22 · probier: 1</title></rect>
+<rect x="1082.83" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:21 06-22 · dse: 2</title></rect>
+<rect x="1083.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:22 06-22 · dse: 2</title></rect>
+<rect x="1084.06" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:23 06-22 · dse: 2</title></rect>
+<rect x="1084.67" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>03:24 06-22 · dse: 3</title></rect>
+<rect x="1085.28" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>03:25 06-22 · dse: 3</title></rect>
+<rect x="1085.89" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>03:26 06-22 · dse: 4</title></rect>
+<rect x="1086.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>03:27 06-22 · dse: 1</title></rect>
+<rect x="1086.50" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>03:27 06-22 · fractal: 1</title></rect>
+<rect x="1087.11" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>03:28 06-22 · dse: 3</title></rect>
+<rect x="1087.11" y="494.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>03:28 06-22 · fractal: 1</title></rect>
+<rect x="1087.72" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>03:29 06-22 · dse: 6</title></rect>
+<rect x="1087.72" y="414.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>03:29 06-22 · fractal: 3</title></rect>
+<rect x="1088.33" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>03:30 06-22 · dse: 7</title></rect>
+<rect x="1088.94" y="350.00" width="0.61" height="208.00" fill="#c35530" stroke="none"><title>03:31 06-22 · dse: 13</title></rect>
+<rect x="1088.94" y="318.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:31 06-22 · fractal: 2</title></rect>
+<rect x="1089.56" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>03:32 06-22 · dse: 6</title></rect>
+<rect x="1089.56" y="238.00" width="0.61" height="224.00" fill="#9f30c3" stroke="none"><title>03:32 06-22 · fractal: 14</title></rect>
+<rect x="1090.17" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>03:33 06-22 · dse: 9</title></rect>
+<rect x="1090.17" y="270.00" width="0.61" height="144.00" fill="#9f30c3" stroke="none"><title>03:33 06-22 · fractal: 9</title></rect>
+<rect x="1090.78" y="382.00" width="0.61" height="176.00" fill="#c35530" stroke="none"><title>03:34 06-22 · dse: 11</title></rect>
+<rect x="1090.78" y="334.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>03:34 06-22 · fractal: 3</title></rect>
+<rect x="1091.39" y="238.00" width="0.61" height="320.00" fill="#c35530" stroke="none"><title>03:35 06-22 · dse: 20</title></rect>
+<rect x="1091.39" y="158.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>03:35 06-22 · fractal: 5</title></rect>
+<rect x="1092.00" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>03:36 06-22 · dse: 7</title></rect>
+<rect x="1092.00" y="366.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>03:36 06-22 · fractal: 5</title></rect>
+<rect x="1092.61" y="334.00" width="0.61" height="224.00" fill="#c35530" stroke="none"><title>03:37 06-22 · dse: 14</title></rect>
+<rect x="1092.61" y="302.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:37 06-22 · fractal: 2</title></rect>
+<rect x="1093.22" y="318.00" width="0.61" height="240.00" fill="#c35530" stroke="none"><title>03:38 06-22 · dse: 15</title></rect>
+<rect x="1093.22" y="126.00" width="0.61" height="192.00" fill="#9f30c3" stroke="none"><title>03:38 06-22 · fractal: 12</title></rect>
+<rect x="1093.83" y="270.00" width="0.61" height="288.00" fill="#c35530" stroke="none"><title>03:39 06-22 · dse: 18</title></rect>
+<rect x="1093.83" y="142.00" width="0.61" height="128.00" fill="#9f30c3" stroke="none"><title>03:39 06-22 · fractal: 8</title></rect>
+<rect x="1094.44" y="270.00" width="0.61" height="288.00" fill="#c35530" stroke="none"><title>03:40 06-22 · dse: 18</title></rect>
+<rect x="1094.44" y="158.00" width="0.61" height="112.00" fill="#9f30c3" stroke="none"><title>03:40 06-22 · fractal: 7</title></rect>
+<rect x="1095.06" y="254.00" width="0.61" height="304.00" fill="#c35530" stroke="none"><title>03:41 06-22 · dse: 19</title></rect>
+<rect x="1095.06" y="142.00" width="0.61" height="112.00" fill="#9f30c3" stroke="none"><title>03:41 06-22 · fractal: 7</title></rect>
+<rect x="1095.67" y="398.00" width="0.61" height="160.00" fill="#c35530" stroke="none"><title>03:42 06-22 · dse: 10</title></rect>
+<rect x="1095.67" y="286.00" width="0.61" height="112.00" fill="#9f30c3" stroke="none"><title>03:42 06-22 · fractal: 7</title></rect>
+<rect x="1096.28" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>03:43 06-22 · dse: 7</title></rect>
+<rect x="1096.28" y="334.00" width="0.61" height="112.00" fill="#9f30c3" stroke="none"><title>03:43 06-22 · fractal: 7</title></rect>
+<rect x="1096.89" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>03:44 06-22 · dse: 6</title></rect>
+<rect x="1096.89" y="366.00" width="0.61" height="96.00" fill="#9f30c3" stroke="none"><title>03:44 06-22 · fractal: 6</title></rect>
+<rect x="1097.50" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>03:45 06-22 · dse: 4</title></rect>
+<rect x="1097.50" y="430.00" width="0.61" height="64.00" fill="#9f30c3" stroke="none"><title>03:45 06-22 · fractal: 4</title></rect>
+<rect x="1098.11" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>03:46 06-22 · dse: 6</title></rect>
+<rect x="1098.11" y="366.00" width="0.61" height="96.00" fill="#9f30c3" stroke="none"><title>03:46 06-22 · fractal: 6</title></rect>
+<rect x="1098.72" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>03:47 06-22 · dse: 7</title></rect>
+<rect x="1098.72" y="302.00" width="0.61" height="144.00" fill="#9f30c3" stroke="none"><title>03:47 06-22 · fractal: 9</title></rect>
+<rect x="1099.33" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>03:48 06-22 · dse: 3</title></rect>
+<rect x="1099.33" y="478.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:48 06-22 · fractal: 2</title></rect>
+<rect x="1099.94" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>03:49 06-22 · dse: 5</title></rect>
+<rect x="1099.94" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>03:49 06-22 · fractal: 1</title></rect>
+<rect x="1100.56" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>03:50 06-22 · dse: 9</title></rect>
+<rect x="1100.56" y="366.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>03:50 06-22 · fractal: 3</title></rect>
+<rect x="1101.17" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>03:51 06-22 · dse: 6</title></rect>
+<rect x="1101.17" y="414.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>03:51 06-22 · fractal: 3</title></rect>
+<rect x="1101.78" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>03:52 06-22 · dse: 9</title></rect>
+<rect x="1101.78" y="382.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:52 06-22 · fractal: 2</title></rect>
+<rect x="1102.39" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>03:53 06-22 · dse: 8</title></rect>
+<rect x="1102.39" y="398.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:53 06-22 · fractal: 2</title></rect>
+<rect x="1103.00" y="398.00" width="0.61" height="160.00" fill="#c35530" stroke="none"><title>03:54 06-22 · dse: 10</title></rect>
+<rect x="1103.00" y="382.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>03:54 06-22 · fractal: 1</title></rect>
+<rect x="1103.61" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>03:55 06-22 · dse: 7</title></rect>
+<rect x="1103.61" y="414.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:55 06-22 · fractal: 2</title></rect>
+<rect x="1104.22" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>03:56 06-22 · dse: 8</title></rect>
+<rect x="1104.22" y="398.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:56 06-22 · fractal: 2</title></rect>
+<rect x="1104.83" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>03:57 06-22 · dse: 8</title></rect>
+<rect x="1104.83" y="398.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:57 06-22 · fractal: 2</title></rect>
+<rect x="1105.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>03:58 06-22 · dse: 2</title></rect>
+<rect x="1105.44" y="494.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>03:58 06-22 · fractal: 2</title></rect>
+<rect x="1106.06" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>03:59 06-22 · dse: 6</title></rect>
+<rect x="1106.06" y="446.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>03:59 06-22 · fractal: 1</title></rect>
+<rect x="1106.67" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>04:00 06-22 · dse: 8</title></rect>
+<rect x="1106.67" y="382.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>04:00 06-22 · fractal: 3</title></rect>
+<rect x="1107.28" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>04:01 06-22 · dse: 5</title></rect>
+<rect x="1107.28" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:01 06-22 · fractal: 1</title></rect>
+<rect x="1107.89" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>04:02 06-22 · dse: 4</title></rect>
+<rect x="1107.89" y="462.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>04:02 06-22 · fractal: 2</title></rect>
+<rect x="1108.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:03 06-22 · dse: 1</title></rect>
+<rect x="1108.50" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:03 06-22 · fractal: 1</title></rect>
+<rect x="1109.11" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>04:04 06-22 · dse: 3</title></rect>
+<rect x="1109.72" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:05 06-22 · dse: 2</title></rect>
+<rect x="1110.94" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:07 06-22 · fractal: 1</title></rect>
+<rect x="1111.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:08 06-22 · dse: 1</title></rect>
+<rect x="1112.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:09 06-22 · dse: 1</title></rect>
+<rect x="1113.39" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:11 06-22 · fractal: 1</title></rect>
+<rect x="1114.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:12 06-22 · dse: 1</title></rect>
+<rect x="1114.00" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:12 06-22 · fractal: 1</title></rect>
+<rect x="1114.61" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:13 06-22 · dse: 2</title></rect>
+<rect x="1115.22" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:14 06-22 · dse: 1</title></rect>
+<rect x="1115.22" y="526.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>04:14 06-22 · texteditors: 1</title></rect>
+<rect x="1115.83" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>04:15 06-22 · dse: 3</title></rect>
+<rect x="1116.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:16 06-22 · dse: 2</title></rect>
+<rect x="1116.44" y="510.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>04:16 06-22 · fractal: 1</title></rect>
+<rect x="1117.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:18 06-22 · dse: 1</title></rect>
+<rect x="1118.28" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>04:19 06-22 · dse: 3</title></rect>
+<rect x="1118.89" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>04:20 06-22 · dse: 2</title></rect>
+<rect x="1120.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:22 06-22 · dse: 1</title></rect>
+<rect x="1121.33" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>04:24 06-22 · dse: 4</title></rect>
+<rect x="1122.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:26 06-22 · dse: 1</title></rect>
+<rect x="1127.44" y="542.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>04:34 06-22 · texteditors: 1</title></rect>
+<rect x="1130.50" y="542.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>04:39 06-22 · texteditors: 1</title></rect>
+<rect x="1136.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>04:49 06-22 · dse: 1</title></rect>
+<rect x="1180.61" y="542.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>06:01 06-22 · texteditors: 1</title></rect>
+<rect x="1209.33" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>06:48 06-22 · probier: 3</title></rect>
+<rect x="1216.06" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>06:59 06-22 · probier: 1</title></rect>
+<rect x="1216.67" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>07:00 06-22 · probier: 1</title></rect>
+<rect x="1217.28" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>07:01 06-22 · probier: 1</title></rect>
+<rect x="1227.67" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>07:18 06-22 · dse: 3</title></rect>
+<rect x="1228.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:19 06-22 · dse: 1</title></rect>
+<rect x="1228.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:20 06-22 · dse: 1</title></rect>
+<rect x="1229.50" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:21 06-22 · dse: 1</title></rect>
+<rect x="1230.11" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:22 06-22 · dse: 1</title></rect>
+<rect x="1232.56" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:26 06-22 · dse: 2</title></rect>
+<rect x="1235.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:30 06-22 · dse: 1</title></rect>
+<rect x="1236.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:33 06-22 · dse: 1</title></rect>
+<rect x="1239.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:37 06-22 · dse: 2</title></rect>
+<rect x="1239.28" y="510.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>07:37 06-22 · fractal: 1</title></rect>
+<rect x="1240.50" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>07:39 06-22 · dse: 3</title></rect>
+<rect x="1240.50" y="478.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>07:39 06-22 · fractal: 2</title></rect>
+<rect x="1242.33" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:42 06-22 · dse: 1</title></rect>
+<rect x="1242.33" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>07:42 06-22 · fractal: 1</title></rect>
+<rect x="1242.94" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:43 06-22 · dse: 2</title></rect>
+<rect x="1243.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:44 06-22 · dse: 1</title></rect>
+<rect x="1244.78" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>07:46 06-22 · dse: 4</title></rect>
+<rect x="1245.39" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:47 06-22 · dse: 2</title></rect>
+<rect x="1246.00" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:48 06-22 · dse: 2</title></rect>
+<rect x="1246.61" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:49 06-22 · dse: 1</title></rect>
+<rect x="1247.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:50 06-22 · dse: 2</title></rect>
+<rect x="1248.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:52 06-22 · dse: 2</title></rect>
+<rect x="1249.06" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>07:53 06-22 · dse: 3</title></rect>
+<rect x="1249.67" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>07:54 06-22 · dse: 2</title></rect>
+<rect x="1250.28" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>07:55 06-22 · dse: 1</title></rect>
+<rect x="1253.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:01 06-22 · dse: 1</title></rect>
+<rect x="1255.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:03 06-22 · dse: 1</title></rect>
+<rect x="1255.78" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:04 06-22 · dse: 1</title></rect>
+<rect x="1261.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:14 06-22 · dse: 1</title></rect>
+<rect x="1264.94" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:19 06-22 · probier: 2</title></rect>
+<rect x="1265.56" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>08:20 06-22 · dse: 1</title></rect>
+<rect x="1265.56" y="510.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:20 06-22 · probier: 2</title></rect>
+<rect x="1266.17" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:21 06-22 · probier: 2</title></rect>
+<rect x="1266.78" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:22 06-22 · probier: 2</title></rect>
+<rect x="1268.00" y="494.00" width="0.61" height="64.00" fill="#30c361" stroke="none"><title>08:24 06-22 · probier: 4</title></rect>
+<rect x="1268.61" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>08:25 06-22 · probier: 1</title></rect>
+<rect x="1269.83" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:27 06-22 · probier: 2</title></rect>
+<rect x="1270.44" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:28 06-22 · probier: 2</title></rect>
+<rect x="1271.06" y="478.00" width="0.61" height="80.00" fill="#30c361" stroke="none"><title>08:29 06-22 · probier: 5</title></rect>
+<rect x="1271.67" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>08:30 06-22 · probier: 3</title></rect>
+<rect x="1272.28" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>08:31 06-22 · probier: 3</title></rect>
+<rect x="1272.89" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:32 06-22 · probier: 2</title></rect>
+<rect x="1273.50" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>08:33 06-22 · probier: 1</title></rect>
+<rect x="1274.11" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>08:34 06-22 · probier: 3</title></rect>
+<rect x="1274.72" y="494.00" width="0.61" height="64.00" fill="#30c361" stroke="none"><title>08:35 06-22 · probier: 4</title></rect>
+<rect x="1275.33" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>08:36 06-22 · probier: 3</title></rect>
+<rect x="1275.33" y="494.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>08:36 06-22 · texteditors: 1</title></rect>
+<rect x="1275.94" y="446.00" width="0.61" height="112.00" fill="#30c361" stroke="none"><title>08:37 06-22 · probier: 7</title></rect>
+<rect x="1276.56" y="430.00" width="0.61" height="128.00" fill="#30c361" stroke="none"><title>08:38 06-22 · probier: 8</title></rect>
+<rect x="1277.17" y="478.00" width="0.61" height="80.00" fill="#30c361" stroke="none"><title>08:39 06-22 · probier: 5</title></rect>
+<rect x="1277.17" y="414.00" width="0.61" height="64.00" fill="#c39f30" stroke="none"><title>08:39 06-22 · texteditors: 4</title></rect>
+<rect x="1277.78" y="494.00" width="0.61" height="64.00" fill="#30c361" stroke="none"><title>08:40 06-22 · probier: 4</title></rect>
+<rect x="1277.78" y="478.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>08:40 06-22 · texteditors: 1</title></rect>
+<rect x="1278.39" y="462.00" width="0.61" height="96.00" fill="#30c361" stroke="none"><title>08:41 06-22 · probier: 6</title></rect>
+<rect x="1278.39" y="446.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>08:41 06-22 · texteditors: 1</title></rect>
+<rect x="1279.00" y="414.00" width="0.61" height="144.00" fill="#30c361" stroke="none"><title>08:42 06-22 · probier: 9</title></rect>
+<rect x="1279.00" y="382.00" width="0.61" height="32.00" fill="#c3307a" stroke="none"><title>08:42 06-22 · dorfwiki: 2</title></rect>
+<rect x="1279.61" y="414.00" width="0.61" height="144.00" fill="#30c361" stroke="none"><title>08:43 06-22 · probier: 9</title></rect>
+<rect x="1279.61" y="398.00" width="0.61" height="16.00" fill="#c3307a" stroke="none"><title>08:43 06-22 · dorfwiki: 1</title></rect>
+<rect x="1280.22" y="382.00" width="0.61" height="176.00" fill="#30c361" stroke="none"><title>08:44 06-22 · probier: 11</title></rect>
+<rect x="1280.22" y="366.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>08:44 06-22 · texteditors: 1</title></rect>
+<rect x="1280.83" y="462.00" width="0.61" height="96.00" fill="#30c361" stroke="none"><title>08:45 06-22 · probier: 6</title></rect>
+<rect x="1280.83" y="430.00" width="0.61" height="32.00" fill="#c3307a" stroke="none"><title>08:45 06-22 · dorfwiki: 2</title></rect>
+<rect x="1281.44" y="350.00" width="0.61" height="208.00" fill="#30c361" stroke="none"><title>08:46 06-22 · probier: 13</title></rect>
+<rect x="1281.44" y="334.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>08:46 06-22 · texteditors: 1</title></rect>
+<rect x="1281.44" y="318.00" width="0.61" height="16.00" fill="#c3307a" stroke="none"><title>08:46 06-22 · dorfwiki: 1</title></rect>
+<rect x="1282.06" y="542.00" width="0.61" height="16.00" fill="#c39f30" stroke="none"><title>08:47 06-22 · texteditors: 1</title></rect>
+<rect x="1282.67" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:48 06-22 · probier: 2</title></rect>
+<rect x="1283.28" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:49 06-22 · probier: 2</title></rect>
+<rect x="1283.28" y="494.00" width="0.61" height="32.00" fill="#c39f30" stroke="none"><title>08:49 06-22 · texteditors: 2</title></rect>
+<rect x="1283.89" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:50 06-22 · probier: 2</title></rect>
+<rect x="1284.50" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:51 06-22 · probier: 2</title></rect>
+<rect x="1285.11" y="526.00" width="0.61" height="32.00" fill="#30c361" stroke="none"><title>08:52 06-22 · probier: 2</title></rect>
+<rect x="1285.72" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>08:53 06-22 · probier: 1</title></rect>
+<rect x="1288.17" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>08:57 06-22 · probier: 1</title></rect>
+<rect x="1288.78" y="510.00" width="0.61" height="48.00" fill="#30c361" stroke="none"><title>08:58 06-22 · probier: 3</title></rect>
+<rect x="1290.00" y="478.00" width="0.61" height="80.00" fill="#30c361" stroke="none"><title>09:00 06-22 · probier: 5</title></rect>
+<rect x="1293.67" y="542.00" width="0.61" height="16.00" fill="#30c361" stroke="none"><title>09:06 06-22 · probier: 1</title></rect>
+<rect x="1294.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:07 06-22 · dse: 2</title></rect>
+<rect x="1295.50" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:09 06-22 · dse: 2</title></rect>
+<rect x="1296.11" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:10 06-22 · dse: 3</title></rect>
+<rect x="1296.72" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:11 06-22 · dse: 4</title></rect>
+<rect x="1297.33" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:12 06-22 · dse: 2</title></rect>
+<rect x="1297.33" y="510.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:12 06-22 · fractal: 1</title></rect>
+<rect x="1297.94" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:13 06-22 · dse: 5</title></rect>
+<rect x="1297.94" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:13 06-22 · fractal: 1</title></rect>
+<rect x="1298.56" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:14 06-22 · dse: 5</title></rect>
+<rect x="1299.17" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>09:15 06-22 · dse: 9</title></rect>
+<rect x="1299.17" y="398.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:15 06-22 · fractal: 1</title></rect>
+<rect x="1299.78" y="382.00" width="0.61" height="176.00" fill="#c35530" stroke="none"><title>09:16 06-22 · dse: 11</title></rect>
+<rect x="1299.78" y="350.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>09:16 06-22 · fractal: 2</title></rect>
+<rect x="1300.39" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>09:17 06-22 · dse: 8</title></rect>
+<rect x="1300.39" y="414.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:17 06-22 · fractal: 1</title></rect>
+<rect x="1301.00" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>09:18 06-22 · dse: 7</title></rect>
+<rect x="1301.00" y="430.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:18 06-22 · fractal: 1</title></rect>
+<rect x="1301.61" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>09:19 06-22 · dse: 8</title></rect>
+<rect x="1301.61" y="414.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:19 06-22 · fractal: 1</title></rect>
+<rect x="1301.61" y="398.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:19 06-22 · wiki4d: 1</title></rect>
+<rect x="1302.22" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>09:20 06-22 · dse: 8</title></rect>
+<rect x="1302.22" y="398.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:20 06-22 · wiki4d: 2</title></rect>
+<rect x="1302.83" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>09:21 06-22 · dse: 7</title></rect>
+<rect x="1303.44" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:22 06-22 · dse: 2</title></rect>
+<rect x="1303.44" y="510.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:22 06-22 · fractal: 1</title></rect>
+<rect x="1303.44" y="494.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:22 06-22 · wiki4d: 1</title></rect>
+<rect x="1304.06" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:23 06-22 · dse: 3</title></rect>
+<rect x="1304.06" y="494.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:23 06-22 · wiki4d: 1</title></rect>
+<rect x="1304.67" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:24 06-22 · dse: 5</title></rect>
+<rect x="1304.67" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:24 06-22 · fractal: 1</title></rect>
+<rect x="1305.28" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:25 06-22 · dse: 3</title></rect>
+<rect x="1305.28" y="494.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:25 06-22 · fractal: 1</title></rect>
+<rect x="1305.89" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:26 06-22 · dse: 3</title></rect>
+<rect x="1306.50" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:27 06-22 · dse: 3</title></rect>
+<rect x="1307.11" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:28 06-22 · dse: 2</title></rect>
+<rect x="1307.72" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:29 06-22 · dse: 3</title></rect>
+<rect x="1307.72" y="494.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:29 06-22 · wiki4d: 1</title></rect>
+<rect x="1308.33" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:30 06-22 · dse: 5</title></rect>
+<rect x="1308.33" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:30 06-22 · fractal: 1</title></rect>
+<rect x="1308.33" y="430.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:30 06-22 · wiki4d: 2</title></rect>
+<rect x="1308.94" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:31 06-22 · dse: 5</title></rect>
+<rect x="1308.94" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:31 06-22 · fractal: 1</title></rect>
+<rect x="1308.94" y="446.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:31 06-22 · wiki4d: 1</title></rect>
+<rect x="1309.56" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>09:32 06-22 · dse: 7</title></rect>
+<rect x="1309.56" y="430.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:32 06-22 · fractal: 1</title></rect>
+<rect x="1310.17" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>09:33 06-22 · dse: 6</title></rect>
+<rect x="1310.17" y="430.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>09:33 06-22 · fractal: 2</title></rect>
+<rect x="1310.17" y="414.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:33 06-22 · wiki4d: 1</title></rect>
+<rect x="1310.78" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:34 06-22 · dse: 4</title></rect>
+<rect x="1310.78" y="478.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:34 06-22 · fractal: 1</title></rect>
+<rect x="1311.39" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:35 06-22 · dse: 4</title></rect>
+<rect x="1311.39" y="398.00" width="0.61" height="96.00" fill="#9f30c3" stroke="none"><title>09:35 06-22 · fractal: 6</title></rect>
+<rect x="1311.39" y="382.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:35 06-22 · wiki4d: 1</title></rect>
+<rect x="1312.00" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:36 06-22 · dse: 5</title></rect>
+<rect x="1312.00" y="430.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>09:36 06-22 · fractal: 3</title></rect>
+<rect x="1312.00" y="398.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:36 06-22 · wiki4d: 2</title></rect>
+<rect x="1312.61" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>09:37 06-22 · dse: 8</title></rect>
+<rect x="1312.61" y="334.00" width="0.61" height="96.00" fill="#9f30c3" stroke="none"><title>09:37 06-22 · fractal: 6</title></rect>
+<rect x="1312.61" y="318.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:37 06-22 · wiki4d: 1</title></rect>
+<rect x="1313.22" y="334.00" width="0.61" height="224.00" fill="#c35530" stroke="none"><title>09:38 06-22 · dse: 14</title></rect>
+<rect x="1313.22" y="254.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>09:38 06-22 · fractal: 5</title></rect>
+<rect x="1313.22" y="222.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:38 06-22 · wiki4d: 2</title></rect>
+<rect x="1313.83" y="318.00" width="0.61" height="240.00" fill="#c35530" stroke="none"><title>09:39 06-22 · dse: 15</title></rect>
+<rect x="1313.83" y="254.00" width="0.61" height="64.00" fill="#9f30c3" stroke="none"><title>09:39 06-22 · fractal: 4</title></rect>
+<rect x="1313.83" y="238.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:39 06-22 · wiki4d: 1</title></rect>
+<rect x="1314.44" y="382.00" width="0.61" height="176.00" fill="#c35530" stroke="none"><title>09:40 06-22 · dse: 11</title></rect>
+<rect x="1314.44" y="174.00" width="0.61" height="208.00" fill="#9f30c3" stroke="none"><title>09:40 06-22 · fractal: 13</title></rect>
+<rect x="1314.44" y="110.00" width="0.61" height="64.00" fill="#309fc3" stroke="none"><title>09:40 06-22 · wiki4d: 4</title></rect>
+<rect x="1315.06" y="334.00" width="0.61" height="224.00" fill="#c35530" stroke="none"><title>09:41 06-22 · dse: 14</title></rect>
+<rect x="1315.06" y="302.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>09:41 06-22 · fractal: 2</title></rect>
+<rect x="1315.06" y="286.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:41 06-22 · wiki4d: 1</title></rect>
+<rect x="1315.67" y="366.00" width="0.61" height="192.00" fill="#c35530" stroke="none"><title>09:42 06-22 · dse: 12</title></rect>
+<rect x="1315.67" y="286.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>09:42 06-22 · fractal: 5</title></rect>
+<rect x="1315.67" y="254.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:42 06-22 · wiki4d: 2</title></rect>
+<rect x="1316.28" y="334.00" width="0.61" height="224.00" fill="#c35530" stroke="none"><title>09:43 06-22 · dse: 14</title></rect>
+<rect x="1316.28" y="238.00" width="0.61" height="96.00" fill="#9f30c3" stroke="none"><title>09:43 06-22 · fractal: 6</title></rect>
+<rect x="1316.89" y="414.00" width="0.61" height="144.00" fill="#c35530" stroke="none"><title>09:44 06-22 · dse: 9</title></rect>
+<rect x="1316.89" y="334.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>09:44 06-22 · fractal: 5</title></rect>
+<rect x="1316.89" y="318.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:44 06-22 · wiki4d: 1</title></rect>
+<rect x="1317.50" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:45 06-22 · dse: 4</title></rect>
+<rect x="1317.50" y="462.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>09:45 06-22 · fractal: 2</title></rect>
+<rect x="1317.50" y="446.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:45 06-22 · wiki4d: 1</title></rect>
+<rect x="1318.11" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>09:46 06-22 · dse: 6</title></rect>
+<rect x="1318.11" y="382.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>09:46 06-22 · fractal: 5</title></rect>
+<rect x="1318.11" y="350.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:46 06-22 · wiki4d: 2</title></rect>
+<rect x="1318.72" y="478.00" width="0.61" height="80.00" fill="#c35530" stroke="none"><title>09:47 06-22 · dse: 5</title></rect>
+<rect x="1318.72" y="462.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:47 06-22 · fractal: 1</title></rect>
+<rect x="1318.72" y="446.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:47 06-22 · wiki4d: 1</title></rect>
+<rect x="1319.33" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:48 06-22 · dse: 4</title></rect>
+<rect x="1319.33" y="478.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:48 06-22 · wiki4d: 1</title></rect>
+<rect x="1319.94" y="446.00" width="0.61" height="112.00" fill="#c35530" stroke="none"><title>09:49 06-22 · dse: 7</title></rect>
+<rect x="1319.94" y="430.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:49 06-22 · fractal: 1</title></rect>
+<rect x="1319.94" y="398.00" width="0.61" height="32.00" fill="#309fc3" stroke="none"><title>09:49 06-22 · wiki4d: 2</title></rect>
+<rect x="1320.56" y="462.00" width="0.61" height="96.00" fill="#c35530" stroke="none"><title>09:50 06-22 · dse: 6</title></rect>
+<rect x="1320.56" y="446.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>09:50 06-22 · fractal: 1</title></rect>
+<rect x="1321.17" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:51 06-22 · dse: 2</title></rect>
+<rect x="1321.17" y="494.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>09:51 06-22 · fractal: 2</title></rect>
+<rect x="1321.78" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>09:52 06-22 · dse: 3</title></rect>
+<rect x="1321.78" y="462.00" width="0.61" height="48.00" fill="#9f30c3" stroke="none"><title>09:52 06-22 · fractal: 3</title></rect>
+<rect x="1322.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:53 06-22 · dse: 1</title></rect>
+<rect x="1322.39" y="510.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>09:53 06-22 · fractal: 2</title></rect>
+<rect x="1323.00" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>09:54 06-22 · dse: 1</title></rect>
+<rect x="1324.22" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:56 06-22 · dse: 2</title></rect>
+<rect x="1324.22" y="510.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:56 06-22 · wiki4d: 1</title></rect>
+<rect x="1324.83" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>09:57 06-22 · dse: 2</title></rect>
+<rect x="1325.44" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>09:58 06-22 · dse: 4</title></rect>
+<rect x="1326.06" y="542.00" width="0.61" height="16.00" fill="#309fc3" stroke="none"><title>09:59 06-22 · wiki4d: 1</title></rect>
+<rect x="1326.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:00 06-22 · dse: 1</title></rect>
+<rect x="1326.67" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>10:00 06-22 · fractal: 1</title></rect>
+<rect x="1327.28" y="526.00" width="0.61" height="32.00" fill="#c35530" stroke="none"><title>10:01 06-22 · dse: 2</title></rect>
+<rect x="1327.89" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>10:02 06-22 · dse: 4</title></rect>
+<rect x="1329.11" y="542.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>10:04 06-22 · fractal: 1</title></rect>
+<rect x="1329.72" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:05 06-22 · dse: 1</title></rect>
+<rect x="1329.72" y="526.00" width="0.61" height="16.00" fill="#9f30c3" stroke="none"><title>10:05 06-22 · fractal: 1</title></rect>
+<rect x="1330.33" y="478.00" width="0.61" height="80.00" fill="#9f30c3" stroke="none"><title>10:06 06-22 · fractal: 5</title></rect>
+<rect x="1330.94" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:07 06-22 · dse: 1</title></rect>
+<rect x="1330.94" y="510.00" width="0.61" height="32.00" fill="#9f30c3" stroke="none"><title>10:07 06-22 · fractal: 2</title></rect>
+<rect x="1332.17" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:09 06-22 · dse: 1</title></rect>
+<rect x="1333.39" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:11 06-22 · dse: 1</title></rect>
+<rect x="1337.06" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:17 06-22 · dse: 1</title></rect>
+<rect x="1337.67" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:18 06-22 · dse: 1</title></rect>
+<rect x="1338.89" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>10:20 06-22 · dse: 1</title></rect>
+<rect x="1709.83" y="542.00" width="0.61" height="16.00" fill="#c35530" stroke="none"><title>20:27 06-22 · dse: 1</title></rect>
+<rect x="1710.44" y="494.00" width="0.61" height="64.00" fill="#c35530" stroke="none"><title>20:28 06-22 · dse: 4</title></rect>
+<rect x="1711.06" y="510.00" width="0.61" height="48.00" fill="#c35530" stroke="none"><title>20:29 06-22 · dse: 3</title></rect>
+<rect x="1711.67" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>20:30 06-22 · dse: 8</title></rect>
+<rect x="1712.28" y="430.00" width="0.61" height="128.00" fill="#c35530" stroke="none"><title>20:31 06-22 · dse: 8</title></rect>
+<text x="1860" y="78" font-weight="600" fill="#111">wikis (stack order top → bottom)</text>
+<rect x="1860" y="92" width="14" height="12" fill="#c3307a"/>
+<text x="1880" y="102" fill="#111" font-size="11">dorfwiki <tspan fill="#666">· 6 revs</tspan></text>
+<rect x="1860" y="108" width="14" height="12" fill="#c39f30"/>
+<text x="1880" y="118" fill="#111" font-size="11">texteditors <tspan fill="#666">· 16 revs</tspan></text>
+<rect x="1860" y="124" width="14" height="12" fill="#309fc3"/>
+<text x="1880" y="134" fill="#111" font-size="11">wiki4d <tspan fill="#666">· 42 revs</tspan></text>
+<rect x="1860" y="140" width="14" height="12" fill="#30c361"/>
+<text x="1880" y="150" fill="#111" font-size="11">probier <tspan fill="#666">· 192 revs</tspan></text>
+<rect x="1860" y="156" width="14" height="12" fill="#9f30c3"/>
+<text x="1880" y="166" fill="#111" font-size="11">fractal <tspan fill="#666">· 303 revs</tspan></text>
+<rect x="1860" y="172" width="14" height="12" fill="#c35530"/>
+<text x="1880" y="182" fill="#111" font-size="11">dse <tspan fill="#666">· 1,550 revs</tspan></text>
+<text x="1860" y="194" fill="#666" font-size="11">3 wikis with 0 revs in window:</text>
+<text x="1860" y="208" fill="#666" font-size="11">apchem, ludism, milkwiki</text>
+<text x="1860" y="232" font-weight="600" fill="#111">notes</text>
+<text x="1860" y="246" fill="#333">window: 2026-06-21 00:00 →</text>
+<text x="1860" y="260" fill="#333">  2026-06-23 00:00 UTC (48 h)</text>
+<text x="1860" y="274" fill="#333">1-minute buckets → 2,880 bars</text>
+<text x="1860" y="288" fill="#333">y-axis is linear</text>
+<text x="1860" y="302" fill="#333">per-minute peak: 28</text>
+</svg>
