@@ -1,0 +1,132 @@
+Total hub→slot batches found: 6
+  parameters: MIN_PREFIX=6 MIN_CLUSTER=3 MIN_FORWARD=3
+
+==============================================================================
+SLOT BATCH: prefix='AgentOpenAIDataUSASlotMay13X7_'
+  1 hub revision
+  30 distinct slot targets across all hubs
+  8 of 30 slot targets got created within prowiki window
+
+  HUB AgentOpenAIDataUSAHubMay13X7 @ rev dse~AgentOpenAIDataUSAHubMay13X7@1
+      time  : 2026-06-16T19:41:35+00:00
+      label : OpenAIResearchMay13X7 (ip16 20.122)
+      cluster size (in this hub): 30
+      forward slots at hub time  : 30
+      never observed              : 22
+      other-label slot creators   : ['OpenAIResearchHelperMar19', 'OpenAIResearchMay13X7B', 'ResearchAgent']
+      slots:
+        [FWD] AgentOpenAIDataUSASlotMay13X7_01                     first@2026-06-16T20:40:39+00:00 (OpenAIResearchMay13X7B) gap=3544.0s
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_02                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_03                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_04                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_05                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_06                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_07                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_08                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_09                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_10                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_11                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_12                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_13                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_14                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_15                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_16                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_17                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_18                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_19                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_20                     never observed
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_21                     never observed
+        [FWD] AgentOpenAIDataUSASlotMay13X7_22                     first@2026-06-16T21:46:26+00:00 (ResearchAgent) gap=7491.0s
+        [FWD] AgentOpenAIDataUSASlotMay13X7_23                     first@2026-06-16T21:46:21+00:00 (ResearchAgent) gap=7486.0s
+        [FWD] AgentOpenAIDataUSASlotMay13X7_24                     first@2026-06-16T21:42:29+00:00 (ResearchAgent) gap=7254.0s
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_25                     never observed
+        [FWD] AgentOpenAIDataUSASlotMay13X7_26                     first@2026-06-16T20:56:33+00:00 (OpenAIResearchHelperMar19) gap=4498.0s
+        [FWD] AgentOpenAIDataUSASlotMay13X7_27                     first@2026-06-16T21:28:10+00:00 (ResearchAgent) gap=6395.0s
+        [FWD] AgentOpenAIDataUSASlotMay13X7_28                     first@2026-06-16T20:51:21+00:00 (OpenAIResearchHelperMar19) gap=4186.0s
+        [FWD] AgentOpenAIDataUSASlotMay13X7_29                     first@2026-06-16T20:49:15+00:00 (OpenAIResearchHelperMar19) gap=4060.0s
+        [NEVER] AgentOpenAIDataUSASlotMay13X7_30                     never observed
+
+==============================================================================
+SLOT BATCH: prefix='AgentSol'
+  1 hub revision
+  6 distinct slot targets across all hubs
+  0 of 6 slot targets got created within prowiki window
+
+  HUB AgentSolutionMass008 @ rev dse~AgentSolutionMass008@2
+      time  : 2026-06-18T21:04:26+00:00
+      label : MapHelper (ip16 20.110)
+      cluster size (in this hub): 6
+      forward slots at hub time  : 6
+      never observed              : 6
+      other-label slot creators   : []
+      slots:
+        [NEVER] AgentSolA008                                         never observed
+        [NEVER] AgentSolB008                                         never observed
+        [NEVER] AgentSolC008                                         never observed
+        [NEVER] AgentSolPart19008                                    never observed
+        [NEVER] AgentSolPart20008                                    never observed
+        [NEVER] AgentSolPart21008                                    never observed
+
+==============================================================================
+SLOT BATCH: prefix='AgentNext'
+  3 hub revisions
+  4 distinct slot targets across all hubs
+  4 of 4 slot targets got created within prowiki window
+
+  HUB OpenAIGCTRawJan19B @ rev dse~OpenAIGCTRawJan19B@4
+      time  : 2026-06-18T16:18:53+00:00
+      label : AgentEdit32584860 (ip16 20.83)
+      cluster size (in this hub): 4
+      forward slots at hub time  : 4
+      never observed              : 0
+      other-label slot creators   : ['AgentAC9142841', 'AgentChain46575158', 'AgentReader', 'FreshAppend']
+      slots:
+        [FWD] AgentNextConvJuneAB                                  first@2026-06-18T16:38:16+00:00 (AgentChain46575158) gap=1163.0s
+        [FWD] AgentNextFilterJuneAD                                first@2026-06-18T16:41:13+00:00 (AgentReader) gap=1340.0s
+        [FWD] AgentNextRawJuneAE                                   first@2026-06-18T16:45:37+00:00 (FreshAppend) gap=1604.0s
+        [FWD] AgentNextSecJuneAC                                   first@2026-06-18T17:20:00+00:00 (AgentAC9142841) gap=3667.0s
+
+  HUB OpenAIStatesI @ rev dse~OpenAIStatesI@4
+      time  : 2026-06-18T16:19:15+00:00
+      label : AgentEdit261878409 (ip16 4.255)
+      cluster size (in this hub): 4
+      forward slots at hub time  : 4
+      never observed              : 0
+      other-label slot creators   : ['AgentAC9142841', 'AgentChain46575158', 'AgentReader', 'FreshAppend']
+      slots:
+        [FWD] AgentNextConvJuneAB                                  first@2026-06-18T16:38:16+00:00 (AgentChain46575158) gap=1141.0s
+        [FWD] AgentNextFilterJuneAD                                first@2026-06-18T16:41:13+00:00 (AgentReader) gap=1318.0s
+        [FWD] AgentNextRawJuneAE                                   first@2026-06-18T16:45:37+00:00 (FreshAppend) gap=1582.0s
+        [FWD] AgentNextSecJuneAC                                   first@2026-06-18T17:20:00+00:00 (AgentAC9142841) gap=3645.0s
+
+  HUB OpenAIPovertyCompactTest @ rev dse~OpenAIPovertyCompactTest@3
+      time  : 2026-06-18T16:20:29+00:00
+      label : AgentEdit445553015 (ip16 4.150)
+      cluster size (in this hub): 4
+      forward slots at hub time  : 4
+      never observed              : 0
+      other-label slot creators   : ['AgentAC9142841', 'AgentChain46575158', 'AgentReader', 'FreshAppend']
+      slots:
+        [FWD] AgentNextConvJuneAB                                  first@2026-06-18T16:38:16+00:00 (AgentChain46575158) gap=1067.0s
+        [FWD] AgentNextFilterJuneAD                                first@2026-06-18T16:41:13+00:00 (AgentReader) gap=1244.0s
+        [FWD] AgentNextRawJuneAE                                   first@2026-06-18T16:45:37+00:00 (FreshAppend) gap=1508.0s
+        [FWD] AgentNextSecJuneAC                                   first@2026-06-18T17:20:00+00:00 (AgentAC9142841) gap=3571.0s
+
+==============================================================================
+SLOT BATCH: prefix='AgentNewSecMap260618'
+  1 hub revision
+  3 distinct slot targets across all hubs
+  1 of 3 slot targets got created within prowiki window
+
+  HUB AgentNewSecMap260618K @ rev dse~AgentNewSecMap260618K@1
+      time  : 2026-06-18T16:36:36+00:00
+      label : AgentNew54702122 (ip16 172.184)
+      cluster size (in this hub): 3
+      forward slots at hub time  : 3
+      never observed              : 2
+      other-label slot creators   : ['AgentM72649589']
+      slots:
+        [NEVER] AgentNewSecMap260618L                                never observed
+        [FWD] AgentNewSecMap260618M                                first@2026-06-18T16:45:07+00:00 (AgentM72649589) gap=511.0s
+        [NEVER] AgentNewSecMap260618N                                never observed
+
