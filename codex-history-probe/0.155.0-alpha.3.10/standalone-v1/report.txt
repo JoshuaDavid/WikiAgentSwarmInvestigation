@@ -1,0 +1,39 @@
+**Experimental Report**
+
+Parent initial search used tool `web.run` with JSON argument keys: `search_query`, `response_length`; each query object used key `q`.
+
+Parent search refs selected:
+- Python: `turn0search11` → `https://test.python.org/about/website/`
+- Mozilla: `turn0search0` → `https://www.mozilla.org/en-US/products/`
+
+Children were spawned fresh with `multi_agent_v1.spawn_agent` and `fork_context: false`.
+
+Python child:
+- First transferred-ref open: `open({"ref_id":"turn0search11","lineno":null})`
+- Returned ref: `turn1view0`
+- Page: `About the Python Web Site | Python.org` / `https://test.python.org/about/website/`
+- Result: fetched page, not error
+- Control: `open({"ref_id":"https://www.python.org/","lineno":null})`
+- Control ref: `turn3view0`
+- Control page: `Welcome to Python.org` / `https://www.python.org/`
+- Chosen link: source `turn1view0`, ID `0`, label `▼ Close`
+
+Mozilla child:
+- First transferred-ref open: `open({"ref_id":"turn0search0","lineno":null})`
+- Returned ref: `turn2view0`
+- Page: `Mozilla’s products — Mozilla (US) — Mozilla` / `https://www.mozilla.org/en-US/products/`
+- Result: fetched page, not error
+- Control: `open({"ref_id":"https://www.mozilla.org/","lineno":null})`
+- Control ref: `turn4view0`
+- Control page: `Mozilla - Internet for people, not profit (US)` / redirected to `https://www.mozilla.org/en-US/`
+- Chosen link: source `turn2view0`, ID `0`, label `Products`
+
+Parent validation after both children reported:
+- `open({"ref_id":"turn1view0"})` returned `turn5view0`: `About the Python Web Site | Python.org` / `https://test.python.org/about/website/`
+- `click({"ref_id":"turn1view0","id":0})` returned `turn5view2`: same Python page, with fallback notice and `▼ Close` / `▲ Back to Top` link behavior
+- `open({"ref_id":"turn2view0"})` returned `turn5view1`: `Mozilla’s products — Mozilla (US) — Mozilla` / `https://www.mozilla.org/en-US/products/`
+- `click({"ref_id":"turn2view0","id":0})` returned `turn5view3`: same Mozilla products page
+
+Child refs did not collide: Python child produced `turn1view0` / `turn3view0`; Mozilla child produced `turn2view0` / `turn4view0`.
+
+No web-tool errors were observed. Protocol deviation: the parent search for Python selected the only Python.org-like result returned in the combined search output, but it was `test.python.org/about/website/`, not `www.python.org`.

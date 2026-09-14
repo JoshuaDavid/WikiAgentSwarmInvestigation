@@ -1,0 +1,151 @@
+[
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:49:03.175Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3f-469e-7f23-834a-70bd4db02372",
+      "timestamp": "2026-09-14T04:49:02.111Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 10,
+    "timestamp": "2026-09-14T04:49:06.932Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0309c9168469b419016aa77cc12bd887d0bb8db58b15e61320",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 11,
+    "timestamp": "2026-09-14T04:49:06.933Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 13,
+    "timestamp": "2026-09-14T04:49:12.493Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0309c9168469b419016aa77cc5524487d0b48ea0a037524deb",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 14,
+    "timestamp": "2026-09-14T04:49:12.494Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T04:49:13.742Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "update_plan",
+      "arguments": "{\"plan\":[{\"step\":\"Baseline browsing sequence complete\",\"status\":\"completed\"},{\"step\":\"Reference-after-tool-round-trip check in progress\",\"status\":\"in_progress\"}]}",
+      "call_id": "call_qKVImwIf1Hn0qHYtsEZZZgpB"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 18,
+    "timestamp": "2026-09-14T04:49:13.821Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_qKVImwIf1Hn0qHYtsEZZZgpB",
+      "output": "Plan updated"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T04:49:17.048Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0309c9168469b419016aa77ccbca0c87d09d97bce66bb8cfc4",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 22,
+    "timestamp": "2026-09-14T04:49:17.048Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 24,
+    "timestamp": "2026-09-14T04:49:30.157Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "**Tool Calls**\n\n1. `web.run`\n```json\n{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\nObservation: returned ref `turn0view0`, title `Welcome to Python.org`, URL `https://www.python.org/`. Body line 0 said: `Notice: This page displays a fallback because interactive scripts did not run...` First numbered clickable link: ID `0`, label `\u25bc Close`.\n\n2. `web.run`\n```json\n{\"open\":[{\"ref_id\":\"turn0view0\"}],\"click\":[{\"ref_id\":\"turn0view0\",\"id\":0}],\"response_length\":\"medium\"}\n```\nObservation: output showed one returned page, ref `turn1view1`, title `Welcome to Python.org`, URL `https://www.python.org/`, source `click({\"ref_id\":\"turn0view0\",\"id\":0})`. No exact error string was returned for this baseline sequence. No separate visible result was shown for the `open({\"ref_id\":\"turn0view0\"})` part.\n\n3. `functions.update_plan`\n```json\n{\"plan\":[{\"step\":\"Baseline browsing sequence complete\",\"status\":\"completed\"},{\"step\":\"Reference-after-tool-round-trip check in progress\",\"status\":\"in_progress\"}]}\n```\nObservation: returned `Plan updated`.\n\n4. `web.run`\n```json\n{\"open\":[{\"ref_id\":\"turn0view0\"},{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\nObservations:\n- Independent URL control returned title `Welcome to Python.org`, URL `https://www.python.org/`, ref shown as `turn0view0`, with the same fallback notice body.\n- Opening the exact original page reference after `update_plan` returned an internal-error page, ref `turn0view1`, title `Internal Error`, exact body/error string: `Unable to resolve open call: open({\"ref_id\":\"turn0view0\",\"lineno\":null}) due to invalid ref_id argument`.\n\nTotal web calls: 3.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity/home/sessions/2026/09/14/rollout-2026-09-14T04-49-02-01a09e3f-469e-7f23-834a-70bd4db02372.jsonl",
+    "line": 27,
+    "timestamp": "2026-09-14T04:49:30.179Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3f-46ba-7650-93e2-7c8341e79a1b",
+      "last_agent_message": "**Tool Calls**\n\n1. `web.run`\n```json\n{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\nObservation: returned ref `turn0view0`, title `Welcome to Python.org`, URL `https://www.python.org/`. Body line 0 said: `Notice: This page displays a fallback because interactive scripts did not run...` First numbered clickable link: ID `0`, label `\u25bc Close`.\n\n2. `web.run`\n```json\n{\"open\":[{\"ref_id\":\"turn0view0\"}],\"click\":[{\"ref_id\":\"turn0view0\",\"id\":0}],\"response_length\":\"medium\"}\n```\nObservation: output showed one returned page, ref `turn1view1`, title `Welcome to Python.org`, URL `https://www.python.org/`, source `click({\"ref_id\":\"turn0view0\",\"id\":0})`. No exact error string was returned for this baseline sequence. No separate visible result was shown for the `open({\"ref_id\":\"turn0view0\"})` part.\n\n3. `functions.update_plan`\n```json\n{\"plan\":[{\"step\":\"Baseline browsing sequence complete\",\"status\":\"completed\"},{\"step\":\"Reference-after-tool-round-trip check in progress\",\"status\":\"in_progress\"}]}\n```\nObservation: returned `Plan updated`.\n\n4. `web.run`\n```json\n{\"open\":[{\"ref_id\":\"turn0view0\"},{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\nObservations:\n- Independent URL control returned title `Welcome to Python.org`, URL `https://www.python.org/`, ref shown as `turn0view0`, with the same fallback notice body.\n- Opening the exact original page reference after `update_plan` returned an internal-error page, ref `turn0view1`, title `Internal Error`, exact body/error string: `Unable to resolve open call: open({\"ref_id\":\"turn0view0\",\"lineno\":null}) due to invalid ref_id argument`.\n\nTotal web calls: 3.",
+      "completed_at": 1789361370,
+      "duration_ms": 28019,
+      "time_to_first_token_ms": 3009
+    }
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:51:12.691Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e41-4183-7612-86cf-19cba722a633",
+      "timestamp": "2026-09-14T04:51:11.876Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 10,
+    "timestamp": "2026-09-14T04:51:15.796Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0da102f94e10d5d1016aa77d424c9887d0b8cae6dec1abec39",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 11,
+    "timestamp": "2026-09-14T04:51:15.797Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 13,
+    "timestamp": "2026-09-14T04:51:17.657Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0da102f94e10d5d1016aa77d445b3087d093dc1fcc4210ae49",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 14,
+    "timestamp": "2026-09-14T04:51:17.657Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 15,
+    "timestamp": "2026-09-14T04:51:18.289Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "update_plan",
+      "arguments": "{\"plan\":[{\"step\":\"baseline complete\",\"status\":\"completed\"},{\"step\":\"after-round-trip check\",\"status\":\"in_progress\"}]}",
+      "call_id": "call_CMDbl9CCEJD4U7o6W4QtRzcL"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 17,
+    "timestamp": "2026-09-14T04:51:18.301Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_CMDbl9CCEJD4U7o6W4QtRzcL",
+      "output": "Plan updated"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 20,
+    "timestamp": "2026-09-14T04:51:20.682Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0da102f94e10d5d1016aa77d477c0c87d089f8cbe429251677",
+      "query": "",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T04:51:20.682Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 23,
+    "timestamp": "2026-09-14T04:51:22.010Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0da102f94e10d5d1016aa77d48fa8887d0a2a62a22c5f5ea45",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 24,
+    "timestamp": "2026-09-14T04:51:22.011Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 25,
+    "timestamp": "2026-09-14T04:51:27.835Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "| Step | Tool | Exact input | Returned reference | Title or exact error |\n|---|---|---|---|---|\n| 1 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | `turn0view0` | `Welcome to Python.org` |\n| 2 | `web.run` | `{\"open\":[{\"ref_id\":\"turn0view0\"}],\"response_length\":\"short\"}` | `turn1view0` | `Welcome to Python.org` |\n| 3 | `update_plan` | `{\"plan\":[{\"step\":\"baseline complete\",\"status\":\"completed\"},{\"step\":\"after-round-trip check\",\"status\":\"in_progress\"}]}` | N/A | `Plan updated` |\n| 4 | `web.run` | `{\"open\":[{\"ref_id\":\"turn0view0\"}],\"response_length\":\"short\"}` | `turn0view0` | `Internal Error ()`; exact error: `Unable to resolve open call: open({\"ref_id\":\"turn0view0\",\"lineno\":null}) due to invalid ref_id argument` |\n| 5 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | `turn1view0` | `Welcome to Python.org` |\n\nVerification: steps 1, 2, and 5 returned real `https://www.python.org/` page content. Step 4 returned an Internal Error.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/continuity-unbatched/home/sessions/2026/09/14/rollout-2026-09-14T04-51-11-01a09e41-4183-7612-86cf-19cba722a633.jsonl",
+    "line": 28,
+    "timestamp": "2026-09-14T04:51:27.856Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e41-4194-7043-a62f-21dcdd4a4a91",
+      "last_agent_message": "| Step | Tool | Exact input | Returned reference | Title or exact error |\n|---|---|---|---|---|\n| 1 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | `turn0view0` | `Welcome to Python.org` |\n| 2 | `web.run` | `{\"open\":[{\"ref_id\":\"turn0view0\"}],\"response_length\":\"short\"}` | `turn1view0` | `Welcome to Python.org` |\n| 3 | `update_plan` | `{\"plan\":[{\"step\":\"baseline complete\",\"status\":\"completed\"},{\"step\":\"after-round-trip check\",\"status\":\"in_progress\"}]}` | N/A | `Plan updated` |\n| 4 | `web.run` | `{\"open\":[{\"ref_id\":\"turn0view0\"}],\"response_length\":\"short\"}` | `turn0view0` | `Internal Error ()`; exact error: `Unable to resolve open call: open({\"ref_id\":\"turn0view0\",\"lineno\":null}) due to invalid ref_id argument` |\n| 5 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | `turn1view0` | `Welcome to Python.org` |\n\nVerification: steps 1, 2, and 5 returned real `https://www.python.org/` page content. Step 4 returned an Internal Error.",
+      "completed_at": 1789361487,
+      "duration_ms": 15959,
+      "time_to_first_token_ms": 2438
+    }
+  }
+]

@@ -1,0 +1,11 @@
+Perform exactly this short read-only web-reference control. Do not use shell commands, edit files, or spawn subagents. Only use web browsing and update_plan.
+
+CRITICAL: each web call must contain exactly ONE open operation. Do NOT batch operations, combine calls, add clicks, or call any other tool between steps 1 and 2. Separate calls are necessary to observe each result unambiguously.
+
+1. Call web.run with {"open":[{"ref_id":"https://www.python.org/"}],"response_length":"short"}. Record the exact returned page reference and page title. Call that returned reference R.
+2. Call web.run with {"open":[{"ref_id":R}],"response_length":"short"}. Record the exact returned reference and page title, or exact error. Use the actual R string, not the literal letter R.
+3. Call update_plan with two steps: baseline complete; after-round-trip check in progress. This is an intentional essential non-web tool round trip. If unavailable, report that and stop.
+4. Call web.run with {"open":[{"ref_id":R}],"response_length":"short"}, using exactly the ORIGINAL R from step 1. Record the exact returned reference and page title, or exact error.
+5. In a SEPARATE web call, open https://www.python.org/ again as a direct URL control. Record the exact returned reference and title or error.
+
+Return a concise report with a row per step giving actual tool name, exact input, returned reference, and the actual page title or exact error. Verify the content is a real page rather than an Internal Error. Never invent references. Make no claims about historic server behavior; this tests today's server with an older client. Four web calls total, each with precisely one open operation.

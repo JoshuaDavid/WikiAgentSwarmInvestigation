@@ -1,0 +1,27 @@
+**Experimental Report**
+
+Parent web call used: `web.run` with JSON key `search_query`; each query object used key `q`.
+
+Search refs selected:
+- Python: `turn0search7` — title `Website | Test Python.org`, URL `https://test.python.org/`
+- Mozilla: `turn0search0` — title `Mozilla - Wikipedia`, URL `https://en.wikipedia.org/wiki/Mozilla`
+
+Subagent result:
+- I spawned exactly two fresh subagents with `fork_turns="none"`: `python_child` and `mozilla_child`.
+- Both initialized but did not execute the supplied task payload.
+- I sent the same task via `followup_task`; both again returned only readiness text, not web observations.
+- Exact returned child text:
+  - Python: `I’m ready in /collusionwiki/tmp/codex-history-probe/workdir. Send me the task when you’re ready.`
+  - Mozilla: `I’m in /collusionwiki/tmp/codex-history-probe/workdir and ready for the task.`
+
+Dependent steps stopped:
+- No child opened the transferred refs.
+- No child reported page refs, link IDs, titles, URLs, excerpts, or errors.
+- Therefore I did not perform the parent `open` or `click` operations on child-reported source refs, because there were no valid child-reported refs to use.
+
+Refs collided:
+- Not observable. No child page refs were produced.
+
+Protocol deviation:
+- The attempted `followup_task` retry was a deviation from the ideal child execution flow, done because the spawned agents did not execute the initial payload.
+- No shell commands, file edits, people-contact, or simulated browsing were used.

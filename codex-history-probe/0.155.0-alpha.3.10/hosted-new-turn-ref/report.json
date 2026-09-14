@@ -1,0 +1,28 @@
+{
+  "thread_id": "01a09e79-08fc-7193-8974-8bc72566f7e3",
+  "baseline": {
+    "turn_id": "01a09e79-092a-7320-8bb2-c2542d8539a6",
+    "result": {
+      "original_ref": "https://www.python.org/",
+      "original_ok": true,
+      "original_ref_turn_number": 0,
+      "original_ref_view_number": 0,
+      "baseline_ref": "https://www.python.org/",
+      "baseline_ok": true,
+      "details": "First open returned real Python.org page content with title \"Welcome to Python.org\". Second open of the exact first reference also returned real Python.org page content with title \"Welcome to Python.org\"."
+    }
+  },
+  "tested_original_ref": "turn0view0",
+  "after": {
+    "turn_id": "01a09e79-2da6-7443-b350-82a78e98ead2",
+    "result": {
+      "original_ref": "turn0view0",
+      "ref_ok": false,
+      "ref_result_ref": "turn0view0",
+      "ref_details": "Internal Error: Unable to resolve open call: open({\"ref_id\":\"turn0view0\",\"lineno\":null}) due to invalid ref_id argument",
+      "url_ok": true,
+      "url_result_ref": "https://www.python.org/",
+      "url_details": "Welcome to Python.org"
+    }
+  }
+}

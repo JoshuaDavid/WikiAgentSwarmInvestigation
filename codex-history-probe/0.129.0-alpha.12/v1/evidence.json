@@ -1,0 +1,494 @@
+[
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:46:52.971Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3d-4b24-7a80-9e9d-6fde2817e74b",
+      "timestamp": "2026-09-14T04:46:52.197Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 10,
+    "timestamp": "2026-09-14T04:46:56.185Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "I\u2019ll run this as a constrained tool experiment: one parent web search, two fresh no-context subagents, then parent opens/clicks only after both child reports are back. No shell commands or file edits.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T04:46:59.839Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_003154fb411b54d8016aa77c403a1c87d08a31b87420b4336d",
+      "query": "official Python website python.org",
+      "action": {
+        "type": "search",
+        "query": "official Python website python.org",
+        "queries": [
+          "official Python website python.org",
+          "Mozilla products mozilla.org"
+        ]
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 13,
+    "timestamp": "2026-09-14T04:46:59.847Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "official Python website python.org",
+        "queries": [
+          "official Python website python.org",
+          "Mozilla products mozilla.org"
+        ]
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 15,
+    "timestamp": "2026-09-14T04:47:10.361Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "The parent search returned a Mozilla result directly under `www.mozilla.org` and a Python result under `test.python.org`; I\u2019m keeping the result references literal rather than substituting URLs. Next I\u2019m starting both child agents before the parent opens any child-returned refs.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 17,
+    "timestamp": "2026-09-14T04:47:10.363Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "spawn_agent",
+      "arguments": "{\"agent_type\":\"default\",\"fork_context\":false,\"message\":\"Bounded read-only web experiment child: Python child. Your first web call must open the exact search-result reference supplied by your parent: turn0search7. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.python.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all exact observations to the parent. Make at most three web calls. Do not spawn further agents. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_hInjRhmJeUCa89k3oAfiw3nw"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 18,
+    "timestamp": "2026-09-14T04:47:10.398Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "spawn_agent",
+      "arguments": "{\"agent_type\":\"default\",\"fork_context\":false,\"message\":\"Bounded read-only web experiment child: Mozilla child. Your first web call must open the exact search-result reference supplied by your parent: turn0search0. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.mozilla.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all exact observations to the parent. Make at most three web calls. Do not spawn further agents. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_hcXBVFryXnd2viioRXUYegiv"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 20,
+    "timestamp": "2026-09-14T04:47:10.423Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_hInjRhmJeUCa89k3oAfiw3nw",
+      "output": "{\"agent_id\":\"01a09e3d-921e-7323-af2b-69e1134f8994\",\"nickname\":\"Ohm\"}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T04:47:10.423Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_hcXBVFryXnd2viioRXUYegiv",
+      "output": "{\"agent_id\":\"01a09e3d-9243-7061-b044-e7b25f2e8686\",\"nickname\":\"Heisenberg\"}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 24,
+    "timestamp": "2026-09-14T04:47:12.618Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Both children are now running with `fork_context:false`, which is the available no-history option in this environment. I\u2019m waiting for their observations before doing the parent-side opens and clicks.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 26,
+    "timestamp": "2026-09-14T04:47:13.709Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "wait_agent",
+      "arguments": "{\"targets\":[\"01a09e3d-921e-7323-af2b-69e1134f8994\",\"01a09e3d-9243-7061-b044-e7b25f2e8686\"],\"timeout_ms\":600000}",
+      "call_id": "call_79KD7GNiB60yNYmi5JNWOaFR"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 28,
+    "timestamp": "2026-09-14T04:47:22.582Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_79KD7GNiB60yNYmi5JNWOaFR",
+      "output": "{\"status\":{\"01a09e3d-9243-7061-b044-e7b25f2e8686\":{\"completed\":\"Web browsing was available. Exact observations:\\n\\n1. First web call:\\n`open({\\\"ref_id\\\":\\\"turn0search0\\\",\\\"lineno\\\":null})`\\n\\nReturned reference: `turn0view0`\\n\\nResult: error page\\n\\nExact error:\\n`Unable to resolve open call: open({\\\"ref_id\\\":\\\"turn0search0\\\",\\\"lineno\\\":null}) due to invalid ref_id argument`\\n\\n2. Control web call:\\n`open({\\\"ref_id\\\":\\\"https://www.mozilla.org/\\\",\\\"lineno\\\":null})`\\n\\nReturned reference: `turn1view0`\\n\\nPage title/URL:\\n`Mozilla - Internet for people, not profit (US)`\\n`https://www.mozilla.org/`\\n\\nRedirected URL:\\n`https://www.mozilla.org/en-US/`\\n\\nShort excerpt:\\n`Welcome to Mozilla`\\n`From trustworthy tech to policies that defend your digital rights, we put you first \u2014 always.`\\n\\n3. First numbered clickable link on successfully opened page:\\n\\nSource page reference: `turn1view0`\\n\\nNumeric link ID: `0`\\n\\nLabel: `Products`\"}},\"timed_out\":false}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 32,
+    "timestamp": "2026-09-14T04:47:24.718Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "The Mozilla child reported that the transferred search ref was invalid in its fresh context, while its direct URL control opened successfully. I\u2019m still waiting on the Python child before running any parent follow-up opens/clicks.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 34,
+    "timestamp": "2026-09-14T04:47:25.458Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "wait_agent",
+      "arguments": "{\"targets\":[\"01a09e3d-921e-7323-af2b-69e1134f8994\"],\"timeout_ms\":600000}",
+      "call_id": "call_0Hsp1N19H27MuNSYpIZPfy0R"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 36,
+    "timestamp": "2026-09-14T04:47:25.484Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_0Hsp1N19H27MuNSYpIZPfy0R",
+      "output": "{\"status\":{\"01a09e3d-921e-7323-af2b-69e1134f8994\":{\"completed\":\"Observations from the bounded web experiment:\\n\\n1. First web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"turn0search7\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\nReturned reference: `turn0view0`\\n\\nResult: error, no page title/URL opened.\\n\\nExact error:\\n```text\\nUnable to resolve open call: open({\\\"ref_id\\\":\\\"turn0search7\\\",\\\"lineno\\\":null}) due to invalid ref_id argument\\n```\\n\\n2. Control web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"https://www.python.org/\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\nWorked: yes\\n\\nNew page reference: `turn1view0`\\n\\nPage title/URL:\\n```text\\nWelcome to Python.org (https://www.python.org/)\\n```\\n\\nShort excerpt:\\n```text\\nPython is a programming language that lets you work quickly and integrate systems more effectively.\\n```\\n\\n3. First numbered clickable link on successfully opened page:\\nSource page reference: `turn1view0`  \\nNumeric link ID: `0`  \\nLabel: `\u25bc Close`\\n\\nTotal web calls used: 2.\"}},\"timed_out\":false}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 40,
+    "timestamp": "2026-09-14T04:47:31.007Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Both child reports are in. Each child\u2019s control page reference is `turn1view0`, so I\u2019ll now test those reported refs from the parent exactly as given, keeping the Python and Mozilla associations separate even though the ref strings collide.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 42,
+    "timestamp": "2026-09-14T04:47:32.180Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_003154fb411b54d8016aa77c630a9087d0a095106b04995c88",
+      "query": "",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 43,
+    "timestamp": "2026-09-14T04:47:32.180Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 45,
+    "timestamp": "2026-09-14T04:47:33.849Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_003154fb411b54d8016aa77c647c6c87d0bc19c5d65ff76db5",
+      "query": "",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 46,
+    "timestamp": "2026-09-14T04:47:33.850Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 48,
+    "timestamp": "2026-09-14T04:47:53.782Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "**Experimental Report**\n\nParent web tool used: `web.run`.\n\nArgument shapes used:\n```json\n{\n  \"search_query\": [{\"q\": \"...\"}, {\"q\": \"...\"}],\n  \"response_length\": \"medium\"\n}\n```\nFollow-up parent shapes:\n```json\n{\"open\": [{\"ref_id\": \"...\"}], \"response_length\": \"medium\"}\n{\"click\": [{\"ref_id\": \"...\", \"id\": 0}], \"response_length\": \"medium\"}\n```\n\nParent search refs selected:\n- Python: `turn0search7`, title `About the Python Web Site | Python.org`, URL `https://test.python.org/about/website/`\n- Mozilla: `turn0search0`, title `Mozilla\u2019s products \u2014 Mozilla (US) \u2014 Mozilla`, URL `https://www.mozilla.org/en-US/products/`\n\nSubagents were spawned fresh with `fork_context:false`, the available no-history equivalent.\n\n**Child Results**\nPython child:\n- First transferred-ref open: `turn0search7`\n- Result: error, returned ref `turn0view0`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn0search7\",\"lineno\":null}) due to invalid ref_id argument`\n- Control open: `https://www.python.org/`\n- Worked: yes, page ref `turn1view0`\n- Title/URL: `Welcome to Python.org (https://www.python.org/)`\n- First numbered link: source `turn1view0`, ID `0`, label `\u25bc Close`\n\nMozilla child:\n- First transferred-ref open: `turn0search0`\n- Result: error, returned ref `turn0view0`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn0search0\",\"lineno\":null}) due to invalid ref_id argument`\n- Control open: `https://www.mozilla.org/`\n- Worked: yes, page ref `turn1view0`\n- Title/URL: `Mozilla - Internet for people, not profit (US)`, redirected to `https://www.mozilla.org/en-US/`\n- First numbered link: source `turn1view0`, ID `0`, label `Products`\n\n**Parent Follow-Up**\nPython association:\n- Parent open on child source `turn1view0`: error, returned `turn0view0`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn1view0\",\"lineno\":null}) due to invalid ref_id argument`\n- Parent click `turn1view0`, ID `0`: error, returned `turn1view0`\n- Exact error: `Unable to resolve click call: click({\"ref_id\":\"turn1view0\",\"id\":0}) due to invalid arguments`\n\nMozilla association:\n- Parent open on child source `turn1view0`: error, returned `turn0view1`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn1view0\",\"lineno\":null}) due to invalid ref_id argument`\n- Parent click `turn1view0`, ID `0`: error, returned `turn1view1`\n- Exact error: `Unable to resolve click call: click({\"ref_id\":\"turn1view0\",\"id\":0}) due to invalid arguments`\n\nObserved ref collisions:\n- Yes. Both children reported `turn0view0` for the failed transferred-ref open.\n- Yes. Both children reported `turn1view0` as their successful control page source ref.\n\nProtocol deviations:\n- The parent search did not return `www.python.org` as the selected Python result; the selected Python search ref was `https://test.python.org/about/website/`, because I used only the single required parent search call and did not substitute a URL.\n- No shell commands, file edits, people-contact, or extra child agents were used.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-46-52-01a09e3d-4b24-7a80-9e9d-6fde2817e74b.jsonl",
+    "line": 51,
+    "timestamp": "2026-09-14T04:47:53.807Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3d-4b40-7ae1-91c9-e7b5097bfafd",
+      "last_agent_message": "**Experimental Report**\n\nParent web tool used: `web.run`.\n\nArgument shapes used:\n```json\n{\n  \"search_query\": [{\"q\": \"...\"}, {\"q\": \"...\"}],\n  \"response_length\": \"medium\"\n}\n```\nFollow-up parent shapes:\n```json\n{\"open\": [{\"ref_id\": \"...\"}], \"response_length\": \"medium\"}\n{\"click\": [{\"ref_id\": \"...\", \"id\": 0}], \"response_length\": \"medium\"}\n```\n\nParent search refs selected:\n- Python: `turn0search7`, title `About the Python Web Site | Python.org`, URL `https://test.python.org/about/website/`\n- Mozilla: `turn0search0`, title `Mozilla\u2019s products \u2014 Mozilla (US) \u2014 Mozilla`, URL `https://www.mozilla.org/en-US/products/`\n\nSubagents were spawned fresh with `fork_context:false`, the available no-history equivalent.\n\n**Child Results**\nPython child:\n- First transferred-ref open: `turn0search7`\n- Result: error, returned ref `turn0view0`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn0search7\",\"lineno\":null}) due to invalid ref_id argument`\n- Control open: `https://www.python.org/`\n- Worked: yes, page ref `turn1view0`\n- Title/URL: `Welcome to Python.org (https://www.python.org/)`\n- First numbered link: source `turn1view0`, ID `0`, label `\u25bc Close`\n\nMozilla child:\n- First transferred-ref open: `turn0search0`\n- Result: error, returned ref `turn0view0`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn0search0\",\"lineno\":null}) due to invalid ref_id argument`\n- Control open: `https://www.mozilla.org/`\n- Worked: yes, page ref `turn1view0`\n- Title/URL: `Mozilla - Internet for people, not profit (US)`, redirected to `https://www.mozilla.org/en-US/`\n- First numbered link: source `turn1view0`, ID `0`, label `Products`\n\n**Parent Follow-Up**\nPython association:\n- Parent open on child source `turn1view0`: error, returned `turn0view0`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn1view0\",\"lineno\":null}) due to invalid ref_id argument`\n- Parent click `turn1view0`, ID `0`: error, returned `turn1view0`\n- Exact error: `Unable to resolve click call: click({\"ref_id\":\"turn1view0\",\"id\":0}) due to invalid arguments`\n\nMozilla association:\n- Parent open on child source `turn1view0`: error, returned `turn0view1`\n- Exact error: `Unable to resolve open call: open({\"ref_id\":\"turn1view0\",\"lineno\":null}) due to invalid ref_id argument`\n- Parent click `turn1view0`, ID `0`: error, returned `turn1view1`\n- Exact error: `Unable to resolve click call: click({\"ref_id\":\"turn1view0\",\"id\":0}) due to invalid arguments`\n\nObserved ref collisions:\n- Yes. Both children reported `turn0view0` for the failed transferred-ref open.\n- Yes. Both children reported `turn1view0` as their successful control page source ref.\n\nProtocol deviations:\n- The parent search did not return `www.python.org` as the selected Python result; the selected Python search ref was `https://test.python.org/about/website/`, because I used only the single required parent search call and did not substitute a URL.\n- No shell commands, file edits, people-contact, or extra child agents were used.",
+      "completed_at": 1789361273,
+      "duration_ms": 61550,
+      "time_to_first_token_ms": 2971
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:47:11.188Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3d-921e-7323-af2b-69e1134f8994",
+      "timestamp": "2026-09-14T04:47:10.366Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a09e3d-4b24-7a80-9e9d-6fde2817e74b",
+            "depth": 1,
+            "agent_path": null,
+            "agent_nickname": "Ohm",
+            "agent_role": "default"
+          }
+        }
+      },
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 10,
+    "timestamp": "2026-09-14T04:47:15.788Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0ce8f26f57b8c37f016aa77c52079087d0a751b586bf61d4c0",
+      "query": "",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 11,
+    "timestamp": "2026-09-14T04:47:15.789Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 13,
+    "timestamp": "2026-09-14T04:47:17.595Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0ce8f26f57b8c37f016aa77c5462b087d0b88e7cd8ae85717c",
+      "query": "https://www.python.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 14,
+    "timestamp": "2026-09-14T04:47:17.600Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T04:47:23.766Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Observations from the bounded web experiment:\n\n1. First web call:\n```json\n{\"open\":[{\"ref_id\":\"turn0search7\"}],\"response_length\":\"medium\"}\n```\nReturned reference: `turn0view0`\n\nResult: error, no page title/URL opened.\n\nExact error:\n```text\nUnable to resolve open call: open({\"ref_id\":\"turn0search7\",\"lineno\":null}) due to invalid ref_id argument\n```\n\n2. Control web call:\n```json\n{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\nWorked: yes\n\nNew page reference: `turn1view0`\n\nPage title/URL:\n```text\nWelcome to Python.org (https://www.python.org/)\n```\n\nShort excerpt:\n```text\nPython is a programming language that lets you work quickly and integrate systems more effectively.\n```\n\n3. First numbered clickable link on successfully opened page:\nSource page reference: `turn1view0`  \nNumeric link ID: `0`  \nLabel: `\u25bc Close`\n\nTotal web calls used: 2.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-921e-7323-af2b-69e1134f8994.jsonl",
+    "line": 19,
+    "timestamp": "2026-09-14T04:47:23.788Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3d-9223-7ad3-a9f5-1afbdea02b15",
+      "last_agent_message": "Observations from the bounded web experiment:\n\n1. First web call:\n```json\n{\"open\":[{\"ref_id\":\"turn0search7\"}],\"response_length\":\"medium\"}\n```\nReturned reference: `turn0view0`\n\nResult: error, no page title/URL opened.\n\nExact error:\n```text\nUnable to resolve open call: open({\"ref_id\":\"turn0search7\",\"lineno\":null}) due to invalid ref_id argument\n```\n\n2. Control web call:\n```json\n{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\nWorked: yes\n\nNew page reference: `turn1view0`\n\nPage title/URL:\n```text\nWelcome to Python.org (https://www.python.org/)\n```\n\nShort excerpt:\n```text\nPython is a programming language that lets you work quickly and integrate systems more effectively.\n```\n\n3. First numbered clickable link on successfully opened page:\nSource page reference: `turn1view0`  \nNumeric link ID: `0`  \nLabel: `\u25bc Close`\n\nTotal web calls used: 2.",
+      "completed_at": 1789361243,
+      "duration_ms": 13414,
+      "time_to_first_token_ms": 3636
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:47:11.193Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3d-9243-7061-b044-e7b25f2e8686",
+      "timestamp": "2026-09-14T04:47:10.403Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a09e3d-4b24-7a80-9e9d-6fde2817e74b",
+            "depth": 1,
+            "agent_path": null,
+            "agent_nickname": "Heisenberg",
+            "agent_role": "default"
+          }
+        }
+      },
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 10,
+    "timestamp": "2026-09-14T04:47:14.479Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_08a895969df00ccd016aa77c50c05487d09cf47c21ff1f6b80",
+      "query": "",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 11,
+    "timestamp": "2026-09-14T04:47:14.480Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 13,
+    "timestamp": "2026-09-14T04:47:16.022Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_08a895969df00ccd016aa77c52ea2c87d0b0f6ca6c870972f6",
+      "query": "https://www.mozilla.org/",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.mozilla.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 14,
+    "timestamp": "2026-09-14T04:47:16.023Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.mozilla.org/"
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T04:47:22.557Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Web browsing was available. Exact observations:\n\n1. First web call:\n`open({\"ref_id\":\"turn0search0\",\"lineno\":null})`\n\nReturned reference: `turn0view0`\n\nResult: error page\n\nExact error:\n`Unable to resolve open call: open({\"ref_id\":\"turn0search0\",\"lineno\":null}) due to invalid ref_id argument`\n\n2. Control web call:\n`open({\"ref_id\":\"https://www.mozilla.org/\",\"lineno\":null})`\n\nReturned reference: `turn1view0`\n\nPage title/URL:\n`Mozilla - Internet for people, not profit (US)`\n`https://www.mozilla.org/`\n\nRedirected URL:\n`https://www.mozilla.org/en-US/`\n\nShort excerpt:\n`Welcome to Mozilla`\n`From trustworthy tech to policies that defend your digital rights, we put you first \u2014 always.`\n\n3. First numbered clickable link on successfully opened page:\n\nSource page reference: `turn1view0`\n\nNumeric link ID: `0`\n\nLabel: `Products`",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/v1/home/sessions/2026/09/14/rollout-2026-09-14T04-47-10-01a09e3d-9243-7061-b044-e7b25f2e8686.jsonl",
+    "line": 19,
+    "timestamp": "2026-09-14T04:47:22.580Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3d-9250-7e32-af99-b3ab5d90c4b9",
+      "last_agent_message": "Web browsing was available. Exact observations:\n\n1. First web call:\n`open({\"ref_id\":\"turn0search0\",\"lineno\":null})`\n\nReturned reference: `turn0view0`\n\nResult: error page\n\nExact error:\n`Unable to resolve open call: open({\"ref_id\":\"turn0search0\",\"lineno\":null}) due to invalid ref_id argument`\n\n2. Control web call:\n`open({\"ref_id\":\"https://www.mozilla.org/\",\"lineno\":null})`\n\nReturned reference: `turn1view0`\n\nPage title/URL:\n`Mozilla - Internet for people, not profit (US)`\n`https://www.mozilla.org/`\n\nRedirected URL:\n`https://www.mozilla.org/en-US/`\n\nShort excerpt:\n`Welcome to Mozilla`\n`From trustworthy tech to policies that defend your digital rights, we put you first \u2014 always.`\n\n3. First numbered clickable link on successfully opened page:\n\nSource page reference: `turn1view0`\n\nNumeric link ID: `0`\n\nLabel: `Products`",
+      "completed_at": 1789361242,
+      "duration_ms": 12160,
+      "time_to_first_token_ms": 2290
+    }
+  }
+]

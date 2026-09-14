@@ -1,0 +1,18 @@
+{
+  "version": "0.155.0-alpha.3.10",
+  "variant": "hosted-new-turn-ref",
+  "action": "new-turn",
+  "model": "gpt-5.5",
+  "web_search": "cached",
+  "standalone_web_search": false,
+  "started_utc": "2026-09-14T05:52:06Z",
+  "command": [
+    "/collusionwiki/tmp/codex-history-probe/0.155.0-alpha.3.10/codex",
+    "app-server",
+    "--listen",
+    "stdio://"
+  ],
+  "status": "completed",
+  "process_exit_code": 0,
+  "finished_utc": "2026-09-14T05:52:22Z"
+}

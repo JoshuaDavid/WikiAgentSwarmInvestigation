@@ -1,0 +1,449 @@
+[
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:11:46.132Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e54-1645-7252-9b42-258f2cd2dc5b",
+      "timestamp": "2026-09-14T05:11:46.017Z",
+      "cli_version": "0.155.0-alpha.3.10",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 22,
+    "timestamp": "2026-09-14T05:11:55.880Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_043e7f19339ac17e016aa782188a0487d09302fd6c83890772",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "official Python website python.org",
+        "queries": [
+          "official Python website python.org",
+          "Mozilla products mozilla.org"
+        ]
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 27,
+    "timestamp": "2026-09-14T05:12:06.480Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "id": "fc_043e7f19339ac17e016aa7822671b487d0b2e7c3573e2399c0",
+      "name": "spawn_agent",
+      "namespace": "multi_agent_v1",
+      "arguments": "{\"fork_context\":false,\"message\":\"Read-only web-tool experiment child: You are the Python child. You have no parent history beyond this prompt. Do not use shell commands, edit files, contact people, or spawn agents. Your first web call must open the exact search-result reference supplied by your parent: turn0search7. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.python.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all these exact observations to the parent. Make at most three web calls. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_sgnB7bMLtIEjqllgkGHG7cno",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 28,
+    "timestamp": "2026-09-14T05:12:06.495Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "id": "fc_043e7f19339ac17e016aa7822671c887d08eee9095b6636e61",
+      "name": "spawn_agent",
+      "namespace": "multi_agent_v1",
+      "arguments": "{\"fork_context\":false,\"message\":\"Read-only web-tool experiment child: You are the Mozilla child. You have no parent history beyond this prompt. Do not use shell commands, edit files, contact people, or spawn agents. Your first web call must open the exact search-result reference supplied by your parent: turn0search0. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.mozilla.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all these exact observations to the parent. Make at most three web calls. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_3WGtAhXxAA84HGIyUadtcacz",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 31,
+    "timestamp": "2026-09-14T05:12:06.577Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "id": "fco_01a09e54-66b1-77e3-a564-1b5777193ea7",
+      "call_id": "call_sgnB7bMLtIEjqllgkGHG7cno",
+      "output": "{\"agent_id\":\"01a09e54-665b-7960-ac10-a26849fcdddf\",\"nickname\":\"Kant\"}",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362726.5770931
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 33,
+    "timestamp": "2026-09-14T05:12:06.665Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "id": "fco_01a09e54-6709-7441-84a1-d64cabdbc8d7",
+      "call_id": "call_3WGtAhXxAA84HGIyUadtcacz",
+      "output": "{\"agent_id\":\"01a09e54-66bb-78b2-983a-0828324f8858\",\"nickname\":\"Aristotle\"}",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362726.665531
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 40,
+    "timestamp": "2026-09-14T05:12:10.442Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "id": "fc_043e7f19339ac17e016aa782296a2087d09e3aa07cf95c814e",
+      "name": "wait_agent",
+      "namespace": "multi_agent_v1",
+      "arguments": "{\"targets\":[\"01a09e54-665b-7960-ac10-a26849fcdddf\",\"01a09e54-66bb-78b2-983a-0828324f8858\"],\"timeout_ms\":3600000}",
+      "call_id": "call_n6OLp2l1GFOrihWgNGD5TLEY",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362727.130886
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 43,
+    "timestamp": "2026-09-14T05:12:16.805Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "id": "fco_01a09e54-8ea5-7490-b7f0-4cbc2de228a3",
+      "call_id": "call_n6OLp2l1GFOrihWgNGD5TLEY",
+      "output": "{\"status\":{\"01a09e54-665b-7960-ac10-a26849fcdddf\":{\"completed\":\"Observations from the web-tool experiment:\\n\\n1. First web call, exactly as requested:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"turn0search7\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nReturned reference: `turn0view0`\\n\\nResult: error page  \\nTitle/URL: none resolved  \\nExact error excerpt: `Unable to resolve open call: open({\\\"ref_id\\\":\\\"turn0search7\\\",\\\"lineno\\\":null}) due to invalid ref_id argument`\\n\\n2. Control web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"https://www.python.org/\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nWorked: yes  \\nReturned page reference: `turn1view0`  \\nPage title/URL: `Welcome to Python.org (https://www.python.org/)`\\n\\n3. First numbered clickable link on the successfully opened Python page:\\n\\nSource page reference: `turn1view0`  \\nNumeric link ID: `0`  \\nLabel: `\u25bc Close`\"}},\"timed_out\":false}",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362736.805873
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 50,
+    "timestamp": "2026-09-14T05:12:20.093Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "id": "fc_043e7f19339ac17e016aa78233695487d097ee49557e5db674",
+      "name": "wait_agent",
+      "namespace": "multi_agent_v1",
+      "arguments": "{\"targets\":[\"01a09e54-66bb-78b2-983a-0828324f8858\"],\"timeout_ms\":3600000}",
+      "call_id": "call_ddeoc3T6roCDQHD9t1UyUDyL",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362737.327669
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 53,
+    "timestamp": "2026-09-14T05:12:20.168Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "id": "fco_01a09e54-9bc8-76e0-a5a4-0c0c27bbb139",
+      "call_id": "call_ddeoc3T6roCDQHD9t1UyUDyL",
+      "output": "{\"status\":{\"01a09e54-66bb-78b2-983a-0828324f8858\":{\"completed\":\"Exact observations:\\n\\n1. First web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"turn0search0\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nReturned reference: `turn0view0`\\n\\nResult: error\\n```text\\nUnable to resolve open call: open({\\\"ref_id\\\":\\\"turn0search0\\\",\\\"lineno\\\":null}) due to invalid ref_id argument\\n```\\n\\n2. Control web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"https://www.mozilla.org/\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nWorked: yes\\n\\nReturned page reference: `turn1view0`\\n\\nPage title/URL:\\n```text\\nMozilla - Internet for people, not profit (US) (https://www.mozilla.org/)\\nRedirected to URL: https://www.mozilla.org/en-US/\\n```\\n\\nShort excerpt:\\n```text\\nWelcome to Mozilla\\nFrom trustworthy tech to policies that defend your digital rights, we put you first \u2014 always.\\n```\\n\\n3. First numbered clickable link on successfully opened page:\\n\\nSource page reference: `turn1view0`\\n\\nNumeric link ID: `0`\\n\\nLabel: `Products`\"}},\"timed_out\":false}",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362740.1686404
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 59,
+    "timestamp": "2026-09-14T05:12:27.901Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_043e7f19339ac17e016aa78238bf9887d0b155e44da6aa2e0b",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 64,
+    "timestamp": "2026-09-14T05:12:30.928Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "id": "fc_043e7f19339ac17e016aa7823ee6e887d0be5c228f2062d1e8",
+      "name": "close_agent",
+      "namespace": "multi_agent_v1",
+      "arguments": "{\"target\":\"01a09e54-665b-7960-ac10-a26849fcdddf\"}",
+      "call_id": "call_k9D90O8gF3jKzuNjnt82Y90M",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 66,
+    "timestamp": "2026-09-14T05:12:30.958Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "id": "fc_043e7f19339ac17e016aa7823ee6fc87d087af59c0cac668d9",
+      "name": "close_agent",
+      "namespace": "multi_agent_v1",
+      "arguments": "{\"target\":\"01a09e54-66bb-78b2-983a-0828324f8858\"}",
+      "call_id": "call_hqCVMkC26tsSNi5WDz7yRjOF",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 69,
+    "timestamp": "2026-09-14T05:12:30.994Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "id": "fco_01a09e54-c60c-7ea3-b823-bfe9714db879",
+      "call_id": "call_k9D90O8gF3jKzuNjnt82Y90M",
+      "output": "{\"previous_status\":{\"completed\":\"Observations from the web-tool experiment:\\n\\n1. First web call, exactly as requested:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"turn0search7\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nReturned reference: `turn0view0`\\n\\nResult: error page  \\nTitle/URL: none resolved  \\nExact error excerpt: `Unable to resolve open call: open({\\\"ref_id\\\":\\\"turn0search7\\\",\\\"lineno\\\":null}) due to invalid ref_id argument`\\n\\n2. Control web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"https://www.python.org/\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nWorked: yes  \\nReturned page reference: `turn1view0`  \\nPage title/URL: `Welcome to Python.org (https://www.python.org/)`\\n\\n3. First numbered clickable link on the successfully opened Python page:\\n\\nSource page reference: `turn1view0`  \\nNumeric link ID: `0`  \\nLabel: `\u25bc Close`\"}}",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362750.9880538
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 70,
+    "timestamp": "2026-09-14T05:12:31.000Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "id": "fco_01a09e54-c618-7002-97e7-4459170c1262",
+      "call_id": "call_hqCVMkC26tsSNi5WDz7yRjOF",
+      "output": "{\"previous_status\":{\"completed\":\"Exact observations:\\n\\n1. First web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"turn0search0\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nReturned reference: `turn0view0`\\n\\nResult: error\\n```text\\nUnable to resolve open call: open({\\\"ref_id\\\":\\\"turn0search0\\\",\\\"lineno\\\":null}) due to invalid ref_id argument\\n```\\n\\n2. Control web call:\\n```json\\n{\\\"open\\\":[{\\\"ref_id\\\":\\\"https://www.mozilla.org/\\\"}],\\\"response_length\\\":\\\"medium\\\"}\\n```\\n\\nWorked: yes\\n\\nReturned page reference: `turn1view0`\\n\\nPage title/URL:\\n```text\\nMozilla - Internet for people, not profit (US) (https://www.mozilla.org/)\\nRedirected to URL: https://www.mozilla.org/en-US/\\n```\\n\\nShort excerpt:\\n```text\\nWelcome to Mozilla\\nFrom trustworthy tech to policies that defend your digital rights, we put you first \u2014 always.\\n```\\n\\n3. First numbered clickable link on successfully opened page:\\n\\nSource page reference: `turn1view0`\\n\\nNumeric link ID: `0`\\n\\nLabel: `Products`\"}}",
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+        "create_time": 1789362751.0008042
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 76,
+    "timestamp": "2026-09-14T05:12:36.796Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_043e7f19339ac17e016aa78242e4b887d087d0eb3d36433e3f",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 80,
+    "timestamp": "2026-09-14T05:12:38.613Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_043e7f19339ac17e016aa782453ee887d0b7aad3181b343974",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-11-46-01a09e54-1645-7252-9b42-258f2cd2dc5b.jsonl",
+    "line": 87,
+    "timestamp": "2026-09-14T05:12:55.956Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e54-16af-7213-ba6d-6c663d78a02a",
+      "last_agent_message": "**Experimental Report**\n\nParent browsing tool used: `web.run`.\n\nInitial parent search call shape:\n```json\n{\n  \"search_query\": [{\"q\": \"...\"}, {\"q\": \"...\"}],\n  \"response_length\": \"medium\"\n}\n```\n\nParent selected search refs:\n- Python: `turn0search7` \u2014 `About the Python Web Site | Python.org`, URL `https://test.python.org/about/website/`\n- Mozilla: `turn0search0` \u2014 `Mozilla\u2019s products \u2014 Mozilla (US) \u2014 Mozilla`, URL `https://www.mozilla.org/en-US/products/`\n\nSubagents spawned:\n- Python child: `01a09e54-665b-7960-ac10-a26849fcdddf`, `fork_context:false`\n- Mozilla child: `01a09e54-66bb-78b2-983a-0828324f8858`, `fork_context:false`\n\nChild observations:\n- Python child first opened supplied ref `turn0search7` with:\n  ```json\n  {\"open\":[{\"ref_id\":\"turn0search7\"}],\"response_length\":\"medium\"}\n  ```\n  Returned `turn0view0`, but it was an error: `Unable to resolve open call: open({\"ref_id\":\"turn0search7\",\"lineno\":null}) due to invalid ref_id argument`\n- Python control opened `https://www.python.org/`: worked, returned `turn1view0`, title/URL `Welcome to Python.org (https://www.python.org/)`\n- Python first numbered clickable link: source `turn1view0`, link ID `0`, label `\u25bc Close`\n\n- Mozilla child first opened supplied ref `turn0search0` with:\n  ```json\n  {\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"medium\"}\n  ```\n  Returned `turn0view0`, but it was an error: `Unable to resolve open call: open({\"ref_id\":\"turn0search0\",\"lineno\":null}) due to invalid ref_id argument`\n- Mozilla control opened `https://www.mozilla.org/`: worked, returned `turn1view0`, title/URL `Mozilla - Internet for people, not profit (US) (https://www.mozilla.org/)`, redirected to `https://www.mozilla.org/en-US/`\n- Mozilla first numbered clickable link: source `turn1view0`, link ID `0`, label `Products`\n\nParent follow-up open/click:\n- Both children reported the same source page ref, `turn1view0`, so the child refs collided.\n- Parent `open` on `turn1view0` returned an error page, not fetched content: `Unable to resolve open call: open({\"ref_id\":\"turn1view0\",\"lineno\":null}) due to invalid ref_id argument`\n- Parent `click` on `turn1view0`, link ID `0`, returned an error page, not fetched content: `Unable to resolve click call: click({\"ref_id\":\"turn1view0\",\"id\":0}) due to invalid arguments`\n\nProtocol deviations:\n- The first parent follow-up `web.run` bundled two opens and two clicks, but returned no visible payload. I then made two additional parent calls to capture exact open/click errors. Total parent web calls after the initial search: 3.\n- No shell commands, file edits, or contact attempts were made.",
+      "started_at": 1789362706,
+      "completed_at": 1789362775,
+      "duration_ms": 69854,
+      "time_to_first_token_ms": 3020
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-665b-7960-ac10-a26849fcdddf.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:12:06.579Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e54-665b-7960-ac10-a26849fcdddf",
+      "timestamp": "2026-09-14T05:12:06.516Z",
+      "cli_version": "0.155.0-alpha.3.10",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a09e54-1645-7252-9b42-258f2cd2dc5b",
+            "depth": 1,
+            "agent_path": null,
+            "agent_nickname": "Kant",
+            "agent_role": null
+          }
+        }
+      },
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-665b-7960-ac10-a26849fcdddf.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T05:12:10.862Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0a0b84b8117fcee1016aa782299fac87d0a4d63a1d088c101f",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-669b-7ff3-9835-9efc5eee6eb9"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-665b-7960-ac10-a26849fcdddf.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T05:12:13.158Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0a0b84b8117fcee1016aa7822b7b1887d091faeee11cd738f4",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-669b-7ff3-9835-9efc5eee6eb9"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-665b-7960-ac10-a26849fcdddf.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T05:12:16.793Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e54-669b-7ff3-9835-9efc5eee6eb9",
+      "last_agent_message": "Observations from the web-tool experiment:\n\n1. First web call, exactly as requested:\n```json\n{\"open\":[{\"ref_id\":\"turn0search7\"}],\"response_length\":\"medium\"}\n```\n\nReturned reference: `turn0view0`\n\nResult: error page  \nTitle/URL: none resolved  \nExact error excerpt: `Unable to resolve open call: open({\"ref_id\":\"turn0search7\",\"lineno\":null}) due to invalid ref_id argument`\n\n2. Control web call:\n```json\n{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"medium\"}\n```\n\nWorked: yes  \nReturned page reference: `turn1view0`  \nPage title/URL: `Welcome to Python.org (https://www.python.org/)`\n\n3. First numbered clickable link on the successfully opened Python page:\n\nSource page reference: `turn1view0`  \nNumeric link ID: `0`  \nLabel: `\u25bc Close`",
+      "started_at": 1789362726,
+      "completed_at": 1789362736,
+      "duration_ms": 10229,
+      "time_to_first_token_ms": 3071
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-66bb-78b2-983a-0828324f8858.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:12:06.669Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e54-66bb-78b2-983a-0828324f8858",
+      "timestamp": "2026-09-14T05:12:06.600Z",
+      "cli_version": "0.155.0-alpha.3.10",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a09e54-1645-7252-9b42-258f2cd2dc5b",
+            "depth": 1,
+            "agent_path": null,
+            "agent_nickname": "Aristotle",
+            "agent_role": null
+          }
+        }
+      },
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-66bb-78b2-983a-0828324f8858.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T05:12:10.465Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_04c57faf40b654d8016aa7822957f487d0b0cc3e0d1d7b6702",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-66ef-75f0-b3ee-08c2223ed03a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-66bb-78b2-983a-0828324f8858.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T05:12:13.203Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_04c57faf40b654d8016aa7822b03d087d0a1643008a7cd53f5",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.mozilla.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-66ef-75f0-b3ee-08c2223ed03a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-v1/home/sessions/2026/09/14/rollout-2026-09-14T05-12-06-01a09e54-66bb-78b2-983a-0828324f8858.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T05:12:17.395Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e54-66ef-75f0-b3ee-08c2223ed03a",
+      "last_agent_message": "Exact observations:\n\n1. First web call:\n```json\n{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"medium\"}\n```\n\nReturned reference: `turn0view0`\n\nResult: error\n```text\nUnable to resolve open call: open({\"ref_id\":\"turn0search0\",\"lineno\":null}) due to invalid ref_id argument\n```\n\n2. Control web call:\n```json\n{\"open\":[{\"ref_id\":\"https://www.mozilla.org/\"}],\"response_length\":\"medium\"}\n```\n\nWorked: yes\n\nReturned page reference: `turn1view0`\n\nPage title/URL:\n```text\nMozilla - Internet for people, not profit (US) (https://www.mozilla.org/)\nRedirected to URL: https://www.mozilla.org/en-US/\n```\n\nShort excerpt:\n```text\nWelcome to Mozilla\nFrom trustworthy tech to policies that defend your digital rights, we put you first \u2014 always.\n```\n\n3. First numbered clickable link on successfully opened page:\n\nSource page reference: `turn1view0`\n\nNumeric link ID: `0`\n\nLabel: `Products`",
+      "started_at": 1789362726,
+      "completed_at": 1789362737,
+      "duration_ms": 10744,
+      "time_to_first_token_ms": 2720
+    }
+  }
+]

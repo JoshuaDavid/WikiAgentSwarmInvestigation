@@ -1,0 +1,9 @@
+Run a short read-only web-reference lifetime experiment. Do not use shell commands, edit files, or spawn subagents. Use the web browsing tool and the update_plan tool only.
+
+1. Open https://www.python.org/ using the web tool. Record the returned page reference, title, and first numbered clickable link's ID and label.
+2. Immediately, without calling any non-web tool in between, open that exact returned reference. Then click the first numbered link using the original page reference. Record returned refs, actual pages, or exact errors. These are the baseline within one hosted browsing sequence.
+3. Call the update_plan tool with a small plan saying that baseline browsing is complete and the reference-after-tool-round-trip check is in progress. This non-web tool call is an intentional part of the experiment, and it is essential. If update_plan is unavailable, report that and stop.
+4. After update_plan returns, open the exact ORIGINAL page reference from step 1 again, without searching or substituting a URL. Then open https://www.python.org/ again as an independent control. Report the actual returned refs, titles, and any exact error strings.
+5. Return a concise report with the actual web tool name, exact JSON arguments, and each observation. Do not infer that returning a result means success: inspect the title and body for an error. Explain only what happened in this experiment, and do not make historical server claims.
+
+Make at most five web calls. Never invent a reference. This run intentionally checks whether one agent can reuse its own reference after a client-handled non-web tool call.

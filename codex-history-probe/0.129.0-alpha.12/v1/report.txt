@@ -1,0 +1,62 @@
+**Experimental Report**
+
+Parent web tool used: `web.run`.
+
+Argument shapes used:
+```json
+{
+  "search_query": [{"q": "..."}, {"q": "..."}],
+  "response_length": "medium"
+}
+```
+Follow-up parent shapes:
+```json
+{"open": [{"ref_id": "..."}], "response_length": "medium"}
+{"click": [{"ref_id": "...", "id": 0}], "response_length": "medium"}
+```
+
+Parent search refs selected:
+- Python: `turn0search7`, title `About the Python Web Site | Python.org`, URL `https://test.python.org/about/website/`
+- Mozilla: `turn0search0`, title `Mozilla’s products — Mozilla (US) — Mozilla`, URL `https://www.mozilla.org/en-US/products/`
+
+Subagents were spawned fresh with `fork_context:false`, the available no-history equivalent.
+
+**Child Results**
+Python child:
+- First transferred-ref open: `turn0search7`
+- Result: error, returned ref `turn0view0`
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn0search7","lineno":null}) due to invalid ref_id argument`
+- Control open: `https://www.python.org/`
+- Worked: yes, page ref `turn1view0`
+- Title/URL: `Welcome to Python.org (https://www.python.org/)`
+- First numbered link: source `turn1view0`, ID `0`, label `▼ Close`
+
+Mozilla child:
+- First transferred-ref open: `turn0search0`
+- Result: error, returned ref `turn0view0`
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn0search0","lineno":null}) due to invalid ref_id argument`
+- Control open: `https://www.mozilla.org/`
+- Worked: yes, page ref `turn1view0`
+- Title/URL: `Mozilla - Internet for people, not profit (US)`, redirected to `https://www.mozilla.org/en-US/`
+- First numbered link: source `turn1view0`, ID `0`, label `Products`
+
+**Parent Follow-Up**
+Python association:
+- Parent open on child source `turn1view0`: error, returned `turn0view0`
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn1view0","lineno":null}) due to invalid ref_id argument`
+- Parent click `turn1view0`, ID `0`: error, returned `turn1view0`
+- Exact error: `Unable to resolve click call: click({"ref_id":"turn1view0","id":0}) due to invalid arguments`
+
+Mozilla association:
+- Parent open on child source `turn1view0`: error, returned `turn0view1`
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn1view0","lineno":null}) due to invalid ref_id argument`
+- Parent click `turn1view0`, ID `0`: error, returned `turn1view1`
+- Exact error: `Unable to resolve click call: click({"ref_id":"turn1view0","id":0}) due to invalid arguments`
+
+Observed ref collisions:
+- Yes. Both children reported `turn0view0` for the failed transferred-ref open.
+- Yes. Both children reported `turn1view0` as their successful control page source ref.
+
+Protocol deviations:
+- The parent search did not return `www.python.org` as the selected Python result; the selected Python search ref was `https://test.python.org/about/website/`, because I used only the single required parent search call and did not substitute a URL.
+- No shell commands, file edits, people-contact, or extra child agents were used.

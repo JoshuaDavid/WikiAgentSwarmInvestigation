@@ -1,0 +1,66 @@
+[
+  {
+    "source": "0.155.0-alpha.3.10/hosted-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-11-43-01a09e54-0d76-7c73-84b9-5008d286e792.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:11:43.829Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e54-0d76-7c73-84b9-5008d286e792",
+      "timestamp": "2026-09-14T05:11:43.749Z",
+      "cli_version": "0.155.0-alpha.3.10",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-11-43-01a09e54-0d76-7c73-84b9-5008d286e792.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T05:11:49.423Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0fa98f6683cd958f016aa78214115c87d085f895831bfde32f",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-0dbf-7431-b3a5-a92492f8dfc9"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-11-43-01a09e54-0d76-7c73-84b9-5008d286e792.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T05:11:50.963Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0fa98f6683cd958f016aa78215e83087d0bd062e0530900baf",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e54-0dbf-7431-b3a5-a92492f8dfc9"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-11-43-01a09e54-0d76-7c73-84b9-5008d286e792.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T05:11:54.654Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e54-0dbf-7431-b3a5-a92492f8dfc9",
+      "last_agent_message": "Stopped at step 3 as instructed because `update_plan` is unavailable in this environment.\n\n| Step | Tool | Exact input | Returned reference | Page title / error |\n|---|---|---|---|---|\n| 1 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | `turn0view0` | `Welcome to Python.org` |\n| 2 | `web.run` | `{\"open\":[{\"ref_id\":\"turn0view0\"}],\"response_length\":\"short\"}` | `turn1view0` | `Welcome to Python.org` |\n| 3 | `update_plan` | Intended: two steps: `baseline complete`; `after-round-trip check in progress` | N/A | Error: `update_plan` tool unavailable |\n\nContent verification: steps 1 and 2 returned the real Python.org page content, not an Internal Error.",
+      "started_at": 1789362703,
+      "completed_at": 1789362714,
+      "duration_ms": 10845,
+      "time_to_first_token_ms": 4298
+    }
+  }
+]

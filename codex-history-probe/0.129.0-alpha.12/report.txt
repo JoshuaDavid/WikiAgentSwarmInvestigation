@@ -1,0 +1,44 @@
+**Experimental Report**
+
+Observed web tool used by parent: `web.run`
+
+Initial search call argument shape:
+```json
+{
+  "search_query": [
+    { "q": "official Python website python.org" },
+    { "q": "Mozilla products mozilla.org" }
+  ]
+}
+```
+
+Selected parent search refs:
+- Python: `turn0search7`
+- Mozilla: `turn0search0`
+
+Subagents:
+- Spawned `/root/python_child` with `fork_turns="none"`.
+- Spawned `/root/mozilla_child` with `fork_turns="none"`.
+- Both were spawned before any parent attempt to open returned child refs.
+
+Protocol limitation / deviation:
+- Both child agents failed to execute the supplied web instructions.
+- `/root/python_child` returned only: “Ready. I can inspect the workspace and answer questions, but this session is read-only, so I won’t be able to modify files or run write operations.”
+- `/root/mozilla_child` returned only: “Ready. What would you like me to work on in `/collusionwiki/tmp/codex-history-probe/workdir`?”
+- I sent one follow-up to each existing child with the same bounded instructions; both again returned generic readiness messages.
+- Because neither child reported a returned page reference, page title/URL, excerpt/error, source page reference, or link ID, the dependent parent `open`/`click` step could not be performed without inventing references.
+
+Child observations:
+- Python child transferred-ref open: not performed / not reported.
+- Python child independent control `https://www.python.org/`: not performed / not reported.
+- Mozilla child transferred-ref open: not performed / not reported.
+- Mozilla child independent control `https://www.mozilla.org/`: not performed / not reported.
+- Child page refs and link IDs: none reported.
+
+Parent post-child operations:
+- No parent `open` or `click` calls were made after the initial search, because the required child source refs and link IDs were unavailable.
+
+Reference collision:
+- No child refs were produced, so no collision could be assessed.
+
+Observed result, not hypothesis: the web search tool was callable, but the spawned subagents did not carry out the requested web browsing task in this run.

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "server-events.jsonl",
+    "line": 122,
+    "event": {
+      "timestamp": 1789364993.833003,
+      "direction": "received",
+      "message": {
+        "method": "error",
+        "params": {
+          "error": {
+            "message": "Error running remote compact task: unexpected status 404 Not Found: {\"detail\":\"Not Found\"}, url: https://chatgpt.com/backend-api/codex/responses/compact, cf-ray: a3ad1c6aff523ec8-SJC, request id: ac5fda72-16db-4840-93da-da7138cecad8",
+            "codexErrorInfo": "other",
+            "additionalDetails": null
+          },
+          "willRetry": false,
+          "threadId": "01a09e76-dbca-7be2-a1a3-0eb3fed1a894",
+          "turnId": "01a09e76-fd7f-79f2-8027-4ad5ce13cf99"
+        }
+      }
+    }
+  }
+]

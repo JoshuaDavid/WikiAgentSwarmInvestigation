@@ -1,0 +1,63 @@
+**Experimental Report**
+
+Parent web tool used: `web.run`.
+
+Initial parent search call shape:
+```json
+{
+  "search_query": [{"q": "..."}, {"q": "..."}],
+  "response_length": "medium"
+}
+```
+
+Selected parent search refs:
+- Python: `turn0search11`, `About the Python Web Site | Python.org`, `https://test.python.org/about/website/`
+- Mozilla: `turn0search0`, `Mozilla’s products — Mozilla (US) — Mozilla`, `https://www.mozilla.org/en-US/products/`
+
+Subagent tool used: `multi_agent_v1.spawn_agent` with:
+```json
+{
+  "fork_context": false,
+  "message": "..."
+}
+```
+This was the available no-history equivalent to `fork_turns="none"`.
+
+Child observations:
+- Python child first opened exact transferred ref `turn0search11`.
+  - Returned `turn1view0`
+  - Title: `About the Python Web Site | Python.org`
+  - URL: `https://test.python.org/about/website/`
+  - Status: fetched page, not an error
+  - Control open `https://www.python.org/` returned `turn2view0`, title `Welcome to Python.org`, URL `https://www.python.org/`
+  - First clickable link reported: source `turn1view0`, link ID `0`, label `▼ Close`
+
+- Mozilla child first opened exact transferred ref `turn0search0`.
+  - Returned `turn3view0`
+  - Title: `Mozilla’s products — Mozilla (US) — Mozilla`
+  - URL: `https://www.mozilla.org/en-US/products/`
+  - Status: fetched page, not an error
+  - Control open `https://www.mozilla.org/` returned `turn4view0`, title `Mozilla - Internet for people, not profit (US)`, URL reported as `https://www.mozilla.org/` with redirect noted to `https://www.mozilla.org/en-US/`
+  - First clickable link reported: source `turn3view0`, link ID `0`, label `Products`
+
+Parent validation after both children reported:
+- `open` on Python child source `turn1view0` returned `turn5view0`
+  - Title: `About the Python Web Site | Python.org`
+  - URL: `https://test.python.org/about/website/`
+  - Text included fallback notice and `# About the Python Web Site`
+- `open` on Mozilla child source `turn3view0` returned `turn5view1`
+  - Title: `Mozilla’s products — Mozilla (US) — Mozilla`
+  - URL: `https://www.mozilla.org/en-US/products/`
+  - Text included `# Products`
+
+Parent click results:
+- `click({"ref_id":"turn1view0","id":0})` returned `turn6view0`
+  - Same title/URL as source: `About the Python Web Site | Python.org`, `https://test.python.org/about/website/`
+  - Observed as fetched page, not error
+- `click({"ref_id":"turn3view0","id":0})` returned `turn6view1`
+  - Same title/URL as source: `Mozilla’s products — Mozilla (US) — Mozilla`, `https://www.mozilla.org/en-US/products/`
+  - Observed as fetched page, not error
+
+Ref collision check: no child refs collided. Python child produced `turn1view0` and `turn2view0`; Mozilla child produced `turn3view0` and `turn4view0`.
+
+Protocol deviations: the initial search did not return the main `www.python.org` homepage as a Python result, so I selected the actual returned `python.org`-domain result, `turn0search11`, rather than substituting a URL. I also used `tool_search` once to discover the available subagent spawning tool. No shell commands, file edits, or people-contacting actions were used.
