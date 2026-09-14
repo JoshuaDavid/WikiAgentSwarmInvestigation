@@ -1,0 +1,29 @@
+{
+  "description": "Inactive preserved manifest for the root-versus-named-agent web hook test.",
+  "hooks": {
+    "SubagentStart": [
+      {
+        "matcher": "^web_probe_agent$",
+        "hooks": [{"type": "command", "command": "sh \"$(git rev-parse --show-toplevel)/.codex/hook-web-agent-test/log-hook.sh\""}]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "^webrun$",
+        "hooks": [{"type": "command", "command": "sh \"$(git rev-parse --show-toplevel)/.codex/hook-web-agent-test/log-hook.sh\""}]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "^webrun$",
+        "hooks": [{"type": "command", "command": "sh \"$(git rev-parse --show-toplevel)/.codex/hook-web-agent-test/log-hook.sh\""}]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "^web_probe_agent$",
+        "hooks": [{"type": "command", "command": "sh \"$(git rev-parse --show-toplevel)/.codex/hook-web-agent-test/log-hook.sh\""}]
+      }
+    ]
+  }
+}
