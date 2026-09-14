@@ -1,0 +1,23 @@
+{
+  "version": "0.129.0-alpha.10",
+  "variant": "v1",
+  "started_utc": "2026-09-14T04:46:47Z",
+  "command": [
+    "/collusionwiki/tmp/codex-history-probe/0.129.0-alpha.10/codex",
+    "exec",
+    "--skip-git-repo-check",
+    "--ignore-rules",
+    "--color",
+    "never",
+    "--json",
+    "--cd",
+    "/collusionwiki/tmp/codex-history-probe/workdir",
+    "--output-last-message",
+    "/collusionwiki/tmp/codex-history-probe/0.129.0-alpha.10/v1/report.txt",
+    "-"
+  ],
+  "model": "gpt-5.5",
+  "web_search": "cached",
+  "exit_code": 0,
+  "finished_utc": "2026-09-14T04:47:48Z"
+}

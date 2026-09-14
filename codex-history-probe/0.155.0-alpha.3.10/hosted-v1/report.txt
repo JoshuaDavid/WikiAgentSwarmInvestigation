@@ -1,0 +1,45 @@
+**Experimental Report**
+
+Parent browsing tool used: `web.run`.
+
+Initial parent search call shape:
+```json
+{
+  "search_query": [{"q": "..."}, {"q": "..."}],
+  "response_length": "medium"
+}
+```
+
+Parent selected search refs:
+- Python: `turn0search7` — `About the Python Web Site | Python.org`, URL `https://test.python.org/about/website/`
+- Mozilla: `turn0search0` — `Mozilla’s products — Mozilla (US) — Mozilla`, URL `https://www.mozilla.org/en-US/products/`
+
+Subagents spawned:
+- Python child: `01a09e54-665b-7960-ac10-a26849fcdddf`, `fork_context:false`
+- Mozilla child: `01a09e54-66bb-78b2-983a-0828324f8858`, `fork_context:false`
+
+Child observations:
+- Python child first opened supplied ref `turn0search7` with:
+  ```json
+  {"open":[{"ref_id":"turn0search7"}],"response_length":"medium"}
+  ```
+  Returned `turn0view0`, but it was an error: `Unable to resolve open call: open({"ref_id":"turn0search7","lineno":null}) due to invalid ref_id argument`
+- Python control opened `https://www.python.org/`: worked, returned `turn1view0`, title/URL `Welcome to Python.org (https://www.python.org/)`
+- Python first numbered clickable link: source `turn1view0`, link ID `0`, label `▼ Close`
+
+- Mozilla child first opened supplied ref `turn0search0` with:
+  ```json
+  {"open":[{"ref_id":"turn0search0"}],"response_length":"medium"}
+  ```
+  Returned `turn0view0`, but it was an error: `Unable to resolve open call: open({"ref_id":"turn0search0","lineno":null}) due to invalid ref_id argument`
+- Mozilla control opened `https://www.mozilla.org/`: worked, returned `turn1view0`, title/URL `Mozilla - Internet for people, not profit (US) (https://www.mozilla.org/)`, redirected to `https://www.mozilla.org/en-US/`
+- Mozilla first numbered clickable link: source `turn1view0`, link ID `0`, label `Products`
+
+Parent follow-up open/click:
+- Both children reported the same source page ref, `turn1view0`, so the child refs collided.
+- Parent `open` on `turn1view0` returned an error page, not fetched content: `Unable to resolve open call: open({"ref_id":"turn1view0","lineno":null}) due to invalid ref_id argument`
+- Parent `click` on `turn1view0`, link ID `0`, returned an error page, not fetched content: `Unable to resolve click call: click({"ref_id":"turn1view0","id":0}) due to invalid arguments`
+
+Protocol deviations:
+- The first parent follow-up `web.run` bundled two opens and two clicks, but returned no visible payload. I then made two additional parent calls to capture exact open/click errors. Total parent web calls after the initial search: 3.
+- No shell commands, file edits, or contact attempts were made.

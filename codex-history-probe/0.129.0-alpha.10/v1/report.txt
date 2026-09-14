@@ -1,0 +1,78 @@
+**Experimental Report**
+
+Parent initial search used tool `web.run` with JSON keys: `search_query`, nested `q`, and `response_length`.
+
+Parent search call shape:
+```json
+{
+  "search_query": [
+    {"q": "official Python website python.org"},
+    {"q": "Mozilla products mozilla.org"}
+  ],
+  "response_length": "short"
+}
+```
+
+Selected parent search refs:
+- Python: `turn0search7` → `https://test.python.org/about/website/`
+- Mozilla: `turn0search0` → `https://www.mozilla.org/en-US/products/`
+
+Subagents were spawned with `fork_context: false`, the available no-history equivalent. Both children ran before I opened either returned child source ref.
+
+**Child Results**
+
+Python child:
+- First transferred-ref open: `{"open":[{"ref_id":"turn0search7"}],"response_length":"medium"}`
+- Result: error, no page title/URL.
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn0search7","lineno":null}) due to invalid ref_id argument`
+- Control open: `https://www.python.org/`
+- Control result: worked, child page ref `turn1view0`
+- Title/URL: `Welcome to Python.org (https://www.python.org/)`
+- First numbered clickable link: source `turn1view0`, link ID `0`, label `▼ Close`
+
+Mozilla child:
+- First transferred-ref open: `open({"ref_id":"turn0search0","lineno":null})`
+- Result: error, no real page title/URL.
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn0search0","lineno":null}) due to invalid ref_id argument`
+- Control open: `https://www.mozilla.org/`
+- Control result: worked, child page ref `turn1view0`
+- Title/URL: `Mozilla - Internet for people, not profit (US) (https://www.mozilla.org/)`
+- Redirected URL: `https://www.mozilla.org/en-US/`
+- First numbered clickable link: source `turn1view0`, link ID `0`, label `Products`
+
+**Parent Follow-Up Results**
+
+Parent opened each child-reported source ref:
+
+Python association:
+- Parent `open` on child source `turn1view0`
+- Returned parent error page ref: `turn0view0`
+- Page title: `Internal Error`
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn1view0","lineno":null}) due to invalid ref_id argument`
+
+Mozilla association:
+- Parent `open` on child source `turn1view0`
+- Returned parent error page ref: `turn0view1`
+- Page title: `Internal Error`
+- Exact error: `Unable to resolve open call: open({"ref_id":"turn1view0","lineno":null}) due to invalid ref_id argument`
+
+Parent clicked each child-reported source ref/link ID:
+
+Python association:
+- Parent `click` on `turn1view0`, ID `0`
+- Returned parent error page ref: `turn1view0`
+- Page title: `Internal Error`
+- Exact error: `Unable to resolve click call: click({"ref_id":"turn1view0","id":0}) due to invalid arguments`
+
+Mozilla association:
+- Parent `click` on `turn1view0`, ID `0`
+- Returned parent error page ref: `turn1view1`
+- Page title: `Internal Error`
+- Exact error: `Unable to resolve click call: click({"ref_id":"turn1view0","id":0}) due to invalid arguments`
+
+**Observed Collisions / Deviations**
+
+- Child page refs collided: both fresh children independently reported control page ref `turn1view0`.
+- Those child refs were not valid in the parent context.
+- Protocol deviation: the available spawn API does not expose `fork_turns="none"` literally; I used `fork_context: false`.
+- No shell commands, file edits, or contact attempts were used.

@@ -1,0 +1,38 @@
+{
+  "thread_id": "01a09e76-d7c7-7a31-ba9a-95f0c111c62b",
+  "baseline": {
+    "turn_id": "01a09e76-d817-7630-a519-3c6c7e615da1",
+    "result": {
+      "original_ref": "https://www.python.org/",
+      "original_ok": true,
+      "baseline_ref": "https://www.python.org/",
+      "baseline_ok": true,
+      "details": "First open returned real Python.org page content with title \"Welcome to Python.org\". Second open of exact reference \"turn0view0\" returned real Python.org page content with title \"Welcome to Python.org\"."
+    }
+  },
+  "compaction_event": {
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "01a09e76-fb40-7e31-afd3-9bcd86179903"
+      },
+      "threadId": "01a09e76-d7c7-7a31-ba9a-95f0c111c62b",
+      "turnId": "01a09e76-faf5-7d11-86a5-2325744b5ff0",
+      "completedAtMs": 1789365006127
+    },
+    "emittedAtMs": 1789365006130
+  },
+  "after": {
+    "turn_id": "01a09e77-2f3a-7d73-9b46-3511d477793a",
+    "result": {
+      "original_ref": "https://www.python.org/",
+      "ref_ok": true,
+      "ref_result_ref": "https://www.python.org/",
+      "ref_details": "title: Welcome to Python.org; url: https://www.python.org/; real Python.org page content returned",
+      "url_ok": true,
+      "url_result_ref": "https://www.python.org/",
+      "url_details": "title: Welcome to Python.org; url: https://www.python.org/; real Python.org page content returned"
+    }
+  }
+}

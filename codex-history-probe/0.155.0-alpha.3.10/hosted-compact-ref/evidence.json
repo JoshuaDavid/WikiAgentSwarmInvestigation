@@ -1,0 +1,139 @@
+[
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:52:05.686Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e79-01ab-7492-a22e-2a9b04d19625",
+      "timestamp": "2026-09-14T05:52:05.568Z",
+      "cli_version": "0.155.0-alpha.3.10",
+      "source": "vscode",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T05:52:10.030Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_047cc5efb030a71c016aa78b884e1887d0aafa46b5cadbf8fa",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e79-0219-7eb3-8057-b7d51a2ebe64"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T05:52:12.405Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_047cc5efb030a71c016aa78b8a84e087d08ff00494ea0b55e4",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e79-0219-7eb3-8057-b7d51a2ebe64"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T05:52:14.046Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e79-0219-7eb3-8057-b7d51a2ebe64",
+      "last_agent_message": "{\"original_ref\":\"https://www.python.org/\",\"original_ok\":true,\"original_ref_turn_number\":0,\"original_ref_view_number\":0,\"baseline_ref\":\"https://www.python.org/\",\"baseline_ok\":true,\"details\":\"First open returned real Python.org content with title \\\"Welcome to Python.org\\\". Second open of literal reference turn0view0 returned real Python.org content with title \\\"Welcome to Python.org\\\".\"}",
+      "started_at": 1789365125,
+      "completed_at": 1789365134,
+      "duration_ms": 8385,
+      "time_to_first_token_ms": 2782
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 24,
+    "timestamp": "2026-09-14T05:52:26.477Z",
+    "type": "compacted",
+    "payload": {
+      "replacement_history_items": 2
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 28,
+    "timestamp": "2026-09-14T05:52:26.513Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e79-22e4-71b3-9d0c-0547132d71c1",
+      "last_agent_message": null,
+      "started_at": 1789365134,
+      "completed_at": 1789365146,
+      "duration_ms": 12421
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 37,
+    "timestamp": "2026-09-14T05:52:30.011Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_047cc5efb030a71c016aa78b9cff1c87d09f6cac8fd0d56e70",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e79-5397-7793-8074-4f7ed6a533d6"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 39,
+    "timestamp": "2026-09-14T05:52:31.080Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_047cc5efb030a71c016aa78b9e00a487d08dd4340f59a652d3",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e79-5397-7793-8074-4f7ed6a533d6"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact-ref/home/sessions/2026/09/14/rollout-2026-09-14T05-52-05-01a09e79-01ab-7492-a22e-2a9b04d19625.jsonl",
+    "line": 44,
+    "timestamp": "2026-09-14T05:52:32.686Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e79-5397-7793-8074-4f7ed6a533d6",
+      "last_agent_message": "{\"original_ref\":\"turn0view0\",\"ref_ok\":false,\"ref_result_ref\":\"turn0view0\",\"ref_details\":\"Internal Error: Unable to resolve open call: open({\\\"ref_id\\\":\\\"turn0view0\\\",\\\"lineno\\\":null}) due to invalid ref_id argument\",\"url_ok\":true,\"url_result_ref\":\"https://www.python.org/\",\"url_details\":\"Title: Welcome to Python.org\"}",
+      "started_at": 1789365146,
+      "completed_at": 1789365152,
+      "duration_ms": 6160,
+      "time_to_first_token_ms": 2499
+    }
+  }
+]

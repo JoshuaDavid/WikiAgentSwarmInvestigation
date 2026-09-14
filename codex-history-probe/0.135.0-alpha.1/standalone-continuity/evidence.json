@@ -1,0 +1,54 @@
+[
+  {
+    "source": "0.135.0-alpha.1/standalone-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-28-57-01a09e63-d391-7333-9e5a-faedb33bc494.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:28:57.647Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e63-d391-7333-9e5a-faedb33bc494",
+      "timestamp": "2026-09-14T05:28:57.502Z",
+      "cli_version": "0.135.0-alpha.1",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.135.0-alpha.1/standalone-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-28-57-01a09e63-d391-7333-9e5a-faedb33bc494.jsonl",
+    "line": 9,
+    "timestamp": "2026-09-14T05:29:00.270Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "run",
+      "namespace": "web",
+      "arguments": "{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}",
+      "call_id": "call_1Vd6PEMq1o9VvYGkyF2loXal"
+    }
+  },
+  {
+    "source": "0.135.0-alpha.1/standalone-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-28-57-01a09e63-d391-7333-9e5a-faedb33bc494.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T05:29:07.321Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "The first required web call returned `aborted`, with no page reference or title. Because step 2 requires using the actual returned reference `R`, there is no valid `R` to use without inventing one.\n\n| Step | Tool | Exact input | Returned reference | Title / error |\n|---|---|---|---|---|\n| 1 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | none | `aborted` |\n\nStopped to avoid inventing a reference or deviating from the required sequence.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.135.0-alpha.1/standalone-continuity/home/sessions/2026/09/14/rollout-2026-09-14T05-28-57-01a09e63-d391-7333-9e5a-faedb33bc494.jsonl",
+    "line": 15,
+    "timestamp": "2026-09-14T05:29:07.424Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e63-d3ff-70d1-b8c3-849dfd621137",
+      "last_agent_message": "The first required web call returned `aborted`, with no page reference or title. Because step 2 requires using the actual returned reference `R`, there is no valid `R` to use without inventing one.\n\n| Step | Tool | Exact input | Returned reference | Title / error |\n|---|---|---|---|---|\n| 1 | `web.run` | `{\"open\":[{\"ref_id\":\"https://www.python.org/\"}],\"response_length\":\"short\"}` | none | `aborted` |\n\nStopped to avoid inventing a reference or deviating from the required sequence.",
+      "completed_at": 1789363747,
+      "duration_ms": 9816,
+      "time_to_first_token_ms": 2263
+    }
+  }
+]

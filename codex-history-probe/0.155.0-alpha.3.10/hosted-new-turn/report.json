@@ -1,0 +1,25 @@
+{
+  "thread_id": "01a09e76-d2e3-7120-888b-cbe4c3ff5fb8",
+  "baseline": {
+    "turn_id": "01a09e76-d419-7e73-a956-6dffed1cdcaf",
+    "result": {
+      "original_ref": "https://www.python.org/",
+      "original_ok": true,
+      "baseline_ref": "https://www.python.org/",
+      "baseline_ok": true,
+      "details": "First open returned real Python.org content with title \"Welcome to Python.org\" and URL https://www.python.org/. Second open of exact first reference turn0view0 returned real Python.org content with title \"Welcome to Python.org\" and URL https://www.python.org/."
+    }
+  },
+  "after": {
+    "turn_id": "01a09e76-f483-7180-bb7c-c8b84a86fbc1",
+    "result": {
+      "original_ref": "https://www.python.org/",
+      "ref_ok": true,
+      "ref_result_ref": "https://www.python.org/",
+      "ref_details": "Title: Welcome to Python.org; URL: https://www.python.org/; real Python.org page content returned.",
+      "url_ok": true,
+      "url_result_ref": "https://www.python.org/",
+      "url_details": "Title: Welcome to Python.org; URL: https://www.python.org/; real Python.org page content returned."
+    }
+  }
+}

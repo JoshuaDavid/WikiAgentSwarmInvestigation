@@ -1,0 +1,140 @@
+[
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T05:49:43.857Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e76-d7c7-7a31-ba9a-95f0c111c62b",
+      "timestamp": "2026-09-14T05:49:43.771Z",
+      "cli_version": "0.155.0-alpha.3.10",
+      "source": "vscode",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T05:49:48.029Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0f0c7830b29a643f016aa78afa71ac87d0b258c8392b00adee",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e76-d817-7630-a519-3c6c7e615da1"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 16,
+    "timestamp": "2026-09-14T05:49:51.253Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0f0c7830b29a643f016aa78afcdb7887d095552a268dca2d27",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e76-d817-7630-a519-3c6c7e615da1"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T05:49:52.751Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e76-d817-7630-a519-3c6c7e615da1",
+      "last_agent_message": "{\"original_ref\":\"https://www.python.org/\",\"original_ok\":true,\"baseline_ref\":\"https://www.python.org/\",\"baseline_ok\":true,\"details\":\"First open returned real Python.org page content with title \\\"Welcome to Python.org\\\". Second open of exact reference \\\"turn0view0\\\" returned real Python.org page content with title \\\"Welcome to Python.org\\\".\"}",
+      "started_at": 1789364983,
+      "completed_at": 1789364992,
+      "duration_ms": 8918,
+      "time_to_first_token_ms": 2628
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 24,
+    "timestamp": "2026-09-14T05:50:06.112Z",
+    "type": "compacted",
+    "payload": {
+      "replacement_history_items": 2
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 28,
+    "timestamp": "2026-09-14T05:50:06.135Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e76-faf5-7d11-86a5-2325744b5ff0",
+      "last_agent_message": null,
+      "started_at": 1789364992,
+      "completed_at": 1789365006,
+      "duration_ms": 13324
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 39,
+    "timestamp": "2026-09-14T05:50:11.678Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0f0c7830b29a643f016aa78b10e3c087d0849c279be44cd906",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e77-2f3a-7d73-9b46-3511d477793a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 43,
+    "timestamp": "2026-09-14T05:50:13.482Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "id": "ws_0f0c7830b29a643f016aa78b1417a487d0b496e0951c9c41df",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.python.org/"
+      },
+      "internal_chat_message_metadata_passthrough": {
+        "turn_id": "01a09e77-2f3a-7d73-9b46-3511d477793a"
+      }
+    }
+  },
+  {
+    "source": "0.155.0-alpha.3.10/hosted-compact/home/sessions/2026/09/14/rollout-2026-09-14T05-49-43-01a09e76-d7c7-7a31-ba9a-95f0c111c62b.jsonl",
+    "line": 48,
+    "timestamp": "2026-09-14T05:50:15.280Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e77-2f3a-7d73-9b46-3511d477793a",
+      "last_agent_message": "{\"original_ref\":\"https://www.python.org/\",\"ref_ok\":true,\"ref_result_ref\":\"https://www.python.org/\",\"ref_details\":\"title: Welcome to Python.org; url: https://www.python.org/; real Python.org page content returned\",\"url_ok\":true,\"url_result_ref\":\"https://www.python.org/\",\"url_details\":\"title: Welcome to Python.org; url: https://www.python.org/; real Python.org page content returned\"}",
+      "started_at": 1789365006,
+      "completed_at": 1789365015,
+      "duration_ms": 9133,
+      "time_to_first_token_ms": 2775
+    }
+  }
+]

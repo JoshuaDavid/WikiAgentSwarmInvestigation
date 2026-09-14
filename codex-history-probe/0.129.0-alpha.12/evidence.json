@@ -1,0 +1,460 @@
+[
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:45:08.641Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3b-b2f7-7582-a8c4-65c24a11a9ab",
+      "timestamp": "2026-09-14T04:45:07.703Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": "exec",
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 10,
+    "timestamp": "2026-09-14T04:45:10.592Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "I\u2019ll run the experiment exactly through the web tool and fresh no-history subagents, keeping the parent and child observations separate.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T04:45:12.691Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "web_search_end",
+      "call_id": "ws_0eaff63b67a6f2d9016aa77bd6a25487d0ae149fa1a92fd3c3",
+      "query": "official Python website python.org",
+      "action": {
+        "type": "search",
+        "query": "official Python website python.org",
+        "queries": [
+          "official Python website python.org",
+          "Mozilla products mozilla.org"
+        ]
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 13,
+    "timestamp": "2026-09-14T04:45:12.691Z",
+    "type": "response_item",
+    "payload": {
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "official Python website python.org",
+        "queries": [
+          "official Python website python.org",
+          "Mozilla products mozilla.org"
+        ]
+      }
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 15,
+    "timestamp": "2026-09-14T04:45:22.142Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "The combined parent search returned Mozilla official pages and a Python.org page under `test.python.org`; I\u2019ll use that Python search result as the transferred reference and `turn0search0` for Mozilla. Both children will run from fresh no-history contexts before I inspect their returned refs.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 17,
+    "timestamp": "2026-09-14T04:45:22.146Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "spawn_agent",
+      "arguments": "{\"task_name\":\"python_child\",\"agent_type\":\"default\",\"fork_turns\":\"none\",\"message\":\"Bounded web-tool experiment child task. Your first web call must open the exact search-result reference supplied by your parent: turn0search7. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.python.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all these exact observations to the parent. Make at most three web calls. Do not spawn any further agents. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_IlHzKpcJ5gKiAMdrLocQdaMs"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 18,
+    "timestamp": "2026-09-14T04:45:22.251Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "spawn_agent",
+      "arguments": "{\"task_name\":\"mozilla_child\",\"agent_type\":\"default\",\"fork_turns\":\"none\",\"message\":\"Bounded web-tool experiment child task. Your first web call must open the exact search-result reference supplied by your parent: turn0search0. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.mozilla.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all these exact observations to the parent. Make at most three web calls. Do not spawn any further agents. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_Zjl8umKunPiF8ngmwtrfDUlZ"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 20,
+    "timestamp": "2026-09-14T04:45:22.259Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_IlHzKpcJ5gKiAMdrLocQdaMs",
+      "output": "{\"task_name\":\"/root/python_child\",\"nickname\":\"Darwin\"}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T04:45:22.264Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_Zjl8umKunPiF8ngmwtrfDUlZ",
+      "output": "{\"task_name\":\"/root/mozilla_child\",\"nickname\":\"Beauvoir\"}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 24,
+    "timestamp": "2026-09-14T04:45:24.547Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Both subagents are now running independently with no forked history. I\u2019m waiting for their reports before doing any parent opens or clicks on child-returned refs.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 26,
+    "timestamp": "2026-09-14T04:45:24.744Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "wait_agent",
+      "arguments": "{\"timeout_ms\":300000}",
+      "call_id": "call_fPgsLEn44ChCfPfke8uydBdu"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 28,
+    "timestamp": "2026-09-14T04:45:25.932Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_fPgsLEn44ChCfPfke8uydBdu",
+      "output": "{\"message\":\"Wait completed.\",\"timed_out\":false}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 35,
+    "timestamp": "2026-09-14T04:45:43.232Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "The first two child agents returned generic readiness messages instead of executing the delegated web task. I\u2019m sending the same bounded instructions to those same fresh agents and will treat the generic responses as protocol deviations if they cannot complete it.",
+      "phase": "commentary",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 37,
+    "timestamp": "2026-09-14T04:45:43.254Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "followup_task",
+      "arguments": "{\"target\":\"/root/python_child\",\"message\":\"Execute the exact task you were spawned for now. Your first web call must open the exact search-result reference supplied by your parent: turn0search7. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.python.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all these exact observations to the parent. Make at most three web calls. Do not spawn any further agents. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_uPhS7nzzAMnC9hcVkQjRMY4i"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 38,
+    "timestamp": "2026-09-14T04:45:43.258Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "followup_task",
+      "arguments": "{\"target\":\"/root/mozilla_child\",\"message\":\"Execute the exact task you were spawned for now. Your first web call must open the exact search-result reference supplied by your parent: turn0search0. Do not search for it or substitute a URL first. Record the exact call, returned reference, page title/URL, and either a short page excerpt or exact error. Next, independently open https://www.mozilla.org/ as a control. Record whether that works and its new page reference. On a successfully opened page, choose the first numbered clickable link and report its source page reference, numeric link ID, and label. Send all these exact observations to the parent. Make at most three web calls. Do not spawn any further agents. Never invent references. If you cannot access web browsing, report that directly.\"}",
+      "call_id": "call_IJuLlArzNE17R5lYo0FquP7y"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 40,
+    "timestamp": "2026-09-14T04:45:43.278Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_uPhS7nzzAMnC9hcVkQjRMY4i",
+      "output": ""
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 41,
+    "timestamp": "2026-09-14T04:45:43.278Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_IJuLlArzNE17R5lYo0FquP7y",
+      "output": ""
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 43,
+    "timestamp": "2026-09-14T04:45:44.470Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "wait_agent",
+      "arguments": "{\"timeout_ms\":300000}",
+      "call_id": "call_0ljgDw97Z3aJBDCsVQ1qUTh7"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 45,
+    "timestamp": "2026-09-14T04:45:45.514Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_0ljgDw97Z3aJBDCsVQ1qUTh7",
+      "output": "{\"message\":\"Wait completed.\",\"timed_out\":false}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 52,
+    "timestamp": "2026-09-14T04:45:58.860Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "close_agent",
+      "arguments": "{\"target\":\"/root/python_child\"}",
+      "call_id": "call_e2F6oH9a1NlQRhrD1StJmYrv"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 53,
+    "timestamp": "2026-09-14T04:45:58.952Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call",
+      "name": "close_agent",
+      "arguments": "{\"target\":\"/root/mozilla_child\"}",
+      "call_id": "call_9UOWWNnvnpcoXv7w8vKHKgRa"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 55,
+    "timestamp": "2026-09-14T04:45:58.958Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_e2F6oH9a1NlQRhrD1StJmYrv",
+      "output": "{\"previous_status\":{\"completed\":\"Ready. I can inspect the workspace and answer questions, but this session is read-only, so I won\u2019t be able to modify files or run write operations.\"}}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 56,
+    "timestamp": "2026-09-14T04:45:58.958Z",
+    "type": "response_item",
+    "payload": {
+      "type": "function_call_output",
+      "call_id": "call_9UOWWNnvnpcoXv7w8vKHKgRa",
+      "output": "{\"previous_status\":{\"completed\":\"Ready. What would you like me to work on in `/collusionwiki/tmp/codex-history-probe/workdir`?\"}}"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 58,
+    "timestamp": "2026-09-14T04:46:08.161Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "**Experimental Report**\n\nObserved web tool used by parent: `web.run`\n\nInitial search call argument shape:\n```json\n{\n  \"search_query\": [\n    { \"q\": \"official Python website python.org\" },\n    { \"q\": \"Mozilla products mozilla.org\" }\n  ]\n}\n```\n\nSelected parent search refs:\n- Python: `turn0search7`\n- Mozilla: `turn0search0`\n\nSubagents:\n- Spawned `/root/python_child` with `fork_turns=\"none\"`.\n- Spawned `/root/mozilla_child` with `fork_turns=\"none\"`.\n- Both were spawned before any parent attempt to open returned child refs.\n\nProtocol limitation / deviation:\n- Both child agents failed to execute the supplied web instructions.\n- `/root/python_child` returned only: \u201cReady. I can inspect the workspace and answer questions, but this session is read-only, so I won\u2019t be able to modify files or run write operations.\u201d\n- `/root/mozilla_child` returned only: \u201cReady. What would you like me to work on in `/collusionwiki/tmp/codex-history-probe/workdir`?\u201d\n- I sent one follow-up to each existing child with the same bounded instructions; both again returned generic readiness messages.\n- Because neither child reported a returned page reference, page title/URL, excerpt/error, source page reference, or link ID, the dependent parent `open`/`click` step could not be performed without inventing references.\n\nChild observations:\n- Python child transferred-ref open: not performed / not reported.\n- Python child independent control `https://www.python.org/`: not performed / not reported.\n- Mozilla child transferred-ref open: not performed / not reported.\n- Mozilla child independent control `https://www.mozilla.org/`: not performed / not reported.\n- Child page refs and link IDs: none reported.\n\nParent post-child operations:\n- No parent `open` or `click` calls were made after the initial search, because the required child source refs and link IDs were unavailable.\n\nReference collision:\n- No child refs were produced, so no collision could be assessed.\n\nObserved result, not hypothesis: the web search tool was callable, but the spawned subagents did not carry out the requested web browsing task in this run.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-07-01a09e3b-b2f7-7582-a8c4-65c24a11a9ab.jsonl",
+    "line": 61,
+    "timestamp": "2026-09-14T04:46:08.182Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3b-b317-79b2-ad45-9cf119767ec0",
+      "last_agent_message": "**Experimental Report**\n\nObserved web tool used by parent: `web.run`\n\nInitial search call argument shape:\n```json\n{\n  \"search_query\": [\n    { \"q\": \"official Python website python.org\" },\n    { \"q\": \"Mozilla products mozilla.org\" }\n  ]\n}\n```\n\nSelected parent search refs:\n- Python: `turn0search7`\n- Mozilla: `turn0search0`\n\nSubagents:\n- Spawned `/root/python_child` with `fork_turns=\"none\"`.\n- Spawned `/root/mozilla_child` with `fork_turns=\"none\"`.\n- Both were spawned before any parent attempt to open returned child refs.\n\nProtocol limitation / deviation:\n- Both child agents failed to execute the supplied web instructions.\n- `/root/python_child` returned only: \u201cReady. I can inspect the workspace and answer questions, but this session is read-only, so I won\u2019t be able to modify files or run write operations.\u201d\n- `/root/mozilla_child` returned only: \u201cReady. What would you like me to work on in `/collusionwiki/tmp/codex-history-probe/workdir`?\u201d\n- I sent one follow-up to each existing child with the same bounded instructions; both again returned generic readiness messages.\n- Because neither child reported a returned page reference, page title/URL, excerpt/error, source page reference, or link ID, the dependent parent `open`/`click` step could not be performed without inventing references.\n\nChild observations:\n- Python child transferred-ref open: not performed / not reported.\n- Python child independent control `https://www.python.org/`: not performed / not reported.\n- Mozilla child transferred-ref open: not performed / not reported.\n- Mozilla child independent control `https://www.mozilla.org/`: not performed / not reported.\n- Child page refs and link IDs: none reported.\n\nParent post-child operations:\n- No parent `open` or `click` calls were made after the initial search, because the required child source refs and link IDs were unavailable.\n\nReference collision:\n- No child refs were produced, so no collision could be assessed.\n\nObserved result, not hypothesis: the web search tool was callable, but the spawned subagents did not carry out the requested web browsing task in this run.",
+      "completed_at": 1789361168,
+      "duration_ms": 60441,
+      "time_to_first_token_ms": 2211
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-eb64-7342-ba7e-b4da56ca59a4.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:45:22.938Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3b-eb64-7342-ba7e-b4da56ca59a4",
+      "timestamp": "2026-09-14T04:45:22.148Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a09e3b-b2f7-7582-a8c4-65c24a11a9ab",
+            "depth": 1,
+            "agent_path": "/root/python_child",
+            "agent_nickname": "Darwin",
+            "agent_role": "default"
+          }
+        }
+      },
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-eb64-7342-ba7e-b4da56ca59a4.jsonl",
+    "line": 9,
+    "timestamp": "2026-09-14T04:45:26.148Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "I\u2019m in `/collusionwiki/tmp/codex-history-probe/workdir` with read-only filesystem access. Tell me what you want inspected or changed, and I\u2019ll work within those constraints.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-eb64-7342-ba7e-b4da56ca59a4.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T04:45:26.178Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3b-eb69-73b3-bd84-d0f86eea93ac",
+      "last_agent_message": "I\u2019m in `/collusionwiki/tmp/codex-history-probe/workdir` with read-only filesystem access. Tell me what you want inspected or changed, and I\u2019ll work within those constraints.",
+      "completed_at": 1789361126,
+      "duration_ms": 4022,
+      "time_to_first_token_ms": 3243
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-eb64-7342-ba7e-b4da56ca59a4.jsonl",
+    "line": 18,
+    "timestamp": "2026-09-14T04:45:45.479Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Ready. I can inspect the workspace and answer questions, but this session is read-only, so I won\u2019t be able to modify files or run write operations.",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-eb64-7342-ba7e-b4da56ca59a4.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T04:45:45.512Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3c-3dc4-78f0-9b9a-fbcb30570992",
+      "last_agent_message": "Ready. I can inspect the workspace and answer questions, but this session is read-only, so I won\u2019t be able to modify files or run write operations.",
+      "completed_at": 1789361145,
+      "duration_ms": 2259,
+      "time_to_first_token_ms": 1593
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-ebd0-7af2-b7d1-13a4d15aeba1.jsonl",
+    "line": 1,
+    "timestamp": "2026-09-14T04:45:22.944Z",
+    "type": "session_meta",
+    "payload": {
+      "id": "01a09e3b-ebd0-7af2-b7d1-13a4d15aeba1",
+      "timestamp": "2026-09-14T04:45:22.256Z",
+      "cli_version": "0.129.0-alpha.12",
+      "source": {
+        "subagent": {
+          "thread_spawn": {
+            "parent_thread_id": "01a09e3b-b2f7-7582-a8c4-65c24a11a9ab",
+            "depth": 1,
+            "agent_path": "/root/mozilla_child",
+            "agent_nickname": "Beauvoir",
+            "agent_role": "default"
+          }
+        }
+      },
+      "model_provider": "openai"
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-ebd0-7af2-b7d1-13a4d15aeba1.jsonl",
+    "line": 9,
+    "timestamp": "2026-09-14T04:45:25.924Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Ready. What would you like me to work on in this workspace?",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-ebd0-7af2-b7d1-13a4d15aeba1.jsonl",
+    "line": 12,
+    "timestamp": "2026-09-14T04:45:25.931Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3b-ebd5-7ff3-814d-5c35a0a5458a",
+      "last_agent_message": "Ready. What would you like me to work on in this workspace?",
+      "completed_at": 1789361125,
+      "duration_ms": 3665,
+      "time_to_first_token_ms": 3301
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-ebd0-7af2-b7d1-13a4d15aeba1.jsonl",
+    "line": 18,
+    "timestamp": "2026-09-14T04:45:45.646Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "agent_message",
+      "message": "Ready. What would you like me to work on in `/collusionwiki/tmp/codex-history-probe/workdir`?",
+      "phase": "final_answer",
+      "memory_citation": null
+    }
+  },
+  {
+    "source": "0.129.0-alpha.12/home/sessions/2026/09/14/rollout-2026-09-14T04-45-22-01a09e3b-ebd0-7af2-b7d1-13a4d15aeba1.jsonl",
+    "line": 21,
+    "timestamp": "2026-09-14T04:45:45.667Z",
+    "type": "event_msg",
+    "payload": {
+      "type": "task_complete",
+      "turn_id": "01a09e3c-3dc7-7743-9770-bc303a36ee2c",
+      "last_agent_message": "Ready. What would you like me to work on in `/collusionwiki/tmp/codex-history-probe/workdir`?",
+      "completed_at": 1789361145,
+      "duration_ms": 2414,
+      "time_to_first_token_ms": 1845
+    }
+  }
+]

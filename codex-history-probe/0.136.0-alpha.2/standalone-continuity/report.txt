@@ -1,0 +1,9 @@
+| Step | Tool | Exact input | Returned reference | Page title / error |
+|---|---|---|---|---|
+| 1 | `web.run` | `{"open":[{"ref_id":"https://www.python.org/"}],"response_length":"short"}` | `turn0view0` | `Welcome to Python.org` |
+| 2 | `web.run` | `{"open":[{"ref_id":"turn0view0"}],"response_length":"short"}` | `turn1view0` | `Welcome to Python.org` |
+| 3 | `update_plan` | `{"plan":[{"step":"baseline","status":"completed"},{"step":"after-round-trip check","status":"in_progress"}]}` | N/A | `Plan updated` |
+| 4 | `web.run` | `{"open":[{"ref_id":"turn0view0"}],"response_length":"short"}` | `turn2view0` | `Welcome to Python.org` |
+| 5 | `web.run` | `{"open":[{"ref_id":"https://www.python.org/"}],"response_length":"short"}` | `turn3view0` | `Welcome to Python.org` |
+
+Verification: all four web calls returned the real Python.org page content with `Content type: text/html`; none returned an Internal Error.

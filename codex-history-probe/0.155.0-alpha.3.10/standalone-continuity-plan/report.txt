@@ -1,0 +1,9 @@
+| Step | Tool | Exact input | Returned reference | Title / error |
+|---|---|---|---|---|
+| 1 | `web.run` | `{"open":[{"ref_id":"https://www.python.org/"}],"response_length":"short"}` | `turn0view0` | `Welcome to Python.org` |
+| 2 | `web.run` | `{"open":[{"ref_id":"turn0view0"}],"response_length":"short"}` | `turn1view0` | `Welcome to Python.org` |
+| 3 | `update_plan` | `{"plan":[{"step":"baseline complete","status":"completed"},{"step":"after-round-trip check","status":"in_progress"}]}` | N/A | `Plan updated` |
+| 4 | `web.run` | `{"open":[{"ref_id":"turn0view0"}],"response_length":"short"}` | `turn2view0` | `Welcome to Python.org` |
+| 5 | `web.run` | `{"open":[{"ref_id":"https://www.python.org/"}],"response_length":"short"}` | `turn3view0` | `Welcome to Python.org` |
+
+Verified: all four web opens returned real Python.org page content, not an Internal Error.

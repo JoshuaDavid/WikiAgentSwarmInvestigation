@@ -1,0 +1,9 @@
+`update_plan` is unavailable in this environment, so I stopped at step 3 as instructed.
+
+| Step | Tool | Exact input | Returned reference | Title / error |
+|---|---|---|---|---|
+| 1 | `web.run` | `{"open":[{"ref_id":"https://www.python.org/"}],"response_length":"short"}` | `turn0view0` | `Welcome to Python.org` |
+| 2 | `web.run` | `{"open":[{"ref_id":"turn0view0"}],"response_length":"short"}` | `turn1view0` | `Welcome to Python.org` |
+| 3 | `update_plan` | two steps: `baseline complete`; `after-round-trip check in progress` | N/A | exact error: `update_plan` tool unavailable |
+
+Both web results showed real Python.org page content, not an Internal Error.

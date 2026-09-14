@@ -1,0 +1,41 @@
+{
+  "thread_id": "01a09e79-01ab-7492-a22e-2a9b04d19625",
+  "baseline": {
+    "turn_id": "01a09e79-0219-7eb3-8057-b7d51a2ebe64",
+    "result": {
+      "original_ref": "https://www.python.org/",
+      "original_ok": true,
+      "original_ref_turn_number": 0,
+      "original_ref_view_number": 0,
+      "baseline_ref": "https://www.python.org/",
+      "baseline_ok": true,
+      "details": "First open returned real Python.org content with title \"Welcome to Python.org\". Second open of literal reference turn0view0 returned real Python.org content with title \"Welcome to Python.org\"."
+    }
+  },
+  "tested_original_ref": "turn0view0",
+  "compaction_event": {
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "contextCompaction",
+        "id": "01a09e79-2316-7c00-adbe-9e522973952b"
+      },
+      "threadId": "01a09e79-01ab-7492-a22e-2a9b04d19625",
+      "turnId": "01a09e79-22e4-71b3-9d0c-0547132d71c1",
+      "completedAtMs": 1789365146493
+    },
+    "emittedAtMs": 1789365146507
+  },
+  "after": {
+    "turn_id": "01a09e79-5397-7793-8074-4f7ed6a533d6",
+    "result": {
+      "original_ref": "turn0view0",
+      "ref_ok": false,
+      "ref_result_ref": "turn0view0",
+      "ref_details": "Internal Error: Unable to resolve open call: open({\"ref_id\":\"turn0view0\",\"lineno\":null}) due to invalid ref_id argument",
+      "url_ok": true,
+      "url_result_ref": "https://www.python.org/",
+      "url_details": "Title: Welcome to Python.org"
+    }
+  }
+}

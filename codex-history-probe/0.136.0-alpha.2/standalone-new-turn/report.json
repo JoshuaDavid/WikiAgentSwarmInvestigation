@@ -1,0 +1,25 @@
+{
+  "thread_id": "01a09e76-db16-7f43-b7e0-07aa8ed735b4",
+  "baseline": {
+    "turn_id": "01a09e76-db85-7d71-a541-f419b3c73551",
+    "result": {
+      "original_ref": "turn0view0",
+      "original_ok": true,
+      "baseline_ref": "turn1view0",
+      "baseline_ok": true,
+      "details": "First open returned real Python.org content with title: Welcome to Python.org. Opening the exact first returned reference turn0view0 returned real Python.org content again with title: Welcome to Python.org."
+    }
+  },
+  "after": {
+    "turn_id": "01a09e77-0e75-7673-bada-0dfa9173e4e4",
+    "result": {
+      "original_ref": "turn0view0",
+      "ref_ok": true,
+      "ref_result_ref": "turn2view0",
+      "ref_details": "Title: Welcome to Python.org. Real Python.org page content returned from supplied ref turn0view0.",
+      "url_ok": true,
+      "url_result_ref": "turn3view0",
+      "url_details": "Title: Welcome to Python.org. Real Python.org page content returned from https://www.python.org/."
+    }
+  }
+}
