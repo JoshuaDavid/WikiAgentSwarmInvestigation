@@ -688,6 +688,37 @@ ready/leased/executing/terminal operation counts, frontier counts by depth and
 state, deduplication savings, retries, quarantined results, spool backlog, queue
 and database latency, limits, and the stopping condition.
 
+### Deferred search expansion: domain partitioning
+
+After the low-hanging unfiltered searches have been exhausted, consider repeating
+productive queries with their known result domains partitioned into smaller
+`domains` filters. An empirical test on 2026-09-11 found that an unfiltered
+`Data Africa` search returned 33 results across 18 top-level domains, while two
+searches over disjoint nine-domain halves returned 20 and 25 results respectively
+(45 distinct result URLs total). This suggests that per-query ranking or result
+caps can hide results that become visible when the domain set is narrowed.
+
+Treat filtered searches as distinct operations under the complete search-item
+deduplication rule. This is a later breadth-expansion strategy, not a replacement
+for initial unfiltered discovery, and its extra search cost should be budgeted
+explicitly.
+
+### Seed files
+
+The worker-pool launcher and the orchestrator's `init` and `add-seed` commands
+accept `--seeds-file PATH`. The file is UTF-8 text with one seed per line; blank
+lines are ignored and surrounding whitespace is removed. File seeds are combined
+with any repeated `--seed` arguments. For example:
+
+```text
+python3 oai-index-scan/spider/worker_pool.py \
+  --run example --seeds-file seeds.txt --max-pages 200 \
+  --workers 5 --max-calls-per-worker 50
+```
+
+The pool launcher does not accept new seeds with `--resume`; use the orchestrator's
+`add-seed` command before resuming when extending an existing run.
+
 ## 16. Acceptance tests
 
 ### Hook routing
