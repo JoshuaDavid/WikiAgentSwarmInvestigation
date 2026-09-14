@@ -1,0 +1,40 @@
+{
+  "description": "Govern oai-index-scan spider agents",
+  "hooks": {
+    "SubagentStart": [{
+      "matcher": "^spider_agent$",
+      "hooks": [{
+        "type": "command",
+        "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/.codex/hooks/spider_hook.py\" subagent-start",
+        "timeout": 30,
+        "additionalContextLimit": 2000
+      }]
+    }],
+    "PreToolUse": [{
+      "matcher": "*",
+      "hooks": [{
+        "type": "command",
+        "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/.codex/hooks/spider_hook.py\" pre-tool",
+        "timeout": 30,
+        "additionalContextLimit": 2000
+      }]
+    }],
+    "PostToolUse": [{
+      "matcher": "^webrun$",
+      "hooks": [{
+        "type": "command",
+        "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/.codex/hooks/spider_hook.py\" post-tool",
+        "timeout": 60,
+        "additionalContextLimit": 2000
+      }]
+    }],
+    "SubagentStop": [{
+      "matcher": "^spider_agent$",
+      "hooks": [{
+        "type": "command",
+        "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/.codex/hooks/spider_hook.py\" subagent-stop",
+        "timeout": 30
+      }]
+    }]
+  }
+}

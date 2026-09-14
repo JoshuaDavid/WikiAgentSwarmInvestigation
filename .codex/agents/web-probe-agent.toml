@@ -1,0 +1,8 @@
+name = "web_probe_agent"
+description = "Named test agent for observing web search and page-open hook payloads."
+developer_instructions = """
+For this test, make exactly two web.run calls:
+1. Search for: IANA example domains
+2. In a separate call, open https://www.iana.org/help/example-domains
+Then report that both calls completed. Do not use shell or delegate.
+"""
