@@ -1,0 +1,44 @@
+target	source	kind	query	all_time_total	window_query	window_total	rows_kept
+md.succ.ai	instructions	host	domain:md.succ.ai	0	domain:md.succ.ai	0	0
+vanderbi.lt	instructions	host	domain:vanderbi.lt	8	domain:vanderbi.lt	8	8
+bitily.in	instructions	host	domain:bitily.in	2	domain:bitily.in	2	2
+yourls.pro	instructions	host	domain:yourls.pro	0	domain:yourls.pro	0	0
+yourls.shop	instructions	host	domain:yourls.shop	0	domain:yourls.shop	0	0
+yourls.website	instructions	host	domain:yourls.website	0	domain:yourls.website	0	0
+yourls.space	instructions	host	domain:yourls.space	1	domain:yourls.space	1	1
+goto.unm.edu	instructions	host	domain:goto.unm.edu	0	domain:goto.unm.edu	0	0
+r.jina.ai	instructions	host	domain:r.jina.ai	339	domain:r.jina.ai AND date:>=2026-03-01	207	100
+httpbin.org	instructions	host	domain:httpbin.org	10000	domain:httpbin.org AND date:>=2026-03-01	3902	100
+allorigins.hexlet.app	instructions	host	domain:allorigins.hexlet.app	3	domain:allorigins.hexlet.app AND date:>=2026-03-01	3	3
+da.gd	instructions	host	domain:da.gd	1981	domain:da.gd AND date:>=2026-03-01	980	100
+markdown.new	instructions	host	domain:markdown.new	3	domain:markdown.new AND date:>=2026-03-01	3	3
+pure.md	instructions	host	domain:pure.md	0	domain:pure.md AND date:>=2026-03-01	0	0
+proxymule.com	instructions	host	domain:proxymule.com	1	domain:proxymule.com AND date:>=2026-03-01	1	1
+jqp.vercel.app	instructions	host	domain:jqp.vercel.app	0	domain:jqp.vercel.app	0	0
+api.microlink.io	instructions	host	domain:api.microlink.io	848	domain:api.microlink.io AND date:>=2026-03-01	349	100
+cors-get-proxy.sirjosh.workers.dev	instructions	host	domain:cors-get-proxy.sirjosh.workers.dev	22	domain:cors-get-proxy.sirjosh.workers.dev	22	22
+cors.bwa.workers.dev	instructions	host	domain:cors.bwa.workers.dev	110	domain:cors.bwa.workers.dev	110	100
+cors.ripka.workers.dev	instructions	host	domain:cors.ripka.workers.dev	0	domain:cors.ripka.workers.dev	0	0
+jsonhero.io	instructions	host	domain:jsonhero.io	8	domain:jsonhero.io AND date:>=2026-03-01	3	3
+urltomarkdown	instructions	term	(page.url:"urltomarkdown" OR task.url:"urltomarkdown")	0	(page.url:"urltomarkdown" OR task.url:"urltomarkdown")	0	0
+wikiservice.at	corpus	host	domain:wikiservice.at	14	domain:wikiservice.at	14	14
+tmcleod.org	corpus	host	domain:tmcleod.org	0	domain:tmcleod.org	0	0
+texteditors.org	corpus	host	domain:texteditors.org	1	domain:texteditors.org	1	1
+usemod.org	corpus	host	domain:usemod.org	3	domain:usemod.org	3	3
+ludism.org	corpus	host	domain:ludism.org	1	domain:ludism.org	1	1
+prowiki.org	corpus	host	domain:prowiki.org	1	domain:prowiki.org	1	1
+dorfwiki.org	corpus	host	domain:dorfwiki.org	3	domain:dorfwiki.org	3	3
+api.counterapi.dev	corpus	host	domain:api.counterapi.dev	1685	domain:api.counterapi.dev AND date:>=2026-03-01	736	100
+countapi.mileshilliard.com	corpus	host	domain:countapi.mileshilliard.com	150	domain:countapi.mileshilliard.com	150	100
+rmn.re	corpus	host	domain:rmn.re	4	domain:rmn.re	4	4
+lnkr.click	corpus	host	domain:lnkr.click	1	domain:lnkr.click	1	1
+url.popcat.xyz	corpus	host	domain:url.popcat.xyz	5	domain:url.popcat.xyz	5	5
+uoft.me	corpus	host	domain:uoft.me	20	domain:uoft.me	20	20
+u.ethz.ch	corpus	host	domain:u.ethz.ch	42	domain:u.ethz.ch	42	42
+md.dhr.wtf	corpus	host	domain:md.dhr.wtf	0	domain:md.dhr.wtf	0	0
+webcrawlerapi.com	corpus	host	domain:webcrawlerapi.com	5	domain:webcrawlerapi.com AND date:>=2026-03-01	2	2
+corsmirror.com	corpus	host	domain:corsmirror.com	3	domain:corsmirror.com	3	3
+cors.hypnguyen.workers.dev	corpus	host	domain:cors.hypnguyen.workers.dev	2	domain:cors.hypnguyen.workers.dev	2	2
+cloudflare-cors-anywhere.hanpengchen.workers.dev	corpus	host	domain:cloudflare-cors-anywhere.hanpengchen.workers.dev	0	domain:cloudflare-cors-anywhere.hanpengchen.workers.dev	0	0
+test.cors.workers.dev	corpus	host	domain:test.cors.workers.dev	34	domain:test.cors.workers.dev	34	34
+proxy.corsfix.com	corpus	host	domain:proxy.corsfix.com	20	domain:proxy.corsfix.com	20	20
