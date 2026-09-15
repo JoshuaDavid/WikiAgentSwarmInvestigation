@@ -1,0 +1,24 @@
+target	source	kind	rows_kept	newest	oldest	stopped_by
+viz.aihw.gov.au	round3	host	957	2026-06-21 21:35	2026-06-20 11:34	last_page
+vizhub.healthdata.org	round3	host	354	2026-06-02 09:03	2026-05-26 19:46	last_page
+portal.max.gov	round3	host	406	2026-05-26 22:59	2024-08-05 15:51	last_page
+piv.max.gov	round3	host	133	2026-05-26 21:26	2026-05-26 04:57	last_page
+login.max.gov	round3	host	164	2026-08-18 21:48	2024-05-02 13:46	last_page
+api.datausa.io	round3	host	84	2026-06-19 19:47	2026-05-11 10:45	last_page
+api-la.datausa.io	round3	host	0	None	None	empty_page
+api-kona.datausa.io	round3	host	1	2026-05-12 02:28	2026-05-12 02:28	last_page
+api.usaspending.gov	round3	host	63	2026-05-29 21:42	2025-03-05 12:00	before_window
+api.dataafrica.io	round3	host	296	2026-06-19 22:35	2026-05-10 14:20	last_page
+api.worldpoverty.io	round3	host	33	2026-06-20 11:54	2026-05-15 19:44	last_page
+px.hagstofa.is	round3	host	154	2026-05-19 04:11	2026-05-10 09:43	last_page
+api.beta.ons.gov.uk	round3	host	0	None	None	empty_page
+rspace.library.cofc.edu	round3	host	4	2026-05-28 10:53	2026-05-27 20:42	last_page
+finance.yahoo.co.jp	round3	host	4	2026-08-05 08:31	2026-05-28 18:46	last_page
+itty.bitty.site	round3	host	31	2026-06-21 21:14	2024-07-12 15:55	last_page
+nghttp2.org	round3	host	189	2026-06-21 21:28	2026-06-20 06:41	last_page
+backlink-generator-tool.github.io	round3	host	2400	2026-08-06 10:11	2026-01-16 10:13	page_cap
+digital.eventguides.co.uk	round3	host	4	2026-01-18 10:12	2025-12-15 07:31	last_page
+sec.gov/files/	round3	term	190	2026-06-18 23:26	2026-06-18 14:46	last_page
+sec.gov/cgi-bin/	round3	term	0	None	None	empty_page
+docs.google.com/spreadsheets	round3	term	384	2026-09-14 00:56	2026-02-07 10:40	before_window
+tesseract/data	round3	term	1	2025-05-12 09:12	2025-05-12 09:12	before_window

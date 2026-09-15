@@ -220,9 +220,18 @@ def main() -> None:
     rows = []
     files = [("urlscan", p) for p in sorted(glob.glob(os.path.join(OUT, "urlscan", "hits*.jsonl")))]
     files += [("urlquery", p) for p in sorted(glob.glob(os.path.join(OUT, "urlquery", "hits*.jsonl")))]
+    files += [("wayback", p) for p in sorted(glob.glob(os.path.join(OUT, "wayback", "hits*.jsonl")))]
     for src, p in files:
         for line in open(p):
             h = json.loads(line)
+            if src == "wayback":
+                ts = h.get("timestamp") or ""
+                h = {"target": h.get("target"), "target_source": "wayback", "url": h.get("url"),
+                     "date": f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]} {ts[8:10]}:{ts[10:12]}:{ts[12:14]}",
+                     "report_id": f"{ts}/{h.get('digest')}",
+                     "report_url": f"https://web.archive.org/web/{ts}id_/{h.get('url')}",
+                     "detections": h.get("status"), "ip": None, "asn": None, "asnname": None}
+                src_eff = "urlquery_like"
             if src == "urlscan":
                 primary = h.get("task_url") or h.get("page_url") or ""
                 alt = h.get("page_url") or ""
@@ -305,6 +314,38 @@ def main() -> None:
         if r["tier"] == "B" and r["in_window"] and r["base_host"] in bursty:
             r["tier"] = "A"
             r["tells"] = sorted(set(r["tells"]) | {"burst_cluster"})
+    # Direct-target promotion: a tier C row is a bare submission of a data
+    # URL with no wrapper and no shape tell. When the same base host carries
+    # tier A rows on the same or an adjacent day, the bare submission is
+    # the same activity reaching the target without a relay.
+    def _endpoint(u: str) -> str:
+        sp = urllib.parse.urlsplit(_with_scheme(u))
+        return "/".join(sp.path.split("/")[:3])
+
+    a_days: dict[str, set] = collections.defaultdict(set)
+    a_paths: dict[str, set] = collections.defaultdict(set)
+    a_count: collections.Counter = collections.Counter()
+    for r in rows:
+        if r["tier"] == "A" and r["in_window"] and r["base_host"] and "burst_cluster" not in r["tells"]:
+            a_count[r["base_host"]] += 1
+            a_paths[r["base_host"]].add(_endpoint(r["base_url"] or r["url"]))
+            try:
+                a_days[r["base_host"]].add(_dt.date.fromisoformat(r["time"][:10]))
+            except ValueError:
+                pass
+    for r in rows:
+        h = r["base_host"]
+        if r["tier"] != "C" or not r["in_window"] or a_count[h] < BURST_MIN or r["wrappers"]:
+            continue
+        if _endpoint(r["url"]) not in a_paths[h]:
+            continue
+        try:
+            d = _dt.date.fromisoformat(r["time"][:10])
+        except ValueError:
+            continue
+        if any(abs((d - x).days) <= 1 for x in a_days[h]):
+            r["tier"] = "A"
+            r["tells"] = sorted(set(r["tells"]) | {"direct_target_burst"})
     for r in rows:
         r["bursty_host"] = r["base_host"] in bursty
 
@@ -368,37 +409,38 @@ def main() -> None:
     L.append("## Rows\n")
     L.append("| source | rows | tier A | tier B | tier C | tier A in core window (%s..%s) |" % (CORE_START, CORE_END))
     L.append("|---|---:|---:|---:|---:|---:|")
-    for s in ("urlscan", "urlquery"):
+    for s in ("urlscan", "urlquery", "wayback"):
         rs = [r for r in rows if r["source"] == s]
         L.append("| %s | %d | %d | %d | %d | %d |" % (
             s, len(rs), sum(r["tier"] == "A" for r in rs), sum(r["tier"] == "B" for r in rs),
             sum(r["tier"] == "C" for r in rs), sum(r["tier"] == "A" and r["in_core"] for r in rs)))
     L.append("")
     L.append("## Per target\n")
-    L.append("| target | source list | urlscan rows | urlquery rows | tier A | tier A in core |")
-    L.append("|---|---|---:|---:|---:|---:|")
+    L.append("| target | source list | urlscan rows | urlquery rows | wayback rows | tier A | tier A in core |")
+    L.append("|---|---|---:|---:|---:|---:|---:|")
     per = collections.defaultdict(lambda: collections.Counter())
     for r in rows:
         for t in r["found_by"]:
-            per[t]["us" if r["source"] == "urlscan" else "uq"] += 1
+            per[t]["us" if r["source"] == "urlscan" else ("wb" if r["source"] == "wayback" else "uq")] += 1
             if r["tier"] == "A":
                 per[t]["A"] += 1
                 if r["in_core"]:
                     per[t]["Acore"] += 1
-    for t, s, _ in TARGETS:
+    extra = [(t, "wayback", "host") for t in sorted(per) if t not in {x[0] for x in TARGETS}]
+    for t, s, _ in list(TARGETS) + extra:
         c = per[t]
         if sum(c.values()) == 0:
             continue
-        L.append("| %s | %s | %d | %d | %d | %d |" % (t, s, c["us"], c["uq"], c["A"], c["Acore"]))
+        L.append("| %s | %s | %d | %d | %d | %d | %d |" % (t, s, c["us"], c["uq"], c["wb"], c["A"], c["Acore"]))
     L.append("")
     L.append("## Tier A by UTC day\n")
-    L.append("| day | urlscan | urlquery |")
-    L.append("|---|---:|---:|")
+    L.append("| day | urlscan | urlquery | wayback |")
+    L.append("|---|---:|---:|---:|")
     days = collections.defaultdict(collections.Counter)
     for r in tier_a:
         days[r["time"][:10]][r["source"]] += 1
     for d in sorted(days):
-        L.append("| %s | %d | %d |" % (d, days[d]["urlscan"], days[d]["urlquery"]))
+        L.append("| %s | %d | %d | %d |" % (d, days[d]["urlscan"], days[d]["urlquery"], days[d]["wayback"]))
     L.append("")
     L.append("## Clusters: base hosts with %d+ tier A rows in the incident window\n" % BURST_MIN)
     L.append("| base host | rows | distinct URLs | days | first | last | base host in corpus | base host known to termina | top wrapper |")

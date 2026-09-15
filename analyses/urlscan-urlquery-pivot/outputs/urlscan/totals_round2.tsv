@@ -1,0 +1,15 @@
+target	source	kind	query	all_time_total	window_query	window_total	rows_kept
+2dd.pl	termina	host	domain:2dd.pl	0	domain:2dd.pl	0	0
+markdown.microlink.io	round2	host	domain:markdown.microlink.io	0	domain:markdown.microlink.io	0	0
+httpbingo.org	round2	host	domain:httpbingo.org	31	domain:httpbingo.org	31	31
+httpbun.com	round2	host	domain:httpbun.com	933	domain:httpbun.com	933	100
+deelay.me	round2	host	domain:deelay.me	15	domain:deelay.me	15	15
+ntfy.envs.net	round2	host	domain:ntfy.envs.net	7	domain:ntfy.envs.net	7	7
+pie.dev	round2	host	domain:pie.dev	59	domain:pie.dev	59	59
+showVizHome	round2	term	(page.url:"showVizHome" OR task.url:"showVizHome")	1508	(page.url:"showVizHome" OR task.url:"showVizHome") AND date:>=2026-03-01	1433	100
+yourls-api.php	round2	term	(page.url:"yourls-api.php" OR task.url:"yourls-api.php")	156	(page.url:"yourls-api.php" OR task.url:"yourls-api.php") AND date:>=2026-03-01	40	40
+httpbin.org/base64/	round2	term	(page.url:"httpbin.org/base64/" OR task.url:"httpbin.org/base64/")	94	(page.url:"httpbin.org/base64/" OR task.url:"httpbin.org/base64/")	94	94
+base64/PCFkb2N0eXBl	round2	term	(page.url:"base64/PCFkb2N0eXBl" OR task.url:"base64/PCFkb2N0eXBl")	0	(page.url:"base64/PCFkb2N0eXBl" OR task.url:"base64/PCFkb2N0eXBl") AND date:>=2026-03-01	0	0
+base64/PGh0bWw	round2	term	(page.url:"base64/PGh0bWw" OR task.url:"base64/PGh0bWw")	10000	(page.url:"base64/PGh0bWw" OR task.url:"base64/PGh0bWw") AND date:>=2026-03-01	268	100
+base64/PHNjcmlwdD	round2	term	(page.url:"base64/PHNjcmlwdD" OR task.url:"base64/PHNjcmlwdD")	0	(page.url:"base64/PHNjcmlwdD" OR task.url:"base64/PHNjcmlwdD") AND date:>=2026-03-01	0	0
+base64/PGJvZHk	round2	term	(page.url:"base64/PGJvZHk" OR task.url:"base64/PGJvZHk")	2	(page.url:"base64/PGJvZHk" OR task.url:"base64/PGJvZHk") AND date:>=2026-03-01	2	2

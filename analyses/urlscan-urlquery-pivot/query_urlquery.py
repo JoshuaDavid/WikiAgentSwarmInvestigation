@@ -105,6 +105,7 @@ def main() -> None:
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", action="append", help="restrict to these targets (repeatable)")
+    ap.add_argument("--source", action="append", help="restrict to targets with this source (repeatable)")
     ap.add_argument("--max-pages", type=int, default=MAX_PAGES)
     ap.add_argument("--start-page", type=int, default=0, help="first page index (0-based) to fetch")
     ap.add_argument("--suffix", default="", help="write hits<suffix>.jsonl / totals<suffix>.tsv")
@@ -112,7 +113,7 @@ def main() -> None:
     os.makedirs(OUT_DIR, exist_ok=True)
     hits_path = os.path.join(OUT_DIR, f"hits{args.suffix}.jsonl")
     totals_path = os.path.join(OUT_DIR, f"totals{args.suffix}.tsv")
-    targets = [t for t in TARGETS if not args.only or t[0] in args.only]
+    targets = [t for t in TARGETS if (not args.only or t[0] in args.only) and (not args.source or t[1] in args.source)]
     with open(hits_path, "w") as hits, open(totals_path, "w") as totals:
         totals.write("target\tsource\tkind\trows_kept\tnewest\toldest\tstopped_by\n")
         for term, source, kind in targets:

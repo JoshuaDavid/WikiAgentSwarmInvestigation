@@ -96,12 +96,13 @@ def main() -> None:
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", action="append", help="restrict to these targets (repeatable)")
+    ap.add_argument("--source", action="append", help="restrict to targets with this source (repeatable)")
     ap.add_argument("--suffix", default="", help="write hits<suffix>.jsonl / totals<suffix>.tsv")
     args = ap.parse_args()
     os.makedirs(OUT_DIR, exist_ok=True)
     hits_path = os.path.join(OUT_DIR, f"hits{args.suffix}.jsonl")
     totals_path = os.path.join(OUT_DIR, f"totals{args.suffix}.tsv")
-    targets = [t for t in TARGETS if not args.only or t[0] in args.only]
+    targets = [t for t in TARGETS if (not args.only or t[0] in args.only) and (not args.source or t[1] in args.source)]
     seen: set[tuple[str, str]] = set()
     with open(hits_path, "w") as hits, open(totals_path, "w") as totals:
         totals.write("target\tsource\tkind\tquery\tall_time_total\twindow_query\twindow_total\trows_kept\n")

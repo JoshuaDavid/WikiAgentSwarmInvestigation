@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Decode the HTML pages the swarm smuggled through httpbin.org/base64/.
+"""Decode the HTML pages the swarm smuggled through /base64/ paths (httpbin.org, httpbingo.org, httpbun.com, nghttp2.org and any other echo service).
 
 httpbin.org/base64/<b64> answers with the decoded bytes as text/html. A URL
 scanner that is asked to scan such a URL renders the page in its browser and
@@ -26,7 +26,7 @@ import sys  # noqa: E402
 sys.path.insert(0, HERE)
 from redact import redact_obj  # noqa: E402
 OUT = os.path.join(HERE, "outputs")
-B64_RE = re.compile(r"httpbin(?:go)?\.org/base64/([^?#\s]+)", re.I)
+B64_RE = re.compile(r"(?:^|/)base64/([A-Za-z0-9+/=_%-]{40,})", re.I)
 HOST_RE = re.compile(r"https?://([a-z0-9.-]+\.[a-z]{2,})", re.I)
 
 RETURN_MARKERS = [
