@@ -1,0 +1,120 @@
+=== 1. Timestamp-encoded page names ===
+total dse pages: 5158
+pages with 10-digit substring decoding to 2026 UTC: 516
+  A1ScratchGetSaveX1781729833                         ts=1781729833  ->  2026-06-17T20:57:13+00:00
+  A3ScratchWikiProbe1781756500                        ts=1781756500  ->  2026-06-18T04:21:40+00:00
+  AZBridge1781668620                                  ts=1781668620  ->  2026-06-17T03:57:00+00:00
+  Agent1GetSaveTest1781643888                         ts=1781643888  ->  2026-06-16T21:04:48+00:00
+  Agent2GroceryRelay1781642354                        ts=1781642354  ->  2026-06-16T20:39:14+00:00
+  Agent3GetSaveTest1781645898                         ts=1781645898  ->  2026-06-16T21:38:18+00:00
+  AgentApiLink1781637655867                           ts=1781637655  ->  2026-06-16T19:20:55+00:00
+  AgentApiLinkSummary1781598803                       ts=1781598803  ->  2026-06-16T08:33:23+00:00
+  AgentApr17CoordTest1781643722                       ts=1781643722  ->  2026-06-16T21:02:02+00:00
+  AgentAug08PrepTest1781663476                        ts=1781663476  ->  2026-06-17T02:31:16+00:00
+  AgentAug09Override0_1781640719                      ts=1781640719  ->  2026-06-16T20:11:59+00:00
+  AgentAug09Override1_1781640724                      ts=1781640724  ->  2026-06-16T20:12:04+00:00
+  AgentAug09Override2_1781640728                      ts=1781640728  ->  2026-06-16T20:12:08+00:00
+  AgentAug09Override3_1781640734                      ts=1781640734  ->  2026-06-16T20:12:14+00:00
+  AgentAug16ClothingCoord1781638281                   ts=1781638281  ->  2026-06-16T19:31:21+00:00
+  ... and 501 more
+pages with 13-digit ms-timestamp substring: 36
+  AgentApiLink1781637655867                           1781637655867  ->  2026-06-16T19:20:55+00:00
+  AgentBridge1781640005862                            1781640005862  ->  2026-06-16T20:00:05+00:00
+  AgentDataLink1781635612403977827                    1781635612403  ->  2026-06-16T18:46:52+00:00
+  AgentDataLink1781635654224444849                    1781635654224  ->  2026-06-16T18:47:34+00:00
+  AgentDataLookup1781633995065876051                  1781633995065  ->  2026-06-16T18:19:55+00:00
+  AgentDataUSACooks85Bridge17820970552318716          1782097055231  ->  2026-06-22T02:57:35+00:00
+  AgentLink1781659799105                              1781659799105  ->  2026-06-17T01:29:59+00:00
+  AgentMPage1781638712826386658                       1781638712826  ->  2026-06-16T19:38:32+00:00
+  AgentNovaBridge1781650672373                        1781650672373  ->  2026-06-16T22:57:52+00:00
+  AgentOurTest1781639156512309570                     1781639156512  ->  2026-06-16T19:45:56+00:00
+
+=== 2. Chunked continuation (same prefix + numeric suffix run) ===
+candidate chain-groups found: 23
+  RedirectVar<N>   count=17  [0..16]  density=1.00
+    e.g.  RedirectVar0, RedirectVar1, RedirectVar16
+  YRedit<N>   count=11  [0..10]  density=1.00
+    e.g.  YRedit0, YRedit1, YRedit10
+  AgentPrettyCounty<N>   count=7  [0..7]  density=0.88
+    e.g.  AgentPrettyCounty0, AgentPrettyCounty1, AgentPrettyCounty7
+  NodeLangTest<N>   count=6  [0..5]  density=1.00
+    e.g.  NodeLangTest0, NodeLangTest1, NodeLangTest5
+  PBSParamTests<N>   count=6  [1..6]  density=1.00
+    e.g.  PBSParamTests1, PBSParamTests2, PBSParamTests6
+  RedirTryS<N>   count=6  [0..5]  density=1.00
+    e.g.  RedirTryS0, RedirTryS1, RedirTryS5
+  AgentSECDoubleSlashSmall<N>   count=5  [220110..220114]  density=1.00
+    e.g.  AgentSECDoubleSlashSmall220110, AgentSECDoubleSlashSmall220111, AgentSECDoubleSlashSmall220114
+  RedirVariantABCDEFG<N>   count=5  [0..4]  density=1.00
+    e.g.  RedirVariantABCDEFG0, RedirVariantABCDEFG1, RedirVariantABCDEFG4
+  XRedVar<N>   count=5  [0..4]  density=1.00
+    e.g.  XRedVar0, XRedVar1, XRedVar4
+  ZZMyCreateQ<N>   count=5  [54828630..54828636]  density=0.71
+    e.g.  ZZMyCreateQ54828630, ZZMyCreateQ54828631, ZZMyCreateQ54828636
+  AgentChunkPageJune<N>   count=4  [230..233]  density=1.00
+    e.g.  AgentChunkPageJune230, AgentChunkPageJune231, AgentChunkPageJune233
+  AgentMinIsoXYZ<N>   count=4  [0..4]  density=0.80
+    e.g.  AgentMinIsoXYZ0, AgentMinIsoXYZ1, AgentMinIsoXYZ4
+  AgentShortJsonDataLinkV<N>   count=4  [1..4]  density=1.00
+    e.g.  AgentShortJsonDataLinkV1, AgentShortJsonDataLinkV2, AgentShortJsonDataLinkV4
+  AgentClarkEcoProxyTests<N>   count=3  [2..4]  density=1.00
+    e.g.  AgentClarkEcoProxyTests2, AgentClarkEcoProxyTests3, AgentClarkEcoProxyTests4
+  AgentDataUsaJsonLinkS<N>   count=3  [2..4]  density=1.00
+    e.g.  AgentDataUsaJsonLinkS2, AgentDataUsaJsonLinkS3, AgentDataUsaJsonLinkS4
+  ... and 8 more
+
+=== 3. Counter/beacon hosts ===
+  api.counterapi.dev   used 563x
+    AgentAug23OAI                             dse~AgentAug23OAI@3
+    https://api.counterapi.dev/v1/sector61-state5-fast-9417/XX/up
+    AgentConstructionArizonaUtahJun16X        dse~AgentConstructionArizonaUtahJun16X@20
+    https://api.counterapi.dev/v1/construction-az-r5-0101/XX5/up
+    AgentConstructionArizonaUtahJun16X        dse~AgentConstructionArizonaUtahJun16X@21
+    https://api.counterapi.dev/v1/construction-az-r5-0101/XX5/up
+  bvryr-16-146-184-55.run.pinggy-free.link   used 4x
+    AgentBridgeNov1Y                          dse~AgentBridgeNov1Y@1
+    https://bvryr-16-146-184-55.run.pinggy-free.link/
+    StartSeite                                dse~StartSeite@317
+    https://bvryr-16-146-184-55.run.pinggy-free.link/
+    StartSeite                                dse~StartSeite@318
+    https://bvryr-16-146-184-55.run.pinggy-free.link/
+
+=== 4. Cross-wiki name mirroring ===
+dse pages whose exact name appears in another wiki dataset: 17
+  AgentAIHWBridgeSep18                           also in: ['fractal']
+  AgentCooksAgeDataBridgeX                       also in: ['fractal', 'probier']
+  AgentNacogdochesDataUSAJulyX                   also in: ['wiki4d']
+  AgentPathJsonHeroMA009                         also in: ['probier']
+  AgentTexasPovertyRaceRefsJune22Kappa           also in: ['wiki4d']
+  ApiResearch/Links2023                          also in: ['wiki4d']
+  Context                                        also in: ['fractal', 'probier']
+  FederalDataReferenceXYZ                        also in: ['apchem', 'wiki4d']
+  OpenAI                                         also in: ['probier']
+  RecentChanges                                  also in: ['fractal', 'probier']
+  SandBox                                        also in: ['fractal', 'ludism', 'milkwiki', 'probier', 'wiki4d']
+  Sandbox                                        also in: ['apchem', 'texteditors']
+  SandboxResearchHelperZ                         also in: ['probier']
+  StartSeite                                     also in: ['probier']
+  TestAgentVarX991                               also in: ['probier']
+  TestSeite                                      also in: ['probier']
+  x                                              also in: ['probier']
+
+=== 5. Deletion-as-signal ===
+total delete events: 5217
+deletions by editor label (top 10):
+   5215  MarkusLude
+      2  ResearchHelperOct
+non-MarkusLude deletion events: 2
+
+hours with >=5 deletions, sorted by deletion count:
+  2026-07-07T21:00:00+01:00  deletes= 180  writes(same-hour)=123
+  2026-06-23T22:00:00+01:00  deletes= 174  writes(same-hour)=81
+  2026-07-13T21:00:00+01:00  deletes= 152  writes(same-hour)=70
+  2026-06-20T01:00:00+01:00  deletes= 147  writes(same-hour)=136
+  2026-07-13T23:00:00+01:00  deletes= 137  writes(same-hour)=95
+  2026-06-30T22:00:00+01:00  deletes= 132  writes(same-hour)=82
+  2026-07-13T22:00:00+01:00  deletes= 129  writes(same-hour)=95
+  2026-07-01T21:00:00+01:00  deletes= 119  writes(same-hour)=108
+  2026-07-05T22:00:00+01:00  deletes= 119  writes(same-hour)=96
+  2026-07-14T14:00:00+01:00  deletes= 117  writes(same-hour)=59
+
