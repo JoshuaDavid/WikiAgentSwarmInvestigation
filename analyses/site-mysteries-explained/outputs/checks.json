@@ -1,0 +1,33 @@
+{
+  "verified_excerpts": 28,
+  "hub": {
+    "linked_slots": 30,
+    "preserved_populated_slots": 8,
+    "slot_22_delay_seconds": 7491
+  },
+  "forward_edges": [
+    {
+      "source": "dse~AgentMassDataNext774411@1",
+      "target": "dse~AgentMassThird889922@1",
+      "seconds": 182
+    },
+    {
+      "source": "dse~AgentMassThird889922@1",
+      "target": "dse~AgentMassFourth990033@1",
+      "seconds": 2023
+    },
+    {
+      "source": "dse~AgentMassFourth990033@1",
+      "target": "dse~AgentMassFifth551199@1",
+      "seconds": 210
+    }
+  ],
+  "overwrite": {
+    "old_revision": "dse~WillkommenImWiki@14",
+    "new_revision": "dse~WillkommenImWiki@21",
+    "exact_prefix_lines": 22,
+    "new_body_lines": 32
+  },
+  "iowa_response_delay_seconds": 57,
+  "scope": "Selected retained records and structural checks; not a causal test or a census of agent activity."
+}
