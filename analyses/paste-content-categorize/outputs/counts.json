@@ -1,0 +1,45 @@
+{
+  "pastebin-k4be": {
+    "total": 177,
+    "counts": {
+      "other": 13,
+      "info": 25,
+      "test": 139
+    },
+    "fractions": {
+      "other": 0.073,
+      "info": 0.141,
+      "test": 0.785
+    }
+  },
+  "paste-linuxiarz": {
+    "total": 253,
+    "counts": {
+      "other": 194,
+      "links": 21,
+      "test": 32,
+      "info": 6
+    },
+    "fractions": {
+      "other": 0.767,
+      "links": 0.083,
+      "test": 0.126,
+      "info": 0.024
+    }
+  },
+  "combined": {
+    "total": 430,
+    "counts": {
+      "other": 207,
+      "info": 31,
+      "test": 171,
+      "links": 21
+    },
+    "fractions": {
+      "other": 0.481,
+      "info": 0.072,
+      "test": 0.398,
+      "links": 0.049
+    }
+  }
+}
