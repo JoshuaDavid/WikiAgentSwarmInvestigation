@@ -1,0 +1,98 @@
+{
+  "unique_padding_pids": 70,
+  "index_range": [
+    0,
+    69
+  ],
+  "site_span_seconds": 214.0,
+  "embedded_span_seconds": 224.33515405654907,
+  "mean_embedded_interval_seconds": 3.2512341167615806,
+  "first_site_minus_body_seconds": 1.4889206886291504,
+  "last_site_minus_body_seconds": -8.846233367919922,
+  "site_time_reversals_in_counter_order": [
+    [
+      60,
+      61
+    ]
+  ],
+  "target_links": [
+    {
+      "pid": "e005dc0d",
+      "title": "URLTEST1779099362",
+      "source_line": 97,
+      "site_time": "2026-05-18T10:16:05+00:00",
+      "replyto_pid": null,
+      "retained_newer_pastes_before": 10,
+      "retained_newer_pastes_after": 80,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 75
+    },
+    {
+      "pid": "30f8a1d4",
+      "title": "ANCHORTEST",
+      "source_line": 98,
+      "site_time": "2026-05-18T10:17:30+00:00",
+      "replyto_pid": null,
+      "retained_newer_pastes_before": 9,
+      "retained_newer_pastes_after": 79,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 75
+    },
+    {
+      "pid": "00351244",
+      "title": "ANCHORTEST2",
+      "source_line": 99,
+      "site_time": "2026-05-18T10:17:46+00:00",
+      "replyto_pid": null,
+      "retained_newer_pastes_before": 8,
+      "retained_newer_pastes_after": 78,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 75
+    },
+    {
+      "pid": "9e601c75",
+      "title": "URLTEST2",
+      "source_line": 101,
+      "site_time": "2026-05-18T10:18:51+00:00",
+      "replyto_pid": null,
+      "retained_newer_pastes_before": 6,
+      "retained_newer_pastes_after": 76,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 75
+    },
+    {
+      "pid": "253c38d4",
+      "title": "URLTEST3",
+      "source_line": 102,
+      "site_time": "2026-05-18T10:19:25+00:00",
+      "replyto_pid": null,
+      "retained_newer_pastes_before": 5,
+      "retained_newer_pastes_after": 75,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 75
+    },
+    {
+      "pid": "012cf585",
+      "title": "ANCHORTEST",
+      "source_line": 106,
+      "site_time": "2026-05-18T10:22:19+00:00",
+      "replyto_pid": null,
+      "retained_newer_pastes_before": 1,
+      "retained_newer_pastes_after": 71,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 60
+    },
+    {
+      "pid": "ab0fcb35",
+      "title": "REPLYURL",
+      "source_line": 107,
+      "site_time": "2026-05-18T10:33:22+00:00",
+      "replyto_pid": "b24872cc",
+      "retained_newer_pastes_before": 0,
+      "retained_newer_pastes_after": 70,
+      "modeled_list_offset_before": 0,
+      "modeled_list_offset_after": 60
+    }
+  ],
+  "model_assumptions": "15 entries per page, newest first; ranks use retained records, not a complete May snapshot. No historical reads or motive are inferred by this script."
+}

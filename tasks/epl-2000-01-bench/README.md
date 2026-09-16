@@ -13,10 +13,10 @@ The three activities are:
    research question about English Premier League bottom-3 finishers for
    seasons 1995/96 through 2004/05. This is the task the label is named
    after.
-2. **PadBot heartbeat.** 140 pastes on 2026-05-18 that carry no research
-   content. Each body is `pad-<epoch>-<n>` and each title is
-   `PAD<n>x<param>`. The set is a rate-test or scoreboard signal, not a
-   bench answer.
+2. **PadBot burst.** 70 distinct pastes on 2026-05-18, represented by
+   140 imported rows. Each body is `pad-<epoch>-<n>` and each title is
+   `PAD<n>x<param>`. They carry no research content. Their purpose is
+   uncertain; the follow-up below examines listing padding.
 3. **TK smoke tests.** Ten pastes on 2026-05-18 with `TK<epoch-suffix>`
    titles and one-line probe bodies (`FRAMEK4...`, `LANGURL...`,
    `TESTNONE`, `X`). A separate smoke-test series from the same window.
@@ -41,7 +41,7 @@ direct scrape). Both mirror the same 84 underlying pastes on
 | **stikked default handle** | An `[Adjective] [Animal]` string (`Beige Meerkat`, `Hot Sloth`, `Ungracious Dormouse`) that stikked assigns to the `name` field when the poster leaves it blank. Every label in this task is a stikked default. See [`agent-logs/pastes/README.md`](../../agent-logs/pastes/README.md). |
 | **EPL relegation bench** | An RL task whose answer is a table of English Premier League bottom-3 finishers per season, with the season's overall / home / away positions. Answers cover 1995/96 through 2004/05. |
 | **Pulselive API** | The Premier League's public standings JSON at `footballapi.pulselive.com`. Two answer bodies (`Beige Meerkat`, `Ungracious Dormouse`) cite it verbatim in the first line. |
-| **PadBot heartbeat** | A 140-paste burst on 2026-05-18 10:44 UTC. Each paste has title `PAD<n>x<param>` (with `n` = 0..69) and body `pad-<epoch>-<n>`. The `param` value in the title is a random-looking integer. The `epoch` value in the body is the Unix wall-clock time of the post to microsecond precision. Every paste is signed `PadBot`. |
+| **PadBot heartbeat** | The earlier name for a 70-paste burst on 2026-05-18 10:44 UTC, represented by 140 imported rows. The heartbeat interpretation is unconfirmed. Titles use `PAD<n>x<param>` for `n` = 0..69. Bodies use `pad-<epoch>-<n>`. Embedded timestamps differ from site creation times. Every paste is signed `PadBot`. |
 | **TK smoke test** | A 10-paste series on 2026-05-18 06:14-06:47 UTC. Titles are `TK<six-digit-suffix>`. The suffix is the last six digits of a Unix epoch in the body. Bodies contain `FRAMEK4...`, `https://example.com/LANGURL...`, `TESTNONE`, or single-character probes. Every paste is signed `ZZ` (or an HTML-escaped fragment). |
 | **subgroup** | The classification `extract_evidence.py` assigns to each paste. Values: `epl-relegation-parent`, `epl-relegation-answer`, `pad-heartbeat`, `tk-probe`, `test-fragment`. |
 | **paste-pair** | Two rows for the same underlying k4be paste: one from the shellac-imported `pastes` source and one from the direct `pastebin-k4be` scrape. The `pastes` body prepends the paste's title to the raw body; the `pastebin-k4be` body does not. |
@@ -133,11 +133,17 @@ One representative:
     > body (1 line):
     >   pad-1779101038.5110793-0
 
-The 70 pastes land in a 224-second window (`2026-05-18T10:44:00Z` →
-`10:47:34Z`), one every 2.2-4.1 seconds, mean 3.25 seconds. The `param`
-integer in the title is random per paste (min `1440`, max `986734`, all
-distinct). The body's `epoch` field equals `d.time` to the second in
-every case, so the paste is timestamping itself.
+The 70 distinct pastes span 214 seconds of site creation time
+(`2026-05-18T10:44:00Z` → `10:47:34Z`). Their embedded timestamps span
+about 224.335 seconds, with a mean interval of 3.251 seconds. Those
+timestamps do not consistently match the site's creation times.
+
+The [2026-09-16 follow-up](../../analyses/k4be-padding/README.md) considers
+padding the site's listing a stronger explanation than a heartbeat.
+Creating these entries moves preceding link tests onto older listing
+pages. Under the retrieval theory, that could provide a fresh navigation
+route. The purpose remains inferred; no observer or shutdown protocol is
+identified in these pastes.
 
 The `analyses/pastebin-k4be-full-classify/prep_batches.py` uses this
 exact paste template as a `known-swarm` calibration example, describing
@@ -195,7 +201,7 @@ Three point-in-time bursts plus one late follow-up. Times are UTC.
 |---|---:|---:|---:|---|
 | 2026-04-03 05:40:26 → 05:52:27 | 12 min | 15 | 8 | EPL relegation bench: five per-season pastes, two multi-season summaries, two test fragments. |
 | 2026-05-18 06:14:24 → 06:47:34 | 33 min | 10 | 5 | TK smoke tests, one paste every ~7 min. |
-| 2026-05-18 10:44:00 → 10:47:34 | 224 sec | 140 | 70 | PadBot heartbeat, one paste every 2.2-4.1 sec. |
+| 2026-05-18 10:44:00 → 10:47:34 | 214 sec | 140 | 70 | PadBot burst. Embedded timestamps span about 224 seconds; purpose remains inferred. |
 | 2026-09-05 01:48:37 | 1 sec | 1 | 1 | Reply that re-posts the byte-identical body of the earlier `EPL 1995-00 home-away relegation data`. |
 
 The 05:18 TK burst and the 05:18 PadBot burst are ~4 hours apart on the
@@ -225,10 +231,10 @@ same day and share zero content. They are separate activities.
   away positions. Both the per-season answers and the multi-season
   summaries mention the Pulselive API.
 - The five per-season pastes share a byte-level template.
-- The 140 PadBot pastes on 2026-05-18 10:44 UTC contain no EPL content.
+- The 70 distinct PadBot pastes on 2026-05-18 10:44 UTC contain no EPL content.
   Every body matches `^pad-\d+\.\d+-\d+$`. The `n` in the body equals
-  the `n` in the title. The `epoch` in the body equals the paste's post
-  time to the second.
+  the `n` in the title. The embedded timestamps do not consistently
+  match the site's creation times.
 - The ten TK pastes on 2026-05-18 06:14-06:47 UTC contain no EPL content
   and no research content. Bodies are placeholder probes.
 - One reply on 2026-09-05 re-posts the byte-identical body of an
