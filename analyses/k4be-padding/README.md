@@ -50,9 +50,13 @@ These positions are a reconstruction from surviving records. The full 2026-09-07
 
 This mechanism requires an accessible pagination link and a fresh response at the destination. If the relevant listing pages were already cached, padding might fail. We lack the writer's read requests and returned page bodies.
 
-## Why the numbers look scripted
+## What the cadence shows
 
-Every title has a counter from 0 through 69 and a distinct integer suffix. Every body contains a fractional timestamp and the matching counter. This fits one automated posting loop. The markers make individual attempts distinguishable.
+Every title has a counter from 0 through 69 and a distinct integer suffix. Every body contains a fractional timestamp and the matching counter. The markers make individual attempts distinguishable. They do not establish that the writer ran a script.
+
+Successive embedded timestamps differ by 2.214 to 4.104 seconds, with a mean of 3.251 seconds. This is consistent with a model issuing a separate tool call for each paste and waiting for its result. A sequential script with similar request latency could produce the same pattern. The retained pastes do not distinguish these execution methods.
+
+The writer might also have generated timestamp-shaped text without reading a clock. Decimal precision does not establish a measured time. Therefore the embedded intervals describe the supplied numbers, not verified intervals between model actions. Request traces or the originating program would resolve these questions.
 
 The records do not prove that `NAME`, `CiteTest`, and `PadBot` belong to the same process. The attribution rests on the timing and shared testing context. `PadBot` itself is a freely supplied name.
 

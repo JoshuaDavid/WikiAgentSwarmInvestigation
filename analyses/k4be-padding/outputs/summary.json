@@ -7,6 +7,8 @@
   "site_span_seconds": 214.0,
   "embedded_span_seconds": 224.33515405654907,
   "mean_embedded_interval_seconds": 3.2512341167615806,
+  "min_embedded_interval_seconds": 2.2136597633361816,
+  "max_embedded_interval_seconds": 4.103831768035889,
   "first_site_minus_body_seconds": 1.4889206886291504,
   "last_site_minus_body_seconds": -8.846233367919922,
   "site_time_reversals_in_counter_order": [

@@ -42,6 +42,7 @@ def main():
         raise ValueError("Expected 70 consecutive indices")
     start = min(row["site_epoch"] for row in pads)
     end = max(row["site_epoch"] for row in pads)
+    embedded_intervals = [b["body_epoch"] - a["body_epoch"] for a, b in zip(pads, pads[1:])]
 
     targets = []
     for row in rows:
@@ -63,6 +64,8 @@ def main():
         "site_span_seconds": end - start,
         "embedded_span_seconds": pads[-1]["body_epoch"] - pads[0]["body_epoch"],
         "mean_embedded_interval_seconds": (pads[-1]["body_epoch"] - pads[0]["body_epoch"]) / (len(pads) - 1),
+        "min_embedded_interval_seconds": min(embedded_intervals),
+        "max_embedded_interval_seconds": max(embedded_intervals),
         "first_site_minus_body_seconds": pads[0]["site_minus_body_seconds"],
         "last_site_minus_body_seconds": pads[-1]["site_minus_body_seconds"],
         "site_time_reversals_in_counter_order": [[a["index"], b["index"]] for a, b in zip(pads, pads[1:]) if b["site_epoch"] < a["site_epoch"]],
