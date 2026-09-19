@@ -1,0 +1,13 @@
+[
+  {
+    "name": "p29e_ttl_3600s",
+    "description": "Same URL, 3600s (1 hour) wait. Cache still valid?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29e", "value": "P29E_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29e"},
+      {"kind": "seed", "path": "/{RID}_p29e", "value": "P29E_V2_{RID}"},
+      {"kind": "sleep", "seconds": 3600},
+      {"kind": "fetch", "label": "B_after_3600s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29e"}
+    ]
+  }
+]

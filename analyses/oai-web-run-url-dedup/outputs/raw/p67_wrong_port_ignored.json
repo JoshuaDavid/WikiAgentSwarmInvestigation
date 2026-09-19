@@ -1,0 +1,322 @@
+{
+  "name": "p67_wrong_port_ignored",
+  "description": "https://host:80 (wrong port for https) vs https://host - do they collide because :80 != default 443?",
+  "steps": [
+    {
+      "kind": "seed",
+      "path": "/r1789841346_p67",
+      "value": "P67_V1_r1789841346",
+      "ts": 1789841386.3568244
+    },
+    {
+      "kind": "fetch",
+      "label": "A_default",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67",
+      "external": true,
+      "elapsed_s": 2.708,
+      "server_hits": [
+        {
+          "id": 195,
+          "ts": "2026-09-19T18:09:48.138191+00:00",
+          "method": "GET",
+          "path": "/r1789841346_p67",
+          "query": "",
+          "url": "/r1789841346_p67",
+          "value_before": "P67_V1_r1789841346",
+          "value_after": "P67_V1_r1789841346",
+          "response_hash": "5068462cae17c41f9bd8d0d284ca6528b1b0c692fa7691e1625f72ab3d564862",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "20.125.144.156",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"20.125.144.156\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"825d7563-3f3c-4a9f-aeac-3230e21b7810\"}"
+        }
+      ],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67\",\"lineno\":null}); Total lines: 1\nL0: P67_V1_r1789841346\n"
+          }
+        ],
+        "message_text": "P67_V1_r1789841346"
+      },
+      "response": {
+        "id": "resp_0eb45c1f8706b195006aaecfea834c87d0806a26a7ff1137f1",
+        "object": "response",
+        "created_at": 1789841386,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789841388,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0eb45c1f8706b195006aaecfebc5a887d0be0997b667d653dc",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67\",\"lineno\":null}); Total lines: 1\nL0: P67_V1_r1789841346\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841346_p67"
+              }
+            ]
+          },
+          {
+            "id": "msg_0eb45c1f8706b195006aaecfecaaa087d09fbc194e80f91000",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [],
+                "logprobs": [],
+                "text": "P67_V1_r1789841346"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4673,
+          "input_tokens_details": {
+            "cache_write_tokens": 52,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 57,
+          "output_tokens_details": {
+            "reasoning_tokens": 44
+          },
+          "total_tokens": 4730
+        },
+        "user": null,
+        "metadata": {}
+      }
+    },
+    {
+      "kind": "seed",
+      "path": "/r1789841346_p67",
+      "value": "P67_V2_r1789841346",
+      "ts": 1789841389.077735
+    },
+    {
+      "kind": "fetch",
+      "label": "B_port_80",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io:80/r1789841346_p67",
+      "external": true,
+      "elapsed_s": 2.459,
+      "server_hits": [],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io:80/r1789841346_p67",
+            "result_url": null,
+            "crawled": null,
+            "snippet_head": ""
+          }
+        ],
+        "message_text": "I couldn\u2019t open the exact URL because the web tool returned an internal error indicating that the URL could not be resolved."
+      },
+      "response": {
+        "id": "resp_092797cabb4d12b2006aaecfed428487d084a3e305fd9f3bd7",
+        "object": "response",
+        "created_at": 1789841389,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789841391,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_092797cabb4d12b2006aaecfedef9c87d0897661068bc3812e",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io:80/r1789841346_p67"
+            },
+            "results": []
+          },
+          {
+            "id": "msg_092797cabb4d12b2006aaecfeebb0887d084859468845d035f",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [],
+                "logprobs": [],
+                "text": "I couldn\u2019t open the exact URL because the web tool returned an internal error indicating that the URL could not be resolved."
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4608,
+          "input_tokens_details": {
+            "cache_write_tokens": 54,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 74,
+          "output_tokens_details": {
+            "reasoning_tokens": 46
+          },
+          "total_tokens": 4682
+        },
+        "user": null,
+        "metadata": {}
+      }
+    }
+  ],
+  "run_id": "r1789841346"
+}

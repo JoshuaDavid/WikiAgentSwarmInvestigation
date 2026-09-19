@@ -47,7 +47,9 @@ CREATE TABLE IF NOT EXISTS requests (
     value_after   TEXT,
     response_hash TEXT NOT NULL,
     user_agent    TEXT,
-    source_ip     TEXT
+    source_ip     TEXT,
+    xff           TEXT,
+    headers_json  TEXT
 );
 """
 
@@ -87,14 +89,17 @@ class Store:
         response_hash: str,
         user_agent: str | None,
         source_ip: str | None,
+        xff: str | None = None,
+        headers_json: str | None = None,
     ) -> None:
         with self._lock:
             self._conn.execute(
                 "INSERT INTO requests(ts, method, path, query, url, value_before, value_after, "
-                "response_hash, user_agent, source_ip) VALUES(?,?,?,?,?,?,?,?,?,?)",
+                "response_hash, user_agent, source_ip, xff, headers_json) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     ts, method, path, query, url,
                     value_before, value_after, response_hash, user_agent, source_ip,
+                    xff, headers_json,
                 ),
             )
 
@@ -128,6 +133,9 @@ def make_handler(store: Store) -> type[BaseHTTPRequestHandler]:
             now = datetime.now(timezone.utc).isoformat(timespec="microseconds")
             user_agent = self.headers.get("User-Agent")
             source_ip = self.client_address[0] if self.client_address else None
+            xff = self.headers.get("X-Forwarded-For")
+            import json as _json
+            headers_json = _json.dumps({k: v for k, v in self.headers.items()})
 
             if path == "/" or path == "":
                 body = HOMEPAGE.encode("utf-8")
@@ -137,6 +145,7 @@ def make_handler(store: Store) -> type[BaseHTTPRequestHandler]:
                     value_before=None, value_after=None,
                     response_hash=sha256_hex(body),
                     user_agent=user_agent, source_ip=source_ip,
+                    xff=xff, headers_json=headers_json,
                 )
                 return
 
@@ -155,6 +164,7 @@ def make_handler(store: Store) -> type[BaseHTTPRequestHandler]:
                 value_before=value_before, value_after=value_after,
                 response_hash=sha256_hex(body),
                 user_agent=user_agent, source_ip=source_ip,
+                xff=xff, headers_json=headers_json,
             )
 
     return Handler

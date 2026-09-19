@@ -1,0 +1,46 @@
+[
+  {
+    "name": "p29_ttl_60s",
+    "description": "Same URL, 60s wait between fetches. Cache still valid?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29", "value": "P29_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29"},
+      {"kind": "seed", "path": "/{RID}_p29", "value": "P29_V2_{RID}"},
+      {"kind": "sleep", "seconds": 60},
+      {"kind": "fetch", "label": "B_after_60s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29"}
+    ]
+  },
+  {
+    "name": "p29b_ttl_300s",
+    "description": "Same URL, 300s wait. Cache still valid?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29b", "value": "P29B_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29b"},
+      {"kind": "seed", "path": "/{RID}_p29b", "value": "P29B_V2_{RID}"},
+      {"kind": "sleep", "seconds": 300},
+      {"kind": "fetch", "label": "B_after_300s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29b"}
+    ]
+  },
+  {
+    "name": "p29c_ttl_900s",
+    "description": "Same URL, 900s wait (15m). Cache still valid?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29c", "value": "P29C_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29c"},
+      {"kind": "seed", "path": "/{RID}_p29c", "value": "P29C_V2_{RID}"},
+      {"kind": "sleep", "seconds": 900},
+      {"kind": "fetch", "label": "B_after_900s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29c"}
+    ]
+  },
+  {
+    "name": "p29d_ttl_1800s",
+    "description": "Same URL, 1800s wait (30m). Cache still valid?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29d", "value": "P29D_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29d"},
+      {"kind": "seed", "path": "/{RID}_p29d", "value": "P29D_V2_{RID}"},
+      {"kind": "sleep", "seconds": 1800},
+      {"kind": "fetch", "label": "B_after_1800s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29d"}
+    ]
+  }
+]

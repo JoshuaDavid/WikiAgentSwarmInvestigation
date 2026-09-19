@@ -1,0 +1,153 @@
+{
+  "name": "p14_external_false_uncached",
+  "description": "URL never touched before. With external=false, does OAI even hit the server, or refuse?",
+  "steps": [
+    {
+      "kind": "seed",
+      "path": "/r1789840714_p14",
+      "value": "P14_V1_r1789840714",
+      "ts": 1789840760.1022766
+    },
+    {
+      "kind": "fetch",
+      "label": "A_ext_false_cold",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840714_p14",
+      "external": false,
+      "elapsed_s": 2.544,
+      "server_hits": [],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840714_p14",
+            "result_url": null,
+            "crawled": null,
+            "snippet_head": ""
+          }
+        ],
+        "message_text": "I couldn\u2019t retrieve the contents. The web tool returned **\u201cCache miss\u201d** for the exact URL. ([]())"
+      },
+      "response": {
+        "id": "resp_09d828ffd2fe59a0006aaecd7854e487d0a76a2aef711fb410",
+        "object": "response",
+        "created_at": 1789840760,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789840762,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_09d828ffd2fe59a0006aaecd78fa6c87d0aff1a736106467ef",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840714_p14"
+            },
+            "results": []
+          },
+          {
+            "id": "msg_09d828ffd2fe59a0006aaecd79f3a087d0a5261140f528f1cc",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [],
+                "logprobs": [],
+                "text": "I couldn\u2019t retrieve the contents. The web tool returned **\u201cCache miss\u201d** for the exact URL. ([]())"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4648,
+          "input_tokens_details": {
+            "cache_write_tokens": 52,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 84,
+          "output_tokens_details": {
+            "reasoning_tokens": 44
+          },
+          "total_tokens": 4732
+        },
+        "user": null,
+        "metadata": {}
+      }
+    }
+  ],
+  "run_id": "r1789840714"
+}

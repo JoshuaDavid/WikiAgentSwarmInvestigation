@@ -1,0 +1,104 @@
+[
+  {
+    "name": "p60_three_param_sort",
+    "description": "?c=3&a=1&b=2 vs ?a=1&b=2&c=3 vs ?b=2&c=3&a=1 - all should normalize to sorted form.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p60", "value": "P60_V1_{RID}"},
+      {"kind": "fetch", "label": "A_cab", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p60?c=3&a=1&b=2"},
+      {"kind": "seed", "path": "/{RID}_p60", "value": "P60_V2_{RID}"},
+      {"kind": "fetch", "label": "B_abc", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p60?a=1&b=2&c=3"},
+      {"kind": "seed", "path": "/{RID}_p60", "value": "P60_V3_{RID}"},
+      {"kind": "fetch", "label": "C_bca", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p60?b=2&c=3&a=1"}
+    ]
+  },
+  {
+    "name": "p61_swapped_values",
+    "description": "?x=A&y=B vs ?x=B&y=A. Same key set, values swapped between them - should NOT collide.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p61", "value": "P61_V1_{RID}"},
+      {"kind": "fetch", "label": "A_xa_yb", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p61?x=A&y=B"},
+      {"kind": "seed", "path": "/{RID}_p61", "value": "P61_V2_{RID}"},
+      {"kind": "fetch", "label": "B_xb_ya", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p61?x=B&y=A"}
+    ]
+  },
+  {
+    "name": "p62_percent_hash_in_query",
+    "description": "?a=1%23foo (literal '#' in value) vs ?a=1#foo (real fragment). Different meaning; should not collide.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p62", "value": "P62_V1_{RID}"},
+      {"kind": "fetch", "label": "A_encoded_hash", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p62?a=1%23foo"},
+      {"kind": "seed", "path": "/{RID}_p62", "value": "P62_V2_{RID}"},
+      {"kind": "fetch", "label": "B_real_fragment", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p62?a=1#foo"}
+    ]
+  },
+  {
+    "name": "p63_brackets_in_query",
+    "description": "?q[]=1 vs ?q%5B%5D=1 - PHP-style repeated-array notation, encoded vs literal brackets.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p63", "value": "P63_V1_{RID}"},
+      {"kind": "fetch", "label": "A_literal_brackets", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p63?q[]=1"},
+      {"kind": "seed", "path": "/{RID}_p63", "value": "P63_V2_{RID}"},
+      {"kind": "fetch", "label": "B_encoded_brackets", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p63?q%5B%5D=1"}
+    ]
+  },
+  {
+    "name": "p64_encoded_reserved_query",
+    "description": "?a=b%26c=d - encoded '&' inside a value. Should be one param, not two.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p64", "value": "P64_V1_{RID}"},
+      {"kind": "fetch", "label": "A_encoded_amp", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p64?a=b%26c=d"},
+      {"kind": "seed", "path": "/{RID}_p64", "value": "P64_V2_{RID}"},
+      {"kind": "fetch", "label": "B_literal_amp_two_params", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p64?a=b&c=d"}
+    ]
+  },
+  {
+    "name": "p65_url_encoded_reserved_percent2f_in_query",
+    "description": "?path=a%2Fb (encoded /) vs ?path=a/b (literal /). Slash in query values is unreserved by convention.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p65", "value": "P65_V1_{RID}"},
+      {"kind": "fetch", "label": "A_encoded_slash_q", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p65?path=a%2Fb"},
+      {"kind": "seed", "path": "/{RID}_p65", "value": "P65_V2_{RID}"},
+      {"kind": "fetch", "label": "B_literal_slash_q", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p65?path=a/b"}
+    ]
+  },
+  {
+    "name": "p66_http_scheme",
+    "description": "http:// vs https:// - ngrok returns different response for http (redirects/rejects). Different cache slots.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p66", "value": "P66_V1_{RID}"},
+      {"kind": "fetch", "label": "A_https", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p66"},
+      {"kind": "seed", "path": "/{RID}_p66", "value": "P66_V2_{RID}"},
+      {"kind": "fetch", "label": "B_http", "url": "http://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p66"}
+    ]
+  },
+  {
+    "name": "p67_wrong_port_ignored",
+    "description": "https://host:80 (wrong port for https) vs https://host - do they collide because :80 != default 443?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p67", "value": "P67_V1_{RID}"},
+      {"kind": "fetch", "label": "A_default", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p67"},
+      {"kind": "seed", "path": "/{RID}_p67", "value": "P67_V2_{RID}"},
+      {"kind": "fetch", "label": "B_port_80", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io:80/{RID}_p67"}
+    ]
+  },
+  {
+    "name": "p68_two_hash_symbols",
+    "description": "/p68#a#b - RFC says fragment starts at first #; anything after is part of fragment.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p68", "value": "P68_V1_{RID}"},
+      {"kind": "fetch", "label": "A_double_hash", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p68#a#b"},
+      {"kind": "seed", "path": "/{RID}_p68", "value": "P68_V2_{RID}"},
+      {"kind": "fetch", "label": "B_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p68"}
+    ]
+  },
+  {
+    "name": "p69_key_order_case_mix",
+    "description": "?A=1&b=2 vs ?b=2&A=1 - sort case-sensitive? If yes, 'A' < 'b'; both normalize to A=1&b=2.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p69", "value": "P69_V1_{RID}"},
+      {"kind": "fetch", "label": "A_Ab", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p69?A=1&b=2"},
+      {"kind": "seed", "path": "/{RID}_p69", "value": "P69_V2_{RID}"},
+      {"kind": "fetch", "label": "B_bA", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p69?b=2&A=1"}
+    ]
+  }
+]

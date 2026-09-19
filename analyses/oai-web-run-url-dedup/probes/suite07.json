@@ -1,0 +1,31 @@
+[
+  {
+    "name": "p80_error_response_cached",
+    "description": "Fetch a URL that returns real content, then have the server return 404. If OAI keeps the cached 200, cache is response-agnostic.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p80", "value": "P80_V1_{RID}"},
+      {"kind": "fetch", "label": "A_seeded", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p80"},
+      {"kind": "fetch", "label": "B_same", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p80"}
+    ]
+  },
+  {
+    "name": "p81_multi_dup_same_key_3vals",
+    "description": "?a=3&a=1&a=2 vs ?a=1&a=3&a=2 - three values same key, different orders. Confirms sort scope.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p81", "value": "P81_V1_{RID}"},
+      {"kind": "fetch", "label": "A_312", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p81?a=3&a=1&a=2"},
+      {"kind": "seed", "path": "/{RID}_p81", "value": "P81_V2_{RID}"},
+      {"kind": "fetch", "label": "B_132", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p81?a=1&a=3&a=2"}
+    ]
+  },
+  {
+    "name": "p82_utf8_percent_encoded_value",
+    "description": "?q=caf%C3%A9 vs ?q=café - UTF-8 vs decoded. Do they collide?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p82", "value": "P82_V1_{RID}"},
+      {"kind": "fetch", "label": "A_encoded_cafe", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p82?q=caf%C3%A9"},
+      {"kind": "seed", "path": "/{RID}_p82", "value": "P82_V2_{RID}"},
+      {"kind": "fetch", "label": "B_literal_cafe", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p82?q=café"}
+    ]
+  }
+]

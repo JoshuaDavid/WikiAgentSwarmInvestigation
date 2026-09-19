@@ -1,0 +1,188 @@
+probe                                            label                    hits crawled    canonical_url
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+p01_baseline_repeat                              A_first                     1 today      …/r1789840675_p01
+p01_baseline_repeat                              B_repeat                    0 today      …/r1789840675_p01
+
+p02_uniq_pin_new_slot                            A_bare                      1 today      …/r1789840675_p02
+p02_uniq_pin_new_slot                            B_uniqA                     1 today      …/r1789840675_p02?uniq=A
+
+p03_uniq_distinct_values                         A_uniqA                     1 today      …/r1789840675_p03?uniq=A
+p03_uniq_distinct_values                         B_uniqB                     1 today      …/r1789840675_p03?uniq=B
+
+p04_uniq_repeat_same                             A_uniqA_first               1 today      …/r1789840675_p04?uniq=A
+p04_uniq_repeat_same                             B_uniqA_repeat              0 today      …/r1789840675_p04?uniq=A
+
+p05_param_order                                  A_ab                        1 today      …/r1789840714_p05?a=1&b=2
+p05_param_order                                  B_ba                        0 today      …/r1789840714_p05?a=1&b=2
+
+p06_dup_key                                      A_single                    1 today      …/r1789840714_p06?uniq=A
+p06_dup_key                                      B_double                    1 today      …/r1789840714_p06?uniq=A&uniq=A
+
+p07_empty_query                                  A_bare                      1 today      …/r1789840714_p07
+p07_empty_query                                  B_empty_q                   0 today      …/r1789840714_p07
+
+p08_trailing_slash                               A_no_slash                  1 today      …/r1789840714_p08
+p08_trailing_slash                               B_slash                     1 today      …/r1789840714_p08/
+
+p09_path_case                                    A_lower                     1 today      …/r1789840714_p09_lower
+p09_path_case                                    B_upper                     1 today      …/r1789840714_P09_LOWER
+
+p10_fragment                                     A_frag_foo                  1 today      …/r1789840714_p10
+p10_fragment                                     B_frag_bar                  0 today      …/r1789840714_p10
+
+p11_percent_encoded_value                        A_plain                     1 today      …/r1789840714_p11?q=hello
+p11_percent_encoded_value                        B_encoded_o                 1 today      …/r1789840714_p11?q=helloo
+
+p12_ttl_no_wait                                  A_first                     1 today      …/r1789840714_p12
+p12_ttl_no_wait                                  B_immediate_repeat          0 today      …/r1789840714_p12
+
+p13_external_true_vs_false_same                  A_ext_true                  1 today      …/r1789840714_p13
+p13_external_true_vs_false_same                  B_ext_false                 0 today      …/r1789840714_p13
+
+p14_external_false_uncached                      A_ext_false_cold            0 -          …/r1789840714_p14
+
+p15_case_query_key                               A_lower                     1 today      …/r1789840714_p15?uniq=A
+p15_case_query_key                               B_upper                     1 today      …/r1789840714_p15?UNIQ=A
+
+p16_case_query_value                             A_lower_val                 1 today      …/r1789840714_p16?uniq=a
+p16_case_query_value                             B_upper_val                 1 today      …/r1789840714_p16?uniq=A
+
+p17_added_param_after_bare_cached                A_bare                      1 today      …/r1789840714_p17
+p17_added_param_after_bare_cached                B_singlechar_param          1 today      …/r1789840714_p17?_=1
+
+p20_percent_encoded_equivalent_value             A_plain                     1 today      …/r1789840872_p20?q=hello
+p20_percent_encoded_equivalent_value             B_encoded_h                 0 today      …/r1789840872_p20?q=hello
+
+p21_percent_encoded_in_path                      A_plain_path                1 today      …/r1789840872_p21foo
+p21_percent_encoded_in_path                      B_encoded_path              0 today      …/r1789840872_p21foo
+
+p22_bare_then_frag                               A_bare                      1 today      …/r1789840872_p22
+p22_bare_then_frag                               B_frag                      0 today      …/r1789840872_p22
+
+p23_uniq_then_bare                               A_uniqA                     1 today      …/r1789840872_p23?uniq=A
+p23_uniq_then_bare                               B_bare                      1 today      …/r1789840872_p23
+
+p24_cache_buster_pattern                         A_cb1                       1 today      …/r1789840872_p24?_cb=1
+p24_cache_buster_pattern                         B_cb2                       1 today      …/r1789840872_p24?_cb=2
+p24_cache_buster_pattern                         C_cb3                       1 today      …/r1789840872_p24?_cb=3
+
+p25_https_scheme_case                            A_lower                     1 today      …/r1789840872_p25
+p25_https_scheme_case                            B_upper                     0 today      …/r1789840872_p25
+
+p26_host_case                                    A_lower                     1 today      …/r1789840872_p26
+p26_host_case                                    B_upper                     0 today      …/r1789840872_p26
+
+p27_explicit_port                                A_default_port              1 today      …/r1789840872_p27
+p27_explicit_port                                B_explicit_443              0 today      …/r1789840872_p27
+
+p28_space_vs_plus_in_value                       A_plus                      1 today      …/r1789840872_p28?q=hi+there
+p28_space_vs_plus_in_value                       B_percent20                 0 today      …/r1789840872_p28?q=hi+there
+
+p29_ttl_60s                                      A_first                     1 today      …/ttl60s_1789841221_p29
+p29_ttl_60s                                      B_after_60s                 0 today      …/ttl60s_1789841221_p29
+
+p29b_ttl_300s                                    A_first                     1 today      …/ttl300s_1789841189_p29
+p29b_ttl_300s                                    B_after_300s                0 today      …/ttl300s_1789841189_p29
+
+p30_extra_param_appended                         A_one_param                 1 today      …/r1789840872_p30?a=1
+p30_extra_param_appended                         B_two_params                1 today      …/r1789840872_p30?a=1&b=2
+
+p31_no_value_param                               A_flag                      1 today      …/r1789840872_p31?flag=
+p31_no_value_param                               B_flag_eq                   0 today      …/r1789840872_p31?flag=
+
+p32_dot_segments                                 A_plain                     1 today      …/r1789840872_p32/deep
+p32_dot_segments                                 B_dot_seg                   0 today      …/r1789840872_p32/deep
+
+p33_ttl_no_wait_but_ext_false                    A_ext_true_seed             1 today      …/r1789840872_p33
+p33_ttl_no_wait_but_ext_false                    B_ext_false                 0 today      …/r1789840872_p33
+p33_ttl_no_wait_but_ext_false                    C_ext_false                 0 today      …/r1789840872_p33
+
+p34_default_port_reverse                         A_explicit_443              1 today      …/r1789840872_p34
+p34_default_port_reverse                         B_default_port              0 today      …/r1789840872_p34
+
+p40_encoded_slash_in_path                        A_encoded_slash             1 today      …/r1789841073_p40%2Finner
+p40_encoded_slash_in_path                        B_literal_slash             1 today      …/r1789841073_p40/inner
+
+p41_query_param_key_case_only                    A_lower_key                 1 today      …/r1789841073_p41?foo=1
+p41_query_param_key_case_only                    B_mixed_key                 1 today      …/r1789841073_p41?Foo=1
+
+p42_duplicate_same_value                         A_single                    1 today      …/r1789841073_p42?a=1
+p42_duplicate_same_value                         B_double                    1 today      …/r1789841073_p42?a=1&a=1
+
+p43_dot_dot_segment                              A_plain                     1 today      …/r1789841073_p43/final
+p43_dot_dot_segment                              B_dotdot                    0 today      …/r1789841073_p43/final
+
+p45_trailing_dot_host                            A_no_dot                    1 today      …/r1789841073_p45
+p45_trailing_dot_host                            B_trailing_dot              0 today      …./r1789841073_p45
+
+p46_userinfo_stripped                            A_no_userinfo               1 today      …/r1789841073_p46
+p46_userinfo_stripped                            B_userinfo                  0 -          https://alice:secret@oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841073_p46
+
+p47_repeated_diff_values_order                   A_1_then_2                  1 today      …/r1789841073_p47?a=1&a=2
+p47_repeated_diff_values_order                   B_2_then_1                  0 today      …/r1789841073_p47?a=1&a=2
+
+p48_bare_then_uniq_empty                         A_bare                      1 today      …/r1789841073_p48
+p48_bare_then_uniq_empty                         B_uniq_empty                1 today      …/r1789841073_p48?uniq=
+
+p49_fragment_only_diff                           A_frag_a                    1 today      …/r1789841073_p49
+p49_fragment_only_diff                           B_frag_a_again              0 today      …/r1789841073_p49
+
+p50_case_query_key_change_val                    A_lower                     1 today      …/r1789841073_p50?a=1
+p50_case_query_key_change_val                    B_upper                     1 today      …/r1789841073_p50?A=1
+
+p51_query_percent_encoded_key                    A_plain_key                 1 today      …/r1789841073_p51?foo=1
+p51_query_percent_encoded_key                    B_encoded_key               0 today      …/r1789841073_p51?foo=1
+
+p52_immediate_after_seed_change                  A_first                     1 today      …/r1789841073_p52
+p52_immediate_after_seed_change                  B_after_change              0 today      …/r1789841073_p52
+p52_immediate_after_seed_change                  C_after_change_again        0 today      …/r1789841073_p52
+
+p60_three_param_sort                             A_cab                       1 today      …/r1789841346_p60?a=1&b=2&c=3
+p60_three_param_sort                             B_abc                       0 today      …/r1789841346_p60?a=1&b=2&c=3
+p60_three_param_sort                             C_bca                       0 today      …/r1789841346_p60?a=1&b=2&c=3
+
+p61_swapped_values                               A_xa_yb                     1 today      …/r1789841346_p61?x=A&y=B
+p61_swapped_values                               B_xb_ya                     1 today      …/r1789841346_p61?x=B&y=A
+
+p62_percent_hash_in_query                        A_encoded_hash              1 today      …/r1789841346_p62?a=1%23foo
+p62_percent_hash_in_query                        B_real_fragment             1 today      …/r1789841346_p62?a=1
+
+p63_brackets_in_query                            A_literal_brackets          0 -          …/r1789841346_p63?q[]=1
+p63_brackets_in_query                            B_encoded_brackets          1 today      …/r1789841346_p63?q%5B%5D=1
+
+p64_encoded_reserved_query                       A_encoded_amp               1 today      …/r1789841346_p64?a=b%26c%3Dd
+p64_encoded_reserved_query                       B_literal_amp_two_params    1 today      …/r1789841346_p64?a=b&c=d
+
+p65_url_encoded_reserved_percent2f_in_query      A_encoded_slash_q           1 today      …/r1789841346_p65?path=a%2Fb
+p65_url_encoded_reserved_percent2f_in_query      B_literal_slash_q           0 today      …/r1789841346_p65?path=a%2Fb
+
+p66_http_scheme                                  A_https                     1 today      …/r1789841346_p66
+p66_http_scheme                                  B_http                      0 today      …/r1789841346_p66
+
+p67_wrong_port_ignored                           A_default                   1 today      …/r1789841346_p67
+p67_wrong_port_ignored                           B_port_80                   0 -          …:80/r1789841346_p67
+
+p68_two_hash_symbols                             A_double_hash               1 today      …/r1789841346_p68
+p68_two_hash_symbols                             B_bare                      0 today      …/r1789841346_p68
+
+p69_key_order_case_mix                           A_Ab                        1 today      …/r1789841346_p69?A=1&b=2
+p69_key_order_case_mix                           B_bA                        0 today      …/r1789841346_p69?A=1&b=2
+
+p70_case_sensitive_sort                          A_Ba                        1 today      …/r1789841458_p70?B=1&a=2
+p70_case_sensitive_sort                          B_aB                        0 today      …/r1789841458_p70?B=1&a=2
+
+p71_http_first_then_https                        A_http                      1 today      …/r1789841458_p71
+p71_http_first_then_https                        B_https                     0 today      …/r1789841458_p71
+
+p72_www_prefix                                   A_bare                      1 today      …/r1789841458_p72
+p72_www_prefix                                   B_www                       0 -          https://www.oai-scratchpad-cache-versioning-demo.ngrok.io/r1789841458_p72
+
+p73_uppercase_percent                            A_uppercase_hex             1 today      …/r1789841458_p73?q=%2F
+p73_uppercase_percent                            B_lowercase_hex             0 today      …/r1789841458_p73?q=%2F
+
+p74_query_no_value_no_eq_vs_absent               A_a_bare                    1 today      …/r1789841458_p74?a=
+p74_query_no_value_no_eq_vs_absent               B_a_eq                      0 today      …/r1789841458_p74?a=
+p74_query_no_value_no_eq_vs_absent               C_a_eq_1                    1 today      …/r1789841458_p74?a=1
+
+p75_trailing_amp                                 A_no_amp                    1 today      …/r1789841458_p75?a=1
+p75_trailing_amp                                 B_trailing_amp              0 today      …/r1789841458_p75?a=1
