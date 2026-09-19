@@ -1,0 +1,64 @@
+[
+  {
+    "name": "p70_case_sensitive_sort",
+    "description": "?B=1&a=2 - if sort is ASCII (uppercase < lowercase), order becomes B,a. If case-insensitive, a,B. This disambiguates.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p70", "value": "P70_V1_{RID}"},
+      {"kind": "fetch", "label": "A_Ba", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p70?B=1&a=2"},
+      {"kind": "seed", "path": "/{RID}_p70", "value": "P70_V2_{RID}"},
+      {"kind": "fetch", "label": "B_aB", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p70?a=2&B=1"}
+    ]
+  },
+  {
+    "name": "p71_http_first_then_https",
+    "description": "Fetch http first, then https - to verify the collision direction; expect: both -> https canonical.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p71", "value": "P71_V1_{RID}"},
+      {"kind": "fetch", "label": "A_http", "url": "http://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p71"},
+      {"kind": "seed", "path": "/{RID}_p71", "value": "P71_V2_{RID}"},
+      {"kind": "fetch", "label": "B_https", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p71"}
+    ]
+  },
+  {
+    "name": "p72_www_prefix",
+    "description": "Test if www.host vs host share cache (they should NOT - different hostnames, but users often expect merging).",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p72", "value": "P72_V1_{RID}"},
+      {"kind": "fetch", "label": "A_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p72"},
+      {"kind": "seed", "path": "/{RID}_p72", "value": "P72_V2_{RID}"},
+      {"kind": "fetch", "label": "B_www", "url": "https://www.oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p72"}
+    ]
+  },
+  {
+    "name": "p73_uppercase_percent",
+    "description": "?q=%2f vs ?q=%2F (case of hex digits) - RFC recommends uppercase; do lowercase and uppercase collide?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p73", "value": "P73_V1_{RID}"},
+      {"kind": "fetch", "label": "A_uppercase_hex", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p73?q=%2F"},
+      {"kind": "seed", "path": "/{RID}_p73", "value": "P73_V2_{RID}"},
+      {"kind": "fetch", "label": "B_lowercase_hex", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p73?q=%2f"}
+    ]
+  },
+  {
+    "name": "p74_query_no_value_no_eq_vs_absent",
+    "description": "/p74?a vs /p74?a= vs /p74?a=1 - 3-way. First two collide (from p31). Value vs no-value distinct?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p74", "value": "P74_V1_{RID}"},
+      {"kind": "fetch", "label": "A_a_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p74?a"},
+      {"kind": "seed", "path": "/{RID}_p74", "value": "P74_V2_{RID}"},
+      {"kind": "fetch", "label": "B_a_eq", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p74?a="},
+      {"kind": "seed", "path": "/{RID}_p74", "value": "P74_V3_{RID}"},
+      {"kind": "fetch", "label": "C_a_eq_1", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p74?a=1"}
+    ]
+  },
+  {
+    "name": "p75_trailing_amp",
+    "description": "?a=1& (trailing '&') - is the trailing empty param dropped?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p75", "value": "P75_V1_{RID}"},
+      {"kind": "fetch", "label": "A_no_amp", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p75?a=1"},
+      {"kind": "seed", "path": "/{RID}_p75", "value": "P75_V2_{RID}"},
+      {"kind": "fetch", "label": "B_trailing_amp", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p75?a=1&"}
+    ]
+  }
+]

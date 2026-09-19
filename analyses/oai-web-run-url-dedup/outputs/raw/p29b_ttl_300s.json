@@ -1,0 +1,363 @@
+{
+  "name": "p29b_ttl_300s",
+  "description": "Same URL, 300s wait. Cache still valid?",
+  "steps": [
+    {
+      "kind": "seed",
+      "path": "/ttl300s_1789841189_p29b",
+      "value": "P29B_V1_ttl300s_1789841189",
+      "ts": 1789841189.3727937
+    },
+    {
+      "kind": "fetch",
+      "label": "A_first",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29b",
+      "external": true,
+      "elapsed_s": 3.093,
+      "server_hits": [
+        {
+          "id": 164,
+          "ts": "2026-09-19T18:06:30.625960+00:00",
+          "method": "GET",
+          "path": "/ttl300s_1789841189_p29",
+          "query": "",
+          "url": "/ttl300s_1789841189_p29",
+          "value_before": null,
+          "value_after": null,
+          "response_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "20.125.144.156",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"20.125.144.156\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"de6e9782-87dd-42b6-aff4-76fe0f3f1aaa\"}"
+        }
+      ],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29\",\"lineno\":null}); Total lines: 0\n"
+          }
+        ],
+        "message_text": "The URL returned an HTML page with no readable body content or text lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29))"
+      },
+      "response": {
+        "id": "resp_0a7aa2cd6de4ed77006aaecf25887c87d0aae8032479ad6f0e",
+        "object": "response",
+        "created_at": 1789841189,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789841192,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0a7aa2cd6de4ed77006aaecf2623ac87d083b753182f603851",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29\",\"lineno\":null}); Total lines: 0\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29"
+              }
+            ]
+          },
+          {
+            "id": "rs_0a7aa2cd6de4ed77006aaecf272dc487d0bebf26a7383ac401",
+            "type": "reasoning",
+            "content": [],
+            "encrypted_content": "gAAAAABqrs8oSYhNoQNb4nRraRdjnPqrcigzjVKNi1zpTb82UzkxMQizPqX81y3V1HYFL4OjE1JlOCDR9iyImp_vqU6saz8v0zzuZvJZv3IRtBGZXf7TOTiIQracpWoTD48zAJb8Gs_66MtYkKqPqG19fso80qGeiec1OS_txuoBnhnbiQq3bp1z-xLdGuKEf0fG3V3lR5v9ikj4FjU6avisn5Y1mqf6hcEWu_89LW_SCZszBMo5PUAwj17ICLjua9OK0j6bHqJwFIkEaMy1m4TmhVzJbxsWD1icJeG7kGG0Jn12znW4duCGVqyYhvKc7-nf7_WmMJRj3juqeCtd6_O5Xt_lYi37u0126w4REDqlQWcc1Glyht39-ShO8zRJwIGRBI_ggHXrW4kQigPzQp27vUdK6KDa27Y7iM5h25DnA4krHPh7VI9w1JW5eZX2hUs5rIY5p5EuXnV4mP6hZ0DL_bdgPs9viFdWAKFJ8xqpYqef0GeMP5chShdY8ry2-qq6M_WNndi7kImoVaQ43k_0_Vc49RSGtrLMRdXli0zA8-kPq3nUBsMhugvLZ72PVJTlOUT06U_8-uKuR36VtTaKTmhL8IXXMWhAvNOL_TPPlEBfOCMI-9No035yNLcyGXcliYYLoWKYm62M8FyiPDoGimRDBrCDSS8G3DhlhJ-KZSIucn7KddKlGO7LT7lwZDLwrZasPas-2-EndH6KdmZ1SckcV4-EVpo1CSIgUKQGrh9xqHcrSpVN60LJhwvaCdXnv8DDRu7KYuqCWf07zfjX6ni-rqaa5Gu6uq6BlEe4yLIDA2jDcPiJmRaX8wEBzGtt4nE5-_rlDfapWYdYJNjecjE6pGF2b4d5d6q_PP_RLZEPu983o2E1pg5Ungxyvll4YghFGkojrDbXpKXdBX_qOxBtSMpP67Oe7qOFj1ab1Vfuj-dUrURBPWtrsksTnaPL1ULbsi2x4bbbDsK1gLGQklZ9k1WInsDHF-Iqn_olb-4rmSNkErm55iBWpuQCbBu2_0yZcwB6HXL7HA8vQyXvQ7FcCNRsPy8Fizeq8ZINeaUvDMrXp-F-yr58oXFE1IOtiytNhqrecigb1m61x_0OjjN87VsoXYmSESdaWs-ivsrpFRYlTCh2I-THbfIqhb0xMqrPOVGe-GHaPpVHlwG-D2Qlt4-SW5yCFtqg7psmD3vOYMe-TFKbzEDS0uUQBRmyPotN3LbyNcW1804rgOsOO5P1n4f1Qnwqdovntzae0SlWE4w5X9m_HtvrwPzR8GpbwN-7TQKOkQrF1GcuiEgiEobKJKpJdcUdXeG7KX6jTAbtKIVyRhYNTAyulF4EfqMjmSevA1wovVkZS-aF18T1R40q0rYtFE3RbhGrGWBqFgfxZEOLHgrBi8OuN09jLROTaJ7x5_96rL07CcwG-C3pGwOyPKuVrgEwKIeQ0hE2nriTxPy8L7Z1tb2_2vHpMiv9q6oZRS6w",
+            "summary": []
+          },
+          {
+            "id": "msg_0a7aa2cd6de4ed77006aaecf27b25087d0a457c3c301776fb6",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [
+                  {
+                    "type": "url_citation",
+                    "end_index": 202,
+                    "start_index": 75,
+                    "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                    "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29"
+                  }
+                ],
+                "logprobs": [],
+                "text": "The URL returned an HTML page with no readable body content or text lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29))"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4677,
+          "input_tokens_details": {
+            "cache_write_tokens": 57,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 132,
+          "output_tokens_details": {
+            "reasoning_tokens": 97
+          },
+          "total_tokens": 4809
+        },
+        "user": null,
+        "metadata": {}
+      }
+    },
+    {
+      "kind": "seed",
+      "path": "/ttl300s_1789841189_p29b",
+      "value": "P29B_V2_ttl300s_1789841189",
+      "ts": 1789841192.4735355
+    },
+    {
+      "kind": "sleep",
+      "seconds": 300
+    },
+    {
+      "kind": "fetch",
+      "label": "B_after_300s",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29b",
+      "external": true,
+      "elapsed_s": 2.862,
+      "server_hits": [],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29\",\"lineno\":null}); Total lines: 0\n"
+          }
+        ],
+        "message_text": "The URL opened successfully, but it returned no extractable page contents\u2014 the web tool reports an HTML page with zero readable lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29))"
+      },
+      "response": {
+        "id": "resp_0f11f8314789e3a8006aaed054a45887d0bf675c2e14850be7",
+        "object": "response",
+        "created_at": 1789841492,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789841495,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0f11f8314789e3a8006aaed05546a887d0a1bdc2c321ba5d4b",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29\",\"lineno\":null}); Total lines: 0\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29"
+              }
+            ]
+          },
+          {
+            "id": "rs_0f11f8314789e3a8006aaed056253487d0b9e2fb5d83d700af",
+            "type": "reasoning",
+            "content": [],
+            "encrypted_content": "gAAAAABqrtBXHDrVcwxxfv8gF7Leil4QGeqSzrQQk3qdbAnQy0KjAEgKwtZthTz5ZlD2FzWL9k8oDhiQc2wSiLdItaR9BPHg9HXxpxboqGjsV-XOPUWYSicrbRkfHurzjRjeeLtdXtEJJffGD1SjKQEPHde9mu2wkDC07kZis3GrsocAJBrqOWJJk9AiBxZnnBc5tdTBzobiK-XWQ0aikjZbcA5quufM9Gd1hhusiaPEjwKIJEAdJmOZn_QtbRWVsoexITbTaO3HxhYcr3K6NLaXvpX5tJWJF6stS5l5afUBj7EOd57JMPJdTKMMw0jcP7cUb5pLq72iaumpEVSYD9eJmX0KyTZX3kLd5WndbOSiQhufG7xwAQ9UP32EIE6nTfo3MmVm6HBm5_GrAXz_VIFjAkdPu2comig3QKfN0mz6T5H_9nwYK6Ea9VXNVmlSzuqheUnwlHnRIJIADWXZfaesvYzpZ1cJ8bhohp1VSyb0_jkwV4iwrReFsoOoT7Vbkfri1Rev0t5oc6auGt7WEcvipg69LGAcZ9qQDW0RyuKg0nSx-kCwaMSKe1D0Fy4fVZ-Bqccu7Fj0PENeu4BB1A2rdYVLyFyZcLJ7g8Ol4sE2OdYlpZiiW5iwk3_vMP_ZYFqYn9-punTng_9wMT2RkI2y9bxqxIQ6BEfOB8c8qT09egZqesOXL4o5HbM2moasyJJewbb5E1TRbeF0Jout1LgMLobRMtTfFvRsweWx_0Ew_YEmFGG3G3UHVsRAecFTE1EhvQ6j5fxxDJw7dlMu4k4qqVPdrm3O1oON4WZnDCv1NAmcD63kI4mWvwslLPRYtU5s57eBoSyTHOSquzggta8Xq15TkIu8uye3v9Ba2BEDnuRGYNBReZEQ00Zwh6_4if5O5l_GKlPtsjvY_T6VCpv6ju6gNq3wx-7QjFDQ-AO8p0RQXLqLy73ROvZdnvQzqzJIsVyU695julie5OKcDLpRx3Z4jgwwcD8vjJnT5HwzBXCUiHGROdynSDAaBG5CeWjKn0R_-BKq1rFLMvwt_epyyijrIVcYtcR_XLwZqX1lcx-UlTZir41sRV2h23QRVFAIGB5R1t_XAo49RBr2y6WTbcXT85UXOXbqPbvKAj4dSnraBaz1pswCztCzqx7ypvKHuRhBbKafMd-WITxniTomtLdnMdCO-z_IfuWe73XQid1ouXfwziSgfqhhibhj1zxCrLR7jItsp9uoKz0idMzcXe0aXw9FP5yw40cDuM25I_DcUvPQ5FNLreKOMbhIbdQA4eUj8tFT2S_umeeFjW5ydUOYYsI9HbVSAJfjmwKWnIxkwkkDoT4Aw-omXgH50wz_j2dcV9reLobtEliJRMpaPw3lpLzNhVmClzwOfzuQHo6EU_rCmuGSrqC0BXjyjcaCV4udcNKB",
+            "summary": []
+          },
+          {
+            "id": "msg_0f11f8314789e3a8006aaed056930c87d08e46adc89e87a4eb",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [
+                  {
+                    "type": "url_citation",
+                    "end_index": 262,
+                    "start_index": 135,
+                    "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                    "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29"
+                  }
+                ],
+                "logprobs": [],
+                "text": "The URL opened successfully, but it returned no extractable page contents\u2014 the web tool reports an HTML page with zero readable lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl300s_1789841189_p29))"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4677,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 4308
+          },
+          "output_tokens": 131,
+          "output_tokens_details": {
+            "reasoning_tokens": 85
+          },
+          "total_tokens": 4808
+        },
+        "user": null,
+        "metadata": {}
+      }
+    }
+  ],
+  "run_id": "ttl300s_1789841189"
+}

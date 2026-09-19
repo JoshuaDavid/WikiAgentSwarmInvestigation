@@ -1,0 +1,353 @@
+{
+  "name": "p03_uniq_distinct_values",
+  "description": "?uniq=A then ?uniq=B on same path with content change between. Two separate cache slots?",
+  "steps": [
+    {
+      "kind": "seed",
+      "path": "/r1789840675_p03",
+      "value": "P03_V1_r1789840675",
+      "ts": 1789840686.8569112
+    },
+    {
+      "kind": "fetch",
+      "label": "A_uniqA",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A",
+      "external": true,
+      "elapsed_s": 2.148,
+      "server_hits": [
+        {
+          "id": 17,
+          "ts": "2026-09-19T17:58:07.939651+00:00",
+          "method": "GET",
+          "path": "/r1789840675_p03",
+          "query": "uniq=A",
+          "url": "/r1789840675_p03?uniq=A",
+          "value_before": "P03_V1_r1789840675",
+          "value_after": "P03_V1_r1789840675",
+          "response_hash": "b88d60afb3d2bd0c281a0cbef5808ae1cd731789bde3b416756c388ff261268e",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "20.125.144.154",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"20.125.144.154\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"4e5ae206-1b65-4f2c-a2d0-812d325e63a2\"}"
+        }
+      ],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A\",\"lineno\":null}); Total lines: 1\nL0: P03_V1_r1789840675\n"
+          }
+        ],
+        "message_text": "P03_V1_r1789840675 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A))"
+      },
+      "response": {
+        "id": "resp_061feffae6bd7c06006aaecd2efd0c87d09b319f27f1b79e0c",
+        "object": "response",
+        "created_at": 1789840687,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789840688,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_061feffae6bd7c06006aaecd2f950487d08c9df6e7f9783ad0",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A\",\"lineno\":null}); Total lines: 1\nL0: P03_V1_r1789840675\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A"
+              }
+            ]
+          },
+          {
+            "id": "msg_061feffae6bd7c06006aaecd30786887d081d91996f192d222",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [
+                  {
+                    "type": "url_citation",
+                    "end_index": 146,
+                    "start_index": 19,
+                    "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                    "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A"
+                  }
+                ],
+                "logprobs": [],
+                "text": "P03_V1_r1789840675 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=A))"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4685,
+          "input_tokens_details": {
+            "cache_write_tokens": 55,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 74,
+          "output_tokens_details": {
+            "reasoning_tokens": 47
+          },
+          "total_tokens": 4759
+        },
+        "user": null,
+        "metadata": {}
+      }
+    },
+    {
+      "kind": "seed",
+      "path": "/r1789840675_p03",
+      "value": "P03_V2_r1789840675",
+      "ts": 1789840689.0138478
+    },
+    {
+      "kind": "fetch",
+      "label": "B_uniqB",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B",
+      "external": true,
+      "elapsed_s": 2.493,
+      "server_hits": [
+        {
+          "id": 19,
+          "ts": "2026-09-19T17:58:10.288379+00:00",
+          "method": "GET",
+          "path": "/r1789840675_p03",
+          "query": "uniq=B",
+          "url": "/r1789840675_p03?uniq=B",
+          "value_before": "P03_V2_r1789840675",
+          "value_after": "P03_V2_r1789840675",
+          "response_hash": "1019860cbcb8171da18fac4e1b039bdedc1467737452c0cc8f89d3f7d4f6aa5b",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "20.125.144.146",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"20.125.144.146\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"83b20d2d-b420-4bc9-a66b-ab400c542a6a\"}"
+        }
+      ],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B\",\"lineno\":null}); Total lines: 1\nL0: P03_V2_r1789840675\n"
+          }
+        ],
+        "message_text": "P03_V2_r1789840675"
+      },
+      "response": {
+        "id": "resp_0cc66dba51e297f9006aaecd3123e887d0a8eca5e6ea866958",
+        "object": "response",
+        "created_at": 1789840689,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789840691,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0cc66dba51e297f9006aaecd31ef7c87d0a850d0a29946f889",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B\",\"lineno\":null}); Total lines: 1\nL0: P03_V2_r1789840675\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789840675_p03?uniq=B"
+              }
+            ]
+          },
+          {
+            "id": "msg_0cc66dba51e297f9006aaecd32d8d087d092ec4141054409a8",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [],
+                "logprobs": [],
+                "text": "P03_V2_r1789840675"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4685,
+          "input_tokens_details": {
+            "cache_write_tokens": 55,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 60,
+          "output_tokens_details": {
+            "reasoning_tokens": 47
+          },
+          "total_tokens": 4745
+        },
+        "user": null,
+        "metadata": {}
+      }
+    }
+  ],
+  "run_id": "r1789840675"
+}

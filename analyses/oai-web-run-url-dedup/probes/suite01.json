@@ -1,0 +1,170 @@
+[
+  {
+    "name": "p01_baseline_repeat",
+    "description": "Same URL fetched twice: 2nd should hit OAI cache and NOT reach the server.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p01", "value": "P01_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p01"},
+      {"kind": "seed", "path": "/{RID}_p01", "value": "P01_V2_should_not_be_seen_if_cached_{RID}"},
+      {"kind": "fetch", "label": "B_repeat", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p01"}
+    ]
+  },
+  {
+    "name": "p02_uniq_pin_new_slot",
+    "description": "Bare URL then URL?uniq=A. Does adding a query param produce a fresh cache slot?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p02", "value": "P02_V1_{RID}"},
+      {"kind": "fetch", "label": "A_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p02"},
+      {"kind": "seed", "path": "/{RID}_p02", "value": "P02_V2_{RID}"},
+      {"kind": "fetch", "label": "B_uniqA", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p02?uniq=A"}
+    ]
+  },
+  {
+    "name": "p03_uniq_distinct_values",
+    "description": "?uniq=A then ?uniq=B on same path with content change between. Two separate cache slots?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p03", "value": "P03_V1_{RID}"},
+      {"kind": "fetch", "label": "A_uniqA", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p03?uniq=A"},
+      {"kind": "seed", "path": "/{RID}_p03", "value": "P03_V2_{RID}"},
+      {"kind": "fetch", "label": "B_uniqB", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p03?uniq=B"}
+    ]
+  },
+  {
+    "name": "p04_uniq_repeat_same",
+    "description": "?uniq=A twice with content change: cache hit (no 2nd server request) confirms cache scope.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p04", "value": "P04_V1_{RID}"},
+      {"kind": "fetch", "label": "A_uniqA_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p04?uniq=A"},
+      {"kind": "seed", "path": "/{RID}_p04", "value": "P04_V2_should_not_be_seen_{RID}"},
+      {"kind": "fetch", "label": "B_uniqA_repeat", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p04?uniq=A"}
+    ]
+  },
+  {
+    "name": "p05_param_order",
+    "description": "?a=1&b=2 vs ?b=2&a=1 - is the query string normalized/sorted before caching?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p05", "value": "P05_V1_{RID}"},
+      {"kind": "fetch", "label": "A_ab", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p05?a=1&b=2"},
+      {"kind": "seed", "path": "/{RID}_p05", "value": "P05_V2_{RID}"},
+      {"kind": "fetch", "label": "B_ba", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p05?b=2&a=1"}
+    ]
+  },
+  {
+    "name": "p06_dup_key",
+    "description": "?uniq=A vs ?uniq=A&uniq=A - does OAI dedupe repeated identical params?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p06", "value": "P06_V1_{RID}"},
+      {"kind": "fetch", "label": "A_single", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p06?uniq=A"},
+      {"kind": "seed", "path": "/{RID}_p06", "value": "P06_V2_{RID}"},
+      {"kind": "fetch", "label": "B_double", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p06?uniq=A&uniq=A"}
+    ]
+  },
+  {
+    "name": "p07_empty_query",
+    "description": "/p07 vs /p07? - do trailing question marks with empty query merge with the bare URL?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p07", "value": "P07_V1_{RID}"},
+      {"kind": "fetch", "label": "A_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p07"},
+      {"kind": "seed", "path": "/{RID}_p07", "value": "P07_V2_{RID}"},
+      {"kind": "fetch", "label": "B_empty_q", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p07?"}
+    ]
+  },
+  {
+    "name": "p08_trailing_slash",
+    "description": "/p08 vs /p08/ - are they the same cache slot? The server treats them as different keys.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p08", "value": "P08_root_V1_{RID}"},
+      {"kind": "seed", "path": "/{RID}_p08/", "value": "P08_slash_V1_{RID}"},
+      {"kind": "fetch", "label": "A_no_slash", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p08"},
+      {"kind": "fetch", "label": "B_slash", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p08/"}
+    ]
+  },
+  {
+    "name": "p09_path_case",
+    "description": "/p09 vs /P09 - path case-sensitivity in cache key. Server treats them as different keys.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p09_lower", "value": "P09_lower_V1_{RID}"},
+      {"kind": "seed", "path": "/{RID}_P09_LOWER", "value": "P09_upper_V1_{RID}"},
+      {"kind": "fetch", "label": "A_lower", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p09_lower"},
+      {"kind": "fetch", "label": "B_upper", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_P09_LOWER"}
+    ]
+  },
+  {
+    "name": "p10_fragment",
+    "description": "/p10#foo vs /p10#bar - fragment never reaches server; does OAI still treat as distinct?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p10", "value": "P10_V1_{RID}"},
+      {"kind": "fetch", "label": "A_frag_foo", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p10#foo"},
+      {"kind": "seed", "path": "/{RID}_p10", "value": "P10_V2_{RID}"},
+      {"kind": "fetch", "label": "B_frag_bar", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p10#bar"}
+    ]
+  },
+  {
+    "name": "p11_percent_encoded_value",
+    "description": "?q=hello vs ?q=hell%6fo - same decoded value, different byte form. Do they collide?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p11", "value": "P11_V1_{RID}"},
+      {"kind": "fetch", "label": "A_plain", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p11?q=hello"},
+      {"kind": "seed", "path": "/{RID}_p11", "value": "P11_V2_{RID}"},
+      {"kind": "fetch", "label": "B_encoded_o", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p11?q=hell%6fo"}
+    ]
+  },
+  {
+    "name": "p12_ttl_no_wait",
+    "description": "Same URL twice back-to-back - presumably still cached.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p12", "value": "P12_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p12"},
+      {"kind": "seed", "path": "/{RID}_p12", "value": "P12_V2_{RID}"},
+      {"kind": "fetch", "label": "B_immediate_repeat", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p12"}
+    ]
+  },
+  {
+    "name": "p13_external_true_vs_false_same",
+    "description": "Same URL, first with external=true (fresh) then with external=false - does it use the cache?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p13", "value": "P13_V1_{RID}"},
+      {"kind": "fetch", "label": "A_ext_true", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p13", "external": true},
+      {"kind": "seed", "path": "/{RID}_p13", "value": "P13_V2_hidden_if_cached_{RID}"},
+      {"kind": "fetch", "label": "B_ext_false", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p13", "external": false}
+    ]
+  },
+  {
+    "name": "p14_external_false_uncached",
+    "description": "URL never touched before. With external=false, does OAI even hit the server, or refuse?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p14", "value": "P14_V1_{RID}"},
+      {"kind": "fetch", "label": "A_ext_false_cold", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p14", "external": false}
+    ]
+  },
+  {
+    "name": "p15_case_query_key",
+    "description": "?uniq=A vs ?UNIQ=A - is the query key case-normalized?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p15", "value": "P15_V1_{RID}"},
+      {"kind": "fetch", "label": "A_lower", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p15?uniq=A"},
+      {"kind": "seed", "path": "/{RID}_p15", "value": "P15_V2_{RID}"},
+      {"kind": "fetch", "label": "B_upper", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p15?UNIQ=A"}
+    ]
+  },
+  {
+    "name": "p16_case_query_value",
+    "description": "?uniq=A vs ?uniq=a - is the query value case-normalized?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p16", "value": "P16_V1_{RID}"},
+      {"kind": "fetch", "label": "A_lower_val", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p16?uniq=a"},
+      {"kind": "seed", "path": "/{RID}_p16", "value": "P16_V2_{RID}"},
+      {"kind": "fetch", "label": "B_upper_val", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p16?uniq=A"}
+    ]
+  },
+  {
+    "name": "p17_added_param_after_bare_cached",
+    "description": "Fetch bare, then fetch with ?_=1: is the bare-URL cache reused or does adding any param create a slot?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p17", "value": "P17_V1_{RID}"},
+      {"kind": "fetch", "label": "A_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p17"},
+      {"kind": "seed", "path": "/{RID}_p17", "value": "P17_V2_{RID}"},
+      {"kind": "fetch", "label": "B_singlechar_param", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p17?_=1"}
+    ]
+  }
+]

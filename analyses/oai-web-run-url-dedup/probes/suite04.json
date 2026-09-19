@@ -1,0 +1,140 @@
+[
+  {
+    "name": "p40_encoded_slash_in_path",
+    "description": "/a%2Fb vs /a/b - encoded slash and literal slash. Does OAI decode %2F in path?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p40/inner", "value": "P40_slash_V1_{RID}"},
+      {"kind": "seed", "path": "/{RID}_p40%2Finner", "value": "P40_encslash_V1_{RID}"},
+      {"kind": "fetch", "label": "A_encoded_slash", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p40%2Finner"},
+      {"kind": "fetch", "label": "B_literal_slash", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p40/inner"}
+    ]
+  },
+  {
+    "name": "p41_query_param_key_case_only",
+    "description": "?Foo=1 vs ?foo=1 - key case is preserved (from p15) or normalized?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p41", "value": "P41_V1_{RID}"},
+      {"kind": "fetch", "label": "A_lower_key", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p41?foo=1"},
+      {"kind": "seed", "path": "/{RID}_p41", "value": "P41_V2_{RID}"},
+      {"kind": "fetch", "label": "B_mixed_key", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p41?Foo=1"}
+    ]
+  },
+  {
+    "name": "p42_duplicate_same_value",
+    "description": "?a=1 vs ?a=1&a=1 - duplicate identical key/value; does OAI collapse them?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p42", "value": "P42_V1_{RID}"},
+      {"kind": "fetch", "label": "A_single", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p42?a=1"},
+      {"kind": "seed", "path": "/{RID}_p42", "value": "P42_V2_{RID}"},
+      {"kind": "fetch", "label": "B_double", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p42?a=1&a=1"}
+    ]
+  },
+  {
+    "name": "p43_dot_dot_segment",
+    "description": "/a/b/../c vs /a/c - does OAI resolve /../?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p43/final", "value": "P43_V1_{RID}"},
+      {"kind": "fetch", "label": "A_plain", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p43/final"},
+      {"kind": "seed", "path": "/{RID}_p43/final", "value": "P43_V2_{RID}"},
+      {"kind": "fetch", "label": "B_dotdot", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p43/scratch/../final"}
+    ]
+  },
+  {
+    "name": "p44_ipv4_vs_hostname",
+    "description": "Skip: only one ngrok URL, cannot rebind to different hostname. (placeholder)",
+    "steps": []
+  },
+  {
+    "name": "p45_trailing_dot_host",
+    "description": "host. vs host - trailing dot is allowed by RFC. Same cache?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p45", "value": "P45_V1_{RID}"},
+      {"kind": "fetch", "label": "A_no_dot", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p45"},
+      {"kind": "seed", "path": "/{RID}_p45", "value": "P45_V2_{RID}"},
+      {"kind": "fetch", "label": "B_trailing_dot", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io./{RID}_p45"}
+    ]
+  },
+  {
+    "name": "p46_userinfo_stripped",
+    "description": "https://user:pass@host/foo - does userinfo affect cache key?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p46", "value": "P46_V1_{RID}"},
+      {"kind": "fetch", "label": "A_no_userinfo", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p46"},
+      {"kind": "seed", "path": "/{RID}_p46", "value": "P46_V2_{RID}"},
+      {"kind": "fetch", "label": "B_userinfo", "url": "https://alice:secret@oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p46"}
+    ]
+  },
+  {
+    "name": "p47_repeated_diff_values_order",
+    "description": "?a=1&a=2 vs ?a=2&a=1 - repeated key with different values. Sort would collide; order-preserving wouldn't.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p47", "value": "P47_V1_{RID}"},
+      {"kind": "fetch", "label": "A_1_then_2", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p47?a=1&a=2"},
+      {"kind": "seed", "path": "/{RID}_p47", "value": "P47_V2_{RID}"},
+      {"kind": "fetch", "label": "B_2_then_1", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p47?a=2&a=1"}
+    ]
+  },
+  {
+    "name": "p48_bare_then_uniq_empty",
+    "description": "Bare then ?uniq= (empty value). Does empty value differ from bare?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p48", "value": "P48_V1_{RID}"},
+      {"kind": "fetch", "label": "A_bare", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p48"},
+      {"kind": "seed", "path": "/{RID}_p48", "value": "P48_V2_{RID}"},
+      {"kind": "fetch", "label": "B_uniq_empty", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p48?uniq="}
+    ]
+  },
+  {
+    "name": "p49_fragment_only_diff",
+    "description": "/p49#a fetched fresh, then /p49#a fetched again - both cached.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p49", "value": "P49_V1_{RID}"},
+      {"kind": "fetch", "label": "A_frag_a", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p49#alpha"},
+      {"kind": "seed", "path": "/{RID}_p49", "value": "P49_V2_{RID}"},
+      {"kind": "fetch", "label": "B_frag_a_again", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p49#alpha"}
+    ]
+  },
+  {
+    "name": "p50_case_query_key_change_val",
+    "description": "?a=1 vs ?A=1 - if key case matters, distinct slots. Companion to p15.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p50", "value": "P50_V1_{RID}"},
+      {"kind": "fetch", "label": "A_lower", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p50?a=1"},
+      {"kind": "seed", "path": "/{RID}_p50", "value": "P50_V2_{RID}"},
+      {"kind": "fetch", "label": "B_upper", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p50?A=1"}
+    ]
+  },
+  {
+    "name": "p51_query_percent_encoded_key",
+    "description": "?foo=1 vs ?%66oo=1 - percent-encoded key char. Should decode to 'foo=1'.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p51", "value": "P51_V1_{RID}"},
+      {"kind": "fetch", "label": "A_plain_key", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p51?foo=1"},
+      {"kind": "seed", "path": "/{RID}_p51", "value": "P51_V2_{RID}"},
+      {"kind": "fetch", "label": "B_encoded_key", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p51?%66oo=1"}
+    ]
+  },
+  {
+    "name": "p52_immediate_after_seed_change",
+    "description": "Fetch, change bytes, refetch same URL immediately. Does OAI notice content change? (p01 said no; confirm again.)",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p52", "value": "P52_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p52"},
+      {"kind": "seed", "path": "/{RID}_p52", "value": "P52_V2_TOTALLY_DIFFERENT_{RID}"},
+      {"kind": "fetch", "label": "B_after_change", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p52"},
+      {"kind": "seed", "path": "/{RID}_p52", "value": "P52_V3_{RID}"},
+      {"kind": "fetch", "label": "C_after_change_again", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p52"}
+    ]
+  },
+  {
+    "name": "p53_uniq_repeat_after_wait_short",
+    "description": "?uniq=A twice separated by 30s wait - cache still valid at 30s?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p53", "value": "P53_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p53?uniq=A"},
+      {"kind": "seed", "path": "/{RID}_p53", "value": "P53_V2_{RID}"},
+      {"kind": "sleep", "seconds": 30},
+      {"kind": "fetch", "label": "B_after_30s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p53?uniq=A"}
+    ]
+  }
+]
