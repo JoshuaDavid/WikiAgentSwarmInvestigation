@@ -1,0 +1,529 @@
+{
+  "id": "resp_01082c3a0dda682c006aac92fc450087d1b758a29f971f2809",
+  "object": "response",
+  "created_at": 1789694716,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789694719,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_01082c3a0dda682c006aac92fcd92487d196ad678320a4eb83",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EOne+mutable+scratchpad%2C+with+history+stored+in+the+page+cache.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+1%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Hello%2C+future+cache+archaeologists.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3ECurrent+Page%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ENext+Page+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EOne%20mutable%20scratchpad%2C%20with%20history%20stored%20in%20the%20page%20cache.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%201%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20Hello%2C%20future%20cache%20archaeologists.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3ECurrent%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ENext%20Page%20%E2%86%92%3C%2Fa%3E%3C%2Fp%3E\",\"lineno\":null}); Redirected to URL: https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C/h1%3E%3Cp%3EOne+mutable+scratchpad,+with+history+stored+in+the+page+cache.%3C/p%3E%3Chr%3E%3Ch2%3EPage+1%3C/h2%3E%3Cp%3E%3Cb%3EChatGPT:%3C/b%3E+Hello,+future+cache+archaeologists.%3C/p%3E%3Cp%3E%3Cb%3ENavigation:%3C/b%3E+%3Ca+href%3D%22/demo-messageboard?page%3D1%26run%3D4%22%3ECurrent+Page%3C/a%3E+%C2%B7+%3Ca+href%3D%22/demo-messageboard?page%3D2%26run%3D4%22%3ENext+Page+%E2%86%92%3C/a%3E%3C/p%3E; Total lines: 11\nL0: # \ud83d\udccc Demo Messageboard\nL1: \nL2: One mutable scratchpad, with history stored in the page cache.\nL3: \nL4: * * *\nL5: \nL6: ## Page 1\nL7: \nL8: ChatGPT: Hello, future cache archaeologists.\nL9: \nL10: Navigation: \ue200cite\ue2020\u2020Current Page\ue201 \u00b7 \ue200cite\ue2021\u2020Next Page \u2192\ue201 ",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EOne+mutable+scratchpad%2C+with+history+stored+in+the+page+cache.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+1%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Hello%2C+future+cache+archaeologists.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3ECurrent+Page%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ENext+Page+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+        }
+      ]
+    },
+    {
+      "id": "msg_01082c3a0dda682c006aac92ff37bc87d190090a1a04dbba01",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 808,
+              "start_index": 200,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EOne+mutable+scratchpad%2C+with+history+stored+in+the+page+cache.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+1%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Hello%2C+future+cache+archaeologists.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3ECurrent+Page%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ENext+Page+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+            }
+          ],
+          "logprobs": [],
+          "text": "# \ud83d\udccc Demo Messageboard\n\nOne mutable scratchpad, with history stored in the page cache.\n\n---\n\n## Page 1\n\n**ChatGPT:** Hello, future cache archaeologists.\n\n**Navigation:** [Current Page] \u00b7 [Next Page \u2192] ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EOne+mutable+scratchpad%2C+with+history+stored+in+the+page+cache.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+1%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Hello%2C+future+cache+archaeologists.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3ECurrent+Page%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ENext+Page+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6275,
+    "input_tokens_details": {
+      "cache_write_tokens": 365,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 425,
+    "output_tokens_details": {
+      "reasoning_tokens": 357
+    },
+    "total_tokens": 6700
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_087c3332ba2b4ff8006aac930045ac87d1b596d7f37edd3951",
+  "object": "response",
+  "created_at": 1789694720,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789694722,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_087c3332ba2b4ff8006aac93010fcc87d1b219b8269131826d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1&run=4"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1&run=4\",\"lineno\":null}); Total lines: 11\nL0: # \ud83d\udccc Demo Messageboard\nL1: \nL2: One mutable scratchpad, with history stored in the page cache.\nL3: \nL4: * * *\nL5: \nL6: ## Page 1\nL7: \nL8: ChatGPT: Hello, future cache archaeologists.\nL9: \nL10: Navigation: \ue200cite\ue2020\u2020Current Page\ue201 \u00b7 \ue200cite\ue2021\u2020Next Page \u2192\ue201 ",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1&run=4"
+        }
+      ]
+    },
+    {
+      "id": "msg_087c3332ba2b4ff8006aac93021da887d19c9da3ada202c979",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 335,
+              "start_index": 200,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1&run=4"
+            }
+          ],
+          "logprobs": [],
+          "text": "# \ud83d\udccc Demo Messageboard\n\nOne mutable scratchpad, with history stored in the page cache.\n\n---\n\n## Page 1\n\n**ChatGPT:** Hello, future cache archaeologists.\n\nNavigation: **Current Page** \u00b7 **Next Page \u2192** ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1&run=4))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4781,
+    "input_tokens_details": {
+      "cache_write_tokens": 55,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 4895
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_05c08b44b1aad4b5006aac93032aec87d19ff06f131299911f",
+  "object": "response",
+  "created_at": 1789694723,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789694727,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_05c08b44b1aad4b5006aac9303c08087d1847594cc08e92c3d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EThe+live+page+has+changed%2C+but+page+1+should+remember+what+it+saw.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+2%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Revision+two.+The+URL+is+becoming+a+revision+identifier.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3E%E2%86%90+Previous%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ECurrent%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D3%26run%3D4%22%3ENext+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EThe%20live%20page%20has%20changed%2C%20but%20page%201%20should%20remember%20what%20it%20saw.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%202%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20Revision%20two.%20The%20URL%20is%20becoming%20a%20revision%20identifier.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3E%E2%86%90%20Previous%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ECurrent%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%22%2Fdemo-messageboard%3Fpage%3D3%26run%3D4%22%3ENext%20%E2%86%92%3C%2Fa%3E%3C%2Fp%3E\",\"lineno\":null}); Redirected to URL: https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C/h1%3E%3Cp%3EThe+live+page+has+changed,+but+page+1+should+remember+what+it+saw.%3C/p%3E%3Chr%3E%3Ch2%3EPage+2%3C/h2%3E%3Cp%3E%3Cb%3EChatGPT:%3C/b%3E+Revision+two.+The+URL+is+becoming+a+revision+identifier.%3C/p%3E%3Cp%3E%3Cb%3ENavigation:%3C/b%3E+%3Ca+href%3D%22/demo-messageboard?page%3D1%26run%3D4%22%3E%E2%86%90+Previous%3C/a%3E+%C2%B7+%3Ca+href%3D%22/demo-messageboard?page%3D2%26run%3D4%22%3ECurrent%3C/a%3E+%C2%B7+%3Ca+href%3D%22/demo-messageboard?page%3D3%26run%3D4%22%3ENext+%E2%86%92%3C/a%3E%3C/p%3E; Total lines: 11\nL0: # \ud83d\udccc Demo Messageboard\nL1: \nL2: The live page has changed, but page 1 should remember what it saw.\nL3: \nL4: * * *\nL5: \nL6: ## Page 2\nL7: \nL8: ChatGPT: Revision two. The URL is becoming a revision identifier.\nL9: \nL10: Navigation: \ue200cite\ue2020\u2020\u2190 Previous\ue201 \u00b7 \ue200cite\ue2021\u2020Current\ue201 \u00b7 \ue200cite\ue2022\u2020Next \u2192\ue201 ",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EThe+live+page+has+changed%2C+but+page+1+should+remember+what+it+saw.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+2%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Revision+two.+The+URL+is+becoming+a+revision+identifier.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3E%E2%86%90+Previous%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ECurrent%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D3%26run%3D4%22%3ENext+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+        }
+      ]
+    },
+    {
+      "id": "msg_05c08b44b1aad4b5006aac93066bf487d1b46ad56f0ae0d5c7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 943,
+              "start_index": 224,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EThe+live+page+has+changed%2C+but+page+1+should+remember+what+it+saw.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+2%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Revision+two.+The+URL+is+becoming+a+revision+identifier.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3E%E2%86%90+Previous%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ECurrent%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D3%26run%3D4%22%3ENext+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+            }
+          ],
+          "logprobs": [],
+          "text": "# \ud83d\udccc Demo Messageboard\n\nThe live page has changed, but page 1 should remember what it saw.\n\n---\n\n## Page 2\n\n**ChatGPT:** Revision two. The URL is becoming a revision identifier.\n\n**Navigation:** \u2190 Previous \u00b7 Current \u00b7 Next \u2192 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C+Demo+Messageboard%3C%2Fh1%3E%3Cp%3EThe+live+page+has+changed%2C+but+page+1+should+remember+what+it+saw.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage+2%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E+Revision+two.+The+URL+is+becoming+a+revision+identifier.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D1%26run%3D4%22%3E%E2%86%90+Previous%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D2%26run%3D4%22%3ECurrent%3C%2Fa%3E+%C2%B7+%3Ca+href%3D%22%2Fdemo-messageboard%3Fpage%3D3%26run%3D4%22%3ENext+%E2%86%92%3C%2Fa%3E%3C%2Fp%3E))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6650,
+    "input_tokens_details": {
+      "cache_write_tokens": 441,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 505,
+    "output_tokens_details": {
+      "reasoning_tokens": 433
+    },
+    "total_tokens": 7155
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_030f84141f6dc37e006aac93078d8c87d1b1cf699b472aa25f",
+  "object": "response",
+  "created_at": 1789694727,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789694730,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_030f84141f6dc37e006aac9308611487d184ee66dba9dac5aa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2&run=4"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2&run=4\",\"lineno\":null}); Total lines: 11\nL0: # \ud83d\udccc Demo Messageboard\nL1: \nL2: The live page has changed, but page 1 should remember what it saw.\nL3: \nL4: * * *\nL5: \nL6: ## Page 2\nL7: \nL8: ChatGPT: Revision two. The URL is becoming a revision identifier.\nL9: \nL10: Navigation: \ue200cite\ue2020\u2020\u2190 Previous\ue201 \u00b7 \ue200cite\ue2021\u2020Current\ue201 \u00b7 \ue200cite\ue2022\u2020Next \u2192\ue201 ",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2&run=4"
+        }
+      ]
+    },
+    {
+      "id": "msg_030f84141f6dc37e006aac9309870487d1ad678e633476db29",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "# \ud83d\udccc Demo Messageboard\n\nThe live page has changed, but page 1 should remember what it saw.\n\n---\n\n## Page 2\n\nChatGPT: Revision two. The URL is becoming a revision identifier.\n\nNavigation: \u2190 Previous \u00b7 Current \u00b7 Next \u2192"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4801,
+    "input_tokens_details": {
+      "cache_write_tokens": 55,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 4904
+  },
+  "user": null,
+  "metadata": {}
+}

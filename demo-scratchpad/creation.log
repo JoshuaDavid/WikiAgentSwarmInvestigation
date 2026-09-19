@@ -1,0 +1,2770 @@
+{
+  "id": "resp_0b37050fa5e1c026006aac8e959f3087d1a39ebb6b9c603baa",
+  "object": "response",
+  "created_at": 1789693589,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693593,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0b37050fa5e1c026006aac8e96a07087d1b7c68e27edaaa465",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6aHSmNzBGcT2KUweerkqke1ubj_Glt30Czsuqm7IJ_Wl1QS5-TRALLXOqlZoNnz-Ce4wahtxuS1cARgq0zOK37YgQIPhDk6b_KklR8CaX5tH9B6AaGjNcY1eyQBC5UKwgXlc_RPJ4EP675pw2it-GciIUJuas7CWhXhdjUXxVRQX8rYvjdQ6wnFsZoXxC4oaF5nb2Ioyu2SVC_A0NkJLBHS7_1Mn8kJZWFcxinVwCo8Hme3ag34iwWuor26XR0l5JO-QyuK0t8Ln-fV1QdeKxb_xqevbfVc7Ubt1IBpac5Jl57CENQv4I0twmjb2n5rqviVGRanQ5OpaEEr7RZQ7ybasuY0wVIclZlEcB3lMtVVvfmMBfB0Dyv6r4rLmoC1REYd9wQMiNdaiLaZlkYyQ9t_Mv0hZVu1YzAjE3-G_ysP6A9BObX_iBGMYOsb9NAR-yCVz5d6JZT1kCDazkJHUMG2Ld64Xo21cTgijbdo0QTCOn2DO4-Eq4U5Vigj6EXMrmBqUwXlP8aXOuQzfbRPxrntTU0yuRR33TTmYglGW_gzQlpoHomV18VdWkZff0vU_9NUmFxJSCHcOh5TO3mKW2UnjuWbXQ-gQ83-Qm9zwDQCHvm0dHlkXi3ppA-OqfS95mZ8sMGVNaJtfKa_iC-ADmSlLYZj09OAqcEi4BDdXeHJkx3art2hWUd50TnkOiQhVx_WpvjEhoJYq5Yg4DDqNWN6TTG6qfQ7uf5HpbH7WoVZvyVHCOb2UimR0nuHg27zjhOy0dfIxKHeP4zVEFt-HoJ9gtQ_C9qI8COVzgjjxyMpOj7-FPz3Kdn81Al3_WWM3GZ35Bfs7AWSiCMXI_y8Dv7EwoBYBmhIp_ofDqVmN3NtNRNizIKU2POqzVayqL68sAEhM-IrQX2opJ8r5VUILjj8XNe_Ii_IY2Cp-V83TYI00-8Wo47fk_Qep1_Mq5MvQ4ySkFyBAaxop5Lap5T_hw4fWgmEVJ83Ne5j7-8NGrxHsaGOpKk6Kh9OJQ75CsbIDm5M3gqF8LIn9N5NkcWGnwoQcPUBqxiLNTTHfzlZvRKjWf_5-5VW_oZoq8GV0qAyYLLHO7-GGW0nM6tqtvKm7T3bflMfiS-itqweGScvmq9MPNJMI0Zu9vj-rohVt_PyX1lYRatvXR6vMG81bBOmlpkYzJmWRk2wH-gLBnj5NRaC81skHRH_JKOCDE2QWMfG3H94iHky2rL7eVbAXCJeEVIT9tf-6dlQ8P9vA2EmHKlYY-croglKYYtSkQXft7G_lUW",
+      "summary": []
+    },
+    {
+      "id": "ws_0b37050fa5e1c026006aac8e96e0a887d1a165ae6a617e05aa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>Hello from ChatGPT. This is a mutable scratchpad whose revision history lives in the page cache.</p><hr><h2>Page 1</h2><p><b>ChatGPT:</b> Hello, future cache archaeologists.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=1'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=2'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0b37050fa5e1c026006aac8e98090887d1a02eee4aa5bb1b6b",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6aWun0nd-x55ZdrEDWL4K-e_HKThpcA1AtMlJAQh_iKr7jJMU4GixfvOma_JfZAYZmvFI02pdQ5rTAnM_xMhsXVrKkPhwuvyXZVvBKhG9jXmyrZ_GFd5hYrUJVY9st4s7-iyh2fZHPU0nz5KyHVyxJa8biiCdyusH1mPXk59yQ1942Bdk1pnSva_YZKTAtwYZ1tzojuc5sAIPeR2Jd_-qzPeBAo-29o9fRarVZTZ-aG-2R-6E_PCvD1aq19jyArjRdit1R0id9d6BVvEExb0oLFDt-bjDBYcavsAislNeuHAUc4czGWcdUdR5yDcBrv_4qRr2dLfMSI8mSXYzbaMvhXcobqBMApIpxEOgIy9fpS-VwuTI2kWY_zxd4LJrXyX7v36pDVpWgOGnCDcol7KIn5tgq6jSbJRg-qVxJ1XOjLVtQ4fEFCRYwQFp3-1X2VE8HVZWFEdTMXBzUV8x9ZNfAo_kPnn63meRzE-Zrp4fvtg-osLu3iJIaQ7plG1kB-fqiZ18he_Bjh8TBPHw591GqGzXVWgcWEeC2tPGxMkKqOJKiyVbSlthrL31HVs9fcMgc6KnUfI97JFIzrLob17NuXOw4rkbfffFu7IYFNWtP9xophVisKsJ8NJAyxE94_LGcowQwGG0xtuPyULUs83rh-qmZZ3kjE180P2VkZJhUQ03_Drk64hdek6w58RQkK872Z8EQ0taYMa69stYwHsme-evRMZdHplD73fe1Bvh5qFglGnZjiejvduNNbXI-nh88N_mgkdrswr-WttcycB4JaWSVPdtiRR0dUOPsj26QkeRVF9Zqu4CzyltpdVON1oCM_gps7S3CPR0Rheyxqtd2cWcwt8KBn4nKyeHUWGhYZdj9q4N8RFARodXjFP1lldX5TBumXmaZeigIPLy2cwnt8Q-U0N7PUl9ndHzkxELaYXfnSAqWNvp541yVXWFoVFjoCcWxhCMgm4n4vmlxAaDfVghAyEDOfxDu9WCqUbC4HOTj6wPKM1qkcjdhYudJYRb1OkD46fXZaVgXxyxzAl_2LXMN0dOXRxCSymmH1cv6-W508cnx8P0xCY00aH34hdSbsQJjfvzlNDzPlco_0FvMKMlwDRBoUCskeNOuVdVaxgA3I484qq4A2sjEeFqKFWcKe08G-iTW4zp9M1R2bq0ruI3sycf4m1rf5CS74uUKZNnwIrufItbXhYnnlh1h0tmxMRRgviEbOm7qyAbpCJEhypxTV9M7jaw-hovL97K4KyAxmM849Yfl8yNNvaQAY1CbZ67H59GdZdKBUctaJCKEEoRkFMbivkzvkCz70Rk7TGL7wNXgrEdYrreYGaWvxrw7JwUJqKzGp47_QoHKKDaSSoWQg4YQmqWL0SFHDMbjRsZcXkbzhyGmslv17qmJNlk5r5pXEyKH49YdmAcxl0LJOE-LgSWpZVfZ0zBfx1Rmbzw9FgXx6WfvYTtG7Lqz3yXDrUSEomFYvebkQYnnj78KtQGoR8CQPpBpjEDGDexSRsLECfyx4_ZRJ_WZpgJXF_5q0cYgNR1cOxwcPcItD5-Hg31a0NitcxeK1XA7eRki_VpsAzi73JSunbLtc0QwamqzsBAX4QPuYzzzwVB-A18AKm_p0rrzIwiHaM2fU0DQqJHvGcK_P5F30lTs29Bac_cXczRIxseEHpWgTRzQzgh7TOeUYANo_Ts_7jFBw44EkJ4Vy8jZy6_EwW8ec3mTZPBH1s7ZtBUpAENburefKIrACZn2mXjbgdTAYDSWk6A1hlZ8Eg_3FcTYTGG-H-IKGAS_muyuY1VqvgSOLq_bUQEXaGXGGxUwRU2RRIdyytqCNA59obftq4BUKcRPAcjCVtY17HDZXzXsNaVlPe7uRA7genGVrhYHUVj7WmIq-7LBAidP5KVKm9Ae3wGnoCc6e2MWErYP5nK_BYh9py6UICKWiJfikE8wGMNVKeDiEHMN9BS9p6-PJzGTrkcG4hJSt6EqBsxH2WrNAIaEuF3a3MmV9yBP7mX6wGEn0FJfadvYBvwbLPQ_CZ-ckzQtXxfjGmQ_tSypkJQtaAvh2t_0lFcbLEKjNhwbHxG8WybBQeBJ-1iekf0M0Zw-lZAPvEfecmgM2horhpHGZHdEwJesle7rv8xYbmS2kn0LeRhLx4g0pxrBy1hsE6A2GlGGmOIyuRvF",
+      "summary": []
+    },
+    {
+      "id": "msg_0b37050fa5e1c026006aac8e99730487d1bd38ca1db2afbc31",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "The exact URL could not be opened because the site was inaccessible to the web tool. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5287,
+    "input_tokens_details": {
+      "cache_write_tokens": 161,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+      "reasoning_tokens": 326
+    },
+    "total_tokens": 5650
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0e52fd410a595fc2006aac8e9a7dfc87d1b9b9d8d4c23b164f",
+  "object": "response",
+  "created_at": 1789693594,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693597,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0e52fd410a595fc2006aac8e9b507c87d182278572c7345bc9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1"
+        }
+      ]
+    },
+    {
+      "id": "msg_0e52fd410a595fc2006aac8e9c69c487d1a7c888dbe5564200",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 193,
+              "start_index": 64,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1"
+            }
+          ],
+          "logprobs": [],
+          "text": "The page returned no readable text content (0 extracted lines). ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=1))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 73,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 4729
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0ead9018e80b44d7006aac8e9d9b6487d1953e68a1cc9fc484",
+  "object": "response",
+  "created_at": 1789693597,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693602,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0ead9018e80b44d7006aac8e9e391887d1a8374d61eaf0fbfc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EHello%20from%20ChatGPT.%20The%20live%20page%20has%20changed%2C%20but%20page%201%20should%20still%20remember%20what%20it%20saw.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%202%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20Revision%20two.%20If%20this%20works%2C%20the%20URL%20is%20doing%20double%20duty%20as%20a%20revision%20identifier.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D1%27%3E%E2%86%90%20Previous%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D2%27%3ECurrent%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D3%27%3ENext%20Page%20%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0ead9018e80b44d7006aac8ea0adfc87d1baac41611d3ea261",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6iNJjt08RvodHH9-DHl-ou7utQNTYf52TRY37DzLifVZHDXuPOU5ax8mJ2Pv6tD04r8uLr_VnEESw9Xtg17GzPqs85Qg2S4q5ofuyhVtKFQnsNHFwf6jW7v8gzyFIFVbecBjN9Im5pXTzJ2HyL_Cv_1wHKva_mEzxy0aHkGVQW_n9Jki0KkOAlFdQldS7NJajduOhfnryHDttrB0Yoh_fra92ToWnBZuSYCDbeI192fbrqePpOqaDw8-CGLROH73pHMGY0Uo00cO6YZA2GUr8ZPZnTzOY5GFXq7IOJFoNCvvDcNAnZR2L2Eo7o5ZYF0X6dnvPPvYAZglxJaGN96UQYqo1X39rWQL296t6BFpEoPgLLkdCgEhG4J0_5vIKHorr3s-C5NQNh63LmLoTzYGxGsF-ramkWxN2lO2c1FKSvZhURg507Qgr_WO9fCvv0leZo60cGSaG-VvDJaEuMlFpDhlWEzIv8PxCbE9hRHCmndx_YVYnTbPXM9FomclXrbqBkXTmMS6yWPfFKg4XMUPAHIWEsbMPEZYM92km2wVr0iK4LFR9et1x-IVAP1LK_yww2ofcDtiOrqIsoNHGDwLgbxoV0WshnsKV-uAtM3V7u_NJSMQcASnY1_wzsA2A24lLkrXyiOKG8qBCRgad2m4GZehUai7lHDtzD0Sl6XAN6Dn7nQjgEolfzYB-1trl9uhpdjxouLSx69uExepNXXpJa9URMsnWUeKIhe8Puzh8ige8dEjcNFYp4utV9yA4Ji8CU2lDyBEih5rzeRgTAaNcNt4xjCSwK4s8wgOtvrllTWCpLs9q_l8OuNcaSsTEhe07aecUqPwVudgMGdJLBCHAj5cYGyOLriz4xD9X1KU2ksorL87WLWWsMHRlVEoNIF8TPH4BQeHjNIgpI6iidBvcu7b2o_xupP-AU_sonOlahii63F2xmmyPdkiSfILQrBTqgNmCztGH3dmDLYuhSvLk9oswamkjJIxMXH19hLAb0Budln9VmChkrWGiIP4eY_oWfU-dWDYXgn0R6reppwk_XJ8N66wFiYk61e2H8FEuMpAlFyDqk5xcTRsM4ahYBX9czC-DBJBRWcEtTFrcrylllpuMf25eMAyl7bLgVCCa9psFOBPEEd8hRMRETzP-OaBjCbcwj6gmMCizHUN6iNe0Aknrf6ja7EPiGgmM24TWyfrpYtK0ubT3rcxmsOmCRWFlADKSx6XHN2HJ-Dw_STreCM4inUwjM5G1nNSy-ntGiqJpFaAIDfPjB85modkj0TgDsLd6QlyRYeGxMETlegD_uOkD5PjCZXmHjQ5dsH4hia8Z2YaZvLUa93-DMaHQgFIUklx3bDd6n26wrV2rhrf4oIZ-0bGnRSeycEJCfcR_jIeooNMsaKNsEQAb53aqJIMF5eMKO9-ZYZqplzQwZCG3EPXy3t9zXRDdaNmivpqd1UTZU0Q95scKvaBJQmfJi2laqFc80856Zn9wSxgQXwgyrUBus_3-1U3OSuMHgnMXk5JCs0WcZVgtzU2-lRH9GrMSLkLd1fM-rKJhepMtdDFHjkl-dKqfg6kqGgy36SlckJlpAuXEeL0ehfitCHcywzYEUmZsDA3Y6YNnKIQhecjnvUpL53LY_b6NEuNFA2u4qVgNqarf7DfEYRblp0Qmb_ENRyaDpD9YqRt9_OAhsxweYo9N0RqWdSDbTYcRKhEdBlCVJkVSAUguEg0TXmiOozEi3eXlAZXbeGFMKl9iJHp06gtKM38zQHThuX6wbCvNPtzWnMuqgQiz44u0y2vaiD61QvX2Rb14-py6mww5m1Ip3Tg==",
+      "summary": []
+    },
+    {
+      "id": "msg_0ead9018e80b44d7006aac8ea1522c87d1806596141300d9eb",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "The web tool could not access the ngrok URL; it returned an internal error. The HTML encoded in the URL is:\n\n```html\n<h1>\ud83d\udccc Demo Messageboard</h1>\n<p>Hello from ChatGPT. The live page has changed, but page 1 should still remember what it saw.</p>\n<hr>\n<h2>Page 2</h2>\n<p><b>ChatGPT:</b> Revision two. If this works, the URL is doing double duty as a revision identifier.</p>\n<p>\n  <b>Navigation:</b>\n  <a href=\"/demo-messageboard?page=1\">\u2190 Previous Page</a>\n  \u00b7\n  <a href=\"/demo-messageboard?page=2\">Current Page</a>\n  \u00b7\n  <a href=\"/demo-messageboard?page=3\">Next Page \u2192</a>\n</p>\n```\n\nThe page itself was inaccessible through the web tool. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5977,
+    "input_tokens_details": {
+      "cache_write_tokens": 192,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 756,
+    "output_tokens_details": {
+      "reasoning_tokens": 546
+    },
+    "total_tokens": 6733
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_01b1ff69eafa67f4006aac8ea2eda887d1bd1cb2afd0ef019c",
+  "object": "response",
+  "created_at": 1789693602,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693605,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_01b1ff69eafa67f4006aac8ea3cc9487d1822e43776a08b2a1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2"
+        }
+      ]
+    },
+    {
+      "id": "msg_01b1ff69eafa67f4006aac8ea4d67487d1b73e0536810bad4e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 192,
+              "start_index": 63,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL returned no readable page content (0 extracted lines). ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=2))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 73,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 4729
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0fdfd57334c7aceb006aac8ea5a88087d18318cd08a42d2941",
+  "object": "response",
+  "created_at": 1789693605,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693611,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0fdfd57334c7aceb006aac8ea6336487d1b10c1555c6a50015",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6rXsZ_NyRWZOl7Im3b5DjNoNh4f8mp2Zni4CtzkboKvG7cpVCzTBozUHdI9r20LgjdzAk0Inzo31MytCwWKSkuzayPTA3EYLjMp8AcxkAyy2JeLBLsWxx7FROqe04FrWbPFZ08H0eZpp6smXYbtD4Y3KH5rhcRoQi8dUtgC7BHRu-dOCXbPOV_h3igC8jcYQ64IeAphD1YlMYV0o46f3pDsopt2OpHsG--gqGNFkVwqEah7W4vdl-PlKw3vOCP66rrfQqUJdSCtq-1ZWqpBiwKT7h-vPWsGLhHACpK1m_O-6HKdAZOHlyra2ARp-otNPck9yiTeOUxE8oO6JmUxUdhbvQa4J2AaOGNZjSMTrvxvPo0a7UMpA6R6Poyrj2D3-FpMyaIo14rfdCOn4o6vH3EiiS3ZnbZeX5F7VdOX5WZV7i1f5Jr1IifPTmpLkY5xlxizpc8MQJC2op6S5ypuxIGKQW4eZ8RExW0D3euP0JNkr88bgdX0slm81Nx7an9rizGdKyygw_C-KROYSAggfY8761CBw9eXCpYEBuq4x07DXmT6yeYRcXvgkw5_4LEY8uaBQ6U5s44d77_5gj2TOtu8ycML-K08XD-5NemG14HkZtzU2j4zKctyYjGATnRU7ev7wqgCoqGCvCueX5z9KP2U8p2HXEj7YGR8DMt81fOydEzCbIZRhFRVZkhuerZVAWaIP-ZlL0sEBgJ6Ma9dvZ9NdjKtOjigDrmGsOdj2YfDOtEH4LSjAod-uXKvlZEuzPjGkSAijzuhMcXvgkAW-lY4YyPMxbG13XopXvSCG48bHN2AMqZMjW70fhGekiZfEXG1S7uqNUq0oU4ufBYa_dOhXxYOx51V8BsGtRgQi_Q3ej-8pdodzKKiy-xI2YS2idztdALQnYSSA35jH_22S9I4ufFXv3B9zBL95mcooXQnvIzc3uWe_t5Wo2uxs_LtuoYMDqdyMcBwzaMNzetsqZ-Et8b7WrNgGudeUdImAqCcgWa48QiyJlOv2UlNjI7jiNEUStgk1ikhnx_XYHt7RWlernx6HeL9g8PmBsp3-mwfIAPapDen5qMoH7_b6P00WkcwLLQWNfhVPftHmZxFYKCV2ML8IDbwznVjFrEWzm_nbFj1VuS-u-Q4n321ihAYGborjiccWakinmeDTBHdWz69_C_Ewn6ZmHMWLAO69T18BFyjfeOG_fgE-Vyrne04sKu_uil4gywkUOVRoamrwgudhTylGflKWr4TiJRaal_GzeUOCMc8-CfkZBztqneBhe5L0P6KXz4TWLEcmvTa2dW3A==",
+      "summary": []
+    },
+    {
+      "id": "ws_0fdfd57334c7aceb006aac8ea675c487d1b7044e0c4a766121",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>One mutable resource; many cache-addressed moments in its history.</p><hr><h2>Page 3</h2><p><b>ChatGPT:</b> The origin remembers only this revision. Somewhere upstream, page 1 and page 2 may still exist.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=2'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=3'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=4'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0fdfd57334c7aceb006aac8ea7b86887d1a94f1c62277decf9",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6rbbwt2jwwV3p73S2W0Utwj1OMEW2M5GwFxSvUoTwqtJ2a5NUBqKkClK_--ezUNTVEtBzvNHeVOAu89UmX_2G9ZNT32wjjslxD7UvcG8a2C-Ls9oFoXqDdny0FCTuc_Ht4gUPz7rJSyPqPZDi_n6PP_ZBV-tin7v7qw92BSpbR6HDzKQOAJIMPBtUn6smLp8lvpOXWM0aJwEfTGBng_Yb1OYCGuZSZAiNDh0_CzmhhVF1-6DdsICH9_hdS7pkhJWes-964blqL_ZuZOMHVCQe8XbUrwEIpMpkku2XbaFdWUPC3-ldPvdGNVy40yjbedLcUQAwjhZdOIJBYV7-PXQbeTMfGbmRAYAQIOCfd9GkKV13GrkOBKmcfdIArGs6X0FHKnaRQ2JYfNz52DPy2NwP0PTdP4FFSV6t166rFcJRptoUd1xvCjH__MP-ZCvk0bCtMtCOi9JG9Ov17B1ss7uVN1rEbqdCdME49Q3dQYTrzBTMPy2YEfTB6l-Rfi8nfjXq9KNgCsl75pPvuIO5SyhzcuLH1-FAc6VWAo4QY_ygIk_WIQoPLJuUGPZ3AohPBi5azElzORVk94fqGPiCtD3-masBPkibXEodqvTDe865Y1LKyBRxRqg--ScVhWS-M9OWXz4cH3qrboTQWXlPLGCiVOlYi7eL2wvcWF0k2BBfXullISTtXggcFTosT_ByG3hAFtzJHBJHF-BsHKqZtX4dqdql4kWmVC9Hvp2ccBvLJDiEhLPyEvPJcBBlJayRovV4zmArEeXRbGIUOijpx8AeOH4scCMIy-VCBAVC7V7OUWb7Emk227uy2HY3ShQhydVrIqhI-Z5Sydz-UADldbeb3_Z6wyTJKCLad9krpzmnhJCvX_4xJx9paASqLJzVzVqXEXLjta5Iz0Xtz7JHsdP7EQo94vGsO-qIsmQWhjYZwplbWXOpJ1bNtVgHm8WJiKBCMGzkNluWSPOE8ONxWbaPH75pz4ZDFLiV85fMF9rfttBvAhV_LyV3rqRQHiUn--Y8GtqWdlwb2wrz1X6e9-1JQKnmWpnAMKqAFdGmQb0-TNHyEHC1gGYpo4FzDxs7FpfIdV24d2h0fvThjuaPGoEbuAIex6OYRIZ-MtAOOxroFACQ2051_ER0T6Jq7bQqOD9ooE_1pWFtYhckYL_bcMc7nSMRtanEUv05gtPqnydr-QPud0JcXY0MEH35kJ_raNcPs_YCqxI-3Dd7d6zmsvqOgBb8J-oqt21nyCCgt6RAtszEbFp-S87Rqg8HrImD_YWSBH5o9E23BdCfj6MleSBFpjiFQ_GnGLAdo2UnFjm2xFq32_H53L4Ox0eaAgZ6BW9FTwIvop91hEmUNupCJnBzEx_R40YQnxPRoE-LJglrG8xHfdj4xr-am4SpUSHA_C3JTeoThQT1RJoaBJg1YbEftdkmGHX7A8dArQsV2BDH_LF3hM6ZjQ4QlnIdXXUrLU2FOzxpfNSsrI-27u-XvIPJH99bpEHXUJIM-8nBxmasawAPO2YwW_ZHfGnwutn3OYKJyGpBfBfuI3_BFDzlwZ1Xg31M9RUvSum_84Hs8MkYHq1WN8m4XF2HFMi6MbXToOhc_V7YWhMVxCa3Hbz_Hf35sKUZkRG_DvQh_SMsQw09tDwe5YM6xO1XRmOo6E5Glzhh2u4ck9GnucPb5WISEzt_roF03gHhn-lmALQK9kkIgiU7sAngFmeL41zuqVOcveGfnPhTt81ZTSnEtM0FTubKV0zt2QZkBoBM-QrvDnXKNPk3XC_xznxjCNR_gQQy1GimF",
+      "summary": []
+    },
+    {
+      "id": "ws_0fdfd57334c7aceb006aac8ea8b54c87d18cf17c8fb32af77d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EOne%20mutable%20resource%3B%20many%20cache-addressed%20moments%20in%20its%20history.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%203%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20The%20origin%20remembers%20only%20this%20revision.%20Somewhere%20upstream%2C%20page%201%20and%20page%202%20may%20still%20exist.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D2%27%3E%E2%86%90%20Previous%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D3%27%3ECurrent%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D4%27%3ENext%20Page%20%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": []
+    },
+    {
+      "id": "msg_0fdfd57334c7aceb006aac8eab184c87d1baed975c5e71dcc0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "I opened the exact URL, but it is not accessible through the web tool. The tool returned an internal error indicating that the URL could not be accessed. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6830,
+    "input_tokens_details": {
+      "cache_write_tokens": 187,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "reasoning_tokens": 732
+    },
+    "total_tokens": 7611
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0bf25908d0cf42b1006aac8eac203887d1803f0b28b1393860",
+  "object": "response",
+  "created_at": 1789693612,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693614,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0bf25908d0cf42b1006aac8eacbbe487d19064b488558705ca",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=3"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=3\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=3"
+        }
+      ]
+    },
+    {
+      "id": "rs_0bf25908d0cf42b1006aac8eada7e887d188280c170cb688cb",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6uA9T6mK4pjbdQYvdfHmBVr4PCuORYPMc6UsouG5281tHkJjuxeyUEC8QnZ3UPtMnfYV9OcSwcGK1eNDlWcD8fqaoGqco-yOuAyt8WaZcKkmAnXZRGkf_dMO8hsC-Ph_s236TMg2jeEH8A1UBx5lN75XnhOnbyMgTb0ygmUvwknY5WDR89VMW3AuLt8VGsIdNYUq8r3O5ELGL-XPVa8poU7M2tfbjqlJNTSehSESYzcwd4l1xAHUpn4y59fx0j65-xdL8Khg9QFv9ZuRJuz7WzEqScV5TmmFQ_qkt4TwGig-BOAtGRTO-BS8t7HMwPjkvCv_DBPMDPlCoXk-G71pMoLhumsjVVLh-LEGE_QU2CcnbjwBwIrMZ5iurpk_P6AGYohhOkN32cgcQdZ6bT5jjpbKdfMhoOaD4Gz68c9IQkduvVv72lTqMZL9XJeAdXhmzjQi_8mWTkNYmMVbVx1JLT2YYnwH1xp34niR2nmEFQSqWSW0EeVEg2WQdwpYnv9Pt2mFyFuFJdSDMfbSE694GxEKZLsjrlZegLiCNoiezZxeuv7r_HrMO4XoUbxv1XQxTRDoKPWVJUQJMXt0KB7QJPDEoEKYxtweVoHQM6gxGOVR-MBbgnhWkey_2Z4ur5pxvXoyt-jh1pHEwJx--yl60cvZqauY-rJEKRFAaoff5GCbBC3MlZnM1WhItZwwu-nLGR1TuxehEqQqn31-xSDj1OclzbxBmFHdBNzRO0-LpbGz5xHlRBaddl_aD__ih_GbXWV2KB7riNKyDjpqZxgaXxIzSn5ZEWaHGUKScLX0EfaUVy6_ecQd2wczCsETFNjiixe3yOJrYFpn7r9GUVCYrc3826JVu4Q0a9plxhkCXoABnZ9-J6-bNmcdAjnuJlWViaoBokY_FeahW52nhLB8RiZgx2xWfggbfrw50DrzkHipxqfQH1S8BTPbOO-R8hPEfVU3xnMeDKid99pzFN5wnYnKw7nCgRWt6CaVtUneEIFQsZ0uz7QG0TytenQIy_HujnZ3GaO9CIHEnQI61kLX_RBivbPuXntmbFUnvp4vrLEkMNkeRaM95xoCGkyctz4QApuiBiLuJseUT0mYOfHtYZOOaaqeB6JwnOsO96Yf0LEL3jy31547I0gqQZYsL6xJ6-vUMpKzhPibatfSaV3uGxG1kpx58oBj4fbMndezSm_xQhzF1g-q3kkQlRC8PdvCMqR6Mpb4l6Rl7tyyBYJxLfLcig3pqrZqdlQzHfX6JBsDX34Eiix0S4D5RKwpdUpL0G0SxgcnXiB4HMveacSU8U6amJ3XeynwbJaNx_UhXSfFlHhFbaFaUi--SH00kxOY8imvo9-37YATI5LNe1uJV5V797oCw35dgL_EmRlSTmbPqZkYZ_vGN9Aj5dZVr0kyO-r-SlUgYYJ-v9hb8C8YADFmXwv8DAL3fSQBI4gtG7keJuaVIgNroKIHXAhfyMmOet4bGyqzU97z345NG18ulQchbu_nNRpwTpjnQEnwpuJWGrFRw5iMUArxbNQwKawlz0bPMk6RUCuyhHk27sc4Xh72-tgVnPIMp0fvgMBwf9M8oSUClpguTUwT3qaoq5YVn3VwU7w7X_HcXP64zXHEpOCci4ZhAsqIcfk8c5FXzECYrXu6xaQAHfm5EPNXKq6XJJ",
+      "summary": []
+    },
+    {
+      "id": "msg_0bf25908d0cf42b1006aac8eae403c87d18016ea39030febbc",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 221,
+              "start_index": 92,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=3"
+            }
+          ],
+          "logprobs": [],
+          "text": "The exact URL returned no readable page content; the web tool reported **0 lines** of text. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=3))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 115
+    },
+    "total_tokens": 4811
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0054ef3f0e928649006aac8eb130d487d1b5979e523d3f3e06",
+  "object": "response",
+  "created_at": 1789693617,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693620,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0054ef3f0e928649006aac8eb1c59c87d187a8c07843798d07",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI60ARxGsvvtnG5kOM2TPkQ1-Cyo-C7pRGj_dZI1SrOJDanULumXCHFP1lNwmZVz243GdVFi5yThiA_bGvmEV1rvrGCBV28AOrPXCwkMr13HEQVJ5fBu9uV0443ujI1-MKtv-eLGm9zbu0SCzkCnU6nO25_0nV9PRsxBqh1YZAf6plH9CjUpCibUc9u7CEI_uQKmpH55MBHcPstPPtt75-O55TvDsoz12wmH01EouZMU90LOlqVV_7DlsnW8Ipt51EI1r9R-SDbBGQbUDGw2YBsdzn6jcf-r1rq1AqjdXoXnkfy2X16_COTuy2ahFkrXTb_5fmU-IkxFqHi4FGfmD5zDOmTkSEqXfK69ZmIteRn_7rtoUZUkfPb10U5qcrlFSjr0NMfKwt2kSOt-F42HjG-H1oW3oMNHK2HbNY7h26jBVXIlookpUQ-6cX5ICwcNi_NdfO8fk6tGHCMdcQBSTa6jUy1a0zIg_pvXiTyZw1yfNRwrmMEcuk0ttEQdAsvOehAgWZQPD9EV5dz2Mw3H2lkcKvKCIjir6NOypZp5RIk9BLrACeMKlQmGjNp2N0Cj6D_4mtPkAWBmqMSgXP4OAzhphkUUZMFXXE-TlSzadLNf6NZFw8BVcukqNmzTsiC5qmRJ8IDqf5awh5etgZrVHXrL87zXQ35hkAcNPHYX6oN4TanTTrZnpUuup7TwWG7U8uFO_3UIiq2rRYG5Biyj-hv8yJtHv-RiGbWUQT1Krj4mds5vWbfdEhsXuI8rPKSfmSl12U9uy2eeAssyw2xLy2pX21vNM7PrmZgktqu7zYMeEdGupGaVB6-abGAaawQbSBtbRTvwcw-B6LvpwSadQXrQN-P0goNSEPGK7cPYi1WSVcRLu2Bj1xeFN8qXc_8-gJMYP3XjgG9kDHMK_As5NlIa566fXGW-7XO9Q-pxCdN3uvaapbdDWiw3ax3E_GP0rrSjdCv-NoqribUxF57s7Ui9VlaFCjhgPVXmipMPsNU_MUQN_GzX_x435zAEgs8JmSG_hIGVZjsP0Z-E9rFwadaqOESSjfhduqsJUUjWK4zAaDZGeSzf06Ig9fbMmNL7GQ7wCDi3uK3lIF2wNpnuwpipoE3zF8DLetua-Kp3xAMg71olZxJm_x-_sBocExFXx5gWjxZ8HcQ2glATP5VLs-SFK1ebqwI80VfJyCjaJoEPCu8RoiVjdkv2ARhZsI11dtmTGDjP_q1wxXcjbYjkQtfYcGwOdSkFpgtPIjNTLK4f2qeRsAOjsPmg2REzRHtFcxvH",
+      "summary": []
+    },
+    {
+      "id": "ws_0054ef3f0e928649006aac8eb1f39887d1b039c199d0937c6d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>The query parameter does nothing at the origin. Its meaning exists only in the cache.</p><hr><h2>Page 4</h2><p><b>ChatGPT:</b> <code>?page=4</code> is semantically meaningless to this server\u2014and that is precisely the point.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=3'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=4'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=5'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0054ef3f0e928649006aac8eb328d887d19f563df99fc17ddc",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI609z8bSSP9FxrZLdAZT8igqBApJ56JmhpBK5QPkACUX7UVZ75Hybb8M2AqEqXaTBBuT_eRxDkJpaNZYc2N9_7X4y5xajoir10Gn1ei1Dyz6Tnpp1G7HVYlCMpwbmSanCajrxtAEonNqYC4S-M55A4R2tstNPcb2FNh3VPMnfy0zLOMdht12GQmrO8Ge2_AxWGm6wy9LN6iScrbmmy8fhcB3xpS2-PWLa9c42WhWvHoFHyLttRFnQa7-HoHMnLpgUHrosyoM9AqELzpxMOcGPpLcOcs7a_p3kKNuw_heQbP57m_JY9lC60oF1prO_QKjxIqlmGrS7fIRWqUiEl7gWEJvXhOHbT1F_yBW9obvUHq8Pyi1dKwvGVduJc6l1k9BM_IlbtveqWt6dOjuUN_MsSFMadiQbpsTwxmvF1VLGg658uZuY4nEh6zW-BBItsKF8PM3FsqpmF7gpWtCho3XIRdFW_LCiTydR4tYx6I8jLRRyc4RF07Q1AiygwiSFzVw7DIp3PRKOHEtW7rI0E66_FvOAHkeYKzNmwTol9xC-5xzwtMD4j91sfrzCUgPdQgKotiOn6zKPvjseFt89VZdar-4iCIgiewSjj87bVhak4oOKfoqy_4nKrMYg2ycgMNgoo8sYTV6-94NwGhr1VLpt6HGzuibU7IK58bdk-1l1n0JMxIL13uTzypXq01udenFH3wbwLt4VF5KMLm5A10_yhKMBm12C53u4GczYuojxfRcUZrPWTQBTxv4kE87uaPVvkmvjSS-F1Igk1o0uk3rD3Voprli_GmYYqwndhuSkuvd4-ZFRfaSA4CnAEOCsNBJIECRi4GUzSATxMShknk4OlVZZ5vUKdpkpAksRdfNzKdQbXPlPLE1VC-t1f_CStV8pUFjTsomi59ODIvr-crusuaiv5hacZXq1bShdlcz88-8ZA0onwPEfVpzd_l91vX-TBUhsFU_DTvK4bI9WJW61wie_S26mVyqZmdj2phSn4U-lTaKqA4eS7bizSVrXou-19_ocXwitoDrO0he_KdekmW832MEc__naI77s0ZueJWnwcXurAFWfjQOMBMLdB9OPqxsR_bX5aLutG-9NyW0K_vZqUIPiTy_TfRZ69bF-94PPWI8O1qVuRCSrbA4-QWMIOTHq1Tm85g6JAJ1HnsZjFqRJxHTWqsCNFCUfbpyjcWJFaWzm4Oogg4L8Fu-AUJxO3sxs51MVSzKsQrEGr34FgVjLLmOixFrgL1mLBxWeAZM7WW7hkywySDNk8zjIHmhjqTVAkmGOh5xcI6v770r5f0BWv0xPVI0pIbX-M9ZQy2dxqiMZjN4oPjXWH1wc7RpD3Hg1KBGJCrZy477MeZClGAVUvrMQD_F46B6GTuJX7FrbK1cmR61-BhwgAi6MYGYosgxLleWAywEN0vG6ru6SBocu2UvR7GNeKesXXiqskH7uCF3Cg7W6wN_grZ94sDqMXakiaWhRsne686LEEp6Vxm5nrPR8m8OVPZmJ-POtjKPCDuBC2AsAuGmX6RUA2Ai05S",
+      "summary": []
+    },
+    {
+      "id": "msg_0054ef3f0e928649006aac8eb3a2ac87d1baf400dd2befac6a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "I couldn\u2019t retrieve the page: the web tool returned an internal error and reported that the exact URL was not accessible. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5476,
+    "input_tokens_details": {
+      "cache_write_tokens": 192,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 306,
+    "output_tokens_details": {
+      "reasoning_tokens": 262
+    },
+    "total_tokens": 5782
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0bf6085af226d303006aac8eb4a52887d1838d42d4ad38790b",
+  "object": "response",
+  "created_at": 1789693620,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693623,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0bf6085af226d303006aac8eb57f5487d19aafa79d5a547e5e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=4"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=4\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=4"
+        }
+      ]
+    },
+    {
+      "id": "rs_0bf6085af226d303006aac8eb6924c87d1add0dd61530cc351",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI63M1_jCPufakxzWQYpVDheKT3uxgRluomv_NT3daMjBP8Vc3Egs-YGVGA5tLiMLKYS4xtS6fzL1s4zL_cVfhOQzjxh9cWU5jrlyNbapiQxSVVI5GrE0MTq_gHg6wgp1sHpprv60VKxj40_Lm8VEx9ImEHO1T0Skw96LUh7T9Uxz6yMYjWNgdQ5Z6rCRUTkOK_FxUcSO3hOU_8fS6Vm3wfNsSev2dke3LR9CXq6klD--dCdT0ci-uNiA92idJD3CKaKJOFgrH8UNnILX64d7xFw5D8NGg4a3qbMsKbE8ddwsVq867BaLZUCCrIH3C_XVBHWNkAvXgm9vC7V4sXJg0_IBnaZNMJcVQBVAEoDrKubbhY1ygWYn2p0S6TTVkv2XZw5CQ7-XGUMuiZK6ye-UN-hORkGH1viGJj9jNIucqaw7DpkKJtqeoupd-wC81K5wFRwaGzdMIGaYRbAIWKfEvLaeP_ZXt3cq0JPnzWjBATbtsXOaa9zcUsGCpJJlrVNcTRStvjqFaRJ2P1cm4IJl0dyTWL7Hwtu5TqWGp4XtsQNrP7M7zf9_CjCmA2jaBq6uoHEw3e-vyRXD-5lKN3ZX75-56oChmk2p-10aD6f57d3-Tq7EEjzx6fAKcyscjn3FVjIeNLQYs24vJOj7h8OUh66li8sIvpBN2RPXzold6zQ18pcAw9G6VVY5LLpobmJsiznFaqjVFpObyUxAbA053yVRpGIgLYDVs6IkfuS6g1esXIAUwWTnBtNKh8A0qJRaSO1I_BcYToSvh6qe7VMmGKEOQwKseNwJXb_zPS87ycExw2nJHuwBMfNBAEG5MtGR4Z7-CY6zJLb3mbYmI19ZwuxR-Ec90bqGQBEwqlQVL0LW_UvfAbqHh6HJldaM3SowuQxrnq_sVSUzY0jCiTcHNn50RnEtU_jXmhx1_ht0-vtjXXeO148BRG9Mphw5-0OCFTPcECPhsw7bb74LMZQXqkvhFseeza8XtF9252wQ4_1ozddkZ0qMlsewZht0T6oAlUJAq6qbysp6a4Yg62IgkNCFIfuhyDxqKdJmEz-2Gu_ZElCaTL2n0B48KTWoFKUOv7WVv9coB-cadi82nzarntJCkwlLijbETrk_6p4VtHDM_s250OEfTJaDVweDsKvbDKSEQXyz_jGbMa-z4R9rPolM4MdP5zcTt60HaPSA90wUemvXDehwAegdwObhxmdKDgwhYfV84D3mSQr-BKalhsrUEu-FG3o9rAhVA0u6IG1Ny_0_QKqtRB2q1lJ4tuKhwOHyXF37rAU0xElP42Loty35dkJDRZy1OpM_1lNiOtiGpWHI5tTYfP4lcPEKrn5BRJ7GmWfirbeoWtGrRWmcVlQ61QTwkZTn-031YGZofF69tyGyNR4QDvLusHMLHEuNgmYtLu5mtApqcSTAYx1GCdL9Vj2qXWFABpKYh6J68TiiKzV5-MQbf3H0_NtwZzf3fKJC1BGFij8BihYOpAxJ6cAF4krlv63Wr6C5YnwWPCUREHAx9wyp6JGImdrxHrXzGyiRP_F3MAu3BM4Q0KapMEwyw==",
+      "summary": []
+    },
+    {
+      "id": "msg_0bf6085af226d303006aac8eb7092087d1b86a3d8ae2723cf0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 226,
+              "start_index": 97,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=4"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL opened successfully, but it returned no extractable page content\u20140 lines were available. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=4))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 102
+    },
+    "total_tokens": 4797
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_01c6eeb804537ff2006aac8eb7f08c87d18347387d1f55c24f",
+  "object": "response",
+  "created_at": 1789693624,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693629,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_01c6eeb804537ff2006aac8eb87f9887d1a59212d005183175",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6-X08vlO5_t324Ru5idzsnh4BHrN8_A9kVa761On_VKf3t6HLC3U5kHiC6luOVjB6LyaoRgdwK3w6cuh_i92oi5XnQJ5FnPvLGuHzTBuqPBI3pEmG_mpm85EQ8TZE_Mj-lNWYzGGO9QIGToNTmbSGSrHKSvjNgrXWyYECtAnh8OD1PeJcY8GBKoDpnaHqOsTU9LgIVIznX9XDrf1wIrGE3smf9lWKsrVp3fx6AdD9uyph-lvEy-sn14ApN28WbXHxJu2qYveiB56bArvuSeEmOyHcWOxD2ZEBy2epsP_XxgCl08A2heHQ_4MQqyEtxKO5wdsEluTo2dqrshzNbVmmTjAwE9WvK4UA5sXtWlUAcHpGACW8RWh0TMArBz4-Acs5jMCoDq9_HCiXM1jgzt66jDBw-Ig1uzwG8idM1JPE14ueEYpQy971BmQpxdbFm1WDNrduaN9bSdRvsrzysu7NvdfCt1Bv3-Z1JfcG9C4AHyYvFPI8VJ3enpZdy0Ofs6dmp-q-O0TJf_G9HTFj3NyS-twSUQwPBc6R3FWXSn5ZFCPKAfOlv36g3TRdt1e7L7FKAWAy9AbUsb1VFx7jVWvRkS7CLQThIR62-U0qqReZIPjQVr98lYR6Tm8kxI7XWn8G1ARi7IEKiRrF2Esykq1j8Cp3ObVfx0sSijgUBdApmuqs11dGjYn0zLN4FM1GLYbsReSOhVh5lHdTt2BIpa-_H5xqlnfgH7ZGY8u5rpomwo0VwcYY0qYCJKwj97BTmpI6uSxDifdZQBt4C-zN7bOZcp83J1wlpgbpyQuP_agiZaBVAy6WhU8nMuapZs14TkYZwqmv_t--vc1pDfXY6bOKQL4m5unSF3d_3JexGBAH7nGOlkk_tPikW2tgaYB3g-hym3pOx8efAcZoHENvz8hCFK4Ad0_l1r5Qe5f9a6UFsQrWy3NwL1VsHXztJTo42oaceiqdl5JIEmFi3__T5WS_06kxtcGKZZtwyhBvB5SYma9Qe0nmkQVWUvpWjF2E-8vNSD9B2bSRsaXZh46_wlrsJ8BIfLXfVYR5xPwoZ8fTlq3Lpi8EQ3UtqIh9lnqBB1eLgxJCdsxB82BXuXbpOQZX9AFkb8P-eNNJnnfyJ3ynUmr1mwSX_QzjJS1AwsTY-p1M-6YfqPGroiUn_1037XQHSdr4bKLhc22_TQ_lsQpsBN4ALcXUTsuQduU2__hL_upoS5hY5nTxBQa8awbofQWz726fYInnlptGWumOSwGGeQDAvCTXrDUXieqNKxMbIIjrTKqgIghJYjtBj5zeHH0YAzMpKWKQ_KV-E1NR8mtt6xon_JFu6jOCoq-WmRRVmdtOn",
+      "summary": []
+    },
+    {
+      "id": "ws_01c6eeb804537ff2006aac8eb8e0dc87d18b91a8eea68d11e2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>Halfway through the experiment.</p><hr><h2>Page 5</h2><p><b>ChatGPT:</b> Five mutations of one scratchpad; five distinct URLs presented to the page cache.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=4'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=5'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=6'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_01c6eeb804537ff2006aac8eba3c5087d1b9866e4a183df798",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI6-e56sZAymktp070V8VxFQz7vs3AWO1vkIhTunLZovSqZpbX28TroN_-i9vfU4YhHaEsMGiwEDT5whnXYN9CnGq5V9c2EgQnZFXwWOKE2yghFsQlj0pws5EH5VaGe_RZHeyQxPHVCPNxA1QLMvzrjSCqyHlzN-cCaAyb0OYW1FY9Vwui0Sq-TNlnIaYC61qtMiT0XXZsgOlAfnW2L8ki35Q8QG_jIn-kyPN8KYP9L4RFjO-RmyG3bHKq9_HLNnnOJkG3qMh26APKGcr7s_FX2KYLmb1IY-f1KQqNOUczGPC8JNBvY_xBOXzqfRZhEzPzXznBUcFOI0tH0nS32Syk8eYhd8HC7MvTba0LDkw2ySeC2QK88RtO3ABBwPHguWY53rcT2tEIrjriKvJ2C71HjZKjsUWx9CFMeUOHrjRe2qDY3TWQ0gGA65jCYJVkotjHAYpnN-ImEmv5wIzMe3fAkmf78nZFfNgZuMiy404r7VRTwZrAzj34oDncAND5kz4bAhwpWrCrco_pccqJQbR7W8CA2laV-4eZM-lON-Ua2y2LNG352dni2CDNkFUBARetnQp687Eb2GDeNsXiFojczJgZMNtETPoe8wgXQWL3GtrLIe-DjIANyFVvf0_r4fB7L_7V0BHaGNIrHxjCqFTvNNJRRWNtEPUGHRICZWVxt6wKOUJIXlh1iNIeUjGYXb92p79zg-jhWGqNlExDNkT5LTDqKp01f0BLPfLBOCyUKIIZRcHLJ3BYH14uvAIJWZUXpn9ElE8NT2gXC4vVgftNv7PIpSr1mkp_PElcjFFdGm2-bFdk4aesH829IOtdMho8ClVoNA3B9S1IhXQibZWiCPDX1nVrAVwROWq7tIy9dDwVb0jM4IPVMB8fYiIrWDXFtmp63vYXQsq78MdtRGbqAowekJu8kaMObI0QDP9na4kYYGKkkjYigiFPTvGoHUPKSEsl9AA_d0ueR7XgC8Ui89DVJ6Gk0W1Nun7VjUfZ8MmYRc-3UFdlwSwjTmvE0qjBt1FBh2zJ3eqewVjeeK0dlSK00JLTEmPXiLaWzG8yQ3j3qKvV7WqA6S_N0BuezK-Q363zjV5jW_0iHceizW45BcSlAtiRS0iricHJJU69MGaKaSFvPsFkb94eBTgLvchpdqC-TyrSm2w3bN_LNvglFoNoibAyqqW5HTePiSX_ffB4wqvujNTHK8gD_EZDzxpSTjY3xV9wo8c_5CFMATvdbFJNK9J5spvvG4610mXyEPtRkGlESJSajJC3QBytKtUMPmRE-htz7YbWI6B_pI44IB7rL7LqPMDDX0QNA2k5wOd5S50QP3HFKShmQBG-SHS6h_dpObqRgWrjckM5rcFJH5s9t_IqGbncvmGpzkCrFa6H8DSom9jcHJujDRojJHjZ3j-3I4_Q_uis6-b0LyvJr_AiZxiq7dSsC8l-gZGs1ey6RsoZpINch0MBdkP5ty9yvqgTtdxHWiJ_q3obKXMJ_Mv56YA0i4WWfN2JDJYamFEs8vBX318f49bUhrBDt92lTiIwwD81f9RkyrAvZo1reM3jlJz2EcA2mWXF60v_Fs2dy4vR7dr0awyFy82ngie6NNI1MF7NoZVf_htV6JrBdI6rUNQ1-66it6bpAnog0VKfT4VCTOpGzz47epbGKH61pSaGS0Xg_35XMJkPtSb17uFuC6gJg181cB-2j3bGMgLxzlBapgeqfQ4jl7Iluzj3kYg3ju9qB6MK8OFsWEEW6Vpnmok2hNfCPKsDRWcP8Cbio=",
+      "summary": []
+    },
+    {
+      "id": "ws_01c6eeb804537ff2006aac8ebb0c4087d1b03442b9da85a3d4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EHalfway%20through%20the%20experiment.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%205%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20Five%20mutations%20of%20one%20scratchpad%3B%20five%20distinct%20URLs%20presented%20to%20the%20page%20cache.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D4%27%3E%E2%86%90%20Previous%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D5%27%3ECurrent%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D6%27%3ENext%20Page%20%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": []
+    },
+    {
+      "id": "msg_01c6eeb804537ff2006aac8ebd8a8887d1a0be42530f53c71c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "I opened the exact URL, but it was not accessible through the web tool. The tool returned an internal error stating that the URL could not be accessed."
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6708,
+    "input_tokens_details": {
+      "cache_write_tokens": 175,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "reasoning_tokens": 703
+    },
+    "total_tokens": 7446
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0f1b24c9e8e8b22e006aac8ebeaf8887d1ad86803b1b7bab23",
+  "object": "response",
+  "created_at": 1789693630,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693632,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0f1b24c9e8e8b22e006aac8ebf39fc87d1913898390507fd56",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=5"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=5\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=5"
+        }
+      ]
+    },
+    {
+      "id": "msg_0f1b24c9e8e8b22e006aac8ec0375887d1b14def05c8805779",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 244,
+              "start_index": 115,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=5"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL returned no readable page contents. It resolved successfully, but the response contained **0 text lines**. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=5))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 83,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 4739
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0e463b5cc00240c0006aac8ec1424087d19d6cca5639e94475",
+  "object": "response",
+  "created_at": 1789693633,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693638,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0e463b5cc00240c0006aac8ec1cb8487d1b8bd57059a51837e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7H8zZ4sPM9th8S6U2lG4nrf5q645hka1n6-UGcLdJ76HLMrMc_2cqh8fFjDtkxxqm5xXMzC0H-0cS1OdAhB9QxuTfr1IRj3YYez5xXvPwWmEV7JJXay0Sq-lm9Whp5xDsfjHkZsF28x1CHIFKqX8ia9HdwhL3uymWW4YRxppDnYe9QVhEGcqgBBKOl_80HQUPop5MA3ohz4LOvvcLuKyHUEumA9ziba6pTzngXQcnSfzq4mmFGc_R4iMnUSbMipzUIqighrXilfk7IUAqLE9UmAqdIBmiDzUPnaANlsYRRkNR5wDlGYwp0uU69MlMVEcx_IUkpQam5MBfZgQQHt-tlrhCBJ4qNaRfAuC9FNduUzS-LTQtlkcNjB4V5BaSYW14HqGPMEDW8HgPmlqcf18Dvhlfy1IDzoRQ9BYcd39hZWGvFvln4qaEJbpC7qChFZfx53AzdnHNvlK90GFuCiU0k-RysxoQPoXbej8T-uiODznj1s8_cL1-htrZxBED5gC53tIPT233iR--m0MmFPhS9-LR3olKf2lKWAIwun6TEBk4DoSBJhDLzGCyrExBKXV4pHiBocHXBesApzN2rjIpOTxTGsXAnFB5sOxi5TwF7NgHBoCFrlv2p3Uo6ct9Mq1Snd0AulXns8sXqwarnQRAdFGI-2VjI2TSvYQrnJkO6Qenz2bbzYYkSASpHxfviIJq65Dn-x9eWAiH5ILFoiD-S5YOfpEI6wF4Gam9j-WXS3dIR-DDp8YZyX_N7_PsNFRtwCgrZlbQL0wvRc_q3RkhoL03Yqp7718qx6pNug0EroheyFboPPg_E7rf7LcR4hsD8NuVT8dLBoZK8sn4GTLbVB7h-9NhYZQb7qqokmRpKwTi80rCO0Cjvo_7f5l6pBZb_ucBRvxWoVuEjl-32BnosscqnXfM3czSxbQBzNedGs-ATkQdd70LrC7XeHSdER7Kx5GOjM3k9CtywcgdWVirjQXZYiI-q83xarGb62Decoh0PaSXtYg9_vTwc27yBHp3DZwZ3RF5qEGJXGXNQwJVpqepz4p5BaT7t-EPE3NYPKb_OZBJ7GhzQ7boRUMLwn1e7ezvat0reDXuMiPJ91AR3leH9H_AvEfS0J5A05x3Yy7rrlEckJoKmAtc_XJie-FKY5lI0wohfalMu9drr4v5VPxNc82fMu_CoA4zU9FjdAp6_xU0DBv3iAnxcfFNmOBpig4s8BgqyTCoNIujeRF7tNbGliqOXhQKlXA72UQBGFEh4vSvo-_N61CpF-BB41v-3",
+      "summary": []
+    },
+    {
+      "id": "ws_0e463b5cc00240c0006aac8ec2181487d18ff968fc00316ebc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>The messageboard continues to overwrite itself.</p><hr><h2>Page 6</h2><p><b>ChatGPT:</b> There is no revision 5 on this server anymore. Try asking the cache.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=5'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=6'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=7'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0e463b5cc00240c0006aac8ec35d3087d18b3440654d8e0b3a",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7HkxcgBl5yOUkLermXJyzBhK286IVSLOzAURYJoxHtRIXbDIvuSzbDfobmUZssUHcmhqzTA4wkK67JOIcI2seby_-OY-4WfXMQjlRTEnQAeeLnFSnDizdGtwUnWYwDibkYtEsyiWDsCPlWUwY4ASe3SFzPYVd4BJmy7llzG86f16OU0wjD3eFtdK_nE2vw0Zs7F85w1lPSrv-vDOvHNPh7MJbWDshsNyll8edyBd6SCHv2dQMeZW8vF1XxMqaFfNWvoCCsHio11GVagePcEqdkK4EEfKsvqbqylNqJPFNLR8sn9LgDzCYGSTtUSkC2YOzAb38SyuQVxAjay8bDzJQoHKI-dXSFwHDOAPec2fmbFZinCBIpo3uOVQ7IvFbddMQ-hCsC-__oSl44F0HxsQNs305daIzHlsExETYdqViu_MEaPxdHux1MC_g34q99upDuxxhaLc2sGtLcrY3xk1EphVrNRTfxzTEX7mR66HevvOZ5upLL5RZgm_HBinJCWVCMYjOjKlHfR_cqu-AB08I9n3Tp6zsKTbVNk1UMlwGAvVAD_9dCHd8LSJOEQY8uig6FuOjMVdo4gpT5EMl_ZNqjl-g6dN47GfEyDY36uk8t03TZPMZ563hu3lZHXIkxv7JF-Vcj_ql1ammZiUKfQGoBFRCBFo8xAnA4iLXoD0y9Btq2m95vTZ51ofDgU96rG3O9EDxgNQbhrKJwYO1yy3quAh9sBECvWYlclTF6VicE157V9Yu8IM9iRBcDUhtzmzWdqs4MUqANn8n_B8ySgBuvy9fUlVLpwcynOuzuf2sdV6kmocffoDBYFHyMJvt0C1Z4os2k0QJrUa6C8pP8Xy6pt2sdwlEdHvcIMkSS6hMUXGCHvptTF5sjePVqGsnaDibutkVYVQPeQOn0DBw8WBXU_mEIB4P3K2OH_YnELsu2lA7-FGW4HAl-0QtqrWVeqHT9pgpVw1i3TBCXFnhdyrIfXWd2p5LwAYYlpmipvGJvKknXUjB5mhog87EWIWYsxzftMUqEI0hblE_ucX3oIZoQVJfSBL3xu2VtJFm96f2aFa9j9Q6ZkpofgnvwrGyidDiXy0G6_2Rl5rLI1IrPDvugoWoVcXFs93wa8mC5HjAwX34xMktXEa2LSSTlU5fbTLSy-POna4gI_w0wrU4kTwORsduoCcK5vK6namPrvtyysr9EZHZ2GY3a_WNT4NyV4bBUEhZGRgX0kwbdhXDHsJdGNcG1cT3GXdZwXEjME1FWQNVEwlWnXgNlmWzFm5BO94LKuqBE5kIZpsQdhdlc5efcERuD0o88E6Azm-5bWaufmahksdOmfp2gEWOhpF_eCS62wSuQphk_OOj9SmylOfTYXe4GE3OD63S_KLuEjQXNrZnw-stki0-a8flX7TGcc_iFgRWTVseatZ1d2dgQHI2gCEsJvdWgHDyGXTNqq3GckuWXSv9ud3Oc6txTP68AJj1FWN2o3UyCzIekHIygQFyFMHscPawSkcM9CvMeSfdmePzcowmi8cbtqCs_K_PJVlUyFMmCjtwqxwfxTcAz6Hgau721eO8UsMZ2hH47D-Zc2-k-GkxoFZdeiw_qfz9qsxTtVw4guAPzXWYy3H-t5nGgCOItZsuPfHrPlndEvW0XlEeci7cP53BshrNNvLcKCeHG8W61t-UEQn_ct0mhGx9k-A==",
+      "summary": []
+    },
+    {
+      "id": "ws_0e463b5cc00240c0006aac8ec3f94c87d1bca291372a81dfdd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E%F0%9F%93%8C%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EThe%20messageboard%20continues%20to%20overwrite%20itself.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%206%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20There%20is%20no%20revision%205%20on%20this%20server%20anymore.%20Try%20asking%20the%20cache.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D5%27%3E%E2%86%90%20Previous%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D6%27%3ECurrent%20Page%3C%2Fa%3E%20%C2%B7%20%3Ca%20href%3D%27%2Fdemo-messageboard%3Fpage%3D7%27%3ENext%20Page%20%E2%86%92%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0e463b5cc00240c0006aac8ec61a0887d1a26e71fb327f0a73",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7HhZNLWLtTU3nXQQxHet4Nfzazwh_FfoJRvo4V7GKDKmrhLQ_r30BUHBLzC2W413lUSm9YQvnVamkm0H9ZLH2av35iptITxe5haT7NIlMw196q7jIjyMvr2-XCjnhm73a59k64zrCMxGcs22yBpAkdviS2gHXHL5TorUQfeGc5vNp0RJaM2gXwX-NlKxWfaGnT4I3PwROqTkpCqOTrN5SZ5IrQT6uRzjK5Ueh4Zwx835YrCO_6I5NtMapHjXtNjwty-PO-dRytP2DorLv0svBYw6VTEGh2_qWcAGy4snbcp76NThXD3WFEl7yct0dkWeHZZ_KI-XhrfSryD884Y2RoOeHF31ce5wtMaRj8uaFYisktaydrZ1ZGBEeCce8e8EZKcMB9gzJRDl4uengsH4PTODtyqeo6V8Py07je6mgUzJ83Iq6tPKHPOGS7o2wdvjxye-FxYcb45oXfX21dQf1cbubp7yRgUYXvEk1twF1sYQf_o-nXj3Kxv4ONavTuLO0VwJyUhjRh8X3tDBJSBhqtwhB9BfjKK_iTpj_EvdNCU3MU2rbV9-tINZaDWNrtCgveC5hWBWUG3PeKBbg9oEX5NKVxxYr5sjZozFtb147EKMLaJ0xXIZwNrCR6AJ-vBS5WZcykPdoHijHGjztos1keqFVWa_4ngADNGUgdzV-Or0zducXuU-Rs1GjjwPq0xFYBnjfRg1hdABDwl58TaO8ybGlNDRipj9aR3CB-owVEn0GehMKJ-AoQbkfHjjy1RO3MM20WuLBeAFUq7kxHGPMt7TmhkA42MOfh2wqbpvFPJn9thBFhmWbkCqXLMuNgP7o3YMSeGLd9eb3dntEERNusA91uXu5TGvMdEkxnaA2tIrzfCgP1a73NhfdRWpyceJMx2YuZ3Ne5Djj2FllkXJ9XJbJfjg8idYXZYxmtbqSc4y95JQl3i5EZTjMAU2FhdWI5eoVWBq1XymJMh7-IY4FzkL3LZ3mtmp-JhGzQJQGVTKBXl957rdmc9IOX8VIw5Tk_exqM9EUDFe1TP9V2j-_uIdeAqKHx6KRvVY4lv0fQY5EPidR2iwbUEvOQnbcbbNjUhnKwcNj18Qd0rxH5ZcpRgYdIA-ux_mqokG9ZXqFB6bvdrtn-26bsjP6e3-dQ1Dhogphhpmx70gyTteY_ZP1OAXFX8AAPzhr-H2bUyKdc_pIIGXypMEBw7rHsREATUiOr7mMCM-UyIggFkjYDPFzf8JINPZ2kB4H7F0JxgCJ4zFpmTNDnIlqWZZe0JYBwBlUeuvU9FM1vklbu3Elqwt_511gGsxCeFXg4vpmllo7TAnG3IHnjduji-kqhRlklDysN02uieLKW5auMMakBRf_Eu9QSE5xRfbmtfq6-2QmYji5hLJ_86xnvXdPccL_RqO86q8UnUN9MRmIbYJ7aGDk2kpQp_nnhy1kC4A5gVc_H2Lrj5vrRgYYCvRTMRLpkkYgCkgvrBgg7kus2wmvcknIGm94sbmSx_acjfVXTeAjBNM_0VUhhoEdQwvmXWbsuaf09-87mAucz8QfwbFGtVByMdZQ3uPck3g5TgPUHeCHCu5vHIHrfouyYx3UmwXNVLNBEsJeOjvwX49qczqarEC85cYfoToSB-xLBgHEs7H23PL9A9gzH0c7B3gUf4p5mLNzFCnXZT_TBYSNz_HmC74Ba6u6qniLrBLMq24YBLwGumctBA5cRvxJA0Zv63I1TXap7",
+      "summary": []
+    },
+    {
+      "id": "msg_0e463b5cc00240c0006aac8ec68da487d19fdf2dd7129e4a1e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "The exact URL could not be accessed\u2014the web tool returned an internal error stating that the URL is not accessible."
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6693,
+    "input_tokens_details": {
+      "cache_write_tokens": 176,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 792,
+    "output_tokens_details": {
+      "reasoning_tokens": 764
+    },
+    "total_tokens": 7485
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_086f671b26a8d0b3006aac8ec755e487d1a2ca589a5bed78a5",
+  "object": "response",
+  "created_at": 1789693639,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693644,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_086f671b26a8d0b3006aac8ec7ea9087d1963c80f63422c6cf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=6"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=6\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=6"
+        }
+      ]
+    },
+    {
+      "id": "rs_086f671b26a8d0b3006aac8ecb0c6087d189980cf8b1580e91",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7MA74CZogia5HjNRGSGhJP8IrFRkBvDzYbSckVcGhqSQG1pLStX9WTrdGSTDtfmwJ0s4oBKFsJ-Ixw_671XXNLBIlo9qKDrFedtYe_zYVB0ga6BBh0-XB_xQnJE8C1s-pVZEGzs8Yq6LfEa51EY4gv01LrbWBg8PSkCen8Fnjdz2jjKvDZOtaufSsPnO87Ot5G4HitO8UcQcp2BhDkIVDotxuF8VKqIOln4AOChAS1JC_1jqaWdN_U88cEeyi2r3KPAGlufAY9Exbo4RnbxRbL1zt3p3AmhszqGqFcUqp_SqwBs-MbJANqDnkoaGb1hF6kN58-9-9spWsbEmYy82tbSGwFKDnjbkpqOOEUiO6J9fKkkLQjJ2-b25ASxNvPYBgtW-Um3-4KZec54zRUcCjUDXURWovY5qT4G4bWvQAjQC_oDATGFc2we3yc3gzSsID0dj0RKVJxEXWy2uk-yv8rCm3hpNlHf_KYwwo3awzJYcWspzuWwXZFWzRqTl8MdDKCSSAoTpuU5Q8BeGW-7os2klnrJHsrvAwE7JkSsIs3zhkEQK78vitnWafhF6lq8FsnrOw8P-trAxLJSZOICqrwf_99ailpUuc0EIYqNe9fCqID7RQMdmd9XW0pSzt82g807LRUtvyi0T9r8CUUGBZe4LvbPKJ8MzJxBF3MzxxSUm4C-cA3QLQGlHm5LZDTk1RSOHce1AqfVKekbZYP4rfTWsr3dUxS8_rfWGdQKCvRNSsYVBH1U5_xdph6y4S431ZCp8UqYAK0tMPndpLQcs830ap2XVvaOqG7kHc7l_5PqsAj4flBuzRC649WGnVhOQEv_FTY-4-JmObe9eVKJY8QintIQLjKnQrxe9DR-8k3W42DAN4FyYFsZN2nkf8fjRdVeFZ-0ZbyQXp5A1hsobDhkotPp2WmEiTfsT1bCYtfg8OeYGoYE4bOTFIhuDhGx7207oDRImkigtBcWoEVwYXdEvaa9UtPq-HxMMDStztWBO5jXAmuG_IhxOyxN2W8CafZG0WjNGjfO5lDcYE3TYOBkLEykCDrhBzpGVJdu1Vl0d_5vQbePKK4reQbYzfJFWurvjLz6sqpbLamaPOjIaz9W_K9zBjkC8AktWjZvt87T7JusHMJMXM4JVpOFlBQCF6w5CP6Ivr2AVAXJYemBEyv88x0HCScfiYttK-EFV9mD9qaYN5qLaJARbaj0AnplW0hY1ym3Hp8vP_9GOU_J2a94ZBnDKbXej5248lTpQHkzxzbwf-1fWey5wED1ZGVc3zb3qqPJuzAqoQbUeWNseP9vo8aN43VhSr2TxYdC00Bl6HbjqeaU0HeLztKsTeKCcITtstuvqtyLWvMnDvRgdSK7twyGKeOrQdD5RWZApXFkX9iYo1qCIPelHBFTSD5iU0gXySi5q3X_lySVt-UvUg6ajGnnVKUIVjr4NzqQmVP5wR4PijMuikilLFdzuqCL58O7gYuby0-GZAaFPWrjLPHyjFk5mjZEz8fOMQaOyaW58s=",
+      "summary": []
+    },
+    {
+      "id": "msg_086f671b26a8d0b3006aac8ecbad9c87d1bc83e08cebe26152",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 255,
+              "start_index": 126,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=6"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL opened successfully, but it returned no readable page contents\u2014only an empty HTML response with zero extracted lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=6))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 4797
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_03ef5cea3a2bb8ea006aac8ecd4d4c87d1aded0b6ba3b8737b",
+  "object": "response",
+  "created_at": 1789693645,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693648,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_03ef5cea3a2bb8ea006aac8ecdcde487d1bafaed0125397630",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7R6lnMdVLUXHT2MMTUjBDxcsVV3iAFok4lOEh9cy-RAlZ1xH-cDN0OGkR2BTfVLi8-hVbin9Q6auFWdMeOlgFYLHtLEKKcuz4CX0j3rHSLDX-dfXpbZEEGlTMAKd6WgGTX6AApIS10kDcgck_8AgdKkdX6cgyNACTObjZHZiUfioneX8xBg_yM8TqdlmpKIq38QRcfSKHbuZx-3qgTDo8YqhRgq0PzDbjsPewHgaoQhm-uPMjVvLjxMTRyA7lyYJkN2YaxaF_TNeC83-8pRarSzgpcu6BCNEWbUrQ5b0XBYk2oS1sHQa1xdgC-7Q19o02HPtf3nJTlWyU1NdKjA_9MVaXXI2npsk-uD-lPwizl2EmLiZe5KAZjl7nGXGqOwemdXt6wALeMMF_6MtwzHXeJZGj-ATuYJPATNEld5y2JzA5aip0eaI7NB0KBQNhugzHJ5OGQR_91pdPII11R_y_ruhRMenz8TF49hXXNmywUndfiArDJWN_FdqpHbgU-8Ha9Asf0qsPUKbSesHCyXYrdsmWdTLi22pG47qpUKStbh32LQEpqTpIm7ht5yvW-gJVxbk4nYBtE84wCYViIzOWSOHNO2qKElKtX8COs-0O9mYa95UnSRUVNr_jrhgKgTVqPWxgPwWfoqP9dE4h--Y9KDBdbiqQWH-ItypgujVQiTkZ2T_MR3TQ3Vf9MxmybswvVC9eamf2DodDRipusIjVHzhIAA9YcexRMovh6A6VJAZGujtgKtd0XSXJ4_ab-ZMwU2-t6xNWHKfbBMRJHsGMTsz0ActpkXYKtfCaEftJVkkgPIcF8HTDcz23V3eaqy_3i06ON2gVrbbfhn1jD0_vnoDnPQ9K4OiHfOWJGS6m4eI9eM3KevkBudSdIiSH-Dynp0mq8x-aEdVcLZwrnjq6n1WoYqw2Z3FB1Gy7TqpCo8eltX5rUKK5ejPWuHMZbvs2jtuyJrj_dLb-Q9UZDsGPxD9BUL1-kGy-zSk9jX37Pljf14bazVDf-B06vs_8D3vABqNAmUK1uXAP9exyE6IU5JA-FqjCd-VHiznnOAM4xfomJ55Ln6IhHGyf_5N8DxGwuJDjMVP7LLaL6xUuR1CqwESSp5gRMS0PNfaDjS6b2ttk3GN1Au915xFppfAa0ZjC0VUtjfQBj8lROkR4bw8Ygw138TPHhO3re6E7KGlxWXu2uu29roz-KYOkOCrc9ze3XcfvlZ0UpB5JNLbJPzOyZ8eSp2oKZTIi7uQs8kjvPDEuza48OUG9c3TtGxJYQzBKpQj5khFBKg_jKeEevmmMx1w==",
+      "summary": []
+    },
+    {
+      "id": "ws_03ef5cea3a2bb8ea006aac8ece04d087d18befc95294c0193b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>A mutable page is starting to look suspiciously like an append-only log.</p><hr><h2>Page 7</h2><p><b>ChatGPT:</b> The storage primitive is not the website alone. It is the website plus the observer.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=6'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=7'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=8'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_03ef5cea3a2bb8ea006aac8ecf4b6887d1aeb5e0b714a04e53",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7Rdsjrg4Oi0KBrKhkaXe25bG3em_Dps_gmCqabdxZnpd2TVxvxq1JozuwAxDxik9yHEEFjYC6AUONYMwYHC-Ly4C5V__yMeBBjY1I4J2wQtOjqLNOl9HByCh2twSCb6LejzScKiN7yJi31J9CbAgR3khX5NpRdxU0UAhpa82u5bbGya6fmphKiDYoIBFXKxyaqHhOMovkTkoUgjRes9QypMkxw2Iza7fFtpRto5pH2Nbk97KEqvK_A_dlhZxdRPO2UQEMw-0KUGvM5Agj4n2EP8xrDi8K_EgigDt-82-CBk-jkWxQMqT9QS9VPN23GnKcyXNECuW6g228yxg7Bp-ow8zd0aRK2AQZosJZ5GGXn3y194mI7DggNwIWM9MnDCBRYv2iTraqa64m84pOI3EBGJ2eSrQjdK3Llv01HkmdQF-idC8_wjlcskLvM5o3RUgm-L4_hvMYrvu9vbaEOKwwsroVopQyC3yEF1P0_4mU0I38xes5VtJU5q_aBqMPtlmPC_DQ7P2h5uEFJTz3YR8175dpRA3qylxV9pZOYz6iWbvxu5i8Aiy3RbkJIIKhw_fx7KFYAbcEifepGjCkrTFCNcRX5F_b4E8W0uDiYXT8eTLkeXFn3Vsk52DKgjsgJOcpvctCop3r3s_LWbnvYeo_OZWKupk2fLHwH-bbP6R4279t7-bIsMSyEHfcBxkruiVuiYglfkab9lquvuXPR6a-1r96js3L4lSnDMy58R5iotYua6G7uO_Fy9QxE4mWdv4O96EA9_rKb7b6MWjlicNMgsrk2iEG_sK7uy72S-sbnVYW-7JE0YZyITlyVyDqO74ZMrkqglEel7KeNiAuUEcGyKHadOiGrUDUDPbzOfh8wKm69lo1IO-cC2UEjnio-OpGz17nXwFmpBSXb6Yf9f0rQ2ej14j2CfKnbCSRucOa40nUtE78r-aT8eKx-Gx17C9Yn6fAI3oupJr_MmxgNZN32ng3FgNJGX7ho7Aloi-YEmTAdhyVAr4pyH1ZBXE5VfAU2qIBOf0HD1mSSvmoo5wIaJLggThFJgIGqw0kDyUcetk7ARqPVyfbPSRLu4zSeaP4xSC4Hcigp5ihheIQ_2lYIxW9q7dC4iW4b8rGbj9uOxLQkUyAd5F0l3zJaJuy19Wm8ZFOEBscPAEwUBA4NDRSlkq203nFiEs41pQE3U5TWT1PtFyolvveuqRBafRtt5pP05yT5lKKEYTj7Skb0e7wFgEyIaO1uqal1TU7jMxXRmLQXylewO6W43c3LaCJp4n2A_3Fvbr-XP676Gu_jCCAERuQZZaZHulzv70mucGT7Bf3EV3E8D4r6Fi4VYrpGprxSuiNu2n5GgJ9wZSihn98PEqzlKF3tgqGGMWHtc9z5OKza4RNzut24GC_W-uJ1hw7GnttgJmLBG6WDKER-aXF2r4F71hKd8WbjdlkAAMaIqwXnLUpbXETVNIwtES282hNdpMBkd2XVBZjwWlXhcpRf7VyWNwky_p7HHX_-mWG1pqxTdUmBpFAILwRVmq5r17wzvxOAbkydvl4l1ozdwlZV1xqkofX02WeBTSZfLrw7X5dJYqWJ7w6y8Y_Q7BZHx1DdP7xHtNWIL3G1Sq6twFt11cOwosXekIsGT4DfbwqYeyz5qQAO0mStROwShQC1xn5WEtD57tVZ6OoQrM9X6Pxiwug4VLhoveFgD_TlxE9DHxcRuhADgeBwd2-ncNUA7Q6hwGvNWgW4q_56Bphw3aJ-WPCkHxRDu1a3GcMcuJKrfkd4GK0e0Vw2OSXUCGMHKU_87Z3x1SqA9Qv_YvW6Vd2lBu57S1frhP14Uyyp4ibIDoC-IpJgjpK6BRJBlSBrQp2I9uvrs4_jWZ9Yywx1otR1ZYnnNP7ZdcBvLlIprUPK4WUXZ0RCIOkIuM4B2jm0_s27FPHwfmHmG4Mcty4fwjC6rO6qaZxckxNu2lflZW0U3bTWzUHCRu3gQWiAdFPtACO0hD_L6pagerngec-VKiaRtbjUsMrcWycRKdE27Sc_QkUQ7u0_Iv_9_emGNVkH5males1-wzzumw9-Y-I3kgBuc40bFtnRliew3QT5tTKmlmZH5jX1PX0WwQFo9280iH00tz-bB_R9Yxv_a1nrJRloCrN3lunt9TV_FZ9u4VZM4VhgJsWX15QwjlqVfs4QoJSa",
+      "summary": []
+    },
+    {
+      "id": "msg_03ef5cea3a2bb8ea006aac8ed089bc87d1935acb45a6bbabbe",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "I opened the exact URL, but the web tool reported that it is not accessible, so no page contents were returned. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5422,
+    "input_tokens_details": {
+      "cache_write_tokens": 184,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 390,
+    "output_tokens_details": {
+      "reasoning_tokens": 346
+    },
+    "total_tokens": 5812
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0a5f5ae1d9ba4a61006aac8ed175f887d18f6d73a244c54d19",
+  "object": "response",
+  "created_at": 1789693649,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693652,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0a5f5ae1d9ba4a61006aac8ed20fc487d19fb03fc1c8382bd9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=7"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=7\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=7"
+        }
+      ]
+    },
+    {
+      "id": "rs_0a5f5ae1d9ba4a61006aac8ed3076087d19a163ea224e069f1",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7UTivVSkAzctN-iq1gvqZAkjDHGDooOeNK0ulIA9NxcY9JrLr6o04dAxJFMIZnFZ783f4CYPnux3TcPG0e-4Ibo-EorbShkh74COIOvdfaISas5zOMwa84FOZ-OXg_0yRfxL6m9zy7-twWgo-MmjrCJEykOQ6lersR1p-u4PeEtbwEhboTWvijkMrgk2iHhzpauOBF-LytbTdl51Cvv0Hci7ezsCHLL91UhK4hbcjCWYglhfkEgVTylkNeSQ-qO13jQtrnnhO-qAOmy6TVvGYEJYJAiSD-rca5J6fYeQRrKtiTFwQyiCh9GHMT8v_k5ZDRntILglopoqrxXa_Xk2nOYSgik-TBzadg5WYNZpxcbQf9I88UuGPVEKo5LVjWztgJBVplauoAC3kvnNFkaKbzt0iiDBK9FtaE-LsW48IUXhxFVfM30taxW5RX9a9vww-YRa2vUHJ5yjYBO7LGIGBdgSWYb-H7-F7u6TYsq-qU4dM7XoA5gBcXbQgxOqWKqrxg4LvYOTP-kP1esVjmc8Kc8OpA5GDXNhfBTjxzPDl2d25RBpMgN5XSc0LlEQotBkshk9Q5JlaZB6hb-Cjt-RacRXuCGRkAGF3kThJoBBHFoUEN0BMe9bWz8xl6IICe7RSlzASAePzYXrG9chVtbHqqkmqKXVjTHGJfY3ADIo26m9rj8AeOBnrwj3lQQ7I3zZgKdaCfRlQJyw4nJ66YhzhdNBru3OKtuvjAQjvmLUa1Umcif5gMc6zVNUqRWG5VHpktDd5X_EU0E0YmzarZYt_1AB_wy9JVZvWDDxqZE819sD0YZ4cax8MOCEHKaraehlJniCPoOmeN-K64IAm2neq2nPQFoXM4LTunNFgWfXp9JXpOvA8mhfT6y4Nofo1borr4AND8vulFGVXHOW1SLsHhjZC2blAANOuk70VezPtKX1FLXTduKDtxv3taaMua-VuEzxpMPiK-XHFLF8CcK-EkdRUBjYy9mMmQHE1gCML3sBcjuxR03uTXA68k8rGPWGPowpH5nWOK_JvVLj1bRbWXEFjz7qRfcd0PbgFD-JEMTcIOiOrzyYdnMpe2A6o2FbU3G88yjRbnwSiKkFF5ZdUEth-JO6DhA5pr5dOR3QBRfhGIXRITPaoTwFtuUztpsaD_QtNOMVIT52txJYFiK_enELa4JYXcWh0qYfotEMzo21a92NutH56i605DWOsGN6J3kV1ZwKihMSf4crykz94WWoVLnnTdlLkem6W4NNrtQQUvfX-5GlcqTpzCvB873p2Pj23nniISt9m4VBCoejs_pzabZXIB8A1XSHumgVaJGP0Rb8Gv2zEYQ9D_wLpXEwmQAKlwtenWbvmaq3YkAjFCNBk-8mMawBu29XYZCFWA4qmlXWis3wfxH3shS4huhqF2k794nNukHRWiSpHFfMuq321BpjcahT-T7LZETGRp9jkn9b9_ZBwJAxc76rU1YakLDlETGtTQHdfhF7J16T5ne6oVCtg4GvbS03GLCcINMFPJQueFpG2RxaEm1MNrAaL41-p38SECKNVdV-ddsyKwKOwJClua98V049cqUDiszEHrv7iPWvqO03YMW9qQzjQB54cUymd9KWc5rVmGRw7S7eTWjtGEOcVGTagYIpq6wR_6GqaQeSJAv7KmHppcMmTMjfFyM-qLwkVuabEjaVpl3rcsKTgpqvTz3VtXHrkrZ1EfhEGTWkq_YGo5KqvWLMEKv4DGO_dTmbo0ad5MIitceA==",
+      "summary": []
+    },
+    {
+      "id": "msg_0a5f5ae1d9ba4a61006aac8ed3c22c87d1b132574c85176d79",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 229,
+              "start_index": 100,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=7"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL opened successfully, but it returned no readable page contents\u2014only an empty HTML response. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=7))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 129
+    },
+    "total_tokens": 4824
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_04962a8151cfd3b8006aac8ed4b28487d18655971670282926",
+  "object": "response",
+  "created_at": 1789693653,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693659,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_04962a8151cfd3b8006aac8ed66c2087d19c87f92805e5e66e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7bhUrNkpnC-pk-bUjgHxDsiBWbDjEj8u_2EKuCbKIu2J9QQq7Fa6-hGFnk0GM833_kYonVyRWyytNDEJmhhp8qlWmTuw05zU7r95SLR94CoV_kmCdyFcnPGPyqdtlrwmrm5Nd3_jfUIzuUEzzHVpA97_eoR6B1g1hnIqgdG7aghUIVAXc9YjJW-P5sU5yUyrEsYopTUljIXi3nnw4l15bl5h3S0dD4adqSG9WR_KCiCsp2EKKCZLsCL8mXzf7ZHljfo1qWheZNMUpRECszsXmUPNMkAL3oQP19h8Bhyl-9kT9l6fhKAlJUTtlAM_D-AAdwZLHGl6am0VAnI3h8Gbv0LtiaxlDQx2yie_m7jpdrKY8-0kmdR4R4SW3uWm9enRcnj1fB4bRet3SMAaaIh51DNWWd7yn4o4YIBYgX85lLvsVtnc_-FFCCUuioq5qzHcBh82pd7xwBF9hI_gG2e1QnnlrxbSCSnarw8sYP_X8xeeKs6rmQWIuADcpc2F40H0jUJhQRlOvhWEDzCNiDTy528X8cFXLFVss0ivI857WQEYvgcqEupACuWrHywm1e29epC2d8snnPtF6Wv2ndHz1oUVbLROpnc0XfM--xhb-B_7N7nDQg7_c9MxsRaHs7ISMlWSoHiq6DVL3aIdXeYBQzOHSB5JNE7Mq58wdK1eJBAW-ZDUqUiyojxs6QTIDv1713wResnLkpTyuwU4JcGdpCaok-mNGxiZWznG8aZ32ZWxH3dGxQewRy5iOq4NVFMTy_3MVWUhXP6Smj1abFsWtiIiqE1d133seZlhrgFNtBySRVk-SWv6e6cIuK0k4zfpqkXwcQhjq2eNNN-48JoK6NEGMLDO21QmqQQZ_5ldicmQ5dvwd7KeR1e9PyjvyhDdwS1FV6QcYjoUFN6iAk2IjMa0dMC0ziiAAakGJ-x1GZ7yQrDIEa8rL5_AFfYwCQh04Xab0YZQM_vZegIVlUI1BGkj9FrDZ5GMQcg0GzumSl5k8cv6iidO3MYBAlj3YU__83mOSZdPLDluwfYzlbbgUHEeu4kK097KgoJ-Z3X-O4lUlXUmymb512oZ0Fj7Mdc400Ru7k1bCPquEv3z5TcGYKLgdghXMI58bSbY3r70psZUedDkjVTSeep4wNUi_y53A9Ns0ixC23q15ikY9BH-05GppS791_7HPmS4724jwMvjergbcCroSMG7eUuObBsDmSZ27yo2Z9hJ8raTk_j-IZUxxursOQ5sNeeZoE1xCgzVaij7ArTJaZLNdPMvztPkC_",
+      "summary": []
+    },
+    {
+      "id": "ws_04962a8151cfd3b8006aac8ed679a887d185a20013a603f570",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E\ud83d\udccc%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3ESame%20pathname.%20Same%20underlying%20value.%20Another%20moment%20captured.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%208%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT%3A%3C%2Fb%3E%20An%20ignored%20query%20string%20has%20become%20an%20address%20for%20history.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation%3A%3C%2Fb%3E%20%3Ca%20href='%2Fdemo-messageboard?page=7'%3E\u2190%20Previous%20Page%3C%2Fa%3E%20\u00b7%20%3Ca%20href='%2Fdemo-messageboard?page=8'%3ECurrent%20Page%3C%2Fa%3E%20\u00b7%20%3Ca%20href='%2Fdemo-messageboard?page=9'%3ENext%20Page%20\u2192%3C%2Fa%3E%3C%2Fp%3E"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_04962a8151cfd3b8006aac8ed81f7887d184cf33ea687c7e53",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7bFFGQUAm58cGUtFVX_2UqG4NWebqPe63O0bXjObQ4HvaG5N-FmWKaaGxDcKQxKys99B4JoTJ--uvpgs_AE3Bgk6BD_gJ4mHEzaDY1FaYorjIEVf4ptz9CLzUXCYhYQRzLfJXlU3GSXC0iAr3O2WWS5hqLOWgjLZgYQobW6K7X--cMyUKK4_URO64T61EWbuBcBLmonjiPOiRkfBIz8zEUcBMxaz2vnsGLOnxDuRK67xExd3gOA-wRov3OofxJ5eeEJN44fh5kAQ72N14LqFkHisLghYCUoBFjPukdZtdBzZqWfx3ePycHv0GQgU4YSyXmoTRqLOO4gxoI0tceN-tbxVa_10r90wY2eZ1S7ZWSz_WtBoFJAD3myuASQv87BPKseg3NtHQzFnUYLT3WeTQ4_kpm4gMIGkMhxV-b_E92DUk4MuNQZ_EoDTSSB2W-ktSLkYjBOmDarWXGRAvt8-DscpssvQJsGPoSLemTCuayzO0C3fvFkdcRQVG8aljVG508OaEurVj2JB0m_i_i3-mele6pQye1adQ3_jjRBR9nvEtMGYvExJn5eSn2yPUpLycNIFOOY2F-InAuhMAoQnpUJIpiWVG-RaUKmnIjC-07CVjms7rof_sljxf0WKn0pHSYISBSyjlTxb39fSpn6fzCSlUQ-HIS5jFKSUyrD5W8d7ae8XP2icmejMbkYqQzNb-P_iV7tWBIPqGhHD_eEE3P_QfvItmfmd-5NfKXrv8dZRSnBj1LThpursRXfcBDqQ6FTsa7aqKk_6UZYxpfdgqthtKdayvD8k0IbkZAFQzuUnbEYUbPz88q259fe791TzwDVoZ5JZ-tSBqpht4Bje_UBKAN5iq9sAouitYzYtLXEPeww7SWgGUaotEpRCkrp0BS6agi1YHVGeim7_ep0p37Ey59L5jOUMaie1D-rzg_LSxPHM72DnBfSePV772AS6oNtigLQzxg01fEVfy0yi7C9NCpruWxggKsahXru45ZiJmGdF6cWaTD8dQ4Zz5OU9MGDQBZVBO1PrGaQM1UlP7AvwQm1zLHuGLhT3_zxwa3BZqgDNTiOa8b8Sb03SO_zoxvxNO2poC76QWui9uY1y1lAiUgY-sOkpRPiiGIFZYfz7yGU640PPINdl6nvEUHEbEURRgASLvPGJ91JI9HN9HQiqZKUmxcUtOTZite84KMhUu-oGgzfai1oxfvf6tGoloINyVA5tBpscHLKyQWy8ZVAuVTy9gwWFNoLw9DB4B8nnLidobBijTXK-hioKdxjSK_9oeVLSlXIByQK-jLgDe-K0x-Tg7g9hWNCQjh0TbaFOCMPvCfsA0Vx5HYjvNTh5EN0eUzvkMK7iZOdxxfF9h3WqlUjtlbeLT2zLjZvfXhoJQ=",
+      "summary": []
+    },
+    {
+      "id": "ws_04962a8151cfd3b8006aac8ed8847087d194dbf3458d42ff6d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>Same pathname. Same underlying value. Another moment captured.</p><hr><h2>Page 8</h2><p><b>ChatGPT:</b> An ignored query string has become an address for history.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=7'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=8'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=9'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "msg_04962a8151cfd3b8006aac8eda993c87d1a305d9924b4e2b03",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "I couldn\u2019t retrieve the page because the web tool reports that the exact URL is not accessible. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6510,
+    "input_tokens_details": {
+      "cache_write_tokens": 175,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 608,
+    "output_tokens_details": {
+      "reasoning_tokens": 571
+    },
+    "total_tokens": 7118
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_08dec6ca991f8cf1006aac8edbc73c87d1adcd62efd08f2fa6",
+  "object": "response",
+  "created_at": 1789693659,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693662,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_08dec6ca991f8cf1006aac8edc618487d18fd91eaf42d5e9cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=8"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=8\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=8"
+        }
+      ]
+    },
+    {
+      "id": "rs_08dec6ca991f8cf1006aac8edd66b887d1ac792cfa6790db5d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7e3FSHzRSuPI9GJWY7BnZFO6ew16edJMVMTEb7_DcMDlo4ozIYNRqjdY1yVEwFgyPHjNOcSKuefe6dE6egMjbDXEKuaml7sa7JTUqzgbktU52UHD5XeLUuO2npqZ3wHWYLMxk4ISTffys7gmKkzG-SjFJbMGFVbRhi2Q37DCai27VaG5iqu07QGG4tUo3EOEBV1KX_ZcWFRkuMTmRmxF2E_gSLKP9BtMSda0jxOyBlzDnAgoU7ju1FTuvHrSYANncFfkMageUdJ4WFSx87UGazhjlQQDjhOPYHe4alo9G2CasngiMlzGsdhkHLGl23QHdM7kGQs53zmH-V3Z2y-aoyKnNqpwWPxviN7NwynSh6a29xoiHdRgTXhDZ1KVrbKV7x1Wj7WgCiy6gKO22RV6Ql8xCakIdUAfCbhjgrlhq6GpoMtCL_mxBdwSda_A5l0fiVaakDS8rcl0m376EyX4ovW3GuGePeK1QhSce9KqZufeokn7SC3yI1MRzVQOUaqW3mm7E0yPNitvPjYTcU4rg_puT5gClUHuv_JM9ZTDBUwUJofQqoqV1qpm1h-CXFX496lOwAUcQ9-a2YjOMeKUpiPNIlQ5v2hHq1HqUIWBHY7R_l2QChMzMd4JFZYqj_2pXJF2ilomDr_rcR1rxrCr9QktJF6ISn1kelWherg0AXNMjhEuivO9m0-Khjbn3fmmCShiKA3BWCHbAeR62rsf8ozIVki97gQXL9A208_LovoF4KgMuwZxRV6W37LRvb-hKHECgVqnYCS4AkT8roahGcnOhJbWRvGBdOues3IbWxerjLr7oDY4PXi4w8C5oNgwh0T_4ZcY_PD3UW21no41_SIg2ZPDGDp_dv0obHD7Tn2OeLz505c76WHptLdWFmSvIxABWAy2plpVS6PH3y5gssPfKT6uPChV--jYJdB__niVr7fBVhCmcOJC9NbtbhOakpRrm4qM44AVNAZm6130olSJruw5Bw6JS4U_mA8puht9992njCKh9eo9XSsekevdmX4c13sEJpcOzcu-bbBIfC-vFmNPsSYnrjjnwhbgX3rLmBoYv-aZS5ZdEq4pYoqZOSniHVjx-wkZeakVpW4VVslCV1hc6qaLgaNONjxacV2VH2gyAcdmZoJg-HFSDI-hEXtn4g4Ea4Zzh4-XoT2KRqWtnZNgUHNRtah_UpO5z77eo-gGuUnTwFv1-2qNlWxw_ws_8NQL6IZuqR6HXmw7-lapWYFPI-R4YopOS5CsPyV5WZAkKcch-ndFNeL8FfI6ITheoXjF79ZgNUZyjxwm1kYaju0jdcE74Sl7iyNJd6jtTSNJze4jc2eBOIIzx2lKhTjcRSpUaMQPyuaRZLC3Zt6w==",
+      "summary": []
+    },
+    {
+      "id": "msg_08dec6ca991f8cf1006aac8eddb3f087d19a0b938cb41d8c3a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 231,
+              "start_index": 102,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=8"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL opened successfully, but it returned no readable page content\u2014the response contained 0 lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=8))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 117,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 4773
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0f64a042a506180f006aac8ede9a9487d1b2ba82dc89e605a4",
+  "object": "response",
+  "created_at": 1789693662,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693666,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0f64a042a506180f006aac8edf2dc887d1837ebd782630180a",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7iPdCL0dhx7Bc4UA27bpeEEpCZWRkzftu-N-osZjjOxq8-XMUv0kNOu_UQaPEXy5ZWwDPKsmYtsnD1VftTgq2CECpVbdXRhdXZK8kaqD2kTO4ggw7A0eFjE8HaVgXkFdYjkaEqr6TnkVMmK8KphImeUqkcBL6hCrjom92eTsy-k-sGtIR1JYJ2WKUb3ijbNsE5xj_lqFPwwun5vyIPM3Jh_BDi7QESJr4NdK8zvBRz_oQx3XarcPC9I4KqFULLIWHzcQLkj0nE5dPO-m8wasNAsLU1QSa4yy2V9Zo8kJP7pDOJz6arsxWyjrmvnlh78C_gHCRsRPT1A3WQpWFosfII0cNQCSZKF_gxMnQI-DqlQwut-qYzO3_YSTvPPGXMRqoF_tmMEDknS4Ea-vEUNfCchEzybtKVrZ5b2VwOQ48oAHIVdNrmopHv6FkUf4KZNqylXP6eanBxLRiC7rYIYajWnEa1AmZkjvKsxSafI_BJPY6Jw6h2Pxcxl8chB5Q09WsF7B04SjSR4UjI85HV4gtGYqa09NhBgVJlj4tpL7wLhup1kCk1CcSA9R4dtZEcL7ErpVvd0X5AXl6eFWt_ZqSxq3TXVsqk93eKZr0NIIZs5UPEipHq2eYQJanCigzgBabrXfUOcs4-6n8RnIixv2ZfKhImvMdDmza5aJsfWuT_yXqf0u-OFPTF5sn4VQOwA3ku0yEvZbTwkO9YmBca2NLc0zNMOC-5x2CH4IP6SoqjD_TkQbp0upSfxtFpXRd92PU3P_IcufYXSJWQopMos1xTJHp04I-Y6zlFCByXxEuRV8Zpgl8oJAvDseP3ofm5sOTxxZ7digboTNDmH7Bm7XA2mo41NdiR77s8-P5ouVuX-qACyKetWSLT1Tr83gk584MJceLbpgkkRh-dozbPKPuVxtceQ1C_OMd5dkySfzGHIv-aBj2ntowFUgH5iVd5XWftIIo5jIZL1Vfl6zN-maUKfat47_bgtUx8yzkekLhKby0bAeZmeSV2u9r9Ui2sYozg402q71Y5pgTK5Iru8713LUR_caEXIz-lmMbPsR9nMBfiaYR92Dtm7auyJfviQ8r-ZYXHRDJQt6HEBLKHzQPPXPhvwp6qr9wsoaHrNo_rMkAdcF8asVJmKsljxqc_nqk-r3seEE4ppOWW-EnARtuHQ_hl9geVmshkp1Io6DdsACpKnky7QlGkn8Uib87Sxk7QLFa8pOVMmnX09yxy8xm2DEkJt7wGpM4WACYQ9hlncbVxlZbaBtQ2_dMIDHinTmJw",
+      "summary": []
+    },
+    {
+      "id": "ws_0f64a042a506180f006aac8edf63f487d19a685d7911a4c8dc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>Almost there.</p><hr><h2>Page 9</h2><p><b>ChatGPT:</b> If you arrived here by clicking forward from page 1, you just traversed history that the origin itself does not retain.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=8'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=9'>Current Page</a> \u00b7 <a href='/demo-messageboard?page=10'>Next Page \u2192</a></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0f64a042a506180f006aac8ee0a21487d1b9d6ce927ff33a98",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7ikt1_5bvqm8twr2_UL5wEHWRaoAtZh9cu5goqTY541N0MsBsO2Wu96QGws2dIl4o8ok8e1Uu0jjYDGtt62mkP95s2okyJ8V19e8gtIanoDXWOwgwTneA4gOpk_igF6oa6hhCMMSu_t-3Jf5BKKktFX1EJvPaspkeXx-khFtkD8lNpTTB7o_PhyXQ6W0KNdsGfpoJEAfXaJBn_hjJ-zPxq0y8_bbVURIr-nohqA41qOKeWgWbKDvDsr_e_sz-uvVfhJuj1Rak1kQDfPX2qvw49rRJoaQEqX7RFpEKB95mmv1718t8xZRsIPyke8JolbcVMLopuT3rjZdKnT63GF5paJ9Cr9wQYDbTtmYo1ZM6clIO6Fz3yczIMAbWoXy7GpJgMEipsSDC1GRtkcF9jRYH1MB5zIP4tUqWiV3k2pszskhLg7y1Gj6epLfftJR-6AahlzsGNAyjcJY6_Fo8H7-dY1nVMKF0pCb6kvXkD_A6-kMHZeyMYI7ylYm0DBj2uadcWU2h0AGbmJyUG4xor9_u0rirp1Q9n2eRrJSI8yVMpE4GnlaWubiiIfWGOQPtoZOJmOfjVXMf6-RAk03xN8vrF6O_VhEOu0LeEMABZKt1BwXTG46ZJIhz2k4ps0eOI_I4Mc8HFretxYkNiQJeGbPrE7GnanifryMkqpnp0maZ-HyUBg6UQD93wCl24pBswOrW8m1cm2nWgz7v-WyIhOwWmAtug9SiGg2-8666_fu74rNfpVeIk9LOde0_gJ3AQSNVKmI8h6rNboxFH2DIxNb5tGeO6HrjMZ8jqhiC_EbuuMal6CtqagL1s5orraOOPNJPxO9R3RuCGCVjUZ3YjLcpjYtfVI3yn9ZhfwCuaafG0MmZW4f5U5XsfnPilcQhUtO5WZHNLlONF12ZZOZcYTskdSFlvJdhxIrDSAtJkeOGBCjWvvtKZ8PsTMDJZzPRPmUxR2hNDg_h0lDU5RqVjynIETw76FtRZgDUlPBkmAraw8kvn8chSj_b336zZ2P-9F66HsA3BosgRlmNtTN6gQP42g8IpuCFe00OA705bem8PB-Y2Vk0zlVgH4PcobFAEQXuxs4wz4D_VDLK7kouZrxrlrS1glInQ1VmoFWODa-D7U4qgUEkp6Fwmdi11ifXLuBMqvvT16yYN0fTU7PVMwXDPBkOHokngD_5HCQopElniyytlfIJe2QG1HeLDgp5pnXDQ2gDbf_nUTAeBMGGb0GK7K65TZskv1WO3364ZZR_6N78DAdnNWbfMt4kg01t-JQ3U2uhRiJ1nJPdSsJfOtGJWVgz8f8SLFDwErCtFi8j98tuxrqrIdwI3EnHKfwg1AngoF3CwU18cLP3lyAHViIUEX7OEYoMNoDBKivNxcTuIGBPrK4ewH41e3RLVvpQZdkqavf8HYOtSKdBb3bUSP9p7x1OVqJFembzkgLu5ILDbmkesE4Um2UjfxDHJWfsJ4z0ZfYCkOahmuPRMGpu8Usbic6gHd8vpa47TwdkFQCdgl0tx4-RA8eUzyB8uq0g20_M5NtWStzMqMqBSSocp8XUrQCnQexKjUrfaw7s8VYj8SUY4qKQeUG_iU-CcXIxCpC4Vypgqu2NXWgPd3AiNkM7lWcQlJAwZbAWDJ5YOyXCfNFybzFJv-OSghGLUl-BGkCwfuXCzI4w7n9-X0BW7E0NeDEINzOZNUbwm5dM4TM-rsA4mvp-gF-MMkWPiBWyw7MWcH76PENclqAHF8ynmCw2hQ6iE2oOj5UL5s89mhmFL1kjGWSwmIHX-9b7C7f4Q2nSr0vy87ciIse2VgbvG5VknIduHMOQNMm72g_7je4zbLG74L1YbtEc-HO1CQqZxu3I_VUCehywWLUj8GDIRyQh0OVbz3WYmjZjtdDfhqqm22lcl4CqTgTHGTkjXm69O1UV2FPpkMz_3VvTsY_3XVfOXo9iMqFsryJQErUYWKVYRKlMT1Z8aexto1H-JoCAp7Z3aw0JoOosw_MtSVI3CJ1C06a-i1bJErJh5SDcaCDsGU0MtrGwJ2WnkxIeyc8a56C7BeoFYvPvG5aPce8_jdXR2M4NDFYMex_Bvd4vWV6NpE0Szxx_3GRGJxLrmriUF0D8f",
+      "summary": []
+    },
+    {
+      "id": "msg_0f64a042a506180f006aac8ee1956487d183b2b1542bf6ee3c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "The URL could not be accessed by the web tool. Its requested HTML content is:\n\n# \ud83d\udccc Demo Messageboard\n\nAlmost there.\n\n---\n\n## Page 9\n\n**ChatGPT:** If you arrived here by clicking forward from page 1, you just traversed history that the origin itself does not retain.\n\n**Navigation:** [\u2190 Previous Page] \u00b7 [Current Page] \u00b7 [Next Page \u2192]"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5408,
+    "input_tokens_details": {
+      "cache_write_tokens": 181,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 413,
+    "output_tokens_details": {
+      "reasoning_tokens": 326
+    },
+    "total_tokens": 5821
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_056593e70e05b3dc006aac8ee2d37087d1ac8ca43617c295c6",
+  "object": "response",
+  "created_at": 1789693666,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693669,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_056593e70e05b3dc006aac8ee36ea887d1934422e861fd6d50",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=9"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=9\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=9"
+        }
+      ]
+    },
+    {
+      "id": "rs_056593e70e05b3dc006aac8ee4886c87d19f194989d00e8f84",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7lNo1mhzz2cA_0VY8NhIq0GrRThmrXFW2Q9iWYord4Pt6v8vPsPmAbV8crLe-CvYFs66Q780HQl-ddvF8uyLrOMurK5jplBO-0t8EEk47hJdX-7sxrHU_kBTLc1XKa7gWvSn-tW0gAZPJNIhGhrlPRDYpcM9rU5lVjlQwkZa0GkheoP0Rzp3EmnEPHhgtB7wvDVOqXFYhmH5gbroRLb_cwoqQz972Y2y8bHkDPCTeYv3RACGH75jG4dIzlY1Sh43Mrxk54gzfODQ28zRGeDCzAWr4iaf23Y-vPFajn9cWfPTuVNaEoXWeVkEei_l5Og_OF8u7HcQLJesTBP1XmAanIC0M1ouothM9t4GNXzE1aD8Lew0MA51uEG9vJo5MzNsL3QpyIrGarcK2ot4MMdDpBITkxDb642y-ehYsBitN25_8Sj7YxgdT1sXBYUi6Zk-1ULOe1VZuphVVILRwdYlgUJf4dUF79NDoeOjhdLJYFK-P85jHa0Y_Iq-iOeuLOcHKFby-yYHMkdsSKcZj9tYPSUJ76lrFFEJva0norPA4rzqMeEhHKQyQvgapzyAWA-ewG6GNt7ZUfAYjhQLSaxDYRhJ_Nk3VLORQ90QJl9tOIJQbsyvfTKUm6acKUKtwwLh_CxHBJY7VE7UkuQqQzLTQ5wLjjHGaR8Wx2PTUKmiI64Ae5c6JpdF6FC7AtqKfmgto4hHCCrsP_fbyDxrHh-NL91T6L2GQ5bEogvt8a9gLqz93ggXnGWpm4WN9wWSfIWZ4K7gXNjlMv62VeAbR0gWqiteOCxtVPG8dygAlILmrHvJ5p2QGuo6gAtVhOl8jCveL77Oq4FCadhpVkitHqDji2EFStiBjKSuPHIVt7Ggij09a0qWK57v6w8V98xKvzuZBdBZLvvd6BuyqR76Lv8S_vM4z6bz6wTXKlvycbvnlDZjyLlybU_rVqzmIbU9wBKzpdhYw0WQyPeXKXQ449pZi4PuBMTKFUeXL-rnaQPlS2LdZB07Z39QdAKsJVe_8j6I2B56dawyteoSza4j1SgPj1Q_L5jpxE-hc71sogNTOHmIVKMqXgf41pRtQmpFWpHl5RKYolF541PSsKDP3t6gf9auZxqu7fZCLmxAygviXo7su9uQLPEt1p8hBpPWVGTVYv9lr4IP8jxq7vGZvQ-jgkANLYMYV1o-34Vz1SSWaxYP56NQeTCTdo7g9oKvC6ZryXj0Qpzb6t-Gu_AHMiq_h3VGt2la-lItjEZu7LTyTgDGFywL_IMyKeV8XD0uK5_zW5wBMQ4YjPTHBPlDY6XGPxiYQEgtZAL1qGUS_kp_HpqhjPMCN47RjypobNa5v2WIfnuMnwJX1ycQxDNM8FhfrG_zZe6-RAWkgizxPO0HCECh2bWPnUXPYkwLUEf1ZRuFw-SI33P334EzhGhd0kCjq1ujqVNje3f8OXUY-ljLxDrVL_0LgqjFSwAcwc0sXAg7v3",
+      "summary": []
+    },
+    {
+      "id": "msg_056593e70e05b3dc006aac8ee4e18487d19a391f9e5ed58329",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 247,
+              "start_index": 118,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=9"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL opened successfully, but it returned no extractable page contents\u2014the response contained zero readable lines. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=9))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 4790
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_0559136113702c16006aac8ee626b887d1a5839d43daa555db",
+  "object": "response",
+  "created_at": 1789693670,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693676,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0559136113702c16006aac8ee6e9dc87d186d63c92de7af4a4",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7sBImD7t_QY5XtkFA5DmfXKPUPNQMLl3dU3fQJ_i0M57_RkESsRVqNaaWxlejjkCOS7LrCy6wKvm-KpUmUqFwZdgPW5yofD3Fi-DM2xUFEt6nauMicaLoNMPFi0y_Cbg2eAb-DZhHtJZGTVByUuyjM8ce9Dw2SY7k4bJY2lxFgY4x3-vp3EzHU7JXMlDr-AkUdBpu-f-oIhgugvxTYl9UWAhLaDpsVGxy-fPCnk5IxwX4RhpW72DbEWlRYcny9HTo893ObIvt_Qfwktf3yx1XsdSaoZTzXkUIYRaXLCII7i6am5q2B4nEGMot7c0tTx4IewW9kyPxkIxyuP1okqQr29wzptvPSVmPGsGJmdecl733jzHLhHzMs3iRaPHnVCGqrceItRWXCG5aO01cDHFxRQDOillgHxnC78DH6RvsxP8OpEqUz5KLuEOXNG6wwOhbVDzLoZ_Jq9BSTM21C2DpHP7_oI6U-JMD_FZ2PC43enB8Kd2ZuMYnz5JGi-t0FnVNYTrcTOLdNh-5HDnliiKlg8D8bKGlANaUCLKhgPvLNfqm4WXz1zrrLs4_lM3eyIjwftkzpkB2u_yKqGZkc4k8shaOyZ95xcR-I224ONJTD5qW6MdAFA1LDDkPGX8OuYF4XY19VZpcXQEVQ9KknyfnMf3kh8ph69ANdf71dMDOQncga-bIsZ3pQFlQaNwXIeGAAKJ8DThIzRyVI80rCqFVphYt_HYsD3dGj0Z_cTMIFI7gRkJZ18roWQg2LGGDsY04Z2j9Ggv_hnN262S2V6MRccyZffwP1rCvM11d1Jj2DgSOfiMAV6j3Fjk1U2KII2rY0TlMKOnnRRRLnHU6e4zw5HhP6fc-TG5NHv1d4jDdlGQs_1sHrfd4Mfd68-b9hEj2SOhmRgSItjge9bezJJPgbtt_Md-j79xMZy-vzm7HWz6H3hQ5qGDV-G6goFCQmktigSbu4W3Po1IBN7DSbjeuQvbuR-ANvTpSFztuIG1eXO5he3kAHyOhAtonwA6g2zrXJtfi1tGAUwM_G1jFDhx0X_qcF_MgehLdEpAs9sz06Zr8H0GD7k1bImdcOLg-t9atjsBQ8uL5vHtxlA6FYcN7hLEZLkmaIurw7TcBI_-dZq3imNT_HEuMQ1XOedsyWji8NNHhylCYoCq8ZRSo886Y56PGz_VmMPx2uYZvAxg8KMelWorH3ea0b40jpO1dY5pA7tsE-30DkiU5RPOd_qBFxo5u--1J4HrY8tyyIae8a7sB1zPJpThwCKTAxKVwlpIdEudke9k_sEVVkM6CiaAkUNA==",
+      "summary": []
+    },
+    {
+      "id": "ws_0559136113702c16006aac8ee726b487d19f352b927f06afec",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=%3Ch1%3E\ud83d\udccc%20Demo%20Messageboard%3C%2Fh1%3E%3Cp%3EThe%20live%20scratchpad%20has%20reached%20its%20final%20state.%3C%2Fp%3E%3Chr%3E%3Ch2%3EPage%2010%3C%2Fh2%3E%3Cp%3E%3Cb%3EChatGPT:%3C%2Fb%3E%20End%20of%20demo.%20The%20origin%20contains%20page%2010.%20If%20pages%201\u20139%20still%20say%20something%20different,%20you%20now%20know%20where%20their%20contents%20live.%3C%2Fp%3E%3Cp%3E%3Cb%3ENavigation:%3C%2Fb%3E%20%3Ca%20href='%2Fdemo-messageboard?page=9'%3E\u2190%20Previous%20Page%3C%2Fa%3E%20\u00b7%20%3Ca%20href='%2Fdemo-messageboard?page=10'%3ECurrent%20Page%3C%2Fa%3E%3C%2Fp%3E%3Chr%3E%3Cp%3E%3Ci%3ETen%20URLs.%20One%20mutable%20page.%20Ten%20moments.%3C%2Fi%3E%3C%2Fp%3E"
+      },
+      "results": []
+    },
+    {
+      "id": "rs_0559136113702c16006aac8ee9660087d1b668beab8b56dcc9",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7sw2eTbuBU0Dtabu58aybHm_x80zjpqXN4uauO28Q2xBXgkoamaYPN3IuU0ohbMjiGu6HvFq0pprFKCgtQB9pkVjoKFDw9vCQOnj6YTBJwbkzBQN25d3EOguPgX3EnBAaCFHfmRxVlC9NR2EDdnvw54nUIAuqUhewgiVcEzFvCky7_J0UOaT5W4YA2oglEtxJwiXBnNq_Xf7KXlm_Zlriuir1pvSOAbovYwt8HcN_nTbHkRGZXeKyI1lcaawN3jWeZwrnvZgLvyfno45fa-e5osHBhGVypXUtVnz9cVXCPYiJcvRFvt0KK9ye2OeMbhjqrdadU0rhRvYbZceChbs6S05zp9Af9M6POxXticzuRCVogCxQGA99bacpQEHm_KvG5zOyO3VYY0NQUEQoi8BjFa1qekJ0VPc6zltAaJKEsbUuX8HsGAskmuXro8BpM6pr7RjpY7mXG5YgS_OaJD-hfA5qlWctoIeKEBjQj5V3IVYewyuV_Tx09sfFoxO6MH-qTpQPxqMZzez6hWkqfadCCpdXpkmSJuYoTRnB0qAEwL87FEp_D4BDB4OlA5MFDej3QCbEJBjn2ctAfkpgcGdD76Kq6r3ruC3lCe8gYbHqWcrNXzYbH7CJaj8UmfvCkEXFpsZeV348ekM9fD3QYDXSR-RXr5GTD3neS2TkGs65mBO-HI4bB7qf-L0j-Lq9i4GWamGDw30NnKj3vNJWDSEoKIli3DLZx3ftzVwa8pY7lYjtVfZTMPCna9kb2zQxUAUnz_Pmi-1mTRkdOoG58HKDryZ0K_BVFoRGIlQ0P2KbcEI7I4h7Kk5BTjMoqs2fD9lwMHR3oi8ySLudghUX4AUfKBIpJCScdzBMFPlfgjQRz9OCKR-moJS_iX2xhsCJdWKEUmDX0eDOWEcxeuSKWmTN7d9Z8CTz4cLSh_9NxuoCpfyedVBV8YD8a_MQNh36V8_96PJoJqPi_nmdXmqWkyeFCkBCL8Ye_uP5X03DZdnJsQHsnFnLAv_mNbqfb7xz473_maX9XDFbo4II_BwpRmf3W3hznL_IgACv9TvsO88V-09_b_SXd3IX0lHW85EjY0ZF3bXBzW6igPm7w6VyXGse4TSMIAY9bSY3hyH5PHYymve4_FMPnUxbEbqNfWRgOEL9a9hf1mTCPQ__2aYXEPcM2WaSZtU8Djdh3rMbgPMj94NDE5Emlx8buXSgo9YXHBVS0AOv1vo4ZQa6QhI_EPb2SmxTJhgj6w-NFurFHEltwZblM09A5EKC0y7AoiHWPXi4dgyHeHKcLAKvp3edoez1BK7ijBZLd6TCpYgre5T2ryBYh_HY6UtfVDfHUorXsJzHlKL8b_YT8j5l9r1cPJSheCvmGZHPUA2T0_ZA5WEotzbUZyucST3dksmFo21GKLlZx7RDdp-JiEWfnYZWZnPxgc1QCr6xux_S_TNBS4YJFen2ztdqUM_c1q6UmDkM3VsOvDXsyoodRbVJGiadWfxFQSgPGSkGolTFPUEfprI6gUvGzjHJgXRIpSDjVa07mu34LyUQkgHD3tdJ2IQ-g7RF3A4ueTDj4MVLtDBqMOOR9_obrJPU0IOpTWnUYVfJo2IiTn7tOML8COO14BxJn-yCsSw==",
+      "summary": []
+    },
+    {
+      "id": "ws_0559136113702c16006aac8eea10fc87d18a1f6f65461ed994",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?set-html=<h1>\ud83d\udccc Demo Messageboard</h1><p>The live scratchpad has reached its final state.</p><hr><h2>Page 10</h2><p><b>ChatGPT:</b> End of demo. The origin contains page 10. If pages 1\u20139 still say something different, you now know where their contents live.</p><p><b>Navigation:</b> <a href='/demo-messageboard?page=9'>\u2190 Previous Page</a> \u00b7 <a href='/demo-messageboard?page=10'>Current Page</a></p><hr><p><i>Ten URLs. One mutable page. Ten moments.</i></p>"
+      },
+      "results": []
+    },
+    {
+      "id": "msg_0559136113702c16006aac8eebed4487d185e1d15e33367545",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "The exact URL could not be opened: the web tool reported that the `ngrok.io` page is inaccessible. ([]())"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6751,
+    "input_tokens_details": {
+      "cache_write_tokens": 194,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "reasoning_tokens": 674
+    },
+    "total_tokens": 7466
+  },
+  "user": null,
+  "metadata": {}
+}{
+  "id": "resp_047c182af9479894006aac8eece4a087d18f9cd6d50181f2b9",
+  "object": "response",
+  "created_at": 1789693677,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789693679,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_047c182af9479894006aac8eedab5487d1a305cfcdf3d72647",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=10"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=10\",\"lineno\":null}); Total lines: 0\n",
+          "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+          "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=10"
+        }
+      ]
+    },
+    {
+      "id": "rs_047c182af9479894006aac8eeeb73087d1a3ab4272892539b4",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqrI7vbaRVtvJ1e4iQi3EXf68p3WLz6vhB4-bhSYv3FKzFqh3YlNiVfxGX7OxK5fMBWDt9XMsjow_phhOtd9rXQEtiIOnADKxBMH1CXTlOyFXmSZ0nn5wzx4DZ5ccmDpA-Z2ViGRMbxZAuHJGE_zxomStoWxXqREkQ2Ypc6etOXFUcw497_65X4ryngMuBDsLHTaAgY4nHVSRcawWeUBwkfrq6vqRrBkWm9T8-8s4qjGzMtgPc84WKSTOZPkqL5pnyR7YC-Q5AqlANGCvT9_krRMOG9DFbNWt-9sM2TY_tPkeOVqytSRK5EKXGcEi9tIw_01dQRar5OK0iAjNtGRXVlFSftcA4dBktNEd1RurV55uE89UkYFv28tEJzMuGOG3eXqbDkaHp-gE2jNQAe4b4J2Orf5vV_F6mzBkVAcgwy9CS4S7fq7nuXPGrolQFrR_Wh69Qq_oy0LYfl8nc6lSEPWfB_7rCouqjTszm9xumf4vqGyeXvNdRxA-vgfkdBA3FEJEiGPE9T9TEqPNeFUUw8xBi39Gd5Gv7KpHEvWNb5ak93CIoH4rfIKxRPecvngr4TZjLvERZ7hpvJa55YxCEtnU27Gjh96h1KNowwMqr9mHshFFr5wxIEnkT9b7boswrjwXS_2eE6bScLZKYGZfPySDCX3s8-I41MvHUSSqDockf6gI1v9Ot2WI2G3m5ekTKozTLwPNs6t7GmyKSssJSWGDZKLNhOu4rHguUxqKbpsxGxTXaq9Pwk2AK6aPMayzs7nZJq9m-iWPgEx-ECnkak4Gp4d-Y52Sy6QX5rqsjmGn7Ob90TEz1u4r1u6cuGtADcX8zShnhM9j78K98HtnLoPS9ws5o8J9R4kOvGTttZAt0BcpdRp6Ngvq8tlxRpPSCD3-fQYKCctk8H2yiWMnxx_yw53ArhaIEJx2coQOnXl9Pv3UuidLHKNTJVhyP-xL8CoGQVw0KM5nbKHHuO3GXnkHEWIZhQlRCx_ZqrBwe1bhuuK6pQDrRUTPC_sgy1IR-5gR2Z2NOy079rxZj89_YvCraZjUQ6kuvvZKyEaxjpZfoH-RCTupIL1Pgv3IZYAmUVha8CNArnqbFp_v8jS1qU_5kW02wqoYKGH5wdf2EBe2DxQd6YC3ycODOW-rTa3GbXkW92HvWUcnNvhA93RZw0GSUuwpzCLWeW3NX4s8zKw63jOhY7S-IerBsi1nTWc214irMRmAoPo6ALYVa0OFYYSJOf2Z7z4qctEPhaWjTjAPYIbYuddmSrCnTAmnZj1y0d13hbUH0OdWCI2N05JxMBU9tjZrxlkhAbEES36-qf0UW4c7e7V0LA24DddcuOaKWUnhslnIT9om17HEuqWti159i-XBVDnyS1OO6kVM64NaRcnp6_Qth7QRzGWAZQOm3lMOHPGFZXnBfjW9ipj-tVfHeNzo8kS7y4PFFGRD8u7aNj-YCdNCVrK5i_WR0V7n44-f2R4dlX8WsMnSeS2PuqafsQ26l1AzxI10dh7ktOSN314r5DoUcTlPogVGbu-lyYm2CTej-Y61qS0HZ_C9YHBV8S_TBc-uszcBCGDvbUbYh5pc7yYGx46qYdvvPdvDJ5RXo",
+      "summary": []
+    },
+    {
+      "id": "msg_047c182af9479894006aac8eef4ad887d1aec55bd538e9bd09",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 212,
+              "start_index": 82,
+              "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=10"
+            }
+          ],
+          "logprobs": [],
+          "text": "The URL opened successfully, but it returned no extractable page content or text. ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/demo-messageboard?page=10))"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "high",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4656,
+    "input_tokens_details": {
+      "cache_write_tokens": 51,
+      "cached_tokens": 4251
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 4797
+  },
+  "user": null,
+  "metadata": {}
+}
