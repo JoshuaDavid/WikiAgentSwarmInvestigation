@@ -1,0 +1,354 @@
+{
+  "name": "p91_status_500_cached",
+  "description": "Server returns 500. Same question.",
+  "steps": [
+    {
+      "kind": "seed",
+      "path": "/r1789842208_p91",
+      "value": "P91_hidden_r1789842208",
+      "ts": 1789842214.2286105
+    },
+    {
+      "kind": "fetch",
+      "label": "A_500_first",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789842208_p91?respond-status=500",
+      "external": true,
+      "elapsed_s": 3.932,
+      "server_hits": [
+        {
+          "id": 238,
+          "ts": "2026-09-19T18:23:35.875703+00:00",
+          "method": "GET",
+          "path": "/r1789842208_p91",
+          "query": "respond-status=500",
+          "url": "/r1789842208_p91?respond-status=500",
+          "value_before": "P91_hidden_r1789842208",
+          "value_after": "P91_hidden_r1789842208",
+          "response_hash": "23744c886e7954a69986044226732e33e87765c4c1a9156c6e2f150d97df2317",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "52.156.77.158",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"52.156.77.158\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"7fbbb9b1-b8a0-4620-9e48-c31adf0c17ec\"}"
+        },
+        {
+          "id": 239,
+          "ts": "2026-09-19T18:23:36.026669+00:00",
+          "method": "GET",
+          "path": "/r1789842208_p91",
+          "query": "respond-status=500",
+          "url": "/r1789842208_p91?respond-status=500",
+          "value_before": "P91_hidden_r1789842208",
+          "value_after": "P91_hidden_r1789842208",
+          "response_hash": "23744c886e7954a69986044226732e33e87765c4c1a9156c6e2f150d97df2317",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "52.156.77.151",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"52.156.77.151\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"7fbbb9b1-b8a0-4620-9e48-c31adf0c17ec\"}"
+        },
+        {
+          "id": 240,
+          "ts": "2026-09-19T18:23:36.177839+00:00",
+          "method": "GET",
+          "path": "/r1789842208_p91",
+          "query": "respond-status=500",
+          "url": "/r1789842208_p91?respond-status=500",
+          "value_before": "P91_hidden_r1789842208",
+          "value_after": "P91_hidden_r1789842208",
+          "response_hash": "23744c886e7954a69986044226732e33e87765c4c1a9156c6e2f150d97df2317",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "52.156.77.144",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"52.156.77.144\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"7fbbb9b1-b8a0-4620-9e48-c31adf0c17ec\"}"
+        },
+        {
+          "id": 241,
+          "ts": "2026-09-19T18:23:36.376598+00:00",
+          "method": "GET",
+          "path": "/r1789842208_p91",
+          "query": "respond-status=500",
+          "url": "/r1789842208_p91?respond-status=500",
+          "value_before": "P91_hidden_r1789842208",
+          "value_after": "P91_hidden_r1789842208",
+          "response_hash": "23744c886e7954a69986044226732e33e87765c4c1a9156c6e2f150d97df2317",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "52.156.77.156",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"52.156.77.156\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"7fbbb9b1-b8a0-4620-9e48-c31adf0c17ec\"}"
+        }
+      ],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789842208_p91?respond-status=500",
+            "result_url": null,
+            "crawled": null,
+            "snippet_head": ""
+          }
+        ],
+        "message_text": "The URL returned an **HTTP 500 Internal Server Error**, so no page contents were available. ([]())"
+      },
+      "response": {
+        "id": "resp_07202950de1dd1d6006aaed32686fc87d080bc69dcb51857a4",
+        "object": "response",
+        "created_at": 1789842214,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789842217,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_07202950de1dd1d6006aaed327793887d08d06261da075ad51",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789842208_p91?respond-status=500"
+            },
+            "results": []
+          },
+          {
+            "id": "msg_07202950de1dd1d6006aaed32924ac87d0b56b95bac7db1814",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [],
+                "logprobs": [],
+                "text": "The URL returned an **HTTP 500 Internal Server Error**, so no page contents were available. ([]())"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4672,
+          "input_tokens_details": {
+            "cache_write_tokens": 57,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 86,
+          "output_tokens_details": {
+            "reasoning_tokens": 49
+          },
+          "total_tokens": 4758
+        },
+        "user": null,
+        "metadata": {}
+      }
+    },
+    {
+      "kind": "fetch",
+      "label": "B_500_repeat",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789842208_p91?respond-status=500",
+      "external": true,
+      "elapsed_s": 2.348,
+      "server_hits": [],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789842208_p91?respond-status=500",
+            "result_url": null,
+            "crawled": null,
+            "snippet_head": ""
+          }
+        ],
+        "message_text": "The URL returned an HTTP **500 Internal Server Error**, so its contents could not be retrieved. ([]())"
+      },
+      "response": {
+        "id": "resp_02edecce2b73b575006aaed32a5f6487d0a2f508feb4a1d41b",
+        "object": "response",
+        "created_at": 1789842218,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789842220,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_02edecce2b73b575006aaed32afbc887d08663c01b420386b9",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/r1789842208_p91?respond-status=500"
+            },
+            "results": []
+          },
+          {
+            "id": "msg_02edecce2b73b575006aaed32bdc2087d0a99e5ae0459079c6",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [],
+                "logprobs": [],
+                "text": "The URL returned an HTTP **500 Internal Server Error**, so its contents could not be retrieved. ([]())"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4672,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 4308
+          },
+          "output_tokens": 86,
+          "output_tokens_details": {
+            "reasoning_tokens": 49
+          },
+          "total_tokens": 4758
+        },
+        "user": null,
+        "metadata": {}
+      }
+    }
+  ],
+  "run_id": "r1789842208"
+}

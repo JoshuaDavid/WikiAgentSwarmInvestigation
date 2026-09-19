@@ -117,11 +117,14 @@ def make_handler(store: Store) -> type[BaseHTTPRequestHandler]:
                 self.address_string(), self.log_date_time_string(), format % args,
             ))
 
-        def _respond(self, body: bytes, content_type: str = "text/html; charset=utf-8") -> None:
-            self.send_response(200)
+        def _respond(self, body: bytes, content_type: str = "text/html; charset=utf-8",
+                     status: int = 200, extra_headers: list[tuple[str, str]] | None = None) -> None:
+            self.send_response(status)
             self.send_header("Content-Type", content_type)
             self.send_header("Content-Length", str(len(body)))
             self.send_header("Cache-Control", "no-store")
+            for k, v in (extra_headers or []):
+                self.send_header(k, v)
             self.end_headers()
             self.wfile.write(body)
 
@@ -157,8 +160,31 @@ def make_handler(store: Store) -> type[BaseHTTPRequestHandler]:
                 store.set(path, new_value, now)
                 value_after = new_value
 
+            # Optional response overrides. These are for probe use;
+            # they DO NOT affect the stored value at `path`.
+            status_override = 200
+            extra_headers: list[tuple[str, str]] = []
+            if "respond-status" in params:
+                try:
+                    status_override = int(params["respond-status"][-1])
+                except ValueError:
+                    pass
+            if "respond-redirect" in params:
+                # Overrides everything; return 302 with Location header.
+                target = params["respond-redirect"][-1]
+                body = b""
+                self._respond(body, status=302, extra_headers=[("Location", target)])
+                store.log(
+                    ts=now, method="GET", path=path, query=query, url=self.path,
+                    value_before=value_before, value_after=value_after,
+                    response_hash=sha256_hex(body),
+                    user_agent=user_agent, source_ip=source_ip,
+                    xff=xff, headers_json=headers_json,
+                )
+                return
+
             body = (value_after or "").encode("utf-8")
-            self._respond(body)
+            self._respond(body, status=status_override, extra_headers=extra_headers)
             store.log(
                 ts=now, method="GET", path=path, query=query, url=self.path,
                 value_before=value_before, value_after=value_after,

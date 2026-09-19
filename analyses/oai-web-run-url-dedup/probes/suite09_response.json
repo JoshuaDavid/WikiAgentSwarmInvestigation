@@ -1,0 +1,31 @@
+[
+  {
+    "name": "p90_status_404_cached",
+    "description": "Server returns 404 for a URL. Does OAI cache the 404 (same URL fetched twice returns 404 without 2nd server hit)?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p90", "value": "P90_hidden_value_{RID}"},
+      {"kind": "fetch", "label": "A_404_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p90?respond-status=404"},
+      {"kind": "fetch", "label": "B_404_repeat", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p90?respond-status=404"}
+    ]
+  },
+  {
+    "name": "p91_status_500_cached",
+    "description": "Server returns 500. Same question.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p91", "value": "P91_hidden_{RID}"},
+      {"kind": "fetch", "label": "A_500_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p91?respond-status=500"},
+      {"kind": "fetch", "label": "B_500_repeat", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p91?respond-status=500"}
+    ]
+  },
+  {
+    "name": "p92_redirect_cache_scope",
+    "description": "URL A responds with 302 to URL B (bare path). Which URL is cached — asked A, target B, or both?",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p92_target", "value": "P92_target_content_V1_{RID}"},
+      {"kind": "fetch", "label": "A_fetch_source", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p92_src?respond-redirect=/{RID}_p92_target"},
+      {"kind": "seed", "path": "/{RID}_p92_target", "value": "P92_target_content_V2_{RID}"},
+      {"kind": "fetch", "label": "B_refetch_source", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p92_src?respond-redirect=/{RID}_p92_target"},
+      {"kind": "fetch", "label": "C_fetch_target_directly", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p92_target"}
+    ]
+  }
+]
