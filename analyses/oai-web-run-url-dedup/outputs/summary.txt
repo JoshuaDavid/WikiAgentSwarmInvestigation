@@ -90,6 +90,14 @@ p29c_ttl_900s                                    B_after_900s                0 t
 p29d_ttl_1800s                                   A_first                     1 today      …/ttl30m_1789841022_p29d
 p29d_ttl_1800s                                   B_after_1800s               1 today      …/ttl30m_1789841022_p29d
 
+p29f_ttl_1200s                                   A_first                     1 today      …/ttl20m_1789842966_p29f
+p29f_ttl_1200s                                   B_after_1200s               0 today      …/ttl20m_1789842966_p29f
+p29f_ttl_1200s                                   C_immediate_reheat_check    0 today      …/ttl20m_1789842966_p29f
+
+p29g_ttl_1500s                                   A_first                     1 today      …/ttl25m_1789842971_p29g
+p29g_ttl_1500s                                   B_after_1500s               0 today      …/ttl25m_1789842971_p29g
+p29g_ttl_1500s                                   C_immediate_reheat_check    0 today      …/ttl25m_1789842971_p29g
+
 p30_extra_param_appended                         A_one_param                 1 today      …/r1789840872_p30?a=1
 p30_extra_param_appended                         B_two_params                1 today      …/r1789840872_p30?a=1&b=2
 

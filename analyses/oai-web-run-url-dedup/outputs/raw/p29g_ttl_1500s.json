@@ -1,0 +1,504 @@
+{
+  "name": "p29g_ttl_1500s",
+  "description": "25-minute TTL, further narrowing.",
+  "steps": [
+    {
+      "kind": "seed",
+      "path": "/ttl25m_1789842971_p29g",
+      "value": "P29G_V1_ttl25m_1789842971",
+      "ts": 1789842971.6756744
+    },
+    {
+      "kind": "fetch",
+      "label": "A_first",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+      "external": true,
+      "elapsed_s": 2.432,
+      "server_hits": [
+        {
+          "id": 253,
+          "ts": "2026-09-19T18:36:13.095868+00:00",
+          "method": "GET",
+          "path": "/ttl25m_1789842971_p29g",
+          "query": "",
+          "url": "/ttl25m_1789842971_p29g",
+          "value_before": "P29G_V1_ttl25m_1789842971",
+          "value_after": "P29G_V1_ttl25m_1789842971",
+          "response_hash": "4c2d4054d2873ee8e38dcd6136474002701df0f9e27abbdcc99cc8f8aabc6e79",
+          "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+          "source_ip": "127.0.0.1",
+          "xff": "20.169.73.74",
+          "headers_json": "{\"Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"User-Agent\": \"Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot\", \"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\", \"Accept-Encoding\": \"gzip, deflate, br\", \"Accept-Language\": \"en-US,en;q=0.9\", \"X-Envoy-Expected-Rq-Timeout-Ms\": \"15000\", \"X-Forwarded-For\": \"20.169.73.74\", \"X-Forwarded-Host\": \"oai-scratchpad-cache-versioning-demo.ngrok.io\", \"X-Forwarded-Proto\": \"https\", \"X-Request-Id\": \"bf24cd18-badb-4419-bd2b-7e48b680404a\"}"
+        }
+      ],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g\",\"lineno\":null}); Total lines: 1\nL0: P29G_V1_ttl25m_1789842971\n"
+          }
+        ],
+        "message_text": "P29G_V1_ttl25m_1789842971 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g))"
+      },
+      "response": {
+        "id": "resp_0fddee1eb69badb0006aaed61be0b887d08c9bc9aeb7e9c228",
+        "object": "response",
+        "created_at": 1789842971,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789842974,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0fddee1eb69badb0006aaed61cb91487d089202c2ecd386200",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g\",\"lineno\":null}); Total lines: 1\nL0: P29G_V1_ttl25m_1789842971\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+              }
+            ]
+          },
+          {
+            "id": "msg_0fddee1eb69badb0006aaed61da18c87d09ab980a2329cdd5d",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [
+                  {
+                    "type": "url_citation",
+                    "end_index": 153,
+                    "start_index": 26,
+                    "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                    "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+                  }
+                ],
+                "logprobs": [],
+                "text": "P29G_V1_ttl25m_1789842971 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g))"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4698,
+          "input_tokens_details": {
+            "cache_write_tokens": 57,
+            "cached_tokens": 4251
+          },
+          "output_tokens": 81,
+          "output_tokens_details": {
+            "reasoning_tokens": 49
+          },
+          "total_tokens": 4779
+        },
+        "user": null,
+        "metadata": {}
+      }
+    },
+    {
+      "kind": "seed",
+      "path": "/ttl25m_1789842971_p29g",
+      "value": "P29G_V2_ttl25m_1789842971",
+      "ts": 1789842974.143426
+    },
+    {
+      "kind": "sleep",
+      "seconds": 1500
+    },
+    {
+      "kind": "fetch",
+      "label": "B_after_1500s",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+      "external": true,
+      "elapsed_s": 3.131,
+      "server_hits": [],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g\",\"lineno\":null}); Total lines: 1\nL0: P29G_V1_ttl25m_1789842971\n"
+          }
+        ],
+        "message_text": "P29G_V1_ttl25m_1789842971 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g))"
+      },
+      "response": {
+        "id": "resp_0a3217a7bacc8a3d006aaedbfaf6a887d0971f9b786d24c9bf",
+        "object": "response",
+        "created_at": 1789844475,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789844477,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0a3217a7bacc8a3d006aaedbfbcedc87d08f70dc6340bda529",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g\",\"lineno\":null}); Total lines: 1\nL0: P29G_V1_ttl25m_1789842971\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+              }
+            ]
+          },
+          {
+            "id": "msg_0a3217a7bacc8a3d006aaedbfcb60487d0b61c891c4fbbde9b",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [
+                  {
+                    "type": "url_citation",
+                    "end_index": 153,
+                    "start_index": 26,
+                    "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                    "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+                  }
+                ],
+                "logprobs": [],
+                "text": "P29G_V1_ttl25m_1789842971 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g))"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4698,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 4308
+          },
+          "output_tokens": 81,
+          "output_tokens_details": {
+            "reasoning_tokens": 49
+          },
+          "total_tokens": 4779
+        },
+        "user": null,
+        "metadata": {}
+      }
+    },
+    {
+      "kind": "fetch",
+      "label": "C_immediate_reheat_check",
+      "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+      "external": true,
+      "elapsed_s": 2.693,
+      "server_hits": [],
+      "extracted": {
+        "calls": [
+          {
+            "action_type": "open_page",
+            "action_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+            "result_url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g",
+            "crawled": "today",
+            "snippet_head": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g\",\"lineno\":null}); Total lines: 1\nL0: P29G_V1_ttl25m_1789842971\n"
+          }
+        ],
+        "message_text": "P29G_V1_ttl25m_1789842971 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g))"
+      },
+      "response": {
+        "id": "resp_0e3d521f4e7a5e81006aaedbfd833087d0b8a5a8da7e9ba457",
+        "object": "response",
+        "created_at": 1789844477,
+        "status": "completed",
+        "background": false,
+        "billing": {
+          "payer": "developer"
+        },
+        "completed_at": 1789844479,
+        "error": null,
+        "frequency_penalty": 0.0,
+        "incomplete_details": null,
+        "instructions": null,
+        "max_output_tokens": null,
+        "max_tool_calls": null,
+        "model": "gpt-5.6-luna",
+        "moderation": null,
+        "output": [
+          {
+            "id": "ws_0e3d521f4e7a5e81006aaedbfe6ea887d0a728b728ec3a3055",
+            "type": "web_search_call",
+            "status": "completed",
+            "action": {
+              "type": "open_page",
+              "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+            },
+            "results": [
+              {
+                "type": "text_result",
+                "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g\",\"lineno\":null}); Total lines: 1\nL0: P29G_V1_ttl25m_1789842971\n",
+                "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+              }
+            ]
+          },
+          {
+            "id": "msg_0e3d521f4e7a5e81006aaedbff4e3887d08d34283171326b40",
+            "type": "message",
+            "status": "completed",
+            "content": [
+              {
+                "type": "output_text",
+                "annotations": [
+                  {
+                    "type": "url_citation",
+                    "end_index": 153,
+                    "start_index": 26,
+                    "title": "oai-scratchpad-cache-versioning-demo.ngrok.io",
+                    "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g"
+                  }
+                ],
+                "logprobs": [],
+                "text": "P29G_V1_ttl25m_1789842971 ([oai-scratchpad-cache-versioning-demo.ngrok.io](https://oai-scratchpad-cache-versioning-demo.ngrok.io/ttl25m_1789842971_p29g))"
+              }
+            ],
+            "phase": "final_answer",
+            "role": "assistant"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "previous_response_id": null,
+        "prompt_cache_key": null,
+        "prompt_cache_retention": "24h",
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        },
+        "safety_identifier": null,
+        "service_tier": "default",
+        "store": true,
+        "temperature": 1.0,
+        "text": {
+          "format": {
+            "type": "text"
+          },
+          "verbosity": "medium"
+        },
+        "tool_choice": "required",
+        "tool_usage": {
+          "image_gen": {
+            "input_tokens": 0,
+            "input_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "output_tokens": 0,
+            "output_tokens_details": {
+              "image_tokens": 0,
+              "text_tokens": 0
+            },
+            "total_tokens": 0
+          },
+          "web_search": {
+            "num_requests": 0
+          }
+        },
+        "tools": [
+          {
+            "type": "web_search",
+            "return_token_budget": "default",
+            "search_content_types": [
+              "text"
+            ],
+            "search_context_size": "high",
+            "user_location": {
+              "type": "approximate",
+              "city": null,
+              "country": "US",
+              "region": null,
+              "timezone": null
+            }
+          }
+        ],
+        "top_logprobs": 0,
+        "top_p": 0.98,
+        "truncation": "disabled",
+        "usage": {
+          "input_tokens": 4698,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 4308
+          },
+          "output_tokens": 81,
+          "output_tokens_details": {
+            "reasoning_tokens": 49
+          },
+          "total_tokens": 4779
+        },
+        "user": null,
+        "metadata": {}
+      }
+    }
+  ],
+  "run_id": "ttl25m_1789842971"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "p29f_ttl_1200s",
+    "description": "20-minute TTL, narrowing between 15m (pure cache) and 30m (SWR).",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29f", "value": "P29F_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29f"},
+      {"kind": "seed", "path": "/{RID}_p29f", "value": "P29F_V2_{RID}"},
+      {"kind": "sleep", "seconds": 1200},
+      {"kind": "fetch", "label": "B_after_1200s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29f"},
+      {"kind": "fetch", "label": "C_immediate_reheat_check", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29f"}
+    ]
+  },
+  {
+    "name": "p29g_ttl_1500s",
+    "description": "25-minute TTL, further narrowing.",
+    "steps": [
+      {"kind": "seed", "path": "/{RID}_p29g", "value": "P29G_V1_{RID}"},
+      {"kind": "fetch", "label": "A_first", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29g"},
+      {"kind": "seed", "path": "/{RID}_p29g", "value": "P29G_V2_{RID}"},
+      {"kind": "sleep", "seconds": 1500},
+      {"kind": "fetch", "label": "B_after_1500s", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29g"},
+      {"kind": "fetch", "label": "C_immediate_reheat_check", "url": "https://oai-scratchpad-cache-versioning-demo.ngrok.io/{RID}_p29g"}
+    ]
+  }
+]

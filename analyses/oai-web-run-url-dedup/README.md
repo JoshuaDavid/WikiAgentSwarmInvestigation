@@ -9,7 +9,7 @@ the backend will hit the origin server twice or reuse a cached snapshot.
 The backend canonicalises the URL string with **RFC 3986 normalisation plus
 alphabetical query-parameter sort**, hashes the canonical form, and reuses any
 prior fetch result stored under that hash. The reused bytes are served
-without any origin contact for at least **15 minutes**; between 15 and 30
+without any origin contact for at least **25 minutes**; between 25 and 30
 minutes OAI switches to **stale-while-revalidate** — the caller still gets
 the cached bytes and OAI fires a fresh origin GET in the background that
 updates the slot for the next fetch.
@@ -181,10 +181,12 @@ same URL, with the origin content changed in between:
 | 60s              | no  | V1 (p29)  |
 | 300s (5m)        | no  | V1 (p29b) |
 | 900s (15m)       | no  | V1 (p29c) |
+| 1200s (20m)      | no  | V1 (p29f — pure cache, no revalidation) |
+| 1500s (25m)      | no  | V1 (p29g — still pure cache) |
 | 1800s (30m)      | **yes** — new origin hit at 18:33:47 UTC (52.225.75.212) that returned V2 | **V1** (stale from cache) — p29d |
-| 3600s (1h)       | *TBD — probe still running, see `p29e_ttl_3600s.json`* |  |
+| 3600s (1h)       | *TBD — see `p29e_ttl_3600s.json`* |  |
 
-Between 15 min and 30 min OAI's cache transitions from **serve-stale-without-
+Between 25 min and 30 min OAI's cache transitions from **serve-stale-without-
 refresh** to **serve-stale-with-background-revalidate**. At 30 min the model
 still sees the cached V1, but OAI fires a fresh origin GET in parallel. That
 fresh response is *not* returned to the caller — it's written to the cache
@@ -197,8 +199,8 @@ had populated the cache slot with V2 for future fetches.
 So the effective behaviour a downstream agent should assume for a URL that
 was fetched N minutes ago:
 
-- **N ≤ ~15 min:** you get the cached bytes; the origin is not contacted.
-- **~15 min < N < some upper bound:** you get the cached bytes and the origin
+- **N ≤ ~25 min:** you get the cached bytes; the origin is not contacted.
+- **~25 min < N < some upper bound:** you get the cached bytes and the origin
   is contacted; the cache slot rolls forward for the *next* fetch.
 - The stale-then-fresh window means an agent racing to see the *latest*
   bytes on a stale URL must fetch twice: throw away the first result and
