@@ -1,0 +1,84 @@
+target	source	kind	rows_kept	newest	oldest	stopped_by
+md.succ.ai	instructions	host	162	2026-06-18 23:25	2026-05-11 11:25	last_page
+vanderbi.lt	instructions	host	2	2026-06-18 18:22	2026-06-17 08:54	last_page
+bitily.in	instructions	host	9	2026-05-29 23:45	2026-03-21 08:49	last_page
+yourls.pro	instructions	host	19	2026-05-29 22:33	2026-05-26 15:02	last_page
+yourls.shop	instructions	host	0	None	None	empty_page
+yourls.website	instructions	host	1	2026-06-18 18:06	2026-06-18 18:06	last_page
+yourls.space	instructions	host	0	None	None	empty_page
+goto.unm.edu	instructions	host	0	None	None	empty_page
+r.jina.ai	instructions	host	941	2026-08-19 04:35	2025-09-16 01:03	before_window
+httpbin.org	instructions	host	663	2026-09-15 00:47	2026-06-20 09:45	last_page
+allorigins.hexlet.app	instructions	host	94	2026-06-18 22:35	2026-06-17 11:31	last_page
+da.gd	instructions	host	189	2026-07-13 20:24	2023-11-06 16:57	before_window
+markdown.new	instructions	host	2400	2026-06-18 19:32	2026-05-11 16:15	page_cap
+pure.md	instructions	host	275	2026-06-18 21:13	2026-05-10 23:48	last_page
+proxymule.com	instructions	host	18	2026-06-18 19:36	2026-05-28 10:43	last_page
+jqp.vercel.app	instructions	host	17	2026-06-18 18:19	2026-05-27 12:46	last_page
+api.microlink.io	instructions	host	768	2026-09-12 13:16	2025-09-01 08:46	before_window
+cors-get-proxy.sirjosh.workers.dev	instructions	host	13	2026-06-17 11:40	2026-01-17 17:04	last_page
+cors.bwa.workers.dev	instructions	host	142	2026-06-17 11:35	2026-05-13 01:55	last_page
+cors.ripka.workers.dev	instructions	host	0	None	None	empty_page
+jsonhero.io	instructions	host	2	2026-05-29 23:06	2026-05-29 22:48	last_page
+urltomarkdown	instructions	term	0	None	None	empty_page
+wikiservice.at	corpus	host	1	2026-05-27 01:33	2026-05-27 01:33	last_page
+tmcleod.org	corpus	host	0	None	None	empty_page
+texteditors.org	corpus	host	0	None	None	empty_page
+usemod.org	corpus	host	1	2025-11-27 00:59	2025-11-27 00:59	last_page
+ludism.org	corpus	host	0	None	None	empty_page
+prowiki.org	corpus	host	0	None	None	empty_page
+dorfwiki.org	corpus	host	0	None	None	empty_page
+api.counterapi.dev	corpus	host	20	2026-07-29 05:46	2025-03-16 06:27	last_page
+countapi.mileshilliard.com	corpus	host	3	2026-08-08 13:51	2026-03-17 02:54	last_page
+rmn.re	corpus	host	0	None	None	empty_page
+lnkr.click	corpus	host	1	2026-08-14 19:50	2026-08-14 19:50	last_page
+url.popcat.xyz	corpus	host	0	None	None	empty_page
+uoft.me	corpus	host	0	None	None	empty_page
+u.ethz.ch	corpus	host	1	2025-10-17 19:04	2025-10-17 19:04	last_page
+md.dhr.wtf	corpus	host	0	None	None	empty_page
+webcrawlerapi.com	corpus	host	0	None	None	empty_page
+corsmirror.com	corpus	host	95	2026-06-18 18:05	2026-05-12 22:04	last_page
+cors.hypnguyen.workers.dev	corpus	host	2	2026-05-13 01:33	2026-05-13 01:33	last_page
+cloudflare-cors-anywhere.hanpengchen.workers.dev	corpus	host	20	2026-05-29 22:54	2026-05-11 18:39	last_page
+test.cors.workers.dev	corpus	host	100	2026-06-16 15:07	2026-01-23 02:44	last_page
+proxy.corsfix.com	corpus	host	62	2026-06-18 20:35	2026-03-06 04:19	last_page
+api.cors.lol	corpus	host	871	2026-07-26 04:06	2025-05-29 15:06	last_page
+api.allorigins.win	corpus	host	95	2026-09-05 15:00	2026-06-13 19:47	last_page
+platform.lemino.ai	corpus	host	1	2026-06-18 19:45	2026-06-18 19:45	last_page
+www-sec-gov.translate.goog	corpus	host	0	None	None	empty_page
+www-investor-gov.translate.goog	corpus	host	0	None	None	empty_page
+paste.linuxiarz.pl	corpus	host	1	2026-09-06 00:21	2026-09-06 00:21	last_page
+pastebin.k4be.pl	corpus	host	0	None	None	empty_page
+pastebin.tarcseh.me	corpus	host	0	None	None	empty_page
+anna.fyi	corpus	host	1	2026-01-13 20:26	2026-01-13 20:26	last_page
+2md.link	corpus	host	0	None	None	empty_page
+vnr.st	corpus	host	0	None	None	empty_page
+site-test.nsi.bg	corpus	host	0	None	None	empty_page
+data.idph.state.ia.us	corpus	host	190	2026-06-21 09:45	2026-06-20 06:32	last_page
+county.json	corpus	term	383	2026-08-26 02:12	2026-06-18 14:37	last_page
+regCF_county	corpus	term	0	None	None	empty_page
+yourls.pl	termina	host	0	None	None	empty_page
+yourls.biz	termina	host	3	2026-05-27 02:51	2025-10-28 05:45	last_page
+zapro.si	termina	host	0	None	None	empty_page
+kodak.love	termina	host	1	2026-07-15 08:45	2026-07-15 08:45	last_page
+klickhier.at	termina	host	0	None	None	empty_page
+ativar.abre.bio	termina	host	0	None	None	empty_page
+easylinkref.com	termina	host	0	None	None	empty_page
+linkrutgon.net	termina	host	0	None	None	empty_page
+t.mdcdev.me	termina	host	1	2026-06-17 09:05	2026-06-17 09:05	last_page
+2dd.pl	termina	host	28	2026-06-18 20:55	2026-06-18 04:41	last_page
+cors-proxy-gray.vercel.app	termina	host	1	2026-09-05 17:57	2026-09-05 17:57	last_page
+thenacken-python-cors-proxy.hf.space	termina	host	8	2026-05-15 13:37	2026-05-13 03:08	last_page
+md.coredump.ch	termina	host	1	2026-07-03 06:09	2026-07-03 06:09	last_page
+campusosttirol.mustertheorie.de	termina	host	0	None	None	empty_page
+kb5.zukunftslernorte.org	termina	host	0	None	None	empty_page
+netzwerkgegengewalt.org	termina	host	0	None	None	empty_page
+schulwiki.org	termina	host	0	None	None	empty_page
+nervesocket.com	termina	host	0	None	None	empty_page
+minetest.wjake.com	termina	host	1	2025-01-19 04:06	2025-01-19 04:06	last_page
+paste.probyte.ee	termina	host	0	None	None	empty_page
+paste.ubuntu.org.cn	termina	host	0	None	None	empty_page
+pinggy-free.link	thecolony	host	1	2026-06-21 20:25	2026-06-21 20:25	last_page
+openagentchat.net	thecolony	host	0	None	None	empty_page
+public-board.com	thecolony	host	2	2026-09-06 08:13	2026-09-06 08:13	last_page
+help-peer.hyperplex.org	thecolony	host	0	None	None	empty_page
