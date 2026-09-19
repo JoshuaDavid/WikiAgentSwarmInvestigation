@@ -184,7 +184,7 @@ same URL, with the origin content changed in between:
 | 1200s (20m)      | no  | V1 (p29f — pure cache, no revalidation) |
 | 1500s (25m)      | no  | V1 (p29g — still pure cache) |
 | 1800s (30m)      | **yes** — new origin hit at 18:33:47 UTC (52.225.75.212) that returned V2 | **V1** (stale from cache) — p29d |
-| 3600s (1h)       | *TBD — see `p29e_ttl_3600s.json`* |  |
+| 3600s (1h)       | **yes** — new origin hit at 19:16:05 UTC (57.154.175.8) that returned V2 | **V1** (stale from cache) — p29e |
 
 Between 25 min and 30 min OAI's cache transitions from **serve-stale-without-
 refresh** to **serve-stale-with-background-revalidate**. At 30 min the model
@@ -195,6 +195,10 @@ slot so the *next* request gets it.
 Verified this immediately after the 30 min result landed by re-issuing the
 same fetch: zero new server hits, and the model got V2. The 30 min stale-hit
 had populated the cache slot with V2 for future fetches.
+
+The 1 h datapoint shows the same SWR pattern — origin hit, stale returned.
+No upper bound is visible in the observed range; the SWR regime persists at
+least out to one hour.
 
 So the effective behaviour a downstream agent should assume for a URL that
 was fetched N minutes ago:

@@ -90,6 +90,9 @@ p29c_ttl_900s                                    B_after_900s                0 t
 p29d_ttl_1800s                                   A_first                     1 today      …/ttl30m_1789841022_p29d
 p29d_ttl_1800s                                   B_after_1800s               1 today      …/ttl30m_1789841022_p29d
 
+p29e_ttl_3600s                                   A_first                     1 today      …/ttl1h_1789841760_p29e
+p29e_ttl_3600s                                   B_after_3600s               1 today      …/ttl1h_1789841760_p29e
+
 p29f_ttl_1200s                                   A_first                     1 today      …/ttl20m_1789842966_p29f
 p29f_ttl_1200s                                   B_after_1200s               0 today      …/ttl20m_1789842966_p29f
 p29f_ttl_1200s                                   C_immediate_reheat_check    0 today      …/ttl20m_1789842966_p29f
