@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Aggregate wiki access logs into per-hour, per-wiki request counts within
-an inclusive UTC date window.
+"""Aggregate wiki access logs into per-bucket, per-wiki request counts
+within an inclusive UTC date window.
 
 Input:  tmp/wiki-access-logs/<wiki>/log_YYMM  (as in build.py)
-Output: outputs/hourly_by_wiki_<start>_<end>.tsv
-        Columns: hour  wiki  count   (hour = "YYYY-MM-DD HH" UTC)
+Output: outputs/bucketed_by_wiki_<start>_<end>_<mins>min.tsv
+        Columns: bucket  wiki  count
+        Bucket label = "YYYY-MM-DD HH" for --bucket-minutes 60, otherwise
+        "YYYY-MM-DD HH:MM" aligned to the bucket start.
 
-Default window: 2026-06-13 through 2026-06-20 inclusive.
+--bucket-minutes must evenly divide 60 or be a whole-hour multiple.
+Default window: 2026-06-13 through 2026-06-20 inclusive; default bucket 60.
 """
 from __future__ import annotations
 import argparse
@@ -57,11 +60,27 @@ def logfiles_covering(wiki_dir: Path, start: datetime, end_exclusive: datetime):
     return keep
 
 
+def bucket_label(ts: int, bucket_secs: int) -> str:
+    aligned = (ts // bucket_secs) * bucket_secs
+    dt = datetime.fromtimestamp(aligned, tz=timezone.utc)
+    if bucket_secs % 3600 == 0:
+        return dt.strftime("%Y-%m-%d %H")
+    return dt.strftime("%Y-%m-%d %H:%M")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default="2026-06-13", help="inclusive UTC date")
     ap.add_argument("--end", default="2026-06-20", help="inclusive UTC date")
+    ap.add_argument("--bucket-minutes", type=int, default=60,
+                    help="bucket width in minutes; must divide 60 or be a "
+                         "whole-hour multiple")
     args = ap.parse_args()
+
+    bm = args.bucket_minutes
+    if bm <= 0 or (bm < 60 and 60 % bm != 0) or (bm >= 60 and bm % 60 != 0):
+        raise SystemExit(f"--bucket-minutes={bm} does not tile the day cleanly")
+    bucket_secs = bm * 60
 
     start = parse_iso(args.start)
     end_incl = parse_iso(args.end)
@@ -79,16 +98,15 @@ def main() -> None:
             for ts in iter_timestamps(logfile):
                 if ts < start_ts or ts > end_ts:
                     continue
-                dt = datetime.fromtimestamp(ts, tz=timezone.utc)
-                bucket = dt.strftime("%Y-%m-%d %H")
+                bucket = bucket_label(ts, bucket_secs)
                 counts[(bucket, wiki)] += 1
                 total += 1
         print(f"{wiki}: {total:,} requests in window", file=sys.stderr)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = OUT_DIR / f"hourly_by_wiki_{args.start}_{args.end}.tsv"
+    out = OUT_DIR / f"bucketed_by_wiki_{args.start}_{args.end}_{bm}min.tsv"
     with out.open("w") as f:
-        f.write("hour\twiki\tcount\n")
+        f.write("bucket\twiki\tcount\n")
         for (h, wiki) in sorted(counts):
             f.write(f"{h}\t{wiki}\t{counts[(h, wiki)]}\n")
     print(f"wrote {out}  ({len(counts):,} rows)", file=sys.stderr)

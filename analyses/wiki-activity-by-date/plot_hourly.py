@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Render a stacked hourly bar chart from an hourly TSV.
+"""Render a stacked per-bucket bar chart from a bucketed TSV.
 
-  outputs/hourly_stacked_by_wiki_<start>_<end>.svg
+  outputs/bucketed_stacked_by_wiki_<start>_<end>_<mins>min.svg
 
-x = UTC hour, height = requests, stack = wiki.
+x = UTC bucket, height = requests, stack = wiki.
 Stack order: smallest total at the bottom, largest at the top.
 Pure stdlib.
 """
@@ -41,14 +41,16 @@ def load(path: Path) -> tuple[dict[tuple[str, str], int], dict[str, int]]:
     return cells, wiki_total
 
 
-def hour_range(start_iso: str, end_iso: str) -> list[str]:
+def bucket_range(start_iso: str, end_iso: str, bucket_min: int) -> list[str]:
     a = datetime.strptime(start_iso, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    b = datetime.strptime(end_iso, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    b = b + timedelta(hours=23)
+    end_incl = datetime.strptime(end_iso, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    b = end_incl + timedelta(hours=24) - timedelta(minutes=bucket_min)
+    fmt = "%Y-%m-%d %H" if bucket_min % 60 == 0 else "%Y-%m-%d %H:%M"
+    step = timedelta(minutes=bucket_min)
     out, cur = [], a
     while cur <= b:
-        out.append(cur.strftime("%Y-%m-%d %H"))
-        cur += timedelta(hours=1)
+        out.append(cur.strftime(fmt))
+        cur += step
     return out
 
 
@@ -68,9 +70,9 @@ def y_ticks(y_max: int, n: int = 5) -> list[int]:
     return [int(round(y_max * i / n)) for i in range(n + 1)]
 
 
-def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
+def render(tsv_path: Path, start_iso: str, end_iso: str, bucket_min: int) -> Path:
     cells, wiki_total = load(tsv_path)
-    hours = hour_range(start_iso, end_iso)
+    hours = bucket_range(start_iso, end_iso, bucket_min)
 
     # Colours: assign in a stable order (large → small) so the biggest wikis
     # always get the same hue across renders and won't drift when the window
@@ -89,9 +91,12 @@ def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
         hour_total[h] += n
     y_max = nice_y_max(max(hour_total.values()) if hour_total else 1)
 
-    W, H = 1600, 780
+    # Widen the canvas when we have many bars so each bar keeps ~1.5px minimum.
+    plot_w_target = max(1210, int(len(hours) * 1.6))
     MARGIN_L, MARGIN_R = 90, 300
     MARGIN_T, MARGIN_B = 70, 120
+    W = plot_w_target + MARGIN_L + MARGIN_R
+    H = 780
     plot_w = W - MARGIN_L - MARGIN_R
     plot_h = H - MARGIN_T - MARGIN_B
     bar_w = plot_w / len(hours)
@@ -104,16 +109,20 @@ def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
         f'<rect x="0" y="0" width="{W}" height="{H}" fill="white"/>',
     ]
     total = sum(hour_total.values())
+    if bucket_min % 60 == 0:
+        bucket_desc = f"{bucket_min // 60}-hour" if bucket_min > 60 else "hourly"
+    else:
+        bucket_desc = f"{bucket_min}-minute"
     parts.append(
         f'<text x="{MARGIN_L + plot_w/2:.0f}" y="26" text-anchor="middle" '
-        f'font-size="18" font-weight="600" fill="#111">Wiki access activity by hour, '
-        f'stacked by wiki</text>'
+        f'font-size="18" font-weight="600" fill="#111">Wiki access activity, '
+        f'{bucket_desc} buckets, stacked by wiki</text>'
     )
     parts.append(
         f'<text x="{MARGIN_L + plot_w/2:.0f}" y="46" text-anchor="middle" '
         f'fill="#555">{total:,} requests · '
         f'UTC {start_iso} 00:00 → {end_iso} 23:59 · '
-        f'{len(hours)} hourly bars · smallest wiki at bottom, largest on top</text>'
+        f'{len(hours)} bars · smallest wiki at bottom, largest on top</text>'
     )
 
     for tick in y_ticks(y_max):
@@ -136,8 +145,9 @@ def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
     )
 
     # Vertical day separators.
+    day_start_marker = " 00" if bucket_min % 60 == 0 else " 00:00"
     for i, h in enumerate(hours):
-        if h.endswith(" 00") and i > 0:
+        if h.endswith(day_start_marker) and i > 0:
             x = x0 + i * bar_w
             parts.append(
                 f'<line x1="{x:.1f}" y1="{y0 - plot_h}" x2="{x:.1f}" y2="{y0}" '
@@ -157,15 +167,19 @@ def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
                 f'<rect x="{x:.2f}" y="{cursor_y - seg_h:.2f}" '
                 f'width="{max(0.4, bar_w - 0.4):.2f}" height="{seg_h:.2f}" '
                 f'fill="{colors[w]}" stroke="none">'
-                f'<title>{h}:00 UTC  {w}: {n:,}</title></rect>'
+                f'<title>{h}{":00" if bucket_min % 60 == 0 else ""} UTC  {w}: {n:,}</title></rect>'
             )
             cursor_y -= seg_h
 
-    # X labels: one per day at hour 00, plus a light hour tick every 6h.
+    # X labels: date at midnight, plus a light hour tick every 6h at :00.
     for i, h in enumerate(hours):
-        hh = h[-2:]
+        if bucket_min % 60 == 0:
+            hh = h[-2:]
+            mm = "00"
+        else:
+            hh, mm = h[-5:-3], h[-2:]
         x = x0 + i * bar_w + bar_w / 2
-        if hh == "00":
+        if hh == "00" and mm == "00":
             parts.append(
                 f'<text x="{x:.1f}" y="{y0 + 32}" text-anchor="middle" '
                 f'fill="#111" font-weight="600">{h[:10]}</text>'
@@ -174,7 +188,7 @@ def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
                 f'<text x="{x:.1f}" y="{y0 + 16}" text-anchor="middle" '
                 f'fill="#666">00</text>'
             )
-        elif hh in ("06", "12", "18"):
+        elif mm == "00" and hh in ("06", "12", "18"):
             parts.append(
                 f'<text x="{x:.1f}" y="{y0 + 16}" text-anchor="middle" '
                 f'fill="#666">{hh}</text>'
@@ -214,8 +228,13 @@ def render(tsv_path: Path, start_iso: str, end_iso: str) -> Path:
             f'{wiki_total[w]:,}</text>'
         )
 
+    parts.append(f'<text x="{MARGIN_L + plot_w/2:.0f}" y="{H - 6}" '
+                 f'text-anchor="middle" fill="#666" font-size="11">'
+                 f'x-axis ticks at midnight and every 6 hours (UTC)</text>')
     parts.append("</svg>")
-    out = OUT_DIR / f"hourly_stacked_by_wiki_{start_iso}_{end_iso}.svg"
+    out = OUT_DIR / (
+        f"bucketed_stacked_by_wiki_{start_iso}_{end_iso}_{bucket_min}min.svg"
+    )
     out.write_text("\n".join(parts))
     print(f"wrote {out}", file=sys.stderr)
     return out
@@ -225,12 +244,14 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default="2026-06-13")
     ap.add_argument("--end", default="2026-06-20")
+    ap.add_argument("--bucket-minutes", type=int, default=60)
     args = ap.parse_args()
-    tsv = OUT_DIR / f"hourly_by_wiki_{args.start}_{args.end}.tsv"
+    bm = args.bucket_minutes
+    tsv = OUT_DIR / f"bucketed_by_wiki_{args.start}_{args.end}_{bm}min.tsv"
     if not tsv.exists():
         print(f"missing {tsv}; run build_hourly.py first", file=sys.stderr)
         sys.exit(1)
-    render(tsv, args.start, args.end)
+    render(tsv, args.start, args.end, bm)
 
 
 if __name__ == "__main__":
