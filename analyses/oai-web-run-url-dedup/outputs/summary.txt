@@ -198,3 +198,13 @@ p81_multi_dup_same_key_3vals                     B_132                       0 t
 
 p82_utf8_percent_encoded_value                   A_encoded_cafe              1 today      …/r1789841601_p82?q=caf%C3%A9
 p82_utf8_percent_encoded_value                   B_literal_cafe              0 -          …/r1789841601_p82?q=café
+
+p90_status_404_cached                            A_404_first                 1 -          …/r1789842208_p90?respond-status=404
+p90_status_404_cached                            B_404_repeat                0 -          …/r1789842208_p90?respond-status=404
+
+p91_status_500_cached                            A_500_first                 4 -          …/r1789842208_p91?respond-status=500
+p91_status_500_cached                            B_500_repeat                0 -          …/r1789842208_p91?respond-status=500
+
+p92_redirect_cache_scope                         A_fetch_source              2 today      …/r1789842208_p92_src?respond-redirect=%2Fr1789842208_p92_target
+p92_redirect_cache_scope                         B_refetch_source            0 today      …/r1789842208_p92_src?respond-redirect=%2Fr1789842208_p92_target
+p92_redirect_cache_scope                         C_fetch_target_directly     1 today      …/r1789842208_p92_target

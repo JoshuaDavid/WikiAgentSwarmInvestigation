@@ -8,7 +8,7 @@ the backend will hit the origin server twice or reuse a cached snapshot.
 
 The backend canonicalises the URL string with **RFC 3986 normalisation plus
 alphabetical query-parameter sort**, hashes the canonical form, and reuses any
-prior fetch result stored under that hash — for **at least 5 minutes**, and
+prior fetch result stored under that hash — for **at least 15 minutes**, and
 without ever revalidating against the origin server during that window.
 
 ## Vocabulary
@@ -197,7 +197,34 @@ regardless of what the origin has done to the page in the meantime.
   `Crawled:` stamp (p14). The URL must be cached from some prior fetch for
   `external_web_access=false` to serve it.
 
-### 6. Same egress pool across all cache misses
+### 6. Error responses are cached too, and 5xx triggers concurrent retries
+
+- **404** — the URL responds 404 once, then a second fetch of the same URL
+  returns the same failure result without any second origin hit (p90). The
+  cache does not distinguish "success" from "not found".
+- **500** — the origin returns 500 on the first fetch. OAI fires **4
+  concurrent retries** within ~500 ms, each from a different egress IP in
+  the same /24 pool (`52.156.77.144`, `.151`, `.156`, `.158`). All four get
+  500. OAI then caches the failure. A repeat fetch of the same URL returns
+  the cached error without any further origin hit (p91).
+
+### 7. Redirects populate the cache slot of the requested URL, not the target's
+
+When URL `/src?respond-redirect=/target` returns `302 Location: /target`
+(p92):
+
+- The first fetch of `/src?…` causes **two** origin hits: one for `/src?…`
+  (the 302 response), and one for `/target` (OAI follows the redirect).
+  OAI returns the target's bytes as the result.
+- A second fetch of the same `/src?…` URL returns the cached bytes and
+  causes zero origin hits — the src URL now holds the target's bytes in its
+  cache slot.
+- A first fetch of `/target` directly causes a fresh origin hit and returns
+  the target's *current* bytes. **Following a redirect does not populate a
+  cache slot for the target URL.** An agent that has fetched the src cannot
+  free-ride subsequent target fetches, and vice versa.
+
+### 8. Same egress pool across all cache misses
 
 Every OpenAI-originated fetch arrives at the origin with an `X-Forwarded-For`
 in one of these Azure /24 ranges (observed in this study):
@@ -244,8 +271,8 @@ origin server twice or once, run URLs through this normaliser and compare:
 6. **Fragment:** drop completely.
 
 Two URLs canonicalise-equal ⇒ **the second fetch never leaves OpenAI's
-infrastructure** and returns bytes captured from the first, for at least 5
-minutes (probably ≥15 min — see §4).
+infrastructure** and returns bytes captured from the first, for at least 15
+minutes (see §4 for longer datapoints as they land).
 
 Two URLs canonicalise-different ⇒ **each fetch reaches the origin server**
 (provided the URL is well-formed enough for OAI's tool to accept it).
@@ -285,12 +312,9 @@ Two URLs canonicalise-different ⇒ **each fetch reaches the origin server**
   showed `Crawled: today`, so the stamp is a rough freshness indicator, not
   a per-request timestamp. It does not distinguish live from cached in the
   data we collected.
-- **Error-response caching.** Every probe served HTTP 200 from the origin.
-  Whether OAI caches a 404, 5xx, or timeout under the same URL-hash rule
-  was not tested.
-- **Redirect handling.** The origin never responded with a 3xx during
-  probes, so whether the cache key follows the requested URL or the
-  redirect target is untested.
+- **Timeout / connection-refused caching.** 404 and 500 are cached (§6).
+  Whether an origin that hangs or refuses connection is treated the same
+  way is not tested here.
 - **Non-HTML content types.** Only `text/html` was served. JSON, PDF,
   binary — behaviour untested.
 - **Very large responses.** Payloads in these probes were all under 200
