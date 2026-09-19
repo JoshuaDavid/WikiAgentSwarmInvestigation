@@ -83,7 +83,7 @@ distinct server hit. The `canonical_url` column is OpenAI's reported
 | p34 | `https://host:443/…` | `https://host/…` | matches | default port stripped even when supplied first |
 | p45 | `https://host/…` | `https://host./…` | matches | trailing dot on host stripped for cache key (but preserved in `action_url`) |
 | p66 | `https://…` | `http://…` | matches | **http and https share a cache slot**, canonical is https |
-| p71 | `http://…` | `https://…` | matches | same collision regardless of which came first |
+| p71 | `http://…` | `https://…` | matches | same collision regardless of which came first. The `http://` request that reaches the origin arrives with `X-Forwarded-Proto: https`, so the scheme upgrade happens somewhere in OAI's stack before the outbound TCP connection. |
 | p67 | `https://host/…` | `https://host:80/…` | fresh (2nd fails) | non-default port preserved |
 | p72 | `https://host/…` | `https://www.host/…` | fresh (2nd fails) | `www.` prefix is a distinct hostname |
 | p46 | `https://host/…` | `https://alice:pw@host/…` | fresh (2nd rejected) | userinfo is not stripped — OAI's tool refuses the URL with error `Unable to resolve open call due to invalid ref_id argument` |
@@ -177,12 +177,13 @@ same URL, with the origin content changed in between:
 | 0s (back-to-back) | no  | V1 (p01, p04, p12, p52) |
 | 60s              | no  | V1 (p29)  |
 | 300s (5m)        | no  | V1 (p29b) |
-| 900s (15m)       | *TBD_15* |  |
-| 1800s (30m)      | *TBD_30* |  |
+| 900s (15m)       | no  | V1 (p29c) |
+| 1800s (30m)      | *TBD — probe still running as of writeup, see `outputs/raw/p29d_ttl_1800s.json` when landed* |  |
+| 3600s (1h)       | *TBD — see `p29e_ttl_3600s.json`* |  |
 
-The 5-minute datapoint is already past the point where a naive per-request or
-per-turn cache would apply. Two agents opening the same URL 5 minutes apart
-see the same bytes and neither incurs a server hit.
+Every TTL point tested up to 15 minutes is a hit. Two agents opening the same
+URL a quarter-hour apart see the same bytes and neither incurs a server hit,
+regardless of what the origin has done to the page in the meantime.
 
 ### 5. The `external_web_access` flag does not disable the cache
 
@@ -269,6 +270,31 @@ Two URLs canonicalise-different ⇒ **each fetch reaches the origin server**
   cached snapshot to any agent that fetched it just before the rewrite. Any
   fetch-then-rewrite-then-refetch attack pattern must either use different
   URLs or wait out the TTL.
+
+## Caveats and things this study does not answer
+
+- **Cache scope across API keys / orgs.** All probes run under a single API
+  key. Whether the cache is per-key, per-org, or global cannot be answered
+  from this data. The consistent "one server hit, one canonical URL"
+  behaviour suggests a shared cache (nothing about the key affected which
+  slot a URL wrote to), but that's suggestive, not proof.
+- **Cache scope across the two `web_search` action types.** All probes drive
+  `web.run open`. Whether a `search` action that surfaces a URL fills the
+  same cache slot that a subsequent `open` reads from is not tested here.
+- **The `Crawled: today` stamp.** Every response — cache hit or cache miss —
+  showed `Crawled: today`, so the stamp is a rough freshness indicator, not
+  a per-request timestamp. It does not distinguish live from cached in the
+  data we collected.
+- **Error-response caching.** Every probe served HTTP 200 from the origin.
+  Whether OAI caches a 404, 5xx, or timeout under the same URL-hash rule
+  was not tested.
+- **Redirect handling.** The origin never responded with a 3xx during
+  probes, so whether the cache key follows the requested URL or the
+  redirect target is untested.
+- **Non-HTML content types.** Only `text/html` was served. JSON, PDF,
+  binary — behaviour untested.
+- **Very large responses.** Payloads in these probes were all under 200
+  bytes.
 
 ## Files
 

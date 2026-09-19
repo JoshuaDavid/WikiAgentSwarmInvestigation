@@ -84,6 +84,9 @@ p29_ttl_60s                                      B_after_60s                 0 t
 p29b_ttl_300s                                    A_first                     1 today      …/ttl300s_1789841189_p29
 p29b_ttl_300s                                    B_after_300s                0 today      …/ttl300s_1789841189_p29
 
+p29c_ttl_900s                                    A_first                     1 today      …/ttl15m_1789841027_p29c
+p29c_ttl_900s                                    B_after_900s                0 today      …/ttl15m_1789841027_p29c
+
 p30_extra_param_appended                         A_one_param                 1 today      …/r1789840872_p30?a=1
 p30_extra_param_appended                         B_two_params                1 today      …/r1789840872_p30?a=1&b=2
 
@@ -186,3 +189,12 @@ p74_query_no_value_no_eq_vs_absent               C_a_eq_1                    1 t
 
 p75_trailing_amp                                 A_no_amp                    1 today      …/r1789841458_p75?a=1
 p75_trailing_amp                                 B_trailing_amp              0 today      …/r1789841458_p75?a=1
+
+p80_error_response_cached                        A_seeded                    1 today      …/r1789841601_p80
+p80_error_response_cached                        B_same                      0 today      …/r1789841601_p80
+
+p81_multi_dup_same_key_3vals                     A_312                       1 today      …/r1789841601_p81?a=1&a=2&a=3
+p81_multi_dup_same_key_3vals                     B_132                       0 today      …/r1789841601_p81?a=1&a=2&a=3
+
+p82_utf8_percent_encoded_value                   A_encoded_cafe              1 today      …/r1789841601_p82?q=caf%C3%A9
+p82_utf8_percent_encoded_value                   B_literal_cafe              0 -          …/r1789841601_p82?q=café
