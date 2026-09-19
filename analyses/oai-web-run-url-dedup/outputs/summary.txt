@@ -87,6 +87,9 @@ p29b_ttl_300s                                    B_after_300s                0 t
 p29c_ttl_900s                                    A_first                     1 today      …/ttl15m_1789841027_p29c
 p29c_ttl_900s                                    B_after_900s                0 today      …/ttl15m_1789841027_p29c
 
+p29d_ttl_1800s                                   A_first                     1 today      …/ttl30m_1789841022_p29d
+p29d_ttl_1800s                                   B_after_1800s               1 today      …/ttl30m_1789841022_p29d
+
 p30_extra_param_appended                         A_one_param                 1 today      …/r1789840872_p30?a=1
 p30_extra_param_appended                         B_two_params                1 today      …/r1789840872_p30?a=1&b=2
 

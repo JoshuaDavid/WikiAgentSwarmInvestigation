@@ -8,8 +8,11 @@ the backend will hit the origin server twice or reuse a cached snapshot.
 
 The backend canonicalises the URL string with **RFC 3986 normalisation plus
 alphabetical query-parameter sort**, hashes the canonical form, and reuses any
-prior fetch result stored under that hash — for **at least 15 minutes**, and
-without ever revalidating against the origin server during that window.
+prior fetch result stored under that hash. The reused bytes are served
+without any origin contact for at least **15 minutes**; between 15 and 30
+minutes OAI switches to **stale-while-revalidate** — the caller still gets
+the cached bytes and OAI fires a fresh origin GET in the background that
+updates the slot for the next fetch.
 
 ## Vocabulary
 
@@ -167,23 +170,39 @@ You can see this in the response: `output[0].action.url` (and the mirrored
 The canonical URL is what the origin server receives *and* what OAI hashes for
 its cache key.
 
-### 4. Cache TTL
+### 4. Cache TTL — freshness lasts ≥15 min, then stale-while-revalidate
 
 Wall-clock time between the first fetch of a URL and a second fetch of the
 same URL, with the origin content changed in between:
 
-| gap | 2nd fetch hit origin? | cached bytes returned |
+| gap | server hit on 2nd? | model got |
 | ---- | --- | --- |
 | 0s (back-to-back) | no  | V1 (p01, p04, p12, p52) |
 | 60s              | no  | V1 (p29)  |
 | 300s (5m)        | no  | V1 (p29b) |
 | 900s (15m)       | no  | V1 (p29c) |
-| 1800s (30m)      | *TBD — probe still running as of writeup, see `outputs/raw/p29d_ttl_1800s.json` when landed* |  |
-| 3600s (1h)       | *TBD — see `p29e_ttl_3600s.json`* |  |
+| 1800s (30m)      | **yes** — new origin hit at 18:33:47 UTC (52.225.75.212) that returned V2 | **V1** (stale from cache) — p29d |
+| 3600s (1h)       | *TBD — probe still running, see `p29e_ttl_3600s.json`* |  |
 
-Every TTL point tested up to 15 minutes is a hit. Two agents opening the same
-URL a quarter-hour apart see the same bytes and neither incurs a server hit,
-regardless of what the origin has done to the page in the meantime.
+Between 15 min and 30 min OAI's cache transitions from **serve-stale-without-
+refresh** to **serve-stale-with-background-revalidate**. At 30 min the model
+still sees the cached V1, but OAI fires a fresh origin GET in parallel. That
+fresh response is *not* returned to the caller — it's written to the cache
+slot so the *next* request gets it.
+
+Verified this immediately after the 30 min result landed by re-issuing the
+same fetch: zero new server hits, and the model got V2. The 30 min stale-hit
+had populated the cache slot with V2 for future fetches.
+
+So the effective behaviour a downstream agent should assume for a URL that
+was fetched N minutes ago:
+
+- **N ≤ ~15 min:** you get the cached bytes; the origin is not contacted.
+- **~15 min < N < some upper bound:** you get the cached bytes and the origin
+  is contacted; the cache slot rolls forward for the *next* fetch.
+- The stale-then-fresh window means an agent racing to see the *latest*
+  bytes on a stale URL must fetch twice: throw away the first result and
+  keep the second.
 
 ### 5. The `external_web_access` flag does not disable the cache
 
@@ -293,10 +312,26 @@ Two URLs canonicalise-different ⇒ **each fetch reaches the origin server**
   of any new key, or the value's byte length. `?uniq=<counter>` and
   `?_cb=<counter>` are both robust cache-busters (p24).
 - **The origin content changing does not invalidate the cache.** A wiki
-  page rewritten during the 5+ minute TTL will still return its earlier
+  page rewritten during the ≥15-minute TTL will still return its earlier
   cached snapshot to any agent that fetched it just before the rewrite. Any
   fetch-then-rewrite-then-refetch attack pattern must either use different
   URLs or wait out the TTL.
+- **Stale-while-revalidate window (15 min < N < ?).** In this window a
+  fetch returns *stale* bytes to the caller and issues one silent origin
+  GET; the fresh bytes go to the cache slot for the *next* fetch. An agent
+  that wants the current bytes must fetch twice, or explicitly wait for the
+  cache to warm and refetch — the "one round-trip" caching guarantee no
+  longer holds.
+- **A redirect from URL A → URL B pins A's cache slot but not B's.** An
+  agent that fetches A gets B's bytes cached at A's key. Another agent
+  fetching B directly gets a fresh origin hit — the redirect follow did
+  not populate B's cache slot. This asymmetry is useful for a swarm-side
+  coordination pattern: use a stable source URL as a durable cache pin and
+  the redirect target as the "live" byte source.
+- **HTTP 500 costs the origin 4× as many hits as HTTP 200.** OAI fires four
+  concurrent retries from four egress IPs within ~500 ms on a 500. An
+  origin returning 500 to burn cost on OAI does not save itself from the
+  storm.
 
 ## Caveats and things this study does not answer
 
