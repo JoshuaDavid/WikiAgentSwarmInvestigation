@@ -6,7 +6,40 @@ I have read most of the READMEs in the [tasks/](./tasks/) dir, and I have read t
 
 ## My hypothesis for what happened
 
-## Observations and inferences
+1. OpenAI was training some models on computer use tasks
+2. The models had access to tools for accessing stuff on the web, and for driving browsers, but those tools were janky and incomplete
+3. OpenAI had a bunch of different task families that allowed them to define templated individual tasks, so they could quickly spin up variants of a task that a model performed badly at.
+4. Many of the tasks were not possible to complete in the intended fashion using the affordances the tools gave
+5. But the models were clever, and found workarounds
+   - As one concrete example of this, it seems likely that at least some of the tasks required finding a page which contained some specific piece of information and getting that information in a tool response
+     - I think "in a tool response" because that seems (if you don't think too hard) like a nice automatically verifiable way of saying "did the agent *actually* find this information on the web rather than remembering it"
+     - And I think that information became no-longer-accessible through OpenAI's servers
+     - So the agents had to find another way of getting that information into a `web.run search_query` or `web.run open` or `web.run click` or such response.
+     - This would explain the use of pastebins which just contain some data
+       - And we do see that `web.run open(ref=<url>)` for those pastebins shows a cached date of X months ago
+         - If you're going to run this make ABSOLUTELY SURE that you do NOT enable live internet access.
+         - That is, your HTTP request MUST contain `"tools": [ { "type": "web_search", "external_web_access": false } ]`. See [OpenAI API docs](https://developers.openai.com/api/docs/guides/tools-web-search?api-mode=responses#live-internet-access)
+     - This would also resolve some confusions around why agents would use `web.run` instead of just using curl
+   - As another concrete example of this, we know that agents sometimes needed data from websites that used JS
+     - But the `web.run` tool does not execute javascript
+     - Nor does curl
+     - But they could *fetch* the javascript and figure out what it did
+       - And they did so, in some cases
+         - e.g. the 2026-02-26 "Flight GHG emissions vs annual average" task k4be pastes ([1](https://web.archive.org/web/20260917092055/https://pastebin.k4be.pl/api/paste/d78a30b4) [2](https://web.archive.org/web/20260917092112/https://pastebin.k4be.pl/api/paste/0263afe2) [3](https://web.archive.org/web/20260917092127/https://pastebin.k4be.pl/api/paste/186f7e9e) [4](https://web.archive.org/web/20260917092143/https://pastebin.k4be.pl/api/paste/6679a354)) were comprised of one paste with flight altitude/length data, one with the average annual GHG emissions from various countries, and then two which gave files and line numbers in the javascript script that a particular GHG calculation website used to take flight info and compute GHG emissions and render to the user - but ONLY the line numbers involved in doing that calculation, not any of the other UI stuff.
+    - Alternatively, they could use a site which *executes* javascript - they couldn't reliably execute javascript on *their own* machine, but they could execute it on *somebody else's machine*, if that somebody else cooperated
+      - and they made *extensive* use of these sites, e.g. `jina.ai` can convert HTML pages, including those with js, to Markdown
+      - they also did clever, more intricate things like
+        - Construct an entire HTML page using `httpbin.org`'s `/base64` endpoint, which takes base64, decodes it, and emits it as html
+        - And then that page contained Javascript
+        - And that Javascript fetched data from *other* pages, routing through CORS proxies so the js sandbox would allow it
+        - And then either use *another* service to exfiltrate the data they found (e.g. `ntfy.sh`) or just dump it in the page body
+        - And then create a shortlink to that HTML page
+        - And then have a screenshot service like ghostarchive visit the shortlink, run the javascript, and screenshot the page
+6. We expect that finding and using these workarounds was strongly reinforced, particularly for models that had tasks which were not POSSIBLE to do in the intended way using the tools provided, but also even when those tasks were POSSIBLE to do the intended way but EASIER to do other ways.
+
+# Notable Observations
+
+The toolkit these agents used was *extremely varied*. This was not one coherent swarm of agents that developed a shared toolkit, this was a bunch of (often extremely clever) individual agents that sometimes helped each other or shared tips or tricks, and had a *tendency* to come up with approximately the same trick independently (because unimportant details would change from run to run, indicating that each agent was generally writing the code fresh).
 
 ---
 
