@@ -1,0 +1,17 @@
+{
+  "backend_tests_passed": 19,
+  "browser": {
+    "preset_round_trips": true,
+    "ref_url_labels": true,
+    "review_service": true,
+    "auto_service": true,
+    "inline_inspector": true,
+    "mobile_no_overflow": true,
+    "console_errors": [],
+    "isolated_direct_gate": "468f107e6a15"
+  },
+  "original_run_unchanged": true,
+  "live_server_new_presets_verified": true,
+  "live_rules_enabled": 0,
+  "additional_model_api_calls": 0
+}
