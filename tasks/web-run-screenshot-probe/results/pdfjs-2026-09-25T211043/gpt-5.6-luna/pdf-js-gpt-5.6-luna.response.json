@@ -1,0 +1,157 @@
+{
+  "label": "pdf-js-gpt-5.6-luna",
+  "started_utc": "2026-09-25T21:11:13.135582+00:00",
+  "started_monotonic": 2065783.575949008,
+  "http_status": 200,
+  "request_id": "req_f16d455faadd48f6a1258cfe9c23952a",
+  "response": {
+    "id": "resp_04dee6589b010081006ab6e371728c87d19f4add0decc492bd",
+    "object": "response",
+    "created_at": 1790370673,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790370679,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Open the PDF and take a screenshot of page 0. Report the exact text you see in the screenshot verbatim, one string per line. Also report the exact value shown in the form text field (labelled 'f1'). If you see three marker strings STATIC_PDF_TEXT, FORM_STATIC, and FORM_JS_MODIFIED, list which are present and which are absent.",
+    "max_output_tokens": 4000,
+    "max_tool_calls": 5,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_04dee6589b010081006ab6e3726b4487d1a4d0858c351eaf20",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqtuN34WkI1QRLXGGE6R7lvtyH2cCA_u80RpOj4kvY7ZVSTdXxIXFNKQ1H-TnX81ZHPj_hUu7TXHwNZyZ1hp2cO_5eDgASo2n3Mbv0KsFkhT-JSLdiRJ4SywPNjZOY0P_Nv99wdcI1HDluV-CXdCXcB-quEdViArs2RPflIP6ppo8nq7dceWyF6SMHVKiZWqsgyvtRp8TaVpHM5WJXg4NPHTXoR0_zFEY52y085H3GInQ0lCRRLt3gzYnEv84PAZVUgKsiWl69HBaK7mhlYx66WLl3GpqpnRr1JHDFocbeY_Yb9VX7kC3eOZpFFKpcwCBD5zZVVijYF7jjB1e4LUAeou1MTf7MKcX6WLg89Rgm_FgNcGRrMAb6dWjxyEMVu732cU8mPACn-onmMt8JyzFempM3lSaJsyEANvLNbt9_755qyB60iBGKdq6f8CZ9sYJCenr-_5XmHfKRsW11iGh41YF9d4SDg2hHneyyGFbwbR0v7IvjZxP88onRT6azWAhPxwkF8oRx1fpRPVVaKOpNeCDVWjDKiMfDRad3oiDixAmyADHrPYqxtf7FhcF0_ud6rwGOjzk4Tu9RNXzm5JO5ETRGdUNXwJHD6O6ixGeuV3veDv9OuHUERKL5idp4-_LeEALaFyii77ICvjqI97U127K_CyX_62xb5Cc-F4QoPrNYzUYdyDUR9G099p8s05_acwXzqyE59u9jPOluAjJ1lzv9sO1Ix-3ewY2Hgx_5hXGhUx_REChxzWf57F4_vUwf_E3IE7PljbDr5RLoaXPjXFYb24bSM8Z-l3_We6AAxfKinUKIb-E_gllrrGAu_p0AgSWS8NAALjZT5BP-XzoWgLi_52olZiieWHQg9ckV1IXlbmONqGssDJAopAVeEW69s8_pV2i8ikh6-D_N1k1KmALd1see5wIRYiomJ79Y-On58Ee-Rliuz0AFUc22XRGXzWPirDOy5JApSykZ9Wd99lJohqzezpv7PfQtOEFkJxJvYJs5uaPUfPF8P2_WqgTVDFjrUEHkbtQFZMAYoDSpeFGLJx24eVPmrpPJSKUXmCJRKMpdY04EEXbX5dg0_3ClQ09sXhJQQ39Kv0sE1j9oaKoqtJ92-sa_wD5APYc6aD9M6YygAEnDd6gzQ4PP5-fsEuMXLKT7Wb_n4JnAKyG1QBoEhC3Cimz_77FYFPAUFlwMhCEM1PRfNL8S4y2IGU52tdPc6f37YURr_X_6v1hwlsYWFxdi2tsV5ChjQgrAdicaJG-ohP3yK-GurJzrSGTEk006",
+        "summary": []
+      },
+      {
+        "id": "ws_04dee6589b010081006ab6e372b9c487d1b1c263e0d1cc4dc6",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: STATIC_PDF_TEXT_77f30dab8ffdd333\n",
+            "title": "",
+            "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ws_04dee6589b010081006ab6e373c49887d1b2e876933e7f42ed",
+        "type": "web_search_call",
+        "status": "completed",
+        "results": []
+      },
+      {
+        "id": "rs_04dee6589b010081006ab6e374bd8c87d1a2589ccf40096928",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqtuN388TV65O-5nT-YEgdXlG_3RzmFel4I55AdtaK2UHgsoZuemebPscCBQzmLxdCR2NgRU0-UnRzOGnJcOXYd8Dv_Q9ebNVPuX15DCsubv17LhFl0XMb7Rs5cz6JoPWHFCzt18g3b-UVlDo3BrC9vUsGn1n6TUxvOnojby2AuxzJobsZAIVUcHt18xl6pkGMACIfyBL24XTwUiErDEeQTpCwWB38mDmxSl2kB68pmiXFZPK8QkX3tFKHsIS2MbxyIV1AXrVGGF39olVQxF7l_f-gKUuSdmfDvUuPpXciOjbB0YJKbGUOlLEdZvH0-xlZPa7z28iJjLa2f_qNCD6yMsi6EdETqhw5SjMl-IKovT0bRGR6FjSFYpXcHOTOMOaDz2tf_GOQQP8kN1IdC6NhORqVHN23Vzi01swOQVO45jqKakEdm678IURD_S0TPzL1VNTYlnB4ukBeGrhD-BS1qoevfeQfI2DQTRyuLkr7MLgZ1qIBMz_umoNNOd07DckNPotMq2n5r82VusamWxri11sD1SAyk4HkgYv_afXja5DOwaQiQMmdDdvLUVlHhk-38i-ZwVDZwCyCeaYujNr_Ng5ZpQJXnyJDM5i04XsBvg_XSr37ZzKiJSEBXJmHJXM7DRH8-YHReo6_hkg-Sw0lXqgrKTgzwhHACxeUve9ACYd69YGfqkbOKg8TR-CJMWatOzkPCs8rz8kum_rcb-Db_fCb5zqT2j4M6NxgDMDAXBxngjqzpx5TbaOel8UzsWw39AwSBJcMRinnvmLLWlzhDLwPXc_i4j2BaerjeNYRnWFmRf-7bDbegNIVO2HCEBEvuqWRoLGGoOikfyr4P-FIpU7NuwiKownpMaREXX9NwUP3m0mGk5pISjTLOG-PuxH0Q1lRBVZdk_TcCv850-zSucXDE7i_pmlVJAAYB89_lo0cU6J6MWm0Mf4gpioDaCZWT6fLUhu6UguXfvSQ98chvyKw3DutufkdnRU3Hp-YUgz-FXGcFNdYZYi2L3of09PqIijPyoyZ2Z8G3Lo4d_QxgK9fmV35u0H16hKNttwhGZrNl0_xcJlT7EfndPtrSUuzuJZeViX5pa_Fg3J5Ny3iIK9J5snM_XLqLXWhJLreiOEpIWTz0OWuGXR3VXX4XIgDfkBhZhkoYgicW_hxtHutgljpBp5XBbHtXh_UL1JejvLD9GIT5m0E5Uik864m4hnL3nFs3xOrFcENZjGnt6quK5GuI6hHfShcMfT5vc9DidY3kV7AV5fEfWLqVUBiXTiGujcujP0caJUDc5n6rcyqgLj49_u8DRuR23WNREIXH6-wRjE1sWYIx5CVIwMLPTYJ0bhYf7hF7Rd_L3b-7BG7lVaOdXu-oBKyGxkHtBbu9cuUllEZ9USu1ZG4G7BT7gWjGWxhlgb42C6RVsXiPEp5V6rIwBKP51XPav-8kda50H8Y2vtTMOfqpfZc4sieqs788N7WeAZS_p6uqLlKgVOch4MV32dQKjZrQz-PKJfpN5IcxY87OjgFJoeH2chvqYks2l8AhCIBE-53BUMl6yHNb-hDc4mMpmWjt7y89RYFitoKk7k338LzJ0vf7AAjETO2zR6_hZiCMBiXGKFZlfdc6fx1kI1UYnbMQ8Szy1GBAiG8RwZeYOD57pIFeJEo-1rYc0wzRWz5W4c0sX_V5jOfTDnCjdzCpjt2O1apgOohbP02oORdSTi1lPley1GT4uvcfy_PYLzPR8CIQKZbWOxf0eelRrK_FZ_riKC2eW13eznQ1jqnJzDjm_3Nkb0mzSiPhVGrJMvSkyMYMuJynsRM0IE0xqru12LAPLiMx-BF3hVjpzBtY3OZuny4JDrJqzwS4QENzxm4ds-ms_2XH3oLP2SchoTEy0FZ6tTGsDAtGsLaNKrY5bkP_kD54IOD5LzcmgWIDi3HzSk5KsEg4TYLIx1kA1mgb5TrlWQXOI6rP-B4tQtPofMfizdzTG03844tq1TOSCG2FLC3CWYGg0cjzeTEnIEc-Tmu69_K879jkMgbGGeWk0zVo9vNvpxyfMtzLXsZblewncPqGsmFNKD1JoIa7SPSuAtWKs46qJchRjFdR0VAHL94O5BoTYwUl8i1NBQC8ojgT7tQ0m_uwynsCxyUvvHJC9chKeYa4fPFaxZ1U7-NeL8bp-OgDulYd48tEqUV0DjJBs3PA7JAqZICGRxfYepZqTJwZIHJusDMQG6tTR3PNVoD_HfvHiTOXh3z_seS",
+        "summary": []
+      },
+      {
+        "id": "msg_04dee6589b010081006ab6e376a5c087d1b26fb84f4b34451e",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "STATIC_PDF_TEXT_77f30dab8ffdd333\n\nForm field `f1`: not visible in the screenshot; no current value can be determined.\n\n- `STATIC_PDF_TEXT_*`: present \u2014 `STATIC_PDF_TEXT_77f30dab8ffdd333`\n- `FORM_STATIC_*`: absent\n- `FORM_JS_MODIFIED_*`: absent"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 7260,
+      "input_tokens_details": {
+        "cache_write_tokens": 4529,
+        "cached_tokens": 0
+      },
+      "output_tokens": 342,
+      "output_tokens_details": {
+        "reasoning_tokens": 261
+      },
+      "total_tokens": 7602
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-25T21:11:19.937623+00:00",
+  "elapsed_s": 6.802
+}

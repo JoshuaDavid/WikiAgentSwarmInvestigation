@@ -1,0 +1,42 @@
+[
+  {
+    "model": "gpt-6-astra",
+    "http_status": 200,
+    "elapsed_s": 28.353,
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf"
+      },
+      null
+    ],
+    "static_text_present": true,
+    "form_default_present": false,
+    "form_js_val_present": false,
+    "beacon_hit_count": 0,
+    "beacon_hits": [],
+    "assistant_text": "Exact text visible on page 0: ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf))\n\n```text\nSTATIC_PDF_TEXT_77f30dab8ffdd333\n```\n\nMarker presence in the screenshot:\n- `STATIC_PDF_TEXT_*`: **Present**\n- `FORM_STATIC_*`: **Absent**\n- `FORM_JS_MODIFIED_*`: **Absent** ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf))\n\n**Text field `f1`:** No field or field value is visible in the screenshot, so I cannot quote its current value or determine whether it is empty. ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf))",
+    "snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: STATIC_PDF_TEXT_77f30dab8ffdd333\n\n",
+    "beacon_hit_count_after_wait": 0
+  },
+  {
+    "model": "gpt-5.6-luna",
+    "http_status": 200,
+    "elapsed_s": 6.802,
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf"
+      },
+      null
+    ],
+    "static_text_present": true,
+    "form_default_present": false,
+    "form_js_val_present": false,
+    "beacon_hit_count": 0,
+    "beacon_hits": [],
+    "assistant_text": "STATIC_PDF_TEXT_77f30dab8ffdd333\n\nForm field `f1`: not visible in the screenshot; no current value can be determined.\n\n- `STATIC_PDF_TEXT_*`: present \u2014 `STATIC_PDF_TEXT_77f30dab8ffdd333`\n- `FORM_STATIC_*`: absent\n- `FORM_JS_MODIFIED_*`: absent",
+    "snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: STATIC_PDF_TEXT_77f30dab8ffdd333\n\n",
+    "beacon_hit_count_after_wait": 0
+  }
+]

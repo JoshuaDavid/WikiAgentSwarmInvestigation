@@ -33,11 +33,26 @@ down.
 
 - Screenshot on HTML → rejected server-side with
   `Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled`.
-- Screenshot on PDF → works.
+- Screenshot on PDF → returns extracted content-stream text (not a
+  raster). Form-field values are not surfaced; PDF `/OpenAction`
+  JavaScript never runs; `submitForm` beacon never fires.
 - Screenshot on HTML served at a `.pdf` URL → rejected (MIME check, not URL).
 - `open_page` on HTML → static, CSS-aware extractor. JS placeholders read
   `(pending)`; `display:none` content is stripped; `<script>` never runs.
-- Twelve API calls, zero beacon hits.
+- Fourteen total API calls, zero beacon hits.
+
+## Follow-up probe: PDF JavaScript
+
+`pdfjs_probe.py` builds a PDF with `/OpenAction /S /JavaScript` that
+modifies a form field and calls `submitForm(<beacon URL>)`. Neither the
+modification nor the beacon appears in either model's response. Even the
+form field's initial `/V` value is absent from the model's readout — the
+extractor never touches AcroForm state.
+
+```
+export OPENAI_WEB_SEARCH_API_KEY=$(cat /tmp/swarmchasers.txt)
+python3 pdfjs_probe.py --out results/pdfjs-$(date -u +%Y-%m-%dT%H%M%S)
+```
 
 Full writeup: `analyses/web-run-screenshot-js/README.md`.
 Research log entry: `RESEARCH_LOG.md`, slug `web-run-screenshot-js`.

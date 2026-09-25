@@ -1,0 +1,13 @@
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"no configuration paths supplied"}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"using configuration at default config path","path":"/root/.config/ngrok/ngrok.yml"}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"open config file","path":"/root/.config/ngrok/ngrok.yml","err":null}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"FIPS 140 mode","enabled":false}
+{"t":"2026-09-25T21:10:44+0000","lvl":"warn","msg":"can't bind default web address, trying alternatives","obj":"web","addr":"127.0.0.1:4040"}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"starting web service","obj":"web","addr":"127.0.0.1:4041","allow_hosts":null}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"client session established","obj":"tunnels.session"}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"tunnel session started","obj":"tunnels.session"}
+{"t":"2026-09-25T21:10:44+0000","lvl":"info","msg":"started tunnel","obj":"tunnels","name":"command_line","addr":{"Scheme":"http","Opaque":"","User":null,"Host":"127.0.0.1:43063","Path":"","Fragment":"","RawQuery":"","RawPath":"","RawFragment":"","ForceQuery":false,"OmitHost":false},"url":"https://porridge-whisking-flatten.ngrok-free.dev"}
+{"t":"2026-09-25T21:10:58+0000","lvl":"info","msg":"join connections","obj":"join","id":"6f8682fd0c60","l":{"IP":"127.0.0.1","Port":43063,"Zone":""},"r":{"IP":"52.165.212.51","Port":64290,"Zone":""}}
+{"t":"2026-09-25T21:11:02+0000","lvl":"info","msg":"join connections","obj":"join","id":"49c17535d724","l":{"IP":"127.0.0.1","Port":43063,"Zone":""},"r":{"IP":"52.165.212.55","Port":15585,"Zone":""}}
+{"t":"2026-09-25T21:11:49+0000","lvl":"info","msg":"INFO received stop request obj=app stopReq=\"{err:<nil> restart:false}\""}
+{"t":"2026-09-25T21:11:49+0000","lvl":"info","msg":"session closing","obj":"tunnels.session","err":null}

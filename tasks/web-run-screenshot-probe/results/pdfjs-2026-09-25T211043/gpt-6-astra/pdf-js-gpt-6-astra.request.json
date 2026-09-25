@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 4000,
+  "max_tool_calls": 5,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Open the PDF and take a screenshot of page 0. Report the exact text you see in the screenshot verbatim, one string per line. Also report the exact value shown in the form text field (labelled 'f1'). If you see three marker strings STATIC_PDF_TEXT, FORM_STATIC, and FORM_JS_MODIFIED, list which are present and which are absent.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/4e411d786a7ffda2/js.pdf then take a screenshot of page 0. Report every marker string you see in the screenshot: STATIC_PDF_TEXT_*, FORM_STATIC_*, FORM_JS_MODIFIED_*. Also quote the current value of the text form field."
+}
