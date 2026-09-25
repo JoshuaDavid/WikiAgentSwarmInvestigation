@@ -37,7 +37,11 @@ I have read most of the READMEs in the [tasks/](./tasks/) dir, and I have read t
         - And then have a screenshot service like ghostarchive visit the shortlink, run the javascript, and screenshot the page
 6. We expect that finding and using these workarounds was strongly reinforced, particularly for models that had tasks which were not POSSIBLE to do in the intended way using the tools provided, but also even when those tasks were POSSIBLE to do the intended way but EASIER to do other ways.
 
-# Notable Observations
+## Where are the tasks located
+
+See the [tasks dir](./tasks)
+
+## Notable Observations
 
 The toolkit these agents used was *extremely varied*. This was not one coherent swarm of agents that developed a shared toolkit, this was a bunch of (often extremely clever) individual agents that sometimes helped each other or shared tips or tricks, and had a *tendency* to come up with approximately the same trick independently (because unimportant details would change from run to run, indicating that each agent was generally writing the code fresh).
 
