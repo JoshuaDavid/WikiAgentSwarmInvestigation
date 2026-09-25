@@ -112,3 +112,31 @@ strictly what a static HTML fetch would yield.
 - Probe: `tasks/web-run-screenshot-probe/probe.py`
 - Raw run: `tasks/web-run-screenshot-probe/results/2026-09-25T195302/`
 - Analysis writeup: `analyses/web-run-screenshot-js/README.md`
+
+## 2026-09-25T21:15 · web-run-screenshot-js · result
+
+Follow-up prompted by "PDFs can contain JavaScript too." Probe at
+`tasks/web-run-screenshot-probe/pdfjs_probe.py` handcrafts a PDF with
+three probe surfaces: content-stream text `STATIC_PDF_TEXT_*`, an
+AcroForm text field with initial `/V` = `FORM_STATIC_*`, and an
+`/OpenAction /S /JavaScript` payload that (a) sets the field value to
+`FORM_JS_MODIFIED_*` and (b) calls `submitForm(<beacon URL>)`.
+
+Two API calls, both models, both asking for `screenshot page 0`.
+Result:
+- `STATIC_PDF_TEXT_*`: **present** in both models' output. Snippet from
+  the underlying tool result reads literally `L0@P0: STATIC_PDF_TEXT_*`.
+- `FORM_STATIC_*`: **absent** in both. AcroForm field state is not
+  extracted at all.
+- `FORM_JS_MODIFIED_*`: **absent** in both.
+- Beacon hits: **0**, with a 30-second post-call wait.
+
+The PDF pipeline is a content-stream text extractor (`pdftotext`-shaped),
+not a rasterizer. `FORM_STATIC` being absent — not just
+`FORM_JS_MODIFIED` — rules out "JS ran but modification didn't surface."
+The extractor never touches AcroForm state, and the beacon URL is never
+contacted, so PDF `/OpenAction` JavaScript does not execute.
+
+Raw: `tasks/web-run-screenshot-probe/results/pdfjs-2026-09-25T211043/`.
+Memory `project_webrun_is_not_a_browser.md` updated to note the PDF path
+is also a text extractor.

@@ -148,17 +148,51 @@ distinction between a screenshot success (PDF, model receives pixels
 internally) and a screenshot failure (HTML, model receives an error
 internally). What the model saw is only visible in the assistant text.
 
+## Follow-up: PDFs can contain JavaScript too
+
+PDFs support Adobe JavaScript via `/OpenAction /S /JavaScript`. A
+follow-up probe (`tasks/web-run-screenshot-probe/pdfjs_probe.py`) built a
+hand-crafted PDF with three probe surfaces:
+
+- `STATIC_PDF_TEXT_*` drawn on page 1 via content stream (unconditional)
+- `FORM_STATIC_*` as the initial value (`/V`) of an AcroForm text field
+- `FORM_JS_MODIFIED_*` written by the `/OpenAction` JavaScript to the
+  same field, plus a `submitForm(<beacon URL>)` call
+
+Two API calls, both models, both asking for a screenshot of page 0.
+Raw result at `tasks/web-run-screenshot-probe/results/pdfjs-2026-09-25T211043/`.
+
+| Marker | Provenance | Extracted? |
+|---|---|---|
+| `STATIC_PDF_TEXT_*` | PDF content stream | yes |
+| `FORM_STATIC_*` | AcroForm field `/V` | no |
+| `FORM_JS_MODIFIED_*` | JS-modified field value | no |
+| Beacon hit | JS `submitForm(cURL: ...)` | 0 hits (+30 s wait) |
+
+The snippet returned to the model reads literally `L0@P0:
+STATIC_PDF_TEXT_...` — one line on page 0, the content-stream text. Form
+fields are not extracted at all. JavaScript does not execute. The
+beacon URL is never contacted.
+
+`FORM_STATIC` being absent (not just `FORM_JS_MODIFIED`) is the
+strongest signal here: the PDF pipeline never looks at AcroForm state.
+That rules out "JS ran but the modification wasn't reflected" — the
+extractor simply walks the content stream and stops.
+
 ## Implication
 
-`web.run` is a shared-cache proxy over a static HTML text extractor plus a
-PDF page renderer. It is not a headless browser fleet. Any swarm workflow
-that would require JavaScript execution (SPA navigation, dynamic
-sitemaps, JS-generated login forms, `fetch()`-driven APIs called from a
-page) cannot have used `web.run` as the mechanism. This aligns with the
-`webrun_pool_proxy_architecture` finding in memory: `web.run`'s
-externally-visible behaviour is consistent with an HTTP-fetch pool behind
-a shared cache, with a text-extraction pass, and a separate PDF-page
-raster path.
+`web.run` is a shared-cache proxy over two text extractors — one for
+HTML, one for PDF — dispatched on the response MIME type. Neither runs
+scripts. Adobe PDF JavaScript is ignored the same way `<script>` is
+ignored in HTML. It is not a headless browser fleet and it is not a
+page rasterizer. Any swarm workflow that would require script execution
+(SPA navigation, dynamic sitemaps, JS-generated login forms,
+`fetch()`-driven APIs called from a page, PDF `/OpenAction` payloads,
+form-field state, canvas rendering) cannot have used `web.run` as the
+mechanism. This aligns with the `webrun_pool_proxy_architecture`
+finding in memory: `web.run`'s externally-visible behaviour is
+consistent with an HTTP-fetch pool behind a shared cache, plus two
+text-extraction paths selected by response MIME type.
 
 ---
 
