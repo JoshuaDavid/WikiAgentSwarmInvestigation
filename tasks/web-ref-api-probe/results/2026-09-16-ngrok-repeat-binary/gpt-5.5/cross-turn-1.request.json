@@ -1,0 +1,20 @@
+{
+  "model": "gpt-5.5",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 2200,
+  "max_tool_calls": 1,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd using exactly one web open call. Report the exact URL and the actual tool result or error, including any PROBE_MARKER actually returned. Do not retry, search, click, or modify the URL."
+}

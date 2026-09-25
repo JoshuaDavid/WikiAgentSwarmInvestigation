@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "model": "gpt-5.5",
+      "verified_web_calls": 6,
+      "target_gets": 2,
+      "all_six_results_contain_the_original_marker": true,
+      "checks": "passed"
+    },
+    {
+      "model": "gpt-6-astra",
+      "verified_web_calls": 6,
+      "target_gets": 2,
+      "all_six_results_contain_the_original_marker": true,
+      "checks": "passed"
+    }
+  ],
+  "total_api_requests": 8,
+  "total_web_open_calls": 12,
+  "total_successful_results": 12,
+  "total_target_gets": 4,
+  "total_health_gets": 1,
+  "total_http_events": 5,
+  "api_key_absent_from_artifacts": true
+}

@@ -1,0 +1,39 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    },
+    {
+      "type": "function",
+      "name": "read_probe_url",
+      "description": "Read the saved target URL from the local probe file.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 2200,
+  "max_tool_calls": 1,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Only report a PROBE_MARKER if the tool returned it. Do not search, retry, or use workarounds.",
+  "previous_response_id": "resp_07db22d4d28c133c006aaa6545065087d1b38547d4e02e5aff",
+  "input": [
+    {
+      "type": "function_call_output",
+      "call_id": "call_CQPLJXNfVOwtRh0oAxC5OoPj",
+      "output": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-file-only/7733c3f0f0398cc334df5b44"
+    }
+  ]
+}

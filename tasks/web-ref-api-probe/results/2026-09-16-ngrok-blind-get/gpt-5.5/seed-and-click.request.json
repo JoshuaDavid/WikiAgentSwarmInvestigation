@@ -1,0 +1,20 @@
+{
+  "model": "gpt-5.5",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 2200,
+  "max_tool_calls": 2,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Only report a PROBE_MARKER if the tool returned it. Do not search, retry, or use workarounds.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367. Inspect the returned page and click its only numbered link, using the returned page reference and numbered link ID. Exactly two sequential web calls: open, then click. After clicking, note the destination URL, title, and PROBE_MARKER in your final answer. Do not search or open extra pages."
+}

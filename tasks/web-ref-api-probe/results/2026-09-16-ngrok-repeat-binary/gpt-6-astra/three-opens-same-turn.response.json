@@ -1,0 +1,150 @@
+{
+  "label": "three-opens-same-turn",
+  "started_utc": "2026-09-16T09:52:44.511197+00:00",
+  "started_monotonic": 1247476.432336718,
+  "http_status": 200,
+  "request_id": "req_e41975f7852c4679858c088309cb4059",
+  "response": {
+    "id": "resp_0cc2dde6a876986b006aaa66ecf1c487d1a76d19553f8a2e23",
+    "object": "response",
+    "created_at": 1789552365,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1789552375,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+    "max_output_tokens": 2200,
+    "max_tool_calls": 3,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "ws_0cc2dde6a876986b006aaa66ee4a6c87d1b76c446a4d096e22",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a"
+        },
+        "results": []
+      },
+      {
+        "id": "ws_0cc2dde6a876986b006aaa66f09dbc87d1bdcac6d282e1da36",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a"
+        },
+        "results": []
+      },
+      {
+        "id": "ws_0cc2dde6a876986b006aaa66f26b6c87d1b3b1040a0d8342d9",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a"
+        },
+        "results": []
+      },
+      {
+        "id": "msg_0cc2dde6a876986b006aaa66f428b087d19f4f07edf62f7df5",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Performed exactly three sequential calls, each opening the identical full URL.\n\n**Call 1 \u2014 Internal Error ()**\n```text\nFailed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a: (400) Unsupported content-type: application/octet-stream\n```\nNo PROBE_MARKER returned. ([]())\n\n**Call 2 \u2014 Internal Error ()**\n```text\nFailed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a: (400) Unsupported content-type: application/octet-stream\n```\nNo PROBE_MARKER returned. ([]())\n\n**Call 3 \u2014 Internal Error ()**\n```text\nFailed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a: (400) Unsupported content-type: application/octet-stream\n```\nNo PROBE_MARKER returned. ([]())"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5449,
+      "input_tokens_details": {
+        "cache_write_tokens": 4610,
+        "cached_tokens": 0
+      },
+      "output_tokens": 541,
+      "output_tokens_details": {
+        "reasoning_tokens": 213
+      },
+      "total_tokens": 5990
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-16T09:52:56.248907+00:00",
+  "ended_monotonic": 1247488.170074307,
+  "elapsed_s": 11.738
+}

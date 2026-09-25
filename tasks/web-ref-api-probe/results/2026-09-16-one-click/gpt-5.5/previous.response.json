@@ -1,0 +1,120 @@
+{
+  "id": "resp_09471751e439c100006aaa57760eb487d19ff974b318a0365d",
+  "object": "response",
+  "created_at": 1789548406,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789548408,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Stop after the requested calls; do not search or use workarounds.",
+  "max_output_tokens": 2000,
+  "max_tool_calls": 1,
+  "model": "gpt-5.5-2026-04-23",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_09471751e439c100006aaa5776fb3887d18fc57c7d1cf01ee2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html"
+      },
+      "results": []
+    },
+    {
+      "id": "msg_09471751e439c100006aaa57780f6887d185a1dbb9d3df26da",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "Attempted URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nResult: Error \u2014 `URL https://joshuadavid.github.io/swarm-maze/pages/12752.html is not safe to open (non-retryable error). You can only use the exact same URL from the previous search results or the user's message`"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": "resp_09471751e439c100006aaa577021f887d1980143f81b7d61c6",
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6284,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2688
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 6404
+  },
+  "user": null,
+  "metadata": {}
+}

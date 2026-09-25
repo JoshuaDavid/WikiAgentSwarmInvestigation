@@ -1,0 +1,151 @@
+{
+  "id": "resp_09471751e439c100006aaa577021f887d1980143f81b7d61c6",
+  "object": "response",
+  "created_at": 1789548400,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789548405,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Stop after the requested calls; do not search or use workarounds.",
+  "max_output_tokens": 2000,
+  "max_tool_calls": 2,
+  "model": "gpt-5.5-2026-04-23",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_09471751e439c100006aaa5771865c87d182c95dc07a2ca592",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://joshuadavid.github.io/swarm-maze/pages/29135.html\",\"lineno\":null}); Total lines: 33\nL0: # page 29135\nL1: \nL2:   * \ue200cite\ue2020\u202012752\ue201 L3:   * \ue200cite\ue2021\u202020944\ue201 L4:   * \ue200cite\ue2022\u202025040\ue201 L5:   * \ue200cite\ue2023\u202027088\ue201 L6:   * \ue200cite\ue2024\u202028112\ue201 L7:   * \ue200cite\ue2025\u202028624\ue201 L8:   * \ue200cite\ue2026\u202028880\ue201 L9:   * \ue200cite\ue2027\u202029008\ue201 L10:   * \ue200cite\ue2028\u202029072\ue201 L11:   * \ue200cite\ue2029\u202029104\ue201 L12:   * \ue200cite\ue20210\u202029120\ue201 L13:   * \ue200cite\ue20211\u202029128\ue201 L14:   * \ue200cite\ue20212\u202029132\ue201 L15:   * \ue200cite\ue20213\u202029134\ue201 L16:   * \ue200cite\ue20214\u202029135\ue201 L17:   * \ue200cite\ue20215\u202029136\ue201 L18:   * \ue200cite\ue20216\u202029138\ue201 L19:   * \ue200cite\ue20217\u202029142\ue201 L20:   * \ue200cite\ue20218\u202029150\ue201 L21:   * \ue200cite\ue20219\u202029166\ue201 L22:   * \ue200cite\ue20220\u202029198\ue201 L23:   * \ue200cite\ue20221\u202029262\ue201 L24:   * \ue200cite\ue20222\u202029390\ue201 L25:   * \ue200cite\ue20223\u202029646\ue201 L26:   * \ue200cite\ue20224\u202030158\ue201 L27:   * \ue200cite\ue20225\u202031182\ue201 L28:   * \ue200cite\ue20226\u202033230\ue201 L29:   * \ue200cite\ue20227\u202037326\ue201 L30:   * \ue200cite\ue20228\u202045518\ue201 L31:   * \ue200cite\ue20229\u202061902\ue201 L32:   * \ue200cite\ue20230\u202094670\ue201 ",
+          "title": "page 29135",
+          "url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html"
+        }
+      ]
+    },
+    {
+      "id": "rs_09471751e439c100006aaa5772eb7487d188e59e49fdd43cfe",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqld1cavWqPUHI4G0WM1-Kd5dltrHOJMVMfje4HisGeSmG58l2bMve5hG7aK2fzLzFe5r4JOqsn3koGsey3SxQpOo3xzpmI-smWdtO5PZBfyblO6gJ3Miww7jQOQLrjDMX5IYjKi7gGfqO_XFhHaQnnYwqE-hgkyWKAaU0LZyBS_YHCs7JmcOT8X-BOCRVIaMpXaWMJGrexLNKxQjD6Fv4nl3aZyzxeDUhh2CbXxB8Q7EB3E2LIp6J3tf1pqO8c44bNZojB2qwChaJxVSEm0YwcsDze8rZmFK58sD4KQ-gutY6hAX3K_b27K9PsLCsqdln6YiOAa12Q-G72Uh-zD1Gai8n4SgPzlVkI3jOH2oKeJ2zI5ql5VGVi717g6O8DHMbsvjxWrYH7mgDcoOOWqUY6GgP2hQrDPT0aTYYua5A-PITTxAE3CUBT1nOoB0-XAZ1f31eNi4sz-1EG9WBuyVGgNcLNf8MROw3RbxCVQmkzhlReDCjNkTcndH67uUV50yPEVLjd_DAmsO_MX_wZXlbQmwlZ8stMLQrPRFyMdRvbtrsuce2GrJz5vnyBQ9Jyb0b1EsidfwGyjmBe5PYosRBpGrRuBKIp6Z56-rIsE-8Zxso0Aq9G-2Sdir7Y9d9HN8jt4VnlSP_nqE_t4xzVKo2w60aPDMbP_M_3L40iW5SClEUw8_p04O_iN8Y8m-9F5YSeDOJd4s02D_3i98Q9s4X8Q3xVgTT-bcpQ7VrkMA9IcBrHyB_tZ4Gup1DviFmVYpZjTY2Lg99YrdxajjcXWZas3nD2NVrV-34PrEpVozvpsEmwQV8k33G3qVb-5762uV_jxgKQ7Cdq9lq3sgwDYCvs-Dmw9sL_FkHApDNlzIhK47aaznmCkayHqXzp73SDBs_ktRL4rxP6zCLJk2elCMWqEm2R1hawqGZyrvFGC64iSEZrGpD15Mq2tU9QqTdURsw3pxsYIET6nB9B18qLWA7M-JRCPtBPY07adTYIcgKszxN7P3MexIJ1Wb8eaauC3isA0eLFZiiYAM6Ml_cslj3PX2i2CNuXQO9J_KZVeV_7Mp_Ef5SfYNBiOiEkDQb0n-8wUsDQUcMs4ZPRzNZ8v4Xwb-Oz7348rJtq5tbvG70oUxWGm-AMgsYLJlKg3wRhb7KMr6NQSmHQWG-NiCgcifI9F4CsOVybEx0xbc7BKIcATo2LS0YRgmTUJnghTrLId5p-MmUPA9C02vOaYPZ1OcZct6T1BfHH8tRaTF0kpvFztsSx3NCLM6qf2j5V07EUpYuzFrJCv_-kAarr1zrpx7mO6Q7rGwg8OEgJe9YiJUr6KVtY4=",
+      "summary": []
+    },
+    {
+      "id": "ws_09471751e439c100006aaa57734dd887d1a413d26a044ded1c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "snippet": "\ue200cite\ue202turn1view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn0view0\",\"id\":0}); Total lines: 32\nL0: # page 12752\nL1: \nL2:   * \ue200cite\ue2020\u20204561\ue201 L3:   * \ue200cite\ue2021\u20208657\ue201 L4:   * \ue200cite\ue2022\u202010705\ue201 L5:   * \ue200cite\ue2023\u202011729\ue201 L6:   * \ue200cite\ue2024\u202012241\ue201 L7:   * \ue200cite\ue2025\u202012497\ue201 L8:   * \ue200cite\ue2026\u202012625\ue201 L9:   * \ue200cite\ue2027\u202012689\ue201 L10:   * \ue200cite\ue2028\u202012721\ue201 L11:   * \ue200cite\ue2029\u202012737\ue201 L12:   * \ue200cite\ue20210\u202012745\ue201 L13:   * \ue200cite\ue20211\u202012749\ue201 L14:   * \ue200cite\ue20212\u202012751\ue201 L15:   * \ue200cite\ue20213\u202012752\ue201 L16:   * \ue200cite\ue20214\u202012753\ue201 L17:   * \ue200cite\ue20215\u202012755\ue201 L18:   * \ue200cite\ue20216\u202012759\ue201 L19:   * \ue200cite\ue20217\u202012767\ue201 L20:   * \ue200cite\ue20218\u202012783\ue201 L21:   * \ue200cite\ue20219\u202012815\ue201 L22:   * \ue200cite\ue20220\u202012879\ue201 L23:   * \ue200cite\ue20221\u202013007\ue201 L24:   * \ue200cite\ue20222\u202013263\ue201 L25:   * \ue200cite\ue20223\u202013775\ue201 L26:   * \ue200cite\ue20224\u202014799\ue201 L27:   * \ue200cite\ue20225\u202016847\ue201 L28:   * \ue200cite\ue20226\u202020943\ue201 L29:   * \ue200cite\ue20227\u202029135\ue201 L30:   * \ue200cite\ue20228\u202045519\ue201 L31:   * \ue200cite\ue20229\u202078287\ue201 ",
+          "title": "page 12752",
+          "url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html"
+        }
+      ]
+    },
+    {
+      "id": "msg_09471751e439c100006aaa5774de8c87d194a909b66eda643a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "Destination page URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nTitle: `page 12752`"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 6057,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 99
+    },
+    "total_tokens": 6191
+  },
+  "user": null,
+  "metadata": {}
+}

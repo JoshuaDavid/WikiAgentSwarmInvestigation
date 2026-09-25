@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "store": true,
+  "reasoning": {
+    "effort": "low"
+  },
+  "max_output_tokens": 2000,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Stop after the requested calls; do not search or use workarounds.",
+  "max_tool_calls": 2,
+  "input": "Open https://joshuadavid.github.io/swarm-maze/pages/29135.html. Inspect the returned page and click its first numbered link to a different page in the same maze, using the returned page reference and numbered link ID. Exactly two sequential web calls: open, then click. After the click, note the destination page URL from the tool result in your final answer, along with its title. Do not search or open additional pages."
+}

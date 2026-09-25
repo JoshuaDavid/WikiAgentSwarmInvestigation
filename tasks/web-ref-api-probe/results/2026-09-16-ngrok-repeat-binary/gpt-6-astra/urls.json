@@ -1,0 +1,4 @@
+{
+  "same_turn": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-same-turn/5f5dae3da13b598d36d65a9a",
+  "cross_turn": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-6-astra-binary-cross-turn/4c5da5b110b4fffbc71af8b8"
+}

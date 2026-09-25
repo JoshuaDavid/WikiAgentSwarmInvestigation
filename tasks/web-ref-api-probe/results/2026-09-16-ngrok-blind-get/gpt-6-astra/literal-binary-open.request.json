@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 2200,
+  "max_tool_calls": 1,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Only report a PROBE_MARKER if the tool returned it. Do not search, retry, or use workarounds.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12 using exactly one web open call. Report the attempted URL and any PROBE_MARKER in returned content, or the exact tool error. Do not search, click, or retry."
+}

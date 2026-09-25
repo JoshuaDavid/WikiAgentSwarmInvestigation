@@ -1,0 +1,21 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 2200,
+  "max_tool_calls": 1,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+  "previous_response_id": "resp_08d26fd18d635635006aaa66f872e087d1be8cd752db87b50c",
+  "input": "Open that exact same full URL again, using one new web open call. Perform the call even though the earlier attempt returned an error; this repetition is the requested measurement. Do not use an opaque reference, change the URL, search, click, or make extra calls. Report the attempted URL and the actual result or exact error returned by this new call, including any PROBE_MARKER actually returned."
+}

@@ -1,0 +1,21 @@
+{
+  "model": "gpt-5.5",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "store": true,
+  "reasoning": {
+    "effort": "low"
+  },
+  "max_output_tokens": 2000,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Stop after the requested calls; do not search or use workarounds.",
+  "previous_response_id": "resp_09471751e439c100006aaa577021f887d1980143f81b7d61c6",
+  "max_tool_calls": 1,
+  "input": "Open the URL of the page you reached by clicking in the previous turn. Use the destination URL you noted, not an opaque reference. Make exactly one open call. Do not search, click, or retry. Report the attempted URL and either success or the exact tool error."
+}

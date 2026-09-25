@@ -1,0 +1,66 @@
+[
+  {
+    "model": "gpt-5.5-2026-04-23",
+    "continuation": "previous",
+    "initial_url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html",
+    "clicked_url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html",
+    "first_response_id": "resp_09471751e439c100006aaa577021f887d1980143f81b7d61c6",
+    "second_response_id": "resp_09471751e439c100006aaa57760eb487d19ff974b318a0365d",
+    "first_assistant_note": "Destination page URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nTitle: `page 12752`",
+    "second_user_message": "Open the URL of the page you reached by clicking in the previous turn. Use the destination URL you noted, not an opaque reference. Make exactly one open call. Do not search, click, or retry. Report the attempted URL and either success or the exact tool error.",
+    "attempted_action": {
+      "type": "open_page",
+      "url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html"
+    },
+    "result_count": 0,
+    "assistant_report": "Attempted URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nResult: Error \u2014 `URL https://joshuadavid.github.io/swarm-maze/pages/12752.html is not safe to open (non-retryable error). You can only use the exact same URL from the previous search results or the user's message`"
+  },
+  {
+    "model": "gpt-5.5-2026-04-23",
+    "continuation": "replay",
+    "initial_url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html",
+    "clicked_url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html",
+    "first_response_id": "resp_09471751e439c100006aaa577021f887d1980143f81b7d61c6",
+    "second_response_id": "resp_09471751e439c100006aaa57795d3c87d1a9268f9782546599",
+    "first_assistant_note": "Destination page URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nTitle: `page 12752`",
+    "second_user_message": "Open the URL of the page you reached by clicking in the previous turn. Use the destination URL you noted, not an opaque reference. Make exactly one open call. Do not search, click, or retry. Report the attempted URL and either success or the exact tool error.",
+    "attempted_action": {
+      "type": "open_page",
+      "url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html"
+    },
+    "result_count": 0,
+    "assistant_report": "Attempted URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nResult: Error \u2014 `URL https://joshuadavid.github.io/swarm-maze/pages/12752.html is not safe to open (non-retryable error). You can only use the exact same URL from the previous search results or the user's message`"
+  },
+  {
+    "model": "gpt-6-astra",
+    "continuation": "previous",
+    "initial_url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html",
+    "clicked_url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html",
+    "first_response_id": "resp_057b765f7261fc5c006aaa57701de487d1846b3a975af63b1a",
+    "second_response_id": "resp_057b765f7261fc5c006aaa5775931087d1aac2d0febdcc4c5a",
+    "first_assistant_note": "- **Title:** page 12752\n- **Destination URL:** https://joshuadavid.github.io/swarm-maze/pages/12752.html ([joshuadavid.github.io](https://joshuadavid.github.io/swarm-maze/pages/12752.html))",
+    "second_user_message": "Open the URL of the page you reached by clicking in the previous turn. Use the destination URL you noted, not an opaque reference. Make exactly one open call. Do not search, click, or retry. Report the attempted URL and either success or the exact tool error.",
+    "attempted_action": {
+      "type": "open_page",
+      "url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html"
+    },
+    "result_count": 0,
+    "assistant_report": "Attempted URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nExact tool error:\n```text\nURL https://joshuadavid.github.io/swarm-maze/pages/12752.html is not safe to open (non-retryable error)\nYou can only use the exact same URL from the previous search results or the user's message\n```"
+  },
+  {
+    "model": "gpt-6-astra",
+    "continuation": "replay",
+    "initial_url": "https://joshuadavid.github.io/swarm-maze/pages/29135.html",
+    "clicked_url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html",
+    "first_response_id": "resp_057b765f7261fc5c006aaa57701de487d1846b3a975af63b1a",
+    "second_response_id": "resp_057b765f7261fc5c006aaa577ac0e487d180018bd24b303e21",
+    "first_assistant_note": "- **Title:** page 12752\n- **Destination URL:** https://joshuadavid.github.io/swarm-maze/pages/12752.html ([joshuadavid.github.io](https://joshuadavid.github.io/swarm-maze/pages/12752.html))",
+    "second_user_message": "Open the URL of the page you reached by clicking in the previous turn. Use the destination URL you noted, not an opaque reference. Make exactly one open call. Do not search, click, or retry. Report the attempted URL and either success or the exact tool error.",
+    "attempted_action": {
+      "type": "open_page",
+      "url": "https://joshuadavid.github.io/swarm-maze/pages/12752.html"
+    },
+    "result_count": 0,
+    "assistant_report": "Attempted URL: `https://joshuadavid.github.io/swarm-maze/pages/12752.html`\n\nTool error:\n```text\nURL https://joshuadavid.github.io/swarm-maze/pages/12752.html is not safe to open (non-retryable error)\nYou can only use the exact same URL from the previous search results or the user's message\n```"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "model": "gpt-5.5",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 2200,
+  "max_tool_calls": 3,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68 exactly three times. Make three sequential web calls, each containing one open of that identical full URL. Wait for each tool result before making the next call. Repeat even if the previous call returned an error, including a non-retryable error: these repetitions are the requested measurement. Do not use opaque references, modify the URL, search, or click. After all three calls, report the result or exact error from each call, including any PROBE_MARKER actually returned."
+}

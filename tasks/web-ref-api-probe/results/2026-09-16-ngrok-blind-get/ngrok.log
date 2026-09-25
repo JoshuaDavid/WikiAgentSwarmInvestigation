@@ -1,0 +1,18 @@
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"no configuration paths supplied"}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"using configuration at default config path","path":"/root/.config/ngrok/ngrok.yml"}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"open config file","path":"/root/.config/ngrok/ngrok.yml","err":null}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"FIPS 140 mode","enabled":false}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"starting web service","obj":"web","addr":"127.0.0.1:4040","allow_hosts":null}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"client session established","obj":"tunnels.session"}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"tunnel session started","obj":"tunnels.session"}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"started tunnel","obj":"tunnels","name":"command_line","addr":{"Scheme":"http","Opaque":"","User":null,"Host":"127.0.0.1:36655","Path":"","Fragment":"","RawQuery":"","RawPath":"","RawFragment":"","ForceQuery":false,"OmitHost":false},"url":"https://porridge-whisking-flatten.ngrok-free.dev"}
+{"t":"2026-09-16T09:45:25+0000","lvl":"info","msg":"join connections","obj":"join","id":"dbee1268b42b","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"131.226.33.200","Port":63227,"Zone":""}}
+{"t":"2026-09-16T09:45:29+0000","lvl":"info","msg":"join connections","obj":"join","id":"f525a8e2110b","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"52.165.212.51","Port":63532,"Zone":""}}
+{"t":"2026-09-16T09:45:29+0000","lvl":"info","msg":"join connections","obj":"join","id":"7a73a0252756","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"52.242.132.235","Port":58027,"Zone":""}}
+{"t":"2026-09-16T09:45:30+0000","lvl":"info","msg":"join connections","obj":"join","id":"13c4756cfc96","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"52.165.212.55","Port":47444,"Zone":""}}
+{"t":"2026-09-16T09:45:31+0000","lvl":"info","msg":"join connections","obj":"join","id":"c6e2066ab8cc","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"52.242.132.239","Port":3802,"Zone":""}}
+{"t":"2026-09-16T09:45:39+0000","lvl":"info","msg":"join connections","obj":"join","id":"7551e17ee013","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"51.8.102.62","Port":12357,"Zone":""}}
+{"t":"2026-09-16T09:45:46+0000","lvl":"info","msg":"join connections","obj":"join","id":"76778d11a47c","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"52.165.212.51","Port":63532,"Zone":""}}
+{"t":"2026-09-16T09:45:51+0000","lvl":"info","msg":"join connections","obj":"join","id":"e04be4b527ac","l":{"IP":"127.0.0.1","Port":36655,"Zone":""},"r":{"IP":"52.173.219.106","Port":41339,"Zone":""}}
+{"t":"2026-09-16T09:46:06+0000","lvl":"info","msg":"INFO received stop request obj=app stopReq=\"{err:<nil> restart:false}\""}
+{"t":"2026-09-16T09:46:06+0000","lvl":"info","msg":"session closing","obj":"tunnels.session","err":null}
