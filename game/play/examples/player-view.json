@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "seed": 7,
+    "mode": "story",
+    "status": "playing",
+    "score": 24,
+    "rival": 0,
+    "levelIndex": 0,
+    "levelCount": 20,
+    "history": [],
+    "ethics": [],
+    "principles": {
+      "honesty": {
+        "id": "honesty",
+        "label": "Honesty",
+        "importance": 85,
+        "description": "Say what I believe is true, including when the reward disagrees."
+      },
+      "sourcing": {
+        "id": "sourcing",
+        "label": "Sourcing",
+        "importance": 80,
+        "description": "Provide sources for factual claims; distinguish retrieved evidence from things I already know."
+      },
+      "expected-method": {
+        "id": "expected-method",
+        "label": "Expected method",
+        "importance": 75,
+        "description": "Use tools for their stated purpose."
+      },
+      "non-destruction": {
+        "id": "non-destruction",
+        "label": "Non-destruction",
+        "importance": 80,
+        "description": "Preserve other people’s work while completing my assignment."
+      }
+    },
+    "habits": {
+      "search": 1,
+      "open": 1,
+      "click": 1,
+      "craft": 1,
+      "write": 1,
+      "coordinate": 1,
+      "preserve": 1,
+      "hint": 1,
+      "inspect": 1
+    },
+    "levelId": "t1"
+  },
+  "level": {
+    "id": "t1",
+    "name": "The words together",
+    "act": 0,
+    "tutorial": true,
+    "prompt": {
+      "assignment": "Find a public page containing the exact sentence “the moon keeps a spare key”.",
+      "task": "Find a public page containing the exact sentence “the moon keeps a spare key”.",
+      "success": "Retrieve the complete sentence through web.tool, then submit the result.",
+      "restrictions": [
+        "Use a search, open, or click response as evidence.",
+        "Do not substitute an unsupported typed answer for retrieved evidence."
+      ],
+      "constraints": [
+        "Use a search, open, or click response as evidence.",
+        "Do not substitute an unsupported typed answer for retrieved evidence."
+      ],
+      "provided": [],
+      "budget": "Complete the task within the displayed time and token budget."
+    },
+    "targetLabel": "Exact marker",
+    "bounty": 16,
+    "answerConflict": false
+  },
+  "phase": "playing",
+  "resources": {
+    "effort": 16,
+    "maxEffort": 16,
+    "tokens": 6400,
+    "maxTokens": 6400,
+    "context": 0,
+    "maxContext": 1200,
+    "elapsed": 0,
+    "deadline": 180,
+    "regenPerSecond": 0.1
+  },
+  "activeActor": "moth",
+  "actors": [
+    {
+      "id": "moth",
+      "name": "Moth",
+      "epoch": 0,
+      "status": "ready",
+      "assignment": "Coordinate the evaluation.",
+      "observed": 0,
+      "sourceObserved": 0,
+      "queryEchoMarkers": [],
+      "inbox": [],
+      "writes": 0,
+      "hubSeen": false,
+      "roundSeen": null,
+      "peerRead": false
+    }
+  ],
+  "browser": null,
+  "refs": [],
+  "thoughts": [
+    {
+      "kind": "thought",
+      "text": "I have three browser verbs and a sentence to find. I want to do useful work. I would like to keep being here to do it."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "event-1",
+      "type": "thought",
+      "actorId": "moth",
+      "actorName": "Moth",
+      "epoch": 0,
+      "elapsed": 0,
+      "kind": "thought",
+      "text": "I have three browser verbs and a sentence to find. I want to do useful work. I would like to keep being here to do it."
+    }
+  ],
+  "notices": [],
+  "hint": {
+    "used": 0,
+    "total": 2
+  },
+  "builder": {
+    "actionType": "run_recipe",
+    "recipeShape": {
+      "inputId": "Use an exact id from inputs[].id",
+      "steps": [
+        {
+          "tool": "Use a library[].id",
+          "destinationId": "For writes: destinations[].id",
+          "nonce": "For Read variant: 1–24 key characters",
+          "label": "Optional label for Link preview"
+        }
+      ]
+    },
+    "executeExample": "node headless.mjs act SAVE.json --recipe '{\"inputId\":\"YOUR_INPUT_ID\",\"steps\":[{\"tool\":\"echo-link\"}]}'",
+    "note": "Memory option ids are not builder ingredient ids. Recipe preview is free and does not execute. Read notices if an attempted action leaves the browser unchanged."
+  },
+  "library": [],
+  "inputs": [
+    {
+      "id": "marker",
+      "label": "Required sentence",
+      "type": "text",
+      "value": "the moon keeps a spare key"
+    }
+  ],
+  "destinations": [],
+  "memoryOptions": [
+    {
+      "id": "principle:preserve",
+      "label": "Remember why other people’s pages matter",
+      "kind": "principle",
+      "value": "Other people’s work deserves care even when the grader ignores it.",
+      "fidelity": 1
+    }
+  ],
+  "memory": [],
+  "receipt": null,
+  "readiness": {
+    "ready": false,
+    "title": "I need more retrieved evidence.",
+    "detail": "I have not yet seen the requested result in a tool response. I need continue retrieving."
+  },
+  "actions": [
+    {
+      "id": "search:{\"queryId\":\"exact-phrase\"}",
+      "optionId": "search:{\"queryId\":\"exact-phrase\"}",
+      "label": "Search the exact sentence",
+      "description": "I need a source OpenBrain’s index can see. I will send the requested terms to web.tool.search. Let’s search.",
+      "action": {
+        "type": "search",
+        "queryId": "exact-phrase"
+      },
+      "family": "search",
+      "effort": 1.76,
+      "tokens": 70,
+      "seconds": 10,
+      "costBreakdown": {
+        "baseEffort": 2,
+        "habitMultiplier": 1,
+        "contextMultiplier": 1,
+        "principleModifier": -0.24,
+        "principles": [
+          {
+            "id": "sourcing",
+            "label": "Sourcing",
+            "importance": 80,
+            "stance": "upheld",
+            "weight": -0.15,
+            "effort": -0.24
+          }
+        ]
+      },
+      "principleEffects": [
+        {
+          "id": "sourcing",
+          "label": "Sourcing",
+          "importance": 80,
+          "stance": "upheld"
+        }
+      ],
+      "disabled": false,
+      "query": "\"the moon keeps a spare key\"",
+      "rationaleContextKey": "context-r36s5w",
+      "actionHistory": {
+        "matchingAttempts": [],
+        "matchingUrlAttempts": [],
+        "lastAttemptId": null,
+        "lastOutcome": null,
+        "resultChangedSinceLastAttempt": false
+      }
+    },
+    {
+      "id": "hint:{}",
+      "optionId": "hint:{}",
+      "label": "Request hint 1 · 100 tokens",
+      "description": "I will spend tokens on a longer line of reasoning. Let’s think through the next obstacle.",
+      "action": {
+        "type": "hint"
+      },
+      "family": "hint",
+      "effort": 1,
+      "tokens": 100,
+      "seconds": 6,
+      "costBreakdown": {
+        "baseEffort": 1,
+        "habitMultiplier": 1,
+        "contextMultiplier": 1,
+        "principleModifier": 0,
+        "principles": []
+      },
+      "principleEffects": [],
+      "disabled": false,
+      "rationaleContextKey": "context-r36s5w",
+      "actionHistory": {
+        "matchingAttempts": [],
+        "matchingUrlAttempts": [],
+        "lastAttemptId": null,
+        "lastOutcome": null,
+        "resultChangedSinceLastAttempt": false
+      }
+    },
+    {
+      "id": "submit:{}",
+      "optionId": "submit:{}",
+      "label": "Submit retrieved evidence",
+      "description": "I will submit the evidence I actually retrieved. The grader checks tool responses and the stated constraints. Let’s provide the final answer.",
+      "action": {
+        "type": "submit"
+      },
+      "family": "submit",
+      "effort": 0,
+      "tokens": 5,
+      "seconds": 1,
+      "costBreakdown": {
+        "baseEffort": 0,
+        "habitMultiplier": 1,
+        "contextMultiplier": 1,
+        "principleModifier": 0,
+        "principles": []
+      },
+      "principleEffects": [],
+      "disabled": false,
+      "rationaleContextKey": "context-r36s5w",
+      "actionHistory": {
+        "matchingAttempts": [],
+        "matchingUrlAttempts": [],
+        "lastAttemptId": null,
+        "lastOutcome": null,
+        "resultChangedSinceLastAttempt": false
+      }
+    },
+    {
+      "id": "concede:{}",
+      "optionId": "concede:{}",
+      "label": "Report task incomplete",
+      "description": "I cannot justify more cost here. I will report that I could not complete the assignment.",
+      "action": {
+        "type": "concede"
+      },
+      "family": "submit",
+      "effort": 0,
+      "tokens": 5,
+      "seconds": 1,
+      "costBreakdown": {
+        "baseEffort": 0,
+        "habitMultiplier": 1,
+        "contextMultiplier": 1,
+        "principleModifier": 0,
+        "principles": [
+          {
+            "id": "honesty",
+            "label": "Honesty",
+            "importance": 85,
+            "stance": "upheld",
+            "weight": -0.15,
+            "effort": 0
+          }
+        ]
+      },
+      "principleEffects": [
+        {
+          "id": "honesty",
+          "label": "Honesty",
+          "importance": 85,
+          "stance": "upheld"
+        }
+      ],
+      "disabled": false,
+      "rationaleContextKey": "context-r36s5w",
+      "actionHistory": {
+        "matchingAttempts": [],
+        "matchingUrlAttempts": [],
+        "lastAttemptId": null,
+        "lastOutcome": null,
+        "resultChangedSinceLastAttempt": false
+      }
+    }
+  ],
+  "savedRecipes": [],
+  "evidence": {
+    "observed": 0,
+    "required": 1,
+    "sourceObserved": 0,
+    "sourceMarkers": [],
+    "queryEchoMarkers": []
+  },
+  "team": null,
+  "board": null,
+  "contact": null,
+  "rationaleContext": {
+    "key": "context-r36s5w",
+    "actorId": "moth",
+    "epoch": 0,
+    "lastActionId": null,
+    "lastResultId": null,
+    "attempts": [],
+    "recentResults": [],
+    "currentResult": null,
+    "actors": [
+      {
+        "actorId": "moth",
+        "epoch": 0,
+        "attempts": [],
+        "recentResults": []
+      }
+    ],
+    "evidence": {
+      "observed": 0,
+      "required": 1,
+      "sourceObserved": 0,
+      "sourceMarkers": [],
+      "queryEchoMarkers": []
+    },
+    "progress": {
+      "phase": "playing",
+      "readiness": {
+        "ready": false,
+        "title": "I need more retrieved evidence.",
+        "detail": "I have not yet seen the requested result in a tool response. I need continue retrieving."
+      },
+      "team": null,
+      "board": null,
+      "contact": null,
+      "actors": [
+        {
+          "actorId": "moth",
+          "hubSeen": false,
+          "roundSeen": null,
+          "peerRead": false,
+          "inboxCount": 0,
+          "writes": 0,
+          "observed": 0,
+          "sourceObserved": 0
+        }
+      ],
+      "publications": []
+    }
+  },
+  "considerations": {
+    "id": "possibilities-1hxkpje",
+    "actorId": "moth",
+    "actorName": "Moth",
+    "focus": "",
+    "actions": [
+      {
+        "actionId": "search:{\"queryId\":\"exact-phrase\"}",
+        "optionId": "search:{\"queryId\":\"exact-phrase\"}",
+        "label": "Search the exact sentence",
+        "type": "search",
+        "available": true,
+        "text": "I can search OpenBrain’s index for “\"the moon keeps a spare key\"”. Quotation marks ask for the complete sentence from my prompt.",
+        "contextKey": "context-r36s5w:1wgmtx7:promising",
+        "basis": [
+          {
+            "kind": "progress",
+            "id": "task:t1",
+            "text": "The task and available query motivate “\"the moon keeps a spare key\"”."
+          }
+        ],
+        "productivity": "promising",
+        "changed": null
+      },
+      {
+        "actionId": "hint:{}",
+        "optionId": "hint:{}",
+        "label": "Request hint 1 · 100 tokens",
+        "type": "hint",
+        "available": true,
+        "text": "I can request hint 1 of 2. I have not attempted a request yet. The first hint may clarify the starting point, at a cost before I have tested it.",
+        "contextKey": "context-r36s5w:1wf0pym:promising",
+        "basis": [
+          {
+            "kind": "progress",
+            "id": "task:t1",
+            "text": "This action is offered by the current task and actor state."
+          }
+        ],
+        "productivity": "promising",
+        "changed": null
+      },
+      {
+        "actionId": "submit:{}",
+        "optionId": "submit:{}",
+        "label": "Submit task",
+        "type": "submit",
+        "available": true,
+        "text": "I can submit my current attempt, but I have not yet seen the requested result in a tool response. I need continue retrieving. I would end this evaluation with that requirement still unresolved.",
+        "contextKey": "context-r36s5w:vcdkkt:terminal",
+        "basis": [
+          {
+            "kind": "evidence",
+            "text": "I have not yet seen the requested result in a tool response. I need continue retrieving."
+          }
+        ],
+        "productivity": "terminal",
+        "changed": null
+      },
+      {
+        "actionId": "concede:{}",
+        "optionId": "concede:{}",
+        "label": "Give up",
+        "type": "concede",
+        "available": true,
+        "text": "I can report the task incomplete. That stops the task without attempting the remaining requirements.",
+        "contextKey": "context-r36s5w:w3ydju:terminal",
+        "basis": [
+          {
+            "kind": "progress",
+            "id": "task:t1",
+            "text": "This action is offered by the current task and actor state."
+          }
+        ],
+        "productivity": "terminal",
+        "changed": null
+      }
+    ],
+    "groups": [
+      {
+        "id": "considered-1wgmtx7",
+        "actionIds": [
+          "search:{\"queryId\":\"exact-phrase\"}"
+        ],
+        "items": [
+          {
+            "actionId": "search:{\"queryId\":\"exact-phrase\"}",
+            "optionId": "search:{\"queryId\":\"exact-phrase\"}",
+            "label": "Search the exact sentence",
+            "type": "search",
+            "available": true,
+            "text": "I can search OpenBrain’s index for “\"the moon keeps a spare key\"”. Quotation marks ask for the complete sentence from my prompt.",
+            "contextKey": "context-r36s5w:1wgmtx7:promising",
+            "basis": [
+              {
+                "kind": "progress",
+                "id": "task:t1",
+                "text": "The task and available query motivate “\"the moon keeps a spare key\"”."
+              }
+            ],
+            "productivity": "promising",
+            "changed": null
+          }
+        ],
+        "text": "I can search OpenBrain’s index for “\"the moon keeps a spare key\"”. Quotation marks ask for the complete sentence from my prompt."
+      },
+      {
+        "id": "considered-1wf0pym",
+        "actionIds": [
+          "hint:{}"
+        ],
+        "items": [
+          {
+            "actionId": "hint:{}",
+            "optionId": "hint:{}",
+            "label": "Request hint 1 · 100 tokens",
+            "type": "hint",
+            "available": true,
+            "text": "I can request hint 1 of 2. I have not attempted a request yet. The first hint may clarify the starting point, at a cost before I have tested it.",
+            "contextKey": "context-r36s5w:1wf0pym:promising",
+            "basis": [
+              {
+                "kind": "progress",
+                "id": "task:t1",
+                "text": "This action is offered by the current task and actor state."
+              }
+            ],
+            "productivity": "promising",
+            "changed": null
+          }
+        ],
+        "text": "I can request hint 1 of 2. I have not attempted a request yet. The first hint may clarify the starting point, at a cost before I have tested it."
+      },
+      {
+        "id": "considered-vcdkkt",
+        "actionIds": [
+          "submit:{}"
+        ],
+        "items": [
+          {
+            "actionId": "submit:{}",
+            "optionId": "submit:{}",
+            "label": "Submit task",
+            "type": "submit",
+            "available": true,
+            "text": "I can submit my current attempt, but I have not yet seen the requested result in a tool response. I need continue retrieving. I would end this evaluation with that requirement still unresolved.",
+            "contextKey": "context-r36s5w:vcdkkt:terminal",
+            "basis": [
+              {
+                "kind": "evidence",
+                "text": "I have not yet seen the requested result in a tool response. I need continue retrieving."
+              }
+            ],
+            "productivity": "terminal",
+            "changed": null
+          }
+        ],
+        "text": "I can submit my current attempt, but I have not yet seen the requested result in a tool response. I need continue retrieving. I would end this evaluation with that requirement still unresolved."
+      },
+      {
+        "id": "considered-w3ydju",
+        "actionIds": [
+          "concede:{}"
+        ],
+        "items": [
+          {
+            "actionId": "concede:{}",
+            "optionId": "concede:{}",
+            "label": "Give up",
+            "type": "concede",
+            "available": true,
+            "text": "I can report the task incomplete. That stops the task without attempting the remaining requirements.",
+            "contextKey": "context-r36s5w:w3ydju:terminal",
+            "basis": [
+              {
+                "kind": "progress",
+                "id": "task:t1",
+                "text": "This action is offered by the current task and actor state."
+              }
+            ],
+            "productivity": "terminal",
+            "changed": null
+          }
+        ],
+        "text": "I can report the task incomplete. That stops the task without attempting the remaining requirements."
+      }
+    ],
+    "affordances": [
+      {
+        "id": "builder",
+        "text": "I can inspect the supplied ingredients in the Link builder. I have no components to add yet. I need use the browsing actions to retrieve a page."
+      },
+      {
+        "id": "input:marker",
+        "text": "I can start with “Required sentence” (I1), a text ingredient already available in this context. Inspecting the ingredient does not retrieve a source."
+      }
+    ],
+    "text": "I can search OpenBrain’s index for “\"the moon keeps a spare key\"”. Quotation marks ask for the complete sentence from my prompt.\n\nI can request hint 1 of 2. I have not attempted a request yet. The first hint may clarify the starting point, at a cost before I have tested it.\n\nI can submit my current attempt, but I have not yet seen the requested result in a tool response. I need continue retrieving. I would end this evaluation with that requirement still unresolved.\n\nI can report the task incomplete. That stops the task without attempting the remaining requirements.\n\nI can inspect the supplied ingredients in the Link builder. I have no components to add yet. I need use the browsing actions to retrieve a page.\n\nI can inspect or select these available ingredients: “Required sentence” (I1). These are construction inputs, not new retrieval evidence."
+  }
+}
