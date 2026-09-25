@@ -1,0 +1,171 @@
+{
+  "label": "three-opens-same-turn",
+  "started_utc": "2026-09-16T10:08:10.867535+00:00",
+  "started_monotonic": 1248402.795455222,
+  "http_status": 200,
+  "request_id": "req_8b9d38ce403a41fea8d9aafe9fffe1c4",
+  "response": {
+    "id": "resp_0ba5c8e6fa8dea75006aaa6a8b318487d198743e3bbdd38a78",
+    "object": "response",
+    "created_at": 1789553291,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1789553298,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+    "max_output_tokens": 2200,
+    "max_tool_calls": 3,
+    "model": "gpt-5.5-2026-04-23",
+    "moderation": null,
+    "output": [
+      {
+        "id": "ws_0ba5c8e6fa8dea75006aaa6a8d2d0087d180019cfb1782164f",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da\",\"lineno\":null}); Total lines: 3\nL0: # gpt-5.5-html-same-turn\nL1: \nL2: PROBE_MARKER_8926c346bfbc10bfb4afd999e20abdb4\n",
+            "title": "gpt-5.5-html-same-turn",
+            "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da"
+          }
+        ]
+      },
+      {
+        "id": "ws_0ba5c8e6fa8dea75006aaa6a8e90a487d1b3851898e6fe9fb5",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "snippet": "\ue200cite\ue202turn1view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da\",\"lineno\":null}); Total lines: 3\nL0: # gpt-5.5-html-same-turn\nL1: \nL2: PROBE_MARKER_8926c346bfbc10bfb4afd999e20abdb4\n",
+            "title": "gpt-5.5-html-same-turn",
+            "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da"
+          }
+        ]
+      },
+      {
+        "id": "ws_0ba5c8e6fa8dea75006aaa6a8fc7d087d1bdfd100cb383603c",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "snippet": "\ue200cite\ue202turn2view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da\",\"lineno\":null}); Total lines: 3\nL0: # gpt-5.5-html-same-turn\nL1: \nL2: PROBE_MARKER_8926c346bfbc10bfb4afd999e20abdb4\n",
+            "title": "gpt-5.5-html-same-turn",
+            "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/f843124de92eac4521a3/gpt-5.5-html-same-turn/64b1e91610e78bb9c7f9d1da"
+          }
+        ]
+      },
+      {
+        "id": "msg_0ba5c8e6fa8dea75006aaa6a9146d087d1bb3e376a0d40edaa",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Call 1 result:\n- Open succeeded.\n- Title/content heading: `gpt-5.5-html-same-turn`\n- Returned marker: `PROBE_MARKER_8926c346bfbc10bfb4afd999e20abdb4`\n\nCall 2 result:\n- Open succeeded.\n- Title/content heading: `gpt-5.5-html-same-turn`\n- Returned marker: `PROBE_MARKER_8926c346bfbc10bfb4afd999e20abdb4`\n\nCall 3 result:\n- Open succeeded.\n- Title/content heading: `gpt-5.5-html-same-turn`\n- Returned marker: `PROBE_MARKER_8926c346bfbc10bfb4afd999e20abdb4`"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "current_turn",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5615,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 3712
+      },
+      "output_tokens": 397,
+      "output_tokens_details": {
+        "reasoning_tokens": 231
+      },
+      "total_tokens": 6012
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-16T10:08:18.992774+00:00",
+  "ended_monotonic": 1248410.91937935,
+  "elapsed_s": 8.124
+}

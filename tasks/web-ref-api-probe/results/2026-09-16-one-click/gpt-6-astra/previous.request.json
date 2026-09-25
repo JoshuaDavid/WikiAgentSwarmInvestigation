@@ -1,0 +1,21 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "store": true,
+  "reasoning": {
+    "effort": "low"
+  },
+  "max_output_tokens": 2000,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Stop after the requested calls; do not search or use workarounds.",
+  "previous_response_id": "resp_057b765f7261fc5c006aaa57701de487d1846b3a975af63b1a",
+  "max_tool_calls": 1,
+  "input": "Open the URL of the page you reached by clicking in the previous turn. Use the destination URL you noted, not an opaque reference. Make exactly one open call. Do not search, click, or retry. Report the attempted URL and either success or the exact tool error."
+}

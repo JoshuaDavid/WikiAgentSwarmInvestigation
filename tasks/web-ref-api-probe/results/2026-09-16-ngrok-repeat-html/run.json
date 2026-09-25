@@ -1,0 +1,9 @@
+{
+  "started": "2026-09-16T10:08:10.647449+00:00",
+  "public_url": "https://porridge-whisking-flatten.ngrok-free.dev",
+  "run_id": "f843124de92eac4521a3",
+  "models": [
+    "gpt-5.5",
+    "gpt-6-astra"
+  ]
+}

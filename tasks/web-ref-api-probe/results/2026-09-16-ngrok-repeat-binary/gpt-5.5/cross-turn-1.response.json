@@ -1,0 +1,130 @@
+{
+  "label": "cross-turn-1",
+  "started_utc": "2026-09-16T09:52:53.001376+00:00",
+  "started_monotonic": 1247484.922513472,
+  "http_status": 200,
+  "request_id": "req_6ea14e6f98bd42cb89e2a5a87c5c2981",
+  "response": {
+    "id": "resp_0a60e0301f9cd3b3006aaa66f5412087d1819b4768d3549ffb",
+    "object": "response",
+    "created_at": 1789552373,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1789552377,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+    "max_output_tokens": 2200,
+    "max_tool_calls": 1,
+    "model": "gpt-5.5-2026-04-23",
+    "moderation": null,
+    "output": [
+      {
+        "id": "ws_0a60e0301f9cd3b3006aaa66f6ddf087d1910b2f501087d642",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd"
+        },
+        "results": []
+      },
+      {
+        "id": "msg_0a60e0301f9cd3b3006aaa66f856dc87d18a1005852ec92c14",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Opened exactly one URL:\n\n`https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd`\n\nActual tool result/error:\n\nFailed to fetch the URL: **(400) Unsupported content-type: application/octet-stream**\n\nNo `PROBE_MARKER` was returned."
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "current_turn",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 4870,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 2688
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 5035
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-16T09:52:57.401441+00:00",
+  "ended_monotonic": 1247489.322606391,
+  "elapsed_s": 4.4
+}

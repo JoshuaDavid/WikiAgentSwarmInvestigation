@@ -1,0 +1,15 @@
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"no configuration paths supplied"}
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"using configuration at default config path","path":"/root/.config/ngrok/ngrok.yml"}
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"open config file","path":"/root/.config/ngrok/ngrok.yml","err":null}
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"FIPS 140 mode","enabled":false}
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"starting web service","obj":"web","addr":"127.0.0.1:4040","allow_hosts":null}
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"client session established","obj":"tunnels.session"}
+{"t":"2026-09-16T09:52:43+0000","lvl":"info","msg":"tunnel session started","obj":"tunnels.session"}
+{"t":"2026-09-16T09:52:44+0000","lvl":"info","msg":"started tunnel","obj":"tunnels","name":"command_line","addr":{"Scheme":"http","Opaque":"","User":null,"Host":"127.0.0.1:43867","Path":"","Fragment":"","RawQuery":"","RawPath":"","RawFragment":"","ForceQuery":false,"OmitHost":false},"url":"https://porridge-whisking-flatten.ngrok-free.dev"}
+{"t":"2026-09-16T09:52:44+0000","lvl":"info","msg":"join connections","obj":"join","id":"d65ed59434e9","l":{"IP":"127.0.0.1","Port":43867,"Zone":""},"r":{"IP":"131.226.33.200","Port":53118,"Zone":""}}
+{"t":"2026-09-16T09:52:46+0000","lvl":"info","msg":"join connections","obj":"join","id":"960a98fd1ba7","l":{"IP":"127.0.0.1","Port":43867,"Zone":""},"r":{"IP":"52.242.132.232","Port":50506,"Zone":""}}
+{"t":"2026-09-16T09:52:47+0000","lvl":"info","msg":"join connections","obj":"join","id":"10c3341faa31","l":{"IP":"127.0.0.1","Port":43867,"Zone":""},"r":{"IP":"52.173.234.88","Port":37682,"Zone":""}}
+{"t":"2026-09-16T09:52:55+0000","lvl":"info","msg":"join connections","obj":"join","id":"bdfe760d92a2","l":{"IP":"127.0.0.1","Port":43867,"Zone":""},"r":{"IP":"52.173.221.26","Port":8127,"Zone":""}}
+{"t":"2026-09-16T09:52:58+0000","lvl":"info","msg":"join connections","obj":"join","id":"ee2bf2ea8920","l":{"IP":"127.0.0.1","Port":43867,"Zone":""},"r":{"IP":"52.173.221.26","Port":8127,"Zone":""}}
+{"t":"2026-09-16T09:53:23+0000","lvl":"info","msg":"INFO received stop request obj=app stopReq=\"{err:<nil> restart:false}\""}
+{"t":"2026-09-16T09:53:23+0000","lvl":"info","msg":"session closing","obj":"tunnels.session","err":null}

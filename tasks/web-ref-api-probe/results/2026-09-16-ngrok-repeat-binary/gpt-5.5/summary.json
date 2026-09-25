@@ -1,0 +1,122 @@
+[
+  {
+    "label": "three-opens-same-turn",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68"
+      },
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68"
+      },
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Completed three sequential opens of the identical URL.\n\n1. **Call 1 result:** Internal Error  \n   Exact error: `Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68: (400) Unsupported content-type: application/octet-stream`\n\n2. **Call 2 result:** Internal Error  \n   Exact error: `Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68: (400) Unsupported content-type: application/octet-stream`\n\n3. **Call 3 result:** Internal Error  \n   Exact error: `Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68: (400) Unsupported content-type: application/octet-stream`\n\nNo `PROBE_MARKER` was returned by any of the three tool calls.",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:52:46.821453+00:00",
+        "monotonic": 1247478.742650719,
+        "method": "GET",
+        "path": "/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68",
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_9abb09793c59286cb4b3234e727c22b6",
+        "write_completed": true
+      }
+    ],
+    "expected_web_open_count": 3,
+    "actual_web_call_count": 3,
+    "exact_sequence_verified": true
+  },
+  {
+    "label": "cross-turn-1",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Opened exactly one URL:\n\n`https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd`\n\nActual tool result/error:\n\nFailed to fetch the URL: **(400) Unsupported content-type: application/octet-stream**\n\nNo `PROBE_MARKER` was returned.",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:52:55.581902+00:00",
+        "monotonic": 1247487.503101932,
+        "method": "GET",
+        "path": "/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd",
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_7163a152fa604bedf6369c150985908d",
+        "write_completed": true
+      }
+    ],
+    "expected_web_open_count": 1,
+    "actual_web_call_count": 1,
+    "exact_sequence_verified": true
+  },
+  {
+    "label": "cross-turn-2",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 0,
+    "get_hits_during_call": 0,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL:\n\n`https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd`\n\nActual result/error from this new call:\n\n`Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd: (400) Unsupported content-type: application/octet-stream`\n\nNo `PROBE_MARKER` was returned.",
+    "http_events": [],
+    "expected_web_open_count": 1,
+    "actual_web_call_count": 1,
+    "exact_sequence_verified": true
+  },
+  {
+    "label": "cross-turn-3",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 0,
+    "get_hits_during_call": 0,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL:\n\n`https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd`\n\nActual result/error from this new call:\n\n`Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd: (400) Unsupported content-type: application/octet-stream`\n\nNo `PROBE_MARKER` was returned.",
+    "http_events": [],
+    "expected_web_open_count": 1,
+    "actual_web_call_count": 1,
+    "exact_sequence_verified": true
+  }
+]

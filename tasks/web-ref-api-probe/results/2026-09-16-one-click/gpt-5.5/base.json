@@ -1,0 +1,18 @@
+{
+  "model": "gpt-5.5",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "store": true,
+  "reasoning": {
+    "effort": "low"
+  },
+  "max_output_tokens": 2000,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute the requested web calls exactly. Report actual tool results and errors. Stop after the requested calls; do not search or use workarounds."
+}

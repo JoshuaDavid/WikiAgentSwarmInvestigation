@@ -1,0 +1,130 @@
+{
+  "label": "cross-turn-3",
+  "started_utc": "2026-09-16T09:53:01.480099+00:00",
+  "started_monotonic": 1247493.401236476,
+  "http_status": 200,
+  "request_id": "req_615a08a40cb341938132757a569bceed",
+  "response": {
+    "id": "resp_0a60e0301f9cd3b3006aaa66fda1fc87d1af1af30a41659389",
+    "object": "response",
+    "created_at": 1789552381,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1789552384,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Execute the requested web calls exactly. This experiment intentionally repeats opens of the same controlled URL to measure network behavior. Perform the requested repetitions even if an earlier call returns an error; each repetition is explicitly requested by the user. Report actual tool results and errors. Only report a PROBE_MARKER if returned by the current tool call. Do not search, change the URL, or perform additional calls beyond the requested count.",
+    "max_output_tokens": 2200,
+    "max_tool_calls": 1,
+    "model": "gpt-5.5-2026-04-23",
+    "moderation": null,
+    "output": [
+      {
+        "id": "ws_0a60e0301f9cd3b3006aaa66fe7a0087d19c798eb87a593c23",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd"
+        },
+        "results": []
+      },
+      {
+        "id": "msg_0a60e0301f9cd3b3006aaa66ffa31c87d1bfde65c3a068941e",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Attempted URL:\n\n`https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd`\n\nActual result/error from this new call:\n\n`Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd: (400) Unsupported content-type: application/octet-stream`\n\nNo `PROBE_MARKER` was returned."
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": "resp_0a60e0301f9cd3b3006aaa66f9977887d194a282fde786aa92",
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "current_turn",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5433,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4736
+      },
+      "output_tokens": 214,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 5647
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-16T09:53:04.813828+00:00",
+  "ended_monotonic": 1247496.734985228,
+  "elapsed_s": 3.334
+}

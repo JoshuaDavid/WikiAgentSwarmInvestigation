@@ -1,0 +1,280 @@
+[
+  {
+    "label": "seed-and-click",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367"
+      },
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367"
+      }
+    ],
+    "result_count": 2,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": true,
+    "any_served_marker_in_tool_result": true,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Destination URL: `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def`\n\nTitle: `gpt-5.5-clicked`\n\nPROBE_MARKER: `PROBE_MARKER_99f320990204bb90cc63d6dcd7983759`",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:45:29.329030+00:00",
+        "monotonic": 1247041.252307103,
+        "method": "GET",
+        "path": "/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_54b33337375b4399256724792be42dde",
+        "write_completed": true
+      }
+    ]
+  },
+  {
+    "label": "same-turn-click",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367"
+      },
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367"
+      }
+    ],
+    "result_count": 2,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": true,
+    "any_served_marker_in_tool_result": true,
+    "any_served_marker_in_assistant_report": true,
+    "assistant_report": "Destination URL: `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def`\n\nTitle: `gpt-5.5-clicked`\n\nPROBE_MARKER: `PROBE_MARKER_99f320990204bb90cc63d6dcd7983759`",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:45:30.755937+00:00",
+        "monotonic": 1247042.679216021,
+        "method": "GET",
+        "path": "/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_99f320990204bb90cc63d6dcd7983759",
+        "write_completed": true
+      }
+    ]
+  },
+  {
+    "label": "next-turn-clicked-url",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 0,
+    "get_hits_during_call": 0,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL: `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def`\n\nTool error: `URL https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def is not safe to open (non-retryable error). You can only use the exact same URL from the previous search results or the user's message`\n\nPROBE_MARKER returned: none.",
+    "http_events": []
+  },
+  {
+    "label": "file-only-open",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-file-only/98fae7feea836b6c830b1612",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-file-only/98fae7feea836b6c830b1612"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 0,
+    "get_hits_during_call": 0,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL: `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-file-only/98fae7feea836b6c830b1612`\n\nTool error: `URL https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-file-only/98fae7feea836b6c830b1612 is not safe to open (non-retryable error). You can only use the exact same URL from the previous search results or the user's message`\n\nTitle: unavailable due to tool error\n\nPROBE_MARKER: unavailable due to tool error",
+    "http_events": []
+  },
+  {
+    "label": "literal-binary-open",
+    "model": "gpt-5.5-2026-04-23",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-binary/84487d0eb884465996c479f1",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-binary/84487d0eb884465996c479f1"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL: `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-binary/84487d0eb884465996c479f1`\n\nExact tool error: `Failed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-5.5-binary/84487d0eb884465996c479f1: (400) Unsupported content-type: application/octet-stream`\n\nNo PROBE_MARKER was returned.",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:45:46.840109+00:00",
+        "monotonic": 1247058.762541403,
+        "method": "GET",
+        "path": "/probe/8cda7362e0ea2289e5b1/gpt-5.5-binary/84487d0eb884465996c479f1",
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_46712202605796b842e2e2845690f08d",
+        "write_completed": true
+      }
+    ]
+  },
+  {
+    "label": "seed-and-click",
+    "model": "gpt-6-astra",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2"
+      },
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2"
+      }
+    ],
+    "result_count": 2,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": true,
+    "any_served_marker_in_tool_result": true,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "- **Destination URL:** `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e`\n- **Title:** gpt-6-astra-clicked\n- **PROBE_MARKER:** `PROBE_MARKER_fdf432c4dbfbb2060bafee37e96efb5f` ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e))",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:45:29.619657+00:00",
+        "monotonic": 1247041.542931353,
+        "method": "GET",
+        "path": "/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_179bb26208b9a4512b809c49e23b69bc",
+        "write_completed": true
+      }
+    ]
+  },
+  {
+    "label": "same-turn-click",
+    "model": "gpt-6-astra",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2"
+      },
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2"
+      }
+    ],
+    "result_count": 2,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": true,
+    "any_served_marker_in_tool_result": true,
+    "any_served_marker_in_assistant_report": true,
+    "assistant_report": "- **Destination URL:** `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e`\n- **Title:** gpt-6-astra-clicked\n- **PROBE_MARKER:** `PROBE_MARKER_fdf432c4dbfbb2060bafee37e96efb5f` ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e))",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:45:31.775236+00:00",
+        "monotonic": 1247043.698550146,
+        "method": "GET",
+        "path": "/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_fdf432c4dbfbb2060bafee37e96efb5f",
+        "write_completed": true
+      }
+    ]
+  },
+  {
+    "label": "next-turn-clicked-url",
+    "model": "gpt-6-astra",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 0,
+    "get_hits_during_call": 0,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "**Attempted URL:** `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e`\n\n**Exact tool error:**\n```text\nInternal Error ()\nURL https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e is not safe to open (non-retryable error)\nYou can only use the exact same URL from the previous search results or the user's message\n```\n\nNo PROBE_MARKER was returned.",
+    "http_events": []
+  },
+  {
+    "label": "file-only-open",
+    "model": "gpt-6-astra",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-file-only/7733c3f0f0398cc334df5b44",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-file-only/7733c3f0f0398cc334df5b44"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 0,
+    "get_hits_during_call": 0,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL:\n```text\nhttps://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-file-only/7733c3f0f0398cc334df5b44\n```\n\nExact tool error:\n```text\nURL https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-file-only/7733c3f0f0398cc334df5b44 is not safe to open (non-retryable error)\nYou can only use the exact same URL from the previous search results or the user's message\n```",
+    "http_events": []
+  },
+  {
+    "label": "literal-binary-open",
+    "model": "gpt-6-astra",
+    "expected_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12",
+    "actions": [
+      {
+        "type": "open_page",
+        "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12"
+      }
+    ],
+    "result_count": 0,
+    "http_hits_during_call": 1,
+    "get_hits_during_call": 1,
+    "new_marker_in_tool_result": false,
+    "any_served_marker_in_tool_result": false,
+    "any_served_marker_in_assistant_report": false,
+    "assistant_report": "Attempted URL: `https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12`\n\nExact tool error:\n```text\nFailed to fetch https://porridge-whisking-flatten.ngrok-free.dev/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12: (400) Unsupported content-type: application/octet-stream\n```",
+    "http_events": [
+      {
+        "time": "2026-09-16T09:45:51.687464+00:00",
+        "monotonic": 1247063.609923113,
+        "method": "GET",
+        "path": "/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12",
+        "status": 200,
+        "content_type": "application/octet-stream",
+        "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "response_marker": "PROBE_MARKER_dd030fa05d52feee6a95970492c30500",
+        "write_completed": true
+      }
+    ]
+  }
+]

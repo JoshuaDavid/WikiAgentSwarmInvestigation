@@ -1,0 +1,4 @@
+{
+  "same_turn": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-same-turn/a8514bcb9c9222335619ba68",
+  "cross_turn": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b348cafdc740d4ff1872/gpt-5.5-binary-cross-turn/cf2a957c66bb1b939cb09bfd"
+}

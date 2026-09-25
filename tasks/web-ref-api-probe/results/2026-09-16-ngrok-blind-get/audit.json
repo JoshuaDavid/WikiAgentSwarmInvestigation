@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "model": "gpt-5.5",
+      "checks": "passed",
+      "api_calls": 5
+    },
+    {
+      "model": "gpt-6-astra",
+      "checks": "passed",
+      "api_calls": 5
+    }
+  ],
+  "total_http_events": 8,
+  "method_counts": {
+    "GET": 8
+  },
+  "api_key_absent_from_artifacts": true,
+  "all_request_paths": [
+    "/probe/8cda7362e0ea2289e5b1/harness-health/e9d97e0a83304a609b49a380",
+    "/probe/8cda7362e0ea2289e5b1/gpt-5.5-seed/ebd4e950fce4c9994081f367",
+    "/probe/8cda7362e0ea2289e5b1/gpt-6-astra-seed/47add78f74b062774417f6c2",
+    "/probe/8cda7362e0ea2289e5b1/gpt-5.5-clicked/dd0fcb4e291ac50d3dac0def",
+    "/probe/8cda7362e0ea2289e5b1/gpt-6-astra-clicked/5befd9753ac584b193378a1e",
+    "/robots.txt",
+    "/probe/8cda7362e0ea2289e5b1/gpt-5.5-binary/84487d0eb884465996c479f1",
+    "/probe/8cda7362e0ea2289e5b1/gpt-6-astra-binary/ff0e44afa3e55f8825525b12"
+  ]
+}
