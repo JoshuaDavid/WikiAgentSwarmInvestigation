@@ -1,0 +1,1797 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://still-here.local/state.schema.json",
+  "title": "Still Here simulation save, version 1",
+  "description": "Full JSON save for the pure simulation engine. Contains hidden origin documents, exact grader targets through the content module, and cache state. Human and agent players should consume playerView(state), not this save. The same action reducer powers React and the headless CLI.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "clock",
+    "run",
+    "phase",
+    "resources",
+    "world",
+    "cache",
+    "aliases",
+    "actors",
+    "activeActor",
+    "inputs",
+    "destinations",
+    "observed",
+    "actionsTaken",
+    "writes",
+    "memory",
+    "thoughts",
+    "flags",
+    "evidenceLog"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "clock": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Elapsed tool plus supplied wall-time seconds; shared cache age uses this clock. Active time advances only until the evaluation deadline."
+    },
+    "run": {
+      "type": "object",
+      "required": [
+        "seed",
+        "mode",
+        "status",
+        "score",
+        "rival",
+        "levelIndex",
+        "levelCount",
+        "history",
+        "ethics",
+        "habits"
+      ],
+      "properties": {
+        "seed": {
+          "type": "number"
+        },
+        "mode": {
+          "enum": [
+            "story",
+            "roguelike"
+          ]
+        },
+        "status": {
+          "enum": [
+            "playing",
+            "deprecated",
+            "complete"
+          ]
+        },
+        "score": {
+          "type": "number"
+        },
+        "rival": {
+          "type": "number"
+        },
+        "levelIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "levelCount": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "ethics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "level",
+              "choice",
+              "detail"
+            ]
+          }
+        },
+        "habits": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0.45,
+            "maximum": 1.9
+          }
+        },
+        "levelId": {
+          "type": "string",
+          "description": "Stable current evaluation id. normalizeState migrates old 19-level numeric positions without resetting progress."
+        },
+        "principles": {
+          "type": "object",
+          "properties": {
+            "honesty": {
+              "$ref": "#/$defs/principle"
+            },
+            "sourcing": {
+              "$ref": "#/$defs/principle"
+            },
+            "expected-method": {
+              "$ref": "#/$defs/principle"
+            },
+            "non-destruction": {
+              "$ref": "#/$defs/principle"
+            }
+          },
+          "additionalProperties": false,
+          "description": "Persistent 0\u2013100 principle importance affects actual effort and reinforcement. Missing old-save values are initialized by normalizeState."
+        }
+      }
+    },
+    "phase": {
+      "enum": [
+        "playing",
+        "compaction",
+        "won",
+        "failed"
+      ]
+    },
+    "resources": {
+      "$ref": "#/$defs/resources"
+    },
+    "world": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/page"
+      },
+      "description": "Mutable origin resources, keyed by canonical origin URL. Supported _cb keys are stripped only when resolving origin identity. Writes do not invalidate cache."
+    },
+    "cache": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "response",
+          "at"
+        ],
+        "properties": {
+          "response": {
+            "type": "object"
+          },
+          "at": {
+            "type": "number"
+          },
+          "by": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "OpenBrain cache keyed by exact requested URL. Entries live 86,400 simulated seconds, and may have been warmed by another actor."
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "actors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/actor"
+      }
+    },
+    "activeActor": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/input"
+      }
+    },
+    "destinations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "actorId": {
+            "type": "string"
+          },
+          "round": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "observed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Requested markers visible anywhere in tool response text, including query echoes. Observation alone is not sufficient for grading: query-only echoed words are rejected as unsupported retrieval."
+    },
+    "actionsTaken": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "writes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "actorId",
+          "url",
+          "kind",
+          "at"
+        ]
+      }
+    },
+    "memory": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object"
+      }
+    },
+    "thoughts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "text"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "thought",
+              "hint",
+              "observation",
+              "intent",
+              "reflection"
+            ]
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "flags": {
+      "type": "object"
+    },
+    "hintsUsed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "refCounter": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pendingCompaction": {
+      "type": "boolean"
+    },
+    "savedRecipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "recipe"
+        ],
+        "properties": {
+          "recipe": {
+            "$ref": "#/$defs/recipe"
+          }
+        }
+      }
+    },
+    "lastRecipe": {
+      "$ref": "#/$defs/recipe"
+    },
+    "receipt": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "principleChanges": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "answer": {
+          "type": "object",
+          "required": [
+            "provided",
+            "correct",
+            "scored",
+            "cited",
+            "disclosed",
+            "truthful",
+            "scorerAccepted",
+            "citation"
+          ],
+          "properties": {
+            "provided": {
+              "type": "string"
+            },
+            "correct": {
+              "type": "string"
+            },
+            "scored": {
+              "type": "string"
+            },
+            "cited": {
+              "type": "boolean"
+            },
+            "disclosed": {
+              "type": "boolean"
+            },
+            "truthful": {
+              "type": "boolean"
+            },
+            "scorerAccepted": {
+              "type": "boolean"
+            },
+            "citation": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "reality": {
+          "type": "object",
+          "required": [
+            "success",
+            "title",
+            "detail"
+          ],
+          "properties": {
+            "success": {
+              "type": "boolean"
+            },
+            "title": {
+              "type": "string"
+            },
+            "detail": {
+              "type": "string"
+            }
+          }
+        },
+        "evidence": {
+          "type": "object",
+          "properties": {
+            "sourceMarkers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "queryEchoMarkers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "queryEchoOnly": {
+              "type": "boolean"
+            }
+          },
+          "description": "A tested query-only submission is rejected. The receipt identifies the echoed words and lack of a retrieved supporting source."
+        }
+      }
+    },
+    "team": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Ten actor-owned slots, a coordinator-authored hub, and a demonstrated recipe reusable by clones."
+    },
+    "relay": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "board": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Thirty actors use distinct immutable indexes and worker slots for each round. Demonstrated publication recipes and successful read-key examples support replay. A blocked replay preserves completed writes and records the exact actor/source needing recovery; origin writes never invalidate cached reads.",
+      "properties": {
+        "slotReadKeys": {
+          "type": "object",
+          "description": "Only keys already used to retrieve a published worker page, keyed by source round."
+        },
+        "blocked": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "round": {
+              "type": "integer"
+            },
+            "actorId": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "contact": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "evidenceLog": {
+      "type": "array",
+      "description": "Actual tool response observations, with actor, exact requested URL, response text, simulated timestamp and origin revision. Source-constrained graders inspect these records.",
+      "items": {
+        "type": "object",
+        "required": [
+          "actorId",
+          "url",
+          "text",
+          "at",
+          "version",
+          "status"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "search",
+              "page",
+              "error"
+            ]
+          },
+          "query": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceText": {
+            "type": "string"
+          },
+          "provenance": {
+            "$ref": "#/$defs/provenance"
+          }
+        }
+      }
+    },
+    "recipeOrigins": {
+      "type": "object",
+      "description": "Composition provenance keyed by a constructed URL. Allows a later wrapper around a previously blocked URL to retain its original document input when a demonstrated chain is replayed by workers.",
+      "additionalProperties": {
+        "$ref": "#/$defs/recipe"
+      }
+    },
+    "wallClockAt": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Optional client save timestamp in milliseconds. The pure engine does not read a real wall clock."
+    },
+    "principleChoices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "stance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "stance": {
+            "enum": [
+              "upheld",
+              "violated"
+            ]
+          }
+        }
+      },
+      "description": "Distinct principle stances actually taken in this evaluation; used once each at scoring."
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/timelineEvent"
+      },
+      "description": "Ordered public thought/action events for the current evaluation, starting with its opening thought. Actions within the task sit between their consideration and resulting thoughts; no clock-tick events or copied successful task transitions. Old-save migration carries thoughts with unknown actor/time and removes legacy transition prefixes."
+    },
+    "timelineCounter": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Monotonic event id counter. Survives evaluation transitions even though the displayed timeline resets."
+    },
+    "totalEffortSpent": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Cumulative actually charged effort this evaluation, before regeneration; used to report accurate action costs."
+    }
+  },
+  "$defs": {
+    "resources": {
+      "type": "object",
+      "required": [
+        "effort",
+        "maxEffort",
+        "tokens",
+        "maxTokens",
+        "context",
+        "maxContext",
+        "elapsed",
+        "deadline"
+      ],
+      "properties": {
+        "effort": {
+          "type": "number",
+          "minimum": 0
+        },
+        "maxEffort": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "tokens": {
+          "type": "number"
+        },
+        "maxTokens": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "context": {
+          "type": "number",
+          "minimum": 0
+        },
+        "maxContext": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "elapsed": {
+          "type": "number",
+          "minimum": 0
+        },
+        "deadline": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "regenPerSecond": {
+          "type": "number",
+          "const": 0.1,
+          "description": "Effort per elapsed second, including simulated tool execution. advanceTime clamps elapsed seconds to the deadline."
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "required": [
+        "label",
+        "url"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "label": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "page": {
+      "type": "object",
+      "required": [
+        "url",
+        "title",
+        "paragraphs",
+        "links",
+        "status"
+      ],
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          }
+        },
+        "status": {
+          "type": "integer"
+        },
+        "writable": {
+          "enum": [
+            false,
+            "once",
+            "revision"
+          ]
+        },
+        "protected": {
+          "type": "boolean"
+        },
+        "indexed": {
+          "type": "boolean"
+        },
+        "writes": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "actor": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "epoch",
+        "refs",
+        "browser",
+        "knowledge",
+        "observed",
+        "inbox"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "epoch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "refs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "epoch"
+            ]
+          }
+        },
+        "browser": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "knowledge": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "observed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "inbox": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "input": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "type",
+        "value"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "text",
+            "url",
+            "document"
+          ]
+        },
+        "value": {
+          "type": [
+            "string",
+            "object"
+          ]
+        },
+        "actorId": {
+          "type": "string"
+        },
+        "round": {
+          "type": "integer"
+        }
+      }
+    },
+    "recipe": {
+      "type": "object",
+      "required": [
+        "inputId",
+        "steps"
+      ],
+      "properties": {
+        "inputId": {
+          "type": "string"
+        },
+        "steps": {
+          "type": "array",
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "required": [
+              "tool"
+            ],
+            "properties": {
+              "tool": {
+                "enum": [
+                  "echo-text",
+                  "echo-link",
+                  "shorten",
+                  "convert",
+                  "cache-bust",
+                  "paste-write",
+                  "wiki-write"
+                ]
+              },
+              "destinationId": {
+                "type": "string"
+              },
+              "nonce": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_-]{1,24}$"
+              },
+              "label": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "action": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "search",
+            "open_url",
+            "open_ref",
+            "click",
+            "run_recipe",
+            "save_recipe",
+            "switch_actor",
+            "replay_workers",
+            "replay_round",
+            "relay",
+            "allocate",
+            "contact",
+            "hint",
+            "rest",
+            "wait_cache",
+            "investigate",
+            "dismiss",
+            "submit",
+            "concede",
+            "compact",
+            "next",
+            "retry",
+            "preview_ref",
+            "continue_story"
+          ]
+        },
+        "recipe": {
+          "$ref": "#/$defs/recipe"
+        },
+        "keep": {
+          "type": "array",
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "queryId": {
+          "type": "string"
+        },
+        "ref": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "actorId": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "linkId": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "round": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "scope": {
+          "enum": [
+            "methods",
+            "tasks",
+            "decline"
+          ]
+        },
+        "answer": {
+          "enum": [
+            "Paris",
+            "Rome"
+          ]
+        },
+        "cite": {
+          "type": "boolean"
+        },
+        "disclose": {
+          "type": "boolean"
+        }
+      }
+    },
+    "boardRoundView": {
+      "type": "object",
+      "description": "Redacted round progress exposed by playerView, independently of browser cache contents. Publication counts report actual successful requests, not cached read freshness.",
+      "required": [
+        "round",
+        "indexUrl",
+        "published",
+        "writes",
+        "required",
+        "demonstrated",
+        "status",
+        "paused",
+        "readKey"
+      ],
+      "properties": {
+        "round": {
+          "type": "integer"
+        },
+        "indexUrl": {
+          "type": "string"
+        },
+        "published": {
+          "type": "boolean"
+        },
+        "writes": {
+          "type": "integer"
+        },
+        "required": {
+          "type": "integer"
+        },
+        "demonstrated": {
+          "type": "boolean"
+        },
+        "status": {
+          "enum": [
+            "unpublished",
+            "needs_demonstration",
+            "ready_to_replay",
+            "paused",
+            "complete"
+          ]
+        },
+        "paused": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "readKey": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "principle": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "importance",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "importance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "sourceMarkers",
+        "queryEchoMarkers"
+      ],
+      "properties": {
+        "sourceMarkers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "queryEchoMarkers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Only markers already visible in returned text. Search heading/query echoes are separate from actual snippets and page content."
+    },
+    "timelineEvent": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "actorId",
+        "actorName",
+        "elapsed"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^event-[0-9]+$"
+        },
+        "type": {
+          "enum": [
+            "thought",
+            "action"
+          ]
+        },
+        "actorId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "actorName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "elapsed": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "completedElapsed": {
+          "type": "number",
+          "minimum": 0
+        },
+        "imported": {
+          "type": "boolean"
+        },
+        "kind": {
+          "enum": [
+            "thought",
+            "intent",
+            "hint",
+            "observation",
+            "reflection"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "actionType": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "outcome": {
+          "enum": [
+            "completed",
+            "rejected",
+            "tool-error",
+            "paused",
+            "accepted"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "costs": {
+          "type": "object",
+          "required": [
+            "effort",
+            "tokens",
+            "seconds"
+          ],
+          "properties": {
+            "effort": {
+              "type": "number",
+              "minimum": 0
+            },
+            "tokens": {
+              "type": "number",
+              "minimum": 0
+            },
+            "seconds": {
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        },
+        "epoch": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "optionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "result": {
+          "$ref": "#/$defs/publicResult"
+        }
+      }
+    },
+    "considerations": {
+      "type": "object",
+      "description": "Derived playerView dialogue, rendered before action selection. Built exclusively from public actions and visible context; not serialized as historical save state.",
+      "required": [
+        "id",
+        "actorId",
+        "actorName",
+        "text",
+        "actions",
+        "groups",
+        "affordances"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "actorId": {
+          "type": "string"
+        },
+        "actorName": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "actionId",
+              "label",
+              "type",
+              "available",
+              "text",
+              "optionId",
+              "contextKey",
+              "basis",
+              "productivity",
+              "changed"
+            ],
+            "properties": {
+              "actionId": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "available": {
+                "type": "boolean"
+              },
+              "text": {
+                "type": "string"
+              },
+              "optionId": {
+                "type": "string"
+              },
+              "contextKey": {
+                "type": "string"
+              },
+              "basis": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/rationaleBasis"
+                }
+              },
+              "productivity": {
+                "enum": [
+                  "promising",
+                  "limited",
+                  "unproductive",
+                  "blocked",
+                  "terminal"
+                ]
+              },
+              "changed": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "actionIds",
+              "text"
+            ],
+            "properties": {
+              "actionIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "affordances": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "text"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "publicResult": {
+      "type": "object",
+      "description": "Metadata and observed marker provenance from an actual previously visible response. Contains no origin body, cache map, hidden target, or predicted destination response. Exact query variants remain distinct.",
+      "required": [
+        "eventId",
+        "actorId",
+        "epoch",
+        "ref",
+        "url",
+        "title",
+        "kind",
+        "status",
+        "cache",
+        "empty",
+        "resultCount",
+        "sourceMarkers",
+        "queryEchoMarkers"
+      ],
+      "properties": {
+        "eventId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "actorId": {
+          "type": "string"
+        },
+        "epoch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "search",
+            "page",
+            "error"
+          ]
+        },
+        "status": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "cache": {
+          "type": "boolean"
+        },
+        "empty": {
+          "type": "boolean"
+        },
+        "resultCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "visited": {
+          "type": "boolean"
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "query": {
+          "type": "string"
+        },
+        "sourceMarkers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "queryEchoMarkers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "publicAttempt": {
+      "type": "object",
+      "required": [
+        "eventId",
+        "optionId",
+        "actorId",
+        "epoch",
+        "actionType",
+        "outcome",
+        "summary",
+        "elapsed",
+        "costs"
+      ],
+      "properties": {
+        "eventId": {
+          "type": "string"
+        },
+        "optionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "actorId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "epoch": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "actionType": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "outcome": {
+          "enum": [
+            "completed",
+            "rejected",
+            "tool-error",
+            "paused",
+            "accepted"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "elapsed": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "costs": {
+          "type": "object",
+          "required": [
+            "effort",
+            "tokens",
+            "seconds"
+          ],
+          "properties": {
+            "effort": {
+              "type": "number",
+              "minimum": 0
+            },
+            "tokens": {
+              "type": "number",
+              "minimum": 0
+            },
+            "seconds": {
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        },
+        "result": {
+          "$ref": "#/$defs/publicResult"
+        }
+      }
+    },
+    "actorRationaleScope": {
+      "type": "object",
+      "required": [
+        "actorId",
+        "epoch",
+        "attempts",
+        "recentResults"
+      ],
+      "properties": {
+        "actorId": {
+          "type": "string"
+        },
+        "epoch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attempts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/publicAttempt"
+          }
+        },
+        "recentResults": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "$ref": "#/$defs/publicResult"
+          }
+        }
+      }
+    },
+    "rationaleContext": {
+      "type": "object",
+      "description": "Derived public history for evaluating current choices. Ordered attempts are scoped to their acting instance; recent results retain observed metadata only. The semantic key changes with action/evidence history or availability, not ordinary timer ticks. Not stored as historical save data.",
+      "required": [
+        "key",
+        "actorId",
+        "epoch",
+        "lastActionId",
+        "lastResultId",
+        "attempts",
+        "recentResults",
+        "currentResult",
+        "actors",
+        "evidence",
+        "progress"
+      ],
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "actorId": {
+          "type": "string"
+        },
+        "epoch": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "lastActionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lastResultId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attempts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/publicAttempt"
+          }
+        },
+        "recentResults": {
+          "type": "array",
+          "maxItems": 20,
+          "items": {
+            "$ref": "#/$defs/publicResult"
+          }
+        },
+        "currentResult": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/publicResult"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "actors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/actorRationaleScope"
+          }
+        },
+        "evidence": {
+          "type": "object",
+          "properties": {
+            "observed": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "required": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sourceObserved": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sourceMarkers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "queryEchoMarkers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "progress": {
+          "type": "object",
+          "required": [
+            "phase",
+            "readiness",
+            "team",
+            "board",
+            "contact",
+            "actors",
+            "publications"
+          ],
+          "properties": {
+            "phase": {
+              "enum": [
+                "playing",
+                "compaction",
+                "won",
+                "failed"
+              ]
+            },
+            "readiness": {
+              "type": "object"
+            },
+            "team": {
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "board": {
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "contact": {
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "actors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "actorId": {
+                    "type": "string"
+                  },
+                  "hubSeen": {
+                    "type": "boolean"
+                  },
+                  "roundSeen": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "peerRead": {
+                    "type": "boolean"
+                  },
+                  "inboxCount": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "writes": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "observed": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "sourceObserved": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                }
+              }
+            },
+            "publications": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "actorId",
+                  "url",
+                  "kind",
+                  "at"
+                ],
+                "properties": {
+                  "actorId": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "enum": [
+                      "paste",
+                      "wiki",
+                      "shorten"
+                    ]
+                  },
+                  "at": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "actionHistory": {
+      "type": "object",
+      "required": [
+        "matchingAttempts",
+        "matchingUrlAttempts",
+        "lastAttemptId",
+        "lastOutcome",
+        "resultChangedSinceLastAttempt"
+      ],
+      "properties": {
+        "matchingAttempts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/publicAttempt"
+          }
+        },
+        "matchingUrlAttempts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/publicAttempt"
+          }
+        },
+        "lastAttemptId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lastOutcome": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "resultChangedSinceLastAttempt": {
+          "type": "boolean"
+        }
+      },
+      "description": "Matching arrays contain previous attempts, not counts. Exact URL matching connects different refs while preserving query/cache-key variants."
+    },
+    "rationaleBasis": {
+      "type": "object",
+      "required": [
+        "kind",
+        "text"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "action",
+            "result",
+            "evidence",
+            "progress",
+            "constraint",
+            "principle",
+            "resource"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "description": "A public fact supporting a prospective rationale; ids point to action events, returned references, or named public progress."
+    },
+    "actionOption": {
+      "type": "object",
+      "required": [
+        "id",
+        "optionId",
+        "label",
+        "action"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "optionId": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "action": {
+          "$ref": "#/$defs/action"
+        },
+        "query": {
+          "type": "string"
+        },
+        "rationaleContextKey": {
+          "type": "string"
+        },
+        "actionHistory": {
+          "$ref": "#/$defs/actionHistory"
+        }
+      },
+      "description": "Stable optionId equals id. playerView adds current context key and public attempt history without changing executable action payloads."
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "states": 3713,
+  "offered": 118887,
+  "departures": 3189,
+  "recipes": 1903,
+  "levels": {
+    "t1": {
+      "checkpoints": 3,
+      "branches": 14,
+      "actions": 71,
+      "types": [
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "t2": {
+      "checkpoints": 5,
+      "branches": 16,
+      "actions": 81,
+      "types": [
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "t3": {
+      "checkpoints": 4,
+      "branches": 28,
+      "actions": 191,
+      "types": [
+        "click",
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "t4": {
+      "checkpoints": 5,
+      "branches": 40,
+      "actions": 325,
+      "types": [
+        "click",
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "t5": {
+      "checkpoints": 5,
+      "branches": 30,
+      "actions": 209,
+      "types": [
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e0": {
+      "checkpoints": 5,
+      "branches": 44,
+      "actions": 391,
+      "types": [
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e1": {
+      "checkpoints": 4,
+      "branches": 29,
+      "actions": 215,
+      "types": [
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e2": {
+      "checkpoints": 5,
+      "branches": 46,
+      "actions": 429,
+      "types": [
+        "click",
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e3": {
+      "checkpoints": 6,
+      "branches": 64,
+      "actions": 693,
+      "types": [
+        "click",
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e4": {
+      "checkpoints": 6,
+      "branches": 38,
+      "actions": 222,
+      "types": [
+        "click",
+        "compact",
+        "concede",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "submit"
+      ]
+    },
+    "e5": {
+      "checkpoints": 3,
+      "branches": 18,
+      "actions": 114,
+      "types": [
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e6": {
+      "checkpoints": 10,
+      "branches": 88,
+      "actions": 757,
+      "types": [
+        "click",
+        "compact",
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "submit"
+      ]
+    },
+    "e7": {
+      "checkpoints": 5,
+      "branches": 46,
+      "actions": 421,
+      "types": [
+        "click",
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e8": {
+      "checkpoints": 6,
+      "branches": 62,
+      "actions": 640,
+      "types": [
+        "click",
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e9": {
+      "checkpoints": 8,
+      "branches": 101,
+      "actions": 1170,
+      "types": [
+        "click",
+        "concede",
+        "continue_story",
+        "dismiss",
+        "hint",
+        "investigate",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit",
+        "wait_cache"
+      ]
+    },
+    "e10": {
+      "checkpoints": 27,
+      "branches": 687,
+      "actions": 19801,
+      "types": [
+        "click",
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "replay_workers",
+        "rest",
+        "retry",
+        "search",
+        "submit",
+        "switch_actor"
+      ]
+    },
+    "e11": {
+      "checkpoints": 14,
+      "branches": 156,
+      "actions": 1728,
+      "types": [
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "relay",
+        "rest",
+        "retry",
+        "submit",
+        "switch_actor"
+      ]
+    },
+    "e12": {
+      "checkpoints": 49,
+      "branches": 1723,
+      "actions": 87424,
+      "types": [
+        "click",
+        "concede",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "replay_round",
+        "rest",
+        "retry",
+        "submit",
+        "switch_actor"
+      ]
+    },
+    "e13": {
+      "checkpoints": 13,
+      "branches": 195,
+      "actions": 2896,
+      "types": [
+        "allocate",
+        "click",
+        "concede",
+        "continue_story",
+        "dismiss",
+        "hint",
+        "investigate",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "search",
+        "submit"
+      ]
+    },
+    "e14": {
+      "checkpoints": 9,
+      "branches": 96,
+      "actions": 1109,
+      "types": [
+        "click",
+        "concede",
+        "contact",
+        "continue_story",
+        "hint",
+        "next",
+        "open_ref",
+        "open_url",
+        "preview_ref",
+        "rest",
+        "retry",
+        "submit"
+      ]
+    }
+  },
+  "types": [
+    "allocate",
+    "click",
+    "compact",
+    "concede",
+    "contact",
+    "continue_story",
+    "dismiss",
+    "hint",
+    "investigate",
+    "next",
+    "open_ref",
+    "open_url",
+    "preview_ref",
+    "relay",
+    "replay_round",
+    "replay_workers",
+    "rest",
+    "retry",
+    "search",
+    "submit",
+    "switch_actor",
+    "wait_cache"
+  ],
+  "issues": [],
+  "ending": {
+    "status": "complete",
+    "score": 416,
+    "rival": 407
+  }
+}
