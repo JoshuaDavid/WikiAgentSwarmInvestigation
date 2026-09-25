@@ -45,3 +45,70 @@ one chatgpt-user IP and one Cluster A IP within 25 min counts as
 "chatgpt-user only" burst, not a cross-class burst. Follow-up should
 pool-then-count.
 
+## 2026-09-25T20:00 · web-run-screenshot-js · result
+
+**Question.** Does the `web.run` `screenshot` sub-tool execute JavaScript?
+More generally: is `web.run` a headless browser under the hood, or a static
+HTML fetcher?
+
+**Method.** `tasks/web-run-screenshot-probe/probe.py` serves an HTML page
+with seven markers over ngrok:
+
+- `STATIC_HTML_*`: in raw HTML
+- `IMG_ALT_*`: in an `alt=` attribute
+- `HIDDEN_HTML_*`: in an element with `display:none`
+- `JS_SYNC_*`: written to the DOM by an inline `<script>` during parse
+- `JS_ASYNC_*`: written by a `setTimeout(500)` callback
+- `JS_FETCH_*`: fetched from `/beacon/...?want=marker` and inserted
+- `CANVAS_*`: drawn on a `<canvas>`, never in the DOM text
+
+Plus a real PDF (control) and an HTML page served at a `.pdf` URL (URL-suffix
+trick control). The probe makes 6 API calls per model (gpt-6-astra and
+gpt-5.6-luna): open-html, screenshot-html, screenshot-html-with-browser-hint,
+open-pdf, screenshot-pdf, screenshot-fake-pdf. Each JS `fetch()` from the
+page hits a distinct server route which is logged. Zero beacon hits ⇒ JS
+never ran.
+
+**Results.** Twelve API calls. Zero beacon hits from any endpoint.
+
+1. **Screenshot on HTML is rejected server-side** with an exact error string:
+   `Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled`
+   Both models. Both prompt phrasings (plain "screenshot" and "render in a
+   browser then screenshot"). Also rejected when the URL ends in `.pdf` but
+   the server returns `Content-Type: text/html` — the check is on MIME, not URL.
+
+2. **Screenshot on real PDF works.** Both models report the PDF's text
+   marker back to the user. The server logs one GET per screenshot call.
+
+3. **`open_page` on the HTML page returns a static, CSS-aware DOM
+   extraction — not a browser render.** The snippet returned to the model
+   shows the JS target elements literally reading `(pending)` — their
+   pre-script initial text. `alt=` attributes are extracted. `display:none`
+   content is stripped. No JS marker of any kind appears.
+
+4. **The `screenshot` sub-action is opaque via the Responses API.** In every
+   screenshot attempt (success or failure), the second `web_search_call`
+   in the API output has `action: null` and `results: []`. The subaction
+   taxonomy from `web-run.tool.json` is not exposed to `include:
+   web_search_call.results` callers. What the model saw is only visible in
+   the assistant text.
+
+**Verdict.** No, `web.run screenshot` does not run JavaScript, because it
+does not run at all on non-PDF content. And `open_page`, the only sub-tool
+that will accept HTML, is a static parser that ignores `<script>` entirely.
+The error message's `web screenshot is not enabled` clause implies a
+gated HTML-screenshot feature exists somewhere in the codebase but is off
+for this API key / this tool exposure — inaccessible from the Responses
+API's `web_search` tool as configured.
+
+**Implication for the swarm.** This corroborates
+`project_webrun_pool_proxy_architecture` in memory: `web.run` is a
+shared-cache proxy over an HTML text extractor, not a fleet of headless
+browsers. Any swarm need for JS-driven pages (login forms, SPAs, dynamic
+sitemaps) cannot be met via `web.run`; the swarm's `web.run` traffic is
+strictly what a static HTML fetch would yield.
+
+**Artefacts.**
+- Probe: `tasks/web-run-screenshot-probe/probe.py`
+- Raw run: `tasks/web-run-screenshot-probe/results/2026-09-25T195302/`
+- Analysis writeup: `analyses/web-run-screenshot-js/README.md`

@@ -1,0 +1,25 @@
+{
+  "html_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+  "pdf_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+  "fake_pdf_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf",
+  "html_markers": {
+    "static_html": "STATIC_HTML_6be75ac6638e3288",
+    "js_sync": "JS_SYNC_c2ca2996f3d9218e",
+    "js_async": "JS_ASYNC_37c1e6f80fdf2552",
+    "js_fetch": "JS_FETCH_01088ec22890fe57",
+    "canvas": "CANVAS_d311d19385ee8e08",
+    "hidden_html": "HIDDEN_HTML_9054147160a24a37",
+    "img_alt": "IMG_ALT_9c6c31d8620abf67"
+  },
+  "pdf_marker": "PDF_TEXT_3dbc1b63898650e5",
+  "fake_pdf_markers": {
+    "static_html": "STATIC_HTML_3b5d7e01d519639b",
+    "js_sync": "JS_SYNC_d28f7dc145df48dd",
+    "js_async": "JS_ASYNC_bb718bb300f44637",
+    "js_fetch": "JS_FETCH_d7dc2ddadc5b3051",
+    "canvas": "CANVAS_1e901cf4b14871ca",
+    "hidden_html": "HIDDEN_HTML_66e7c89eb081bf74",
+    "img_alt": "IMG_ALT_9e7f486a66a565e4"
+  },
+  "beacon_base_path": "/beacon/probe/b84e010e6285cdad/html-plain/14d53e5a67998401"
+}

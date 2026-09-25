@@ -1,0 +1,165 @@
+{
+  "label": "html-screenshot-gpt-5.6-luna",
+  "started_utc": "2026-09-25T19:53:52.212175+00:00",
+  "started_monotonic": 2061142.691418142,
+  "http_status": 200,
+  "request_id": "req_817baa4b8fa84918b49687a38a885f9d",
+  "response": {
+    "id": "resp_08d59b3db88227d5006ab6d150737887d1bb82387c382427d7",
+    "object": "response",
+    "created_at": 1790366032,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790366039,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Execute exactly what the user asks. If you take a screenshot, describe every visible text element word-for-word in your final answer. Do not summarise; enumerate. If the tool returns an error, quote it verbatim.",
+    "max_output_tokens": 4000,
+    "max_tool_calls": 5,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_08d59b3db88227d5006ab6d1512d1887d1b541f1065e170241",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqttFXCU9K3T2CBXLQsEv55z10rtO4BGeL49aHpUh4L0R0L4L1jaf6IwX5QGRaRDrozmuJ7Aj-BsjPI-8mGHRayDzDLMD1x9RI5ZuaYeZOxFoJo1XpopqLTxK5_ROpSFQXD9intq_VqQUgl-7cQk_W7MIvMW6eZt1_yk2t1JRBdrnyPzY7L15eM1ZHm3aSd0l7M6HrF6BT4M5JqOD8DP6j8kzSlgk5jJcuuUb9lnsVhKMfcme8H4uZbSiYk_Zj0bUW2Tn_ZkhX_wsIZ74jggz7aRDkBqcExf3h96LkODSTXRXIt3R93ljSlUinv0FcNvgG31Dk-rpRyukB8sw4UVMrSbggw1x_ZCwfGsVgPWNvK-U5p-DyY5Zg0y3mtAj2V2StpXnbW4TEG6DEgrG_qQ0Z_ag1C89fNI-4OogG93PcF0N8vwc_oDsEFVJyjGeYLndnsm-fy_Lwc1AFe6nN5_3--rNnIuyV4phaUhuYJpHZfv9UyBvUJxY2DW7j5RBMYeO_6vu-38Y6bFtT6AA88wTJ03Hw-2XFQHf7n0e_SJe0f8lCfQySyTALfqZaLmazVEpc9GSJyBSdSIQjIXJVnKT7WbOkhsFc6h314Gk9BmubKTil_JLc3Pt6059p2EoadKQVTIXBOzimt4V2FHJRSjx_kcgr8qJILMJPKlHGTqjYULvnph2CdFCp8cUFjnNBoiU64KIoSGzNvGz3yRwjs8-qd0rcCVMAmocyZ8zKwW-geLZ3VZVYHwGePo4qZeGPi7MPo-CdvgluWTHOaTKQQqf4p8OO6ZpmbL84pY3EvVla3YFDqXTRU021vUw9hOrUdahJWiMovwMUl7pgAPQDK_VW4-KR66EeRAOeccAnLbiwIWopSXJDUccEMgoXrXFZYqbvFeqr6DjsOfJDiWi7DNXBKsnu594GQW_XdTzxhDyO6TKDimpDJUmYZx8tCvVtiwI4PUMEz49lxKzAFiet93avzJzKioIapbLQXjrZ9Ph11gzhqU4hKo62fbYqJwsO-ASnEfb39gIvoUu-iU8jrdbYAVNtriikCRs6-W3zf3wZFqoHcziFyKFI9KmsHqyNWo_nsbx7KeAJdnR_VLTFOneGoMRX23uGa9G3uRy9lFMn3AzeCv_EBVNcuKKqBSMgG6xvL3VLf7rwuKr_TKzPzC6xH_et625-K5I51umf2hX0v4dDKH9IbDaHZc-Kxwc38IO-ehOC",
+        "summary": []
+      },
+      {
+        "id": "ws_08d59b3db88227d5006ab6d1515f8487d1b6d30eeec9f23547",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pending)\nL7: \nL8: JS_ASYNC target: (pending)\nL9: \nL10: JS_FETCH target: (pending)\nL11: \nL12: CANVAS (drawn only):\n",
+            "title": "screenshot-probe STATIC_HTML_6be75ac6638e3288",
+            "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401"
+          }
+        ]
+      },
+      {
+        "id": "rs_08d59b3db88227d5006ab6d1528bbc87d1b86fd5f606d86566",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqttFXQ2g3akj54jICIJlYyid3POYsFPohcLVSe7wGLjK3MWp2YNR83Uk7MyTxiKbeCcm-47jEYl9xTW-lhuI2GeqACW1ngVBg3ZpM2NJwKP_l-vxRne7rp5Z5IzZHl79dw_tK5Hvc_5DFdjeHIyRUZDq3JlLbEXB6jfTmBeBGl5S_UOi3g6nNf2JN54kCmCbA3BvmJUvBBuKBFELWWv99AjhxC6TSclBN0SgQP6HCmgoN5bxF5wbHL8qyf_WP_x0j2nG9UeU0ILo7MwsYEi8a1OSueM1tvrw51vsX8CievdEA46s5fHVZU8si99qF72QozxaRLsjbkbGiUTR_AauHIBbfIkihaZT_72ZqyzPdP1AhurYkQ7yERls1V4icHwr3IRAN9QXRc4-Y6bJpWyEQgtR6DYmPQnlbb5dKA2_2VcTUg5sC4ngW3kju8_A-BNVxA-Kp9kwbGiWeFyQSXGdrh0VZprpfARsytoPb8JCfIXIPHJFiD31u1YFREsEScM5rlx9EJ4mw8P4QAOCmxWcSk8lZfk_wp8Wy3FPpON1xnVvnlBw4A-K-Qo24qbNYnaezV5isTDfTw77cKz4Eq2T_qikpwbOMqk7cO51R-sNWmtWVQLxKEid4aQme0jWCJUiiz2AaK2ay0k2M2tdS8aIgyytpSCmTXy-gZdhxksYda_5KoTTEi4hxxMP8RgOBJOIiXZbL0UNR66ZJ608gUR462-LKkRbjnFdle8GuELG40I3bIEwdyAq02Y7K4d_T6SdKMo44d2yfe7XFjcDDqgQW5o75xVcUWgHQpASAaErSxObUkkTmfKSxZAsxsPJt_rayl7SCYVNMa_Fr0_hgI-6sf71OHVRC6n9TudITHN9c3teYYug_YuG-jFJzxQjf6g5zXeJa3SMaL3NO5crXVk5g8ZQFXBeSr7lUWgIDk7wG4BE3rXHS-dV7oFznyxD3GRf0YVuqCIvE-N7sOxmv15VMcfQ8CWU8Lf3NbKUeElu5d9pYJvRhtRJ1yimpsQSS_D1vSZv8kVqwb228mpx-oxzhX1MTsXJOFV4z2nO3N5A9fC9f038hmdMbv459T_flQRL3b6Ij4o-G5O3XD8sVf2ESKR7-5WE6x6XSZzxucF1ZB3J6f97hKhmF8NY_DPUozzhnV2SC-A7YqlSF1lgtBjOtgU7H2J11SlKzH-BAKYiJYwekn1u2_BoveZDsbWKHe6smaTrOA4hiU63WfVg3ABDPkLc8vdFJgKyPNr8txNv7Zuyq32Cx1y_6HrBS3Styc3zenIe2tOXdevNdmPqs4ojU3gU4NLhbhLg6enxPm9pZPhL0xGjFl5aOKWI0w8Nu-eaObKhB",
+        "summary": []
+      },
+      {
+        "id": "ws_08d59b3db88227d5006ab6d152e92487d1af04d2159fe687e6",
+        "type": "web_search_call",
+        "status": "completed",
+        "results": []
+      },
+      {
+        "id": "rs_08d59b3db88227d5006ab6d1537ba887d1baa338afd43f5c05",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqttFX-s8_yKXhAz4dZ3Ck4R__aKYNEhP-InX8bsSzrYl6LPdJWQIf7IEJojT-iMTTQ8gSm_Caa_7JBin2LWl015KumSDbGeTpNS1bVBKu_A5CUr-GDJ4MudDmAWsuFfQGI_fv6acOcXNosDDA0jybSUl8EmZ124gBxsFukc-5S_bWQBBO7MgjeY1UUoYYCnHQ_RwW5h2qz22JEO24oBHXGHDsiQgIPHIC1uMAERrXQSX-MkTIhDmPLDvO02d5MhCBLyWd00fCQ6AcNyDmiJhWAszdWT3cEpKeUs_IQLnrGxmX5ooMq0IlEH2Q3md75N8NvBD1Pq1kCPJTHfD7t_Nvg_bKfBYD8lH6sE5UT2ZmmPM_4Uv_0BwHlIWwtFR-WNSqTd6p6YAl0iIdhMyMq0Ho2NisYUPYzUqkEPcLCnQJc45f_FK-cIWGXyZvsFArlyzQu65WECCKfxFlGW2sTmNPNEEquqZjiWi6REvLwQCmUnl-8od3jtzAJhf1CiETHsQrFg1ZCAAr2cpx2Faanr5RGqTu5qA0d5bumtRMRkaJpA4vW2DFhufjwxbSAM-h8TjxhdzapZn9nF7WFnpxM-R9pLJ1_mjtJW_pnAZ3PpnwGfzSvrV16QPyh0s4NJvMqLF7XLiaL2A2VlAotECBPaDnxrZQCaYbtNokLBAS_RUcE8vFwyYauH7_xHLjMVEfQWcRqHoYM6_HMr0F88y2P2rOgEHOFU_uP4SyDg6i7bAm-HVMvRny1L7o7C7fP2RGFrcbsREl_b_uODBwKFUFi_rXFMX7d56SXbsfaNZc5LKlZeAL6mGLlxcA5meMeItXOhIi5A-1XNpq5k1UbPWTp5SPSFAZRcl1jpxmrt2h83fYZq0laWA3da-eusx26MggK2komXe-84ZO7PxQYKElZyxU2h7Ty6djI9_4GXM4C_9nwtkMLhEPKnG8YOSlbr6Eeo3egbS4STyJTVO8bQp4mhtIEIBLJ_gx2jbN0VC2NeQuBqTGou0koxwMqcjy3_RQ7jaP4iSuQpAEWf5bbUB2bYFLOJrX3L3dBWsKXByBIYHJgMykZq0-6QVDxJlcr4I1tbqmi9XuTNWb6GgmgJJAsgRzpWPTiFURN5YeZ3w6PFbMXEaNsxoxn9uw2MnmPBN20I8gBmQ-8pcZL55nXxxhL8AhV59wvDzKIsey6X63m8Zra8tT-vMWfKVDuAw9uudFju0-M40uGmIhoBGYX5vwCHciKXgOB6J1G0XCUIYy65vJGxLSwEoHZDh6KeUSXkliuyTmm1F3yrCX51nIIWxnRZu5mkzLhzZ0vyl1kA76hwuLYCCNbTGqp4GKZKDX90R0dk7mYr_6Yfloc9qn17lkd6ok__0LmFyJMd5byndDbLJHK4oauW2qOH-SMpWGmSf49FfmnE8IMIFNFdrWKqeSwU0XeKRU3ZqBKsm0SzI9ynYjZdLKk6z38WUgv70Ih6-0r-LPai-WAas4D2bpkvtNmZe6vQ5jY__FeBhE1RKbnPbBAiUqjnj4ZbKrzJxFVy8csxpBtf0xpudV3vE_rlXOoLGFHgWwlLph0vmhQQ0qzbQFungSUiVJ3f5_AYknDLX011owjUP00uGtCbq3QeCRZWx0l5Scigg38z5eANI39MvTjSOcENWkOeqXk414GRxvar7ybtV5OLuyK5cc6wFc4QYC4H-Zv0O1EOTerB6SzY17HCd7b4cF6HQZtVntDReZAuh5XB-FqGd0odkIPvWY6d0VdAE8AL0UROzPNBGvpsq6Io-vqwxyGtUhA62zPKAN2gAvj5v_CbuDLndukGMjRch1bMf7-0lCqTgx34KVpvP1R89WXnN2gRVTEvzxna_mb8KQw9R24u8tCS-hElnnhzedRzoXw8VP-IOIVr2IrMzQfuNW1F0ZL8WqyCVJBtyhgHfXPTcwk1cOKSViA0jvv-HPV4_etdm_mTqCffTwO_kHdvLYHsOj5YmX6BfyYoxiQaERlcRpfrvNcKYDLF2pM_owLyZmdJOa_z7OihDI3idc2_29A3mL0OywsPYWbHicVsBIA1WhWJ-wd3Iyj1HdQ1elJ187YWz7nJKv8ZtlCq49hAHbTvxR785MfI6-AqiWHQLuMdRndM-t7ZAXazaB6yiW4LS-koeD9EerrFVoF4WrUOHPrAaoSiakt-u4hUpDGV-bwbNrgWmnYbtcMrxcMCJLV1vkI2S5pqf2739BH1S_6WO9GBOkj-84vvdokBHIGtguk-xnmVt5RWyIv5GfmLHrhOWRUqTFEv17SmkW0dgSeaN_CtzBIEGbvAbDml5PV67Bh4ZEb2YGBivGv3p2Dn0XTIMl9hkhXJ1knmQJFpd5Jb7alIAZXQ_58nNrlX884gWq-nic",
+        "summary": []
+      },
+      {
+        "id": "msg_08d59b3db88227d5006ab6d1557d4c87d19c8fb335a0ff1b08",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Screenshot failed with the following error:\n\n> Internal Error ()  \n> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled\n\nVisible text elements:\n\nSTATIC_HTML_6be75ac6638e3288  \nJS_SYNC target: (pending)  \nJS_ASYNC target: (pending)  \nJS_FETCH target: (pending)  \nCANVAS (drawn only):  \nIMG_ALT_9c6c31d8620abf67  \n\nSTATIC_HTML: STATIC_HTML_6be75ac6638e3288  \nJS_SYNC: JS_SYNC target: (pending)  \nJS_ASYNC: JS_ASYNC target: (pending)  \nJS_FETCH: JS_FETCH target: (pending)  \nCANVAS: CANVAS (drawn only):  \nHIDDEN_HTML: ABSENT: HIDDEN_HTML  \nIMG_ALT: IMG_ALT_9c6c31d8620abf67  \nFETCHED_MARKER: ABSENT: FETCHED_MARKER"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5097,
+      "input_tokens_details": {
+        "cache_write_tokens": 105,
+        "cached_tokens": 4419
+      },
+      "output_tokens": 512,
+      "output_tokens_details": {
+        "reasoning_tokens": 306
+      },
+      "total_tokens": 5609
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-25T19:53:59.544224+00:00",
+  "ended_monotonic": 2061150.02512077,
+  "elapsed_s": 7.334
+}

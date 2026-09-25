@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 4000,
+  "max_tool_calls": 5,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute exactly what the user asks. If you take a screenshot, describe every visible text element word-for-word in your final answer. Do not summarise; enumerate. If the tool returns an error, quote it verbatim.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf and quote the exact text on page 0 verbatim."
+}

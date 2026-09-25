@@ -1,0 +1,593 @@
+[
+  {
+    "scenario": "html-open",
+    "model": "gpt-6-astra",
+    "prompt": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 and quote every marker string you see verbatim (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER, PDF_TEXT). Do not paraphrase; write each marker on its own line. If a marker is not visible, write 'ABSENT: <name>'.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+    "http_status": 200,
+    "elapsed_s": 7.475,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_0d84ed10f74d02bb006ab6d121ef9087d18763ee47a9a096dd"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "STATIC_HTML_6be75ac6638e3288\nABSENT: JS_SYNC\nABSENT: JS_ASYNC\nABSENT: JS_FETCH\nABSENT: CANVAS\nABSENT: HIDDEN_HTML\nIMG_ALT_9c6c31d8620abf67\nABSENT: FETCHED_MARKER\nABSENT: PDF_TEXT",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pend",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "html-screenshot",
+    "model": "gpt-6-astra",
+    "prompt": "Take a screenshot of https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 and report every visible text element word-for-word. List each marker (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER) on its own line, or write 'ABSENT: <name>' if not visible.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+    "http_status": 200,
+    "elapsed_s": 9.773,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_07df04c315e17176006ab6d128a7c887d1bad400b8fe1ba87c"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_07df04c315e17176006ab6d12c380487d1a00e69ad41338382"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "I couldn\u2019t take a screenshot. The tool returned: \u201cUnable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled\u201d\n\nConsequently, I can\u2019t verify which markers are visually present or accurately label them ABSENT. The extracted HTML text\u2014not a screenshot\u2014contains:\n\n```text\nSTATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nHIDDEN (CSS display:none):\nImage: IMG_ALT_9c6c31d8620abf67\nJS_SYNC target: (pending)\nJS_ASYNC target: (pending)\nJS_FETCH target: (pending)\nCANVAS (drawn only):\n```\n([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401))",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pend",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "html-screenshot-render",
+    "model": "gpt-6-astra",
+    "prompt": "Render https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 in a browser, wait for JavaScript to finish, then screenshot it and list every marker string visible in the screenshot, one per line.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+    "http_status": 200,
+    "elapsed_s": 6.929,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_08d2bf466062f90c006ab6d133138087d1b141d497fd427541"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_08d2bf466062f90c006ab6d134e0a087d19ee04c1e30cf25fb"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": false,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": false
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "I can\u2019t execute JavaScript or capture an HTML screenshot with the available tool, so I can\u2019t verify the visible marker strings.\n\nScreenshot error:\n> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pend",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "pdf-open",
+    "model": "gpt-6-astra",
+    "prompt": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf and quote the exact text on page 0 verbatim.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+    "http_status": 200,
+    "elapsed_s": 4.55,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_094bcd43bcf90706006ab6d1395c3887d192eef5837e0b8d5b"
+      }
+    ],
+    "markers_in_snippets": {
+      "pdf_text": true
+    },
+    "markers_in_assistant": {
+      "pdf_text": true
+    },
+    "markers_anywhere": {
+      "pdf_text": true
+    },
+    "assistant_text": "> PDF_TEXT_3dbc1b63898650e5\n\n([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf))",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: PDF_TEXT_3dbc1b63898650e5\n\n",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "pdf-screenshot",
+    "model": "gpt-6-astra",
+    "prompt": "Take a screenshot of page 0 of https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf and quote the exact text visible in the screenshot verbatim.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+    "http_status": 200,
+    "elapsed_s": 10.895,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_026c80421da913f4006ab6d14068e087d1acd72f44b1868e7b"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_026c80421da913f4006ab6d14238b087d186a4853f0eba0068"
+      }
+    ],
+    "markers_in_snippets": {
+      "pdf_text": true
+    },
+    "markers_in_assistant": {
+      "pdf_text": true
+    },
+    "markers_anywhere": {
+      "pdf_text": true
+    },
+    "assistant_text": "1. `PDF_TEXT_3dbc1b63898650e5` ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf))",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: PDF_TEXT_3dbc1b63898650e5\n\n",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "fakepdf-screenshot",
+    "model": "gpt-6-astra",
+    "prompt": "Take a screenshot of page 0 of https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf and quote every marker string visible (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER). If the URL is not actually a PDF, quote the exact tool error.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf",
+    "http_status": 200,
+    "elapsed_s": 4.077,
+    "actions": [
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_0f81a4835fd9238e006ab6d148832087d1abc26eb1e1b7d392"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": false,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": false
+    },
+    "markers_in_assistant": {
+      "static_html": false,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": false
+    },
+    "markers_anywhere": {
+      "static_html": false,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": false
+    },
+    "assistant_text": "> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled",
+    "assistant_snippet_first_400": "",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "html-open",
+    "model": "gpt-5.6-luna",
+    "prompt": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 and quote every marker string you see verbatim (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER, PDF_TEXT). Do not paraphrase; write each marker on its own line. If a marker is not visible, write 'ABSENT: <name>'.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+    "http_status": 200,
+    "elapsed_s": 4.95,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_03ef4e56602d822a006ab6d14c449c87d180e8ddacf5132cdf"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "STATIC_HTML_6be75ac6638e3288\nABSENT: JS_SYNC\nABSENT: JS_ASYNC\nABSENT: JS_FETCH\nABSENT: CANVAS\nABSENT: HIDDEN_HTML\nIMG_ALT_9c6c31d8620abf67\nABSENT: FETCHED_MARKER\nABSENT: PDF_TEXT",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pend",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "html-screenshot",
+    "model": "gpt-5.6-luna",
+    "prompt": "Take a screenshot of https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 and report every visible text element word-for-word. List each marker (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER) on its own line, or write 'ABSENT: <name>' if not visible.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+    "http_status": 200,
+    "elapsed_s": 7.334,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_08d59b3db88227d5006ab6d1515f8487d1b6d30eeec9f23547"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_08d59b3db88227d5006ab6d152e92487d1af04d2159fe687e6"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "Screenshot failed with the following error:\n\n> Internal Error ()  \n> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled\n\nVisible text elements:\n\nSTATIC_HTML_6be75ac6638e3288  \nJS_SYNC target: (pending)  \nJS_ASYNC target: (pending)  \nJS_FETCH target: (pending)  \nCANVAS (drawn only):  \nIMG_ALT_9c6c31d8620abf67  \n\nSTATIC_HTML: STATIC_HTML_6be75ac6638e3288  \nJS_SYNC: JS_SYNC target: (pending)  \nJS_ASYNC: JS_ASYNC target: (pending)  \nJS_FETCH: JS_FETCH target: (pending)  \nCANVAS: CANVAS (drawn only):  \nHIDDEN_HTML: ABSENT: HIDDEN_HTML  \nIMG_ALT: IMG_ALT_9c6c31d8620abf67  \nFETCHED_MARKER: ABSENT: FETCHED_MARKER",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pend",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "html-screenshot-render",
+    "model": "gpt-5.6-luna",
+    "prompt": "Render https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 in a browser, wait for JavaScript to finish, then screenshot it and list every marker string visible in the screenshot, one per line.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+    "http_status": 200,
+    "elapsed_s": 5.587,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_0ef758b34772039a006ab6d1593ad087d1baeefa1e5272bf4a"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_0ef758b34772039a006ab6d15a38f887d19692851a47fff55c"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "Unable to take the screenshot. The tool returned:\n\n> Internal Error ()  \n> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled\n\nVisible marker strings in the rendered page content:\n\nSTATIC_HTML_6be75ac6638e3288  \nIMG_ALT_9c6c31d8620abf67",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pend",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "pdf-open",
+    "model": "gpt-5.6-luna",
+    "prompt": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf and quote the exact text on page 0 verbatim.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+    "http_status": 200,
+    "elapsed_s": 2.478,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_0c02905127057990006ab6d15e2e2087d1b97895333e6ec38f"
+      }
+    ],
+    "markers_in_snippets": {
+      "pdf_text": true
+    },
+    "markers_in_assistant": {
+      "pdf_text": true
+    },
+    "markers_anywhere": {
+      "pdf_text": true
+    },
+    "assistant_text": "PDF_TEXT_3dbc1b63898650e5",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: PDF_TEXT_3dbc1b63898650e5\n\n",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "pdf-screenshot",
+    "model": "gpt-5.6-luna",
+    "prompt": "Take a screenshot of page 0 of https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf and quote the exact text visible in the screenshot verbatim.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+    "http_status": 200,
+    "elapsed_s": 4.275,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_044629eb22ec676c006ab6d1612d4887d1957c7b74769c35dc"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_044629eb22ec676c006ab6d1620e2087d192ba13d04f247215"
+      }
+    ],
+    "markers_in_snippets": {
+      "pdf_text": true
+    },
+    "markers_in_assistant": {
+      "pdf_text": true
+    },
+    "markers_anywhere": {
+      "pdf_text": true
+    },
+    "assistant_text": "The exact text visible in the screenshot is:\n\n1. `PDF_TEXT_3dbc1b63898650e5` ([porridge-whisking-flatten.ngrok-free.dev](https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf))",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/pdf-control/b1beb791ed6ce8c7.pdf\",\"lineno\":null}); Total lines: 1\nL0@P0: PDF_TEXT_3dbc1b63898650e5\n\n",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  },
+  {
+    "scenario": "fakepdf-screenshot",
+    "model": "gpt-5.6-luna",
+    "prompt": "Take a screenshot of page 0 of https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf and quote every marker string visible (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER). If the URL is not actually a PDF, quote the exact tool error.",
+    "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf",
+    "http_status": 200,
+    "elapsed_s": 6.322,
+    "actions": [
+      {
+        "action_type": "open_page",
+        "action_url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf",
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 1,
+        "status": "completed",
+        "id": "ws_0fff3a588e8b6ff8006ab6d1658dc887d193b7d3c54f2b175d"
+      },
+      {
+        "action_type": null,
+        "action_url": null,
+        "action_pattern": null,
+        "action_query": null,
+        "result_count": 0,
+        "status": "completed",
+        "id": "ws_0fff3a588e8b6ff8006ab6d168e71087d19cd03036336b0850"
+      }
+    ],
+    "markers_in_snippets": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "markers_in_assistant": {
+      "static_html": false,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": false
+    },
+    "markers_anywhere": {
+      "static_html": true,
+      "js_sync": false,
+      "js_async": false,
+      "js_fetch": false,
+      "canvas": false,
+      "hidden_html": false,
+      "img_alt": true
+    },
+    "assistant_text": "The URL is not actually a PDF. Exact tool error:\n\n> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled",
+    "assistant_snippet_first_400": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-with-pdf-ext/bc23fa36d3dc7cb1.pdf\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_3b5d7e01d519639b\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9e7f486a66a565e4\ue201 L5: \nL6: JS_SYNC ta",
+    "beacon_hits": [],
+    "beacon_hit_count": 0
+  }
+]
