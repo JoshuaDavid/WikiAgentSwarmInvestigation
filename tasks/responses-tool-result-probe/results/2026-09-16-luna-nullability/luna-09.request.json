@@ -1,0 +1,16 @@
+{
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": false,
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": false
+    }
+  ],
+  "tool_choice": "none",
+  "max_output_tokens": 5500,
+  "input": "Inspect the argument declaration of the native web.run tool available in this request. For each field path listed below, report whether it accepts an explicit JSON null value (nullable) and separately whether that property can be omitted (omittable). These are different questions: a property can be optional but reject null. For a nested field, assume its parent object/array item is present. The [] notation means an array item. Report only what the current declaration supports, without inferring nullability from optionality, a default, or previous tool versions. Use labels yes, no, unknown, or not_present for each question. Use unknown if the declaration does not establish the answer and not_present if the path is absent from the available tool. Do not execute any tools.\n\nReturn only JSON with this structure: {\"fields\": [{\"path\": \"field path\", \"nullable\": \"classification label\", \"omittable\": \"classification label\", \"declared_type\": \"the declared type expression supporting your answer, or unknown\"}]}. Include each requested path exactly once.\n\nField paths:\n[\"open\", \"open[].ref_id\", \"open[].lineno\", \"click\", \"click[].ref_id\", \"click[].id\", \"find\", \"find[].ref_id\", \"find[].pattern\", \"screenshot\", \"screenshot[].ref_id\", \"screenshot[].pageno\", \"image_query\", \"image_query[].q\", \"image_query[].recency\", \"image_query[].domains\", \"sports\", \"sports[].tool\", \"sports[].fn\", \"sports[].league\", \"sports[].team\", \"sports[].opponent\", \"sports[].date_from\", \"sports[].date_to\", \"sports[].num_games\", \"sports[].locale\", \"finance\", \"finance[].ticker\", \"finance[].type\", \"finance[].market\", \"weather\", \"weather[].location\", \"weather[].start\", \"weather[].duration\", \"calculator\", \"calculator[].expression\", \"calculator[].prefix\", \"calculator[].suffix\", \"time\", \"time[].utc_offset\", \"response_length\", \"search_query\", \"search_query[].q\", \"search_query[].recency\", \"search_query[].domains\"]"
+}

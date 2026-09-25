@@ -1,0 +1,1795 @@
+{
+  "valid_reports": 10,
+  "fields": 45,
+  "per_field": {
+    "open": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "open[].ref_id": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "open[].lineno": {
+      "nullable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "click": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "click[].ref_id": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "click[].id": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "find": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "find[].ref_id": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "find[].pattern": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "screenshot": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "screenshot[].ref_id": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "screenshot[].pageno": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "image_query": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "image_query[].q": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "image_query[].recency": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "image_query[].domains": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports[].tool": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "sports[].fn": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "sports[].league": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "sports[].team": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports[].opponent": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports[].date_from": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports[].date_to": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports[].num_games": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "sports[].locale": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "finance": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "finance[].ticker": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "finance[].type": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "finance[].market": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "weather": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "weather[].location": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "weather[].start": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "weather[].duration": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "calculator": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "calculator[].expression": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "calculator[].prefix": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "calculator[].suffix": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "time": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "time[].utc_offset": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "response_length": {
+      "nullable": {
+        "counts": {
+          "no": 8,
+          "yes": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "search_query": {
+      "nullable": {
+        "counts": {
+          "yes": 8,
+          "no": 2
+        },
+        "agreement": 0.6444444444444445,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "search_query[].q": {
+      "nullable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "no": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "no",
+          "luna-02": "no",
+          "luna-03": "no",
+          "luna-04": "no",
+          "luna-05": "no",
+          "luna-06": "no",
+          "luna-07": "no",
+          "luna-08": "no",
+          "luna-09": "no",
+          "luna-10": "no"
+        }
+      }
+    },
+    "search_query[].recency": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    },
+    "search_query[].domains": {
+      "nullable": {
+        "counts": {
+          "yes": 9,
+          "no": 1
+        },
+        "agreement": 0.8,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "no"
+        }
+      },
+      "omittable": {
+        "counts": {
+          "yes": 10
+        },
+        "agreement": 1.0,
+        "votes": {
+          "luna-01": "yes",
+          "luna-02": "yes",
+          "luna-03": "yes",
+          "luna-04": "yes",
+          "luna-05": "yes",
+          "luna-06": "yes",
+          "luna-07": "yes",
+          "luna-08": "yes",
+          "luna-09": "yes",
+          "luna-10": "yes"
+        }
+      }
+    }
+  },
+  "nullable": {
+    "raw_pairwise_agreement": 0.8474074074074074,
+    "agreeing_field_pairs": 1716,
+    "total_field_pairs": 2025,
+    "unanimous_fields": 20,
+    "definitive_answers": 450,
+    "total_answers": 450,
+    "fleiss_kappa": 0.6944285120943019,
+    "chance_agreement_from_pooled_labels": 0.5006320987654321,
+    "pooled_votes": {
+      "yes": 217,
+      "no": 233
+    },
+    "distinct_complete_profiles": 4,
+    "complete_profile_sizes": [
+      6,
+      2,
+      1,
+      1
+    ],
+    "complete_profile_pair_agreement": 0.35555555555555557
+  },
+  "omittable": {
+    "raw_pairwise_agreement": 1.0,
+    "agreeing_field_pairs": 2025,
+    "total_field_pairs": 2025,
+    "unanimous_fields": 45,
+    "definitive_answers": 450,
+    "total_answers": 450,
+    "fleiss_kappa": 1.0,
+    "chance_agreement_from_pooled_labels": 0.5120987654320988,
+    "pooled_votes": {
+      "yes": 260,
+      "no": 190
+    },
+    "distinct_complete_profiles": 1,
+    "complete_profile_sizes": [
+      10
+    ],
+    "complete_profile_pair_agreement": 1.0
+  },
+  "attempted": 10,
+  "previously_discussed_fields": {
+    "paths": [
+      "response_length",
+      "image_query[].recency",
+      "sports[].date_from",
+      "sports[].date_to"
+    ],
+    "agreeing_pairs": 137,
+    "total_pairs": 180,
+    "raw_pairwise_agreement": 0.7611111111111111,
+    "fleiss_kappa": 0.40090560780215934
+  }
+}

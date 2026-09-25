@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-09-17T00:22:22.232874+00:00",
+  "model": "gpt-6-astra",
+  "marker": "REPLACED_HEADING_684efdbb5cd359b924e53471",
+  "tool_identity": "web-run",
+  "native_web_enabled": false,
+  "parameter_groups": [
+    "open",
+    "click",
+    "find",
+    "screenshot",
+    "image_query",
+    "sports",
+    "finance",
+    "weather",
+    "calculator",
+    "time",
+    "response_length",
+    "search_query"
+  ],
+  "search_call": {
+    "id": "fc_09b908f3e585e3ba016aab32b7f5e087d1a617af1d31429fbc",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"search_query\":[{\"q\":\"IANA example domains\"}],\"response_length\":\"short\"}",
+    "call_id": "call_pzkJGJPVYSOnglqtlQ4Lnom4",
+    "name": "web-run"
+  },
+  "open_call": {
+    "id": "fc_09b908f3e585e3ba016aab32b9dfe887d19198fe7ea8efca39",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+    "call_id": "call_QCwngN8GexdoEoYzK5G3hswh",
+    "name": "web-run"
+  },
+  "search": {
+    "http_status": 200,
+    "request_id": "req_ddd30e9208724cd3b01cabf600dde6fb",
+    "elapsed_s": 3.076,
+    "response_id": "resp_09b908f3e585e3ba016aab32b5f46487d1b9730e440e27c0e4",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 2921,
+      "input_tokens_details": {
+        "cache_write_tokens": 2918,
+        "cached_tokens": 0
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2952
+    }
+  },
+  "open": {
+    "http_status": 200,
+    "request_id": "req_7f2a06c5965a4767801ebe4a1e588fad",
+    "elapsed_s": 1.663,
+    "response_id": "resp_09b908f3e585e3ba016aab32b8d64087d18c93afab84efef44",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 3009,
+      "input_tokens_details": {
+        "cache_write_tokens": 88,
+        "cached_tokens": 2918
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3040
+    }
+  },
+  "branches": {
+    "03-replacement": {
+      "http_status": 200,
+      "request_id": "req_b4231e06564045a19830466712097597",
+      "elapsed_s": 1.995,
+      "response_id": "resp_09b908f3e585e3ba016aab32ba838087d1b88f0c584da4f6e5",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "REPLACED_HEADING_684efdbb5cd359b924e53471",
+      "error": null,
+      "usage": {
+        "input_tokens": 3131,
+        "input_tokens_details": {
+          "cache_write_tokens": 122,
+          "cached_tokens": 3006
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3153
+      },
+      "unexpected_calls": []
+    },
+    "04-cache-miss": {
+      "http_status": 200,
+      "request_id": "req_4cbf9d6100fc474493870b6962cab2d3",
+      "elapsed_s": 1.946,
+      "response_id": "resp_09b908f3e585e3ba016aab32bc85a087d1a3c9fa73317e19be",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "CACHE_MISS",
+      "error": null,
+      "usage": {
+        "input_tokens": 3061,
+        "input_tokens_details": {
+          "cache_write_tokens": 52,
+          "cached_tokens": 3006
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3068
+      },
+      "unexpected_calls": []
+    }
+  },
+  "replacement_observed": true,
+  "cache_miss_observed": true,
+  "all_completed": true,
+  "no_unexpected_calls": true
+}

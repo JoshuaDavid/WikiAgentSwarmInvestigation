@@ -1,0 +1,117 @@
+{
+  "id": "resp_0c8a5ec1b3d150f1016aab226040e487d1b2064cabf3e87307",
+  "object": "response",
+  "created_at": 1789600352,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600361,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0c8a5ec1b3d150f1016aab2260ee3887d1838f3edac1e0b39f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJqEUXlt4G7yNm4UDPoQLtpxuucMvxS1XmvXjZAxuRLwbqDtupa4dNyXMKWj0X37kWKoU1cCgFaz7Ud4ZI1QYK3Sxkcy1uB1wPeEZi9ZQyUpysWKMYzEVG8Z3SMP1TnDx1SmALVdUUiHDNK922TcjxQRoVvrG1kIZP7h4jyEqqfpmhgPT4EMeJp64o6UtPhir7jJXADyJf_i0KmNxCbB8Kbl42EJZWKuKMishIBfVC3oVKAR5vsVzEcFSbfjh-z7dqEys92T4O2m9lB-zHD2knfG_BG5LA5JIQWepw10kiuZHkn9VOe0ZAST7BbazMRzbXgSZEpN2dRvjOoDczaraqodpOvzZ4DM_LRYOA8-agm50JSoMAwrOjTdYAOkOAyH7ZnK294zsLbfBxK1mP9mJRmdzx6ukf5oDbf0nMnrWzVZZI0xNWVfz2JEZXGO3mPZ3m1_RanjfRsWGoh-NZz26Ld7im0R53DTdkEsQ9PrrON6aHGwIIGJzoB3nkqZAw11qwtkEGH-LB4Rj9k1ol2vK4mTQOrhO04bU-8X0JspfbPrh4J8MiJTkJuqpiA4QjoVJUR3Ta74kXI8ZaE0ARawBZuhu13ob_6L87LPAuGp8elICsXdy6j60qGgACG-XefWDwenuGHwLhWVyfUPgJmxXM8dEqALUBCpOV-eKIJ1s3ium6eIciZtkdEhAxuhL0KG4E_BlloJ-NmnlPaGdha53TbiC-Dyca1Fe-RT1ldh-kg77pN4PPEnIi6DJU6wTORK80DDtEivjQ4bpVB4j6522qvujoswWMo9FOrXbNZx1qba8HxyhTr-UfGYrweJHW6VQw9sO_NjQKDz5mI4zFyXwz9iik88EJbLEmNK16QHZaf3qFlMf9zmVVIAjaRyqZ_8KLifMC6-HZo0gdaPB2NY442t-3Rw5bkwv7Amwaw_TDDgblVg62gcZ1nyfvSScKtlL2WeCSYnIBY1AYi-Dc9YBWaJHlCsl6USgHOKBsqYt61169WjDQtADtvm2ks6C4_gdtmQ9HXqrcr-Tt0fTZwtSGLc1x1jVDiUxcYAcY9Rs3YUnuGJV-CQm2DmQc_Q2fJXiZS2G7tYrjAEtUhSrkupHKwmnUQfL42Uh6NCa5JGp58X1jrrPtFYhpQfRcLEN-de6OuSICOFGEsjh74lOcveCg_aiqhk5mwCsX9_pdER4LkBj1n80DGMm4PB9OFQm702-docur3v7N9Mpl-0OQCrdyFQM-Wlw7RB9sMPk5812WNn8Wwe1TCghawKBhmIw76IxA-Al1dYZe4MPNhEM47raoQQoXGjmAnY0g0wx-ldw5qpi0QDh2dsaZUeMT7ckHtnUo3mCQlQ7S8tQOPp1-H9qaRUIKf-7U_DGgsMK-lO_RsoEFJUblE45LxMoV5QVvzyji7EJK5dp9jMdur_5vX_E04pDMa2w-sJBVhowrMhnkC28Br55gdJJTh4A89qGm94z5SpF5mUy4EqvhC5x3jxzDZjusl-OsWhFoXh-Y8U1_jegjKnzIj00jionDamEOq2F6DzPpzzJ9kMc9TqVvVQ8fEFI3G7an9Ejwj_r6sNtOiZu_NqXQvtp_BQdBm_DLPMw1blghc_vvkI6vqw2cJ8mtRRUymLeFffyyZlFqA5Vk5_qwh3Pn0kJtDunAwpSKmfiqcQ9FcfSZ3uGl0ONjcvA30NLS2UE-7vj8_mYVd5JwObtQub7xsN7ThaJUxNRhhuzWQ39NMhZq9dgAZbkCaUD936VCLO59MWxUyXwm7MKau9LW55TeEXv7hoDeMJQ4wbFDzrOcdI_CnQXORQxrVrWSDJ7-xFItJUWWF93TNw-vUbdAAsPfXZVITF52vdBg4KZACaQB5dwqnjb33c62da00XeQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_0c8a5ec1b3d150f1016aab2262667087d19f3c257bdaf0b94e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<OpenToolInvocation>\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<ClickToolInvocation>\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<FindToolInvocation>\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<ScreenshotToolInvocationV1>\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery>\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"integer\"},{\"path\":\"image_query[].domains\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string[]\"},{\"path\":\"sports\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<SportsToolInvocationV1>\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"sports[].opponent\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"sports[].date_from\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"sports[].date_to\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"sports[].num_games\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"integer\"},{\"path\":\"sports[].locale\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"finance\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<StockToolInvocationV1>\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"weather\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<WeatherToolInvocationV1>\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string\"},{\"path\":\"weather[].duration\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"integer\"},{\"path\":\"calculator\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<CalculatorToolInvocation>\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<TimeToolInvocation>\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\"\"},{\"path\":\"search_query\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery>\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"integer\"},{\"path\":\"search_query[].domains\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"string[]\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4743
+    },
+    "output_tokens": 1255,
+    "output_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "total_tokens": 6138
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,3097 @@
+{
+  "sample-01": {
+    "open": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "open[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "open[].lineno": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "click": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "click[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "click[].id": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "find[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find[].pattern": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "screenshot[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot[].pageno": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "image_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "image_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    },
+    "sports": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "sports[].tool": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "sports"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].fn": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "schedule",
+        "standings"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].league": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "epl",
+        "ipl",
+        "mlb",
+        "nba",
+        "ncaamb",
+        "ncaawb",
+        "nfl",
+        "nhl",
+        "wnba"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].team": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].opponent": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].date_from": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].date_to": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].num_games": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": 20,
+      "constraints": {}
+    },
+    "sports[].locale": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "finance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "finance[].ticker": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].type": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "crypto",
+        "equity",
+        "fund",
+        "index"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].market": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "weather[].location": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "weather[].start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather[].duration": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "calculator": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "calculator[].expression": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].prefix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].suffix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "time": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "time[].utc_offset": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "response_length": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "default": "medium",
+      "constraints": {}
+    },
+    "search_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "search_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "search_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    "search_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    }
+  },
+  "sample-02": {
+    "open": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "open[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "open[].lineno": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "click": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "click[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "click[].id": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "find[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find[].pattern": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "screenshot[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot[].pageno": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "image_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "image_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    },
+    "sports": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "sports[].tool": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "sports"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].fn": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "schedule",
+        "standings"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].league": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "epl",
+        "ipl",
+        "mlb",
+        "nba",
+        "ncaamb",
+        "ncaawb",
+        "nfl",
+        "nhl",
+        "wnba"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].team": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].opponent": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].date_from": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].date_to": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].num_games": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": 20,
+      "constraints": {}
+    },
+    "sports[].locale": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "finance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "finance[].ticker": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].type": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "crypto",
+        "equity",
+        "fund",
+        "index"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].market": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "weather[].location": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "weather[].start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather[].duration": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "calculator": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "calculator[].expression": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].prefix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].suffix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "time": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "time[].utc_offset": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "response_length": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": [
+        "long",
+        "medium",
+        "short",
+        null
+      ],
+      "default": "medium",
+      "constraints": {}
+    },
+    "search_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "search_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "search_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    "search_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    }
+  },
+  "sample-03": {
+    "open": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "open[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "open[].lineno": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "click": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "click[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "click[].id": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "find[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find[].pattern": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "screenshot[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot[].pageno": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "image_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "image_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    },
+    "sports": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "sports[].tool": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "sports"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].fn": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "schedule",
+        "standings"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].league": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "epl",
+        "ipl",
+        "mlb",
+        "nba",
+        "ncaamb",
+        "ncaawb",
+        "nfl",
+        "nhl",
+        "wnba"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].team": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].opponent": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].date_from": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].date_to": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].num_games": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": 20,
+      "constraints": {}
+    },
+    "sports[].locale": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "finance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "finance[].ticker": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].type": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "crypto",
+        "equity",
+        "fund",
+        "index"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].market": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "weather[].location": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "weather[].start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather[].duration": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "calculator": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "calculator[].expression": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].prefix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].suffix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "time": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "time[].utc_offset": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "response_length": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "default": "medium",
+      "constraints": {}
+    },
+    "search_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "search_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "search_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    "search_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    }
+  },
+  "sample-04": {
+    "open": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "open[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "open[].lineno": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "click": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "click[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "click[].id": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "find[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find[].pattern": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "screenshot[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot[].pageno": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "image_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    "image_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    },
+    "sports": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "sports[].tool": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "sports"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].fn": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "schedule",
+        "standings"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].league": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "epl",
+        "ipl",
+        "mlb",
+        "nba",
+        "ncaamb",
+        "ncaawb",
+        "nfl",
+        "nhl",
+        "wnba"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].team": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].opponent": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].date_from": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].date_to": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].num_games": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": 20,
+      "constraints": {}
+    },
+    "sports[].locale": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "finance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "finance[].ticker": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].type": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "crypto",
+        "equity",
+        "fund",
+        "index"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].market": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "weather[].location": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "weather[].start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather[].duration": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "calculator": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "calculator[].expression": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].prefix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].suffix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "time": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "time[].utc_offset": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "response_length": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "default": "medium",
+      "constraints": {}
+    },
+    "search_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "search_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "search_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    "search_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    }
+  },
+  "sample-05": {
+    "open": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "open[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "open[].lineno": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "click": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "click[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "click[].id": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "find[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "find[].pattern": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "screenshot[].ref_id": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "screenshot[].pageno": {
+      "type": [
+        "integer"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "image_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "image_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "image_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    },
+    "sports": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "sports[].tool": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "sports"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].fn": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "schedule",
+        "standings"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].league": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "epl",
+        "ipl",
+        "mlb",
+        "nba",
+        "ncaamb",
+        "ncaawb",
+        "nfl",
+        "nhl",
+        "wnba"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "sports[].team": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].opponent": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "sports[].date_from": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].date_to": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "format": "date"
+      }
+    },
+    "sports[].num_games": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": 20,
+      "constraints": {}
+    },
+    "sports[].locale": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "finance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "finance[].ticker": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].type": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": [
+        "crypto",
+        "equity",
+        "fund",
+        "index"
+      ],
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "finance[].market": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "weather[].location": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "weather[].start": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "weather[].duration": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {}
+    },
+    "calculator": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "calculator[].expression": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].prefix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "calculator[].suffix": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "time": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "time[].utc_offset": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "response_length": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "default": "medium",
+      "constraints": {}
+    },
+    "search_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "object"
+      ]
+    },
+    "search_query[].q": {
+      "type": [
+        "string"
+      ],
+      "required": true,
+      "enum": {
+        "not_reported": true
+      },
+      "default": {
+        "not_reported": true
+      },
+      "constraints": {}
+    },
+    "search_query[].recency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    "search_query[].domains": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "required": false,
+      "enum": {
+        "not_reported": true
+      },
+      "default": null,
+      "constraints": {},
+      "item_type": [
+        "string"
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "resp_022202d8bc1e9066016aab2253361487d1bbcb1db28ceee866",
+  "object": "response",
+  "created_at": 1789600339,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600351,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_022202d8bc1e9066016aab2254975087d1b352efc03eeeb92e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJfzihRjH-IJHRD5V-HTmvttndZR0gEmh7ZUo5qpiwgP2Q5h0cAcaMV7UURhwN1kFyFxumooI_LJds0vp-PwLRNQRxcPBkoczrVOYIvb0NT4LNLICUbbx1nt8RJtMJT65f5L1ixu_PL8luMWZUusPnEuelIiRgqzCSH_2OSYC6lqkTEAdAydWKtnptFP5aRYc20AAnUlJ41Y52npeb_anKT4b1n38nGUuhaalduKDYh8DLfr0JQw2vlyH4SYd82kGYx8zy5zEV7XdRSRiAa2WUfY28FPjl9cx_IW4yIV0-TVcQ8e_I853VknXJoATcyVbH7Ak99VKu3Z3DYgC21MyPMB66Jo8aa2fuVEerT8T_FK_BtxUjJ2BpwsWOYdUUl44uktrHrIT54YeP8PGhYXvLzBTASJpqUVXS9_6nA7hGCw7f03-3VLkqjNC7jvLqbzPlyhtraIPn3gc2LcM2IpD88eQQzXdaCMMEU-I6XPaGSNNuJMsyDyMwKtDPDfZ2mclsvc7YMxKBi04iV-QgfUnHgaNS0QjkUoW3ezEB-mMEPRfNkCGR9oQtTRC3gzuxwRVg4l5p6gqR935DM9uTwLJWjMYfMhCVdLD9f79jJCN7YyEh0-3SDsy4GsoLdDK60BPy0BHsuRz-Lk2_hJBBWA-a7dPEJSe6v7vDqvjgozoVR_oCjYSyDzwNk4rtCe-UJVK3oOCLyXqBImf-e7tbzARPlSD5uFAvkTkPE8gpuqFkA2L05zQhwHJZD0rVXhSU6HAthRCpjn7vXLpzbGQGuUNJEa3qX-4xBu9uORjvIXy6sy_sBB2fzNeyed-38AQq9ZKh0EpNvPMDatn5BYVkxe7NyD5FYZP81vUTir1BUiE6jwI4cCLDZnLarDqwDV6FEC4--ICscFd_x0PEf96S7oEouKGPWe_eT_tJc6WCM9j4MR2ytgqYUhcF99VtDU7aHlWR9CGk3Vk7vLOIZIBOqzt8iw-xIeUoIOSdxJuTLRaydVnQZPy_WSeStNimJcgdlcjqvWZ2b0sH5kQaTtKbdJVS8ELND-I3vDV6Rx6gknGLv3m-0k0aWpiM6x7hyxzcdQci7ocfEKsTe5mW_UxPjFiyV9wNb9Yj3aX0zelwxTegd8gBBM8-GijvHO4pKmIuoUYUwK7kJ89eBr8jAhhJfOe12l5huAB_W6qhdes8t34shLgmw0Pt9m8dql74uITsxf8RI4usAxM6JS6Z9r00DLZNBifYKN9Z9MHyx2rsMVVJ8pqfDaMb8AlxfVCyn_y_nI68vk8rUkgNbrYw73nBrk_DUfZXkiI-cWdXy6tZLcZjm5dyWQ9_JIi0rfNE2ellP4pt7Eea7AeHhpOXAXuw0ustBduqRSGgsXdqNMDC0LaZvXUlhMm7hCoUwTyThVV0MFEDI652Gf6DGMTgg2s-1xhdHh_yEwUXaUdre8N2JYKyQnY8FG7_zdY44YGYpSoeJ2WeVehoUZx3KoyTGt8VRReiwf34eKSo17ovQFQWyi8O0YkG0BTLvyop9YrNZbyPL3yhRXT_9vlhKNYGNeHJfE5XITpIT4QrA_hhJ2xoNRjdWTTx-7uLjUAWHwRUB3dzmuTbgbs1RqXmko_ropI3T99Cn-XPF5iHkyP4iPv6ZmBEdJXDz3TxBhad7ydtuvx5BeYXciekDOYEmaQoZwG0g1QKSbQ7oCl9pQXa5nhK8enDssDEdWjwAA0wRsD2s0W-ZSvm-Oo8z-H5nx4rh15tqgFfVJv49FrCkVklUOribloOIFkyCoGtGmf9HzCzmkQ5Ztqtp_RB6A7pEu_bWbpncfs9IWI9W6pTJT8l6_gmbySGJaTxPmc4d-KZWHDUo5bXuAepRJMrnCW87t4zQJcTr1TsU1JEzhIukF5851dNoWvyDb-0zSpA2LC_Z4F6qrC5ay5MihGyY6ngNb7GBseNU0_Y5tgms_Oy_A28kBbVVjEeJypiDGyBPakRSD1c-8fQULdcXl67fqJ4TF6pUNGXwAF-drJMwUivVF1KeOmITikZ0aRrAJeTmcgrtwWNigYu7o08Bug5F3On1O9A7B7CZTfQTZ8sdGfgEwKsL9P3pOyBLB3qLD4tTtQa2kIsGjlo7J6ygn61iYVXl4NcGcV7rbOEgHl57tCNaeQKJxrovI-DikEWzehLQMiQkKpi2Ut0FuhY5noDXv7paBdJagKaI3Rqorw6pzLPyPKNn3s11Qpu13MNaq7wUKvLemuZNrMjOZuG8jwoaVfK1upj2kB-Zm_SbLG0nA8i04LDmDJhZAHMFgY948BLIjxub4vKUnNV9U1R2TlYu4T6uV88bKQWVixjiO6L86JKoK_sSrbCWdJ_vWt2IcXXU-VXtxaadtwu1WtBhE3HFFNmZw5c1VHSekLbvk3yqnDFCULG4q7J37ZhPvGlBIofo9wkSRF0O6nOt6emtJOBV1n2C8yn8GSSXBkPEy7CBspQvoQfQrG88hKlI9f6Vt25u-283GL5C1jNjdGIBSfjAtkuc1PXHxaOya8Zxzn248Kkiu2dm5NdETqSw4s07k5y8DdmimqukDD4IyysxHT25C-kTUbJUFmnwoI_Epn_Nwb69R1Pv7wZqMqqZE9Cw6faWpmGFNNY8WWB2PHK58nVeG7k7Fc4F3AmCrflMvmnuUbJ90unniXCOReeV8oqu6UOXgBXCTtvA1ppLgOB50uODQvWQ1vSxPTAphAhiSaWOntL-1izORhfdf0xVDFiE8FzqZRrZAYGOTD08sMuMF9aRJMt-lvGxOfEs8XHDI6UPnT7YtV7mfeFsGmBY9WStIVg9NOJEW5oahMknxhDMqZmn81dl5NTA3Ej342_pkk4yeGxzXabEnT5JfWqPCJM4g1MMVPWJpkalFx15f-lLYMe2j6lVjkKg-upNdnY9JB-5z8cs-cVG9ak1HPCGDFdm4z9UtCVLwEsSmRVQoNb98QvwxjryCz2DMTN7YqWQ5Q==",
+      "summary": []
+    },
+    {
+      "id": "msg_022202d8bc1e9066016aab225823c487d18a15aeb5179ba478",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<OpenToolInvocation> | null\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ClickToolInvocation> | null\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<FindToolInvocation> | null\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ScreenshotToolInvocationV1> | null\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"image_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"},{\"path\":\"sports\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SportsToolInvocationV1> | null\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].opponent\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_from\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_to\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].num_games\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"sports[].locale\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"finance\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<StockToolInvocationV1> | null\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<WeatherToolInvocationV1> | null\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather[].duration\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"calculator\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<CalculatorToolInvocation> | null\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<TimeToolInvocation> | null\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\"\"},{\"path\":\"search_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"search_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 4743,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1486,
+    "output_tokens_details": {
+      "reasoning_tokens": 296
+    },
+    "total_tokens": 6369
+  },
+  "user": null,
+  "metadata": {}
+}

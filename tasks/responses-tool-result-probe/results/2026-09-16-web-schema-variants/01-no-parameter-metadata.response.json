@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Invalid Value: 'tools'. Function 'web.run' is reserved for use by this model and must match the configured schema.",
+    "type": "invalid_request_error",
+    "param": "tools",
+    "code": null
+  }
+}

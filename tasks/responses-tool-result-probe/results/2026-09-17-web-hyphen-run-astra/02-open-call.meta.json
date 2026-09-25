@@ -1,0 +1,22 @@
+{
+  "http_status": 200,
+  "request_id": "req_7f2a06c5965a4767801ebe4a1e588fad",
+  "elapsed_s": 1.663,
+  "response_id": "resp_09b908f3e585e3ba016aab32b8d64087d18c93afab84efef44",
+  "status": "completed",
+  "model": "gpt-6-astra",
+  "text": "",
+  "error": null,
+  "usage": {
+    "input_tokens": 3009,
+    "input_tokens_details": {
+      "cache_write_tokens": 88,
+      "cached_tokens": 2918
+    },
+    "output_tokens": 31,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3040
+  }
+}

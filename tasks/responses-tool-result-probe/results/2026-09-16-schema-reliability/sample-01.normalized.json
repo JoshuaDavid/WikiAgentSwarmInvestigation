@@ -1,0 +1,360 @@
+{
+  "type": "object",
+  "properties": {
+    "open": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "type": "string"
+          },
+          "lineno": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "ref_id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "click": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "ref_id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "find": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "type": "string"
+          },
+          "pattern": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "pattern",
+          "ref_id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "screenshot": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "type": "string"
+          },
+          "pageno": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "pageno",
+          "ref_id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "image_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "q": {
+            "type": "string"
+          },
+          "recency": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "domains": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "q"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "sports": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "tool": {
+            "type": "string",
+            "enum": [
+              "sports"
+            ]
+          },
+          "fn": {
+            "type": "string",
+            "enum": [
+              "schedule",
+              "standings"
+            ]
+          },
+          "league": {
+            "type": "string",
+            "enum": [
+              "epl",
+              "ipl",
+              "mlb",
+              "nba",
+              "ncaamb",
+              "ncaawb",
+              "nfl",
+              "nhl",
+              "wnba"
+            ]
+          },
+          "team": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "opponent": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "date_from": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "date_to": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "num_games": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "locale": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "fn",
+          "league",
+          "tool"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "finance": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "crypto",
+              "equity",
+              "fund",
+              "index"
+            ]
+          },
+          "market": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "ticker",
+          "type"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "weather": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string"
+          },
+          "start": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "duration": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "location"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "calculator": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string"
+          },
+          "prefix": {
+            "type": "string"
+          },
+          "suffix": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expression",
+          "prefix",
+          "suffix"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "time": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "utc_offset": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "utc_offset"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "response_length": {
+      "type": "string",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ]
+    },
+    "search_query": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "q": {
+            "type": "string"
+          },
+          "recency": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "domains": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "q"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [],
+  "additionalProperties": true
+}

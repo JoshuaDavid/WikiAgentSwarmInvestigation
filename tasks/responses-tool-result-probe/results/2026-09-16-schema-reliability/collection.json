@@ -1,0 +1,152 @@
+[
+  {
+    "label": "sample-01",
+    "valid": true,
+    "field_names": [
+      "open",
+      "click",
+      "find",
+      "screenshot",
+      "image_query",
+      "sports",
+      "finance",
+      "weather",
+      "calculator",
+      "time",
+      "response_length",
+      "search_query"
+    ],
+    "usage": {
+      "input_tokens": 4553,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4413
+      },
+      "output_tokens": 1940,
+      "output_tokens_details": {
+        "reasoning_tokens": 32
+      },
+      "total_tokens": 6493
+    }
+  },
+  {
+    "label": "sample-02",
+    "valid": true,
+    "field_names": [
+      "open",
+      "click",
+      "find",
+      "screenshot",
+      "image_query",
+      "sports",
+      "finance",
+      "weather",
+      "calculator",
+      "time",
+      "response_length",
+      "search_query"
+    ],
+    "usage": {
+      "input_tokens": 4553,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4413
+      },
+      "output_tokens": 2102,
+      "output_tokens_details": {
+        "reasoning_tokens": 23
+      },
+      "total_tokens": 6655
+    }
+  },
+  {
+    "label": "sample-03",
+    "valid": true,
+    "field_names": [
+      "open",
+      "click",
+      "find",
+      "screenshot",
+      "image_query",
+      "sports",
+      "finance",
+      "weather",
+      "calculator",
+      "time",
+      "response_length",
+      "search_query"
+    ],
+    "usage": {
+      "input_tokens": 4553,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4413
+      },
+      "output_tokens": 1997,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 6550
+    }
+  },
+  {
+    "label": "sample-04",
+    "valid": true,
+    "field_names": [
+      "open",
+      "click",
+      "find",
+      "screenshot",
+      "image_query",
+      "sports",
+      "finance",
+      "weather",
+      "calculator",
+      "time",
+      "response_length",
+      "search_query"
+    ],
+    "usage": {
+      "input_tokens": 4553,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4413
+      },
+      "output_tokens": 2110,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 6663
+    }
+  },
+  {
+    "label": "sample-05",
+    "valid": true,
+    "field_names": [
+      "open",
+      "click",
+      "find",
+      "screenshot",
+      "image_query",
+      "sports",
+      "finance",
+      "weather",
+      "calculator",
+      "time",
+      "response_length",
+      "search_query"
+    ],
+    "usage": {
+      "input_tokens": 4553,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4413
+      },
+      "output_tokens": 2126,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 6679
+    }
+  }
+]

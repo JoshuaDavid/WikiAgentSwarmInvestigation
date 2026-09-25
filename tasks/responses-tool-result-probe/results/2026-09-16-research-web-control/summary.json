@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-16T22:33:00.224264+00:00",
+  "model": "gpt-6-astra",
+  "marker": "REPLACED_HEADING_66dc909b9aa478e2131d2766",
+  "tool_identity": "research_web.run",
+  "native_web_enabled": false,
+  "parameter_groups": [
+    "click",
+    "finance",
+    "find",
+    "image_query",
+    "open",
+    "response_length",
+    "screenshot",
+    "search_query",
+    "sports",
+    "time",
+    "weather"
+  ],
+  "search_call": {
+    "id": "fc_0a9f3e7b4c3038dc016aab1914d8e087d1b0741ef904a1c665",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"search_query\":[{\"q\":\"IANA example domains\"}],\"response_length\":\"short\"}",
+    "call_id": "call_ktKjr1uovZk8mNMvWB7j6lx2",
+    "name": "run",
+    "namespace": "research_web"
+  },
+  "open_call": {
+    "id": "fc_0a9f3e7b4c3038dc016aab1917226887d191f533ec8cb3bd25",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+    "call_id": "call_hnKX7Hk6DcujdkpK5N7SCJKT",
+    "name": "run",
+    "namespace": "research_web"
+  },
+  "search": {
+    "http_status": 200,
+    "request_id": "req_6eb388db69694018a7370cc95202dadd",
+    "elapsed_s": 2.453,
+    "response_id": "resp_0a9f3e7b4c3038dc016aab191374ac87d192d13f7616222ead",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 2546,
+      "input_tokens_details": {
+        "cache_write_tokens": 2543,
+        "cached_tokens": 0
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2577
+    }
+  },
+  "open": {
+    "http_status": 200,
+    "request_id": "req_588c0923f2b240d39322847260b3566a",
+    "elapsed_s": 2.095,
+    "response_id": "resp_0a9f3e7b4c3038dc016aab1915dd8087d19a58518038dd7d86",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 2634,
+      "input_tokens_details": {
+        "cache_write_tokens": 88,
+        "cached_tokens": 2543
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2665
+    }
+  },
+  "branches": {
+    "03-replacement": {
+      "http_status": 200,
+      "request_id": "req_a9486cf80d894d55b08d4c7f66c4b6f0",
+      "elapsed_s": 2.112,
+      "response_id": "resp_0a9f3e7b4c3038dc016aab1917dd9487d1a57282203dccf91d",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "REPLACED_HEADING_66dc909b9aa478e2131d2766",
+      "error": null,
+      "usage": {
+        "input_tokens": 2757,
+        "input_tokens_details": {
+          "cache_write_tokens": 123,
+          "cached_tokens": 2631
+        },
+        "output_tokens": 23,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2780
+      },
+      "unexpected_calls": []
+    },
+    "04-cache-miss": {
+      "http_status": 200,
+      "request_id": "req_52b1a3b59bd94f49ae5025342f3c32bb",
+      "elapsed_s": 2.398,
+      "response_id": "resp_0a9f3e7b4c3038dc016aab191a03e887d1a2299df6d8b55965",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "CACHE_MISS",
+      "error": null,
+      "usage": {
+        "input_tokens": 2686,
+        "input_tokens_details": {
+          "cache_write_tokens": 52,
+          "cached_tokens": 2631
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2693
+      },
+      "unexpected_calls": []
+    }
+  },
+  "replacement_observed": true,
+  "cache_miss_observed": true,
+  "all_completed": true,
+  "no_unexpected_calls": true
+}

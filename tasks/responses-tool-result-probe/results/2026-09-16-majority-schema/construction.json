@@ -1,0 +1,236 @@
+{
+  "base": "tasks/responses-tool-result-probe/results/2026-09-16-native-schema-text/candidate-parameters.json",
+  "votes": "tasks/responses-tool-result-probe/results/2026-09-16-luna-nullability/agreement.json",
+  "fields": 45,
+  "decisions": {
+    "open": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "open[].ref_id": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "open[].lineno": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "click": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "click[].ref_id": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "click[].id": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "find": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "find[].ref_id": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "find[].pattern": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "screenshot": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "screenshot[].ref_id": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "screenshot[].pageno": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "image_query": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "image_query[].q": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "image_query[].recency": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "image_query[].domains": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports[].tool": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "sports[].fn": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "sports[].league": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "sports[].team": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports[].opponent": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports[].date_from": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports[].date_to": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports[].num_games": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "sports[].locale": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "finance": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "finance[].ticker": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "finance[].type": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "finance[].market": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "weather": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "weather[].location": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "weather[].start": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "weather[].duration": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "calculator": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "calculator[].expression": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "calculator[].prefix": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "calculator[].suffix": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "time": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "time[].utc_offset": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "response_length": {
+      "nullable": false,
+      "omittable": true,
+      "changed": false
+    },
+    "search_query": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "search_query[].q": {
+      "nullable": false,
+      "omittable": false,
+      "changed": false
+    },
+    "search_query[].recency": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    },
+    "search_query[].domains": {
+      "nullable": true,
+      "omittable": true,
+      "changed": false
+    }
+  },
+  "changed_fields": [],
+  "identical_to_base": true,
+  "schema_sha256": "4f66e920df9e16688b1aa668eb69b4ee019bc3eaf8d84c7a999da15eb1da38a2",
+  "unpolled_details": "Non-null types, constraints, defaults, descriptions, and representation retained from the full-schema base"
+}

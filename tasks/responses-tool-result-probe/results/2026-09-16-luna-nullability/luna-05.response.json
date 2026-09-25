@@ -1,0 +1,117 @@
+{
+  "id": "resp_00a6d375f0ea5a3b016aab22535de087d1a7e78bc01255186a",
+  "object": "response",
+  "created_at": 1789600339,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600351,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_00a6d375f0ea5a3b016aab225493e087d188ab6a2044f39892",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJfAnuzHiVA20s6jY3iL3_kQzt5oGeE4OBGc8tKf7nmYRVoSnTivdubf4sDaGz4vGRd5s3m3Ka6DmlEuKijwKVyT1mdqRydnD4o59XM0PYZ25YAHW0TcoIoLKNDRYbf-Qd8KD-ncYRD0otNIPEnhUvOoy18kYdVaNlGkYuJ3zeSZoQdy7u0wK_VdVk086SVDg-aFvvAO8lTXpbrcwqhk3dQlNCvnZkJra-3A_CBZ2D_0bmvE9cIkMxjQPL-7UUIU3X0Mx9bc4eR1j0KvtSx5KgPL3OpxG92x3nbvmhzm5DCLQXSyKX6NC7AKt9VQ9SfrIUbk21NOXZ2q0uHPQxwDzKy_d7OW5lLE4ULCeviN1IeoNvoW1EPnOXQ5nufFAC0mt66SxIJ_ucoZtjO_tiYwnjxwyOtUIxe0E_YgLX2UT0vhMv8AcN1ppqQscMANfBRCs-Gn8YwB18XS1UDz1ACtN1KvywcxmZv9PZOblG1Y1mJbyaV3lSzQ1AGZCghaO4PwfOalNHOukaW3zB52VSOPUMPRy4hamFhNmKGcBgaE7z9xb118D1vIt0BjGZKaiAFeTAXxAitRH_UooMR3IROx6Lfh9kDabfU4iq-Y25_ohhQQI3yNUmEOwPyN_5zT5_poBbYzQsHeHw3lVbv7Jw4c6kidi7Wwr-EuTY2M7FNQT_cmGe2xGvwLL2ot3A97mg_wJveWVVsPIYtgtj1PRZiaTDx6AlcymJakSr3lF8WSjw-2uNMCwTDTK8gDgeBj5FRaatATEkAWkqfTuOxK3dX5YVBupqF76R40tgAaiS3ilMYmwQOhtSa7CFgfxOyZpnAY25jjEJvSJ_DGXNx4Pv0tNnA-peUkwun9Tliao18P6YI43v-rYD4Iw0Otp6sRjP94h5jlqBdkG5jndlALeWFO2Ojiby-a_MqCOK3dQ6gcL5cgqUr7_C_zoro2vUxoUGzQz4ovFAlML2yXvE1wyvuJKdjgp2RKeqz-5r4uTtjEIEYRmcy-xG8h12FmnC6wTykAwrrRa8Z9VQpy7zh6EQbb0lLe3cpR15uVZhDf88rECJh9iwVww1q5tm-D5totk2vZN6-x8winGj_rFyL_qSMjBMjAVzZUXHZgwL-II-Y5KSXrAtn8Vh9kTxLFVAxWc325L7ZVAA5y6QkM4VOE9iFbzRvtSq35xUUPdKbNVEGFFX8fiR8PS1PpOf1u4-tw67gINEBOrSZGAfIDteUaTpIP3ceV40qVzkKbu5elcyXO4jg8PHoR0CfBpXSE4V72TPwUi7vbqld6KyTbpfrAjWRYa0Cc5twZV9Qsnf4bdM2st3UvwFK8DbON59MQbe_u4naQw0rWi816kfRqB2WTxoMB4a-IVVVtWLn0IfsGrVrTDq7NzSBVC8JHIywDe4_xQOG_ZBM3F4MmH49OdfOStAPHoyXP6vz3QTar6Iw1Qr83qpcfke3h1FteO_xdO2X92-XHanIRuYl6A0h7Tk9gUUBpOgPt1sXew9VPbUIITzRnJ_-4Y4RN6ImfLdNYeF9a6flgTh4xpoAcExqKwnQrRRgJHUGWZudlMrPr2dQ3GPBp9ssP7pqy1izCBiZpyFkrMEFZogr4CIuQ27-r-KmFTU3SuwyORXAMVefpODNxYYAc-hB01PcXtl8_WRgYHvR5Ms42rRKGcBpxq0KVs4aPoRrG85djV1dq-TK7WUaHEM-ljD1vk6RAPQik6gcnS-SXG6ZVn_thIrO8JsnPKNfhbVnGOb_nzU1Q5HDB5d29LQULmrx7XcEkr596A6re-5ayPfsQKvPw92bdLACW2NHSADdKSOx8dXKX6TO57KdNQBcaxjXClUkC_59kaRnoRXee2VHIKkezT5k5lnKexSY-_XqRMa8iCuRt7UmtP0tsmpp6jWknjKHjoWYNt5subfjyjErQn-0C928VGIZNZpH1TW0LXtAKClbHUH_htE45XOTFb-XtfKAWq2HnzfwOsPy8wLVEEF7xGcFU_dcOz7Li0d_gfraOZrd89ZGyxA3lX5aqSVH6NdgCdZ1shYdVliWYMbHaekkB1RmkSC9zgCYfOmiFXE1CpwZSN708sqpypIVt0VmPd8ijoVhWXdvxFy3-K5wSlLPC4LH_JDwwwFUa3CPxDcQLE6jNv_Lfhn2ujOhcBLz6ietPV0PLcCvDFCpeUaS_n3zW_3qVEXOnHCBYRQY3o2SwbfC8QjIaTMAqiitVbGzluiyit36aRXrRsEIg8sBrQO-W2Zb1Lg3yh2I79FLmoi9RljStNNvguTJ6H-C7EdyCArLkhMHQ66obDF2dhzmcYFg5MOeq_kHGCe7KoOXlc6zDnJ7ps4PumatcOFmcZgqXtCGhmZNXmFz9rqwu4nnFH3Z",
+      "summary": []
+    },
+    {
+      "id": "msg_00a6d375f0ea5a3b016aab2256e71887d19df119c59d990fa7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{ref_id: string, lineno?: integer | null}> | null\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{ref_id: string, id: integer}> | null\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{ref_id: string, pattern: string}> | null\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{ref_id: string, pageno: integer}> | null\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{q: string, recency?: integer | null, domains?: string[] | null}> | null\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"image_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"},{\"path\":\"sports\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{tool: \\\"sports\\\", fn: \\\"schedule\\\" | \\\"standings\\\", league: \\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\", team?: string | null, opponent?: string | null, date_from?: string | null, date_to?: string | null, num_games?: integer | null, locale?: string | null}> | null\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].opponent\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_from\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_to\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].num_games\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"sports[].locale\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"finance\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{ticker: string, type: \\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\", market?: string | null}> | null\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{location: string, start?: string | null, duration?: integer | null}> | null\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather[].duration\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"calculator\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{expression: string, prefix: string, suffix: string}> | null\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{utc_offset: string}> | null\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\"\"},{\"path\":\"search_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<{q: string, recency?: integer | null, domains?: string[] | null}> | null\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"search_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4743
+    },
+    "output_tokens": 1574,
+    "output_tokens_details": {
+      "reasoning_tokens": 195
+    },
+    "total_tokens": 6457
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-16T22:15:29.932403+00:00",
+  "model": "gpt-6-astra",
+  "marker": "REPLACED_HEADING_af856c399a44eb73e25fb02b",
+  "pending": {
+    "http_status": 200,
+    "request_id": "req_8baf77b8ada64720a32dbd315c73e257",
+    "elapsed_s": 2.511,
+    "response_id": "resp_006150ed3daccf00016aab14f9c11487d193d7cf35342d744f",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 177,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 204
+    }
+  },
+  "branches": {
+    "02-original": {
+      "http_status": 200,
+      "request_id": "req_de67f914aa4c45d3bca752e79ef24346",
+      "elapsed_s": 1.851,
+      "response_id": "resp_006150ed3daccf00016aab14fc2b6487d1892f9c50916b280a",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "Example Domain",
+      "error": null,
+      "usage": {
+        "input_tokens": 327,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 333
+      }
+    },
+    "03-replaced": {
+      "http_status": 200,
+      "request_id": "req_9ccb7e7bd48a4e90abce43bc3cb30e3b",
+      "elapsed_s": 2.194,
+      "response_id": "resp_006150ed3daccf00016aab14fe068887d1be1849fd6c0d8a26",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "REPLACED_HEADING_af856c399a44eb73e25fb02b",
+      "error": null,
+      "usage": {
+        "input_tokens": 288,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 22,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 310
+      }
+    },
+    "04-cache-miss": {
+      "http_status": 200,
+      "request_id": "req_ee07df4aeb374286a2d6b48859b16235",
+      "elapsed_s": 1.918,
+      "response_id": "resp_006150ed3daccf00016aab1500874087d1a8c4a5aeecd3680e",
+      "status": "completed",
+      "model": "gpt-6-astra",
+      "text": "CACHE_MISS",
+      "error": null,
+      "usage": {
+        "input_tokens": 225,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 232
+      }
+    }
+  },
+  "original_observed": true,
+  "replacement_observed": true,
+  "cache_miss_observed": true,
+  "all_completed": true
+}

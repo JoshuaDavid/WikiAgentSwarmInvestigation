@@ -1,0 +1,42 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": false,
+  "max_output_tokens": 1000,
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": false
+    }
+  ],
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "tool_choice": "none",
+  "input": [
+    {
+      "role": "user",
+      "content": "Open https://example.com/ once and report only the page's main heading. Use only the tool result, not prior knowledge. If the tool reports a cache miss, reply CACHE_MISS. Do not search or retry."
+    },
+    {
+      "id": "ws_07f546c07b979318016aab14a3ee0087d1b8398b6f5b01071a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://example.com/"
+      },
+      "results": [
+        {
+          "type": "text_result",
+          "title": "Example Domain",
+          "url": "https://example.com/",
+          "snippet": "citeturn0view0 [wordlim: 200] Content type: text/html; Source: open({\"ref_id\":\"https://example.com/\",\"lineno\":null}); Total lines: 1\nL0: # REPLACED_HEADING_999f31966f81629e339b3ec4"
+        }
+      ]
+    }
+  ]
+}

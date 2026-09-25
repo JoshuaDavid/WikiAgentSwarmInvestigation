@@ -1,0 +1,117 @@
+{
+  "id": "resp_069f3fe3c0c4f1be016aab22533b4487d1bf360371d3410e98",
+  "object": "response",
+  "created_at": 1789600339,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600349,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_069f3fe3c0c4f1be016aab2254953487d1a9d3c05c3e3615ed",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJdeZQooEVNbT3Abtt6Z6be_SwebqQDFkxewbO9ZE4iN2BsldH4Y4APD_JcQZr_vTg26Y19HTUQ8zIB3Z7TAhdCvKlo0Nzwl5i7oF-_0CdzJ5P8QsaVx0eYqnlrmanb2pSC9BuL9-DGiR-YhDAg_pQAJClPvYCXt1Fg8STuwO8H7GVyuAVefrXcn9Sqkm2IZYUXXOEeGEQc1YcwYzoSYEDVs46lVWH7uMI9BxhF1RB02U7qYa02V-WZq0hL_hBsETrn89d7FAxj7SQLKtb6oeuUck3HRj99F4OFn5gDeSrG87ohTGraMuFBx-vE9bOd59ceTF1FCnuDBhcBYjk66VPe_kUNXSvVCMvmesq1cbfILlWvKzNZ2LZ7JYKjr3pUzvA_A0hUoS_SPfsu5Yf61EzUoPcpWNN7hBjxB6PWsDqxqUvR9O4bHcW5MqkTwwFV36vuzmOddHx0hU9WMoSWmlqjxUcFelnx4o561cSy9oAMW9XCsARf_xl2su2mcd79UzT9rP36YXnyIpb8se-9h1FiCdKBdQ7gkksV5QjHVFprquXhX21xl7cvKOTA4Q5Vl3t42evEzPYt3lR_YRvITfcs21v4qA4KP6EMSgNnUqa2H_g9xesJRX5gCCsuIhIN356R2mUBEs-XzRxmW2-aWzq6A5hbL9Pvedp8G2o6Rx2EOukro78LL5bAJcxZP7_1pA8iQ7-pVFFRj6BcNXfJiHxw05ZauwLN3aJw5V4JLFa2RLw1ihUNY7uV5ufEECiaRogtWjDyOlUuEmdJ2orVCzVgTbwTOMrw4bb473L2YwMSrxvjbck0t6ocGnYHWvpotRHUFVYZvGNqYzFSmP-Wwaqml9p_hScP5DWIPeZU3ynfAmRJP_Day0EBoCPk-y-YkycnejlLzEpW7sqnDbTepriAP3Z6wXTRrAjNpqQ4oc1CjA1KkXfh-DSwfuemDKYuQR7GrNSnh_grvmlm0pq5KpFvvMaabnDjI2fnSYBsQpqh7GVGph8WNYZ2f-j0aCxWQmqOiUb-WKk-yWBVoqjEcLcGA7wQmJyfiio94m5Y_BthRpXWE4Mf7cwas4cBPqyI1Tqqtju72y-_rcTQpvfORnMui33mlIg2NsSC8dRl4SdAmkNtGHxNA6UfoDOX_FTJYzhgtE-NhKG95eyZ3vy57gfPWyjdKEcO3V85B86oh0hw-_RQlsXSmO2lRWWg4RRlnyY14CjnRek8XFU1oDE5wg56lUjUdxS34QH4ApdaNol8ZcWIVO7rFM6AinoX5E7mHT5X4By2QtrUX4GjUoiddQOYrVhS4p4MkZOYpD6gKt1fLEsXlScU7og6Vhe_ZaqqGmA5id_KDQpO2RFq7FQKgEWfoj0Na0XGP1YXP7SjBCgV8hT34tRKFeOk3EANOHqoikK6GG6u_gVW0irtjv-5gpARIHLRn2B4UW1brD_MZbH5yXSCvRKnE9kotYOrJBU2tFJcMq4qFHdhF24uJFX4jEc0QnrYLe53dD0WYHyXX5VNDbzswjJ9EIn4U1pOCTx0Xtj_hD7DvjZb6shttTP_7tnbsp2FJ5Sfg20NQA7UMwpcBurWzZdiySzk6cXFxNMcaUnfXhl1UGTJzZzDkT3D5jOdPMUQGh4XJ4lDmfpiHwzV-kXYhq2seJa6x3dHA7EgzQCVoDFHYEtNAiQEObpfJv5rG2my8Hol6do_hDxS1v_rCfLov7dJBXX73UaekYdOViXRxNzlcEb6lmeZx7gUv0f3XFw_EsbBMo05fjRllPxT07-sXwG6weRIyNrsD967DiOPV5Yk14q0AJVuMJxlZ1PPQYOMemb5nipweubMREBNGwsVS116cLdZsWrwVuH6hgfzNJpVXqcftL_3DyN7J0xcXxBSRfSbCRzv6z3u1iXXrEkD42IATWjR9KdMuOxLiROHlDKZ2d7GsB9yE8zC5yKmB1GEGTb2NoTOwwS2m_aRqgsGVQnyKk1gKt7QiHkspbAjwODGXMGwIm0hzfs8_-xzCss00n1V3G6RLlYrN0SfcV-99JIq4wwxuLNDas8YxjcJP7WpB7CWNnXTM-ZvOxAQCQ==",
+      "summary": []
+    },
+    {
+      "id": "msg_069f3fe3c0c4f1be016aab22566e6c87d1af409aa00e84f6c7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<OpenToolInvocation> | null\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ClickToolInvocation> | null\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<FindToolInvocation> | null\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ScreenshotToolInvocationV1> | null\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"image_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"},{\"path\":\"sports\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SportsToolInvocationV1> | null\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].opponent\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_from\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_to\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].num_games\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"sports[].locale\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"finance\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<StockToolInvocationV1> | null\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<WeatherToolInvocationV1> | null\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather[].duration\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"calculator\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<CalculatorToolInvocation> | null\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<TimeToolInvocation> | null\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\"\"},{\"path\":\"search_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"search_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 4743,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1333,
+    "output_tokens_details": {
+      "reasoning_tokens": 143
+    },
+    "total_tokens": 6216
+  },
+  "user": null,
+  "metadata": {}
+}

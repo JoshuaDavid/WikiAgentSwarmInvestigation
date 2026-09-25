@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Web Search cannot be used with JSON mode.",
+    "type": "invalid_request_error",
+    "param": "response_format",
+    "code": null
+  }
+}

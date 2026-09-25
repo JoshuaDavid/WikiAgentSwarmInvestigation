@@ -1,0 +1,16 @@
+{
+  "http_status": 400,
+  "request_id": "req_1b25b13b3d3e4b6f9717cc75b8aa3cc3",
+  "elapsed_s": 1.348,
+  "response_id": null,
+  "status": null,
+  "model": null,
+  "text": "",
+  "error": {
+    "message": "Invalid Value: 'tools'. Function 'web.run' is reserved for use by this model and must match the configured schema.",
+    "type": "invalid_request_error",
+    "param": "tools",
+    "code": null
+  },
+  "usage": null
+}

@@ -1,0 +1,22 @@
+{
+  "http_status": 200,
+  "request_id": "req_17348727516c4d6dbf1edded1ff2a9c1",
+  "elapsed_s": 1.446,
+  "response_id": "resp_09411b87b96aeb70016aab32b87d7887d1850e8b457f763475",
+  "status": "completed",
+  "model": "gpt-5.6-luna",
+  "text": "REPLACED_HEADING_f914329da3d8da5f1bc9134f",
+  "error": null,
+  "usage": {
+    "input_tokens": 3133,
+    "input_tokens_details": {
+      "cache_write_tokens": 124,
+      "cached_tokens": 3006
+    },
+    "output_tokens": 24,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3157
+  }
+}

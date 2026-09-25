@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-09-17T00:22:18.611841+00:00",
+  "model": "gpt-5.6-luna",
+  "marker": "REPLACED_HEADING_f914329da3d8da5f1bc9134f",
+  "tool_identity": "web-run",
+  "native_web_enabled": false,
+  "parameter_groups": [
+    "open",
+    "click",
+    "find",
+    "screenshot",
+    "image_query",
+    "sports",
+    "finance",
+    "weather",
+    "calculator",
+    "time",
+    "response_length",
+    "search_query"
+  ],
+  "search_call": {
+    "id": "fc_09411b87b96aeb70016aab32b660c087d1be145e8f1a18867e",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"search_query\":[{\"q\":\"IANA example domains\"}],\"response_length\":\"short\"}",
+    "call_id": "call_VBJxd5SYUbKc0tp604zLVMk1",
+    "name": "web-run"
+  },
+  "open_call": {
+    "id": "fc_09411b87b96aeb70016aab32b7f97887d1a043ea103d729a04",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+    "call_id": "call_zO6VdgDpt4Qj1JuO3e394Bdl",
+    "name": "web-run"
+  },
+  "search": {
+    "http_status": 200,
+    "request_id": "req_cc4017e534314e7fb381fa1a518082f5",
+    "elapsed_s": 1.648,
+    "response_id": "resp_09411b87b96aeb70016aab32b5bac087d19ec63e52d2979736",
+    "status": "completed",
+    "model": "gpt-5.6-luna",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 2921,
+      "input_tokens_details": {
+        "cache_write_tokens": 2918,
+        "cached_tokens": 0
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2952
+    }
+  },
+  "open": {
+    "http_status": 200,
+    "request_id": "req_47fb20b2bf624ca99256707b48c47631",
+    "elapsed_s": 1.313,
+    "response_id": "resp_09411b87b96aeb70016aab32b73cc487d1a532ab5dffd62ac2",
+    "status": "completed",
+    "model": "gpt-5.6-luna",
+    "text": "",
+    "error": null,
+    "usage": {
+      "input_tokens": 3009,
+      "input_tokens_details": {
+        "cache_write_tokens": 88,
+        "cached_tokens": 2918
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3040
+    }
+  },
+  "branches": {
+    "03-replacement": {
+      "http_status": 200,
+      "request_id": "req_17348727516c4d6dbf1edded1ff2a9c1",
+      "elapsed_s": 1.446,
+      "response_id": "resp_09411b87b96aeb70016aab32b87d7887d1850e8b457f763475",
+      "status": "completed",
+      "model": "gpt-5.6-luna",
+      "text": "REPLACED_HEADING_f914329da3d8da5f1bc9134f",
+      "error": null,
+      "usage": {
+        "input_tokens": 3133,
+        "input_tokens_details": {
+          "cache_write_tokens": 124,
+          "cached_tokens": 3006
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3157
+      },
+      "unexpected_calls": []
+    },
+    "04-cache-miss": {
+      "http_status": 200,
+      "request_id": "req_9ed5e89e99274017a3b190bff4891b23",
+      "elapsed_s": 0.904,
+      "response_id": "resp_09411b87b96aeb70016aab32b9f25487d18b307c640779b6d2",
+      "status": "completed",
+      "model": "gpt-5.6-luna",
+      "text": "CACHE_MISS",
+      "error": null,
+      "usage": {
+        "input_tokens": 3061,
+        "input_tokens_details": {
+          "cache_write_tokens": 52,
+          "cached_tokens": 3006
+        },
+        "output_tokens": 7,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3068
+      },
+      "unexpected_calls": []
+    }
+  },
+  "replacement_observed": true,
+  "cache_miss_observed": true,
+  "all_completed": true,
+  "no_unexpected_calls": true
+}
