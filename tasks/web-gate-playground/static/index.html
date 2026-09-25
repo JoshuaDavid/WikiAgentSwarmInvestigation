@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Web Gate · Agent playground</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="topbar"><div class="brand"><span class="brand-icon">W<span>↗</span></span><div>Web Gate<span class="subtitle">Agent playground</span></div></div><div class="top-right"><span class="pill">LOCAL PROTOTYPE</span><span id="connection" class="muted">Connecting…</span></div></header>
+<div id="notice" class="notice" role="alert" hidden></div>
+<main class="workspace">
+  <aside class="sidebar">
+    <div class="section-label">START A RUN <span>01</span></div>
+    <form id="new-run">
+      <label for="prompt">Task for the agent</label>
+      <textarea id="prompt" rows="7" required></textarea>
+      <div class="preset-row"><button type="button" id="search-preset" class="text-button">Search → open</button><button type="button" id="direct-preset" class="text-button">Direct open</button></div>
+      <label for="mode">Run mode</label><select id="mode"><option value="api">Responses API</option><option value="demo">Demo · no API calls</option></select>
+      <p id="mode-note" class="helper">Real agent. Cached search. Fetch only with your approval.</p>
+      <label for="model">Agent model</label><select id="model"></select>
+      <label for="max-steps">Agent turn limit</label><input id="max-steps" type="number" value="20" min="1" max="100">
+      <button type="submit" id="start" class="button primary wide">Start run <span>↗</span></button>
+    </form>
+    <div class="section-label runs-label">YOUR RUNS <span id="run-count">0</span></div>
+    <nav id="runs" aria-label="Saved runs"></nav>
+    <details class="about"><summary>How this prototype works</summary><p>The agent sees a <code>web-run</code> tool. Searches use a separate cache-only API request. Every open pauses here before a separate live-enabled request can fetch its URL.</p><p>You then choose the exact tool text sent back. Approval events stay outside the agent’s context.</p><p>Search and open are connected. Other operations pause for a manually supplied result. API runs incur normal usage. Demo mode uses a scripted agent and fixture results.</p></details>
+  </aside>
+  <section class="trajectory">
+    <div class="run-header"><div><div class="section-label">TRAJECTORY <span>02</span></div><h1 id="run-title">See the handoff.</h1><p id="run-subtitle" class="muted">Let the agent work. Decide what it gets to see.</p></div><div class="run-actions"><button id="stop" class="button small" hidden>Stop</button><button id="export" class="button small" hidden>Export JSON</button></div></div>
+    <div id="stats" class="stats" hidden></div>
+    <div id="usage" class="usage-overview" hidden></div>
+    <div class="tabs"><button id="tab-timeline" class="tab active">Timeline</button><button id="tab-context" class="tab">Agent context</button><button id="tab-routing" class="tab">URL routes</button><span id="status" class="status">Ready</span></div>
+    <div id="timeline" class="timeline">
+      <div class="welcome"><div class="welcome-mark">↳</div><h2>A web call, with a place to intervene.</h2><p>Start a task on the left. Follow the agent here. When it tries to open a page, the decision lands on your right.</p><div class="flow"><span>Agent</span><b>→</b><span>Search</span><b>→</b><span class="gate-step">Your decision</span><b>→</b><span>Agent</span></div><p class="helper">Try Demo first for a quick tour, or run the real API with your own prompt.</p></div>
+    </div>
+    <div id="context" class="timeline" hidden></div>
+    <div id="routing" class="timeline" hidden></div>
+  </section>
+  <aside class="review"><div class="section-label">DECISION DESK <span>03</span></div><div id="review-content"><div class="idle"><div class="idle-icon">Ⅱ</div><h2>No decision waiting</h2><p>Searches flow through automatically. An open waits here until you decide.</p><div class="two-steps"><div><span>1</span><p>Allow a fetch, or supply a result immediately.</p></div><div><span>2</span><p>Review the returned text before the agent sees it.</p></div></div></div></div></aside>
+</main>
+<script src="/app.js"></script>
+</body></html>

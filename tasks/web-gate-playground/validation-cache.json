@@ -1,0 +1,206 @@
+{
+  "backend_tests": 28,
+  "original_run_unchanged": true,
+  "comprehensive_usage": {
+    "requests": 14,
+    "responses": 14,
+    "totals": {
+      "ordinary_input_tokens": 29506,
+      "output_tokens": 1111,
+      "cache_write_tokens": 29136,
+      "cache_read_tokens": 150988,
+      "input_tokens": 209630,
+      "total_tokens": 210741,
+      "reasoning_tokens": 450
+    },
+    "reported_requests": {
+      "ordinary_input_tokens": 14,
+      "output_tokens": 14,
+      "cache_write_tokens": 14,
+      "cache_read_tokens": 14,
+      "input_tokens": 14,
+      "total_tokens": 14,
+      "reasoning_tokens": 14
+    },
+    "by_purpose": {
+      "agent": {
+        "requests": 7,
+        "responses": 7,
+        "totals": {
+          "ordinary_input_tokens": 21,
+          "output_tokens": 821,
+          "cache_write_tokens": 28674,
+          "cache_read_tokens": 121315,
+          "input_tokens": 150010,
+          "total_tokens": 150831,
+          "reasoning_tokens": 188
+        },
+        "reported_requests": {
+          "ordinary_input_tokens": 7,
+          "output_tokens": 7,
+          "cache_write_tokens": 7,
+          "cache_read_tokens": 7,
+          "input_tokens": 7,
+          "total_tokens": 7,
+          "reasoning_tokens": 7
+        }
+      },
+      "search": {
+        "requests": 3,
+        "responses": 3,
+        "totals": {
+          "ordinary_input_tokens": 8472,
+          "output_tokens": 130,
+          "cache_write_tokens": 146,
+          "cache_read_tokens": 12717,
+          "input_tokens": 21335,
+          "total_tokens": 21465,
+          "reasoning_tokens": 118
+        },
+        "reported_requests": {
+          "ordinary_input_tokens": 3,
+          "output_tokens": 3,
+          "cache_write_tokens": 3,
+          "cache_read_tokens": 3,
+          "input_tokens": 3,
+          "total_tokens": 3,
+          "reasoning_tokens": 3
+        }
+      },
+      "fetch": {
+        "requests": 4,
+        "responses": 4,
+        "totals": {
+          "ordinary_input_tokens": 21013,
+          "output_tokens": 160,
+          "cache_write_tokens": 316,
+          "cache_read_tokens": 16956,
+          "input_tokens": 38285,
+          "total_tokens": 38445,
+          "reasoning_tokens": 144
+        },
+        "reported_requests": {
+          "ordinary_input_tokens": 4,
+          "output_tokens": 4,
+          "cache_write_tokens": 4,
+          "cache_read_tokens": 4,
+          "input_tokens": 4,
+          "total_tokens": 4,
+          "reasoning_tokens": 4
+        }
+      }
+    },
+    "scope": "this_branch"
+  },
+  "probe": {
+    "gpt-5.6-luna": [
+      {
+        "http_status": 200,
+        "status": "completed",
+        "usage": {
+          "input_tokens": 2881,
+          "input_tokens_details": {
+            "cache_write_tokens": 2878,
+            "cached_tokens": 0
+          },
+          "output_tokens": 31,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2912
+        },
+        "options": {
+          "mode": "implicit",
+          "ttl": "30m"
+        },
+        "key": "web-gate-v1:agent:6efd39c59bdceaec3bfe5cee"
+      },
+      {
+        "http_status": 200,
+        "status": "completed",
+        "usage": {
+          "input_tokens": 2881,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 2878
+          },
+          "output_tokens": 31,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2912
+        },
+        "options": {
+          "mode": "implicit",
+          "ttl": "30m"
+        },
+        "key": "web-gate-v1:agent:6efd39c59bdceaec3bfe5cee"
+      }
+    ],
+    "gpt-6-astra": [
+      {
+        "http_status": 200,
+        "status": "completed",
+        "usage": {
+          "input_tokens": 2881,
+          "input_tokens_details": {
+            "cache_write_tokens": 2878,
+            "cached_tokens": 0
+          },
+          "output_tokens": 33,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2914
+        },
+        "options": {
+          "mode": "implicit",
+          "ttl": "30m"
+        },
+        "key": "web-gate-v1:agent:d803434396a95dfec7467580"
+      },
+      {
+        "http_status": 200,
+        "status": "completed",
+        "usage": {
+          "input_tokens": 2881,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 2878
+          },
+          "output_tokens": 33,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2914
+        },
+        "options": {
+          "mode": "implicit",
+          "ttl": "30m"
+        },
+        "key": "web-gate-v1:agent:d803434396a95dfec7467580"
+      }
+    ]
+  },
+  "browser": {
+    "historical_totals": [
+      "29,506",
+      "1,111",
+      "29,136",
+      "150,988"
+    ],
+    "per_request": [
+      "3",
+      "83",
+      "61",
+      "2,857"
+    ],
+    "fork_totals": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "console_errors": []
+  }
+}

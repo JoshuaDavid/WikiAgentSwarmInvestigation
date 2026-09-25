@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-17",
+  "backend_tests": 11,
+  "browser_console_errors": [],
+  "runs": {
+    "edited": {
+      "id": "f540738bfcdb",
+      "answer": "PROTOTYPE_REPLACEMENT_7149",
+      "request_count": 1
+    },
+    "original": {
+      "id": "63c3643dcccb",
+      "answer": "Example Domains",
+      "request_count": 1
+    },
+    "cache_miss": {
+      "id": "8db802315d0f",
+      "answer": "CACHE_MISS",
+      "request_count": 1
+    }
+  },
+  "prepared_run": "d60b064fd6ca"
+}
