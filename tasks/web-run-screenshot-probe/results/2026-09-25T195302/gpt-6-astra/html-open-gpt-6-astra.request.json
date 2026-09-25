@@ -1,0 +1,20 @@
+{
+  "model": "gpt-6-astra",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 4000,
+  "max_tool_calls": 5,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute exactly what the user asks. If you take a screenshot, describe every visible text element word-for-word in your final answer. Do not summarise; enumerate. If the tool returns an error, quote it verbatim.",
+  "input": "Open https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 and quote every marker string you see verbatim (STATIC_HTML, JS_SYNC, JS_ASYNC, JS_FETCH, CANVAS, HIDDEN_HTML, IMG_ALT, FETCHED_MARKER, PDF_TEXT). Do not paraphrase; write each marker on its own line. If a marker is not visible, write 'ABSENT: <name>'."
+}

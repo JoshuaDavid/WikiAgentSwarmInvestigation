@@ -1,0 +1,20 @@
+{
+  "model": "gpt-5.6-luna",
+  "tools": [
+    {
+      "type": "web_search"
+    }
+  ],
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": true,
+  "max_output_tokens": 4000,
+  "max_tool_calls": 5,
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "instructions": "Execute exactly what the user asks. If you take a screenshot, describe every visible text element word-for-word in your final answer. Do not summarise; enumerate. If the tool returns an error, quote it verbatim.",
+  "input": "Render https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401 in a browser, wait for JavaScript to finish, then screenshot it and list every marker string visible in the screenshot, one per line."
+}

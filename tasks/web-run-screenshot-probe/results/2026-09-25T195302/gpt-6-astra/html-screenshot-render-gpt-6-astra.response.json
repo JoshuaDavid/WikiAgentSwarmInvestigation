@@ -1,0 +1,151 @@
+{
+  "label": "html-screenshot-render-gpt-6-astra",
+  "started_utc": "2026-09-25T19:53:20.794826+00:00",
+  "started_monotonic": 2061111.273496794,
+  "http_status": 200,
+  "request_id": "req_4d558b0ec7ee4567ac7698eddbbb116e",
+  "response": {
+    "id": "resp_08d2bf466062f90c006ab6d1310ae887d1bea92a72ce347d6b",
+    "object": "response",
+    "created_at": 1790366001,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1790366007,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": "Execute exactly what the user asks. If you take a screenshot, describe every visible text element word-for-word in your final answer. Do not summarise; enumerate. If the tool returns an error, quote it verbatim.",
+    "max_output_tokens": 4000,
+    "max_tool_calls": 5,
+    "model": "gpt-6-astra",
+    "moderation": null,
+    "output": [
+      {
+        "id": "ws_08d2bf466062f90c006ab6d133138087d1b141d497fd427541",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401"
+        },
+        "results": [
+          {
+            "type": "text_result",
+            "snippet": "\ue200cite\ue202turn0view0\ue201 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401\",\"lineno\":null}); Total lines: 13\nL0: STATIC (raw HTML): STATIC_HTML_6be75ac6638e3288\nL1: \nL2: HIDDEN (CSS display:none):\nL3: \nL4: \ue200cite\ue2020\u2020Image: IMG_ALT_9c6c31d8620abf67\ue201 L5: \nL6: JS_SYNC target: (pending)\nL7: \nL8: JS_ASYNC target: (pending)\nL9: \nL10: JS_FETCH target: (pending)\nL11: \nL12: CANVAS (drawn only):\n",
+            "title": "screenshot-probe STATIC_HTML_6be75ac6638e3288",
+            "url": "https://porridge-whisking-flatten.ngrok-free.dev/probe/b84e010e6285cdad/html-plain/14d53e5a67998401"
+          }
+        ]
+      },
+      {
+        "id": "rs_08d2bf466062f90c006ab6d134947487d19e3e2a3b2f64eede",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqttE3TzBW9YnLgGeNzS1kyvcLPOz8voqTRjNnbv7c4QEMCu0_p26ZSzpF-hEVPtfb1G6ynJGxWhVl933nAMXEJ1CgBYn9r8pi1TfFdH3_BHcixJUOzYecX2J0IH-UGI2uOI-oJYc86YAojZPuu0ZiutN4hOu2lv7880jr4wukF89OLBNA9Ko3UC-F3BLpCTk_u3w8aVmgnyUH0fakIx28BnQWQPIAPsASFjLr_WUCiGrb8wF2uywyv7x35TgoF7BDETzbY-2znXlF-O5K98LAblr2p0NlCiiSJqkh3r5ubt8quXDza5TMH5vVDMPHkRnnE4QoAublLqPi3-o4FkVkzj3l5BDRERoItSuV_1qLN1Vw9tis8S5k8It0LNGa_RTdDUk0GWwES37Q9cUOmtqbZ-8HhzjuAnwpLyGtSGZBpR6L6W_3gqwte3GqFN-6Ha7x1GbVryVg-Bbmr4azGBGbTM8gtv_-VOB3jjdrhuGq-hYbGB7oxEZQCdfFBeOuLDg4lJJeomdNWbKgimYAkRHUEZvrBNhbYMOLEstoRXWtP7vJK-8K7eWjiPG8_jRvZu2L06uqopjhjTtQsO5QcCrN0zZEGGOada26rRMPdR7PjdZoBSZP5naaAkZ6p0lYGE46MIMUi3yBk17WCXc35NazyizLb92P5k3YCIQ8cUFYUphxINYAreAgWolyOZXRO2eNTPd_dXO27wqpA-Ld9rgPnVIlzic8f4dOGjYzFq3yYpb3pI_tc1a_PgUkhLSOWbLoBi_58c3c38pBXldMi5kpWJ5byzrWJNBp3JFcqj8hic6xmWLRuurpqW8sXjGvndEEgBNBmzdxhVNbEVILcWa1zOxa1KafT0x7Hb8qlt4QYjzI0nhgvwVK6ALZ41nnfK4u_CBUrzsXxGjkzFT503GwaKEsRC88djkxEy70t4_wIjgOApmgZSYHxm9GeR25aUKEpiKmcR2sv_SZoo8-dUOD6SPBYMb-lCrqFMHb2W7s-gPh061nT5tNK9GJQpJo15tuIB2LGA3efW2Jgy17BXVc3PoLKuZ7sfPz4TXIS2TDVVUD1k7sZQqsHrGZtKHhZM59PRHcvp-c1Xdf8khlJpkar150451megbeIi_BCgHzCf9TGENZBg2wNGHy4cxp-uwubDB8XzM12RjuSpIPqRNp-CbGUSNhPXXH-vXR-bmFcwWq9mzkBTTTamTDVOPgqubDFf3srTGHmkORcGhOlya8TRyVH0NffqtHoJYeXxQBnZ0u4qiqbQc9euAqzWjiCzfDK6Ua",
+        "summary": []
+      },
+      {
+        "id": "ws_08d2bf466062f90c006ab6d134e0a087d19ee04c1e30cf25fb",
+        "type": "web_search_call",
+        "status": "completed",
+        "results": []
+      },
+      {
+        "id": "msg_08d2bf466062f90c006ab6d136169887d1a58522229f464049",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I can\u2019t execute JavaScript or capture an HTML screenshot with the available tool, so I can\u2019t verify the visible marker strings.\n\nScreenshot error:\n> Unable to resolve screenshot call because content type is not application/pdf and web screenshot is not enabled"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "low",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 5040,
+      "input_tokens_details": {
+        "cache_write_tokens": 70,
+        "cached_tokens": 4419
+      },
+      "output_tokens": 162,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 5202
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "ended_utc": "2026-09-25T19:53:27.723197+00:00",
+  "ended_monotonic": 2061118.202768838,
+  "elapsed_s": 6.929
+}
