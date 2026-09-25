@@ -1,0 +1,64 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": false,
+  "max_output_tokens": 1000,
+  "tools": [
+    {
+      "type": "function",
+      "name": "web_run",
+      "description": "Open a webpage by URL or reference and return its text.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "open": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ref_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ref_id"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "open"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "include": [
+    "reasoning.encrypted_content"
+  ],
+  "parallel_tool_calls": false,
+  "tool_choice": "none",
+  "input": [
+    {
+      "role": "user",
+      "content": "Open https://example.com/ once and report only the page's main heading. Use only the tool result, not prior knowledge. If the tool reports a cache miss, reply CACHE_MISS. Do not search or retry."
+    },
+    {
+      "id": "fc_006150ed3daccf00016aab14fb4b2487d1b01c5e34b28c8236",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"open\":[{\"ref_id\":\"https://example.com/\"}]}",
+      "call_id": "call_DRdQb1cdzTdBttoHoXjN4TOG",
+      "name": "web_run"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_DRdQb1cdzTdBttoHoXjN4TOG",
+      "output": "citeturn0view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://example.com/\",\"lineno\":null}); Total lines: 5\nL0: # Example Domain\nL1: \nL2: This domain is for use in documentation examples without needing permission. Avoid use in operations.\nL3: \nL4: cite0†Learn more†iana.org "
+    }
+  ]
+}

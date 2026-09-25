@@ -1,0 +1,28 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": false,
+  "max_output_tokens": 1000,
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": false
+    }
+  ],
+  "include": [
+    "web_search_call.results",
+    "reasoning.encrypted_content"
+  ],
+  "input": [
+    {
+      "role": "user",
+      "content": "Open https://example.com/ once and report only the page's main heading. Use only the tool result, not prior knowledge. If the tool reports a cache miss, reply CACHE_MISS. Do not search or retry."
+    }
+  ],
+  "max_tool_calls": 1,
+  "tool_choice": {
+    "type": "web_search"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "http_status": 400,
+  "request_id": "req_dca8545edf98454fb94e8b349e2ba059",
+  "elapsed_s": 0.448,
+  "response_id": null,
+  "status": null,
+  "model": null,
+  "text": "",
+  "error": {
+    "message": "Invalid 'tools[0].name': string does not match pattern. Expected a string that matches the pattern '^[a-zA-Z0-9_-]+$'.",
+    "type": "invalid_request_error",
+    "param": "tools[0].name",
+    "code": "invalid_value"
+  },
+  "usage": null
+}

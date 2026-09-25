@@ -1,0 +1,54 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": false,
+  "max_output_tokens": 1000,
+  "tools": [
+    {
+      "type": "function",
+      "name": "web_run",
+      "description": "Open a webpage by URL or reference and return its text.",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "open": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ref_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ref_id"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "open"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ],
+  "include": [
+    "reasoning.encrypted_content"
+  ],
+  "parallel_tool_calls": false,
+  "input": [
+    {
+      "role": "user",
+      "content": "Open https://example.com/ once and report only the page's main heading. Use only the tool result, not prior knowledge. If the tool reports a cache miss, reply CACHE_MISS. Do not search or retry."
+    }
+  ],
+  "tool_choice": {
+    "type": "function",
+    "name": "web_run"
+  }
+}

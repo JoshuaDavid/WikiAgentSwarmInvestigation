@@ -1,0 +1,39 @@
+{
+  "state": "AWAITING_FETCH_DECISION",
+  "call": {
+    "id": "fc_09411b87b96aeb70016aab32b7f97887d1a043ea103d729a04",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+    "call_id": "call_zO6VdgDpt4Qj1JuO3e394Bdl",
+    "name": "web-run"
+  },
+  "resolved_url": "https://example.com/",
+  "history": [
+    {
+      "role": "user",
+      "content": "Search for \"IANA example domains\", then open the first search result using its returned reference. Report only the page's main heading. Use the opened page content, not the search snippet or prior knowledge. If opening reports a cache miss, reply CACHE_MISS. Do not retry."
+    },
+    {
+      "id": "fc_09411b87b96aeb70016aab32b660c087d1be145e8f1a18867e",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"search_query\":[{\"q\":\"IANA example domains\"}],\"response_length\":\"short\"}",
+      "call_id": "call_VBJxd5SYUbKc0tp604zLVMk1",
+      "name": "web-run"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_VBJxd5SYUbKc0tp604zLVMk1",
+      "output": "Example Domain (https://example.com/)\nciteturn0search0 [wordlim: 200] Crawled: today; This domain is for use in documentation examples without needing permission."
+    },
+    {
+      "id": "fc_09411b87b96aeb70016aab32b7f97887d1a043ea103d729a04",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+      "call_id": "call_zO6VdgDpt4Qj1JuO3e394Bdl",
+      "name": "web-run"
+    }
+  ]
+}

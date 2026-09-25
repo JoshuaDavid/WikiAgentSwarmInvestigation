@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Invalid Value: 'tools'. Function 'web.tool' is not allowed in reserved namespace 'web'.",
+    "type": "invalid_request_error",
+    "param": "tools",
+    "code": null
+  }
+}

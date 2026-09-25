@@ -1,0 +1,117 @@
+{
+  "id": "resp_0aefbd0d646ae0ee016aab225dd7e887d1a443ec7f38284415",
+  "object": "response",
+  "created_at": 1789600349,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600363,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0aefbd0d646ae0ee016aab225ee8d887d1b3854b63b146120d",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJro9DsLzR82xYQoYJ0uWU1phuD0pxKd2S4V2XeD-wb96ExaIrsjICUKeR4a1l9lqeDuBiufgbfbkCKoU-Itx6I4b6IbG_j3xZEyzIDoEdMGQpgjW7ylPuo8oxITp4wNoWnikKrKmzoKYsigIoo8ZNHbw1gnKYssas1VENo1ICJUOZIsNQ3KqGxv58HDIyH7pzhW_7giSs3xURFFV2DHyei-QVB2OfToJGECgm2JH-CIsA8hHcI0VwHnQCBI0zPPe8xKRultPmfwiuaH9iTR0Y1KIty-X4wNEeIABwaVwm_kgw05KYclqaf4XZpVt4weeeMvbre9OfYJoA5m13BS-4xS9invkNr_XPaIyJUsxRN8z9_zp4iKSuXb8sgXGWw5-canh1B9nIjfQghohv6bB0Imy58VFs8foo7WeT7a__7RaObd-aW80OT-NXNnIgc2kPIELJYrDZNBWrLzMfgDEU7W2-Bba4kjcUxwE0ra72xve7TC4oV3AQsYiLGH0o5zC3jJEvr97T-BS25-Jh8aq5kqLSRrcgga__4Y8NlKq62BbPdPk_bEKTe6eyYoJXJnFVyS3nBcWxRfrBhEk_BJjLvF1XUFjfui2Qzr0kYynS_Yi2RZ3351wklHkDsraBKfv5ki7iyW-nO1MGzT1q9JtlP7FaxwthZuC7kZAiSZbKnBNYelHTNSdy8ihcShlMwzpbVgpoZ8EYXTVFgvSZWJfuZAxbtDeMOD-IvTS63w5IJLCxAxZ4Si2m5ZH-e-X63AfgYlo-stoZxqLX9zhcvmKYBPjtyGvj3M8GUcqhADYoDdVGv3YMBF8OshUDXL41Z_B3xT7VbYFFNPuQf7BCfkS4gjMPtY7r-x41rw86eFu6rM8jbEVfZQuPXXJF0h1bzx50KFOhke5CEuhKD08WNi384ED0G1GHSOorWzRjVc7CZm2AAN2mMtYUN9o0bRnt0OS2XRRZYfudGRsdh7_QtMUPOnX2y0Hxe57Iooy4eq3lheOaanQsNkr81x-iPZwSjG2C6GaJOFe4xfFmBRhI2Iodl60VlqoBMwR9weAer_1LpzwnOKJEL2R706P-ZHJmcpnEM8S6kY2bbJsehUTWAzYdfjbBDhcSVL4epg5yAEzpiRXctNpD2YVIPASAsfVaBahVbjVSqiHREkhbhtxyRHgy4TUNp1UPAbaU9JIxvWpw-_9KFEg-Xz8AwoJ3k30ntjNeHfjlOXOHUIPlvsg9hc1Eq3_U4ixM9zjr6xkm7VFCynX8O3gVUi0gJrTGkPPSIPe-mQXJ6CIAdKdg3F9rxUp8K927lJUrvebk81mJEgQMSSkzPETYKfwmHjkL-sLIz6kvvoxZefucNhM1LqRQ746kRvBdHwKCDh_PZ_CGC9qSVJXUOKTBnE2qWKfW9mNwlfkZrBTwSqbTk7f9lmh9MEJfcgTOOY5wNAdjgiPbau8rsfydJ4Ufa43BwpKgwun8vlwNkrzeSBD72lWk-5yOtAwmAY7tQ2rcyx3FpRgh6KEmIJtEnke5Nwfj_91SrYK9eFdyStlQ7fn5uIGlleVva_9ClNe70d073VBCp_wkAh1D0f6GJMB8pwVOLQKoqa_xBwzezcS7YR0qPjq9qVt91nxUBumBAQRGj23p27MG5K85AmpqgKWSJzJrHky_HMVOOdAa7uS8FCuppaoXCKR4DZ4qVSjvwuoQVOrj0YJBCA0Wlx98veAb7eyJ4aQySzdJV0kTAE2nA1EvzfCqQj1RCS25vghSEUOb3I5mDCVEpoUOjUH-54Q-QTIOnwaUSQ_r5Bh_n-F33ptGGyTh-juFODcEkRCsfs0nM310oS2I1d4asJKO_8MmRbo4825oeO6-Jm2lBKneCKFydn5Wf4km9ZW2LV6q_rGtsuTJ1uT2VOZ0cKQ9udLkU_UoElw9rPmJ0DNw3lnutHXeX3tc86W-2YLEhFzQyuDnPGJv3i4Bx4KHcRy808nWHIeMUkJHfRpTJbttkhI4BaL9sVLamdh1NIhy8K1WmhjV5Sf-KEk0-CSosp9O8_mcCbRpHtja7CRtohDXKuP94LB7uiYS9oU336QqoTG9ulSUoepTYyryKQti_bl28oElvkCFG4eU25zJW5lqL8RQsZm8r1p0Gc58TV8bXojiBqWWebaE0yBveBH3-9XBEAilE8TbwdsjwllcqkwKz_KNuyLQLrTRbjJjr-60cV1YapJ7N6aRg5f3efYBMhzs1x0vu5GITPoORvqPTQv_P1LgB0MZTpBljPxsydN76BPxPKGEDs5uSLPLNKs9pLSC9Zf-CPPmXCgPd7W-eeckiJBPf4_Patc67WrwPP7wITqV_4mEPgtBmHLIgTelDeG6sjKfYFz-UA9zCGd5kE4bT3L8VZXhzoSgDMYsGzs6bmne2XlrNeQ6-OyVPqMKXPjyIQ3STiQjr-U4Ka6sOG5ttmO3r-W_RcX1rbm3GqVjHrMoSpMy45d4TKnkp8yx3zLsen7z85k4TPnJ0-FUDzRnaGGq2IkmLqRNNvsx-hipnGZQvQHy5Srwm48Zsysdwju8yAr4vJ2XipywLDOSBv0BOJ6sN2gh7ko8A7XM37KaKzeCrgSnR04cTUMB3s1xpmhUsXU1JebVGR5k5gZgxOaD4472_NFBFdrhn6HgJ_W24_bMnOSjtoSpulFj_Pflm-fubmALXaCSjruF8bqXeKmfSXN5GBXDhcVJoBLtPv5PRKH-icCq3b2jeH8ViX4Dke-6coFoesfxXxL_yIs5r-E-io9K6Ti3wz_GLTZnAQyXgVWOQXdeBAqv8CHi38ITdRoaz6kKkgPaslLHTmIjwDulEZUHiGeXk9KyFZEJf9IYKj0Zp80aqibNObntZV_UcOw8EwFqR29_-GgyIlZvhfK2nTlwhh4wCKnCyiY9zS0KmhzCUgcfChiQBkEBQKK7KspPDRgLQ5Y2aIlMSrsteZRDabmggvSwRyo1GpsFySmiI22_8sAomKQ9NYzNURQ4Ovup_UvhiXw5cTCjJkeszAfgEm-P2i7WutJu84hCDIC6vZ0umSDypFtQsx_D3s94_alC7eps3hnMWovG1-P6R3xKcmSNJlb72RADAfkOgf40YUHGkhX1-OzTP-9UbHQs88G28ya-ewWLAo3o4zYmR1QI9fpbbLG3FMUuFDFetDg86S6FXHy9yUL-Kck7bh_quGrXgxgDkK1zsr90Mu9QZLPszHa8nxDr2283ldpywAIhtcipcFlMzgP7BJROB9Pow1SVtP5dta9MFTCw_r6vauT4vFo8nQXuIzSigd3XIzeWXUDPFZRcqXcIECJnjlk5BcSdQOyh0ZWheTk4ZrTU5EOKAiyv0ZSg0ib8Aky4SvWtiNOgIGhtU-ZrVTyDTsrymfIngxx19I9zFCYNcdSyIQnRA-PuS_9zVcYy4A86E4n-dHppjbwsE-G2GIwme9h0Gxvfw7cGnN0_ya1h4n1NI_WXlpK2srQ8aerE8i-12VNQw2jHYK-4q9MGxIvVhK1I4bqFqUC11GPookS-70HdExNwGfYcrrIWdwO8wLlWYMmfVVeGmSJTqxvviysbA2OGBr0LZNSALCUul4iRc7Q3Edqbs9tMstBCaeFhoOzKnyQJbBRP9CxUyrGsMdiW3N9G1yNqtUvrlQxhF0XA7PljNGa-80h3Ky-G_byLQaGQcB_9UUy0AFgWcfGVexjDUMU-KqMEzPGBMZAYLBQKd8wmMTytgZ-XKUuRKZsPbdJ8r3kUFhNp0m7HJ-byAtb8bKLBhU9e1gGm_unnW-Xbs6xFOU3qPF0ixMIcM3W05iHGUcD9Kx9yrdj10OYmLUl4B7Ur4ENYYSk8Uug7HTpMo4SOrDYgn3b1d42IFwGk-CyCtViZdMEL6IL7enXFqKoxh8pcNsx3NKNgbCkKCaSxvUMyi7kaTllAVjrAzNWm0eAzHCvsZGygkQCww_FHLHNwNtEtrZyM=",
+      "summary": []
+    },
+    {
+      "id": "msg_0aefbd0d646ae0ee016aab2263ce9487d1beb4ccb86c083fdb",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<OpenToolInvocation> | null\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ClickToolInvocation> | null\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<FindToolInvocation> | null\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ScreenshotToolInvocationV1> | null\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"image_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"},{\"path\":\"sports\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SportsToolInvocationV1> | null\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].opponent\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_from\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_to\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].num_games\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"sports[].locale\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"finance\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<StockToolInvocationV1> | null\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<WeatherToolInvocationV1> | null\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather[].duration\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"calculator\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<CalculatorToolInvocation> | null\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<TimeToolInvocation> | null\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\" | null\"},{\"path\":\"search_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"search_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4743
+    },
+    "output_tokens": 1645,
+    "output_tokens_details": {
+      "reasoning_tokens": 453
+    },
+    "total_tokens": 6528
+  },
+  "user": null,
+  "metadata": {}
+}

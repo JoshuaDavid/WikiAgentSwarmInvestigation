@@ -1,0 +1,22 @@
+{
+  "http_status": 200,
+  "request_id": "req_680a91fbd09a4ddabec3aff6b20fd01b",
+  "elapsed_s": 2.191,
+  "response_id": "resp_07f546c07b979318016aab14a66fe487d1898caee8a8fcb32d",
+  "status": "completed",
+  "model": "gpt-6-astra",
+  "text": "No main heading was returned.",
+  "error": null,
+  "usage": {
+    "input_tokens": 4519,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4347
+    },
+    "output_tokens": 32,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 4551
+  }
+}

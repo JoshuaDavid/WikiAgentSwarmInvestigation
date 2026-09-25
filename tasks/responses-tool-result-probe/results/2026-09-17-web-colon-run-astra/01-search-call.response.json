@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Invalid 'tools[0].name': string does not match pattern. Expected a string that matches the pattern '^[a-zA-Z0-9_-]+$'.",
+    "type": "invalid_request_error",
+    "param": "tools[0].name",
+    "code": "invalid_value"
+  }
+}

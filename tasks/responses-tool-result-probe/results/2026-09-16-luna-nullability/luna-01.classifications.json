@@ -1,0 +1,272 @@
+{
+  "open": {
+    "path": "open",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<OpenToolInvocation> | null"
+  },
+  "open[].ref_id": {
+    "path": "open[].ref_id",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "open[].lineno": {
+    "path": "open[].lineno",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "integer | null"
+  },
+  "click": {
+    "path": "click",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<ClickToolInvocation> | null"
+  },
+  "click[].ref_id": {
+    "path": "click[].ref_id",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "click[].id": {
+    "path": "click[].id",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "integer"
+  },
+  "find": {
+    "path": "find",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<FindToolInvocation> | null"
+  },
+  "find[].ref_id": {
+    "path": "find[].ref_id",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "find[].pattern": {
+    "path": "find[].pattern",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "screenshot": {
+    "path": "screenshot",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<ScreenshotToolInvocationV1> | null"
+  },
+  "screenshot[].ref_id": {
+    "path": "screenshot[].ref_id",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "screenshot[].pageno": {
+    "path": "screenshot[].pageno",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "integer"
+  },
+  "image_query": {
+    "path": "image_query",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<SearchQuery> | null"
+  },
+  "image_query[].q": {
+    "path": "image_query[].q",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "image_query[].recency": {
+    "path": "image_query[].recency",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "integer | null"
+  },
+  "image_query[].domains": {
+    "path": "image_query[].domains",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "string[] | null"
+  },
+  "sports": {
+    "path": "sports",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<SportsToolInvocationV1> | null"
+  },
+  "sports[].tool": {
+    "path": "sports[].tool",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "\"sports\""
+  },
+  "sports[].fn": {
+    "path": "sports[].fn",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "\"schedule\" | \"standings\""
+  },
+  "sports[].league": {
+    "path": "sports[].league",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "\"nba\" | \"wnba\" | \"nfl\" | \"nhl\" | \"mlb\" | \"epl\" | \"ncaamb\" | \"ncaawb\" | \"ipl\""
+  },
+  "sports[].team": {
+    "path": "sports[].team",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "string | null"
+  },
+  "sports[].opponent": {
+    "path": "sports[].opponent",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "string | null"
+  },
+  "sports[].date_from": {
+    "path": "sports[].date_from",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "date | null"
+  },
+  "sports[].date_to": {
+    "path": "sports[].date_to",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "date | null"
+  },
+  "sports[].num_games": {
+    "path": "sports[].num_games",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "integer | null"
+  },
+  "sports[].locale": {
+    "path": "sports[].locale",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "string | null"
+  },
+  "finance": {
+    "path": "finance",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<StockToolInvocationV1> | null"
+  },
+  "finance[].ticker": {
+    "path": "finance[].ticker",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "finance[].type": {
+    "path": "finance[].type",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "\"equity\" | \"fund\" | \"crypto\" | \"index\""
+  },
+  "finance[].market": {
+    "path": "finance[].market",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "string | null"
+  },
+  "weather": {
+    "path": "weather",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<WeatherToolInvocationV1> | null"
+  },
+  "weather[].location": {
+    "path": "weather[].location",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "weather[].start": {
+    "path": "weather[].start",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "date | null"
+  },
+  "weather[].duration": {
+    "path": "weather[].duration",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "integer | null"
+  },
+  "calculator": {
+    "path": "calculator",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<CalculatorToolInvocation> | null"
+  },
+  "calculator[].expression": {
+    "path": "calculator[].expression",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "calculator[].prefix": {
+    "path": "calculator[].prefix",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "calculator[].suffix": {
+    "path": "calculator[].suffix",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "time": {
+    "path": "time",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<TimeToolInvocation> | null"
+  },
+  "time[].utc_offset": {
+    "path": "time[].utc_offset",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "response_length": {
+    "path": "response_length",
+    "nullable": "no",
+    "omittable": "yes",
+    "declared_type": "\"short\" | \"medium\" | \"long\""
+  },
+  "search_query": {
+    "path": "search_query",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "Array<SearchQuery> | null"
+  },
+  "search_query[].q": {
+    "path": "search_query[].q",
+    "nullable": "no",
+    "omittable": "no",
+    "declared_type": "string"
+  },
+  "search_query[].recency": {
+    "path": "search_query[].recency",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "integer | null"
+  },
+  "search_query[].domains": {
+    "path": "search_query[].domains",
+    "nullable": "yes",
+    "omittable": "yes",
+    "declared_type": "string[] | null"
+  }
+}

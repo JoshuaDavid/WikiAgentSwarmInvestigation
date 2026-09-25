@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-16T22:14:03.022949+00:00",
+  "model": "gpt-6-astra",
+  "marker": "REPLACED_HEADING_999f31966f81629e339b3ec4",
+  "original": {
+    "http_status": 200,
+    "request_id": "req_2af88a751e4e4d00807e5adc205ca00f",
+    "elapsed_s": 5.296,
+    "response_id": "resp_07f546c07b979318016aab14a227b087d1b03f26bde3daaab8",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "Example Domain",
+    "error": null,
+    "usage": {
+      "input_tokens": 4654,
+      "input_tokens_details": {
+        "cache_write_tokens": 4293,
+        "cached_tokens": 0
+      },
+      "output_tokens": 34,
+      "output_tokens_details": {
+        "reasoning_tokens": 28
+      },
+      "total_tokens": 4688
+    }
+  },
+  "replaced": {
+    "http_status": 200,
+    "request_id": "req_680a91fbd09a4ddabec3aff6b20fd01b",
+    "elapsed_s": 2.191,
+    "response_id": "resp_07f546c07b979318016aab14a66fe487d1898caee8a8fcb32d",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "No main heading was returned.",
+    "error": null,
+    "usage": {
+      "input_tokens": 4519,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4347
+      },
+      "output_tokens": 32,
+      "output_tokens_details": {
+        "reasoning_tokens": 20
+      },
+      "total_tokens": 4551
+    }
+  },
+  "original_replay": {
+    "http_status": 200,
+    "request_id": "req_1c0a1a165a14405e93ca507de411328c",
+    "elapsed_s": 2.578,
+    "response_id": "resp_07f546c07b979318016aab14a8b6a487d1a5c2833aebd18997",
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "text": "The tool returned no content, so I couldn’t determine the main heading.",
+    "error": null,
+    "usage": {
+      "input_tokens": 4519,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 4347
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+        "reasoning_tokens": 25
+      },
+      "total_tokens": 4565
+    }
+  },
+  "replacement_observed": false,
+  "control_has_no_marker": true,
+  "original_content_preserved": false,
+  "replay_input_token_counts_equal": true
+}

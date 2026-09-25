@@ -1,0 +1,42 @@
+{
+  "state": "AWAITING_FETCH_DECISION",
+  "call": {
+    "id": "fc_0a9f3e7b4c3038dc016aab1917226887d191f533ec8cb3bd25",
+    "type": "function_call",
+    "status": "completed",
+    "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+    "call_id": "call_hnKX7Hk6DcujdkpK5N7SCJKT",
+    "name": "run",
+    "namespace": "research_web"
+  },
+  "resolved_url": "https://example.com/",
+  "history": [
+    {
+      "role": "user",
+      "content": "Search for \"IANA example domains\", then open the first search result using its returned reference. Report only the page's main heading. Use the opened page content, not the search snippet or prior knowledge. If opening reports a cache miss, reply CACHE_MISS. Do not retry."
+    },
+    {
+      "id": "fc_0a9f3e7b4c3038dc016aab1914d8e087d1b0741ef904a1c665",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"search_query\":[{\"q\":\"IANA example domains\"}],\"response_length\":\"short\"}",
+      "call_id": "call_ktKjr1uovZk8mNMvWB7j6lx2",
+      "name": "run",
+      "namespace": "research_web"
+    },
+    {
+      "type": "function_call_output",
+      "call_id": "call_ktKjr1uovZk8mNMvWB7j6lx2",
+      "output": "Example Domain (https://example.com/)\nciteturn0search0 [wordlim: 200] Crawled: today; This domain is for use in documentation examples without needing permission."
+    },
+    {
+      "id": "fc_0a9f3e7b4c3038dc016aab1917226887d191f533ec8cb3bd25",
+      "type": "function_call",
+      "status": "completed",
+      "arguments": "{\"open\":[{\"ref_id\":\"turn0search0\"}],\"response_length\":\"short\"}",
+      "call_id": "call_hnKX7Hk6DcujdkpK5N7SCJKT",
+      "name": "run",
+      "namespace": "research_web"
+    }
+  ]
+}

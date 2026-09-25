@@ -1,0 +1,16 @@
+{
+  "http_status": 400,
+  "request_id": "req_debc6995ce6b4e85ad82146eca19efd2",
+  "elapsed_s": 0.966,
+  "response_id": null,
+  "status": null,
+  "model": null,
+  "text": "",
+  "error": {
+    "message": "Invalid Value: 'tools'. Function 'web.tool' is not allowed in reserved namespace 'web'.",
+    "type": "invalid_request_error",
+    "param": "tools",
+    "code": null
+  },
+  "usage": null
+}

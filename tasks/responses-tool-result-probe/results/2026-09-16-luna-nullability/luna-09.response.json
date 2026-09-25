@@ -1,0 +1,117 @@
+{
+  "id": "resp_0c587089c7d84881016aab225f896087d1a7bbd4bb7198f262",
+  "object": "response",
+  "created_at": 1789600351,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600362,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0c587089c7d84881016aab226018d087d18e916b3970ce4215",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJqiW1pFP_72rzhi4LtFxXvtLnSgm4NUGWGwc4g2PykIaHgVLLaTxmbU5N2S1uUIad565TJjacZWF_jV-k8QXqUeFueQ3PAl8qt85Zq1-6ysLOomwic2NOu4puJ1HLGrvPJJW_3HEjiDEw5OyZIY0tnRqVH-NZ03JLLFxokYMyDYXL4I9rL5uffut6yXTvyWH_8U8iW312rxeDCxv9edKnuflkQxb5Tg1gQ0fHNKWfuWeNPW71fAvYqVt55Liv6k4YEkZjLDubDbyBE_CEAy8kLPibO128aBnHyCkRCLlcMZGsthNkwanfLlzHp7d-_L2cLDlBng1DBY5un9XAOXW9J74sbPstYLC4npE9khO0ot0PV328JnWgVCYgg44rdy186bn5KkUrox2tYiEOHg1ErC2Xyir0vhWVy43vnyo1_CtlZGur8Xpy2ZPyjRSX31IRd8jJCMRS-XlP9IquzX0v7yRe8rHT4rBksFHQsFp01sQxWi7cPTBBpcr_YFvvlclHqt1lAXEZjtohbk0LBhtAg-bsz7Vyzv1fBDHyI9DZZgObzcm54cabsKdvDwyQomXO965s3KAz9OvLiXftqmrV755ffS94fxvXuVw-E47uF_1U9r31xpqjVaqTQ5OOEOVvC3r4JO9NdqsaqRltbzKvMol6T6jxwYceiINa0F0iTYWlnCiP4lxU4_gShHHDKoQB9A51x0d3QfQGGo4HJsW-W410AX-ISkgxIKRu09bpRHHspnpb7BA6oTa2zJ5sfkavIJBfIg0sE7cNVy73N-wMpkMDjqEmhLRvKH0-9F7MrIw5Fnu_cFEm6WYatF1NKw1ndAi5GLwGxVCNyIqxp1jMpdhQVPJeSuPN_aK1JiBAi4MgKppQMr15gNqZ67wxBaw4ZwgvgeL7e2aZa2vGcV7osDGvmcjMI2zHp8rMboHRAcvS28fHuCPfPg7d1Pu9wQWXS0hn6seP3LE8wf3m9Pa3paq2A_Jo3UhoRSgmBy1SOpvldG0OxqFs-R4ZAfbHlz-ND3WkvH3WeTZKOIhnlGlz5TfQhDR8avvAecB2cCGw6iPGBetISo5LiUolxowAZ5QBfL3IDGKfWZ2LoNuMP9KZSFo4Rt4vFv6daceTmwAF9Ybsey52vOTIg_oI8hqD83R2CAT-95jBk82v5o0ILn6EDXsQtw3j3zUE_C6OxKuZ4mqNSsxQdO1U7gS1s1M18guE5IlTWXO_FTZU-uIZbuzKBlkD843uDlg5FxKXs_XVgTEzofPLsuiAH4qmR_VGE-CEc9p_H0ssPHiHGSwpnJY3Y2Vjnz8DPF8iKe30JR2KylHXr87Jvc-vMzxcy5UXtlXwId53Fr79JPlb1iOMF4ZX7cvZUXBDVWn7LJOYPlTpDngNLy59Fi7SEVcmwiqr5Lx_ZjxYylH39AdyFf1a6Z2MsNG3d5RzB3k9mZ_Kcw4ymhQwdqdycg27UrBZy_P1je1Ksi8w2F3ktf1DJgJD8KrRb4mxWLpoIOhSntUrfHAy65sS2td7Mesvv0fmFoWlcAVnk86mA72Bll5F8Gte48bA4yCCwAEi4CZx1U7_tKK8keu6elixcHG-Qd-2DEZnK3Revm9JSCIAP_ehLtyS-uJeXnwp2hcrC8_Hkdcg0mzH5G3MTL9d-3a7UKsO943mBx4WSlVggZ60cnyAFnm-bZdIMFrLKkpsYFgYpC6ubLriMYoCgJ_8UOC2JwRtn4PgrlQx2sjzL_5bK6meC-gqh2VJC7BCy-UVtrti-Q9b6IsTBLczCUTp0IJLtO-GfPVX739vV6tEqWJh4qzVZ296WWfB4bLu413rLyc0YkmkqcNP_Vkyk-9QuXBaGXM5wvBPLi54K0tcjh-XqLvld4KyeJvHfe8a9Lhxo7uoCswUQzbV08qNcfYRHwGvJeDtGcJ3GGuoXS2RftIPWU0xOzk0CtOdRWKxd5P4W4bMytz12GQkkG8U1Es-Yp4y7LwIl5Ywu-xvE9szn2NOJyQgYk5gqixlxrWCxL_bSTZ2zqYCS99ONMBJNJQ-TRStDFWWw_uB0i_Iwe4h4nqTRMRgPIlCV0BIJ7SYFW1En5dSYwnEXEiUfJo91hEFzzm4UiJboM7RVhx09pcriu7mjQg6Z4hxnh2yYZHm89rS0aC2vtdQ_yfDbcaV12FtBU_hMsJJJ4K9kn3kSDijD27X8et4vxg6Jb2LdGCxC-0zdCW7mfQelXZhyJYS84IDqbTMLNa2H1lksY59k0AThLtuRSL6jCmQaZlU_BaHqG5OEiQ9-k874tn0KxB28rTcOUm1YEnNMNRdzmIweROX4Lkqbu3mo8Uce-GbkN98fQwr5Nh_0BE0Tv6vcyePC82iPQdjdPgCwbGFhxte7",
+      "summary": []
+    },
+    {
+      "id": "msg_0c587089c7d84881016aab2262970087d1820a9505c67194dc",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<OpenToolInvocation>\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<ClickToolInvocation>\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<FindToolInvocation>\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<ScreenshotToolInvocationV1>\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery>\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"image_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"},{\"path\":\"sports\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<SportsToolInvocationV1>\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].opponent\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_from\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_to\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].num_games\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"sports[].locale\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"finance\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<StockToolInvocationV1>\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<WeatherToolInvocationV1>\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather[].duration\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"calculator\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<CalculatorToolInvocation>\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<TimeToolInvocation>\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\"\"},{\"path\":\"search_query\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery>\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"search_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4743
+    },
+    "output_tokens": 1352,
+    "output_tokens_details": {
+      "reasoning_tokens": 184
+    },
+    "total_tokens": 6235
+  },
+  "user": null,
+  "metadata": {}
+}

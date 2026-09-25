@@ -1,0 +1,117 @@
+{
+  "id": "resp_0743252e0742db98016aab22535fec87d19aaa07c6c1675562",
+  "object": "response",
+  "created_at": 1789600339,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789600351,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 5500,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0743252e0742db98016aab2254aa2487d18f555975b90fa7d6",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqyJfK_-_AOlqxFs3nSxSk8_Rbae0Mo3bpKVnN_S2kB2owN9IVUIoLp1EXeyXbhyPo0n4Ti4JHVzc4vkQ-hSMwyXN1cqCPfowLrp-BJ2SEDTR9OyGJCtamW3duvhZ6KrwsLhSr51Rxmumw5_4hSN7pisdFgmWUo1FAU1IAczMm79Bg44OPWIB3xanMEGUbfZg-_qnDV8LbqsFs7G_isYYNTzesdRwqmlf4Z0VdHDW3TAMEp2BkF6PZHYrhHMkVmmfGKxJIW0NBYd8ACmwQlmWloBc30rv8E4s79Smjj15Sk78xfTeGX1zt0_7N60aeqjSKVh7kPLZEA_sfppvcf7TNGuNAZPiFzpgpqVmGwgWcZ2dnEi_niZmpRMCQpy6SRD80OBrvO5xJO3t7poucXS8jyl7WjFwCehpJ-nNpGM6GZzhisxS0GpIDzSZfmNxNHbRGVH1OG07gAVoZcy0ij549CwH8nPLtr9HtljxX5KwWmIezDJSms8AOH2tvcC4DfHmXLINDBVVj3x1KpraywbFlaTWYZW-VFCwRKRXq2aO3I86t75DRwdx13Y1oQXqW-CU14ljJR3BNYcci21Tlt8r_tAe6Tuljy7OYmhjiMKrY6K_dMmg7Wi8hOMuWLiF3Sm-ZHFQOkTzQYVqKLDMENqV5_kZHR0xTY9yRYSqz-ryjO0BSUao6Uc6QFOHl-xe4XwMDdNDUB_3Ubb4sBkqGc68J0nYth-_x048WQajkWs9yxPqjJdo4-3lHiMgBVz4rwBXanmmX3CWZ-lSsuHobDXC82qjPxVgXCRZqXzvRp4VZ7uYXG-8JJt5kRRqWWbGI4wpYuW212MWe4LpnTOpmgpQKYbdv4PtVVgOoO0SeJ7ZCGwTXMWLTPHsxV-lTWXlJgJKTT1MIVP1SJ1U72XwjU6CsX7Wz4-XsWyzB8_9SpdduMMmI1npcWxJWLx2RbY0vW0Nu-34jyE5RgnvT-siKcEkwoDkBduZyQJRheCz0BVQvfiBdZuwSS0tQCUijHSPOrlDynmsEr93mlDXXy0uOZBsaW3lWSg4fF-5G0_LQaGpLTSbg-0ZIxeZ12WFKbdLZGOprDxnYmibFfDLjkElqYjyb-OouhkuDU9EEomGAhmjB27u9klEzesEVhQi4dd1FOWFyyZkYpdSBy2C_ZAhkJ7D1f7EIziRzDId864IMbOga3mr7udLy1bOM7dCVxiE-P6itKnscq9rNXXQPzlFjqkBWuLZN9PL-gcxY7b40hPAHU43UbuZWkNv2iBUf3QMUCZIgt-YDscGHNpV1YWtSQapOoL1G0YcDcrd8Y-9GdFJprVVbXiL_N0Inj2JwhWuZwLKGPA4_C67tLmm22W0kMojJYFxwJm9J5l6sMGX8f-S1ufBuO2OL2oDXzCx8KyiDfBCGXLElXn4MsfW_Y5QTHqWczxgpI-VDwIqclTBncuNx0c2lM3i1iOkRaoWdnwEMO0fRKKaaE4WAFQlma1pZrwfL5W7QMBJfF1UmNgJVaGBHWLWEbthuD8TaNYkE9x6g-Avl8lgkCVdQecb3WToWwQDc9dnW7Z-L9pciuthWwoey_HI55vH1FMejPhKLfWldoBz0l-6FW7O3x33PdlqUNJjbZIthov111dqzQ8EE224UDUeEXFihuI2GcWlsCkBLO1mYqlfx5twZSnoioyiheJCvgpQ5x0c7izUXFutv7qGyxi4X7QRXtrkLu_QRasr5Pskx_vcse8TXPL36cbwdxtd8dOEniag0Z8404CaADb5txKrq39QkBCtHnsn8XnsvKrUN_xA9kFjiUTDHd1jPR7xhQ6kgtT-Q81yknonyO-4z73-QCtGA484YXYUTAvc7wBN0M02Xx2wWWpKeZRdjySSvN7-9QHSFFrk_W1TRpa-yHMEFMszIJhmZncFGbaGTTpelBDBJpnKuvzCzp2iBhKWbACmd_DnI9AYJuqsP62BO6tnyAyXpskc-1tx1BBDdjWz-xqekjEi50zXcjVLPhEvSzRj7y1Ckqjd90zV5APZRSAYUGApN3wOr8lI4eN30Wq_XRYIM006CMe9l7OZVdNNuhUl7tBomuhqMTLUnW2--hGLkk7PfHeRQJ3Y8nj2yvEANDENYabrB1V0hx8vlWHhqO5s-0Cbt-eYWgyyr3Xbbgf18GLYtJ6kZVBIxL30IrApmHROguGlRn2mWy_3-yFhHO5yiVVzOAmpeNrs8r0Gc2IQlzw7-MziwNxN6dc-3_cz0t1UkWGjb8iCJwNMeNP1otbpFH9IlLu1Mw0Y-f8-r_gJr8jgbB0ZbMScozBXnhjKgWqVjHmyavpyIvm2gE58BVU2ok1En5-bxgOIxAW88fT4dHfSioTG9RIuFUYk7Cq7yjO0gMwwV5SRYSAOs_JScjy9Qn2x-Yi10ReFxh1Sn6vOMOMi5NKIijX5EZQAux96oFcEUhGytrrgZF6nOdN95UTjtl-6SWEMeCYy4rgB_TbkTqM=",
+      "summary": []
+    },
+    {
+      "id": "msg_0743252e0742db98016aab22573f8c87d1ae0d3f4ca413c198",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"fields\":[{\"path\":\"open\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<OpenToolInvocation> | null\"},{\"path\":\"open[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"open[].lineno\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"click\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ClickToolInvocation> | null\"},{\"path\":\"click[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"click[].id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"find\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<FindToolInvocation> | null\"},{\"path\":\"find[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"find[].pattern\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<ScreenshotToolInvocationV1> | null\"},{\"path\":\"screenshot[].ref_id\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"screenshot[].pageno\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"integer\"},{\"path\":\"image_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"image_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"image_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"image_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"},{\"path\":\"sports\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SportsToolInvocationV1> | null\"},{\"path\":\"sports[].tool\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"sports\\\"\"},{\"path\":\"sports[].fn\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"schedule\\\" | \\\"standings\\\"\"},{\"path\":\"sports[].league\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"nba\\\" | \\\"wnba\\\" | \\\"nfl\\\" | \\\"nhl\\\" | \\\"mlb\\\" | \\\"epl\\\" | \\\"ncaamb\\\" | \\\"ncaawb\\\" | \\\"ipl\\\"\"},{\"path\":\"sports[].team\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].opponent\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"sports[].date_from\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"date | null\"},{\"path\":\"sports[].date_to\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"date | null\"},{\"path\":\"sports[].num_games\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"sports[].locale\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"finance\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<StockToolInvocationV1> | null\"},{\"path\":\"finance[].ticker\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"finance[].type\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"\\\"equity\\\" | \\\"fund\\\" | \\\"crypto\\\" | \\\"index\\\"\"},{\"path\":\"finance[].market\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string | null\"},{\"path\":\"weather\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<WeatherToolInvocationV1> | null\"},{\"path\":\"weather[].location\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"weather[].start\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"date | null\"},{\"path\":\"weather[].duration\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"calculator\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<CalculatorToolInvocation> | null\"},{\"path\":\"calculator[].expression\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].prefix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"calculator[].suffix\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"time\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<TimeToolInvocation> | null\"},{\"path\":\"time[].utc_offset\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"response_length\",\"nullable\":\"no\",\"omittable\":\"yes\",\"declared_type\":\"\\\"short\\\" | \\\"medium\\\" | \\\"long\\\"\"},{\"path\":\"search_query\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"Array<SearchQuery> | null\"},{\"path\":\"search_query[].q\",\"nullable\":\"no\",\"omittable\":\"no\",\"declared_type\":\"string\"},{\"path\":\"search_query[].recency\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"integer | null\"},{\"path\":\"search_query[].domains\",\"nullable\":\"yes\",\"omittable\":\"yes\",\"declared_type\":\"string[] | null\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4883,
+    "input_tokens_details": {
+      "cache_write_tokens": 4743,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1404,
+    "output_tokens_details": {
+      "reasoning_tokens": 214
+    },
+    "total_tokens": 6287
+  },
+  "user": null,
+  "metadata": {}
+}

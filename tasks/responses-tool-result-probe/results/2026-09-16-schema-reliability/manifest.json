@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-09-16T22:43:04.191331+00:00",
+  "samples": 5,
+  "model": "gpt-6-astra",
+  "source_request": "/collusionwiki/tasks/responses-tool-result-probe/results/2026-09-16-native-schema-text/01-native-schema-candidate.request.json",
+  "request_sha256": "d917f12273d87cffd37feb434e1908ab704e8239793c802d1919630e43368ee7",
+  "sampling": "Independent fresh requests with identical input and settings; no shared response history",
+  "historical_sample_included": false
+}

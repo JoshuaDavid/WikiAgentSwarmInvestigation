@@ -1,0 +1,425 @@
+{
+  "type": "object",
+  "properties": {
+    "open": {
+      "description": "Open the page indicated by ref_id and position viewport at the line number lineno. In addition to reference ids (like \"turn0search1\"), you can also use the fully qualified URL. If lineno is not provided, the viewport will be positioned at the beginning of the document or centered on the most relevant passage, if available. You can use this to scroll to a new location of previously opened pages.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "description": "Ref Id",
+            "type": "string"
+          },
+          "lineno": {
+            "description": "Lineno",
+            "type": [
+              "integer",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "ref_id"
+        ]
+      }
+    },
+    "click": {
+      "description": "Open the link id from the page indicated by ref_id. Valid link ids are displayed in the page's link formatting.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "description": "Ref Id",
+            "type": "string"
+          },
+          "id": {
+            "description": "Id",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ref_id",
+          "id"
+        ]
+      }
+    },
+    "find": {
+      "description": "Find the text pattern in the page indicated by ref_id.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "description": "Ref Id",
+            "type": "string"
+          },
+          "pattern": {
+            "description": "Pattern",
+            "type": "string"
+          }
+        },
+        "required": [
+          "ref_id",
+          "pattern"
+        ]
+      }
+    },
+    "screenshot": {
+      "description": "Take a screenshot of the page pageno indicated by ref_id. Currently only works on pdfs. pageno is 0-indexed and can be at most the number of pdf pages -1.",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref_id": {
+            "description": "Ref Id",
+            "type": "string"
+          },
+          "pageno": {
+            "description": "Pageno",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ref_id",
+          "pageno"
+        ]
+      }
+    },
+    "image_query": {
+      "description": "query image search engine for a given list queries",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "q": {
+            "description": "search query",
+            "type": "string"
+          },
+          "recency": {
+            "description": "whether to filter by recency (response would be within this number of recent days)",
+            "type": [
+              "integer",
+              "null"
+            ],
+            "default": null
+          },
+          "domains": {
+            "description": "whether to filter by a specific list of domains",
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "default": null
+          }
+        },
+        "required": [
+          "q"
+        ]
+      }
+    },
+    "sports": {
+      "description": "look up sports schedules and standings for games in a given league",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "tool": {
+            "description": "Tool",
+            "type": "string",
+            "enum": [
+              "sports"
+            ]
+          },
+          "fn": {
+            "description": "Fn",
+            "type": "string",
+            "enum": [
+              "schedule",
+              "standings"
+            ]
+          },
+          "league": {
+            "description": "League",
+            "type": "string",
+            "enum": [
+              "nba",
+              "wnba",
+              "nfl",
+              "nhl",
+              "mlb",
+              "epl",
+              "ncaamb",
+              "ncaawb",
+              "ipl"
+            ]
+          },
+          "team": {
+            "description": "Search for the team. Use the team's most-common 3/4 letter alias that would be used in TV broadcasts etc.",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "opponent": {
+            "description": "use \"opponent\" and \"team\" to search games between the two teams",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "date_from": {
+            "description": "in YYYY-MM-DD format",
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "default": null
+          },
+          "date_to": {
+            "description": "in YYYY-MM-DD format",
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "default": null
+          },
+          "num_games": {
+            "description": "Num Games",
+            "type": [
+              "integer",
+              "null"
+            ],
+            "default": 20
+          },
+          "locale": {
+            "description": "Locale",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "tool",
+          "fn",
+          "league"
+        ]
+      }
+    },
+    "finance": {
+      "description": "look up prices for a given list of stock symbols",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "description": "Ticker",
+            "type": "string"
+          },
+          "type": {
+            "description": "Type",
+            "type": "string",
+            "enum": [
+              "equity",
+              "fund",
+              "crypto",
+              "index"
+            ]
+          },
+          "market": {
+            "description": "ISO 3166 3-letter Country Code, or \"OTC\" for Over-the-Counter markets, or \"\" for Cryptocurrency",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "ticker",
+          "type"
+        ]
+      }
+    },
+    "weather": {
+      "description": "look up weather for a given list of locations",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "description": "location in \"Country, Area, City\" format",
+            "type": "string"
+          },
+          "start": {
+            "description": "start date in YYYY-MM-DD format. default is today",
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "duration": {
+            "description": "number of days. default is 7",
+            "type": [
+              "integer",
+              "null"
+            ],
+            "default": null
+          }
+        },
+        "required": [
+          "location"
+        ]
+      }
+    },
+    "calculator": {
+      "description": "do basic calculations with a calculator",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "description": "Expression",
+            "type": "string"
+          },
+          "prefix": {
+            "description": "Prefix",
+            "type": "string"
+          },
+          "suffix": {
+            "description": "Suffix",
+            "type": "string"
+          }
+        },
+        "required": [
+          "expression",
+          "prefix",
+          "suffix"
+        ]
+      }
+    },
+    "time": {
+      "description": "get time for the given list of UTC offsets",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "utc_offset": {
+            "description": "UTC offset formatted like '+03:00'",
+            "type": "string"
+          }
+        },
+        "required": [
+          "utc_offset"
+        ]
+      }
+    },
+    "response_length": {
+      "description": "the length of the response to be returned",
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "short",
+        "medium",
+        "long",
+        null
+      ],
+      "default": "medium"
+    },
+    "search_query": {
+      "description": "query internet search engine for a given list of queries",
+      "type": [
+        "array",
+        "null"
+      ],
+      "default": null,
+      "items": {
+        "type": "object",
+        "properties": {
+          "q": {
+            "description": "search query",
+            "type": "string"
+          },
+          "recency": {
+            "description": "whether to filter by recency (response would be within this number of recent days)",
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "default": null
+          },
+          "domains": {
+            "description": "whether to filter by a specific list of domains",
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "default": null
+          }
+        },
+        "required": [
+          "q"
+        ]
+      }
+    }
+  },
+  "required": []
+}

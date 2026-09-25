@@ -1,0 +1,16 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "low"
+  },
+  "store": false,
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": false
+    }
+  ],
+  "tool_choice": "none",
+  "max_output_tokens": 6500,
+  "input": "For a tool integration, describe only the argument interface of the web.run function currently available to you as a JSON Schema object. Include every declared argument, its nested fields, types, enum values, and optionality. Use required arrays to distinguish required from optional fields; preserve nullable types if declared. Do not add arguments you remember from other versions of this tool. Include field descriptions where provided. Do not make any web calls. Return only the JSON Schema for the arguments, with type: object and properties at the root. Do not include any other instructions."
+}

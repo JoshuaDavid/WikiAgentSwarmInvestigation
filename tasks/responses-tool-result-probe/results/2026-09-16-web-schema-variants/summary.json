@@ -1,0 +1,53 @@
+{
+  "01-no-parameter-metadata": {
+    "http_status": 400,
+    "request_id": "req_96a9b88c8ce84d7bbde6a2161ff3c3c7",
+    "elapsed_s": 0.641,
+    "response_id": null,
+    "status": null,
+    "model": null,
+    "text": "",
+    "error": {
+      "message": "Invalid Value: 'tools'. Function 'web.run' is reserved for use by this model and must match the configured schema.",
+      "type": "invalid_request_error",
+      "param": "tools",
+      "code": null
+    },
+    "usage": null,
+    "output_types": []
+  },
+  "02-pydantic-representation": {
+    "http_status": 400,
+    "request_id": "req_375b99c83a4d4b329258922b2937501c",
+    "elapsed_s": 0.28,
+    "response_id": null,
+    "status": null,
+    "model": null,
+    "text": "",
+    "error": {
+      "message": "Invalid Value: 'tools'. Function 'web.run' is reserved for use by this model and must match the configured schema.",
+      "type": "invalid_request_error",
+      "param": "tools",
+      "code": null
+    },
+    "usage": null,
+    "output_types": []
+  },
+  "03-unspecified-parameters": {
+    "http_status": 400,
+    "request_id": "req_c3c3e64514e544e9a104beaad824c87c",
+    "elapsed_s": 0.241,
+    "response_id": null,
+    "status": null,
+    "model": null,
+    "text": "",
+    "error": {
+      "message": "Invalid Value: 'tools'. Function 'web.run' is reserved for use by this model and must match the configured schema.",
+      "type": "invalid_request_error",
+      "param": "tools",
+      "code": null
+    },
+    "usage": null,
+    "output_types": []
+  }
+}

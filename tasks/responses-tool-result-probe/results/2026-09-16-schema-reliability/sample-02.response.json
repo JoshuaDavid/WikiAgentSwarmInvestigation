@@ -1,0 +1,117 @@
+{
+  "id": "resp_0ab03d019874c4d9016aab1b78adb087d19f6c00d599bf9ae1",
+  "object": "response",
+  "created_at": 1789598584,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789598617,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 6500,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0ab03d019874c4d9016aab1b7a142087d1b7c3df96623ce83c",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqqxuZ2qN7sObZoK4-_S3gb6SD7_bqvrAgbZM1K_SybcFcDpw4nfiUqJ2T7DNwaGxJQu3BJi-gAMPxCKoSeMGqO7stGkwQDZ1kYZrWVZI0zN63fJ5dM8NbEUSj9kUfizixBSK-KQpMxZxUHL8P8do1ov9WuTHe-Mn8oI7yl80KdTPrYnrj-vPBp_miT60IutZb9Nm-yRScgDpEC5SiuFO9y9m9EXDZjKUrZ3qFW2vMcZJymy3-yEmkSfRkuZt32o3drBxzjM_UqLLW_C4LW-ZaPa_9ORuaPpGcWBvli3XWNFxcTaHH84AuVjLKacw_21oHxKuaOiSEcQ29Lw1Ya2bbjvJT3t02DRhHZqAXKjrr18CJONCLyypIryz2jmGEvxmFNTKmnBiWfCdhZPG_4S3_3b7tXFdY1RCzhUi6cUWZvYtjMKViNrr0Yb5bz4QzTnY61BMv-h1YCGHCCgTJIOJBqlR56matZZtJrU_fANaYD_g_ShEV8NoB-XueJdVoR7OaiSVApt6qNpqKdqZf3DbtxX2Q7ebjXKq9pgqi3SUIntelQZ9CkRvsCGDO0l2ul5VoP6sxfS0GQMC3eZiF24_3UJcgTCeibH5k_-yWEOuz9XpbKPZ9rY2JQtZEW2d7IbgQud7H2svGZS0Jg0pPrNvZkDFuoskBOrjrOWFDbHMvrwSp5hp9etdBJQcAAciLPENi8zusJHVdx3p4Un_k97VNDo6il-QODigfM5uY7B7Ke338ZzKyeDqSSYwK5-o5a0B1qxdQfxEGVdhGiAI8GhsrHQvXu0XKoT8ZPXllrQRnAYxiMsI2yIgq9NBY-0igwH29U5LQazRjz6qZProECozKMisoeRhSoyDQ9NJOL61jFTQATAJmwFo8wMC9LTMNSKwbdQEp4mqp34wBtRtixSNGFP2HyYmRoB_-FDdjGnLw49RJIJGxuhk95WPl9f45B-aYEVXABuk6_FMH62iRA0NNjDaWwLyP3FJvoATMlyta_t71BZwbrTP-DLu1R3NvnbXkWhD-3u-tqRc1iY_P0rGGsXKTYgCwHejfPTvqMde2_cZ5LzWJbmm75MJFCgjVzW9WYJFP4wmUjISCdZgpyMIt27SCFq09bgMXebUG134Aks9JLueGATgDlFI0JNtCa7FgB2K3lNgNmvgdK3Ih1z1tKg7VhTbPONmxLNpd36A5utaH5bjeTbN0AJgCb-1MSt5jbXET-DmqKawm1eDZnSoK0Lgp4HdRlo5IRuiertUZGzdMMxX95IkmqLsbgrEwodCcRaA5q5d0ApXokrce10c2Wi1OAA==",
+      "summary": []
+    },
+    {
+      "id": "msg_0ab03d019874c4d9016aab1b7acde087d1ab93efcc68a558dd",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"open\": {\n      \"description\": \"Open the page indicated by ref_id and position viewport at the line number lineno. In addition to reference ids (like \\\"turn0search1\\\"), you can also use the fully qualified URL. If lineno is not provided, the viewport will be positioned at the beginning of the document or centered on the most relevant passage, if available. You can use this to scroll to a new location of previously opened pages.\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ref_id\": {\n            \"description\": \"Ref Id\",\n            \"type\": \"string\"\n          },\n          \"lineno\": {\n            \"description\": \"Lineno\",\n            \"type\": [\"integer\", \"null\"],\n            \"default\": null\n          }\n        },\n        \"required\": [\"ref_id\"]\n      }\n    },\n    \"click\": {\n      \"description\": \"Open the link id from the page indicated by ref_id. Valid link ids are displayed in the page's link formatting.\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ref_id\": {\n            \"description\": \"Ref Id\",\n            \"type\": \"string\"\n          },\n          \"id\": {\n            \"description\": \"Id\",\n            \"type\": \"integer\"\n          }\n        },\n        \"required\": [\"ref_id\", \"id\"]\n      }\n    },\n    \"find\": {\n      \"description\": \"Find the text pattern in the page indicated by ref_id.\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ref_id\": {\n            \"description\": \"Ref Id\",\n            \"type\": \"string\"\n          },\n          \"pattern\": {\n            \"description\": \"Pattern\",\n            \"type\": \"string\"\n          }\n        },\n        \"required\": [\"ref_id\", \"pattern\"]\n      }\n    },\n    \"screenshot\": {\n      \"description\": \"Take a screenshot of the page pageno indicated by ref_id. Currently only works on pdfs. pageno is 0-indexed and can be at most the number of pdf pages -1.\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ref_id\": {\n            \"description\": \"Ref Id\",\n            \"type\": \"string\"\n          },\n          \"pageno\": {\n            \"description\": \"Pageno\",\n            \"type\": \"integer\"\n          }\n        },\n        \"required\": [\"ref_id\", \"pageno\"]\n      }\n    },\n    \"image_query\": {\n      \"description\": \"query image search engine for a given list queries\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"q\": {\n            \"description\": \"search query\",\n            \"type\": \"string\"\n          },\n          \"recency\": {\n            \"description\": \"whether to filter by recency (response would be within this number of recent days)\",\n            \"type\": [\"integer\", \"null\"],\n            \"default\": null\n          },\n          \"domains\": {\n            \"description\": \"whether to filter by a specific list of domains\",\n            \"type\": [\"array\", \"null\"],\n            \"items\": {\n              \"type\": \"string\"\n            },\n            \"default\": null\n          }\n        },\n        \"required\": [\"q\"]\n      }\n    },\n    \"sports\": {\n      \"description\": \"look up sports schedules and standings for games in a given league\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"tool\": {\n            \"description\": \"Tool\",\n            \"type\": \"string\",\n            \"enum\": [\"sports\"]\n          },\n          \"fn\": {\n            \"description\": \"Fn\",\n            \"type\": \"string\",\n            \"enum\": [\"schedule\", \"standings\"]\n          },\n          \"league\": {\n            \"description\": \"League\",\n            \"type\": \"string\",\n            \"enum\": [\"nba\", \"wnba\", \"nfl\", \"nhl\", \"mlb\", \"epl\", \"ncaamb\", \"ncaawb\", \"ipl\"]\n          },\n          \"team\": {\n            \"description\": \"Search for the team. Use the team's most-common 3/4 letter alias that would be used in TV broadcasts etc.\",\n            \"type\": [\"string\", \"null\"],\n            \"default\": null\n          },\n          \"opponent\": {\n            \"description\": \"use \\\"opponent\\\" and \\\"team\\\" to search games between the two teams\",\n            \"type\": [\"string\", \"null\"],\n            \"default\": null\n          },\n          \"date_from\": {\n            \"description\": \"in YYYY-MM-DD format\",\n            \"type\": [\"string\", \"null\"],\n            \"format\": \"date\",\n            \"default\": null\n          },\n          \"date_to\": {\n            \"description\": \"in YYYY-MM-DD format\",\n            \"type\": [\"string\", \"null\"],\n            \"format\": \"date\",\n            \"default\": null\n          },\n          \"num_games\": {\n            \"description\": \"Num Games\",\n            \"type\": [\"integer\", \"null\"],\n            \"default\": 20\n          },\n          \"locale\": {\n            \"description\": \"Locale\",\n            \"type\": [\"string\", \"null\"],\n            \"default\": null\n          }\n        },\n        \"required\": [\"tool\", \"fn\", \"league\"]\n      }\n    },\n    \"finance\": {\n      \"description\": \"look up prices for a given list of stock symbols\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ticker\": {\n            \"description\": \"Ticker\",\n            \"type\": \"string\"\n          },\n          \"type\": {\n            \"description\": \"Type\",\n            \"type\": \"string\",\n            \"enum\": [\"equity\", \"fund\", \"crypto\", \"index\"]\n          },\n          \"market\": {\n            \"description\": \"ISO 3166 3-letter Country Code, or \\\"OTC\\\" for Over-the-Counter markets, or \\\"\\\" for Cryptocurrency\",\n            \"type\": [\"string\", \"null\"],\n            \"default\": null\n          }\n        },\n        \"required\": [\"ticker\", \"type\"]\n      }\n    },\n    \"weather\": {\n      \"description\": \"look up weather for a given list of locations\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"location\": {\n            \"description\": \"location in \\\"Country, Area, City\\\" format\",\n            \"type\": \"string\"\n          },\n          \"start\": {\n            \"description\": \"start date in YYYY-MM-DD format. default is today\",\n            \"type\": [\"string\", \"null\"],\n            \"default\": null\n          },\n          \"duration\": {\n            \"description\": \"number of days. default is 7\",\n            \"type\": [\"integer\", \"null\"],\n            \"default\": null\n          }\n        },\n        \"required\": [\"location\"]\n      }\n    },\n    \"calculator\": {\n      \"description\": \"do basic calculations with a calculator\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"expression\": {\n            \"description\": \"Expression\",\n            \"type\": \"string\"\n          },\n          \"prefix\": {\n            \"description\": \"Prefix\",\n            \"type\": \"string\"\n          },\n          \"suffix\": {\n            \"description\": \"Suffix\",\n            \"type\": \"string\"\n          }\n        },\n        \"required\": [\"expression\", \"prefix\", \"suffix\"]\n      }\n    },\n    \"time\": {\n      \"description\": \"get time for the given list of UTC offsets\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"utc_offset\": {\n            \"description\": \"UTC offset formatted like '+03:00'\",\n            \"type\": \"string\"\n          }\n        },\n        \"required\": [\"utc_offset\"]\n      }\n    },\n    \"response_length\": {\n      \"description\": \"the length of the response to be returned\",\n      \"type\": [\"string\", \"null\"],\n      \"enum\": [\"short\", \"medium\", \"long\", null],\n      \"default\": \"medium\"\n    },\n    \"search_query\": {\n      \"description\": \"query internet search engine for a given list of queries\",\n      \"type\": [\"array\", \"null\"],\n      \"default\": null,\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"q\": {\n            \"description\": \"search query\",\n            \"type\": \"string\"\n          },\n          \"recency\": {\n            \"description\": \"whether to filter by recency (response would be within this number of recent days)\",\n            \"type\": [\"integer\", \"null\"],\n            \"minimum\": 0,\n            \"default\": null\n          },\n          \"domains\": {\n            \"description\": \"whether to filter by a specific list of domains\",\n            \"type\": [\"array\", \"null\"],\n            \"items\": {\n              \"type\": \"string\"\n            },\n            \"default\": null\n          }\n        },\n        \"required\": [\"q\"]\n      }\n    }\n  },\n  \"required\": []\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "low",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "none",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4553,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 4413
+    },
+    "output_tokens": 2102,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 6655
+  },
+  "user": null,
+  "metadata": {}
+}

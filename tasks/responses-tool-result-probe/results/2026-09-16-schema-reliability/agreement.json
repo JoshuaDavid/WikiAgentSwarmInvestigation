@@ -1,0 +1,282 @@
+{
+  "attempted": 5,
+  "valid_reports": 5,
+  "named_field_paths": 45,
+  "top_level_fields": [
+    "open",
+    "click",
+    "find",
+    "screenshot",
+    "image_query",
+    "sports",
+    "finance",
+    "weather",
+    "calculator",
+    "time",
+    "response_length",
+    "search_query"
+  ],
+  "whole_schema": {
+    "exact_json": {
+      "agreeing_pairs": 0,
+      "total_pairs": 10,
+      "fraction": 0.0
+    },
+    "normalized_constraints": {
+      "agreeing_pairs": 1,
+      "total_pairs": 10,
+      "fraction": 0.1
+    },
+    "top_level_field_sets": {
+      "agreeing_pairs": 10,
+      "total_pairs": 10,
+      "fraction": 1.0
+    },
+    "all_named_field_sets": {
+      "agreeing_pairs": 10,
+      "total_pairs": 10,
+      "fraction": 1.0
+    },
+    "normalized_variant_sizes": [
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "field_metrics": {
+    "type": {
+      "agreeing_pairs": 446,
+      "total_pairs": 450,
+      "fraction": 0.9911111111111112,
+      "unanimous_fields": 44,
+      "fields": 45
+    },
+    "required": {
+      "agreeing_pairs": 450,
+      "total_pairs": 450,
+      "fraction": 1.0,
+      "unanimous_fields": 45,
+      "fields": 45
+    },
+    "enum": {
+      "agreeing_pairs": 446,
+      "total_pairs": 450,
+      "fraction": 0.9911111111111112,
+      "unanimous_fields": 44,
+      "fields": 45
+    },
+    "default": {
+      "agreeing_pairs": 450,
+      "total_pairs": 450,
+      "fraction": 1.0,
+      "unanimous_fields": 45,
+      "fields": 45
+    },
+    "constraints": {
+      "agreeing_pairs": 438,
+      "total_pairs": 450,
+      "fraction": 0.9733333333333334,
+      "unanimous_fields": 42,
+      "fields": 45
+    },
+    "item_type": {
+      "agreeing_pairs": 450,
+      "total_pairs": 450,
+      "fraction": 1.0,
+      "unanimous_fields": 45,
+      "fields": 45
+    }
+  },
+  "differences": [
+    {
+      "path": "response_length",
+      "facet": "type",
+      "variants": [
+        {
+          "value": [
+            "string"
+          ],
+          "reports": [
+            "sample-01",
+            "sample-03",
+            "sample-04",
+            "sample-05"
+          ]
+        },
+        {
+          "value": [
+            "null",
+            "string"
+          ],
+          "reports": [
+            "sample-02"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "response_length",
+      "facet": "enum",
+      "variants": [
+        {
+          "value": [
+            "long",
+            "medium",
+            "short"
+          ],
+          "reports": [
+            "sample-01",
+            "sample-03",
+            "sample-04",
+            "sample-05"
+          ]
+        },
+        {
+          "value": [
+            "long",
+            "medium",
+            "short",
+            null
+          ],
+          "reports": [
+            "sample-02"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "image_query[].recency",
+      "facet": "constraints",
+      "variants": [
+        {
+          "value": {},
+          "reports": [
+            "sample-01",
+            "sample-02",
+            "sample-03",
+            "sample-05"
+          ]
+        },
+        {
+          "value": {
+            "minimum": 0
+          },
+          "reports": [
+            "sample-04"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sports[].date_from",
+      "facet": "constraints",
+      "variants": [
+        {
+          "value": {},
+          "reports": [
+            "sample-01"
+          ]
+        },
+        {
+          "value": {
+            "format": "date"
+          },
+          "reports": [
+            "sample-02",
+            "sample-03",
+            "sample-04",
+            "sample-05"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "sports[].date_to",
+      "facet": "constraints",
+      "variants": [
+        {
+          "value": {},
+          "reports": [
+            "sample-01"
+          ]
+        },
+        {
+          "value": {
+            "format": "date"
+          },
+          "reports": [
+            "sample-02",
+            "sample-03",
+            "sample-04",
+            "sample-05"
+          ]
+        }
+      ]
+    }
+  ],
+  "pair_table": [
+    {
+      "a": "sample-01",
+      "b": "sample-02",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-01",
+      "b": "sample-03",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-01",
+      "b": "sample-04",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-01",
+      "b": "sample-05",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-02",
+      "b": "sample-03",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-02",
+      "b": "sample-04",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-02",
+      "b": "sample-05",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-03",
+      "b": "sample-04",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    },
+    {
+      "a": "sample-03",
+      "b": "sample-05",
+      "exact_json_equal": false,
+      "normalized_equal": true
+    },
+    {
+      "a": "sample-04",
+      "b": "sample-05",
+      "exact_json_equal": false,
+      "normalized_equal": false
+    }
+  ],
+  "metric": "Raw mean pairwise agreement; not chance-corrected kappa",
+  "limitation": "Five fresh samples of one model/prompt measure repeatability, not correctness or independent expert corroboration"
+}
