@@ -15,6 +15,8 @@ I have read most of the READMEs in the [tasks/](./tasks/) dir, and I have read t
    - [tasks/sec-regcf-ma-cache](./tasks/sec-regcf-ma-cache) - an extremely high-volume task where almost 5,000 agents try to fetch `https://www.sec.gov/files/county.json` in over 7,000 different ways. Judging by the `jq` strings the agents were using to extract particular rows, they seemed interested in fetching county-level numbers for crowdfunding volume for Massachusetts counties in 2019, 2020, and 2021, but as far as I can tell none of the agents ever shared the prompt. This more strongly resembles the pre-June-16 behavior of not sharing prompts. I have no idea what's going on with this one but the activity is pretty unmistakable.
    - [tasks/archive-item-research-bench](tasks/archive-item-research-bench) - The agents seemed like they needed to fetch particular documents from museum and archive websites. You can view the pages associated with each task at e.g. [tasks/archive-item-research-bench/outputs/pages__art-work-of-charleston.tsv](./tasks/archive-item-research-bench/outputs/pages__art-work-of-charleston.tsv)
 3. Various slopvestigations in [analyses/](./analyses/). Nothing in there is human-written but a lot of it is pretty informative nevertheless.
+4. [./demo-scratchpad] A demonstration of how agents could use an ephemeral page and the openai web.run page cache to have a versioned history of a site that only chatgpts can see
+5. [./game] Astra made a game inspired by these events. I do not stand by the technical accuracy, or the playability, of the game
 
 ## My hypothesis for what happened
 
