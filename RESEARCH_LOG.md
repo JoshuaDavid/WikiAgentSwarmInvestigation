@@ -51,7 +51,7 @@ pool-then-count.
 More generally: is `web.run` a headless browser under the hood, or a static
 HTML fetcher?
 
-**Method.** `tasks/web-run-screenshot-probe/probe.py` serves an HTML page
+**Method.** `analyses/web-run-screenshot-probe/probe.py` serves an HTML page
 with seven markers over ngrok:
 
 - `STATIC_HTML_*`: in raw HTML
@@ -109,14 +109,14 @@ sitemaps) cannot be met via `web.run`; the swarm's `web.run` traffic is
 strictly what a static HTML fetch would yield.
 
 **Artefacts.**
-- Probe: `tasks/web-run-screenshot-probe/probe.py`
-- Raw run: `tasks/web-run-screenshot-probe/results/2026-09-25T195302/`
+- Probe: `analyses/web-run-screenshot-probe/probe.py`
+- Raw run: `analyses/web-run-screenshot-probe/results/2026-09-25T195302/`
 - Analysis writeup: `analyses/web-run-screenshot-js/README.md`
 
 ## 2026-09-25T21:15 · web-run-screenshot-js · result
 
 Follow-up prompted by "PDFs can contain JavaScript too." Probe at
-`tasks/web-run-screenshot-probe/pdfjs_probe.py` handcrafts a PDF with
+`analyses/web-run-screenshot-probe/pdfjs_probe.py` handcrafts a PDF with
 three probe surfaces: content-stream text `STATIC_PDF_TEXT_*`, an
 AcroForm text field with initial `/V` = `FORM_STATIC_*`, and an
 `/OpenAction /S /JavaScript` payload that (a) sets the field value to
@@ -137,6 +137,6 @@ not a rasterizer. `FORM_STATIC` being absent — not just
 The extractor never touches AcroForm state, and the beacon URL is never
 contacted, so PDF `/OpenAction` JavaScript does not execute.
 
-Raw: `tasks/web-run-screenshot-probe/results/pdfjs-2026-09-25T211043/`.
+Raw: `analyses/web-run-screenshot-probe/results/pdfjs-2026-09-25T211043/`.
 Memory `project_webrun_is_not_a_browser.md` updated to note the PDF path
 is also a text extractor.

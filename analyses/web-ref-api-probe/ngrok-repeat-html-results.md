@@ -63,7 +63,7 @@ Requires Python 3, configured ngrok, and `OPENAI_WEB_SEARCH_API_KEY` in the
 environment. From the repository root:
 
 ```bash
-python3 tasks/web-ref-api-probe/ngrok-repeat-binary-probe.py \
+python3 analyses/web-ref-api-probe/ngrok-repeat-binary-probe.py \
   --response-kind html \
   --out "/tmp/ngrok-repeat-html-$(date +%s)"
 ```

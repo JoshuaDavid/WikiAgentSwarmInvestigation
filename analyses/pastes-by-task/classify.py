@@ -200,7 +200,7 @@ def match_shortener_bench(body: str, title: str) -> bool:
 # Chaff on swarm-active hosts is not chaff; it's an unknown swarm pattern.
 # Restrict the chaff catch to hosts where paste-sites-classify's audit
 # (`analyses/paste-sites-classify/hosts_summary.md`) found no or near-zero
-# swarm traffic — the audit of tasks/host-chaff-untitled surfaced that
+# swarm traffic — the audit of analyses/host-chaff-untitled surfaced that
 # 20 of 30 `Bez tytułu` pastes on pastebin-k4be are ConvFinQA / SEC 10-K
 # / OWID swarm content, not chaff. Gating on source keeps those out.
 NONSWARM_CHAFF_HOSTS = {

@@ -78,11 +78,11 @@ are saved in the same directory. The API key was checked absent from saved
 collection artifacts.
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python3 tasks/responses-tool-result-probe/schema_reliability.py \
+PYTHONDONTWRITEBYTECODE=1 python3 analyses/responses-tool-result-probe/schema_reliability.py \
   --api-key-file /path/to/authorized-key.txt \
-  --request tasks/responses-tool-result-probe/results/2026-09-16-native-schema-text/01-native-schema-candidate.request.json \
+  --request analyses/responses-tool-result-probe/results/2026-09-16-native-schema-text/01-native-schema-candidate.request.json \
   --samples 5 --out /tmp/schema-reliability
 
-PYTHONDONTWRITEBYTECODE=1 python3 tasks/responses-tool-result-probe/analyze_schema_reliability.py \
+PYTHONDONTWRITEBYTECODE=1 python3 analyses/responses-tool-result-probe/analyze_schema_reliability.py \
   /tmp/schema-reliability
 ```

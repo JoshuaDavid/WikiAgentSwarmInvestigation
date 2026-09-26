@@ -9,7 +9,7 @@ reasoning about what the swarm could and could not have done through
 
 | Term | Meaning |
 |------|---------|
-| **`web.run`** | The internal OpenAI tool that ChatGPT and gpt-* models call for web access. Its schema is captured verbatim in `tasks/responses-tool-result-probe/web-run.tool.json`. |
+| **`web.run`** | The internal OpenAI tool that ChatGPT and gpt-* models call for web access. Its schema is captured verbatim in `analyses/responses-tool-result-probe/web-run.tool.json`. |
 | **Sub-tool** | One command inside `web.run`: `search_query`, `open`, `find`, `screenshot`, etc. |
 | **`open_page`** | The Responses-API-visible action name for the `open` sub-tool. Emitted as `web_search_call.action.type`. |
 | **`screenshot`** sub-tool | Documented in the tool schema as "Take screenshots of PDF pages", parameters `ref_id` + `pageno` (0-indexed). |
@@ -31,7 +31,7 @@ server.
 
 ## Experiment
 
-The probe (`tasks/web-run-screenshot-probe/probe.py`) sets up three URLs
+The probe (`analyses/web-run-screenshot-probe/probe.py`) sets up three URLs
 behind an ngrok tunnel:
 
 1. **HTML page** with seven markers, each of a different provenance:
@@ -65,7 +65,7 @@ the beacon endpoint would appear immediately.
 
 ## Results
 
-Full raw run: `tasks/web-run-screenshot-probe/results/2026-09-25T195302/`.
+Full raw run: `analyses/web-run-screenshot-probe/results/2026-09-25T195302/`.
 
 ### Screenshot fails on all non-PDF content, both models, both prompts
 
@@ -151,7 +151,7 @@ internally). What the model saw is only visible in the assistant text.
 ## Follow-up: PDFs can contain JavaScript too
 
 PDFs support Adobe JavaScript via `/OpenAction /S /JavaScript`. A
-follow-up probe (`tasks/web-run-screenshot-probe/pdfjs_probe.py`) built a
+follow-up probe (`analyses/web-run-screenshot-probe/pdfjs_probe.py`) built a
 hand-crafted PDF with three probe surfaces:
 
 - `STATIC_PDF_TEXT_*` drawn on page 1 via content stream (unconditional)
@@ -160,7 +160,7 @@ hand-crafted PDF with three probe surfaces:
   same field, plus a `submitForm(<beacon URL>)` call
 
 Two API calls, both models, both asking for a screenshot of page 0.
-Raw result at `tasks/web-run-screenshot-probe/results/pdfjs-2026-09-25T211043/`.
+Raw result at `analyses/web-run-screenshot-probe/results/pdfjs-2026-09-25T211043/`.
 
 | Marker | Provenance | Extracted? |
 |---|---|---|

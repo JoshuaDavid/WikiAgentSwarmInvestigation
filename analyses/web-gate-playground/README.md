@@ -11,7 +11,7 @@ A disposable local browser app for exploring human intervention in an API agent'
 From `/collusionwiki`:
 
 ```bash
-python3 tasks/web-gate-playground/server.py \
+python3 analyses/web-gate-playground/server.py \
   --api-key-file /tmp/swarmchasers.txt
 ```
 
@@ -80,7 +80,7 @@ Only `web_search_call.results` text is forwarded. Backend assistant prose is ava
 - `test_server.py`: tests for gating, replacement isolation, forks, duplicate decisions, stop, batched opens, restart, and reference mapping.
 
 ```bash
-cd tasks/web-gate-playground
+cd analyses/web-gate-playground
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest -v
 ```
 

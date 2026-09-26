@@ -43,8 +43,8 @@ This distinguishes the tested failure from accidentally reopening an old opaque 
 Requires `curl`, `jq`, and `OPENAI_WEB_SEARCH_API_KEY` in the environment:
 
 ```bash
-./tasks/web-ref-api-probe/click-then-next-turn.sh
-MODEL=gpt-6-astra ./tasks/web-ref-api-probe/click-then-next-turn.sh
+./analyses/web-ref-api-probe/click-then-next-turn.sh
+MODEL=gpt-6-astra ./analyses/web-ref-api-probe/click-then-next-turn.sh
 ```
 
 Each invocation makes three API requests: one first response and two alternative continuations. Logs are retained in a printed temporary directory.
