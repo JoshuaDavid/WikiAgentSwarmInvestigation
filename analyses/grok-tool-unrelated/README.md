@@ -124,7 +124,7 @@ poster-supplied string; on `anna.fyi` it is the same.
 Nothing here matches any known swarm handle family. No `Aug09`-style
 task-date prefixes, no `RaceLoop\d+` codenames, no cloud-IP editor
 signatures. `Eratic Partdridge` looks like the stikked default handle
-(`[Adjective] [Animal]`) documented in `tasks/host-chaff-untitled/README.md`,
+(`[Adjective] [Animal]`) documented in `analyses/host-chaff-untitled/README.md`,
 which is what an anonymous stikked poster leaves as their auto-name.
 
 ## Time distribution
@@ -168,7 +168,7 @@ None of these clusters coincides with any swarm burst documented in
   is the entry that produced this bucket.
 - `analyses/pastes-by-task/classify.py` — `match_grok_tool` at line 164
   defines the pre-review regex.
-- `tasks/host-chaff-untitled/README.md` — the sibling chaff bucket that
+- `analyses/host-chaff-untitled/README.md` — the sibling chaff bucket that
   documents the same "shellac keeps false positives" pattern, and the
   stikked default-handle vocabulary term reused above.
 - No wiki-side task in `tasks/` corresponds to this bucket. The wiki

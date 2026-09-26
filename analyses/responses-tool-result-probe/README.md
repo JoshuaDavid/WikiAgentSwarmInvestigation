@@ -73,7 +73,7 @@ model as supplied; it would not establish that an intervention is undetectable.
 Run from the repository root, choosing a new output directory:
 
 ```bash
-python3 tasks/responses-tool-result-probe/probe.py \
+python3 analyses/responses-tool-result-probe/probe.py \
   --api-key-file /path/to/authorized-key.txt \
   --out /tmp/responses-tool-result-probe
 ```
@@ -93,7 +93,7 @@ Responses request. The original content is taken directly from the successful
 native web request, not reconstructed from the native assistant's answer.
 
 ```bash
-python3 tasks/responses-tool-result-probe/function_probe.py \
+python3 analyses/responses-tool-result-probe/function_probe.py \
   --api-key-file /path/to/authorized-key.txt \
   --native-result /tmp/responses-tool-result-probe/01-original.response.json \
   --out /tmp/responses-function-control

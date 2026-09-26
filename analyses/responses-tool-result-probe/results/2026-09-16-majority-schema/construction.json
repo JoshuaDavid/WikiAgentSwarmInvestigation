@@ -1,6 +1,6 @@
 {
-  "base": "tasks/responses-tool-result-probe/results/2026-09-16-native-schema-text/candidate-parameters.json",
-  "votes": "tasks/responses-tool-result-probe/results/2026-09-16-luna-nullability/agreement.json",
+  "base": "analyses/responses-tool-result-probe/results/2026-09-16-native-schema-text/candidate-parameters.json",
+  "votes": "analyses/responses-tool-result-probe/results/2026-09-16-luna-nullability/agreement.json",
   "fields": 45,
   "decisions": {
     "open": {

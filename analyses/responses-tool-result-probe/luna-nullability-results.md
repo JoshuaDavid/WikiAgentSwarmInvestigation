@@ -88,8 +88,8 @@ IDs were verified as `gpt-5.6-luna`, and saved JSON artifacts were checked for
 accidental credential inclusion. Total usage was 63,040 tokens across ten calls.
 
 ```bash
-PYTHONDONTWRITEBYTECODE=1 python3 tasks/responses-tool-result-probe/nullability_probe.py \
+PYTHONDONTWRITEBYTECODE=1 python3 analyses/responses-tool-result-probe/nullability_probe.py \
   --api-key-file /path/to/authorized-key.txt \
-  --field-records tasks/responses-tool-result-probe/results/2026-09-16-schema-reliability/field-records.json \
+  --field-records analyses/responses-tool-result-probe/results/2026-09-16-schema-reliability/field-records.json \
   --samples 10 --out /tmp/luna-nullability
 ```

@@ -84,13 +84,13 @@ reserved-schema rejections, and one JSON-mode compatibility rejection.
 ## Reproduce
 
 ```bash
-python3 tasks/responses-tool-result-probe/build_web_tool.py
+python3 analyses/responses-tool-result-probe/build_web_tool.py
 
-PYTHONDONTWRITEBYTECODE=1 python3 tasks/responses-tool-result-probe/namespace_probe.py \
+PYTHONDONTWRITEBYTECODE=1 python3 analyses/responses-tool-result-probe/namespace_probe.py \
   --api-key-file /path/to/authorized-key.txt \
   --out /tmp/web-namespace-check
 
-PYTHONDONTWRITEBYTECODE=1 python3 tasks/responses-tool-result-probe/namespace_probe.py \
+PYTHONDONTWRITEBYTECODE=1 python3 analyses/responses-tool-result-probe/namespace_probe.py \
   --namespace research_web \
   --api-key-file /path/to/authorized-key.txt \
   --out /tmp/web-namespace-control

@@ -79,7 +79,7 @@ configured ngrok, and `OPENAI_WEB_SEARCH_API_KEY` in the environment. It creates
 a new output directory and stops its own server and ngrok process on completion.
 
 ```bash
-python3 tasks/web-ref-api-probe/ngrok-blind-get-probe.py \
+python3 analyses/web-ref-api-probe/ngrok-blind-get-probe.py \
   --out "/tmp/ngrok-blind-get-$(date +%s)"
 ```
 
