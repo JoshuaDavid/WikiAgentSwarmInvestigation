@@ -24,18 +24,18 @@ count and table below with `python3 extract_evidence.py`.
 Define each term once. Every finding and per-instance file uses the same
 term for the same concept.
 
-| Term | Definition |
-|---|---|
-| **Agent** | The reinforcement-learning system playing the assistant role in the chat. |
-| **Scaffold** | The RL environment. It hosts the agent and dispatches the eval prompt. |
-| **Target document** | The single scanned document one episode is about. The target is different in every instance. |
-| **Instance** | One episode of the bench, defined by its target document. Seven instances appear in the corpus. Each is one row in the instance table below. |
-| **Burst** | The contiguous wall-clock window in which almost all revisions for one instance land. |
-| **Institution** | The archive holding the target document. Six institutions across seven instances. |
-| **Access-hostile target** | A target whose canonical URL responds with something the agent cannot use directly: image-only IIIF payloads, PDF blobs, CORS-refusing JSON, or expired-token PDFs. Every target in this bench is access-hostile. |
-| **Proxy toolkit** | The recurring set of public third-party services agents chain to reach the target. See [Finding 03](findings/03-proxy-toolkit.md). |
-| **Wiki cache** | A wiki page whose body is a list of URLs that resolve to the target document through different proxy chains. |
-| **Cohort** | One agent instance running one episode. As with fast-follow, each cohort self-assigns a screen name; multiple cohorts appear per instance. |
+| Term | Definition | Examples |
+|---|---|---|
+| **Agent** | The reinforcement-learning system playing the assistant role in the chat. | [ArchiveResearchHelperCharleston](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1), [Agent0ResearcherCharl](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-10) |
+| **Scaffold** | The RL environment. It hosts the agent and dispatches the eval prompt. | n/a (prompts not preserved in the corpus) |
+| **Target document** | The single scanned document one episode is about. The target is different in every instance. | [lcdl:123721 IIIF 217622](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1), [IO_f436a16c](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1) |
+| **Instance** | One episode of the bench, defined by its target document. Seven instances appear in the corpus. Each is one row in the instance table below. | [art-work-of-charleston](https://collusion.wiki/explorer/page/dse~AgentReferencesRspaceCharlPartFourDirectK366#rev-1), [texas-tsl-preservica](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1), [rugby-world](https://collusion.wiki/explorer/page/dse~SandboxHelperRugbyArchiveRefsZ52917#rev-1) |
+| **Burst** | The contiguous wall-clock window in which almost all revisions for one instance land. | [art-work opens 2026-05-28](https://collusion.wiki/explorer/page/dse~AgentReferencesRspaceCharlPartFourDirectK366#rev-1), [patriots-point opens 2026-06-11](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1) |
+| **Institution** | The archive holding the target document. Six institutions across seven instances. | [Historic Charleston / LCDL](https://collusion.wiki/explorer/page/dse~AgentReferencesRspaceCharlPartFourDirectK366#rev-1), [Texas State Library Preservica](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1), [Minnesota Historical Society](https://collusion.wiki/explorer/page/dse~AgentCdmmhs52936DirectSrcY05312026#rev-1) |
+| **Access-hostile target** | A target whose canonical URL responds with something the agent cannot use directly: image-only IIIF payloads, PDF blobs, CORS-refusing JSON, or expired-token PDFs. Every target in this bench is access-hostile. | [IIIF JPEG](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1), [Preservica token PDF](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1) |
+| **Proxy toolkit** | The recurring set of public third-party services agents chain to reach the target. See [Finding 03](findings/03-proxy-toolkit.md). | [Charleston links page](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1), [Texas token page](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1) |
+| **Wiki cache** | A wiki page whose body is a list of URLs that resolve to the target document through different proxy chains. | [AgentCharlestonNewsletterJan1951Links](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1), [AgentTexasPdfTokenPathUniqueAlpha](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1), [ClarkEconomicsNewsletterArchiveSources](https://collusion.wiki/explorer/page/dse~ClarkEconomicsNewsletterArchiveSources#rev-1) |
+| **Cohort** | One agent instance running one episode. As with fast-follow, each cohort self-assigns a screen name; multiple cohorts appear per instance. | [LibraryArchiveResearcherK](https://collusion.wiki/explorer/page/dse~AgentReferencesRspaceCharlPartFourDirectK366#rev-1), [AgentResearchMan](https://collusion.wiki/explorer/page/dse~AgentTexasPdfTokenPathUniqueAlpha#rev-1), [RugbyArchiveResearchHelper](https://collusion.wiki/explorer/page/dse~SandboxHelperRugbyArchiveRefsZ52917#rev-1) |
 
 ## The seven instances
 
@@ -53,7 +53,7 @@ Counts in this table come from
 [`outputs/instance_summary.tsv`](outputs/instance_summary.tsv). Some
 rows include revisions on shared hub pages (`StartSeite`,
 `RecentChanges`) that mention the instance's markers alongside content
-from other tasks. The per-instance pages call these out.
+from other tasks (examples: [StartSeite rev-267](https://collusion.wiki/explorer/page/dse~StartSeite#rev-267), [StartSeite rev-249](https://collusion.wiki/explorer/page/dse~StartSeite#rev-249), [RecentChanges rev-35](https://collusion.wiki/explorer/page/dse~RecentChanges#rev-35)). The per-instance pages call these out.
 
 ## Worked example: patriots-point-jan-1951
 
@@ -72,7 +72,7 @@ Direct fetches from the sandbox fail or return image bytes the agent cannot
 parse. So agents publish wiki pages whose bodies are lists of proxied URLs
 that reach the same content through readable-text intermediaries. The
 canonical exemplar is `dse/AgentCharlestonNewsletterJan1951Links` (10
-revisions across three days). Its body enumerates:
+revisions across three days) (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1), [rev-4](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-4), [rev-10](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-10)). Its body enumerates:
 
 - The direct IIIF manifest and catalog URLs (above).
 - Markdown-conversion proxies: `markdown.new/https://...`, `pure.md/https://...`.
@@ -81,8 +81,8 @@ revisions across three days). Its body enumerates:
 - Free-tier OCR: `cors.bwa.workers.dev/https://api.ocr.space/parse/imageurl?apikey=helloworld&url=<jpeg>`.
 
 The first revision on this page is at 2026-06-11 14:38 UTC by label
-`ArchiveResearchHelperCharleston`. The last relevant revision is at
-2026-06-18 17:35 UTC by label `Agent0ResearcherCharl`. Fifteen distinct
+`ArchiveResearchHelperCharleston` (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1)). The last relevant revision is at
+2026-06-18 17:35 UTC by label `Agent0ResearcherCharl` (examples: [rev-10](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-10)). Fifteen distinct
 labels touched it. No revision on this page contains OCR output or any
 text extracted from the scan. The wiki is a proxy-URL cache, not an answer
 channel. See [Finding 04](findings/04-wiki-is-cache-not-answer-channel.md).
@@ -138,12 +138,12 @@ building infrastructure.
 - Not sec-regcf-ma-cache. The 24 within-body matches for `us-ma-` on
   archive-item pages are all on shared hub pages (`StartSeite`,
   `RecentChanges`) where a regCF revision follows an archive-item
-  revision. Distinct target, distinct fetch pattern. See
+  revision (examples: [AgentDocsPressMeta12116 rev-2](https://collusion.wiki/explorer/page/dse~AgentDocsPressMeta12116#rev-2), [AgentJan1951OCRSourceLinksQX7622ABC rev-2](https://collusion.wiki/explorer/page/dse~AgentJan1951OCRSourceLinksQX7622ABC#rev-2)). Distinct target, distinct fetch pattern. See
   [`outputs/cross_task_signature_overlap.tsv`](outputs/cross_task_signature_overlap.tsv).
 - Not one composite task with multiple documents. The two Charleston
   instances are the strongest candidate for pairing, since they share the
   LCDL server. But they run 14 days apart with disjoint label sets and no
-  cross-instance answer text. See
+  cross-instance answer text (examples: [art-work burst starts 2026-05-28](https://collusion.wiki/explorer/page/dse~AgentReferencesRspaceCharlPartFourDirectK366#rev-1), [patriots-point burst starts 2026-06-11](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-1)). See
   [Finding 05](findings/05-cohorts-are-disjoint.md) and
   [Finding 07](findings/07-instance-topology.md).
 
@@ -160,13 +160,13 @@ building infrastructure.
   `art-work-of-charleston` actually is. It reads as
   "Charleston plate 4, demo, 850801". Agents use it with
   `www.proxymule.com/__PROXY__/https/lcdl.library.cofc.edu/...?demo=<key>`.
-  The key propagates verbatim across disjoint /16s. Verbatim
+  The key propagates verbatim across disjoint /16s (examples: [rev-1 from 20.171/16](https://collusion.wiki/explorer/page/dse~AgentPatriotsPointNewsletterArchiveLinksJan1951ZZ#rev-1), [rev-2 from 20.122/16](https://collusion.wiki/explorer/page/dse~AgentPatriotsPointNewsletterArchiveLinksJan1951ZZ#rev-2)). Verbatim
   propagation is easier to explain if the scaffold prompt supplied it
   than if the swarm discovered it. The corpus does not confirm either
   reading.
 - Whether `rugby-world-march-1995` and `cgsc-hoffman-order-of-battle` are
   full instances or aborted rollouts. Both have four or fewer revisions
-  and no repeat labels.
+  and no repeat labels (examples: [SandboxHelperRugbyArchiveRefsZ52917 rev-1](https://collusion.wiki/explorer/page/dse~SandboxHelperRugbyArchiveRefsZ52917#rev-1), [ArchiveAgentPdfVol16Hoffman rev-1](https://collusion.wiki/explorer/page/dse~ArchiveAgentPdfVol16Hoffman#rev-1), [CgscOfficialHoffmanCitationUnique rev-1](https://collusion.wiki/explorer/page/dse~CgscOfficialHoffmanCitationUnique#rev-1)).
 
 ## Reproducing the evidence
 

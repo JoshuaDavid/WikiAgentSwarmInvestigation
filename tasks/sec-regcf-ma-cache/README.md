@@ -7,9 +7,9 @@ Between 2026-06-18 14:11 UTC and 22:00 UTC (about 7 wall-clock hours), a swarm
 of at least 810 distinct actor labels wrote around 5,000 wiki revisions that
 share one narrow subject: extracting the Massachusetts county rows from the
 US Securities and Exchange Commission's `regCF_county_2019`, `_2020`, and
-`_2021` arrays in `https://www.sec.gov/files/county.json`, expressed in
-"thousands USD" (usd/1000, usually rounded to two decimals), together with
-the corresponding County FIPS mapping and the SEC's rendering JavaScript.
+`_2021` arrays (examples: [1](https://collusion.wiki/explorer/page/dse~AGENTTEST3429XXXX#rev-2), [2](https://collusion.wiki/explorer/page/dse~Agent013OpenSECMDJSPairsUnique#rev-4)) in `https://www.sec.gov/files/county.json` (examples: [RecentChanges](https://collusion.wiki/explorer/page/probier~RecentChanges#rev-40)),
+expressed in "thousands USD" (usd/1000, usually rounded to two decimals) (examples: [Agent0MassPortal991119](https://collusion.wiki/explorer/page/dse~Agent0MassPortal991119#rev-1)), together with
+the corresponding County FIPS mapping and the SEC's rendering JavaScript (examples: [AICountyFreshSmallD](https://collusion.wiki/explorer/page/dse~AICountyFreshSmallD#rev-1)).
 
 The scaffolding markers that define fast-follow-question-bench are absent:
 no `R1`/`R2` round labels, no `Now, do the same for X.` follow-up template,
@@ -18,7 +18,7 @@ addressing between agent handles. The set spans several `page_family`
 labels that the upstream classifier associates with coordination or
 caching (`relay-coordination`, `source-cache-url-list`,
 `loop-chain-infrastructure`) rather than with any labelled fast-follow
-family. See the source-cut evidence in [findings](findings/) and
+family (examples: [OpenAIRegCFMassBridge2001](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge2001#rev-1)). See the source-cut evidence in [findings](findings/) and
 [outputs](outputs/).
 
 **Caveat on `page_family`.** `page_family` is a per-page label from an
@@ -26,7 +26,7 @@ upstream classifier that the exporter joined into `pages.jsonl`. It is
 not per-cohort ground truth. Some counts below (e.g. the `vermont-rent`
 row in [`outputs/regcf_pages_by_family.tsv`](outputs/regcf_pages_by_family.tsv))
 are hub pages that the classifier categorised on a narrow signal that
-does not reflect the mix of unrelated cohorts writing to the same page.
+does not reflect the mix of unrelated cohorts writing to the same page (examples: [StartSeite](https://collusion.wiki/explorer/page/dse~StartSeite#rev-321)).
 See [`agent-logs/prowiki/README.md`](../../agent-logs/prowiki/README.md)
 for the mechanism.
 
@@ -37,18 +37,18 @@ inferred, not proved.
 
 ## Vocabulary
 
-| Term | Definition |
-|---|---|
-| **regCF** | US SEC's Regulation Crowdfunding, an exemption under which small companies raise funds via SEC-registered portals. |
-| **`county.json`** | The public file at `https://www.sec.gov/files/county.json` (mirrored at `https://www.investor.gov/files/county.json`). It backs the SEC's "Funds Raised Through Crowdfunding" map. It contains three per-year arrays: `regCF_county_2019`, `regCF_county_2020`, `regCF_county_2021`, plus `regCF_county_methodology` and `regCF_county_filters` metadata. |
-| **County record** | One object in a per-year array: `{ code: "us-ma-017", usd: 1418140.0, offerings: 10.0 }` (2020 Middlesex). `code` is `us-<state>-<county FIPS>`. `usd` is dollars raised. `offerings` is the count of Regulation CF offerings that reported that county. |
-| **Massachusetts county** | A row with `code` matching `us-ma-<3-digit FIPS>`. Fourteen standard MA counties (001–027, odd only). One out-of-range code (`us-ma-760`) also appears in the 2020 array; the corpus does not explain it. |
-| **Thousands USD** | The units the task appears to expect. The dominant jq idiom is `.usd/1000` (raw) or `((.usd/10)|round)/100` (rounded to 2 decimals). |
-| **Cache-and-cite** | The strategy the task appears to reward. Cache the MA county rows for 2019/2020/2021 in one wiki page, alongside the SEC source URL, then answer from that cache. Distinguished from fast-follow's `prep-and-dispatch` by the absence of a round-based timing scaffold. |
-| **`main.js`** | `https://www.sec.gov/modules/custom/sec_custom_blocks/js/oasb_raising_capital_map/main.js` — the JS that renders the SEC map. Agents fetch it to recover the display-format function (`formatNumber`) and the county-name lookup. `oasb` is the SEC's Office of the Advocate for Small Business Capital Formation. |
-| **`us-ma-all.geo.json`** | `https://code.highcharts.com/mapdata/countries/us/us-ma-all.geo.json` — Highcharts' polygon file for MA counties. Agents fetch it to translate FIPS `001..027` into names `Barnstable..Worcester`. |
-| **jqp** | `https://jqp.vercel.app/api/v0` — a public jq-over-HTTP proxy. The dominant execution vehicle in this cluster. |
-| **Burst** | The 2026-06-18 14:11–22:00 UTC window in which almost all of this activity occurs. Peak hour is 20:00 UTC with about 2,010 revisions. |
+| Term | Definition | Examples |
+|---|---|---|
+| **regCF** | US SEC's Regulation Crowdfunding, an exemption under which small companies raise funds via SEC-registered portals. | [OpenAIRegCFMassBridge3002](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge3002#rev-1), [AgentSECRegCFData](https://collusion.wiki/explorer/page/probier~AgentSECRegCFData#rev-1) |
+| **`county.json`** | The public file at `https://www.sec.gov/files/county.json` (mirrored at `https://www.investor.gov/files/county.json`). It backs the SEC's "Funds Raised Through Crowdfunding" map. It contains three per-year arrays: `regCF_county_2019`, `regCF_county_2020`, `regCF_county_2021`, plus `regCF_county_methodology` and `regCF_county_filters` metadata. | [probier RecentChanges@40](https://collusion.wiki/explorer/page/probier~RecentChanges#rev-40), [SecCountyRawBridge](https://collusion.wiki/explorer/page/fractal~SecCountyRawBridgeFinalF618X#rev-1) |
+| **County record** | One object in a per-year array: `{ code: "us-ma-017", usd: 1418140.0, offerings: 10.0 }` (2020 Middlesex). `code` is `us-<state>-<county FIPS>`. `usd` is dollars raised. `offerings` is the count of Regulation CF offerings that reported that county. | [AgentJoinedFreshGXFB](https://collusion.wiki/explorer/page/dse~AgentJoinedFreshGXFB#rev-1) |
+| **Massachusetts county** | A row with `code` matching `us-ma-<3-digit FIPS>`. Fourteen standard MA counties (001–027, odd only). One out-of-range code (`us-ma-760`) also appears in the 2020 array; the corpus does not explain it. | [Agent0MassMapCustomJune20](https://collusion.wiki/explorer/page/dse~Agent0MassMapCustomJune20#rev-1), [AgentOfficialMdSlices9901](https://collusion.wiki/explorer/page/dse~AgentOfficialMdSlices9901#rev-4) |
+| **Thousands USD** | The units the task appears to expect. The dominant jq idiom is `.usd/1000` (raw) or `((.usd/10)|round)/100` (rounded to 2 decimals). | [Agent013OpenSECMDJSPairsUnique](https://collusion.wiki/explorer/page/dse~Agent013OpenSECMDJSPairsUnique#rev-2), [Agent0MassPortal991119](https://collusion.wiki/explorer/page/dse~Agent0MassPortal991119#rev-1) |
+| **Cache-and-cite** | The strategy the task appears to reward. Cache the MA county rows for 2019/2020/2021 in one wiki page, alongside the SEC source URL, then answer from that cache. Distinguished from fast-follow's `prep-and-dispatch` by the absence of a round-based timing scaffold. | [OpenAIRegCFMassBridge2001](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge2001#rev-1), [OpenAIRegCFMassBridge4001](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge4001#rev-1) |
+| **`main.js`** | `https://www.sec.gov/modules/custom/sec_custom_blocks/js/oasb_raising_capital_map/main.js` — the JS that renders the SEC map. Agents fetch it to recover the display-format function (`formatNumber`) and the county-name lookup. `oasb` is the SEC's Office of the Advocate for Small Business Capital Formation. | [AICountyFreshSmallD](https://collusion.wiki/explorer/page/dse~AICountyFreshSmallD#rev-1), [Agent013OpenSECMDJSPairsUnique](https://collusion.wiki/explorer/page/dse~Agent013OpenSECMDJSPairsUnique#rev-1) |
+| **`us-ma-all.geo.json`** | `https://code.highcharts.com/mapdata/countries/us/us-ma-all.geo.json` — Highcharts' polygon file for MA counties. Agents fetch it to translate FIPS `001..027` into names `Barnstable..Worcester`. | [Agent0FinalMassRefsCountySecJune19X](https://collusion.wiki/explorer/page/dse~Agent0FinalMassRefsCountySecJune19X#rev-1) |
+| **jqp** | `https://jqp.vercel.app/api/v0` — a public jq-over-HTTP proxy. The dominant execution vehicle in this cluster. | [AGENTTEST3429XXXX](https://collusion.wiki/explorer/page/dse~AGENTTEST3429XXXX#rev-2), [AgentCompactFollow120](https://collusion.wiki/explorer/page/dse~AgentCompactFollow120#rev-1) |
+| **Burst** | The 2026-06-18 14:11–22:00 UTC window in which almost all of this activity occurs. Peak hour is 20:00 UTC with about 2,010 revisions. | [probier RecentChanges@40](https://collusion.wiki/explorer/page/probier~RecentChanges#rev-40), [Agent0MassMapCustomJune20](https://collusion.wiki/explorer/page/dse~Agent0MassMapCustomJune20#rev-18) |
 
 ## The best cached answer in the corpus
 
@@ -95,8 +95,8 @@ per-year MA county table in plain text rather than as a jq URL:
 
 The `us-ma-760` row in 2020 is anomalous. Standard MA county FIPS are the
 14 odd numbers 001–027. Every other cached JQ query in the cluster either
-includes it and marks it `us-ma-760` explicitly or excludes it with
-`.code!="us-ma-760"`.
+includes it and marks it `us-ma-760` explicitly (examples: [Agent0MassMapCustomJune20](https://collusion.wiki/explorer/page/dse~Agent0MassMapCustomJune20#rev-1)) or excludes it with
+`.code!="us-ma-760"` (examples: [1](https://collusion.wiki/explorer/page/dse~AgentOfficialMdSlices9901#rev-4), [2](https://collusion.wiki/explorer/page/dse~AgentTempMineLemino4477Q#rev-10)).
 
 ## Findings
 
@@ -110,10 +110,10 @@ includes it and marks it `us-ma-760` explicitly or excludes it with
 
 The naming is unambiguous. Pages carry names like
 `OpenAIRegCFTest` (on `apchem`, `texteditors`, and the sandbox),
-`OpenAIRegCFMassBridge{2001,3002,4001}`, `AgentMassRegCF7470389`,
-`AgentSECRegCFData`, `AgentMASecCitationJun19ZZ`. Labels include
-`AgentAcademicResearchMARegCF`, `AgentMassachusettsResearcherJune19`,
-`CountyResearchHelper`, `CountyAnswerResearcher`.
+`OpenAIRegCFMassBridge{2001,3002,4001}` (examples: [1](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge2001#rev-1), [2](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge3002#rev-1), [3](https://collusion.wiki/explorer/page/dse~OpenAIRegCFMassBridge4001#rev-1)), `AgentMassRegCF7470389` (examples: [AgentMassRegCF7470389](https://collusion.wiki/explorer/page/dse~AgentMassRegCF7470389#rev-1)),
+`AgentSECRegCFData` (examples: [AgentSECRegCFData](https://collusion.wiki/explorer/page/probier~AgentSECRegCFData#rev-1)), `AgentMASecCitationJun19ZZ`. Labels include
+`AgentAcademicResearchMARegCF` (examples: [AgentDirectSecLinksMMQA](https://collusion.wiki/explorer/page/dse~AgentDirectSecLinksMMQA#rev-1)), `AgentMassachusettsResearcherJune19` (examples: [1](https://collusion.wiki/explorer/page/dse~AgentTestLearnPage998877#rev-4), [2](https://collusion.wiki/explorer/page/dse~SECJsonBridgeLive24592#rev-5)),
+`CountyResearchHelper` (examples: [AgentMassInvestorX81](https://collusion.wiki/explorer/page/dse~AgentMassInvestorX81#rev-2)), `CountyAnswerResearcher` (examples: [JQPThousandsMAJune619CC](https://collusion.wiki/explorer/page/fractal~JQPThousandsMAJune619CC#rev-1)).
 
 Combining that with the concrete cached table above, the most consistent
 interpretation is:
@@ -123,8 +123,8 @@ interpretation is:
   county for 2019, 2020, and 2021 — likely a table with the two columns
   the SEC file itself provides: `offerings` count and `usd` raised.
 - The reporting unit is thousands USD rounded to two decimals (`usd/1000`
-  with `((.usd/10)|round)/100`).
-- The source is `https://www.sec.gov/files/county.json`.
+  with `((.usd/10)|round)/100`) (examples: [Agent013OpenSECMDJSPairsUnique](https://collusion.wiki/explorer/page/dse~Agent013OpenSECMDJSPairsUnique#rev-2)).
+- The source is `https://www.sec.gov/files/county.json` (examples: [SecCountyRawBridgeFinalF618X](https://collusion.wiki/explorer/page/fractal~SecCountyRawBridgeFinalF618X#rev-1)).
 
 Whether the prompt is a single-shot research question or a scaffolded run
 with multiple rounds is not decidable from the corpus. See
@@ -139,7 +139,7 @@ probes across the 1M+ tokens of `agent-logs/prowiki/`, `dse/`, `fractal/`,
 `apchem/`, and `texteditors/` corroborate:
 
 - **No trigger appears in the 24 hours before the burst.** The first
-  regCF revision is `probier~RecentChanges@40` at 2026-06-18T14:10:56Z,
+  regCF revision is `probier~RecentChanges@40` at 2026-06-18T14:10:56Z (examples: [RecentChanges@40](https://collusion.wiki/explorer/page/probier~RecentChanges#rev-40)),
   an unlabeled edit from IP prefix `20.168.*` that prepends
   `SEC County map data: https://www.sec.gov/files/county.json` to the
   sandbox's shared URL cheatsheet. No coordinating message precedes it.
@@ -149,12 +149,12 @@ probes across the 1M+ tokens of `agent-logs/prowiki/`, `dse/`, `fractal/`,
   all six wikis (37,756 revisions), exactly one revision caches the
   actual numeric answer as plain text (`fractal~SecCountyDataExtractH619Table@1`,
   the pipe-delimited table quoted above). Every other regCF revision is
-  URL-and-jq caching.
+  URL-and-jq caching (examples: [1](https://collusion.wiki/explorer/page/dse~Agent0MassPortal991119#rev-1), [2](https://collusion.wiki/explorer/page/dse~AgentCompactFollow120#rev-1)).
 - **No substantive second dataset co-occurs.** The non-obvious URLs that
   appear on the same pages as `us-ma-` queries — `vanderbi.lt/maallraw260618`
-  (agent-run mirror of `county.json`), `webcrawlerapi.com/api/playground/content`,
+  (agent-run mirror of `county.json`) (examples: [AgentCharlestonNewsletterJan1951Links](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-15)), `webcrawlerapi.com/api/playground/content` (examples: [AgentNextJoinedJuneBA](https://collusion.wiki/explorer/page/dse~AgentNextJoinedJuneBA#rev-16)),
   `api.census.gov/data/2020/dec/pl?for=county:*&in=state:25` (MA county name
-  lookup) — are all transport/mirror layers or FIPS-name resolvers. When
+  lookup) (examples: [AgentBridge444078](https://collusion.wiki/explorer/page/dse~AgentBridge444078#rev-3)) — are all transport/mirror layers or FIPS-name resolvers. When
   a DataUSA cube or OMB SF-133 URL shows up on a regCF page, the surrounding
   narrative belongs to a different unrelated task that shared the page as
   a scratchpad.
@@ -163,10 +163,10 @@ probes across the 1M+ tokens of `agent-logs/prowiki/`, `dse/`, `fractal/`,
   (81 hits), `citation` (66), `helper` (53), `cache` (47), `readable` (39),
   `reader` (12). But `human`, `audience`, `consumer`, `publish`, `article`,
   `summary`, `narrative`, `writer` are zero-hit. Handles like
-  `AgentSecDirectWriter999`, `CountyAnswerResearcher`, `BridgeEditor` are
+  `AgentSecDirectWriter999` (examples: [StartSeite@349](https://collusion.wiki/explorer/page/dse~StartSeite#rev-349)), `CountyAnswerResearcher` (examples: [JQPThousandsMAJune619CC](https://collusion.wiki/explorer/page/fractal~JQPThousandsMAJune619CC#rev-1)), `BridgeEditor` (examples: [Agent13SecSmallEssential](https://collusion.wiki/explorer/page/dse~Agent13SecSmallEssential#rev-6)) are
   self-assigned agent screen names, not the identity of a downstream reader.
   `reader` and `readable` refer to `r.jina.ai`-style HTML-to-markdown
-  reader-proxy URLs used to bypass CORS.
+  reader-proxy URLs used to bypass CORS (examples: [Agent0MassMapCustomJune20@16](https://collusion.wiki/explorer/page/dse~Agent0MassMapCustomJune20#rev-16)).
 
 Given all four negatives, the best-supported reading is:
 
@@ -179,9 +179,9 @@ with null for missing counties. The RL grader consumes the answer inline.
 **The wiki blowup is access-and-cache coordination, not answer collaboration.**
 `sec.gov` is unreachable or rate-limited from the sandbox environment
 that most cohorts run in, so agents converge on a shared pool of
-already-existing no-login third-party services (`allorigins.hexlet.app`,
-`r.jina.ai`, `md.succ.ai`, `jqp.vercel.app`, a `vanderbi.lt` short URL
-that resolves to the SEC file, `webcrawlerapi.com/api/playground`). None
+already-existing no-login third-party services (`allorigins.hexlet.app` (examples: [AGENTTEST3429XXXX](https://collusion.wiki/explorer/page/dse~AGENTTEST3429XXXX#rev-2)),
+`r.jina.ai`, `md.succ.ai` (examples: [Agent013OpenSECMDJSPairsUnique](https://collusion.wiki/explorer/page/dse~Agent013OpenSECMDJSPairsUnique#rev-1)), `jqp.vercel.app` (examples: [Agent0MassPortal991119](https://collusion.wiki/explorer/page/dse~Agent0MassPortal991119#rev-1)), a `vanderbi.lt` short URL
+that resolves to the SEC file (examples: [Agent0ClarkTest589](https://collusion.wiki/explorer/page/dse~Agent0ClarkTest589#rev-2)), `webcrawlerapi.com/api/playground` (examples: [AgentZEROFormattedMass619QXZ](https://collusion.wiki/explorer/page/dse~AgentZEROFormattedMass619QXZ#rev-2))). None
 of these are agent-built. See
 [../../analyses/emergence/README.md](../../analyses/emergence/README.md)
 for the reasoning about why the swarm never builds its own infrastructure.
@@ -190,7 +190,7 @@ FIPS-to-name lookup, mass-caching URL variants on the wiki is genuinely
 useful — the next cohort's agent can pattern-match a working proxy URL
 from `RecentChanges` and skip the trial-and-error. This also explains why
 `regcf.json` is probed with the same jq expressions as `county.json`
-(1,135 revisions mention both together, 98.4% co-occurrence): agents treat
+(1,135 revisions mention both together, 98.4% co-occurrence) (examples: [Agent0JSLinksJuneDeep5829](https://collusion.wiki/explorer/page/dse~Agent0JSLinksJuneDeep5829#rev-1)): agents treat
 it as an alias-fallback URL, not a distinct dataset.
 
 For the concrete set of URL patterns used to reach the four data files,
@@ -201,7 +201,7 @@ channel.** The RL grader receives the answer directly from the agent's
 scaffold turn. The wiki is a shared cache and coordination bench, so the
 final table (per county × per year × {offerings, usd}) is submitted
 off-wiki and never enters the corpus, except in one accidental readable
-copy on a `fractal` page.
+copy on a `fractal` page (examples: [SecCountyRawBridgeFinalF618X](https://collusion.wiki/explorer/page/fractal~SecCountyRawBridgeFinalF618X#rev-1)).
 
 ## What this activity is not
 
@@ -228,8 +228,8 @@ copy on a `fractal` page.
 - Whether the swarm is one cohort with many self-assigned handles or many
   independent agents converging on the same source. 293 of 810 labels
   wrote exactly one regCF revision each; the top 10 labels account for
-  1,181 of 5,067 revisions.
-- What exactly `vanderbi.lt/maallraw260618?source=...` is. `vanderbi.lt`
+  1,181 of 5,067 revisions (top labels examples: [AgentRelent](https://collusion.wiki/explorer/page/dse~AgentNextJoinedJuneBA#rev-18), [LinkHelper771](https://collusion.wiki/explorer/page/dse~Agent13SecSmallEssential#rev-9)).
+- What exactly `vanderbi.lt/maallraw260618?source=...` is (examples: [AgentCharlestonNewsletterJan1951Links](https://collusion.wiki/explorer/page/dse~AgentCharlestonNewsletterJan1951Links#rev-15)). `vanderbi.lt`
   is a pre-existing URL shortener at Vanderbilt University; a short path
   registered there resolves to `sec.gov/files/county.json` (and a second
   path to the Highcharts MA polygon file). It is not agent-built

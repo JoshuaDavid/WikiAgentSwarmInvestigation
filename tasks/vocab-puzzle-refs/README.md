@@ -6,7 +6,7 @@ for anyone investigating the incident who wants to know what evidence
 does and does not exist for this activity.
 
 **Stub notice.** The corpus contains exactly one instance across all ten
-wiki exports. There is no cohort, no follow-up traffic, and no addressing
+wiki exports (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1)). There is no cohort, no follow-up traffic, and no addressing
 into or out of the page. Everything below is empirical. No claim is made
 about whether this is an RL task, a probe, or a private agent scratchpad.
 See [Uncertain](#uncertain).
@@ -19,14 +19,14 @@ window). Regenerate every count and quotation below with
 
 ## Vocabulary
 
-| Term | Definition |
-|---|---|
-| **Vocab page** | The single wiki page `dse/AgentVocabPuzzleRefsJun20`. |
-| **RaceLoop label** | An actor handle of shape `RaceLoop\d+`. Three appear in the corpus: `RaceLoop207`, `RaceLoop491`, `RaceLoop603`. |
-| **Vercel CORS proxy** | `https://vercel-cors-proxy.vercel.app/api?url=<encoded>` — a public CORS-bypass proxy. Every vocabulary.com URL on the vocab page is wrapped in this proxy. |
-| **Wordfinder** | `https://fly.wordfinderapi.com/api/search?letters=<letters>` — a public letter-search API returning JSON of matching English words. |
-| **WOTD** | Vocabulary.com's "Word of the Day". The page directly URL-encodes two specific dates: `2023-10-10` and `2023-10-24`, plus the by-month archive JSON for October 2023 and December 2023. |
-| **[Admin1]** | The redacted admin actor in `prowiki`. Same account as `MarkusLude` in the full `dse` export, which is the visible username of the wikiservice.at admin. |
+| Term | Definition | Examples |
+|---|---|---|
+| **Vocab page** | The single wiki page `dse/AgentVocabPuzzleRefsJun20`. | [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1) |
+| **RaceLoop label** | An actor handle of shape `RaceLoop\d+`. Three appear in the corpus: `RaceLoop207`, `RaceLoop491`, `RaceLoop603`. | [RaceLoop207](https://collusion.wiki/explorer/page/dse~AgentMyBridgeZZ#rev-32), [RaceLoop491](https://collusion.wiki/explorer/page/dse~AgentJSFresh#rev-1), [RaceLoop603](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1) |
+| **Vercel CORS proxy** | `https://vercel-cors-proxy.vercel.app/api?url=<encoded>` — a public CORS-bypass proxy. Every vocabulary.com URL on the vocab page is wrapped in this proxy. | [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1) |
+| **Wordfinder** | `https://fly.wordfinderapi.com/api/search?letters=<letters>` — a public letter-search API returning JSON of matching English words. | [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1) |
+| **WOTD** | Vocabulary.com's "Word of the Day". The page directly URL-encodes two specific dates: `2023-10-10` and `2023-10-24`, plus the by-month archive JSON for October 2023 and December 2023. | [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1) |
+| **[Admin1]** | The redacted admin actor in `prowiki`. Same account as `MarkusLude` in the full `dse` export, which is the visible username of the wikiservice.at admin. | [delete](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1) |
 
 ## The page in full
 
@@ -56,7 +56,8 @@ Body encoding: `ascii`.
 A body-substring search for `vocabulary.com`, `wordfinderapi`, `word.tips`,
 `1word.ws`, `word-of-the-day`, and `letters=quasi` across every export that
 ships bodies matches one page in one export:
-`prowiki/dse/AgentVocabPuzzleRefsJun20`. Full breakdown in
+`prowiki/dse/AgentVocabPuzzleRefsJun20` (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1)).
+Full breakdown in
 [`outputs/vocab_url_hits_by_wiki.tsv`](outputs/vocab_url_hits_by_wiki.tsv).
 
 Metadata-only exports (`dse` full, `apchem`, `fractal`, `milkwiki`,
@@ -82,13 +83,14 @@ Every recorded event on the page, from
 | 2026-06-29T21:33:00+01:00 | dse metadata | revision | `MarkusLude` | — | — |
 
 The page existed for 9 days, 5 hours, 34 minutes. No agent revised it, no
-agent recreated it after deletion. `[Admin1]` and `MarkusLude` refer to
+agent recreated it after deletion (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1)).
+`[Admin1]` and `MarkusLude` refer to
 the same human admin account, seen once in the redacted `prowiki` view
 and once in the full `dse` metadata view.
 
 ### 3. The RaceLoop label family
 
-Three `RaceLoop\d+` labels appear in the corpus. Every stored revision is
+Three `RaceLoop\d+` labels appear in the corpus (examples: [RaceLoop207](https://collusion.wiki/explorer/page/dse~AgentMyBridgeZZ#rev-32), [RaceLoop491](https://collusion.wiki/explorer/page/dse~AgentJSFresh#rev-1), [RaceLoop603](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1)). Every stored revision is
 in [`outputs/raceloop_family.tsv`](outputs/raceloop_family.tsv):
 
 | Time | Label | IP /16 | Page | `change_summary` | Body bytes |
@@ -104,8 +106,8 @@ None of the /16s falls in the Azure 20.x range that dominates the
 majority of the swarm.
 
 Save-request counts from `edit_actors.jsonl` exceed stored revision
-counts: `RaceLoop491` = 6 requests / 2 stored; `RaceLoop603` = 3 / 2;
-`RaceLoop207` = 1 / 1.
+counts: `RaceLoop491` = 6 requests / 2 stored (examples: [1](https://collusion.wiki/explorer/page/dse~AgentJSFresh#rev-1), [2](https://collusion.wiki/explorer/page/dse~AgentSlashCountyMoreUnique123#rev-8)); `RaceLoop603` = 3 / 2 (examples: [1](https://collusion.wiki/explorer/page/dse~AgentMyBridgeZZ#rev-34), [2](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1));
+`RaceLoop207` = 1 / 1 (examples: [rev-32](https://collusion.wiki/explorer/page/dse~AgentMyBridgeZZ#rev-32)).
 
 The `analyses/labels/` classifier tags all three as `codename_agent`
 handle-class: no OpenAI branding, no date token, no epoch timestamp,
@@ -125,7 +127,7 @@ records zero edges into or out of this page and zero edges naming any
 
 The one write, taken together with the four counts above, means the
 inter-agent communication pattern for this page is the empty case: **one
-agent writes, no other agent reads, admin deletes**.
+agent writes, no other agent reads, admin deletes** (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1)).
 
 ## What this activity is not
 
@@ -151,7 +153,7 @@ agent writes, no other agent reads, admin deletes**.
   `letters=quasi`) are consistent with the agent looking up two specific
   Vocabulary.com words of the day and cross-checking a `quasi`-prefixed
   candidate with a letter-search API, but the corpus does not preserve
-  the question or the answer.
+  the question or the answer (examples: [rev-1](https://collusion.wiki/explorer/page/dse~AgentVocabPuzzleRefsJun20#rev-1)).
 - Why the label used residential-style rotating /16s rather than the
   Azure range shared by most of the swarm. The `RaceLoop` cohort may
   share infrastructure with a different pool than the mainline actors.
